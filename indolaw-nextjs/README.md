@@ -43,3 +43,11 @@ Second, install Prettier as VS Code extension. Once you have installed it, you c
 ```
 
 If you open up the VS Code User's settings/preferences as UI, search for "Format On Save" and make sure to activate it. Afterward, the file should format automatically once you save it. Now you don’t need to worry about your code formatting anymore, because Prettier takes care of it. You and your team can follow one code format.
+
+## Set up TypeScript
+
+Remember to run 'npm run install' or 'npm run dev' from the indowlaw-nextjs/ directory to install TypeScript.
+
+To migrate from a JS file, .js files should be renamed to .ts, or .tsx if the file contains JSX (https://www.typescriptlang.org/docs/handbook/migrating-from-javascript.html). That's all! VS Code's built in TypeScript support (https://code.visualstudio.com/docs/languages/typescript) will kick in and show you type linting (i.e there will be red squiggly lines everwhere type annotations are missing).
+
+Some examples for converting a base Next.js project to TypeScript: https://nextjs.org/learn/excel/typescript/nextjs-types

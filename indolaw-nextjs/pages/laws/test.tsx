@@ -3,8 +3,13 @@ import html from "remark-html";
 import matter from "gray-matter";
 import fs from "fs";
 import path from "path";
+import { GetStaticProps } from "next";
 
-export default function Test(props) {
+export default function Test(props: {
+  data: {
+    contentHtml: string;
+  };
+}) {
   return (
     <>
       <h1>Test Page for rendering Markdown</h1>
@@ -13,7 +18,7 @@ export default function Test(props) {
   );
 }
 
-export async function getStaticProps() {
+export const getStaticProps: GetStaticProps = async () => {
   const markdownDirectory = "";
   const fullPath = path.join(markdownDirectory, `pre-rendering.md`);
   const fileContents = fs.readFileSync(fullPath, "utf8");
@@ -35,4 +40,4 @@ export async function getStaticProps() {
       },
     },
   };
-}
+};
