@@ -1,5 +1,6 @@
 #from pdfminer.high_level import extract_text, extract_pages
-import re
+#import re
+import json
 
 #text = extract_text('tes3.pdf')
 #toReplace = {'\n': ' ',
@@ -9,24 +10,64 @@ import re
 #
 #for key, value in toReplace.items():
 #    text = text.replace(key, value)
-file = open("tes3.txt")
+file = open("tes.txt")
 text = file.read()
 
 splitted = text.split("\n")
-print(splitted)
 
 law_dict = {}
 buffer = ''
-index_counter = 0
+hie = {"BAB": "",
+        "Bagian": "",
+        "Paragraf": "",
+        "Pasal": ""}
 nest = 1
 
-for content in splitted:
-    if content.find("BAB") != -1:
-        print("HAHA!")
-    elif content.find("Bagian") != -1:
-        print("HEHEHE!")
-    elif content.find("Pasal") != -1 and content.index("Pasal") <= 1:
-        print("HOHO!")
+def detect_if_nest(content):
+    if content[0] == "(" and content[2] == ")":
+        return True
+    elif content[1] == '.':
+        return True
+    else:
+        return False
+
+eol = len(splitted) - 1
+
+for i, content in enumerate(splitted):
+    temp = {}
+    if content.find(". . .") != -1:
+        continue
+    if content.find("BAB") != -1 and i < eol:
+        temp["Judul Bab"] = splitted[i+1]
+        temp["Isi Bab"] = {}
+        law_dict[content] = temp
+        hie["BAB"] = content
+        hie["Bagian"] = ""
+        hie["Paragraf"] = ""
+    elif content.find("Bagian") != -1 and i < eol:
+        temp["Judul Bagian"] = splitted[i+1]
+        temp["Isi Bagian"] = {}
+        law_dict[hie["BAB"]]["Isi Bab"][content] = temp
+        hie["Bagian"] = content
+    elif content.find("Paragraf") != -1 and i < eol:
+        temp["Judul Paragraf"] = splitted[i+1]
+        temp["Isi Paragraf"] = {}
+        law_dict[hie["BAB"]]["Isi Bab"][hie["Bagian"]]["Isi Bagian"][content] = temp
+        hie["Paragraf"] = content
+    elif (content.find("Pasal") != -1 and content.index("Pasal") <= 1) and i < eol:
+        temp["Isi Pasal"] = splitted[i+1]
+        if hie["Bagian"] == "" and hie["Paragraf"] == "":
+            law_dict[hie["BAB"]]["Isi Bab"][content] = temp
+        elif hie["Bagian"] != "" and hie["Paragraf"] == "":
+            law_dict[hie["BAB"]]["Isi Bab"][hie["Bagian"]]["Isi Bagian"][content] = temp
+        else:
+            law_dict[hie["BAB"]]["Isi Bab"][hie["Bagian"]]["Isi Bagian"][hie["Paragraf"]]["Isi Paragraf"][content] = temp
+        hie["Pasal"] = content
+
+print(law_dict)
+
+with open("example.json", "w") as outfile:  
+    json.dump(law_dict, outfile) 
 
 #for char in text:
 #    buffer = buffer + char
@@ -39,20 +80,23 @@ for content in splitted:
 
 #print(dict_test)
     
-# {BAB III: JUDUL,
-#  BAGIAN: JUDUL BAGIAN,
-#  PARAGRAF: Null or PARAGRAF,
-#  PASAL+i:
-#      {A. : sumthinsumthin,
-#       B. : somthinsomthin,
-#       C. : soooooooooooomeday,
-#       D. :
-#          {(1) : nestedvalue,
-#           (2) : nestedvalue}
-#       E. : somethinnnnng},
-#  PASAL 2:
-#      continues   
-#          }
+# {BAB III: {
+#        JUDUL BAB: Judul,
+#        ISI BAB: {
+#       BAGIAN: Null or JUDUL BAGIAN,
+#       PARAGRAF: Null or PARAGRAF,
+#       PASAL 1: Null or text,
+#       isi pasal: 
+#           {A. : sumthinsumthin,
+#            B. : somthinsomthin,
+#            C. : soooooooooooomeday,
+#            D. :
+#               {(1) : nestedvalue,
+#                (2) : nestedvalue}
+#            E. : somethinnnnng},
+#       PASAL 2:
+#           continues   
+#          }}
 
 #re_bab = '(BAB [MDCLXVI]+)'
 #re_bagian = '(Bagian Kesatu)'
