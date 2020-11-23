@@ -10,10 +10,14 @@ import json
 #
 # for key, value in toReplace.items():
 #    text = text.replace(key, value)
-file = open("tes.txt")
-text = file.read()
 
-splitted = text.split("\n")
+file = open("tes.txt")
+law = open("tes.txt").read().split("\n")
+
+# print('=============================')
+# for row in law:
+#     print(row)
+# print('=============================')
 
 law_dict = {}
 buffer = ''
@@ -27,12 +31,12 @@ hie = {"BAB": "",
        "Nest 2": ""}
 
 
-def detect_nest_type(content):
-    if content[0] == "(" and content[2] == ")":
+def detect_nest_type(line):
+    if line[0] == "(" and line[2] == ")":
         return 1
-    elif (content[1] == '.' or content[2] == '.') and content[0].isdigit():
+    elif (line[1] == '.' or line[2] == '.') and line[0].isdigit():
         return 2
-    elif content[1] == '.' and content[0].islower():
+    elif line[1] == '.' and line[0].islower():
         return 3
     else:
         return 0
@@ -56,60 +60,60 @@ def detect_nest_hierarchy(metadata_dict):
     return count
 
 
-eol = len(splitted) - 1
-
+last_line = len(law) - 1
 
 # please for godforsaken sake, change this into
 # something recursive :')
 
-for i, content in enumerate(splitted):
+for i, line in enumerate(law):
+    # print(i)
     temp = {}
     hierarchy = 0
-    if content.find(". . .") != -1:
+    if line.find(". . .") != -1:
         continue
-    if content.find("BAB") != -1 and i < eol:
-        temp["Judul Bab"] = splitted[i+1]
+    if line.find("BAB") != -1 and i < last_line:
+        temp["Judul Bab"] = law[i+1]
         temp["Isi Bab"] = {}
-        law_dict[content] = temp
-        hie["BAB"] = content
+        law_dict[line] = temp
+        hie["BAB"] = line
         hie["Bagian"] = ""
         hie["Paragraf"] = ""
-    elif content.find("Bagian") != -1 and i < eol:
-        temp["Judul Bagian"] = splitted[i+1]
+    elif line.find("Bagian") != -1 and i < last_line:
+        temp["Judul Bagian"] = law[i+1]
         temp["Isi Bagian"] = {}
-        law_dict[hie["BAB"]]["Isi Bab"][content] = temp
-        hie["Bagian"] = content
-    elif content.find("Paragraf") != -1 and i < eol:
-        temp["Judul Paragraf"] = splitted[i+1]
+        law_dict[hie["BAB"]]["Isi Bab"][line] = temp
+        hie["Bagian"] = line
+    elif line.find("Paragraf") != -1 and i < last_line:
+        temp["Judul Paragraf"] = law[i+1]
         temp["Isi Paragraf"] = {}
         law_dict[hie["BAB"]]["Isi Bab"][hie["Bagian"]
-                                        ]["Isi Bagian"][content] = temp
-        hie["Paragraf"] = content
-    elif (content.find("Pasal") != -1 and content.index("Pasal") <= 1) and i < eol:
-        if detect_nest_type(splitted[i+1]):
+                                        ]["Isi Bagian"][line] = temp
+        hie["Paragraf"] = line
+    elif (line.find("Pasal") != -1 and line.index("Pasal") <= 1) and i < last_line:
+        if detect_nest_type(law[i+1]):
             temp["Isi Pasal"] = {}
         else:
-            temp["Teks"] = splitted[i+1]
+            temp["Teks"] = law[i+1]
             temp["Isi Pasal"] = {}
         hierarchy = detect_hierarchy(hie)
         if hierarchy == 0:
-            law_dict[hie["BAB"]]["Isi Bab"][content] = temp
+            law_dict[hie["BAB"]]["Isi Bab"][line] = temp
         elif hierarchy == 1:
             law_dict[hie["BAB"]]["Isi Bab"][hie["Bagian"]
-                                            ]["Isi Bagian"][content] = temp
+                                            ]["Isi Bagian"][line] = temp
         else:
             law_dict[hie["BAB"]]["Isi Bab"][hie["Bagian"]
-                                            ]["Isi Bagian"][hie["Paragraf"]]["Isi Paragraf"][content] = temp
-        hie["Pasal"] = content
+                                            ]["Isi Bagian"][hie["Paragraf"]]["Isi Paragraf"][line] = temp
+        hie["Pasal"] = line
         hie["Nest 1"] = ""
-    elif detect_nest_type(content) > 0:
-        key = content[0:3]
+    elif detect_nest_type(line) > 0:
+        key = line[0:3]
         hierarchy = detect_hierarchy(hie)
-        nest_type = detect_nest_type(content)
-        temp[key] = content[3:-1]
+        nest_type = detect_nest_type(line)
+        temp[key] = line[3:-1]
         # If it's the first nest level of the pasal
         if hie["Nest 1"] == "":
-            #temp[key] = content[3:-1]
+            #temp[key] = line[3:-1]
             hie["Type"] = nest_type
             hie["Nest 1"] = key
 
@@ -118,7 +122,7 @@ for i, content in enumerate(splitted):
             # Check if the currently iterated type is the same
             # with higher level type
             if detect_nest_type(hie["Nest 1"]) == nest_type:
-                #temp[key] = content[3:-1]
+                #temp[key] = line[3:-1]
                 hie["Nest 1"] = key
                 hie["Level"] = 0
             else:
@@ -129,29 +133,29 @@ for i, content in enumerate(splitted):
         # If type is the same
         # elif hie["Type"] == nest_type:
         #    if hie["Level"] == 0:
-        #        temp[key] = content[3:-1]
+        #        temp[key] = line[3:-1]
         #    if hie["Level"] == 1:
-        #        temp[key] = content[3:-1]
+        #        temp[key] = line[3:-1]
         if hierarchy == 0 and hie["Level"] == 1:
             law_dict[hie["BAB"]]["Isi Bab"][hie["Pasal"]
                                             ]["Isi Pasal"][hie["Nest 1"]] = temp
         elif hierarchy == 0 and hie["Level"] == 0:
             law_dict[hie["BAB"]]["Isi Bab"][hie["Pasal"]
-                                            ]["Isi Pasal"][key] = content[3:-1]
+                                            ]["Isi Pasal"][key] = line[3:-1]
         elif hierarchy == 1 and hie["Level"] == 1:
             law_dict[hie["BAB"]]["Isi Bab"][hie["Bagian"]
                                             ]["Isi Bagian"][hie["Pasal"]]["Isi Pasal"][hie["Nest 1"]] = temp
         elif hierarchy == 1 and hie["Level"] == 0:
             law_dict[hie["BAB"]]["Isi Bab"][hie["Bagian"]
-                                            ]["Isi Bagian"][hie["Pasal"]]["Isi Pasal"][key] = content[3:-1]
+                                            ]["Isi Bagian"][hie["Pasal"]]["Isi Pasal"][key] = line[3:-1]
         elif hierarchy == 2 and hie["Level"] == 1:
             law_dict[hie["BAB"]]["Isi Bab"][hie["Bagian"]]["Isi Bagian"][hie["Paragraf"]
                                                                          ]["Isi Paragraf"][hie["Pasal"]]["Isi Pasal"][hie["Nest 1"]] = temp
         elif hierarchy == 2 and hie["Level"] == 0:
             law_dict[hie["BAB"]]["Isi Bab"][hie["Bagian"]]["Isi Bagian"][hie["Paragraf"]
-                                                                         ]["Isi Paragraf"][hie["Pasal"]]["Isi Pasal"][key] = content[3:-1]
+                                                                         ]["Isi Paragraf"][hie["Pasal"]]["Isi Pasal"][key] = line[3:-1]
 
-with open("example.json", "w") as outfile:
+with open("example2.json", "w") as outfile:
     json.dump(law_dict, outfile)
 
 # for char in text:
@@ -191,9 +195,9 @@ with open("example.json", "w") as outfile:
 #split_by_bagian = re.split('(Bagian Kesatu)', split_by_bab)
 #split_by_pasal = re.split('[\n]+[\s]*(Pasal[\s]*[1234567890]*)[\s]*[\n]+', split_by_bagian)
 
-#splitted = re.compile("(%s|%s|%s)" % (re_bab, re_bagian, re_pasal).findall(text))
+#law = re.compile("(%s|%s|%s)" % (re_bab, re_bagian, re_pasal).findall(text))
 
-# print(splitted)
+# print(law)
 # print("\n")
 #dict_by_pasal = {}
 #counter = 0
