@@ -21,14 +21,14 @@ law = open("tes.txt").read().split("\n")
 
 law_dict = {}
 buffer = ''
-hie = {"BAB": "",
-       "Bagian": "",
-       "Paragraf": "",
-       "Pasal": "",
-       "Type": 0,
-       "Level": 0,
-       "Nest 1": "",
-       "Nest 2": ""}
+current_hierarchy = {"bab": "",
+                     "bagian": "",
+                     "paragraf": "",
+                     "pasal": "",
+                     "type": 0,
+                     "level": 0,
+                     "nest 1": "",
+                     "nest 2": ""}
 
 
 def detect_nest_type(line):
@@ -76,20 +76,30 @@ for i, line in enumerate(law):
             'title': law[i+1],
             'contents': {},
         }
-        hie["BAB"] = line
-        hie["Bagian"] = ""
-        hie["Paragraf"] = ""
-    elif line.find("Bagian") != -1 and i < last_line:
-        temp["Judul Bagian"] = law[i+1]
-        temp["Isi Bagian"] = {}
-        law_dict[hie["BAB"]]["Isi Bab"][line] = temp
-        hie["Bagian"] = line
-    elif line.find("Paragraf") != -1 and i < last_line:
-        temp["Judul Paragraf"] = law[i+1]
-        temp["Isi Paragraf"] = {}
-        law_dict[hie["BAB"]]["Isi Bab"][hie["Bagian"]
-                                        ]["Isi Bagian"][line] = temp
-        hie["Paragraf"] = line
+        current_hierarchy["bab"] = line
+        # TODO(john): Is this meant for resetting the current bagian & paragraf we're currently at?
+        # If so, do we need to "hard reset" contents of all hierarchies deeper than bab?
+        current_hierarchy["bagian"] = ""
+        current_hierarchy["paragraf"] = ""
+    elif "Bagian" in line and i < last_line:
+        current_bab = current_hierarchy["bab"]
+        law_dict[current_bab]['contents'][line] = {
+            'title': law[i+1],
+            'contents': {},
+        }
+        current_hierarchy["bagian"] = line
+    elif "Paragraf" in line and i < last_line:
+        current_bab = current_hierarchy["bab"]
+        bagian_dict = law_dict[current_bab]['contents']
+
+        current_bagian = current_hierarchy["bagian"]
+        paragraf_dict = bagian_dict[current_bagian]['contents']
+        paragraf_dict[line] = {
+            'title': law[i+1],
+            'contents': {},
+        }
+
+        current_hierarchy["paragraf"] = line
     elif (line.find("Pasal") != -1 and line.index("Pasal") <= 1) and i < last_line:
         if detect_nest_type(law[i+1]):
             temp["Isi Pasal"] = {}
