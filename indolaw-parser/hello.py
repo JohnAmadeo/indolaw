@@ -213,19 +213,19 @@ with open("example2.json", "w") as outfile:
 #dict_by_pasal = {}
 #counter = 0
 # for bab in split_by_bab:
-    # split_by_bab for tes3.txt would be ONE list with TWO values
+# split_by_bab for tes3.txt would be ONE list with TWO values
 #    if re.search("(BAB [MDCLXVI]+)", bab):
 #        dict_by_pasal[bab] = split_by_bab[counter+1]
 #    counter += 1
 
 
 # for pasal in split_by pasal =
-    # return dict_by_pasal
+# return dict_by_pasal
 
 # print(split_by_pasal)
 # print(dict_by_pasal)
-    # for pasal in split_by_pasal:
-    #     z = re.split('()', pasal)
+# for pasal in split_by_pasal:
+#     z = re.split('()', pasal)
 
 
 # FROM THIS
