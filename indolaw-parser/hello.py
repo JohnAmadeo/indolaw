@@ -1,6 +1,14 @@
 #from pdfminer.high_level import extract_text, extract_pages
 #import re
 import json
+from enum import Enum
+
+
+class ListType(Enum):
+    INVALID = 0
+    NUMBER_IN_BRACKETS = 1
+    NUMBER_WITH_DOT = 2
+    LETTER_WITH_DOT = 3
 
 #text = extract_text('tes3.pdf')
 # toReplace = {'\n': ' ',
@@ -10,6 +18,7 @@ import json
 #
 # for key, value in toReplace.items():
 #    text = text.replace(key, value)
+
 
 file = open("tes.txt")
 law = open("tes.txt").read().split("\n")
@@ -31,22 +40,27 @@ current_hierarchy = {"bab": "",
                      "nest 2": ""}
 
 
-def detect_nest_type(line):
+def detect_list_type(line):
+    # e.g (5)
+    # TODO(johnamadeo): Use regex instead - this doesn't work for (12)
     if line[0] == "(" and line[2] == ")":
-        return 1
+        return ListType.NUMBER_IN_BRACKETS
+    # e.g 5.
+    # TODO(johnamadeo): Use regex instead - this doesn't work for 112.
     elif (line[1] == '.' or line[2] == '.') and line[0].isdigit():
-        return 2
+        return ListType.NUMBER_WITH_DOT
+    # e.g c.
     elif line[1] == '.' and line[0].islower():
-        return 3
+        return ListType.LETTER_WITH_DOT
     else:
-        return 0
+        return ListType.INVALID
 
 
-def detect_hierarchy(metadata_dict):
+def detect_hierarchy(hierarchy):
     count = 0
-    if metadata_dict["Bagian"]:
+    if hierarchy["bagian"]:
         count += 1
-    if metadata_dict["Paragraf"]:
+    if hierarchy["paragraf"]:
         count += 1
     return count
 
@@ -100,27 +114,36 @@ for i, line in enumerate(law):
         }
 
         current_hierarchy["paragraf"] = line
-    elif (line.find("Pasal") != -1 and line.index("Pasal") <= 1) and i < last_line:
-        if detect_nest_type(law[i+1]):
-            temp["Isi Pasal"] = {}
-        else:
+    # TODO(johnamadeo): this doesn't work for nested pasals (see omnibus_law_pg_12_13.pdf)
+    elif ("Pasal" in line and line.rstrip().index("Pasal") == 0) and i < last_line:
+        temp["Isi Pasal"] = {}
+        if detect_list_type(law[i+1]) == ListType.INVALID:
             temp["Teks"] = law[i+1]
-            temp["Isi Pasal"] = {}
-        hierarchy = detect_hierarchy(hie)
+
+        # check if pasal is attached to a bab, bagian, or paragraf
+        hierarchy = detect_hierarchy(current_hierarchy)
+        current_bab = current_hierarchy['bab']
         if hierarchy == 0:
-            law_dict[hie["BAB"]]["Isi Bab"][line] = temp
-        elif hierarchy == 1:
-            law_dict[hie["BAB"]]["Isi Bab"][hie["Bagian"]
-                                            ]["Isi Bagian"][line] = temp
+            law_dict[current_bab]['contents'][line] = temp
         else:
-            law_dict[hie["BAB"]]["Isi Bab"][hie["Bagian"]
-                                            ]["Isi Bagian"][hie["Paragraf"]]["Isi Paragraf"][line] = temp
-        hie["Pasal"] = line
-        hie["Nest 1"] = ""
-    elif detect_nest_type(line) > 0:
+            current_bagian = current_hierarchy['bagian']
+            bagian_dict = law_dict[current_bab]['contents'][current_bagian]
+
+            if hierarchy == 1:
+                bagian_dict['contents'][line] = temp
+            elif hierarchy == 2:
+                current_paragraf = current_hierarchy['paragraf']
+                paragraf_dict = bagian_dict['contents'][current_paragraf]
+
+                paragraf_dict['contents'][line] = temp
+
+        current_hierarchy["pasal"] = line
+        current_hierarchy["nest 1"] = ""
+
+    elif detect_list_type(line) > 0:
         key = line[0:3]
         hierarchy = detect_hierarchy(hie)
-        nest_type = detect_nest_type(line)
+        nest_type = detect_list_type(line)
         temp[key] = line[3:-1]
         # If it's the first nest level of the pasal
         if hie["Nest 1"] == "":
@@ -132,7 +155,7 @@ for i, line in enumerate(law):
         elif hie["Type"] != nest_type:
             # Check if the currently iterated type is the same
             # with higher level type
-            if detect_nest_type(hie["Nest 1"]) == nest_type:
+            if detect_list_type(hie["Nest 1"]) == nest_type:
                 #temp[key] = line[3:-1]
                 hie["Nest 1"] = key
                 hie["Level"] = 0
