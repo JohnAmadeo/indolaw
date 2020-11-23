@@ -71,10 +71,11 @@ for i, line in enumerate(law):
     hierarchy = 0
     if ". . ." in line:
         continue
-        temp["Judul Bab"] = law[i+1]
-        temp["Isi Bab"] = {}
-        law_dict[line] = temp
     if "BAB" in line and i < last_line:
+        law_dict[line] = {
+            'title': law[i+1],
+            'contents': {},
+        }
         hie["BAB"] = line
         hie["Bagian"] = ""
         hie["Paragraf"] = ""
