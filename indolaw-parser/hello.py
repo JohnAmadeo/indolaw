@@ -3,12 +3,12 @@
 import json
 
 #text = extract_text('tes3.pdf')
-#toReplace = {'\n': ' ',
+# toReplace = {'\n': ' ',
 #           '  ': ' ',
 #           '   ': ' '}
 #
 #
-#for key, value in toReplace.items():
+# for key, value in toReplace.items():
 #    text = text.replace(key, value)
 file = open("tes.txt")
 text = file.read()
@@ -18,13 +18,14 @@ splitted = text.split("\n")
 law_dict = {}
 buffer = ''
 hie = {"BAB": "",
-        "Bagian": "",
-        "Paragraf": "",
-        "Pasal": "",
-        "Type": 0,
-        "Level": 0,
-        "Nest 1": "",
-        "Nest 2": ""}
+       "Bagian": "",
+       "Paragraf": "",
+       "Pasal": "",
+       "Type": 0,
+       "Level": 0,
+       "Nest 1": "",
+       "Nest 2": ""}
+
 
 def detect_nest_type(content):
     if content[0] == "(" and content[2] == ")":
@@ -36,6 +37,7 @@ def detect_nest_type(content):
     else:
         return 0
 
+
 def detect_hierarchy(metadata_dict):
     count = 0
     if metadata_dict["Bagian"]:
@@ -43,6 +45,7 @@ def detect_hierarchy(metadata_dict):
     if metadata_dict["Paragraf"]:
         count += 1
     return count
+
 
 def detect_nest_hierarchy(metadata_dict):
     count = 0
@@ -52,11 +55,12 @@ def detect_nest_hierarchy(metadata_dict):
         count += 1
     return count
 
+
 eol = len(splitted) - 1
 
 
-##### please for godforsaken sake, change this into
-##### something recursive :')
+# please for godforsaken sake, change this into
+# something recursive :')
 
 for i, content in enumerate(splitted):
     temp = {}
@@ -78,7 +82,8 @@ for i, content in enumerate(splitted):
     elif content.find("Paragraf") != -1 and i < eol:
         temp["Judul Paragraf"] = splitted[i+1]
         temp["Isi Paragraf"] = {}
-        law_dict[hie["BAB"]]["Isi Bab"][hie["Bagian"]]["Isi Bagian"][content] = temp
+        law_dict[hie["BAB"]]["Isi Bab"][hie["Bagian"]
+                                        ]["Isi Bagian"][content] = temp
         hie["Paragraf"] = content
     elif (content.find("Pasal") != -1 and content.index("Pasal") <= 1) and i < eol:
         if detect_nest_type(splitted[i+1]):
@@ -90,9 +95,11 @@ for i, content in enumerate(splitted):
         if hierarchy == 0:
             law_dict[hie["BAB"]]["Isi Bab"][content] = temp
         elif hierarchy == 1:
-            law_dict[hie["BAB"]]["Isi Bab"][hie["Bagian"]]["Isi Bagian"][content] = temp
+            law_dict[hie["BAB"]]["Isi Bab"][hie["Bagian"]
+                                            ]["Isi Bagian"][content] = temp
         else:
-            law_dict[hie["BAB"]]["Isi Bab"][hie["Bagian"]]["Isi Bagian"][hie["Paragraf"]]["Isi Paragraf"][content] = temp
+            law_dict[hie["BAB"]]["Isi Bab"][hie["Bagian"]
+                                            ]["Isi Bagian"][hie["Paragraf"]]["Isi Paragraf"][content] = temp
         hie["Pasal"] = content
         hie["Nest 1"] = ""
     elif detect_nest_type(content) > 0:
@@ -118,30 +125,36 @@ for i, content in enumerate(splitted):
                 hie["Nest 2"] = key
                 hie["Level"] = 1
             hie["Type"] == nest_type
-        
+
         # If type is the same
-        #elif hie["Type"] == nest_type:
+        # elif hie["Type"] == nest_type:
         #    if hie["Level"] == 0:
         #        temp[key] = content[3:-1]
         #    if hie["Level"] == 1:
         #        temp[key] = content[3:-1]
         if hierarchy == 0 and hie["Level"] == 1:
-            law_dict[hie["BAB"]]["Isi Bab"][hie["Pasal"]]["Isi Pasal"][hie["Nest 1"]] = temp
+            law_dict[hie["BAB"]]["Isi Bab"][hie["Pasal"]
+                                            ]["Isi Pasal"][hie["Nest 1"]] = temp
         elif hierarchy == 0 and hie["Level"] == 0:
-            law_dict[hie["BAB"]]["Isi Bab"][hie["Pasal"]]["Isi Pasal"][key] = content[3:-1]
+            law_dict[hie["BAB"]]["Isi Bab"][hie["Pasal"]
+                                            ]["Isi Pasal"][key] = content[3:-1]
         elif hierarchy == 1 and hie["Level"] == 1:
-            law_dict[hie["BAB"]]["Isi Bab"][hie["Bagian"]]["Isi Bagian"][hie["Pasal"]]["Isi Pasal"][hie["Nest 1"]] = temp
+            law_dict[hie["BAB"]]["Isi Bab"][hie["Bagian"]
+                                            ]["Isi Bagian"][hie["Pasal"]]["Isi Pasal"][hie["Nest 1"]] = temp
         elif hierarchy == 1 and hie["Level"] == 0:
-            law_dict[hie["BAB"]]["Isi Bab"][hie["Bagian"]]["Isi Bagian"][hie["Pasal"]]["Isi Pasal"][key] = content[3:-1]
+            law_dict[hie["BAB"]]["Isi Bab"][hie["Bagian"]
+                                            ]["Isi Bagian"][hie["Pasal"]]["Isi Pasal"][key] = content[3:-1]
         elif hierarchy == 2 and hie["Level"] == 1:
-            law_dict[hie["BAB"]]["Isi Bab"][hie["Bagian"]]["Isi Bagian"][hie["Paragraf"]]["Isi Paragraf"][hie["Pasal"]]["Isi Pasal"][hie["Nest 1"]] = temp
+            law_dict[hie["BAB"]]["Isi Bab"][hie["Bagian"]]["Isi Bagian"][hie["Paragraf"]
+                                                                         ]["Isi Paragraf"][hie["Pasal"]]["Isi Pasal"][hie["Nest 1"]] = temp
         elif hierarchy == 2 and hie["Level"] == 0:
-            law_dict[hie["BAB"]]["Isi Bab"][hie["Bagian"]]["Isi Bagian"][hie["Paragraf"]]["Isi Paragraf"][hie["Pasal"]]["Isi Pasal"][key] = content[3:-1]
+            law_dict[hie["BAB"]]["Isi Bab"][hie["Bagian"]]["Isi Bagian"][hie["Paragraf"]
+                                                                         ]["Isi Paragraf"][hie["Pasal"]]["Isi Pasal"][key] = content[3:-1]
 
-with open("example.json", "w") as outfile:  
-    json.dump(law_dict, outfile) 
+with open("example.json", "w") as outfile:
+    json.dump(law_dict, outfile)
 
-#for char in text:
+# for char in text:
 #    buffer = buffer + char
 #    test = re.findall('(BAB [MDCLXVI]+)[\s]*[\n]+', buffer)
 #    if test:
@@ -150,15 +163,15 @@ with open("example.json", "w") as outfile:
 #        nest = 1
 #    index_counter += 1
 
-#print(dict_test)
-    
+# print(dict_test)
+
 # {BAB III: {
 #        JUDUL BAB: Judul,
 #        ISI BAB: {
 #       BAGIAN: Null or JUDUL BAGIAN,
 #       PARAGRAF: Null or PARAGRAF,
 #       PASAL 1: Null or text,
-#       isi pasal: 
+#       isi pasal:
 #           {A. : sumthinsumthin,
 #            B. : somthinsomthin,
 #            C. : soooooooooooomeday,
@@ -167,7 +180,7 @@ with open("example.json", "w") as outfile:
 #                (2) : nestedvalue}
 #            E. : somethinnnnng},
 #       PASAL 2:
-#           continues   
+#           continues
 #          }}
 
 #re_bab = '(BAB [MDCLXVI]+)'
@@ -180,27 +193,24 @@ with open("example.json", "w") as outfile:
 
 #splitted = re.compile("(%s|%s|%s)" % (re_bab, re_bagian, re_pasal).findall(text))
 
-#print(splitted)
-#print("\n")
+# print(splitted)
+# print("\n")
 #dict_by_pasal = {}
 #counter = 0
-#for bab in split_by_bab:
+# for bab in split_by_bab:
     # split_by_bab for tes3.txt would be ONE list with TWO values
 #    if re.search("(BAB [MDCLXVI]+)", bab):
 #        dict_by_pasal[bab] = split_by_bab[counter+1]
 #    counter += 1
 
 
-#for pasal in split_by pasal =
-    #return dict_by_pasal
-    
-#print(split_by_pasal)
-#print(dict_by_pasal)  
+# for pasal in split_by pasal =
+    # return dict_by_pasal
+
+# print(split_by_pasal)
+# print(dict_by_pasal)
     # for pasal in split_by_pasal:
     #     z = re.split('()', pasal)
-    
-
-
 
 
 # FROM THIS
@@ -208,14 +218,14 @@ with open("example.json", "w") as outfile:
 #"Irvan's friends are 1. Melissa, 2. John, 3. Evan"
 
 # TO "SOMETHING" LIKE THIS
-#{
+# {
 #  "Irvan's friends are",
 #  {
 #    1: "Premiumkobebeef",
 #    2: "John",
 #    3: "Evan"
 #  }
-#}
+# }
 
 # Read the text
 # For
