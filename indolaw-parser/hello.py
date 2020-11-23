@@ -93,20 +93,19 @@ for i, line in enumerate(law):
         current_hierarchy["bab"] = line
         # TODO(john): Is this meant for resetting the current bagian & paragraf we're currently at?
         # If so, do we need to "hard reset" contents of all hierarchies deeper than bab?
-        current_hierarchy["bagian"] = ""
-        current_hierarchy["paragraf"] = ""
+        current_hierarchy['bagian'] = ""
+        current_hierarchy['paragraf'] = ""
     elif "Bagian" in line and i < last_line:
-        current_bab = current_hierarchy["bab"]
+        current_bab = current_hierarchy['bab']
         law_dict[current_bab]['contents'][line] = {
             'title': law[i+1],
             'contents': {},
         }
-        current_hierarchy["bagian"] = line
+        current_hierarchy['bagian'] = line
     elif "Paragraf" in line and i < last_line:
-        current_bab = current_hierarchy["bab"]
+        current_bab = current_hierarchy['bab']
         bagian_dict = law_dict[current_bab]['contents']
-
-        current_bagian = current_hierarchy["bagian"]
+        current_bagian = current_hierarchy['bagian']
         paragraf_dict = bagian_dict[current_bagian]['contents']
         paragraf_dict[line] = {
             'title': law[i+1],
