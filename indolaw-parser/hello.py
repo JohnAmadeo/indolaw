@@ -139,54 +139,54 @@ for i, line in enumerate(law):
         current_hierarchy["pasal"] = line
         current_hierarchy["nest 1"] = ""
 
-    elif detect_list_type(line) > 0:
-        key = line[0:3]
-        hierarchy = detect_hierarchy(hie)
-        nest_type = detect_list_type(line)
-        temp[key] = line[3:-1]
-        # If it's the first nest level of the pasal
-        if hie["Nest 1"] == "":
-            #temp[key] = line[3:-1]
-            hie["Type"] = nest_type
-            hie["Nest 1"] = key
+    # elif detect_list_type(line) > 0:
+    #     key = line[0:3]
+    #     hierarchy = detect_hierarchy(hie)
+    #     nest_type = detect_list_type(line)
+    #     temp[key] = line[3:-1]
+    #     # If it's the first nest level of the pasal
+    #     if hie["Nest 1"] == "":
+    #         #temp[key] = line[3:-1]
+    #         hie["Type"] = nest_type
+    #         hie["Nest 1"] = key
 
-        # Else if it's not the same type of starting letters
-        elif hie["Type"] != nest_type:
-            # Check if the currently iterated type is the same
-            # with higher level type
-            if detect_list_type(hie["Nest 1"]) == nest_type:
-                #temp[key] = line[3:-1]
-                hie["Nest 1"] = key
-                hie["Level"] = 0
-            else:
-                hie["Nest 2"] = key
-                hie["Level"] = 1
-            hie["Type"] == nest_type
+    #     # Else if it's not the same type of starting letters
+    #     elif hie["Type"] != nest_type:
+    #         # Check if the currently iterated type is the same
+    #         # with higher level type
+    #         if detect_list_type(hie["Nest 1"]) == nest_type:
+    #             #temp[key] = line[3:-1]
+    #             hie["Nest 1"] = key
+    #             hie["Level"] = 0
+    #         else:
+    #             hie["Nest 2"] = key
+    #             hie["Level"] = 1
+    #         hie["Type"] == nest_type
 
-        # If type is the same
-        # elif hie["Type"] == nest_type:
-        #    if hie["Level"] == 0:
-        #        temp[key] = line[3:-1]
-        #    if hie["Level"] == 1:
-        #        temp[key] = line[3:-1]
-        if hierarchy == 0 and hie["Level"] == 1:
-            law_dict[hie["BAB"]]["Isi Bab"][hie["Pasal"]
-                                            ]["Isi Pasal"][hie["Nest 1"]] = temp
-        elif hierarchy == 0 and hie["Level"] == 0:
-            law_dict[hie["BAB"]]["Isi Bab"][hie["Pasal"]
-                                            ]["Isi Pasal"][key] = line[3:-1]
-        elif hierarchy == 1 and hie["Level"] == 1:
-            law_dict[hie["BAB"]]["Isi Bab"][hie["Bagian"]
-                                            ]["Isi Bagian"][hie["Pasal"]]["Isi Pasal"][hie["Nest 1"]] = temp
-        elif hierarchy == 1 and hie["Level"] == 0:
-            law_dict[hie["BAB"]]["Isi Bab"][hie["Bagian"]
-                                            ]["Isi Bagian"][hie["Pasal"]]["Isi Pasal"][key] = line[3:-1]
-        elif hierarchy == 2 and hie["Level"] == 1:
-            law_dict[hie["BAB"]]["Isi Bab"][hie["Bagian"]]["Isi Bagian"][hie["Paragraf"]
-                                                                         ]["Isi Paragraf"][hie["Pasal"]]["Isi Pasal"][hie["Nest 1"]] = temp
-        elif hierarchy == 2 and hie["Level"] == 0:
-            law_dict[hie["BAB"]]["Isi Bab"][hie["Bagian"]]["Isi Bagian"][hie["Paragraf"]
-                                                                         ]["Isi Paragraf"][hie["Pasal"]]["Isi Pasal"][key] = line[3:-1]
+    #     # If type is the same
+    #     # elif hie["Type"] == nest_type:
+    #     #    if hie["Level"] == 0:
+    #     #        temp[key] = line[3:-1]
+    #     #    if hie["Level"] == 1:
+    #     #        temp[key] = line[3:-1]
+    #     if hierarchy == 0 and hie["Level"] == 1:
+    #         law_dict[hie["BAB"]]["Isi Bab"][hie["Pasal"]
+    #                                         ]["Isi Pasal"][hie["Nest 1"]] = temp
+    #     elif hierarchy == 0 and hie["Level"] == 0:
+    #         law_dict[hie["BAB"]]["Isi Bab"][hie["Pasal"]
+    #                                         ]["Isi Pasal"][key] = line[3:-1]
+    #     elif hierarchy == 1 and hie["Level"] == 1:
+    #         law_dict[hie["BAB"]]["Isi Bab"][hie["Bagian"]
+    #                                         ]["Isi Bagian"][hie["Pasal"]]["Isi Pasal"][hie["Nest 1"]] = temp
+    #     elif hierarchy == 1 and hie["Level"] == 0:
+    #         law_dict[hie["BAB"]]["Isi Bab"][hie["Bagian"]
+    #                                         ]["Isi Bagian"][hie["Pasal"]]["Isi Pasal"][key] = line[3:-1]
+    #     elif hierarchy == 2 and hie["Level"] == 1:
+    #         law_dict[hie["BAB"]]["Isi Bab"][hie["Bagian"]]["Isi Bagian"][hie["Paragraf"]
+    #                                                                      ]["Isi Paragraf"][hie["Pasal"]]["Isi Pasal"][hie["Nest 1"]] = temp
+    #     elif hierarchy == 2 and hie["Level"] == 0:
+    #         law_dict[hie["BAB"]]["Isi Bab"][hie["Bagian"]]["Isi Bagian"][hie["Paragraf"]
+    #                                                                      ]["Isi Paragraf"][hie["Pasal"]]["Isi Pasal"][key] = line[3:-1]
 
 with open("example2.json", "w") as outfile:
     json.dump(law_dict, outfile)
