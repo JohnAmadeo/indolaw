@@ -2,6 +2,7 @@
 #import re
 import json
 from enum import Enum
+import sys
 
 
 class ListType(Enum):
@@ -9,35 +10,6 @@ class ListType(Enum):
     NUMBER_IN_BRACKETS = 1
     NUMBER_WITH_DOT = 2
     LETTER_WITH_DOT = 3
-
-#text = extract_text('tes3.pdf')
-# toReplace = {'\n': ' ',
-#           '  ': ' ',
-#           '   ': ' '}
-#
-#
-# for key, value in toReplace.items():
-#    text = text.replace(key, value)
-
-
-file = open("tes.txt")
-law = open("tes.txt").read().split("\n")
-
-# print('=============================')
-# for row in law:
-#     print(row)
-# print('=============================')
-
-law_dict = {}
-buffer = ''
-current_hierarchy = {"bab": "",
-                     "bagian": "",
-                     "paragraf": "",
-                     "pasal": "",
-                     "type": 0,
-                     "level": 0,
-                     "nest 1": "",
-                     "nest 2": ""}
 
 
 def detect_list_type(line):
@@ -74,122 +46,148 @@ def detect_nest_hierarchy(metadata_dict):
     return count
 
 
-last_line = len(law) - 1
+def parse_law(law):
+    law_dict = {}
+    buffer = ''
+    current_hierarchy = {"bab": "",
+                         "bagian": "",
+                         "paragraf": "",
+                         "pasal": "",
+                         "type": 0,
+                         "level": 0,
+                         "nest 1": "",
+                         "nest 2": ""}
 
-# please for godforsaken sake, change this into
-# something recursive :')
+    last_line = len(law) - 1
 
-for i, line in enumerate(law):
-    # print(i)
-    temp = {}
-    hierarchy = 0
-    if ". . ." in line:
-        continue
-    if "BAB" in line and i < last_line:
-        law_dict[line] = {
-            'title': law[i+1],
-            'contents': {},
-        }
-        current_hierarchy["bab"] = line
-        # TODO(john): Is this meant for resetting the current bagian & paragraf we're currently at?
-        # If so, do we need to "hard reset" contents of all hierarchies deeper than bab?
-        current_hierarchy['bagian'] = ""
-        current_hierarchy['paragraf'] = ""
-    elif "Bagian" in line and i < last_line:
-        current_bab = current_hierarchy['bab']
-        law_dict[current_bab]['contents'][line] = {
-            'title': law[i+1],
-            'contents': {},
-        }
-        current_hierarchy['bagian'] = line
-    elif "Paragraf" in line and i < last_line:
-        current_bab = current_hierarchy['bab']
-        bagian_dict = law_dict[current_bab]['contents']
-        current_bagian = current_hierarchy['bagian']
-        paragraf_dict = bagian_dict[current_bagian]['contents']
-        paragraf_dict[line] = {
-            'title': law[i+1],
-            'contents': {},
-        }
+    # please for godforsaken sake, change this into
+    # something recursive :')
 
-        current_hierarchy["paragraf"] = line
-    # TODO(johnamadeo): this doesn't work for nested pasals (see omnibus_law_pg_12_13.pdf)
-    elif ("Pasal" in line and line.rstrip().index("Pasal") == 0) and i < last_line:
-        temp["Isi Pasal"] = {}
-        if detect_list_type(law[i+1]) == ListType.INVALID:
-            temp["Teks"] = law[i+1]
-
-        # check if pasal is attached to a bab, bagian, or paragraf
-        hierarchy = detect_hierarchy(current_hierarchy)
-        current_bab = current_hierarchy['bab']
-        if hierarchy == 0:
-            law_dict[current_bab]['contents'][line] = temp
-        else:
+    for i, line in enumerate(law):
+        # print(i)
+        temp = {}
+        hierarchy = 0
+        if ". . ." in line:
+            continue
+        if "BAB" in line and i < last_line:
+            law_dict[line] = {
+                'title': law[i+1],
+                'contents': {},
+            }
+            current_hierarchy["bab"] = line
+            # TODO(john): Is this meant for resetting the current bagian & paragraf we're currently at?
+            # If so, do we need to "hard reset" contents of all hierarchies deeper than bab?
+            current_hierarchy['bagian'] = ""
+            current_hierarchy['paragraf'] = ""
+        elif "Bagian" in line and i < last_line:
+            current_bab = current_hierarchy['bab']
+            law_dict[current_bab]['contents'][line] = {
+                'title': law[i+1],
+                'contents': {},
+            }
+            current_hierarchy['bagian'] = line
+        elif "Paragraf" in line and i < last_line:
+            current_bab = current_hierarchy['bab']
+            bagian_dict = law_dict[current_bab]['contents']
             current_bagian = current_hierarchy['bagian']
-            bagian_dict = law_dict[current_bab]['contents'][current_bagian]
+            paragraf_dict = bagian_dict[current_bagian]['contents']
+            paragraf_dict[line] = {
+                'title': law[i+1],
+                'contents': {},
+            }
 
-            if hierarchy == 1:
-                bagian_dict['contents'][line] = temp
-            elif hierarchy == 2:
-                current_paragraf = current_hierarchy['paragraf']
-                paragraf_dict = bagian_dict['contents'][current_paragraf]
+            current_hierarchy["paragraf"] = line
+        # TODO(johnamadeo): this doesn't work for nested pasals (see omnibus_law_pg_12_13.pdf)
+        elif ("Pasal" in line and line.rstrip().index("Pasal") == 0) and i < last_line:
+            temp["Isi Pasal"] = {}
+            if detect_list_type(law[i+1]) == ListType.INVALID:
+                temp["Teks"] = law[i+1]
 
-                paragraf_dict['contents'][line] = temp
+            # check if pasal is attached to a bab, bagian, or paragraf
+            hierarchy = detect_hierarchy(current_hierarchy)
+            current_bab = current_hierarchy['bab']
+            if hierarchy == 0:
+                law_dict[current_bab]['contents'][line] = temp
+            else:
+                current_bagian = current_hierarchy['bagian']
+                bagian_dict = law_dict[current_bab]['contents'][current_bagian]
 
-        current_hierarchy["pasal"] = line
-        current_hierarchy["nest 1"] = ""
+                if hierarchy == 1:
+                    bagian_dict['contents'][line] = temp
+                elif hierarchy == 2:
+                    current_paragraf = current_hierarchy['paragraf']
+                    paragraf_dict = bagian_dict['contents'][current_paragraf]
 
-    # elif detect_list_type(line) > 0:
-    #     key = line[0:3]
-    #     hierarchy = detect_hierarchy(hie)
-    #     nest_type = detect_list_type(line)
-    #     temp[key] = line[3:-1]
-    #     # If it's the first nest level of the pasal
-    #     if hie["Nest 1"] == "":
-    #         #temp[key] = line[3:-1]
-    #         hie["Type"] = nest_type
-    #         hie["Nest 1"] = key
+                    paragraf_dict['contents'][line] = temp
 
-    #     # Else if it's not the same type of starting letters
-    #     elif hie["Type"] != nest_type:
-    #         # Check if the currently iterated type is the same
-    #         # with higher level type
-    #         if detect_list_type(hie["Nest 1"]) == nest_type:
-    #             #temp[key] = line[3:-1]
-    #             hie["Nest 1"] = key
-    #             hie["Level"] = 0
-    #         else:
-    #             hie["Nest 2"] = key
-    #             hie["Level"] = 1
-    #         hie["Type"] == nest_type
+            current_hierarchy["pasal"] = line
+            current_hierarchy["nest 1"] = ""
 
-    #     # If type is the same
-    #     # elif hie["Type"] == nest_type:
-    #     #    if hie["Level"] == 0:
-    #     #        temp[key] = line[3:-1]
-    #     #    if hie["Level"] == 1:
-    #     #        temp[key] = line[3:-1]
-    #     if hierarchy == 0 and hie["Level"] == 1:
-    #         law_dict[hie["BAB"]]["Isi Bab"][hie["Pasal"]
-    #                                         ]["Isi Pasal"][hie["Nest 1"]] = temp
-    #     elif hierarchy == 0 and hie["Level"] == 0:
-    #         law_dict[hie["BAB"]]["Isi Bab"][hie["Pasal"]
-    #                                         ]["Isi Pasal"][key] = line[3:-1]
-    #     elif hierarchy == 1 and hie["Level"] == 1:
-    #         law_dict[hie["BAB"]]["Isi Bab"][hie["Bagian"]
-    #                                         ]["Isi Bagian"][hie["Pasal"]]["Isi Pasal"][hie["Nest 1"]] = temp
-    #     elif hierarchy == 1 and hie["Level"] == 0:
-    #         law_dict[hie["BAB"]]["Isi Bab"][hie["Bagian"]
-    #                                         ]["Isi Bagian"][hie["Pasal"]]["Isi Pasal"][key] = line[3:-1]
-    #     elif hierarchy == 2 and hie["Level"] == 1:
-    #         law_dict[hie["BAB"]]["Isi Bab"][hie["Bagian"]]["Isi Bagian"][hie["Paragraf"]
-    #                                                                      ]["Isi Paragraf"][hie["Pasal"]]["Isi Pasal"][hie["Nest 1"]] = temp
-    #     elif hierarchy == 2 and hie["Level"] == 0:
-    #         law_dict[hie["BAB"]]["Isi Bab"][hie["Bagian"]]["Isi Bagian"][hie["Paragraf"]
-    #                                                                      ]["Isi Paragraf"][hie["Pasal"]]["Isi Pasal"][key] = line[3:-1]
+        # elif detect_list_type(line) > 0:
+        #     key = line[0:3]
+        #     hierarchy = detect_hierarchy(hie)
+        #     nest_type = detect_list_type(line)
+        #     temp[key] = line[3:-1]
+        #     # If it's the first nest level of the pasal
+        #     if hie["Nest 1"] == "":
+        #         #temp[key] = line[3:-1]
+        #         hie["Type"] = nest_type
+        #         hie["Nest 1"] = key
 
-with open("example2.json", "w") as outfile:
-    json.dump(law_dict, outfile)
+        #     # Else if it's not the same type of starting letters
+        #     elif hie["Type"] != nest_type:
+        #         # Check if the currently iterated type is the same
+        #         # with higher level type
+        #         if detect_list_type(hie["Nest 1"]) == nest_type:
+        #             #temp[key] = line[3:-1]
+        #             hie["Nest 1"] = key
+        #             hie["Level"] = 0
+        #         else:
+        #             hie["Nest 2"] = key
+        #             hie["Level"] = 1
+        #         hie["Type"] == nest_type
+
+        #     # If type is the same
+        #     # elif hie["Type"] == nest_type:
+        #     #    if hie["Level"] == 0:
+        #     #        temp[key] = line[3:-1]
+        #     #    if hie["Level"] == 1:
+        #     #        temp[key] = line[3:-1]
+        #     if hierarchy == 0 and hie["Level"] == 1:
+        #         law_dict[hie["BAB"]]["Isi Bab"][hie["Pasal"]
+        #                                         ]["Isi Pasal"][hie["Nest 1"]] = temp
+        #     elif hierarchy == 0 and hie["Level"] == 0:
+        #         law_dict[hie["BAB"]]["Isi Bab"][hie["Pasal"]
+        #                                         ]["Isi Pasal"][key] = line[3:-1]
+        #     elif hierarchy == 1 and hie["Level"] == 1:
+        #         law_dict[hie["BAB"]]["Isi Bab"][hie["Bagian"]
+        #                                         ]["Isi Bagian"][hie["Pasal"]]["Isi Pasal"][hie["Nest 1"]] = temp
+        #     elif hierarchy == 1 and hie["Level"] == 0:
+        #         law_dict[hie["BAB"]]["Isi Bab"][hie["Bagian"]
+        #                                         ]["Isi Bagian"][hie["Pasal"]]["Isi Pasal"][key] = line[3:-1]
+        #     elif hierarchy == 2 and hie["Level"] == 1:
+        #         law_dict[hie["BAB"]]["Isi Bab"][hie["Bagian"]]["Isi Bagian"][hie["Paragraf"]
+        #                                                                      ]["Isi Paragraf"][hie["Pasal"]]["Isi Pasal"][hie["Nest 1"]] = temp
+        #     elif hierarchy == 2 and hie["Level"] == 0:
+        #         law_dict[hie["BAB"]]["Isi Bab"][hie["Bagian"]]["Isi Bagian"][hie["Paragraf"]
+        #                                                                      ]["Isi Paragraf"][hie["Pasal"]]["Isi Pasal"][key] = line[3:-1]
+
+
+if __name__ == "__main__":
+    filename = "tes.txt"
+    if len(sys.argv) > 2:
+        filename = sys.argv[1]
+
+    file = open(
+        filename + '.txt',
+        mode='r',
+        encoding='utf-8-sig')
+    law = file.read().split("\n")
+
+    structured_law = parse_law(law)
+
+    with open(filename + '.json', 'w') as outfile:
+        json.dump(structured_law, outfile)
 
 # for char in text:
 #    buffer = buffer + char
@@ -269,10 +267,3 @@ with open("example2.json", "w") as outfile:
 # there's a BAB, use that as the first key
 #s= "Name1=Value1;Name2=Value2;Name3=Value3"
 #dict(item.split("=") for item in s.split(";"))
-
-'''
-\nPasal 2\n
-Peraturan ini berhubungan dengan Pasal 3 ayat 4
-
-
-'''
