@@ -14,13 +14,6 @@ See https://pypi.org/project/colorama/ for more
 init()
 
 
-class ListType(Enum):
-    INVALID = 0
-    NUMBER_IN_BRACKETS = 1
-    NUMBER_WITH_DOT = 2
-    LETTER_WITH_DOT = 3
-
-
 class Structure(Enum):
     END = "End"
     SKIP = "Skip"
