@@ -3,6 +3,8 @@
 import json
 from enum import Enum
 import sys
+import re
+from itertools import filterfalse
 
 
 class ListType(Enum):
@@ -10,6 +12,17 @@ class ListType(Enum):
     NUMBER_IN_BRACKETS = 1
     NUMBER_WITH_DOT = 2
     LETTER_WITH_DOT = 3
+
+
+def ignore_line(line):
+    # end of page
+    if ". . ." in line:
+        return True
+    # page number
+    elif re.match('- [0-9]+ -', line.rstrip()) != None:
+        return True
+    else:
+        return False
 
 
 def detect_list_type(line):
@@ -47,6 +60,8 @@ def detect_nest_hierarchy(metadata_dict):
 
 
 def parse_law(law):
+    law = list(filterfalse(ignore_line, law))
+
     law_dict = {}
     buffer = ''
     current_hierarchy = {"bab": "",
@@ -67,8 +82,6 @@ def parse_law(law):
         # print(i)
         temp = {}
         hierarchy = 0
-        if ". . ." in line:
-            continue
         if "BAB" in line and i < last_line:
             law_dict[line] = {
                 'title': law[i+1],
