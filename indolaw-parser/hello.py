@@ -14,6 +14,28 @@ class ListType(Enum):
     LETTER_WITH_DOT = 3
 
 
+class Structure(Enum):
+    # END = "End"
+    # SKIP = "Skip"
+    UNDANG_UNDANG = "Undang Undang"
+    BAB = "Bab"
+    BAB_NUMBER = "Bab Number"
+    BAB_TITLE = "Bab Title"
+    PASAL = "Pasal"
+    PASAL_NUMBER = "Pasal Number"
+    BAGIAN = "Bagian"
+    BAGIAN_TITLE = "Bagian Title"
+    BAGIAN_NUMBER = "Bagian Number"
+    PARAGRAF = "Paragraf"
+    PARAGRAF_TITLE = "Paragraf Title"
+    PARAGRAF_NUMBER = "Paragraf Number"
+    PLAINTEXT = "Plaintext"
+    # LIST = "List"
+    # LIST_ITEM = "List Item"
+    # LIST_INDEX = "List Index"
+    # NUMBER_IN_BRACKETS = "Number in Brackets"
+    # NUMBER_WITH_DOT = "Number with Dot"
+    # LETTER_WITH_DOT = "Letter with Dot"
 def ignore_line(line):
     # end of page
     if ". . ." in line:
