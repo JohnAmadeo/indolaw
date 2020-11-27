@@ -1,0 +1,15 @@
+autopep8==1.5.4
+certifi==2019.6.16
+cffi==1.14.3
+chardet==3.0.4
+colorama==0.4.4
+cryptography==3.2.1
+numpy==1.18.2
+pdfminer.six==20201018
+pycodestyle==2.6.0
+pycparser==2.20
+scipy==1.4.1
+six==1.15.0
+sortedcontainers==2.3.0
+termcolor==1.1.0
+toml==0.10.2
