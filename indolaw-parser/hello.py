@@ -418,8 +418,6 @@ __MAIN__
 '''
 
 if __name__ == "__main__":
-    filename = "tes.txt"
-    if len(sys.argv) > 2:
     filename = "tes"
     if len(sys.argv) >= 2:
         filename = sys.argv[1]
@@ -430,10 +428,7 @@ if __name__ == "__main__":
         encoding='utf-8-sig')
     law = file.read().split("\n")
 
-    structured_law = parse_law(law)
     parsed_undang_undang, _ = parse_undang_undang(law)
 
     with open(filename + '.json', 'w') as outfile:
-        json.dump(structured_law, outfile)
-
         json.dump(parsed_undang_undang, outfile)
