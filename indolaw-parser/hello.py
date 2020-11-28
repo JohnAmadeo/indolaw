@@ -115,6 +115,25 @@ def is_start_of_structure(structure, law, start_index):
         return is_start_of_bab_number(law, start_index)
     elif structure == Structure.BAB_TITLE:
         return is_start_of_bab_title(law, start_index)
+    # PASAL
+    elif structure == Structure.PASAL:
+        return is_start_of_pasal(law, start_index)
+    elif structure == Structure.PASAL_NUMBER:
+        return is_start_of_pasal_number(law, start_index)
+    # BAGIAN
+    elif structure == Structure.BAGIAN:
+        return is_start_of_bagian(law, start_index)
+    elif structure == Structure.BAGIAN_NUMBER:
+        return is_start_of_bagian_number(law, start_index)
+    elif structure == Structure.BAGIAN_TITLE:
+        return is_start_of_bagian_title(law, start_index)
+    # PARAGRAF
+    elif structure == Structure.PARAGRAF:
+        return is_start_of_paragraf(law, start_index)
+    elif structure == Structure.PARAGRAF_NUMBER:
+        return is_start_of_paragraf_number(law, start_index)
+    elif structure == Structure.PARAGRAF_TITLE:
+        return is_start_of_paragraf_title(law, start_index)
     else:
         function_name = '_'.join(structure.value.lower().split(' '))
         raise Exception('is_start_of_' + function_name +
@@ -123,6 +142,38 @@ def is_start_of_structure(structure, law, start_index):
 
 def is_start_of_undang_undang(law, start_index):
     return 'UNDANG-UNDANG' in law[start_index]
+
+
+def is_start_of_pasal(law, start_index):
+    return is_heading('Pasal[\s]+[0-9]+', law[start_index])
+
+
+def is_start_of_pasal_number(law, start_index):
+    return is_start_of_pasal(law, start_index)
+
+
+def is_start_of_bagian(law, start_index):
+    return is_heading('Bagian Ke[a-z]+', law[start_index])
+
+
+def is_start_of_bagian_number(law, start_index):
+    return is_start_of_bagian(law, start_index)
+
+
+def is_start_of_bagian_title(law, start_index):
+    return is_start_of_bagian_number(law, start_index-1)
+
+
+def is_start_of_paragraf(law, start_index):
+    return is_heading('Paragraf[\s]+[0-9]+', law[start_index])
+
+
+def is_start_of_paragraf_number(law, start_index):
+    return is_start_of_paragraf(law, start_index)
+
+
+def is_start_of_paragraf_title(law, start_index):
+    return is_start_of_paragraf_number(law, start_index-1)
 
 
 def is_start_of_bab(law, start_index):
