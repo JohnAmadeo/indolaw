@@ -214,6 +214,14 @@ PARSE_X GENERIC FUNCTIONS
 '''
 
 
+def parse_structure(structure, law, start_index):
+    if structure in PRIMITIVE_STRUCTURES:
+        return parse_primitive(structure, law, start_index)
+    else:
+        raise Exception("parse_" + structure.value +
+                        " function does not exist")
+
+
 def parse_primitive(structure, law, start_index, return_end_index=True):
     parsed_structure = {
         'type': structure.value,
@@ -224,6 +232,69 @@ def parse_primitive(structure, law, start_index, return_end_index=True):
         return parsed_structure, start_index
     else:
         return parsed_structure
+
+
+def parse_complex_structure(
+    law,
+    start_index,
+    # doesn't have to include root structure (i.e UNDANG_UNDANG)
+    ancestor_structures,
+    sibling_structures,
+    child_structures
+):
+    '''
+    This is the core algorithm for parsing a complex structure: a structure that is
+    composed of other structures(a.k.a child structures).
+
+    At a high level, the logic is:
+    - let's say we know that structure X (e.g a Pasal) starts at line no. Y
+    - starting from line line no.:
+        - check if current line is the end of structure X 
+        (e.g have we arrived at another Pasal? or is this the end of the Bab that the Pasal is in?)
+        - if yes, return the hierarchy for structure X, along w/ the line no. at which structure X ends
+
+        - check if current line is the start of a child structure
+        - if yes, recursively call the parsing function that handles that child structure
+        - the parsing function that handles the child structure will return:
+            - the hierarchy for the child structure
+            - the line no. Z at which the child structure ends
+
+        - repeat the process starting at line no. Z+1
+    - return hierarchy for structure X, along w/ the line no. W at which structure X ends
+
+    If this doesn't feel intuitive, the best way to understand the algorithm is go through the text
+    of the law by hand w/ pen and paper and apply the algorithm as implemented below!
+    '''
+
+    parsed_structure = []
+
+    end_index = start_index-1
+    while end_index < len(law)-1:
+        structure = None
+
+        # check if we've reached the end of this structure by checking
+        # if this is the start of a sibling or ancestor structure
+        for ancestor_or_sibling_structure in ancestor_structures + sibling_structures:
+            if is_start_of_structure(ancestor_or_sibling_structure, law, start_index):
+                return parsed_structure, end_index
+
+        # check if we've reached the start of a child structure
+        for child_structure in child_structures:
+            if is_start_of_structure(child_structure, law, start_index):
+                structure = child_structure
+                break
+
+        if structure == None:
+            raise Exception(
+                'Unable to detect the right structure for line: ' + law[start_index])
+
+        parsed_sub_structure, end_index = parse_structure(
+            structure, law, start_index)
+        start_index = end_index + 1
+
+        parsed_structure.append(parsed_sub_structure)
+
+    return parsed_structure, end_index
 
 
     law = list(filterfalse(ignore_line, law))
