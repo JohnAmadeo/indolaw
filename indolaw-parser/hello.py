@@ -34,6 +34,11 @@ class Structure(Enum):
     # NUMBER_IN_BRACKETS = "Number in Brackets"
     # NUMBER_WITH_DOT = "Number with Dot"
     # LETTER_WITH_DOT = "Letter with Dot"
+
+
+# TODO: Add Structure.LIST and Structure.PASAL
+TEXT_BLOCK_STRUCTURES = [Structure.PLAINTEXT]
+
 # Structures that do not have child structures,
 # and resolve to either a regex or just any unstructured text
 PRIMITIVE_STRUCTURES = [
@@ -217,9 +222,28 @@ PARSE_X GENERIC FUNCTIONS
 def parse_structure(structure, law, start_index):
     if structure in PRIMITIVE_STRUCTURES:
         return parse_primitive(structure, law, start_index)
+    elif structure == Structure.BAB:
+        return parse_bab(law, start_index)
+    elif structure == Structure.PASAL:
+        return parse_pasal(law, start_index)
+    elif structure == Structure.BAGIAN:
+        return parse_bagian(law, start_index)
+    elif structure == Structure.PARAGRAF:
+        return parse_paragraf(law, start_index)
+    # elif structure == Structure.LIST:
+    #     return parse_list(law, start_index)
+    # elif structure == Structure.LIST_ITEM:
+    #     return parse_list_item(law, start_index)
+    # elif structure == Structure.LIST_INDEX:
+    #     return parse_list_index(law, start_index)
     else:
         raise Exception("parse_" + structure.value +
                         " function does not exist")
+
+
+# Convenience wrapper for parse_primitive that doesn't return the end index
+def simple_parse_primitive(structure, law, start_index):
+    return parse_primitive(structure, law, start_index, return_end_index=False)
 
 
 def parse_primitive(structure, law, start_index, return_end_index=True):
@@ -297,7 +321,92 @@ def parse_complex_structure(
     return parsed_structure, end_index
 
 
+'''
+-----------------
+
+PARSE_X FUNCTIONS
+
+-----------------
+'''
+
+
+def parse_undang_undang(law):
     law = list(filterfalse(ignore_line, law))
+    return parse_complex_structure(
+        law,
+        0,
+        ancestor_structures=[],
+        sibling_structures=[],
+        child_structures=[Structure.BAB],
+    )
+
+
+def parse_bab(law, start_index):
+    parsed_structure = [
+        simple_parse_primitive(Structure.BAB_NUMBER, law, start_index),
+        simple_parse_primitive(Structure.BAB_TITLE, law, start_index+1),
+    ]
+
+    parsed_sub_structure, end_index = parse_complex_structure(
+        law,
+        start_index+2,
+        ancestor_structures=[],
+        sibling_structures=[Structure.BAB],
+        child_structures=[Structure.PASAL, Structure.BAGIAN])
+    parsed_structure.extend(parsed_sub_structure)
+
+    return parsed_structure, end_index
+
+
+def parse_pasal(law, start_index):
+    parsed_structure = [
+        simple_parse_primitive(Structure.PASAL_NUMBER, law, start_index),
+    ]
+
+    parsed_sub_structure, end_index = parse_complex_structure(
+        law,
+        start_index+1,
+        ancestor_structures=[Structure.BAB,
+                             Structure.BAGIAN, Structure.PARAGRAF],
+        sibling_structures=[Structure.PASAL],
+        child_structures=TEXT_BLOCK_STRUCTURES)
+    parsed_structure.extend(parsed_sub_structure)
+
+    return parsed_structure, end_index
+
+
+def parse_bagian(law, start_index):
+    parsed_structure = [
+        simple_parse_primitive(Structure.BAGIAN_NUMBER, law, start_index),
+        simple_parse_primitive(Structure.BAGIAN_TITLE, law, start_index+1),
+    ]
+
+    parsed_sub_structure, end_index = parse_complex_structure(
+        law,
+        start_index+2,
+        ancestor_structures=[Structure.BAB],
+        sibling_structures=[Structure.BAGIAN],
+        child_structures=[Structure.PASAL, Structure.PARAGRAF])
+    parsed_structure.extend(parsed_sub_structure)
+
+    return parsed_structure, end_index
+
+
+def parse_paragraf(law, start_index):
+    parsed_structure = [
+        simple_parse_primitive(Structure.PARAGRAF_NUMBER, law, start_index),
+        simple_parse_primitive(Structure.PARAGRAF_TITLE, law, start_index+1),
+    ]
+
+    parsed_sub_structure, end_index = parse_complex_structure(
+        law,
+        start_index+2,
+        ancestor_structures=[Structure.BAB, Structure.BAGIAN],
+        sibling_structures=[Structure.PARAGRAF],
+        child_structures=[Structure.PASAL])
+    parsed_structure.extend(parsed_sub_structure)
+
+    return parsed_structure, end_index
 
 
 
