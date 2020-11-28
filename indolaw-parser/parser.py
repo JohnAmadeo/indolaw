@@ -91,9 +91,6 @@ def detect_list_type(line):
 
 IS_START_OF_X FUNCTIONS
 
-TODO: If we add a HEADING_STRUCTURES & HEADING_TITLE_STRUCTURES enum,
-we can reduce the number of is_heading calls to 1
-
 -----------------
 '''
 
