@@ -408,10 +408,11 @@ __MAIN__
 '''
 
 if __name__ == "__main__":
-    filename = "tes"
-    if len(sys.argv) >= 2:
-        filename = sys.argv[1]
+    if len(sys.argv) < 2:
+        print('e.g python3 parser.py omnibus_law_m1')
+        exit()
 
+    filename = sys.argv[1]
     file = open(
         filename + '.txt',
         mode='r',
