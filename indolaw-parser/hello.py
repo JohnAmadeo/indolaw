@@ -48,6 +48,19 @@ PRIMITIVE_STRUCTURES = [
 ]
 
 
+'''
+-----------------
+
+UTILS
+
+-----------------
+'''
+
+
+def is_heading(regex, string):
+    return re.match('^[\s]*' + regex + '[\s]*$', string) != None
+
+
 def ignore_line(line):
     # end of page
     if ". . ." in line:
@@ -95,6 +108,13 @@ def is_start_of_structure(structure, law, start_index):
     '''
     if structure == Structure.UNDANG_UNDANG:
         return is_start_of_undang_undang(law, start_index)
+    # BAB
+    elif structure == Structure.BAB:
+        return is_start_of_bab(law, start_index)
+    elif structure == Structure.BAB_NUMBER:
+        return is_start_of_bab_number(law, start_index)
+    elif structure == Structure.BAB_TITLE:
+        return is_start_of_bab_title(law, start_index)
     else:
         function_name = '_'.join(structure.value.lower().split(' '))
         raise Exception('is_start_of_' + function_name +
@@ -103,6 +123,18 @@ def is_start_of_structure(structure, law, start_index):
 
 def is_start_of_undang_undang(law, start_index):
     return 'UNDANG-UNDANG' in law[start_index]
+
+
+def is_start_of_bab(law, start_index):
+    return is_heading('BAB [MDCLXVI]+', law[start_index])
+
+
+def is_start_of_bab_number(law, start_index):
+    return is_start_of_bab(law, start_index)
+
+
+def is_start_of_bab_title(law, start_index):
+    return is_start_of_bab_number(law, start_index-1)
 
 
 '''
