@@ -78,6 +78,36 @@ def detect_list_type(line):
 '''
 -----------------
 
+IS_START_OF_X FUNCTIONS
+
+TODO: If we add a HEADING_STRUCTURES & HEADING_TITLE_STRUCTURES enum,
+we can reduce the number of is_heading calls to 1
+
+-----------------
+'''
+
+
+def is_start_of_structure(structure, law, start_index):
+    '''
+    Assume that all the start of structure X heuristics are mutually exclusive
+    i.e if one of the is_start_of_X functions returns True, all the other 
+    is_start_of_X functions return False
+    '''
+    if structure == Structure.UNDANG_UNDANG:
+        return is_start_of_undang_undang(law, start_index)
+    else:
+        function_name = '_'.join(structure.value.lower().split(' '))
+        raise Exception('is_start_of_' + function_name +
+                        ' function does not exist')
+
+
+def is_start_of_undang_undang(law, start_index):
+    return 'UNDANG-UNDANG' in law[start_index]
+
+
+'''
+-----------------
+
 PARSE_X GENERIC FUNCTIONS
 
 -----------------
