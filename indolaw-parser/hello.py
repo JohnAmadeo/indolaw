@@ -34,6 +34,20 @@ class Structure(Enum):
     # NUMBER_IN_BRACKETS = "Number in Brackets"
     # NUMBER_WITH_DOT = "Number with Dot"
     # LETTER_WITH_DOT = "Letter with Dot"
+# Structures that do not have child structures,
+# and resolve to either a regex or just any unstructured text
+PRIMITIVE_STRUCTURES = [
+    Structure.PLAINTEXT,
+    Structure.BAB_NUMBER,
+    Structure.BAB_TITLE,
+    Structure.PASAL_NUMBER,
+    Structure.BAGIAN_NUMBER,
+    Structure.BAGIAN_TITLE,
+    Structure.PARAGRAF_NUMBER,
+    Structure.PARAGRAF_TITLE
+]
+
+
 def ignore_line(line):
     # end of page
     if ". . ." in line:
@@ -61,8 +75,25 @@ def detect_list_type(line):
         return ListType.INVALID
 
 
+'''
+-----------------
+
+PARSE_X GENERIC FUNCTIONS
+
+-----------------
+'''
 
 
+def parse_primitive(structure, law, start_index, return_end_index=True):
+    parsed_structure = {
+        'type': structure.value,
+        'text': law[start_index].rstrip()
+    }
+
+    if return_end_index:
+        return parsed_structure, start_index
+    else:
+        return parsed_structure
 
 
     law = list(filterfalse(ignore_line, law))
