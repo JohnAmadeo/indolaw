@@ -134,6 +134,9 @@ def is_start_of_structure(structure, law, start_index):
         return is_start_of_paragraf_number(law, start_index)
     elif structure == Structure.PARAGRAF_TITLE:
         return is_start_of_paragraf_title(law, start_index)
+    # OTHERS
+    elif structure == Structure.PLAINTEXT:
+        return is_start_of_plaintext(law, start_index)
     else:
         function_name = '_'.join(structure.value.lower().split(' '))
         raise Exception('is_start_of_' + function_name +
@@ -186,6 +189,20 @@ def is_start_of_bab_number(law, start_index):
 
 def is_start_of_bab_title(law, start_index):
     return is_start_of_bab_number(law, start_index-1)
+
+
+def is_start_of_plaintext(law, start_index):
+    # TODO: This is hilariously dumb. We should take in a list of the other
+    # child structures as an argument and check against that instead
+    # of literally every other structure
+    all_other_structures = list(
+        filter(lambda s: s != Structure.PLAINTEXT, list(Structure)))
+
+    for structure in all_other_structures:
+        if is_start_of_structure(structure, law, start_index):
+            return False
+
+    return True
 
 
 '''
