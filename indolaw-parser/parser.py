@@ -21,16 +21,17 @@ class Structure(Enum):
     PARAGRAF_TITLE = "Paragraf Title"
     PARAGRAF_NUMBER = "Paragraf Number"
     PLAINTEXT = "Plaintext"
-    # LIST = "List"
-    # LIST_ITEM = "List Item"
-    # LIST_INDEX = "List Index"
-    # NUMBER_IN_BRACKETS = "Number in Brackets"
-    # NUMBER_WITH_DOT = "Number with Dot"
-    # LETTER_WITH_DOT = "Letter with Dot"
+    LIST = "List"
+    LIST_ITEM = "List Item"
+    LIST_INDEX = "List Index"
+    NUMBER_WITH_BRACKETS = "Number in Brackets"
+    NUMBER_WITH_DOT = "Number with Dot"
+    LETTER_WITH_DOT = "Letter with Dot"
 
 
 # TODO: Add Structure.LIST and Structure.PASAL
-TEXT_BLOCK_STRUCTURES = [Structure.PLAINTEXT]
+# TEXT_BLOCK_STRUCTURES = [Structure.PLAINTEXT, Structure.LIST]
+TEXT_BLOCK_STRUCTURES = [Structure.PLAINTEXT, Structure.LIST_ITEM]
 
 # Structures that do not have child structures,
 # and resolve to either a regex or just any unstructured text
@@ -98,7 +99,7 @@ IS_START_OF_X FUNCTIONS
 def is_start_of_structure(structure, law, start_index):
     '''
     Assume that all the start of structure X heuristics are mutually exclusive
-    i.e if one of the is_start_of_X functions returns True, all the other 
+    i.e if one of the is_start_of_X functions returns True, all the other
     is_start_of_X functions return False
     '''
     if structure == Structure.UNDANG_UNDANG:
@@ -129,6 +130,19 @@ def is_start_of_structure(structure, law, start_index):
         return is_start_of_paragraf_number(law, start_index)
     elif structure == Structure.PARAGRAF_TITLE:
         return is_start_of_paragraf_title(law, start_index)
+    # LIST
+    elif structure == Structure.LIST:
+        return is_start_of_list(law, start_index)
+    elif structure == Structure.LIST_ITEM:
+        return is_start_of_list_item(law, start_index)
+    elif structure == Structure.LIST_INDEX:
+        return is_start_of_list_index(law, start_index)
+    elif structure == Structure.LETTER_WITH_DOT:
+        return is_start_of_letter_with_dot(law, start_index)
+    elif structure == Structure.NUMBER_WITH_DOT:
+        return is_start_of_number_with_dot(law, start_index)
+    elif structure == Structure.NUMBER_WITH_BRACKETS:
+        return is_start_of_number_with_brackets(law, start_index)
     # OTHERS
     elif structure == Structure.PLAINTEXT:
         return is_start_of_plaintext(law, start_index)
@@ -186,6 +200,53 @@ def is_start_of_bab_title(law, start_index):
     return is_start_of_bab_number(law, start_index-1)
 
 
+def is_start_of_list(law, start_index):
+    return is_start_of_list_item(law, start_index)
+
+
+def is_start_of_list_item(law, start_index):
+    return is_start_of_letter_with_dot(law, start_index) or \
+        is_start_of_number_with_dot(law, start_index) or \
+        is_start_of_number_with_brackets(law, start_index)
+
+
+def is_start_of_list_index(law, start_index):
+    return is_start_of_letter_with_dot(law, start_index) or \
+        is_start_of_number_with_dot(law, start_index) or \
+        is_start_of_number_with_brackets(law, start_index)
+
+
+def is_start_of_letter_with_dot(law, start_index):
+    string = law[start_index].split(' ')[0]
+    return string.isalpha() and string == '.'
+
+
+def is_start_of_number_with_dot(law, start_index):
+    string = law[start_index].split(' ')[0]
+    return is_heading('[0-9]+\.', string)
+
+
+def is_start_of_number_with_brackets(law, start_index):
+    string = law[start_index].split(' ')[0]
+    return is_heading('\([0-9]+\)', string)
+
+
+def detect_list_type(line):
+    # e.g (5)
+    # TODO(johnamadeo): Use regex instead - this doesn't work for (12)
+    if line[0] == "(" and line[2] == ")":
+        return Structure.NUMBER_IN_BRACKETS
+    # e.g 5.
+    # TODO(johnamadeo): Use regex instead - this doesn't work for 112.
+    elif (line[1] == '.' or line[2] == '.') and line[0].isdigit():
+        return Structure.NUMBER_WITH_DOT
+    # e.g c.
+    elif line[1] == '.' and line[0].islower():
+        return Structure.LETTER_WITH_DOT
+    else:
+        return Structure.INVALID
+
+
 def is_start_of_plaintext(law, start_index):
     # TODO: This is hilariously dumb. We should take in a list of the other
     # child structures as an argument and check against that instead
@@ -220,12 +281,12 @@ def parse_structure(structure, law, start_index):
         return parse_bagian(law, start_index)
     elif structure == Structure.PARAGRAF:
         return parse_paragraf(law, start_index)
-    # elif structure == Structure.LIST:
-    #     return parse_list(law, start_index)
-    # elif structure == Structure.LIST_ITEM:
-    #     return parse_list_item(law, start_index)
-    # elif structure == Structure.LIST_INDEX:
-    #     return parse_list_index(law, start_index)
+    elif structure == Structure.LIST:
+        return parse_list(law, start_index)
+    elif structure == Structure.LIST_ITEM:
+        return parse_list_item(law, start_index)
+    elif structure == Structure.LIST_INDEX:
+        return parse_list_index(law, start_index)
     else:
         raise Exception("parse_" + structure.value +
                         " function does not exist")
@@ -263,7 +324,7 @@ def parse_complex_structure(
     At a high level, the logic is:
     - let's say we know that structure X (e.g a Pasal) starts at line no. Y
     - starting from line line no.:
-        - check if current line is the end of structure X 
+        - check if current line is the end of structure X
         (e.g have we arrived at another Pasal? or is this the end of the Bab that the Pasal is in?)
         - if yes, return the hierarchy for structure X, along w/ the line no. at which structure X ends
 
@@ -304,7 +365,15 @@ def parse_complex_structure(
 
         parsed_sub_structure, end_index = parse_structure(
             structure, law, start_index)
-        start_index = end_index + 1
+        '''
+        TODO(johnamadeo) See if more elegant way to handle list index
+        '''
+        if type(parsed_sub_structure) == dict and \
+                'type' in parsed_sub_structure and \
+                parsed_sub_structure['type'] == Structure.LIST_INDEX:
+            start_index = end_index
+        else:
+            start_index = end_index + 1
 
         parsed_structure.append(parsed_sub_structure)
 
@@ -399,6 +468,117 @@ def parse_paragraf(law, start_index):
     return parsed_structure, end_index
 
 
+def parse_list(law, start_index):
+    return parse_complex_structure(
+        law,
+        start_index,
+        ancestor_structures=[Structure.PASAL,
+                             Structure.PARAGRAF, Structure.BAGIAN, Structure.BAB],
+        sibling_structures=[Structure.PLAINTEXT],
+        child_structures=[Structure.LIST_ITEM])
+
+
+def parse_list_item(law, start_index):
+    return parse_complex_structure(
+        law,
+        start_index,
+        # ancestor_structures=[Structure.PASAL, Structure.PARAGRAF,
+        #                      Structure.BAGIAN, Structure.BAB, Structure.LIST],
+        ancestor_structures=[Structure.PASAL, Structure.PARAGRAF,
+                             Structure.BAGIAN, Structure.BAB],
+        sibling_structures=[Structure.LIST_ITEM],
+        child_structures=[Structure.LIST_INDEX] + TEXT_BLOCK_STRUCTURES)
+
+
+def parse_list_index(law, start_index):
+    if is_start_of_letter_with_dot(law, start_index):
+        return parse_primitive(Structure.LETTER_WITH_DOT, law, start_index)
+    elif is_start_of_number_with_dot(law, start_index):
+        return parse_primitive(Structure.NUMBER_WITH_DOT, law, start_index),
+    elif is_start_of_number_with_brackets(law, start_index):
+        return parse_primitive(Structure.NUMBER_WITH_BRACKETS, law, start_index)
+
+
+def parse_list_item_TEST(
+    law,
+    start_index,
+    list_index,
+    ancestor_structures,
+    sibling_structures,
+    child_structures
+):
+    '''
+    This is the core algorithm for parsing a complex structure: a structure that is
+    composed of other structures(a.k.a child structures).
+
+    At a high level, the logic is:
+    - let's say we know that structure X (e.g a Pasal) starts at line no. Y
+    - starting from line line no.:
+        - check if current line is the end of structure X
+        (e.g have we arrived at another Pasal? or is this the end of the Bab that the Pasal is in?)
+        - if yes, return the hierarchy for structure X, along w/ the line no. at which structure X ends
+
+        - check if current line is the start of a child structure
+        - if yes, recursively call the parsing function that handles that child structure
+        - the parsing function that handles the child structure will return:
+            - the hierarchy for the child structure
+            - the line no. Z at which the child structure ends
+
+        - repeat the process starting at line no. Z+1
+    - return hierarchy for structure X, along w/ the line no. W at which structure X ends
+
+    If this doesn't feel intuitive, the best way to understand the algorithm is go through the text
+    of the law by hand w/ pen and paper and apply the algorithm as implemented below!
+    '''
+
+    parsed_structure = []
+
+    end_index = start_index-1
+    while end_index < len(law)-1:
+        structure = None
+
+        for ancestor_structure in ancestor_structures:
+            # BUT WHAT IF THE ANCESTOR IS A LIST (i.e nested list)
+            # nested list always have different type than
+            # the direct ancestor
+            if is_start_of_structure(ancestor_structure, law, start_index):
+                return parsed_structure, end_index
+
+            # if line is plaintext, it's a plaintext sibling and return
+
+            # if line is a list item, compare the line no. and type against
+            # the current line no. and type
+            # if it's the same, keep going
+            # if it's current + 1 (and same type), then we've reached a sibling
+            # list item
+
+        # check if we've reached the start of a child structure
+        for child_structure in child_structures:
+            if is_start_of_structure(child_structure, law, start_index):
+                structure = child_structure
+                break
+
+        if structure == None:
+            raise Exception(
+                'Unable to detect the right structure for line: ' + law[start_index])
+
+        parsed_sub_structure, end_index = parse_structure(
+            structure, law, start_index)
+        '''
+        TODO(johnamadeo) See if more elegant way to handle list index
+        '''
+        if type(parsed_sub_structure) == dict and \
+                'type' in parsed_sub_structure and \
+                parsed_sub_structure['type'] == Structure.LIST_INDEX:
+            start_index = end_index
+        else:
+            start_index = end_index + 1
+
+        parsed_structure.append(parsed_sub_structure)
+
+    return parsed_structure, end_index
+
+
 '''
 -----------------
 
@@ -423,3 +603,14 @@ if __name__ == "__main__":
 
     with open(filename + '.json', 'w') as outfile:
         json.dump(parsed_undang_undang, outfile)
+
+'''
+parse_undang_undang
+    parse_bab
+        parse_bab_number
+        parse_bab_title
+        parse_pasal
+            parse_pasal_number
+            parse_plaintext
+            parse_list
+'''
