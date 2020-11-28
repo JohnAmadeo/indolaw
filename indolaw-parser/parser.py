@@ -5,13 +5,6 @@ import re
 from itertools import filterfalse
 
 
-class ListType(Enum):
-    INVALID = 0
-    NUMBER_IN_BRACKETS = 1
-    NUMBER_WITH_DOT = 2
-    LETTER_WITH_DOT = 3
-
-
 class Structure(Enum):
     # END = "End"
     # SKIP = "Skip"
@@ -81,16 +74,16 @@ def detect_list_type(line):
     # e.g (5)
     # TODO(johnamadeo): Use regex instead - this doesn't work for (12)
     if line[0] == "(" and line[2] == ")":
-        return ListType.NUMBER_IN_BRACKETS
+        return Structure.NUMBER_IN_BRACKETS
     # e.g 5.
     # TODO(johnamadeo): Use regex instead - this doesn't work for 112.
     elif (line[1] == '.' or line[2] == '.') and line[0].isdigit():
-        return ListType.NUMBER_WITH_DOT
+        return Structure.NUMBER_WITH_DOT
     # e.g c.
     elif line[1] == '.' and line[0].islower():
-        return ListType.LETTER_WITH_DOT
+        return Structure.LETTER_WITH_DOT
     else:
-        return ListType.INVALID
+        return Structure.INVALID
 
 
 '''
