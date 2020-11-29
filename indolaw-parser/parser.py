@@ -318,6 +318,8 @@ def parse_complex_structure(
     child_structures
 ):
     '''
+    NOTE: List-related structures should be parsed by parse_list_item
+
     This is the core algorithm for parsing a complex structure: a structure that is
     composed of other structures(a.k.a child structures).
 
@@ -342,6 +344,7 @@ def parse_complex_structure(
     '''
 
     parsed_structure = []
+    initial_start_index = start_index
 
     end_index = start_index-1
     while end_index < len(law)-1:
@@ -352,6 +355,20 @@ def parse_complex_structure(
         for ancestor_or_sibling_structure in ancestor_structures + sibling_structures:
             if is_start_of_structure(ancestor_or_sibling_structure, law, start_index):
                 return parsed_structure, end_index
+        '''
+        For a complex structure, the very 1st line must be part of
+        the structure / cannot be the start of an ancestor or sibling
+        structure.
+
+        e.g if we are in parse_bab, the first time we see "BAB III" marks the
+        start of the current bab, not the start of a sibling bab
+        '''
+        if start_index > initial_start_index:
+            # check if we've reached the end of this structure by checking
+            # if this is the start of a sibling or ancestor structure
+            for ancestor_or_sibling_structure in ancestor_structures + sibling_structures:
+                if is_start_of_structure(ancestor_or_sibling_structure, law, start_index):
+                    return parsed_structure, end_index
 
         # check if we've reached the start of a child structure
         for child_structure in child_structures:
@@ -374,6 +391,7 @@ def parse_complex_structure(
             start_index = end_index
         else:
             start_index = end_index + 1
+        start_index = end_index + 1
 
         parsed_structure.append(parsed_sub_structure)
 
