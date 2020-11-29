@@ -85,6 +85,22 @@ def detect_list_type(line):
         return Structure.LETTER_WITH_DOT
     else:
         return Structure.INVALID
+def clean_law(law):
+    law = list(filterfalse(ignore_line, law))
+
+    new_law = []
+    for i, line in enumerate(law):
+        # if line has a list index e.g '4. Ketentuan diubah sebagai berikut'
+        # we want to process it into 2 separate lines: '4.' and 'Ketentuan diubah sebagai berikut'
+        # this makes parsing for LIST_ITEM and LIST_INDEX more convenient later on
+        if is_start_of_list_index(law, i):
+            line_split = line.split(' ')
+            new_law.append(line_split[0])
+            new_law.append(' '.join(line_split[1:]))
+        else:
+            new_law.append(line)
+
+    return new_law
 
 
 '''
@@ -409,6 +425,7 @@ PARSE_X FUNCTIONS
 
 def parse_undang_undang(law):
     law = list(filterfalse(ignore_line, law))
+    law = clean_law(law)
     return parse_complex_structure(
         law,
         0,
