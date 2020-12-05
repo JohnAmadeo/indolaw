@@ -539,6 +539,120 @@ def parse_paragraf(law, start_index):
     return parsed_structure, end_index
 
 
+'''
+in parse_list, we might run into ancestor lists, but not child lists, because 
+any child lists should be embedded inside a list item
+'''
+
+
+def parse_list(law, start_index):
+    # print('parse_list : ', law[start_index])
+    parsed_list = []
+
+    non_recursive_ancestors = [Structure.PASAL, Structure.PARAGRAF,
+                               Structure.BAGIAN, Structure.BAB]
+
+    initial_start_index = start_index
+    end_index = start_index-1
+    while end_index < len(law)-1:
+
+        not_first_line = start_index > initial_start_index
+        start_of_non_recursive_ancestors = is_start_of_any(
+            non_recursive_ancestors, law, start_index)
+        if not_first_line and start_of_non_recursive_ancestors:
+            return parsed_list, end_index
+
+        '''
+        If there is already 1 list item parsed, we need to check if the next list item
+        is part of the same list or part of an ancestor list. 
+
+        We know the next list item can't be part of a child list because if it was, 
+        it would have been parsed by a parse_list_item call further down the recursion tree
+
+        (this isn't super obvious and requires some thinking: try it on the e.g below)
+        e.g
+        1. 
+        Hello world
+            1.
+            The quick brown fox
+            2.
+            The quick brown fox
+        2.
+        Hello world
+        '''
+        if len(parsed_list) > 0:
+            parsed_list_item = parsed_list[-1]
+            parsed_list_index = parsed_list_item[0]
+            curr_list_index_type = getEnumFromValue(parsed_list_index['type'])
+            curr_list_index_number = parsed_list_index['text']
+
+            next_list_index_type = get_list_index_type(law[start_index])
+            next_list_index_number = law[start_index].rstrip()
+            '''
+            Suppose the current list is of type NUMBER_WITH_DOT. But the current line
+            is the start of a NUMBER_WITH_BRACKETS. 
+
+            Therefore the list item that starts at this line cannot be part of this list
+            (it can't be a child either - see comment block above this one). Hence, it 
+            must be an ancestor
+            '''
+            if curr_list_index_type != next_list_index_type:
+                # print('Different list index type ' +
+                #       curr_list_index_type.value + ' ' + list_index_type.value)
+                return parsed_list, end_index
+            '''
+            Suppose the current list is of type X (e.g NUMBER_WITH_DOT) and the current line
+            is the start of a list item that is also of type X.
+
+            If the current list item's number is NOT 1 larger than the last list item's number, then the 
+            current list item can't be part of this list.
+
+            i.e if the last list item's number is 10. and the current list item's number is 12. 
+            or 5., the current list item is clearly not part of this list
+
+            TODO(johnamadeo): Need to handle alphanumeric progression 24a. -> 24b.
+            
+            However, if the current list item's number is 1 larger than the last list item's number 
+            (i.e a. -> b. OR (7) -> (8) OR 10. -> 11.) THERE IS NO 100% WAY to distinguish whether 
+            this list item is part of the current list or an ancestor list
+
+            This is because these 2 lists are indistinguishable:
+
+            1. Lorem ipsum
+            2. Lorem ipsum
+                1. Lorem ipsum
+                2. Lorem ipsum
+                3. Lorem ipsum
+
+            versus
+
+            1. Lorem ipsum
+            2. Lorem ipsum
+                1. Lorem ipsum
+                2. Lorem ipsum
+            3. Lorem ipsum
+
+            Suppose we are in the nested list, and we see "3. Lorem ipsum". We have
+            no idea if "3. Lorem ipsum" is part of this list or an ancestor list 
+            because they are equally valid.
+
+            Heuristically, however, it's more likely that this current
+            list item is indeed part of this list so that's what we assume for now.
+            '''
+            if not is_next_list_index_number(curr_list_index_number, next_list_index_number):
+                return parsed_list, end_index
+            else:
+                # TODO(johnamadeo): Ask the human for input in this case
+                pass
+
+        # LIST's only child structure is LIST_ITEM
+        parsed_list_item, end_index = parse_list_item(law, start_index)
+        parsed_list.append(parsed_list_item)
+        start_index = end_index + 1
+
+    return parsed_list, end_index
+
+
 def parse_list_item(law, start_index):
     # print('parse_list_item : ', law[start_index])
     '''
