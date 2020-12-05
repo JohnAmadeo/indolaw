@@ -76,20 +76,20 @@ def ignore_line(line):
         return False
 
 
-def detect_list_type(line):
-    # e.g (5)
-    # TODO(johnamadeo): Use regex instead - this doesn't work for (12)
-    if line[0] == "(" and line[2] == ")":
-        return Structure.NUMBER_IN_BRACKETS
-    # e.g 5.
-    # TODO(johnamadeo): Use regex instead - this doesn't work for 112.
-    elif (line[1] == '.' or line[2] == '.') and line[0].isdigit():
+def get_list_index_type(string):
+    if type(string) is not str:
+        return None
+
+    if is_start_of_number_with_brackets_str(string):
+        return Structure.NUMBER_WITH_BRACKETS
+    elif is_start_of_number_with_dot_str(string):
         return Structure.NUMBER_WITH_DOT
-    # e.g c.
-    elif line[1] == '.' and line[0].islower():
+    elif is_start_of_letter_with_dot_str(string):
         return Structure.LETTER_WITH_DOT
     else:
-        return Structure.INVALID
+        return None
+
+
 def get_list_index_as_num(regex, string):
     number_string = re.match(regex, string).group(1)
     # e.g '100'
