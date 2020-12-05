@@ -128,6 +128,13 @@ def is_start_of_first_list_index(string):
     return list_index in set(['a.', '1.', '(1)'])
 
 
+def is_start_of_any(structures, law, start_index):
+    for structure in structures:
+        if is_start_of_structure(structure, law, start_index):
+            return True
+    return False
+
+
 def clean_law(law):
     law = list(filterfalse(ignore_line, law))
 
