@@ -94,7 +94,7 @@ def clean_law(law):
         # we want to process it into 2 separate lines: '4.' and 'Ketentuan diubah sebagai berikut'
         # this makes parsing for LIST_ITEM and LIST_INDEX more convenient later on
         if is_start_of_list_index(law, i):
-            line_split = line.split(' ')
+            line_split = line.split()
             new_law.append(line_split[0])
             new_law.append(' '.join(line_split[1:]))
         else:
