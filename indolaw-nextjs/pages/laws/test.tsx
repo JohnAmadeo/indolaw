@@ -55,7 +55,7 @@ function renderPrimitive(structure: any, depth: number) {
 }
 
 export const getStaticProps: GetStaticProps = async () => {
-  const filePath = "omnibus_law_m1_hand_modified.json";
+  const filePath = "../indolaw-parser/omnibus_law_pg_3_13.json";
   const file = fs.readFileSync(filePath, "utf8");
 
   return {

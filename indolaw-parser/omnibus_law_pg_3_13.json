@@ -1,0 +1,849 @@
+[
+  [
+    { "type": "Bab Number", "text": "BAB I" },
+    { "type": "Bab Title", "text": "KETENTUAN UMUM" },
+    [
+      { "type": "Pasal Number", "text": "Pasal 1" },
+      {
+        "type": "Plaintext",
+        "text": "Dalam Undang-Undang ini yang dimaksud dengan:"
+      },
+      [
+        [
+          { "type": "Number with Dot", "text": "1." },
+          {
+            "type": "Plaintext",
+            "text": "Cipta Kerja adalah upaya penciptaan kerja melalui usaha kemudahan, perlindungan, dan pemberdayaan koperasi dan usaha mikro, kecil, dan menengah, peningkatan ekosistem investasi dan kemudahan berusaha, dan investasi Pemerintah Pusat dan percepatan proyek strategis nasional."
+          }
+        ],
+        [
+          { "type": "Number with Dot", "text": "2." },
+          {
+            "type": "Plaintext",
+            "text": "Koperasi adalah koperasi sebagaimana dimaksud dalam Undang-Undang tentang Perkoperasian."
+          }
+        ],
+        [
+          { "type": "Number with Dot", "text": "3." },
+          {
+            "type": "Plaintext",
+            "text": "Usaha Mikro, Kecil, dan Menengah yang selanjutnya disingkat UMK-M adalah usaha mikro, usaha kecil, dan usaha menengah sebagaimana dimaksud dalam Undang Undang tentang Usaha Mikro, Kecil, dan Menengah."
+          }
+        ],
+        [
+          { "type": "Number with Dot", "text": "4." },
+          {
+            "type": "Plaintext",
+            "text": "Perizinan Berusaha adalah legalitas yang diberikan kepada Pelaku Usaha untuk memulai dan menjalankan usaha dan/atau kegiatannya."
+          }
+        ],
+        [
+          { "type": "Number with Dot", "text": "5." },
+          {
+            "type": "Plaintext",
+            "text": "Pemerintah Pusat adalah Presiden Republik Indonesia yang memegang kekuasaan pemerintahan negara Republik Indonesia yang dibantu oleh Wakil Presiden dan menteri sebagaimana dimaksud dalam Undang-Undang Dasar Negara Republik Indonesia Tahun 1945."
+          }
+        ],
+        [
+          { "type": "Number with Dot", "text": "6." },
+          {
+            "type": "Plaintext",
+            "text": "Pemerintahan Daerah adalah penyelenggaraan urusan pemerintahan oleh Pemerintah Daerah dan dewan perwakilan rakyat daerah menurut asas otonomi dan tugas pembantuan dengan prinsip otonomi seluas-luasnya dalam sistem dan prinsip Negara Kesatuan Republik Indonesia sebagaimana dimaksud dalam Undang-Undang Dasar Negara Republik Indonesia Tahun 1945."
+          }
+        ],
+        [
+          { "type": "Number with Dot", "text": "7." },
+          {
+            "type": "Plaintext",
+            "text": "Pemerintah Daerah adalah kepala daerah sebagai unsur penyelenggara Pemerintahan Daerah yang memimpin pelaksanaan urusan pemerintahan yang menjadi kewenangan daerah otonom."
+          }
+        ],
+        [
+          { "type": "Number with Dot", "text": "8." },
+          {
+            "type": "Plaintext",
+            "text": "Pelaku Usaha adalah orang perseorangan atau badan usaha yang melakukan usaha dan/atau kegiatan pada bidang tertentu."
+          }
+        ],
+        [
+          { "type": "Number with Dot", "text": "9." },
+          {
+            "type": "Plaintext",
+            "text": "Badan Usaha adalah badan usaha berbentuk badan hukum atau tidak berbentuk badan hukum yang didirikan di wilayah Negara Kesatuan Republik Indonesia dan melakukan usaha dan/atau kegiatan pada bidang tertentu."
+          }
+        ],
+        [
+          { "type": "Number with Dot", "text": "10." },
+          {
+            "type": "Plaintext",
+            "text": "Rencana Detail Tata Ruang yang selanjutnya disingkat RDTR adalah rencana secara terperinci tentang tata ruang wilayah kabupaten/kota yang dilengkapi dengan peraturan zonasi kabupaten/kota."
+          }
+        ],
+        [
+          { "type": "Number with Dot", "text": "11." },
+          {
+            "type": "Plaintext",
+            "text": "Persetujuan Bangunan Gedung adalah perizinan yang diberikan kepada pemilik bangunan gedung untuk membangun baru, mengubah, memperluas, mengurangi, dan/atau merawat bangunan gedung sesuai dengan standar teknis Bangunan Gedung."
+          }
+        ],
+        [
+          { "type": "Number with Dot", "text": "12." },
+          {
+            "type": "Plaintext",
+            "text": "Hari adalah hari kerja sesuai dengan yang ditetapkan oleh Pemerintah Pusat."
+          }
+        ]
+      ]
+    ]
+  ],
+  [
+    { "type": "Bab Number", "text": "BAB II" },
+    { "type": "Bab Title", "text": "ASAS, TUJUAN, DAN RUANG LINGKUP" },
+    [
+      { "type": "Pasal Number", "text": "Pasal 2" },
+      [
+        [
+          { "type": "Number with Brackets", "text": "(1)" },
+          {
+            "type": "Plaintext",
+            "text": "Undang-Undang ini diselenggarakan berdasarkan asas: a. pemerataan hak;"
+          }
+        ]
+      ],
+      [
+        [
+          { "type": "Letter with Dot", "text": "b." },
+          { "type": "Plaintext", "text": "kepastian hukum;" }
+        ],
+        [
+          { "type": "Letter with Dot", "text": "c." },
+          { "type": "Plaintext", "text": "kemudahan berusaha;" }
+        ],
+        [
+          { "type": "Letter with Dot", "text": "d." },
+          { "type": "Plaintext", "text": "kebersamaan; dan" }
+        ],
+        [
+          { "type": "Letter with Dot", "text": "e." },
+          { "type": "Plaintext", "text": "kemandirian." }
+        ]
+      ],
+      [
+        [
+          { "type": "Number with Brackets", "text": "(2)" },
+          {
+            "type": "Plaintext",
+            "text": "Selain berdasarkan asas sebagaimana dimaksud pada ayat (1), penyelenggaraan Cipta Kerja dilaksanakan berdasarkan asas lain sesuai dengan bidang hukum yang diatur dalam undang-undang yang bersangkutan."
+          }
+        ]
+      ]
+    ],
+    [
+      { "type": "Pasal Number", "text": "Pasal 3" },
+      {
+        "type": "Plaintext",
+        "text": "Undang-Undang ini dibentuk dengan tujuan untuk:"
+      },
+      [
+        [
+          { "type": "Letter with Dot", "text": "a." },
+          {
+            "type": "Plaintext",
+            "text": "menciptakan dan meningkatkan lapangan kerja dengan memberikan kemudahan, pelindungan, dan pemberdayaan terhadap koperasi dan UMK-M serta industri dan perdagangan nasional sebagai upaya untuk dapat menyerap tenaga kerja Indonesia yang seluas-luasnya dengan tetap memperhatikan keseimbangan dan kemajuan antardaerah dalam kesatuan ekonomi nasional;"
+          }
+        ],
+        [
+          { "type": "Letter with Dot", "text": "b." },
+          {
+            "type": "Plaintext",
+            "text": "menjamin setiap warga negara memperoleh pekerjaan, serta mendapat imbalan dan perlakuan yang adil dan layak dalam hubungan kerja;"
+          }
+        ],
+        [
+          { "type": "Letter with Dot", "text": "c." },
+          {
+            "type": "Plaintext",
+            "text": "melakukan penyesuaian berbagai aspek pengaturan yang berkaitan dengan keberpihakan, penguatan, dan perlindungan bagi koperasi dan UMK-M serta industri nasional; dan"
+          }
+        ],
+        [
+          { "type": "Letter with Dot", "text": "d." },
+          {
+            "type": "Plaintext",
+            "text": "melakukan penyesuaian berbagai aspek pengaturan yang berkaitan dengan peningkatan ekosistem investasi, kemudahan dan percepatan proyek strategis nasional yang berorientasi pada kepentingan nasional yang berlandaskan pada ilmu pengetahuan dan teknologi nasional dengan berpedoman pada haluan ideologi Pancasila."
+          }
+        ]
+      ]
+    ],
+    [
+      { "type": "Pasal Number", "text": "Pasal 4" },
+      {
+        "type": "Plaintext",
+        "text": "Dalam rangka mencapai tujuan sebagaimana dimaksud dalam  Pasal 3, ruang lingkup Undang-Undang ini mengatur  kebijakan strategis Cipta Kerja yang meliputi:"
+      },
+      [
+        [
+          { "type": "Letter with Dot", "text": "a." },
+          {
+            "type": "Plaintext",
+            "text": "peningkatan ekosistem investasi dan kegiatan berusaha; b. ketenagakerjaan;"
+          }
+        ]
+      ],
+      [
+        [
+          { "type": "Letter with Dot", "text": "c." },
+          {
+            "type": "Plaintext",
+            "text": "kemudahan, pelindungan, serta pemberdayaan koperasi dan UMK-M;"
+          }
+        ],
+        [
+          { "type": "Letter with Dot", "text": "d." },
+          { "type": "Plaintext", "text": "kemudahan berusaha;" }
+        ],
+        [
+          { "type": "Letter with Dot", "text": "e." },
+          { "type": "Plaintext", "text": "dukungan riset dan inovasi;" }
+        ],
+        [
+          { "type": "Letter with Dot", "text": "f." },
+          { "type": "Plaintext", "text": "pengadaan tanah;" }
+        ],
+        [
+          { "type": "Letter with Dot", "text": "g." },
+          { "type": "Plaintext", "text": "kawasan ekonomi;" }
+        ],
+        [
+          { "type": "Letter with Dot", "text": "h." },
+          {
+            "type": "Plaintext",
+            "text": "investasi Pemerintah Pusat dan percepatan proyek strategis nasional;"
+          }
+        ],
+        [
+          { "type": "Letter with Dot", "text": "i." },
+          {
+            "type": "Plaintext",
+            "text": "pelaksanaan administrasi pemerintahan; dan"
+          }
+        ],
+        [
+          { "type": "Letter with Dot", "text": "j." },
+          { "type": "Plaintext", "text": "pengenaan sanksi." }
+        ]
+      ]
+    ],
+    [
+      { "type": "Pasal Number", "text": "Pasal 5" },
+      {
+        "type": "Plaintext",
+        "text": "Ruang lingkup sebagaimana dimaksud dalam Pasal 4 meliputi  bidang hukum yang diatur dalam undang-undang terkait."
+      }
+    ]
+  ],
+  [
+    { "type": "Bab Number", "text": "BAB III" },
+    {
+      "type": "Bab Title",
+      "text": "PENINGKATAN EKOSISTEM INVESTASI DAN KEGIATAN BERUSAHA"
+    },
+    [
+      { "type": "Bagian Number", "text": "Bagian Kesatu" },
+      { "type": "Bagian Title", "text": "Umum" },
+      [
+        { "type": "Pasal Number", "text": "Pasal 6" },
+        {
+          "type": "Plaintext",
+          "text": "Peningkatan ekosistem investasi dan kegiatan berusaha  sebagaimana dimaksud dalam Pasal 5 ayat (1) huruf a  meliputi:"
+        },
+        [
+          [
+            { "type": "Letter with Dot", "text": "a." },
+            {
+              "type": "Plaintext",
+              "text": "penerapan Perizinan Berusaha berbasis risiko;"
+            }
+          ],
+          [
+            { "type": "Letter with Dot", "text": "b." },
+            {
+              "type": "Plaintext",
+              "text": "penyederhanaan persyaratan dasar Perizinan Berusaha; c. penyederhanaan Perizinan Berusaha sektor; dan"
+            }
+          ]
+        ],
+        [
+          [
+            { "type": "Letter with Dot", "text": "d." },
+            {
+              "type": "Plaintext",
+              "text": "penyederhanaan persyaratan investasi."
+            }
+          ]
+        ]
+      ]
+    ],
+    [
+      { "type": "Bagian Number", "text": "Bagian Kedua" },
+      {
+        "type": "Bagian Title",
+        "text": "Penerapan Perizinan Berusaha Berbasis Risiko"
+      },
+      [
+        { "type": "Paragraf Number", "text": "Paragraf 1" },
+        { "type": "Paragraf Title", "text": "Umum" },
+        [
+          { "type": "Pasal Number", "text": "Pasal 7" },
+          [
+            [
+              { "type": "Number with Brackets", "text": "(1)" },
+              {
+                "type": "Plaintext",
+                "text": "Perizinan Berusaha berbasis risiko sebagaimana dimaksud dalam Pasal 6 huruf a dilakukan berdasarkan penetapan tingkat risiko dan peringkat skala usaha kegiatan usaha."
+              }
+            ],
+            [
+              { "type": "Number with Brackets", "text": "(2)" },
+              {
+                "type": "Plaintext",
+                "text": "Penetapan tingkat risiko dan peringkat skala usaha sebagaimana dimaksud pada ayat (1) diperoleh berdasarkan penilaian tingkat bahaya dan potensi terjadinya bahaya."
+              }
+            ],
+            [
+              { "type": "Number with Brackets", "text": "(3)" },
+              {
+                "type": "Plaintext",
+                "text": "Penilaian tingkat bahaya sebagaimana dimaksud pada ayat (2) dilakukan terhadap aspek:"
+              },
+              [
+                [
+                  { "type": "Letter with Dot", "text": "a." },
+                  { "type": "Plaintext", "text": "kesehatan;" }
+                ],
+                [
+                  { "type": "Letter with Dot", "text": "b." },
+                  { "type": "Plaintext", "text": "keselamatan;" }
+                ],
+                [
+                  { "type": "Letter with Dot", "text": "c." },
+                  { "type": "Plaintext", "text": "lingkungan; dan/atau" }
+                ],
+                [
+                  { "type": "Letter with Dot", "text": "d." },
+                  {
+                    "type": "Plaintext",
+                    "text": "pemanfaatan dan pengelolaan sumber daya."
+                  }
+                ]
+              ]
+            ],
+            [
+              { "type": "Number with Brackets", "text": "(4)" },
+              {
+                "type": "Plaintext",
+                "text": "Untuk kegiatan tertentu, penilaian tingkat bahaya sebagaimana dimaksud pada ayat (3) dapat mencakup aspek lainnya sesuai dengan sifat kegiatan usaha."
+              }
+            ],
+            [
+              { "type": "Number with Brackets", "text": "(5)" },
+              {
+                "type": "Plaintext",
+                "text": "Penilaian tingkat bahaya sebagaimana dimaksud pada ayat (3) dan ayat (4) dilakukan dengan memperhitungkan:"
+              },
+              [
+                [
+                  { "type": "Letter with Dot", "text": "a." },
+                  { "type": "Plaintext", "text": "jenis kegiatan usaha;" }
+                ],
+                [
+                  { "type": "Letter with Dot", "text": "b." },
+                  { "type": "Plaintext", "text": "kriteria kegiatan usaha;" }
+                ],
+                [
+                  { "type": "Letter with Dot", "text": "c." },
+                  { "type": "Plaintext", "text": "lokasi kegiatan usaha;" }
+                ],
+                [
+                  { "type": "Letter with Dot", "text": "d." },
+                  {
+                    "type": "Plaintext",
+                    "text": "keterbatasan sumber daya; dan/atau"
+                  }
+                ],
+                [
+                  { "type": "Letter with Dot", "text": "e." },
+                  { "type": "Plaintext", "text": "risiko volatilitas." }
+                ]
+              ]
+            ],
+            [
+              { "type": "Number with Brackets", "text": "(6)" },
+              {
+                "type": "Plaintext",
+                "text": "Penilaian potensi terjadinya bahaya sebagaimana dimaksud pada ayat (2) meliputi:"
+              },
+              [
+                [
+                  { "type": "Letter with Dot", "text": "a." },
+                  {
+                    "type": "Plaintext",
+                    "text": "hampir tidak mungkin terjadi;"
+                  }
+                ],
+                [
+                  { "type": "Letter with Dot", "text": "b." },
+                  { "type": "Plaintext", "text": "kemungkinan kecil terjadi;" }
+                ],
+                [
+                  { "type": "Letter with Dot", "text": "c." },
+                  { "type": "Plaintext", "text": "kemungkinan terjadi; atau" }
+                ],
+                [
+                  { "type": "Letter with Dot", "text": "d." },
+                  { "type": "Plaintext", "text": "hampir pasti terjadi." }
+                ]
+              ]
+            ],
+            [
+              { "type": "Number with Brackets", "text": "(7)" },
+              {
+                "type": "Plaintext",
+                "text": "Berdasarkan penilaian tingkat bahaya sebagaimana dimaksud pada ayat (3), ayat (4), dan ayat (5), serta penilaian potensi terjadinya bahaya sebagaimana dimaksud pada ayat (6), tingkat risiko dan peringkat skala usaha kegiatan usaha ditetapkan menjadi:"
+              },
+              [
+                [
+                  { "type": "Letter with Dot", "text": "a." },
+                  {
+                    "type": "Plaintext",
+                    "text": "kegiatan usaha berisiko rendah;"
+                  }
+                ],
+                [
+                  { "type": "Letter with Dot", "text": "b." },
+                  {
+                    "type": "Plaintext",
+                    "text": "kegiatan usaha berisiko menengah; atau"
+                  }
+                ],
+                [
+                  { "type": "Letter with Dot", "text": "c." },
+                  {
+                    "type": "Plaintext",
+                    "text": "kegiatan usaha berisiko tinggi."
+                  }
+                ]
+              ]
+            ]
+          ]
+        ]
+      ],
+      [
+        { "type": "Paragraf Number", "text": "Paragraf 2" },
+        {
+          "type": "Paragraf Title",
+          "text": "Perizinan Berusaha Kegiatan Usaha Berisiko Rendah"
+        },
+        [
+          { "type": "Pasal Number", "text": "Pasal 8" },
+          [
+            [
+              { "type": "Number with Brackets", "text": "(1)" },
+              {
+                "type": "Plaintext",
+                "text": "Perizinan Berusaha untuk kegiatan usaha berisiko rendah sebagaimana dimaksud dalam Pasal 7 ayat (7) huruf a berupa pemberian nomor induk berusaha yang merupakan legalitas pelaksanaan kegiatan berusaha."
+              }
+            ],
+            [
+              { "type": "Number with Brackets", "text": "(2)" },
+              {
+                "type": "Plaintext",
+                "text": "Nomor induk berusaha sebagaimana dimaksud pada ayat (1) merupakan bukti registrasi/pendaftaran Pelaku Usaha untuk melakukan kegiatan usaha dan sebagai identitas bagi Pelaku Usaha dalam pelaksanaan kegiatan usahanya."
+              }
+            ]
+          ]
+        ]
+      ],
+      [
+        { "type": "Paragraf Number", "text": "Paragraf 3" },
+        {
+          "type": "Paragraf Title",
+          "text": "Perizinan Berusaha Kegiatan Usaha Berisiko Menengah"
+        },
+        [
+          { "type": "Pasal Number", "text": "Pasal 9" },
+          [
+            [
+              { "type": "Number with Brackets", "text": "(1)" },
+              {
+                "type": "Plaintext",
+                "text": "Perizinan Berusaha untuk kegiatan usaha berisiko menengah sebagaimana dimaksud dalam Pasal 7 ayat (7) huruf b meliputi:"
+              },
+              [
+                [
+                  { "type": "Letter with Dot", "text": "a." },
+                  {
+                    "type": "Plaintext",
+                    "text": "kegiatan usaha berisiko menengah rendah; dan b. kegiatan usaha berisiko menengah tinggi."
+                  }
+                ]
+              ]
+            ],
+            [
+              { "type": "Number with Brackets", "text": "(2)" },
+              {
+                "type": "Plaintext",
+                "text": "Perizinan Berusaha untuk kegiatan usaha berisiko menengah rendah sebagaimana dimaksud pada ayat (1) huruf a berupa pemberian:"
+              },
+              [
+                [
+                  { "type": "Letter with Dot", "text": "a." },
+                  { "type": "Plaintext", "text": "nomor induk berusaha; dan" }
+                ],
+                [
+                  { "type": "Letter with Dot", "text": "b." },
+                  { "type": "Plaintext", "text": "sertifikat standar." }
+                ]
+              ]
+            ],
+            [
+              { "type": "Number with Brackets", "text": "(3)" },
+              {
+                "type": "Plaintext",
+                "text": "Perizinan Berusaha untuk kegiatan usaha berisiko menengah tinggi sebagaimana dimaksud pada ayat (1) huruf b berupa pemberian:"
+              },
+              [
+                [
+                  { "type": "Letter with Dot", "text": "a." },
+                  { "type": "Plaintext", "text": "nomor induk berusaha; dan" }
+                ],
+                [
+                  { "type": "Letter with Dot", "text": "b." },
+                  { "type": "Plaintext", "text": "sertifikat standar." }
+                ]
+              ]
+            ],
+            [
+              { "type": "Number with Brackets", "text": "(4)" },
+              {
+                "type": "Plaintext",
+                "text": "Sertifikat standar sebagaimana dimaksud pada ayat (2) huruf b merupakan pernyataan Pelaku Usaha untuk memenuhi standar usaha dalam rangka melakukan kegiatan usaha."
+              }
+            ],
+            [
+              { "type": "Number with Brackets", "text": "(5)" },
+              {
+                "type": "Plaintext",
+                "text": "Sertifikat standar sebagaimana dimaksud pada ayat (3) huruf b merupakan sertifikat standar usaha yang diterbitkan Pemerintah Pusat atau Pemerintah Daerah sesuai kewenangannya berdasarkan hasil verifikasi pemenuhan standar pelaksanaan kegiatan usaha oleh Pelaku Usaha."
+              }
+            ],
+            [
+              { "type": "Number with Brackets", "text": "(6)" },
+              {
+                "type": "Plaintext",
+                "text": "Dalam hal kegiatan usaha berisiko menengah memerlukan standardisasi produk sebagaimana dimaksud pada ayat (2) huruf b dan ayat (3) huruf b, Pemerintah Pusat menerbitkan sertifikat standar produk berdasarkan hasil verifikasi pemenuhan standar yang wajib dipenuhi oleh Pelaku Usaha sebelum melakukan kegiatan komersialisasi produk."
+              }
+            ]
+          ]
+        ]
+      ],
+      [
+        { "type": "Paragraf Number", "text": "Paragraf 4" },
+        {
+          "type": "Paragraf Title",
+          "text": "Perizinan Berusaha Kegiatan Usaha Berisiko Tinggi"
+        },
+        [
+          { "type": "Pasal Number", "text": "Pasal 10" },
+          [
+            [
+              { "type": "Number with Brackets", "text": "(1)" },
+              {
+                "type": "Plaintext",
+                "text": "Perizinan Berusaha untuk kegiatan usaha berisiko tinggi sebagaimana dimaksud dalam Pasal 7 ayat (7) huruf c berupa pemberian:"
+              },
+              [
+                [
+                  { "type": "Letter with Dot", "text": "a." },
+                  { "type": "Plaintext", "text": "nomor induk berusaha; dan" }
+                ],
+                [
+                  { "type": "Letter with Dot", "text": "b." },
+                  { "type": "Plaintext", "text": "izin." }
+                ]
+              ]
+            ],
+            [
+              { "type": "Number with Brackets", "text": "(2)" },
+              {
+                "type": "Plaintext",
+                "text": "Izin sebagaimana dimaksud pada ayat (1) huruf b merupakan persetujuan Pemerintah Pusat atau Pemerintah Daerah untuk pelaksanaan kegiatan usaha yang wajib dipenuhi oleh Pelaku Usaha sebelum melaksanakan kegiatan usahanya."
+              }
+            ],
+            [
+              { "type": "Number with Brackets", "text": "(3)" },
+              {
+                "type": "Plaintext",
+                "text": "Dalam hal kegiatan usaha berisiko tinggi memerlukan pemenuhan standar usaha dan standar produk, Pemerintah Pusat atau Pemerintah Daerah menerbitkan sertifikat standar usaha dan sertifikat standar produk berdasarkan hasil verifikasi pemenuhan standar."
+              }
+            ]
+          ]
+        ]
+      ],
+      [
+        { "type": "Paragraf Number", "text": "Paragraf 5" },
+        { "type": "Paragraf Title", "text": "Pengawasan" },
+        [
+          { "type": "Pasal Number", "text": "Pasal 11" },
+          {
+            "type": "Plaintext",
+            "text": "Pengawasan terhadap setiap kegiatan usaha dilakukan dengan  pengaturan frekuensi pelaksanaan berdasarkan tingkat risiko  sebagaimana dimaksud dalam Pasal 7 ayat (7) dan  mempertimbangkan tingkat kepatuhan Pelaku Usaha."
+          }
+        ]
+      ],
+      [
+        { "type": "Paragraf Number", "text": "Paragraf 6" },
+        { "type": "Paragraf Title", "text": "Peraturan Pelaksanaan" },
+        [
+          { "type": "Pasal Number", "text": "Pasal 12" },
+          {
+            "type": "Plaintext",
+            "text": "Ketentuan lebih lanjut mengenai Perizinan Berusaha berbasis  risiko sebagaimana dimaksud dalam Pasal 7, Pasal 8, Pasal 9,  dan Pasal 10, serta tata cara pengawasan sebagaimana  dimaksud dalam Pasal 11 diatur dalam Peraturan Pemerintah."
+          }
+        ]
+      ]
+    ],
+    [
+      { "type": "Bagian Number", "text": "Bagian Ketiga" },
+      {
+        "type": "Bagian Title",
+        "text": "Penyederhanaan Persyaratan Dasar Perizinan Berusaha"
+      },
+      [
+        { "type": "Paragraf Number", "text": "Paragraf 1" },
+        { "type": "Paragraf Title", "text": "Umum" },
+        [
+          { "type": "Pasal Number", "text": "Pasal 13" },
+          {
+            "type": "Plaintext",
+            "text": "Penyederhanaan persyaratan dasar Perizinan Berusaha sebagaimana dimaksud dalam Pasal 6 huruf b meliputi:"
+          },
+          [
+            [
+              { "type": "Letter with Dot", "text": "a." },
+              {
+                "type": "Plaintext",
+                "text": "kesesuaian kegiatan pemanfaatan ruang;"
+              }
+            ],
+            [
+              { "type": "Letter with Dot", "text": "b." },
+              { "type": "Plaintext", "text": "persetujuan lingkungan; dan" }
+            ]
+          ]
+        ]
+      ],
+      [
+        { "type": "Paragraf Number", "text": "Paragraf 2" },
+        {
+          "type": "Paragraf Title",
+          "text": "Kesesuaian Kegiatan Pemanfaatan Ruang"
+        },
+        [
+          { "type": "Pasal Number", "text": "Pasal 14" },
+          [
+            [
+              { "type": "Number with Brackets", "text": "(1)" },
+              {
+                "type": "Plaintext",
+                "text": "Kesesuaian kegiatan pemanfaatan ruang sebagaimana dimaksud dalam Pasal 13 huruf a merupakan kesesuaian rencana lokasi kegiatan dan/atau usahanya dengan RDTR."
+              }
+            ],
+            [
+              { "type": "Number with Brackets", "text": "(2)" },
+              {
+                "type": "Plaintext",
+                "text": "Pemerintah Daerah wajib menyusun dan menyediakan RDTR dalam bentuk digital dan sesuai standar."
+              }
+            ],
+            [
+              { "type": "Number with Brackets", "text": "(3)" },
+              {
+                "type": "Plaintext",
+                "text": "Penyediaan RDTR dalam bentuk digital sebagaimana dimaksud pada ayat (2) dilakukan sesuai dengan standar dan dapat diakses dengan mudah oleh masyarakat untuk mendapatkan informasi mengenai kesesuaian rencana lokasi kegiatan dan/atau usahanya dengan RDTR."
+              }
+            ],
+            [
+              { "type": "Number with Brackets", "text": "(4)" },
+              {
+                "type": "Plaintext",
+                "text": "Pemerintah Pusat wajib mengintegrasikan RDTR dalam bentuk digital sebagaimana dimaksud pada ayat (2) ke dalam sistem Perizinan Berusaha secara elektronik."
+              }
+            ],
+            [
+              { "type": "Number with Brackets", "text": "(5)" },
+              {
+                "type": "Plaintext",
+                "text": "Dalam hal Pelaku Usaha mendapatkan informasi rencana lokasi kegiatan usahanya sebagaimana dimaksud pada ayat (3) telah sesuai dengan RDTR, Pelaku Usaha mengajukan permohonan kesesuaian kegiatan pemanfaatan ruang untuk kegiatan usahanya melalui sistem Perizinan Berusaha secara elektronik sebagaimana dimaksud pada ayat (4) dengan mengisi koordinat lokasi yang diinginkan untuk memperoleh konfirmasi kesesuaian kegiatan pemanfaatan ruang."
+              }
+            ],
+            [
+              { "type": "Number with Brackets", "text": "(6)" },
+              {
+                "type": "Plaintext",
+                "text": "Setelah memperoleh konfirmasi kesesuaian kegiatan pemanfaatan ruang sebagaimana dimaksud pada ayat (5), Pelaku Usaha mengajukan permohonan Perizinan Berusaha."
+              }
+            ]
+          ]
+        ],
+        [
+          { "type": "Pasal Number", "text": "Pasal 15" },
+          [
+            [
+              { "type": "Number with Brackets", "text": "(1)" },
+              {
+                "type": "Plaintext",
+                "text": "Dalam hal Pemerintah Daerah belum menyusun dan menyediakan RDTR sebagaimana dimaksud dalam Pasal 14 ayat (2), Pelaku Usaha mengajukan permohonan persetujuan kesesuaian kegiatan pemanfaatan ruang untuk kegiatan usahanya kepada Pemerintah Pusat"
+              },
+              {
+                "type": "Plaintext",
+                "text": "melalui sistem Perizinan Berusaha secara elektronik sesuai dengan ketentuan peraturan perundang-undangan. (2) Pemerintah Pusat memberikan persetujuan kesesuaian  kegiatan pemanfaatan ruang sebagaimana dimaksud pada  ayat (1) sesuai dengan rencana tata ruang."
+              }
+            ]
+          ],
+          [
+            [
+              { "type": "Number with Brackets", "text": "(3)" },
+              {
+                "type": "Plaintext",
+                "text": "Rencana tata ruang sebagaimana dimaksud pada ayat (2) terdiri atas:"
+              },
+              [
+                [
+                  { "type": "Letter with Dot", "text": "a." },
+                  {
+                    "type": "Plaintext",
+                    "text": "rencana tata ruang wilayah nasional;"
+                  }
+                ],
+                [
+                  { "type": "Letter with Dot", "text": "b." },
+                  {
+                    "type": "Plaintext",
+                    "text": "rencana tata ruang pulau/kepulauan;"
+                  }
+                ],
+                [
+                  { "type": "Letter with Dot", "text": "c." },
+                  {
+                    "type": "Plaintext",
+                    "text": "rencana tata ruang kawasan strategis nasional; d. rencana tata ruang wilayah provinsi; dan/atau e. rencana tata ruang wilayah kabupaten/kota."
+                  }
+                ]
+              ]
+            ]
+          ]
+        ],
+        [
+          { "type": "Pasal Number", "text": "Pasal 16" },
+          {
+            "type": "Plaintext",
+            "text": "Dalam rangka penyederhanaan persyaratan dasar Perizinan  Berusaha serta untuk memberikan kepastian dan kemudahan  bagi Pelaku Usaha dalam memperoleh kesesuaian kegiatan  pemanfaatan ruang, Undang-Undang ini mengubah,"
+          },
+          {
+            "type": "Plaintext",
+            "text": "menghapus, dan/atau menetapkan pengaturan baru beberapa  ketentuan yang diatur dalam:"
+          },
+          [
+            [
+              { "type": "Letter with Dot", "text": "a." },
+              {
+                "type": "Plaintext",
+                "text": "Undang-Undang Nomor 26 Tahun 2007 tentang Penataan Ruang (Lembaran Negara Republik Indonesia Tahun 2007 Nomor 68, Tambahan Lembaran Negara Republik Indonesia Nomor 4725);"
+              }
+            ],
+            [
+              { "type": "Letter with Dot", "text": "b." },
+              {
+                "type": "Plaintext",
+                "text": "Undang-Undang Nomor 27 Tahun 2007 tentang Pengelolaan Wilayah Pesisir dan Pulau-Pulau Kecil (Lembaran Negara Republik Indonesia Tahun 2007 Nomor 84, Tambahan Lembaran Negara Republik Indonesia Nomor 4739) sebagaimana telah diubah dengan Undang"
+              },
+              {
+                "type": "Plaintext",
+                "text": "Undang Nomor 1 Tahun 2014 tentang Perubahan Atas  Undang-Undang Nomor 27 Tahun 2007 tentang  Pengelolaan Wilayah Pesisir dan Pulau-Pulau Kecil  (Lembaran Negara Republik Indonesia Tahun 2014 Nomor  2, Tambahan Lembaran Negara Republik Indonesia Nomor  5490);"
+              }
+            ],
+            [
+              { "type": "Letter with Dot", "text": "c." },
+              {
+                "type": "Plaintext",
+                "text": "Undang-Undang Nomor 32 Tahun 2014 tentang Kelautan (Lembaran Negara Republik Indonesia Tahun 2014 Nomor 294, Tambahan Lembaran Negara Republik Indonesia Nomor 5603); dan"
+              }
+            ],
+            [
+              { "type": "Letter with Dot", "text": "d." },
+              {
+                "type": "Plaintext",
+                "text": "Undang-Undang Nomor 4 Tahun 2011 tentang Informasi Geospasial (Lembaran Negara Republik Indonesia Tahun 2011 Nomor 49, Tambahan Lembaran Negara Republik Indonesia Nomor 5214)."
+              }
+            ]
+          ]
+        ],
+        [
+          { "type": "Pasal Number", "text": "Pasal 17" },
+          {
+            "type": "Plaintext",
+            "text": "Beberapa ketentuan dalam Undang-Undang Nomor 26 Tahun  2007 tentang Penataan Ruang (Lembaran Negara Republik  Indonesia Tahun 2007 Nomor 68, Tambahan Lembaran Negara  Republik Indonesia Nomor 4725) diubah sebagai berikut:"
+          },
+          [
+            [
+              { "type": "Number with Dot", "text": "1." },
+              {
+                "type": "Plaintext",
+                "text": "Ketentuan Pasal 1 angka 7, angka 8, dan angka 32 diubah sehingga Pasal 1 berbunyi sebagai berikut:"
+              }
+            ]
+          ]
+        ],
+        [
+          { "type": "Pasal Number", "text": "Pasal 1" },
+          {
+            "type": "Plaintext",
+            "text": "Dalam Undang-Undang ini yang dimaksud dengan:"
+          },
+          [
+            [
+              { "type": "Number with Dot", "text": "1." },
+              {
+                "type": "Plaintext",
+                "text": "Ruang adalah wadah yang meliputi ruang darat, ruang laut, dan ruang udara, termasuk ruang di dalam bumi sebagai satu kesatuan wilayah, tempat manusia dan makhluk lain hidup, melakukan kegiatan, dan memelihara kelangsungan hidupnya."
+              }
+            ],
+            [
+              { "type": "Number with Dot", "text": "2." },
+              {
+                "type": "Plaintext",
+                "text": "Tata ruang adalah wujud struktur ruang dan pola ruang."
+              }
+            ],
+            [
+              { "type": "Number with Dot", "text": "3." },
+              {
+                "type": "Plaintext",
+                "text": "Struktur ruang adalah susunan pusat-pusat permukiman dan sistem jaringan prasarana dan sarana yang berfungsi sebagai pendukung kegiatan sosial ekonomi masyarakat yang secara hierarki"
+              },
+              { "type": "Plaintext", "text": "memiliki hubungan fungsional." }
+            ],
+            [
+              { "type": "Number with Dot", "text": "4." },
+              {
+                "type": "Plaintext",
+                "text": "Pola ruang adalah distribusi peruntukan ruang dalam suatu wilayah yang meliputi peruntukan ruang untuk fungsi lindung dan peruntukan ruang untuk fungsi budi daya."
+              }
+            ]
+          ]
+        ]
+      ]
+    ]
+  ]
+]
