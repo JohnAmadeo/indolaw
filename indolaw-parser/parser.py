@@ -100,6 +100,29 @@ def get_list_index_as_num(regex, string):
         return ord(number_string)
 
 
+def is_next_list_index_number(a, b):
+    a_type = get_list_index_type(a)
+    b_type = get_list_index_type(b)
+
+    if b_type not in set(LIST_INDEX_STRUCTURES):
+        raise Exception('next_list_index_number: Invalid input')
+    if not (a_type == None or a_type == b_type):
+        raise Exception('next_list_index_number: Invalid input')
+
+    if a_type == None:
+        return is_start_of_first_list_index(b)
+
+    regex = None
+    if a_type == Structure.NUMBER_WITH_BRACKETS:
+        regex = '\(([0-9]+)\)'
+    elif a_type == Structure.NUMBER_WITH_DOT:
+        regex = '([0-9]+)\.'
+    elif a_type == Structure.LETTER_WITH_DOT:
+        regex = '([a-z])\.'
+
+    return get_list_index_as_num(regex, a) + 1 == get_list_index_as_num(regex, b)
+
+
 def is_start_of_first_list_index(string):
     list_index = string.split()[0]
     return list_index in set(['a.', '1.', '(1)'])
