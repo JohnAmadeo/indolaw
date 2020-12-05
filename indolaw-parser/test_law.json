@@ -1,0 +1,45 @@
+[
+  [
+    { "type": "Bab Number", "text": "BAB I" },
+    { "type": "Bab Title", "text": "KETENTUAN UMUM" },
+    [
+      { "type": "Pasal Number", "text": "Pasal 1" },
+      {
+        "type": "Plaintext",
+        "text": "Dalam Undang-Undang ini yang dimaksud dengan:"
+      },
+      [
+        [
+          { "type": "Number with Dot", "text": "1." },
+          { "type": "Plaintext", "text": "Top level list item 1" },
+          { "type": "Plaintext", "text": "  The quick brown fox" },
+          [
+            [
+              { "type": "Number with Dot", "text": "1." },
+              { "type": "Plaintext", "text": "Nested level list item 1" }
+            ],
+            [
+              { "type": "Number with Dot", "text": "2." },
+              { "type": "Plaintext", "text": "Nested level list item 2" }
+            ]
+          ]
+        ],
+        [
+          { "type": "Number with Dot", "text": "2." },
+          { "type": "Plaintext", "text": "Top level list item 1" },
+          { "type": "Plaintext", "text": "  The quick brown fox" },
+          [
+            [
+              { "type": "Number with Dot", "text": "1." },
+              { "type": "Plaintext", "text": "Nested level list item 1" }
+            ],
+            [
+              { "type": "Number with Dot", "text": "2." },
+              { "type": "Plaintext", "text": "Nested level list item 2" }
+            ]
+          ]
+        ]
+      ]
+    ]
+  ]
+]
