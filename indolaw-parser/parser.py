@@ -250,35 +250,37 @@ def is_start_of_list_index(law, start_index):
         is_start_of_number_with_brackets(law, start_index)
 
 
+'''
+This pattern below is kind of redundant and can probably be removed
+down the line; for now it's necessary (ctrl+f the callsites to see why)
+'''
+
+
 def is_start_of_letter_with_dot(law, start_index):
-    string = law[start_index].split(' ')[0]
-    return string.isalpha() and string == '.'
+    line = law[start_index].split()[0]
+    return is_start_of_letter_with_dot_str(line)
+
+
+def is_start_of_letter_with_dot_str(string):
+    return is_heading('[a-z]\.', string)
 
 
 def is_start_of_number_with_dot(law, start_index):
-    string = law[start_index].split(' ')[0]
+    line = law[start_index].split()[0]
+    return is_start_of_number_with_dot_str(line)
+
+
+def is_start_of_number_with_dot_str(string):
     return is_heading('[0-9]+\.', string)
 
 
 def is_start_of_number_with_brackets(law, start_index):
-    string = law[start_index].split(' ')[0]
+    line = law[start_index].split()[0]
+    return is_start_of_number_with_brackets_str(line)
+
+
+def is_start_of_number_with_brackets_str(string):
     return is_heading('\([0-9]+\)', string)
-
-
-def detect_list_type(line):
-    # e.g (5)
-    # TODO(johnamadeo): Use regex instead - this doesn't work for (12)
-    if line[0] == "(" and line[2] == ")":
-        return Structure.NUMBER_IN_BRACKETS
-    # e.g 5.
-    # TODO(johnamadeo): Use regex instead - this doesn't work for 112.
-    elif (line[1] == '.' or line[2] == '.') and line[0].isdigit():
-        return Structure.NUMBER_WITH_DOT
-    # e.g c.
-    elif line[1] == '.' and line[0].islower():
-        return Structure.LETTER_WITH_DOT
-    else:
-        return Structure.INVALID
 
 
 def is_start_of_plaintext(law, start_index):
