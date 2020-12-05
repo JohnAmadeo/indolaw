@@ -56,6 +56,11 @@ UTILS
 '''
 
 
+def getEnumFromValue(value):
+    # e.g "List Index" -> "LIST_INDEX"
+    return Structure['_'.join(value.upper().split(' '))]
+
+
 def is_heading(regex, string):
     return re.match('^[\s]*' + regex + '[\s]*$', string) != None
 
