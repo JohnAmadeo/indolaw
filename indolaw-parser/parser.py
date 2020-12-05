@@ -462,6 +462,11 @@ PARSE_X FUNCTIONS
 
 def parse_undang_undang(law):
     law = clean_law(law)
+
+    # for l in law:
+    #     print(l)
+    # exit()
+
     return parse_complex_structure(
         law,
         0,
