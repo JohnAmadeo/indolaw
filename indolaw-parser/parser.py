@@ -90,6 +90,11 @@ def detect_list_type(line):
         return Structure.LETTER_WITH_DOT
     else:
         return Structure.INVALID
+def is_start_of_first_list_index(string):
+    list_index = string.split()[0]
+    return list_index in set(['a.', '1.', '(1)'])
+
+
 def clean_law(law):
     law = list(filterfalse(ignore_line, law))
 
