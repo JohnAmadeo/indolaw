@@ -90,6 +90,16 @@ def detect_list_type(line):
         return Structure.LETTER_WITH_DOT
     else:
         return Structure.INVALID
+def get_list_index_as_num(regex, string):
+    number_string = re.match(regex, string).group(1)
+    # e.g '100'
+    if number_string.isnumeric():
+        return int(number_string)
+    # e.g 'a'
+    else:
+        return ord(number_string)
+
+
 def is_start_of_first_list_index(string):
     list_index = string.split()[0]
     return list_index in set(['a.', '1.', '(1)'])
