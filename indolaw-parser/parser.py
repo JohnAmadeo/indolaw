@@ -787,14 +787,3 @@ if __name__ == "__main__":
 
     with open(filename + '.json', 'w') as outfile:
         json.dump(parsed_undang_undang, outfile)
-
-'''
-parse_undang_undang
-    parse_bab
-        parse_bab_number
-        parse_bab_title
-        parse_pasal
-            parse_pasal_number
-            parse_plaintext
-            parse_list
-'''
