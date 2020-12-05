@@ -539,6 +539,104 @@ def parse_paragraf(law, start_index):
     return parsed_structure, end_index
 
 
+def parse_list_item(law, start_index):
+    # print('parse_list_item : ', law[start_index])
+    '''
+    The 1st and 2nd line of a list item must be a list index and plaintext.
+    Even in the case of a nested list, there is always a plaintext in between
+    the list index and the nested list
+
+    e.g
+    1.
+    Ketentuan Undang Undang 23 diubah sebagai berikut:
+        1. 
+        Pasal 5 dihapus
+        2. 
+        Pasal 6 dihapus
+    '''
+    parsed_list_item = []
+
+    parsed_list_index, _ = parse_structure(
+        Structure.LIST_INDEX, law, start_index)
+    parsed_plaintext = simple_parse_primitive(
+        Structure.PLAINTEXT, law, start_index+1)
+    parsed_list_item.extend([
+        parsed_list_index,
+        parsed_plaintext,
+    ])
+
+    '''
+    From the 3rd line onwards, the child will either be a plaintext or a nested list
+    '''
+    non_recursive_ancestors = [Structure.PASAL, Structure.PARAGRAF,
+                               Structure.BAGIAN, Structure.BAB]
+
+    start_index += 2
+    end_index = start_index-1
+    while end_index < len(law)-1:
+        print(law[start_index])
+        '''
+        Check if we're no longer in the list item and in an ancestor
+
+        e.g
+        Pasal 4
+            1. 
+            Abc
+            2. 
+            Abc
+        Pasal 5
+
+        If we're parsing the 2nd list item and we reach "Pasal 5", stop 
+        parsing the list item and return up the recursion tree
+        '''
+        start_of_non_recursive_ancestors = is_start_of_any(
+            non_recursive_ancestors, law, start_index)
+        if start_of_non_recursive_ancestors:
+            return parsed_list_item, end_index
+
+        '''
+        A LIST ITEM's child can be a PLAINTEXT or a nested LIST
+        '''
+        child_structure = None
+        if is_start_of_plaintext(law, start_index):
+            child_structure = Structure.PLAINTEXT
+        elif is_start_of_list(law, start_index):
+            '''
+            Need to decide if the list is a sibling, ancestor or child list. 
+
+            If the list is a child list, we need to recursively parse the nested child list.
+            If the list is a sibling or ancestor, stop parsing the list item and 
+            return up the recursion tree
+
+            Heuristics:
+            1) Child -> list index number 1 (i.e if start of list)
+            2) Sibling or Ancestor -> if not child
+
+            Child e.g
+            1. 
+            abc
+            2.
+            abc
+                1. abc
+            '''
+            next_list_index_number = law[start_index].rstrip()
+            if is_start_of_first_list_index(next_list_index_number):
+                child_structure = Structure.LIST
+            else:
+                return parsed_list_item, end_index
+
+        if child_structure == None:
+            raise Exception(
+                'parse_list_item: child is neither a list or plaintext')
+
+        parsed_structure, end_index = parse_structure(
+            child_structure, law, start_index)
+        parsed_list_item.append(parsed_structure)
+        start_index = end_index + 1
+
+    return parsed_list_item, end_index
+
+
 def parse_list_index(law, start_index):
     if is_start_of_letter_with_dot(law, start_index):
         return parse_primitive(Structure.LETTER_WITH_DOT, law, start_index)
