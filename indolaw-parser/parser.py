@@ -539,6 +539,18 @@ def parse_paragraf(law, start_index):
     return parsed_structure, end_index
 
 
+def parse_list_index(law, start_index):
+    if is_start_of_letter_with_dot(law, start_index):
+        return parse_primitive(Structure.LETTER_WITH_DOT, law, start_index)
+    elif is_start_of_number_with_dot(law, start_index):
+        return parse_primitive(Structure.NUMBER_WITH_DOT, law, start_index)
+    elif is_start_of_number_with_brackets(law, start_index):
+        return parse_primitive(Structure.NUMBER_WITH_BRACKETS, law, start_index)
+    else:
+        raise Exception(
+            "Unrecognized list index for line: " + law[start_index])
+
+
 '''
 -----------------
 
