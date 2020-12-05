@@ -407,13 +407,9 @@ def parse_complex_structure(
 
     end_index = start_index-1
     while end_index < len(law)-1:
+        # TODO(johnamadeo): Change the name of this variable - see parse_list_item
         structure = None
 
-        # check if we've reached the end of this structure by checking
-        # if this is the start of a sibling or ancestor structure
-        for ancestor_or_sibling_structure in ancestor_structures + sibling_structures:
-            if is_start_of_structure(ancestor_or_sibling_structure, law, start_index):
-                return parsed_structure, end_index
         '''
         For a complex structure, the very 1st line must be part of
         the structure / cannot be the start of an ancestor or sibling
@@ -441,15 +437,6 @@ def parse_complex_structure(
 
         parsed_sub_structure, end_index = parse_structure(
             structure, law, start_index)
-        '''
-        TODO(johnamadeo) See if more elegant way to handle list index
-        '''
-        if type(parsed_sub_structure) == dict and \
-                'type' in parsed_sub_structure and \
-                parsed_sub_structure['type'] == Structure.LIST_INDEX:
-            start_index = end_index
-        else:
-            start_index = end_index + 1
         start_index = end_index + 1
 
         parsed_structure.append(parsed_sub_structure)
