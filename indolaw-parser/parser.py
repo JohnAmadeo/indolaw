@@ -467,7 +467,6 @@ PARSE_X FUNCTIONS
 
 
 def parse_undang_undang(law):
-    law = list(filterfalse(ignore_line, law))
     law = clean_law(law)
     return parse_complex_structure(
         law,
