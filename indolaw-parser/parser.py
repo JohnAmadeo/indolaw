@@ -24,14 +24,12 @@ class Structure(Enum):
     LIST = "List"
     LIST_ITEM = "List Item"
     LIST_INDEX = "List Index"
-    NUMBER_WITH_BRACKETS = "Number in Brackets"
+    NUMBER_WITH_BRACKETS = "Number with Brackets"
     NUMBER_WITH_DOT = "Number with Dot"
     LETTER_WITH_DOT = "Letter with Dot"
 
 
-# TODO: Add Structure.LIST and Structure.PASAL
-# TEXT_BLOCK_STRUCTURES = [Structure.PLAINTEXT, Structure.LIST]
-TEXT_BLOCK_STRUCTURES = [Structure.PLAINTEXT, Structure.LIST_ITEM]
+TEXT_BLOCK_STRUCTURES = [Structure.PLAINTEXT, Structure.LIST]
 
 # Structures that do not have child structures,
 # and resolve to either a regex or just any unstructured text
@@ -46,6 +44,8 @@ PRIMITIVE_STRUCTURES = [
     Structure.PARAGRAF_TITLE
 ]
 
+LIST_INDEX_STRUCTURES = [Structure.NUMBER_WITH_BRACKETS,
+                         Structure.NUMBER_WITH_DOT, Structure.LETTER_WITH_DOT]
 
 '''
 -----------------
