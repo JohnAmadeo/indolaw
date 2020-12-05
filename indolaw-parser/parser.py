@@ -221,9 +221,7 @@ def is_start_of_list(law, start_index):
 
 
 def is_start_of_list_item(law, start_index):
-    return is_start_of_letter_with_dot(law, start_index) or \
-        is_start_of_number_with_dot(law, start_index) or \
-        is_start_of_number_with_brackets(law, start_index)
+    return is_start_of_list_index(law, start_index)
 
 
 def is_start_of_list_index(law, start_index):
