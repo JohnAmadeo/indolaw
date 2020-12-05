@@ -551,7 +551,6 @@ any child lists should be embedded inside a list item
 
 
 def parse_list(law, start_index):
-    # print('parse_list : ', law[start_index])
     parsed_list = []
 
     non_recursive_ancestors = [Structure.PASAL, Structure.PARAGRAF,
@@ -602,8 +601,6 @@ def parse_list(law, start_index):
             must be an ancestor
             '''
             if curr_list_index_type != next_list_index_type:
-                # print('Different list index type ' +
-                #       curr_list_index_type.value + ' ' + list_index_type.value)
                 return parsed_list, end_index
             '''
             Suppose the current list is of type X (e.g NUMBER_WITH_DOT) and the current line
@@ -659,7 +656,6 @@ def parse_list(law, start_index):
 
 
 def parse_list_item(law, start_index):
-    # print('parse_list_item : ', law[start_index])
     '''
     The 1st and 2nd line of a list item must be a list index and plaintext.
     Even in the case of a nested list, there is always a plaintext in between
@@ -693,7 +689,6 @@ def parse_list_item(law, start_index):
     start_index += 2
     end_index = start_index-1
     while end_index < len(law)-1:
-        print(law[start_index])
         '''
         Check if we're no longer in the list item and in an ancestor
 
