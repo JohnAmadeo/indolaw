@@ -377,7 +377,7 @@ def parse_complex_structure(
     child_structures
 ):
     '''
-    NOTE: List-related structures should be parsed by parse_list_item
+    NOTE: List-related structures should be parsed by parse_list and parse_list_item
 
     This is the core algorithm for parsing a complex structure: a structure that is
     composed of other structures(a.k.a child structures).
