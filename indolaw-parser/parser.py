@@ -8,25 +8,25 @@ from itertools import filterfalse
 class Structure(Enum):
     # END = "End"
     # SKIP = "Skip"
-    UNDANG_UNDANG = "Undang Undang"
-    BAB = "Bab"
-    BAB_NUMBER = "Bab Number"
-    BAB_TITLE = "Bab Title"
-    PASAL = "Pasal"
-    PASAL_NUMBER = "Pasal Number"
-    BAGIAN = "Bagian"
-    BAGIAN_TITLE = "Bagian Title"
-    BAGIAN_NUMBER = "Bagian Number"
-    PARAGRAF = "Paragraf"
-    PARAGRAF_TITLE = "Paragraf Title"
-    PARAGRAF_NUMBER = "Paragraf Number"
-    PLAINTEXT = "Plaintext"
-    LIST = "List"
-    LIST_ITEM = "List Item"
-    LIST_INDEX = "List Index"
-    NUMBER_WITH_BRACKETS = "Number with Brackets"
-    NUMBER_WITH_DOT = "Number with Dot"
-    LETTER_WITH_DOT = "Letter with Dot"
+    UNDANG_UNDANG = "UNDANG_UNDANG"
+    BAB = "BAB"
+    BAB_NUMBER = "BAB_NUMBER"
+    BAB_TITLE = "BAB_TITLE"
+    PASAL = "PASAL"
+    PASAL_NUMBER = "PASAL_NUMBER"
+    BAGIAN = "BAGIAN"
+    BAGIAN_TITLE = "BAGIAN_TITLE"
+    BAGIAN_NUMBER = "BAGIAN_NUMBER"
+    PARAGRAF = "PARAGRAF"
+    PARAGRAF_TITLE = "PARAGRAF_TITLE"
+    PARAGRAF_NUMBER = "PARAGRAF_NUMBER"
+    PLAINTEXT = "PLAINTEXT"
+    LIST = "LIST"
+    LIST_ITEM = "LIST_ITEM"
+    LIST_INDEX = "LIST_INDEX"
+    NUMBER_WITH_BRACKETS = "NUMBER_WITH_BRACKETS"
+    NUMBER_WITH_DOT = "NUMBER_WITH_DOT"
+    LETTER_WITH_DOT = "LETTER_WITH_DOT"
 
 
 TEXT_BLOCK_STRUCTURES = [Structure.PLAINTEXT, Structure.LIST]
@@ -54,11 +54,6 @@ UTILS
 
 -----------------
 '''
-
-
-def getEnumFromValue(value):
-    # e.g "List Index" -> "LIST_INDEX"
-    return Structure['_'.join(value.upper().split(' '))]
 
 
 def is_heading(regex, string):
@@ -587,7 +582,7 @@ def parse_list(law, start_index):
         if len(parsed_list) > 0:
             parsed_list_item = parsed_list[-1]
             parsed_list_index = parsed_list_item[0]
-            curr_list_index_type = getEnumFromValue(parsed_list_index['type'])
+            curr_list_index_type = Structure[parsed_list_index['type']]
             curr_list_index_number = parsed_list_index['text']
 
             next_list_index_type = get_list_index_type(law[start_index])
