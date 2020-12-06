@@ -4,6 +4,8 @@ import matter from "gray-matter";
 import fs from "fs";
 import path from "path";
 import { GetStaticProps } from "next";
+import { CSSProperties } from "react";
+
 enum Structure {
   UNDANG_UNDANG = "UNDANG_UNDANG",
   BAB = "BAB",
@@ -26,6 +28,20 @@ enum Structure {
   LETTER_WITH_DOT = "LETTER_WITH_DOT",
 }
 
+const HEADING_STRUCTURES = new Set([
+  Structure.BAB_NUMBER,
+  Structure.BAB_TITLE,
+  Structure.PASAL_NUMBER,
+  Structure.BAGIAN_NUMBER,
+  Structure.BAGIAN_TITLE,
+  Structure.PARAGRAF_NUMBER,
+  Structure.PARAGRAF_TITLE,
+]);
+
+interface PrimitiveStructure {
+  type: string;
+  text: string;
+}
 
 export default function Test(props: {
   data: {
@@ -33,19 +49,19 @@ export default function Test(props: {
   };
 }) {
   return (
-    <div style={{ margin: "0 124px" }}>
+    <div style={{ margin: "0 180px" }}>
       <h1>UNDANG UNDANG REPUBLIK INDONESIA TENTANG CIPTA KERJA</h1>
-      {render(props.data.law, 1)}
+      {renderStructure(props.data.law, 1)}
     </div>
   );
 }
 
-function render(structure: any, depth: number) {
+function renderStructure(structure: any, depth: number) {
   return (
     <>
       {structure.map((childStructure: any) => {
         if (childStructure instanceof Array) {
-          return render(childStructure, depth + 1);
+          return renderStructure(childStructure, depth + 1);
         } else {
           return renderPrimitive(childStructure, depth);
         }
@@ -54,19 +70,19 @@ function render(structure: any, depth: number) {
   );
 }
 
-function renderPrimitive(structure: any, depth: number) {
-  const divStyle = {
+function renderPrimitive(structure: PrimitiveStructure, depth: number) {
+  let divStyle: CSSProperties = {
     marginLeft: `${depth * 32}px`,
     marginBottom: "12px",
     fontSize: "20px",
+    border: "1px solid red",
   };
+  let textStyle: CSSProperties = {};
 
-  let textStyle = {};
-  if (
-    structure.type.toLowerCase().includes("number") ||
-    structure.type.toLowerCase().includes("title")
-  ) {
-    textStyle = { fontWeight: "bold" };
+  if (HEADING_STRUCTURES.has(Structure[structure.type])) {
+    textStyle.fontWeight = "bold";
+    divStyle.marginLeft = "0px";
+    divStyle.textAlign = "center";
   }
 
   return (
