@@ -1,1 +1,92 @@
-[[{"type": "Bab Number", "text": "BAB I"}, {"type": "Bab Title", "text": "KETENTUAN UMUM"}, [{"type": "Pasal Number", "text": "Pasal 1"}, {"type": "Plaintext", "text": "Dalam Undang-Undang ini yang dimaksud dengan:"}, [[{"type": "Number with Dot", "text": "1."}, {"type": "Plaintext", "text": "Top level list item 1"}, [[{"type": "Number with Brackets", "text": "(1)"}, {"type": "Plaintext", "text": "Hello world"}], [{"type": "Number with Brackets", "text": "(2)"}, {"type": "Plaintext", "text": "Hello world"}, [[{"type": "Letter with Dot", "text": "a."}, {"type": "Plaintext", "text": "Quick brown fox"}], [{"type": "Letter with Dot", "text": "b."}, {"type": "Plaintext", "text": "Quick brown fox"}]]]]], [{"type": "Number with Dot", "text": "2."}, {"type": "Plaintext", "text": "Top level list item 2"}], [{"type": "Number with Dot", "text": "3."}, {"type": "Plaintext", "text": "Top level list item 3"}]]]]]
+{
+  "type": "UNDANG_UNDANG",
+  "children": [
+    {
+      "type": "BAB",
+      "children": [
+        { "type": "BAB_NUMBER", "text": "BAB I" },
+        { "type": "BAB_TITLE", "text": "KETENTUAN UMUM" },
+        {
+          "type": "PASAL",
+          "children": [
+            { "type": "PASAL_NUMBER", "text": "Pasal 1" },
+            {
+              "type": "PLAINTEXT",
+              "text": "Dalam Undang-Undang ini yang dimaksud dengan:"
+            },
+            {
+              "type": "LIST",
+              "children": [
+                {
+                  "type": "LIST_ITEM",
+                  "children": [
+                    { "type": "NUMBER_WITH_DOT", "text": "1." },
+                    { "type": "PLAINTEXT", "text": "Top level list item 1" },
+                    {
+                      "type": "LIST",
+                      "children": [
+                        {
+                          "type": "LIST_ITEM",
+                          "children": [
+                            { "type": "NUMBER_WITH_BRACKETS", "text": "(1)" },
+                            { "type": "PLAINTEXT", "text": "Hello world" }
+                          ]
+                        },
+                        {
+                          "type": "LIST_ITEM",
+                          "children": [
+                            { "type": "NUMBER_WITH_BRACKETS", "text": "(2)" },
+                            { "type": "PLAINTEXT", "text": "Hello world" },
+                            {
+                              "type": "LIST",
+                              "children": [
+                                {
+                                  "type": "LIST_ITEM",
+                                  "children": [
+                                    { "type": "LETTER_WITH_DOT", "text": "a." },
+                                    {
+                                      "type": "PLAINTEXT",
+                                      "text": "Quick brown fox"
+                                    }
+                                  ]
+                                },
+                                {
+                                  "type": "LIST_ITEM",
+                                  "children": [
+                                    { "type": "LETTER_WITH_DOT", "text": "b." },
+                                    {
+                                      "type": "PLAINTEXT",
+                                      "text": "Quick brown fox"
+                                    }
+                                  ]
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "LIST_ITEM",
+                  "children": [
+                    { "type": "NUMBER_WITH_DOT", "text": "2." },
+                    { "type": "PLAINTEXT", "text": "Top level list item 2" }
+                  ]
+                },
+                {
+                  "type": "LIST_ITEM",
+                  "children": [
+                    { "type": "NUMBER_WITH_DOT", "text": "3." },
+                    { "type": "PLAINTEXT", "text": "Top level list item 3" }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

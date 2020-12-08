@@ -55,6 +55,15 @@ UTILS
 -----------------
 '''
 
+# TODO(johnamadeo): This is just a placeholder for what should eventually become a proper Class constructor
+
+
+def node(structure, children):
+    return {
+        'type': structure.value,
+        'children': children,
+    }
+
 
 def is_heading(regex, string):
     return re.match('^[\s]*' + regex + '[\s]*$', string) != None
@@ -371,6 +380,7 @@ def parse_primitive(structure, law, start_index, return_end_index=True):
 
 
 def parse_complex_structure(
+    structure,
     law,
     start_index,
     # doesn't have to include root structure (i.e UNDANG_UNDANG)
@@ -404,14 +414,11 @@ def parse_complex_structure(
     of the law by hand w/ pen and paper and apply the algorithm as implemented below!
     '''
 
-    parsed_structure = []
+    children = []
     initial_start_index = start_index
 
     end_index = start_index-1
     while end_index < len(law)-1:
-        # TODO(johnamadeo): Change the name of this variable - see parse_list_item
-        structure = None
-
         '''
         For a complex structure, the very 1st line must be part of
         the structure / cannot be the start of an ancestor or sibling
@@ -425,25 +432,27 @@ def parse_complex_structure(
             # if this is the start of a sibling or ancestor structure
             for ancestor_or_sibling_structure in ancestor_structures + sibling_structures:
                 if is_start_of_structure(ancestor_or_sibling_structure, law, start_index):
-                    return parsed_structure, end_index
+                    return node(structure, children), end_index
+
+        child_structure = None
 
         # check if we've reached the start of a child structure
-        for child_structure in child_structures:
-            if is_start_of_structure(child_structure, law, start_index):
-                structure = child_structure
+        for maybe_child_structure in child_structures:
+            if is_start_of_structure(maybe_child_structure, law, start_index):
+                child_structure = maybe_child_structure
                 break
 
-        if structure == None:
+        if child_structure == None:
             raise Exception(
                 'Unable to detect the right structure for line: ' + law[start_index])
 
         parsed_sub_structure, end_index = parse_structure(
-            structure, law, start_index)
+            child_structure, law, start_index)
         start_index = end_index + 1
 
-        parsed_structure.append(parsed_sub_structure)
+        children.append(parsed_sub_structure)
 
-    return parsed_structure, end_index
+    return node(structure, children), end_index
 
 
 '''
@@ -463,6 +472,7 @@ def parse_undang_undang(law):
     # exit()
 
     return parse_complex_structure(
+        Structure.UNDANG_UNDANG,
         law,
         0,
         ancestor_structures=[],
@@ -472,71 +482,75 @@ def parse_undang_undang(law):
 
 
 def parse_bab(law, start_index):
-    parsed_structure = [
+    children = [
         simple_parse_primitive(Structure.BAB_NUMBER, law, start_index),
         simple_parse_primitive(Structure.BAB_TITLE, law, start_index+1),
     ]
 
     parsed_sub_structure, end_index = parse_complex_structure(
+        Structure.BAB,
         law,
         start_index+2,
         ancestor_structures=[],
         sibling_structures=[Structure.BAB],
         child_structures=[Structure.PASAL, Structure.BAGIAN])
-    parsed_structure.extend(parsed_sub_structure)
+    children.extend(parsed_sub_structure['children'])
 
-    return parsed_structure, end_index
+    return node(Structure.BAB, children), end_index
 
 
 def parse_pasal(law, start_index):
-    parsed_structure = [
+    children = [
         simple_parse_primitive(Structure.PASAL_NUMBER, law, start_index),
     ]
 
     parsed_sub_structure, end_index = parse_complex_structure(
+        Structure.PASAL,
         law,
         start_index+1,
         ancestor_structures=[Structure.BAB,
                              Structure.BAGIAN, Structure.PARAGRAF],
         sibling_structures=[Structure.PASAL],
         child_structures=TEXT_BLOCK_STRUCTURES)
-    parsed_structure.extend(parsed_sub_structure)
+    children.extend(parsed_sub_structure['children'])
 
-    return parsed_structure, end_index
+    return node(Structure.PASAL, children), end_index
 
 
 def parse_bagian(law, start_index):
-    parsed_structure = [
+    children = [
         simple_parse_primitive(Structure.BAGIAN_NUMBER, law, start_index),
         simple_parse_primitive(Structure.BAGIAN_TITLE, law, start_index+1),
     ]
 
     parsed_sub_structure, end_index = parse_complex_structure(
+        Structure.BAGIAN,
         law,
         start_index+2,
         ancestor_structures=[Structure.BAB],
         sibling_structures=[Structure.BAGIAN],
         child_structures=[Structure.PASAL, Structure.PARAGRAF])
-    parsed_structure.extend(parsed_sub_structure)
+    children.extend(parsed_sub_structure['children'])
 
-    return parsed_structure, end_index
+    return node(Structure.BAGIAN, children), end_index
 
 
 def parse_paragraf(law, start_index):
-    parsed_structure = [
+    children = [
         simple_parse_primitive(Structure.PARAGRAF_NUMBER, law, start_index),
         simple_parse_primitive(Structure.PARAGRAF_TITLE, law, start_index+1),
     ]
 
     parsed_sub_structure, end_index = parse_complex_structure(
+        Structure.PARAGRAF,
         law,
         start_index+2,
         ancestor_structures=[Structure.BAB, Structure.BAGIAN],
         sibling_structures=[Structure.PARAGRAF],
         child_structures=[Structure.PASAL])
-    parsed_structure.extend(parsed_sub_structure)
+    children.extend(parsed_sub_structure['children'])
 
-    return parsed_structure, end_index
+    return node(Structure.PARAGRAF, children), end_index
 
 
 '''
@@ -546,7 +560,8 @@ any child lists should be embedded inside a list item
 
 
 def parse_list(law, start_index):
-    parsed_list = []
+    structure = Structure.LIST
+    children = []
 
     non_recursive_ancestors = [Structure.PASAL, Structure.PARAGRAF,
                                Structure.BAGIAN, Structure.BAB]
@@ -559,7 +574,7 @@ def parse_list(law, start_index):
         start_of_non_recursive_ancestors = is_start_of_any(
             non_recursive_ancestors, law, start_index)
         if not_first_line and start_of_non_recursive_ancestors:
-            return parsed_list, end_index
+            return node(structure, children), end_index
 
         '''
         If there is already 1 list item parsed, we need to check if the next list item
@@ -579,9 +594,9 @@ def parse_list(law, start_index):
         2.
         Hello world
         '''
-        if len(parsed_list) > 0:
-            parsed_list_item = parsed_list[-1]
-            parsed_list_index = parsed_list_item[0]
+        if len(children) > 0:
+            parsed_list_item = children[-1]
+            parsed_list_index = parsed_list_item['children'][0]
             curr_list_index_type = Structure[parsed_list_index['type']]
             curr_list_index_number = parsed_list_index['text']
 
@@ -596,7 +611,7 @@ def parse_list(law, start_index):
             must be an ancestor
             '''
             if curr_list_index_type != next_list_index_type:
-                return parsed_list, end_index
+                return node(structure, children), end_index
             '''
             Suppose the current list is of type X (e.g NUMBER_WITH_DOT) and the current line
             is the start of a list item that is also of type X.
@@ -637,17 +652,17 @@ def parse_list(law, start_index):
             list item is indeed part of this list so that's what we assume for now.
             '''
             if not is_next_list_index_number(curr_list_index_number, next_list_index_number):
-                return parsed_list, end_index
+                return node(structure, children), end_index
             else:
                 # TODO(johnamadeo): Ask the human for input in this case
                 pass
 
         # LIST's only child structure is LIST_ITEM
         parsed_list_item, end_index = parse_list_item(law, start_index)
-        parsed_list.append(parsed_list_item)
+        children.append(parsed_list_item)
         start_index = end_index + 1
 
-    return parsed_list, end_index
+    return node(structure, children), end_index
 
 
 def parse_list_item(law, start_index):
@@ -664,16 +679,15 @@ def parse_list_item(law, start_index):
         2. 
         Pasal 6 dihapus
     '''
-    parsed_list_item = []
-
+    structure = Structure.LIST_ITEM
     parsed_list_index, _ = parse_structure(
         Structure.LIST_INDEX, law, start_index)
     parsed_plaintext = simple_parse_primitive(
         Structure.PLAINTEXT, law, start_index+1)
-    parsed_list_item.extend([
+    children = [
         parsed_list_index,
         parsed_plaintext,
-    ])
+    ]
 
     '''
     From the 3rd line onwards, the child will either be a plaintext or a nested list
@@ -701,7 +715,7 @@ def parse_list_item(law, start_index):
         start_of_non_recursive_ancestors = is_start_of_any(
             non_recursive_ancestors, law, start_index)
         if start_of_non_recursive_ancestors:
-            return parsed_list_item, end_index
+            return node(structure, children), end_index
 
         '''
         A LIST ITEM's child can be a PLAINTEXT or a nested LIST
@@ -732,7 +746,7 @@ def parse_list_item(law, start_index):
             if is_start_of_first_list_index(next_list_index_number):
                 child_structure = Structure.LIST
             else:
-                return parsed_list_item, end_index
+                return node(structure, children), end_index
 
         if child_structure == None:
             raise Exception(
@@ -740,10 +754,10 @@ def parse_list_item(law, start_index):
 
         parsed_structure, end_index = parse_structure(
             child_structure, law, start_index)
-        parsed_list_item.append(parsed_structure)
+        children.append(parsed_structure)
         start_index = end_index + 1
 
-    return parsed_list_item, end_index
+    return node(structure, children), end_index
 
 
 def parse_list_index(law, start_index):
