@@ -40,7 +40,13 @@ const HEADING_STRUCTURES = new Set([
 
 interface PrimitiveStructure {
   type: string;
+  type: Structure;
   text: string;
+}
+
+interface ComplexStructure {
+  type: Structure;
+  children: Array<PrimitiveStructure | ComplexStructure>;
 }
 
 export default function Test(props: {
