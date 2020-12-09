@@ -87,6 +87,8 @@ function renderStructure(structure: Complex | Primitive, depth: number) {
       return renderBab(structure as Complex, depth + 1);
     case Structure.BAGIAN:
       return renderBagian(structure as Complex, depth + 1);
+    case Structure.PARAGRAF:
+      return renderParagraf(structure as Complex, depth + 1);
     case Structure.PASAL:
       return renderPasal(structure as Complex, depth + 1);
     default:
@@ -136,6 +138,24 @@ function renderBab(structure: Complex, depth: number): JSX.Element {
 }
 
 function renderBagian(structure: Complex, depth: number): JSX.Element {
+  // TODO(johnamadeo) opportunity to DRY
+  const style: CSSProperties = {
+    margin: "48px 0",
+  };
+  return (
+    <>
+      <div style={style}>
+        {renderPrimitive(structure.children[0] as Primitive, depth + 1)}
+        {renderPrimitive(structure.children[1] as Primitive, depth + 1)}
+      </div>
+      {structure.children
+        .slice(2)
+        .map((childStructure) => renderStructure(childStructure, depth + 1))}
+    </>
+  );
+}
+
+function renderParagraf(structure: Complex, depth: number): JSX.Element {
   // TODO(johnamadeo) opportunity to DRY
   const style: CSSProperties = {
     margin: "48px 0",
