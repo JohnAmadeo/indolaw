@@ -49,19 +49,19 @@ const PRIMITIVE_STRUCTURES = new Set([
   Structure.PARAGRAF_TITLE,
 ]);
 
-interface PrimitiveStructure {
+interface Primitive {
   type: Structure;
   text: string;
 }
 
-interface ComplexStructure {
+interface Complex {
   type: Structure;
-  children: Array<PrimitiveStructure | ComplexStructure>;
+  children: Array<Primitive | Complex>;
 }
 
 export default function Test(props: {
   data: {
-    law: ComplexStructure;
+    law: Complex;
   };
 }) {
   return (
@@ -72,10 +72,7 @@ export default function Test(props: {
   );
 }
 
-function renderStructure(
-  structure: ComplexStructure | PrimitiveStructure,
-  depth: number
-) {
+function renderStructure(structure: Complex | Primitive, depth: number) {
   switch (structure.type) {
     case Structure.PLAINTEXT:
     case Structure.BAB_NUMBER:
@@ -85,20 +82,17 @@ function renderStructure(
     case Structure.BAGIAN_TITLE:
     case Structure.PARAGRAF_NUMBER:
     case Structure.PARAGRAF_TITLE:
-      return renderPrimitive(structure as PrimitiveStructure, depth + 1);
+      return renderPrimitive(structure as Primitive, depth + 1);
     case Structure.BAB:
-      return renderBab(structure as ComplexStructure, depth + 1);
+      return renderBab(structure as Complex, depth + 1);
     case Structure.PASAL:
-      return renderPasal(structure as ComplexStructure, depth + 1);
+      return renderPasal(structure as Complex, depth + 1);
     default:
       return <></>;
   }
 }
 
-function renderPrimitive(
-  structure: PrimitiveStructure,
-  depth: number
-): JSX.Element {
+function renderPrimitive(structure: Primitive, depth: number): JSX.Element {
   let divStyle: CSSProperties = {
     marginLeft: `${depth * 32}px`,
     fontSize: "20px",
@@ -122,14 +116,14 @@ function renderPrimitive(
   );
 }
 
-function renderBab(structure: ComplexStructure, depth: number): JSX.Element {
+function renderBab(structure: Complex, depth: number): JSX.Element {
   const style: CSSProperties = {
     margin: "48px 0",
   };
   return (
     <div style={style}>
-      {renderPrimitive(structure.children[0] as PrimitiveStructure, depth + 1)}
-      {renderPrimitive(structure.children[1] as PrimitiveStructure, depth + 1)}
+      {renderPrimitive(structure.children[0] as Primitive, depth + 1)}
+      {renderPrimitive(structure.children[1] as Primitive, depth + 1)}
       {structure.children
         .slice(2)
         .map((childStructure) => renderStructure(childStructure, depth + 1))}
@@ -137,13 +131,13 @@ function renderBab(structure: ComplexStructure, depth: number): JSX.Element {
   );
 }
 
-function renderPasal(structure: ComplexStructure, depth: number): JSX.Element {
+function renderPasal(structure: Complex, depth: number): JSX.Element {
   const style: CSSProperties = {
     margin: "48px 0 0 0",
   };
   return (
     <div style={style}>
-      {renderPrimitive(structure.children[0] as PrimitiveStructure, depth + 1)}
+      {renderPrimitive(structure.children[0] as Primitive, depth + 1)}
       {structure.children
         .slice(1)
         .map((childStructure) => renderStructure(childStructure, depth + 1))}
@@ -151,10 +145,7 @@ function renderPasal(structure: ComplexStructure, depth: number): JSX.Element {
   );
 }
 
-function renderUndangUndang(
-  structure: ComplexStructure,
-  depth: number
-): JSX.Element {
+function renderUndangUndang(structure: Complex, depth: number): JSX.Element {
   return (
     <>
       {structure.children.map((children) =>
