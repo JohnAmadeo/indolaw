@@ -38,6 +38,17 @@ const HEADING_STRUCTURES = new Set([
   Structure.PARAGRAF_TITLE,
 ]);
 
+const PRIMITIVE_STRUCTURES = new Set([
+  Structure.PLAINTEXT,
+  Structure.BAB_NUMBER,
+  Structure.BAB_TITLE,
+  Structure.PASAL_NUMBER,
+  Structure.BAGIAN_NUMBER,
+  Structure.BAGIAN_TITLE,
+  Structure.PARAGRAF_NUMBER,
+  Structure.PARAGRAF_TITLE,
+]);
+
 interface PrimitiveStructure {
   type: Structure;
   text: string;
@@ -50,50 +61,93 @@ interface ComplexStructure {
 
 export default function Test(props: {
   data: {
-    law: any;
+    law: ComplexStructure;
   };
 }) {
   return (
     <div style={{ margin: "0 180px" }}>
       <h1>UNDANG UNDANG REPUBLIK INDONESIA TENTANG CIPTA KERJA</h1>
-      {renderStructure(props.data.law, 1)}
+      {renderUndangUndang(props.data.law, 1)}
     </div>
   );
 }
 
-function renderStructure(structure: any, depth: number) {
-  return (
-    <>
-      {structure.map((childStructure: any) => {
-        if (childStructure instanceof Array) {
-          return renderStructure(childStructure, depth + 1);
-        } else {
-          return renderPrimitive(childStructure, depth);
-        }
-      })}
-    </>
-  );
+function renderStructure(
+  structure: ComplexStructure | PrimitiveStructure,
+  depth: number
+) {
+  switch (structure.type) {
+    case Structure.PLAINTEXT:
+    case Structure.BAB_NUMBER:
+    case Structure.BAB_TITLE:
+    case Structure.PASAL_NUMBER:
+    case Structure.BAGIAN_NUMBER:
+    case Structure.BAGIAN_TITLE:
+    case Structure.PARAGRAF_NUMBER:
+    case Structure.PARAGRAF_TITLE:
+      return renderPrimitive(structure as PrimitiveStructure, depth);
+    case Structure.BAB:
+      return renderBab(structure as ComplexStructure, depth);
+  }
+
+  if (PRIMITIVE_STRUCTURES.has(structure.type)) {
+    return renderPrimitive(structure as PrimitiveStructure, depth);
+  }
+  return <></>;
 }
 
-function renderPrimitive(structure: PrimitiveStructure, depth: number) {
+function renderPrimitive(
+  structure: PrimitiveStructure,
+  depth: number
+): JSX.Element {
   let divStyle: CSSProperties = {
     marginLeft: `${depth * 32}px`,
-    marginBottom: "12px",
     fontSize: "20px",
     border: "1px solid red",
   };
   let textStyle: CSSProperties = {};
 
+  // TODO(johnamadeo): change to switch/case
+  // @ts-ignore casting string to enum types in TS is weird
+  // https://thoughtbot.com/blog/the-trouble-with-typescript-enums
   if (HEADING_STRUCTURES.has(Structure[structure.type])) {
-    textStyle.fontWeight = "bold";
     divStyle.marginLeft = "0px";
     divStyle.textAlign = "center";
+    divStyle.padding = "4px 0";
   }
 
   return (
     <div style={divStyle}>
       <p style={textStyle}>{structure.text}</p>
     </div>
+  );
+}
+
+function renderBab(structure: ComplexStructure, depth: number): JSX.Element {
+  const style: CSSProperties = {
+    margin: "48px 0",
+  };
+  return (
+    <div style={style}>
+      {renderPrimitive(structure.children[0] as PrimitiveStructure, depth + 1)}
+      {renderPrimitive(structure.children[1] as PrimitiveStructure, depth + 1)}
+      {structure.children
+        .slice(2)
+        .map((childStructure) => renderStructure(childStructure, depth + 1))}
+    </div>
+  );
+}
+
+function renderUndangUndang(
+  structure: ComplexStructure,
+  depth: number
+): JSX.Element {
+  return (
+    <>
+      {structure.children.map((children) =>
+        renderStructure(children, depth + 1)
+      )}
+    </>
   );
 }
 
