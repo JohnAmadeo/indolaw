@@ -85,15 +85,14 @@ function renderStructure(
     case Structure.BAGIAN_TITLE:
     case Structure.PARAGRAF_NUMBER:
     case Structure.PARAGRAF_TITLE:
-      return renderPrimitive(structure as PrimitiveStructure, depth);
+      return renderPrimitive(structure as PrimitiveStructure, depth + 1);
     case Structure.BAB:
-      return renderBab(structure as ComplexStructure, depth);
+      return renderBab(structure as ComplexStructure, depth + 1);
+    case Structure.PASAL:
+      return renderPasal(structure as ComplexStructure, depth + 1);
+    default:
+      return <></>;
   }
-
-  if (PRIMITIVE_STRUCTURES.has(structure.type)) {
-    return renderPrimitive(structure as PrimitiveStructure, depth);
-  }
-  return <></>;
 }
 
 function renderPrimitive(
@@ -133,6 +132,20 @@ function renderBab(structure: ComplexStructure, depth: number): JSX.Element {
       {renderPrimitive(structure.children[1] as PrimitiveStructure, depth + 1)}
       {structure.children
         .slice(2)
+        .map((childStructure) => renderStructure(childStructure, depth + 1))}
+    </div>
+  );
+}
+
+function renderPasal(structure: ComplexStructure, depth: number): JSX.Element {
+  const style: CSSProperties = {
+    margin: "48px 0 0 0",
+  };
+  return (
+    <div style={style}>
+      {renderPrimitive(structure.children[0] as PrimitiveStructure, depth + 1)}
+      {structure.children
+        .slice(1)
         .map((childStructure) => renderStructure(childStructure, depth + 1))}
     </div>
   );
