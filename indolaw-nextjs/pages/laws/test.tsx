@@ -39,7 +39,6 @@ const HEADING_STRUCTURES = new Set([
 ]);
 
 interface PrimitiveStructure {
-  type: string;
   type: Structure;
   text: string;
 }
