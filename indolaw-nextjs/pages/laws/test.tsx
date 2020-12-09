@@ -77,7 +77,7 @@ export default function Test(props: {
   );
 }
 
-function renderStructure(structure: Complex | Primitive, depth: number) {
+function renderStructure(structure: Complex | Primitive) {
   switch (structure.type) {
     case Structure.PLAINTEXT:
     case Structure.BAB_NUMBER:
@@ -87,19 +87,19 @@ function renderStructure(structure: Complex | Primitive, depth: number) {
     case Structure.BAGIAN_TITLE:
     case Structure.PARAGRAF_NUMBER:
     case Structure.PARAGRAF_TITLE:
-      return renderPrimitive(structure as Primitive, depth);
+      return renderPrimitive(structure as Primitive);
     case Structure.BAB:
-      return renderBab(structure as Complex, depth);
+      return renderBab(structure as Complex);
     case Structure.BAGIAN:
-      return renderBagian(structure as Complex, depth);
+      return renderBagian(structure as Complex);
     case Structure.LIST:
-      return renderList(structure as Complex, depth);
+      return renderList(structure as Complex);
     case Structure.LIST_ITEM:
-      return renderListItem(structure as Complex, depth);
+      return renderListItem(structure as Complex);
     case Structure.PARAGRAF:
-      return renderParagraf(structure as Complex, depth);
+      return renderParagraf(structure as Complex);
     case Structure.PASAL:
-      return renderPasal(structure as Complex, depth);
+      return renderPasal(structure as Complex);
     default:
       return <></>;
   }
@@ -107,10 +107,9 @@ function renderStructure(structure: Complex | Primitive, depth: number) {
 
 function renderPrimitive(
   structure: Primitive,
-  depth: number,
   customStyle: CSSProperties = {}
 ): JSX.Element {
-  let divStyle: CSSProperties = {
+  let style: CSSProperties = {
     margin: "4px 0",
     fontSize: "20px",
     // border: "1px solid red",
@@ -120,36 +119,36 @@ function renderPrimitive(
   // @ts-ignore casting string to enum types in TS is weird
   // https://thoughtbot.com/blog/the-trouble-with-typescript-enums
   if (HEADING_STRUCTURES.has(Structure[structure.type])) {
-    divStyle.marginLeft = "0px";
-    divStyle.textAlign = "center";
-    divStyle.margin = "8px 0";
+    style.marginLeft = "0px";
+    style.textAlign = "center";
+    style.margin = "8px 0";
   }
 
   return (
-    <div style={{ ...divStyle, ...customStyle }}>
+    <div style={{ ...style, ...customStyle }}>
       <p>{structure.text}</p>
     </div>
   );
 }
 
-function renderBab(structure: Complex, depth: number): JSX.Element {
+function renderBab(structure: Complex): JSX.Element {
   const style: CSSProperties = {
     margin: "48px 0",
   };
   return (
     <>
       <div style={style}>
-        {renderPrimitive(structure.children[0] as Primitive, 0)}
-        {renderPrimitive(structure.children[1] as Primitive, 0)}
+        {renderPrimitive(structure.children[0] as Primitive)}
+        {renderPrimitive(structure.children[1] as Primitive)}
       </div>
       {structure.children
         .slice(2)
-        .map((childStructure) => renderStructure(childStructure, depth))}
+        .map((childStructure) => renderStructure(childStructure))}
     </>
   );
 }
 
-function renderBagian(structure: Complex, depth: number): JSX.Element {
+function renderBagian(structure: Complex): JSX.Element {
   // TODO(johnamadeo) opportunity to DRY
   const style: CSSProperties = {
     margin: "48px 0",
@@ -157,27 +156,27 @@ function renderBagian(structure: Complex, depth: number): JSX.Element {
   return (
     <>
       <div style={style}>
-        {renderPrimitive(structure.children[0] as Primitive, 0)}
-        {renderPrimitive(structure.children[1] as Primitive, 0)}
+        {renderPrimitive(structure.children[0] as Primitive)}
+        {renderPrimitive(structure.children[1] as Primitive)}
       </div>
       {structure.children
         .slice(2)
-        .map((childStructure) => renderStructure(childStructure, depth))}
+        .map((childStructure) => renderStructure(childStructure))}
     </>
   );
 }
 
-function renderList(structure: Complex, depth: number): JSX.Element {
+function renderList(structure: Complex): JSX.Element {
   return (
     <div>
       {structure.children.map((childStructure) =>
-        renderStructure(childStructure, depth)
+        renderStructure(childStructure)
       )}
     </div>
   );
 }
 
-function renderListItem(structure: Complex, depth: number): JSX.Element {
+function renderListItem(structure: Complex): JSX.Element {
   // TODO(johnamadeo): Decide how the heck we wanna do CSS (CSS modules, big CSS object at bottom?)
   return (
     <div
@@ -191,7 +190,7 @@ function renderListItem(structure: Complex, depth: number): JSX.Element {
           minWidth: "48px",
         }}
       >
-        {renderPrimitive(structure.children[0] as Primitive, 0)}
+        {renderPrimitive(structure.children[0] as Primitive)}
       </div>
       <div
         style={{
@@ -200,19 +199,19 @@ function renderListItem(structure: Complex, depth: number): JSX.Element {
       >
         {structure.children.map((childStructure) => {
           if (childStructure.type === Structure.PLAINTEXT) {
-            return renderPrimitive(childStructure as Primitive, 0, {
+            return renderPrimitive(childStructure as Primitive, {
               textAlign: "justify",
             });
           }
 
-          return renderStructure(childStructure, depth + 1);
+          return renderStructure(childStructure);
         })}
       </div>
     </div>
   );
 }
 
-function renderParagraf(structure: Complex, depth: number): JSX.Element {
+function renderParagraf(structure: Complex): JSX.Element {
   // TODO(johnamadeo) opportunity to DRY
   const style: CSSProperties = {
     margin: "48px 0",
@@ -220,36 +219,34 @@ function renderParagraf(structure: Complex, depth: number): JSX.Element {
   return (
     <>
       <div style={style}>
-        {renderPrimitive(structure.children[0] as Primitive, 0)}
-        {renderPrimitive(structure.children[1] as Primitive, 0)}
+        {renderPrimitive(structure.children[0] as Primitive)}
+        {renderPrimitive(structure.children[1] as Primitive)}
       </div>
       {structure.children
         .slice(2)
-        .map((childStructure) => renderStructure(childStructure, depth))}
+        .map((childStructure) => renderStructure(childStructure))}
     </>
   );
 }
 
-function renderPasal(structure: Complex, depth: number): JSX.Element {
+function renderPasal(structure: Complex): JSX.Element {
   const style: CSSProperties = {
     margin: "48px 0 0 0",
   };
   return (
     <>
       <div style={style}>
-        {renderPrimitive(structure.children[0] as Primitive, 0)}
+        {renderPrimitive(structure.children[0] as Primitive)}
       </div>
       {structure.children
         .slice(1)
-        .map((childStructure) => renderStructure(childStructure, depth))}
+        .map((childStructure) => renderStructure(childStructure))}
     </>
   );
 }
 
 function renderUndangUndang(structure: Complex): JSX.Element {
-  return (
-    <>{structure.children.map((children) => renderStructure(children, 0))}</>
-  );
+  return <>{structure.children.map((children) => renderStructure(children))}</>;
 }
 
 export const getStaticProps: GetStaticProps = async () => {
