@@ -121,13 +121,15 @@ function renderBab(structure: Complex, depth: number): JSX.Element {
     margin: "48px 0",
   };
   return (
-    <div style={style}>
-      {renderPrimitive(structure.children[0] as Primitive, depth + 1)}
-      {renderPrimitive(structure.children[1] as Primitive, depth + 1)}
+    <>
+      <div style={style}>
+        {renderPrimitive(structure.children[0] as Primitive, depth + 1)}
+        {renderPrimitive(structure.children[1] as Primitive, depth + 1)}
+      </div>
       {structure.children
         .slice(2)
         .map((childStructure) => renderStructure(childStructure, depth + 1))}
-    </div>
+    </>
   );
 }
 
@@ -136,12 +138,14 @@ function renderPasal(structure: Complex, depth: number): JSX.Element {
     margin: "48px 0 0 0",
   };
   return (
-    <div style={style}>
-      {renderPrimitive(structure.children[0] as Primitive, depth + 1)}
+    <>
+      <div style={style}>
+        {renderPrimitive(structure.children[0] as Primitive, depth + 1)}
+      </div>
       {structure.children
         .slice(1)
         .map((childStructure) => renderStructure(childStructure, depth + 1))}
-    </div>
+    </>
   );
 }
 
