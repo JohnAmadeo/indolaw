@@ -89,15 +89,13 @@ function renderStructure(structure: Complex | Primitive) {
     case Structure.PARAGRAF_TITLE:
       return renderPrimitive(structure as Primitive);
     case Structure.BAB:
-      return renderBab(structure as Complex);
     case Structure.BAGIAN:
-      return renderBagian(structure as Complex);
+    case Structure.PARAGRAF:
+      return renderStructuresWithTitleAndNumber(structure as Complex);
     case Structure.LIST:
       return renderList(structure as Complex);
     case Structure.LIST_ITEM:
       return renderListItem(structure as Complex);
-    case Structure.PARAGRAF:
-      return renderParagraf(structure as Complex);
     case Structure.PASAL:
       return renderPasal(structure as Complex);
     default:
@@ -115,15 +113,6 @@ function renderPrimitive(
     // border: "1px solid red",
   };
 
-  // TODO(johnamadeo): change to switch/case
-  // @ts-ignore casting string to enum types in TS is weird
-  // https://thoughtbot.com/blog/the-trouble-with-typescript-enums
-  if (HEADING_STRUCTURES.has(Structure[structure.type])) {
-    style.marginLeft = "0px";
-    style.textAlign = "center";
-    style.margin = "8px 0";
-  }
-
   return (
     <div style={{ ...style, ...customStyle }}>
       <p>{structure.text}</p>
@@ -131,33 +120,23 @@ function renderPrimitive(
   );
 }
 
-function renderBab(structure: Complex): JSX.Element {
+// TODO(johnamadeo): I think there are multi-line titles later on in the text
+function renderStructuresWithTitleAndNumber(structure: Complex): JSX.Element {
   const style: CSSProperties = {
     margin: "48px 0",
   };
-  return (
-    <>
-      <div style={style}>
-        {renderPrimitive(structure.children[0] as Primitive)}
-        {renderPrimitive(structure.children[1] as Primitive)}
-      </div>
-      {structure.children
-        .slice(2)
-        .map((childStructure) => renderStructure(childStructure))}
-    </>
-  );
-}
 
-function renderBagian(structure: Complex): JSX.Element {
-  // TODO(johnamadeo) opportunity to DRY
-  const style: CSSProperties = {
-    margin: "48px 0",
+  const headingStyle: CSSProperties = {
+    marginLeft: "0px",
+    textAlign: "center",
+    margin: "8px 0",
   };
+
   return (
     <>
       <div style={style}>
-        {renderPrimitive(structure.children[0] as Primitive)}
-        {renderPrimitive(structure.children[1] as Primitive)}
+        {renderPrimitive(structure.children[0] as Primitive, headingStyle)}
+        {renderPrimitive(structure.children[1] as Primitive, headingStyle)}
       </div>
       {structure.children
         .slice(2)
@@ -211,32 +190,19 @@ function renderListItem(structure: Complex): JSX.Element {
   );
 }
 
-function renderParagraf(structure: Complex): JSX.Element {
-  // TODO(johnamadeo) opportunity to DRY
-  const style: CSSProperties = {
-    margin: "48px 0",
-  };
-  return (
-    <>
-      <div style={style}>
-        {renderPrimitive(structure.children[0] as Primitive)}
-        {renderPrimitive(structure.children[1] as Primitive)}
-      </div>
-      {structure.children
-        .slice(2)
-        .map((childStructure) => renderStructure(childStructure))}
-    </>
-  );
-}
-
 function renderPasal(structure: Complex): JSX.Element {
   const style: CSSProperties = {
     margin: "48px 0 0 0",
   };
+  const headingStyle: CSSProperties = {
+    marginLeft: "0px",
+    textAlign: "center",
+    margin: "8px 0",
+  };
   return (
     <>
       <div style={style}>
-        {renderPrimitive(structure.children[0] as Primitive)}
+        {renderPrimitive(structure.children[0] as Primitive, headingStyle)}
       </div>
       {structure.children
         .slice(1)
