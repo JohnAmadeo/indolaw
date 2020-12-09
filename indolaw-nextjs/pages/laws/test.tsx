@@ -65,9 +65,14 @@ export default function Test(props: {
   };
 }) {
   return (
-    <div style={{ margin: "0 180px" }}>
+    <div
+      style={{
+        width: "800px",
+        margin: "0 auto",
+      }}
+    >
       <h1>UNDANG UNDANG REPUBLIK INDONESIA TENTANG CIPTA KERJA</h1>
-      {renderUndangUndang(props.data.law, 1)}
+      {renderUndangUndang(props.data.law)}
     </div>
   );
 }
@@ -82,27 +87,34 @@ function renderStructure(structure: Complex | Primitive, depth: number) {
     case Structure.BAGIAN_TITLE:
     case Structure.PARAGRAF_NUMBER:
     case Structure.PARAGRAF_TITLE:
-      return renderPrimitive(structure as Primitive, depth + 1);
+      return renderPrimitive(structure as Primitive, depth);
     case Structure.BAB:
-      return renderBab(structure as Complex, depth + 1);
+      return renderBab(structure as Complex, depth);
     case Structure.BAGIAN:
-      return renderBagian(structure as Complex, depth + 1);
+      return renderBagian(structure as Complex, depth);
+    case Structure.LIST:
+      return renderList(structure as Complex, depth);
+    case Structure.LIST_ITEM:
+      return renderListItem(structure as Complex, depth);
     case Structure.PARAGRAF:
-      return renderParagraf(structure as Complex, depth + 1);
+      return renderParagraf(structure as Complex, depth);
     case Structure.PASAL:
-      return renderPasal(structure as Complex, depth + 1);
+      return renderPasal(structure as Complex, depth);
     default:
       return <></>;
   }
 }
 
-function renderPrimitive(structure: Primitive, depth: number): JSX.Element {
+function renderPrimitive(
+  structure: Primitive,
+  depth: number,
+  customStyle: CSSProperties = {}
+): JSX.Element {
   let divStyle: CSSProperties = {
-    marginLeft: `${depth * 32}px`,
+    margin: "4px 0",
     fontSize: "20px",
-    border: "1px solid red",
+    // border: "1px solid red",
   };
-  let textStyle: CSSProperties = {};
 
   // TODO(johnamadeo): change to switch/case
   // @ts-ignore casting string to enum types in TS is weird
@@ -110,12 +122,12 @@ function renderPrimitive(structure: Primitive, depth: number): JSX.Element {
   if (HEADING_STRUCTURES.has(Structure[structure.type])) {
     divStyle.marginLeft = "0px";
     divStyle.textAlign = "center";
-    divStyle.padding = "4px 0";
+    divStyle.margin = "8px 0";
   }
 
   return (
-    <div style={divStyle}>
-      <p style={textStyle}>{structure.text}</p>
+    <div style={{ ...divStyle, ...customStyle }}>
+      <p>{structure.text}</p>
     </div>
   );
 }
@@ -127,12 +139,12 @@ function renderBab(structure: Complex, depth: number): JSX.Element {
   return (
     <>
       <div style={style}>
-        {renderPrimitive(structure.children[0] as Primitive, depth + 1)}
-        {renderPrimitive(structure.children[1] as Primitive, depth + 1)}
+        {renderPrimitive(structure.children[0] as Primitive, 0)}
+        {renderPrimitive(structure.children[1] as Primitive, 0)}
       </div>
       {structure.children
         .slice(2)
-        .map((childStructure) => renderStructure(childStructure, depth + 1))}
+        .map((childStructure) => renderStructure(childStructure, depth))}
     </>
   );
 }
@@ -145,13 +157,58 @@ function renderBagian(structure: Complex, depth: number): JSX.Element {
   return (
     <>
       <div style={style}>
-        {renderPrimitive(structure.children[0] as Primitive, depth + 1)}
-        {renderPrimitive(structure.children[1] as Primitive, depth + 1)}
+        {renderPrimitive(structure.children[0] as Primitive, 0)}
+        {renderPrimitive(structure.children[1] as Primitive, 0)}
       </div>
       {structure.children
         .slice(2)
-        .map((childStructure) => renderStructure(childStructure, depth + 1))}
+        .map((childStructure) => renderStructure(childStructure, depth))}
     </>
+  );
+}
+
+function renderList(structure: Complex, depth: number): JSX.Element {
+  return (
+    <div>
+      {structure.children.map((childStructure) =>
+        renderStructure(childStructure, depth)
+      )}
+    </div>
+  );
+}
+
+function renderListItem(structure: Complex, depth: number): JSX.Element {
+  // TODO(johnamadeo): Decide how the heck we wanna do CSS (CSS modules, big CSS object at bottom?)
+  return (
+    <div
+      style={{
+        display: "flex",
+        margin: "4px 0",
+      }}
+    >
+      <div
+        style={{
+          minWidth: "48px",
+        }}
+      >
+        {renderPrimitive(structure.children[0] as Primitive, 0)}
+      </div>
+      <div
+        style={{
+          flexGrow: 1,
+        }}
+      >
+        {structure.children.map((childStructure) => {
+          if (childStructure.type === Structure.PLAINTEXT) {
+            return renderPrimitive(childStructure as Primitive, 0, {
+              textAlign: "justify",
+            });
+          }
+
+          return renderStructure(childStructure, depth + 1);
+        })}
+      </div>
+    </div>
   );
 }
 
@@ -163,12 +220,12 @@ function renderParagraf(structure: Complex, depth: number): JSX.Element {
   return (
     <>
       <div style={style}>
-        {renderPrimitive(structure.children[0] as Primitive, depth + 1)}
-        {renderPrimitive(structure.children[1] as Primitive, depth + 1)}
+        {renderPrimitive(structure.children[0] as Primitive, 0)}
+        {renderPrimitive(structure.children[1] as Primitive, 0)}
       </div>
       {structure.children
         .slice(2)
-        .map((childStructure) => renderStructure(childStructure, depth + 1))}
+        .map((childStructure) => renderStructure(childStructure, depth))}
     </>
   );
 }
@@ -180,22 +237,18 @@ function renderPasal(structure: Complex, depth: number): JSX.Element {
   return (
     <>
       <div style={style}>
-        {renderPrimitive(structure.children[0] as Primitive, depth + 1)}
+        {renderPrimitive(structure.children[0] as Primitive, 0)}
       </div>
       {structure.children
         .slice(1)
-        .map((childStructure) => renderStructure(childStructure, depth + 1))}
+        .map((childStructure) => renderStructure(childStructure, depth))}
     </>
   );
 }
 
-function renderUndangUndang(structure: Complex, depth: number): JSX.Element {
+function renderUndangUndang(structure: Complex): JSX.Element {
   return (
-    <>
-      {structure.children.map((children) =>
-        renderStructure(children, depth + 1)
-      )}
-    </>
+    <>{structure.children.map((children) => renderStructure(children, 0))}</>
   );
 }
 
