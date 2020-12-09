@@ -13,16 +13,28 @@ export default function Test(props: {
   data: {
     law: Complex;
   };
-}) {
+}): JSX.Element {
   return (
-    <div
-      style={{
-        width: "800px",
-        margin: "0 auto",
-      }}
-    >
-      <h1>UNDANG UNDANG REPUBLIK INDONESIA TENTANG CIPTA KERJA</h1>
-      {renderUndangUndang(props.data.law)}
+    <div style={{ display: "flex" }}>
+      <div
+        style={{
+          border: "1px solid red",
+          padding: "24px",
+        }}
+      >
+        <TableOfContents law={props.data.law} />
+      </div>
+      <div style={{ flexGrow: 1, border: "1px solid blue" }}>
+        <div
+          style={{
+            width: "800px",
+            margin: "0 auto",
+          }}
+        >
+          <h1>UNDANG UNDANG REPUBLIK INDONESIA TENTANG CIPTA KERJA</h1>
+          {renderUndangUndang(props.data.law)}
+        </div>
+      </div>
     </div>
   );
 }
