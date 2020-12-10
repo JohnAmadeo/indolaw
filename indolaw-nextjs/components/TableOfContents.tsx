@@ -3,7 +3,6 @@ import { Structure, Complex, Primitive } from "utils/grammar";
 
 /*
  * TODO(johnamadeo)
- * 1. Fixed scroll
  * 2. Collapsible (can hide all child structures)
  * 3. Linking
  */

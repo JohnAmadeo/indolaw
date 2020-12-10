@@ -1,87 +1,13 @@
-import remark from "remark";
-import html from "remark-html";
-import matter from "gray-matter";
-import fs from "fs";
-import path from "path";
-import { GetStaticProps } from "next";
 import { CSSProperties } from "react";
 import { Structure, Complex, Primitive } from "utils/grammar";
-import TableOfContents from "components/TableOfContents";
-import Law from "components/Law";
 
 // TODO(johnamadeo): Fix "Warning: Each child in a list should have a unique "key" prop." problem
-export default function Test(props: {
-  data: {
-    law: Complex;
-  };
-}): JSX.Element {
-  const border = "1px solid blue";
-  const navWidth = "400px";
+export default function Law(props: { law: Complex }): JSX.Element {
   return (
-    <div style={{ border: border }}>
-      <div
-        style={{
-          border: border,
-          height: "100%",
-          overflow: "scroll",
-          position: "fixed",
-          padding: "12px",
-          width: navWidth,
-        }}
-      >
-        <div
-          style={{
-            border: border,
-            padding: "8px",
-          }}
-        >
-          Header / Go to Home
-        </div>
-        <TableOfContents law={props.data.law} />
-      </div>
-
-      <div
-        style={{
-          border: border,
-          position: "absolute",
-          left: navWidth,
-          right: 0,
-        }}
-      >
-        <div
-          style={{
-            // border: border,
-            margin: "0 auto",
-            width: "800px",
-          }}
-        >
-          <Law law={props.data.law} />
-        </div>
-      </div>
-    </div>
-  );
-
-  return (
-    <div style={{ display: "flex" }}>
-      <div
-        style={{
-          border: "1px solid red",
-          padding: "24px",
-        }}
-      >
-        <TableOfContents law={props.data.law} />
-      </div>
-      <div style={{ flexGrow: 1, border: "1px solid blue" }}>
-        <div
-          style={{
-            width: "800px",
-            margin: "0 auto",
-          }}
-        >
-          <Law law={props.data.law} />
-        </div>
-      </div>
-    </div>
+    <>
+      <h1>UNDANG UNDANG REPUBLIK INDONESIA TENTANG CIPTA KERJA</h1>
+      {renderUndangUndang(props.law)}
+    </>
   );
 }
 
@@ -222,16 +148,3 @@ function renderPasal(structure: Complex): JSX.Element {
 function renderUndangUndang(structure: Complex): JSX.Element {
   return <>{structure.children.map((children) => renderStructure(children))}</>;
 }
-
-export const getStaticProps: GetStaticProps = async () => {
-  const filePath = "../indolaw-parser/omnibus_law_pg_3_13.json";
-  const file = fs.readFileSync(filePath, "utf8");
-
-  return {
-    props: {
-      data: {
-        law: JSON.parse(file),
-      },
-    },
-  };
-};
