@@ -16,8 +16,10 @@
     "remark-html": "^13.0.1"
   },
   "devDependencies": {
+    "@svgr/webpack": "^5.5.0",
     "@types/node": "^14.14.7",
     "@types/react": "^16.9.56",
+    "next-react-svg": "^1.1.2",
     "typescript": "^4.0.5"
   }
 }
