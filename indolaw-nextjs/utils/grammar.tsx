@@ -49,4 +49,5 @@ export interface Primitive {
 export interface Complex {
   type: Structure;
   children: Array<Primitive | Complex>;
+  id: string;
 }

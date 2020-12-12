@@ -59,7 +59,6 @@ function renderStructuresWithTitleAndNumber(structure: Complex): JSX.Element {
   const style: CSSProperties = {
     margin: "48px 0",
   };
-
   const headingStyle: CSSProperties = {
     marginLeft: "0px",
     textAlign: "center",
@@ -68,7 +67,7 @@ function renderStructuresWithTitleAndNumber(structure: Complex): JSX.Element {
 
   return (
     <>
-      <div style={style}>
+      <div style={style} id={structure.id}>
         {renderPrimitive(structure.children[0] as Primitive, headingStyle)}
         {renderPrimitive(structure.children[1] as Primitive, headingStyle)}
       </div>
@@ -135,7 +134,7 @@ function renderPasal(structure: Complex): JSX.Element {
   };
   return (
     <>
-      <div style={style}>
+      <div style={style} id={structure.id}>
         {renderPrimitive(structure.children[0] as Primitive, headingStyle)}
       </div>
       {structure.children
