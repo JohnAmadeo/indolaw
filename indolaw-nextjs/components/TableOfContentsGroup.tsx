@@ -98,7 +98,7 @@ function getLabel(structure: Complex | Primitive): string | null {
     case Structure.PARAGRAF:
       const number = (structure as Complex).children[0] as Primitive;
       const title = (structure as Complex).children[1] as Primitive;
-      return `${number.text}: ${title.text}`;
+      return toTitleCase(`${number.text} : ${title.text}`);
     case Structure.PASAL:
       return ((structure as Complex).children[0] as Primitive).text;
     case Structure.LIST:
@@ -114,4 +114,16 @@ function getLabel(structure: Complex | Primitive): string | null {
     default:
       return null;
   }
+}
+
+function toTitleCase(str: string) {
+  return str
+    .split(" ")
+    .map((word) => {
+      // if it's a roman numeral, don't convert it to titlecase
+      return word.match("^[MDCLXVI]+$") !== null
+        ? word
+        : word.charAt(0).toUpperCase() + word.substr(1).toLowerCase();
+    })
+    .join(" ");
 }
