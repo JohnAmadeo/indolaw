@@ -3,6 +3,7 @@ import { GetStaticProps } from "next";
 import { Complex } from "utils/grammar";
 import TableOfContents from "components/TableOfContents";
 import Law from "components/Law";
+import React from "react";
 
 // TODO(johnamadeo): Fix "Warning: Each child in a list should have a unique "key" prop." problem
 export default function Test(props: {
@@ -13,31 +14,26 @@ export default function Test(props: {
   const border = "1px solid blue";
   const navWidth = "400px";
   return (
-    <div style={{ border: border }}>
+    <div>
       <div
         style={{
-          border: border,
+          // border: border,
           height: "100%",
           overflow: "scroll",
           position: "fixed",
           padding: "12px",
           width: navWidth,
+          backgroundColor: "var(--bg-color)",
+          fontFamily: "Merriweather Sans",
+          color: "var(--text-color-secondary)",
         }}
       >
-        <div
-          style={{
-            border: border,
-            padding: "8px",
-          }}
-        >
-          Header / Go to Home
-        </div>
         <TableOfContents law={props.data.law} />
       </div>
 
       <div
         style={{
-          border: border,
+          // border: border,
           position: "absolute",
           left: navWidth,
           right: 0,
@@ -47,7 +43,9 @@ export default function Test(props: {
           style={{
             // border: border,
             margin: "0 auto",
-            width: "800px",
+            width: "768px",
+            fontFamily: "Merriweather",
+            color: "var(--text-color)",
           }}
         >
           <Law law={props.data.law} />
