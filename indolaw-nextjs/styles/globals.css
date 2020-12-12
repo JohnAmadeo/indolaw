@@ -5,9 +5,6 @@ body {
   font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
     Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
   scroll-behavior: smooth;
-  --bg-color: #0e7aaa;
-  --text-color: #514d48;
-  --text-color-secondary: #f2f2f2;
 }
 
 a {

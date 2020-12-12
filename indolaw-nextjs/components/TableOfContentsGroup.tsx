@@ -1,6 +1,7 @@
 import { useState } from "react";
 import { Structure, Complex, Primitive } from "utils/grammar";
 import Link from "next/link";
+import { colors, fonts } from "utils/theme";
 
 /*
  * TODO(johnamadeo)
@@ -37,12 +38,21 @@ export default function TableOfContentsGroup(props: {
 
   return (
     <>
-      <p
-        style={{
-          marginLeft: `${depth * 14}px`,
-          padding: "6px 4px",
-        }}
-      >
+      <style jsx>{`
+        p:hover {
+          color: ${"id" in structure && structure.id !== ""
+            ? colors.text
+            : colors.dark.text};
+        }
+
+        p {
+          margin-left: ${depth * 14}px;
+          padding: 6px 4px;
+          font-family: ${fonts.sans};
+          color: ${colors.dark.text};
+        }
+      `}</style>
+      <p>
         {expander} {labelLink}
       </p>
       {isChildrenVisible && children}

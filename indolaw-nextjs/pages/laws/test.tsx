@@ -4,6 +4,7 @@ import { Complex } from "utils/grammar";
 import Law from "components/Law";
 import React from "react";
 import TableOfContentsGroup from "components/TableOfContentsGroup";
+import { colors } from "utils/theme";
 
 // TODO(johnamadeo): Fix "Warning: Each child in a list should have a unique "key" prop." problem
 export default function Test(props: {
@@ -24,9 +25,7 @@ export default function Test(props: {
           position: "fixed",
           padding: "12px",
           width: navWidth,
-          backgroundColor: "var(--bg-color)",
-          fontFamily: "Merriweather Sans",
-          color: "var(--text-color-secondary)",
+          backgroundColor: colors.background,
         }}
       >
         {props.data.law.children.map((child) => (
@@ -47,8 +46,6 @@ export default function Test(props: {
             // border: border,
             margin: "0 auto",
             width: "768px",
-            fontFamily: "Merriweather",
-            color: "var(--text-color)",
           }}
         >
           <Law law={props.data.law} />
