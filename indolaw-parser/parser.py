@@ -55,12 +55,27 @@ UTILS
 -----------------
 '''
 
-# TODO(johnamadeo): This is just a placeholder for what should eventually become a proper Class constructor
+
+# https://www.w3resource.com/python-exercises/class-exercises/python-class-exercise-2.php
+def roman_to_int(number):
+    roman_values = {'I': 1, 'V': 5, 'X': 10,
+                    'L': 50, 'C': 100, 'D': 500, 'M': 1000}
+    integer = 0
+    for i in range(len(number)):
+        if i > 0 and roman_values[number[i]] > roman_values[number[i - 1]]:
+            integer += roman_values[number[i]] - \
+                2 * roman_values[number[i - 1]]
+        else:
+            integer += roman_values[number[i]]
+    return integer
 
 
-def node(structure, children):
+def node(structure, children, id=''):
+    # TODO(johnamadeo): This is just a placeholder for what should eventually become a proper Class constructor
     return {
         'type': structure.value,
+        # this is to create a unique ID that can be used for HTML links
+        'id': id,
         'children': children,
     }
 
@@ -496,7 +511,14 @@ def parse_bab(law, start_index):
         child_structures=[Structure.PASAL, Structure.BAGIAN])
     children.extend(parsed_sub_structure['children'])
 
-    return node(Structure.BAB, children), end_index
+    bab_number_roman = children[0]['text'].split()[1]
+    bab_number_int = roman_to_int(bab_number_roman)
+
+    return node(
+        Structure.BAB,
+        children,
+        'bab-' + str(bab_number_int),
+    ), end_index
 
 
 def parse_pasal(law, start_index):
@@ -514,7 +536,11 @@ def parse_pasal(law, start_index):
         child_structures=TEXT_BLOCK_STRUCTURES)
     children.extend(parsed_sub_structure['children'])
 
-    return node(Structure.PASAL, children), end_index
+    return node(
+        Structure.PASAL,
+        children,
+        'pasal-'+children[0]['text'].split()[1],
+    ), end_index
 
 
 def parse_bagian(law, start_index):
