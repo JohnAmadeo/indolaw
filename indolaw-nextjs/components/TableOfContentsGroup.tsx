@@ -1,4 +1,4 @@
-import { CSSProperties, Props, ReactNode, useState } from "react";
+import { useState } from "react";
 import { Structure, Complex, Primitive } from "utils/grammar";
 import Link from "next/link";
 
@@ -7,17 +7,7 @@ import Link from "next/link";
  * 3. Linking
  */
 
-export default function TableOfContents(props: { law: Complex }): JSX.Element {
-  return (
-    <>
-      {props.law.children.map((child) => (
-        <TableOfContentsGroup structure={child} depth={0} />
-      ))}
-    </>
-  );
-}
-
-function TableOfContentsGroup(props: {
+export default function TableOfContentsGroup(props: {
   structure: Complex | Primitive;
   depth: number;
 }): JSX.Element {

@@ -1,9 +1,9 @@
 import fs from "fs";
 import { GetStaticProps } from "next";
 import { Complex } from "utils/grammar";
-import TableOfContents from "components/TableOfContents";
 import Law from "components/Law";
 import React from "react";
+import TableOfContentsGroup from "components/TableOfContentsGroup";
 
 // TODO(johnamadeo): Fix "Warning: Each child in a list should have a unique "key" prop." problem
 export default function Test(props: {
@@ -13,6 +13,7 @@ export default function Test(props: {
 }): JSX.Element {
   const border = "1px solid blue";
   const navWidth = "400px";
+
   return (
     <div>
       <div
@@ -28,7 +29,9 @@ export default function Test(props: {
           color: "var(--text-color-secondary)",
         }}
       >
-        <TableOfContents law={props.data.law} />
+        {props.data.law.children.map((child) => (
+          <TableOfContentsGroup structure={child} depth={0} />
+        ))}
       </div>
 
       <div
