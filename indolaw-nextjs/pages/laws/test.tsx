@@ -23,7 +23,7 @@ export default function Test(props: {
           height: "100%",
           overflow: "scroll",
           position: "fixed",
-          padding: "12px",
+          padding: "20px 12px",
           width: navWidth,
           backgroundColor: colors.background,
         }}
