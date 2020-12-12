@@ -2,11 +2,8 @@ import { useState } from "react";
 import { Structure, Complex, Primitive } from "utils/grammar";
 import Link from "next/link";
 import { colors, fonts } from "utils/theme";
-
-/*
- * TODO(johnamadeo)
- * 3. Linking
- */
+import ExpandLess from "assets/ExpandLess.svg";
+import ExpandMore from "assets/ExpandMore.svg";
 
 export default function TableOfContentsGroup(props: {
   structure: Complex | Primitive;
@@ -29,32 +26,52 @@ export default function TableOfContentsGroup(props: {
       labelText
     );
 
+  // styled-jsx doesn't work w/ next-react-svg :(
+  const svgStyle = { width: "1.2em", height: "1.2em", fill: colors.dark.text };
   const expander =
     children !== null ? (
       <span onClick={() => setIsChildrenVisible(!isChildrenVisible)}>
-        [{isChildrenVisible ? "-" : "+"}]
+        <style jsx>{`
+          span {
+            cursor: pointer;
+          }
+        `}</style>
+        {isChildrenVisible ? (
+          <ExpandLess style={svgStyle} />
+        ) : (
+          <ExpandMore style={svgStyle} />
+        )}
       </span>
     ) : null;
 
   return (
     <>
       <style jsx>{`
-        p:hover {
+        .label:hover {
           color: ${"id" in structure && structure.id !== ""
             ? colors.text
             : colors.dark.text};
         }
 
-        p {
-          margin-left: ${depth * 14}px;
+        .label {
           padding: 6px 4px;
           font-family: ${fonts.sans};
           color: ${colors.dark.text};
         }
+
+        .link {
+          display: flex;
+          margin-left: ${depth * 14}px;
+        }
+
+        .expander {
+          padding: 6px 0px;
+        }
       `}</style>
-      <p>
-        {expander} {labelLink}
-      </p>
+      <div className="link">
+        <div className="expander">{expander}</div>
+        <div className="label">{labelLink}</div>
+      </div>
       {isChildrenVisible && children}
     </>
   );
