@@ -43,7 +43,7 @@ function renderPrimitive(
 ): JSX.Element {
   let style: CSSProperties = {
     margin: "4px 0",
-    fontSize: "20px",
+    fontSize: "18px",
     // border: "1px solid red",
   };
 
