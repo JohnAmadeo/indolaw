@@ -56,7 +56,7 @@ export default function Test(props: {
 }
 
 export const getStaticProps: GetStaticProps = async () => {
-  const filePath = "../indolaw-parser/omnibus_law_pg_3_13.json";
+  const filePath = "../indolaw-parser/omnibus_law_pg_3_13_modified.json";
   const file = fs.readFileSync(filePath, "utf8");
 
   return {
