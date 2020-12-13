@@ -821,4 +821,4 @@ if __name__ == "__main__":
     parsed_undang_undang, _ = parse_undang_undang(law)
 
     with open(filename + '.json', 'w') as outfile:
-        json.dump(parsed_undang_undang, outfile)
+        json.dump(parsed_undang_undang, outfile, indent=2)
