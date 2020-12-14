@@ -32,6 +32,12 @@ export default function Test(props: {
             width: ${navWidth};
             background-color: ${colors.background};
           }
+
+          @media screen and (max-width: 768px) {
+            .table-of-contents-container {
+              visibility: hidden;
+            }
+          }
         `}</style>
         {props.data.law.children.map((child) => (
           <TableOfContentsGroup structure={child} depth={0} />
@@ -49,6 +55,20 @@ export default function Test(props: {
           .law {
             margin: 0 auto;
             width: 768px;
+          }
+
+          @media screen and (max-width: 1224px) {
+            .law {
+              width: auto;
+              padding: 0 36px;
+            }
+          }
+
+          @media screen and (max-width: 768px) {
+            .law-container {
+              position: relative;
+              left: 0;
+            }
           }
         `}</style>
         <div className="law">
