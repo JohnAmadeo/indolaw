@@ -5,6 +5,7 @@ import Law from "components/Law";
 import React from "react";
 import TableOfContentsGroup from "components/TableOfContentsGroup";
 import { colors } from "utils/theme";
+import Head from "next/head";
 
 // TODO(johnamadeo): Fix "Warning: Each child in a list should have a unique "key" prop." problem
 export default function Test(props: {
@@ -17,6 +18,10 @@ export default function Test(props: {
 
   return (
     <div>
+      <Head>
+        <title>UU No. 11 Tahun 2020</title>
+        <meta name="viewport" content="initial-scale=1.0, width=device-width" />
+      </Head>
       <div className="table-of-contents-container">
         <style jsx>{`
           .table-of-contents-container {
