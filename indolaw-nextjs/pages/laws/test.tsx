@@ -17,37 +17,36 @@ export default function Test(props: {
 
   return (
     <div>
-      <div
-        style={{
-          // border: border,
-          height: "100%",
-          overflow: "scroll",
-          position: "fixed",
-          padding: "20px 12px",
-          width: navWidth,
-          backgroundColor: colors.background,
-        }}
-      >
+      <div className="table-of-contents-container">
+        <style jsx>{`
+          .table-of-contents-container {
+            height: 100%;
+            overflow: scroll;
+            position: fixed;
+            padding: 20px 12px;
+            width: ${navWidth};
+            background-color: ${colors.background};
+          }
+        `}</style>
         {props.data.law.children.map((child) => (
           <TableOfContentsGroup structure={child} depth={0} />
         ))}
       </div>
 
-      <div
-        style={{
-          // border: border,
-          position: "absolute",
-          left: navWidth,
-          right: 0,
-        }}
-      >
-        <div
-          style={{
-            // border: border,
-            margin: "0 auto",
-            width: "768px",
-          }}
-        >
+      <div className="law-container">
+        <style jsx>{`
+          .law-container {
+            position: absolute;
+            left: ${navWidth};
+            right: 0;
+          }
+
+          .law {
+            margin: 0 auto;
+            width: 768px;
+          }
+        `}</style>
+        <div className="law">
           <Law law={props.data.law} />
         </div>
       </div>
