@@ -63,9 +63,6 @@ function renderPrimitive(
 
 // TODO(johnamadeo): I think there are multi-line titles later on in the text
 function renderStructuresWithTitleAndNumber(structure: Complex): JSX.Element {
-  const style: CSSProperties = {
-    margin: "48px 0",
-  };
   const headingStyle: CSSProperties = {
     marginLeft: "0px",
     textAlign: "center",
@@ -74,7 +71,12 @@ function renderStructuresWithTitleAndNumber(structure: Complex): JSX.Element {
 
   return (
     <>
-      <div style={style} id={structure.id}>
+      <style jsx>{`
+        div {
+          margin: 48px 0 0 0;
+        }
+      `}</style>
+      <div id={structure.id}>
         {renderPrimitive(structure.children[0] as Primitive, headingStyle)}
         {renderPrimitive(structure.children[1] as Primitive, headingStyle)}
       </div>
@@ -98,24 +100,25 @@ function renderList(structure: Complex): JSX.Element {
 function renderListItem(structure: Complex): JSX.Element {
   // TODO(johnamadeo): Decide how the heck we wanna do CSS (CSS modules, big CSS object at bottom?)
   return (
-    <div
-      style={{
-        display: "flex",
-        margin: "4px 0",
-      }}
-    >
-      <div
-        style={{
-          minWidth: "48px",
-        }}
-      >
+    <div className="list-item">
+      <style jsx>{`
+        .list-item {
+          display: flex;
+          margin: 4px 0;
+        }
+
+        .list-index {
+          min-width: 48px;
+        }
+
+        .text-block {
+          flex-grow: 1;
+        }
+      `}</style>
+      <div className="list-index">
         {renderPrimitive(structure.children[0] as Primitive)}
       </div>
-      <div
-        style={{
-          flexGrow: 1,
-        }}
-      >
+      <div className="text-block">
         {structure.children.map((childStructure) => {
           if (childStructure.type === Structure.PLAINTEXT) {
             return renderPrimitive(childStructure as Primitive, {
@@ -131,9 +134,6 @@ function renderListItem(structure: Complex): JSX.Element {
 }
 
 function renderPasal(structure: Complex): JSX.Element {
-  const style: CSSProperties = {
-    margin: "48px 0 0 0",
-  };
   const headingStyle: CSSProperties = {
     marginLeft: "0px",
     textAlign: "center",
@@ -141,7 +141,12 @@ function renderPasal(structure: Complex): JSX.Element {
   };
   return (
     <>
-      <div style={style} id={structure.id}>
+      <style jsx>{`
+        div {
+          margin: 48px 0 0 0;
+        }
+      `}</style>
+      <div id={structure.id}>
         {renderPrimitive(structure.children[0] as Primitive, headingStyle)}
       </div>
       {structure.children
