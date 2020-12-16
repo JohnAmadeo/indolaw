@@ -55,7 +55,13 @@ function renderPrimitive(
   };
 
   return (
-    <div style={{ ...style, ...customStyle }}>
+    <div style={{ ...customStyle }}>
+      <style jsx>{`
+        div {
+          margin: 4px 0;
+          font-size: 18px;
+        }
+      `}</style>
       <p>{structure.text}</p>
     </div>
   );
