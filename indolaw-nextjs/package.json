@@ -8,6 +8,7 @@
     "start": "next start"
   },
   "dependencies": {
+    "@types/react-responsive": "^8.0.2",
     "gray-matter": "^4.0.2",
     "next": "10.0.1",
     "react": "17.0.1",
