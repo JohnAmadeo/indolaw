@@ -24,6 +24,8 @@ export default function TableOfContents(props: { law: Complex }): JSX.Element {
 function MobileTableOfContents(props: { law: Complex }): JSX.Element {
   const [isExpanded, setIsExpanded] = useState(false);
 
+  // TODO(johnamadeo): TableOfContentsGroup needs to take in a onSelect callback
+  // so we can minimize the ToC
   const tableOfContents = props.law.children.map((child) => (
     <TableOfContentsGroup structure={child} depth={0} />
   ));
@@ -40,6 +42,9 @@ function MobileTableOfContents(props: { law: Complex }): JSX.Element {
           height: 100vh;
           border: 1px solid red;
           z-index: 1;
+          padding: 20px;
+          font-size: 20px;
+          overflow: scroll;
         }
       `}</style>
       <button onClick={() => setIsExpanded(false)}>Go Back</button>
