@@ -35,7 +35,10 @@ export default function Test(props: {
 
           @media screen and (max-width: 768px) {
             .table-of-contents-container {
-              visibility: hidden;
+              position: relative;
+              height: 80px;
+              overflow: hidden;
+              width: 100%;
             }
           }
         `}</style>
