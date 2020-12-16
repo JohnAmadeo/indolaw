@@ -3,7 +3,7 @@ import { GetStaticProps } from "next";
 import { Complex } from "utils/grammar";
 import Law from "components/Law";
 import React from "react";
-import TableOfContentsGroup from "components/TableOfContentsGroup";
+import TableOfContents from "components/TableOfContents";
 import { colors } from "utils/theme";
 import Head from "next/head";
 
@@ -42,9 +42,7 @@ export default function Test(props: {
             }
           }
         `}</style>
-        {props.data.law.children.map((child) => (
-          <TableOfContentsGroup structure={child} depth={0} />
-        ))}
+        <TableOfContents law={props.data.law} />
       </div>
 
       <div className="law-container">
