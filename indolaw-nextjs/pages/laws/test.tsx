@@ -35,10 +35,11 @@ export default function Test(props: {
 
           @media screen and (max-width: 768px) {
             .table-of-contents-container {
-              position: relative;
+              top: 0;
               height: 80px;
               overflow: hidden;
               width: 100%;
+              z-index: 1;
             }
           }
         `}</style>
@@ -68,7 +69,9 @@ export default function Test(props: {
           @media screen and (max-width: 768px) {
             .law-container {
               position: relative;
+              margin-top: 80px;
               left: 0;
+              border: ${border};
             }
           }
         `}</style>
