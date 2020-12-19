@@ -3,6 +3,7 @@ export const colors = {
   text: "#514d48",
   dark: {
     text: "#f2f2f2",
+    textSecondary: "#cccccc",
   },
 };
 
@@ -10,3 +11,10 @@ export const fonts = {
   sans: "Merriweather Sans",
   serif: "Merriweather",
 };
+
+export interface TableOfContentsStyle {
+  backgroundColor: string;
+  iconSize: number;
+  fontSize: number;
+  iconTextGap: number;
+}

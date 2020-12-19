@@ -1,33 +1,54 @@
 import { useState } from "react";
 import { Structure, Complex, Primitive } from "utils/grammar";
 import Link from "next/link";
-import { colors, fonts } from "utils/theme";
-import ExpandLess from "assets/ExpandLess.svg";
-import ExpandMore from "assets/ExpandMore.svg";
+import { colors, fonts, TableOfContentsStyle } from "utils/theme";
 import TableOfContentsGroup from "components/TableOfContentsGroup";
 import { useMediaQuery } from "react-responsive";
 
 export default function TableOfContents(props: { law: Complex }): JSX.Element {
   const isMobile = useMediaQuery({ query: "(max-width: 768px)" });
 
+  const style: TableOfContentsStyle = {
+    backgroundColor: isMobile ? "#1a6e94" : "transparent",
+    iconSize: 22 * 1.2,
+    fontSize: 22,
+    iconTextGap: 22 / 4,
+  };
+
   const tableOfContents = props.law.children.map((child) => (
-    <TableOfContentsGroup structure={child} depth={0} />
+    <TableOfContentsGroup structure={child} depth={0} isMobile={isMobile} />
   ));
 
   return (
     <div>
-      {isMobile ? <MobileTableOfContents law={props.law} /> : tableOfContents}
+      {isMobile ? (
+        <MobileTableOfContents
+          law={props.law}
+          isMobile={isMobile}
+          style={style}
+        />
+      ) : (
+        tableOfContents
+      )}
     </div>
   );
 }
 
-function MobileTableOfContents(props: { law: Complex }): JSX.Element {
-  const [isExpanded, setIsExpanded] = useState(false);
+function MobileTableOfContents(props: {
+  law: Complex;
+  isMobile: boolean;
+  style: TableOfContentsStyle;
+}): JSX.Element {
+  const [isExpanded, setIsExpanded] = useState(true);
 
   // TODO(johnamadeo): TableOfContentsGroup needs to take in a onSelect callback
   // so we can minimize the ToC
   const tableOfContents = props.law.children.map((child) => (
-    <TableOfContentsGroup structure={child} depth={0} />
+    <TableOfContentsGroup
+      structure={child}
+      depth={0}
+      isMobile={props.isMobile}
+    />
   ));
 
   return isExpanded ? (
@@ -43,7 +64,6 @@ function MobileTableOfContents(props: { law: Complex }): JSX.Element {
           border: 1px solid red;
           z-index: 1;
           padding: 20px;
-          font-size: 20px;
           overflow: scroll;
         }
       `}</style>
@@ -51,8 +71,6 @@ function MobileTableOfContents(props: { law: Complex }): JSX.Element {
       {tableOfContents}
     </div>
   ) : (
-    <button onClick={() => setIsExpanded(true)}>
-      Daftar Isi <ExpandMore />
-    </button>
+    <button onClick={() => setIsExpanded(true)}>Daftar Isi</button>
   );
 }
