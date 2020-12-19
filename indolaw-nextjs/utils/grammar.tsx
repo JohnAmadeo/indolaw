@@ -1,3 +1,8 @@
+import Pasal from "components/Pasal";
+import PrimitiveStructure from "components/PrimitiveStructure";
+import ListItem from "components/ListItem";
+import StructureWithTitleAndNumber from "components/StructureWithTitleAndNumber";
+
 export enum Structure {
   UNDANG_UNDANG = "UNDANG_UNDANG",
   BAB = "BAB",
@@ -50,4 +55,40 @@ export interface Complex {
   type: Structure;
   children: Array<Primitive | Complex>;
   id: string;
+}
+
+export function renderStructure(structure: Complex | Primitive) {
+  switch (structure.type) {
+    case Structure.PLAINTEXT:
+    case Structure.BAB_NUMBER:
+    case Structure.BAB_TITLE:
+    case Structure.PASAL_NUMBER:
+    case Structure.BAGIAN_NUMBER:
+    case Structure.BAGIAN_TITLE:
+    case Structure.PARAGRAF_NUMBER:
+    case Structure.PARAGRAF_TITLE:
+      return <PrimitiveStructure structure={structure as Primitive} />;
+    case Structure.BAB:
+    case Structure.BAGIAN:
+    case Structure.PARAGRAF:
+      return <StructureWithTitleAndNumber structure={structure as Complex} />;
+    case Structure.LIST:
+      return renderChildren(structure as Complex);
+    case Structure.LIST_ITEM:
+      return <ListItem structure={structure as Complex} />;
+    case Structure.PASAL:
+      return <Pasal structure={structure as Complex} />;
+    default:
+      return <></>;
+  }
+}
+
+export function renderChildren(structure: Complex): JSX.Element {
+  return (
+    <div>
+      {structure.children.map((childStructure) =>
+        renderStructure(childStructure)
+      )}
+    </div>
+  );
 }
