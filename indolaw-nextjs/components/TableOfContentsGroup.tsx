@@ -80,6 +80,7 @@ export default function TableOfContentsGroup(props: {
 
         .title {
           font-size: ${style.titleSize};
+          cursor: ${!isMobile && isLink(structure) ? "pointer" : "auto"};
         }
 
         .title:hover {
