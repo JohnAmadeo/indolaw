@@ -11,10 +11,3 @@ export const fonts = {
   sans: "Merriweather Sans",
   serif: "Merriweather",
 };
-
-export interface TableOfContentsStyle {
-  backgroundColor: string;
-  iconSize: number;
-  fontSize: number;
-  iconTextGap: number;
-}

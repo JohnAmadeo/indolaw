@@ -1,19 +1,12 @@
 import { useState } from "react";
 import { Structure, Complex, Primitive } from "utils/grammar";
 import Link from "next/link";
-import { colors, fonts, TableOfContentsStyle } from "utils/theme";
+import { colors, fonts } from "utils/theme";
 import TableOfContentsGroup from "components/TableOfContentsGroup";
 import { useMediaQuery } from "react-responsive";
 
 export default function TableOfContents(props: { law: Complex }): JSX.Element {
   const isMobile = useMediaQuery({ query: "(max-width: 768px)" });
-
-  const style: TableOfContentsStyle = {
-    backgroundColor: isMobile ? "#1a6e94" : "transparent",
-    iconSize: 22 * 1.2,
-    fontSize: 22,
-    iconTextGap: 22 / 4,
-  };
 
   const tableOfContents = props.law.children.map((child) => (
     <TableOfContentsGroup structure={child} depth={0} isMobile={isMobile} />
@@ -22,11 +15,7 @@ export default function TableOfContents(props: { law: Complex }): JSX.Element {
   return (
     <div>
       {isMobile ? (
-        <MobileTableOfContents
-          law={props.law}
-          isMobile={isMobile}
-          style={style}
-        />
+        <MobileTableOfContents law={props.law} isMobile={isMobile} />
       ) : (
         tableOfContents
       )}
@@ -37,7 +26,6 @@ export default function TableOfContents(props: { law: Complex }): JSX.Element {
 function MobileTableOfContents(props: {
   law: Complex;
   isMobile: boolean;
-  style: TableOfContentsStyle;
 }): JSX.Element {
   const [isExpanded, setIsExpanded] = useState(false);
 
@@ -60,7 +48,7 @@ function MobileTableOfContents(props: {
           left: 0;
           width: 100vw;
           height: 100vh;
-          border: 1px solid red;
+          // border: 1px solid red;
           z-index: 1;
           padding: 20px;
           overflow: scroll;
