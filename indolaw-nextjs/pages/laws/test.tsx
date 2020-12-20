@@ -73,6 +73,7 @@ export default function Test(props: {
               left: 0;
               overflow: scroll;
               height: calc(100% - 80px);
+              font-size: 14px;
               // border: ${border};
             }
           }
