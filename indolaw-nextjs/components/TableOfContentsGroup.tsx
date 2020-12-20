@@ -84,7 +84,9 @@ export default function TableOfContentsGroup(props: {
         }
 
         .title:hover {
-          color: ${isLink(structure) ? colors.text : colors.dark.text};
+          color: ${!isMobile && isLink(structure)
+            ? colors.text
+            : colors.dark.text};
         }
 
         .material-icons.style {
