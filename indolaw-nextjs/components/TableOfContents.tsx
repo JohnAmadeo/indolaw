@@ -59,6 +59,7 @@ export default function TableOfContents(props: { law: Complex }): JSX.Element {
 
         span {
           color: ${colors.dark.text};
+          cursor: pointer;
           font-family: ${fonts.sans};
           font-size: 18px;
         }
@@ -78,6 +79,7 @@ export default function TableOfContents(props: { law: Complex }): JSX.Element {
     <>
       <style jsx>{`
         span {
+          cursor: pointer;
           text-align: center;
           font-size: 18px;
           font-family: ${fonts.sans};

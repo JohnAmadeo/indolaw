@@ -67,6 +67,7 @@ export default function TableOfContentsGroup(props: {
           color: ${colors.dark.text};
           font-family: ${fonts.sans};
           padding: ${style.groupPaddingVert};
+          cursor: ${isMobile ? "pointer" : "auto"};
         }
 
         .group div {
@@ -80,7 +81,7 @@ export default function TableOfContentsGroup(props: {
 
         .title {
           font-size: ${style.titleSize};
-          cursor: ${!isMobile && isLink(structure) ? "pointer" : "auto"};
+          cursor: ${isMobile || isLink(structure) ? "pointer" : "auto"};
         }
 
         .title:hover {
