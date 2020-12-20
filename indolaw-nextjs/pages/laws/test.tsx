@@ -62,14 +62,14 @@ export default function Test(props: {
           @media screen and (max-width: 1224px) {
             .law {
               width: auto;
-              padding: 0 36px;
+              padding: 0 24px;
             }
           }
 
           @media screen and (max-width: 768px) {
             .law-container {
               position: absolute;
-              top: 80px;
+              top: 60px;
               left: 0;
               overflow: scroll;
               height: calc(100% - 80px);
