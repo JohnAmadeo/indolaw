@@ -39,15 +39,14 @@ function MobileTableOfContents(props: {
   isMobile: boolean;
   style: TableOfContentsStyle;
 }): JSX.Element {
-  const [isExpanded, setIsExpanded] = useState(true);
+  const [isExpanded, setIsExpanded] = useState(false);
 
-  // TODO(johnamadeo): TableOfContentsGroup needs to take in a onSelect callback
-  // so we can minimize the ToC
   const tableOfContents = props.law.children.map((child) => (
     <TableOfContentsGroup
       structure={child}
       depth={0}
       isMobile={props.isMobile}
+      onSelectLink={() => setIsExpanded(false)}
     />
   ));
 

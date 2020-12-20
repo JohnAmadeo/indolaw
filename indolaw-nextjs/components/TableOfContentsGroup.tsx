@@ -2,16 +2,19 @@ import { useState } from "react";
 import { Structure, Complex, Primitive } from "utils/grammar";
 import Link from "next/link";
 import { colors, fonts } from "utils/theme";
+import { useRouter } from "next/router";
 
 export default function TableOfContentsGroup(props: {
   structure: Complex | Primitive;
   depth: number;
   isMobile: boolean;
+  onSelectLink?: () => void;
 }): JSX.Element {
-  const { structure, depth, isMobile } = props;
+  const { structure, depth, isMobile, onSelectLink } = props;
   const [isChildrenVisible, setIsChildrenVisible] = useState(false);
+  const router = useRouter();
 
-  const children = getChildren(structure, depth + 1, isMobile);
+  const children = getChildren(structure, depth + 1, isMobile, onSelectLink);
   const hasChildren = children !== null;
 
   const number = getNumber(structure);
@@ -20,14 +23,39 @@ export default function TableOfContentsGroup(props: {
     return <></>;
   }
 
+  const base = 18;
   const px = (num: number) => `${num}px`;
-  const anchor = 18;
   const style = {
-    titleSize: px(anchor),
-    numberSize: px((4 / 5) * anchor),
-    iconSize: px((4 / 3) * anchor),
-    iconMarginLeft: px((-1 / 4) * anchor),
-    groupMarginTop: px((1 / 2) * anchor),
+    titleSize: px(base),
+    numberSize: px((4 / 5) * base),
+    iconSize: px((4 / 3) * base),
+    iconMarginLeft: px((-1 / 4) * base),
+    groupPaddingVert: px((1 / 4) * base),
+  };
+
+  const onSelectGroup = () => {
+    if (!isMobile) {
+      return;
+    }
+
+    if (isLink(structure) && !hasChildren) {
+      if (onSelectLink) {
+        onSelectLink();
+      }
+      router.push(`/laws/test#${structure.id}`);
+    } else {
+      setIsChildrenVisible(!isChildrenVisible);
+    }
+  };
+  const onSelectTitle = () => {
+    if (!isMobile && isLink(structure)) {
+      router.push(`/laws/test#${structure.id}`);
+    }
+  };
+  const onSelectExpander = () => {
+    if (!isMobile) {
+      setIsChildrenVisible(!isChildrenVisible);
+    }
   };
 
   return (
@@ -36,9 +64,9 @@ export default function TableOfContentsGroup(props: {
         .group {
           display: grid;
           grid-template-columns: ${style.iconSize} 1fr;
-          margin-top: ${style.groupMarginTop};
           color: ${colors.dark.text};
           font-family: ${fonts.sans};
+          padding: ${style.groupPaddingVert};
         }
 
         .group div {
@@ -68,25 +96,20 @@ export default function TableOfContentsGroup(props: {
 
         .children {
           margin-left: ${style.iconSize};
-          margin-top: ${style.groupMarginTop};
         }
       `}</style>
-      <div className="group">
+      <div className="group" onClick={onSelectGroup}>
         <div></div>
         <div className="number">{number}</div>
-        <div onClick={() => setIsChildrenVisible(!isChildrenVisible)}>
+        <div onClick={onSelectExpander}>
           {hasChildren && (
             <i className="material-icons style">
               {isChildrenVisible ? "expand_less" : "expand_more"}
             </i>
           )}
         </div>
-        <div className="title">
-          {isLink(structure) ? (
-            <Link href={`/laws/test#${structure.id}`}>{title}</Link>
-          ) : (
-            title
-          )}
+        <div className="title" onClick={onSelectTitle}>
+          {title}
         </div>
       </div>
       {hasChildren && isChildrenVisible && (
@@ -99,7 +122,8 @@ export default function TableOfContentsGroup(props: {
 function getChildren(
   structure: Complex | Primitive,
   depth: number,
-  isMobile: boolean
+  isMobile: boolean,
+  onSelectLink?: () => void
 ): JSX.Element | null {
   switch (structure.type) {
     case Structure.BAB:
@@ -112,6 +136,7 @@ function getChildren(
               structure={child}
               depth={depth + 1}
               isMobile={isMobile}
+              onSelectLink={onSelectLink}
             />
           ))}
         </>
