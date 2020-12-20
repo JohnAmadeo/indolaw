@@ -28,7 +28,7 @@ export default function Test(props: {
             height: 100%;
             overflow: auto;
             position: fixed;
-            padding: 20px 12px;
+            padding: 20px;
             width: ${navWidth};
             background-color: ${colors.background};
           }
@@ -36,9 +36,9 @@ export default function Test(props: {
           @media screen and (max-width: 768px) {
             .table-of-contents-container {
               top: 0;
-              height: 80px;
+              height: 60px;
               overflow: hidden;
-              width: 100%;
+              width: 100vw;
               z-index: 1;
             }
           }

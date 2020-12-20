@@ -1,44 +1,29 @@
 import { useState } from "react";
-import { Structure, Complex, Primitive } from "utils/grammar";
-import Link from "next/link";
+import { Complex } from "utils/grammar";
 import { colors, fonts } from "utils/theme";
 import TableOfContentsGroup from "components/TableOfContentsGroup";
 import { useMediaQuery } from "react-responsive";
-import { useRouter } from "next/router";
 
 export default function TableOfContents(props: { law: Complex }): JSX.Element {
   const isMobile = useMediaQuery({ query: "(max-width: 768px)" });
-
-  const tableOfContents = props.law.children.map((child) => (
-    <TableOfContentsGroup structure={child} depth={0} isMobile={isMobile} />
-  ));
-
-  return (
-    <div>
-      {isMobile ? (
-        <MobileTableOfContents law={props.law} isMobile={isMobile} />
-      ) : (
-        tableOfContents
-      )}
-    </div>
-  );
-}
-
-function MobileTableOfContents(props: {
-  law: Complex;
-  isMobile: boolean;
-}): JSX.Element {
   const [isExpanded, setIsExpanded] = useState(false);
-  const router = useRouter();
 
   const tableOfContents = props.law.children.map((child) => (
     <TableOfContentsGroup
       structure={child}
       depth={0}
-      isMobile={props.isMobile}
-      onSelectLink={() => setIsExpanded(false)}
+      isMobile={isMobile}
+      onSelectLink={() => {
+        if (isMobile) {
+          setIsExpanded(false);
+        }
+      }}
     />
   ));
+
+  if (!isMobile) {
+    return <>{tableOfContents}</>;
+  }
 
   return isExpanded ? (
     <div className="container">
@@ -90,18 +75,12 @@ function MobileTableOfContents(props: {
       <div className="table-of-contents">{tableOfContents}</div>
     </div>
   ) : (
-    <div className="container">
+    <>
       <style jsx>{`
-        .container {
-          margin: 0 24px;
-        }
-
-        .container div {
+        span {
           text-align: center;
-          border-radius: 8px;
-          background: #1a5f7e;
           font-size: 18px;
-          padding: 8px;
+          font-family: ${fonts.sans};
           color: ${colors.dark.text};
         }
 
@@ -109,13 +88,13 @@ function MobileTableOfContents(props: {
           vertical-align: bottom;
         }
       `}</style>
-      <div
+      <span
         onClick={() => {
           setIsExpanded(true);
         }}
       >
-        Daftar Isi <i className="material-icons style">expand_more</i>
-      </div>
-    </div>
+        <i className="material-icons style">expand_more</i> Daftar Isi
+      </span>
+    </>
   );
 }
