@@ -13,7 +13,7 @@ export default function Test(props: {
     law: Complex;
   };
 }): JSX.Element {
-  const border = "1px solid blue";
+  const border = "2px solid red";
   const navWidth = "400px";
 
   return (
@@ -26,7 +26,7 @@ export default function Test(props: {
         <style jsx>{`
           .table-of-contents-container {
             height: 100%;
-            overflow: scroll;
+            overflow: auto;
             position: fixed;
             padding: 20px 12px;
             width: ${navWidth};
@@ -68,9 +68,11 @@ export default function Test(props: {
 
           @media screen and (max-width: 768px) {
             .law-container {
-              position: relative;
-              margin-top: 80px;
+              position: absolute;
+              top: 80px;
               left: 0;
+              overflow: scroll;
+              height: calc(100% - 80px);
               border: ${border};
             }
           }
