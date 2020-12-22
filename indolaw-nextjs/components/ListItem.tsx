@@ -4,7 +4,7 @@ import { useMediaQuery } from "react-responsive";
 
 export default function ListItem(props: { structure: Complex }): JSX.Element {
   const { structure } = props;
-  const isDesktop = useMediaQuery({ query: "(min-width: 768px)" });
+  const isMobile = useMediaQuery({ maxWidth: 768 });
 
   return (
     <div className="list-item">
@@ -32,7 +32,7 @@ export default function ListItem(props: { structure: Complex }): JSX.Element {
               <PrimitiveStructure
                 structure={childStructure as Primitive}
                 customStyle={{
-                  textAlign: isDesktop ? "justify" : "start",
+                  textAlign: isMobile ? "start" : "justify",
                 }}
               />
             );
