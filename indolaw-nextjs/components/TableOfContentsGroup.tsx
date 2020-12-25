@@ -14,8 +14,6 @@ export default function TableOfContentsGroup(props: {
   const [isChildrenVisible, setIsChildrenVisible] = useState(false);
   const router = useRouter();
 
-  console.log(router);
-
   const children = getChildren(structure, depth + 1, isMobile, onSelectLink);
   const hasChildren = children !== null;
 
