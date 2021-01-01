@@ -1,8 +1,7 @@
 import { useState } from "react";
 import { Structure, Complex, Primitive } from "utils/grammar";
-import Link from "next/link";
 import { colors, fonts } from "utils/theme";
-import { useRouter } from "next/router";
+import { NextRouter, useRouter } from "next/router";
 
 export default function TableOfContentsGroup(props: {
   structure: Complex | Primitive;
@@ -13,6 +12,7 @@ export default function TableOfContentsGroup(props: {
   const { structure, depth, isMobile, onSelectLink } = props;
   const [isChildrenVisible, setIsChildrenVisible] = useState(false);
   const router = useRouter();
+  const currentRoute = getRoute(router);
 
   const children = getChildren(structure, depth + 1, isMobile, onSelectLink);
   const hasChildren = children !== null;
@@ -49,7 +49,7 @@ export default function TableOfContentsGroup(props: {
   };
   const onSelectTitle = () => {
     if (!isMobile && isLink(structure)) {
-      router.push(`${router.route}#${structure.id}`);
+      router.push(`${currentRoute}#${structure.id}`);
     }
   };
   const onSelectExpander = () => {
@@ -86,8 +86,8 @@ export default function TableOfContentsGroup(props: {
 
         .title:hover {
           color: ${!isMobile && isLink(structure)
-            ? colors.text
-            : colors.dark.text};
+          ? colors.text
+          : colors.dark.text};
         }
 
         .material-icons.style {
@@ -190,4 +190,12 @@ function toTitleCase(str: string) {
 
 function isLink(structure: Complex | Primitive): structure is Complex {
   return "id" in structure && structure.id !== "";
+}
+
+function getRoute(router: NextRouter): string {
+  const number = router.query.number as string;
+  const yearOrNickname = router.query.yearOrNickname as string;
+  return router.route
+    .replace('[number]', number)
+    .replace('[yearOrNickname]', yearOrNickname);
 }
