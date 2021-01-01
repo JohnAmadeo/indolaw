@@ -1,5 +1,3 @@
-import fs from "fs";
-import { GetStaticProps } from "next";
 import { Complex } from "utils/grammar";
 import Law from "components/Law";
 import React from "react";
@@ -8,10 +6,8 @@ import { colors } from "utils/theme";
 import Head from "next/head";
 
 // TODO(johnamadeo): Fix "Warning: Each child in a list should have a unique "key" prop." problem
-export default function Test(props: {
-  data: {
-    law: Complex;
-  };
+export default function LawPage(props: {
+  law: Complex;
 }): JSX.Element {
   const border = "2px solid red";
   const navWidth = "400px";
@@ -43,7 +39,7 @@ export default function Test(props: {
             }
           }
         `}</style>
-        <TableOfContents law={props.data.law} />
+        <TableOfContents law={props.law} />
       </div>
 
       <div className="law-container">
@@ -79,22 +75,9 @@ export default function Test(props: {
           }
         `}</style>
         <div className="law">
-          <Law law={props.data.law} />
+          <Law law={props.law} />
         </div>
       </div>
     </div>
   );
 }
-
-export const getStaticProps: GetStaticProps = async () => {
-  const filePath = "../indolaw-parser/omnibus_law_pg_3_13_modified.json";
-  const file = fs.readFileSync(filePath, "utf8");
-
-  return {
-    props: {
-      data: {
-        law: JSON.parse(file),
-      },
-    },
-  };
-};
