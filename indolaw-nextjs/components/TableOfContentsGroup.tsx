@@ -42,7 +42,7 @@ export default function TableOfContentsGroup(props: {
       if (onSelectLink) {
         onSelectLink();
       }
-      router.push(`${router.route}#${structure.id}`);
+      router.push(`${currentRoute}#${structure.id}`);
     } else {
       setIsChildrenVisible(!isChildrenVisible);
     }
