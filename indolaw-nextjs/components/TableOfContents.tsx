@@ -8,8 +8,9 @@ export default function TableOfContents(props: { law: Complex }): JSX.Element {
   const isMobile = useMediaQuery({ query: "(max-width: 768px)" });
   const [isExpanded, setIsExpanded] = useState(false);
 
-  const tableOfContents = props.law.children.map((child) => (
+  const tableOfContents = props.law.children.map((child, idx) => (
     <TableOfContentsGroup
+      key={idx}
       structure={child}
       depth={0}
       isMobile={isMobile}
@@ -76,8 +77,8 @@ export default function TableOfContents(props: { law: Complex }): JSX.Element {
       <div className="table-of-contents">{tableOfContents}</div>
     </div>
   ) : (
-    <>
-      <style jsx>{`
+      <>
+        <style jsx>{`
         span {
           cursor: pointer;
           text-align: center;
@@ -90,13 +91,13 @@ export default function TableOfContents(props: { law: Complex }): JSX.Element {
           vertical-align: bottom;
         }
       `}</style>
-      <span
-        onClick={() => {
-          setIsExpanded(true);
-        }}
-      >
-        <i className="material-icons style">expand_more</i> Daftar Isi
+        <span
+          onClick={() => {
+            setIsExpanded(true);
+          }}
+        >
+          <i className="material-icons style">expand_more</i> Daftar Isi
       </span>
-    </>
-  );
+      </>
+    );
 }

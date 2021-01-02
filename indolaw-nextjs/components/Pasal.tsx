@@ -22,9 +22,7 @@ export default function Pasal(props: { structure: Complex }): JSX.Element {
           customStyle={headingStyle}
         />
       </div>
-      {structure.children
-        .slice(1)
-        .map((childStructure) => renderStructure(childStructure))}
+      {structure.children.slice(1).map(renderStructure)}
     </>
   );
 }

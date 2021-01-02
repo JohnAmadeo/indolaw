@@ -29,9 +29,7 @@ export default function StructureWithTitleAndNumber(props: {
           customStyle={headingStyle}
         />
       </div>
-      {structure.children
-        .slice(2)
-        .map((childStructure) => renderStructure(childStructure))}
+      {structure.children.slice(2).map(renderStructure)}
     </>
   );
 }

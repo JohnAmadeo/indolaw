@@ -135,8 +135,9 @@ function getChildren(
     case Structure.PARAGRAF:
       return (
         <>
-          {(structure as Complex).children.slice(2).map((child) => (
+          {(structure as Complex).children.slice(2).map((child, idx) => (
             <TableOfContentsGroup
+              key={idx}
               structure={child}
               depth={depth + 1}
               isMobile={isMobile}

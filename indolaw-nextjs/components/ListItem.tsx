@@ -26,20 +26,19 @@ export default function ListItem(props: { structure: Complex }): JSX.Element {
         <PrimitiveStructure structure={structure.children[0] as Primitive} />
       </div>
       <div className="text-block">
-        {structure.children.map((childStructure) => {
-          if (childStructure.type === Structure.PLAINTEXT) {
-            return (
+        {structure.children.map((childStructure, idx) =>
+          <div key={idx}>
+            {childStructure.type === Structure.PLAINTEXT ? (
               <PrimitiveStructure
+                key={idx}
                 structure={childStructure as Primitive}
                 customStyle={{
                   textAlign: isMobile ? "start" : "justify",
                 }}
               />
-            );
-          }
-
-          return renderStructure(childStructure);
-        })}
+            ) : renderStructure(childStructure, idx)}
+          </div>
+        )}
       </div>
     </div>
   );

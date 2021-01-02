@@ -57,7 +57,10 @@ export interface Complex {
   id: string;
 }
 
-export function renderStructure(structure: Complex | Primitive) {
+export function renderStructure(
+  structure: Complex | Primitive,
+  key?: string | number,
+) {
   switch (structure.type) {
     case Structure.PLAINTEXT:
     case Structure.BAB_NUMBER:
@@ -67,27 +70,30 @@ export function renderStructure(structure: Complex | Primitive) {
     case Structure.BAGIAN_TITLE:
     case Structure.PARAGRAF_NUMBER:
     case Structure.PARAGRAF_TITLE:
-      return <PrimitiveStructure structure={structure as Primitive} />;
+      return <PrimitiveStructure key={key} structure={structure as Primitive} />;
     case Structure.BAB:
     case Structure.BAGIAN:
     case Structure.PARAGRAF:
-      return <StructureWithTitleAndNumber structure={structure as Complex} />;
+      return <StructureWithTitleAndNumber key={key} structure={structure as Complex} />;
     case Structure.LIST:
-      return renderChildren(structure as Complex);
+      return renderChildren(structure as Complex, key);
     case Structure.LIST_ITEM:
-      return <ListItem structure={structure as Complex} />;
+      return <ListItem key={key} structure={structure as Complex} />;
     case Structure.PASAL:
-      return <Pasal structure={structure as Complex} />;
+      return <Pasal key={key} structure={structure as Complex} />;
     default:
       return <></>;
   }
 }
 
-export function renderChildren(structure: Complex): JSX.Element {
+export function renderChildren(
+  structure: Complex,
+  key?: string | number,
+): JSX.Element {
   return (
-    <div>
-      {structure.children.map((childStructure) =>
-        renderStructure(childStructure)
+    <div key={key}>
+      {structure.children.map((childStructure, idx) =>
+        renderStructure(childStructure, idx)
       )}
     </div>
   );
