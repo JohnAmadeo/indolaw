@@ -35,8 +35,6 @@ function maybeLinkToOtherLaws(text: string): string | Array<JSX.Element> {
     return text;
   }
 
-  console.log(spans);
-
   let linkedSpans = [];
   for (let i = 0; i < spans.length; i++) {
     const isLinkable = spans[i].match(regex) != null;
