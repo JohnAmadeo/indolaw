@@ -9,6 +9,14 @@ class Structure(Enum):
     # END = "End"
     # SKIP = "Skip"
     UNDANG_UNDANG = "UNDANG_UNDANG"
+    OPENING = "OPENING"
+    UU_TITLE = "UU_TITLE"
+    UU_TITLE_YEAR_AND_NUMBER = "UU_TITLE_YEAR_AND_NUMBER"
+    UU_TITLE_TOPIC = "UU_TITLE_TOPIC"
+    PREFACE = "PREFACE"
+    CONSIDERATIONS = "CONSIDERATIONS"
+    PRINCIPLES = "PRINCIPLES"
+    AGREEMENT = "AGREEMENT"
     BAB = "BAB"
     BAB_NUMBER = "BAB_NUMBER"
     BAB_TITLE = "BAB_TITLE"
@@ -87,6 +95,10 @@ def is_heading(regex, string):
 def ignore_line(line):
     # end of page
     if ". . ." in line:
+        return True
+    elif "www.hukumonline.com" in line:
+        return True
+    elif re.match('[0-9]+ \/ [0-9]+', line.rstrip()) != None:
         return True
     # page number
     elif re.match('- [0-9]+ -', line.rstrip()) != None:
@@ -189,6 +201,23 @@ def is_start_of_structure(structure, law, start_index):
     '''
     if structure == Structure.UNDANG_UNDANG:
         return is_start_of_undang_undang(law, start_index)
+    # AGREEMENT
+    elif structure == Structure.OPENING:
+        return is_start_of_opening(law, start_index)
+    elif structure == Structure.UU_TITLE:
+        return is_start_of_uu_title(law, start_index)
+    elif structure == Structure.UU_TITLE_YEAR_AND_NUMBER:
+        return is_start_of_uu_title_year_and_number(law, start_index)
+    elif structure == Structure.UU_TITLE_TOPIC:
+        return is_start_of_uu_title_topic(law, start_index)
+    elif structure == Structure.PREFACE:
+        return is_start_of_preface(law, start_index)
+    elif structure == Structure.CONSIDERATIONS:
+        return is_start_of_considerations(law, start_index)
+    elif structure == Structure.PRINCIPLES:
+        return is_start_of_principles(law, start_index)
+    elif structure == Structure.AGREEMENT:
+        return is_start_of_agreement(law, start_index)
     # BAB
     elif structure == Structure.BAB:
         return is_start_of_bab(law, start_index)
@@ -238,7 +267,40 @@ def is_start_of_structure(structure, law, start_index):
 
 
 def is_start_of_undang_undang(law, start_index):
-    return 'UNDANG-UNDANG' in law[start_index]
+    return is_start_of_opening(law, start_index)
+
+
+def is_start_of_opening(law, start_index):
+    return is_start_of_uu_title(law, start_index)
+
+
+def is_start_of_uu_title(law, start_index):
+    return 'UNDANG-UNDANG REPUBLIK INDONESI' in law[start_index]
+
+
+def is_start_of_uu_title_year_and_number(law, start_index):
+    return is_heading('NOMOR [0-9]+ TAHUN [0-9]{4}', law[start_index])
+
+
+def is_start_of_uu_title_topic(law, start_index):
+    return is_start_of_uu_title_year_and_number(law, start_index-2) and \
+        is_start_of_preface(law, start_index+1)
+
+
+def is_start_of_preface(law, start_index):
+    return 'DENGAN RAHMAT TUHAN YANG MAHA ESA' in law[start_index]
+
+
+def is_start_of_considerations(law, start_index):
+    return 'Menimbang:' in law[start_index]
+
+
+def is_start_of_principles(law, start_index):
+    return 'Mengingat:' in law[start_index]
+
+
+def is_start_of_agreement(law, start_index):
+    return 'Dengan Persetujuan Bersama:' in law[start_index]
 
 
 def is_start_of_pasal(law, start_index):
@@ -486,14 +548,133 @@ def parse_undang_undang(law):
     #     print(l)
     # exit()
 
-    return parse_complex_structure(
+    children = []
+
+    parsed_opening, end_index = parse_opening(law, 0)
+    children.append(parsed_opening)
+
+    return node(
+        Structure.UNDANG_UNDANG,
+        children,
+    ), end_index
+
+    parsed_sub_structure, _ = parse_complex_structure(
         Structure.UNDANG_UNDANG,
         law,
-        0,
+        end_index+1,
         ancestor_structures=[],
         sibling_structures=[],
         child_structures=[Structure.BAB],
     )
+    children.extend(parsed_sub_structure['children'])
+
+
+def parse_opening(law, start_index):
+
+    parsed_uu_title, end_index = parse_uu_title(law, start_index)
+    parsed_preface, end_index = parse_preface(law, end_index+1)
+    parsed_considerations, end_index = parse_considerations(law, end_index+1)
+    parsed_principles, end_index = parse_principles(law, end_index+1)
+    parsed_agreement, end_index = parse_agreement(law, end_index+1)
+
+    return node(
+        Structure.OPENING,
+        [
+            parsed_uu_title,
+            parsed_preface,
+            parsed_considerations,
+            parsed_principles,
+            parsed_agreement,
+        ]
+    ), end_index
+
+
+def parse_uu_title(law, start_index):
+    '''
+    e.g 
+    UNDANG-UNDANG REPUBLIK INDONESIA 
+    NOMOR 14 TAHUN 2008 
+    TENTANG 
+    KETERBUKAAN INFORMASI PUBLIK 
+    '''
+    return node(
+        Structure.UU_TITLE,
+        [
+            simple_parse_primitive(Structure.PLAINTEXT, law, start_index),
+            simple_parse_primitive(
+                Structure.UU_TITLE_YEAR_AND_NUMBER, law, start_index+1),
+            simple_parse_primitive(
+                Structure.PLAINTEXT, law, start_index+2),
+            simple_parse_primitive(
+                Structure.UU_TITLE_TOPIC, law, start_index+3),
+        ],
+        'judul',
+    ), start_index+3
+
+
+def parse_preface(law, start_index):
+    return node(
+        Structure.PREFACE,
+        [
+            simple_parse_primitive(Structure.PLAINTEXT, law, start_index),
+            simple_parse_primitive(
+                Structure.PLAINTEXT, law, start_index+1),
+        ],
+    ), start_index+1
+
+
+def parse_considerations(law, start_index):
+
+    parsed_primitive = simple_parse_primitive(
+        Structure.PLAINTEXT, law, start_index)
+    parsed_considerations, end_index = parse_complex_structure(
+        Structure.CONSIDERATIONS,
+        law,
+        start_index+1,
+        # TODO(johnamadeo): clarify this; we don't REALLY need to enumerate all ancestors, only ancestors that might come AFTER
+        ancestor_structures=[],
+        # TODO(johnamadeo): rename to "next_sibling_structures"?
+        sibling_structures=[Structure.PRINCIPLES],
+        child_structures=TEXT_BLOCK_STRUCTURES,
+    )
+    parsed_considerations['children'].insert(0, parsed_primitive)
+    return parsed_considerations, end_index
+
+
+def parse_principles(law, start_index):
+
+    parsed_primitive = simple_parse_primitive(
+        Structure.PLAINTEXT, law, start_index)
+    parsed_principles, end_index = parse_complex_structure(
+        Structure.PRINCIPLES,
+        law,
+        start_index+1,
+        ancestor_structures=[],
+        sibling_structures=[Structure.AGREEMENT],
+        child_structures=TEXT_BLOCK_STRUCTURES,
+    )
+    parsed_principles['children'].insert(0, parsed_primitive)
+    return parsed_principles, end_index
+
+
+def parse_agreement(law, start_index):
+    '''
+    e.g 
+    Dengan Persetujuan Bersama: 
+    DEWAN PERWAKILAN RAKYAT REPUBLIK INDONESIA 
+    dan 
+    PRESIDEN REPUBLIK INDONESIA 
+    MEMUTUSKAN: 
+    Menetapkan: 
+    UNDANG-UNDANG TENTANG KETERBUKAAN INFORMASI PUBLIK 
+    '''
+
+    # this part is always 7 lines long
+    return node(
+        Structure.AGREEMENT,
+        [simple_parse_primitive(
+            Structure.PLAINTEXT, law, start_index+i) for i in range(7)]
+    ), start_index+6
 
 
 def parse_bab(law, start_index):
@@ -685,6 +866,7 @@ def parse_list(law, start_index):
 
         # LIST's only child structure is LIST_ITEM
         parsed_list_item, end_index = parse_list_item(law, start_index)
+
         children.append(parsed_list_item)
         start_index = end_index + 1
 
@@ -719,7 +901,8 @@ def parse_list_item(law, start_index):
     From the 3rd line onwards, the child will either be a plaintext or a nested list
     '''
     non_recursive_ancestors = [Structure.PASAL, Structure.PARAGRAF,
-                               Structure.BAGIAN, Structure.BAB]
+                               Structure.BAGIAN, Structure.BAB,
+                               Structure.PRINCIPLES, Structure.AGREEMENT]
 
     start_index += 2
     end_index = start_index-1

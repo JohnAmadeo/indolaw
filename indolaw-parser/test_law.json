@@ -1,45 +1,182 @@
-[
-  [
-    { "type": "BAB_NUMBER", "text": "BAB I" },
-    { "type": "BAB_TITLE", "text": "KETENTUAN UMUM" },
-    [
-      { "type": "PASAL_NUMBER", "text": "Pasal 1" },
-      {
-        "type": "PLAINTEXT",
-        "text": "Dalam Undang-Undang ini yang dimaksud dengan:"
-      },
-      [
-        [
-          { "type": "NUMBER_WITH_DOT", "text": "1." },
-          { "type": "PLAINTEXT", "text": "Top level list item 1" },
-          { "type": "PLAINTEXT", "text": "  The quick brown fox" },
-          [
-            [
-              { "type": "NUMBER_WITH_DOT", "text": "1." },
-              { "type": "PLAINTEXT", "text": "Nested level list item 1" }
-            ],
-            [
-              { "type": "NUMBER_WITH_DOT", "text": "2." },
-              { "type": "PLAINTEXT", "text": "Nested level list item 2" }
-            ]
+{
+  "type": "UNDANG_UNDANG",
+  "id": "",
+  "children": [
+    {
+      "type": "OPENING",
+      "id": "",
+      "children": [
+        {
+          "type": "UU_TITLE",
+          "id": "judul",
+          "children": [
+            {
+              "type": "PLAINTEXT",
+              "text": "UNDANG-UNDANG REPUBLIK INDONESIA"
+            },
+            {
+              "type": "UU_TITLE_YEAR_AND_NUMBER",
+              "text": "NOMOR 14 TAHUN 2008"
+            },
+            {
+              "type": "PLAINTEXT",
+              "text": "TENTANG"
+            },
+            {
+              "type": "UU_TITLE_TOPIC",
+              "text": "KETERBUKAAN INFORMASI PUBLIK"
+            }
           ]
-        ],
-        [
-          { "type": "NUMBER_WITH_DOT", "text": "2." },
-          { "type": "PLAINTEXT", "text": "Top level list item 1" },
-          { "type": "PLAINTEXT", "text": "  The quick brown fox" },
-          [
-            [
-              { "type": "NUMBER_WITH_DOT", "text": "1." },
-              { "type": "PLAINTEXT", "text": "Nested level list item 1" }
-            ],
-            [
-              { "type": "NUMBER_WITH_DOT", "text": "2." },
-              { "type": "PLAINTEXT", "text": "Nested level list item 2" }
-            ]
+        },
+        {
+          "type": "PREFACE",
+          "id": "",
+          "children": [
+            {
+              "type": "PLAINTEXT",
+              "text": "DENGAN RAHMAT TUHAN YANG MAHA ESA"
+            },
+            {
+              "type": "PLAINTEXT",
+              "text": "PRESIDEN REPUBLIK INDONESIA,"
+            }
           ]
-        ]
+        },
+        {
+          "type": "CONSIDERATIONS",
+          "id": "",
+          "children": [
+            {
+              "type": "PLAINTEXT",
+              "text": "Menimbang:"
+            },
+            {
+              "type": "LIST",
+              "id": "",
+              "children": [
+                {
+                  "type": "LIST_ITEM",
+                  "id": "",
+                  "children": [
+                    {
+                      "type": "LETTER_WITH_DOT",
+                      "text": "a."
+                    },
+                    {
+                      "type": "PLAINTEXT",
+                      "text": "bahwa informasi merupakan kebutuhan pokok setiap orang bagi pengembangan pribadi dan lingkungan sosialnya serta merupakan bagian penting bagi ketahanan nasional;"
+                    }
+                  ]
+                },
+                {
+                  "type": "LIST_ITEM",
+                  "id": "",
+                  "children": [
+                    {
+                      "type": "LETTER_WITH_DOT",
+                      "text": "b."
+                    },
+                    {
+                      "type": "PLAINTEXT",
+                      "text": "bahwa hak memperoleh informasi merupakan hak asasi manusia dan keterbukaan informasi publik merupakan salah satu ciri penting negara demokratis yang menjunjung tinggi kedaulatan rakyat untuk mewujudkan penyelenggaraan negara yang baik;"
+                    }
+                  ]
+                },
+                {
+                  "type": "LIST_ITEM",
+                  "id": "",
+                  "children": [
+                    {
+                      "type": "LETTER_WITH_DOT",
+                      "text": "c."
+                    },
+                    {
+                      "type": "PLAINTEXT",
+                      "text": "bahwa keterbukaan informasi publik merupakan sarana dalam mengoptimalkan pengawasan publik terhadap penyelenggaraan negara dan Badan Publik lainnya dan segala sesuatu yang berakibat pada kepentingan publik;"
+                    }
+                  ]
+                },
+                {
+                  "type": "LIST_ITEM",
+                  "id": "",
+                  "children": [
+                    {
+                      "type": "LETTER_WITH_DOT",
+                      "text": "d."
+                    },
+                    {
+                      "type": "PLAINTEXT",
+                      "text": "bahwa pengelolaan informasi publik merupakan salah satu upaya untuk mengembangkan masyarakat informasi;"
+                    }
+                  ]
+                },
+                {
+                  "type": "LIST_ITEM",
+                  "id": "",
+                  "children": [
+                    {
+                      "type": "LETTER_WITH_DOT",
+                      "text": "e."
+                    },
+                    {
+                      "type": "PLAINTEXT",
+                      "text": "bahwa berdasarkan pertimbangan sebagaimana dimaksud dalam huruf a, huruf b, huruf c, dan huruf d, perlu membentuk Undang-Undang tentang Keterbukaan Informasi Publik."
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "PRINCIPLES",
+          "id": "",
+          "children": [
+            {
+              "type": "PLAINTEXT",
+              "text": "Mengingat:"
+            },
+            {
+              "type": "PLAINTEXT",
+              "text": "Pasal 20, Pasal 21, Pasal 28 F, dan Pasal 28 J Undang-Undang Dasar Negara Republik Indonesia Tahun 1945."
+            }
+          ]
+        },
+        {
+          "type": "AGREEMENT",
+          "id": "",
+          "children": [
+            {
+              "type": "PLAINTEXT",
+              "text": "Dengan Persetujuan Bersama:"
+            },
+            {
+              "type": "PLAINTEXT",
+              "text": "DEWAN PERWAKILAN RAKYAT REPUBLIK INDONESIA"
+            },
+            {
+              "type": "PLAINTEXT",
+              "text": "dan"
+            },
+            {
+              "type": "PLAINTEXT",
+              "text": "PRESIDEN REPUBLIK INDONESIA"
+            },
+            {
+              "type": "PLAINTEXT",
+              "text": "MEMUTUSKAN:"
+            },
+            {
+              "type": "PLAINTEXT",
+              "text": "Menetapkan:"
+            },
+            {
+              "type": "PLAINTEXT",
+              "text": "UNDANG-UNDANG TENTANG KETERBUKAAN INFORMASI PUBLIK"
+            }
+          ]
+        }
       ]
-    ]
+    }
   ]
-]
+}
