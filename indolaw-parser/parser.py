@@ -3,6 +3,8 @@ from enum import Enum
 import sys
 import re
 from itertools import filterfalse
+from typing import List, Optional, Tuple, Union, cast
+from typing_extensions import TypedDict
 
 
 class Structure(Enum):
@@ -55,6 +57,14 @@ PRIMITIVE_STRUCTURES = [
 LIST_INDEX_STRUCTURES = [Structure.NUMBER_WITH_BRACKETS,
                          Structure.NUMBER_WITH_DOT, Structure.LETTER_WITH_DOT]
 
+Primitive = TypedDict('Primitive', {'type': str, 'text': str})
+
+# Python has trouble with recursive types e.g in this case we want to use the Complex type in the definition
+# of the Complex type itself (i.e the classic CS tree data structure)
+# https://www.python.org/dev/peps/pep-0484/#the-problem-of-forward-declarations
+Complex = TypedDict('Complex', {
+                    'type': str, 'id': Optional[str], 'children': List[Union[Primitive, 'Complex']]})  # type: ignore
+
 '''
 -----------------
 
@@ -65,7 +75,7 @@ UTILS
 
 
 # https://www.w3resource.com/python-exercises/class-exercises/python-class-exercise-2.php
-def roman_to_int(number):
+def roman_to_int(number: str) -> int:
     roman_values = {'I': 1, 'V': 5, 'X': 10,
                     'L': 50, 'C': 100, 'D': 500, 'M': 1000}
     integer = 0
@@ -78,7 +88,11 @@ def roman_to_int(number):
     return integer
 
 
-def node(structure, children_list, id=''):
+def node(
+    structure: Structure,
+    children_list: List[Union[Primitive, Complex]],
+    id: Optional[str] = '',
+) -> Complex:
     # TODO(johnamadeo): This is just a placeholder for what should eventually become a proper Class constructor
     return {
         'type': structure.value,
@@ -88,11 +102,11 @@ def node(structure, children_list, id=''):
     }
 
 
-def is_heading(regex, string):
+def is_heading(regex: str, string: str) -> bool:
     return re.match('^[\s]*' + regex + '[\s]*$', string) != None
 
 
-def ignore_line(line):
+def ignore_line(line: str) -> bool:
     # end of page
     if ". . ." in line:
         return True
@@ -107,7 +121,7 @@ def ignore_line(line):
         return False
 
 
-def get_list_index_type(string):
+def get_list_index_type(string: str) -> Optional[Structure]:
     if type(string) is not str:
         return None
 
@@ -121,8 +135,12 @@ def get_list_index_type(string):
         return None
 
 
-def get_list_index_as_num(regex, string):
-    number_string = re.match(regex, string).group(1)
+def get_list_index_as_num(regex: str, string: str) -> int:
+    match = re.match(regex, string)
+    # mypy: https://mypy.readthedocs.io/en/stable/common_issues.html#unexpected-errors-about-none-and-or-optional-types
+    assert match is not None
+
+    number_string = match.group(1)
     # e.g '100'
     if number_string.isnumeric():
         return int(number_string)
@@ -131,7 +149,7 @@ def get_list_index_as_num(regex, string):
         return ord(number_string)
 
 
-def is_next_list_index_number(a, b):
+def is_next_list_index_number(a: str, b: str) -> bool:
     a_type = get_list_index_type(a)
     b_type = get_list_index_type(b)
 
@@ -150,23 +168,25 @@ def is_next_list_index_number(a, b):
         regex = '([0-9]+)\.'
     elif a_type == Structure.LETTER_WITH_DOT:
         regex = '([a-z])\.'
+    else:
+        raise Exception('arguments passed in is not a list index')
 
     return get_list_index_as_num(regex, a) + 1 == get_list_index_as_num(regex, b)
 
 
-def is_start_of_first_list_index(string):
+def is_start_of_first_list_index(string: str) -> bool:
     list_index = string.split()[0]
     return list_index in set(['a.', '1.', '(1)'])
 
 
-def is_start_of_any(structures, law, start_index):
+def is_start_of_any(structures: List[Structure], law: List[str], start_index: int) -> bool:
     for structure in structures:
         if is_start_of_structure(structure, law, start_index):
             return True
     return False
 
 
-def clean_law(law):
+def clean_law(law: List[str]) -> List[str]:
     law = list(filterfalse(ignore_line, law))
 
     new_law = []
@@ -193,7 +213,7 @@ IS_START_OF_X FUNCTIONS
 '''
 
 
-def is_start_of_structure(structure, law, start_index):
+def is_start_of_structure(structure: Structure, law: List[str], start_index: int) -> bool:
     '''
     Assume that all the start of structure X heuristics are mutually exclusive
     i.e if one of the is_start_of_X functions returns True, all the other
@@ -266,96 +286,96 @@ def is_start_of_structure(structure, law, start_index):
                         ' function does not exist')
 
 
-def is_start_of_undang_undang(law, start_index):
+def is_start_of_undang_undang(law: List[str], start_index: int) -> bool:
     return is_start_of_opening(law, start_index)
 
 
-def is_start_of_opening(law, start_index):
+def is_start_of_opening(law: List[str], start_index: int) -> bool:
     return is_start_of_uu_title(law, start_index)
 
 
-def is_start_of_uu_title(law, start_index):
+def is_start_of_uu_title(law: List[str], start_index: int) -> bool:
     return 'UNDANG-UNDANG REPUBLIK INDONESI' in law[start_index]
 
 
-def is_start_of_uu_title_year_and_number(law, start_index):
+def is_start_of_uu_title_year_and_number(law: List[str], start_index: int) -> bool:
     return is_heading('NOMOR [0-9]+ TAHUN [0-9]{4}', law[start_index])
 
 
-def is_start_of_uu_title_topic(law, start_index):
+def is_start_of_uu_title_topic(law: List[str], start_index: int) -> bool:
     return is_start_of_uu_title_year_and_number(law, start_index-2) and \
         is_start_of_preface(law, start_index+1)
 
 
-def is_start_of_preface(law, start_index):
+def is_start_of_preface(law: List[str], start_index: int) -> bool:
     return 'DENGAN RAHMAT TUHAN YANG MAHA ESA' in law[start_index]
 
 
-def is_start_of_considerations(law, start_index):
+def is_start_of_considerations(law: List[str], start_index: int) -> bool:
     return 'Menimbang:' in law[start_index]
 
 
-def is_start_of_principles(law, start_index):
+def is_start_of_principles(law: List[str], start_index: int) -> bool:
     return 'Mengingat:' in law[start_index]
 
 
-def is_start_of_agreement(law, start_index):
+def is_start_of_agreement(law: List[str], start_index: int) -> bool:
     return 'Dengan Persetujuan Bersama:' in law[start_index]
 
 
-def is_start_of_pasal(law, start_index):
+def is_start_of_pasal(law: List[str], start_index: int) -> bool:
     return is_heading('Pasal[\s]+[0-9]+', law[start_index])
 
 
-def is_start_of_pasal_number(law, start_index):
+def is_start_of_pasal_number(law: List[str], start_index: int) -> bool:
     return is_start_of_pasal(law, start_index)
 
 
-def is_start_of_bagian(law, start_index):
+def is_start_of_bagian(law: List[str], start_index: int) -> bool:
     return is_heading('Bagian Ke[a-z]+', law[start_index])
 
 
-def is_start_of_bagian_number(law, start_index):
+def is_start_of_bagian_number(law: List[str], start_index: int) -> bool:
     return is_start_of_bagian(law, start_index)
 
 
-def is_start_of_bagian_title(law, start_index):
+def is_start_of_bagian_title(law: List[str], start_index: int) -> bool:
     return is_start_of_bagian_number(law, start_index-1)
 
 
-def is_start_of_paragraf(law, start_index):
+def is_start_of_paragraf(law: List[str], start_index: int) -> bool:
     return is_heading('Paragraf[\s]+[0-9]+', law[start_index])
 
 
-def is_start_of_paragraf_number(law, start_index):
+def is_start_of_paragraf_number(law: List[str], start_index: int) -> bool:
     return is_start_of_paragraf(law, start_index)
 
 
-def is_start_of_paragraf_title(law, start_index):
+def is_start_of_paragraf_title(law: List[str], start_index: int) -> bool:
     return is_start_of_paragraf_number(law, start_index-1)
 
 
-def is_start_of_bab(law, start_index):
+def is_start_of_bab(law: List[str], start_index: int) -> bool:
     return is_heading('BAB [MDCLXVI]+', law[start_index])
 
 
-def is_start_of_bab_number(law, start_index):
+def is_start_of_bab_number(law: List[str], start_index: int) -> bool:
     return is_start_of_bab(law, start_index)
 
 
-def is_start_of_bab_title(law, start_index):
+def is_start_of_bab_title(law: List[str], start_index: int) -> bool:
     return is_start_of_bab_number(law, start_index-1)
 
 
-def is_start_of_list(law, start_index):
+def is_start_of_list(law: List[str], start_index: int) -> bool:
     return is_start_of_list_item(law, start_index)
 
 
-def is_start_of_list_item(law, start_index):
+def is_start_of_list_item(law: List[str], start_index: int) -> bool:
     return is_start_of_list_index(law, start_index)
 
 
-def is_start_of_list_index(law, start_index):
+def is_start_of_list_index(law: List[str], start_index: int) -> bool:
     return is_start_of_letter_with_dot(law, start_index) or \
         is_start_of_number_with_dot(law, start_index) or \
         is_start_of_number_with_brackets(law, start_index)
@@ -367,34 +387,34 @@ down the line; for now it's necessary (ctrl+f the callsites to see why)
 '''
 
 
-def is_start_of_letter_with_dot(law, start_index):
+def is_start_of_letter_with_dot(law: List[str], start_index: int) -> bool:
     line = law[start_index].split()[0]
     return is_start_of_letter_with_dot_str(line)
 
 
-def is_start_of_letter_with_dot_str(string):
+def is_start_of_letter_with_dot_str(string: str) -> bool:
     return is_heading('[a-z]\.', string)
 
 
-def is_start_of_number_with_dot(law, start_index):
+def is_start_of_number_with_dot(law: List[str], start_index: int) -> bool:
     line = law[start_index].split()[0]
     return is_start_of_number_with_dot_str(line)
 
 
-def is_start_of_number_with_dot_str(string):
+def is_start_of_number_with_dot_str(string: str) -> bool:
     return is_heading('[0-9]+\.', string)
 
 
-def is_start_of_number_with_brackets(law, start_index):
+def is_start_of_number_with_brackets(law: List[str], start_index: int) -> bool:
     line = law[start_index].split()[0]
     return is_start_of_number_with_brackets_str(line)
 
 
-def is_start_of_number_with_brackets_str(string):
+def is_start_of_number_with_brackets_str(string: str) -> bool:
     return is_heading('\([0-9]+\)', string)
 
 
-def is_start_of_plaintext(law, start_index):
+def is_start_of_plaintext(law: List[str], start_index: int) -> bool:
     # TODO: This is hilariously dumb. We should take in a list of the other
     # child structures as an argument and check against that instead
     # of literally every other structure
@@ -417,7 +437,11 @@ PARSE_X GENERIC FUNCTIONS
 '''
 
 
-def parse_structure(structure, law, start_index):
+def parse_structure(
+    structure: Structure,
+    law: List[str],
+    start_index: int
+) -> Tuple[Union[Primitive, Complex], int]:
     if structure in PRIMITIVE_STRUCTURES:
         return parse_primitive(structure, law, start_index)
     elif structure == Structure.BAB:
@@ -440,30 +464,36 @@ def parse_structure(structure, law, start_index):
 
 
 # Convenience wrapper for parse_primitive that doesn't return the end index
-def simple_parse_primitive(structure, law, start_index):
-    return parse_primitive(structure, law, start_index, return_end_index=False)
+def simple_parse_primitive(structure: Structure, law: List[str], start_index: int) -> Primitive:
+    '''
+    cast is used to override the type of the return value because mypy can't infer it; it's
+    purely for mypy and does nothing at runtime
+
+    see https://mypy.readthedocs.io/en/stable/cheat_sheet_py3.html#when-you-re-puzzled-or-when-things-are-complicated
+    '''
+    parsed_primitive, _ = parse_primitive(structure, law, start_index)
+    return parsed_primitive
 
 
-def parse_primitive(structure, law, start_index, return_end_index=True):
-    parsed_structure = {
-        'type': structure.value,
-        'text': law[start_index].rstrip()
-    }
-
-    if return_end_index:
-        return parsed_structure, start_index
-    else:
-        return parsed_structure
+def parse_primitive(
+    structure: Structure,
+    law: List[str],
+    start_index: int,
+) -> Tuple[Primitive, int]:
+    return Primitive(
+        type=structure.value,
+        text=law[start_index].rstrip()
+    ), start_index
 
 
 def parse_complex_structure(
-    law,
-    start_index,
+    law: List[str],
+    start_index: int,
     # doesn't have to include root structure (i.e UNDANG_UNDANG)
-    ancestor_structures,
-    sibling_structures,
-    child_structures
-):
+    ancestor_structures: List[Structure],
+    sibling_structures: List[Structure],
+    child_structures: List[Structure],
+) -> Tuple[List[Union[Primitive, Complex]], int]:
     '''
     NOTE: List-related structures should be parsed by parse_list and parse_list_item
 
@@ -490,7 +520,7 @@ def parse_complex_structure(
     of the law by hand w/ pen and paper and apply the algorithm as implemented below!
     '''
 
-    children_list = []
+    children_list: List[Union[Primitive, Complex]] = []
     initial_start_index = start_index
 
     end_index = start_index-1
@@ -522,6 +552,7 @@ def parse_complex_structure(
             raise Exception(
                 'Unable to detect the right structure for line: ' + law[start_index])
 
+        assert child_structure is not None  # mypy type hint
         parsed_sub_structure, end_index = parse_structure(
             child_structure, law, start_index)
         start_index = end_index + 1
@@ -540,7 +571,7 @@ PARSE_X FUNCTIONS
 '''
 
 
-def parse_undang_undang(law):
+def parse_undang_undang(law: List[str]) -> Tuple[Complex, int]:
     law = clean_law(law)
 
     # for l in law:
@@ -565,7 +596,7 @@ def parse_undang_undang(law):
     ), end_index
 
 
-def parse_opening(law, start_index):
+def parse_opening(law: List[str], start_index: int) -> Tuple[Complex, int]:
 
     parsed_uu_title, end_index = parse_uu_title(law, start_index)
     parsed_preface, end_index = parse_preface(law, end_index+1)
@@ -585,7 +616,7 @@ def parse_opening(law, start_index):
     ), end_index
 
 
-def parse_uu_title(law, start_index):
+def parse_uu_title(law: List[str], start_index: int) -> Tuple[Complex, int]:
     '''
     e.g 
     UNDANG-UNDANG REPUBLIK INDONESIA 
@@ -608,7 +639,7 @@ def parse_uu_title(law, start_index):
     ), start_index+3
 
 
-def parse_preface(law, start_index):
+def parse_preface(law: List[str], start_index: int) -> Tuple[Complex, int]:
     return node(
         Structure.PREFACE,
         [
@@ -619,7 +650,7 @@ def parse_preface(law, start_index):
     ), start_index+1
 
 
-def parse_considerations(law, start_index):
+def parse_considerations(law: List[str], start_index: int) -> Tuple[Complex, int]:
     parsed_primitive = simple_parse_primitive(
         Structure.PLAINTEXT, law, start_index)
 
@@ -639,7 +670,7 @@ def parse_considerations(law, start_index):
     ), end_index
 
 
-def parse_principles(law, start_index):
+def parse_principles(law: List[str], start_index: int) -> Tuple[Complex, int]:
 
     parsed_primitive = simple_parse_primitive(
         Structure.PLAINTEXT, law, start_index)
@@ -656,7 +687,7 @@ def parse_principles(law, start_index):
     ), end_index
 
 
-def parse_agreement(law, start_index):
+def parse_agreement(law: List[str], start_index: int) -> Tuple[Complex, int]:
     '''
     e.g 
     Dengan Persetujuan Bersama: 
@@ -676,7 +707,7 @@ def parse_agreement(law, start_index):
     ), start_index+6
 
 
-def parse_bab(law, start_index):
+def parse_bab(law: List[str], start_index: int) -> Tuple[Complex, int]:
     parsed_bab_number = simple_parse_primitive(
         Structure.BAB_NUMBER, law, start_index)
     parsed_bab_title = simple_parse_primitive(
@@ -704,7 +735,7 @@ def parse_bab(law, start_index):
     ), end_index
 
 
-def parse_pasal(law, start_index):
+def parse_pasal(law: List[str], start_index: int) -> Tuple[Complex, int]:
     parsed_pasal_number = simple_parse_primitive(
         Structure.PASAL_NUMBER, law, start_index)
     parsed_children_list, end_index = parse_complex_structure(
@@ -725,7 +756,7 @@ def parse_pasal(law, start_index):
     ), end_index
 
 
-def parse_bagian(law, start_index):
+def parse_bagian(law: List[str], start_index: int) -> Tuple[Complex, int]:
     parsed_children_list, end_index = parse_complex_structure(
         law,
         start_index+2,
@@ -743,7 +774,7 @@ def parse_bagian(law, start_index):
     ), end_index
 
 
-def parse_paragraf(law, start_index):
+def parse_paragraf(law: List[str], start_index: int) -> Tuple[Complex, int]:
     parsed_children_list, end_index = parse_complex_structure(
         law,
         start_index+2,
@@ -769,9 +800,9 @@ any child lists should be embedded inside a list item
 '''
 
 
-def parse_list(law, start_index):
+def parse_list(law: List[str], start_index: int) -> Tuple[Complex, int]:
     structure = Structure.LIST
-    children_list = []
+    children_list: List[Union[Primitive, Complex]] = []
 
     non_recursive_ancestors = [Structure.PASAL, Structure.PARAGRAF,
                                Structure.BAGIAN, Structure.BAB]
@@ -806,7 +837,12 @@ def parse_list(law, start_index):
         '''
         if len(children_list) > 0:
             parsed_list_item = children_list[-1]
-            parsed_list_index = parsed_list_item['children'][0]
+            '''
+            known mypy problem: parsed_list_item is type Union[Primitive | Complex]
+            but we know a list's children are all list items so parsed_list_item
+            has to be type Complex
+            '''
+            parsed_list_index = parsed_list_item['children'][0]  # type: ignore
             curr_list_index_type = Structure[parsed_list_index['type']]
             curr_list_index_number = parsed_list_index['text']
 
@@ -876,7 +912,7 @@ def parse_list(law, start_index):
     return node(structure, children_list), end_index
 
 
-def parse_list_item(law, start_index):
+def parse_list_item(law: List[str], start_index: int) -> Tuple[Complex, int]:
     '''
     The 1st and 2nd line of a list item must be a list index and plaintext.
     Even in the case of a nested list, there is always a plaintext in between
@@ -964,6 +1000,7 @@ def parse_list_item(law, start_index):
             raise Exception(
                 'parse_list_item: child is neither a list or plaintext')
 
+        assert child_structure is not None  # mypy type hint
         parsed_structure, end_index = parse_structure(
             child_structure, law, start_index)
         children_list.append(parsed_structure)
@@ -972,7 +1009,7 @@ def parse_list_item(law, start_index):
     return node(structure, children_list), end_index
 
 
-def parse_list_index(law, start_index):
+def parse_list_index(law, start_index) -> Tuple[Primitive, int]:
     if is_start_of_letter_with_dot(law, start_index):
         return parse_primitive(Structure.LETTER_WITH_DOT, law, start_index)
     elif is_start_of_number_with_dot(law, start_index):
