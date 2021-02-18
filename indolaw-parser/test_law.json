@@ -177,6 +177,424 @@
           ]
         }
       ]
+    },
+    {
+      "type": "BAB",
+      "id": "bab-1",
+      "children": [
+        {
+          "type": "BAB_NUMBER",
+          "text": "BAB I"
+        },
+        {
+          "type": "BAB_TITLE",
+          "text": "KETENTUAN UMUM"
+        },
+        {
+          "type": "PASAL",
+          "id": "pasal-1",
+          "children": [
+            {
+              "type": "PASAL_NUMBER",
+              "text": "Pasal 1"
+            },
+            {
+              "type": "PLAINTEXT",
+              "text": "Dalam Undang-Undang ini yang dimaksud dengan:"
+            },
+            {
+              "type": "LIST",
+              "id": "",
+              "children": [
+                {
+                  "type": "LIST_ITEM",
+                  "id": "",
+                  "children": [
+                    {
+                      "type": "NUMBER_WITH_DOT",
+                      "text": "1."
+                    },
+                    {
+                      "type": "PLAINTEXT",
+                      "text": "Informasi adalah keterangan, pernyataan, gagasan, dan tanda-tanda yang mengandung nilai, makna, dan pesan, baik data, fakta maupun penjelasannya yang dapatdilihat, didengar, dan dibaca yang disajikan dalam berbagai kemasan dan format sesuai dengan perkembangan teknologi informasi dan komunikasi secara elektronik ataupun non elektronik."
+                    }
+                  ]
+                },
+                {
+                  "type": "LIST_ITEM",
+                  "id": "",
+                  "children": [
+                    {
+                      "type": "NUMBER_WITH_DOT",
+                      "text": "2."
+                    },
+                    {
+                      "type": "PLAINTEXT",
+                      "text": "Informasi Publik adalah informasi yang dihasilkan, disimpan, dikelola, dikirim, dan/atau diterima oleh suatu badan publik yang berkaitan dengan penyelenggara dan penyelenggaraan negara dan/atau penyelenggara dan penyelenggaraan badan publik lainnya yang sesuai dengan Undang-Undang ini serta informasi lain yang berkaitan dengan kepentingan publik."
+                    }
+                  ]
+                },
+                {
+                  "type": "LIST_ITEM",
+                  "id": "",
+                  "children": [
+                    {
+                      "type": "NUMBER_WITH_DOT",
+                      "text": "3."
+                    },
+                    {
+                      "type": "PLAINTEXT",
+                      "text": "Badan Publik adalah lembaga eksekutif, legislatif, yudikatif, dan badan lain yang fungsi dan tugas pokoknya berkaitan dengan penyelenggaraan negara, yang sebagian atau seluruh dananya bersumber dari Anggaran Pendapatan dan Belanja Negara dan/atau Anggaran Pendapatan dan Belanja Daerah, atau organisasi non pemerintah sepanjang sebagian atau seluruh dananya bersumber dari Anggaran Pendapatan dan Belanja Negara dan/atau Anggaran Pendapatan dan Belanja Daerah, sumbangan masyarakat, dan/atau luar negeri."
+                    }
+                  ]
+                },
+                {
+                  "type": "LIST_ITEM",
+                  "id": "",
+                  "children": [
+                    {
+                      "type": "NUMBER_WITH_DOT",
+                      "text": "4."
+                    },
+                    {
+                      "type": "PLAINTEXT",
+                      "text": "Komisi Informasi adalah lembaga mandiri yang berfungsi menjalankan Undang-Undang ini dan peraturan pelaksanaannya, menetapkan petunjuk teknis standar layanan informasi publik dan menyelesaikan sengketa informasi publik melalui mediasi dan/atau ajudikasi non litigasi."
+                    }
+                  ]
+                },
+                {
+                  "type": "LIST_ITEM",
+                  "id": "",
+                  "children": [
+                    {
+                      "type": "NUMBER_WITH_DOT",
+                      "text": "5."
+                    },
+                    {
+                      "type": "PLAINTEXT",
+                      "text": "Sengketa Informasi Publik adalah sengketa yang terjadi antara badan publik dan pengguna informasi publik yang berkaitan dengan hak memperoleh dan menggunakan informasi berdasarkan perundang-undangan."
+                    }
+                  ]
+                },
+                {
+                  "type": "LIST_ITEM",
+                  "id": "",
+                  "children": [
+                    {
+                      "type": "NUMBER_WITH_DOT",
+                      "text": "6."
+                    },
+                    {
+                      "type": "PLAINTEXT",
+                      "text": "Mediasi adalah penyelesaian sengketa informasi publik antara para pihak melalui bantuan mediator komisi informasi."
+                    }
+                  ]
+                },
+                {
+                  "type": "LIST_ITEM",
+                  "id": "",
+                  "children": [
+                    {
+                      "type": "NUMBER_WITH_DOT",
+                      "text": "7."
+                    },
+                    {
+                      "type": "PLAINTEXT",
+                      "text": "Ajudikasi adalah proses penyelesaian sengketa informasi publik antara para pihak yang diputus oleh komisi informasi."
+                    }
+                  ]
+                },
+                {
+                  "type": "LIST_ITEM",
+                  "id": "",
+                  "children": [
+                    {
+                      "type": "NUMBER_WITH_DOT",
+                      "text": "8."
+                    },
+                    {
+                      "type": "PLAINTEXT",
+                      "text": "Pejabat Publik adalah orang yang ditunjuk dan diberi tugas untuk menduduki posisi atau jabatan tertentu pada badan publik."
+                    }
+                  ]
+                },
+                {
+                  "type": "LIST_ITEM",
+                  "id": "",
+                  "children": [
+                    {
+                      "type": "NUMBER_WITH_DOT",
+                      "text": "9."
+                    },
+                    {
+                      "type": "PLAINTEXT",
+                      "text": "Pejabat Pengelola Informasi dan Dokumentasi adalah pejabat yang bertanggung jawab di bidang penyimpanan, pendokumentasian, penyediaan, dan/atau pelayanan informasi di badan publik."
+                    }
+                  ]
+                },
+                {
+                  "type": "LIST_ITEM",
+                  "id": "",
+                  "children": [
+                    {
+                      "type": "NUMBER_WITH_DOT",
+                      "text": "10."
+                    },
+                    {
+                      "type": "PLAINTEXT",
+                      "text": "Orang adalah orang perseorangan, kelompok orang, badan hukum, atau badan publik sebagaimana dimaksud dalam Undang-Undang ini."
+                    }
+                  ]
+                },
+                {
+                  "type": "LIST_ITEM",
+                  "id": "",
+                  "children": [
+                    {
+                      "type": "NUMBER_WITH_DOT",
+                      "text": "11."
+                    },
+                    {
+                      "type": "PLAINTEXT",
+                      "text": "Pengguna Informasi Publik adalah orang yang menggunakan informasi publik sebagaimana diatur dalam Undang-Undang ini."
+                    }
+                  ]
+                },
+                {
+                  "type": "LIST_ITEM",
+                  "id": "",
+                  "children": [
+                    {
+                      "type": "NUMBER_WITH_DOT",
+                      "text": "12."
+                    },
+                    {
+                      "type": "PLAINTEXT",
+                      "text": "Pemohon Informasi Publik adalah warga negara dan/atau badan hukum Indonesia yang mengajukan permintaan informasi publik sebagaimana diatur dalam Undang-Undang ini."
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BAB",
+      "id": "bab-2",
+      "children": [
+        {
+          "type": "BAB_NUMBER",
+          "text": "BAB II"
+        },
+        {
+          "type": "BAB_TITLE",
+          "text": "ASAS DAN TUJUAN"
+        },
+        {
+          "type": "BAGIAN",
+          "id": "",
+          "children": [
+            {
+              "type": "BAGIAN_NUMBER",
+              "text": "Bagian Kesatu"
+            },
+            {
+              "type": "BAGIAN_TITLE",
+              "text": "Asas"
+            },
+            {
+              "type": "PASAL",
+              "id": "pasal-2",
+              "children": [
+                {
+                  "type": "PASAL_NUMBER",
+                  "text": "Pasal 2"
+                },
+                {
+                  "type": "LIST",
+                  "id": "",
+                  "children": [
+                    {
+                      "type": "LIST_ITEM",
+                      "id": "",
+                      "children": [
+                        {
+                          "type": "NUMBER_WITH_BRACKETS",
+                          "text": "(1)"
+                        },
+                        {
+                          "type": "PLAINTEXT",
+                          "text": "Setiap Informasi Publik bersifat terbuka dan dapat diakses oleh setiap Pengguna Informasi Publik. (2) Informasi Publik yang dikecualikan bersifat ketat dan terbatas."
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "LIST",
+                  "id": "",
+                  "children": [
+                    {
+                      "type": "LIST_ITEM",
+                      "id": "",
+                      "children": [
+                        {
+                          "type": "NUMBER_WITH_BRACKETS",
+                          "text": "(3)"
+                        },
+                        {
+                          "type": "PLAINTEXT",
+                          "text": "Setiap Informasi Publik harus dapat diperoleh setiap Pemohon Informasi Publik dengan cepat dan tepat waktu, biaya ringan, dan cara sederhana."
+                        }
+                      ]
+                    },
+                    {
+                      "type": "LIST_ITEM",
+                      "id": "",
+                      "children": [
+                        {
+                          "type": "NUMBER_WITH_BRACKETS",
+                          "text": "(4)"
+                        },
+                        {
+                          "type": "PLAINTEXT",
+                          "text": "Informasi Publik yang dikecualikan bersifat rahasia sesuai dengan Undang-Undang, kepatutan, dan kepentingan umum didasarkan pada pengujian tentang konsekuensi yang timbul apabila suatu informasi diberikan kepada masyarakat serta setelah dipertimbangkan dengan saksama bahwa menutup Informasi Publik dapat melindungi kepentingan yang lebih besar daripada membukanya atau sebaliknya."
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BAGIAN",
+          "id": "",
+          "children": [
+            {
+              "type": "BAGIAN_NUMBER",
+              "text": "Bagian Kedua"
+            },
+            {
+              "type": "BAGIAN_TITLE",
+              "text": "Tujuan"
+            },
+            {
+              "type": "PASAL",
+              "id": "pasal-3",
+              "children": [
+                {
+                  "type": "PASAL_NUMBER",
+                  "text": "Pasal 3"
+                },
+                {
+                  "type": "PLAINTEXT",
+                  "text": "Undang-Undang ini bertujuan untuk:"
+                },
+                {
+                  "type": "LIST",
+                  "id": "",
+                  "children": [
+                    {
+                      "type": "LIST_ITEM",
+                      "id": "",
+                      "children": [
+                        {
+                          "type": "LETTER_WITH_DOT",
+                          "text": "a."
+                        },
+                        {
+                          "type": "PLAINTEXT",
+                          "text": "menjamin hak warga negara untuk mengetahui rencana pembuatan kebijakan publik, program kebijakan publik, dan proses pengambilan keputusan publik, serta alasan pengambilan suatu keputusan publik;"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "LIST_ITEM",
+                      "id": "",
+                      "children": [
+                        {
+                          "type": "LETTER_WITH_DOT",
+                          "text": "b."
+                        },
+                        {
+                          "type": "PLAINTEXT",
+                          "text": "mendorong partisipasi masyarakat dalam proses pengambilan kebijakan publik;"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "LIST_ITEM",
+                      "id": "",
+                      "children": [
+                        {
+                          "type": "LETTER_WITH_DOT",
+                          "text": "c."
+                        },
+                        {
+                          "type": "PLAINTEXT",
+                          "text": "meningkatkan peran aktif masyarakat dalam pengambilan kebijakan publik dan pengelolaan Badan Publik yang baik;"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "LIST_ITEM",
+                      "id": "",
+                      "children": [
+                        {
+                          "type": "LETTER_WITH_DOT",
+                          "text": "d."
+                        },
+                        {
+                          "type": "PLAINTEXT",
+                          "text": "mewujudkan penyelenggaraan negara yang baik, yaitu yang transparan, efektif dan efisien, akuntabel serta dapat dipertanggungjawabkan;"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "LIST_ITEM",
+                      "id": "",
+                      "children": [
+                        {
+                          "type": "LETTER_WITH_DOT",
+                          "text": "e."
+                        },
+                        {
+                          "type": "PLAINTEXT",
+                          "text": "mengetahui alasan kebijakan publik yang mempengaruhi hajat hidup orang banyak; f. mengembangkan ilmu pengetahuan dan mencerdaskan kehidupan bangsa; dan/atau"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "LIST",
+                  "id": "",
+                  "children": [
+                    {
+                      "type": "LIST_ITEM",
+                      "id": "",
+                      "children": [
+                        {
+                          "type": "LETTER_WITH_DOT",
+                          "text": "g."
+                        },
+                        {
+                          "type": "PLAINTEXT",
+                          "text": "meningkatkan pengelolaan dan pelayanan informasi di lingkungan Badan Publik untuk menghasilkan layanan informasi yang berkualitas."
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
     }
   ]
 }
