@@ -1,0 +1,22 @@
+{
+  "type": "JUDUL",
+  "id": "judul",
+  "children": [
+    {
+      "type": "JUDUL_HEADER",
+      "text": "UNDANG-UNDANG REPUBLIK INDONESIA"
+    },
+    {
+      "type": "JUDUL_YEAR_AND_NUMBER",
+      "text": "NOMOR 14 TAHUN 2008"
+    },
+    {
+      "type": "JUDUL_TENTANG",
+      "text": "TENTANG"
+    },
+    {
+      "type": "JUDUL_TOPIC",
+      "text": "KETERBUKAAN INFORMASI PUBLIK"
+    }
+  ]
+}
