@@ -232,4 +232,23 @@ def is_start_of_any(structures: List[Structure], law: List[str], start_index: in
 
 
 def is_heading(regex: str, string: str) -> bool:
+    """Checks if string matches the pattern regex with only whitespace on either side,
+    which is the format that section headings in law PDFs often come in.
+
+    If you're not familiar w/ regex (i.e regular expressions) see https://regexone.com/
+
+    Args:
+        regex: regex string the string will be checked against e.g 'BAB [0-9]+'
+        string: string to be checked 
+
+    Returns:
+        bool: True if a heading, False otherwise
+
+    Examples:
+        >>> is_heading('BAB [0-9]+', ' BAB 23 ')
+        True
+
+        >>> is_heading('BAB [0-9]+', 'dengan BAB 23 ')
+        False
+    """
     return re.match('^[\s]*' + regex + '[\s]*$', string) != None
