@@ -83,10 +83,10 @@ def ignore_line(line: str) -> bool:
         return True
     elif "www.hukumonline.com" in line:
         return True
-    elif re.match('[0-9]+ \/ [0-9]+', line.rstrip()) != None:
+    elif re.match(r'[0-9]+ \/ [0-9]+', line.rstrip()) != None:
         return True
     # page number
-    elif re.match('- [0-9]+ -', line.rstrip()) != None:
+    elif re.match(r'- [0-9]+ -', line.rstrip()) != None:
         return True
     else:
         return False
@@ -149,11 +149,11 @@ def get_list_index_as_num(list_index_str: str) -> int:
     """
     regex = None
     if is_start_of_number_with_brackets_str(list_index_str):
-        regex = '\(([0-9]+)\)'
+        regex = r'\(([0-9]+)\)'
     elif is_start_of_number_with_dot_str(list_index_str):
-        regex = '([0-9]+)\.'
+        regex = r'([0-9]+)\.'
     elif is_start_of_letter_with_dot_str(list_index_str):
-        regex = '([a-z])\.'
+        regex = r'([a-z])\.'
     else:
         raise Exception('list_index_str is not a list index')
 
