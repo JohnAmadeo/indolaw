@@ -216,7 +216,7 @@ def clean_law(law: List[str]) -> List[str]:
     b) split up list items so that the list index & text block component are separate strings
 
     Args:
-        law: ordered list of strings that represents a law
+        law: ordered list of strings that contain the text of the law we want to parse
 
     Returns:
         List[str]: the initial list of strings after transformations have been applied to it
