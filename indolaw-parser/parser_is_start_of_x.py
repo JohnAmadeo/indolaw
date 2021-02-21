@@ -753,9 +753,16 @@ def is_start_of_list_index(law: List[str], start_index: int) -> bool:
         >>> is_start_of_list_index(law, 4)
         True
     """
-    return is_start_of_letter_with_dot(law, start_index) or \
-        is_start_of_number_with_dot(law, start_index) or \
-        is_start_of_number_with_brackets(law, start_index)
+    return is_start_of_list_index_str(law[start_index])
+
+
+def is_start_of_list_index_str(list_index_str: str) -> bool:
+    """
+    See is_start_of_list_index
+    """
+    return is_start_of_letter_with_dot_str(list_index_str) or \
+        is_start_of_number_with_dot_str(list_index_str) or \
+        is_start_of_number_with_brackets_str(list_index_str)
 
 
 '''

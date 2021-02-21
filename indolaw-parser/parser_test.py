@@ -5,7 +5,9 @@ from parser_utils import (
     get_list_index_type,
     get_list_index_as_num,
     is_next_list_index_number,
-    clean_law
+    clean_law,
+    get_next_list_index,
+    clean_maybe_list_item
 )
 from parser_is_start_of_x import (
     is_heading,
@@ -94,15 +96,22 @@ def test_clean_law():
         '1 / 10',
         'Pasal 1',
         '. . .',
-        'Dalam Undang-Undang in yang dimaksud dengan:',
-        '1. Informasi adalah keterangan',
+        'Dalam Undang-Undang in yang dimaksud dengan makanan enak adalah: 1. martabak;',
+        '2. nasi goreng; 3. bakmie ayam;',
+        '4. soto betawi;',
         '- 2 -',
     ]
     output = [
         'Pasal 1',
-        'Dalam Undang-Undang in yang dimaksud dengan:',
+        'Dalam Undang-Undang in yang dimaksud dengan makanan enak adalah:',
         '1.',
-        'Informasi adalah keterangan',
+        'martabak;',
+        '2.',
+        'nasi goreng;',
+        '3.',
+        'bakmie ayam;',
+        '4.',
+        'soto betawi;'
     ]
     assert clean_law(input) == output
 
@@ -489,3 +498,49 @@ def test_is_start_of_structure():
 
     assert is_start_of_structure(Structure.BAB_NUMBER, law, 0) == True
     assert is_start_of_structure(Structure.UU_TITLE_TOPIC, law, 0) == False
+
+
+def test_get_next_list_index():
+    assert get_next_list_index('1.') == '2.'
+    assert get_next_list_index('(1)') == '(2)'
+    assert get_next_list_index('a.') == 'b.'
+    with pytest.raises(Exception):
+        get_next_list_index('Dengan adanya')
+
+
+def test_clean_maybe_list_item():
+    simple = '(1) Setiap Orang berhak memperoleh Informasi Publik.'
+    assert clean_maybe_list_item(simple) == [
+        '(1)',
+        'Setiap Orang berhak memperoleh Informasi Publik.',
+    ]
+
+    # Adapted from uu-14-2008-keterbukaan-informasi-publik.txt
+    true_positive_squashed = '(1) Setiap Orang berhak dilindungi hak-hak dasar. (2) Hak-hak yang dimaksud termasuk:'
+    assert clean_maybe_list_item(true_positive_squashed) == [
+        '(1)',
+        'Setiap Orang berhak dilindungi hak-hak dasar.',
+        '(2)',
+        'Hak-hak yang dimaksud termasuk:'
+    ]
+
+    # Adapted from uu-14-2008-keterbukaan-informasi-publik.txt
+    false_positive_squashed = '(1) Calon anggota sebagaimana dimaksud dalam Pasal 3 ayat(2) diajukan oleh Presiden.'
+    assert clean_maybe_list_item(false_positive_squashed) == [
+        '(1)',
+        'Calon anggota sebagaimana dimaksud dalam Pasal 3 ayat(2) diajukan oleh Presiden.',
+    ]
+
+    # Adapted from uu-14-2008-keterbukaan-informasi-publik.txt
+    true_positive_squashed_first = 'Informasi yang wajib disediakan adalah: a. asas dan tujuan'
+    assert clean_maybe_list_item(true_positive_squashed_first) == [
+        'Informasi yang wajib disediakan adalah:',
+        'a.',
+        'asas dan tujuan',
+    ]
+
+    # Adapted from uu-14-2008-keterbukaan-informasi-publik.txt
+    false_positive_squashed_first = 'Informasi yang wajib disediakan adalah asas dan tujuan'
+    assert clean_maybe_list_item(false_positive_squashed_first) == [
+        'Informasi yang wajib disediakan adalah asas dan tujuan',
+    ]
