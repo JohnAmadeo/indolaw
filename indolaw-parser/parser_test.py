@@ -1,6 +1,6 @@
 from parser_types import Structure
 from parser_utils import (
-    roman_to_int,
+    get_squashed_list_item, roman_to_int,
     ignore_line,
     get_list_index_type,
     get_list_index_as_num,
@@ -99,6 +99,8 @@ def test_clean_law():
         'Dalam Undang-Undang in yang dimaksud dengan makanan enak adalah: 1. martabak;',
         '2. nasi goreng; 3. bakmie ayam;',
         '4. soto betawi;',
+        '5. ronde jahe; 6. gulai kambing; 7. sup ikan batam;',
+        '(1) Dalam Undang-Undang in yang dimaksud dengan makanan enak adalah: 1. martabak;',
         '- 2 -',
     ]
     output = [
@@ -111,9 +113,24 @@ def test_clean_law():
         '3.',
         'bakmie ayam;',
         '4.',
-        'soto betawi;'
+        'soto betawi;',
+        '5.',
+        'ronde jahe;',
+        '6.',
+        'gulai kambing;',
+        '7.',
+        'sup ikan batam;',
+        '(1)',
+        'Dalam Undang-Undang in yang dimaksud dengan makanan enak adalah:',
+        '1.',
+        'martabak;',
     ]
     assert clean_law(input) == output
+
+
+def test_get_squashed_list_item():
+    assert get_squashed_list_item('nasi goreng; 3. bakmie ayam;') == 12
+    assert get_squashed_list_item('gado-gado; dan/atau j. kue lapis;') == 19
 
 
 def test_is_start_of_first_list_index():

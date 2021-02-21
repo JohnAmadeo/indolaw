@@ -254,7 +254,7 @@ def clean_law(law: List[str]) -> List[str]:
     return new_law
 
 
-def clean_maybe_list_item(dirty_line: str) -> List[str]:
+def clean_maybe_list_item(line: str) -> List[str]:
     """There are 2 transformations that we apply to clean lines that may have list items
     in the form that the parsing algorithm receives as a .txt
 
@@ -269,81 +269,66 @@ def clean_maybe_list_item(dirty_line: str) -> List[str]:
 
     b)
     The law .txt that is fed into this program is usually converted from the original
-    PDF. This conversion process is generally not perfect, so often what should be 2
+    PDF. This conversion process is generally not perfect, so often what should be 2 (or more!)
     separate lines end up as a single line.
 
     e.g '(1) Setiap Orang berhak dilindungi hak-hak dasar. (2) Hak-hak yang dimaksud termasuk:'
-    ^ Normally, item (1) and (2) would be on separate lines.
-
-    e.g Informasi Publik yang wajib disediakan oleh partai politik dalam Undang-Undang ini adalah: a. asas dan tujuan;
-    ^ Normally, the text before 'a.' would be its own line, and then 'a. asas dan tujuan;' would
-    be its own line
+    e.g Informasi Publik yang wajib disediakan adalah: a. asas dan tujuan;
 
     We want to fix these "squashed" lines to ensure the core parsing algorithm later on can
     assume the list of strings passed to it is correct (e.g every string truly represents
     a distinct line)
 
     Args:
-        dirty_line: a line from the .txt the the parsing algorithm receives as input which 
+        line: a line from the .txt the the parsing algorithm receives as input which
         may contain a list item
 
     Returns:
-        List[str]: a list of strings whose content is basically dirty_line split apart by
+        List[str]: a list of strings whose content is basically the line argument split apart by
         the transformations described above have been mode
 
     Examples:
     """
-    if is_start_of_list_index_str(dirty_line.split()[0]):
-        '''Split line per a) above'''
-        line_split = dirty_line.split()
-
-        list_index = line_split[0]
-        content = ' '.join(line_split[1:])
-
-        next_list_index = get_next_list_index(list_index)
-
-        '''
-        Fix potential squashed list item per line b) above for list items that are not 
-        the first in the list i.e NOT 'a.', '1.', and '(1)'
-        '''
-        is_squashed_list_item = f'. {next_list_index}' in content or \
-            f'; {next_list_index}' in content or \
-            f': {next_list_index}' in content
-
-        if not is_squashed_list_item:
-            return [list_index, content]
-
-        content_split = content.split(next_list_index)
-        content = content_split[0].strip()
-        next_content = ' '.join(content_split[1:]).strip()
-
+    line_split = line.split()
+    if is_start_of_list_index_str(line_split[0]):
         return [
-            list_index,
-            content,
-            next_list_index,
-            next_content
+            line_split[0],
+            *clean_maybe_list_item(' '.join(line_split[1:]))
         ]
-    else:
-        '''
-        Fix potential squashed list item per line b) above for list items that are
-        the first in the list i.e 'a.', '1.', and '(1)'
-        '''
-        if ': a.' in dirty_line:
-            list_index = 'a.'
-        elif ': 1.' in dirty_line:
-            list_index = '1.'
-        elif ': (1)' in dirty_line:
-            list_index = '(1)'
-        else:
-            return [dirty_line]  # No squashed list item found
 
-        line_split = dirty_line.split(list_index)
-
+    end_index = get_squashed_list_item(line)
+    if end_index != None:
         return [
-            line_split[0].strip(),
-            list_index,
-            ' '.join(line_split[1:]).strip()
+            line[:end_index],
+            *clean_maybe_list_item(line[end_index+1:]),
         ]
+
+    return [line]
+
+
+def get_squashed_list_item(line):
+    '''
+    Find if line contains a squashed list item.
+
+    Args:
+        line: a line from the .txt the the parsing algorithm receives as input which
+        may contain a list item
+
+    Returns:
+        Optional[int]: if line contains a list item, return the index at which the 
+        squashed list item starts
+
+    Examples:
+        >>> get_squashed_list_item('nasi goreng; 3. bakmie ayam;')
+        12
+    '''
+    line_ending_regex = [r';', r':', r'\.', r'; dan/atau']
+    list_index_regex = [r'[a-z]\.', r'[0-9]+\.', r'\([0-9]+\)']
+    for i in line_ending_regex:
+        for j in list_index_regex:
+            if re.search(i + r' ' + j, line) != None:
+                return re.search(i, line).end(0)
+    return None
 
 
 def get_next_list_index(list_index: str) -> str:
