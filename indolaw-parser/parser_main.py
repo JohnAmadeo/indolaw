@@ -66,6 +66,9 @@ def parse_structure(
 
 # Convenience wrapper for parse_primitive that doesn't return the end index
 def simple_parse_primitive(structure: Structure, law: List[str], start_index: int) -> Primitive:
+    """Convenience wrapper for parse_primitive that doesn't return the end index. 
+    See parse_primitive for more.
+    """
     parsed_primitive, _ = parse_primitive(structure, law, start_index)
     return parsed_primitive
 
@@ -488,8 +491,6 @@ def parse_list(law: List[str], start_index: int) -> Tuple[Complex, int]:
 
             i.e if the last list item's number is 10. and the current list item's number is 12. 
             or 5., the current list item is clearly not part of this list
-
-            TODO(johnamadeo): Need to handle alphanumeric progression 24a. -> 24b.
             
             However, if the current list item's number is 1 larger than the last list item's number 
             (i.e a. -> b. OR (7) -> (8) OR 10. -> 11.) THERE IS NO 100% WAY to distinguish whether 
