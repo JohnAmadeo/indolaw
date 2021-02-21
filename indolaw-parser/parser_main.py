@@ -15,6 +15,7 @@ from parser_is_start_of_x import (
     is_start_of_any,
     is_start_of_plaintext,
     is_start_of_list,
+    is_start_of_list_item,
     is_start_of_letter_with_dot,
     is_start_of_number_with_dot,
     is_start_of_number_with_brackets,
@@ -24,7 +25,8 @@ from parser_utils import (
     node,
     get_list_index_type,
     is_next_list_index_number,
-    clean_law
+    clean_law,
+    print_debug
 )
 
 '''
@@ -73,6 +75,32 @@ def parse_primitive(
     law: List[str],
     start_index: int,
 ) -> Tuple[Primitive, int]:
+    """Create a primitive structure. See the type definition of the Primitive structure for more. 
+
+    Args:
+        structure: the structure enum we want to assign to the primitive structure created
+        law: ordered list of strings that contain the text of the law we want to parse
+        start_index: law[start_index] is the text of the primitive structure created
+
+    Returns:
+        Primitive: the initial list of strings after transformations have been applied to it
+        int: just start_index; 
+
+    Examples:
+        >>> clean_law(law = [
+        ...     '1 / 10',
+        ...     'Pasal 1',
+        ...     '. . .',
+        ...     'Dalam Undang-Undang in yang dimaksud dengan:',
+        ...     '1. Informasi adalah keterangan',
+        ... ])
+        [
+            'Pasal 1',
+            'Dalam Undang-Undang in yang dimaksud dengan:',
+            '1.',
+            'Informasi adalah keterangan',
+        ]
+    """
     return Primitive(
         type=structure.value,
         text=law[start_index].rstrip()
@@ -142,8 +170,9 @@ def parse_complex_structure(
                 break
 
         if child_structure == None:
+            print_debug(law, start_index)
             raise Exception(
-                'Unable to detect the right structure for line: ' + law[start_index])
+                f'''Unable to detect the right structure for line: {law[start_index]}''')
 
         assert child_structure is not None  # mypy type hint
         parsed_sub_structure, end_index = parse_structure(
@@ -228,7 +257,6 @@ def parse_uu_title(law: List[str], start_index: int) -> Tuple[Complex, int]:
             simple_parse_primitive(
                 Structure.UU_TITLE_TOPIC, law, start_index+3),
         ],
-        'judul',
     ), start_index+3
 
 
@@ -530,7 +558,8 @@ def parse_list_item(law: List[str], start_index: int) -> Tuple[Complex, int]:
     ]
 
     '''
-    From the 3rd line onwards, the child will either be a plaintext or a nested list
+    the 3rd line is either a nested list that is the child of this list item,
+    or it marks the start of a sibling or ancestor structure
     '''
     non_recursive_ancestors = [Structure.PASAL, Structure.PARAGRAF,
                                Structure.BAGIAN, Structure.BAB,
@@ -558,13 +587,11 @@ def parse_list_item(law: List[str], start_index: int) -> Tuple[Complex, int]:
         if start_of_non_recursive_ancestors:
             return node(structure, children_list), end_index
 
-        '''
-        A LIST ITEM's child can be a PLAINTEXT or a nested LIST
-        '''
         child_structure = None
+        # TODO(johnamadeo): see pg 17 Omnibus Law for embedded pasal problem
         if is_start_of_plaintext(law, start_index):
             child_structure = Structure.PLAINTEXT
-        elif is_start_of_list(law, start_index):
+        elif is_start_of_list_item(law, start_index):
             '''
             Need to decide if the list is a sibling, ancestor or child list. 
 
