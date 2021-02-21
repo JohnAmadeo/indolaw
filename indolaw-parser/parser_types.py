@@ -4,6 +4,51 @@ from typing import List, Optional, Union
 from typing_extensions import TypedDict
 
 
+'''
+A Primitive structure is a structure whose content is a string, as opposed to a
+list of other structures. 
+
+If we look at the tree of structures that define a law, all
+the leaf nodes of the law tree are Primitive structures, and all Primitive structures can
+only be found as leafs.
+
+e.g {
+    'type': 'BAB_NUMBER',
+    'text': 'BAB XIV'
+}
+'''
+Primitive = TypedDict('Primitive', {'type': str, 'text': str})
+
+'''
+A Complex structure is a structure whose content is a list of other structures, as opposed
+to a string.
+
+If we look at the tree of structures that define a law, all the non-leaf nodes of the law tree 
+are Complex structures.
+
+e.g {
+    'type': 'BAB',
+    'id': 'bab-3',
+    'children': [
+        { type: 'BAB_NUMBER', ... },
+        { type: 'BAB_TITLE', ... },
+        { type: 'PASAL', ... },
+    ]
+}
+'''
+Complex = TypedDict(
+    'Complex', {
+        'type': str,
+        # unique ID that we leverage to create HTML links to specific sections
+        # e.g hukumjelas.com/uu/keimigrasian#pasal-4
+        'id': Optional[str],
+        # Python has trouble with recursive types (i.e the classic CS tree data structure)
+        # https://www.python.org/dev/peps/pep-0484/#the-problem-of-forward-declarations
+        'children': List[Union[Primitive, 'Complex']]  # type: ignore
+    }
+)
+
+
 class Structure(Enum):
     # END = "End"
     # SKIP = "Skip"
@@ -38,8 +83,9 @@ class Structure(Enum):
 
 TEXT_BLOCK_STRUCTURES = [Structure.PLAINTEXT, Structure.LIST]
 
-# Structures that do not have child structures,
-# and resolve to either a regex or just any unstructured text
+'''
+The list of types that a Primitive structure can be
+'''
 PRIMITIVE_STRUCTURES = [
     Structure.PLAINTEXT,
     Structure.BAB_NUMBER,
@@ -53,11 +99,3 @@ PRIMITIVE_STRUCTURES = [
 
 LIST_INDEX_STRUCTURES = [Structure.NUMBER_WITH_BRACKETS,
                          Structure.NUMBER_WITH_DOT, Structure.LETTER_WITH_DOT]
-
-Primitive = TypedDict('Primitive', {'type': str, 'text': str})
-
-# Python has trouble with recursive types e.g in this case we want to use the Complex type in the definition
-# of the Complex type itself (i.e the classic CS tree data structure)
-# https://www.python.org/dev/peps/pep-0484/#the-problem-of-forward-declarations
-Complex = TypedDict('Complex', {
-                    'type': str, 'id': Optional[str], 'children': List[Union[Primitive, 'Complex']]})  # type: ignore
