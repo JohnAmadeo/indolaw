@@ -326,7 +326,7 @@ def get_next_list_index(list_index: str) -> str:
             f'{list_index_type} is not a list index Structure type')
 
 
-def print_debug(law: List[str], i: int) -> None:
+def print_around(law: List[str], i: int) -> None:
     """Prints law[start_index] and the lines right before & after it. Usually
     called before throwing an exception to provide more context. 
 
@@ -338,21 +338,14 @@ def print_debug(law: List[str], i: int) -> None:
 
     Examples:
     """
-    if i > 0:
-        print(f'''
+    print(f'''
+Below are lines {i} and the lines right before & after
 --------------
-{law[i-1]}
+{law[i-1] if i > 0 else ''}
 {law[i]}
 {law[i+1]}
 --------------
-        ''')
-    else:
-        print(f'''
---------------
-{law[i]}
-{law[i+1]}
---------------
-        ''')
+    ''')
 
 
 def convert_tree_to_json(node: Union[ComplexNode, PrimitiveNode]) -> Dict[str, Any]:
@@ -362,7 +355,6 @@ def convert_tree_to_json(node: Union[ComplexNode, PrimitiveNode]) -> Dict[str, A
             'text': node.text,
         }
     else:
-        node
         return {
             'type': node.type.value,
             'id': node.id,

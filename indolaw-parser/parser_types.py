@@ -70,11 +70,12 @@ class PrimitiveNode:
         'text': 'BAB XIV'
     }
     '''
-    parent: Union[None, 'ComplexNode'] = None
 
     def __init__(self, type: Structure, text: str) -> None:
         self.type = type
         self.text = text
+        self.parent: Union[None, 'ComplexNode'] = None
+        self.id = ''
 
 
 class ComplexNode:
@@ -95,37 +96,29 @@ class ComplexNode:
         ]
     }
     """
-    parent: Union['ComplexNode', None] = None
-    children: List[Union[PrimitiveNode, 'ComplexNode']] = []
-    id: str = ''
 
     def __init__(
         self,
         type: Structure,
-        children: List[Union[PrimitiveNode, 'ComplexNode']],
     ) -> None:
         self.type = type
+        self.children: List[Union[PrimitiveNode, 'ComplexNode']] = []
+        self.parent: Union[None, 'ComplexNode'] = None
+        self.id = ''
 
-        # set children & parents
-        self.children = children
-        for child in self.children:
-            child.parent = self
+    def pprint(self):
+        print(
+            f'''
+----------
+type: {self.type.value}
+children: {[child.type.value for child in self.children]}
+----------
+            '''
+        )
 
-        # set id
-        if self.type == Structure.BAB:
-            bab_number_node = self.children[0]
-            assert isinstance(bab_number_node, PrimitiveNode)
-
-            bab_number_roman = bab_number_node.text.split()[1]
-            # TODO(johnamadeo): causing a cyclic import
-            bab_number_int = self.roman_to_int(bab_number_roman)
-            self.id = f'bab-{str(bab_number_int)}'
-
-        elif self.type == Structure.PASAL:
-            pasal_number_node = self.children[0]
-            assert isinstance(pasal_number_node, PrimitiveNode)
-
-            self.id = f'pasal-{pasal_number_node.text.split()[1]}'
+    def add_child(self, child: Union[PrimitiveNode, 'ComplexNode']):
+        self.children.append(child)
+        child.parent = self
 
     '''
     This cannot be put in parser_utils because parser_utils also needs to import 

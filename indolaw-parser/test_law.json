@@ -180,7 +180,7 @@
     },
     {
       "type": "BAB",
-      "id": "bab-1",
+      "id": "",
       "children": [
         {
           "type": "BAB_NUMBER",
@@ -192,7 +192,7 @@
         },
         {
           "type": "PASAL",
-          "id": "pasal-1",
+          "id": "",
           "children": [
             {
               "type": "PASAL_NUMBER",
@@ -382,7 +382,7 @@
     },
     {
       "type": "BAB",
-      "id": "bab-2",
+      "id": "",
       "children": [
         {
           "type": "BAB_NUMBER",
@@ -406,7 +406,7 @@
             },
             {
               "type": "PASAL",
-              "id": "pasal-2",
+              "id": "",
               "children": [
                 {
                   "type": "PASAL_NUMBER",
@@ -492,7 +492,7 @@
             },
             {
               "type": "PASAL",
-              "id": "pasal-3",
+              "id": "",
               "children": [
                 {
                   "type": "PASAL_NUMBER",
@@ -614,7 +614,7 @@
     },
     {
       "type": "BAB",
-      "id": "bab-3",
+      "id": "",
       "children": [
         {
           "type": "BAB_NUMBER",
@@ -638,7 +638,7 @@
             },
             {
               "type": "PASAL",
-              "id": "pasal-4",
+              "id": "",
               "children": [
                 {
                   "type": "PASAL_NUMBER",
@@ -786,7 +786,7 @@
             },
             {
               "type": "PASAL",
-              "id": "pasal-5",
+              "id": "",
               "children": [
                 {
                   "type": "PASAL_NUMBER",
@@ -844,7 +844,7 @@
             },
             {
               "type": "PASAL",
-              "id": "pasal-6",
+              "id": "",
               "children": [
                 {
                   "type": "PASAL_NUMBER",
@@ -992,7 +992,7 @@
             },
             {
               "type": "PASAL",
-              "id": "pasal-7",
+              "id": "",
               "children": [
                 {
                   "type": "PASAL_NUMBER",
@@ -1096,7 +1096,7 @@
             },
             {
               "type": "PASAL",
-              "id": "pasal-8",
+              "id": "",
               "children": [
                 {
                   "type": "PASAL_NUMBER",
@@ -1114,7 +1114,7 @@
     },
     {
       "type": "BAB",
-      "id": "bab-4",
+      "id": "",
       "children": [
         {
           "type": "BAB_NUMBER",
@@ -1138,7 +1138,7 @@
             },
             {
               "type": "PASAL",
-              "id": "pasal-9",
+              "id": "",
               "children": [
                 {
                   "type": "PASAL_NUMBER",
@@ -1314,7 +1314,7 @@
             },
             {
               "type": "PASAL",
-              "id": "pasal-10",
+              "id": "",
               "children": [
                 {
                   "type": "PASAL_NUMBER",
@@ -1372,7 +1372,7 @@
             },
             {
               "type": "PASAL",
-              "id": "pasal-11",
+              "id": "",
               "children": [
                 {
                   "type": "PASAL_NUMBER",
@@ -1548,7 +1548,7 @@
             },
             {
               "type": "PASAL",
-              "id": "pasal-12",
+              "id": "",
               "children": [
                 {
                   "type": "PASAL_NUMBER",
@@ -1624,7 +1624,7 @@
             },
             {
               "type": "PASAL",
-              "id": "pasal-13",
+              "id": "",
               "children": [
                 {
                   "type": "PASAL_NUMBER",
@@ -1702,7 +1702,7 @@
             },
             {
               "type": "PASAL",
-              "id": "pasal-14",
+              "id": "",
               "children": [
                 {
                   "type": "PASAL_NUMBER",
@@ -1918,7 +1918,7 @@
             },
             {
               "type": "PASAL",
-              "id": "pasal-15",
+              "id": "",
               "children": [
                 {
                   "type": "PASAL_NUMBER",
@@ -2036,7 +2036,7 @@
             },
             {
               "type": "PASAL",
-              "id": "pasal-16",
+              "id": "",
               "children": [
                 {
                   "type": "PASAL_NUMBER",
@@ -2158,7 +2158,7 @@
     },
     {
       "type": "BAB",
-      "id": "bab-5",
+      "id": "",
       "children": [
         {
           "type": "BAB_NUMBER",
@@ -2170,7 +2170,7 @@
         },
         {
           "type": "PASAL",
-          "id": "pasal-17",
+          "id": "",
           "children": [
             {
               "type": "PASAL_NUMBER",
@@ -2756,7 +2756,7 @@
         },
         {
           "type": "PASAL",
-          "id": "pasal-18",
+          "id": "",
           "children": [
             {
               "type": "PASAL_NUMBER",
@@ -3008,7 +3008,7 @@
         },
         {
           "type": "PASAL",
-          "id": "pasal-19",
+          "id": "",
           "children": [
             {
               "type": "PASAL_NUMBER",
@@ -3022,7 +3022,7 @@
         },
         {
           "type": "PASAL",
-          "id": "pasal-20",
+          "id": "",
           "children": [
             {
               "type": "PASAL_NUMBER",
@@ -3068,7 +3068,7 @@
     },
     {
       "type": "BAB",
-      "id": "bab-6",
+      "id": "",
       "children": [
         {
           "type": "BAB_NUMBER",
@@ -3080,7 +3080,7 @@
         },
         {
           "type": "PASAL",
-          "id": "pasal-21",
+          "id": "",
           "children": [
             {
               "type": "PASAL_NUMBER",
@@ -3094,7 +3094,7 @@
         },
         {
           "type": "PASAL",
-          "id": "pasal-22",
+          "id": "",
           "children": [
             {
               "type": "PASAL_NUMBER",
@@ -3342,7 +3342,7 @@
     },
     {
       "type": "BAB",
-      "id": "bab-7",
+      "id": "",
       "children": [
         {
           "type": "BAB_NUMBER",
@@ -3366,7 +3366,7 @@
             },
             {
               "type": "PASAL",
-              "id": "pasal-23",
+              "id": "",
               "children": [
                 {
                   "type": "PASAL_NUMBER",
@@ -3394,7 +3394,7 @@
             },
             {
               "type": "PASAL",
-              "id": "pasal-24",
+              "id": "",
               "children": [
                 {
                   "type": "PASAL_NUMBER",
@@ -3466,7 +3466,7 @@
             },
             {
               "type": "PASAL",
-              "id": "pasal-25",
+              "id": "",
               "children": [
                 {
                   "type": "PASAL_NUMBER",
@@ -3570,7 +3570,7 @@
             },
             {
               "type": "PASAL",
-              "id": "pasal-26",
+              "id": "",
               "children": [
                 {
                   "type": "PASAL_NUMBER",
@@ -3738,7 +3738,7 @@
             },
             {
               "type": "PASAL",
-              "id": "pasal-27",
+              "id": "",
               "children": [
                 {
                   "type": "PASAL_NUMBER",
@@ -3904,7 +3904,7 @@
             },
             {
               "type": "PASAL",
-              "id": "pasal-28",
+              "id": "",
               "children": [
                 {
                   "type": "PASAL_NUMBER",
@@ -3990,7 +3990,7 @@
             },
             {
               "type": "PASAL",
-              "id": "pasal-29",
+              "id": "",
               "children": [
                 {
                   "type": "PASAL_NUMBER",
@@ -4104,7 +4104,7 @@
             },
             {
               "type": "PASAL",
-              "id": "pasal-30",
+              "id": "",
               "children": [
                 {
                   "type": "PASAL_NUMBER",
@@ -4308,7 +4308,7 @@
             },
             {
               "type": "PASAL",
-              "id": "pasal-31",
+              "id": "",
               "children": [
                 {
                   "type": "PASAL_NUMBER",
@@ -4366,7 +4366,7 @@
             },
             {
               "type": "PASAL",
-              "id": "pasal-32",
+              "id": "",
               "children": [
                 {
                   "type": "PASAL_NUMBER",
@@ -4424,7 +4424,7 @@
             },
             {
               "type": "PASAL",
-              "id": "pasal-33",
+              "id": "",
               "children": [
                 {
                   "type": "PASAL_NUMBER",
@@ -4438,7 +4438,7 @@
             },
             {
               "type": "PASAL",
-              "id": "pasal-34",
+              "id": "",
               "children": [
                 {
                   "type": "PASAL_NUMBER",
@@ -4618,7 +4618,7 @@
     },
     {
       "type": "BAB",
-      "id": "bab-8",
+      "id": "",
       "children": [
         {
           "type": "BAB_NUMBER",
@@ -4642,7 +4642,7 @@
             },
             {
               "type": "PASAL",
-              "id": "pasal-35",
+              "id": "",
               "children": [
                 {
                   "type": "PASAL_NUMBER",
@@ -4794,7 +4794,7 @@
             },
             {
               "type": "PASAL",
-              "id": "pasal-36",
+              "id": "",
               "children": [
                 {
                   "type": "PASAL_NUMBER",
@@ -4866,7 +4866,7 @@
             },
             {
               "type": "PASAL",
-              "id": "pasal-37",
+              "id": "",
               "children": [
                 {
                   "type": "PASAL_NUMBER",
@@ -4910,7 +4910,7 @@
             },
             {
               "type": "PASAL",
-              "id": "pasal-38",
+              "id": "",
               "children": [
                 {
                   "type": "PASAL_NUMBER",
@@ -4954,7 +4954,7 @@
             },
             {
               "type": "PASAL",
-              "id": "pasal-39",
+              "id": "",
               "children": [
                 {
                   "type": "PASAL_NUMBER",
@@ -4972,7 +4972,7 @@
     },
     {
       "type": "BAB",
-      "id": "bab-9",
+      "id": "",
       "children": [
         {
           "type": "BAB_NUMBER",
@@ -4996,7 +4996,7 @@
             },
             {
               "type": "PASAL",
-              "id": "pasal-40",
+              "id": "",
               "children": [
                 {
                   "type": "PASAL_NUMBER",
@@ -5054,7 +5054,7 @@
             },
             {
               "type": "PASAL",
-              "id": "pasal-41",
+              "id": "",
               "children": [
                 {
                   "type": "PASAL_NUMBER",
@@ -5082,7 +5082,7 @@
             },
             {
               "type": "PASAL",
-              "id": "pasal-42",
+              "id": "",
               "children": [
                 {
                   "type": "PASAL_NUMBER",
@@ -5096,7 +5096,7 @@
             },
             {
               "type": "PASAL",
-              "id": "pasal-43",
+              "id": "",
               "children": [
                 {
                   "type": "PASAL_NUMBER",
@@ -5182,7 +5182,7 @@
             },
             {
               "type": "PASAL",
-              "id": "pasal-44",
+              "id": "",
               "children": [
                 {
                   "type": "PASAL_NUMBER",
@@ -5268,7 +5268,7 @@
             },
             {
               "type": "PASAL",
-              "id": "pasal-45",
+              "id": "",
               "children": [
                 {
                   "type": "PASAL_NUMBER",
@@ -5326,7 +5326,7 @@
             },
             {
               "type": "PASAL",
-              "id": "pasal-46",
+              "id": "",
               "children": [
                 {
                   "type": "PASAL_NUMBER",
@@ -5498,7 +5498,7 @@
     },
     {
       "type": "BAB",
-      "id": "bab-10",
+      "id": "",
       "children": [
         {
           "type": "BAB_NUMBER",
@@ -5522,7 +5522,7 @@
             },
             {
               "type": "PASAL",
-              "id": "pasal-47",
+              "id": "",
               "children": [
                 {
                   "type": "PASAL_NUMBER",
@@ -5566,7 +5566,7 @@
             },
             {
               "type": "PASAL",
-              "id": "pasal-48",
+              "id": "",
               "children": [
                 {
                   "type": "PASAL_NUMBER",
@@ -5610,7 +5610,7 @@
             },
             {
               "type": "PASAL",
-              "id": "pasal-49",
+              "id": "",
               "children": [
                 {
                   "type": "PASAL_NUMBER",
@@ -5836,7 +5836,7 @@
             },
             {
               "type": "PASAL",
-              "id": "pasal-50",
+              "id": "",
               "children": [
                 {
                   "type": "PASAL_NUMBER",
@@ -5854,7 +5854,7 @@
     },
     {
       "type": "BAB",
-      "id": "bab-11",
+      "id": "",
       "children": [
         {
           "type": "BAB_NUMBER",
@@ -5866,7 +5866,7 @@
         },
         {
           "type": "PASAL",
-          "id": "pasal-51",
+          "id": "",
           "children": [
             {
               "type": "PASAL_NUMBER",
@@ -5880,7 +5880,7 @@
         },
         {
           "type": "PASAL",
-          "id": "pasal-52",
+          "id": "",
           "children": [
             {
               "type": "PASAL_NUMBER",
@@ -5894,7 +5894,7 @@
         },
         {
           "type": "PASAL",
-          "id": "pasal-53",
+          "id": "",
           "children": [
             {
               "type": "PASAL_NUMBER",
@@ -5908,7 +5908,7 @@
         },
         {
           "type": "PASAL",
-          "id": "pasal-54",
+          "id": "",
           "children": [
             {
               "type": "PASAL_NUMBER",
@@ -5956,7 +5956,7 @@
         },
         {
           "type": "PASAL",
-          "id": "pasal-55",
+          "id": "",
           "children": [
             {
               "type": "PASAL_NUMBER",
@@ -5970,7 +5970,7 @@
         },
         {
           "type": "PASAL",
-          "id": "pasal-56",
+          "id": "",
           "children": [
             {
               "type": "PASAL_NUMBER",
@@ -5984,7 +5984,7 @@
         },
         {
           "type": "PASAL",
-          "id": "pasal-57",
+          "id": "",
           "children": [
             {
               "type": "PASAL_NUMBER",
@@ -6000,7 +6000,7 @@
     },
     {
       "type": "BAB",
-      "id": "bab-12",
+      "id": "",
       "children": [
         {
           "type": "BAB_NUMBER",
@@ -6012,7 +6012,7 @@
         },
         {
           "type": "PASAL",
-          "id": "pasal-58",
+          "id": "",
           "children": [
             {
               "type": "PASAL_NUMBER",
@@ -6028,7 +6028,7 @@
     },
     {
       "type": "BAB",
-      "id": "bab-13",
+      "id": "",
       "children": [
         {
           "type": "BAB_NUMBER",
@@ -6040,7 +6040,7 @@
         },
         {
           "type": "PASAL",
-          "id": "pasal-59",
+          "id": "",
           "children": [
             {
               "type": "PASAL_NUMBER",
@@ -6054,7 +6054,7 @@
         },
         {
           "type": "PASAL",
-          "id": "pasal-60",
+          "id": "",
           "children": [
             {
               "type": "PASAL_NUMBER",
@@ -6068,7 +6068,7 @@
         },
         {
           "type": "PASAL",
-          "id": "pasal-61",
+          "id": "",
           "children": [
             {
               "type": "PASAL_NUMBER",
@@ -6082,7 +6082,7 @@
         },
         {
           "type": "PASAL",
-          "id": "pasal-62",
+          "id": "",
           "children": [
             {
               "type": "PASAL_NUMBER",
@@ -6098,7 +6098,7 @@
     },
     {
       "type": "BAB",
-      "id": "bab-14",
+      "id": "",
       "children": [
         {
           "type": "BAB_NUMBER",
@@ -6110,7 +6110,7 @@
         },
         {
           "type": "PASAL",
-          "id": "pasal-63",
+          "id": "",
           "children": [
             {
               "type": "PASAL_NUMBER",
@@ -6124,7 +6124,7 @@
         },
         {
           "type": "PASAL",
-          "id": "pasal-64",
+          "id": "",
           "children": [
             {
               "type": "PASAL_NUMBER",
