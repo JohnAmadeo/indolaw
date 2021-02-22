@@ -1,6 +1,6 @@
-from parser_types import Structure
+from parser_types import Structure, ComplexNode
 from parser_utils import (
-    get_squashed_list_item, roman_to_int,
+    get_squashed_list_item,
     ignore_line,
     get_list_index_type,
     get_list_index_as_num,
@@ -48,9 +48,9 @@ import pytest
 
 
 def test_roman_to_int():
-    assert roman_to_int('VI') == 6
-    assert roman_to_int('XXI') == 21
-    assert roman_to_int('LIV') == 54
+    assert ComplexNode.roman_to_int('VI') == 6
+    assert ComplexNode.roman_to_int('XXI') == 21
+    assert ComplexNode.roman_to_int('LIV') == 54
 
 
 def test_is_heading():

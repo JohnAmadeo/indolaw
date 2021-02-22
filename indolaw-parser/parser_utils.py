@@ -1,61 +1,20 @@
-from typing import List, Optional, Tuple, Union
+from typing import Any, Dict, List, Optional, Union
 from itertools import filterfalse
 import re
 
 from parser_types import (
+    ComplexNode,
+    PrimitiveNode,
     Structure,
-    Primitive,
-    Complex,
     LIST_INDEX_STRUCTURES,
 )
 from parser_is_start_of_x import (
-    is_start_of_list_item, is_start_of_number_with_brackets_str,
+    is_start_of_number_with_brackets_str,
     is_start_of_number_with_dot_str,
     is_start_of_letter_with_dot_str,
     is_start_of_first_list_index,
-    is_start_of_list_index,
     is_start_of_list_index_str
 )
-
-
-def roman_to_int(roman_numeral: str) -> int:
-    """Converts string of a roman numeral to the integer the roman numeral represents
-    Logic taken from https://www.w3resource.com/python-exercises/class-exercises/python-class-exercise-2.php
-
-    Args:
-        roman_numeral: a string of a roman numeral e.g 'VI', 'LIV'
-
-    Returns:
-        int: the integer value of roman_numeral e.g 6, 54
-
-    Examples:
-        >>> roman_to_int('IV')
-        4
-    """
-    roman_values = {'I': 1, 'V': 5, 'X': 10,
-                    'L': 50, 'C': 100, 'D': 500, 'M': 1000}
-    integer = 0
-    for i in range(len(roman_numeral)):
-        if i > 0 and roman_values[roman_numeral[i]] > roman_values[roman_numeral[i - 1]]:
-            integer += roman_values[roman_numeral[i]] - \
-                2 * roman_values[roman_numeral[i - 1]]
-        else:
-            integer += roman_values[roman_numeral[i]]
-    return integer
-
-
-def node(
-    structure: Structure,
-    children_list: List[Union[Primitive, Complex]],
-    id: Optional[str] = '',
-) -> Complex:
-    # TODO(johnamadeo): This is just a placeholder for what should eventually become a proper Class constructor
-    return {
-        'type': structure.value,
-        # this is to create a unique ID that can be used for HTML links
-        'id': id,
-        'children': children_list,
-    }
 
 
 def ignore_line(line: str) -> bool:
@@ -394,3 +353,18 @@ def print_debug(law: List[str], i: int) -> None:
 {law[i+1]}
 --------------
         ''')
+
+
+def convert_tree_to_json(node: Union[ComplexNode, PrimitiveNode]) -> Dict[str, Any]:
+    if isinstance(node, PrimitiveNode):
+        return {
+            'type': node.type.value,
+            'text': node.text,
+        }
+    else:
+        node
+        return {
+            'type': node.type.value,
+            'id': node.id,
+            'children': [convert_tree_to_json(child) for child in node.children],
+        }
