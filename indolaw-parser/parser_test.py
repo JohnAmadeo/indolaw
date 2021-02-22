@@ -7,6 +7,7 @@ from parser_utils import (
     is_next_list_index_number,
     clean_law,
     get_next_list_index,
+    roman_to_int,
     clean_maybe_list_item
 )
 from parser_is_start_of_x import (
@@ -48,9 +49,9 @@ import pytest
 
 
 def test_roman_to_int():
-    assert ComplexNode.roman_to_int('VI') == 6
-    assert ComplexNode.roman_to_int('XXI') == 21
-    assert ComplexNode.roman_to_int('LIV') == 54
+    assert roman_to_int('VI') == 6
+    assert roman_to_int('XXI') == 21
+    assert roman_to_int('LIV') == 54
 
 
 def test_is_heading():

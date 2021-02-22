@@ -106,46 +106,6 @@ class ComplexNode:
         self.parent: Union[None, 'ComplexNode'] = None
         self.id = ''
 
-    def pprint(self):
-        print(
-            f'''
-----------
-type: {self.type.value}
-children: {[child.type.value for child in self.children]}
-----------
-            '''
-        )
-
     def add_child(self, child: Union[PrimitiveNode, 'ComplexNode']):
         self.children.append(child)
         child.parent = self
-
-    '''
-    This cannot be put in parser_utils because parser_utils also needs to import 
-    from parser_types, which would cause a cyclic import problem
-    '''
-    @staticmethod
-    def roman_to_int(roman_numeral: str) -> int:
-        """Converts string of a roman numeral to the integer the roman numeral represents
-        Logic taken from https://www.w3resource.com/python-exercises/class-exercises/python-class-exercise-2.php
-
-        Args:
-            roman_numeral: a string of a roman numeral e.g 'VI', 'LIV'
-
-        Returns:
-            int: the integer value of roman_numeral e.g 6, 54
-
-        Examples:
-            >>> roman_to_int('IV')
-            4
-        """
-        roman_values = {'I': 1, 'V': 5, 'X': 10,
-                        'L': 50, 'C': 100, 'D': 500, 'M': 1000}
-        integer = 0
-        for i in range(len(roman_numeral)):
-            if i > 0 and roman_values[roman_numeral[i]] > roman_values[roman_numeral[i - 1]]:
-                integer += roman_values[roman_numeral[i]] - \
-                    2 * roman_values[roman_numeral[i - 1]]
-            else:
-                integer += roman_values[roman_numeral[i]]
-        return integer

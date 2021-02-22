@@ -274,7 +274,7 @@ def get_squashed_list_item(line):
         may contain a list item
 
     Returns:
-        Optional[int]: if line contains a list item, return the index at which the 
+        Optional[int]: if line contains a list item, return the index at which the
         squashed list item starts
 
     Examples:
@@ -328,11 +328,11 @@ def get_next_list_index(list_index: str) -> str:
 
 def print_around(law: List[str], i: int) -> None:
     """Prints law[start_index] and the lines right before & after it. Usually
-    called before throwing an exception to provide more context. 
+    called before throwing an exception to provide more context.
 
     Args:
         law: ordered list of strings that contain the text of the law we want to parse
-        i: 
+        i:
 
     Returns:
 
@@ -357,6 +357,98 @@ def convert_tree_to_json(node: Union[ComplexNode, PrimitiveNode]) -> Dict[str, A
     else:
         return {
             'type': node.type.value,
-            'id': node.id,
+            'id': get_id(node),
             'children': [convert_tree_to_json(child) for child in node.children],
         }
+
+
+def roman_to_int(roman_numeral: str) -> int:
+    """Converts string of a roman numeral to the integer the roman numeral represents
+    Logic taken from https://www.w3resource.com/python-exercises/class-exercises/python-class-exercise-2.php
+
+    Args:
+        roman_numeral: a string of a roman numeral e.g 'VI', 'LIV'
+
+    Returns:
+        int: the integer value of roman_numeral e.g 6, 54
+
+    Examples:
+        >>> roman_to_int('IV')
+        4
+    """
+    roman_values = {'I': 1, 'V': 5, 'X': 10,
+                    'L': 50, 'C': 100, 'D': 500, 'M': 1000}
+    integer = 0
+    for i in range(len(roman_numeral)):
+        if i > 0 and roman_values[roman_numeral[i]] > roman_values[roman_numeral[i - 1]]:
+            integer += roman_values[roman_numeral[i]] - \
+                2 * roman_values[roman_numeral[i - 1]]
+        else:
+            integer += roman_values[roman_numeral[i]]
+    return integer
+
+
+def get_id(node: ComplexNode) -> str:
+    if node.type == Structure.BAB:
+        bab_number_node = node.children[0]
+        assert isinstance(bab_number_node, PrimitiveNode) and \
+            bab_number_node.type == Structure.BAB_NUMBER
+
+        bab_number_roman = bab_number_node.text.split()[1]
+        bab_number_int = roman_to_int(bab_number_roman)
+        return f'bab-{str(bab_number_int)}'
+
+    elif node.type == Structure.PASAL:
+        pasal_number_node = node.children[0]
+        assert isinstance(pasal_number_node, PrimitiveNode) and \
+            pasal_number_node.type == Structure.PASAL_NUMBER
+
+        return f'pasal-{pasal_number_node.text.split()[1]}'
+
+    elif node.type == Structure.BAGIAN:
+        bagian_number_node = node.children[0]
+        assert isinstance(bagian_number_node, PrimitiveNode) and \
+            bagian_number_node.type == Structure.BAGIAN_NUMBER
+
+        bagian_number_indo = \
+            bagian_number_node.text.split()[1][2:]
+        """
+        This is obviously janky, but good enough for now. When this fails,
+        all we need to do is add more numbers and rerun the parser.
+        """
+        bagian_number_int: int = {
+            'satu': 1,
+            'dua': 2,
+            'tiga': 3,
+            'empat': 4,
+            'lima': 5,
+            'enam': 6,
+            'tujuh': 7,
+            'delapan': 8,
+            'sembilan': 9,
+            'sepuluh': 10,
+            'sebelas': 11,
+        }[bagian_number_indo]
+
+        bab_node = node.parent
+        assert isinstance(bab_node, ComplexNode) and \
+            bab_node.type == Structure.BAB
+
+        return f'{get_id(bab_node)}-bagian-{bagian_number_int}'
+
+    elif node.type == Structure.PARAGRAF:
+        paragraf_number_node = node.children[0]
+        assert isinstance(paragraf_number_node, PrimitiveNode) and \
+            paragraf_number_node.type == Structure.PARAGRAF_NUMBER
+
+        bagian_node = node.parent
+        assert isinstance(bagian_node, ComplexNode) and \
+            bagian_node.type == Structure.BAGIAN
+
+        bab_node = bagian_node.parent
+        assert isinstance(bab_node, ComplexNode) and \
+            bab_node.type == Structure.BAB
+
+        return f'{get_id(bab_node)}-{get_id(bagian_node)}-paragraf-{paragraf_number_node.text.split()[1]}'
+
+    return ''
