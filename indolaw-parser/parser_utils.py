@@ -452,3 +452,8 @@ def get_id(node: ComplexNode) -> str:
         return f'{get_id(bab_node)}-{get_id(bagian_node)}-paragraf-{paragraf_number_node.text.split()[1]}'
 
     return ''
+
+
+def print_law(law: List[str]) -> None:
+    for i, l in enumerate(law):
+        print(f'[{i}] {l}\n')

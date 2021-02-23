@@ -24,7 +24,8 @@ from parser_utils import (
     get_list_index_type,
     is_next_list_index_number,
     clean_law,
-    print_around
+    print_around,
+    print_law
 )
 
 ROOT: Union[ComplexNode, None] = None
@@ -150,19 +151,11 @@ PARSE_X FUNCTIONS
 '''
 
 
-def parse_undang_undang(law: List[str]):
-    law = clean_law(law)
-
-    # for l in law:
-    #     print(l)
-    # exit()
-
-    global ROOT
-    ROOT = ComplexNode(type=Structure.UNDANG_UNDANG)
-    end_index = parse_opening(ROOT, law, 0)
+def parse_undang_undang(parent: ComplexNode, law: List[str]):
+    end_index = parse_opening(parent, law, 0)
 
     _ = parse_complex_structure(
-        ROOT,
+        parent,
         law,
         end_index+1,
         ancestor_structures=[],
@@ -627,8 +620,10 @@ if __name__ == "__main__":
         mode='r',
         encoding='utf-8-sig')
     law = file.read().split("\n")
+    law = clean_law(law)
 
-    parse_undang_undang(law)
+    ROOT = ComplexNode(type=Structure.UNDANG_UNDANG)
+    parse_undang_undang(ROOT, law)
 
     assert ROOT is not None
     with open(filename + '.json', 'w') as outfile:
