@@ -373,10 +373,10 @@ def is_start_of_agreement(law: List[str], start_index: int) -> bool:
         >>> is_start_of_agreement(law, 0)
         True
     """
-    return 'Dengan Persetujuan Bersama:' in law[start_index]
+    return 'Dengan Persetujuan Bersama' in law[start_index]
 
 
-def is_start_of_pasal(law: List[str], start_index: int) -> bool:
+def is_start_of_pasal(law: List[str], start_index: int, ) -> bool:
     """Checks if law[start_index] marks the start of a PASAL structure. The first line of a
     PASAL structure always begins with a PASAL_NUMBER structure.
 
