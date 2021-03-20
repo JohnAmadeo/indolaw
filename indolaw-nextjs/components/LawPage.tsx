@@ -1,9 +1,10 @@
 import { Complex } from "utils/grammar";
 import Law from "components/Law";
-import React from "react";
+import React, { useState } from "react";
 import TableOfContents from "components/TableOfContents";
-import { colors } from "utils/theme";
+import { darkColors, colors } from "utils/theme";
 import Head from "next/head";
+import { getDefaultSettings } from "http2";
 
 // TODO(johnamadeo): Fix "Warning: Each child in a list should have a unique "key" prop." problem
 export default function LawPage(props: {
@@ -11,6 +12,8 @@ export default function LawPage(props: {
 }): JSX.Element {
   const border = "2px solid red";
   const navWidth = "400px";
+
+  const [isDarkMode, setIsDarkMode] = useState(false);
 
   return (
     <div>
@@ -26,7 +29,7 @@ export default function LawPage(props: {
             position: fixed;
             padding: 20px;
             width: ${navWidth};
-            background-color: ${colors.background};
+            background-color: ${(isDarkMode ? darkColors : colors).trayBackground};
           }
 
           @media screen and (max-width: 768px) {
@@ -39,12 +42,13 @@ export default function LawPage(props: {
             }
           }
         `}</style>
-        <TableOfContents law={props.law} />
+        <TableOfContents law={props.law} isDarkMode={isDarkMode} setIsDarkMode={() => setIsDarkMode(!isDarkMode)} />
       </div>
 
       <div className="law-container">
         <style jsx>{`
           .law-container {
+            background-color: ${(isDarkMode ? darkColors : colors).background};
             position: absolute;
             left: ${navWidth};
             right: 0;
@@ -75,7 +79,7 @@ export default function LawPage(props: {
           }
         `}</style>
         <div className="law">
-          <Law law={props.law} />
+          <Law law={props.law} isDarkMode={isDarkMode}/>
         </div>
       </div>
     </div>

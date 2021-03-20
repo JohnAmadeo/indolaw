@@ -1,6 +1,6 @@
 import { CSSProperties } from "react";
 import { Primitive, Structure } from "utils/grammar";
-import { colors } from "utils/theme";
+import { colors, darkColors } from "utils/theme";
 import Link from "next/link";
 
 export default function PrimitiveStructure(props: {
@@ -43,7 +43,7 @@ function maybeLinkToOtherLaws(text: string): string | Array<JSX.Element> {
         <span className="link">
           <style jsx>{`
             .link {
-              color: ${colors.background};
+              color: ${colors.trayBackground};
             }
 
             .link:hover {

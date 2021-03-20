@@ -1,10 +1,15 @@
 import { useState } from "react";
 import { Complex } from "utils/grammar";
-import { colors, fonts } from "utils/theme";
+import { colors, darkColors, fonts } from "utils/theme";
 import TableOfContentsGroup from "components/TableOfContentsGroup";
 import { useMediaQuery } from "react-responsive";
 
-export default function TableOfContents(props: { law: Complex }): JSX.Element {
+export default function TableOfContents(props: { 
+  law: Complex,
+  isDarkMode: boolean,
+  setIsDarkMode: () => void
+ }): JSX.Element {
+   const {isDarkMode, setIsDarkMode} = props;
   const isMobile = useMediaQuery({ query: "(max-width: 768px)" });
   const [isExpanded, setIsExpanded] = useState(false);
 
@@ -22,15 +27,33 @@ export default function TableOfContents(props: { law: Complex }): JSX.Element {
     />
   ));
 
+  const darkModeButton = (<><style>{
+      `button {
+        width: 25%;
+        height: 3vh;
+        margin-bottom: 10px;
+        background-color: ${(isDarkMode ? colors : darkColors).trayBackground};
+        border-radius: 7px;
+        border: 0;
+        color: ${(isDarkMode ? colors : darkColors).dark.text};
+        font-family: ${fonts.sans};
+        ${isMobile ? "float: right;" : "margin-left: auto; display: block;"}
+      }
+      }`}</style><button onClick={setIsDarkMode}>{isDarkMode ? "Light Mode" : "Dark Mode"}</button></>
+  );
+
   if (!isMobile) {
-    return <>{tableOfContents}</>;
+    return <>
+      {darkModeButton}
+      {tableOfContents}
+    </>;
   }
 
   return isExpanded ? (
     <div className="container">
       <style jsx>{`
         .container {
-          background-color: ${colors.background};
+          background-color: ${(isDarkMode ? darkColors : colors).trayBackground};
           position: fixed;
           top: 0;
           left: 0;
@@ -45,7 +68,7 @@ export default function TableOfContents(props: { law: Complex }): JSX.Element {
         .back {
           margin-bottom: 12px;
           height: 40px;
-          border-bottom: 1px solid ${colors.dark.text};
+          border-bottom: 1px solid ${(isDarkMode ? darkColors : colors).dark.text};
         }
 
         .table-of-contents {
@@ -59,7 +82,7 @@ export default function TableOfContents(props: { law: Complex }): JSX.Element {
         }
 
         span {
-          color: ${colors.dark.text};
+          color: ${(isDarkMode ? darkColors : colors).dark.text};
           cursor: pointer;
           font-family: ${fonts.sans};
           font-size: 18px;
@@ -73,6 +96,7 @@ export default function TableOfContents(props: { law: Complex }): JSX.Element {
         <span onClick={() => setIsExpanded(false)}>
           <i className="material-icons style">chevron_left</i>Kembali
         </span>
+        {darkModeButton}
       </div>
       <div className="table-of-contents">{tableOfContents}</div>
     </div>
@@ -84,19 +108,23 @@ export default function TableOfContents(props: { law: Complex }): JSX.Element {
           text-align: center;
           font-size: 18px;
           font-family: ${fonts.sans};
-          color: ${colors.dark.text};
+          color: ${(isDarkMode ? darkColors : colors).dark.text};
         }
 
         .material-icons.style {
           vertical-align: bottom;
         }
+        
+        button {
+          display: inline;
+          float: right;
+        }
       `}</style>
-        <span
-          onClick={() => {
+        <span>
+          <i onClick={() => {
             setIsExpanded(true);
-          }}
-        >
-          <i className="material-icons style">expand_more</i> Daftar Isi
+          }} className="material-icons style">expand_more</i> Daftar Isi
+          {darkModeButton}
       </span>
       </>
     );
