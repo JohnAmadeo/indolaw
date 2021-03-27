@@ -1345,6 +1345,9 @@ if __name__ == "__main__":
             indent=2
         )
 
+    if len(sys.argv) >= 3 and sys.argv[2] == '--clean':
+        exit()
+
     ROOT = ComplexNode(type=Structure.UNDANG_UNDANG)
     parse_undang_undang(ROOT, law)
 
