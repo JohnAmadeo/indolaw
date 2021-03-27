@@ -474,7 +474,14 @@ def is_start_of_bagian_number(law: List[str], start_index: int) -> bool:
         >>> is_start_of_bagian_number(law, 1)
         True
     """
-    return is_heading(r'Bagian Ke[a-z]+', law[start_index])
+
+    '''
+    Bagian numbers are mostly in the format of 'kesatu', 'kedua', etc.
+    however on rare occasions the 1st bagian can be 'pertama' instead
+    of 'kesatu'
+    '''
+    return is_heading(r'Bagian Ke[a-z]+', law[start_index]) or \
+        is_heading(r'Bagian Pertama', law[start_index])
 
 
 def is_start_of_bagian_title(law: List[str], start_index: int) -> bool:

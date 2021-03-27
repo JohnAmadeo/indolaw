@@ -1,5 +1,6 @@
-from parser_types import Structure, ComplexNode
+from parser_types import Structure, ComplexNode, PrimitiveNode
 from parser_utils import (
+    get_id,
     get_squashed_list_item,
     ignore_line,
     get_list_index_type,
@@ -327,6 +328,8 @@ def test_is_start_of_bagian_number():
     assert is_start_of_bagian_number(law, 0) == False
     assert is_start_of_bagian_number(law, 1) == True
     assert is_start_of_bagian_number(law, 2) == False
+    # From UU 13 2003 Ketenagakerjaan [Bab XVI / Bagian 1]
+    assert is_start_of_bagian_number(['Bagian Pertama'], 0) == True
 
 
 def test_is_start_of_bagian():
@@ -592,3 +595,35 @@ def test_clean_maybe_list_item():
         'a.',
         'istirahat antara jam kerja, sekurang',
     ]
+
+
+def test_get_id():
+    bab_node = ComplexNode(type=Structure.BAB)
+    bab_node.add_child(PrimitiveNode(
+        type=Structure.BAB_NUMBER, text="BAB III"))
+    bab_node.add_child(PrimitiveNode(
+        type=Structure.BAB_TITLE, text="PEMULIHAN EKONOMI"))
+    assert get_id(bab_node) == 'bab-3'
+
+    bagian_node = ComplexNode(type=Structure.BAGIAN)
+    bagian_node.add_child(PrimitiveNode(
+        type=Structure.BAGIAN_NUMBER, text="Bagian Pertama"))
+    bagian_node.add_child(PrimitiveNode(
+        type=Structure.BAGIAN_TITLE, text="Jasa Kurir"))
+
+    bab_node.add_child(bagian_node)
+    assert get_id(bagian_node) == 'bab-3-bagian-1'
+
+    bagian_node_2 = ComplexNode(type=Structure.BAGIAN)
+    bagian_node_2.add_child(PrimitiveNode(
+        type=Structure.BAGIAN_NUMBER, text="Bagian Kedelapan"))
+    bagian_node_2.add_child(PrimitiveNode(
+        type=Structure.BAGIAN_TITLE, text="Jasa Ojek Online"))
+
+    bab_node.add_child(bagian_node_2)
+    assert get_id(bagian_node_2) == 'bab-3-bagian-8'
+
+    pasal_node = ComplexNode(type=Structure.PASAL)
+    pasal_node.add_child(PrimitiveNode(
+        type=Structure.PASAL_NUMBER, text="Pasal 12"))
+    assert get_id(pasal_node) == 'pasal-12'

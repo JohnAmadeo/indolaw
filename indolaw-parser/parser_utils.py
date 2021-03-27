@@ -429,25 +429,35 @@ def get_id(node: ComplexNode) -> str:
         assert isinstance(bagian_number_node, PrimitiveNode) and \
             bagian_number_node.type == Structure.BAGIAN_NUMBER
 
-        bagian_number_indo = \
-            bagian_number_node.text.split()[1][2:]
-        """
-        This is obviously janky, but good enough for now. When this fails,
-        all we need to do is add more numbers and rerun the parser.
-        """
-        bagian_number_int: int = {
-            'satu': 1,
-            'dua': 2,
-            'tiga': 3,
-            'empat': 4,
-            'lima': 5,
-            'enam': 6,
-            'tujuh': 7,
-            'delapan': 8,
-            'sembilan': 9,
-            'sepuluh': 10,
-            'sebelas': 11,
-        }[bagian_number_indo]
+        bagian_number_indo = bagian_number_node.text.split()[1].lower()
+        '''
+        Bagian numbers are mostly in the format of 'kesatu', 'kedua', etc.
+        however on rare occasions the 1st bagian can be 'pertama' instead
+        of 'kesatu'
+        '''
+        bagian_number_int: int = -1
+        if bagian_number_indo == 'pertama':
+            bagian_number_int = 1
+        else:
+            bagian_number_indo = \
+                bagian_number_node.text.split()[1][2:]
+            """
+            This is obviously janky, but good enough for now. When this fails,
+            all we need to do is add more numbers and rerun the parser.
+            """
+            bagian_number_int = {
+                'satu': 1,
+                'dua': 2,
+                'tiga': 3,
+                'empat': 4,
+                'lima': 5,
+                'enam': 6,
+                'tujuh': 7,
+                'delapan': 8,
+                'sembilan': 9,
+                'sepuluh': 10,
+                'sebelas': 11,
+            }[bagian_number_indo]
 
         bab_node = node.parent
         assert isinstance(bab_node, ComplexNode) and \
