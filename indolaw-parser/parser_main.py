@@ -1313,6 +1313,15 @@ def print_tree() -> None:
 def crash(law: List[str], i: int, error_message: str) -> None:
     print_tree()
     print_around(law, i)
+
+    if ROOT is not None:
+        with open('./crash.json', 'w') as outfile:
+            json.dump(
+                convert_tree_to_json(ROOT),
+                outfile,
+                indent=2
+            )
+
     raise Exception(error_message)
 
 
