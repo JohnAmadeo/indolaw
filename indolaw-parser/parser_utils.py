@@ -255,11 +255,11 @@ def clean_maybe_list_item(line: str) -> List[str]:
             *clean_maybe_list_item(' '.join(line_split[1:]))
         ]
 
-    end_index = get_squashed_list_item(line)
-    if end_index != None:
+    start_index = get_squashed_list_item(line)
+    if start_index != None:
         return [
-            line[:end_index],
-            *clean_maybe_list_item(line[end_index+1:]),
+            line[:start_index-1],
+            *clean_maybe_list_item(line[start_index:]),
         ]
 
     return [line]
@@ -279,14 +279,16 @@ def get_squashed_list_item(line):
 
     Examples:
         >>> get_squashed_list_item('nasi goreng; 3. bakmie ayam;')
-        12
+        13
     '''
-    line_ending_regex = [r';', r':', r'\.', r'; dan/atau']
-    list_index_regex = [r'[a-z]\.', r'[0-9]+\.', r'\([0-9]+\)']
+    line_ending_regex = [r'(;)', r'(:)', r'(\.)', r'(; dan/atau)']
+    list_index_regex = [r'([a-z]\. )', r'([0-9]+\. )', r'(\([0-9]+\) )']
     for i in line_ending_regex:
         for j in list_index_regex:
-            if re.search(i + r' ' + j, line) != None:
-                return re.search(i, line).end(0)
+            match = re.search(i + r' ' + j, line)
+            if match != None:
+                start_of_squashed_list_item_idx = match.end(1) + 1
+                return start_of_squashed_list_item_idx
     return None
 
 

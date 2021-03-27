@@ -130,8 +130,11 @@ def test_clean_law():
 
 
 def test_get_squashed_list_item():
-    assert get_squashed_list_item('nasi goreng; 3. bakmie ayam;') == 12
-    assert get_squashed_list_item('gado-gado; dan/atau j. kue lapis;') == 19
+    assert get_squashed_list_item('nasi goreng; 3. bakmie ayam;') == 13
+    assert get_squashed_list_item('gado-gado; dan/atau j. kue lapis;') == 20
+    # From UU 13 2003 Ketenagakerjaan [Pasal 1, list index 27]
+    assert get_squashed_list_item(
+        'Siang berakhir pukul 18.00. 28. 1 hari adalah waktu selama 24 jam.') == 28
 
 
 def test_is_start_of_first_list_index():
@@ -533,7 +536,7 @@ def test_clean_maybe_list_item():
         'Setiap Orang berhak memperoleh Informasi Publik.',
     ]
 
-    # Adapted from uu-14-2008-keterbukaan-informasi-publik.txt
+    # From UU 14 2008 Keterbukaan Informasi Publik
     true_positive_squashed = '(1) Setiap Orang berhak dilindungi hak-hak dasar. (2) Hak-hak yang dimaksud termasuk:'
     assert clean_maybe_list_item(true_positive_squashed) == [
         '(1)',
@@ -542,14 +545,14 @@ def test_clean_maybe_list_item():
         'Hak-hak yang dimaksud termasuk:'
     ]
 
-    # Adapted from uu-14-2008-keterbukaan-informasi-publik.txt
+    # From UU 14 2008 Keterbukaan Informasi Publik
     false_positive_squashed = '(1) Calon anggota sebagaimana dimaksud dalam Pasal 3 ayat(2) diajukan oleh Presiden.'
     assert clean_maybe_list_item(false_positive_squashed) == [
         '(1)',
         'Calon anggota sebagaimana dimaksud dalam Pasal 3 ayat(2) diajukan oleh Presiden.',
     ]
 
-    # Adapted from uu-14-2008-keterbukaan-informasi-publik.txt
+    # From UU 14 2008 Keterbukaan Informasi Publik
     true_positive_squashed_first = 'Informasi yang wajib disediakan adalah: a. asas dan tujuan'
     assert clean_maybe_list_item(true_positive_squashed_first) == [
         'Informasi yang wajib disediakan adalah:',
@@ -557,8 +560,16 @@ def test_clean_maybe_list_item():
         'asas dan tujuan',
     ]
 
-    # Adapted from uu-14-2008-keterbukaan-informasi-publik.txt
+    # From UU 14 2008 Keterbukaan Informasi Publik
     false_positive_squashed_first = 'Informasi yang wajib disediakan adalah asas dan tujuan'
     assert clean_maybe_list_item(false_positive_squashed_first) == [
         'Informasi yang wajib disediakan adalah asas dan tujuan',
+    ]
+
+    # From UU 13 2003 Ketenagakerjaan [Pasal 1, list index 27]
+    true_positive_squashed = 'Siang berakhir pukul 18.00. 28. 1 hari adalah waktu selama 24 jam.'
+    assert clean_maybe_list_item(true_positive_squashed) == [
+        'Siang berakhir pukul 18.00.',
+        '28.',
+        '1 hari adalah waktu selama 24 jam.'
     ]
