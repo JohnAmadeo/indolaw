@@ -581,3 +581,14 @@ def test_clean_maybe_list_item():
         '(2)',
         'Waktu istirahat dan cuti sebagaimana'
     ]
+
+    # From UU 13 2003 Ketenagakerjaan [Pasal 79, list index 1]
+    true_positive_multiple_list_index_structures = '(1) Pengusaha wajib memberi waktu istirahat dan cuti kepada pekerja/buruh.  (2) Waktu istirahat dan cuti sebagaimana dimaksud dalam ayat (1), meliputi:  a. istirahat antara jam kerja, sekurang'
+    assert clean_maybe_list_item(true_positive_multiple_list_index_structures) == [
+        '(1)',
+        'Pengusaha wajib memberi waktu istirahat dan cuti kepada pekerja/buruh.',
+        '(2)',
+        'Waktu istirahat dan cuti sebagaimana dimaksud dalam ayat (1), meliputi:',
+        'a.',
+        'istirahat antara jam kerja, sekurang',
+    ]

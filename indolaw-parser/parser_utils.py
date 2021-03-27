@@ -283,14 +283,30 @@ def get_squashed_list_item(line):
     '''
     line_ending_regex = [r'(;)', r'(:)', r'(\.)', r'(; dan/atau)']
     list_index_regex = [r'([a-z]\. )', r'([0-9]+\. )', r'(\([0-9]+\) )']
+
+    regexes = []
     for i in line_ending_regex:
         for j in list_index_regex:
-            match = re.search(i + r'\s+' + j, line)
-            if match != None:
-                start_of_squashed_list_item_idx = match.start(2)
-                print(match.groups())
-                return start_of_squashed_list_item_idx
-    return None
+            regexes.append(i + r'\s+' + j)
+
+    '''
+    There may be multiple squashed list items on a single line; we want to identify
+    the squashed list item that comes first. See parser_test for more details.
+    '''
+    earliest_match = None
+    for regex in regexes:
+        match = re.search(regex, line)
+        if match is None:
+            continue
+
+        if (earliest_match is None) or match.start(0) < earliest_match.start(0):
+            earliest_match = match
+
+    if earliest_match is None:
+        return None
+
+    start_of_squashed_list_item_idx = earliest_match.start(2)
+    return start_of_squashed_list_item_idx
 
 
 def get_next_list_index(list_index: str) -> str:
