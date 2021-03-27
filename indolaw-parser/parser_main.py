@@ -1253,12 +1253,13 @@ def parse_complex_structure(
         int: the end_index; i.e law[end_index] is the last line of the structure we want to parse
     """
 
+    if parent.type == Structure.LIST or parent.type == Structure.LIST_ITEM:
+        crash(law, start_index, 'Use parse_list or parse_list_item instead')
+
     '''
     If this doesn't feel intuitive, the best way to understand the algorithm is go through the text
     of the law by hand w/ pen and paper and apply the algorithm as implemented below!
     '''
-    if parent.type == Structure.LIST and parent.type == Structure.LIST_ITEM:
-        crash(law, start_index, 'Use parse_list or parse_list_item instead')
 
     initial_start_index = start_index
 
