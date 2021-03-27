@@ -1329,6 +1329,13 @@ if __name__ == "__main__":
     law = file.read().split("\n")
     law = clean_law(law)
 
+    with open(filename + '_raw.json', 'w') as outfile:
+        json.dump(
+            law,
+            outfile,
+            indent=2
+        )
+
     ROOT = ComplexNode(type=Structure.UNDANG_UNDANG)
     parse_undang_undang(ROOT, law)
 
