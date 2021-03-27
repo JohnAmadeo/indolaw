@@ -129,14 +129,6 @@ def test_clean_law():
     assert clean_law(input) == output
 
 
-def test_get_squashed_list_item():
-    assert get_squashed_list_item('nasi goreng; 3. bakmie ayam;') == 13
-    assert get_squashed_list_item('gado-gado; dan/atau j. kue lapis;') == 20
-    # From UU 13 2003 Ketenagakerjaan [Pasal 1, list index 27]
-    assert get_squashed_list_item(
-        'Siang berakhir pukul 18.00. 28. 1 hari adalah waktu selama 24 jam.') == 28
-
-
 def test_is_start_of_first_list_index():
     assert is_start_of_first_list_index('a.') == True
     assert is_start_of_first_list_index('b.') == False
@@ -529,6 +521,14 @@ def test_get_next_list_index():
         get_next_list_index('Dengan adanya')
 
 
+def test_get_squashed_list_item():
+    assert get_squashed_list_item('nasi goreng; 3. bakmie ayam;') == 13
+    assert get_squashed_list_item('gado-gado; dan/atau j. kue lapis;') == 20
+    # From UU 13 2003 Ketenagakerjaan [Pasal 1, list index 27]
+    assert get_squashed_list_item(
+        'Siang berakhir pukul 18.00. 28. 1 hari adalah waktu selama 24 jam.') == 28
+
+
 def test_clean_maybe_list_item():
     simple = '(1) Setiap Orang berhak memperoleh Informasi Publik.'
     assert clean_maybe_list_item(simple) == [
@@ -572,4 +572,12 @@ def test_clean_maybe_list_item():
         'Siang berakhir pukul 18.00.',
         '28.',
         '1 hari adalah waktu selama 24 jam.'
+    ]
+
+    # From UU 13 2003 Ketenagakerjaan [Pasal 79, list index 1]
+    true_positive_squashed_multiple_whitespace = 'Pengusaha wajib memberi cuti kepada pekerja.  (2) Waktu istirahat dan cuti sebagaimana'
+    assert clean_maybe_list_item(true_positive_squashed_multiple_whitespace) == [
+        'Pengusaha wajib memberi cuti kepada pekerja.',
+        '(2)',
+        'Waktu istirahat dan cuti sebagaimana'
     ]

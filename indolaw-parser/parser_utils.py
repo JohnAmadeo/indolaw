@@ -251,18 +251,18 @@ def clean_maybe_list_item(line: str) -> List[str]:
     line_split = line.split()
     if is_start_of_list_index_str(line_split[0]):
         return [
-            line_split[0],
+            line_split[0].strip(),
             *clean_maybe_list_item(' '.join(line_split[1:]))
         ]
 
     start_index = get_squashed_list_item(line)
     if start_index != None:
         return [
-            line[:start_index-1],
+            line[:start_index-1].strip(),
             *clean_maybe_list_item(line[start_index:]),
         ]
 
-    return [line]
+    return [line.strip()]
 
 
 def get_squashed_list_item(line):
@@ -285,9 +285,10 @@ def get_squashed_list_item(line):
     list_index_regex = [r'([a-z]\. )', r'([0-9]+\. )', r'(\([0-9]+\) )']
     for i in line_ending_regex:
         for j in list_index_regex:
-            match = re.search(i + r' ' + j, line)
+            match = re.search(i + r'\s+' + j, line)
             if match != None:
-                start_of_squashed_list_item_idx = match.end(1) + 1
+                start_of_squashed_list_item_idx = match.start(2)
+                print(match.groups())
                 return start_of_squashed_list_item_idx
     return None
 
