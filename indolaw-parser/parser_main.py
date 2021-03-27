@@ -1338,7 +1338,7 @@ if __name__ == "__main__":
     law = file.read().split("\n")
     law = clean_law(law)
 
-    with open(filename + '_raw.json', 'w') as outfile:
+    with open(filename + '_clean.txt', 'w') as outfile:
         json.dump(
             law,
             outfile,
