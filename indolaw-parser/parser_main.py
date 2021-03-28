@@ -87,7 +87,7 @@ def parse_undang_undang(root: ComplexNode, law: List[str]):
         end_index+1,
         ancestor_structures=[],
         sibling_structures=[],
-        child_structures=[Structure.BAB],
+        child_structures=[Structure.BAB, Structure.CLOSING],
     )
 
 
@@ -543,7 +543,7 @@ def parse_bab(parent: ComplexNode, law: List[str], start_index: int) -> int:
         law,
         start_index+2,
         ancestor_structures=[],
-        sibling_structures=[Structure.BAB],
+        sibling_structures=[Structure.BAB, Structure.CLOSING],
         child_structures=[Structure.PASAL, Structure.BAGIAN])
 
     return end_index
@@ -610,7 +610,7 @@ def parse_pasal(parent: ComplexNode, law: List[str], start_index: int) -> int:
         law,
         start_index+1,
         ancestor_structures=[Structure.BAB,
-                             Structure.BAGIAN, Structure.PARAGRAF],
+                             Structure.BAGIAN, Structure.PARAGRAF, Structure.CLOSING],
         sibling_structures=[Structure.PASAL],
         child_structures=TEXT_BLOCK_STRUCTURES)
 
@@ -682,7 +682,7 @@ def parse_bagian(parent: ComplexNode, law: List[str], start_index: int) -> int:
         bagian_node,
         law,
         start_index+2,
-        ancestor_structures=[Structure.BAB],
+        ancestor_structures=[Structure.BAB, Structure.CLOSING],
         sibling_structures=[Structure.BAGIAN],
         child_structures=[Structure.PASAL, Structure.PARAGRAF])
 
@@ -753,7 +753,8 @@ def parse_paragraf(parent: ComplexNode, law: List[str], start_index: int) -> int
         paragraf_node,
         law,
         start_index+2,
-        ancestor_structures=[Structure.BAB, Structure.BAGIAN],
+        ancestor_structures=[Structure.BAB,
+                             Structure.BAGIAN, Structure.CLOSING],
         sibling_structures=[Structure.PARAGRAF],
         child_structures=[Structure.PASAL])
 
@@ -822,7 +823,7 @@ def parse_list(parent: ComplexNode, law: List[str], start_index: int) -> int:
     parent.add_child(list_node)
 
     non_recursive_ancestors = [Structure.PASAL, Structure.PARAGRAF,
-                               Structure.BAGIAN, Structure.BAB]
+                               Structure.BAGIAN, Structure.BAB, Structure.CLOSING]
 
     initial_start_index = start_index
     end_index = start_index-1
@@ -1019,7 +1020,8 @@ def parse_list_item(parent: ComplexNode, law: List[str], start_index: int) -> in
     '''
     non_recursive_ancestors = [Structure.PASAL, Structure.PARAGRAF,
                                Structure.BAGIAN, Structure.BAB,
-                               Structure.PRINCIPLES, Structure.AGREEMENT]
+                               Structure.PRINCIPLES, Structure.AGREEMENT,
+                               Structure.CLOSING]
 
     start_index += 2
     end_index = start_index-1
@@ -1123,6 +1125,89 @@ def parse_list_index(parent: ComplexNode, law: List[str], i: int) -> None:
         crash(law, i, f'line {i} is not a list index')
 
 
+def parse_closing(parent: ComplexNode, law: List[str], start_index: int) -> int:
+    """
+    Construct a subtree of nodes that represents the CLOSING section of a law.
+
+    e.g given the following law & start_index
+
+    >>> [
+    >>>     ...,
+    >>>     "Disahkan Di Jakarta,", <-- start_index
+    >>>     "Pada Tanggal 25 Maret 2003",
+    >>>     "PRESIDEN REPUBLIK INDONESIA,",
+    >>>     "Ttd.",
+    >>>     "MEGAWATI SOEKARNOPUTRI",
+    >>>     "Diundangkan Di Jakarta,",
+    >>>     "Pada Tanggal 25 Maret 2003",
+    >>>     "SEKRETARIS NEGARA REPUBLIK INDONESIA,",
+    >>>     "Ttd.",
+    >>>     "BAMBANG KESOWO",
+    >>>     "LEMBARAN NEGARA REPUBLIK INDONESIA TAHUN 2003 NOMOR 39",
+    >>>     ...,
+    >>> ]
+
+    the subtree constructed will look like this
+
+    >>> {
+    >>>     type: CLOSING
+    >>>     children: [
+    >>>         { type: PLAINTEXT, text: 'Disahkan Di Jakarta,' },
+    >>>         { type: PLAINTEXT, text: 'Pada Tanggal 12 Agustus 2011' },
+    >>>         { type: PLAINTEXT, text: 'PRESIDEN REPUBLIK INDONESIA,' },
+    >>>         { type: PLAINTEXT, text: 'Ttd.' },
+    >>>         { type: PLAINTEXT, text: 'DR. H. SUSILO BAMBANG YUDHOYONO' },
+    >>>         { type: PLAINTEXT, text: 'Diundangkan Di Jakarta' },
+    >>>         { type: PLAINTEXT, text: 'Pada Tanggal 12 Agustus 2011' },
+    >>>         { type: PLAINTEXT, text: 'MENTERI HUKUM DAN HAK ASASI MANUSIA REPUBLIK INDONESIA,' },
+    >>>         { type: PLAINTEXT, text: 'Ttd.' },
+    >>>         { type: PLAINTEXT, text: 'PATRIALIS AKBAR' },
+    >>>         { type: LEMBARAN_NUMBER, text: 'LEMBARAN NEGARA REPUBLIK INDONESIA TAHUN 2011 NOMOR 82' },
+    >>>     ]
+    >>> }
+
+    and the return value will mark the end_index; i.e the last line of the CLOSING
+
+    >>> [
+    >>>     ...,
+    >>>     "Disahkan Di Jakarta,", <-- start_index
+    >>>     "Pada Tanggal 25 Maret 2003",
+    >>>     "PRESIDEN REPUBLIK INDONESIA,",
+    >>>     "Ttd.",
+    >>>     "MEGAWATI SOEKARNOPUTRI",
+    >>>     "Diundangkan Di Jakarta,",
+    >>>     "Pada Tanggal 25 Maret 2003",
+    >>>     "SEKRETARIS NEGARA REPUBLIK INDONESIA,",
+    >>>     "Ttd.",
+    >>>     "BAMBANG KESOWO",
+    >>>     "LEMBARAN NEGARA REPUBLIK INDONESIA TAHUN 2003 NOMOR 39", <-- end_index
+    >>>     ...,
+    >>> ]
+
+    Args:
+        parent: the parent node of the subtree that represents the CLOSING of a law;
+        the subtree is attached to the parent node passed in.
+
+        law: Ordered list of strings that contain the text of the law we want to parse
+        start_index: law[start_index] is the 1st line of the CLOSING we want to parse
+
+    Returns:
+        int: the end_index; i.e law[end_index] is the last line of the CLOSING we want to parse
+    """
+    closing_node = ComplexNode(type=Structure.CLOSING)
+    parent.add_child(closing_node)
+
+    for i in range(10):
+        closing_node.add_child(PrimitiveNode(
+            type=Structure.PLAINTEXT, text=law[start_index+i]))
+
+    closing_node.add_child(PrimitiveNode(
+        type=Structure.LEMBARAN_NUMBER, text=law[start_index+10]))
+
+    end_index = start_index+10
+    return end_index
+
+
 '''
 -----------------
 
@@ -1176,6 +1261,8 @@ def parse_structure(
         parse_list_index(parent, law, start_index)
         end_index = start_index
         return end_index
+    elif structure == Structure.CLOSING:
+        return parse_closing(parent, law, start_index)
     else:
         crash(law, start_index, f'No function to parse {structure.value}')
         return -1  # only to satisfy mypy; will never run since we crash

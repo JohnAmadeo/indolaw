@@ -13,7 +13,9 @@ from parser_utils import (
 )
 from parser_is_start_of_x import (
     is_heading,
+    is_start_of_closing,
     is_start_of_first_list_index,
+    is_start_of_lembaran_number,
     is_start_of_number_with_brackets_str,
     is_start_of_number_with_brackets,
     is_start_of_number_with_dot_str,
@@ -467,6 +469,31 @@ def test_is_start_of_opening():
     ]
 
     assert is_start_of_opening(law, 0) == True
+
+
+def test_is_start_of_closing():
+    law = [
+        'Agar setiap orang mengetahuinya, memerintahkan pengundangan Undang-Undang ini dengan  penempatannya dalam Lembaran Negara Republik Indonesia.',
+        'Disahkan Di Jakarta,',
+        'Pada Tanggal 25 Maret 2003',
+        'PRESIDEN REPUBLIK INDONESIA,',
+        'Ttd.',
+        'MEGAWATI SOEKARNOPUTRI',
+        'Diundangkan Di Jakarta,',
+        'Pada Tanggal 25 Maret 2003',
+        'SEKRETARIS NEGARA REPUBLIK INDONESIA',
+        'Ttd.',
+        'BAMBANG KESOWO',
+        'LEMBARAN NEGARA REPUBLIK INDONESIA TAHUN 2003 NOMOR 39',
+    ]
+
+    assert is_start_of_closing(law, 1) == True
+    assert is_start_of_closing(law, 2) == False
+
+
+def test_is_start_of_lembaran_number():
+    law = ["LEMBARAN NEGARA REPUBLIK INDONESIA TAHUN 2003 NOMOR 39"]
+    is_start_of_lembaran_number(law, 0) == True
 
 
 def test_is_start_of_undang_undang():

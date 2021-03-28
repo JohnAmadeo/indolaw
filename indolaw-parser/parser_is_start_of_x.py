@@ -91,6 +91,11 @@ def is_start_of_structure(structure: Structure, law: List[str], start_index: int
         return is_start_of_number_with_dot(law, start_index)
     elif structure == Structure.NUMBER_WITH_BRACKETS:
         return is_start_of_number_with_brackets(law, start_index)
+    # CLOSING
+    elif structure == Structure.CLOSING:
+        return is_start_of_closing(law, start_index)
+    elif structure == Structure.LEMBARAN_NUMBER:
+        return is_start_of_lembaran_number(law, start_index)
     # OTHERS
     elif structure == Structure.PLAINTEXT:
         return is_start_of_plaintext(law, start_index)
@@ -662,6 +667,18 @@ def is_start_of_bab_title(law: List[str], start_index: int) -> bool:
         True
     """
     return is_start_of_bab_number(law, start_index-1)
+
+
+def is_start_of_closing(law: List[str], start_index: int) -> bool:
+    return 'Lembaran Negara Republik Indonesia'.lower() in law[start_index-1].lower() and\
+        'Disahkan Di Jakarta'.lower() in law[start_index].lower()
+
+
+def is_start_of_lembaran_number(law: List[str], start_index: int) -> bool:
+    return is_heading(
+        r'LEMBARAN NEGARA REPUBLIK INDONESIA TAHUN [0-9]{4} NOMOR [0-9]+',
+        law[start_index]
+    )
 
 
 def is_start_of_list(law: List[str], start_index: int) -> bool:
