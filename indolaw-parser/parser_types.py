@@ -31,6 +31,9 @@ class Structure(Enum):
     LEMBARAN_NUMBER = "LEMBARAN_NUMBER"
     PENJELASAN = "PENJELASAN"
     PENJELASAN_TITLE = "PENJELASAN_TITLE"
+    UNORDERED_LIST = "UNORDERED_LIST"
+    UNORDERED_LIST_ITEM = "UNORDERED_LIST_ITEM"
+    UNORDERED_LIST_INDEX = "UNORDERED_LIST_INDEX"
     PLAINTEXT = "PLAINTEXT"
     LIST = "LIST"
     LIST_ITEM = "LIST_ITEM"
@@ -40,7 +43,8 @@ class Structure(Enum):
     LETTER_WITH_DOT = "LETTER_WITH_DOT"
 
 
-TEXT_BLOCK_STRUCTURES = [Structure.PLAINTEXT, Structure.LIST]
+TEXT_BLOCK_STRUCTURES = [Structure.PLAINTEXT,
+                         Structure.LIST, Structure.UNORDERED_LIST]
 
 '''
 The list of types that a Primitive structure can be

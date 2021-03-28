@@ -18,6 +18,7 @@ from parser_is_start_of_x import (
     is_start_of_letter_with_dot,
     is_start_of_number_with_dot,
     is_start_of_number_with_brackets,
+    is_start_of_unordered_list_item,
 )
 from parser_utils import (
     convert_tree_to_json,
@@ -1317,6 +1318,34 @@ def parse_penjelasan_title(parent: ComplexNode, law: List[str], start_index: int
     return end_index
 
 
+def parse_unordered_list(parent: ComplexNode, law: List[str], start_index: int) -> int:
+    unordered_list_node = ComplexNode(type=Structure.UNORDERED_LIST)
+    parent.add_child(unordered_list_node)
+
+    end_index = start_index-1
+
+    # naive algorithm assumes no nested unordered lists exist
+    while end_index < len(law)-1:
+        if not is_start_of_unordered_list_item(law, start_index):
+            break
+
+        unordered_list_item_node = ComplexNode(
+            type=Structure.UNORDERED_LIST_ITEM)
+        unordered_list_node.add_child(unordered_list_item_node)
+
+        unordered_list_index_node = PrimitiveNode(
+            type=Structure.UNORDERED_LIST_INDEX, text=law[start_index])
+        plaintext_node = PrimitiveNode(
+            type=Structure.PLAINTEXT, text=law[start_index+1])
+        unordered_list_item_node.add_child(unordered_list_index_node)
+        unordered_list_item_node.add_child(plaintext_node)
+
+        end_index += 2
+        start_index = end_index+1
+
+    return end_index
+
+
 '''
 -----------------
 
@@ -1374,6 +1403,8 @@ def parse_structure(
         return parse_closing(parent, law, start_index)
     elif structure == Structure.PENJELASAN:
         return parse_penjelasan(parent, law, start_index)
+    elif structure == Structure.UNORDERED_LIST:
+        return parse_unordered_list(parent, law, start_index)
     else:
         crash(law, start_index, f'No function to parse {structure.value}')
         return -1  # only to satisfy mypy; will never run since we crash

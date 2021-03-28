@@ -101,6 +101,12 @@ def is_start_of_structure(structure: Structure, law: List[str], start_index: int
         return is_start_of_penjelasan(law, start_index)
     elif structure == Structure.PENJELASAN_TITLE:
         return is_start_of_penjelasan_title(law, start_index)
+    elif structure == Structure.UNORDERED_LIST:
+        return is_start_of_unordered_list(law, start_index)
+    elif structure == Structure.UNORDERED_LIST_ITEM:
+        return is_start_of_unordered_list_item(law, start_index)
+    elif structure == Structure.UNORDERED_LIST_INDEX:
+        return is_start_of_unordered_list_index(law, start_index)
     # OTHERS
     elif structure == Structure.PLAINTEXT:
         return is_start_of_plaintext(law, start_index)
@@ -1088,6 +1094,24 @@ def is_start_of_number_with_brackets_str(string: str) -> bool:
         False
     """
     return is_heading(r'\([0-9]+\)', string)
+
+
+def is_start_of_unordered_list(law: List[str], start_index: int) -> bool:
+    return is_start_of_unordered_list_index(law, start_index)
+
+
+def is_start_of_unordered_list_item(law: List[str], start_index: int) -> bool:
+    return is_start_of_unordered_list_index(law, start_index)
+
+
+def is_start_of_unordered_list_index(law: List[str], start_index: int) -> bool:
+    maybe_list_index = law[start_index].split()[0].strip()
+    return is_start_of_unordered_list_index_str(maybe_list_index)
+
+
+def is_start_of_unordered_list_index_str(string: str) -> bool:
+    # \u2212 is the minus sign
+    return is_heading('\u2212', string) or is_heading(r'-', string)
 
 
 def is_start_of_plaintext(law: List[str], start_index: int) -> bool:

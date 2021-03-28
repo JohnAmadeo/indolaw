@@ -13,7 +13,8 @@ from parser_is_start_of_x import (
     is_start_of_number_with_dot_str,
     is_start_of_letter_with_dot_str,
     is_start_of_first_list_index,
-    is_start_of_list_index_str
+    is_start_of_list_index_str,
+    is_start_of_unordered_list_index_str,
 )
 
 
@@ -249,7 +250,8 @@ def clean_maybe_list_item(line: str) -> List[str]:
     Examples:
     """
     line_split = line.split()
-    if is_start_of_list_index_str(line_split[0]):
+    if is_start_of_list_index_str(line_split[0]) or \
+            is_start_of_unordered_list_index_str(line_split[0]):
         return [
             line_split[0].strip(),
             *clean_maybe_list_item(' '.join(line_split[1:]))
@@ -283,10 +285,11 @@ def get_squashed_list_item(line):
     '''
     line_ending_regex = [r'(;)', r'(:)', r'(\.)', r'(; dan/atau)']
     list_index_regex = [r'([a-z]\. )', r'([0-9]+\. )', r'(\([0-9]+\) )']
+    unordered_list_index_regex = [r'(\u2212 )']
 
     regexes = []
     for i in line_ending_regex:
-        for j in list_index_regex:
+        for j in list_index_regex + unordered_list_index_regex:
             regexes.append(i + r'\s+' + j)
 
     '''

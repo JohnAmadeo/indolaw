@@ -42,6 +42,9 @@ from parser_is_start_of_x import (
     is_start_of_principles,
     is_start_of_considerations,
     is_start_of_preface,
+    is_start_of_unordered_list,
+    is_start_of_unordered_list_index,
+    is_start_of_unordered_list_item,
     is_start_of_uu_title_topic,
     is_start_of_uu_title_year_and_number,
     is_start_of_uu_title,
@@ -625,6 +628,15 @@ def test_clean_maybe_list_item():
         'istirahat antara jam kerja, sekurang',
     ]
 
+    # From UU 13 2003 Ketenagakerjaan [Penjelasan, I. Umum]
+    true_positive_unordered_list_squashed = '− Kebebasan Berserikat;  − Diskriminasi; '
+    assert clean_maybe_list_item(true_positive_unordered_list_squashed) == [
+        '−',
+        'Kebebasan Berserikat;',
+        '−',
+        'Diskriminasi;',
+    ]
+
 
 def test_get_id():
     bab_node = ComplexNode(type=Structure.BAB)
@@ -678,3 +690,19 @@ def test_is_start_of_penjelasan_title():
         'KETENAGAKERJAA',
     ]
     assert is_start_of_penjelasan_title(law, 0) == True
+
+
+def test_is_start_of_unordered_list_index():
+    # From UU 13 2003 Ketenagakerjaan [Penjelasan, I. Umum]
+    law = ['− Ordonansi tentang Pengerahan Orang Indonesia Untuk Melakukan Pekerjaan Di Luar Indonesia']
+    assert is_start_of_unordered_list_index(law, 0) == True
+
+
+def test_is_start_of_unordered_list_item():
+    law = ['− Ordonansi tentang Pengerahan Orang Indonesia Untuk Melakukan Pekerjaan Di Luar Indonesia']
+    assert is_start_of_unordered_list_item(law, 0) == True
+
+
+def test_is_start_of_unordered_list():
+    law = ['− Ordonansi tentang Pengerahan Orang Indonesia Untuk Melakukan Pekerjaan Di Luar Indonesia']
+    assert is_start_of_unordered_list(law, 0) == True
