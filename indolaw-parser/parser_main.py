@@ -1305,13 +1305,13 @@ def parse_penjelasan_title(parent: ComplexNode, law: List[str], start_index: int
     penjelasan_title_node.add_child(PrimitiveNode(
         type=Structure.PLAINTEXT, text=law[start_index]))
     penjelasan_title_node.add_child(PrimitiveNode(
-        type=Structure.PLAINTEXT, text=law[start_index]))
+        type=Structure.PLAINTEXT, text=law[start_index+1]))
     penjelasan_title_node.add_child(PrimitiveNode(type=Structure.UU_TITLE_YEAR_AND_NUMBER,
-                                                  text=law[start_index+1]))
+                                                  text=law[start_index+2]))
     penjelasan_title_node.add_child(PrimitiveNode(
-        type=Structure.PLAINTEXT, text=law[start_index+2]))
+        type=Structure.PLAINTEXT, text=law[start_index+3]))
     penjelasan_title_node.add_child(PrimitiveNode(type=Structure.UU_TITLE_TOPIC,
-                                                  text=law[start_index+3]))
+                                                  text=law[start_index+4]))
 
     end_index = start_index+4
     return end_index
