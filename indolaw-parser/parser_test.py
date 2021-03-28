@@ -37,6 +37,8 @@ from parser_is_start_of_x import (
     is_start_of_pasal_number,
     is_start_of_pasal,
     is_start_of_agreement,
+    is_start_of_penjelasan,
+    is_start_of_penjelasan_title,
     is_start_of_principles,
     is_start_of_considerations,
     is_start_of_preface,
@@ -654,3 +656,25 @@ def test_get_id():
     pasal_node.add_child(PrimitiveNode(
         type=Structure.PASAL_NUMBER, text="Pasal 12"))
     assert get_id(pasal_node) == 'pasal-12'
+
+
+def test_is_start_of_penjelasan():
+    law = [
+        'PENJELASAN',
+        'UNDANG-UNDANG REPUBLIK INDONESIA',
+        'NOMOR 13 TAHUN 2003',
+        'TENTANG',
+        'KETENAGAKERJAA',
+    ]
+    assert is_start_of_penjelasan(law, 0) == True
+
+
+def test_is_start_of_penjelasan_title():
+    law = [
+        'PENJELASAN',
+        'UNDANG-UNDANG REPUBLIK INDONESIA',
+        'NOMOR 13 TAHUN 2003',
+        'TENTANG',
+        'KETENAGAKERJAA',
+    ]
+    assert is_start_of_penjelasan_title(law, 0) == True

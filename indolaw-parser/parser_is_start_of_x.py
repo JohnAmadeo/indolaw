@@ -96,6 +96,11 @@ def is_start_of_structure(structure: Structure, law: List[str], start_index: int
         return is_start_of_closing(law, start_index)
     elif structure == Structure.LEMBARAN_NUMBER:
         return is_start_of_lembaran_number(law, start_index)
+    # PENJELASAN
+    elif structure == Structure.PENJELASAN:
+        return is_start_of_penjelasan(law, start_index)
+    elif structure == Structure.PENJELASAN_TITLE:
+        return is_start_of_penjelasan_title(law, start_index)
     # OTHERS
     elif structure == Structure.PLAINTEXT:
         return is_start_of_plaintext(law, start_index)
@@ -728,6 +733,61 @@ def is_start_of_lembaran_number(law: List[str], start_index: int) -> bool:
         r'LEMBARAN NEGARA REPUBLIK INDONESIA TAHUN [0-9]{4} NOMOR [0-9]+',
         law[start_index]
     )
+
+
+def is_start_of_penjelasan(law: List[str], start_index: int) -> bool:
+    """Checks if law[start_index] marks the start of a PENJELASAN structure.
+    A PENJELASAN structure always begin with a PENJELASAN_TITLE structure, and the first line
+    of an PENJELASAN_TITLE structure always marks the start of an PENJELASAN structure.
+
+    Args:
+        law: ordered list of strings that contain the text of the law we want to parse
+        start_index: law[start_index] indicates the 1st line of the structure we want to check
+
+    Returns:
+        bool: True if law[start_index] marks the start of a PENJELASAN structure; False otherwise
+
+    Examples:
+        e.g
+        >>> law = [
+        ...     'PENJELASAN',
+        ...     'UNDANG-UNDANG REPUBLIK INDONESIA',
+        ...     'NOMOR 13 TAHUN 2003',
+        ...     'TENTANG',
+        ...     'KETENAGAKERJAA',
+        ... ]
+
+        >>> is_start_of_penjelasan(law, 0)
+        True
+    """
+    return is_start_of_penjelasan_title(law, start_index)
+
+
+def is_start_of_penjelasan_title(law: List[str], start_index: int) -> bool:
+    """Checks if law[start_index] marks the start of a PENJELASAN_TITLE structure.
+
+    Args:
+        law: ordered list of strings that contain the text of the law we want to parse
+        start_index: law[start_index] indicates the 1st line of the structure we want to check
+
+    Returns:
+        bool: True if law[start_index] marks the start of a PENJELASAN_TITLE structure; False otherwise
+
+    Examples:
+        e.g
+        >>> law = [
+        ...     'PENJELASAN',
+        ...     'UNDANG-UNDANG REPUBLIK INDONESIA',
+        ...     'NOMOR 13 TAHUN 2003',
+        ...     'TENTANG',
+        ...     'KETENAGAKERJAA',
+        ... ]
+
+        >>> is_start_of_penjelasan_title(law, 0)
+        True
+    """
+    return is_heading(r'PENJELASAN', law[start_index]) and \
+        is_heading(r'UNDANG-UNDANG REPUBLIK INDONESIA', law[start_index+1])
 
 
 def is_start_of_list(law: List[str], start_index: int) -> bool:
