@@ -670,11 +670,60 @@ def is_start_of_bab_title(law: List[str], start_index: int) -> bool:
 
 
 def is_start_of_closing(law: List[str], start_index: int) -> bool:
+    """Checks if law[start_index] marks the start of a CLOSING structure.
+
+    Args:
+        law: ordered list of strings that contain the text of the law we want to parse
+        start_index: law[start_index] indicates the 1st line of the structure we want to check
+
+    Returns:
+        bool: True if law[start_index] marks the start of a CLOSING structure; False otherwise
+
+    Examples:
+        e.g
+        >>> law = [
+        ...     'Agar setiap orang mengetahuinya, memerintahkan pengundangan Undang-Undang ini dengan penempatannya dalam Lembaran Negara Republik Indonesia.'
+        ...     'Disahkan Di Jakarta,',
+        ...     'Pada Tanggal 25 Maret 2003',
+        ...     'PRESIDEN REPUBLIK INDONESIA,',
+        ...     'Ttd.',
+        ...     'MEGAWATI SOEKARNOPUTRI',
+        ...     'Diundangkan Di Jakarta,',
+        ...     'Pada Tanggal 25 Maret 2003',
+        ...     'SEKRETARIS NEGARA REPUBLIK INDONESIA',
+        ...     'Ttd.',
+        ...     'BAMBANG KESOWO',
+        ...     'LEMBARAN NEGARA REPUBLIK INDONESIA TAHUN 2003 NOMOR 39 ',
+        ...     ...,
+        ... ]
+
+        >>> is_start_of_closing(law, 1)
+        True
+    """
     return 'Lembaran Negara Republik Indonesia'.lower() in law[start_index-1].lower() and\
         'Disahkan Di Jakarta'.lower() in law[start_index].lower()
 
 
 def is_start_of_lembaran_number(law: List[str], start_index: int) -> bool:
+    """Checks if law[start_index] marks the start of a LEMBARAN_NUMBER structure.
+
+    Args:
+        law: ordered list of strings that contain the text of the law we want to parse
+        start_index: law[start_index] indicates the 1st line of the structure we want to check
+
+    Returns:
+        bool: True if law[start_index] marks the start of a LEMBARAN_NUMBER structure; False otherwise
+
+    Examples:
+        e.g
+        >>> law = [
+        ...     'LEMBARAN NEGARA REPUBLIK INDONESIA TAHUN 2003 NOMOR 39 ',
+        ...     ...,
+        ... ]
+
+        >>> is_start_of_lembaran_number(law, 0)
+        True
+    """
     return is_heading(
         r'LEMBARAN NEGARA REPUBLIK INDONESIA TAHUN [0-9]{4} NOMOR [0-9]+',
         law[start_index]
