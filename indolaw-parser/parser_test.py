@@ -38,7 +38,7 @@ from parser_is_start_of_x import (
     is_start_of_pasal,
     is_start_of_agreement,
     is_start_of_penjelasan,
-    is_start_of_penjelasan_title,
+    is_start_of_penjelasan_title, is_start_of_penjelasan_umum, is_start_of_penjelasan_umum_title,
     is_start_of_principles,
     is_start_of_considerations,
     is_start_of_preface,
@@ -706,3 +706,19 @@ def test_is_start_of_unordered_list_item():
 def test_is_start_of_unordered_list():
     law = ['− Ordonansi tentang Pengerahan Orang Indonesia Untuk Melakukan Pekerjaan Di Luar Indonesia']
     assert is_start_of_unordered_list(law, 0) == True
+
+
+def test_is_start_of_penjelasan_umum():
+    law = [
+        'I. UMUM',
+        'Pembangunan ketenagakerjaan sebagai bagian integral...',
+    ]
+    assert is_start_of_penjelasan_umum(law, 0) == True
+
+
+def test_is_start_of_penjelasan_umum_title():
+    law = [
+        'I. UMUM',
+        'Pembangunan ketenagakerjaan sebagai bagian integral...',
+    ]
+    assert is_start_of_penjelasan_umum_title(law, 0) == True

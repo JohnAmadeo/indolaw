@@ -101,6 +101,10 @@ def is_start_of_structure(structure: Structure, law: List[str], start_index: int
         return is_start_of_penjelasan(law, start_index)
     elif structure == Structure.PENJELASAN_TITLE:
         return is_start_of_penjelasan_title(law, start_index)
+    elif structure == Structure.PENJELASAN_UMUM:
+        return is_start_of_penjelasan_umum(law, start_index)
+    elif structure == Structure.PENJELASAN_UMUM_TITLE:
+        return is_start_of_penjelasan_umum_title(law, start_index)
     elif structure == Structure.UNORDERED_LIST:
         return is_start_of_unordered_list(law, start_index)
     elif structure == Structure.UNORDERED_LIST_ITEM:
@@ -767,6 +771,14 @@ def is_start_of_penjelasan(law: List[str], start_index: int) -> bool:
         True
     """
     return is_start_of_penjelasan_title(law, start_index)
+
+
+def is_start_of_penjelasan_umum(law: List[str], start_index: int) -> bool:
+    return is_start_of_penjelasan_umum_title(law, start_index)
+
+
+def is_start_of_penjelasan_umum_title(law: List[str], start_index: int) -> bool:
+    return is_heading(r'I. UMUM', law[start_index])
 
 
 def is_start_of_penjelasan_title(law: List[str], start_index: int) -> bool:

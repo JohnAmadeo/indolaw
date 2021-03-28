@@ -1245,6 +1245,8 @@ def parse_penjelasan(parent: ComplexNode, law: List[str], start_index: int) -> i
     parent.add_child(penjelasan_node)
 
     end_index = parse_penjelasan_title(penjelasan_node, law, start_index)
+    end_index = parse_penjelasan_umum(
+        penjelasan_node,  law, start_index=end_index+1)
 
     return end_index
 
@@ -1315,6 +1317,27 @@ def parse_penjelasan_title(parent: ComplexNode, law: List[str], start_index: int
                                                   text=law[start_index+4]))
 
     end_index = start_index+4
+    return end_index
+
+
+def parse_penjelasan_umum(parent: ComplexNode, law: List[str], start_index: int) -> int:
+    penjelasan_umum_node = ComplexNode(type=Structure.PENJELASAN_UMUM)
+    parent.add_child(penjelasan_umum_node)
+
+    penjelasan_umum_node.add_child(PrimitiveNode(
+        type=Structure.PENJELASAN_UMUM_TITLE, text=law[start_index]))
+
+    end_index = parse_complex_structure(
+        penjelasan_umum_node,
+        law,
+        start_index+1,
+        # TODO(johnamadeo): Clarify that this should be next ancestor strucutres
+        ancestor_structures=[
+        ],
+        # TODO(johnamadeo): Add PENJELASAN_PASAL_DEMI_PASAL
+        sibling_structures=[],
+        child_structures=TEXT_BLOCK_STRUCTURES)
+
     return end_index
 
 
@@ -1403,6 +1426,8 @@ def parse_structure(
         return parse_closing(parent, law, start_index)
     elif structure == Structure.PENJELASAN:
         return parse_penjelasan(parent, law, start_index)
+    elif structure == Structure.PENJELASAN_UMUM:
+        return parse_penjelasan_umum(parent, law, start_index)
     elif structure == Structure.UNORDERED_LIST:
         return parse_unordered_list(parent, law, start_index)
     else:
