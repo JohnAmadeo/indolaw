@@ -303,7 +303,13 @@ def get_squashed_list_item(line):
         >>> get_squashed_list_item('nasi goreng; 3. bakmie ayam;')
         13
     '''
-    line_ending_regex = [r'(;)', r'(:)', r'(\.)', r'(; dan/atau)']
+    line_ending_regex = [
+        r'(;)',
+        r'(:)',
+        r'(\.)',
+        r'(; dan/atau)',
+        r'(; dan)'
+    ]
     list_index_regex = [r'([a-z]\. )', r'([0-9]+\. )', r'(\([0-9]+\) )']
     unordered_list_index_regex = [r'(\u2212 )']
     penjelasan_list_index_regex = [r'(Huruf [a-z])', r'(Ayat \([0-9]+\))']
