@@ -15,7 +15,6 @@ export default function PrimitiveStructure(props: {
         div {
           margin: 4px 0;
           font-size: 18px;
-          // border: "1px solid red";
         }
       `}</style>
       <p>{type === Structure.PLAINTEXT ? maybeLinkToOtherLaws(text) : text}</p>

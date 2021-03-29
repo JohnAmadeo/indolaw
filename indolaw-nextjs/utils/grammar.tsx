@@ -3,10 +3,17 @@ import PrimitiveStructure from "components/PrimitiveStructure";
 import ListItem from "components/ListItem";
 import StructureWithTitleAndNumber from "components/StructureWithTitleAndNumber";
 import Opening from "components/Opening";
+import CenteredHeading from "components/CenteredHeading";
+import Penjelasan from "components/Penjelasan";
+import { CSSProperties } from "react";
+import PenjelasanUmum from "components/PenjelasanUmum";
 
 export enum Structure {
   UNDANG_UNDANG = "UNDANG_UNDANG",
   OPENING = "OPENING",
+  UU_TITLE = "UU_TITLE",
+  PREFACE = "PREFACE",
+  AGREEMENT = "AGREEMENT",
   CONSIDERATIONS = "CONSIDERATIONS",
   PRINCIPLES = "PRINCIPLES",
   BAB = "BAB",
@@ -20,9 +27,18 @@ export enum Structure {
   PARAGRAF = "PARAGRAF",
   PARAGRAF_TITLE = "PARAGRAF_TITLE",
   PARAGRAF_NUMBER = "PARAGRAF_NUMBER",
+  CLOSING = "CLOSING",
+  PENJELASAN = "PENJELASAN",
+  PENJELASAN_TITLE = "PENJELASAN_TITLE",
+  PENJELASAN_UMUM = "PENJELASAN_UMUM",
+  PENJELASAN_UMUM_TITLE = "PENJELASAN_UMUM_TITLE",
+  PENJELASAN_PASAL_DEMI_PASAL = "PENJELASAN_PASAL_DEMI_PASAL",
+  PENJELASAN_PASAL_DEMI_PASAL_TITLE = "PENJELASAN_PASAL_DEMI_PASAL_TITLE",
   PLAINTEXT = "PLAINTEXT",
   LIST = "LIST",
   LIST_ITEM = "LIST_ITEM",
+  UNORDERED_LIST = "UNORDERED_LIST",
+  UNORDERED_LIST_ITEM = "UNORDERED_LIST_ITEM",
   LIST_INDEX = "LIST_INDEX",
   NUMBER_WITH_BRACKETS = "NUMBER_WITH_BRACKETS",
   NUMBER_WITH_DOT = "NUMBER_WITH_DOT",
@@ -66,8 +82,14 @@ export function renderStructure(
   key?: string | number,
 ) {
   switch (structure.type) {
-    case Structure.OPENING:
-      return <Opening key={key} structure={structure as Complex} />;
+    case Structure.UU_TITLE:
+    case Structure.PREFACE:
+    case Structure.AGREEMENT:
+    case Structure.CLOSING:
+    case Structure.PENJELASAN_TITLE:
+      return <CenteredHeading key={key} structure={structure as Complex} />;
+    case Structure.PENJELASAN:
+      return <Penjelasan key={key} structure={structure as Complex} />;
     case Structure.PLAINTEXT:
     case Structure.BAB_NUMBER:
     case Structure.BAB_TITLE:
@@ -76,16 +98,25 @@ export function renderStructure(
     case Structure.BAGIAN_TITLE:
     case Structure.PARAGRAF_NUMBER:
     case Structure.PARAGRAF_TITLE:
+    case Structure.PENJELASAN_UMUM_TITLE:
+    case Structure.PENJELASAN_PASAL_DEMI_PASAL_TITLE:
       return <PrimitiveStructure key={key} structure={structure as Primitive} />;
+    case Structure.PENJELASAN_UMUM:
+      return <PenjelasanUmum key={key} structure={structure as Complex} />;
     case Structure.BAB:
     case Structure.BAGIAN:
     case Structure.PARAGRAF:
       return <StructureWithTitleAndNumber key={key} structure={structure as Complex} />;
+    case Structure.OPENING:
     case Structure.CONSIDERATIONS:
     case Structure.PRINCIPLES:
+    case Structure.PENJELASAN_UMUM:
+    case Structure.PENJELASAN_PASAL_DEMI_PASAL:
     case Structure.LIST:
+    case Structure.UNORDERED_LIST:
       return renderChildren(structure as Complex, key);
     case Structure.LIST_ITEM:
+    case Structure.UNORDERED_LIST_ITEM:
       return <ListItem key={key} structure={structure as Complex} />;
     case Structure.PASAL:
       return <Pasal key={key} structure={structure as Complex} />;
