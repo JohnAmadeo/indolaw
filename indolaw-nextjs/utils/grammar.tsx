@@ -2,9 +2,11 @@ import Pasal from "components/Pasal";
 import PrimitiveStructure from "components/PrimitiveStructure";
 import ListItem from "components/ListItem";
 import StructureWithTitleAndNumber from "components/StructureWithTitleAndNumber";
+import Opening from "components/Opening";
 
 export enum Structure {
   UNDANG_UNDANG = "UNDANG_UNDANG",
+  OPENING = "OPENING",
   BAB = "BAB",
   BAB_NUMBER = "BAB_NUMBER",
   BAB_TITLE = "BAB_TITLE",
@@ -62,6 +64,8 @@ export function renderStructure(
   key?: string | number,
 ) {
   switch (structure.type) {
+    case Structure.OPENING:
+      return <Opening key={key} structure={structure as Complex} />;
     case Structure.PLAINTEXT:
     case Structure.BAB_NUMBER:
     case Structure.BAB_TITLE:
