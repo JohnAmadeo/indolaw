@@ -231,6 +231,24 @@ def clean_law(law: List[str]) -> List[str]:
         list_item = clean_maybe_list_item(line)
         new_law.extend(list_item)
 
+    law = new_law
+
+    '''
+    Stitch together plaintext lines that get separated into 2 lines due to page breaks
+    '''
+    new_law = []
+    for i, line in enumerate(law):
+        '''
+        the line length check is a heuristic to filter out false positives from the
+        lowercase check due to list indexes e.g 'e.'
+        '''
+        is_curr_line_split_plaintext = len(law[i]) > 10 and line[0].islower()
+        is_prev_line_split_plaintext = len(law[i-1]) > 10 if i > 0 else False
+        if is_curr_line_split_plaintext and is_prev_line_split_plaintext:
+            new_law[-1] += (' '+line)
+        else:
+            new_law.append(line)
+
     return new_law
 
 
