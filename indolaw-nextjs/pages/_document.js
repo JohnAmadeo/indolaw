@@ -12,7 +12,7 @@ class MyDocument extends Document {
         <Head>
           <link
             rel="stylesheet"
-            href="https://fonts.googleapis.com/css?family=Merriweather|Merriweather+Sans"
+            href="https://fonts.googleapis.com/css2?family=Merriweather+Sans:wght@400;700&family=Merriweather:wght@400;700&display=swap"
           />
           <link
             href="https://fonts.googleapis.com/icon?family=Material+Icons"

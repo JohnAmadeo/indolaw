@@ -2,9 +2,8 @@ import PrimitiveStructure from "components/PrimitiveStructure";
 import ListItem from "components/ListItem";
 import StructureWithHeading from "components/StructureWithHeading";
 import CenteredHeading from "components/CenteredHeading";
-import Penjelasan from "components/Penjelasan";
 import { CSSProperties } from "react";
-import PenjelasanUmum from "components/PenjelasanUmum";
+import PenjelasanListItem from "components/PenjelasanListItem";
 
 export enum Structure {
   UNDANG_UNDANG = "UNDANG_UNDANG",
@@ -32,6 +31,7 @@ export enum Structure {
   PENJELASAN_UMUM_TITLE = "PENJELASAN_UMUM_TITLE",
   PENJELASAN_PASAL_DEMI_PASAL = "PENJELASAN_PASAL_DEMI_PASAL",
   PENJELASAN_PASAL_DEMI_PASAL_TITLE = "PENJELASAN_PASAL_DEMI_PASAL_TITLE",
+  PENJELASAN_LIST_ITEM = "PENJELASAN_LIST_ITEM",
   PLAINTEXT = "PLAINTEXT",
   LIST = "LIST",
   LIST_ITEM = "LIST_ITEM",
@@ -78,8 +78,8 @@ export interface Complex {
 export function renderStructure(
   structure: Complex | Primitive,
   key?: string | number,
+  isMobile?: boolean,
 ) {
-  // TODO: CenteredHeading, StructureWithHeading, and Pasal need to be combined in a sensible way
   switch (structure.type) {
     case Structure.UU_TITLE:
     case Structure.PREFACE:
@@ -88,9 +88,29 @@ export function renderStructure(
     case Structure.PENJELASAN_TITLE:
       return <CenteredHeading key={key} structure={structure as Complex} />;
     case Structure.PENJELASAN:
-      // TODO: Doesn't need to be separate component - can collapse here
-      return <Penjelasan key={key} structure={structure as Complex} />;
+      return (
+        <>
+          <style jsx>{`
+            div {
+              margin: 144px 0 0 0;
+            }
+          `}</style>
+          <div>
+            {renderChildren(structure as Complex)}
+          </div>
+        </>
+      );
     case Structure.PLAINTEXT:
+      const customStyle: CSSProperties = {
+        textAlign: isMobile ? "start" : "justify",
+      };
+      return (
+        <PrimitiveStructure
+          key={key}
+          structure={structure as Primitive}
+          customStyle={customStyle}
+        />
+      );
     case Structure.BAB_NUMBER:
     case Structure.BAB_TITLE:
     case Structure.PASAL_NUMBER:
@@ -98,11 +118,19 @@ export function renderStructure(
     case Structure.BAGIAN_TITLE:
     case Structure.PARAGRAF_NUMBER:
     case Structure.PARAGRAF_TITLE:
+      return <PrimitiveStructure key={key} structure={structure as Primitive} />;
     case Structure.PENJELASAN_UMUM_TITLE:
     case Structure.PENJELASAN_PASAL_DEMI_PASAL_TITLE:
-      return <PrimitiveStructure key={key} structure={structure as Primitive} />;
-    case Structure.PENJELASAN_UMUM:
-      return <PenjelasanUmum key={key} structure={structure as Complex} />;
+      const headingStyle: CSSProperties = {
+        fontWeight: 700,
+      };
+      return (
+        <PrimitiveStructure
+          key={key}
+          structure={structure as Primitive}
+          customStyle={headingStyle}
+        />
+      );
     case Structure.BAB:
     case Structure.BAGIAN:
     case Structure.PARAGRAF:
@@ -125,13 +153,28 @@ export function renderStructure(
     case Structure.CONSIDERATIONS:
     case Structure.PRINCIPLES:
     case Structure.PENJELASAN_UMUM:
-    case Structure.PENJELASAN_PASAL_DEMI_PASAL:
+    case Structure.PENJELASAN_UMUM:
     case Structure.LIST:
     case Structure.UNORDERED_LIST:
       return renderChildren(structure as Complex, key);
+    case Structure.PENJELASAN_PASAL_DEMI_PASAL:
+      return (
+        <>
+          <style jsx>{`
+            div {
+              margin: 48px 0 0 0;
+            }
+          `}</style>
+          <div>
+            {renderChildren(structure as Complex, key)}
+          </div>
+        </>
+      );
     case Structure.LIST_ITEM:
     case Structure.UNORDERED_LIST_ITEM:
       return <ListItem key={key} structure={structure as Complex} />;
+    case Structure.PENJELASAN_LIST_ITEM:
+      return <PenjelasanListItem key={key} structure={structure as Complex} />;
     default:
       return <></>;
   }

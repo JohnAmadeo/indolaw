@@ -11,6 +11,7 @@ export default function StructureWithHeading(props: {
     marginLeft: "0px",
     textAlign: "center",
     margin: "8px 0",
+    fontWeight: 700,
   };
 
   return (
@@ -31,7 +32,9 @@ export default function StructureWithHeading(props: {
             />
           ))}
       </div>
-      {structure.children.slice(numOfHeadingLines).map(renderStructure)}
+      {structure.children
+        .slice(numOfHeadingLines)
+        .map((child, idx) => renderStructure(child, idx))}
     </>
   );
 }
