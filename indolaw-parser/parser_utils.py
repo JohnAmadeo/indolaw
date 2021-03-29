@@ -13,7 +13,7 @@ from parser_is_start_of_x import (
     is_start_of_number_with_dot_str,
     is_start_of_letter_with_dot_str,
     is_start_of_first_list_index,
-    is_start_of_list_index_str,
+    is_start_of_list_index_str, is_start_of_penjelasan_ayat_str, is_start_of_penjelasan_huruf_str,
     is_start_of_unordered_list_index_str,
 )
 
@@ -73,6 +73,12 @@ def get_list_index_type(list_index_str: str) -> Optional[Structure]:
         >>> get_list_index_type('3.')
         Structure.NUMBER_WITH_DOT
 
+        >>> get_list_index_type('Ayat (4)')
+        Structure.PENJELASAN_AYAT
+
+        >>> get_list_index_type('Huruf e')
+        Structure.PENJELASAN_HURUF
+
         >>> get_list_index_type('cara berpikir kreatif')
         None
 
@@ -85,6 +91,10 @@ def get_list_index_type(list_index_str: str) -> Optional[Structure]:
         return Structure.NUMBER_WITH_DOT
     elif is_start_of_letter_with_dot_str(list_index_str):
         return Structure.LETTER_WITH_DOT
+    elif is_start_of_penjelasan_ayat_str(list_index_str):
+        return Structure.PENJELASAN_AYAT
+    elif is_start_of_penjelasan_huruf_str(list_index_str):
+        return Structure.PENJELASAN_HURUF
     else:
         return None
 
@@ -107,6 +117,12 @@ def get_list_index_as_num(list_index_str: str) -> int:
 
         >>> get_list_index_as_num('(8)')
         8
+
+        >>> get_list_index_as_num('Ayat (8)')
+        8
+
+        >>> get_list_index_as_num('Huruf d')
+        4
     """
     regex = None
     if is_start_of_number_with_brackets_str(list_index_str):
@@ -115,6 +131,10 @@ def get_list_index_as_num(list_index_str: str) -> int:
         regex = r'([0-9]+)\.'
     elif is_start_of_letter_with_dot_str(list_index_str):
         regex = r'([a-z])\.'
+    elif is_start_of_penjelasan_huruf_str(list_index_str):
+        regex = r'Huruf ([a-z])'
+    elif is_start_of_penjelasan_ayat_str(list_index_str):
+        regex = r'Ayat \(([0-9]+)\)'
     else:
         raise Exception('list_index_str is not a list index')
 
@@ -286,10 +306,11 @@ def get_squashed_list_item(line):
     line_ending_regex = [r'(;)', r'(:)', r'(\.)', r'(; dan/atau)']
     list_index_regex = [r'([a-z]\. )', r'([0-9]+\. )', r'(\([0-9]+\) )']
     unordered_list_index_regex = [r'(\u2212 )']
+    penjelasan_list_index_regex = [r'(Huruf [a-z])', r'(Ayat \([0-9]+\))']
 
     regexes = []
     for i in line_ending_regex:
-        for j in list_index_regex + unordered_list_index_regex:
+        for j in list_index_regex + unordered_list_index_regex + penjelasan_list_index_regex:
             regexes.append(i + r'\s+' + j)
 
     '''
@@ -363,9 +384,9 @@ def print_around(law: List[str], i: int) -> None:
     print(f'''
 Below are lines {i} and the lines right before & after
 --------------
-{law[i-1] if i > 0 else ''}
+{law[i-1] if i > 0 else '[NO PREVIOUS LINE]'}
 {law[i]}
-{law[i+1]}
+{law[i+1] if (i+1) < len(law) else '[NO NEXT LINE]'}
 --------------
     ''')
 
@@ -421,6 +442,11 @@ def get_id(node: ComplexNode) -> str:
         return f'bab-{str(bab_number_int)}'
 
     elif node.type == Structure.PASAL:
+        # We want the unique ID to be associated w/ the actual pasal, not the
+        # penjelasan tambahan at the end of the law
+        if node.parent is None or node.parent.type == Structure.PENJELASAN_PASAL_DEMI_PASAL:
+            return ''
+
         pasal_number_node = node.children[0]
         assert isinstance(pasal_number_node, PrimitiveNode) and \
             pasal_number_node.type == Structure.PASAL_NUMBER

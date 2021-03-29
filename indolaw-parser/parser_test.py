@@ -38,7 +38,13 @@ from parser_is_start_of_x import (
     is_start_of_pasal,
     is_start_of_agreement,
     is_start_of_penjelasan,
-    is_start_of_penjelasan_title, is_start_of_penjelasan_umum, is_start_of_penjelasan_umum_title,
+    is_start_of_penjelasan_ayat_str,
+    is_start_of_penjelasan_huruf_str, 
+    is_start_of_penjelasan_pasal_demi_pasal,
+    is_start_of_penjelasan_pasal_demi_pasal_title,
+    is_start_of_penjelasan_title,
+    is_start_of_penjelasan_umum,
+    is_start_of_penjelasan_umum_title,
     is_start_of_principles,
     is_start_of_considerations,
     is_start_of_preface,
@@ -80,6 +86,8 @@ def test_get_list_index_type():
     assert get_list_index_type('a.') == Structure.LETTER_WITH_DOT
     assert get_list_index_type('(2)') == Structure.NUMBER_WITH_BRACKETS
     assert get_list_index_type('3.') == Structure.NUMBER_WITH_DOT
+    assert get_list_index_type('Ayat (4)') == Structure.PENJELASAN_AYAT
+    assert get_list_index_type('Huruf e') == Structure.PENJELASAN_HURUF
     assert get_list_index_type('cara berpikir kreatif') == None
     assert get_list_index_type('a. cara berpikir kreatif') == None
 
@@ -88,6 +96,8 @@ def test_get_list_index_as_num():
     assert get_list_index_as_num('d.') == 4
     assert get_list_index_as_num('13.') == 13
     assert get_list_index_as_num('(8)') == 8
+    assert get_list_index_as_num('Ayat (8)') == 8
+    assert get_list_index_as_num('Huruf d') == 4
     with pytest.raises(Exception):
         get_list_index_as_num('Berhubungan dengan peraturan...')
 
@@ -140,10 +150,19 @@ def test_clean_law():
 def test_is_start_of_first_list_index():
     assert is_start_of_first_list_index('a.') == True
     assert is_start_of_first_list_index('b.') == False
+
     assert is_start_of_first_list_index('1.') == True
     assert is_start_of_first_list_index('2.') == False
+
     assert is_start_of_first_list_index('(1)') == True
     assert is_start_of_first_list_index('(2)') == False
+
+    assert is_start_of_first_list_index('Ayat (1)') == True
+    assert is_start_of_first_list_index('Ayat (2)') == False
+
+    assert is_start_of_first_list_index('Huruf a') == True
+    assert is_start_of_first_list_index('Huruf b') == False
+
     assert is_start_of_first_list_index('dengan adanya...') == False
 
 
@@ -637,6 +656,19 @@ def test_clean_maybe_list_item():
         'Diskriminasi;',
     ]
 
+    # From UU 13 2003 Ketenagakerjaan [Penjelasan, II. Pasal demi Pasal, Pasal 4, Huruf b/c]
+    true_positive_penjelasan_huruf = 'Penempatan tenaga kerja diatur agar mengisi kebutuhan seluruh daerah.  Huruf c'
+    assert clean_maybe_list_item(true_positive_penjelasan_huruf) == [
+        'Penempatan tenaga kerja diatur agar mengisi kebutuhan seluruh daerah.',
+        'Huruf c'
+    ]
+
+    true_positive_penjelasan_ayat = 'Penempatan tenaga kerja diatur agar mengisi kebutuhan seluruh daerah.  Ayat (12)'
+    assert clean_maybe_list_item(true_positive_penjelasan_ayat) == [
+        'Penempatan tenaga kerja diatur agar mengisi kebutuhan seluruh daerah.',
+        'Ayat (12)'
+    ]
+
 
 def test_get_id():
     bab_node = ComplexNode(type=Structure.BAB)
@@ -722,3 +754,32 @@ def test_is_start_of_penjelasan_umum_title():
         'Pembangunan ketenagakerjaan sebagai bagian integral...',
     ]
     assert is_start_of_penjelasan_umum_title(law, 0) == True
+
+
+def test_is_start_of_penjelasan_huruf_str():
+    assert is_start_of_penjelasan_huruf_str('Huruf e') == True
+    assert is_start_of_penjelasan_huruf_str('Huruf e.') == False
+    assert is_start_of_penjelasan_huruf_str('e.') == False
+    assert is_start_of_penjelasan_huruf_str(
+        'Yang dimaksud dengan Huruf e') == False
+
+
+def test_is_start_of_penjelasan_ayat_str():
+    assert is_start_of_penjelasan_ayat_str('Ayat (2)') == True
+    assert is_start_of_penjelasan_ayat_str('(2)') == False
+    assert is_start_of_penjelasan_ayat_str(
+        'Yang dimaksud dengan Ayat (2)') == False
+
+
+def test_is_start_of_penjelasan_pasal_demi_pasal():
+    assert is_start_of_penjelasan_pasal_demi_pasal(
+        ['II. PASAL DEMI PASAL'], 0) == True
+    assert is_start_of_penjelasan_pasal_demi_pasal(
+        ['I. PASAL DEMI PASAL'], 0) == False
+
+
+def test_is_start_of_penjelasan_pasal_demi_pasal_title():
+    assert is_start_of_penjelasan_pasal_demi_pasal_title(
+        ['II. PASAL DEMI PASAL'], 0) == True
+    assert is_start_of_penjelasan_pasal_demi_pasal_title(
+        ['I. PASAL DEMI PASAL'], 0) == False

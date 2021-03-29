@@ -3,6 +3,8 @@ import sys
 from typing import Any, Dict, List, Tuple, Union
 
 from parser_types import (
+    NORMAL_LIST_INDEX_STRUCTURES,
+    PENJELASAN_LIST_INDEX_STRUCTURES,
     Structure,
     TEXT_BLOCK_STRUCTURES,
     PRIMITIVE_STRUCTURES,
@@ -10,6 +12,9 @@ from parser_types import (
     ComplexNode
 )
 from parser_is_start_of_x import (
+    is_start_of_penjelasan_ayat,
+    is_start_of_penjelasan_huruf,
+    is_start_of_penjelasan_list_index_str,
     is_start_of_structure,
     is_start_of_first_list_index,
     is_start_of_any,
@@ -944,8 +949,41 @@ def parse_list(parent: ComplexNode, law: List[str], start_index: int) -> int:
                 pass
 
         # LIST's only child structure is LIST_ITEM
-        end_index = parse_list_item(list_node, law, start_index)
+        list_index_type = get_list_index_type(law[start_index])
+        if list_index_type in NORMAL_LIST_INDEX_STRUCTURES:
+            end_index = parse_list_item(list_node, law, start_index)
+        elif list_index_type in PENJELASAN_LIST_INDEX_STRUCTURES:
+            end_index = parse_penjelasan_list_item(list_node, law, start_index)
+        else:
+            crash(law, start_index, 'Not a list index')
+
         start_index = end_index + 1
+
+    return end_index
+
+
+def parse_penjelasan_list_item(parent: ComplexNode, law: List[str], start_index: int) -> int:
+    '''
+    TODO(johnamadeo)
+    '''
+    penjelasan_list_item_node = ComplexNode(
+        type=Structure.PENJELASAN_LIST_ITEM)
+    parent.add_child(penjelasan_list_item_node)
+
+    parse_list_index(penjelasan_list_item_node, law, start_index)
+    start_index += 1
+
+    if is_start_of_penjelasan_list_index_str(law[start_index]):
+        end_index = parse_list(penjelasan_list_item_node, law, start_index)
+    else:
+        end_index = parse_complex_structure(
+            penjelasan_list_item_node,
+            law,
+            start_index=start_index,
+            ancestor_structures=[Structure.PASAL],
+            sibling_structures=[Structure.PENJELASAN_LIST_ITEM],
+            child_structures=TEXT_BLOCK_STRUCTURES,
+        )
 
     return end_index
 
@@ -1038,7 +1076,7 @@ def parse_list_item(parent: ComplexNode, law: List[str], start_index: int) -> in
         type=Structure.PLAINTEXT, text=law[start_index+1]))
 
     '''
-    the 3rd line is either a nested list that is the child of this list item,
+    the 3rd line is either a nested list/nested unordered list that is the child of this list item,
     or it marks the start of a sibling or ancestor structure
     '''
     non_recursive_ancestors = [
@@ -1102,10 +1140,12 @@ def parse_list_item(parent: ComplexNode, law: List[str], start_index: int) -> in
                 child_structure = Structure.LIST
             else:
                 return end_index
+        elif is_start_of_unordered_list_item(law, start_index):
+            child_structure = Structure.UNORDERED_LIST
 
         if child_structure == None:
-            raise Exception(
-                'parse_list_item: child is neither a list or plaintext')
+            crash(law, start_index,
+                  'parse_list_item: child is neither a list or plaintext')
 
         assert child_structure is not None  # mypy type hint
         end_index = parse_structure(
@@ -1150,6 +1190,12 @@ def parse_list_index(parent: ComplexNode, law: List[str], i: int) -> None:
     elif is_start_of_number_with_brackets(law, i):
         parent.add_child(PrimitiveNode(
             type=Structure.NUMBER_WITH_BRACKETS, text=law[i]))
+    elif is_start_of_penjelasan_ayat(law, i):
+        parent.add_child(PrimitiveNode(
+            type=Structure.PENJELASAN_AYAT, text=law[i]))
+    elif is_start_of_penjelasan_huruf(law, i):
+        parent.add_child(PrimitiveNode(
+            type=Structure.PENJELASAN_HURUF, text=law[i]))
     else:
         crash(law, i, f'line {i} is not a list index')
 
@@ -1246,7 +1292,9 @@ def parse_penjelasan(parent: ComplexNode, law: List[str], start_index: int) -> i
 
     end_index = parse_penjelasan_title(penjelasan_node, law, start_index)
     end_index = parse_penjelasan_umum(
-        penjelasan_node,  law, start_index=end_index+1)
+        penjelasan_node, law, start_index=end_index+1)
+    end_index = parse_penjelasan_pasal_demi_pasal(
+        penjelasan_node, law, start_index=end_index+1)
 
     return end_index
 
@@ -1321,6 +1369,9 @@ def parse_penjelasan_title(parent: ComplexNode, law: List[str], start_index: int
 
 
 def parse_penjelasan_umum(parent: ComplexNode, law: List[str], start_index: int) -> int:
+    '''
+    TODO(@johnamadeo)
+    '''
     penjelasan_umum_node = ComplexNode(type=Structure.PENJELASAN_UMUM)
     parent.add_child(penjelasan_umum_node)
 
@@ -1334,14 +1385,38 @@ def parse_penjelasan_umum(parent: ComplexNode, law: List[str], start_index: int)
         # TODO(johnamadeo): Clarify that this should be next ancestor strucutres
         ancestor_structures=[
         ],
-        # TODO(johnamadeo): Add PENJELASAN_PASAL_DEMI_PASAL
-        sibling_structures=[],
+        sibling_structures=[Structure.PENJELASAN_PASAL_DEMI_PASAL],
         child_structures=TEXT_BLOCK_STRUCTURES)
 
     return end_index
 
 
+def parse_penjelasan_pasal_demi_pasal(parent: ComplexNode, law: List[str], start_index: int) -> int:
+    '''
+    TODO(@johnamadeo)
+    '''
+    penjelasan_pasal_demi_pasal = ComplexNode(
+        type=Structure.PENJELASAN_PASAL_DEMI_PASAL)
+    parent.add_child(penjelasan_pasal_demi_pasal)
+
+    penjelasan_pasal_demi_pasal.add_child(PrimitiveNode(
+        type=Structure.PENJELASAN_PASAL_DEMI_PASAL_TITLE, text=law[start_index]))
+
+    end_index = parse_complex_structure(
+        penjelasan_pasal_demi_pasal,
+        law,
+        start_index+1,
+        ancestor_structures=[],
+        sibling_structures=[],
+        child_structures=[Structure.PASAL])
+
+    return end_index
+
+
 def parse_unordered_list(parent: ComplexNode, law: List[str], start_index: int) -> int:
+    '''
+    TODO(@johnamadeo)
+    '''
     unordered_list_node = ComplexNode(type=Structure.UNORDERED_LIST)
     parent.add_child(unordered_list_node)
 
@@ -1428,6 +1503,10 @@ def parse_structure(
         return parse_penjelasan(parent, law, start_index)
     elif structure == Structure.PENJELASAN_UMUM:
         return parse_penjelasan_umum(parent, law, start_index)
+    elif structure == Structure.PENJELASAN_PASAL_DEMI_PASAL:
+        return parse_penjelasan_pasal_demi_pasal(parent, law, start_index)
+    elif structure == Structure.PENJELASAN_LIST_ITEM:
+        return parse_penjelasan_list_item(parent, law, start_index)
     elif structure == Structure.UNORDERED_LIST:
         return parse_unordered_list(parent, law, start_index)
     else:
@@ -1507,8 +1586,16 @@ def parse_complex_structure(
         int: the end_index; i.e law[end_index] is the last line of the structure we want to parse
     """
 
-    if parent.type == Structure.LIST or parent.type == Structure.LIST_ITEM:
-        crash(law, start_index, 'Use parse_list or parse_list_item instead')
+    if parent.type in set([
+            Structure.LIST,
+            Structure.LIST_ITEM,
+            Structure.UNORDERED_LIST,
+            Structure.UNORDERED_LIST_ITEM]):
+        crash(
+            law,
+            start_index,
+            'Use parse_list, parse_list_item, or parse_unordered_list instead'
+        )
 
     '''
     If this doesn't feel intuitive, the best way to understand the algorithm is go through the text
@@ -1566,7 +1653,7 @@ def print_tree() -> None:
 
 
 def crash(law: List[str], i: int, error_message: str) -> None:
-    print_tree()
+    # print_tree()
     print_around(law, i)
 
     if ROOT is not None:
