@@ -1,8 +1,6 @@
-import Pasal from "components/Pasal";
 import PrimitiveStructure from "components/PrimitiveStructure";
 import ListItem from "components/ListItem";
-import StructureWithTitleAndNumber from "components/StructureWithTitleAndNumber";
-import Opening from "components/Opening";
+import StructureWithHeading from "components/StructureWithHeading";
 import CenteredHeading from "components/CenteredHeading";
 import Penjelasan from "components/Penjelasan";
 import { CSSProperties } from "react";
@@ -81,6 +79,7 @@ export function renderStructure(
   structure: Complex | Primitive,
   key?: string | number,
 ) {
+  // TODO: CenteredHeading, StructureWithHeading, and Pasal need to be combined in a sensible way
   switch (structure.type) {
     case Structure.UU_TITLE:
     case Structure.PREFACE:
@@ -89,6 +88,7 @@ export function renderStructure(
     case Structure.PENJELASAN_TITLE:
       return <CenteredHeading key={key} structure={structure as Complex} />;
     case Structure.PENJELASAN:
+      // TODO: Doesn't need to be separate component - can collapse here
       return <Penjelasan key={key} structure={structure as Complex} />;
     case Structure.PLAINTEXT:
     case Structure.BAB_NUMBER:
@@ -106,7 +106,21 @@ export function renderStructure(
     case Structure.BAB:
     case Structure.BAGIAN:
     case Structure.PARAGRAF:
-      return <StructureWithTitleAndNumber key={key} structure={structure as Complex} />;
+      return (
+        <StructureWithHeading
+          key={key}
+          structure={structure as Complex}
+          numOfHeadingLines={2}
+        />
+      );
+    case Structure.PASAL:
+      return (
+        <StructureWithHeading
+          key={key}
+          structure={structure as Complex}
+          numOfHeadingLines={1}
+        />
+      );
     case Structure.OPENING:
     case Structure.CONSIDERATIONS:
     case Structure.PRINCIPLES:
@@ -118,8 +132,6 @@ export function renderStructure(
     case Structure.LIST_ITEM:
     case Structure.UNORDERED_LIST_ITEM:
       return <ListItem key={key} structure={structure as Complex} />;
-    case Structure.PASAL:
-      return <Pasal key={key} structure={structure as Complex} />;
     default:
       return <></>;
   }
