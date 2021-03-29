@@ -7,6 +7,8 @@ import Opening from "components/Opening";
 export enum Structure {
   UNDANG_UNDANG = "UNDANG_UNDANG",
   OPENING = "OPENING",
+  CONSIDERATIONS = "CONSIDERATIONS",
+  PRINCIPLES = "PRINCIPLES",
   BAB = "BAB",
   BAB_NUMBER = "BAB_NUMBER",
   BAB_TITLE = "BAB_TITLE",
@@ -79,6 +81,8 @@ export function renderStructure(
     case Structure.BAGIAN:
     case Structure.PARAGRAF:
       return <StructureWithTitleAndNumber key={key} structure={structure as Complex} />;
+    case Structure.CONSIDERATIONS:
+    case Structure.PRINCIPLES:
     case Structure.LIST:
       return renderChildren(structure as Complex, key);
     case Structure.LIST_ITEM:
