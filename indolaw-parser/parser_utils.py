@@ -13,7 +13,10 @@ from parser_is_start_of_x import (
     is_start_of_number_with_dot_str,
     is_start_of_letter_with_dot_str,
     is_start_of_first_list_index,
-    is_start_of_list_index_str, is_start_of_penjelasan_ayat_str, is_start_of_penjelasan_huruf_str,
+    is_start_of_list_index_str,
+    is_start_of_penjelasan_angka_str,
+    is_start_of_penjelasan_ayat_str,
+    is_start_of_penjelasan_huruf_str,
     is_start_of_unordered_list_index_str,
 )
 
@@ -79,6 +82,9 @@ def get_list_index_type(list_index_str: str) -> Optional[Structure]:
         >>> get_list_index_type('Huruf e')
         Structure.PENJELASAN_HURUF
 
+        >>> get_list_index_type('Angka 17')
+        Structure.PENJELASAN_ANGKA
+
         >>> get_list_index_type('cara berpikir kreatif')
         None
 
@@ -95,6 +101,8 @@ def get_list_index_type(list_index_str: str) -> Optional[Structure]:
         return Structure.PENJELASAN_AYAT
     elif is_start_of_penjelasan_huruf_str(list_index_str):
         return Structure.PENJELASAN_HURUF
+    elif is_start_of_penjelasan_angka_str(list_index_str):
+        return Structure.PENJELASAN_ANGKA
     else:
         return None
 
@@ -135,6 +143,8 @@ def get_list_index_as_num(list_index_str: str) -> int:
         regex = r'Huruf ([a-z])'
     elif is_start_of_penjelasan_ayat_str(list_index_str):
         regex = r'Ayat \(([0-9]+)\)'
+    elif is_start_of_penjelasan_angka_str(list_index_str):
+        regex = r'Angka ([0-9]+)'
     else:
         raise Exception('list_index_str is not a list index')
 
@@ -326,11 +336,15 @@ def get_squashed_list_item(line):
         r'(:)',
         r'(\.)',
         r'(; dan/atau)',
-        r'(; dan)'
+        r'(; dan)',
     ]
     list_index_regex = [r'([a-z]\. )', r'([0-9]+\. )', r'(\([0-9]+\) )']
     unordered_list_index_regex = [r'(\u2212 )']
-    penjelasan_list_index_regex = [r'(Huruf [a-z])', r'(Ayat \([0-9]+\))']
+    penjelasan_list_index_regex = [
+        r'(Huruf [a-z])',
+        r'(Ayat \([0-9]+\))',
+        r'(Angka [0-9]+)',
+    ]
 
     regexes = []
     for i in line_ending_regex:

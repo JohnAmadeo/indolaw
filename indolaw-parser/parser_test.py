@@ -39,7 +39,7 @@ from parser_is_start_of_x import (
     is_start_of_agreement,
     is_start_of_penjelasan,
     is_start_of_penjelasan_ayat_str,
-    is_start_of_penjelasan_huruf_str, 
+    is_start_of_penjelasan_huruf_str,
     is_start_of_penjelasan_pasal_demi_pasal,
     is_start_of_penjelasan_pasal_demi_pasal_title,
     is_start_of_penjelasan_title,
@@ -88,6 +88,7 @@ def test_get_list_index_type():
     assert get_list_index_type('3.') == Structure.NUMBER_WITH_DOT
     assert get_list_index_type('Ayat (4)') == Structure.PENJELASAN_AYAT
     assert get_list_index_type('Huruf e') == Structure.PENJELASAN_HURUF
+    assert get_list_index_type('Angka 17') == Structure.PENJELASAN_ANGKA
     assert get_list_index_type('cara berpikir kreatif') == None
     assert get_list_index_type('a. cara berpikir kreatif') == None
 
@@ -98,6 +99,7 @@ def test_get_list_index_as_num():
     assert get_list_index_as_num('(8)') == 8
     assert get_list_index_as_num('Ayat (8)') == 8
     assert get_list_index_as_num('Huruf d') == 4
+    assert get_list_index_as_num('Angka 12') == 12
     with pytest.raises(Exception):
         get_list_index_as_num('Berhubungan dengan peraturan...')
 
@@ -162,6 +164,9 @@ def test_is_start_of_first_list_index():
 
     assert is_start_of_first_list_index('Huruf a') == True
     assert is_start_of_first_list_index('Huruf b') == False
+
+    assert is_start_of_first_list_index('Angka 1') == True
+    assert is_start_of_first_list_index('Angka 2') == False
 
     assert is_start_of_first_list_index('dengan adanya...') == False
 

@@ -95,6 +95,8 @@ def is_start_of_structure(structure: Structure, law: List[str], start_index: int
         return is_start_of_penjelasan_ayat(law, start_index)
     elif structure == Structure.PENJELASAN_HURUF:
         return is_start_of_penjelasan_huruf(law, start_index)
+    elif structure == Structure.PENJELASAN_ANGKA:
+        return is_start_of_penjelasan_angka(law, start_index)
     # CLOSING
     elif structure == Structure.CLOSING:
         return is_start_of_closing(law, start_index)
@@ -933,7 +935,8 @@ def is_start_of_list_index_str(list_index_str: str) -> bool:
         is_start_of_number_with_dot_str(list_index_str) or \
         is_start_of_number_with_brackets_str(list_index_str) or \
         is_start_of_penjelasan_ayat_str(list_index_str) or \
-        is_start_of_penjelasan_huruf_str(list_index_str)
+        is_start_of_penjelasan_huruf_str(list_index_str) or \
+        is_start_of_penjelasan_angka_str(list_index_str)
 
 
 def is_start_of_penjelasan_list_index_str(list_index_str: str) -> bool:
@@ -941,7 +944,8 @@ def is_start_of_penjelasan_list_index_str(list_index_str: str) -> bool:
     See is_start_of_list_index
     """
     return is_start_of_penjelasan_ayat_str(list_index_str) or \
-        is_start_of_penjelasan_huruf_str(list_index_str)
+        is_start_of_penjelasan_huruf_str(list_index_str) or \
+        is_start_of_penjelasan_angka_str(list_index_str)
 
 
 '''
@@ -1152,6 +1156,14 @@ def is_start_of_penjelasan_huruf_str(string: str) -> bool:
     return is_heading(r'Huruf [a-z]', string)
 
 
+def is_start_of_penjelasan_angka(law: List[str], start_index: int) -> bool:
+    return is_start_of_penjelasan_angka_str(law[start_index])
+
+
+def is_start_of_penjelasan_angka_str(string: str) -> bool:
+    return is_heading(r'Angka [0-9]+', string)
+
+
 def is_start_of_unordered_list(law: List[str], start_index: int) -> bool:
     return is_start_of_unordered_list_index(law, start_index)
 
@@ -1236,7 +1248,7 @@ def is_start_of_first_list_index(string: str) -> bool:
         False
     """
     list_index = string.strip()
-    return list_index in set(['a.', '1.', '(1)', 'Huruf a', 'Ayat (1)'])
+    return list_index in set(['a.', '1.', '(1)', 'Huruf a', 'Ayat (1)', 'Angka 1'])
 
 
 def is_heading(regex: str, string: str) -> bool:

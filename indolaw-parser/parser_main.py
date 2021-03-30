@@ -12,6 +12,7 @@ from parser_types import (
     ComplexNode
 )
 from parser_is_start_of_x import (
+    is_start_of_penjelasan_angka,
     is_start_of_penjelasan_ayat,
     is_start_of_penjelasan_huruf,
     is_start_of_penjelasan_list_index_str,
@@ -1196,6 +1197,9 @@ def parse_list_index(parent: ComplexNode, law: List[str], i: int) -> None:
     elif is_start_of_penjelasan_huruf(law, i):
         parent.add_child(PrimitiveNode(
             type=Structure.PENJELASAN_HURUF, text=law[i]))
+    elif is_start_of_penjelasan_angka(law, i):
+        parent.add_child(PrimitiveNode(
+            type=Structure.PENJELASAN_ANGKA, text=law[i]))
     else:
         crash(law, i, f'line {i} is not a list index')
 
