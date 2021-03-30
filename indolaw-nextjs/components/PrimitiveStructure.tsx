@@ -24,7 +24,8 @@ export default function PrimitiveStructure(props: {
           font-size: 18px;
         }
       `}</style>
-      <p>{type === Structure.PLAINTEXT ? maybeLinkToOtherLaws(text) : text}</p>
+      <p>{text}</p>
+      {/* <p>{type === Structure.PLAINTEXT ? maybeLinkToOtherLaws(text) : text}</p> */}
     </div>
   );
 }
@@ -56,7 +57,14 @@ function maybeLinkToOtherLaws(text: string): string | Array<JSX.Element> {
               text-decoration: underline;
             }
           `}</style>
-          <Link key={i} href="/wip">{spans[i]}</Link>
+          <a
+            key={i}
+            target="_blank"
+            rel="noopener noreferrer"
+            href={'https://search.hukumonline.com/search/all/?q=undang+undang+13+2003&language=%5B%22id%22%5D'}
+          >
+            {spans[i]}
+          </a>
         </span>
       );
     } else {
