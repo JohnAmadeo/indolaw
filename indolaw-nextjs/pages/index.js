@@ -33,6 +33,9 @@ export default function Home() {
         <li>
           <span className="link"><Link href="/uu/2003/13">Undang-Undang 13 Tahun 2003 Tentang Ketenagakerjaan</Link></span>
         </li>
+        <li>
+          <span className="link"><Link href="/uu/1999/8">Undang-Undang 8 Tahun 1999 Tentang Perlindungan Konsumen</Link></span>
+        </li>
       </ul>
     </div>
   );
