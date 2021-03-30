@@ -36,6 +36,9 @@ export default function Home() {
         <li>
           <span className="link"><Link href="/uu/1999/8">Undang-Undang 8 Tahun 1999 Tentang Perlindungan Konsumen</Link></span>
         </li>
+        <li>
+          <span className="link"><Link href="/uu/1986/5">Undang-Undang 5 Tahun 1986 Tentang Peradilan Tata Usaha Negara</Link></span>
+        </li>
       </ul>
     </div>
   );
