@@ -702,6 +702,7 @@ def test_get_id():
     assert get_id(bagian_node_2) == 'bab-3-bagian-8'
 
     pasal_node = ComplexNode(type=Structure.PASAL)
+    bab_node.add_child(pasal_node)
     pasal_node.add_child(PrimitiveNode(
         type=Structure.PASAL_NUMBER, text="Pasal 12"))
     assert get_id(pasal_node) == 'pasal-12'
