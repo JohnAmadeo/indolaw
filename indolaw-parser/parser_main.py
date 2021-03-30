@@ -859,6 +859,7 @@ def parse_list(parent: ComplexNode, law: List[str], start_index: int) -> int:
         Structure.BAB,
         Structure.CLOSING,
         Structure.PENJELASAN,
+        Structure.PENJELASAN_PASAL_DEMI_PASAL,
     ]
 
     initial_start_index = start_index
@@ -1086,6 +1087,9 @@ def parse_list_item(parent: ComplexNode, law: List[str], start_index: int) -> in
     '''
     the 3rd line is either a nested list/nested unordered list that is the child of this list item,
     or it marks the start of a sibling or ancestor structure
+
+    TODO(johnamadeo): this isn't always true in rare cases (usually in Penjelasan Umum). For an e.g
+    outside of Penjelasan, see Pasal 192 UU 13 2003
     '''
     non_recursive_ancestors = [
         Structure.PASAL,
@@ -1096,6 +1100,7 @@ def parse_list_item(parent: ComplexNode, law: List[str], start_index: int) -> in
         Structure.AGREEMENT,
         Structure.CLOSING,
         Structure.PENJELASAN,
+        Structure.PENJELASAN_PASAL_DEMI_PASAL,
     ]
 
     start_index += 2
