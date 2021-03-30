@@ -77,8 +77,8 @@ export default function TableOfContents(props: { law: Complex }): JSX.Element {
       <div className="table-of-contents">{tableOfContents}</div>
     </div>
   ) : (
-      <>
-        <style jsx>{`
+    <>
+      <style jsx>{`
         span {
           cursor: pointer;
           text-align: center;
@@ -91,13 +91,13 @@ export default function TableOfContents(props: { law: Complex }): JSX.Element {
           vertical-align: bottom;
         }
       `}</style>
-        <span
-          onClick={() => {
-            setIsExpanded(true);
-          }}
-        >
-          <i className="material-icons style">expand_more</i> Daftar Isi
+      <span
+        onClick={() => {
+          setIsExpanded(true);
+        }}
+      >
+        <i className="material-icons style">expand_more</i> Daftar Isi
       </span>
-      </>
-    );
+    </>
+  );
 }

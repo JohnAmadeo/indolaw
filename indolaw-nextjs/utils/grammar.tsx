@@ -95,7 +95,7 @@ export function renderStructure(
               margin: 144px 0 0 0;
             }
           `}</style>
-          <div>
+          <div id={(structure as Complex).id}>
             {renderChildren(structure as Complex)}
           </div>
         </>

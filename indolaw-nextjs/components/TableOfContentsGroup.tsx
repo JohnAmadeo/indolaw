@@ -160,6 +160,8 @@ function getTitle(structure: Complex | Primitive): string | null {
       return toTitleCase(title.text);
     case Structure.PASAL:
       return ((structure as Complex).children[0] as Primitive).text;
+    case Structure.PENJELASAN:
+      return 'Penjelasan';
     default:
       return null;
   }
