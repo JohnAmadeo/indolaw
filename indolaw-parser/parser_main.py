@@ -474,12 +474,19 @@ def parse_agreement(parent: ComplexNode, law: List[str], start_index: int) -> in
     agreement_node = ComplexNode(type=Structure.AGREEMENT)
     parent.add_child(agreement_node)
 
-    for i in range(7):
+    i = 0
+    while "menetapkan:" not in law[start_index+i].lower():
         agreement_node.add_child(PrimitiveNode(
             type=Structure.PLAINTEXT, text=law[start_index+i]))
+        i += 1
 
-    # this part is always 7 lines long
-    end_index = start_index+6
+    # AGREEMENT always ends w/ a "Menetapkan:" line followed by a line w/ the name of the law
+    agreement_node.add_child(PrimitiveNode(
+        type=Structure.PLAINTEXT, text=law[start_index+i]))
+    agreement_node.add_child(PrimitiveNode(
+        type=Structure.PLAINTEXT, text=law[start_index+i+1]))
+
+    end_index = start_index+i+1
     return end_index
 
 
