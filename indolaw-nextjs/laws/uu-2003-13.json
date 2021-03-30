@@ -13848,11 +13848,15 @@
                     },
                     {
                       "type": "PLAINTEXT",
-                      "text": "Undang-Undang Nomor 28 Tahun 2000 tentang Penetapan Peraturan Pemerintah Pengganti Undang-undang Nomor 3 Tahun 2000 tentang Perubahan Atas Undang-undang Nomor 11 Tahun 1998 tentang Perubahan Berlakunya Undang-undang Nomor 25 Tahun 1997 tentang Ketenagakerjaan Menjadi Undang-undang (Lembaran Negara Tahun 2000 Nomor 240, Tambahan Lembaran Negara Nomor 4042), dinyatakan tidak berlaku lagi."
+                      "text": "Undang-Undang Nomor 28 Tahun 2000 tentang Penetapan Peraturan Pemerintah Pengganti Undang-undang Nomor 3 Tahun 2000 tentang Perubahan Atas Undang-undang Nomor 11 Tahun 1998 tentang Perubahan Berlakunya Undang-undang Nomor 25 Tahun 1997 tentang Ketenagakerjaan Menjadi Undang-undang (Lembaran Negara Tahun 2000 Nomor 240, Tambahan Lembaran Negara Nomor 4042),"
                     }
                   ]
                 }
               ]
+            },
+            {
+              "type": "PLAINTEXT",
+              "text": "dinyatakan tidak berlaku lagi."
             }
           ]
         },
