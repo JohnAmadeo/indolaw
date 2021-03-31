@@ -1,6 +1,6 @@
 import { useState } from "react";
 import { Complex } from "utils/grammar";
-import { colors, darkColors, fonts } from "utils/theme";
+import { colors, fonts } from "utils/theme";
 import TableOfContentsGroup from "components/TableOfContentsGroup";
 import { useMediaQuery } from "react-responsive";
 import { useAppContext } from "utils/state-management/context-provider";

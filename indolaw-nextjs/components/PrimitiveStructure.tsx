@@ -1,6 +1,5 @@
 import { CSSProperties } from "react";
 import { Primitive, Structure } from "utils/grammar";
-import { colors, darkColors } from "utils/theme";
 import Link from "next/link";
 import { useAppContext } from "utils/state-management/context-provider";
 

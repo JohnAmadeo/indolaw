@@ -2,7 +2,6 @@ import { Complex } from "utils/grammar";
 import Law from "components/Law";
 import React from "react";
 import TableOfContents from "components/TableOfContents";
-import { darkColors, colors } from "utils/theme";
 import Head from "next/head";
 import { useAppContext } from "../utils/state-management/context-provider";
 
