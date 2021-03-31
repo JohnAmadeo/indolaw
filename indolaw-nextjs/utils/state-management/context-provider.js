@@ -1,13 +1,19 @@
 import { createContext, useContext, useState } from 'react';
+import { colors, darkColors } from 'utils/theme';
 
 const AppContext = createContext();
 
 export function ContextWrapper({ children }) {
     const [darkTheme, setDarkTheme] = useState(false);
 
+    const toggleDarkMode = () => setDarkTheme(!darkTheme);
+    const colorScheme = darkTheme ? darkColors : colors;
+    const invertedColorScheme = darkTheme ? colors : darkColors;
+
     let state = {
-        darkTheme,
-        setDarkTheme
+        colorScheme,
+        invertedColorScheme,
+        toggleDarkMode
     }
 
     return (

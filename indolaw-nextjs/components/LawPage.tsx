@@ -13,7 +13,7 @@ export default function LawPage(props: {
   const border = "2px solid red";
   const navWidth = "400px";
 
-  const { darkTheme, setDarkTheme } = useAppContext();
+  const { colorScheme } = useAppContext();
 
   return (
     <div>
@@ -29,7 +29,7 @@ export default function LawPage(props: {
             position: fixed;
             padding: 20px;
             width: ${navWidth};
-            background-color: ${(darkTheme ? darkColors : colors).trayBackground};
+            background-color: ${colorScheme.trayBackground};
           }
 
           @media screen and (max-width: 768px) {
@@ -42,13 +42,13 @@ export default function LawPage(props: {
             }
           }
         `}</style>
-        <TableOfContents law={props.law} isDarkMode={darkTheme} setIsDarkMode={() => setDarkTheme(!darkTheme)} />
+        <TableOfContents law={props.law} />
       </div>
 
       <div className="law-container">
         <style jsx>{`
           .law-container {
-            background-color: ${(darkTheme ? darkColors : colors).background};
+            background-color: ${colorScheme.background};
             position: absolute;
             left: ${navWidth};
             right: 0;
@@ -79,7 +79,7 @@ export default function LawPage(props: {
           }
         `}</style>
         <div className="law">
-          <Law law={props.law} isDarkMode={darkTheme}/>
+          <Law law={props.law} colorScheme={colorScheme}/>
         </div>
       </div>
     </div>

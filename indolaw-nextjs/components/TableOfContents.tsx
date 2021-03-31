@@ -3,15 +3,14 @@ import { Complex } from "utils/grammar";
 import { colors, darkColors, fonts } from "utils/theme";
 import TableOfContentsGroup from "components/TableOfContentsGroup";
 import { useMediaQuery } from "react-responsive";
+import { useAppContext } from "utils/state-management/context-provider";
 
 export default function TableOfContents(props: { 
-  law: Complex,
-  isDarkMode: boolean,
-  setIsDarkMode: () => void
+  law: Complex
  }): JSX.Element {
-  const {isDarkMode, setIsDarkMode} = props;
   const isMobile = useMediaQuery({ query: "(max-width: 768px)" });
   const [isExpanded, setIsExpanded] = useState(false);
+  const { colorScheme, invertedColorScheme, toggleDarkMode } = useAppContext();
 
   const tableOfContents = props.law.children.map((child, idx) => (
     <TableOfContentsGroup
@@ -32,14 +31,15 @@ export default function TableOfContents(props: {
         width: 25%;
         height: 3vh;
         margin-bottom: 10px;
-        background-color: ${(isDarkMode ? colors : darkColors).trayBackground}; // get the inverse for dark mode button
+        background-color: ${invertedColorScheme.trayBackground};
         border-radius: 7px;
         border: 0;
-        color: ${(isDarkMode ? colors : darkColors).dark.text};
+        color: ${invertedColorScheme.tray.text};
         font-family: ${fonts.sans};
+        vertical-align: bottom;
         ${isMobile ? "float: right;" : "margin-left: auto; display: block;"}
       }
-      }`}</style><button onClick={setIsDarkMode}>{isDarkMode ? "Light Mode" : "Dark Mode"}</button></>
+      }`}</style><button onClick={toggleDarkMode}>{colorScheme == colors ? "Dark Mode" : "Light Mode"}</button></>
   );
 
   if (!isMobile) {
@@ -53,7 +53,7 @@ export default function TableOfContents(props: {
     <div className="container">
       <style jsx>{`
         .container {
-          background-color: ${(isDarkMode ? darkColors : colors).trayBackground};
+          background-color: ${colorScheme.trayBackground};
           position: fixed;
           top: 0;
           left: 0;
@@ -68,7 +68,7 @@ export default function TableOfContents(props: {
         .back {
           margin-bottom: 12px;
           height: 40px;
-          border-bottom: 1px solid ${(isDarkMode ? darkColors : colors).dark.text};
+          border-bottom: 1px solid ${colorScheme.tray.text};
         }
 
         .table-of-contents {
@@ -82,7 +82,7 @@ export default function TableOfContents(props: {
         }
 
         span {
-          color: ${(isDarkMode ? darkColors : colors).dark.text};
+          color: ${colorScheme.tray.text};
           cursor: pointer;
           font-family: ${fonts.sans};
           font-size: 18px;
@@ -108,7 +108,7 @@ export default function TableOfContents(props: {
           text-align: center;
           font-size: 18px;
           font-family: ${fonts.sans};
-          color: ${(isDarkMode ? darkColors : colors).dark.text};
+          color: ${colorScheme.tray.text};
         }
 
         .material-icons.style {

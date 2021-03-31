@@ -36,7 +36,7 @@ function maybeLinkToOtherLaws(text: string): string | Array<JSX.Element> {
     return text;
   }
 
-  const { darkTheme } = useAppContext()
+  const { colorScheme } = useAppContext()
 
   let linkedSpans = [];
   for (let i = 0; i < spans.length; i++) {
@@ -46,7 +46,7 @@ function maybeLinkToOtherLaws(text: string): string | Array<JSX.Element> {
         <span className="link">
           <style jsx>{`
             .link {
-              color: ${(darkTheme ? darkColors : colors).linkText};
+              color: ${colorScheme.linkText};
             }
 
             .link:hover {
