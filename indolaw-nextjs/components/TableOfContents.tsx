@@ -9,7 +9,7 @@ export default function TableOfContents(props: {
   isDarkMode: boolean,
   setIsDarkMode: () => void
  }): JSX.Element {
-   const {isDarkMode, setIsDarkMode} = props;
+  const {isDarkMode, setIsDarkMode} = props;
   const isMobile = useMediaQuery({ query: "(max-width: 768px)" });
   const [isExpanded, setIsExpanded] = useState(false);
 
@@ -32,7 +32,7 @@ export default function TableOfContents(props: {
         width: 25%;
         height: 3vh;
         margin-bottom: 10px;
-        background-color: ${(isDarkMode ? colors : darkColors).trayBackground};
+        background-color: ${(isDarkMode ? colors : darkColors).trayBackground}; // get the inverse for dark mode button
         border-radius: 7px;
         border: 0;
         color: ${(isDarkMode ? colors : darkColors).dark.text};
@@ -114,18 +114,13 @@ export default function TableOfContents(props: {
         .material-icons.style {
           vertical-align: bottom;
         }
-        
-        button {
-          display: inline;
-          float: right;
-        }
       `}</style>
-        <span>
-          <i onClick={() => {
+        <span onClick={() => {
             setIsExpanded(true);
-          }} className="material-icons style">expand_more</i> Daftar Isi
-          {darkModeButton}
-      </span>
+          }}>
+          <i  className="material-icons style">expand_more</i> Daftar Isi     
+        </span>
+      {darkModeButton}
       </>
     );
 }

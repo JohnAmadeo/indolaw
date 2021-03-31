@@ -1,10 +1,10 @@
 import { Complex } from "utils/grammar";
 import Law from "components/Law";
-import React, { useState } from "react";
+import React from "react";
 import TableOfContents from "components/TableOfContents";
 import { darkColors, colors } from "utils/theme";
 import Head from "next/head";
-import { getDefaultSettings } from "http2";
+import { useAppContext } from "../utils/state-management/context-provider";
 
 // TODO(johnamadeo): Fix "Warning: Each child in a list should have a unique "key" prop." problem
 export default function LawPage(props: {
@@ -13,7 +13,7 @@ export default function LawPage(props: {
   const border = "2px solid red";
   const navWidth = "400px";
 
-  const [isDarkMode, setIsDarkMode] = useState(false);
+  const { darkTheme, setDarkTheme } = useAppContext();
 
   return (
     <div>
@@ -29,7 +29,7 @@ export default function LawPage(props: {
             position: fixed;
             padding: 20px;
             width: ${navWidth};
-            background-color: ${(isDarkMode ? darkColors : colors).trayBackground};
+            background-color: ${(darkTheme ? darkColors : colors).trayBackground};
           }
 
           @media screen and (max-width: 768px) {
@@ -42,13 +42,13 @@ export default function LawPage(props: {
             }
           }
         `}</style>
-        <TableOfContents law={props.law} isDarkMode={isDarkMode} setIsDarkMode={() => setIsDarkMode(!isDarkMode)} />
+        <TableOfContents law={props.law} isDarkMode={darkTheme} setIsDarkMode={() => setDarkTheme(!darkTheme)} />
       </div>
 
       <div className="law-container">
         <style jsx>{`
           .law-container {
-            background-color: ${(isDarkMode ? darkColors : colors).background};
+            background-color: ${(darkTheme ? darkColors : colors).background};
             position: absolute;
             left: ${navWidth};
             right: 0;
@@ -79,7 +79,7 @@ export default function LawPage(props: {
           }
         `}</style>
         <div className="law">
-          <Law law={props.law} isDarkMode={isDarkMode}/>
+          <Law law={props.law} isDarkMode={darkTheme}/>
         </div>
       </div>
     </div>
