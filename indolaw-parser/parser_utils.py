@@ -488,16 +488,16 @@ def extract_metadata_from_tree(undang_undang_node: ComplexNode) -> Dict[str, Any
                 match = re.search(r'NOMOR ([0-9]+) TAHUN ([0-9]+)', node.text)
                 if match is None:
                     raise Exception('Failed to get UU year & no.')
-                metadata['number'] = match.group(1)
-                metadata['year'] = match.group(2)
+                metadata['number'] = int(match.group(1))
+                metadata['year'] = int(match.group(2))
             elif node.type == Structure.UU_TITLE_TOPIC:
                 metadata['topic'] = capitalize(node.text)
             elif node.type == Structure.LEMBARAN_NUMBER:
                 match = re.search(r'TAHUN ([0-9]+) NOMOR ([0-9]+)', node.text)
                 if match is None:
                     raise Exception('Failed to get Lembaran Negara year & no.')
-                metadata['lembaranNegaraYear'] = match.group(1)
-                metadata['lembaranNegaraNumber'] = match.group(2)
+                metadata['lembaranNegaraYear'] = int(match.group(1))
+                metadata['lembaranNegaraNumber'] = int(match.group(2))
 
     g(undang_undang_node)
 

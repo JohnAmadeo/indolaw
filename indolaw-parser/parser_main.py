@@ -27,7 +27,7 @@ from parser_is_start_of_x import (
     is_start_of_unordered_list_item,
 )
 from parser_utils import (
-    convert_tree_to_json,
+    convert_tree_to_json, extract_metadata_from_tree,
     get_list_index_type,
     is_next_list_index_number,
     clean_law,
@@ -1709,10 +1709,22 @@ if __name__ == "__main__":
     ROOT = ComplexNode(type=Structure.UNDANG_UNDANG)
     parse_undang_undang(ROOT, law)
 
+    if len(sys.argv) >= 3 and sys.argv[2] == '--metadata':
+        with open(filename + '_metadata.json', 'w') as outfile:
+            json.dump(
+                extract_metadata_from_tree(ROOT),
+                outfile,
+                indent=2
+            )
+        exit()
+
     assert ROOT is not None
     with open(filename + '.json', 'w') as outfile:
         json.dump(
-            convert_tree_to_json(ROOT),
+            {
+                'content': convert_tree_to_json(ROOT),
+                'metadata': extract_metadata_from_tree(ROOT)
+            },
             outfile,
             indent=2
         )

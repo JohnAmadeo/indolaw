@@ -45,7 +45,7 @@ export const getStaticProps: GetStaticProps = async ({ params }) => {
   return {
     props: {
       data: {
-        law: JSON.parse(file),
+        law: JSON.parse(file)['content'],
         year: params.yearOrNickname,
         number: params.number,
       },
