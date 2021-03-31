@@ -443,6 +443,78 @@ def convert_tree_to_json(node: Union[ComplexNode, PrimitiveNode]) -> Dict[str, A
         }
 
 
+def extract_metadata_from_tree(undang_undang_node: ComplexNode) -> Dict[str, Any]:
+    '''
+    Extract important metadata about the law
+    - Undang Undang number, year, and topic
+    - Lembaran Negara number & year
+    - Tambahan Lembaran Negara number
+
+    A faster way would be to extract the metadata while parsing. But this approach
+    provides 1 centralized place to see what all the metadata fields are + avoids
+    adding another global variable during parsing.
+    '''
+    metadata: Dict[str, Any] = {
+        'lembaranNegaraNumber': -1,
+        'lembaranNegaraYear': -1,
+        'tambahanLembaranNumber': -1,
+        'number': -1,
+        'topic': '',
+        'year': -1,
+    }
+
+    '''
+    the last line in the whole law is the no. of the Tambahan Lembaran Negara
+    e.g TAMBAHAN LEMBARAN NEGARA REPUBLIK INDONESIA NOMOR 4279
+    '''
+    def f(node: Union[ComplexNode, PrimitiveNode]):
+        if isinstance(node, ComplexNode):
+            f(node.children[-1])
+        elif isinstance(node, PrimitiveNode):
+            match = re.search(r'([0-9]+)', node.text)
+            if match is None:
+                raise Exception('Failed to get Tambahan Lembaran Negara no.')
+
+            metadata['tambahanLembaranNumber'] = int(match.group(0))
+
+    f(undang_undang_node)
+
+    def g(node: Union[ComplexNode, PrimitiveNode]):
+        if isinstance(node, ComplexNode):
+            for child in node.children:
+                g(child)
+        elif isinstance(node, PrimitiveNode):
+            if node.type == Structure.UU_TITLE_YEAR_AND_NUMBER:
+                match = re.search(r'NOMOR ([0-9]+) TAHUN ([0-9]+)', node.text)
+                if match is None:
+                    raise Exception('Failed to get UU year & no.')
+                metadata['number'] = match.group(1)
+                metadata['year'] = match.group(2)
+            elif node.type == Structure.UU_TITLE_TOPIC:
+                metadata['topic'] = capitalize(node.text)
+            elif node.type == Structure.LEMBARAN_NUMBER:
+                match = re.search(r'TAHUN ([0-9]+) NOMOR ([0-9]+)', node.text)
+                if match is None:
+                    raise Exception('Failed to get Lembaran Negara year & no.')
+                metadata['lembaranNegaraYear'] = match.group(1)
+                metadata['lembaranNegaraNumber'] = match.group(2)
+
+    g(undang_undang_node)
+
+    return metadata
+
+
+def capitalize(string: str) -> str:
+    '''
+    Examples:
+        >>> capitalize('PERLINDUNGAN KONSUMEN')
+        'Perlindungan Konsumen'
+    '''
+    return ' '.join(
+        [word[0].upper() + word[1:].lower() for word in string.split(' ')]
+    )
+
+
 def roman_to_int(roman_numeral: str) -> int:
     """Converts string of a roman numeral to the integer the roman numeral represents
     Logic taken from https://www.w3resource.com/python-exercises/class-exercises/python-class-exercise-2.php
