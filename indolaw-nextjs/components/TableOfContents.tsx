@@ -4,6 +4,8 @@ import { colors, fonts } from "utils/theme";
 import TableOfContentsGroup from "components/TableOfContentsGroup";
 import { useMediaQuery } from "react-responsive";
 import { useAppContext } from "utils/state-management/context-provider";
+import Citation from "./Citation";
+import Divider from "./Divider";
 
 export default function TableOfContents(props: { law: LawData }): JSX.Element {
   const isMobile = useMediaQuery({ query: "(max-width: 768px)" });
@@ -52,6 +54,8 @@ export default function TableOfContents(props: { law: LawData }): JSX.Element {
     return (
       <>
         {darkModeButton}
+        <Citation metadata={props.law.metadata} />
+        <Divider />
         {tableOfContents}
       </>
     );
