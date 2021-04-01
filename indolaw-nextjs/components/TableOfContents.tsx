@@ -26,27 +26,37 @@ export default function TableOfContents(props: {
     />
   ));
 
-  const darkModeButton = (<><style>{
-      `button {
-        width: 25%;
-        height: 3vh;
-        margin-bottom: 10px;
-        background-color: ${invertedColorScheme.trayBackground};
-        border-radius: 7px;
-        border: 0;
-        color: ${invertedColorScheme.tray.text};
-        font-family: ${fonts.sans};
-        vertical-align: bottom;
-        ${isMobile ? "float: right;" : "margin-left: auto; display: block;"}
-      }
-      }`}</style><button onClick={toggleDarkMode}>{colorScheme == colors ? "Dark Mode" : "Light Mode"}</button></>
+  const darkModeButton = (
+    <>
+      <style>{`
+        button {
+          cursor: pointer;
+          height: 36px;
+          padding: 4px 24px;
+          margin-bottom: 16px;
+          background-color: ${invertedColorScheme.trayBackground};
+          border-radius: 8px;
+          border: 0;
+          color: ${invertedColorScheme.tray.text};
+          font-family: ${fonts.sans};
+          font-size: 14px;
+          vertical-align: bottom;
+          ${isMobile ? "float: right;" : ""}
+        }
+      }`}</style>
+      <button onClick={toggleDarkMode}>
+        {colorScheme == colors ? "Dark Mode" : "Light Mode"}
+      </button>
+    </>
   );
 
   if (!isMobile) {
-    return <>
-      {darkModeButton}
-      {tableOfContents}
-    </>;
+    return (
+      <>
+        {darkModeButton}
+        {tableOfContents}
+      </>
+    );
   }
 
   return isExpanded ? (
@@ -115,12 +125,12 @@ export default function TableOfContents(props: {
           vertical-align: bottom;
         }
       `}</style>
-        <span onClick={() => {
-            setIsExpanded(true);
-          }}>
-          <i  className="material-icons style">expand_more</i> Daftar Isi     
-        </span>
+      <span onClick={() => {
+        setIsExpanded(true);
+      }}>
+        <i className="material-icons style">expand_more</i> Daftar Isi
+      </span>
       {darkModeButton}
-      </>
-    );
+    </>
+  );
 }

@@ -10,9 +10,9 @@ export const colors = {
 };
 
 export const darkColors = {
-  trayBackground: "#1D2D50",
-  background: "#133B5C",
-  text: "#fcdab7",
+  trayBackground: "#2e3437",
+  background: "#282d30",
+  text: "#ffffff",
   linkText: "#1ecbe1",
   tray: {
     text: "#f3f3f3",
