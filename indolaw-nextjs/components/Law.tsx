@@ -11,7 +11,6 @@ export default function Law(props: { law: Complex, colorScheme : any}): JSX.Elem
           color: ${props.colorScheme.text};
         }
       `}</style>
-      <h1>UNDANG UNDANG REPUBLIK INDONESIA TENTANG CIPTA KERJA</h1>
       {renderChildren(props.law)}
     </div>
   );

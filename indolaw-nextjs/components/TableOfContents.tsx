@@ -101,8 +101,8 @@ export default function TableOfContents(props: {
       <div className="table-of-contents">{tableOfContents}</div>
     </div>
   ) : (
-      <>
-        <style jsx>{`
+    <>
+      <style jsx>{`
         span {
           cursor: pointer;
           text-align: center;

@@ -11,14 +11,21 @@ export default function PrimitiveStructure(props: {
 
   return (
     <div style={{ ...customStyle }}>
+      {/* 
+        TODO(johnamadeo: Figure out how to fix the styling hack below.
+        
+        Ideally we want consistent margins, but the problem is that 4px
+        top/bottom margins look great on everything other than consecutive
+        plaintext bloks with lots of words (mostly in Penjelasan)
+      */}
       <style jsx>{`
         div {
-          margin: 4px 0;
+          margin: 4px 0 ${text.length > 350 ? 16 : 4}px 0;
           font-size: 18px;
-          // border: "1px solid red";
         }
       `}</style>
-      <p>{type === Structure.PLAINTEXT ? maybeLinkToOtherLaws(text) : text}</p>
+      <p>{text}</p>
+      {/* <p>{type === Structure.PLAINTEXT ? maybeLinkToOtherLaws(text) : text}</p> */}
     </div>
   );
 }
@@ -52,7 +59,14 @@ function maybeLinkToOtherLaws(text: string): string | Array<JSX.Element> {
               text-decoration: underline;
             }
           `}</style>
-          <Link key={i} href="/wip">{spans[i]}</Link>
+          <a
+            key={i}
+            target="_blank"
+            rel="noopener noreferrer"
+            href={'https://search.hukumonline.com/search/all/?q=undang+undang+13+2003&language=%5B%22id%22%5D'}
+          >
+            {spans[i]}
+          </a>
         </span>
       );
     } else {

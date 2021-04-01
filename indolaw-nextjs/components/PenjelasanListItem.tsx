@@ -2,32 +2,30 @@ import { Structure, Complex, Primitive, renderStructure } from "utils/grammar";
 import PrimitiveStructure from "components/PrimitiveStructure";
 import { useMediaQuery } from "react-responsive";
 
-export default function ListItem(props: { structure: Complex }): JSX.Element {
+export default function PenjelasanListItem(props: { structure: Complex }): JSX.Element {
   const { structure } = props;
   const isMobile = useMediaQuery({ maxWidth: 768 });
 
   return (
-    <div className="list-item">
+    <div className="container">
       <style jsx>{`
+        .container {
+          margin: 8px 0;
+        }
+
         .list-item {
-          display: flex;
-        }
-
-        .list-index {
-          min-width: 48px;
-        }
-
-        .text-block {
-          flex-grow: 1;
+          margin-left: 48px;
         }
       `}</style>
-      <div className="list-index">
+      <div>
         <PrimitiveStructure structure={structure.children[0] as Primitive} />
       </div>
-      <div className="text-block">
-        {structure.children.slice(1).map((childStructure, idx) =>
-          renderStructure(childStructure, idx, isMobile)
-        )}
+      <div className="list-item">
+        <div className="text-block">
+          {structure.children.slice(1).map((childStructure, idx) =>
+            renderStructure(childStructure, idx, isMobile)
+          )}
+        </div>
       </div>
     </div>
   );

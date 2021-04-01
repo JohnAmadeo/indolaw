@@ -13,7 +13,11 @@ from parser_is_start_of_x import (
     is_start_of_number_with_dot_str,
     is_start_of_letter_with_dot_str,
     is_start_of_first_list_index,
-    is_start_of_list_index_str
+    is_start_of_list_index_str,
+    is_start_of_penjelasan_angka_str,
+    is_start_of_penjelasan_ayat_str,
+    is_start_of_penjelasan_huruf_str,
+    is_start_of_unordered_list_index_str,
 )
 
 
@@ -72,6 +76,15 @@ def get_list_index_type(list_index_str: str) -> Optional[Structure]:
         >>> get_list_index_type('3.')
         Structure.NUMBER_WITH_DOT
 
+        >>> get_list_index_type('Ayat (4)')
+        Structure.PENJELASAN_AYAT
+
+        >>> get_list_index_type('Huruf e')
+        Structure.PENJELASAN_HURUF
+
+        >>> get_list_index_type('Angka 17')
+        Structure.PENJELASAN_ANGKA
+
         >>> get_list_index_type('cara berpikir kreatif')
         None
 
@@ -84,6 +97,12 @@ def get_list_index_type(list_index_str: str) -> Optional[Structure]:
         return Structure.NUMBER_WITH_DOT
     elif is_start_of_letter_with_dot_str(list_index_str):
         return Structure.LETTER_WITH_DOT
+    elif is_start_of_penjelasan_ayat_str(list_index_str):
+        return Structure.PENJELASAN_AYAT
+    elif is_start_of_penjelasan_huruf_str(list_index_str):
+        return Structure.PENJELASAN_HURUF
+    elif is_start_of_penjelasan_angka_str(list_index_str):
+        return Structure.PENJELASAN_ANGKA
     else:
         return None
 
@@ -106,6 +125,12 @@ def get_list_index_as_num(list_index_str: str) -> int:
 
         >>> get_list_index_as_num('(8)')
         8
+
+        >>> get_list_index_as_num('Ayat (8)')
+        8
+
+        >>> get_list_index_as_num('Huruf d')
+        4
     """
     regex = None
     if is_start_of_number_with_brackets_str(list_index_str):
@@ -114,6 +139,12 @@ def get_list_index_as_num(list_index_str: str) -> int:
         regex = r'([0-9]+)\.'
     elif is_start_of_letter_with_dot_str(list_index_str):
         regex = r'([a-z])\.'
+    elif is_start_of_penjelasan_huruf_str(list_index_str):
+        regex = r'Huruf ([a-z])'
+    elif is_start_of_penjelasan_ayat_str(list_index_str):
+        regex = r'Ayat \(([0-9]+)\)'
+    elif is_start_of_penjelasan_angka_str(list_index_str):
+        regex = r'Angka ([0-9]+)'
     else:
         raise Exception('list_index_str is not a list index')
 
@@ -210,6 +241,24 @@ def clean_law(law: List[str]) -> List[str]:
         list_item = clean_maybe_list_item(line)
         new_law.extend(list_item)
 
+    law = new_law
+
+    '''
+    Stitch together plaintext lines that get separated into 2 lines due to page breaks
+    '''
+    new_law = []
+    for i, line in enumerate(law):
+        '''
+        the line length check is a heuristic to filter out false positives from the
+        lowercase check due to list indexes e.g 'e.'
+        '''
+        is_curr_line_split_plaintext = len(law[i]) > 10 and line[0].islower()
+        is_prev_line_split_plaintext = len(law[i-1]) > 10 if i > 0 else False
+        if is_curr_line_split_plaintext and is_prev_line_split_plaintext:
+            new_law[-1] += (' '+line)
+        else:
+            new_law.append(line)
+
     return new_law
 
 
@@ -249,20 +298,21 @@ def clean_maybe_list_item(line: str) -> List[str]:
     Examples:
     """
     line_split = line.split()
-    if is_start_of_list_index_str(line_split[0]):
+    if is_start_of_list_index_str(line_split[0]) or \
+            is_start_of_unordered_list_index_str(line_split[0]):
         return [
-            line_split[0],
+            line_split[0].strip(),
             *clean_maybe_list_item(' '.join(line_split[1:]))
         ]
 
-    end_index = get_squashed_list_item(line)
-    if end_index != None:
+    start_index = get_squashed_list_item(line)
+    if start_index != None:
         return [
-            line[:end_index],
-            *clean_maybe_list_item(line[end_index+1:]),
+            line[:start_index-1].strip(),
+            *clean_maybe_list_item(line[start_index:]),
         ]
 
-    return [line]
+    return [line.strip()]
 
 
 def get_squashed_list_item(line):
@@ -279,15 +329,46 @@ def get_squashed_list_item(line):
 
     Examples:
         >>> get_squashed_list_item('nasi goreng; 3. bakmie ayam;')
-        12
+        13
     '''
-    line_ending_regex = [r';', r':', r'\.', r'; dan/atau']
-    list_index_regex = [r'[a-z]\.', r'[0-9]+\.', r'\([0-9]+\)']
+    line_ending_regex = [
+        r'(;)',
+        r'(:)',
+        r'(\.)',
+        r'(; dan/atau)',
+        r'(; dan)',
+    ]
+    list_index_regex = [r'([a-z]\. )', r'([0-9]+\. )', r'(\([0-9]+\) )']
+    unordered_list_index_regex = [r'(\u2212 )']
+    penjelasan_list_index_regex = [
+        r'(Huruf [a-z])',
+        r'(Ayat \([0-9]+\))',
+        r'(Angka [0-9]+)',
+    ]
+
+    regexes = []
     for i in line_ending_regex:
-        for j in list_index_regex:
-            if re.search(i + r' ' + j, line) != None:
-                return re.search(i, line).end(0)
-    return None
+        for j in list_index_regex + unordered_list_index_regex + penjelasan_list_index_regex:
+            regexes.append(i + r'\s+' + j)
+
+    '''
+    There may be multiple squashed list items on a single line; we want to identify
+    the squashed list item that comes first. See parser_test for more details.
+    '''
+    earliest_match = None
+    for regex in regexes:
+        match = re.search(regex, line)
+        if match is None:
+            continue
+
+        if (earliest_match is None) or match.start(0) < earliest_match.start(0):
+            earliest_match = match
+
+    if earliest_match is None:
+        return None
+
+    start_of_squashed_list_item_idx = earliest_match.start(2)
+    return start_of_squashed_list_item_idx
 
 
 def get_next_list_index(list_index: str) -> str:
@@ -341,9 +422,9 @@ def print_around(law: List[str], i: int) -> None:
     print(f'''
 Below are lines {i} and the lines right before & after
 --------------
-{law[i-1] if i > 0 else ''}
+{law[i-1] if i > 0 else '[NO PREVIOUS LINE]'}
 {law[i]}
-{law[i+1]}
+{law[i+1] if (i+1) < len(law) else '[NO NEXT LINE]'}
 --------------
     ''')
 
@@ -399,6 +480,11 @@ def get_id(node: ComplexNode) -> str:
         return f'bab-{str(bab_number_int)}'
 
     elif node.type == Structure.PASAL:
+        # We want the unique ID to be associated w/ the actual pasal, not the
+        # penjelasan tambahan at the end of the law
+        if node.parent is None or node.parent.type == Structure.PENJELASAN_PASAL_DEMI_PASAL:
+            return ''
+
         pasal_number_node = node.children[0]
         assert isinstance(pasal_number_node, PrimitiveNode) and \
             pasal_number_node.type == Structure.PASAL_NUMBER
@@ -410,25 +496,35 @@ def get_id(node: ComplexNode) -> str:
         assert isinstance(bagian_number_node, PrimitiveNode) and \
             bagian_number_node.type == Structure.BAGIAN_NUMBER
 
-        bagian_number_indo = \
-            bagian_number_node.text.split()[1][2:]
-        """
-        This is obviously janky, but good enough for now. When this fails,
-        all we need to do is add more numbers and rerun the parser.
-        """
-        bagian_number_int: int = {
-            'satu': 1,
-            'dua': 2,
-            'tiga': 3,
-            'empat': 4,
-            'lima': 5,
-            'enam': 6,
-            'tujuh': 7,
-            'delapan': 8,
-            'sembilan': 9,
-            'sepuluh': 10,
-            'sebelas': 11,
-        }[bagian_number_indo]
+        bagian_number_indo = bagian_number_node.text.split()[1].lower()
+        '''
+        Bagian numbers are mostly in the format of 'kesatu', 'kedua', etc.
+        however on rare occasions the 1st bagian can be 'pertama' instead
+        of 'kesatu'
+        '''
+        bagian_number_int: int = -1
+        if bagian_number_indo == 'pertama':
+            bagian_number_int = 1
+        else:
+            bagian_number_indo = \
+                bagian_number_node.text.split()[1][2:]
+            """
+            This is obviously janky, but good enough for now. When this fails,
+            all we need to do is add more numbers and rerun the parser.
+            """
+            bagian_number_int = {
+                'satu': 1,
+                'dua': 2,
+                'tiga': 3,
+                'empat': 4,
+                'lima': 5,
+                'enam': 6,
+                'tujuh': 7,
+                'delapan': 8,
+                'sembilan': 9,
+                'sepuluh': 10,
+                'sebelas': 11,
+            }[bagian_number_indo]
 
         bab_node = node.parent
         assert isinstance(bab_node, ComplexNode) and \
@@ -450,6 +546,9 @@ def get_id(node: ComplexNode) -> str:
             bab_node.type == Structure.BAB
 
         return f'{get_id(bab_node)}-{get_id(bagian_node)}-paragraf-{paragraf_number_node.text.split()[1]}'
+
+    elif node.type == Structure.PENJELASAN:
+        return 'penjelasan'
 
     return ''
 

@@ -1,5 +1,6 @@
-from parser_types import Structure, ComplexNode
+from parser_types import Structure, ComplexNode, PrimitiveNode
 from parser_utils import (
+    get_id,
     get_squashed_list_item,
     ignore_line,
     get_list_index_type,
@@ -12,7 +13,9 @@ from parser_utils import (
 )
 from parser_is_start_of_x import (
     is_heading,
+    is_start_of_closing,
     is_start_of_first_list_index,
+    is_start_of_lembaran_number,
     is_start_of_number_with_brackets_str,
     is_start_of_number_with_brackets,
     is_start_of_number_with_dot_str,
@@ -34,9 +37,20 @@ from parser_is_start_of_x import (
     is_start_of_pasal_number,
     is_start_of_pasal,
     is_start_of_agreement,
+    is_start_of_penjelasan,
+    is_start_of_penjelasan_ayat_str,
+    is_start_of_penjelasan_huruf_str,
+    is_start_of_penjelasan_pasal_demi_pasal,
+    is_start_of_penjelasan_pasal_demi_pasal_title,
+    is_start_of_penjelasan_title,
+    is_start_of_penjelasan_umum,
+    is_start_of_penjelasan_umum_title,
     is_start_of_principles,
     is_start_of_considerations,
     is_start_of_preface,
+    is_start_of_unordered_list,
+    is_start_of_unordered_list_index,
+    is_start_of_unordered_list_item,
     is_start_of_uu_title_topic,
     is_start_of_uu_title_year_and_number,
     is_start_of_uu_title,
@@ -72,6 +86,9 @@ def test_get_list_index_type():
     assert get_list_index_type('a.') == Structure.LETTER_WITH_DOT
     assert get_list_index_type('(2)') == Structure.NUMBER_WITH_BRACKETS
     assert get_list_index_type('3.') == Structure.NUMBER_WITH_DOT
+    assert get_list_index_type('Ayat (4)') == Structure.PENJELASAN_AYAT
+    assert get_list_index_type('Huruf e') == Structure.PENJELASAN_HURUF
+    assert get_list_index_type('Angka 17') == Structure.PENJELASAN_ANGKA
     assert get_list_index_type('cara berpikir kreatif') == None
     assert get_list_index_type('a. cara berpikir kreatif') == None
 
@@ -80,6 +97,9 @@ def test_get_list_index_as_num():
     assert get_list_index_as_num('d.') == 4
     assert get_list_index_as_num('13.') == 13
     assert get_list_index_as_num('(8)') == 8
+    assert get_list_index_as_num('Ayat (8)') == 8
+    assert get_list_index_as_num('Huruf d') == 4
+    assert get_list_index_as_num('Angka 12') == 12
     with pytest.raises(Exception):
         get_list_index_as_num('Berhubungan dengan peraturan...')
 
@@ -129,18 +149,25 @@ def test_clean_law():
     assert clean_law(input) == output
 
 
-def test_get_squashed_list_item():
-    assert get_squashed_list_item('nasi goreng; 3. bakmie ayam;') == 12
-    assert get_squashed_list_item('gado-gado; dan/atau j. kue lapis;') == 19
-
-
 def test_is_start_of_first_list_index():
     assert is_start_of_first_list_index('a.') == True
     assert is_start_of_first_list_index('b.') == False
+
     assert is_start_of_first_list_index('1.') == True
     assert is_start_of_first_list_index('2.') == False
+
     assert is_start_of_first_list_index('(1)') == True
     assert is_start_of_first_list_index('(2)') == False
+
+    assert is_start_of_first_list_index('Ayat (1)') == True
+    assert is_start_of_first_list_index('Ayat (2)') == False
+
+    assert is_start_of_first_list_index('Huruf a') == True
+    assert is_start_of_first_list_index('Huruf b') == False
+
+    assert is_start_of_first_list_index('Angka 1') == True
+    assert is_start_of_first_list_index('Angka 2') == False
+
     assert is_start_of_first_list_index('dengan adanya...') == False
 
 
@@ -332,6 +359,8 @@ def test_is_start_of_bagian_number():
     assert is_start_of_bagian_number(law, 0) == False
     assert is_start_of_bagian_number(law, 1) == True
     assert is_start_of_bagian_number(law, 2) == False
+    # From UU 13 2003 Ketenagakerjaan [Bab XVI / Bagian 1]
+    assert is_start_of_bagian_number(['Bagian Pertama'], 0) == True
 
 
 def test_is_start_of_bagian():
@@ -471,6 +500,31 @@ def test_is_start_of_opening():
     assert is_start_of_opening(law, 0) == True
 
 
+def test_is_start_of_closing():
+    law = [
+        'Agar setiap orang mengetahuinya, memerintahkan pengundangan Undang-Undang ini dengan  penempatannya dalam Lembaran Negara Republik Indonesia.',
+        'Disahkan Di Jakarta,',
+        'Pada Tanggal 25 Maret 2003',
+        'PRESIDEN REPUBLIK INDONESIA,',
+        'Ttd.',
+        'MEGAWATI SOEKARNOPUTRI',
+        'Diundangkan Di Jakarta,',
+        'Pada Tanggal 25 Maret 2003',
+        'SEKRETARIS NEGARA REPUBLIK INDONESIA',
+        'Ttd.',
+        'BAMBANG KESOWO',
+        'LEMBARAN NEGARA REPUBLIK INDONESIA TAHUN 2003 NOMOR 39',
+    ]
+
+    assert is_start_of_closing(law, 1) == True
+    assert is_start_of_closing(law, 2) == False
+
+
+def test_is_start_of_lembaran_number():
+    law = ["LEMBARAN NEGARA REPUBLIK INDONESIA TAHUN 2003 NOMOR 39"]
+    is_start_of_lembaran_number(law, 0) == True
+
+
 def test_is_start_of_undang_undang():
     law = [
         'UNDANG-UNDANG REPUBLIK INDONESIA',
@@ -526,6 +580,14 @@ def test_get_next_list_index():
         get_next_list_index('Dengan adanya')
 
 
+def test_get_squashed_list_item():
+    assert get_squashed_list_item('nasi goreng; 3. bakmie ayam;') == 13
+    assert get_squashed_list_item('gado-gado; dan/atau j. kue lapis;') == 20
+    # From UU 13 2003 Ketenagakerjaan [Pasal 1, list index 27]
+    assert get_squashed_list_item(
+        'Siang berakhir pukul 18.00. 28. 1 hari adalah waktu selama 24 jam.') == 28
+
+
 def test_clean_maybe_list_item():
     simple = '(1) Setiap Orang berhak memperoleh Informasi Publik.'
     assert clean_maybe_list_item(simple) == [
@@ -533,7 +595,7 @@ def test_clean_maybe_list_item():
         'Setiap Orang berhak memperoleh Informasi Publik.',
     ]
 
-    # Adapted from uu-14-2008-keterbukaan-informasi-publik.txt
+    # From UU 14 2008 Keterbukaan Informasi Publik
     true_positive_squashed = '(1) Setiap Orang berhak dilindungi hak-hak dasar. (2) Hak-hak yang dimaksud termasuk:'
     assert clean_maybe_list_item(true_positive_squashed) == [
         '(1)',
@@ -542,14 +604,14 @@ def test_clean_maybe_list_item():
         'Hak-hak yang dimaksud termasuk:'
     ]
 
-    # Adapted from uu-14-2008-keterbukaan-informasi-publik.txt
+    # From UU 14 2008 Keterbukaan Informasi Publik
     false_positive_squashed = '(1) Calon anggota sebagaimana dimaksud dalam Pasal 3 ayat(2) diajukan oleh Presiden.'
     assert clean_maybe_list_item(false_positive_squashed) == [
         '(1)',
         'Calon anggota sebagaimana dimaksud dalam Pasal 3 ayat(2) diajukan oleh Presiden.',
     ]
 
-    # Adapted from uu-14-2008-keterbukaan-informasi-publik.txt
+    # From UU 14 2008 Keterbukaan Informasi Publik
     true_positive_squashed_first = 'Informasi yang wajib disediakan adalah: a. asas dan tujuan'
     assert clean_maybe_list_item(true_positive_squashed_first) == [
         'Informasi yang wajib disediakan adalah:',
@@ -557,8 +619,173 @@ def test_clean_maybe_list_item():
         'asas dan tujuan',
     ]
 
-    # Adapted from uu-14-2008-keterbukaan-informasi-publik.txt
+    # From UU 14 2008 Keterbukaan Informasi Publik
     false_positive_squashed_first = 'Informasi yang wajib disediakan adalah asas dan tujuan'
     assert clean_maybe_list_item(false_positive_squashed_first) == [
         'Informasi yang wajib disediakan adalah asas dan tujuan',
     ]
+
+    # From UU 13 2003 Ketenagakerjaan [Pasal 1, list index 27]
+    true_positive_squashed = 'Siang berakhir pukul 18.00. 28. 1 hari adalah waktu selama 24 jam.'
+    assert clean_maybe_list_item(true_positive_squashed) == [
+        'Siang berakhir pukul 18.00.',
+        '28.',
+        '1 hari adalah waktu selama 24 jam.'
+    ]
+
+    # From UU 13 2003 Ketenagakerjaan [Pasal 79, list index 1]
+    true_positive_squashed_multiple_whitespace = 'Pengusaha wajib memberi cuti kepada pekerja.  (2) Waktu istirahat dan cuti sebagaimana'
+    assert clean_maybe_list_item(true_positive_squashed_multiple_whitespace) == [
+        'Pengusaha wajib memberi cuti kepada pekerja.',
+        '(2)',
+        'Waktu istirahat dan cuti sebagaimana'
+    ]
+
+    # From UU 13 2003 Ketenagakerjaan [Pasal 79, list index 1]
+    true_positive_multiple_list_index_structures = '(1) Pengusaha wajib memberi waktu istirahat dan cuti kepada pekerja/buruh.  (2) Waktu istirahat dan cuti sebagaimana dimaksud dalam ayat (1), meliputi:  a. istirahat antara jam kerja, sekurang'
+    assert clean_maybe_list_item(true_positive_multiple_list_index_structures) == [
+        '(1)',
+        'Pengusaha wajib memberi waktu istirahat dan cuti kepada pekerja/buruh.',
+        '(2)',
+        'Waktu istirahat dan cuti sebagaimana dimaksud dalam ayat (1), meliputi:',
+        'a.',
+        'istirahat antara jam kerja, sekurang',
+    ]
+
+    # From UU 13 2003 Ketenagakerjaan [Penjelasan, I. Umum]
+    true_positive_unordered_list_squashed = '− Kebebasan Berserikat;  − Diskriminasi; '
+    assert clean_maybe_list_item(true_positive_unordered_list_squashed) == [
+        '−',
+        'Kebebasan Berserikat;',
+        '−',
+        'Diskriminasi;',
+    ]
+
+    # From UU 13 2003 Ketenagakerjaan [Penjelasan, II. Pasal demi Pasal, Pasal 4, Huruf b/c]
+    true_positive_penjelasan_huruf = 'Penempatan tenaga kerja diatur agar mengisi kebutuhan seluruh daerah.  Huruf c'
+    assert clean_maybe_list_item(true_positive_penjelasan_huruf) == [
+        'Penempatan tenaga kerja diatur agar mengisi kebutuhan seluruh daerah.',
+        'Huruf c'
+    ]
+
+    true_positive_penjelasan_ayat = 'Penempatan tenaga kerja diatur agar mengisi kebutuhan seluruh daerah.  Ayat (12)'
+    assert clean_maybe_list_item(true_positive_penjelasan_ayat) == [
+        'Penempatan tenaga kerja diatur agar mengisi kebutuhan seluruh daerah.',
+        'Ayat (12)'
+    ]
+
+
+def test_get_id():
+    bab_node = ComplexNode(type=Structure.BAB)
+    bab_node.add_child(PrimitiveNode(
+        type=Structure.BAB_NUMBER, text="BAB III"))
+    bab_node.add_child(PrimitiveNode(
+        type=Structure.BAB_TITLE, text="PEMULIHAN EKONOMI"))
+    assert get_id(bab_node) == 'bab-3'
+
+    bagian_node = ComplexNode(type=Structure.BAGIAN)
+    bagian_node.add_child(PrimitiveNode(
+        type=Structure.BAGIAN_NUMBER, text="Bagian Pertama"))
+    bagian_node.add_child(PrimitiveNode(
+        type=Structure.BAGIAN_TITLE, text="Jasa Kurir"))
+
+    bab_node.add_child(bagian_node)
+    assert get_id(bagian_node) == 'bab-3-bagian-1'
+
+    bagian_node_2 = ComplexNode(type=Structure.BAGIAN)
+    bagian_node_2.add_child(PrimitiveNode(
+        type=Structure.BAGIAN_NUMBER, text="Bagian Kedelapan"))
+    bagian_node_2.add_child(PrimitiveNode(
+        type=Structure.BAGIAN_TITLE, text="Jasa Ojek Online"))
+
+    bab_node.add_child(bagian_node_2)
+    assert get_id(bagian_node_2) == 'bab-3-bagian-8'
+
+    pasal_node = ComplexNode(type=Structure.PASAL)
+    bab_node.add_child(pasal_node)
+    pasal_node.add_child(PrimitiveNode(
+        type=Structure.PASAL_NUMBER, text="Pasal 12"))
+    assert get_id(pasal_node) == 'pasal-12'
+
+
+def test_is_start_of_penjelasan():
+    law = [
+        'PENJELASAN',
+        'UNDANG-UNDANG REPUBLIK INDONESIA',
+        'NOMOR 13 TAHUN 2003',
+        'TENTANG',
+        'KETENAGAKERJAA',
+    ]
+    assert is_start_of_penjelasan(law, 0) == True
+
+
+def test_is_start_of_penjelasan_title():
+    law = [
+        'PENJELASAN',
+        'UNDANG-UNDANG REPUBLIK INDONESIA',
+        'NOMOR 13 TAHUN 2003',
+        'TENTANG',
+        'KETENAGAKERJAA',
+    ]
+    assert is_start_of_penjelasan_title(law, 0) == True
+
+
+def test_is_start_of_unordered_list_index():
+    # From UU 13 2003 Ketenagakerjaan [Penjelasan, I. Umum]
+    law = ['− Ordonansi tentang Pengerahan Orang Indonesia Untuk Melakukan Pekerjaan Di Luar Indonesia']
+    assert is_start_of_unordered_list_index(law, 0) == True
+
+
+def test_is_start_of_unordered_list_item():
+    law = ['− Ordonansi tentang Pengerahan Orang Indonesia Untuk Melakukan Pekerjaan Di Luar Indonesia']
+    assert is_start_of_unordered_list_item(law, 0) == True
+
+
+def test_is_start_of_unordered_list():
+    law = ['− Ordonansi tentang Pengerahan Orang Indonesia Untuk Melakukan Pekerjaan Di Luar Indonesia']
+    assert is_start_of_unordered_list(law, 0) == True
+
+
+def test_is_start_of_penjelasan_umum():
+    law = [
+        'I. UMUM',
+        'Pembangunan ketenagakerjaan sebagai bagian integral...',
+    ]
+    assert is_start_of_penjelasan_umum(law, 0) == True
+
+
+def test_is_start_of_penjelasan_umum_title():
+    law = [
+        'I. UMUM',
+        'Pembangunan ketenagakerjaan sebagai bagian integral...',
+    ]
+    assert is_start_of_penjelasan_umum_title(law, 0) == True
+
+
+def test_is_start_of_penjelasan_huruf_str():
+    assert is_start_of_penjelasan_huruf_str('Huruf e') == True
+    assert is_start_of_penjelasan_huruf_str('Huruf e.') == False
+    assert is_start_of_penjelasan_huruf_str('e.') == False
+    assert is_start_of_penjelasan_huruf_str(
+        'Yang dimaksud dengan Huruf e') == False
+
+
+def test_is_start_of_penjelasan_ayat_str():
+    assert is_start_of_penjelasan_ayat_str('Ayat (2)') == True
+    assert is_start_of_penjelasan_ayat_str('(2)') == False
+    assert is_start_of_penjelasan_ayat_str(
+        'Yang dimaksud dengan Ayat (2)') == False
+
+
+def test_is_start_of_penjelasan_pasal_demi_pasal():
+    assert is_start_of_penjelasan_pasal_demi_pasal(
+        ['II. PASAL DEMI PASAL'], 0) == True
+    assert is_start_of_penjelasan_pasal_demi_pasal(
+        ['I. PASAL DEMI PASAL'], 0) == False
+
+
+def test_is_start_of_penjelasan_pasal_demi_pasal_title():
+    assert is_start_of_penjelasan_pasal_demi_pasal_title(
+        ['II. PASAL DEMI PASAL'], 0) == True
+    assert is_start_of_penjelasan_pasal_demi_pasal_title(
+        ['I. PASAL DEMI PASAL'], 0) == False

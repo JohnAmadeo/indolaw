@@ -1,10 +1,18 @@
-import Pasal from "components/Pasal";
 import PrimitiveStructure from "components/PrimitiveStructure";
 import ListItem from "components/ListItem";
-import StructureWithTitleAndNumber from "components/StructureWithTitleAndNumber";
+import StructureWithHeading from "components/StructureWithHeading";
+import CenteredHeading from "components/CenteredHeading";
+import { CSSProperties } from "react";
+import PenjelasanListItem from "components/PenjelasanListItem";
 
 export enum Structure {
   UNDANG_UNDANG = "UNDANG_UNDANG",
+  OPENING = "OPENING",
+  UU_TITLE = "UU_TITLE",
+  PREFACE = "PREFACE",
+  AGREEMENT = "AGREEMENT",
+  CONSIDERATIONS = "CONSIDERATIONS",
+  PRINCIPLES = "PRINCIPLES",
   BAB = "BAB",
   BAB_NUMBER = "BAB_NUMBER",
   BAB_TITLE = "BAB_TITLE",
@@ -16,9 +24,19 @@ export enum Structure {
   PARAGRAF = "PARAGRAF",
   PARAGRAF_TITLE = "PARAGRAF_TITLE",
   PARAGRAF_NUMBER = "PARAGRAF_NUMBER",
+  CLOSING = "CLOSING",
+  PENJELASAN = "PENJELASAN",
+  PENJELASAN_TITLE = "PENJELASAN_TITLE",
+  PENJELASAN_UMUM = "PENJELASAN_UMUM",
+  PENJELASAN_UMUM_TITLE = "PENJELASAN_UMUM_TITLE",
+  PENJELASAN_PASAL_DEMI_PASAL = "PENJELASAN_PASAL_DEMI_PASAL",
+  PENJELASAN_PASAL_DEMI_PASAL_TITLE = "PENJELASAN_PASAL_DEMI_PASAL_TITLE",
+  PENJELASAN_LIST_ITEM = "PENJELASAN_LIST_ITEM",
   PLAINTEXT = "PLAINTEXT",
   LIST = "LIST",
   LIST_ITEM = "LIST_ITEM",
+  UNORDERED_LIST = "UNORDERED_LIST",
+  UNORDERED_LIST_ITEM = "UNORDERED_LIST_ITEM",
   LIST_INDEX = "LIST_INDEX",
   NUMBER_WITH_BRACKETS = "NUMBER_WITH_BRACKETS",
   NUMBER_WITH_DOT = "NUMBER_WITH_DOT",
@@ -60,9 +78,39 @@ export interface Complex {
 export function renderStructure(
   structure: Complex | Primitive,
   key?: string | number,
+  isMobile?: boolean,
 ) {
   switch (structure.type) {
+    case Structure.UU_TITLE:
+    case Structure.PREFACE:
+    case Structure.AGREEMENT:
+    case Structure.CLOSING:
+    case Structure.PENJELASAN_TITLE:
+      return <CenteredHeading key={key} structure={structure as Complex} />;
+    case Structure.PENJELASAN:
+      return (
+        <>
+          <style jsx>{`
+            div {
+              margin: 144px 0 0 0;
+            }
+          `}</style>
+          <div id={(structure as Complex).id}>
+            {renderChildren(structure as Complex)}
+          </div>
+        </>
+      );
     case Structure.PLAINTEXT:
+      const customStyle: CSSProperties = {
+        textAlign: isMobile ? "start" : "justify",
+      };
+      return (
+        <PrimitiveStructure
+          key={key}
+          structure={structure as Primitive}
+          customStyle={customStyle}
+        />
+      );
     case Structure.BAB_NUMBER:
     case Structure.BAB_TITLE:
     case Structure.PASAL_NUMBER:
@@ -71,16 +119,62 @@ export function renderStructure(
     case Structure.PARAGRAF_NUMBER:
     case Structure.PARAGRAF_TITLE:
       return <PrimitiveStructure key={key} structure={structure as Primitive} />;
+    case Structure.PENJELASAN_UMUM_TITLE:
+    case Structure.PENJELASAN_PASAL_DEMI_PASAL_TITLE:
+      const headingStyle: CSSProperties = {
+        fontWeight: 700,
+      };
+      return (
+        <PrimitiveStructure
+          key={key}
+          structure={structure as Primitive}
+          customStyle={headingStyle}
+        />
+      );
     case Structure.BAB:
     case Structure.BAGIAN:
     case Structure.PARAGRAF:
-      return <StructureWithTitleAndNumber key={key} structure={structure as Complex} />;
-    case Structure.LIST:
-      return renderChildren(structure as Complex, key);
-    case Structure.LIST_ITEM:
-      return <ListItem key={key} structure={structure as Complex} />;
+      return (
+        <StructureWithHeading
+          key={key}
+          structure={structure as Complex}
+          numOfHeadingLines={2}
+        />
+      );
     case Structure.PASAL:
-      return <Pasal key={key} structure={structure as Complex} />;
+      return (
+        <StructureWithHeading
+          key={key}
+          structure={structure as Complex}
+          numOfHeadingLines={1}
+        />
+      );
+    case Structure.OPENING:
+    case Structure.CONSIDERATIONS:
+    case Structure.PRINCIPLES:
+    case Structure.PENJELASAN_UMUM:
+    case Structure.PENJELASAN_UMUM:
+    case Structure.LIST:
+    case Structure.UNORDERED_LIST:
+      return renderChildren(structure as Complex, key);
+    case Structure.PENJELASAN_PASAL_DEMI_PASAL:
+      return (
+        <>
+          <style jsx>{`
+            div {
+              margin: 48px 0 0 0;
+            }
+          `}</style>
+          <div>
+            {renderChildren(structure as Complex, key)}
+          </div>
+        </>
+      );
+    case Structure.LIST_ITEM:
+    case Structure.UNORDERED_LIST_ITEM:
+      return <ListItem key={key} structure={structure as Complex} />;
+    case Structure.PENJELASAN_LIST_ITEM:
+      return <PenjelasanListItem key={key} structure={structure as Complex} />;
     default:
       return <></>;
   }

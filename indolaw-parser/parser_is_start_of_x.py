@@ -91,6 +91,38 @@ def is_start_of_structure(structure: Structure, law: List[str], start_index: int
         return is_start_of_number_with_dot(law, start_index)
     elif structure == Structure.NUMBER_WITH_BRACKETS:
         return is_start_of_number_with_brackets(law, start_index)
+    elif structure == Structure.PENJELASAN_AYAT:
+        return is_start_of_penjelasan_ayat(law, start_index)
+    elif structure == Structure.PENJELASAN_HURUF:
+        return is_start_of_penjelasan_huruf(law, start_index)
+    elif structure == Structure.PENJELASAN_ANGKA:
+        return is_start_of_penjelasan_angka(law, start_index)
+    # CLOSING
+    elif structure == Structure.CLOSING:
+        return is_start_of_closing(law, start_index)
+    elif structure == Structure.LEMBARAN_NUMBER:
+        return is_start_of_lembaran_number(law, start_index)
+    # PENJELASAN
+    elif structure == Structure.PENJELASAN:
+        return is_start_of_penjelasan(law, start_index)
+    elif structure == Structure.PENJELASAN_TITLE:
+        return is_start_of_penjelasan_title(law, start_index)
+    elif structure == Structure.PENJELASAN_UMUM:
+        return is_start_of_penjelasan_umum(law, start_index)
+    elif structure == Structure.PENJELASAN_UMUM_TITLE:
+        return is_start_of_penjelasan_umum_title(law, start_index)
+    elif structure == Structure.PENJELASAN_PASAL_DEMI_PASAL:
+        return is_start_of_penjelasan_pasal_demi_pasal(law, start_index)
+    elif structure == Structure.PENJELASAN_PASAL_DEMI_PASAL_TITLE:
+        return is_start_of_penjelasan_pasal_demi_pasal_title(law, start_index)
+    elif structure == Structure.PENJELASAN_LIST_ITEM:
+        return is_start_of_penjelasan_list_index_str(law[start_index])
+    elif structure == Structure.UNORDERED_LIST:
+        return is_start_of_unordered_list(law, start_index)
+    elif structure == Structure.UNORDERED_LIST_ITEM:
+        return is_start_of_unordered_list_item(law, start_index)
+    elif structure == Structure.UNORDERED_LIST_INDEX:
+        return is_start_of_unordered_list_index(law, start_index)
     # OTHERS
     elif structure == Structure.PLAINTEXT:
         return is_start_of_plaintext(law, start_index)
@@ -373,7 +405,7 @@ def is_start_of_agreement(law: List[str], start_index: int) -> bool:
         >>> is_start_of_agreement(law, 0)
         True
     """
-    return 'Dengan Persetujuan Bersama' in law[start_index]
+    return 'Dengan Persetujuan' in law[start_index]
 
 
 def is_start_of_pasal(law: List[str], start_index: int, ) -> bool:
@@ -474,7 +506,14 @@ def is_start_of_bagian_number(law: List[str], start_index: int) -> bool:
         >>> is_start_of_bagian_number(law, 1)
         True
     """
-    return is_heading(r'Bagian Ke[a-z]+', law[start_index])
+
+    '''
+    Bagian numbers are mostly in the format of 'kesatu', 'kedua', etc.
+    however on rare occasions the 1st bagian can be 'pertama' instead
+    of 'kesatu'
+    '''
+    return is_heading(r'Bagian Ke[a-z]+', law[start_index]) or \
+        is_heading(r'Bagian Pertama', law[start_index])
 
 
 def is_start_of_bagian_title(law: List[str], start_index: int) -> bool:
@@ -657,6 +696,138 @@ def is_start_of_bab_title(law: List[str], start_index: int) -> bool:
     return is_start_of_bab_number(law, start_index-1)
 
 
+def is_start_of_closing(law: List[str], start_index: int) -> bool:
+    """Checks if law[start_index] marks the start of a CLOSING structure.
+
+    Args:
+        law: ordered list of strings that contain the text of the law we want to parse
+        start_index: law[start_index] indicates the 1st line of the structure we want to check
+
+    Returns:
+        bool: True if law[start_index] marks the start of a CLOSING structure; False otherwise
+
+    Examples:
+        e.g
+        >>> law = [
+        ...     'Agar setiap orang mengetahuinya, memerintahkan pengundangan Undang-Undang ini dengan penempatannya dalam Lembaran Negara Republik Indonesia.'
+        ...     'Disahkan Di Jakarta,',
+        ...     'Pada Tanggal 25 Maret 2003',
+        ...     'PRESIDEN REPUBLIK INDONESIA,',
+        ...     'Ttd.',
+        ...     'MEGAWATI SOEKARNOPUTRI',
+        ...     'Diundangkan Di Jakarta,',
+        ...     'Pada Tanggal 25 Maret 2003',
+        ...     'SEKRETARIS NEGARA REPUBLIK INDONESIA',
+        ...     'Ttd.',
+        ...     'BAMBANG KESOWO',
+        ...     'LEMBARAN NEGARA REPUBLIK INDONESIA TAHUN 2003 NOMOR 39 ',
+        ...     ...,
+        ... ]
+
+        >>> is_start_of_closing(law, 1)
+        True
+    """
+    return 'Lembaran Negara Republik Indonesia'.lower() in law[start_index-1].lower() and\
+        'Disahkan Di Jakarta'.lower() in law[start_index].lower()
+
+
+def is_start_of_lembaran_number(law: List[str], start_index: int) -> bool:
+    """Checks if law[start_index] marks the start of a LEMBARAN_NUMBER structure.
+
+    Args:
+        law: ordered list of strings that contain the text of the law we want to parse
+        start_index: law[start_index] indicates the 1st line of the structure we want to check
+
+    Returns:
+        bool: True if law[start_index] marks the start of a LEMBARAN_NUMBER structure; False otherwise
+
+    Examples:
+        e.g
+        >>> law = [
+        ...     'LEMBARAN NEGARA REPUBLIK INDONESIA TAHUN 2003 NOMOR 39 ',
+        ...     ...,
+        ... ]
+
+        >>> is_start_of_lembaran_number(law, 0)
+        True
+    """
+    return is_heading(
+        r'LEMBARAN NEGARA REPUBLIK INDONESIA TAHUN [0-9]{4} NOMOR [0-9]+',
+        law[start_index]
+    )
+
+
+def is_start_of_penjelasan(law: List[str], start_index: int) -> bool:
+    """Checks if law[start_index] marks the start of a PENJELASAN structure.
+    A PENJELASAN structure always begin with a PENJELASAN_TITLE structure, and the first line
+    of an PENJELASAN_TITLE structure always marks the start of an PENJELASAN structure.
+
+    Args:
+        law: ordered list of strings that contain the text of the law we want to parse
+        start_index: law[start_index] indicates the 1st line of the structure we want to check
+
+    Returns:
+        bool: True if law[start_index] marks the start of a PENJELASAN structure; False otherwise
+
+    Examples:
+        e.g
+        >>> law = [
+        ...     'PENJELASAN',
+        ...     'UNDANG-UNDANG REPUBLIK INDONESIA',
+        ...     'NOMOR 13 TAHUN 2003',
+        ...     'TENTANG',
+        ...     'KETENAGAKERJAA',
+        ... ]
+
+        >>> is_start_of_penjelasan(law, 0)
+        True
+    """
+    return is_start_of_penjelasan_title(law, start_index)
+
+
+def is_start_of_penjelasan_umum(law: List[str], start_index: int) -> bool:
+    return is_start_of_penjelasan_umum_title(law, start_index)
+
+
+def is_start_of_penjelasan_umum_title(law: List[str], start_index: int) -> bool:
+    return is_heading(r'I. UMUM', law[start_index])
+
+
+def is_start_of_penjelasan_title(law: List[str], start_index: int) -> bool:
+    """Checks if law[start_index] marks the start of a PENJELASAN_TITLE structure.
+
+    Args:
+        law: ordered list of strings that contain the text of the law we want to parse
+        start_index: law[start_index] indicates the 1st line of the structure we want to check
+
+    Returns:
+        bool: True if law[start_index] marks the start of a PENJELASAN_TITLE structure; False otherwise
+
+    Examples:
+        e.g
+        >>> law = [
+        ...     'PENJELASAN',
+        ...     'UNDANG-UNDANG REPUBLIK INDONESIA',
+        ...     'NOMOR 13 TAHUN 2003',
+        ...     'TENTANG',
+        ...     'KETENAGAKERJAA',
+        ... ]
+
+        >>> is_start_of_penjelasan_title(law, 0)
+        True
+    """
+    return is_heading(r'PENJELASAN', law[start_index]) and \
+        is_heading(r'UNDANG-UNDANG REPUBLIK INDONESIA', law[start_index+1])
+
+
+def is_start_of_penjelasan_pasal_demi_pasal(law: List[str], start_index: int) -> bool:
+    return is_start_of_penjelasan_pasal_demi_pasal_title(law, start_index)
+
+
+def is_start_of_penjelasan_pasal_demi_pasal_title(law: List[str], start_index: int) -> bool:
+    return is_heading(r'II. PASAL DEMI PASAL', law[start_index])
+
+
 def is_start_of_list(law: List[str], start_index: int) -> bool:
     """Checks if law[start_index] marks the start of a LIST structure.
 
@@ -762,7 +933,19 @@ def is_start_of_list_index_str(list_index_str: str) -> bool:
     """
     return is_start_of_letter_with_dot_str(list_index_str) or \
         is_start_of_number_with_dot_str(list_index_str) or \
-        is_start_of_number_with_brackets_str(list_index_str)
+        is_start_of_number_with_brackets_str(list_index_str) or \
+        is_start_of_penjelasan_ayat_str(list_index_str) or \
+        is_start_of_penjelasan_huruf_str(list_index_str) or \
+        is_start_of_penjelasan_angka_str(list_index_str)
+
+
+def is_start_of_penjelasan_list_index_str(list_index_str: str) -> bool:
+    """
+    See is_start_of_list_index
+    """
+    return is_start_of_penjelasan_ayat_str(list_index_str) or \
+        is_start_of_penjelasan_huruf_str(list_index_str) or \
+        is_start_of_penjelasan_angka_str(list_index_str)
 
 
 '''
@@ -957,6 +1140,48 @@ def is_start_of_number_with_brackets_str(string: str) -> bool:
     return is_heading(r'\([0-9]+\)', string)
 
 
+def is_start_of_penjelasan_ayat(law: List[str], start_index: int) -> bool:
+    return is_start_of_penjelasan_ayat_str(law[start_index])
+
+
+def is_start_of_penjelasan_ayat_str(string: str) -> bool:
+    return is_heading(r'Ayat \([0-9]+\)', string)
+
+
+def is_start_of_penjelasan_huruf(law: List[str], start_index: int) -> bool:
+    return is_start_of_penjelasan_huruf_str(law[start_index])
+
+
+def is_start_of_penjelasan_huruf_str(string: str) -> bool:
+    return is_heading(r'Huruf [a-z]', string)
+
+
+def is_start_of_penjelasan_angka(law: List[str], start_index: int) -> bool:
+    return is_start_of_penjelasan_angka_str(law[start_index])
+
+
+def is_start_of_penjelasan_angka_str(string: str) -> bool:
+    return is_heading(r'Angka [0-9]+', string)
+
+
+def is_start_of_unordered_list(law: List[str], start_index: int) -> bool:
+    return is_start_of_unordered_list_index(law, start_index)
+
+
+def is_start_of_unordered_list_item(law: List[str], start_index: int) -> bool:
+    return is_start_of_unordered_list_index(law, start_index)
+
+
+def is_start_of_unordered_list_index(law: List[str], start_index: int) -> bool:
+    maybe_list_index = law[start_index].split()[0].strip()
+    return is_start_of_unordered_list_index_str(maybe_list_index)
+
+
+def is_start_of_unordered_list_index_str(string: str) -> bool:
+    # \u2212 is the minus sign
+    return is_heading('\u2212', string)
+
+
 def is_start_of_plaintext(law: List[str], start_index: int) -> bool:
     # TODO: This is hilariously dumb. We should take in a list of the other
     # child structures as an argument and check against that instead
@@ -981,7 +1206,7 @@ def is_start_of_first_list_index(string: str) -> bool:
     ...    '1.' # LIST_INDEX
     ...    'dengan adanya cara baru...', # PLAINTEXT
     ...    '2.' # LIST_INDEX
-    ...    'yang dimaksuh oleh...', # PLAINTEXT
+    ...    'yang dimaksud oleh...', # PLAINTEXT
     ... ]
 
     In the example above, '1.' is a first LIST_INDEX and '2.' is not, because
@@ -1013,11 +1238,17 @@ def is_start_of_first_list_index(string: str) -> bool:
         >>> is_start_of_first_list_index('(2)')
         False
 
+        >>> is_start_of_first_list_index('Ayat (1)')
+        True
+
+        >>> is_start_of_first_list_index('Huruf a')
+        True
+
         >>> is_start_of_first_list_index('dengan adanya...')
         False
     """
-    list_index = string.split()[0]
-    return list_index in set(['a.', '1.', '(1)'])
+    list_index = string.strip()
+    return list_index in set(['a.', '1.', '(1)', 'Huruf a', 'Ayat (1)', 'Angka 1'])
 
 
 def is_heading(regex: str, string: str) -> bool:

@@ -8,6 +8,8 @@ import { useAppContext } from "../utils/state-management/context-provider";
 // TODO(johnamadeo): Fix "Warning: Each child in a list should have a unique "key" prop." problem
 export default function LawPage(props: {
   law: Complex;
+  year: number;
+  number: number;
 }): JSX.Element {
   const border = "2px solid red";
   const navWidth = "400px";
@@ -17,7 +19,7 @@ export default function LawPage(props: {
   return (
     <div>
       <Head>
-        <title>UU No. 11 Tahun 2020</title>
+        <title>UU No. {props.number} Tahun {props.year}</title>
         <meta name="viewport" content="initial-scale=1.0, width=device-width" />
       </Head>
       <div className="table-of-contents-container">

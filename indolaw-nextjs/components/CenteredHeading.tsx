@@ -2,7 +2,7 @@ import { CSSProperties } from "react";
 import { Complex, Primitive, renderStructure } from "utils/grammar";
 import PrimitiveStructure from "./PrimitiveStructure";
 
-export default function StructureWithTitleAndNumber(props: {
+export default function CenteredHeading(props: {
   structure: Complex;
 }): JSX.Element {
   const { structure } = props;
@@ -10,6 +10,7 @@ export default function StructureWithTitleAndNumber(props: {
     marginLeft: "0px",
     textAlign: "center",
     margin: "8px 0",
+    fontWeight: 700,
   };
 
   return (
@@ -20,16 +21,14 @@ export default function StructureWithTitleAndNumber(props: {
         }
       `}</style>
       <div id={structure.id}>
-        <PrimitiveStructure
-          structure={structure.children[0] as Primitive}
-          customStyle={headingStyle}
-        />
-        <PrimitiveStructure
-          structure={structure.children[1] as Primitive}
-          customStyle={headingStyle}
-        />
+        {structure.children.map((child, idx) => (
+          <PrimitiveStructure
+            key={idx}
+            structure={child as Primitive}
+            customStyle={headingStyle}
+          />
+        ))}
       </div>
-      {structure.children.slice(2).map(renderStructure)}
     </>
   );
 }

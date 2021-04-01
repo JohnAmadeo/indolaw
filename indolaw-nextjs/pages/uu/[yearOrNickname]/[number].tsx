@@ -6,9 +6,17 @@ import LawPage from "components/LawPage";
 export default function Number(props: {
   data: {
     law: Complex;
+    year: number;
+    number: number;
   };
 }): JSX.Element {
-  return <LawPage law={props.data.law} />;
+  return (
+    <LawPage
+      law={props.data.law}
+      year={props.data.year}
+      number={props.data.number}
+    />
+  );
 }
 
 export async function getStaticPaths() {
@@ -38,6 +46,8 @@ export const getStaticProps: GetStaticProps = async ({ params }) => {
     props: {
       data: {
         law: JSON.parse(file),
+        year: params.yearOrNickname,
+        number: params.number,
       },
     },
   };
