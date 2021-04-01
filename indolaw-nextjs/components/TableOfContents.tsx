@@ -1,18 +1,16 @@
 import { useState } from "react";
-import { Complex } from "utils/grammar";
+import { LawData } from "utils/grammar";
 import { colors, fonts } from "utils/theme";
 import TableOfContentsGroup from "components/TableOfContentsGroup";
 import { useMediaQuery } from "react-responsive";
 import { useAppContext } from "utils/state-management/context-provider";
 
-export default function TableOfContents(props: { 
-  law: Complex
- }): JSX.Element {
+export default function TableOfContents(props: { law: LawData }): JSX.Element {
   const isMobile = useMediaQuery({ query: "(max-width: 768px)" });
   const [isExpanded, setIsExpanded] = useState(false);
   const { colorScheme, invertedColorScheme, toggleDarkMode } = useAppContext();
 
-  const tableOfContents = props.law.children.map((child, idx) => (
+  const tableOfContents = props.law.content.children.map((child, idx) => (
     <TableOfContentsGroup
       key={idx}
       structure={child}

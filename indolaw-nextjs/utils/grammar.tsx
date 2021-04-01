@@ -64,6 +64,20 @@ const PRIMITIVE_STRUCTURES = new Set([
   Structure.PARAGRAF_TITLE,
 ]);
 
+export interface LawData {
+  content: Complex,
+  metadata: Metadata,
+}
+
+export interface Metadata {
+  lembaranNegaraNumber: number,
+  lembaranNegaraYear: number,
+  tambahanLembaranNumber: number,
+  number: number,
+  topic: string,
+  year: number
+}
+
 export interface Primitive {
   type: Structure;
   text: string;

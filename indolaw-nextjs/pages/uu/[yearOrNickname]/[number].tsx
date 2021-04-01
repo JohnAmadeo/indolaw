@@ -1,20 +1,16 @@
 import fs from "fs";
 import { GetStaticProps } from "next";
-import { Complex } from "utils/grammar";
+import { LawData } from "utils/grammar";
 import LawPage from "components/LawPage";
 
 export default function Number(props: {
   data: {
-    law: Complex;
-    year: number;
-    number: number;
+    law: LawData;
   };
 }): JSX.Element {
   return (
     <LawPage
       law={props.data.law}
-      year={props.data.year}
-      number={props.data.number}
     />
   );
 }
@@ -45,9 +41,7 @@ export const getStaticProps: GetStaticProps = async ({ params }) => {
   return {
     props: {
       data: {
-        law: JSON.parse(file)['content'],
-        year: params.yearOrNickname,
-        number: params.number,
+        law: JSON.parse(file),
       },
     },
   };

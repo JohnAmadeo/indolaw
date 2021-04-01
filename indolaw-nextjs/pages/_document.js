@@ -11,10 +11,10 @@ class MyDocument extends Document {
     return (
       <Html>
         <Head>
-          <link
+          <link 
             rel="stylesheet"
-            href="https://fonts.googleapis.com/css2?family=Merriweather+Sans:wght@400;700&family=Merriweather:wght@400;700&display=swap"
-          />
+            href="https://fonts.googleapis.com/css2?family=Merriweather+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Merriweather:ital,wght@0,400;0,700;1,400;1,700&display=swap" 
+          ></link>
           <link
             href="https://fonts.googleapis.com/icon?family=Material+Icons"
             rel="stylesheet"
