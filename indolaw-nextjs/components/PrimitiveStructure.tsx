@@ -1,7 +1,7 @@
 import { CSSProperties } from "react";
 import { Primitive, Structure } from "utils/grammar";
-import { colors } from "utils/theme";
 import Link from "next/link";
+import { useAppContext } from "utils/state-management/context-provider";
 
 export default function PrimitiveStructure(props: {
   structure: Primitive;
@@ -42,6 +42,8 @@ function maybeLinkToOtherLaws(text: string): string | Array<JSX.Element> {
     return text;
   }
 
+  const { colorScheme } = useAppContext()
+
   let linkedSpans = [];
   for (let i = 0; i < spans.length; i++) {
     const isLinkable = spans[i].match(regex) != null;
@@ -50,7 +52,7 @@ function maybeLinkToOtherLaws(text: string): string | Array<JSX.Element> {
         <span className="link">
           <style jsx>{`
             .link {
-              color: ${colors.background};
+              color: ${colorScheme.linkText};
             }
 
             .link:hover {

@@ -64,7 +64,7 @@ export default function TableOfContentsGroup(props: {
         .group {
           display: grid;
           grid-template-columns: ${style.iconSize} 1fr;
-          color: ${colors.dark.text};
+          color: ${colors.tray.text};
           font-family: ${fonts.sans};
           padding: ${style.groupPaddingVert};
           cursor: ${isMobile ? "pointer" : "auto"};
@@ -76,7 +76,7 @@ export default function TableOfContentsGroup(props: {
 
         .number {
           font-size: ${style.numberSize};
-          color: ${colors.dark.textSecondary};
+          color: ${colors.tray.textSecondary};
         }
 
         .title {
@@ -87,7 +87,7 @@ export default function TableOfContentsGroup(props: {
         .title:hover {
           color: ${!isMobile && isLink(structure)
           ? colors.text
-          : colors.dark.text};
+          : colors.tray.text};
         }
 
         .material-icons.style {
