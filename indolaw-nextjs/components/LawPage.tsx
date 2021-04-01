@@ -2,8 +2,8 @@ import { Complex } from "utils/grammar";
 import Law from "components/Law";
 import React from "react";
 import TableOfContents from "components/TableOfContents";
-import { colors } from "utils/theme";
 import Head from "next/head";
+import { useAppContext } from "../utils/state-management/context-provider";
 
 // TODO(johnamadeo): Fix "Warning: Each child in a list should have a unique "key" prop." problem
 export default function LawPage(props: {
@@ -13,6 +13,8 @@ export default function LawPage(props: {
 }): JSX.Element {
   const border = "2px solid red";
   const navWidth = "400px";
+
+  const { colorScheme } = useAppContext();
 
   return (
     <div>
@@ -28,7 +30,7 @@ export default function LawPage(props: {
             position: fixed;
             padding: 20px;
             width: ${navWidth};
-            background-color: ${colors.background};
+            background-color: ${colorScheme.trayBackground};
           }
 
           @media screen and (max-width: 768px) {
@@ -47,6 +49,7 @@ export default function LawPage(props: {
       <div className="law-container">
         <style jsx>{`
           .law-container {
+            background-color: ${colorScheme.background};
             position: absolute;
             left: ${navWidth};
             right: 0;
@@ -77,7 +80,7 @@ export default function LawPage(props: {
           }
         `}</style>
         <div className="law">
-          <Law law={props.law} />
+          <Law law={props.law} colorScheme={colorScheme}/>
         </div>
       </div>
     </div>
