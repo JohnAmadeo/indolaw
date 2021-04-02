@@ -28,8 +28,8 @@ export default function Citation(props: { metadata: Metadata }): JSX.Element {
         UU No. {number} Tahun {year},
       </span>
       {' '}
-      LN No. {lembaranNegaraNumber} Tahun {lembaranNegaraYear},
-      TLN No. {tambahanLembaranNumber}
+      Lembaran Negara No. {lembaranNegaraNumber} Tahun {lembaranNegaraYear},
+      Tambahan Lembaran Negara No. {tambahanLembaranNumber}
     </div>
   );
 }
