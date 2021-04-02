@@ -20,8 +20,12 @@ export default function PrimitiveStructure(props: {
       */}
       <style jsx>{`
         div {
-          margin: 4px 0 ${text.length > 350 ? 16 : 4}px 0;
+          margin: 4px 0 16px 0;
           font-size: 18px;
+        }
+
+        p {
+          line-height: 1.5;
         }
       `}</style>
       <p>{text}</p>
