@@ -25,11 +25,11 @@ export default function Citation(props: { metadata: Metadata }): JSX.Element {
       `}</style>
       <span>
         Undang-Undang Tentang {topic},
-        UU No. {number} Tahun {year},
+        UU Nomor {number} Tahun {year},
       </span>
       {' '}
-      Lembaran Negara No. {lembaranNegaraNumber} Tahun {lembaranNegaraYear},
-      Tambahan Lembaran Negara No. {tambahanLembaranNumber}
+      Lembaran Negara Nomor {lembaranNegaraNumber} Tahun {lembaranNegaraYear},
+      Tambahan Lembaran Negara Nomor {tambahanLembaranNumber}
     </div>
   );
 }
