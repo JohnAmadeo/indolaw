@@ -825,7 +825,8 @@ def is_start_of_penjelasan_pasal_demi_pasal(law: List[str], start_index: int) ->
 
 
 def is_start_of_penjelasan_pasal_demi_pasal_title(law: List[str], start_index: int) -> bool:
-    return is_heading(r'II. PASAL DEMI PASAL', law[start_index])
+    return is_heading(r'II. PASAL DEMI PASAL', law[start_index]) or \
+        is_heading(r'PASAL DEMI PASAL', law[start_index])
 
 
 def is_start_of_list(law: List[str], start_index: int) -> bool:

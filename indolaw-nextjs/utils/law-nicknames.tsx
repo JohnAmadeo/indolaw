@@ -5,4 +5,5 @@ export const LAW_NICKNAMES: {
   'ketenagakerjaan': 'uu-2003-13',
   'perlindungankonsumen': 'uu-1999-8',
   'peradilantatausahanegara': 'uu-1986-5',
+  'perkawinan': 'uu-1974-1',
 };

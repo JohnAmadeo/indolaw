@@ -789,3 +789,9 @@ def test_is_start_of_penjelasan_pasal_demi_pasal_title():
         ['II. PASAL DEMI PASAL'], 0) == True
     assert is_start_of_penjelasan_pasal_demi_pasal_title(
         ['I. PASAL DEMI PASAL'], 0) == False
+
+    # From UU 1 1974 Perkawinan [Penjelasan]
+    assert is_start_of_penjelasan_pasal_demi_pasal_title(
+        ['PASAL DEMI PASAL'], 0) == True
+    assert is_start_of_penjelasan_pasal_demi_pasal_title(
+        ['Arti PASAL DEMI PASAL adalah'], 0) == False

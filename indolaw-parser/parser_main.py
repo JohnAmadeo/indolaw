@@ -1,3 +1,4 @@
+#!/usr/bin/env python3
 import json
 import sys
 from typing import Any, Dict, List, Tuple, Union
@@ -12,6 +13,7 @@ from parser_types import (
     ComplexNode
 )
 from parser_is_start_of_x import (
+    is_start_of_lembaran_number,
     is_start_of_penjelasan_angka,
     is_start_of_penjelasan_ayat,
     is_start_of_penjelasan_huruf,
@@ -1288,14 +1290,16 @@ def parse_closing(parent: ComplexNode, law: List[str], start_index: int) -> int:
     closing_node = ComplexNode(type=Structure.CLOSING)
     parent.add_child(closing_node)
 
-    for i in range(10):
+    i = 0
+    while not is_start_of_lembaran_number(law, start_index+i):
         closing_node.add_child(PrimitiveNode(
             type=Structure.PLAINTEXT, text=law[start_index+i]))
+        i += 1
 
     closing_node.add_child(PrimitiveNode(
-        type=Structure.LEMBARAN_NUMBER, text=law[start_index+10]))
+        type=Structure.LEMBARAN_NUMBER, text=law[start_index+i]))
 
-    end_index = start_index+10
+    end_index = start_index+i
     return end_index
 
 
