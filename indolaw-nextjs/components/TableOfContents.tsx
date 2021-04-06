@@ -33,15 +33,13 @@ export default function TableOfContents(props: { law: LawData }): JSX.Element {
           cursor: pointer;
           height: 36px;
           padding: 4px 24px;
-          margin-bottom: 16px;
           background-color: ${invertedColorScheme.trayBackground};
           border-radius: 8px;
           border: 0;
           color: ${invertedColorScheme.tray.text};
           font-family: ${fonts.sans};
           font-size: 14px;
-          vertical-align: bottom;
-          ${isMobile ? "float: right;" : ""}
+          ${isMobile ? "float: right; margin-top: -8px;" : "margin-bottom:16px"}
         }
       }`}</style>
       <button onClick={toggleDarkMode}>
