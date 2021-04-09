@@ -1,9 +1,11 @@
 import { LawData } from "utils/grammar";
 import Law from "components/Law";
 import React from "react";
-import TableOfContents from "components/TableOfContents";
+import MobileTray from "components/MobileTray";
 import Head from "next/head";
 import { useAppContext } from "../utils/state-management/context-provider";
+import { useMediaQuery } from "react-responsive";
+import Tray from "./Tray";
 
 // TODO(johnamadeo): Fix "Warning: Each child in a list should have a unique "key" prop." problem
 export default function LawPage(props: {
@@ -12,6 +14,7 @@ export default function LawPage(props: {
   const border = "2px solid red";
   const navWidth = "400px";
 
+  const isMobile = useMediaQuery({ query: "(max-width: 768px)" });
   const { colorScheme } = useAppContext();
 
   return (
@@ -28,11 +31,12 @@ export default function LawPage(props: {
             position: fixed;
             padding: 20px;
             width: ${navWidth};
-            background-color: ${colorScheme.trayBackground};
+            background-color: ${colorScheme.tray.background};
           }
 
           @media screen and (max-width: 768px) {
             .table-of-contents-container {
+              background-color: ${colorScheme.tray.background};
               top: 0;
               height: 60px;
               overflow: hidden;
@@ -41,7 +45,7 @@ export default function LawPage(props: {
             }
           }
         `}</style>
-        <TableOfContents law={props.law} />
+        {isMobile ? <MobileTray law={props.law} /> : <Tray law={props.law} />}
       </div>
 
       <div className="law-container">

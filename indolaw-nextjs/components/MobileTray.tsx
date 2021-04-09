@@ -2,13 +2,10 @@ import { useState } from "react";
 import { LawData } from "utils/grammar";
 import { colors, fonts } from "utils/theme";
 import TableOfContentsGroup from "components/TableOfContentsGroup";
-import { useMediaQuery } from "react-responsive";
 import { useAppContext } from "utils/state-management/context-provider";
-import Citation from "./Citation";
-import Divider from "./Divider";
+import TrayButton from "./TrayButton";
 
-export default function TableOfContents(props: { law: LawData }): JSX.Element {
-  const isMobile = useMediaQuery({ query: "(max-width: 768px)" });
+export default function MobileTray(props: { law: LawData }): JSX.Element {
   const [isExpanded, setIsExpanded] = useState(false);
   const { colorScheme, invertedColorScheme, toggleDarkMode } = useAppContext();
 
@@ -17,53 +14,33 @@ export default function TableOfContents(props: { law: LawData }): JSX.Element {
       key={idx}
       structure={child}
       depth={0}
-      isMobile={isMobile}
+      isMobile={true}
       onSelectLink={() => {
-        if (isMobile) {
-          setIsExpanded(false);
-        }
+        setIsExpanded(false);
       }}
     />
   ));
 
   const darkModeButton = (
-    <>
-      <style>{`
-        button {
-          cursor: pointer;
-          height: 36px;
-          padding: 4px 24px;
-          background-color: ${invertedColorScheme.trayBackground};
-          border-radius: 8px;
-          border: 0;
-          color: ${invertedColorScheme.tray.text};
-          font-family: ${fonts.sans};
-          font-size: 14px;
-          ${isMobile ? "float: right; margin-top: -8px;" : "margin-bottom:16px"}
+    <div>
+      <style jsx>{`
+        div {
+          float: right; 
+          margin-top: -8px;
         }
       }`}</style>
-      <button onClick={toggleDarkMode}>
-        {colorScheme == colors ? "Dark Mode" : "Light Mode"}
-      </button>
-    </>
+      <TrayButton
+        onClick={toggleDarkMode}
+        text={colorScheme == colors ? "Dark Mode" : "Light Mode"}
+      />
+    </div>
   );
-
-  if (!isMobile) {
-    return (
-      <>
-        {darkModeButton}
-        <Citation metadata={props.law.metadata} />
-        <Divider />
-        {tableOfContents}
-      </>
-    );
-  }
 
   return isExpanded ? (
     <div className="container">
       <style jsx>{`
         .container {
-          background-color: ${colorScheme.trayBackground};
+          background-color: ${colorScheme.tray.background};
           position: fixed;
           top: 0;
           left: 0;

@@ -1,13 +1,14 @@
-import { colors } from "utils/theme";
+import { useAppContext } from "utils/state-management/context-provider";
 
 export default function Divider(): JSX.Element {
+  const { colorScheme } = useAppContext();
   return (
     <>
       <style jsx>{`
         .solid {          
           border: 0px;
-          border-top: 1px solid ${colors.tray.textSecondary};
-          margin: 24px 0;
+          border-top: 1px solid ${colorScheme.tray.textSecondary};
+          margin: 14px 0;
         }
       `}</style>
       <hr className="solid" />
