@@ -90,14 +90,24 @@ def parse_undang_undang(root: ComplexNode, law: List[str]):
         law: Ordered list of strings that contain the text of the law we want to parse
     """
     end_index = parse_opening(root, law, 0)
+    start_index = end_index+1
+
+    child_structure = Structure.BAB
+    if is_start_of_pasal(law, start_index):
+        '''
+        From UU 1 1928 Tentang Konvensi Vina, which is so short it just has PASALs without BABs
+        '''
+        child_structure = Structure.PASAL
+
     end_index = parse_complex_structure(
         root,
         law,
-        start_index=end_index+1,
+        start_index,
         ancestor_structures=[],
         sibling_structures=[Structure.PENJELASAN],
-        child_structures=[Structure.BAB, Structure.CLOSING],
+        child_structures=[child_structure, Structure.CLOSING],
     )
+
     _ = parse_penjelasan(root, law, start_index=end_index+1)
 
 
