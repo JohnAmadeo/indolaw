@@ -10,6 +10,7 @@ from parser_types import (
     PrimitiveNode,
     Structure,
     LIST_INDEX_STRUCTURES,
+    PlaintextInListItemScenario
 )
 from parser_is_start_of_x import (
     is_start_of_number_with_brackets_str,
@@ -717,3 +718,30 @@ def clear():
         _ = system('cls')
     else:
         _ = system('clear')
+
+
+def gen_plaintext_in_list_item_scenario_from_user(law: List[str], i: int) -> PlaintextInListItemScenario:
+    user_input = input(f'''
+---------------
+{law[i-2]}
+- - - - - - - -
+{law[i-1]}
+---------------
+
+{law[i]}
+---------------
+This PLAINTEXT is the 3rd line of a LIST_INDEX. Is it:
+- a sibling of the LIST this LIST_ITEM is in? (s) 
+- a child of the LIST ITEM? (c)
+- an embedded structure e.g is this UU modifying other UU? (e)
+''')
+
+    user_input = user_input.lower()
+    if user_input == 's':
+        return PlaintextInListItemScenario.SIBLING_OF_LIST
+    elif user_input == 'c':
+        return PlaintextInListItemScenario.CHILD_OF_LIST_ITEM
+    elif user_input == 'e':
+        return PlaintextInListItemScenario.EMBEDDED_LAW_SNIPPET
+    else:
+        raise Exception(f'Invalid command "{user_input}" entered by user')
