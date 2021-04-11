@@ -1743,15 +1743,6 @@ if __name__ == "__main__":
     ROOT = ComplexNode(type=Structure.UNDANG_UNDANG)
     parse_undang_undang(ROOT, law)
 
-    if len(sys.argv) >= 3 and sys.argv[2] == '--metadata':
-        with open(filename + '_metadata.json', 'w') as outfile:
-            json.dump(
-                extract_metadata_from_tree(ROOT),
-                outfile,
-                indent=2
-            )
-        exit()
-
     assert ROOT is not None
     with open(filename + '.json', 'w') as outfile:
         json.dump(
