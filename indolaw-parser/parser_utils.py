@@ -229,9 +229,20 @@ def clean_law(law: List[str]) -> List[str]:
     """
 
     '''
-    Remove semantically meaningless lines e.g '. . .' or '1 / 23'
+    Remove semantically meaningless text e.g '. . .' or '1 / 23'
+    
+    Mostly, they come in whole lines, but sometimes they get squashed
+    onto the end of real lines 
+    
+    e.g a real line ending in '2 / 43' in UU 18 2017 
     '''
     law = list(filterfalse(ignore_line, law))
+    new_law = []
+    for line in law:
+        result = re.split(r'[0-9]+ / [0-9]+', line)
+        new_law.append(result[0])
+
+    law = new_law
 
     '''
     Deal with list indexes. See clean_maybe_list_item for more.
