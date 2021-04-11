@@ -1177,6 +1177,7 @@ def parse_list_item(parent: ComplexNode, law: List[str], start_index: int) -> in
         assert child_structure is not None  # mypy type hint
         end_index = parse_structure(
             list_item_node, child_structure, law, start_index)
+
         start_index = end_index + 1
 
     return end_index
@@ -1703,7 +1704,6 @@ def print_tree() -> None:
 
 
 def crash(law: List[str], i: int, error_message: str) -> None:
-    # print_tree()
     print_around(law, i)
 
     if ROOT is not None:
@@ -1719,7 +1719,7 @@ def crash(law: List[str], i: int, error_message: str) -> None:
 
 if __name__ == "__main__":
     if len(sys.argv) < 2:
-        print('e.g python3 parser.py omnibus_law_m1')
+        print('e.g python3 parser.py uu_18_2017')
         exit()
 
     filename = sys.argv[1]
