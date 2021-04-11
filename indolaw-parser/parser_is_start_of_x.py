@@ -1220,7 +1220,7 @@ def is_start_of_unordered_list_index(law: List[str], start_index: int) -> bool:
 
 def is_start_of_unordered_list_index_str(string: str) -> bool:
     # \u2212 is the minus sign
-    return is_heading('\u2212', string)
+    return is_heading('\u2212', string) or is_heading('-', string)
 
 
 def is_start_of_plaintext(law: List[str], start_index: int) -> bool:
