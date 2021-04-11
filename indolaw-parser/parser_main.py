@@ -1101,12 +1101,44 @@ def parse_list_item(parent: ComplexNode, law: List[str], start_index: int) -> in
         type=Structure.PLAINTEXT, text=law[start_index+1]))
 
     '''
-    the 3rd line is either a nested list/nested unordered list that is the child of this list item,
-    or it marks the start of a sibling or ancestor structure
+    The 3rd line can be one of 2 scenarios.
+    
+    Scenario 1
+    ----------- 
+    The 3rd line is actually not part of the list, but marks the start of a sibling or ancestor structure of the LIST
 
-    TODO(johnamadeo): this isn't always true in rare cases (usually in Penjelasan Umum). For an e.g
-    outside of Penjelasan, see Pasal 192 UU 13 2003
+    e.g UU 8 1997 Tentang Dokumen Perusahaan
+    Pasal 18
+    (1) 
+    Dokumen perusahaan...
+    (2) 
+    Penyerahan sebagaimana...
+        a.
+        ...
+        b.
+        ...
+        c.
+        ...
+    (3) 
+    Pada berita acara...
+    Pasal 19 <-- 3RD LINE
+
+    Scenario 2
+    -----------
+    The 3rd line marks the start of a child of the LIST_ITEM (almost always a nested list/nested unordered list)
+
+    e.g UU 8 1997 Tentang Dokumen Perusahaan
+    Pasal 18
+    (1)
+    Dokumen perusahaan tertentu...
+    (2) 
+    Penyerahan sebagaimana...
+        a. <---- 3RD LINE
+        keterangan tempat...
+        b. 
+        keterangan tentang...
     '''
+
     non_recursive_ancestors = [
         Structure.PASAL,
         Structure.PARAGRAF,
