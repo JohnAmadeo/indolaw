@@ -110,7 +110,7 @@ def get_list_index_type(list_index_str: str) -> Optional[Structure]:
     elif is_start_of_penjelasan_angka_str(list_index_str):
         return Structure.PENJELASAN_ANGKA
     else:
-        return None
+        raise Exception(f'the string "{list_index_str}" is not a LIST_INDEX')
 
 
 def get_list_index_as_num(list_index_str: str) -> int:
