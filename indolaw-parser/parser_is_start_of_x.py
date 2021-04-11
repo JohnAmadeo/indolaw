@@ -91,6 +91,8 @@ def is_start_of_structure(structure: Structure, law: List[str], start_index: int
         return is_start_of_number_with_dot(law, start_index)
     elif structure == Structure.NUMBER_WITH_BRACKETS:
         return is_start_of_number_with_brackets(law, start_index)
+    elif structure == Structure.NUMBER_WITH_RIGHT_BRACKET:
+        return is_start_of_number_with_right_bracket(law, start_index)
     elif structure == Structure.PENJELASAN_AYAT:
         return is_start_of_penjelasan_ayat(law, start_index)
     elif structure == Structure.PENJELASAN_HURUF:
@@ -935,6 +937,7 @@ def is_start_of_list_index_str(list_index_str: str) -> bool:
     return is_start_of_letter_with_dot_str(list_index_str) or \
         is_start_of_number_with_dot_str(list_index_str) or \
         is_start_of_number_with_brackets_str(list_index_str) or \
+        is_start_of_number_with_right_bracket_str(list_index_str) or \
         is_start_of_penjelasan_ayat_str(list_index_str) or \
         is_start_of_penjelasan_huruf_str(list_index_str) or \
         is_start_of_penjelasan_angka_str(list_index_str)
@@ -1139,6 +1142,43 @@ def is_start_of_number_with_brackets_str(string: str) -> bool:
         False
     """
     return is_heading(r'\([0-9]+\)', string)
+
+
+def is_start_of_number_with_right_bracket(law: List[str], start_index: int) -> bool:
+    """See documentation for is_start_of_number_with_right_bracket_str"""
+    line = law[start_index].split()[0]
+    return is_start_of_number_with_right_bracket_str(line)
+
+
+def is_start_of_number_with_right_bracket_str(string: str) -> bool:
+    """Check if string marks the start of a NUMBER_WITH_RIGHT_BRACKET structure.
+
+    e.g consider this LIST structure
+    >>> [
+    ...     '1)' # LIST_INDEX
+    ...     'dengan adanya cara baru...',
+    ...     '2)' # LIST_INDEX
+    ...     'yang dimaksud oleh...', 
+    ...     '(1), # LIST_INDEX
+    ...     'karena data...',
+    ... ]
+
+    '1)' and '2)' marks the start of a NUMBER_WITH_RIGHT_BRACKET, but not '(1)'
+
+    Args:
+        string: self-descriptive
+
+    Returns:
+        bool: True if string marks the start of a NUMBER_WITH_RIGHT_BRACKET structure; False otherwise
+
+    Examples:
+        >>> is_start_of_number_with_right_bracket_str('2)')
+        True
+
+        >>> is_start_of_number_with_right_bracket_str('(4)')
+        False
+    """
+    return is_heading(r'[0-9]+\)', string)
 
 
 def is_start_of_penjelasan_ayat(law: List[str], start_index: int) -> bool:
