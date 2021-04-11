@@ -436,7 +436,22 @@ def get_squashed_list_item(line):
         return None
 
     start_of_squashed_list_item_idx = earliest_match.start(2)
-    return start_of_squashed_list_item_idx
+
+#     user_input = input(f'''
+# ---------------
+# {line[:start_of_squashed_list_item_idx-1].strip()}
+# - - - - - - - -
+# {line[start_of_squashed_list_item_idx:]}
+# ---------------
+
+# Split line? {colored('y', 'green')} / {colored('n', 'red')}
+# ''')
+    user_input = 'y'
+
+    if user_input == 'y':
+        return start_of_squashed_list_item_idx
+    else:
+        return None
 
 
 def get_next_list_index(list_index: str) -> str:
