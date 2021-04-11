@@ -13,6 +13,7 @@ from parser_types import (
 )
 from parser_is_start_of_x import (
     is_start_of_number_with_brackets_str,
+    is_start_of_number_with_right_bracket_str,
     is_start_of_number_with_dot_str,
     is_start_of_letter_with_dot_str,
     is_start_of_first_list_index,
@@ -96,6 +97,8 @@ def get_list_index_type(list_index_str: str) -> Optional[Structure]:
     """
     if is_start_of_number_with_brackets_str(list_index_str):
         return Structure.NUMBER_WITH_BRACKETS
+    elif is_start_of_number_with_right_bracket_str(list_index_str):
+        return Structure.NUMBER_WITH_RIGHT_BRACKET
     elif is_start_of_number_with_dot_str(list_index_str):
         return Structure.NUMBER_WITH_DOT
     elif is_start_of_letter_with_dot_str(list_index_str):
@@ -138,6 +141,8 @@ def get_list_index_as_num(list_index_str: str) -> int:
     regex = None
     if is_start_of_number_with_brackets_str(list_index_str):
         regex = r'\(([0-9]+)\)'
+    elif is_start_of_number_with_right_bracket_str(list_index_str):
+        regex = r'([0-9]+)\)'
     elif is_start_of_number_with_dot_str(list_index_str):
         regex = r'([0-9]+)\.'
     elif is_start_of_letter_with_dot_str(list_index_str):
@@ -395,7 +400,12 @@ def get_squashed_list_item(line):
         r'(; dan/atau)',
         r'(; dan)',
     ]
-    list_index_regex = [r'([a-z]\. )', r'([0-9]+\. )', r'(\([0-9]+\) )']
+    list_index_regex = [
+        r'([a-z]\. )',  # LETTER_WITH_DOT
+        r'([0-9]+\. )',  # NUMBER_WITH_DOT
+        r'(\([0-9]+\) )',  # NUMBER_WITH_BRACKETS
+        r'([0-9]+\) )'  # NUMBER_WITH_RIGHT_BRACKET
+    ]
     unordered_list_index_regex = [r'(\u2212 )']
     penjelasan_list_index_regex = [
         r'(Huruf [a-z])',
@@ -438,14 +448,17 @@ def get_next_list_index(list_index: str) -> str:
         str: string that represents the next LIST_INDEX
 
     Examples:
-        >>> get_next_list_index(1, Structure.NUMBER_WITH_DOT)
+        >>> get_next_list_index('1.', Structure.NUMBER_WITH_DOT)
         '2.'
 
-        >>> get_next_list_index(1, Structure.NUMBER_WITH_BRACKETS)
+        >>> get_next_list_index('(1)', Structure.NUMBER_WITH_BRACKETS)
         '(2)'
 
-        >>> get_next_list_index(1, Structure.LETTER_WITH_DOT)
+        >>> get_next_list_index('a.', Structure.LETTER_WITH_DOT)
         'b.'
+
+        >>> get_next_list_index('1)', Structure.LETTER_WITH_DOT)
+        '2)'
     """
     list_index_num = get_list_index_as_num(list_index)
     list_index_type = get_list_index_type(list_index)
@@ -457,6 +470,8 @@ def get_next_list_index(list_index: str) -> str:
         return f'{list_index_num+1}.'
     elif list_index_type == Structure.NUMBER_WITH_BRACKETS:
         return f'({list_index_num+1})'
+    elif list_index_type == Structure.NUMBER_WITH_RIGHT_BRACKET:
+        return f'{list_index_num+1})'
     elif list_index_type == Structure.LETTER_WITH_DOT:
         return f'{chr(96+list_index_num+1)}.'
     else:

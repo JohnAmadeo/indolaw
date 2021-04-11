@@ -14,6 +14,8 @@ from parser_types import (
 )
 from parser_is_start_of_x import (
     is_start_of_lembaran_number,
+    is_start_of_number_with_right_bracket,
+    is_start_of_pasal,
     is_start_of_penjelasan_angka,
     is_start_of_penjelasan_ayat,
     is_start_of_penjelasan_huruf,
@@ -1215,6 +1217,9 @@ def parse_list_index(parent: ComplexNode, law: List[str], i: int) -> None:
     elif is_start_of_number_with_brackets(law, i):
         parent.add_child(PrimitiveNode(
             type=Structure.NUMBER_WITH_BRACKETS, text=law[i]))
+    elif is_start_of_number_with_right_bracket(law, i):
+        parent.add_child(PrimitiveNode(
+            type=Structure.NUMBER_WITH_RIGHT_BRACKET, text=law[i]))
     elif is_start_of_penjelasan_ayat(law, i):
         parent.add_child(PrimitiveNode(
             type=Structure.PENJELASAN_AYAT, text=law[i]))

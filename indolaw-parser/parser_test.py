@@ -18,6 +18,8 @@ from parser_is_start_of_x import (
     is_start_of_lembaran_number,
     is_start_of_number_with_brackets_str,
     is_start_of_number_with_brackets,
+    is_start_of_number_with_right_bracket_str,
+    is_start_of_number_with_right_bracket,
     is_start_of_number_with_dot_str,
     is_start_of_number_with_dot,
     is_start_of_letter_with_dot_str,
@@ -86,6 +88,7 @@ def test_get_list_index_type():
     assert get_list_index_type('a.') == Structure.LETTER_WITH_DOT
     assert get_list_index_type('(2)') == Structure.NUMBER_WITH_BRACKETS
     assert get_list_index_type('3.') == Structure.NUMBER_WITH_DOT
+    assert get_list_index_type('5)') == Structure.NUMBER_WITH_RIGHT_BRACKET
     assert get_list_index_type('Ayat (4)') == Structure.PENJELASAN_AYAT
     assert get_list_index_type('Huruf e') == Structure.PENJELASAN_HURUF
     assert get_list_index_type('Angka 17') == Structure.PENJELASAN_ANGKA
@@ -97,6 +100,7 @@ def test_get_list_index_as_num():
     assert get_list_index_as_num('d.') == 4
     assert get_list_index_as_num('13.') == 13
     assert get_list_index_as_num('(8)') == 8
+    assert get_list_index_as_num('11)') == 11
     assert get_list_index_as_num('Ayat (8)') == 8
     assert get_list_index_as_num('Huruf d') == 4
     assert get_list_index_as_num('Angka 12') == 12
@@ -107,6 +111,7 @@ def test_get_list_index_as_num():
 def test_is_next_list_index_number():
     assert is_next_list_index_number('d.', 'e.') == True
     assert is_next_list_index_number('(13)', '(14)') == True
+    assert is_next_list_index_number('3)', '4)') == True
     assert is_next_list_index_number('(13)', '(15)') == False
     with pytest.raises(Exception):
         is_next_list_index_number('a.', '(2)')
@@ -159,6 +164,9 @@ def test_is_start_of_first_list_index():
     assert is_start_of_first_list_index('(1)') == True
     assert is_start_of_first_list_index('(2)') == False
 
+    assert is_start_of_first_list_index('1)') == True
+    assert is_start_of_first_list_index('2)') == False
+
     assert is_start_of_first_list_index('Ayat (1)') == True
     assert is_start_of_first_list_index('Ayat (2)') == False
 
@@ -185,6 +193,22 @@ def test_is_start_of_number_with_brackets():
     assert is_start_of_number_with_brackets(law, 0) == True
     assert is_start_of_number_with_brackets(law, 1) == False
     assert is_start_of_number_with_brackets(law, 2) == True
+
+
+def test_is_start_of_number_with_right_bracket_str():
+    assert is_start_of_number_with_right_bracket_str('2)') == True
+    assert is_start_of_number_with_right_bracket_str('(2)') == False
+
+
+def test_is_start_of_number_with_right_bracket():
+    law = [
+        '1)',
+        'dengan adanya...',
+        '2)',
+    ]
+    assert is_start_of_number_with_right_bracket(law, 0) == True
+    assert is_start_of_number_with_right_bracket(law, 1) == False
+    assert is_start_of_number_with_right_bracket(law, 2) == True
 
 
 def test_is_start_of_number_with_dot_str():
@@ -227,11 +251,13 @@ def test_is_start_of_list_index():
         'dengan adanya...',
         '(3)',
         'dengan adanya...',
+        '4)'
     ]
     assert is_start_of_list_index(law, 0) == True
     assert is_start_of_list_index(law, 1) == False
     assert is_start_of_list_index(law, 2) == True
     assert is_start_of_list_index(law, 4) == True
+    assert is_start_of_list_index(law, 6) == True
 
 
 def test_is_start_of_list_item():
@@ -239,11 +265,14 @@ def test_is_start_of_list_item():
         'Undang-Undang ini bertujuan untuk:',
         'a.',
         'menjamin hak warga negara...',
+        '5)',
+        'menjamin hak warga negara...',
     ]
 
     assert is_start_of_list_item(law, 0) == False
     assert is_start_of_list_item(law, 1) == True
     assert is_start_of_list_item(law, 2) == False
+    assert is_start_of_list_item(law, 3) == True
 
 
 def test_is_start_of_list():
@@ -576,12 +605,13 @@ def test_get_next_list_index():
     assert get_next_list_index('1.') == '2.'
     assert get_next_list_index('(1)') == '(2)'
     assert get_next_list_index('a.') == 'b.'
+    assert get_next_list_index('5)') == '6)'
     with pytest.raises(Exception):
         get_next_list_index('Dengan adanya')
 
 
 def test_get_squashed_list_item():
-    assert get_squashed_list_item('nasi goreng; 3. bakmie ayam;') == 13
+    assert get_squashed_list_item('nasi goreng; 3) bakmie ayam;') == 13
     assert get_squashed_list_item('gado-gado; dan/atau j. kue lapis;') == 20
     # From UU 13 2003 Ketenagakerjaan [Pasal 1, list index 27]
     assert get_squashed_list_item(
