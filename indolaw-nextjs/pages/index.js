@@ -42,6 +42,12 @@ export default function Home() {
         <li>
           <span className="link"><Link href="/uu/1986/5">Undang-Undang 5 Tahun 1986 Tentang Peradilan Tata Usaha Negara</Link></span>
         </li>
+        <li>
+          <span className="link"><Link href="/uu/1997/8">Undang-Undang 8 Tahun 1997 Tentang Dokumen Perusahaan</Link></span>
+        </li>
+        <li>
+          <span className="link"><Link href="/uu/1982/1">Undang-Undang 1 Tahun 1982 Tentang Pengesahan Konvensi Wina Mengenai Hubungan Diplomatik Beserta Protokol Opsionalnya Mengenai Hal Memperoleh Kewarganegaraan (vienna Convention On Diplomatic Relations And Optional Protocol To The Vienna Convertion On Diplomatic Relations Concerning Acquisition Of Nationality, 1961) Dan Pengesahan Konvensi Wina Mengenai Hubungan Konsuler Beserta Protocol Opsionalnya Mengenai Hal Memperoleh Kewarganegaraan (vienna Convention On Consular Relations And Optional Protocol To The Vienna Convention On Consular Relations Concerning Acquisition Of Nationality, 1963)</Link></span>
+        </li>
       </ul>
     </div>
   );
