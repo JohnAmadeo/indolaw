@@ -406,7 +406,7 @@ def get_squashed_list_item(line):
         r'(\([0-9]+\) )',  # NUMBER_WITH_BRACKETS
         r'([0-9]+\) )'  # NUMBER_WITH_RIGHT_BRACKET
     ]
-    unordered_list_index_regex = [r'(\u2212 )']
+    unordered_list_index_regex = [r'(\u2212 )', r'(- )']
     penjelasan_list_index_regex = [
         r'(Huruf [a-z])',
         r'(Ayat \([0-9]+\))',
