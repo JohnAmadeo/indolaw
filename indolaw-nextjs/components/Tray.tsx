@@ -8,6 +8,7 @@ import Divider from "./Divider";
 import MetadataSection from "./MetadataSection";
 import Tab from "./Tab";
 import TrayButton from "./TrayButton";
+import PutusanMK from "./PutusanMK";
 
 enum Tabs {
   TABLE_OF_CONTENTS,
@@ -46,18 +47,7 @@ export default function Tray(props: { law: LawData }): JSX.Element {
             />
             <MetadataSection
               title={'Putusan MK'}
-              content={(
-                <TrayButton
-                  onClick={() => {
-                    // TODO(johnamadeo): Unclear how well this works for UU Perubahan
-                    const topicKeywords = law.metadata.topic.split(' ').join('+')
-                    const mkUrl = `https://www.mkri.id/index.php?page=web.Putusan&id=1&kat=5&cari=${topicKeywords}`
-                    window.open(mkUrl, '_blank')
-                  }}
-                  iconName={'open_in_new'}
-                  text={'Lihat Putusan MK Terkait'}
-                />
-              )}
+              content={<PutusanMK law={law} />}
             />
             <MetadataSection
               title={'Theme'}
