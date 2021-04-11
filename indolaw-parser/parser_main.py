@@ -31,7 +31,8 @@ from parser_is_start_of_x import (
     is_start_of_unordered_list_item,
 )
 from parser_utils import (
-    convert_tree_to_json, extract_metadata_from_tree,
+    convert_tree_to_json,
+    extract_metadata_from_tree,
     get_list_index_type,
     is_next_list_index_number,
     load_clean_law,
