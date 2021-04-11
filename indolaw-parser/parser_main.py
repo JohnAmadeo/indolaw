@@ -36,7 +36,6 @@ from parser_utils import (
     is_next_list_index_number,
     clean_law,
     print_around,
-    print_law
 )
 
 '''
