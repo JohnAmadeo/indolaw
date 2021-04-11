@@ -990,6 +990,12 @@ def parse_list(parent: ComplexNode, law: List[str], start_index: int) -> int:
 def parse_penjelasan_list_item(parent: ComplexNode, law: List[str], start_index: int) -> int:
     '''
     TODO(johnamadeo)
+
+    This doesn't work for nested LIST w/ PENJELASAN_LIST_ITEM when
+    the line after the LIST_INDEX is NOT the start of the nested LIST
+    w/ PENJELASAN_LIST_ITEM
+
+    (e.g try it on Pasal 53 in PENJELASAN of UU 40 2007)
     '''
     penjelasan_list_item_node = ComplexNode(
         type=Structure.PENJELASAN_LIST_ITEM)
