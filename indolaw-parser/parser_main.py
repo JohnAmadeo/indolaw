@@ -867,6 +867,8 @@ def parse_list(parent: ComplexNode, law: List[str], start_index: int) -> int:
     parent.add_child(list_node)
 
     non_recursive_ancestors = [
+        Structure.PRINCIPLES,
+        Structure.AGREEMENT,
         Structure.PASAL,
         Structure.PARAGRAF,
         Structure.BAGIAN,
