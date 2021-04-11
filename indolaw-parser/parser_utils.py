@@ -274,6 +274,8 @@ def clean_split_plaintext(law: List[str]) -> List[str]:
     '''
     Stitch together plaintext lines that get separated into 2 lines due to page breaks
     '''
+    print('Checking for lines that have been accidentally split into two...')
+
     new_law: List[str] = []
     for i, line in enumerate(law):
         '''
@@ -295,26 +297,17 @@ def clean_split_plaintext(law: List[str]) -> List[str]:
         is_prev_line_maybe_split_plaintext = i > 0 and len(law[i-1]) > 10
 
         if is_curr_line_maybe_split_plaintext and is_prev_line_maybe_split_plaintext:
-            print(
-                '''
+            user_input = input(f'''
 ---------------------------------
-{prev_line}
+{law[i-1]}
 - - - - - - - - - - - - - - - - -
-{line}
----------------------------------                
-                '''.format(
-                    prev_line=law[i-1],
-                    line=law[i]
-                )
-            )
+{law[i]}
+---------------------------------
 
-            yes = colored('y', 'green')
-            no = colored('n', 'red')
-            user_input = input(
-                "Combine lines into one? {y} / {n} ? ".format(y=yes, n=no))
-            clear()
+Combine lines into one: {colored('y', 'green')} / {colored('n', 'red')} ? 
+''')
 
-            if user_input == 'y':
+            if user_input.lower() == 'y':
                 new_law[-1] += (' '+line)
             else:
                 new_law.append(line)
