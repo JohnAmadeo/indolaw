@@ -399,6 +399,7 @@ def get_squashed_list_item(line):
         r'(\.)',
         r'(; dan/atau)',
         r'(; dan)',
+        r'(,)',
     ]
     list_index_regex = [
         r'([a-z]\. )',  # LETTER_WITH_DOT
