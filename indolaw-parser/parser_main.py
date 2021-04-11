@@ -1432,6 +1432,21 @@ def parse_penjelasan_pasal_demi_pasal(parent: ComplexNode, law: List[str], start
     penjelasan_pasal_demi_pasal.add_child(PrimitiveNode(
         type=Structure.PENJELASAN_PASAL_DEMI_PASAL_TITLE, text=law[start_index]))
 
+    if not is_start_of_pasal(law, start_index+1):
+        '''
+        TODO(@johnamadeo): Covers edge case where the content of PENJELASAN_PASAL_DEMI_PASAL
+        is just a 'Cukup Jelas.' followed by the Tambahan Lembaran Negara number; but may need 
+        to make more robust in the future if there are UU where the content is not under PASAL, 
+        but still has multiple TEXT_BLOCK_STRUCTURES
+
+        e.g UU 1 1982 Konvensi Vina
+        '''
+        penjelasan_pasal_demi_pasal.add_child(PrimitiveNode(
+            type=Structure.PLAINTEXT, text=law[start_index+1]))
+        penjelasan_pasal_demi_pasal.add_child(PrimitiveNode(
+            type=Structure.PLAINTEXT, text=law[start_index+2]))
+        return start_index+2
+
     end_index = parse_complex_structure(
         penjelasan_pasal_demi_pasal,
         law,
