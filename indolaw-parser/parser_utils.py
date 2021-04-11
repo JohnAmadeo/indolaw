@@ -1,7 +1,7 @@
 from typing import Any, Dict, List, Optional, Union
 from itertools import filterfalse
 import re
-from os import system, name
+from os import system, name, path
 from colorama import init
 from termcolor import colored
 
@@ -207,6 +207,47 @@ def is_next_list_index_number(list_index_a: str, list_index_b: str) -> bool:
         return is_start_of_first_list_index(list_index_b)
 
     return get_list_index_as_num(list_index_a) + 1 == get_list_index_as_num(list_index_b)
+
+
+def load_clean_law(filename: str) -> List[str]:
+    should_clean_law = True
+    clean_filename = f'{filename}_clean.txt'
+
+    if path.isfile(clean_filename):
+        y = colored('y', 'green')
+        n = colored('n', 'red')
+        user_input = input(
+            f'{clean_filename} already exists. Do you want to use it?: {y} / {n} ? ')
+
+        if user_input == 'y':
+            should_clean_law = False
+
+    law: List[str] = []
+    if should_clean_law:
+        file = open(
+            filename + '.txt',
+            mode='r',
+            encoding='utf-8-sig')
+        law = file.read().split("\n")
+        law = clean_law(law)
+
+        with open(filename + '_clean.txt', 'w') as outfile:
+            txt_law = []
+            for i, line in enumerate(law):
+                if i < len(law) - 1:
+                    txt_law.append(f'{line}\n')
+                else:
+                    txt_law.append(f'{line}')
+            outfile.writelines(txt_law)
+
+    else:
+        file = open(
+            clean_filename,
+            mode='r',
+            encoding='utf-8-sig')
+        law = file.read().split("\n")
+
+    return law
 
 
 def clean_law(law: List[str]) -> List[str]:

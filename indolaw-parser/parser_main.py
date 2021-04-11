@@ -34,7 +34,7 @@ from parser_utils import (
     convert_tree_to_json, extract_metadata_from_tree,
     get_list_index_type,
     is_next_list_index_number,
-    clean_law,
+    load_clean_law,
     print_around,
 )
 
@@ -1722,19 +1722,8 @@ if __name__ == "__main__":
         exit()
 
     filename = sys.argv[1]
-    file = open(
-        filename + '.txt',
-        mode='r',
-        encoding='utf-8-sig')
-    law = file.read().split("\n")
-    law = clean_law(law)
 
-    with open(filename + '_clean.txt', 'w') as outfile:
-        json.dump(
-            law,
-            outfile,
-            indent=2
-        )
+    law = load_clean_law(filename)
 
     if len(sys.argv) >= 3 and sys.argv[2] == '--clean':
         exit()
