@@ -156,3 +156,9 @@ class ComplexNode:
     def add_child(self, child: Union[PrimitiveNode, 'ComplexNode']):
         self.children.append(child)
         child.parent = self
+
+
+class PlaintextInListItemScenario(Enum):
+    SIBLING_OF_LIST = "SIBLING_OF_LIST"
+    CHILD_OF_LIST_ITEM = "CHILD_OF_LIST_ITEM"
+    EMBEDDED_LAW_SNIPPET = "EMBEDDED_LAW_SNIPPET"
