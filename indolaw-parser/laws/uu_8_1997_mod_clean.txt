@@ -1,369 +1,380 @@
-[
-  "UNDANG-UNDANG REPUBLIK INDONESIA",
-  "NOMOR 8 TAHUN 1997",
-  "TENTANG",
-  "DOKUMEN PERUSAHAAN",
-  "DENGAN RAHMAT TUHAN YANG MAHA ESA",
-  "PRESIDEN REPUBLIK INDONESIA,",
-  "Menimbang:",
-  "a.",
-  "bahwa upaya untuk mewujudkan kesejahteraan umum dan kemakmuran rakyat yang bersendikan keadilan sosial bagi seluruh rakyat Indonesia, merupakan bagian integral cita-cita kemerdekaan dalam wadah Negara Kesatuan Republik Indonesia yang berdasarkan Pancasila dan Undang-Undang Dasar 1945;",
-  "b.",
-  "bahwa usaha untuk menjamin penyelenggaraan perusahaan secara efektif dan efisien merupakan salah satu dasar kebijaksanaan Pembangunan Nasional di bidang ekonomi, yang sangat berpengaruh terhadap kemampuan dunia usaha untuk mempergunakan peluang dan berkiprah secara sehat dalam dunia internasional yang penuh persaingan sehingga dapat memberikan manfaat yang sebesar-besarnya bagi kesejahteraan rakyat;",
-  "c.",
-  "bahwa salah satu faktor yang mengurangi efektivitas dan efisiensi perusahaan adalah ketentuan yang mewajibkan penyimpanan buku, catatan, dan neraca selama 30 (tiga puluh) tahun dan penyimpanan surat, surat kawat beserta tembusannya selama 10 (sepuluh) tahun sebagaimana diatur antara lain dalam Pasal 6 Kitab Undang-undang Hukum Dagang (Wetboek van Koophandel voor Indonesi\u00eb, Staatsblad 1847 : 23), sudah tidak sesuai lagi dengan perkembangan dan kebutuhan hukum masyarakat khususnya di bidang ekonomi dan perdagangan;",
-  "d.",
-  "bahwa ketentuan yang mewajibkan penyimpanan dokumen sebagaimana tersebut dalam huruf c dan ketentuan-ketentuan dalam peraturan perundang-undangan yang berkaitan dengan tata cara penyimpanan, pemindahan, pemusnahan, dan penyerahan arsip yang selama ini berlaku, menimbulkan beban ekonomis dan administratif yang memberatkan perusahaan;",
-  "e.",
-  "bahwa pembuatan dan penyimpanan dokumen, tetap diperlukan untuk menjamin kepastian hukum dan melindungi kepentingan para pihak dalam suatu hubungan hukum, karena itu kewajiban membuat dan menyimpan dokumen harus tetap dijalankan dengan mengupayakan tidak menimbulkan beban ekonomis dan administratif yang memberatkan, untuk itu perlu diadakan pembaharuan mengenai media yang memuat dokumen dan pengurangan jangka waktu penyimpanannya;",
-  "f.",
-  "bahwa kemajuan teknologi telah memungkinkan catatan dan dokumen yang dibuat di atas kertas dialihkan ke dalam media elektronik atau dibuat secara langsung dalam media elektronik;",
-  "g.",
-  "bahwa berdasarkan pertimbangan sebagaimana dimaksud dalam huruf a, b, c, d, e, dan f dipandang perlu membentuk Undang-undang tentang Dokumen Perusahaan.",
-  "Mengingat:",
-  "Pasal 5 ayat (1) dan Pasal 20 ayat (1) Undang-Undang Dasar 1945.",
-  "Dengan Persetujuan:",
-  "DEWAN PERWAKILAN RAKYAT REPUBLIK INDONESIA,",
-  "MEMUTUSKAN:",
-  "Menetapkan:",
-  "UNDANG-UNDANG TENTANG DOKUMEN PERUSAHAAN",
-  "BAB I",
-  "KETENTUAN UMUM",
-  "Pasal 1",
-  "Dalam Undang-undang ini yang dimaksud dengan:",
-  "1.",
-  "Perusahaan adalah setiap bentuk usaha yang melakukan kegiatan secara tetap dan terus menerus dengan tujuan memperoleh keuntungan dan atau laba, baik yang diselenggarakan oleh orang-perorangan maupun badan usaha yang berbentuk badan hukum atau bukan badan hukum, yang didirikan dan berkedudukan dalam wilayah Negara Republik Indonesia.",
-  "2.",
-  "Dokumen perusahaan adalah data, catatan, dan atau keterangan yang dibuat dan atau diterima oleh perusahaan dalam rangka pelaksanaan kegiatannya, baik tertulis di atas kertas atau sarana lain maupun terekam dalam bentuk corak apapun yang dapat dilihat, dibaca, atau didengar.",
-  "3.",
-  "Jadwal retensi adalah jangka waktu penyimpanan dokumen perusahaan yang disusun dalam suatu daftar sesuai dengan jenis dan nilai kegunaannya dan dipakai sebagai pedoman pemusnahan dokumen perusahaan.",
-  "Pasal 2",
-  "Dokumen perusahaan terdiri dari dokumen keuangan dan dokumen lainnya.",
-  "Pasal 3",
-  "Dokumen keuangan terdiri dari catatan, bukti pembukuan, dan data pendukung administrasi keuangan, yang  merupakan bukti adanya hak dan kewajiban serta kegiatan usaha suatu perusahaan.",
-  "Pasal 4",
-  "Dokumen lainnya terdiri dari data atau setiap tulisan yang berisi keterangan yang mempunyai nilai guna bagi  perusahaan meskipun tidak terkait langsung dengan dokumen keuangan.",
-  "Pasal 5",
-  "Catatan terdiri dari neraca tahunan, perhitungan laba rugi tahunan, rekening, jurnal transaksi harian, atau setiap  tulisan yang berisi keterangan mengenai hak dan kewajiban serta hal-hal lain yang berkaitan dengan kegiatan  usaha suatu perusahaan.",
-  "Pasal 6",
-  "Bukti pembukuan terdiri dari warkat-warkat yang digunakan sebagai dasar pembukuan yang mempengaruhi  perubahan kekayaan, utang, dan modal.",
-  "Pasal 7",
-  "(1)",
-  "Data pendukung administrasi keuangan merupakan data administratif yang berkaitan dengan keuangan untuk digunakan sebagai pendukung penyusunan dan pembuatan dokumen keuangan.",
-  "(2)",
-  "Data pendukung administrasi keuangan sebagaimana dimaksud dalam ayat (1) terdiri dari:",
-  "a.",
-  "data pendukung yang merupakan bagian dari bukti pembukuan; dan",
-  "b.",
-  "data pendukung yang tidak merupakan bagian dari bukti pembukuan.",
-  "BAB II",
-  "PEMBUATAN CATATAN DAN PENYIMPANAN DOKUMEN PERUSAHAAN",
-  "Pasal 8",
-  "(1)",
-  "Setiap perusahaan wajib membuat catatan sebagaimana dimaksud dalam Pasal 5 sesuai dengan kebutuhan perusahaan.",
-  "(2)",
-  "Catatan sebagaimana dimaksud dalam ayat (1) wajib dibuat dengan menggunakan huruf Latin, angka Arab, satuan mata uang Rupiah, dan disusun dalam bahasa Indonesia.",
-  "(3)",
-  "Dalam hal ada izin dari Menteri Keuangan, catatan sebagaimana dimaksud dalam ayat (2) dapat disusun dalam bahasa asing.",
-  "Pasal 9",
-  "(1)",
-  "Catatan yang berbentuk neraca tahunan, perhitungan laba rugi tahunan, atau tulisan lain yang menggambarkan neraca dan laba rugi, wajib ditandatangani oleh pimpinan perusahaan atau pejabat yang ditunjuk di lingkungan perusahaan yang bersangkutan.",
-  "(2)",
-  "Dalam hal peraturan perundang-undangan yang berkaitan langsung dengan kegiatan perusahaan di bidang tertentu tidak menentukan lain, maka catatan sebagaimana dimaksud dalam ayat (1) wajib dibuat paling lambat 6 (enam) bulan terhitung sejak akhir tahun buku perusahaan yang bersangkutan.",
-  "Pasal 10",
-  "(1)",
-  "Catatan sebagaimana dimaksud dalam Pasal 9, wajib dibuat di atas kertas.",
-  "(2)",
-  "Catatan yang berbentuk rekening, jurnal transaksi harian, atau setiap tulisan yang berisi keterangan mengenai hak dan kewajiban serta hal-hal lain yang berkaitan dengan kegiatan usaha suatu perusahaan sebagaimana dimaksud dalam Pasal 5, dibuat di atas kertas atau dalam sarana lainnya.",
-  "Pasal 11",
-  "(1)",
-  "Catatan sebagaimana dimaksud dalam Pasal 5, bukti pembukuan sebagaimana dimaksud dalam Pasal 6, dan data pendukung administrasi keuangan sebagaimana dimaksud dalam Pasal 7 ayat (2) huruf a, wajib disimpan selama 10 (sepuluh) tahun terhitung sejak akhir tahun buku perusahaan yang bersangkutan.",
-  "(2)",
-  "Data pendukung administrasi keuangan sebagaimana dimaksud dalam Pasal 7 ayat (2) huruf b, jangka waktu penyimpanannya disesuaikan dengan kebutuhan perusahaan yang bersangkutan.",
-  "(3)",
-  "Dokumen lainnya sebagaimana dimaksud dalam Pasal 4, jangka waktu penyimpanannya ditetapkan berdasarkan nilai guna dokumen tersebut.",
-  "(4)",
-  "Jangka waktu sebagaimana dimaksud dalam ayat (2) dan ayat (3), disusun oleh perusahaan yang bersangkutan dalam suatu jadwal retensi yang ditetapkan dengan keputusan pimpinan perusahaan.",
-  "(5)",
-  "Kewajiban penyimpanan sebagaimana dimaksud dalam ayat (1), ayat (2), dan ayat (3) tidak menghilangkan fungsi dokumen yang bersangkutan sebagai alat bukti sesuai dengan kebutuhan sebagaimana ditentukan dalam ketentuan mengenai daluwarsa suatu tuntutan yang diatur dalam peraturan perundang-undangan yang berlaku, atau untuk kepentingan hukum lainnya.",
-  "BAB III",
-  "PENGALIHAN BENTUK DOKUMEN PERUSAHAAN DAN LEGALISASI",
-  "Pasal 12",
-  "(1)",
-  "Dokumen perusahaan dapat dialihkan ke dalam mikrofilm atau media lainnya.",
-  "(2)",
-  "Pengalihan dokumen perusahaan ke dalam mikrofilm atau media lainnya sebagaimana dimaksud dalam ayat (1) dapat dilakukan sejak dokumen tersebut dibuat atau diterima oleh perusahaan yang bersangkutan.",
-  "(3)",
-  "Dalam mengalihkan dokumen perusahaan sebagaimana dimaksud dalam ayat (1), pimpinan perusahaan wajib mempertimbangkan kegunaan naskah asli dokumen yang perlu tetap disimpan karena mengandung nilai tertentu demi kepentingan perusahaan atau kepentingan nasional.",
-  "(4)",
-  "Dalam hal dokumen perusahaan yang dialihkan ke dalam mikrofilm atau media lainnya adalah naskah asli yang mempunyai kekuatan pembuktian otentik dan masih mengandung kepentingan hukum tertentu, pimpinan perusahaan wajib tetap menyimpan naskah asli tersebut.",
-  "Pasal 13",
-  "Setiap pengalihan dokumen perusahaan sebagaimana dimaksud dalam Pasal 12 ayat (1) wajib dilegalisasi.",
-  "Pasal 14",
-  "(1)",
-  "Legalisasi sebagaimana dimaksud dalam Pasal 13 dilakukan oleh pimpinan perusahaan atau pejabat yang ditunjuk di lingkungan perusahaan yang bersangkutan, dengan dibuatkan berita acara.",
-  "(2)",
-  "Berita acara sebagaimana dimaksud dalam ayat (1) sekurang-kurangnya memuat:",
-  "a.",
-  "keterangan tempat, hari, tanggal, bulan, dan tahun dilakukannya legalisasi;",
-  "b.",
-  "keterangan bahwa pengalihan dokumen perusahaan yang dibuat di atas kertas ke dalam mikrofilm atau media lainnya telah dilakukan sesuai dengan aslinya; dan",
-  "c.",
-  "tanda tangan dan nama jelas pejabat yang bersangkutan.",
-  "Pasal 15",
-  "(1)",
-  "Dokumen perusahaan yang telah dimuat dalam mikrofilm atau media lainnya sebagaimana dimaksud dalam Pasal 12 ayat (1) dan atau hasil cetaknya merupakan alat bukti yang sah.",
-  "(2)",
-  "Apabila dianggap perlu dalam hal tertentu dan untuk keperluan tertentu dapat dilakukan legalisasi terhadap hasil cetak dokumen perusahaan yang telah dimuat dalam mikrofilm atau media lainnya.",
-  "Pasal 16",
-  "Ketentuan lebih lanjut mengenai tata cara pengalihan dokumen perusahaan ke dalam mikrofilm atau media  lainnya dan legalisasi diatur dengan Peraturan Pemerintah.",
-  "BAB IV",
-  "PEMINDAHAN, PENYERAHAN, DAN PEMUSNAHAN DOKUMEN PERUSAHAAN",
-  "Pasal 17",
-  "Pemindahan dokumen perusahaan dari unit pengolahan ke unit kearsipan di lingkungan perusahaan tersebut  dilakukan berdasarkan keputusan pimpinan perusahaan yang pelaksanaannya disesuaikan dengan kebutuhan  perusahaan yang bersangkutan.",
-  "Pasal 18",
-  "(1)",
-  "Dokumen perusahaan tertentu yang mempunyai nilai guna bagi kepentingan nasional wajib diserahkan kepada Arsip Nasional Republik Indonesia berdasarkan keputusan pimpinan perusahaan.",
-  "(2)",
-  "Penyerahan sebagaimana dimaksud dalam ayat (1) dilaksanakan dengan pembuatan berita acara yang sekurang-kurangnya memuat:",
-  "a.",
-  "keterangan tempat, hari, tanggal, bulan, dan tahun dilakukannya penyerahan;",
-  "b.",
-  "keterangan tentang pelaksanaan penyerahan; dan",
-  "c.",
-  "tanda tangan dan nama jelas pejabat yang menyerahkan dan pejabat yang menerima penyerahan.",
-  "(3)",
-  "Pada berita acara penyerahan sebagaimana dimaksud dalam ayat (2) dilampirkan daftar pertelaan dokumen yang akan diserahkan.",
-  "Pasal 19",
-  "(1)",
-  "Pemusnahan catatan, bukti pembukuan, dan data pendukung administrasi keuangan sebagaimana dimaksud dalam Pasal 11 ayat (1) dilaksanakan berdasarkan keputusan pimpinan perusahaan.",
-  "(2)",
-  "Pemusnahan data pendukung administrasi keuangan sebagaimana dimaksud dalam Pasal 11 ayat (2) dan dokumen lainnya sebagaimana dimaksud dalam Pasal 11 ayat (3) dilaksanakan berdasarkan jadwal retensi.",
-  "(3)",
-  "Pimpinan perusahaan yang bertanggung jawab atas pemusnahan dokumen perusahaan atau pejabat lain yang ditunjuk, bertanggung jawab atas segala kerugian perusahaan dan atau pihak ketiga dalam hal:",
-  "a.",
-  "pemusnahan dokumen perusahaan dilakukan sebelum habis jangka waktu wajib simpan sebagaimana dimaksud dalam Pasal 11 ayat (1); atau",
-  "b.",
-  "pemusnahan dokumen perusahaan dilakukan, sedangkan diketahui atau patut diketahui bahwa dokumen perusahaan tersebut masih tetap harus disimpan, karena mempunyai nilai guna baik yang berkaitan dengan kekayaan, hak, dan kewajiban perusahaan maupun kepentingan lainnya.",
-  "Pasal 20",
-  "Pemusnahan dokumen perusahaan yang telah dialihkan ke dalam mikrofilm atau media lainnya, dapat segera  dilakukan kecuali ditentukan lain oleh pimpinan perusahaan, berdasarkan ketentuan Pasal 12 ayat (3) dan ayat  (4).",
-  "Pasal 21",
-  "(1)",
-  "Pemusnahan sebagaimana dimaksud dalam Pasal 19 dan Pasal 20, dilaksanakan dengan pembuatan berita acara yang sekurang-kurangnya memuat:",
-  "a.",
-  "keterangan tempat, hari, tanggal, bulan, dan tahun dilakukannya pemusnahan;",
-  "b.",
-  "keterangan tentang pelaksanaan pemusnahan; dan",
-  "c.",
-  "tanda tangan dan nama jelas pejabat yang melaksanakan pemusnahan.",
-  "(2)",
-  "Pada berita acara pemusnahan sebagaimana dimaksud dalam ayat (1) dilampirkan daftar pertelaan dokumen yang akan dimusnahkan.",
-  "Pasal 22",
-  "Ketentuan lebih lanjut mengenai tata cara penyerahan dan pemusnahan dokumen perusahaan diatur dengan  Peraturan Pemerintah.",
-  "BAB V",
-  "KETENTUAN PERALIHAN",
-  "Pasal 23",
-  "Buku, surat, catatan, dan neraca yang berdasarkan ketentuan Pasal 6 Kitab Undang-undang Hukum Dagang  (Wetboek van Koophandel voor Indonesi\u00eb, Staatsblad 1847 : 23) wajib disimpan selama 30 (tiga puluh) tahun,  dan pada saat berlakunya Undang-undang ini telah disimpan selama 10 (sepuluh) tahun atau lebih,  pemusnahannya dilakukan berdasarkan ketentuan dalam Undang-undang ini.",
-  "Pasal 24",
-  "Salinan surat dan telegram yang berdasarkan ketentuan Pasal 6 Kitab Undang-undang Hukum Dagang  (Wetboek van Koophandel voor Indonesi\u00eb, Staatsblad 1847 : 23) wajib disimpan selama 10 (sepuluh) tahun,  dan pada saat berlakunya Undang-undang ini masa simpannya belum mencapai 10 (sepuluh) tahun,  pemusnahannya dilakukan berdasarkan ketentuan dalam Undang-undang ini.",
-  "Pasal 25",
-  "Dokumen perusahaan yang pemusnahannya telah dimintakan pertimbangan kepada Ketua Badan Pemeriksa  Keuangan, dan dalam waktu 1 (satu) tahun terhitung sejak tanggal mulai berlakunya Undang-undang ini  pertimbangan tersebut belum diberikan, pemusnahannya dilakukan berdasarkan ketentuan dalam Undang undang ini.",
-  "Pasal 26",
-  "Dokumen perusahaan yang pemusnahannya telah dimintakan persetujuan kepada Kepala Arsip Nasional  Republik Indonesia, dan dalam waktu 1 (satu) tahun terhitung sejak tanggal mulai berlakunya Undang-undang  ini persetujuan tersebut belum diberikan, pemusnahannya dilakukan berdasarkan ketentuan dalam Undang undang ini.",
-  "Pasal 27",
-  "Dokumen perusahaan yang jadwal retensinya sedang dimintakan persetujuan kepada Kepala Arsip Nasional  Republik Indonesia, dan dalam waktu 1 (satu) tahun terhitung sejak tanggal mulai berlakunya Undang-undang  ini persetujuan tersebut belum diberikan, jadwal retensi dan pemusnahannya ditetapkan berdasarkan ketentuan  dalam Undang- undang ini.",
-  "BAB VI",
-  "KETENTUAN PENUTUP",
-  "Pasal 28",
-  "Ketentuan dalam Undang-undang ini berlaku juga terhadap:",
-  "1.",
-  "kantor perwakilan, kantor cabang, agen perusahaan Indonesia atau yang disamakan dengan itu, yang mempunyai kegiatan usaha di luar wilayah Negara Republik Indonesia, dengan tetap memperhatikan ketentuan yang berlaku di negara setempat;",
-  "2.",
-  "kantor perwakilan, kantor cabang, agen perusahaan asing atau yang disamakan dengan itu, yang mempunyai kegiatan usaha di wilayah Negara Republik Indonesia; dan",
-  "3.",
-  "badan atau lembaga yang tidak termasuk dalam pengertian perusahaan sebagaimana dimaksud dalam Pasal 1 angka 1, yang dalam kegiatan dan atau tugasnya memiliki dan menghasilkan dokumen sebagaimana layaknya perusahaan.",
-  "Pasal 29",
-  "Semua ketentuan peraturan perundang-undangan yang berkaitan dengan pelaksanaan Pasal 6 Kitab Undang undang Hukum Dagang (Wetboek van Koophandel voor Indonesi\u00eb, Staatsblad 1847 : 23) tetap berlaku  sepanjang belum diganti atau tidak bertentangan dengan Undang-undang ini.",
-  "Pasal 30",
-  "Pada saat Undang-undang ini mulai berlaku:",
-  "1.",
-  "Pasal 6 Kitab Undang-undang Hukum Dagang (Wetboek van Koophandel voor Indonesi\u00eb, Staatsblad 1847 : 23); dan",
-  "2.",
-  "semua peraturan perundang-undangan yang berkaitan dengan dokumen perusahaan dan ketentuan peraturan perundang-undangan yang berkaitan dengan penyimpanan, pemindahan, penyerahan, dan pemusnahan arsip yang bertentangan dengan Undang-undang ini,",
-  "dinyatakan tidak berlaku lagi.",
-  "Pasal 31",
-  "Undang-undang ini mulai berlaku pada tanggal diundangkan.",
-  "Agar setiap orang mengetahuinya, memerintahkan pengundangan Undang-undang ini dengan penempatannya  dalam Lembaran Negara Republik Indonesia.",
-  "Disahkan Di Jakarta,",
-  "Pada Tanggal 24 Maret 1997",
-  "PRESIDEN REPUBLIK INDONESIA,",
-  "Ttd.",
-  "SOEHARTO",
-  "Diundangkan Di Jakarta,",
-  "Pada Tanggal 24 Maret 1997",
-  "MENTERI NEGARA/SEKRETARIS NEGARA REPUBLIK INDONESIA,",
-  "Ttd.",
-  "MOERDIONO",
-  "LEMBARAN NEGARA REPUBLIK INDONESIA TAHUN 1997 NOMOR 18",
-  "PENJELASAN",
-  "UNDANG-UNDANG REPUBLIK INDONESIA",
-  "NOMOR 8 TAHUN 1997",
-  "TENTANG",
-  "DOKUMEN PERUSAHAAN",
-  "UMUM",
-  "Garis-garis Besar Haluan Negara menetapkan bahwa pembangunan hukum sebagai upaya untuk menegakkan  keadilan, kebenaran dan ketertiban dalam negara hukum Indonesia yang berdasarkan Pancasila dan Undang Undang Dasar 1945, diarahkan untuk meningkatkan kesadaran hukum, menjamin penegakan, pelayanan dan  kepastian hukum, serta mewujudkan tata hukum nasional yang mengabdi pada kepentingan nasional.  Pengaruh globalisasi ekonomi dan informasi yang demikian luas karena perkembangan perekonomian dan  perdagangan baik nasional maupun internasional yang bergerak cepat mengakibatkan meningkatnya  penggunaan dokumen, sehingga mengharuskan dunia usaha memanfaatkan kemajuan teknologi untuk  meningkatkan kemampuannya secara efektif dan efisien khususnya dalam pengelolaan dokumen perusahaan.  Guna mencapai tujuan tersebut, pembentukan peraturan mengenai dokumen perusahaan yang merupakan  bagian dari pembangunan hukum di bidang ekonomi perlu segera disusun, dalam upaya memacu laju  pertumbuhan perusahaan melalui pengelolaan dokumen perusahaan yang efektif dan efisien.  Ketentuan sebagaimana tercantum dalam Pasal 6 Kitab Undang-undang Hukum Dagang (Wetboek van  Koophandel voor Indonesi\u00eb, Staatsblad 1847 : 23) yang mewajibkan setiap orang yang menjalankan  perusahaan menyelenggarakan pencatatan tentang hal-hal yang berkaitan dengan perusahaan dan menyimpan  dokumen tersebut antara 10 (sepuluh) sampai dengan 30 (tiga puluh) tahun, sudah tidak sesuai lagi dengan  perkembangan dan kebutuhan hukum masyarakat khususnya di bidang ekonomi dan perdagangan dewasa ini.  Selain ketentuan wajib menyimpan dokumen sebagaimana diatur dalam Pasal 6 Kitab Undang-undang Hukum  Dagang (Wetboek van Koophandel voor Indonesi\u00eb, Staatsblad 1847 : 23), juga ketentuan Undang-undang dan  peraturan perundang-undangan lainnya yang berkaitan dengan tata cara penyimpanan, pemindahan,  pemusnahan, dan penyerahan arsip menimbulkan beban yang berat bagi perusahaan karena pelaksanaannya  memerlukan ruangan yang luas, tenaga, waktu, perawatan, dan biaya yang besar.",
-  "Catatan yang berupa neraca tahunan, perhitungan laba rugi tahunan, rekening, jurnal transaksi harian, dan bukti  pembukuan serta data pendukung administrasi keuangan yang merupakan bagian dari bukti pembukuan atau  tulisan lain yang menggambarkan neraca tahunan, perhitungan laba rugi tahunan, rekening, dan jurnal transaksi  harian dikurangi masa penyimpanannya dari 30 (tiga puluh) tahun menjadi 10 (sepuluh) tahun. Sedangkan data  pendukung administrasi keuangan yang tidak merupakan bagian dari bukti pembukuan, dan dokumen lainnya,  jangka waktu penyimpanannya disesuaikan dengan nilai guna dokumen yang disusun dalam jadwal retensi  yang ditetapkan dengan keputusan pimpinan perusahaan.",
-  "Sejalan dengan upaya mengurangi jangka waktu penyimpanan, penerapan teknologi maju di bidang informatika  telah memungkinkan dokumen perusahaan yang dibuat di atas kertas atau sarana lainnya dapat dialihkan untuk  disimpan dalam mikrofilm atau media lainnya. Pemakaian mikrofilm atau media lain tersebut dapat dipastikan  semakin banyak digunakan dalam kegiatan ekonomi dan perdagangan karena lebih ekonomis. Untuk menjamin  kepastian hukum, maka dokumen perusahaan yang disimpan dalam mikrofilm dan media lain, merupakan salah  satu alat bukti yang sah.",
-  "Untuk menyederhanakan tata cara penyimpanan, pemindahan, pemusnahan, dan penyerahan dokumen  perusahaan, yang penting artinya bagi efisiensi kegiatan perusahaan seperti diuraikan di atas, Undang-undang  ini memberikan wewenang kepada perusahaan untuk melaksanakan penyimpanan, pemindahan, pemusnahan,  dan penyerahan dokumen tersebut berdasarkan jadwal retensi baik menurut Undang-undang ini maupun yang  ditetapkan oleh pimpinan perusahaan.",
-  "Dengan diberlakukannya ketentuan yang mengatur dokumen perusahaan, maka pembuatan, penyimpanan,  pemindahan, pemusnahan, dan penyerahan dokumen perusahaan dapat dilakukan dengan sederhana, efektif, dan efisien dengan tidak mengurangi kepastian hukum dan tetap melindungi kepentingan para pihak dalam  suatu hubungan hukum.",
-  "Ketentuan mengenai pelaksanaan penyimpanan, pemindahan, pemusnahan, dan penyerahan dokumen yang  diatur dengan Undang-undang ini tidak dimaksudkan menghilangkan fungsi dokumen bersangkutan sebagai alat  bukti atau kepentingan hukum lainnya. Oleh karena itu Undang-undang dan ketentuan peraturan perundang undangan lainnya yang berkaitan dengan pelaksanaan Pasal 6 Kitab Undang-undang Hukum Dagang (Wetboek  van Koophandel voor Indonesi\u00eb, Staatsblad 1847 : 23), misalnya Pasal 396, Pasal 397, Pasal 398, dan Pasal  399 Kitab Undang-undang Hukum Pidana tetap berlaku sepanjang belum diganti atau tidak bertentangan  dengan Undang-undang ini.",
-  "PASAL DEMI PASAL",
-  "Pasal 1",
-  "Cukup jelas",
-  "Pasal 2",
-  "Cukup jelas",
-  "Pasal 3",
-  "Cukup jelas",
-  "Pasal 4",
-  "Yang termasuk \"dokumen lainnya\" misalnya Risalah Rapat Umum Pemegang Saham, Akta Pendirian  Perusahaan, akta otentik lainnya yang masih mengandung kepentingan hukum tertentu, Nomor Pokok Wajib  Pajak.",
-  "Pasal 5",
-  "Yang dimaksud dengan:",
-  "- \"neraca tahunan\" adalah salah satu bentuk catatan yang menggambarkan posisi kekayaan, utang, dan  modal pada akhir tahun buku yang merupakan pertanggungjawaban keuangan.",
-  "- \"rekening\" adalah salah satu bentuk catatan yang dibuat perusahaan untuk menampung transaksi yang  sejenis yang digunakan sebagai dasar penyusunan laporan keuangan, dan dapat juga disebut buku besar  atau perkiraan.",
-  "- \"jurnal transaksi harian\" adalah salah satu bentuk catatan yang menggambarkan adanya transaksi yang  dapat berupa buku harian atau catatan harian atau tulisan lainnya.",
-  "- \"tulisan yang berisi keterangan mengenai hak dan kewajiban serta hal-hal lain yang berkaitan dengan  kegiatan usaha suatu perusahaan\" adalah tulisan yang menggambarkan neraca tahunan, perhitungan  laba rugi tahunan, rekening, dan jurnal transaksi harian.",
-  "Pasal 6",
-  "Yang dimaksud dengan:",
-  "- \"warkat\" adalah dokumen tertulis yang bentuk dan penggunaannya ditetapkan menurut aturan tertentu  dan merupakan bukti transaksi, misalnya cek, bilyet giro, surat perintah membayar, wesel, nota debet,  dan nota kredit.",
-  "- \"perubahan kekayaan, utang, dan modal\" adalah bertambah dan atau berkurangnya jumlah dan susunan  kekayaan, utang, dan modal.",
-  "Pasal 7",
-  "Ayat (1)",
-  "Cukup jelas",
-  "Ayat (2)",
-  "Yang termasuk:",
-  "a.",
-  "\"data pendukung yang merupakan bagian dari bukti pembukuan\", misalnya surat perintah kerja, surat kontrak atau surat perjanjian.",
-  "b.",
-  "\"data pendukung yang tidak merupakan bagian dari bukti pembukuan\", misalnya rekening antar kantor, rekening harian, atau rekening mingguan.",
-  "Pasal 8",
-  "Ayat (1)",
-  "Penggunaan kata \"wajib\" dalam ayat ini dimaksudkan untuk memberikan penekanan adanya kewajiban  perusahaan membuat catatan, agar setiap saat dapat diketahui keadaan kekayaan, utang, modal, hak  dan kewajiban perusahaan, untuk melindungi baik kepentingan perusahaan, kepentingan Pemerintah  maupun kepentingan pihak ketiga.",
-  "Kewajiban tersebut bersifat keperdataan, sehingga risiko yang timbul karena tidak dilaksanakannya  kewajiban tersebut menjadi tanggung jawab perusahaan yang bersangkutan.",
-  "Yang dimaksud dengan \"sesuai dengan kebutuhan perusahaan\" adalah bahwa walaupun setiap  perusahaan diwajibkan membuat catatan, tetapi mengenai bentuk dan kedalaman isi catatan yang dibuat,  dilakukan sesuai dengan sifat perusahaan.",
-  "Ayat (2)",
-  "Penggunaan kata \"wajib\" dalam ayat ini dimaksudkan untuk memberikan penekanan bahwa catatan  tersebut dibuat sesuai dengan ketentuan dalam ayat ini, misalnya harus menggunakan huruf Latin dan  disusun dalam bahasa Indonesia. Dengan demikian apabila catatan tidak dibuat dengan menggunakan  huruf Latin dan tidak disusun dalam bahasa Indonesia, maka secara hukum, perusahaan tersebut  dianggap belum membuat catatan, dan kelalaian tersebut menjadi tanggung jawab perusahaan yang  bersangkutan.",
-  "Ayat (3)",
-  "Pada dasarnya catatan harus disusun dalam bahasa Indonesia, kecuali baik karena sifat perusahaan  maupun untuk kepentingan tertentu sesuai dengan ketentuan peraturan perundang-undangan di bidang  perpajakan, dengan izin Menteri Keuangan catatan dapat disusun dalam bahasa asing.",
-  "Pasal 9",
-  "Ayat (1)",
-  "- Penggunaan kata \"wajib\" dalam ayat ini dimaksudkan untuk memberikan penekanan bahwa apabila  neraca tahunan atau perhitungan laba rugi tahunan belum ditandatangani oleh pimpinan  perusahaan atau pejabat yang ditunjuk, secara hukum perusahaan dianggap belum membuat  neraca tahunan atau perhitungan laba rugi tahunan.",
-  "- Yang dimaksud dengan \"pimpinan perusahaan\" adalah seseorang yang berdasarkan Anggaran  Dasar memimpin perusahaan yang bersangkutan dan mewakili perusahaan baik di dalam maupun  di luar pengadilan.",
-  "- Yang dimaksud dengan \"pejabat yang ditunjuk\" adalah seseorang yang diberi kewenangan oleh  pimpinan perusahaan untuk mengelola dokumen perusahaan.",
-  "Ayat (2)",
-  "Penggunaan kata \"wajib\" dalam ayat ini dimaksudkan untuk memberikan penekanan bahwa pembuatan  catatan tidak boleh melebihi waktu 6 (enam) bulan terhitung sejak akhir tahun buku perusahaan yang bersangkutan. Kelalaian melakukan kewajiban tersebut menjadi tanggung jawab perusahaan yang  bersangkutan.",
-  "Pasal 10",
-  "Ayat (1)",
-  "Penggunaan kata \"wajib\" dalam ayat ini dimaksudkan untuk memberikan penekanan bahwa apabila  catatan yang berbentuk neraca tahunan, perhitungan laba rugi tahunan, atau tulisan lain yang  menggambarkan neraca laba rugi, tidak dibuat di atas kertas, perusahaan dianggap belum membuat  catatan.",
-  "Ayat (2)",
-  "Yang dimaksud dengan \"sarana lainnya\" adalah alat bantu untuk memproses pembuatan dokumen  perusahaan yang sejak semula tidak dibuat di atas kertas, misalnya menggunakan pita magnetik atau  disket.",
-  "Pasal 11",
-  "Ayat (1)",
-  "Penggunaan kata \"wajib\" dalam ayat ini dimaksudkan untuk memberikan penekanan mengenai hal yang  harus dilakukan perusahaan, yakni menyimpan dokumen sebagaimana dimaksud dalam ayat ini selama  10 (sepuluh) tahun. Dengan demikian apabila sebelum jangka waktu 10 (sepuluh) tahun dokumen yang bersangkutan dimusnahkan, maka risiko karena pemusnahan tersebut menjadi tanggung jawab  perusahaan yang bersangkutan.",
-  "Ayat (2)",
-  "Cukup jelas",
-  "Ayat (3)",
-  "Yang dimaksud dengan \"nilai guna dokumen\" adalah nilai dokumen perusahaan yang didasarkan pada  kegunaan dokumen dalam menunjang pelaksanaan kegiatan usaha perusahaan.",
-  "Berdasarkan nilai guna dokumen yang bersangkutan, maka jangka waktu penyimpanannya dapat  ditetapkan kurang dari 10 (sepuluh) tahun atau lebih dari 10 (sepuluh) tahun.",
-  "Ayat (4)",
-  "Cukup jelas",
-  "Ayat (5)",
-  "Sekalipun suatu dokumen telah melewati masa wajib simpan, tetapi dokumen tersebut tetap dapat  dipergunakan sebagai alat bukti sesuai dengan ketentuan mengenai daluwarsa suatu tuntutan.",
-  "Pasal 12",
-  "Ayat (1)",
-  "Yang dimaksud dengan:",
-  "- \"mikrofilm\" adalah film yang memuat rekaman bahan tertulis, tercetak, dan tergambar dalam ukuran  yang sangat kecil.",
-  "- \"media lainnya\" adalah alat penyimpan informasi yang bukan kertas dan mempunyai tingkat  pengamanan yang dapat menjamin keaslian dokumen yang dialihkan atau ditransformasikan,  misalnya Compact Disk-Read Only Memory (CD-ROM), dan Write-Once-Read-Many (WORM).",
-  "Ayat (2)",
-  "Cukup jelas",
-  "Ayat (3)",
-  "Suatu dokumen perusahaan mempunyai makna \"kepentingan nasional\" apabila dokumen perusahaan  tersebut memiliki nilai historis yang digunakan dalam rangka kegiatan pemerintahan dan pembangunan  serta kehidupan kebangsaan, misalnya rekening atau bukti iuran untuk pembangunan Monumen  Nasional, Mesjid Istiqlal.",
-  "Selanjutnya yang menentukan suatu dokumen mempunyai makna kepentingan nasional adalah pimpinan  perusahaan.",
-  "Ayat (4)",
-  "Penggunaan kata \"wajib\" dalam ayat ini dimaksudkan untuk memberikan penekanan bahwa pimpinan  perusahaan tetap harus menyimpan naskah asli, apabila dokumen tersebut masih mempunyai kekuatan  pembuktian otentik dan atau mengandung kepentingan hukum tertentu. Kelalaian dalam melaksanakan  kewajiban tersebut, pimpinan perusahaan bertanggung jawab sesuai dengan peraturan perundang undangan yang berlaku.",
-  "Yang dimaksud dengan \"masih mengandung kepentingan hukum tertentu\" adalah apabila naskah asli  tersebut masih mengandung hak dan atau kewajiban yang masih harus dipenuhi oleh pihak yang  berkepentingan.",
-  "Pasal 13",
-  "Penggunaan kata \"wajib\" dalam Pasal ini dimaksudkan untuk memberikan penekanan bahwa setiap pengalihan  dokumen perusahaan harus dilegalisasi. Apabila pengalihan dokumen perusahaan tidak dilegalisasi, maka  dokumen perusahaan hasil pengalihan tersebut secara hukum tidak dapat dijadikan sebagai alat bukti yang sah.  Yang dimaksud dengan \"legalisasi\" adalah tindakan pengesahan isi dokumen perusahaan yang dialihkan atau  ditransformasikan ke dalam mikrofilm atau media lain yang menerangkan atau menyatakan bahwa isi dokumen  perusahaan yang terkandung di dalam mikrofilm atau media lain tersebut sesuai dengan naskah aslinya.",
-  "Pasal 14",
-  "Ayat (1)",
-  "Berita acara dibuat pada saat terjadi pengalihan dokumen ke dalam mikrofilm atau media lainnya.",
-  "Ayat (2)",
-  "Pada berita acara pengalihan dilampirkan daftar pertelaan atas dokumen perusahaan yang dialihkan ke  dalam mikrofilm atau media lainnya.",
-  "Pasal 15",
-  "Ayat (1)",
-  "Cukup jelas",
-  "Ayat (2)",
-  "Yang dimaksud dengan \"dianggap perlu\", \"dalam hal tertentu\" dan \"untuk keperluan tertentu\" misalnya  untuk keperluan memenuhi permintaan polisi, jaksa, atau hakim dalam pemeriksaan perkara.  Legalisasi dilakukan dengan cara pembubuhan tanda tangan pada hasil cetak dokumen tersebut dan  pernyataan bahwa hasil cetak sesuai dengan aslinya.",
-  "Pasal 16",
-  "Cukup jelas",
-  "Pasal 17",
-  "Penentuan tata cara pemindahan dokumen perusahaan diserahkan kepada pimpinan perusahaan, karena yang  mengetahui kebutuhan perusahaan adalah pimpinan perusahaan yang bersangkutan. Dalam tata cara tersebut dapat pula ditentukan bahwa pemindahan dokumen disertai dengan daftar pertelaan dan pembuatan berita  acara yang sekurang-kurangnya memuat:",
-  "a.",
-  "keterangan tempat, hari, tanggal, bulan, dan tahun dilakukannya pemindahan;",
-  "b.",
-  "keterangan tentang pelaksanaan pemindahan; dan",
-  "c.",
-  "tanda tangan dan nama jelas pejabat yang memindahkan dan pejabat yang menerima pemindahan. Yang dimaksud dengan:",
-  "- \"unit pengolahan\" adalah satuan kerja yang mempunyai tugas dan tanggung jawab mengolah semua  dokumen yang berkaitan dengan kegiatan operasional perusahaan.",
-  "- \"unit kearsipan\" adalah satuan kerja yang mempunyai tugas dan tanggung jawab mengelola dokumen  perusahaan yang sudah diselesaikan oleh unit pengolahan untuk disimpan dan dipelihara.",
-  "Pasal 18",
-  "Ayat (1)",
-  "Penggunaan kata \"wajib\" dalam ayat ini dimaksudkan untuk memberikan penekanan adanya kewajiban  untuk menyerahkan dokumen perusahaan tertentu yang mempunyai nilai guna bagi kepentingan nasional  kepada Arsip Nasional Republik Indonesia. Apabila ketentuan tersebut tidak dilaksanakan, maka terkena  ketentuan Undang-undang Nomor 7 Tahun 1971 tentang Ketentuan- ketentuan Pokok Kearsipan.",
-  "Ayat (2)",
-  "Cukup jelas",
-  "Ayat (3)",
-  "Yang dimaksud dengan \"daftar pertelaan\" adalah daftar yang memuat keterangan antara lain mengenai  jenis, jumlah, dan jangka waktu penyimpanan dokumen yang bersangkutan.",
-  "Pasal 19",
-  "Ayat (1)",
-  "Cukup jelas",
-  "Ayat (2)",
-  "Dalam penyusunan jadwal retensi dokumen yang akan dimusnahkan, perlu dipertimbangkan dokumen  yang karena sifatnya tetap disimpan dan dipelihara.",
-  "Ayat (3)",
-  "Cukup jelas",
-  "Pasal 20",
-  "Pimpinan perusahaan dapat menetapkan suatu dokumen perusahaan yang dibuat di atas kertas tetap disimpan  walaupun telah dialihkan ke dalam mikrofilm atau media lainnya.",
-  "Pasal 21",
-  "Ayat (1)",
-  "Cukup jelas",
-  "Ayat (2)",
-  "Cukup jelas",
-  "Pasal 22",
-  "Cukup jelas",
-  "Pasal 23",
-  "Cukup jelas",
-  "Pasal 24",
-  "Cukup jelas",
-  "Pasal 25",
-  "Cukup jelas",
-  "Pasal 26",
-  "Cukup jelas",
-  "Pasal 27",
-  "Cukup jelas",
-  "Pasal 28",
-  "Angka 1",
-  "Cukup jelas",
-  "Angka 2",
-  "Cukup jelas",
-  "Angka 3",
-  "Lembaga dalam hal ini meliputi baik Lembaga/Instansi Pemerintah (misalnya Bank Indonesia dan Badan  Urusan Logistik) maupun Lembaga Swasta (misalnya Yayasan).",
-  "Apabila suatu Lembaga/Instansi Pemerintah selain tugas pokoknya dalam menjalankan fungsi  pemerintahan melakukan pula kegiatan usaha, maka khusus terhadap kegiatan usaha tersebut berlaku  ketentuan Undang-undang ini, sedangkan untuk kegiatan dalam rangka menjalankan fungsi  pemerintahan, tetap berlaku ketentuan peraturan perundang-undangan di bidang administrasi  pemerintahan.",
-  "Pasal 29",
-  "Yang dimaksud dengan \"ketentuan peraturan perundang-undangan yang berkaitan dengan pelaksanaan Pasal  6 Kitab Undang-undang Hukum Dagang (Wetboek van Koophandel voor Indonesi\u00eb, Staatsblad 1847 : 23)\",  misalnya Pasal 396 butir 3, Pasal 397 butir 4, Pasal 398 butir 3, dan Pasal 399 butir 4 Kitab Undang-undang  Hukum Pidana.",
-  "Pasal 30",
-  "Angka 1",
-  "Cukup jelas",
-  "Angka 2",
-  "Cukup jelas",
-  "Pasal 31",
-  "Cukup jelas",
-  "TAMBAHAN LEMBARAN NEGARA REPUBLIK INDONESIA NOMOR 3674"
-]
+UNDANG-UNDANG REPUBLIK INDONESIA
+NOMOR 8 TAHUN 1997
+TENTANG
+DOKUMEN PERUSAHAAN
+DENGAN RAHMAT TUHAN YANG MAHA ESA
+PRESIDEN REPUBLIK INDONESIA,
+Menimbang:
+a.
+bahwa upaya untuk mewujudkan kesejahteraan umum dan kemakmuran rakyat yang bersendikan keadilan sosial bagi seluruh rakyat Indonesia, merupakan bagian integral cita-cita kemerdekaan dalam wadah Negara Kesatuan Republik Indonesia yang berdasarkan Pancasila dan Undang-Undang Dasar 1945;
+b.
+bahwa usaha untuk menjamin penyelenggaraan perusahaan secara efektif dan efisien merupakan salah satu dasar kebijaksanaan Pembangunan Nasional di bidang ekonomi, yang sangat berpengaruh terhadap kemampuan dunia usaha untuk mempergunakan peluang dan berkiprah secara sehat dalam dunia internasional yang penuh persaingan sehingga dapat memberikan manfaat yang sebesar-besarnya bagi kesejahteraan rakyat;
+c.
+bahwa salah satu faktor yang mengurangi efektivitas dan efisiensi perusahaan adalah ketentuan yang mewajibkan penyimpanan buku, catatan, dan neraca selama 30 (tiga puluh) tahun dan penyimpanan surat, surat kawat beserta tembusannya selama 10 (sepuluh) tahun sebagaimana diatur antara lain dalam Pasal 6 Kitab Undang-undang Hukum Dagang (Wetboek van Koophandel voor Indonesië, Staatsblad 1847 : 23), sudah tidak sesuai lagi dengan perkembangan dan kebutuhan hukum masyarakat khususnya di bidang ekonomi dan perdagangan;
+d.
+bahwa ketentuan yang mewajibkan penyimpanan dokumen sebagaimana tersebut dalam huruf c dan ketentuan-ketentuan dalam peraturan perundang-undangan yang berkaitan dengan tata cara penyimpanan, pemindahan, pemusnahan, dan penyerahan arsip yang selama ini berlaku, menimbulkan beban ekonomis dan administratif yang memberatkan perusahaan;
+e.
+bahwa pembuatan dan penyimpanan dokumen, tetap diperlukan untuk menjamin kepastian hukum dan melindungi kepentingan para pihak dalam suatu hubungan hukum, karena itu kewajiban membuat dan menyimpan dokumen harus tetap dijalankan dengan mengupayakan tidak menimbulkan beban ekonomis dan administratif yang memberatkan, untuk itu perlu diadakan pembaharuan mengenai media yang memuat dokumen dan pengurangan jangka waktu penyimpanannya;
+f.
+bahwa kemajuan teknologi telah memungkinkan catatan dan dokumen yang dibuat di atas kertas dialihkan ke dalam media elektronik atau dibuat secara langsung dalam media elektronik;
+g.
+bahwa berdasarkan pertimbangan sebagaimana dimaksud dalam huruf a, b, c, d, e, dan f dipandang perlu membentuk Undang-undang tentang Dokumen Perusahaan.
+Mengingat:
+Pasal 5 ayat (1) dan Pasal 20 ayat (1) Undang-Undang Dasar 1945.
+Dengan Persetujuan:
+DEWAN PERWAKILAN RAKYAT REPUBLIK INDONESIA,
+MEMUTUSKAN:
+Menetapkan:
+UNDANG-UNDANG TENTANG DOKUMEN PERUSAHAAN
+BAB I
+KETENTUAN UMUM
+Pasal 1
+Dalam Undang-undang ini yang dimaksud dengan:
+1.
+Perusahaan adalah setiap bentuk usaha yang melakukan kegiatan secara tetap dan terus menerus dengan tujuan memperoleh keuntungan dan atau laba, baik yang diselenggarakan oleh orang-perorangan maupun badan usaha yang berbentuk badan hukum atau bukan badan hukum, yang didirikan dan berkedudukan dalam wilayah Negara Republik Indonesia.
+2.
+Dokumen perusahaan adalah data, catatan, dan atau keterangan yang dibuat dan atau diterima oleh perusahaan dalam rangka pelaksanaan kegiatannya, baik tertulis di atas kertas atau sarana lain maupun terekam dalam bentuk corak apapun yang dapat dilihat, dibaca, atau didengar.
+3.
+Jadwal retensi adalah jangka waktu penyimpanan dokumen perusahaan yang disusun dalam suatu daftar sesuai dengan jenis dan nilai kegunaannya dan dipakai sebagai pedoman pemusnahan dokumen perusahaan.
+Pasal 2
+Dokumen perusahaan terdiri dari dokumen keuangan dan dokumen lainnya.
+Pasal 3
+Dokumen keuangan terdiri dari catatan, bukti pembukuan, dan data pendukung administrasi keuangan, yang  merupakan bukti adanya hak dan kewajiban serta kegiatan usaha suatu perusahaan.
+Pasal 4
+Dokumen lainnya terdiri dari data atau setiap tulisan yang berisi keterangan yang mempunyai nilai guna bagi  perusahaan meskipun tidak terkait langsung dengan dokumen keuangan.
+Pasal 5
+Catatan terdiri dari neraca tahunan, perhitungan laba rugi tahunan, rekening, jurnal transaksi harian, atau setiap  tulisan yang berisi keterangan mengenai hak dan kewajiban serta hal-hal lain yang berkaitan dengan kegiatan  usaha suatu perusahaan.
+Pasal 6
+Bukti pembukuan terdiri dari warkat-warkat yang digunakan sebagai dasar pembukuan yang mempengaruhi  perubahan kekayaan, utang, dan modal.
+Pasal 7
+(1)
+Data pendukung administrasi keuangan merupakan data administratif yang berkaitan dengan keuangan untuk digunakan sebagai pendukung penyusunan dan pembuatan dokumen keuangan.
+(2)
+Data pendukung administrasi keuangan sebagaimana dimaksud dalam ayat (1) terdiri dari:
+a.
+data pendukung yang merupakan bagian dari bukti pembukuan; dan
+b.
+data pendukung yang tidak merupakan bagian dari bukti pembukuan.
+BAB II
+PEMBUATAN CATATAN DAN PENYIMPANAN DOKUMEN PERUSAHAAN
+Pasal 8
+(1)
+Setiap perusahaan wajib membuat catatan sebagaimana dimaksud dalam Pasal 5 sesuai dengan kebutuhan perusahaan.
+(2)
+Catatan sebagaimana dimaksud dalam ayat (1) wajib dibuat dengan menggunakan huruf Latin, angka Arab, satuan mata uang Rupiah, dan disusun dalam bahasa Indonesia.
+(3)
+Dalam hal ada izin dari Menteri Keuangan, catatan sebagaimana dimaksud dalam ayat (2) dapat disusun dalam bahasa asing.
+Pasal 9
+(1)
+Catatan yang berbentuk neraca tahunan, perhitungan laba rugi tahunan, atau tulisan lain yang menggambarkan neraca dan laba rugi, wajib ditandatangani oleh pimpinan perusahaan atau pejabat yang ditunjuk di lingkungan perusahaan yang bersangkutan.
+(2)
+Dalam hal peraturan perundang-undangan yang berkaitan langsung dengan kegiatan perusahaan di bidang tertentu tidak menentukan lain, maka catatan sebagaimana dimaksud dalam ayat (1) wajib dibuat paling lambat 6 (enam) bulan terhitung sejak akhir tahun buku perusahaan yang bersangkutan.
+Pasal 10
+(1)
+Catatan sebagaimana dimaksud dalam Pasal 9, wajib dibuat di atas kertas.
+(2)
+Catatan yang berbentuk rekening, jurnal transaksi harian, atau setiap tulisan yang berisi keterangan mengenai hak dan kewajiban serta hal-hal lain yang berkaitan dengan kegiatan usaha suatu perusahaan sebagaimana dimaksud dalam Pasal 5, dibuat di atas kertas atau dalam sarana lainnya.
+Pasal 11
+(1)
+Catatan sebagaimana dimaksud dalam Pasal 5, bukti pembukuan sebagaimana dimaksud dalam Pasal 6, dan data pendukung administrasi keuangan sebagaimana dimaksud dalam Pasal 7 ayat (2) huruf a, wajib disimpan selama 10 (sepuluh) tahun terhitung sejak akhir tahun buku perusahaan yang bersangkutan.
+(2)
+Data pendukung administrasi keuangan sebagaimana dimaksud dalam Pasal 7 ayat (2) huruf b, jangka waktu penyimpanannya disesuaikan dengan kebutuhan perusahaan yang bersangkutan.
+(3)
+Dokumen lainnya sebagaimana dimaksud dalam Pasal 4, jangka waktu penyimpanannya ditetapkan berdasarkan nilai guna dokumen tersebut.
+(4)
+Jangka waktu sebagaimana dimaksud dalam ayat (2) dan ayat (3), disusun oleh perusahaan yang bersangkutan dalam suatu jadwal retensi yang ditetapkan dengan keputusan pimpinan perusahaan.
+(5)
+Kewajiban penyimpanan sebagaimana dimaksud dalam ayat (1), ayat (2), dan ayat (3) tidak menghilangkan fungsi dokumen yang bersangkutan sebagai alat bukti sesuai dengan kebutuhan sebagaimana ditentukan dalam ketentuan mengenai daluwarsa suatu tuntutan yang diatur dalam peraturan perundang-undangan yang berlaku, atau untuk kepentingan hukum lainnya.
+BAB III
+PENGALIHAN BENTUK DOKUMEN PERUSAHAAN DAN LEGALISASI
+Pasal 12
+(1)
+Dokumen perusahaan dapat dialihkan ke dalam mikrofilm atau media lainnya.
+(2)
+Pengalihan dokumen perusahaan ke dalam mikrofilm atau media lainnya sebagaimana dimaksud dalam ayat (1) dapat dilakukan sejak dokumen tersebut dibuat atau diterima oleh perusahaan yang bersangkutan.
+(3)
+Dalam mengalihkan dokumen perusahaan sebagaimana dimaksud dalam ayat (1), pimpinan perusahaan wajib mempertimbangkan kegunaan naskah asli dokumen yang perlu tetap disimpan karena mengandung nilai tertentu demi kepentingan perusahaan atau kepentingan nasional.
+(4)
+Dalam hal dokumen perusahaan yang dialihkan ke dalam mikrofilm atau media lainnya adalah naskah asli yang mempunyai kekuatan pembuktian otentik dan masih mengandung kepentingan hukum tertentu, pimpinan perusahaan wajib tetap menyimpan naskah asli tersebut.
+Pasal 13
+Setiap pengalihan dokumen perusahaan sebagaimana dimaksud dalam Pasal 12 ayat (1) wajib dilegalisasi.
+Pasal 14
+(1)
+Legalisasi sebagaimana dimaksud dalam Pasal 13 dilakukan oleh pimpinan perusahaan atau pejabat yang ditunjuk di lingkungan perusahaan yang bersangkutan, dengan dibuatkan berita acara.
+(2)
+Berita acara sebagaimana dimaksud dalam ayat (1) sekurang-kurangnya memuat:
+a.
+keterangan tempat, hari, tanggal, bulan, dan tahun dilakukannya legalisasi;
+b.
+keterangan bahwa pengalihan dokumen perusahaan yang dibuat di atas kertas ke dalam mikrofilm atau media lainnya telah dilakukan sesuai dengan aslinya; dan
+c.
+tanda tangan dan nama jelas pejabat yang bersangkutan.
+Pasal 15
+(1)
+Dokumen perusahaan yang telah dimuat dalam mikrofilm atau media lainnya sebagaimana dimaksud dalam Pasal 12 ayat (1) dan atau hasil cetaknya merupakan alat bukti yang sah.
+(2)
+Apabila dianggap perlu dalam hal tertentu dan untuk keperluan tertentu dapat dilakukan legalisasi terhadap hasil cetak dokumen perusahaan yang telah dimuat dalam mikrofilm atau media lainnya.
+Pasal 16
+Ketentuan lebih lanjut mengenai tata cara pengalihan dokumen perusahaan ke dalam mikrofilm atau media  lainnya dan legalisasi diatur dengan Peraturan Pemerintah.
+BAB IV
+PEMINDAHAN, PENYERAHAN, DAN PEMUSNAHAN DOKUMEN PERUSAHAAN
+Pasal 17
+Pemindahan dokumen perusahaan dari unit pengolahan ke unit kearsipan di lingkungan perusahaan tersebut  dilakukan berdasarkan keputusan pimpinan perusahaan yang pelaksanaannya disesuaikan dengan kebutuhan  perusahaan yang bersangkutan.
+Pasal 18
+(1)
+Dokumen perusahaan tertentu yang mempunyai nilai guna bagi kepentingan nasional wajib diserahkan kepada Arsip Nasional Republik Indonesia berdasarkan keputusan pimpinan perusahaan.
+(2)
+Penyerahan sebagaimana dimaksud dalam ayat (1) dilaksanakan dengan pembuatan berita acara yang sekurang-kurangnya memuat:
+a.
+keterangan tempat, hari, tanggal, bulan, dan tahun dilakukannya penyerahan;
+b.
+keterangan tentang pelaksanaan penyerahan; dan
+c.
+tanda tangan dan nama jelas pejabat yang menyerahkan dan pejabat yang menerima penyerahan.
+(3)
+Pada berita acara penyerahan sebagaimana dimaksud dalam ayat (2) dilampirkan daftar pertelaan dokumen yang akan diserahkan.
+Pasal 19
+(1)
+Pemusnahan catatan, bukti pembukuan, dan data pendukung administrasi keuangan sebagaimana dimaksud dalam Pasal 11 ayat (1) dilaksanakan berdasarkan keputusan pimpinan perusahaan.
+(2)
+Pemusnahan data pendukung administrasi keuangan sebagaimana dimaksud dalam Pasal 11 ayat (2) dan dokumen lainnya sebagaimana dimaksud dalam Pasal 11 ayat (3) dilaksanakan berdasarkan jadwal retensi.
+(3)
+Pimpinan perusahaan yang bertanggung jawab atas pemusnahan dokumen perusahaan atau pejabat lain yang ditunjuk, bertanggung jawab atas segala kerugian perusahaan dan atau pihak ketiga dalam hal:
+a.
+pemusnahan dokumen perusahaan dilakukan sebelum habis jangka waktu wajib simpan sebagaimana dimaksud dalam Pasal 11 ayat (1); atau
+b.
+pemusnahan dokumen perusahaan dilakukan, sedangkan diketahui atau patut diketahui bahwa dokumen perusahaan tersebut masih tetap harus disimpan, karena mempunyai nilai guna baik yang berkaitan dengan kekayaan, hak, dan kewajiban perusahaan maupun kepentingan lainnya.
+Pasal 20
+Pemusnahan dokumen perusahaan yang telah dialihkan ke dalam mikrofilm atau media lainnya, dapat segera  dilakukan kecuali ditentukan lain oleh pimpinan perusahaan, berdasarkan ketentuan Pasal 12 ayat (3) dan ayat  (4).
+Pasal 21
+(1)
+Pemusnahan sebagaimana dimaksud dalam Pasal 19 dan Pasal 20, dilaksanakan dengan pembuatan berita acara yang sekurang-kurangnya memuat:
+a.
+keterangan tempat, hari, tanggal, bulan, dan tahun dilakukannya pemusnahan;
+b.
+keterangan tentang pelaksanaan pemusnahan; dan
+c.
+tanda tangan dan nama jelas pejabat yang melaksanakan pemusnahan.
+(2)
+Pada berita acara pemusnahan sebagaimana dimaksud dalam ayat (1) dilampirkan daftar pertelaan dokumen yang akan dimusnahkan.
+Pasal 22
+Ketentuan lebih lanjut mengenai tata cara penyerahan dan pemusnahan dokumen perusahaan diatur dengan  Peraturan Pemerintah.
+BAB V
+KETENTUAN PERALIHAN
+Pasal 23
+Buku, surat, catatan, dan neraca yang berdasarkan ketentuan Pasal 6 Kitab Undang-undang Hukum Dagang  (Wetboek van Koophandel voor Indonesië, Staatsblad 1847 : 23) wajib disimpan selama 30 (tiga puluh) tahun,  dan pada saat berlakunya Undang-undang ini telah disimpan selama 10 (sepuluh) tahun atau lebih,  pemusnahannya dilakukan berdasarkan ketentuan dalam Undang-undang ini.
+Pasal 24
+Salinan surat dan telegram yang berdasarkan ketentuan Pasal 6 Kitab Undang-undang Hukum Dagang  (Wetboek van Koophandel voor Indonesië, Staatsblad 1847 : 23) wajib disimpan selama 10 (sepuluh) tahun,  dan pada saat berlakunya Undang-undang ini masa simpannya belum mencapai 10 (sepuluh) tahun,  pemusnahannya dilakukan berdasarkan ketentuan dalam Undang-undang ini.
+Pasal 25
+Dokumen perusahaan yang pemusnahannya telah dimintakan pertimbangan kepada Ketua Badan Pemeriksa  Keuangan, dan dalam waktu 1 (satu) tahun terhitung sejak tanggal mulai berlakunya Undang-undang ini  pertimbangan tersebut belum diberikan, pemusnahannya dilakukan berdasarkan ketentuan dalam Undang undang ini.
+Pasal 26
+Dokumen perusahaan yang pemusnahannya telah dimintakan persetujuan kepada Kepala Arsip Nasional  Republik Indonesia, dan dalam waktu 1 (satu) tahun terhitung sejak tanggal mulai berlakunya Undang-undang  ini persetujuan tersebut belum diberikan, pemusnahannya dilakukan berdasarkan ketentuan dalam Undang undang ini.
+Pasal 27
+Dokumen perusahaan yang jadwal retensinya sedang dimintakan persetujuan kepada Kepala Arsip Nasional  Republik Indonesia, dan dalam waktu 1 (satu) tahun terhitung sejak tanggal mulai berlakunya Undang-undang  ini persetujuan tersebut belum diberikan, jadwal retensi dan pemusnahannya ditetapkan berdasarkan ketentuan  dalam Undang- undang ini.
+BAB VI
+KETENTUAN PENUTUP
+Pasal 28
+Ketentuan dalam Undang-undang ini berlaku juga terhadap:
+1.
+kantor perwakilan, kantor cabang, agen perusahaan Indonesia atau yang disamakan dengan itu, yang mempunyai kegiatan usaha di luar wilayah Negara Republik Indonesia, dengan tetap memperhatikan ketentuan yang berlaku di negara setempat;
+2.
+kantor perwakilan, kantor cabang, agen perusahaan asing atau yang disamakan dengan itu, yang mempunyai kegiatan usaha di wilayah Negara Republik Indonesia; dan
+3.
+badan atau lembaga yang tidak termasuk dalam pengertian perusahaan sebagaimana dimaksud dalam Pasal 1 angka 1, yang dalam kegiatan dan atau tugasnya memiliki dan menghasilkan dokumen sebagaimana layaknya perusahaan.
+Pasal 29
+Semua ketentuan peraturan perundang-undangan yang berkaitan dengan pelaksanaan Pasal 6 Kitab Undang undang Hukum Dagang (Wetboek van Koophandel voor Indonesië, Staatsblad 1847 : 23) tetap berlaku  sepanjang belum diganti atau tidak bertentangan dengan Undang-undang ini.
+Pasal 30
+Pada saat Undang-undang ini mulai berlaku:
+1.
+Pasal 6 Kitab Undang-undang Hukum Dagang (Wetboek van Koophandel voor Indonesië, Staatsblad 1847 : 23); dan
+2.
+semua peraturan perundang-undangan yang berkaitan dengan dokumen perusahaan dan ketentuan peraturan perundang-undangan yang berkaitan dengan penyimpanan, pemindahan, penyerahan, dan pemusnahan arsip yang bertentangan dengan Undang-undang ini,
+dinyatakan tidak berlaku lagi.
+Pasal 31
+Undang-undang ini mulai berlaku pada tanggal diundangkan.
+Agar setiap orang mengetahuinya, memerintahkan pengundangan Undang-undang ini dengan penempatannya  dalam Lembaran Negara Republik Indonesia.
+Disahkan Di Jakarta,
+Pada Tanggal 24 Maret 1997
+PRESIDEN REPUBLIK INDONESIA,
+Ttd.
+SOEHARTO
+Diundangkan Di Jakarta,
+Pada Tanggal 24 Maret 1997
+MENTERI NEGARA/SEKRETARIS NEGARA REPUBLIK INDONESIA,
+Ttd.
+MOERDIONO
+LEMBARAN NEGARA REPUBLIK INDONESIA TAHUN 1997 NOMOR 18
+PENJELASAN
+UNDANG-UNDANG REPUBLIK INDONESIA
+NOMOR 8 TAHUN 1997
+TENTANG
+DOKUMEN PERUSAHAAN
+UMUM
+Garis-garis Besar Haluan Negara menetapkan bahwa pembangunan hukum sebagai upaya untuk menegakkan  keadilan, kebenaran dan ketertiban dalam negara hukum Indonesia yang berdasarkan Pancasila dan Undang Undang Dasar 1945, diarahkan untuk meningkatkan kesadaran hukum, menjamin penegakan, pelayanan dan  kepastian hukum, serta mewujudkan tata hukum nasional yang mengabdi pada kepentingan nasional.  Pengaruh globalisasi ekonomi dan informasi yang demikian luas karena perkembangan perekonomian dan  perdagangan baik nasional maupun internasional yang bergerak cepat mengakibatkan meningkatnya  penggunaan dokumen, sehingga mengharuskan dunia usaha memanfaatkan kemajuan teknologi untuk  meningkatkan kemampuannya secara efektif dan efisien khususnya dalam pengelolaan dokumen perusahaan.  Guna mencapai tujuan tersebut, pembentukan peraturan mengenai dokumen perusahaan yang merupakan  bagian dari pembangunan hukum di bidang ekonomi perlu segera disusun, dalam upaya memacu laju  pertumbuhan perusahaan melalui pengelolaan dokumen perusahaan yang efektif dan efisien.  Ketentuan sebagaimana tercantum dalam Pasal 6 Kitab Undang-undang Hukum Dagang (Wetboek van  Koophandel voor Indonesië, Staatsblad 1847 : 23) yang mewajibkan setiap orang yang menjalankan  perusahaan menyelenggarakan pencatatan tentang hal-hal yang berkaitan dengan perusahaan dan menyimpan  dokumen tersebut antara 10 (sepuluh) sampai dengan 30 (tiga puluh) tahun, sudah tidak sesuai lagi dengan  perkembangan dan kebutuhan hukum masyarakat khususnya di bidang ekonomi dan perdagangan dewasa ini.  Selain ketentuan wajib menyimpan dokumen sebagaimana diatur dalam Pasal 6 Kitab Undang-undang Hukum  Dagang (Wetboek van Koophandel voor Indonesië, Staatsblad 1847 : 23), juga ketentuan Undang-undang dan  peraturan perundang-undangan lainnya yang berkaitan dengan tata cara penyimpanan, pemindahan,  pemusnahan, dan penyerahan arsip menimbulkan beban yang berat bagi perusahaan karena pelaksanaannya  memerlukan ruangan yang luas, tenaga, waktu, perawatan, dan biaya yang besar.
+Catatan yang berupa neraca tahunan, perhitungan laba rugi tahunan, rekening, jurnal transaksi harian, dan bukti  pembukuan serta data pendukung administrasi keuangan yang merupakan bagian dari bukti pembukuan atau  tulisan lain yang menggambarkan neraca tahunan, perhitungan laba rugi tahunan, rekening, dan jurnal transaksi  harian dikurangi masa penyimpanannya dari 30 (tiga puluh) tahun menjadi 10 (sepuluh) tahun. Sedangkan data  pendukung administrasi keuangan yang tidak merupakan bagian dari bukti pembukuan, dan dokumen lainnya,  jangka waktu penyimpanannya disesuaikan dengan nilai guna dokumen yang disusun dalam jadwal retensi  yang ditetapkan dengan keputusan pimpinan perusahaan.
+Sejalan dengan upaya mengurangi jangka waktu penyimpanan, penerapan teknologi maju di bidang informatika  telah memungkinkan dokumen perusahaan yang dibuat di atas kertas atau sarana lainnya dapat dialihkan untuk  disimpan dalam mikrofilm atau media lainnya. Pemakaian mikrofilm atau media lain tersebut dapat dipastikan  semakin banyak digunakan dalam kegiatan ekonomi dan perdagangan karena lebih ekonomis. Untuk menjamin  kepastian hukum, maka dokumen perusahaan yang disimpan dalam mikrofilm dan media lain, merupakan salah  satu alat bukti yang sah.
+Untuk menyederhanakan tata cara penyimpanan, pemindahan, pemusnahan, dan penyerahan dokumen  perusahaan, yang penting artinya bagi efisiensi kegiatan perusahaan seperti diuraikan di atas, Undang-undang  ini memberikan wewenang kepada perusahaan untuk melaksanakan penyimpanan, pemindahan, pemusnahan,  dan penyerahan dokumen tersebut berdasarkan jadwal retensi baik menurut Undang-undang ini maupun yang  ditetapkan oleh pimpinan perusahaan.
+Dengan diberlakukannya ketentuan yang mengatur dokumen perusahaan, maka pembuatan, penyimpanan,  pemindahan, pemusnahan, dan penyerahan dokumen perusahaan dapat dilakukan dengan sederhana, efektif, dan efisien dengan tidak mengurangi kepastian hukum dan tetap melindungi kepentingan para pihak dalam  suatu hubungan hukum.
+Ketentuan mengenai pelaksanaan penyimpanan, pemindahan, pemusnahan, dan penyerahan dokumen yang  diatur dengan Undang-undang ini tidak dimaksudkan menghilangkan fungsi dokumen bersangkutan sebagai alat  bukti atau kepentingan hukum lainnya. Oleh karena itu Undang-undang dan ketentuan peraturan perundang undangan lainnya yang berkaitan dengan pelaksanaan Pasal 6 Kitab Undang-undang Hukum Dagang (Wetboek  van Koophandel voor Indonesië, Staatsblad 1847 : 23), misalnya Pasal 396, Pasal 397, Pasal 398, dan Pasal  399 Kitab Undang-undang Hukum Pidana tetap berlaku sepanjang belum diganti atau tidak bertentangan  dengan Undang-undang ini.
+PASAL DEMI PASAL
+Pasal 1
+Cukup jelas
+Pasal 2
+Cukup jelas
+Pasal 3
+Cukup jelas
+Pasal 4
+Yang termasuk "dokumen lainnya" misalnya Risalah Rapat Umum Pemegang Saham, Akta Pendirian  Perusahaan, akta otentik lainnya yang masih mengandung kepentingan hukum tertentu, Nomor Pokok Wajib  Pajak.
+Pasal 5
+Yang dimaksud dengan:
+-
+"neraca tahunan" adalah salah satu bentuk catatan yang menggambarkan posisi kekayaan, utang, dan modal pada akhir tahun buku yang merupakan pertanggungjawaban keuangan.
+-
+"rekening" adalah salah satu bentuk catatan yang dibuat perusahaan untuk menampung transaksi yang sejenis yang digunakan sebagai dasar penyusunan laporan keuangan, dan dapat juga disebut buku besar atau perkiraan.
+-
+"jurnal transaksi harian" adalah salah satu bentuk catatan yang menggambarkan adanya transaksi yang dapat berupa buku harian atau catatan harian atau tulisan lainnya.
+-
+"tulisan yang berisi keterangan mengenai hak dan kewajiban serta hal-hal lain yang berkaitan dengan kegiatan usaha suatu perusahaan" adalah tulisan yang menggambarkan neraca tahunan, perhitungan laba rugi tahunan, rekening, dan jurnal transaksi harian.
+Pasal 6
+Yang dimaksud dengan:
+-
+"warkat" adalah dokumen tertulis yang bentuk dan penggunaannya ditetapkan menurut aturan tertentu dan merupakan bukti transaksi, misalnya cek, bilyet giro, surat perintah membayar, wesel, nota debet, dan nota kredit.
+-
+"perubahan kekayaan, utang, dan modal" adalah bertambah dan atau berkurangnya jumlah dan susunan kekayaan, utang, dan modal.
+Pasal 7
+Ayat (1)
+Cukup jelas
+Ayat (2)
+Yang termasuk:
+a.
+"data pendukung yang merupakan bagian dari bukti pembukuan", misalnya surat perintah kerja, surat kontrak atau surat perjanjian.
+b.
+"data pendukung yang tidak merupakan bagian dari bukti pembukuan", misalnya rekening antar kantor, rekening harian, atau rekening mingguan.
+Pasal 8
+Ayat (1)
+Penggunaan kata "wajib" dalam ayat ini dimaksudkan untuk memberikan penekanan adanya kewajiban  perusahaan membuat catatan, agar setiap saat dapat diketahui keadaan kekayaan, utang, modal, hak  dan kewajiban perusahaan, untuk melindungi baik kepentingan perusahaan, kepentingan Pemerintah  maupun kepentingan pihak ketiga.
+Kewajiban tersebut bersifat keperdataan, sehingga risiko yang timbul karena tidak dilaksanakannya  kewajiban tersebut menjadi tanggung jawab perusahaan yang bersangkutan.
+Yang dimaksud dengan "sesuai dengan kebutuhan perusahaan" adalah bahwa walaupun setiap  perusahaan diwajibkan membuat catatan, tetapi mengenai bentuk dan kedalaman isi catatan yang dibuat,  dilakukan sesuai dengan sifat perusahaan.
+Ayat (2)
+Penggunaan kata "wajib" dalam ayat ini dimaksudkan untuk memberikan penekanan bahwa catatan  tersebut dibuat sesuai dengan ketentuan dalam ayat ini, misalnya harus menggunakan huruf Latin dan  disusun dalam bahasa Indonesia. Dengan demikian apabila catatan tidak dibuat dengan menggunakan  huruf Latin dan tidak disusun dalam bahasa Indonesia, maka secara hukum, perusahaan tersebut  dianggap belum membuat catatan, dan kelalaian tersebut menjadi tanggung jawab perusahaan yang  bersangkutan.
+Ayat (3)
+Pada dasarnya catatan harus disusun dalam bahasa Indonesia, kecuali baik karena sifat perusahaan  maupun untuk kepentingan tertentu sesuai dengan ketentuan peraturan perundang-undangan di bidang  perpajakan, dengan izin Menteri Keuangan catatan dapat disusun dalam bahasa asing.
+Pasal 9
+Ayat (1)
+-
+Penggunaan kata "wajib" dalam ayat ini dimaksudkan untuk memberikan penekanan bahwa apabila neraca tahunan atau perhitungan laba rugi tahunan belum ditandatangani oleh pimpinan perusahaan atau pejabat yang ditunjuk, secara hukum perusahaan dianggap belum membuat neraca tahunan atau perhitungan laba rugi tahunan.
+-
+Yang dimaksud dengan "pimpinan perusahaan" adalah seseorang yang berdasarkan Anggaran Dasar memimpin perusahaan yang bersangkutan dan mewakili perusahaan baik di dalam maupun di luar pengadilan.
+-
+Yang dimaksud dengan "pejabat yang ditunjuk" adalah seseorang yang diberi kewenangan oleh pimpinan perusahaan untuk mengelola dokumen perusahaan.
+Ayat (2)
+Penggunaan kata "wajib" dalam ayat ini dimaksudkan untuk memberikan penekanan bahwa pembuatan  catatan tidak boleh melebihi waktu 6 (enam) bulan terhitung sejak akhir tahun buku perusahaan yang bersangkutan. Kelalaian melakukan kewajiban tersebut menjadi tanggung jawab perusahaan yang  bersangkutan.
+Pasal 10
+Ayat (1)
+Penggunaan kata "wajib" dalam ayat ini dimaksudkan untuk memberikan penekanan bahwa apabila  catatan yang berbentuk neraca tahunan, perhitungan laba rugi tahunan, atau tulisan lain yang  menggambarkan neraca laba rugi, tidak dibuat di atas kertas, perusahaan dianggap belum membuat  catatan.
+Ayat (2)
+Yang dimaksud dengan "sarana lainnya" adalah alat bantu untuk memproses pembuatan dokumen  perusahaan yang sejak semula tidak dibuat di atas kertas, misalnya menggunakan pita magnetik atau  disket.
+Pasal 11
+Ayat (1)
+Penggunaan kata "wajib" dalam ayat ini dimaksudkan untuk memberikan penekanan mengenai hal yang  harus dilakukan perusahaan, yakni menyimpan dokumen sebagaimana dimaksud dalam ayat ini selama  10 (sepuluh) tahun. Dengan demikian apabila sebelum jangka waktu 10 (sepuluh) tahun dokumen yang bersangkutan dimusnahkan, maka risiko karena pemusnahan tersebut menjadi tanggung jawab  perusahaan yang bersangkutan.
+Ayat (2)
+Cukup jelas
+Ayat (3)
+Yang dimaksud dengan "nilai guna dokumen" adalah nilai dokumen perusahaan yang didasarkan pada  kegunaan dokumen dalam menunjang pelaksanaan kegiatan usaha perusahaan.
+Berdasarkan nilai guna dokumen yang bersangkutan, maka jangka waktu penyimpanannya dapat  ditetapkan kurang dari 10 (sepuluh) tahun atau lebih dari 10 (sepuluh) tahun.
+Ayat (4)
+Cukup jelas
+Ayat (5)
+Sekalipun suatu dokumen telah melewati masa wajib simpan, tetapi dokumen tersebut tetap dapat  dipergunakan sebagai alat bukti sesuai dengan ketentuan mengenai daluwarsa suatu tuntutan.
+Pasal 12
+Ayat (1)
+Yang dimaksud dengan:
+-
+"mikrofilm" adalah film yang memuat rekaman bahan tertulis, tercetak, dan tergambar dalam ukuran yang sangat kecil.
+-
+"media lainnya" adalah alat penyimpan informasi yang bukan kertas dan mempunyai tingkat pengamanan yang dapat menjamin keaslian dokumen yang dialihkan atau ditransformasikan, misalnya Compact Disk-Read Only Memory (CD-ROM), dan Write-Once-Read-Many (WORM).
+Ayat (2)
+Cukup jelas
+Ayat (3)
+Suatu dokumen perusahaan mempunyai makna "kepentingan nasional" apabila dokumen perusahaan  tersebut memiliki nilai historis yang digunakan dalam rangka kegiatan pemerintahan dan pembangunan  serta kehidupan kebangsaan, misalnya rekening atau bukti iuran untuk pembangunan Monumen  Nasional, Mesjid Istiqlal.
+Selanjutnya yang menentukan suatu dokumen mempunyai makna kepentingan nasional adalah pimpinan  perusahaan.
+Ayat (4)
+Penggunaan kata "wajib" dalam ayat ini dimaksudkan untuk memberikan penekanan bahwa pimpinan  perusahaan tetap harus menyimpan naskah asli, apabila dokumen tersebut masih mempunyai kekuatan  pembuktian otentik dan atau mengandung kepentingan hukum tertentu. Kelalaian dalam melaksanakan  kewajiban tersebut, pimpinan perusahaan bertanggung jawab sesuai dengan peraturan perundang undangan yang berlaku.
+Yang dimaksud dengan "masih mengandung kepentingan hukum tertentu" adalah apabila naskah asli  tersebut masih mengandung hak dan atau kewajiban yang masih harus dipenuhi oleh pihak yang  berkepentingan.
+Pasal 13
+Penggunaan kata "wajib" dalam Pasal ini dimaksudkan untuk memberikan penekanan bahwa setiap pengalihan  dokumen perusahaan harus dilegalisasi. Apabila pengalihan dokumen perusahaan tidak dilegalisasi, maka  dokumen perusahaan hasil pengalihan tersebut secara hukum tidak dapat dijadikan sebagai alat bukti yang sah.  Yang dimaksud dengan "legalisasi" adalah tindakan pengesahan isi dokumen perusahaan yang dialihkan atau  ditransformasikan ke dalam mikrofilm atau media lain yang menerangkan atau menyatakan bahwa isi dokumen  perusahaan yang terkandung di dalam mikrofilm atau media lain tersebut sesuai dengan naskah aslinya.
+Pasal 14
+Ayat (1)
+Berita acara dibuat pada saat terjadi pengalihan dokumen ke dalam mikrofilm atau media lainnya.
+Ayat (2)
+Pada berita acara pengalihan dilampirkan daftar pertelaan atas dokumen perusahaan yang dialihkan ke  dalam mikrofilm atau media lainnya.
+Pasal 15
+Ayat (1)
+Cukup jelas
+Ayat (2)
+Yang dimaksud dengan "dianggap perlu", "dalam hal tertentu" dan "untuk keperluan tertentu" misalnya  untuk keperluan memenuhi permintaan polisi, jaksa, atau hakim dalam pemeriksaan perkara.  Legalisasi dilakukan dengan cara pembubuhan tanda tangan pada hasil cetak dokumen tersebut dan  pernyataan bahwa hasil cetak sesuai dengan aslinya.
+Pasal 16
+Cukup jelas
+Pasal 17
+Penentuan tata cara pemindahan dokumen perusahaan diserahkan kepada pimpinan perusahaan, karena yang  mengetahui kebutuhan perusahaan adalah pimpinan perusahaan yang bersangkutan. Dalam tata cara tersebut dapat pula ditentukan bahwa pemindahan dokumen disertai dengan daftar pertelaan dan pembuatan berita  acara yang sekurang-kurangnya memuat:
+a.
+keterangan tempat, hari, tanggal, bulan, dan tahun dilakukannya pemindahan;
+b.
+keterangan tentang pelaksanaan pemindahan; dan
+c.
+tanda tangan dan nama jelas pejabat yang memindahkan dan pejabat yang menerima pemindahan. Yang dimaksud dengan:
+-
+"unit pengolahan" adalah satuan kerja yang mempunyai tugas dan tanggung jawab mengolah semua dokumen yang berkaitan dengan kegiatan operasional perusahaan.
+-
+"unit kearsipan" adalah satuan kerja yang mempunyai tugas dan tanggung jawab mengelola dokumen perusahaan yang sudah diselesaikan oleh unit pengolahan untuk disimpan dan dipelihara.
+Pasal 18
+Ayat (1)
+Penggunaan kata "wajib" dalam ayat ini dimaksudkan untuk memberikan penekanan adanya kewajiban  untuk menyerahkan dokumen perusahaan tertentu yang mempunyai nilai guna bagi kepentingan nasional  kepada Arsip Nasional Republik Indonesia. Apabila ketentuan tersebut tidak dilaksanakan, maka terkena  ketentuan Undang-undang Nomor 7 Tahun 1971 tentang Ketentuan- ketentuan Pokok Kearsipan.
+Ayat (2)
+Cukup jelas
+Ayat (3)
+Yang dimaksud dengan "daftar pertelaan" adalah daftar yang memuat keterangan antara lain mengenai  jenis, jumlah, dan jangka waktu penyimpanan dokumen yang bersangkutan.
+Pasal 19
+Ayat (1)
+Cukup jelas
+Ayat (2)
+Dalam penyusunan jadwal retensi dokumen yang akan dimusnahkan, perlu dipertimbangkan dokumen  yang karena sifatnya tetap disimpan dan dipelihara.
+Ayat (3)
+Cukup jelas
+Pasal 20
+Pimpinan perusahaan dapat menetapkan suatu dokumen perusahaan yang dibuat di atas kertas tetap disimpan  walaupun telah dialihkan ke dalam mikrofilm atau media lainnya.
+Pasal 21
+Ayat (1)
+Cukup jelas
+Ayat (2)
+Cukup jelas
+Pasal 22
+Cukup jelas
+Pasal 23
+Cukup jelas
+Pasal 24
+Cukup jelas
+Pasal 25
+Cukup jelas
+Pasal 26
+Cukup jelas
+Pasal 27
+Cukup jelas
+Pasal 28
+Angka 1
+Cukup jelas
+Angka 2
+Cukup jelas
+Angka 3
+Lembaga dalam hal ini meliputi baik Lembaga/Instansi Pemerintah (misalnya Bank Indonesia dan Badan  Urusan Logistik) maupun Lembaga Swasta (misalnya Yayasan).
+Apabila suatu Lembaga/Instansi Pemerintah selain tugas pokoknya dalam menjalankan fungsi  pemerintahan melakukan pula kegiatan usaha, maka khusus terhadap kegiatan usaha tersebut berlaku  ketentuan Undang-undang ini, sedangkan untuk kegiatan dalam rangka menjalankan fungsi  pemerintahan, tetap berlaku ketentuan peraturan perundang-undangan di bidang administrasi  pemerintahan.
+Pasal 29
+Yang dimaksud dengan "ketentuan peraturan perundang-undangan yang berkaitan dengan pelaksanaan Pasal  6 Kitab Undang-undang Hukum Dagang (Wetboek van Koophandel voor Indonesië, Staatsblad 1847 : 23)",  misalnya Pasal 396 butir 3, Pasal 397 butir 4, Pasal 398 butir 3, dan Pasal 399 butir 4 Kitab Undang-undang  Hukum Pidana.
+Pasal 30
+Angka 1
+Cukup jelas
+Angka 2
+Cukup jelas
+Pasal 31
+Cukup jelas
+TAMBAHAN LEMBARAN NEGARA REPUBLIK INDONESIA NOMOR 3674
