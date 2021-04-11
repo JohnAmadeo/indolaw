@@ -1289,7 +1289,7 @@ def is_start_of_first_list_index(string: str) -> bool:
         False
     """
     list_index = string.strip()
-    return list_index in set(['a.', '1.', '(1)', 'Huruf a', 'Ayat (1)', 'Angka 1'])
+    return list_index in set(['a.', '1.', '(1)', '1)', 'Huruf a', 'Ayat (1)', 'Angka 1'])
 
 
 def is_heading(regex: str, string: str) -> bool:
