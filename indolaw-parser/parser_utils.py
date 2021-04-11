@@ -257,16 +257,59 @@ def clean_law(law: List[str]) -> List[str]:
     '''
     Stitch together plaintext lines that get separated into 2 lines due to page breaks
     '''
-    new_law = []
+    new_law = clean_split_plaintext(law)
+
+    return new_law
+
+
+def clean_split_plaintext(law: List[str]) -> List[str]:
+    '''
+    Stitch together plaintext lines that get separated into 2 lines due to page breaks
+    '''
+    new_law: List[str] = []
     for i, line in enumerate(law):
         '''
         the line length check is a heuristic to filter out false positives from the
         lowercase check due to list indexes e.g 'e.'
+
+        The logic below is imprecise; it's just all heuristics & hands off to the user
+        to make a decision
         '''
-        is_curr_line_split_plaintext = len(law[i]) > 10 and line[0].islower()
-        is_prev_line_split_plaintext = len(law[i-1]) > 10 if i > 0 else False
-        if is_curr_line_split_plaintext and is_prev_line_split_plaintext:
-            new_law[-1] += (' '+line)
+        really_long = len(law[i]) > 75
+        long_enough = len(law[i]) > 10
+        starts_with_lowercase = law[i][0].islower()
+        starts_with_number = law[i][0].isnumeric()
+
+        is_curr_line_maybe_split_plaintext = \
+            really_long or \
+            (long_enough and (starts_with_lowercase or starts_with_number))
+
+        is_prev_line_maybe_split_plaintext = i > 0 and len(law[i-1]) > 10
+
+        if is_curr_line_maybe_split_plaintext and is_prev_line_maybe_split_plaintext:
+            print(
+                '''
+---------------------------------
+{prev_line}
+- - - - - - - - - - - - - - - - -
+{line}
+---------------------------------                
+                '''.format(
+                    prev_line=law[i-1],
+                    line=law[i]
+                )
+            )
+
+            yes = colored('y', 'green')
+            no = colored('n', 'red')
+            user_input = input(
+                "Combine lines into one? {y} / {n} ? ".format(y=yes, n=no))
+            clear()
+
+            if user_input == 'y':
+                new_law[-1] += (' '+line)
+            else:
+                new_law.append(line)
         else:
             new_law.append(line)
 
@@ -639,3 +682,11 @@ def get_id(node: ComplexNode) -> str:
 def print_law(law: List[str]) -> None:
     for i, l in enumerate(law):
         print(f'[{i}] {l}\n')
+
+
+def clear():
+    # i.e Windows
+    if name == 'nt':
+        _ = system('cls')
+    else:
+        _ = system('clear')
