@@ -1756,8 +1756,8 @@ if __name__ == "__main__":
     with open(filename + '.json', 'w') as outfile:
         json.dump(
             {
+                'metadata': extract_metadata_from_tree(ROOT),
                 'content': convert_tree_to_json(ROOT),
-                'metadata': extract_metadata_from_tree(ROOT)
             },
             outfile,
             indent=2
