@@ -48,6 +48,12 @@ export default function Home() {
         <li>
           <span className="link"><Link href="/uu/1982/1">Undang-Undang 1 Tahun 1982 Tentang Pengesahan Konvensi Wina Mengenai Hubungan Diplomatik Beserta Protokol Opsionalnya Mengenai Hal Memperoleh Kewarganegaraan (vienna Convention On Diplomatic Relations And Optional Protocol To The Vienna Convertion On Diplomatic Relations Concerning Acquisition Of Nationality, 1961) Dan Pengesahan Konvensi Wina Mengenai Hubungan Konsuler Beserta Protocol Opsionalnya Mengenai Hal Memperoleh Kewarganegaraan (vienna Convention On Consular Relations And Optional Protocol To The Vienna Convention On Consular Relations Concerning Acquisition Of Nationality, 1963)</Link></span>
         </li>
+        <li>
+          <span className="link"><Link href="/uu/2017/18">Undang-Undang 18 Tahun 2017 Tentang Perlindungan Pekerja Migran Indonesia</Link></span>
+        </li>
+        <li>
+          <span className="link"><Link href="/uu/2007/40">Undang-Undang 40 Tahun 2007 Tentang Perseroan Terbatas</Link></span>
+        </li>
       </ul>
     </div>
   );

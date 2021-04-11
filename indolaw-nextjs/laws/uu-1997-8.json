@@ -1,4 +1,12 @@
 {
+  "metadata": {
+    "lembaranNegaraNumber": 18,
+    "lembaranNegaraYear": 1997,
+    "tambahanLembaranNumber": 3674,
+    "number": 8,
+    "topic": "Dokumen Perusahaan",
+    "year": 1997
+  },
   "content": {
     "type": "UNDANG_UNDANG",
     "id": "",
@@ -1700,20 +1708,66 @@
                     "text": "Yang dimaksud dengan:"
                   },
                   {
-                    "type": "PLAINTEXT",
-                    "text": "- \"neraca tahunan\" adalah salah satu bentuk catatan yang menggambarkan posisi kekayaan, utang, dan  modal pada akhir tahun buku yang merupakan pertanggungjawaban keuangan."
-                  },
-                  {
-                    "type": "PLAINTEXT",
-                    "text": "- \"rekening\" adalah salah satu bentuk catatan yang dibuat perusahaan untuk menampung transaksi yang  sejenis yang digunakan sebagai dasar penyusunan laporan keuangan, dan dapat juga disebut buku besar  atau perkiraan."
-                  },
-                  {
-                    "type": "PLAINTEXT",
-                    "text": "- \"jurnal transaksi harian\" adalah salah satu bentuk catatan yang menggambarkan adanya transaksi yang  dapat berupa buku harian atau catatan harian atau tulisan lainnya."
-                  },
-                  {
-                    "type": "PLAINTEXT",
-                    "text": "- \"tulisan yang berisi keterangan mengenai hak dan kewajiban serta hal-hal lain yang berkaitan dengan  kegiatan usaha suatu perusahaan\" adalah tulisan yang menggambarkan neraca tahunan, perhitungan  laba rugi tahunan, rekening, dan jurnal transaksi harian."
+                    "type": "UNORDERED_LIST",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "UNORDERED_LIST_ITEM",
+                        "id": "",
+                        "children": [
+                          {
+                            "type": "UNORDERED_LIST_INDEX",
+                            "text": "-"
+                          },
+                          {
+                            "type": "PLAINTEXT",
+                            "text": "\"neraca tahunan\" adalah salah satu bentuk catatan yang menggambarkan posisi kekayaan, utang, dan modal pada akhir tahun buku yang merupakan pertanggungjawaban keuangan."
+                          }
+                        ]
+                      },
+                      {
+                        "type": "UNORDERED_LIST_ITEM",
+                        "id": "",
+                        "children": [
+                          {
+                            "type": "UNORDERED_LIST_INDEX",
+                            "text": "-"
+                          },
+                          {
+                            "type": "PLAINTEXT",
+                            "text": "\"rekening\" adalah salah satu bentuk catatan yang dibuat perusahaan untuk menampung transaksi yang sejenis yang digunakan sebagai dasar penyusunan laporan keuangan, dan dapat juga disebut buku besar atau perkiraan."
+                          }
+                        ]
+                      },
+                      {
+                        "type": "UNORDERED_LIST_ITEM",
+                        "id": "",
+                        "children": [
+                          {
+                            "type": "UNORDERED_LIST_INDEX",
+                            "text": "-"
+                          },
+                          {
+                            "type": "PLAINTEXT",
+                            "text": "\"jurnal transaksi harian\" adalah salah satu bentuk catatan yang menggambarkan adanya transaksi yang dapat berupa buku harian atau catatan harian atau tulisan lainnya."
+                          }
+                        ]
+                      },
+                      {
+                        "type": "UNORDERED_LIST_ITEM",
+                        "id": "",
+                        "children": [
+                          {
+                            "type": "UNORDERED_LIST_INDEX",
+                            "text": "-"
+                          },
+                          {
+                            "type": "PLAINTEXT",
+                            "text": "\"tulisan yang berisi keterangan mengenai hak dan kewajiban serta hal-hal lain yang berkaitan dengan kegiatan usaha suatu perusahaan\" adalah tulisan yang menggambarkan neraca tahunan, perhitungan laba rugi tahunan, rekening, dan jurnal transaksi harian."
+                          }
+                        ]
+                      }
+                    ]
                   }
                 ]
               },
@@ -1730,12 +1784,38 @@
                     "text": "Yang dimaksud dengan:"
                   },
                   {
-                    "type": "PLAINTEXT",
-                    "text": "- \"warkat\" adalah dokumen tertulis yang bentuk dan penggunaannya ditetapkan menurut aturan tertentu  dan merupakan bukti transaksi, misalnya cek, bilyet giro, surat perintah membayar, wesel, nota debet,  dan nota kredit."
-                  },
-                  {
-                    "type": "PLAINTEXT",
-                    "text": "- \"perubahan kekayaan, utang, dan modal\" adalah bertambah dan atau berkurangnya jumlah dan susunan  kekayaan, utang, dan modal."
+                    "type": "UNORDERED_LIST",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "UNORDERED_LIST_ITEM",
+                        "id": "",
+                        "children": [
+                          {
+                            "type": "UNORDERED_LIST_INDEX",
+                            "text": "-"
+                          },
+                          {
+                            "type": "PLAINTEXT",
+                            "text": "\"warkat\" adalah dokumen tertulis yang bentuk dan penggunaannya ditetapkan menurut aturan tertentu dan merupakan bukti transaksi, misalnya cek, bilyet giro, surat perintah membayar, wesel, nota debet, dan nota kredit."
+                          }
+                        ]
+                      },
+                      {
+                        "type": "UNORDERED_LIST_ITEM",
+                        "id": "",
+                        "children": [
+                          {
+                            "type": "UNORDERED_LIST_INDEX",
+                            "text": "-"
+                          },
+                          {
+                            "type": "PLAINTEXT",
+                            "text": "\"perubahan kekayaan, utang, dan modal\" adalah bertambah dan atau berkurangnya jumlah dan susunan kekayaan, utang, dan modal."
+                          }
+                        ]
+                      }
+                    ]
                   }
                 ]
               },
@@ -1904,16 +1984,52 @@
                             "text": "Ayat (1)"
                           },
                           {
-                            "type": "PLAINTEXT",
-                            "text": "- Penggunaan kata \"wajib\" dalam ayat ini dimaksudkan untuk memberikan penekanan bahwa apabila  neraca tahunan atau perhitungan laba rugi tahunan belum ditandatangani oleh pimpinan  perusahaan atau pejabat yang ditunjuk, secara hukum perusahaan dianggap belum membuat  neraca tahunan atau perhitungan laba rugi tahunan."
-                          },
-                          {
-                            "type": "PLAINTEXT",
-                            "text": "- Yang dimaksud dengan \"pimpinan perusahaan\" adalah seseorang yang berdasarkan Anggaran  Dasar memimpin perusahaan yang bersangkutan dan mewakili perusahaan baik di dalam maupun  di luar pengadilan."
-                          },
-                          {
-                            "type": "PLAINTEXT",
-                            "text": "- Yang dimaksud dengan \"pejabat yang ditunjuk\" adalah seseorang yang diberi kewenangan oleh  pimpinan perusahaan untuk mengelola dokumen perusahaan."
+                            "type": "UNORDERED_LIST",
+                            "id": "",
+                            "children": [
+                              {
+                                "type": "UNORDERED_LIST_ITEM",
+                                "id": "",
+                                "children": [
+                                  {
+                                    "type": "UNORDERED_LIST_INDEX",
+                                    "text": "-"
+                                  },
+                                  {
+                                    "type": "PLAINTEXT",
+                                    "text": "Penggunaan kata \"wajib\" dalam ayat ini dimaksudkan untuk memberikan penekanan bahwa apabila neraca tahunan atau perhitungan laba rugi tahunan belum ditandatangani oleh pimpinan perusahaan atau pejabat yang ditunjuk, secara hukum perusahaan dianggap belum membuat neraca tahunan atau perhitungan laba rugi tahunan."
+                                  }
+                                ]
+                              },
+                              {
+                                "type": "UNORDERED_LIST_ITEM",
+                                "id": "",
+                                "children": [
+                                  {
+                                    "type": "UNORDERED_LIST_INDEX",
+                                    "text": "-"
+                                  },
+                                  {
+                                    "type": "PLAINTEXT",
+                                    "text": "Yang dimaksud dengan \"pimpinan perusahaan\" adalah seseorang yang berdasarkan Anggaran Dasar memimpin perusahaan yang bersangkutan dan mewakili perusahaan baik di dalam maupun di luar pengadilan."
+                                  }
+                                ]
+                              },
+                              {
+                                "type": "UNORDERED_LIST_ITEM",
+                                "id": "",
+                                "children": [
+                                  {
+                                    "type": "UNORDERED_LIST_INDEX",
+                                    "text": "-"
+                                  },
+                                  {
+                                    "type": "PLAINTEXT",
+                                    "text": "Yang dimaksud dengan \"pejabat yang ditunjuk\" adalah seseorang yang diberi kewenangan oleh pimpinan perusahaan untuk mengelola dokumen perusahaan."
+                                  }
+                                ]
+                              }
+                            ]
                           }
                         ]
                       },
@@ -2094,12 +2210,38 @@
                             "text": "Yang dimaksud dengan:"
                           },
                           {
-                            "type": "PLAINTEXT",
-                            "text": "- \"mikrofilm\" adalah film yang memuat rekaman bahan tertulis, tercetak, dan tergambar dalam ukuran  yang sangat kecil."
-                          },
-                          {
-                            "type": "PLAINTEXT",
-                            "text": "- \"media lainnya\" adalah alat penyimpan informasi yang bukan kertas dan mempunyai tingkat  pengamanan yang dapat menjamin keaslian dokumen yang dialihkan atau ditransformasikan,  misalnya Compact Disk-Read Only Memory (CD-ROM), dan Write-Once-Read-Many (WORM)."
+                            "type": "UNORDERED_LIST",
+                            "id": "",
+                            "children": [
+                              {
+                                "type": "UNORDERED_LIST_ITEM",
+                                "id": "",
+                                "children": [
+                                  {
+                                    "type": "UNORDERED_LIST_INDEX",
+                                    "text": "-"
+                                  },
+                                  {
+                                    "type": "PLAINTEXT",
+                                    "text": "\"mikrofilm\" adalah film yang memuat rekaman bahan tertulis, tercetak, dan tergambar dalam ukuran yang sangat kecil."
+                                  }
+                                ]
+                              },
+                              {
+                                "type": "UNORDERED_LIST_ITEM",
+                                "id": "",
+                                "children": [
+                                  {
+                                    "type": "UNORDERED_LIST_INDEX",
+                                    "text": "-"
+                                  },
+                                  {
+                                    "type": "PLAINTEXT",
+                                    "text": "\"media lainnya\" adalah alat penyimpan informasi yang bukan kertas dan mempunyai tingkat pengamanan yang dapat menjamin keaslian dokumen yang dialihkan atau ditransformasikan, misalnya Compact Disk-Read Only Memory (CD-ROM), dan Write-Once-Read-Many (WORM)."
+                                  }
+                                ]
+                              }
+                            ]
                           }
                         ]
                       },
@@ -2330,12 +2472,38 @@
                             "text": "tanda tangan dan nama jelas pejabat yang memindahkan dan pejabat yang menerima pemindahan. Yang dimaksud dengan:"
                           },
                           {
-                            "type": "PLAINTEXT",
-                            "text": "- \"unit pengolahan\" adalah satuan kerja yang mempunyai tugas dan tanggung jawab mengolah semua  dokumen yang berkaitan dengan kegiatan operasional perusahaan."
-                          },
-                          {
-                            "type": "PLAINTEXT",
-                            "text": "- \"unit kearsipan\" adalah satuan kerja yang mempunyai tugas dan tanggung jawab mengelola dokumen  perusahaan yang sudah diselesaikan oleh unit pengolahan untuk disimpan dan dipelihara."
+                            "type": "UNORDERED_LIST",
+                            "id": "",
+                            "children": [
+                              {
+                                "type": "UNORDERED_LIST_ITEM",
+                                "id": "",
+                                "children": [
+                                  {
+                                    "type": "UNORDERED_LIST_INDEX",
+                                    "text": "-"
+                                  },
+                                  {
+                                    "type": "PLAINTEXT",
+                                    "text": "\"unit pengolahan\" adalah satuan kerja yang mempunyai tugas dan tanggung jawab mengolah semua dokumen yang berkaitan dengan kegiatan operasional perusahaan."
+                                  }
+                                ]
+                              },
+                              {
+                                "type": "UNORDERED_LIST_ITEM",
+                                "id": "",
+                                "children": [
+                                  {
+                                    "type": "UNORDERED_LIST_INDEX",
+                                    "text": "-"
+                                  },
+                                  {
+                                    "type": "PLAINTEXT",
+                                    "text": "\"unit kearsipan\" adalah satuan kerja yang mempunyai tugas dan tanggung jawab mengelola dokumen perusahaan yang sudah diselesaikan oleh unit pengolahan untuk disimpan dan dipelihara."
+                                  }
+                                ]
+                              }
+                            ]
                           }
                         ]
                       }
@@ -2744,13 +2912,5 @@
         ]
       }
     ]
-  },
-  "metadata": {
-    "lembaranNegaraNumber": 18,
-    "lembaranNegaraYear": 1997,
-    "tambahanLembaranNumber": 3674,
-    "number": 8,
-    "topic": "Dokumen Perusahaan",
-    "year": 1997
   }
 }
