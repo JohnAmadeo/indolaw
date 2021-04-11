@@ -1,0 +1,2756 @@
+{
+  "content": {
+    "type": "UNDANG_UNDANG",
+    "id": "",
+    "children": [
+      {
+        "type": "OPENING",
+        "id": "",
+        "children": [
+          {
+            "type": "UU_TITLE",
+            "id": "",
+            "children": [
+              {
+                "type": "PLAINTEXT",
+                "text": "UNDANG-UNDANG REPUBLIK INDONESIA"
+              },
+              {
+                "type": "UU_TITLE_YEAR_AND_NUMBER",
+                "text": "NOMOR 8 TAHUN 1997"
+              },
+              {
+                "type": "PLAINTEXT",
+                "text": "TENTANG"
+              },
+              {
+                "type": "UU_TITLE_TOPIC",
+                "text": "DOKUMEN PERUSAHAAN"
+              }
+            ]
+          },
+          {
+            "type": "PREFACE",
+            "id": "",
+            "children": [
+              {
+                "type": "PLAINTEXT",
+                "text": "DENGAN RAHMAT TUHAN YANG MAHA ESA"
+              },
+              {
+                "type": "PLAINTEXT",
+                "text": "PRESIDEN REPUBLIK INDONESIA,"
+              }
+            ]
+          },
+          {
+            "type": "CONSIDERATIONS",
+            "id": "",
+            "children": [
+              {
+                "type": "PLAINTEXT",
+                "text": "Menimbang:"
+              },
+              {
+                "type": "LIST",
+                "id": "",
+                "children": [
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "LETTER_WITH_DOT",
+                        "text": "a."
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "bahwa upaya untuk mewujudkan kesejahteraan umum dan kemakmuran rakyat yang bersendikan keadilan sosial bagi seluruh rakyat Indonesia, merupakan bagian integral cita-cita kemerdekaan dalam wadah Negara Kesatuan Republik Indonesia yang berdasarkan Pancasila dan Undang-Undang Dasar 1945;"
+                      }
+                    ]
+                  },
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "LETTER_WITH_DOT",
+                        "text": "b."
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "bahwa usaha untuk menjamin penyelenggaraan perusahaan secara efektif dan efisien merupakan salah satu dasar kebijaksanaan Pembangunan Nasional di bidang ekonomi, yang sangat berpengaruh terhadap kemampuan dunia usaha untuk mempergunakan peluang dan berkiprah secara sehat dalam dunia internasional yang penuh persaingan sehingga dapat memberikan manfaat yang sebesar-besarnya bagi kesejahteraan rakyat;"
+                      }
+                    ]
+                  },
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "LETTER_WITH_DOT",
+                        "text": "c."
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "bahwa salah satu faktor yang mengurangi efektivitas dan efisiensi perusahaan adalah ketentuan yang mewajibkan penyimpanan buku, catatan, dan neraca selama 30 (tiga puluh) tahun dan penyimpanan surat, surat kawat beserta tembusannya selama 10 (sepuluh) tahun sebagaimana diatur antara lain dalam Pasal 6 Kitab Undang-undang Hukum Dagang (Wetboek van Koophandel voor Indonesi\u00eb, Staatsblad 1847 : 23), sudah tidak sesuai lagi dengan perkembangan dan kebutuhan hukum masyarakat khususnya di bidang ekonomi dan perdagangan;"
+                      }
+                    ]
+                  },
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "LETTER_WITH_DOT",
+                        "text": "d."
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "bahwa ketentuan yang mewajibkan penyimpanan dokumen sebagaimana tersebut dalam huruf c dan ketentuan-ketentuan dalam peraturan perundang-undangan yang berkaitan dengan tata cara penyimpanan, pemindahan, pemusnahan, dan penyerahan arsip yang selama ini berlaku, menimbulkan beban ekonomis dan administratif yang memberatkan perusahaan;"
+                      }
+                    ]
+                  },
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "LETTER_WITH_DOT",
+                        "text": "e."
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "bahwa pembuatan dan penyimpanan dokumen, tetap diperlukan untuk menjamin kepastian hukum dan melindungi kepentingan para pihak dalam suatu hubungan hukum, karena itu kewajiban membuat dan menyimpan dokumen harus tetap dijalankan dengan mengupayakan tidak menimbulkan beban ekonomis dan administratif yang memberatkan, untuk itu perlu diadakan pembaharuan mengenai media yang memuat dokumen dan pengurangan jangka waktu penyimpanannya;"
+                      }
+                    ]
+                  },
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "LETTER_WITH_DOT",
+                        "text": "f."
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "bahwa kemajuan teknologi telah memungkinkan catatan dan dokumen yang dibuat di atas kertas dialihkan ke dalam media elektronik atau dibuat secara langsung dalam media elektronik;"
+                      }
+                    ]
+                  },
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "LETTER_WITH_DOT",
+                        "text": "g."
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "bahwa berdasarkan pertimbangan sebagaimana dimaksud dalam huruf a, b, c, d, e, dan f dipandang perlu membentuk Undang-undang tentang Dokumen Perusahaan."
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "PRINCIPLES",
+            "id": "",
+            "children": [
+              {
+                "type": "PLAINTEXT",
+                "text": "Mengingat:"
+              },
+              {
+                "type": "PLAINTEXT",
+                "text": "Pasal 5 ayat (1) dan Pasal 20 ayat (1) Undang-Undang Dasar 1945."
+              }
+            ]
+          },
+          {
+            "type": "AGREEMENT",
+            "id": "",
+            "children": [
+              {
+                "type": "PLAINTEXT",
+                "text": "Dengan Persetujuan:"
+              },
+              {
+                "type": "PLAINTEXT",
+                "text": "DEWAN PERWAKILAN RAKYAT REPUBLIK INDONESIA,"
+              },
+              {
+                "type": "PLAINTEXT",
+                "text": "MEMUTUSKAN:"
+              },
+              {
+                "type": "PLAINTEXT",
+                "text": "Menetapkan:"
+              },
+              {
+                "type": "PLAINTEXT",
+                "text": "UNDANG-UNDANG TENTANG DOKUMEN PERUSAHAAN"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "BAB",
+        "id": "bab-1",
+        "children": [
+          {
+            "type": "BAB_NUMBER",
+            "text": "BAB I"
+          },
+          {
+            "type": "BAB_TITLE",
+            "text": "KETENTUAN UMUM"
+          },
+          {
+            "type": "PASAL",
+            "id": "pasal-1",
+            "children": [
+              {
+                "type": "PASAL_NUMBER",
+                "text": "Pasal 1"
+              },
+              {
+                "type": "PLAINTEXT",
+                "text": "Dalam Undang-undang ini yang dimaksud dengan:"
+              },
+              {
+                "type": "LIST",
+                "id": "",
+                "children": [
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "NUMBER_WITH_DOT",
+                        "text": "1."
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "Perusahaan adalah setiap bentuk usaha yang melakukan kegiatan secara tetap dan terus menerus dengan tujuan memperoleh keuntungan dan atau laba, baik yang diselenggarakan oleh orang-perorangan maupun badan usaha yang berbentuk badan hukum atau bukan badan hukum, yang didirikan dan berkedudukan dalam wilayah Negara Republik Indonesia."
+                      }
+                    ]
+                  },
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "NUMBER_WITH_DOT",
+                        "text": "2."
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "Dokumen perusahaan adalah data, catatan, dan atau keterangan yang dibuat dan atau diterima oleh perusahaan dalam rangka pelaksanaan kegiatannya, baik tertulis di atas kertas atau sarana lain maupun terekam dalam bentuk corak apapun yang dapat dilihat, dibaca, atau didengar."
+                      }
+                    ]
+                  },
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "NUMBER_WITH_DOT",
+                        "text": "3."
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "Jadwal retensi adalah jangka waktu penyimpanan dokumen perusahaan yang disusun dalam suatu daftar sesuai dengan jenis dan nilai kegunaannya dan dipakai sebagai pedoman pemusnahan dokumen perusahaan."
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "PASAL",
+            "id": "pasal-2",
+            "children": [
+              {
+                "type": "PASAL_NUMBER",
+                "text": "Pasal 2"
+              },
+              {
+                "type": "PLAINTEXT",
+                "text": "Dokumen perusahaan terdiri dari dokumen keuangan dan dokumen lainnya."
+              }
+            ]
+          },
+          {
+            "type": "PASAL",
+            "id": "pasal-3",
+            "children": [
+              {
+                "type": "PASAL_NUMBER",
+                "text": "Pasal 3"
+              },
+              {
+                "type": "PLAINTEXT",
+                "text": "Dokumen keuangan terdiri dari catatan, bukti pembukuan, dan data pendukung administrasi keuangan, yang  merupakan bukti adanya hak dan kewajiban serta kegiatan usaha suatu perusahaan."
+              }
+            ]
+          },
+          {
+            "type": "PASAL",
+            "id": "pasal-4",
+            "children": [
+              {
+                "type": "PASAL_NUMBER",
+                "text": "Pasal 4"
+              },
+              {
+                "type": "PLAINTEXT",
+                "text": "Dokumen lainnya terdiri dari data atau setiap tulisan yang berisi keterangan yang mempunyai nilai guna bagi  perusahaan meskipun tidak terkait langsung dengan dokumen keuangan."
+              }
+            ]
+          },
+          {
+            "type": "PASAL",
+            "id": "pasal-5",
+            "children": [
+              {
+                "type": "PASAL_NUMBER",
+                "text": "Pasal 5"
+              },
+              {
+                "type": "PLAINTEXT",
+                "text": "Catatan terdiri dari neraca tahunan, perhitungan laba rugi tahunan, rekening, jurnal transaksi harian, atau setiap  tulisan yang berisi keterangan mengenai hak dan kewajiban serta hal-hal lain yang berkaitan dengan kegiatan  usaha suatu perusahaan."
+              }
+            ]
+          },
+          {
+            "type": "PASAL",
+            "id": "pasal-6",
+            "children": [
+              {
+                "type": "PASAL_NUMBER",
+                "text": "Pasal 6"
+              },
+              {
+                "type": "PLAINTEXT",
+                "text": "Bukti pembukuan terdiri dari warkat-warkat yang digunakan sebagai dasar pembukuan yang mempengaruhi  perubahan kekayaan, utang, dan modal."
+              }
+            ]
+          },
+          {
+            "type": "PASAL",
+            "id": "pasal-7",
+            "children": [
+              {
+                "type": "PASAL_NUMBER",
+                "text": "Pasal 7"
+              },
+              {
+                "type": "LIST",
+                "id": "",
+                "children": [
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "NUMBER_WITH_BRACKETS",
+                        "text": "(1)"
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "Data pendukung administrasi keuangan merupakan data administratif yang berkaitan dengan keuangan untuk digunakan sebagai pendukung penyusunan dan pembuatan dokumen keuangan."
+                      }
+                    ]
+                  },
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "NUMBER_WITH_BRACKETS",
+                        "text": "(2)"
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "Data pendukung administrasi keuangan sebagaimana dimaksud dalam ayat (1) terdiri dari:"
+                      },
+                      {
+                        "type": "LIST",
+                        "id": "",
+                        "children": [
+                          {
+                            "type": "LIST_ITEM",
+                            "id": "",
+                            "children": [
+                              {
+                                "type": "LETTER_WITH_DOT",
+                                "text": "a."
+                              },
+                              {
+                                "type": "PLAINTEXT",
+                                "text": "data pendukung yang merupakan bagian dari bukti pembukuan; dan"
+                              }
+                            ]
+                          },
+                          {
+                            "type": "LIST_ITEM",
+                            "id": "",
+                            "children": [
+                              {
+                                "type": "LETTER_WITH_DOT",
+                                "text": "b."
+                              },
+                              {
+                                "type": "PLAINTEXT",
+                                "text": "data pendukung yang tidak merupakan bagian dari bukti pembukuan."
+                              }
+                            ]
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "BAB",
+        "id": "bab-2",
+        "children": [
+          {
+            "type": "BAB_NUMBER",
+            "text": "BAB II"
+          },
+          {
+            "type": "BAB_TITLE",
+            "text": "PEMBUATAN CATATAN DAN PENYIMPANAN DOKUMEN PERUSAHAAN"
+          },
+          {
+            "type": "PASAL",
+            "id": "pasal-8",
+            "children": [
+              {
+                "type": "PASAL_NUMBER",
+                "text": "Pasal 8"
+              },
+              {
+                "type": "LIST",
+                "id": "",
+                "children": [
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "NUMBER_WITH_BRACKETS",
+                        "text": "(1)"
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "Setiap perusahaan wajib membuat catatan sebagaimana dimaksud dalam Pasal 5 sesuai dengan kebutuhan perusahaan."
+                      }
+                    ]
+                  },
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "NUMBER_WITH_BRACKETS",
+                        "text": "(2)"
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "Catatan sebagaimana dimaksud dalam ayat (1) wajib dibuat dengan menggunakan huruf Latin, angka Arab, satuan mata uang Rupiah, dan disusun dalam bahasa Indonesia."
+                      }
+                    ]
+                  },
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "NUMBER_WITH_BRACKETS",
+                        "text": "(3)"
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "Dalam hal ada izin dari Menteri Keuangan, catatan sebagaimana dimaksud dalam ayat (2) dapat disusun dalam bahasa asing."
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "PASAL",
+            "id": "pasal-9",
+            "children": [
+              {
+                "type": "PASAL_NUMBER",
+                "text": "Pasal 9"
+              },
+              {
+                "type": "LIST",
+                "id": "",
+                "children": [
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "NUMBER_WITH_BRACKETS",
+                        "text": "(1)"
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "Catatan yang berbentuk neraca tahunan, perhitungan laba rugi tahunan, atau tulisan lain yang menggambarkan neraca dan laba rugi, wajib ditandatangani oleh pimpinan perusahaan atau pejabat yang ditunjuk di lingkungan perusahaan yang bersangkutan."
+                      }
+                    ]
+                  },
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "NUMBER_WITH_BRACKETS",
+                        "text": "(2)"
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "Dalam hal peraturan perundang-undangan yang berkaitan langsung dengan kegiatan perusahaan di bidang tertentu tidak menentukan lain, maka catatan sebagaimana dimaksud dalam ayat (1) wajib dibuat paling lambat 6 (enam) bulan terhitung sejak akhir tahun buku perusahaan yang bersangkutan."
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "PASAL",
+            "id": "pasal-10",
+            "children": [
+              {
+                "type": "PASAL_NUMBER",
+                "text": "Pasal 10"
+              },
+              {
+                "type": "LIST",
+                "id": "",
+                "children": [
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "NUMBER_WITH_BRACKETS",
+                        "text": "(1)"
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "Catatan sebagaimana dimaksud dalam Pasal 9, wajib dibuat di atas kertas."
+                      }
+                    ]
+                  },
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "NUMBER_WITH_BRACKETS",
+                        "text": "(2)"
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "Catatan yang berbentuk rekening, jurnal transaksi harian, atau setiap tulisan yang berisi keterangan mengenai hak dan kewajiban serta hal-hal lain yang berkaitan dengan kegiatan usaha suatu perusahaan sebagaimana dimaksud dalam Pasal 5, dibuat di atas kertas atau dalam sarana lainnya."
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "PASAL",
+            "id": "pasal-11",
+            "children": [
+              {
+                "type": "PASAL_NUMBER",
+                "text": "Pasal 11"
+              },
+              {
+                "type": "LIST",
+                "id": "",
+                "children": [
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "NUMBER_WITH_BRACKETS",
+                        "text": "(1)"
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "Catatan sebagaimana dimaksud dalam Pasal 5, bukti pembukuan sebagaimana dimaksud dalam Pasal 6, dan data pendukung administrasi keuangan sebagaimana dimaksud dalam Pasal 7 ayat (2) huruf a, wajib disimpan selama 10 (sepuluh) tahun terhitung sejak akhir tahun buku perusahaan yang bersangkutan."
+                      }
+                    ]
+                  },
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "NUMBER_WITH_BRACKETS",
+                        "text": "(2)"
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "Data pendukung administrasi keuangan sebagaimana dimaksud dalam Pasal 7 ayat (2) huruf b, jangka waktu penyimpanannya disesuaikan dengan kebutuhan perusahaan yang bersangkutan."
+                      }
+                    ]
+                  },
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "NUMBER_WITH_BRACKETS",
+                        "text": "(3)"
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "Dokumen lainnya sebagaimana dimaksud dalam Pasal 4, jangka waktu penyimpanannya ditetapkan berdasarkan nilai guna dokumen tersebut."
+                      }
+                    ]
+                  },
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "NUMBER_WITH_BRACKETS",
+                        "text": "(4)"
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "Jangka waktu sebagaimana dimaksud dalam ayat (2) dan ayat (3), disusun oleh perusahaan yang bersangkutan dalam suatu jadwal retensi yang ditetapkan dengan keputusan pimpinan perusahaan."
+                      }
+                    ]
+                  },
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "NUMBER_WITH_BRACKETS",
+                        "text": "(5)"
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "Kewajiban penyimpanan sebagaimana dimaksud dalam ayat (1), ayat (2), dan ayat (3) tidak menghilangkan fungsi dokumen yang bersangkutan sebagai alat bukti sesuai dengan kebutuhan sebagaimana ditentukan dalam ketentuan mengenai daluwarsa suatu tuntutan yang diatur dalam peraturan perundang-undangan yang berlaku, atau untuk kepentingan hukum lainnya."
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "BAB",
+        "id": "bab-3",
+        "children": [
+          {
+            "type": "BAB_NUMBER",
+            "text": "BAB III"
+          },
+          {
+            "type": "BAB_TITLE",
+            "text": "PENGALIHAN BENTUK DOKUMEN PERUSAHAAN DAN LEGALISASI"
+          },
+          {
+            "type": "PASAL",
+            "id": "pasal-12",
+            "children": [
+              {
+                "type": "PASAL_NUMBER",
+                "text": "Pasal 12"
+              },
+              {
+                "type": "LIST",
+                "id": "",
+                "children": [
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "NUMBER_WITH_BRACKETS",
+                        "text": "(1)"
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "Dokumen perusahaan dapat dialihkan ke dalam mikrofilm atau media lainnya."
+                      }
+                    ]
+                  },
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "NUMBER_WITH_BRACKETS",
+                        "text": "(2)"
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "Pengalihan dokumen perusahaan ke dalam mikrofilm atau media lainnya sebagaimana dimaksud dalam ayat (1) dapat dilakukan sejak dokumen tersebut dibuat atau diterima oleh perusahaan yang bersangkutan."
+                      }
+                    ]
+                  },
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "NUMBER_WITH_BRACKETS",
+                        "text": "(3)"
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "Dalam mengalihkan dokumen perusahaan sebagaimana dimaksud dalam ayat (1), pimpinan perusahaan wajib mempertimbangkan kegunaan naskah asli dokumen yang perlu tetap disimpan karena mengandung nilai tertentu demi kepentingan perusahaan atau kepentingan nasional."
+                      }
+                    ]
+                  },
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "NUMBER_WITH_BRACKETS",
+                        "text": "(4)"
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "Dalam hal dokumen perusahaan yang dialihkan ke dalam mikrofilm atau media lainnya adalah naskah asli yang mempunyai kekuatan pembuktian otentik dan masih mengandung kepentingan hukum tertentu, pimpinan perusahaan wajib tetap menyimpan naskah asli tersebut."
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "PASAL",
+            "id": "pasal-13",
+            "children": [
+              {
+                "type": "PASAL_NUMBER",
+                "text": "Pasal 13"
+              },
+              {
+                "type": "PLAINTEXT",
+                "text": "Setiap pengalihan dokumen perusahaan sebagaimana dimaksud dalam Pasal 12 ayat (1) wajib dilegalisasi."
+              }
+            ]
+          },
+          {
+            "type": "PASAL",
+            "id": "pasal-14",
+            "children": [
+              {
+                "type": "PASAL_NUMBER",
+                "text": "Pasal 14"
+              },
+              {
+                "type": "LIST",
+                "id": "",
+                "children": [
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "NUMBER_WITH_BRACKETS",
+                        "text": "(1)"
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "Legalisasi sebagaimana dimaksud dalam Pasal 13 dilakukan oleh pimpinan perusahaan atau pejabat yang ditunjuk di lingkungan perusahaan yang bersangkutan, dengan dibuatkan berita acara."
+                      }
+                    ]
+                  },
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "NUMBER_WITH_BRACKETS",
+                        "text": "(2)"
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "Berita acara sebagaimana dimaksud dalam ayat (1) sekurang-kurangnya memuat:"
+                      },
+                      {
+                        "type": "LIST",
+                        "id": "",
+                        "children": [
+                          {
+                            "type": "LIST_ITEM",
+                            "id": "",
+                            "children": [
+                              {
+                                "type": "LETTER_WITH_DOT",
+                                "text": "a."
+                              },
+                              {
+                                "type": "PLAINTEXT",
+                                "text": "keterangan tempat, hari, tanggal, bulan, dan tahun dilakukannya legalisasi;"
+                              }
+                            ]
+                          },
+                          {
+                            "type": "LIST_ITEM",
+                            "id": "",
+                            "children": [
+                              {
+                                "type": "LETTER_WITH_DOT",
+                                "text": "b."
+                              },
+                              {
+                                "type": "PLAINTEXT",
+                                "text": "keterangan bahwa pengalihan dokumen perusahaan yang dibuat di atas kertas ke dalam mikrofilm atau media lainnya telah dilakukan sesuai dengan aslinya; dan"
+                              }
+                            ]
+                          },
+                          {
+                            "type": "LIST_ITEM",
+                            "id": "",
+                            "children": [
+                              {
+                                "type": "LETTER_WITH_DOT",
+                                "text": "c."
+                              },
+                              {
+                                "type": "PLAINTEXT",
+                                "text": "tanda tangan dan nama jelas pejabat yang bersangkutan."
+                              }
+                            ]
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "PASAL",
+            "id": "pasal-15",
+            "children": [
+              {
+                "type": "PASAL_NUMBER",
+                "text": "Pasal 15"
+              },
+              {
+                "type": "LIST",
+                "id": "",
+                "children": [
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "NUMBER_WITH_BRACKETS",
+                        "text": "(1)"
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "Dokumen perusahaan yang telah dimuat dalam mikrofilm atau media lainnya sebagaimana dimaksud dalam Pasal 12 ayat (1) dan atau hasil cetaknya merupakan alat bukti yang sah."
+                      }
+                    ]
+                  },
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "NUMBER_WITH_BRACKETS",
+                        "text": "(2)"
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "Apabila dianggap perlu dalam hal tertentu dan untuk keperluan tertentu dapat dilakukan legalisasi terhadap hasil cetak dokumen perusahaan yang telah dimuat dalam mikrofilm atau media lainnya."
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "PASAL",
+            "id": "pasal-16",
+            "children": [
+              {
+                "type": "PASAL_NUMBER",
+                "text": "Pasal 16"
+              },
+              {
+                "type": "PLAINTEXT",
+                "text": "Ketentuan lebih lanjut mengenai tata cara pengalihan dokumen perusahaan ke dalam mikrofilm atau media  lainnya dan legalisasi diatur dengan Peraturan Pemerintah."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "BAB",
+        "id": "bab-4",
+        "children": [
+          {
+            "type": "BAB_NUMBER",
+            "text": "BAB IV"
+          },
+          {
+            "type": "BAB_TITLE",
+            "text": "PEMINDAHAN, PENYERAHAN, DAN PEMUSNAHAN DOKUMEN PERUSAHAAN"
+          },
+          {
+            "type": "PASAL",
+            "id": "pasal-17",
+            "children": [
+              {
+                "type": "PASAL_NUMBER",
+                "text": "Pasal 17"
+              },
+              {
+                "type": "PLAINTEXT",
+                "text": "Pemindahan dokumen perusahaan dari unit pengolahan ke unit kearsipan di lingkungan perusahaan tersebut  dilakukan berdasarkan keputusan pimpinan perusahaan yang pelaksanaannya disesuaikan dengan kebutuhan  perusahaan yang bersangkutan."
+              }
+            ]
+          },
+          {
+            "type": "PASAL",
+            "id": "pasal-18",
+            "children": [
+              {
+                "type": "PASAL_NUMBER",
+                "text": "Pasal 18"
+              },
+              {
+                "type": "LIST",
+                "id": "",
+                "children": [
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "NUMBER_WITH_BRACKETS",
+                        "text": "(1)"
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "Dokumen perusahaan tertentu yang mempunyai nilai guna bagi kepentingan nasional wajib diserahkan kepada Arsip Nasional Republik Indonesia berdasarkan keputusan pimpinan perusahaan."
+                      }
+                    ]
+                  },
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "NUMBER_WITH_BRACKETS",
+                        "text": "(2)"
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "Penyerahan sebagaimana dimaksud dalam ayat (1) dilaksanakan dengan pembuatan berita acara yang sekurang-kurangnya memuat:"
+                      },
+                      {
+                        "type": "LIST",
+                        "id": "",
+                        "children": [
+                          {
+                            "type": "LIST_ITEM",
+                            "id": "",
+                            "children": [
+                              {
+                                "type": "LETTER_WITH_DOT",
+                                "text": "a."
+                              },
+                              {
+                                "type": "PLAINTEXT",
+                                "text": "keterangan tempat, hari, tanggal, bulan, dan tahun dilakukannya penyerahan;"
+                              }
+                            ]
+                          },
+                          {
+                            "type": "LIST_ITEM",
+                            "id": "",
+                            "children": [
+                              {
+                                "type": "LETTER_WITH_DOT",
+                                "text": "b."
+                              },
+                              {
+                                "type": "PLAINTEXT",
+                                "text": "keterangan tentang pelaksanaan penyerahan; dan"
+                              }
+                            ]
+                          },
+                          {
+                            "type": "LIST_ITEM",
+                            "id": "",
+                            "children": [
+                              {
+                                "type": "LETTER_WITH_DOT",
+                                "text": "c."
+                              },
+                              {
+                                "type": "PLAINTEXT",
+                                "text": "tanda tangan dan nama jelas pejabat yang menyerahkan dan pejabat yang menerima penyerahan."
+                              }
+                            ]
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "NUMBER_WITH_BRACKETS",
+                        "text": "(3)"
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "Pada berita acara penyerahan sebagaimana dimaksud dalam ayat (2) dilampirkan daftar pertelaan dokumen yang akan diserahkan."
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "PASAL",
+            "id": "pasal-19",
+            "children": [
+              {
+                "type": "PASAL_NUMBER",
+                "text": "Pasal 19"
+              },
+              {
+                "type": "LIST",
+                "id": "",
+                "children": [
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "NUMBER_WITH_BRACKETS",
+                        "text": "(1)"
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "Pemusnahan catatan, bukti pembukuan, dan data pendukung administrasi keuangan sebagaimana dimaksud dalam Pasal 11 ayat (1) dilaksanakan berdasarkan keputusan pimpinan perusahaan."
+                      }
+                    ]
+                  },
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "NUMBER_WITH_BRACKETS",
+                        "text": "(2)"
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "Pemusnahan data pendukung administrasi keuangan sebagaimana dimaksud dalam Pasal 11 ayat (2) dan dokumen lainnya sebagaimana dimaksud dalam Pasal 11 ayat (3) dilaksanakan berdasarkan jadwal retensi."
+                      }
+                    ]
+                  },
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "NUMBER_WITH_BRACKETS",
+                        "text": "(3)"
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "Pimpinan perusahaan yang bertanggung jawab atas pemusnahan dokumen perusahaan atau pejabat lain yang ditunjuk, bertanggung jawab atas segala kerugian perusahaan dan atau pihak ketiga dalam hal:"
+                      },
+                      {
+                        "type": "LIST",
+                        "id": "",
+                        "children": [
+                          {
+                            "type": "LIST_ITEM",
+                            "id": "",
+                            "children": [
+                              {
+                                "type": "LETTER_WITH_DOT",
+                                "text": "a."
+                              },
+                              {
+                                "type": "PLAINTEXT",
+                                "text": "pemusnahan dokumen perusahaan dilakukan sebelum habis jangka waktu wajib simpan sebagaimana dimaksud dalam Pasal 11 ayat (1); atau"
+                              }
+                            ]
+                          },
+                          {
+                            "type": "LIST_ITEM",
+                            "id": "",
+                            "children": [
+                              {
+                                "type": "LETTER_WITH_DOT",
+                                "text": "b."
+                              },
+                              {
+                                "type": "PLAINTEXT",
+                                "text": "pemusnahan dokumen perusahaan dilakukan, sedangkan diketahui atau patut diketahui bahwa dokumen perusahaan tersebut masih tetap harus disimpan, karena mempunyai nilai guna baik yang berkaitan dengan kekayaan, hak, dan kewajiban perusahaan maupun kepentingan lainnya."
+                              }
+                            ]
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "PASAL",
+            "id": "pasal-20",
+            "children": [
+              {
+                "type": "PASAL_NUMBER",
+                "text": "Pasal 20"
+              },
+              {
+                "type": "PLAINTEXT",
+                "text": "Pemusnahan dokumen perusahaan yang telah dialihkan ke dalam mikrofilm atau media lainnya, dapat segera  dilakukan kecuali ditentukan lain oleh pimpinan perusahaan, berdasarkan ketentuan Pasal 12 ayat (3) dan ayat  (4)."
+              }
+            ]
+          },
+          {
+            "type": "PASAL",
+            "id": "pasal-21",
+            "children": [
+              {
+                "type": "PASAL_NUMBER",
+                "text": "Pasal 21"
+              },
+              {
+                "type": "LIST",
+                "id": "",
+                "children": [
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "NUMBER_WITH_BRACKETS",
+                        "text": "(1)"
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "Pemusnahan sebagaimana dimaksud dalam Pasal 19 dan Pasal 20, dilaksanakan dengan pembuatan berita acara yang sekurang-kurangnya memuat:"
+                      },
+                      {
+                        "type": "LIST",
+                        "id": "",
+                        "children": [
+                          {
+                            "type": "LIST_ITEM",
+                            "id": "",
+                            "children": [
+                              {
+                                "type": "LETTER_WITH_DOT",
+                                "text": "a."
+                              },
+                              {
+                                "type": "PLAINTEXT",
+                                "text": "keterangan tempat, hari, tanggal, bulan, dan tahun dilakukannya pemusnahan;"
+                              }
+                            ]
+                          },
+                          {
+                            "type": "LIST_ITEM",
+                            "id": "",
+                            "children": [
+                              {
+                                "type": "LETTER_WITH_DOT",
+                                "text": "b."
+                              },
+                              {
+                                "type": "PLAINTEXT",
+                                "text": "keterangan tentang pelaksanaan pemusnahan; dan"
+                              }
+                            ]
+                          },
+                          {
+                            "type": "LIST_ITEM",
+                            "id": "",
+                            "children": [
+                              {
+                                "type": "LETTER_WITH_DOT",
+                                "text": "c."
+                              },
+                              {
+                                "type": "PLAINTEXT",
+                                "text": "tanda tangan dan nama jelas pejabat yang melaksanakan pemusnahan."
+                              }
+                            ]
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "NUMBER_WITH_BRACKETS",
+                        "text": "(2)"
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "Pada berita acara pemusnahan sebagaimana dimaksud dalam ayat (1) dilampirkan daftar pertelaan dokumen yang akan dimusnahkan."
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "PASAL",
+            "id": "pasal-22",
+            "children": [
+              {
+                "type": "PASAL_NUMBER",
+                "text": "Pasal 22"
+              },
+              {
+                "type": "PLAINTEXT",
+                "text": "Ketentuan lebih lanjut mengenai tata cara penyerahan dan pemusnahan dokumen perusahaan diatur dengan  Peraturan Pemerintah."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "BAB",
+        "id": "bab-5",
+        "children": [
+          {
+            "type": "BAB_NUMBER",
+            "text": "BAB V"
+          },
+          {
+            "type": "BAB_TITLE",
+            "text": "KETENTUAN PERALIHAN"
+          },
+          {
+            "type": "PASAL",
+            "id": "pasal-23",
+            "children": [
+              {
+                "type": "PASAL_NUMBER",
+                "text": "Pasal 23"
+              },
+              {
+                "type": "PLAINTEXT",
+                "text": "Buku, surat, catatan, dan neraca yang berdasarkan ketentuan Pasal 6 Kitab Undang-undang Hukum Dagang  (Wetboek van Koophandel voor Indonesi\u00eb, Staatsblad 1847 : 23) wajib disimpan selama 30 (tiga puluh) tahun,  dan pada saat berlakunya Undang-undang ini telah disimpan selama 10 (sepuluh) tahun atau lebih,  pemusnahannya dilakukan berdasarkan ketentuan dalam Undang-undang ini."
+              }
+            ]
+          },
+          {
+            "type": "PASAL",
+            "id": "pasal-24",
+            "children": [
+              {
+                "type": "PASAL_NUMBER",
+                "text": "Pasal 24"
+              },
+              {
+                "type": "PLAINTEXT",
+                "text": "Salinan surat dan telegram yang berdasarkan ketentuan Pasal 6 Kitab Undang-undang Hukum Dagang  (Wetboek van Koophandel voor Indonesi\u00eb, Staatsblad 1847 : 23) wajib disimpan selama 10 (sepuluh) tahun,  dan pada saat berlakunya Undang-undang ini masa simpannya belum mencapai 10 (sepuluh) tahun,  pemusnahannya dilakukan berdasarkan ketentuan dalam Undang-undang ini."
+              }
+            ]
+          },
+          {
+            "type": "PASAL",
+            "id": "pasal-25",
+            "children": [
+              {
+                "type": "PASAL_NUMBER",
+                "text": "Pasal 25"
+              },
+              {
+                "type": "PLAINTEXT",
+                "text": "Dokumen perusahaan yang pemusnahannya telah dimintakan pertimbangan kepada Ketua Badan Pemeriksa  Keuangan, dan dalam waktu 1 (satu) tahun terhitung sejak tanggal mulai berlakunya Undang-undang ini  pertimbangan tersebut belum diberikan, pemusnahannya dilakukan berdasarkan ketentuan dalam Undang undang ini."
+              }
+            ]
+          },
+          {
+            "type": "PASAL",
+            "id": "pasal-26",
+            "children": [
+              {
+                "type": "PASAL_NUMBER",
+                "text": "Pasal 26"
+              },
+              {
+                "type": "PLAINTEXT",
+                "text": "Dokumen perusahaan yang pemusnahannya telah dimintakan persetujuan kepada Kepala Arsip Nasional  Republik Indonesia, dan dalam waktu 1 (satu) tahun terhitung sejak tanggal mulai berlakunya Undang-undang  ini persetujuan tersebut belum diberikan, pemusnahannya dilakukan berdasarkan ketentuan dalam Undang undang ini."
+              }
+            ]
+          },
+          {
+            "type": "PASAL",
+            "id": "pasal-27",
+            "children": [
+              {
+                "type": "PASAL_NUMBER",
+                "text": "Pasal 27"
+              },
+              {
+                "type": "PLAINTEXT",
+                "text": "Dokumen perusahaan yang jadwal retensinya sedang dimintakan persetujuan kepada Kepala Arsip Nasional  Republik Indonesia, dan dalam waktu 1 (satu) tahun terhitung sejak tanggal mulai berlakunya Undang-undang  ini persetujuan tersebut belum diberikan, jadwal retensi dan pemusnahannya ditetapkan berdasarkan ketentuan  dalam Undang- undang ini."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "BAB",
+        "id": "bab-6",
+        "children": [
+          {
+            "type": "BAB_NUMBER",
+            "text": "BAB VI"
+          },
+          {
+            "type": "BAB_TITLE",
+            "text": "KETENTUAN PENUTUP"
+          },
+          {
+            "type": "PASAL",
+            "id": "pasal-28",
+            "children": [
+              {
+                "type": "PASAL_NUMBER",
+                "text": "Pasal 28"
+              },
+              {
+                "type": "PLAINTEXT",
+                "text": "Ketentuan dalam Undang-undang ini berlaku juga terhadap:"
+              },
+              {
+                "type": "LIST",
+                "id": "",
+                "children": [
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "NUMBER_WITH_DOT",
+                        "text": "1."
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "kantor perwakilan, kantor cabang, agen perusahaan Indonesia atau yang disamakan dengan itu, yang mempunyai kegiatan usaha di luar wilayah Negara Republik Indonesia, dengan tetap memperhatikan ketentuan yang berlaku di negara setempat;"
+                      }
+                    ]
+                  },
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "NUMBER_WITH_DOT",
+                        "text": "2."
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "kantor perwakilan, kantor cabang, agen perusahaan asing atau yang disamakan dengan itu, yang mempunyai kegiatan usaha di wilayah Negara Republik Indonesia; dan"
+                      }
+                    ]
+                  },
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "NUMBER_WITH_DOT",
+                        "text": "3."
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "badan atau lembaga yang tidak termasuk dalam pengertian perusahaan sebagaimana dimaksud dalam Pasal 1 angka 1, yang dalam kegiatan dan atau tugasnya memiliki dan menghasilkan dokumen sebagaimana layaknya perusahaan."
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "PASAL",
+            "id": "pasal-29",
+            "children": [
+              {
+                "type": "PASAL_NUMBER",
+                "text": "Pasal 29"
+              },
+              {
+                "type": "PLAINTEXT",
+                "text": "Semua ketentuan peraturan perundang-undangan yang berkaitan dengan pelaksanaan Pasal 6 Kitab Undang undang Hukum Dagang (Wetboek van Koophandel voor Indonesi\u00eb, Staatsblad 1847 : 23) tetap berlaku  sepanjang belum diganti atau tidak bertentangan dengan Undang-undang ini."
+              }
+            ]
+          },
+          {
+            "type": "PASAL",
+            "id": "pasal-30",
+            "children": [
+              {
+                "type": "PASAL_NUMBER",
+                "text": "Pasal 30"
+              },
+              {
+                "type": "PLAINTEXT",
+                "text": "Pada saat Undang-undang ini mulai berlaku:"
+              },
+              {
+                "type": "LIST",
+                "id": "",
+                "children": [
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "NUMBER_WITH_DOT",
+                        "text": "1."
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "Pasal 6 Kitab Undang-undang Hukum Dagang (Wetboek van Koophandel voor Indonesi\u00eb, Staatsblad 1847 : 23); dan"
+                      }
+                    ]
+                  },
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "NUMBER_WITH_DOT",
+                        "text": "2."
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "semua peraturan perundang-undangan yang berkaitan dengan dokumen perusahaan dan ketentuan peraturan perundang-undangan yang berkaitan dengan penyimpanan, pemindahan, penyerahan, dan pemusnahan arsip yang bertentangan dengan Undang-undang ini,"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "PLAINTEXT",
+                "text": "dinyatakan tidak berlaku lagi."
+              }
+            ]
+          },
+          {
+            "type": "PASAL",
+            "id": "pasal-31",
+            "children": [
+              {
+                "type": "PASAL_NUMBER",
+                "text": "Pasal 31"
+              },
+              {
+                "type": "PLAINTEXT",
+                "text": "Undang-undang ini mulai berlaku pada tanggal diundangkan."
+              },
+              {
+                "type": "PLAINTEXT",
+                "text": "Agar setiap orang mengetahuinya, memerintahkan pengundangan Undang-undang ini dengan penempatannya  dalam Lembaran Negara Republik Indonesia."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "CLOSING",
+        "id": "",
+        "children": [
+          {
+            "type": "PLAINTEXT",
+            "text": "Disahkan Di Jakarta,"
+          },
+          {
+            "type": "PLAINTEXT",
+            "text": "Pada Tanggal 24 Maret 1997"
+          },
+          {
+            "type": "PLAINTEXT",
+            "text": "PRESIDEN REPUBLIK INDONESIA,"
+          },
+          {
+            "type": "PLAINTEXT",
+            "text": "Ttd."
+          },
+          {
+            "type": "PLAINTEXT",
+            "text": "SOEHARTO"
+          },
+          {
+            "type": "PLAINTEXT",
+            "text": "Diundangkan Di Jakarta,"
+          },
+          {
+            "type": "PLAINTEXT",
+            "text": "Pada Tanggal 24 Maret 1997"
+          },
+          {
+            "type": "PLAINTEXT",
+            "text": "MENTERI NEGARA/SEKRETARIS NEGARA REPUBLIK INDONESIA,"
+          },
+          {
+            "type": "PLAINTEXT",
+            "text": "Ttd."
+          },
+          {
+            "type": "PLAINTEXT",
+            "text": "MOERDIONO"
+          },
+          {
+            "type": "LEMBARAN_NUMBER",
+            "text": "LEMBARAN NEGARA REPUBLIK INDONESIA TAHUN 1997 NOMOR 18"
+          }
+        ]
+      },
+      {
+        "type": "PENJELASAN",
+        "id": "penjelasan",
+        "children": [
+          {
+            "type": "PENJELASAN_TITLE",
+            "id": "",
+            "children": [
+              {
+                "type": "PLAINTEXT",
+                "text": "PENJELASAN"
+              },
+              {
+                "type": "PLAINTEXT",
+                "text": "UNDANG-UNDANG REPUBLIK INDONESIA"
+              },
+              {
+                "type": "UU_TITLE_YEAR_AND_NUMBER",
+                "text": "NOMOR 8 TAHUN 1997"
+              },
+              {
+                "type": "PLAINTEXT",
+                "text": "TENTANG"
+              },
+              {
+                "type": "UU_TITLE_TOPIC",
+                "text": "DOKUMEN PERUSAHAAN"
+              }
+            ]
+          },
+          {
+            "type": "PENJELASAN_UMUM",
+            "id": "",
+            "children": [
+              {
+                "type": "PENJELASAN_UMUM_TITLE",
+                "text": "UMUM"
+              },
+              {
+                "type": "PLAINTEXT",
+                "text": "Garis-garis Besar Haluan Negara menetapkan bahwa pembangunan hukum sebagai upaya untuk menegakkan  keadilan, kebenaran dan ketertiban dalam negara hukum Indonesia yang berdasarkan Pancasila dan Undang Undang Dasar 1945, diarahkan untuk meningkatkan kesadaran hukum, menjamin penegakan, pelayanan dan  kepastian hukum, serta mewujudkan tata hukum nasional yang mengabdi pada kepentingan nasional.  Pengaruh globalisasi ekonomi dan informasi yang demikian luas karena perkembangan perekonomian dan  perdagangan baik nasional maupun internasional yang bergerak cepat mengakibatkan meningkatnya  penggunaan dokumen, sehingga mengharuskan dunia usaha memanfaatkan kemajuan teknologi untuk  meningkatkan kemampuannya secara efektif dan efisien khususnya dalam pengelolaan dokumen perusahaan.  Guna mencapai tujuan tersebut, pembentukan peraturan mengenai dokumen perusahaan yang merupakan  bagian dari pembangunan hukum di bidang ekonomi perlu segera disusun, dalam upaya memacu laju  pertumbuhan perusahaan melalui pengelolaan dokumen perusahaan yang efektif dan efisien.  Ketentuan sebagaimana tercantum dalam Pasal 6 Kitab Undang-undang Hukum Dagang (Wetboek van  Koophandel voor Indonesi\u00eb, Staatsblad 1847 : 23) yang mewajibkan setiap orang yang menjalankan  perusahaan menyelenggarakan pencatatan tentang hal-hal yang berkaitan dengan perusahaan dan menyimpan  dokumen tersebut antara 10 (sepuluh) sampai dengan 30 (tiga puluh) tahun, sudah tidak sesuai lagi dengan  perkembangan dan kebutuhan hukum masyarakat khususnya di bidang ekonomi dan perdagangan dewasa ini.  Selain ketentuan wajib menyimpan dokumen sebagaimana diatur dalam Pasal 6 Kitab Undang-undang Hukum  Dagang (Wetboek van Koophandel voor Indonesi\u00eb, Staatsblad 1847 : 23), juga ketentuan Undang-undang dan  peraturan perundang-undangan lainnya yang berkaitan dengan tata cara penyimpanan, pemindahan,  pemusnahan, dan penyerahan arsip menimbulkan beban yang berat bagi perusahaan karena pelaksanaannya  memerlukan ruangan yang luas, tenaga, waktu, perawatan, dan biaya yang besar."
+              },
+              {
+                "type": "PLAINTEXT",
+                "text": "Catatan yang berupa neraca tahunan, perhitungan laba rugi tahunan, rekening, jurnal transaksi harian, dan bukti  pembukuan serta data pendukung administrasi keuangan yang merupakan bagian dari bukti pembukuan atau  tulisan lain yang menggambarkan neraca tahunan, perhitungan laba rugi tahunan, rekening, dan jurnal transaksi  harian dikurangi masa penyimpanannya dari 30 (tiga puluh) tahun menjadi 10 (sepuluh) tahun. Sedangkan data  pendukung administrasi keuangan yang tidak merupakan bagian dari bukti pembukuan, dan dokumen lainnya,  jangka waktu penyimpanannya disesuaikan dengan nilai guna dokumen yang disusun dalam jadwal retensi  yang ditetapkan dengan keputusan pimpinan perusahaan."
+              },
+              {
+                "type": "PLAINTEXT",
+                "text": "Sejalan dengan upaya mengurangi jangka waktu penyimpanan, penerapan teknologi maju di bidang informatika  telah memungkinkan dokumen perusahaan yang dibuat di atas kertas atau sarana lainnya dapat dialihkan untuk  disimpan dalam mikrofilm atau media lainnya. Pemakaian mikrofilm atau media lain tersebut dapat dipastikan  semakin banyak digunakan dalam kegiatan ekonomi dan perdagangan karena lebih ekonomis. Untuk menjamin  kepastian hukum, maka dokumen perusahaan yang disimpan dalam mikrofilm dan media lain, merupakan salah  satu alat bukti yang sah."
+              },
+              {
+                "type": "PLAINTEXT",
+                "text": "Untuk menyederhanakan tata cara penyimpanan, pemindahan, pemusnahan, dan penyerahan dokumen  perusahaan, yang penting artinya bagi efisiensi kegiatan perusahaan seperti diuraikan di atas, Undang-undang  ini memberikan wewenang kepada perusahaan untuk melaksanakan penyimpanan, pemindahan, pemusnahan,  dan penyerahan dokumen tersebut berdasarkan jadwal retensi baik menurut Undang-undang ini maupun yang  ditetapkan oleh pimpinan perusahaan."
+              },
+              {
+                "type": "PLAINTEXT",
+                "text": "Dengan diberlakukannya ketentuan yang mengatur dokumen perusahaan, maka pembuatan, penyimpanan,  pemindahan, pemusnahan, dan penyerahan dokumen perusahaan dapat dilakukan dengan sederhana, efektif, dan efisien dengan tidak mengurangi kepastian hukum dan tetap melindungi kepentingan para pihak dalam  suatu hubungan hukum."
+              },
+              {
+                "type": "PLAINTEXT",
+                "text": "Ketentuan mengenai pelaksanaan penyimpanan, pemindahan, pemusnahan, dan penyerahan dokumen yang  diatur dengan Undang-undang ini tidak dimaksudkan menghilangkan fungsi dokumen bersangkutan sebagai alat  bukti atau kepentingan hukum lainnya. Oleh karena itu Undang-undang dan ketentuan peraturan perundang undangan lainnya yang berkaitan dengan pelaksanaan Pasal 6 Kitab Undang-undang Hukum Dagang (Wetboek  van Koophandel voor Indonesi\u00eb, Staatsblad 1847 : 23), misalnya Pasal 396, Pasal 397, Pasal 398, dan Pasal  399 Kitab Undang-undang Hukum Pidana tetap berlaku sepanjang belum diganti atau tidak bertentangan  dengan Undang-undang ini."
+              }
+            ]
+          },
+          {
+            "type": "PENJELASAN_PASAL_DEMI_PASAL",
+            "id": "",
+            "children": [
+              {
+                "type": "PENJELASAN_PASAL_DEMI_PASAL_TITLE",
+                "text": "PASAL DEMI PASAL"
+              },
+              {
+                "type": "PASAL",
+                "id": "",
+                "children": [
+                  {
+                    "type": "PASAL_NUMBER",
+                    "text": "Pasal 1"
+                  },
+                  {
+                    "type": "PLAINTEXT",
+                    "text": "Cukup jelas"
+                  }
+                ]
+              },
+              {
+                "type": "PASAL",
+                "id": "",
+                "children": [
+                  {
+                    "type": "PASAL_NUMBER",
+                    "text": "Pasal 2"
+                  },
+                  {
+                    "type": "PLAINTEXT",
+                    "text": "Cukup jelas"
+                  }
+                ]
+              },
+              {
+                "type": "PASAL",
+                "id": "",
+                "children": [
+                  {
+                    "type": "PASAL_NUMBER",
+                    "text": "Pasal 3"
+                  },
+                  {
+                    "type": "PLAINTEXT",
+                    "text": "Cukup jelas"
+                  }
+                ]
+              },
+              {
+                "type": "PASAL",
+                "id": "",
+                "children": [
+                  {
+                    "type": "PASAL_NUMBER",
+                    "text": "Pasal 4"
+                  },
+                  {
+                    "type": "PLAINTEXT",
+                    "text": "Yang termasuk \"dokumen lainnya\" misalnya Risalah Rapat Umum Pemegang Saham, Akta Pendirian  Perusahaan, akta otentik lainnya yang masih mengandung kepentingan hukum tertentu, Nomor Pokok Wajib  Pajak."
+                  }
+                ]
+              },
+              {
+                "type": "PASAL",
+                "id": "",
+                "children": [
+                  {
+                    "type": "PASAL_NUMBER",
+                    "text": "Pasal 5"
+                  },
+                  {
+                    "type": "PLAINTEXT",
+                    "text": "Yang dimaksud dengan:"
+                  },
+                  {
+                    "type": "PLAINTEXT",
+                    "text": "- \"neraca tahunan\" adalah salah satu bentuk catatan yang menggambarkan posisi kekayaan, utang, dan  modal pada akhir tahun buku yang merupakan pertanggungjawaban keuangan."
+                  },
+                  {
+                    "type": "PLAINTEXT",
+                    "text": "- \"rekening\" adalah salah satu bentuk catatan yang dibuat perusahaan untuk menampung transaksi yang  sejenis yang digunakan sebagai dasar penyusunan laporan keuangan, dan dapat juga disebut buku besar  atau perkiraan."
+                  },
+                  {
+                    "type": "PLAINTEXT",
+                    "text": "- \"jurnal transaksi harian\" adalah salah satu bentuk catatan yang menggambarkan adanya transaksi yang  dapat berupa buku harian atau catatan harian atau tulisan lainnya."
+                  },
+                  {
+                    "type": "PLAINTEXT",
+                    "text": "- \"tulisan yang berisi keterangan mengenai hak dan kewajiban serta hal-hal lain yang berkaitan dengan  kegiatan usaha suatu perusahaan\" adalah tulisan yang menggambarkan neraca tahunan, perhitungan  laba rugi tahunan, rekening, dan jurnal transaksi harian."
+                  }
+                ]
+              },
+              {
+                "type": "PASAL",
+                "id": "",
+                "children": [
+                  {
+                    "type": "PASAL_NUMBER",
+                    "text": "Pasal 6"
+                  },
+                  {
+                    "type": "PLAINTEXT",
+                    "text": "Yang dimaksud dengan:"
+                  },
+                  {
+                    "type": "PLAINTEXT",
+                    "text": "- \"warkat\" adalah dokumen tertulis yang bentuk dan penggunaannya ditetapkan menurut aturan tertentu  dan merupakan bukti transaksi, misalnya cek, bilyet giro, surat perintah membayar, wesel, nota debet,  dan nota kredit."
+                  },
+                  {
+                    "type": "PLAINTEXT",
+                    "text": "- \"perubahan kekayaan, utang, dan modal\" adalah bertambah dan atau berkurangnya jumlah dan susunan  kekayaan, utang, dan modal."
+                  }
+                ]
+              },
+              {
+                "type": "PASAL",
+                "id": "",
+                "children": [
+                  {
+                    "type": "PASAL_NUMBER",
+                    "text": "Pasal 7"
+                  },
+                  {
+                    "type": "LIST",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "PENJELASAN_LIST_ITEM",
+                        "id": "",
+                        "children": [
+                          {
+                            "type": "PENJELASAN_AYAT",
+                            "text": "Ayat (1)"
+                          },
+                          {
+                            "type": "PLAINTEXT",
+                            "text": "Cukup jelas"
+                          }
+                        ]
+                      },
+                      {
+                        "type": "PENJELASAN_LIST_ITEM",
+                        "id": "",
+                        "children": [
+                          {
+                            "type": "PENJELASAN_AYAT",
+                            "text": "Ayat (2)"
+                          },
+                          {
+                            "type": "PLAINTEXT",
+                            "text": "Yang termasuk:"
+                          },
+                          {
+                            "type": "LIST",
+                            "id": "",
+                            "children": [
+                              {
+                                "type": "LIST_ITEM",
+                                "id": "",
+                                "children": [
+                                  {
+                                    "type": "LETTER_WITH_DOT",
+                                    "text": "a."
+                                  },
+                                  {
+                                    "type": "PLAINTEXT",
+                                    "text": "\"data pendukung yang merupakan bagian dari bukti pembukuan\", misalnya surat perintah kerja, surat kontrak atau surat perjanjian."
+                                  }
+                                ]
+                              },
+                              {
+                                "type": "LIST_ITEM",
+                                "id": "",
+                                "children": [
+                                  {
+                                    "type": "LETTER_WITH_DOT",
+                                    "text": "b."
+                                  },
+                                  {
+                                    "type": "PLAINTEXT",
+                                    "text": "\"data pendukung yang tidak merupakan bagian dari bukti pembukuan\", misalnya rekening antar kantor, rekening harian, atau rekening mingguan."
+                                  }
+                                ]
+                              }
+                            ]
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "PASAL",
+                "id": "",
+                "children": [
+                  {
+                    "type": "PASAL_NUMBER",
+                    "text": "Pasal 8"
+                  },
+                  {
+                    "type": "LIST",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "PENJELASAN_LIST_ITEM",
+                        "id": "",
+                        "children": [
+                          {
+                            "type": "PENJELASAN_AYAT",
+                            "text": "Ayat (1)"
+                          },
+                          {
+                            "type": "PLAINTEXT",
+                            "text": "Penggunaan kata \"wajib\" dalam ayat ini dimaksudkan untuk memberikan penekanan adanya kewajiban  perusahaan membuat catatan, agar setiap saat dapat diketahui keadaan kekayaan, utang, modal, hak  dan kewajiban perusahaan, untuk melindungi baik kepentingan perusahaan, kepentingan Pemerintah  maupun kepentingan pihak ketiga."
+                          },
+                          {
+                            "type": "PLAINTEXT",
+                            "text": "Kewajiban tersebut bersifat keperdataan, sehingga risiko yang timbul karena tidak dilaksanakannya  kewajiban tersebut menjadi tanggung jawab perusahaan yang bersangkutan."
+                          },
+                          {
+                            "type": "PLAINTEXT",
+                            "text": "Yang dimaksud dengan \"sesuai dengan kebutuhan perusahaan\" adalah bahwa walaupun setiap  perusahaan diwajibkan membuat catatan, tetapi mengenai bentuk dan kedalaman isi catatan yang dibuat,  dilakukan sesuai dengan sifat perusahaan."
+                          }
+                        ]
+                      },
+                      {
+                        "type": "PENJELASAN_LIST_ITEM",
+                        "id": "",
+                        "children": [
+                          {
+                            "type": "PENJELASAN_AYAT",
+                            "text": "Ayat (2)"
+                          },
+                          {
+                            "type": "PLAINTEXT",
+                            "text": "Penggunaan kata \"wajib\" dalam ayat ini dimaksudkan untuk memberikan penekanan bahwa catatan  tersebut dibuat sesuai dengan ketentuan dalam ayat ini, misalnya harus menggunakan huruf Latin dan  disusun dalam bahasa Indonesia. Dengan demikian apabila catatan tidak dibuat dengan menggunakan  huruf Latin dan tidak disusun dalam bahasa Indonesia, maka secara hukum, perusahaan tersebut  dianggap belum membuat catatan, dan kelalaian tersebut menjadi tanggung jawab perusahaan yang  bersangkutan."
+                          }
+                        ]
+                      },
+                      {
+                        "type": "PENJELASAN_LIST_ITEM",
+                        "id": "",
+                        "children": [
+                          {
+                            "type": "PENJELASAN_AYAT",
+                            "text": "Ayat (3)"
+                          },
+                          {
+                            "type": "PLAINTEXT",
+                            "text": "Pada dasarnya catatan harus disusun dalam bahasa Indonesia, kecuali baik karena sifat perusahaan  maupun untuk kepentingan tertentu sesuai dengan ketentuan peraturan perundang-undangan di bidang  perpajakan, dengan izin Menteri Keuangan catatan dapat disusun dalam bahasa asing."
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "PASAL",
+                "id": "",
+                "children": [
+                  {
+                    "type": "PASAL_NUMBER",
+                    "text": "Pasal 9"
+                  },
+                  {
+                    "type": "LIST",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "PENJELASAN_LIST_ITEM",
+                        "id": "",
+                        "children": [
+                          {
+                            "type": "PENJELASAN_AYAT",
+                            "text": "Ayat (1)"
+                          },
+                          {
+                            "type": "PLAINTEXT",
+                            "text": "- Penggunaan kata \"wajib\" dalam ayat ini dimaksudkan untuk memberikan penekanan bahwa apabila  neraca tahunan atau perhitungan laba rugi tahunan belum ditandatangani oleh pimpinan  perusahaan atau pejabat yang ditunjuk, secara hukum perusahaan dianggap belum membuat  neraca tahunan atau perhitungan laba rugi tahunan."
+                          },
+                          {
+                            "type": "PLAINTEXT",
+                            "text": "- Yang dimaksud dengan \"pimpinan perusahaan\" adalah seseorang yang berdasarkan Anggaran  Dasar memimpin perusahaan yang bersangkutan dan mewakili perusahaan baik di dalam maupun  di luar pengadilan."
+                          },
+                          {
+                            "type": "PLAINTEXT",
+                            "text": "- Yang dimaksud dengan \"pejabat yang ditunjuk\" adalah seseorang yang diberi kewenangan oleh  pimpinan perusahaan untuk mengelola dokumen perusahaan."
+                          }
+                        ]
+                      },
+                      {
+                        "type": "PENJELASAN_LIST_ITEM",
+                        "id": "",
+                        "children": [
+                          {
+                            "type": "PENJELASAN_AYAT",
+                            "text": "Ayat (2)"
+                          },
+                          {
+                            "type": "PLAINTEXT",
+                            "text": "Penggunaan kata \"wajib\" dalam ayat ini dimaksudkan untuk memberikan penekanan bahwa pembuatan  catatan tidak boleh melebihi waktu 6 (enam) bulan terhitung sejak akhir tahun buku perusahaan yang bersangkutan. Kelalaian melakukan kewajiban tersebut menjadi tanggung jawab perusahaan yang  bersangkutan."
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "PASAL",
+                "id": "",
+                "children": [
+                  {
+                    "type": "PASAL_NUMBER",
+                    "text": "Pasal 10"
+                  },
+                  {
+                    "type": "LIST",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "PENJELASAN_LIST_ITEM",
+                        "id": "",
+                        "children": [
+                          {
+                            "type": "PENJELASAN_AYAT",
+                            "text": "Ayat (1)"
+                          },
+                          {
+                            "type": "PLAINTEXT",
+                            "text": "Penggunaan kata \"wajib\" dalam ayat ini dimaksudkan untuk memberikan penekanan bahwa apabila  catatan yang berbentuk neraca tahunan, perhitungan laba rugi tahunan, atau tulisan lain yang  menggambarkan neraca laba rugi, tidak dibuat di atas kertas, perusahaan dianggap belum membuat  catatan."
+                          }
+                        ]
+                      },
+                      {
+                        "type": "PENJELASAN_LIST_ITEM",
+                        "id": "",
+                        "children": [
+                          {
+                            "type": "PENJELASAN_AYAT",
+                            "text": "Ayat (2)"
+                          },
+                          {
+                            "type": "PLAINTEXT",
+                            "text": "Yang dimaksud dengan \"sarana lainnya\" adalah alat bantu untuk memproses pembuatan dokumen  perusahaan yang sejak semula tidak dibuat di atas kertas, misalnya menggunakan pita magnetik atau  disket."
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "PASAL",
+                "id": "",
+                "children": [
+                  {
+                    "type": "PASAL_NUMBER",
+                    "text": "Pasal 11"
+                  },
+                  {
+                    "type": "LIST",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "PENJELASAN_LIST_ITEM",
+                        "id": "",
+                        "children": [
+                          {
+                            "type": "PENJELASAN_AYAT",
+                            "text": "Ayat (1)"
+                          },
+                          {
+                            "type": "PLAINTEXT",
+                            "text": "Penggunaan kata \"wajib\" dalam ayat ini dimaksudkan untuk memberikan penekanan mengenai hal yang  harus dilakukan perusahaan, yakni menyimpan dokumen sebagaimana dimaksud dalam ayat ini selama  10 (sepuluh) tahun. Dengan demikian apabila sebelum jangka waktu 10 (sepuluh) tahun dokumen yang bersangkutan dimusnahkan, maka risiko karena pemusnahan tersebut menjadi tanggung jawab  perusahaan yang bersangkutan."
+                          }
+                        ]
+                      },
+                      {
+                        "type": "PENJELASAN_LIST_ITEM",
+                        "id": "",
+                        "children": [
+                          {
+                            "type": "PENJELASAN_AYAT",
+                            "text": "Ayat (2)"
+                          },
+                          {
+                            "type": "PLAINTEXT",
+                            "text": "Cukup jelas"
+                          }
+                        ]
+                      },
+                      {
+                        "type": "PENJELASAN_LIST_ITEM",
+                        "id": "",
+                        "children": [
+                          {
+                            "type": "PENJELASAN_AYAT",
+                            "text": "Ayat (3)"
+                          },
+                          {
+                            "type": "PLAINTEXT",
+                            "text": "Yang dimaksud dengan \"nilai guna dokumen\" adalah nilai dokumen perusahaan yang didasarkan pada  kegunaan dokumen dalam menunjang pelaksanaan kegiatan usaha perusahaan."
+                          },
+                          {
+                            "type": "PLAINTEXT",
+                            "text": "Berdasarkan nilai guna dokumen yang bersangkutan, maka jangka waktu penyimpanannya dapat  ditetapkan kurang dari 10 (sepuluh) tahun atau lebih dari 10 (sepuluh) tahun."
+                          }
+                        ]
+                      },
+                      {
+                        "type": "PENJELASAN_LIST_ITEM",
+                        "id": "",
+                        "children": [
+                          {
+                            "type": "PENJELASAN_AYAT",
+                            "text": "Ayat (4)"
+                          },
+                          {
+                            "type": "PLAINTEXT",
+                            "text": "Cukup jelas"
+                          }
+                        ]
+                      },
+                      {
+                        "type": "PENJELASAN_LIST_ITEM",
+                        "id": "",
+                        "children": [
+                          {
+                            "type": "PENJELASAN_AYAT",
+                            "text": "Ayat (5)"
+                          },
+                          {
+                            "type": "PLAINTEXT",
+                            "text": "Sekalipun suatu dokumen telah melewati masa wajib simpan, tetapi dokumen tersebut tetap dapat  dipergunakan sebagai alat bukti sesuai dengan ketentuan mengenai daluwarsa suatu tuntutan."
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "PASAL",
+                "id": "",
+                "children": [
+                  {
+                    "type": "PASAL_NUMBER",
+                    "text": "Pasal 12"
+                  },
+                  {
+                    "type": "LIST",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "PENJELASAN_LIST_ITEM",
+                        "id": "",
+                        "children": [
+                          {
+                            "type": "PENJELASAN_AYAT",
+                            "text": "Ayat (1)"
+                          },
+                          {
+                            "type": "PLAINTEXT",
+                            "text": "Yang dimaksud dengan:"
+                          },
+                          {
+                            "type": "PLAINTEXT",
+                            "text": "- \"mikrofilm\" adalah film yang memuat rekaman bahan tertulis, tercetak, dan tergambar dalam ukuran  yang sangat kecil."
+                          },
+                          {
+                            "type": "PLAINTEXT",
+                            "text": "- \"media lainnya\" adalah alat penyimpan informasi yang bukan kertas dan mempunyai tingkat  pengamanan yang dapat menjamin keaslian dokumen yang dialihkan atau ditransformasikan,  misalnya Compact Disk-Read Only Memory (CD-ROM), dan Write-Once-Read-Many (WORM)."
+                          }
+                        ]
+                      },
+                      {
+                        "type": "PENJELASAN_LIST_ITEM",
+                        "id": "",
+                        "children": [
+                          {
+                            "type": "PENJELASAN_AYAT",
+                            "text": "Ayat (2)"
+                          },
+                          {
+                            "type": "PLAINTEXT",
+                            "text": "Cukup jelas"
+                          }
+                        ]
+                      },
+                      {
+                        "type": "PENJELASAN_LIST_ITEM",
+                        "id": "",
+                        "children": [
+                          {
+                            "type": "PENJELASAN_AYAT",
+                            "text": "Ayat (3)"
+                          },
+                          {
+                            "type": "PLAINTEXT",
+                            "text": "Suatu dokumen perusahaan mempunyai makna \"kepentingan nasional\" apabila dokumen perusahaan  tersebut memiliki nilai historis yang digunakan dalam rangka kegiatan pemerintahan dan pembangunan  serta kehidupan kebangsaan, misalnya rekening atau bukti iuran untuk pembangunan Monumen  Nasional, Mesjid Istiqlal."
+                          },
+                          {
+                            "type": "PLAINTEXT",
+                            "text": "Selanjutnya yang menentukan suatu dokumen mempunyai makna kepentingan nasional adalah pimpinan  perusahaan."
+                          }
+                        ]
+                      },
+                      {
+                        "type": "PENJELASAN_LIST_ITEM",
+                        "id": "",
+                        "children": [
+                          {
+                            "type": "PENJELASAN_AYAT",
+                            "text": "Ayat (4)"
+                          },
+                          {
+                            "type": "PLAINTEXT",
+                            "text": "Penggunaan kata \"wajib\" dalam ayat ini dimaksudkan untuk memberikan penekanan bahwa pimpinan  perusahaan tetap harus menyimpan naskah asli, apabila dokumen tersebut masih mempunyai kekuatan  pembuktian otentik dan atau mengandung kepentingan hukum tertentu. Kelalaian dalam melaksanakan  kewajiban tersebut, pimpinan perusahaan bertanggung jawab sesuai dengan peraturan perundang undangan yang berlaku."
+                          },
+                          {
+                            "type": "PLAINTEXT",
+                            "text": "Yang dimaksud dengan \"masih mengandung kepentingan hukum tertentu\" adalah apabila naskah asli  tersebut masih mengandung hak dan atau kewajiban yang masih harus dipenuhi oleh pihak yang  berkepentingan."
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "PASAL",
+                "id": "",
+                "children": [
+                  {
+                    "type": "PASAL_NUMBER",
+                    "text": "Pasal 13"
+                  },
+                  {
+                    "type": "PLAINTEXT",
+                    "text": "Penggunaan kata \"wajib\" dalam Pasal ini dimaksudkan untuk memberikan penekanan bahwa setiap pengalihan  dokumen perusahaan harus dilegalisasi. Apabila pengalihan dokumen perusahaan tidak dilegalisasi, maka  dokumen perusahaan hasil pengalihan tersebut secara hukum tidak dapat dijadikan sebagai alat bukti yang sah.  Yang dimaksud dengan \"legalisasi\" adalah tindakan pengesahan isi dokumen perusahaan yang dialihkan atau  ditransformasikan ke dalam mikrofilm atau media lain yang menerangkan atau menyatakan bahwa isi dokumen  perusahaan yang terkandung di dalam mikrofilm atau media lain tersebut sesuai dengan naskah aslinya."
+                  }
+                ]
+              },
+              {
+                "type": "PASAL",
+                "id": "",
+                "children": [
+                  {
+                    "type": "PASAL_NUMBER",
+                    "text": "Pasal 14"
+                  },
+                  {
+                    "type": "LIST",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "PENJELASAN_LIST_ITEM",
+                        "id": "",
+                        "children": [
+                          {
+                            "type": "PENJELASAN_AYAT",
+                            "text": "Ayat (1)"
+                          },
+                          {
+                            "type": "PLAINTEXT",
+                            "text": "Berita acara dibuat pada saat terjadi pengalihan dokumen ke dalam mikrofilm atau media lainnya."
+                          }
+                        ]
+                      },
+                      {
+                        "type": "PENJELASAN_LIST_ITEM",
+                        "id": "",
+                        "children": [
+                          {
+                            "type": "PENJELASAN_AYAT",
+                            "text": "Ayat (2)"
+                          },
+                          {
+                            "type": "PLAINTEXT",
+                            "text": "Pada berita acara pengalihan dilampirkan daftar pertelaan atas dokumen perusahaan yang dialihkan ke  dalam mikrofilm atau media lainnya."
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "PASAL",
+                "id": "",
+                "children": [
+                  {
+                    "type": "PASAL_NUMBER",
+                    "text": "Pasal 15"
+                  },
+                  {
+                    "type": "LIST",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "PENJELASAN_LIST_ITEM",
+                        "id": "",
+                        "children": [
+                          {
+                            "type": "PENJELASAN_AYAT",
+                            "text": "Ayat (1)"
+                          },
+                          {
+                            "type": "PLAINTEXT",
+                            "text": "Cukup jelas"
+                          }
+                        ]
+                      },
+                      {
+                        "type": "PENJELASAN_LIST_ITEM",
+                        "id": "",
+                        "children": [
+                          {
+                            "type": "PENJELASAN_AYAT",
+                            "text": "Ayat (2)"
+                          },
+                          {
+                            "type": "PLAINTEXT",
+                            "text": "Yang dimaksud dengan \"dianggap perlu\", \"dalam hal tertentu\" dan \"untuk keperluan tertentu\" misalnya  untuk keperluan memenuhi permintaan polisi, jaksa, atau hakim dalam pemeriksaan perkara.  Legalisasi dilakukan dengan cara pembubuhan tanda tangan pada hasil cetak dokumen tersebut dan  pernyataan bahwa hasil cetak sesuai dengan aslinya."
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "PASAL",
+                "id": "",
+                "children": [
+                  {
+                    "type": "PASAL_NUMBER",
+                    "text": "Pasal 16"
+                  },
+                  {
+                    "type": "PLAINTEXT",
+                    "text": "Cukup jelas"
+                  }
+                ]
+              },
+              {
+                "type": "PASAL",
+                "id": "",
+                "children": [
+                  {
+                    "type": "PASAL_NUMBER",
+                    "text": "Pasal 17"
+                  },
+                  {
+                    "type": "PLAINTEXT",
+                    "text": "Penentuan tata cara pemindahan dokumen perusahaan diserahkan kepada pimpinan perusahaan, karena yang  mengetahui kebutuhan perusahaan adalah pimpinan perusahaan yang bersangkutan. Dalam tata cara tersebut dapat pula ditentukan bahwa pemindahan dokumen disertai dengan daftar pertelaan dan pembuatan berita  acara yang sekurang-kurangnya memuat:"
+                  },
+                  {
+                    "type": "LIST",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "LIST_ITEM",
+                        "id": "",
+                        "children": [
+                          {
+                            "type": "LETTER_WITH_DOT",
+                            "text": "a."
+                          },
+                          {
+                            "type": "PLAINTEXT",
+                            "text": "keterangan tempat, hari, tanggal, bulan, dan tahun dilakukannya pemindahan;"
+                          }
+                        ]
+                      },
+                      {
+                        "type": "LIST_ITEM",
+                        "id": "",
+                        "children": [
+                          {
+                            "type": "LETTER_WITH_DOT",
+                            "text": "b."
+                          },
+                          {
+                            "type": "PLAINTEXT",
+                            "text": "keterangan tentang pelaksanaan pemindahan; dan"
+                          }
+                        ]
+                      },
+                      {
+                        "type": "LIST_ITEM",
+                        "id": "",
+                        "children": [
+                          {
+                            "type": "LETTER_WITH_DOT",
+                            "text": "c."
+                          },
+                          {
+                            "type": "PLAINTEXT",
+                            "text": "tanda tangan dan nama jelas pejabat yang memindahkan dan pejabat yang menerima pemindahan. Yang dimaksud dengan:"
+                          },
+                          {
+                            "type": "PLAINTEXT",
+                            "text": "- \"unit pengolahan\" adalah satuan kerja yang mempunyai tugas dan tanggung jawab mengolah semua  dokumen yang berkaitan dengan kegiatan operasional perusahaan."
+                          },
+                          {
+                            "type": "PLAINTEXT",
+                            "text": "- \"unit kearsipan\" adalah satuan kerja yang mempunyai tugas dan tanggung jawab mengelola dokumen  perusahaan yang sudah diselesaikan oleh unit pengolahan untuk disimpan dan dipelihara."
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "PASAL",
+                "id": "",
+                "children": [
+                  {
+                    "type": "PASAL_NUMBER",
+                    "text": "Pasal 18"
+                  },
+                  {
+                    "type": "LIST",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "PENJELASAN_LIST_ITEM",
+                        "id": "",
+                        "children": [
+                          {
+                            "type": "PENJELASAN_AYAT",
+                            "text": "Ayat (1)"
+                          },
+                          {
+                            "type": "PLAINTEXT",
+                            "text": "Penggunaan kata \"wajib\" dalam ayat ini dimaksudkan untuk memberikan penekanan adanya kewajiban  untuk menyerahkan dokumen perusahaan tertentu yang mempunyai nilai guna bagi kepentingan nasional  kepada Arsip Nasional Republik Indonesia. Apabila ketentuan tersebut tidak dilaksanakan, maka terkena  ketentuan Undang-undang Nomor 7 Tahun 1971 tentang Ketentuan- ketentuan Pokok Kearsipan."
+                          }
+                        ]
+                      },
+                      {
+                        "type": "PENJELASAN_LIST_ITEM",
+                        "id": "",
+                        "children": [
+                          {
+                            "type": "PENJELASAN_AYAT",
+                            "text": "Ayat (2)"
+                          },
+                          {
+                            "type": "PLAINTEXT",
+                            "text": "Cukup jelas"
+                          }
+                        ]
+                      },
+                      {
+                        "type": "PENJELASAN_LIST_ITEM",
+                        "id": "",
+                        "children": [
+                          {
+                            "type": "PENJELASAN_AYAT",
+                            "text": "Ayat (3)"
+                          },
+                          {
+                            "type": "PLAINTEXT",
+                            "text": "Yang dimaksud dengan \"daftar pertelaan\" adalah daftar yang memuat keterangan antara lain mengenai  jenis, jumlah, dan jangka waktu penyimpanan dokumen yang bersangkutan."
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "PASAL",
+                "id": "",
+                "children": [
+                  {
+                    "type": "PASAL_NUMBER",
+                    "text": "Pasal 19"
+                  },
+                  {
+                    "type": "LIST",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "PENJELASAN_LIST_ITEM",
+                        "id": "",
+                        "children": [
+                          {
+                            "type": "PENJELASAN_AYAT",
+                            "text": "Ayat (1)"
+                          },
+                          {
+                            "type": "PLAINTEXT",
+                            "text": "Cukup jelas"
+                          }
+                        ]
+                      },
+                      {
+                        "type": "PENJELASAN_LIST_ITEM",
+                        "id": "",
+                        "children": [
+                          {
+                            "type": "PENJELASAN_AYAT",
+                            "text": "Ayat (2)"
+                          },
+                          {
+                            "type": "PLAINTEXT",
+                            "text": "Dalam penyusunan jadwal retensi dokumen yang akan dimusnahkan, perlu dipertimbangkan dokumen  yang karena sifatnya tetap disimpan dan dipelihara."
+                          }
+                        ]
+                      },
+                      {
+                        "type": "PENJELASAN_LIST_ITEM",
+                        "id": "",
+                        "children": [
+                          {
+                            "type": "PENJELASAN_AYAT",
+                            "text": "Ayat (3)"
+                          },
+                          {
+                            "type": "PLAINTEXT",
+                            "text": "Cukup jelas"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "PASAL",
+                "id": "",
+                "children": [
+                  {
+                    "type": "PASAL_NUMBER",
+                    "text": "Pasal 20"
+                  },
+                  {
+                    "type": "PLAINTEXT",
+                    "text": "Pimpinan perusahaan dapat menetapkan suatu dokumen perusahaan yang dibuat di atas kertas tetap disimpan  walaupun telah dialihkan ke dalam mikrofilm atau media lainnya."
+                  }
+                ]
+              },
+              {
+                "type": "PASAL",
+                "id": "",
+                "children": [
+                  {
+                    "type": "PASAL_NUMBER",
+                    "text": "Pasal 21"
+                  },
+                  {
+                    "type": "LIST",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "PENJELASAN_LIST_ITEM",
+                        "id": "",
+                        "children": [
+                          {
+                            "type": "PENJELASAN_AYAT",
+                            "text": "Ayat (1)"
+                          },
+                          {
+                            "type": "PLAINTEXT",
+                            "text": "Cukup jelas"
+                          }
+                        ]
+                      },
+                      {
+                        "type": "PENJELASAN_LIST_ITEM",
+                        "id": "",
+                        "children": [
+                          {
+                            "type": "PENJELASAN_AYAT",
+                            "text": "Ayat (2)"
+                          },
+                          {
+                            "type": "PLAINTEXT",
+                            "text": "Cukup jelas"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "PASAL",
+                "id": "",
+                "children": [
+                  {
+                    "type": "PASAL_NUMBER",
+                    "text": "Pasal 22"
+                  },
+                  {
+                    "type": "PLAINTEXT",
+                    "text": "Cukup jelas"
+                  }
+                ]
+              },
+              {
+                "type": "PASAL",
+                "id": "",
+                "children": [
+                  {
+                    "type": "PASAL_NUMBER",
+                    "text": "Pasal 23"
+                  },
+                  {
+                    "type": "PLAINTEXT",
+                    "text": "Cukup jelas"
+                  }
+                ]
+              },
+              {
+                "type": "PASAL",
+                "id": "",
+                "children": [
+                  {
+                    "type": "PASAL_NUMBER",
+                    "text": "Pasal 24"
+                  },
+                  {
+                    "type": "PLAINTEXT",
+                    "text": "Cukup jelas"
+                  }
+                ]
+              },
+              {
+                "type": "PASAL",
+                "id": "",
+                "children": [
+                  {
+                    "type": "PASAL_NUMBER",
+                    "text": "Pasal 25"
+                  },
+                  {
+                    "type": "PLAINTEXT",
+                    "text": "Cukup jelas"
+                  }
+                ]
+              },
+              {
+                "type": "PASAL",
+                "id": "",
+                "children": [
+                  {
+                    "type": "PASAL_NUMBER",
+                    "text": "Pasal 26"
+                  },
+                  {
+                    "type": "PLAINTEXT",
+                    "text": "Cukup jelas"
+                  }
+                ]
+              },
+              {
+                "type": "PASAL",
+                "id": "",
+                "children": [
+                  {
+                    "type": "PASAL_NUMBER",
+                    "text": "Pasal 27"
+                  },
+                  {
+                    "type": "PLAINTEXT",
+                    "text": "Cukup jelas"
+                  }
+                ]
+              },
+              {
+                "type": "PASAL",
+                "id": "",
+                "children": [
+                  {
+                    "type": "PASAL_NUMBER",
+                    "text": "Pasal 28"
+                  },
+                  {
+                    "type": "LIST",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "PENJELASAN_LIST_ITEM",
+                        "id": "",
+                        "children": [
+                          {
+                            "type": "PENJELASAN_ANGKA",
+                            "text": "Angka 1"
+                          },
+                          {
+                            "type": "PLAINTEXT",
+                            "text": "Cukup jelas"
+                          }
+                        ]
+                      },
+                      {
+                        "type": "PENJELASAN_LIST_ITEM",
+                        "id": "",
+                        "children": [
+                          {
+                            "type": "PENJELASAN_ANGKA",
+                            "text": "Angka 2"
+                          },
+                          {
+                            "type": "PLAINTEXT",
+                            "text": "Cukup jelas"
+                          }
+                        ]
+                      },
+                      {
+                        "type": "PENJELASAN_LIST_ITEM",
+                        "id": "",
+                        "children": [
+                          {
+                            "type": "PENJELASAN_ANGKA",
+                            "text": "Angka 3"
+                          },
+                          {
+                            "type": "PLAINTEXT",
+                            "text": "Lembaga dalam hal ini meliputi baik Lembaga/Instansi Pemerintah (misalnya Bank Indonesia dan Badan  Urusan Logistik) maupun Lembaga Swasta (misalnya Yayasan)."
+                          },
+                          {
+                            "type": "PLAINTEXT",
+                            "text": "Apabila suatu Lembaga/Instansi Pemerintah selain tugas pokoknya dalam menjalankan fungsi  pemerintahan melakukan pula kegiatan usaha, maka khusus terhadap kegiatan usaha tersebut berlaku  ketentuan Undang-undang ini, sedangkan untuk kegiatan dalam rangka menjalankan fungsi  pemerintahan, tetap berlaku ketentuan peraturan perundang-undangan di bidang administrasi  pemerintahan."
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "PASAL",
+                "id": "",
+                "children": [
+                  {
+                    "type": "PASAL_NUMBER",
+                    "text": "Pasal 29"
+                  },
+                  {
+                    "type": "PLAINTEXT",
+                    "text": "Yang dimaksud dengan \"ketentuan peraturan perundang-undangan yang berkaitan dengan pelaksanaan Pasal  6 Kitab Undang-undang Hukum Dagang (Wetboek van Koophandel voor Indonesi\u00eb, Staatsblad 1847 : 23)\",  misalnya Pasal 396 butir 3, Pasal 397 butir 4, Pasal 398 butir 3, dan Pasal 399 butir 4 Kitab Undang-undang  Hukum Pidana."
+                  }
+                ]
+              },
+              {
+                "type": "PASAL",
+                "id": "",
+                "children": [
+                  {
+                    "type": "PASAL_NUMBER",
+                    "text": "Pasal 30"
+                  },
+                  {
+                    "type": "LIST",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "PENJELASAN_LIST_ITEM",
+                        "id": "",
+                        "children": [
+                          {
+                            "type": "PENJELASAN_ANGKA",
+                            "text": "Angka 1"
+                          },
+                          {
+                            "type": "PLAINTEXT",
+                            "text": "Cukup jelas"
+                          }
+                        ]
+                      },
+                      {
+                        "type": "PENJELASAN_LIST_ITEM",
+                        "id": "",
+                        "children": [
+                          {
+                            "type": "PENJELASAN_ANGKA",
+                            "text": "Angka 2"
+                          },
+                          {
+                            "type": "PLAINTEXT",
+                            "text": "Cukup jelas"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "PASAL",
+                "id": "",
+                "children": [
+                  {
+                    "type": "PASAL_NUMBER",
+                    "text": "Pasal 31"
+                  },
+                  {
+                    "type": "PLAINTEXT",
+                    "text": "Cukup jelas"
+                  },
+                  {
+                    "type": "PLAINTEXT",
+                    "text": "TAMBAHAN LEMBARAN NEGARA REPUBLIK INDONESIA NOMOR 3674"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "metadata": {
+    "lembaranNegaraNumber": 18,
+    "lembaranNegaraYear": 1997,
+    "tambahanLembaranNumber": 3674,
+    "number": 8,
+    "topic": "Dokumen Perusahaan",
+    "year": 1997
+  }
+}
