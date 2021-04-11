@@ -6,6 +6,7 @@ from typing import Any, Dict, List, Tuple, Union
 from parser_types import (
     NORMAL_LIST_INDEX_STRUCTURES,
     PENJELASAN_LIST_INDEX_STRUCTURES,
+    PlaintextInListItemScenario,
     Structure,
     TEXT_BLOCK_STRUCTURES,
     PRIMITIVE_STRUCTURES,
@@ -33,6 +34,7 @@ from parser_is_start_of_x import (
 from parser_utils import (
     convert_tree_to_json,
     extract_metadata_from_tree,
+    gen_plaintext_in_list_item_scenario_from_user,
     get_list_index_type,
     is_next_list_index_number,
     load_clean_law,
@@ -877,16 +879,21 @@ def parse_list(parent: ComplexNode, law: List[str], start_index: int) -> int:
         Structure.PENJELASAN,
         Structure.PENJELASAN_PASAL_DEMI_PASAL,
     ]
+    sibling_ancestors = [Structure.PLAINTEXT]
 
     initial_start_index = start_index
     end_index = start_index-1
     while end_index < len(law)-1:
-
         not_first_line = start_index > initial_start_index
-        start_of_non_recursive_ancestors = is_start_of_any(
-            non_recursive_ancestors, law, start_index)
-        if not_first_line and start_of_non_recursive_ancestors:
+        start_of_ancestor_or_sibling = is_start_of_any(
+            non_recursive_ancestors+sibling_ancestors,
+            law,
+            start_index
+        )
+        if not_first_line and start_of_ancestor_or_sibling:
             return end_index
+
+        # if plaintext, could be child of list, or sibling of list
 
         '''
         If there is already 1 list item parsed, we need to check if the next list item
@@ -1180,9 +1187,71 @@ def parse_list_item(parent: ComplexNode, law: List[str], start_index: int) -> in
             return end_index
 
         child_structure = None
-        # TODO(johnamadeo): see pg 17 Omnibus Law for embedded pasal problem
         if is_start_of_plaintext(law, start_index):
-            child_structure = Structure.PLAINTEXT
+            '''
+            If the 3rd line is PLAINTEXT, it could be:
+            a) Sibling of the LIST the LIST_ITEM is in
+            b) child of the LIST_ITEM
+            c) an embedded law snippet
+
+            The most common occurrence of a) is when the LIST itself is part of a
+            sentence, and there's another PLAINTEXT after the LIST to complete the sentence.
+
+            Example a): Sibling of the LIST the LIST_ITEM is in
+            ----------------------------------------
+            e.g UU 8 1997 Tentang Dokumen Perusahaan
+
+            Pasal 30
+                Pada saat Undang-undang ini mulai berlaku:
+                    1. 
+                    Pasal 6 Kitab Undang-undang Hukum Dagang (Wetboek van Koophandel voor Indonesië, Staatsblad  1847 : 23); dan
+                    2. 
+                    semua peraturan perundang-undangan yang berkaitan dengan dokumen perusahaan dan ketentuan  peraturan perundang-undangan yang berkaitan dengan penyimpanan, pemindahan, penyerahan, dan  pemusnahan arsip yang bertentangan dengan Undang-undang ini,
+                dinyatakan tidak berlaku lagi. <----
+
+            e.g UU 20 2007 Tentang Perseroan Terbatas
+            Pasal 102
+                (1)
+                Direksi wajib meminta persetujuan RUPS untuk:
+                    a.
+                    mengalihkan kekayaan Perseroan; atau
+                    b.
+                    menjadikan jaminan utang kekayaan Perseroan;
+                yang merupakan lebih dari 50% (lima puluh persen) jumlah kekayaan bersih Perseroan  dalam 1 (satu) transaksi atau lebih, baik yang berkaitan satu sama lain maupun tidak. <----
+
+            Example c): An embedded law snippet
+            ----------------------------------------
+            The snippet below is a pattern found in UU that modify other UU. Pasal 17 of this UU is modifying
+            Pasal 1 of another UU. Hence, the line " 'Pasal 1 " is a plaintext.
+
+            e.g UU 11 2020 Tentang Cipta Kerja
+
+            Pasal 17
+
+            Beberapa ketentuan dalam Undang-Undang Nomor 26 Tahun 2007 tentang Penataan Ruang... diubah sebagai berikut:
+
+            1. 
+            Ketentuan Pasal 1 angka 7, angka 8, dan angka 32 diubah sehingga Pasal 1 berbunyi sebagai berikut:
+                'Pasal 1
+                    Dalam Undang-Undang ini yang dimaksud dengan:
+                        1. 
+                        Ruang adalah wadah yang meliputi ruang darat...
+            '''
+            scenario = gen_plaintext_in_list_item_scenario_from_user(
+                law,
+                start_index,
+            )
+
+            if scenario == PlaintextInListItemScenario.SIBLING_OF_LIST:
+                return end_index
+            elif scenario == PlaintextInListItemScenario.CHILD_OF_LIST_ITEM:
+                child_structure = Structure.PLAINTEXT
+            elif scenario == PlaintextInListItemScenario.EMBEDDED_LAW_SNIPPET:
+                crash(
+                    law,
+                    start_index,
+                    f'TODO(johnamadeo): Implement handling of embedded law snippets on line: {law[start_index]}'
+                )
         elif is_start_of_list_item(law, start_index):
             '''
             Need to decide if the list is a sibling, ancestor or child list.
