@@ -1,6 +1,5 @@
-import { CSSProperties } from "react";
 import { Metadata } from "utils/grammar";
-import { colors, fonts } from "utils/theme";
+import { fonts } from "utils/theme";
 
 export default function Citation(props: {
   metadata: Metadata,

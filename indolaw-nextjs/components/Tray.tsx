@@ -4,6 +4,7 @@ import { colors } from "utils/theme";
 import TableOfContentsGroup from "components/TableOfContentsGroup";
 import { useAppContext } from "utils/state-management/context-provider";
 import Citation from "./Citation";
+import Status from "./Status";
 import Divider from "./Divider";
 import MetadataSection from "./MetadataSection";
 import Tab from "./Tab";
@@ -44,6 +45,15 @@ export default function Tray(props: { law: LawData }): JSX.Element {
                   textColor={colorScheme.tray.textSecondary}
                 />
               )}
+            />
+            <MetadataSection
+              title={'Status'}
+              content={
+                <Status
+                  metadata={law.metadata}
+                  textColor={colorScheme.tray.textSecondary}
+                />
+              }
             />
             <MetadataSection
               title={'Putusan MK'}
