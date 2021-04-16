@@ -1,4 +1,13 @@
 {
+  "metadata": {
+    "lembaranNegaraNumber": 2,
+    "lembaranNegaraYear": 1982,
+    "tambahanLembaranNumber": 3211,
+    "number": 1,
+    "topic": "Pengesahan Konvensi Wina Mengenai Hubungan Diplomatik Beserta Protokol Opsionalnya Mengenai Hal Memperoleh Kewarganegaraan (vienna Convention On Diplomatic Relations And Optional Protocol To The Vienna Convertion On Diplomatic Relations Concerning Acquisition Of Nationality, 1961) Dan Pengesahan Konvensi Wina Mengenai Hubungan Konsuler Beserta Protocol Opsionalnya Mengenai Hal Memperoleh Kewarganegaraan (vienna Convention On Consular Relations And Optional Protocol To The Vienna Convention On Consular Relations Concerning Acquisition Of Nationality, 1963)",
+    "year": 1982,
+    "status": []
+  },
   "content": {
     "type": "UNDANG_UNDANG",
     "id": "",
@@ -424,13 +433,5 @@
         ]
       }
     ]
-  },
-  "metadata": {
-    "lembaranNegaraNumber": 2,
-    "lembaranNegaraYear": 1982,
-    "tambahanLembaranNumber": 3211,
-    "number": 1,
-    "topic": "Pengesahan Konvensi Wina Mengenai Hubungan Diplomatik Beserta Protokol Opsionalnya Mengenai Hal Memperoleh Kewarganegaraan (vienna Convention On Diplomatic Relations And Optional Protocol To The Vienna Convertion On Diplomatic Relations Concerning Acquisition Of Nationality, 1961) Dan Pengesahan Konvensi Wina Mengenai Hubungan Konsuler Beserta Protocol Opsionalnya Mengenai Hal Memperoleh Kewarganegaraan (vienna Convention On Consular Relations And Optional Protocol To The Vienna Convention On Consular Relations Concerning Acquisition Of Nationality, 1963)",
-    "year": 1982
   }
 }

@@ -1,4 +1,19 @@
 {
+  "metadata": {
+    "lembaranNegaraNumber": 1,
+    "lembaranNegaraYear": 1974,
+    "tambahanLembaranNumber": 3019,
+    "number": 1,
+    "topic": "Perkawinan",
+    "year": 1974,
+    "status": [
+      "Dicabut UU - Pasal 63 ayat (2) dicabut dengan UU No. 7/1989",
+      "Mencabut Stbl. - Stb.1933 No. 74 dan Stb. 1898 No. 158",
+      "Diubah Putusan Mahkamah Konstitusi - No. 46/PUU-VIII/2010, untuk Pasal 43 ayat (1) bertentangan dengan Undang-Undang Dasar Negara Republik Indonesia Tahun 1945 dan tidak memiliki kekuatan hukum mengikat",
+      "Diubah Putusan Mahkamah Konstitusi - No. 69/PUU-XIII/2015, untuk Pasal 29 ayat (1), ayat (3), dan ayat (4) bertentangan dengan Undang-Undang Dasar Negara Republik Indonesia Tahun 1945 dan tidak mempunyai kekuatan hukum mengikat secara bersyarat",
+      "Diubah UU - UU No. 16/2019"
+    ]
+  },
   "content": {
     "type": "UNDANG_UNDANG",
     "id": "",
@@ -4940,13 +4955,5 @@
         ]
       }
     ]
-  },
-  "metadata": {
-    "lembaranNegaraNumber": 1,
-    "lembaranNegaraYear": 1974,
-    "tambahanLembaranNumber": 3019,
-    "number": 1,
-    "topic": "Perkawinan",
-    "year": 1974
   }
 }

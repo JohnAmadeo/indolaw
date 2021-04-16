@@ -1,4 +1,39 @@
 {
+  "metadata": {
+    "lembaranNegaraNumber": 39,
+    "lembaranNegaraYear": 2003,
+    "tambahanLembaranNumber": 4279,
+    "number": 13,
+    "topic": "Ketenagakerjaan",
+    "year": 2003,
+    "status": [
+      "Mencabut Stbl. - 1887 No.8 Ordonansi tentang Pengerahan Orang Indonesia Untuk Melakukan Pekerjaan Di Luar Indonesia",
+      "Mencabut Stbl. - 1925 No. 647 Peraturan tentang Pembatasan Kerja Anak Dan Kerja Malam Bagi Wanita",
+      "Mencabut Stbl. - 1926 No. 87Peraturan mengenai Kerja Anak anak Dan Orang Muda Di Atas Kapal",
+      "Mencabut Stbl. - 1936 No. 208 Ordonansi untuk Mengatur Kegiatan kegiatan Mencari Calon Pekerja",
+      "Mencabut Stbl. - 1939 No. 545 Ordonansi tentang Pemulangan Buruh Yang Diterima Atau Dikerahkan Dari Luar Indonesia",
+      "Mencabut Stbl. - 1949 No. 8 tentang Pembatasan Kerja Anak anak",
+      "Mencabut UU - No. 1/1951 tentang Pernyataan Berlakunya Undang undang Kerja Tahun 1948 Nomor 12 Dari Republik Indonesia Untuk Seluruh Indonesia",
+      "Mencabut UU - No. 21/1954 tentang Perjanjian Perburuhan Antara Serikat Buruh Dan Majikan",
+      "Mencabut UU - No. 3/1958 tentang Penempatan Tenaga Asing",
+      "Mencabut UU - No. 8/1961tentang Wajib Kerja Sarjana",
+      "Mencabut UU - No. 7 Pnps 1963 tentang Pencegahan Pemogokan dan/atau Penutupan (Lock Out) Di Perusahaan, Jawatan, dan Badan Yang Vital",
+      "Mencabut UU - No. 14/1969 tentang Ketentuan ketentuan Pokok Mengenai Tenaga Kerja",
+      "Mencabut UU - No. 25/1997 tentang Ketenagakerjaan",
+      "Mencabut UU - No. 11/1998 tentang Perubahan Berlakunya Undang-undang Nomor 25 Tahun 1997 tentang Ketenagakerjaan",
+      "Mencabut UU - No. 28/2000 tentang Penetapan Perpu No. 3 / 2000 tentang Perubahan Atas UU No. 11 / 1998 tentang Perubahan Berlakunya UU No. 25 / 1997 tentang Ketenagakerjaan Menjadi UU",
+      "Dicabut Putusan Mahkamah Konstitusi - No. 012/PUU/I/2003, Pasal 158, Pasal 159, Pasal 160, Pasal 170, Pasal 171, dan Pasal 186 bertentangan dengan Undang - Undang Dasar Negara Republik Indonesia Tahun 1945 dan tidak mempunyai kekuatan hukum mengikat",
+      "Dicabut Putusan Mahkamah Konstitusi - No.115/PUU-VII/2009, Pasal 120 ayat (3) tidakmemiliki kekuatan hukum mengikat;",
+      "Dicabut Putusan Mahkamah Konstitusi - No. 19/PUU-IX/2011, Pasal 164 ayat (3) frasa “perusahaan tutup” tidak memiliki kekuatan hukum mengikat sepanjang tidak dimaknai “perusahaan tutup permanen atau perusahaan tutuptidak untuk sementara waktu",
+      "Dicabut Putusan Mahkamah Konstitusi - No.27/PUU-IX/2011, Pasal 65 ayat (7) dan Pasal 66 ayat (2) huruf b bertentangan dengan UUD 1945.",
+      "Dicabut Putusan Mahkamah Konstitusi - No.37/PUU-IX/2011, Pasal 155 ayat (2) tidak mempunyai kekuatan hukum mengikat sepanjangtidak dimaknai belum berkekuatan hukum tetap",
+      "Dicabut Putusan Mahkamah Konstitusi - No.58/PUU-IX/2011, Pasal 169 ayat (1) huruf c, tidakmempunyai kekuatan hukum mengikat",
+      "Dicabut Putusan Mahkamah Konstitusi - No.100/PUU-X/2012, Pasal 96 tidak mempunyai kekuatan hukum mengikat",
+      "Dicabut Putusan Mahkamah Konstitusi - No.67/PUU-XI/2013, Pasal 95 ayat (4) tidak memiliki kekuatan hukum mengikat",
+      "Dicabut Putusan Mahkamah Konstitusi - No. 7/PUU-XII/2014, Pasal 59 ayat (7) tidak mempunyai kekuatan hukum mengikat",
+      "Dicabut Putusan Mahkamah Konstitusi - No.72/PUU-XIII/2015, Pasal 90 ayat (2) tidak memiliki kekuatan hukum mengikat."
+    ]
+  },
   "content": {
     "type": "UNDANG_UNDANG",
     "id": "",
@@ -21116,13 +21151,5 @@
         ]
       }
     ]
-  },
-  "metadata": {
-    "lembaranNegaraNumber": 39,
-    "lembaranNegaraYear": 2003,
-    "tambahanLembaranNumber": 4279,
-    "number": 13,
-    "topic": "Ketenagakerjaan",
-    "year": 2003
   }
 }
