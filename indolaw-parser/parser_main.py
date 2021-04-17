@@ -1,3 +1,4 @@
+#!/usr/bin/env python3
 import json
 import sys
 from typing import Any, Dict, List, Tuple, Union
@@ -5,6 +6,7 @@ from typing import Any, Dict, List, Tuple, Union
 from parser_types import (
     NORMAL_LIST_INDEX_STRUCTURES,
     PENJELASAN_LIST_INDEX_STRUCTURES,
+    PlaintextInListItemScenario,
     Structure,
     TEXT_BLOCK_STRUCTURES,
     PRIMITIVE_STRUCTURES,
@@ -12,6 +14,9 @@ from parser_types import (
     ComplexNode
 )
 from parser_is_start_of_x import (
+    is_start_of_lembaran_number,
+    is_start_of_number_with_right_bracket,
+    is_start_of_pasal,
     is_start_of_penjelasan_angka,
     is_start_of_penjelasan_ayat,
     is_start_of_penjelasan_huruf,
@@ -27,12 +32,13 @@ from parser_is_start_of_x import (
     is_start_of_unordered_list_item,
 )
 from parser_utils import (
-    convert_tree_to_json, extract_metadata_from_tree,
+    convert_tree_to_json,
+    extract_metadata_from_tree,
+    gen_plaintext_in_list_item_scenario_from_user,
     get_list_index_type,
     is_next_list_index_number,
-    clean_law,
+    load_clean_law,
     print_around,
-    print_law
 )
 
 '''
@@ -88,14 +94,24 @@ def parse_undang_undang(root: ComplexNode, law: List[str]):
         law: Ordered list of strings that contain the text of the law we want to parse
     """
     end_index = parse_opening(root, law, 0)
+    start_index = end_index+1
+
+    child_structure = Structure.BAB
+    if is_start_of_pasal(law, start_index):
+        '''
+        From UU 1 1928 Tentang Konvensi Vina, which is so short it just has PASALs without BABs
+        '''
+        child_structure = Structure.PASAL
+
     end_index = parse_complex_structure(
         root,
         law,
-        start_index=end_index+1,
+        start_index,
         ancestor_structures=[],
         sibling_structures=[Structure.PENJELASAN],
-        child_structures=[Structure.BAB, Structure.CLOSING],
+        child_structures=[child_structure, Structure.CLOSING],
     )
+
     _ = parse_penjelasan(root, law, start_index=end_index+1)
 
 
@@ -853,6 +869,8 @@ def parse_list(parent: ComplexNode, law: List[str], start_index: int) -> int:
     parent.add_child(list_node)
 
     non_recursive_ancestors = [
+        Structure.PRINCIPLES,
+        Structure.AGREEMENT,
         Structure.PASAL,
         Structure.PARAGRAF,
         Structure.BAGIAN,
@@ -861,16 +879,21 @@ def parse_list(parent: ComplexNode, law: List[str], start_index: int) -> int:
         Structure.PENJELASAN,
         Structure.PENJELASAN_PASAL_DEMI_PASAL,
     ]
+    sibling_ancestors = [Structure.PLAINTEXT]
 
     initial_start_index = start_index
     end_index = start_index-1
     while end_index < len(law)-1:
-
         not_first_line = start_index > initial_start_index
-        start_of_non_recursive_ancestors = is_start_of_any(
-            non_recursive_ancestors, law, start_index)
-        if not_first_line and start_of_non_recursive_ancestors:
+        start_of_ancestor_or_sibling = is_start_of_any(
+            non_recursive_ancestors+sibling_ancestors,
+            law,
+            start_index
+        )
+        if not_first_line and start_of_ancestor_or_sibling:
             return end_index
+
+        # if plaintext, could be child of list, or sibling of list
 
         '''
         If there is already 1 list item parsed, we need to check if the next list item
@@ -974,6 +997,12 @@ def parse_list(parent: ComplexNode, law: List[str], start_index: int) -> int:
 def parse_penjelasan_list_item(parent: ComplexNode, law: List[str], start_index: int) -> int:
     '''
     TODO(johnamadeo)
+
+    This doesn't work for nested LIST w/ PENJELASAN_LIST_ITEM when
+    the line after the LIST_INDEX is NOT the start of the nested LIST
+    w/ PENJELASAN_LIST_ITEM
+
+    (e.g try it on Pasal 53 in PENJELASAN of UU 40 2007)
     '''
     penjelasan_list_item_node = ComplexNode(
         type=Structure.PENJELASAN_LIST_ITEM)
@@ -1085,12 +1114,44 @@ def parse_list_item(parent: ComplexNode, law: List[str], start_index: int) -> in
         type=Structure.PLAINTEXT, text=law[start_index+1]))
 
     '''
-    the 3rd line is either a nested list/nested unordered list that is the child of this list item,
-    or it marks the start of a sibling or ancestor structure
+    The 3rd line can be one of 2 scenarios.
+    
+    Scenario 1
+    ----------- 
+    The 3rd line is actually not part of the list, but marks the start of a sibling or ancestor structure of the LIST
 
-    TODO(johnamadeo): this isn't always true in rare cases (usually in Penjelasan Umum). For an e.g
-    outside of Penjelasan, see Pasal 192 UU 13 2003
+    e.g UU 8 1997 Tentang Dokumen Perusahaan
+    Pasal 18
+    (1) 
+    Dokumen perusahaan...
+    (2) 
+    Penyerahan sebagaimana...
+        a.
+        ...
+        b.
+        ...
+        c.
+        ...
+    (3) 
+    Pada berita acara...
+    Pasal 19 <-- 3RD LINE
+
+    Scenario 2
+    -----------
+    The 3rd line marks the start of a child of the LIST_ITEM (almost always a nested list/nested unordered list)
+
+    e.g UU 8 1997 Tentang Dokumen Perusahaan
+    Pasal 18
+    (1)
+    Dokumen perusahaan tertentu...
+    (2) 
+    Penyerahan sebagaimana...
+        a. <---- 3RD LINE
+        keterangan tempat...
+        b. 
+        keterangan tentang...
     '''
+
     non_recursive_ancestors = [
         Structure.PASAL,
         Structure.PARAGRAF,
@@ -1126,9 +1187,71 @@ def parse_list_item(parent: ComplexNode, law: List[str], start_index: int) -> in
             return end_index
 
         child_structure = None
-        # TODO(johnamadeo): see pg 17 Omnibus Law for embedded pasal problem
         if is_start_of_plaintext(law, start_index):
-            child_structure = Structure.PLAINTEXT
+            '''
+            If the 3rd line is PLAINTEXT, it could be:
+            a) Sibling of the LIST the LIST_ITEM is in
+            b) child of the LIST_ITEM
+            c) an embedded law snippet
+
+            The most common occurrence of a) is when the LIST itself is part of a
+            sentence, and there's another PLAINTEXT after the LIST to complete the sentence.
+
+            Example a): Sibling of the LIST the LIST_ITEM is in
+            ----------------------------------------
+            e.g UU 8 1997 Tentang Dokumen Perusahaan
+
+            Pasal 30
+                Pada saat Undang-undang ini mulai berlaku:
+                    1. 
+                    Pasal 6 Kitab Undang-undang Hukum Dagang (Wetboek van Koophandel voor Indonesië, Staatsblad  1847 : 23); dan
+                    2. 
+                    semua peraturan perundang-undangan yang berkaitan dengan dokumen perusahaan dan ketentuan  peraturan perundang-undangan yang berkaitan dengan penyimpanan, pemindahan, penyerahan, dan  pemusnahan arsip yang bertentangan dengan Undang-undang ini,
+                dinyatakan tidak berlaku lagi. <----
+
+            e.g UU 20 2007 Tentang Perseroan Terbatas
+            Pasal 102
+                (1)
+                Direksi wajib meminta persetujuan RUPS untuk:
+                    a.
+                    mengalihkan kekayaan Perseroan; atau
+                    b.
+                    menjadikan jaminan utang kekayaan Perseroan;
+                yang merupakan lebih dari 50% (lima puluh persen) jumlah kekayaan bersih Perseroan  dalam 1 (satu) transaksi atau lebih, baik yang berkaitan satu sama lain maupun tidak. <----
+
+            Example c): An embedded law snippet
+            ----------------------------------------
+            The snippet below is a pattern found in UU that modify other UU. Pasal 17 of this UU is modifying
+            Pasal 1 of another UU. Hence, the line " 'Pasal 1 " is a plaintext.
+
+            e.g UU 11 2020 Tentang Cipta Kerja
+
+            Pasal 17
+
+            Beberapa ketentuan dalam Undang-Undang Nomor 26 Tahun 2007 tentang Penataan Ruang... diubah sebagai berikut:
+
+            1. 
+            Ketentuan Pasal 1 angka 7, angka 8, dan angka 32 diubah sehingga Pasal 1 berbunyi sebagai berikut:
+                'Pasal 1
+                    Dalam Undang-Undang ini yang dimaksud dengan:
+                        1. 
+                        Ruang adalah wadah yang meliputi ruang darat...
+            '''
+            scenario = gen_plaintext_in_list_item_scenario_from_user(
+                law,
+                start_index,
+            )
+
+            if scenario == PlaintextInListItemScenario.SIBLING_OF_LIST:
+                return end_index
+            elif scenario == PlaintextInListItemScenario.CHILD_OF_LIST_ITEM:
+                child_structure = Structure.PLAINTEXT
+            elif scenario == PlaintextInListItemScenario.EMBEDDED_LAW_SNIPPET:
+                crash(
+                    law,
+                    start_index,
+                    f'TODO(johnamadeo): Implement handling of embedded law snippets on line: {law[start_index]}'
+                )
         elif is_start_of_list_item(law, start_index):
             '''
             Need to decide if the list is a sibling, ancestor or child list.
@@ -1163,6 +1286,7 @@ def parse_list_item(parent: ComplexNode, law: List[str], start_index: int) -> in
         assert child_structure is not None  # mypy type hint
         end_index = parse_structure(
             list_item_node, child_structure, law, start_index)
+
         start_index = end_index + 1
 
     return end_index
@@ -1203,6 +1327,9 @@ def parse_list_index(parent: ComplexNode, law: List[str], i: int) -> None:
     elif is_start_of_number_with_brackets(law, i):
         parent.add_child(PrimitiveNode(
             type=Structure.NUMBER_WITH_BRACKETS, text=law[i]))
+    elif is_start_of_number_with_right_bracket(law, i):
+        parent.add_child(PrimitiveNode(
+            type=Structure.NUMBER_WITH_RIGHT_BRACKET, text=law[i]))
     elif is_start_of_penjelasan_ayat(law, i):
         parent.add_child(PrimitiveNode(
             type=Structure.PENJELASAN_AYAT, text=law[i]))
@@ -1288,14 +1415,16 @@ def parse_closing(parent: ComplexNode, law: List[str], start_index: int) -> int:
     closing_node = ComplexNode(type=Structure.CLOSING)
     parent.add_child(closing_node)
 
-    for i in range(10):
+    i = 0
+    while not is_start_of_lembaran_number(law, start_index+i):
         closing_node.add_child(PrimitiveNode(
             type=Structure.PLAINTEXT, text=law[start_index+i]))
+        i += 1
 
     closing_node.add_child(PrimitiveNode(
-        type=Structure.LEMBARAN_NUMBER, text=law[start_index+10]))
+        type=Structure.LEMBARAN_NUMBER, text=law[start_index+i]))
 
-    end_index = start_index+10
+    end_index = start_index+i
     return end_index
 
 
@@ -1417,6 +1546,21 @@ def parse_penjelasan_pasal_demi_pasal(parent: ComplexNode, law: List[str], start
 
     penjelasan_pasal_demi_pasal.add_child(PrimitiveNode(
         type=Structure.PENJELASAN_PASAL_DEMI_PASAL_TITLE, text=law[start_index]))
+
+    if not is_start_of_pasal(law, start_index+1):
+        '''
+        TODO(@johnamadeo): Covers edge case where the content of PENJELASAN_PASAL_DEMI_PASAL
+        is just a 'Cukup Jelas.' followed by the Tambahan Lembaran Negara number; but may need 
+        to make more robust in the future if there are UU where the content is not under PASAL, 
+        but still has multiple TEXT_BLOCK_STRUCTURES
+
+        e.g UU 1 1982 Konvensi Vina
+        '''
+        penjelasan_pasal_demi_pasal.add_child(PrimitiveNode(
+            type=Structure.PLAINTEXT, text=law[start_index+1]))
+        penjelasan_pasal_demi_pasal.add_child(PrimitiveNode(
+            type=Structure.PLAINTEXT, text=law[start_index+2]))
+        return start_index+2
 
     end_index = parse_complex_structure(
         penjelasan_pasal_demi_pasal,
@@ -1669,7 +1813,6 @@ def print_tree() -> None:
 
 
 def crash(law: List[str], i: int, error_message: str) -> None:
-    # print_tree()
     print_around(law, i)
 
     if ROOT is not None:
@@ -1685,23 +1828,12 @@ def crash(law: List[str], i: int, error_message: str) -> None:
 
 if __name__ == "__main__":
     if len(sys.argv) < 2:
-        print('e.g python3 parser.py omnibus_law_m1')
+        print('e.g python3 parser.py uu_18_2017')
         exit()
 
     filename = sys.argv[1]
-    file = open(
-        filename + '.txt',
-        mode='r',
-        encoding='utf-8-sig')
-    law = file.read().split("\n")
-    law = clean_law(law)
 
-    with open(filename + '_clean.txt', 'w') as outfile:
-        json.dump(
-            law,
-            outfile,
-            indent=2
-        )
+    law = load_clean_law(filename)
 
     if len(sys.argv) >= 3 and sys.argv[2] == '--clean':
         exit()

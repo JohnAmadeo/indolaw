@@ -1,23 +1,21 @@
+const trayColors = {
+  background: "#373d3f",
+  text: "#f2f2f2",
+  textSecondary: "#afb1b2",
+};
+
 export const colors = {
-  trayBackground: "#0e7aaa",
   background: "#ffffff",
   text: "#514d48",
-  linkText: "#0e7aaa",
-  tray: {
-    text: "#f2f2f2",
-    textSecondary: "#cccccc",
-  },
+  linkText: "#373d3f",
+  tray: trayColors,
 };
 
 export const darkColors = {
-  trayBackground: "#2e3437",
-  background: "#282d30",
+  background: "#1b1c1d",
   text: "#ffffff",
   linkText: "#1ecbe1",
-  tray: {
-    text: "#f3f3f3",
-    textSecondary: "#cccccc",
-  },
+  tray: trayColors,
 };
 
 export const fonts = {

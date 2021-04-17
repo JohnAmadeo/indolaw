@@ -1,4 +1,17 @@
 {
+  "metadata": {
+    "lembaranNegaraNumber": 77,
+    "lembaranNegaraYear": 1986,
+    "tambahanLembaranNumber": 3344,
+    "number": 5,
+    "topic": "Peradilan Tata Usaha Negara",
+    "year": 1986,
+    "status": [
+      "Diubah UU - UU No. 51 Tahun 2009 tentang Perubahan Kedua Atas UU No. 5 Tahun 1986 tentang Peradilan Tata Usaha Negara",
+      "Diubah UU - UU No. 9 Tahun 2004 tentang Perubahan atas Undang-Undang Nomor 5 Tahun 1986 tentang Peradilan Tata Usaha Negara",
+      "Dicabut Putusan Mahkamah Konstitusi - No. 17/PUU-IX/2011 untuk Pasal 109 ayat (3) dinyatakan bertentangan dengan Pasal 28D ayat (1) Undang-Undang Dasar Negara Republik Indonesia Tahun 1945 dan tidak mempunyai kekuatan hukum mengikat"
+    ]
+  },
   "content": {
     "type": "UNDANG_UNDANG",
     "id": "",
@@ -14244,13 +14257,5 @@
         ]
       }
     ]
-  },
-  "metadata": {
-    "lembaranNegaraNumber": 77,
-    "lembaranNegaraYear": 1986,
-    "tambahanLembaranNumber": 3344,
-    "number": 5,
-    "topic": "Peradilan Tata Usaha Negara",
-    "year": 1986
   }
 }

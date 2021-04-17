@@ -27,7 +27,8 @@ export default function TableOfContentsGroup(props: {
   const px = (num: number) => `${num}px`;
   const style = {
     titleSize: px(base),
-    numberSize: px((4 / 5) * base),
+    numberSize: '14px',
+    // numberSize: px((4 / 5) * base),
     iconSize: px((4 / 3) * base),
     iconMarginLeft: px((-1 / 4) * base),
     groupPaddingVert: px((1 / 4) * base),
@@ -66,7 +67,7 @@ export default function TableOfContentsGroup(props: {
           grid-template-columns: ${style.iconSize} 1fr;
           color: ${colors.tray.text};
           font-family: ${fonts.sans};
-          padding: ${style.groupPaddingVert};
+          padding: ${style.groupPaddingVert} 0;
           cursor: ${isMobile ? "pointer" : "auto"};
         }
 
@@ -86,7 +87,7 @@ export default function TableOfContentsGroup(props: {
 
         .title:hover {
           color: ${!isMobile && isLink(structure)
-          ? colors.text
+          ? colors.tray.textSecondary
           : colors.tray.text};
         }
 

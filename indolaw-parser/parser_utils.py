@@ -1,15 +1,20 @@
 from typing import Any, Dict, List, Optional, Union
 from itertools import filterfalse
 import re
+from os import system, name, path
+from colorama import init
+from termcolor import colored
 
 from parser_types import (
     ComplexNode,
     PrimitiveNode,
     Structure,
     LIST_INDEX_STRUCTURES,
+    PlaintextInListItemScenario
 )
 from parser_is_start_of_x import (
     is_start_of_number_with_brackets_str,
+    is_start_of_number_with_right_bracket_str,
     is_start_of_number_with_dot_str,
     is_start_of_letter_with_dot_str,
     is_start_of_first_list_index,
@@ -93,6 +98,8 @@ def get_list_index_type(list_index_str: str) -> Optional[Structure]:
     """
     if is_start_of_number_with_brackets_str(list_index_str):
         return Structure.NUMBER_WITH_BRACKETS
+    elif is_start_of_number_with_right_bracket_str(list_index_str):
+        return Structure.NUMBER_WITH_RIGHT_BRACKET
     elif is_start_of_number_with_dot_str(list_index_str):
         return Structure.NUMBER_WITH_DOT
     elif is_start_of_letter_with_dot_str(list_index_str):
@@ -104,7 +111,7 @@ def get_list_index_type(list_index_str: str) -> Optional[Structure]:
     elif is_start_of_penjelasan_angka_str(list_index_str):
         return Structure.PENJELASAN_ANGKA
     else:
-        return None
+        raise Exception(f'the string "{list_index_str}" is not a LIST_INDEX')
 
 
 def get_list_index_as_num(list_index_str: str) -> int:
@@ -135,6 +142,8 @@ def get_list_index_as_num(list_index_str: str) -> int:
     regex = None
     if is_start_of_number_with_brackets_str(list_index_str):
         regex = r'\(([0-9]+)\)'
+    elif is_start_of_number_with_right_bracket_str(list_index_str):
+        regex = r'([0-9]+)\)'
     elif is_start_of_number_with_dot_str(list_index_str):
         regex = r'([0-9]+)\.'
     elif is_start_of_letter_with_dot_str(list_index_str):
@@ -200,6 +209,47 @@ def is_next_list_index_number(list_index_a: str, list_index_b: str) -> bool:
     return get_list_index_as_num(list_index_a) + 1 == get_list_index_as_num(list_index_b)
 
 
+def load_clean_law(filename: str) -> List[str]:
+    should_clean_law = True
+    clean_filename = f'{filename}_clean.txt'
+
+    if path.isfile(clean_filename):
+        y = colored('y', 'green')
+        n = colored('n', 'red')
+        user_input = input(
+            f'{clean_filename} already exists. Do you want to use it?: {y} / {n} ? ')
+
+        if user_input == 'y':
+            should_clean_law = False
+
+    law: List[str] = []
+    if should_clean_law:
+        file = open(
+            filename + '.txt',
+            mode='r',
+            encoding='utf-8-sig')
+        law = file.read().split("\n")
+        law = clean_law(law)
+
+        with open(filename + '_clean.txt', 'w') as outfile:
+            txt_law = []
+            for i, line in enumerate(law):
+                if i < len(law) - 1:
+                    txt_law.append(f'{line}\n')
+                else:
+                    txt_law.append(f'{line}')
+            outfile.writelines(txt_law)
+
+    else:
+        file = open(
+            clean_filename,
+            mode='r',
+            encoding='utf-8-sig')
+        law = file.read().split("\n")
+
+    return law
+
+
 def clean_law(law: List[str]) -> List[str]:
     """Takes in a law (in the form of an ordered list of strings) and performs transformations
     that makes it easier to parse (while keeping it as a list of strings). The 2 transformations
@@ -229,9 +279,20 @@ def clean_law(law: List[str]) -> List[str]:
     """
 
     '''
-    Remove semantically meaningless lines e.g '. . .' or '1 / 23'
+    Remove semantically meaningless text e.g '. . .' or '1 / 23'
+    
+    Mostly, they come in whole lines, but sometimes they get squashed
+    onto the end of real lines 
+    
+    e.g a real line ending in '2 / 43' in UU 18 2017 
     '''
     law = list(filterfalse(ignore_line, law))
+    new_law = []
+    for line in law:
+        result = re.split(r'[0-9]+ / [0-9]+', line)
+        new_law.append(result[0])
+
+    law = new_law
 
     '''
     Deal with list indexes. See clean_maybe_list_item for more.
@@ -246,16 +307,52 @@ def clean_law(law: List[str]) -> List[str]:
     '''
     Stitch together plaintext lines that get separated into 2 lines due to page breaks
     '''
-    new_law = []
+    new_law = clean_split_plaintext(law)
+
+    return new_law
+
+
+def clean_split_plaintext(law: List[str]) -> List[str]:
+    '''
+    Stitch together plaintext lines that get separated into 2 lines due to page breaks
+    '''
+    print('Checking for lines that have been accidentally split into two...')
+
+    new_law: List[str] = []
     for i, line in enumerate(law):
         '''
         the line length check is a heuristic to filter out false positives from the
         lowercase check due to list indexes e.g 'e.'
+
+        The logic below is imprecise; it's just all heuristics & hands off to the user
+        to make a decision
         '''
-        is_curr_line_split_plaintext = len(law[i]) > 10 and line[0].islower()
-        is_prev_line_split_plaintext = len(law[i-1]) > 10 if i > 0 else False
-        if is_curr_line_split_plaintext and is_prev_line_split_plaintext:
-            new_law[-1] += (' '+line)
+        really_long = len(law[i]) > 75
+        long_enough = len(law[i]) > 10
+        starts_with_lowercase = law[i][0].islower()
+        starts_with_number = law[i][0].isnumeric()
+
+        is_curr_line_maybe_split_plaintext = \
+            really_long or \
+            (long_enough and (starts_with_lowercase or starts_with_number))
+
+        is_prev_line_maybe_split_plaintext = i > 0 and len(law[i-1]) > 10
+
+        if is_curr_line_maybe_split_plaintext and is_prev_line_maybe_split_plaintext:
+            user_input = input(f'''
+---------------------------------
+{law[i-1]}
+- - - - - - - - - - - - - - - - -
+{law[i]}
+---------------------------------
+
+Combine lines into one: {colored('y', 'green')} / {colored('n', 'red')} ? 
+''')
+
+            if user_input.lower() == 'y':
+                new_law[-1] += (' '+line)
+            else:
+                new_law.append(line)
         else:
             new_law.append(line)
 
@@ -337,9 +434,15 @@ def get_squashed_list_item(line):
         r'(\.)',
         r'(; dan/atau)',
         r'(; dan)',
+        r'(,)',
     ]
-    list_index_regex = [r'([a-z]\. )', r'([0-9]+\. )', r'(\([0-9]+\) )']
-    unordered_list_index_regex = [r'(\u2212 )']
+    list_index_regex = [
+        r'([a-z]\. )',  # LETTER_WITH_DOT
+        r'([0-9]+\. )',  # NUMBER_WITH_DOT
+        r'(\([0-9]+\) )',  # NUMBER_WITH_BRACKETS
+        r'([0-9]+\) )'  # NUMBER_WITH_RIGHT_BRACKET
+    ]
+    unordered_list_index_regex = [r'(\u2212 )', r'(- )']
     penjelasan_list_index_regex = [
         r'(Huruf [a-z])',
         r'(Ayat \([0-9]+\))',
@@ -368,7 +471,22 @@ def get_squashed_list_item(line):
         return None
 
     start_of_squashed_list_item_idx = earliest_match.start(2)
-    return start_of_squashed_list_item_idx
+
+#     user_input = input(f'''
+# ---------------
+# {line[:start_of_squashed_list_item_idx-1].strip()}
+# - - - - - - - -
+# {line[start_of_squashed_list_item_idx:]}
+# ---------------
+
+# Split line? {colored('y', 'green')} / {colored('n', 'red')}
+# ''')
+    user_input = 'y'
+
+    if user_input == 'y':
+        return start_of_squashed_list_item_idx
+    else:
+        return None
 
 
 def get_next_list_index(list_index: str) -> str:
@@ -381,14 +499,17 @@ def get_next_list_index(list_index: str) -> str:
         str: string that represents the next LIST_INDEX
 
     Examples:
-        >>> get_next_list_index(1, Structure.NUMBER_WITH_DOT)
+        >>> get_next_list_index('1.', Structure.NUMBER_WITH_DOT)
         '2.'
 
-        >>> get_next_list_index(1, Structure.NUMBER_WITH_BRACKETS)
+        >>> get_next_list_index('(1)', Structure.NUMBER_WITH_BRACKETS)
         '(2)'
 
-        >>> get_next_list_index(1, Structure.LETTER_WITH_DOT)
+        >>> get_next_list_index('a.', Structure.LETTER_WITH_DOT)
         'b.'
+
+        >>> get_next_list_index('1)', Structure.LETTER_WITH_DOT)
+        '2)'
     """
     list_index_num = get_list_index_as_num(list_index)
     list_index_type = get_list_index_type(list_index)
@@ -400,6 +521,8 @@ def get_next_list_index(list_index: str) -> str:
         return f'{list_index_num+1}.'
     elif list_index_type == Structure.NUMBER_WITH_BRACKETS:
         return f'({list_index_num+1})'
+    elif list_index_type == Structure.NUMBER_WITH_RIGHT_BRACKET:
+        return f'{list_index_num+1})'
     elif list_index_type == Structure.LETTER_WITH_DOT:
         return f'{chr(96+list_index_num+1)}.'
     else:
@@ -714,3 +837,38 @@ def get_id(node: ComplexNode) -> str:
 def print_law(law: List[str]) -> None:
     for i, l in enumerate(law):
         print(f'[{i}] {l}\n')
+
+
+def clear():
+    # i.e Windows
+    if name == 'nt':
+        _ = system('cls')
+    else:
+        _ = system('clear')
+
+
+def gen_plaintext_in_list_item_scenario_from_user(law: List[str], i: int) -> PlaintextInListItemScenario:
+    user_input = input(f'''
+---------------
+{law[i-2]}
+- - - - - - - -
+{law[i-1]}
+---------------
+
+{law[i]}
+---------------
+This PLAINTEXT is the 3rd line of a LIST_INDEX. Is it:
+- a sibling of the LIST this LIST_ITEM is in? (s) 
+- a child of the LIST ITEM? (c)
+- an embedded structure e.g is this UU modifying other UU? (e)
+''')
+
+    user_input = user_input.lower()
+    if user_input == 's':
+        return PlaintextInListItemScenario.SIBLING_OF_LIST
+    elif user_input == 'c':
+        return PlaintextInListItemScenario.CHILD_OF_LIST_ITEM
+    elif user_input == 'e':
+        return PlaintextInListItemScenario.EMBEDDED_LAW_SNIPPET
+    else:
+        raise Exception(f'Invalid command "{user_input}" entered by user')

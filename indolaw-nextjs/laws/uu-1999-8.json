@@ -1,4 +1,12 @@
 {
+  "metadata": {
+    "lembaranNegaraNumber": 42,
+    "lembaranNegaraYear": 1999,
+    "tambahanLembaranNumber": 3821,
+    "number": 8,
+    "topic": "Perlindungan Konsumen",
+    "year": 1999
+  },
   "content": {
     "type": "UNDANG_UNDANG",
     "id": "",
@@ -9272,13 +9280,5 @@
         ]
       }
     ]
-  },
-  "metadata": {
-    "lembaranNegaraNumber": 42,
-    "lembaranNegaraYear": 1999,
-    "tambahanLembaranNumber": 3821,
-    "number": 8,
-    "topic": "Perlindungan Konsumen",
-    "year": 1999
   }
 }

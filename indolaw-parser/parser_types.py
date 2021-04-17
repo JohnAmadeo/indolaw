@@ -44,6 +44,7 @@ class Structure(Enum):
     LIST_ITEM = "LIST_ITEM"
     LIST_INDEX = "LIST_INDEX"
     NUMBER_WITH_BRACKETS = "NUMBER_WITH_BRACKETS"
+    NUMBER_WITH_RIGHT_BRACKET = "NUMBER_WITH_RIGHT_BRACKET"
     NUMBER_WITH_DOT = "NUMBER_WITH_DOT"
     LETTER_WITH_DOT = "LETTER_WITH_DOT"
     PENJELASAN_HURUF = "PENJELASAN_HURUF"
@@ -80,6 +81,7 @@ TODO(johnamadeo): add 6th type Structure.PENJELASAN_ANGKA
 '''
 LIST_INDEX_STRUCTURES = [
     Structure.NUMBER_WITH_BRACKETS,
+    Structure.NUMBER_WITH_RIGHT_BRACKET,
     Structure.NUMBER_WITH_DOT,
     Structure.LETTER_WITH_DOT,
     Structure.PENJELASAN_AYAT,
@@ -89,6 +91,7 @@ LIST_INDEX_STRUCTURES = [
 
 NORMAL_LIST_INDEX_STRUCTURES = [
     Structure.NUMBER_WITH_BRACKETS,
+    Structure.NUMBER_WITH_RIGHT_BRACKET,
     Structure.NUMBER_WITH_DOT,
     Structure.LETTER_WITH_DOT,
 ]
@@ -153,3 +156,9 @@ class ComplexNode:
     def add_child(self, child: Union[PrimitiveNode, 'ComplexNode']):
         self.children.append(child)
         child.parent = self
+
+
+class PlaintextInListItemScenario(Enum):
+    SIBLING_OF_LIST = "SIBLING_OF_LIST"
+    CHILD_OF_LIST_ITEM = "CHILD_OF_LIST_ITEM"
+    EMBEDDED_LAW_SNIPPET = "EMBEDDED_LAW_SNIPPET"

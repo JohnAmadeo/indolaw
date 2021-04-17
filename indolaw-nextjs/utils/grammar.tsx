@@ -75,7 +75,8 @@ export interface Metadata {
   tambahanLembaranNumber: number,
   number: number,
   topic: string,
-  year: number
+  year: number,
+  status: Array<string>,
 }
 
 export interface Primitive {

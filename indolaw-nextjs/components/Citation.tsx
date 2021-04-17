@@ -1,7 +1,10 @@
 import { Metadata } from "utils/grammar";
-import { colors, fonts } from "utils/theme";
+import { fonts } from "utils/theme";
 
-export default function Citation(props: { metadata: Metadata }): JSX.Element {
+export default function Citation(props: {
+  metadata: Metadata,
+  textColor: string,
+}): JSX.Element {
   const {
     lembaranNegaraNumber,
     lembaranNegaraYear,
@@ -15,8 +18,9 @@ export default function Citation(props: { metadata: Metadata }): JSX.Element {
     <div>
       <style jsx>{`
         div {
-          color: ${colors.tray.text};
+          color: ${props.textColor};
           font-family: ${fonts.sans};
+          font-size: 14px;
         }
 
         span {
