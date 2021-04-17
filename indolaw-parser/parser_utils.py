@@ -554,10 +554,12 @@ Below are lines {i} and the lines right before & after
 
 def convert_tree_to_json(node: Union[ComplexNode, PrimitiveNode], ketentuan_umum_list: List[str]) -> Dict[str, Any]:
     if isinstance(node, PrimitiveNode):
-        if node.type in [Structure.PLAINTEXT]:
+        if get_parent_node(node, Structure.BAB) is not None and node.type == Structure.PLAINTEXT:
             for title in ketentuan_umum_list:
                 index = node.text.upper().find(title.upper())
-                is_definition = node.text.find('adalah') >= 0
+
+                pasal_node = get_parent_node(node, Structure.PASAL)
+                is_definition = get_id(pasal_node) == 'pasal-1'
 
                 if is_word_part_of_text(node.text, title, index) and not is_definition:
                     text = node.text[index:index+len(title)]
@@ -589,6 +591,15 @@ def convert_tree_to_json(node: Union[ComplexNode, PrimitiveNode], ketentuan_umum
             'id': get_id(node),
             'children': [convert_tree_to_json(child, ketentuan_umum_list) for child in node.children],
         }
+
+def get_parent_node(node: Union[ComplexNode, PrimitiveNode], structure: Structure):
+    if node.parent:
+        if node.parent.type == structure:
+            return node.parent
+        
+        return get_parent_node(node.parent, structure)
+
+    return None
 
 def is_word_part_of_text(string: str, substring: str, start_index) -> bool:
     '''
@@ -872,3 +883,4 @@ This PLAINTEXT is the 3rd line of a LIST_INDEX. Is it:
         return PlaintextInListItemScenario.EMBEDDED_LAW_SNIPPET
     else:
         raise Exception(f'Invalid command "{user_input}" entered by user')
+
