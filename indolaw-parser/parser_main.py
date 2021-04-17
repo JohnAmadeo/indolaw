@@ -1841,18 +1841,9 @@ if __name__ == "__main__":
     ROOT = ComplexNode(type=Structure.UNDANG_UNDANG)
     parse_undang_undang(ROOT, law)
 
-    metadata = extract_metadata_from_tree(ROOT)
-
-    if len(sys.argv) >= 3 and sys.argv[2] == '--metadata':
-        with open(filename + '_metadata.json', 'w') as outfile:
-            json.dump(
-                metadata,
-                outfile,
-                indent=2
-            )
-        exit()
-
     assert ROOT is not None
+
+    metadata = extract_metadata_from_tree(ROOT)
 
     ketentuan_umum_list = sorted(metadata['ketentuan_umum'].keys(), key=lambda x: len(x), reverse=True)
     content = convert_tree_to_json(ROOT, ketentuan_umum_list)
