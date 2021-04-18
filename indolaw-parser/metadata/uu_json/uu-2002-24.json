@@ -1,0 +1,31 @@
+{
+  "status": [],
+  "topic": "Surat Utang Negara",
+  "year": 2002,
+  "number": 24,
+  "perkara": [
+    "003/PUU-I/2003"
+  ],
+  "lembaranNegaraNumber": "110",
+  "tambahanLembaranNegaraNumber": "4236",
+  "peraturanPelaksanaan": [
+    {
+      "pasal": "10",
+      "ayat": "2",
+      "peraturan": "Peraturan Menteri Keuangan No. 218/2007",
+      "keterangan": "Tata Cara Pembukaan Dan Pengelolaan Rekening Milik Bendahara Umum Negara"
+    },
+    {
+      "pasal": "13",
+      "ayat": "3",
+      "peraturan": "Peraturan Menteri Keuangan No. 43/2013",
+      "keterangan": "Lelang Surat Utang Negara Dalam Mata Uang Rupiah Dan Valuta Asing  Di Pasar Perdana Domestik"
+    },
+    {
+      "pasal": "18",
+      "ayat": "-",
+      "peraturan": "Peraturan Pemerintah No. 76/2005",
+      "keterangan": "Tata Cara Penatausahaan, Pertanggungjawaban, dan Publi-kasi Informasi atas Pengelolaan Surat Utang Negara."
+    }
+  ]
+}

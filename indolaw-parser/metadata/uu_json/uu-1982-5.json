@@ -1,0 +1,29 @@
+{
+  "status": [],
+  "topic": "Anggaran Pendapatan dan Belanja Negara Tahun Anggaran 1982/1983.",
+  "year": 1982,
+  "number": 5,
+  "perkara": [],
+  "lembaranNegaraNumber": "13",
+  "tambahanLembaranNegaraNumber": "3216",
+  "peraturanPelaksanaan": [
+    {
+      "pasal": "2",
+      "ayat": "6",
+      "peraturan": "Keputusan Presiden No. 75/1982",
+      "keterangan": "Perincian Sumber-Sumber Anggaran Rutin dan Sumber-Sumber Anggaran Pembangunan Tahun Anggaran 1982/1983"
+    },
+    {
+      "pasal": "2",
+      "ayat": "7",
+      "peraturan": "Keputusan Presiden No. 76/1982",
+      "keterangan": "Perincian Anggaran Belanja Negara Rutin Tahun Anggaran 1982/1983"
+    },
+    {
+      "pasal": "4",
+      "ayat": "1",
+      "peraturan": "Peraturan Pemerintah No. 32/1983",
+      "keterangan": "Pemindahan Sisa Anggaran Pembangunan Tahun Anggaran 1982/1983 kepada Tahun Anggaran 1983/1984"
+    }
+  ]
+}

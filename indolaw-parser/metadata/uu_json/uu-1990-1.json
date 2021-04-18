@@ -1,0 +1,29 @@
+{
+  "status": [],
+  "topic": "Anggaran Pendapatan dan Belanja Negara Tahun Anggaran 1990/1990.",
+  "year": 1990,
+  "number": 1,
+  "perkara": [],
+  "lembaranNegaraNumber": "10",
+  "tambahanLembaranNegaraNumber": "3403",
+  "peraturanPelaksanaan": [
+    {
+      "pasal": "2",
+      "ayat": "6",
+      "peraturan": "Keputusan Presiden No. 37/1990",
+      "keterangan": "Perincian Anggaran Belanja Negara Rutin Tahun Anggaran 1990/1991"
+    },
+    {
+      "pasal": "2",
+      "ayat": "7",
+      "peraturan": "Keputusan Presiden No. 38/1990",
+      "keterangan": "Perincian Anggaran Belanja Negara Pembangunan Tahun Anggaran 1990/1991"
+    },
+    {
+      "pasal": "4",
+      "ayat": "1",
+      "peraturan": "Peraturan Pemerintah No. 51/1991",
+      "keterangan": "Pemindahan Sisa Kredit Anggaran Pembangunan Tahun Anggaran 1990/1991 ke Tahun Anggaran 1991/1992"
+    }
+  ]
+}

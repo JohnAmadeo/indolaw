@@ -1,0 +1,29 @@
+{
+  "status": [],
+  "topic": "Anggaran Pendapatan dan Belanja Negara Tahun Anggaran 1979/1980.",
+  "year": 1979,
+  "number": 2,
+  "perkara": [],
+  "lembaranNegaraNumber": "6",
+  "tambahanLembaranNegaraNumber": "3131",
+  "peraturanPelaksanaan": [
+    {
+      "pasal": "2",
+      "ayat": "6",
+      "peraturan": "Keputusan Presiden No. 2/1980",
+      "keterangan": "Perincian Anggaran Belanja Negara Rutin Tahun Anggaran 1979/1980"
+    },
+    {
+      "pasal": "2",
+      "ayat": "7",
+      "peraturan": "Keputusan Presiden No. 3/1980",
+      "keterangan": "Perincian Anggaran Belanja Negara Pembangunan Tahun Anggaran 1979/1980"
+    },
+    {
+      "pasal": "4",
+      "ayat": "1",
+      "peraturan": "Peraturan Pemerintah No. 22/1980",
+      "keterangan": "Pemindahan Sisa Anggaran Pembangunan Tahun Anggaran 1979/1980 kepada Tahun Anggaran 1980/1981"
+    }
+  ]
+}

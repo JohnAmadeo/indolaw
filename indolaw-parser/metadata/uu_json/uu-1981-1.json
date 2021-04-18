@@ -1,0 +1,29 @@
+{
+  "status": [],
+  "topic": "Anggaran Pendapatan dan Belanja Negara Tahun Anggaran 1981/1982.",
+  "year": 1981,
+  "number": 1,
+  "perkara": [],
+  "lembaranNegaraNumber": "9",
+  "tambahanLembaranNegaraNumber": "3191",
+  "peraturanPelaksanaan": [
+    {
+      "pasal": "2",
+      "ayat": "6",
+      "peraturan": "Keputusan Presiden No. 42/1981",
+      "keterangan": "Perincian Sumber-Sumber Anggaran Rutin dan Sumber-Sumber Anggaran Pembangunan Tahun Anggaran 1981/1982"
+    },
+    {
+      "pasal": "2",
+      "ayat": "7",
+      "peraturan": "Keputusan Presiden No. 43/1981",
+      "keterangan": "Perincian Anggaran Belanja Negara Rutin Tahun Anggaran 1981/1982"
+    },
+    {
+      "pasal": "4",
+      "ayat": "1",
+      "peraturan": "Peraturan Pemerintah No. 20/1982",
+      "keterangan": "Pemindahan Sisa Anggaran Pembangunan Tahun Anggaran 1981/1982 kepada Tahun Anggaran 1982/1983"
+    }
+  ]
+}
