@@ -6,7 +6,7 @@ export default function TrayButton(props: {
   onClick: () => void,
   text: string,
 }): JSX.Element {
-  const { invertedColorScheme } = useAppContext();
+  const { colorScheme } = useAppContext();
   const { iconName, onClick, text } = props;
 
   const icon = iconName != null ? (
@@ -27,16 +27,20 @@ export default function TrayButton(props: {
         cursor: pointer;
         height: 36px;
         padding: 4px 20px;
-        background-color: ${invertedColorScheme.background};
+        background-color: ${colorScheme.tray.button};
         border-radius: 8px;
         border: 0;
-        color: ${invertedColorScheme.text};
+        color: ${colorScheme.tray.buttonText};
         font-family: ${fonts.sans};
         font-size: 14px;
       }
 
       button:focus {
         outline: none;
+      }
+
+      button:hover {
+        background-color: ${colorScheme.tray.buttonHover};
       }
 
       .material-icons.style {
