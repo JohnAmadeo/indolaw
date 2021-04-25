@@ -1,7 +1,7 @@
 import { CSSProperties } from "react";
 import { Primitive, Structure } from "utils/grammar";
 import Link from "next/link";
-import { useAppContext } from "utils/state-management/context-provider";
+import { useAppContext } from "utils/context-provider";
 
 export default function PrimitiveStructure(props: {
   structure: Primitive;

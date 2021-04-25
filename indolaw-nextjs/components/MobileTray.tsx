@@ -2,7 +2,7 @@ import { useState } from "react";
 import { LawData } from "utils/grammar";
 import { colors, fonts } from "utils/theme";
 import TableOfContentsGroup from "components/TableOfContentsGroup";
-import { useAppContext } from "utils/state-management/context-provider";
+import { useAppContext } from "utils/context-provider";
 import TrayButton from "./TrayButton";
 
 export default function MobileTray(props: { law: LawData }): JSX.Element {

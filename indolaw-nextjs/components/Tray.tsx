@@ -2,7 +2,7 @@ import { useState } from "react";
 import { LawData } from "utils/grammar";
 import { colors } from "utils/theme";
 import TableOfContentsGroup from "components/TableOfContentsGroup";
-import { useAppContext } from "utils/state-management/context-provider";
+import { useAppContext } from "utils/context-provider";
 import Citation from "./Citation";
 import Status from "./Status";
 import Divider from "./Divider";

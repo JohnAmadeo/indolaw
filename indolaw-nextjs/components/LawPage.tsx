@@ -3,7 +3,7 @@ import Law from "components/Law";
 import React from "react";
 import MobileTray from "components/MobileTray";
 import Head from "next/head";
-import { useAppContext } from "../utils/state-management/context-provider";
+import { useAppContext } from "../utils/context-provider";
 import { useMediaQuery } from "react-responsive";
 import Tray from "./Tray";
 

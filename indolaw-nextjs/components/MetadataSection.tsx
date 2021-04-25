@@ -1,5 +1,5 @@
 import { fonts } from "utils/theme";
-import { useAppContext } from "utils/state-management/context-provider";
+import { useAppContext } from "utils/context-provider";
 import Divider from "./Divider";
 
 export default function MetadataSection(props: {

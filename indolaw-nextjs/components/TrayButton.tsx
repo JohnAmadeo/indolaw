@@ -1,5 +1,5 @@
 import { fonts } from "utils/theme";
-import { useAppContext } from "utils/state-management/context-provider";
+import { useAppContext } from "utils/context-provider";
 
 export default function TrayButton(props: {
   iconName?: string,
