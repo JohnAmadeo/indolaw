@@ -1,5 +1,4 @@
 import Document, { Html, Head, Main, NextScript } from "next/document";
-import { ContextWrapper } from "../utils/state-management/context-provider";
 
 class MyDocument extends Document {
   static async getInitialProps(ctx) {
