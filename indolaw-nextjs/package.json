@@ -9,6 +9,7 @@
   },
   "dependencies": {
     "@types/react-responsive": "^8.0.2",
+    "clipboard-polyfill": "^3.0.3",
     "gray-matter": "^4.0.2",
     "next": "10.0.1",
     "react": "17.0.1",
@@ -21,6 +22,7 @@
     "@svgr/webpack": "^5.5.0",
     "@types/node": "^14.14.7",
     "@types/react": "^16.9.56",
+    "@types/react-dom": "^17.0.3",
     "next-react-svg": "^1.1.2",
     "typescript": "^4.0.5"
   }
