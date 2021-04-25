@@ -11,13 +11,6 @@ export default function PrimitiveStructure(props: {
 
   return (
     <div style={{ ...customStyle }}>
-      {/* 
-        TODO(johnamadeo: Figure out how to fix the styling hack below.
-        
-        Ideally we want consistent margins, but the problem is that 4px
-        top/bottom margins look great on everything other than consecutive
-        plaintext bloks with lots of words (mostly in Penjelasan)
-      */}
       <style jsx>{`
         div {
           margin: 4px 0 16px 0;
