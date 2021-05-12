@@ -556,7 +556,7 @@ def convert_tree_to_json(node: Union[ComplexNode, PrimitiveNode], ketentuan_umum
     if isinstance(node, PrimitiveNode):
         if get_parent_node(node, Structure.BAB) is not None and node.type == Structure.PLAINTEXT:
             for title in ketentuan_umum_list:
-                index = node.text.upper().find(title.upper())
+                index = node.text.upper().find(title)
 
                 pasal_node = get_parent_node(node, Structure.PASAL)
                 is_definition = get_id(pasal_node) == 'pasal-1'
@@ -574,8 +574,7 @@ def convert_tree_to_json(node: Union[ComplexNode, PrimitiveNode], ketentuan_umum
                     "Ipsum dolor sit amet" -> "${Ipsum} dolor sit amet"
                     "Lorem ipsum ipsum lorem" -> "${Lorem ipsum} ${ipsum} lorem"
                     '''
-
-                    match = re.findall(f'.*\${{.*{text}.*}}.*', node.text)
+                    match = re.findall(r'\$\{[^\}]*' + text + '[^\$]*\}', node.text)
                     is_part_of_other_definition = len(match) > 0
 
                     if not is_part_of_other_definition:
@@ -692,7 +691,7 @@ def extract_metadata_from_tree(undang_undang_node: ComplexNode) -> Dict[str, Any
                     title = definition_text[0].strip()
                     definition = definition_text[1].strip()
 
-                    ketentuan_umum[title] = definition
+                    ketentuan_umum[title.upper()] = definition
         else:
             title = None
             definition_list = []
@@ -705,7 +704,7 @@ def extract_metadata_from_tree(undang_undang_node: ComplexNode) -> Dict[str, Any
                         definition = " ".join([node.text for node in list_item.children])
                         definition_list.append(definition)
                 
-            ketentuan_umum[title] = "\n".join(definition_list)
+            ketentuan_umum[title.upper()] = "\n".join(definition_list)
         
         metadata['ketentuan_umum'] = ketentuan_umum
         
