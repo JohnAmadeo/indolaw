@@ -1,8 +1,13 @@
-import { Complex, renderChildren } from "utils/grammar";
+import { Complex, Metadata, renderChildren } from "utils/grammar";
 import { fonts } from "utils/theme";
+import Tooltip from "./Tooltip";
 
 // TODO(johnamadeo): Fix "Warning: Each child in a list should have a unique "key" prop." problem
-export default function Law(props: { law: Complex, colorScheme : any}): JSX.Element {
+export default function Law(props: {
+  metadata: Metadata;
+  law: Complex;
+  colorScheme: any;
+}): JSX.Element {
   return (
     <div>
       <style jsx>{`
@@ -12,6 +17,7 @@ export default function Law(props: { law: Complex, colorScheme : any}): JSX.Elem
         }
       `}</style>
       {renderChildren(props.law)}
+      <Tooltip metadata={props.metadata}></Tooltip>
     </div>
   );
 }

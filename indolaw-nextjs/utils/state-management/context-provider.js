@@ -1,10 +1,15 @@
-import { createContext, useContext, useState } from 'react';
-import { colors, darkColors } from 'utils/theme';
+import { createContext, useContext, useState } from "react";
+import { colors, darkColors } from "utils/theme";
 
 const AppContext = createContext();
 
 export function ContextWrapper({ children }) {
   const [darkTheme, setDarkTheme] = useState(false);
+  const [tooltip, setTooltip] = useState({
+    content: "",
+    xPosition: 0,
+    yPosition: 0
+  });
 
   const toggleDarkMode = () => setDarkTheme(!darkTheme);
   const colorScheme = darkTheme ? darkColors : colors;
@@ -13,14 +18,12 @@ export function ContextWrapper({ children }) {
   let state = {
     colorScheme,
     invertedColorScheme,
-    toggleDarkMode
-  }
+    toggleDarkMode,
+    tooltip,
+    setTooltip,
+  };
 
-  return (
-    <AppContext.Provider value={state}>
-      {children}
-    </AppContext.Provider>
-  );
+  return <AppContext.Provider value={state}>{children}</AppContext.Provider>;
 }
 
 export function useAppContext() {

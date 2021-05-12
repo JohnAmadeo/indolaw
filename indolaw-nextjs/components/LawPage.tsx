@@ -8,9 +8,7 @@ import { useMediaQuery } from "react-responsive";
 import Tray from "./Tray";
 
 // TODO(johnamadeo): Fix "Warning: Each child in a list should have a unique "key" prop." problem
-export default function LawPage(props: {
-  law: LawData;
-}): JSX.Element {
+export default function LawPage(props: { law: LawData }): JSX.Element {
   const border = "2px solid red";
   const navWidth = "400px";
 
@@ -20,7 +18,9 @@ export default function LawPage(props: {
   return (
     <div>
       <Head>
-        <title>UU No. {props.law.metadata.number} Tahun {props.law.metadata.year}</title>
+        <title>
+          UU No. {props.law.metadata.number} Tahun {props.law.metadata.year}
+        </title>
         <meta name="viewport" content="initial-scale=1.0, width=device-width" />
       </Head>
       <div className="table-of-contents-container">
@@ -82,7 +82,11 @@ export default function LawPage(props: {
           }
         `}</style>
         <div className="law">
-          <Law law={props.law.content} colorScheme={colorScheme} />
+          <Law
+            metadata={props.law.metadata}
+            law={props.law.content}
+            colorScheme={colorScheme}
+          />
         </div>
       </div>
     </div>
