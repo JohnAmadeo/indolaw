@@ -2,6 +2,7 @@ import { CSSProperties } from "react";
 import { Primitive, Structure } from "utils/grammar";
 import Link from "next/link";
 import { useAppContext } from "utils/context-provider";
+import { emptyTooltip } from "../utils/tooltip";
 
 export default function PrimitiveStructure(props: {
   structure: Primitive;
@@ -98,17 +99,18 @@ function sanitizeKetentuanUmum(text: string): string | Array<JSX.Element> {
       const word = spans[i].substring(2, spans[i].length - 1);
       linkedSpans.push(
         <span
+          key={i}
           className="link"
           onPointerOver={(e) => {
             setTooltip({
-              content: word,
+              contentKey: word,
               xPosition: e.currentTarget.offsetLeft,
               yPosition:
                 e.currentTarget.offsetTop + e.currentTarget.offsetHeight,
             });
           }}
           onPointerLeave={() => {
-            setTooltip({ content: "" });
+            setTooltip(emptyTooltip);
           }}
         >
           <style jsx>{`

@@ -1,21 +1,22 @@
 import { Metadata } from "../utils/grammar";
-import { useAppContext } from "../utils/state-management/context-provider";
 import { fonts } from "../utils/theme";
 import _ from "lodash";
+import { useAppContext } from "../utils/context-provider";
+import { emptyTooltip } from "../utils/tooltip";
 
 export default function Tooltip(props: { metadata: Metadata }): JSX.Element {
   const { metadata } = props;
-  const { colorScheme, tooltip } = useAppContext();
+  const { colorScheme, tooltipData } = useAppContext();
 
-  if (!tooltip.content || tooltip.content === "") {
+  if (tooltipData === emptyTooltip) {
     return <></>;
   }
 
-  const xPosition: number = tooltip.xPosition || 0;
-  const yPosition: number = tooltip.yPosition || 0;
-  const title = tooltip.content.split(" ").map(_.capitalize).join(" ");
+  const xPosition: number = tooltipData.xPosition;
+  const yPosition: number = tooltipData.yPosition;
+  const title = tooltipData.contentKey.split(" ").map(_.capitalize).join(" ");
   const definition = _.capitalize(
-    metadata.ketentuan_umum[tooltip.content.toUpperCase()]
+    metadata.ketentuan_umum[tooltipData.contentKey.toUpperCase()]
   );
 
   return (
