@@ -1,0 +1,132 @@
+{
+  "status": [
+    "Mencabut UU - UU No. 13 Tahun 1968 tentang Bank Sentral",
+    "Diubah UU - UU No. 3 Tahun 2004 tentang Perubahan atas UU No. 23 Tahun 1999 tentang Bank Indonesia",
+    "Diubah UU - UU No. 6 Tahun 2009 tentang Penetapan PERPPU No. 2 Tahun 2008 tentang Perubahan Kedua UU No. 23 Tahun 1999 tentang Bank Indonesia",
+    "Dicabut Sebagian UU - Pasal 2, Pasal 19, Pasal 20, Pasal 21, Pasal 22, dan Pasal 23 dicabut sebagian oleh UU No. 7 Tahun 2011 tentang Mata Uang",
+    "Dicabut UU - UU No. 9/2016",
+    "Dicabut Sebagian UU - Pasal 11 ayat (4) dan ayat (5) serta Pasal 55 ayat (5) dicabut oleh UU No. 9 Tahun 2016 tentang Pencegahan dan Penanganan Krisis Keuangan"
+  ],
+  "topic": "Bank Indonesia",
+  "year": 1999,
+  "number": 23,
+  "perkara": [],
+  "lembaranNegaraNumber": "66",
+  "tambahanLembaranNegaraNumber": "3843",
+  "peraturanPelaksanaan": [
+    {
+      "pasal": "10",
+      "ayat": "3",
+      "peraturan": "Peraturan Bank Indonesia No. 20/5/PBI/2018",
+      "keterangan": "Operasi Moneter"
+    },
+    {
+      "pasal": "11",
+      "ayat": "3",
+      "peraturan": "Peraturan Bank Indonesia No. 6/6/PBI/2004",
+      "keterangan": "Fasilitas Liquiditas Intrahari bagi Bank Umum"
+    },
+    {
+      "pasal": "14",
+      "ayat": "5",
+      "peraturan": "Peraturan Bank Indonesia No. 1/4/PBI/1999",
+      "keterangan": "Penyelenggaraan Survei Oleh Bank Indonesia"
+    },
+    {
+      "pasal": "15",
+      "ayat": "2",
+      "peraturan": "Peraturan Bank Indonesia No. 18/9/PBI/2016",
+      "keterangan": "Pengaturan dan Pengawasan Sistem Pembayaran dan Pengelolaan Uang Rupiah"
+    },
+    {
+      "pasal": "17",
+      "ayat": "2",
+      "peraturan": "Peraturan Bank Indonesia No. 7/18/PBI/2005",
+      "keterangan": "Sistem Kliring Nasional Bank Indonesia"
+    },
+    {
+      "pasal": "18",
+      "ayat": "2",
+      "peraturan": "Peraturan Bank Indonesia No. 18/40/PBI/2016",
+      "keterangan": "PENYELENGGARAAN PEMROSESAN TRANSAKSI PEMBAYARAN"
+    },
+    {
+      "pasal": "2",
+      "ayat": "5",
+      "peraturan": "Peraturan Bank Indonesia No. 17/3/PBI/2015",
+      "keterangan": "Kewajiban Penggunaan Rupiah Di Wilayah Negara Kesatuan Republik Indonesia\n"
+    },
+    {
+      "pasal": "23",
+      "ayat": "5",
+      "peraturan": "Peraturan Bank Indonesia No. 14/7 /PBI/2012",
+      "keterangan": "Pengelolaan Uang Rupiah"
+    },
+    {
+      "pasal": "25",
+      "ayat": "2",
+      "peraturan": "Peraturan Bank Indonesia No. 13/2 /PBI/2011",
+      "keterangan": "Pelaksanaan Fungsi Kepatuhan Bank Umum"
+    },
+    {
+      "pasal": "3",
+      "ayat": "2",
+      "peraturan": "Peraturan Bank Indonesia No. 4/8/PBI/2002",
+      "keterangan": "Persyaratan Dan Tata Cara Membawa Uang Rupiah Keluar Atau Masuk Wilayah Pabean Republik Indonesia"
+    },
+    {
+      "pasal": "30",
+      "ayat": "2",
+      "peraturan": "Peraturan Bank Indonesia No. 2/6/PBI/2000",
+      "keterangan": "Persyaratan dan Tata Cara Pemeriksaan Bank"
+    },
+    {
+      "pasal": "34",
+      "ayat": "1",
+      "peraturan": "UU No. 21/2011",
+      "keterangan": "OTORITAS JASA KEUANGAN"
+    },
+    {
+      "pasal": "38",
+      "ayat": "2",
+      "peraturan": "Peraturan Dewan Gubernur Bank Indonesia No. 9/2/PDG/2007",
+      "keterangan": "Tata Tertib dan Tata Cara Pelaksanaan Tugas dan Wewenang Dewan Gubernur Bank Indonesia"
+    },
+    {
+      "pasal": "43",
+      "ayat": "6",
+      "peraturan": "Peraturan Dewan Gubernur Bank Indonesia No. 0/0",
+      "keterangan": "0"
+    },
+    {
+      "pasal": "44",
+      "ayat": "2",
+      "peraturan": "Peraturan Dewan Gubernur Bank Indonesia No. 0/0",
+      "keterangan": "0"
+    },
+    {
+      "pasal": "51",
+      "ayat": "3",
+      "peraturan": "Peraturan Dewan Gubernur Bank Indonesia No. 9/6/PDG/2007",
+      "keterangan": "Sistim Penggajian dan Insentif Anggota Dewan Gubernur BI"
+    },
+    {
+      "pasal": "6",
+      "ayat": "3",
+      "peraturan": "Peraturan Dewan Gubernur Bank Indonesia No. 7/27/PDG/2005",
+      "keterangan": "Kewajiban Penambahan Modal Bank Indonesia"
+    },
+    {
+      "pasal": "71",
+      "ayat": "3",
+      "peraturan": "Peraturan Dewan Gubernur Bank Indonesia No. 8/17/PDG/2005",
+      "keterangan": "Kewajiban Menjaga Informasi Rahasia"
+    },
+    {
+      "pasal": "72",
+      "ayat": "3",
+      "peraturan": "Peraturan Dewan Gubernur Bank Indonesia No. 3/9/PDG/2001",
+      "keterangan": "Peraturan Disiplin Pegawai BI"
+    }
+  ]
+}

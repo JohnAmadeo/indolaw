@@ -1,0 +1,40 @@
+{
+  "status": [],
+  "topic": "Pengampunan Pajak",
+  "year": 2016,
+  "number": 11,
+  "perkara": [
+    "57/PUU-XIV/2016",
+    "58/PUU-XIV/2016",
+    "59/PUU-XIV/2016",
+    "63/PUU-XIV/2016"
+  ],
+  "lembaranNegaraNumber": "131",
+  "tambahanLembaranNegaraNumber": "5899",
+  "peraturanPelaksanaan": [
+    {
+      "pasal": "13",
+      "ayat": "-",
+      "peraturan": "Peraturan Pemerintah No. 36/2017",
+      "keterangan": "Pengenaan Pajak Penghasilan Atas Penghasilan Tertentu Berupa Harta Bersih Yang Diperlakukan Atau Dianggap Sebagai Penghasilan"
+    },
+    {
+      "pasal": "18",
+      "ayat": "-",
+      "peraturan": "Peraturan Pemerintah No. 36/2017",
+      "keterangan": "Pengenaan Pajak Penghasilan Atas Penghasilan Tertentu Berupa Harta Bersih Yang Diperlakukan Atau Dianggap Sebagai Penghasilan"
+    },
+    {
+      "pasal": "24",
+      "ayat": "-",
+      "peraturan": "Peraturan Menteri Keuangan No. 118/PMK.03/2016",
+      "keterangan": "Pelaksanaan UU No. 11 Tahun 2016 tentang Pengampunan Pajak"
+    },
+    {
+      "pasal": "24",
+      "ayat": "-",
+      "peraturan": "Peraturan Menteri Keuangan No. 122/PMK.08/2016",
+      "keterangan": "Tata Cara Pengalihan Harta Wajib Pajak ke Dalam Wilayah Negara Kesatuan Republik Indonesia dan Penempatan pada Investasi Di Luar Pasar Keuangan Dalam Rangka Pengampunan Pajak."
+    }
+  ]
+}

@@ -1,4 +1,4 @@
-import { useAppContext } from "utils/state-management/context-provider";
+import { useAppContext } from "utils/context-provider";
 
 export default function Divider(): JSX.Element {
   const { colorScheme } = useAppContext();

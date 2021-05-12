@@ -1,0 +1,362 @@
+{
+  "status": [
+    "Mengubah UU - UU No 23 tahun 2014 tentang Pemerintahan Daerah",
+    "Mengubah UU - Undang-Undang Nomor 25 Tahun 1992 tentang Perkoperasian",
+    "Mengubah UU - Undang-Undang Nomor 40 Tahun 2007 tentang Perseroan Terbatas",
+    "Mengubah UU - Undang-Undang Nomor 7 Tahun 1983 tentang Pajak Penghasilan",
+    "Mengubah UU - Undang-Undang Nomor 28 Tahun 2009 tentang Pajak Daerah dan Retribusi Daerah",
+    "Mengubah UU - Undang-Undang Nomor 6 Tahun 20l4 tentang Desa",
+    "Mengubah UU - Undang-Undang Nomor 1 Tahun 2011 tentang Perumahan dan Kawasan Permukiman",
+    "Mengubah UU - Undang-Undang Nomor 7 Tahun 1983 tentang Pajak Penghasilan",
+    "Mengubah UU - Undang-Undang Nomor 28 Tahun 2009 tentang Pajak Daerah dan Retribusi Daerah",
+    "Mengubah UU - Undang-Undang Nomor 6 Tahun 2017 tentang Arsitek ",
+    "Mengubah UU - Undang-Undang Nomor 1 Tahun 2011 tentang Perumahan dan Kawasan Permukiman",
+    "Mengubah UU - Undang-Undang Nomor 38 Tahun 2004 tentang Jalan ",
+    "Mengubah UU - Undang-Undang Nomor 2 Tahun 2012 tentang Pengadaan Tanah bagi Pembangunan untuk Kepentingan Umum",
+    "Mengubah UU - Undang-Undang Nomor 30 Tahun 2014 tentang Administrasi Pemerintahan",
+    "Mengubah UU - Undang-Undang Nomor 4 Tahun 2011 tentang Informasi Geospasial",
+    "Mengubah UU - Undang-Undang Nomor 25 Tahun 2007 tentang Penanaman Modal",
+    "Mengubah UU - Undang-Undang Nomor 1 Tahun 2011 tentang Perumahan dan Kawasan Permukiman",
+    "Mengubah UU - Undang-Undang Nomor 6 Tahun 2011 tentang Keimigrasian",
+    "Mengubah UU - Undang-Undang Nomor 44 Tahun 2009 tentang Rumah Sakit",
+    "Mengubah UU - Undang-Undang Nomor 38 Tahun 2009 tentang Pos",
+    "Mengubah UU - Undang-Undang Nomor 4 Tahun 2011 tentang Informasi Geospasial",
+    "Mengubah UU - Undang-Undang Nomor 5 Tahun 1999 tentang Larangan Praktek Monopoli dan Persaingan Usaha",
+    "Mengubah UU - Undang-Undang Nomor 26 Tahun 2007 Tentang Penataan Ruang",
+    "Mengubah UU - Undang-Undang Nomor 17 Tahun 2006 tentang perubahan atas Undang-Undang Nomor 10 Tahun 1995 tentang Kepabeanan",
+    "Mengubah UU - Undang-Undang Nomor 39 Tahun 2009 tentang Kawasan Ekonomi Khusus",
+    "Mengubah UU - Undang- Undang Nomor 33 Tahun 2014 tentang Jaminan Produk Halal",
+    "Mengubah UU - Undang- Undang Nomor 8 Tahun 2019 tentang Penyelenggaraan Ibadah Haji dan Umrah",
+    "Mengubah UU - Undang-Undang Nomor 40 Tahun 2004 tentang Sistem Jaminan Sosial Nasional",
+    "Mengubah UU - Undang-Undang Nomor 13 Tahun 2003 tentang Ketenagakerjaan",
+    "Mengubah UU - Undang-Undang Nomor 23 Tahun 2007 tentang Perkeretaapian",
+    "Mengubah UU - Undang-Undang Nomor 1 Tahun 2009 tentang Penerbangan",
+    "Mengubah UU - Undang-Undang Nomor 17 Tahun 2008 tentang Pelayaran",
+    "Mengubah UU - Undang-Undang Nomor 22 Tahun 2009 tentang Lalu Lintas Angkutan Jalan",
+    "Mengubah UU - Undang-Undang Nomor 7 Tahun 2014 tentang Perdagangan",
+    "Mengubah UU - Undang-Undang 3 Tahun 20l4 tentang Perindustrian",
+    "Mengubah UU - Undang-Undang Nomor 31 Tahun 2004 tentang Perikanan",
+    "Mengubah UU - Undang-Undang Nomor 32 Tahun 20l4 tentang Kelautan",
+    "Mengubah UU - Undang-Undang Nomor 27 Tahun 2007 tentang Pengelolaan Wilayah Pesisir dan Pulau-Pulau Kecil",
+    "Mengubah UU - Undang-Undang Nomor 18 Tahun 2009 tentang Peternakan dan Kesehatan Hewan",
+    "Mengubah UU - Undang-Undang Nomor 13 Tahun 2010 tentang Hortikultura",
+    "Mengubah UU - Undang-Undang Nomor 22 Tahun 2019 tentang Sistem Budi Daya Pertanian Berkelanjutan",
+    "Mengubah UU - Undang-Undang Nomor 29 Tahun 2000 tentang Perlindungan Varietas Tanaman",
+    "Mengubah UU - Undang-Undang Nomor 39 Tahun 2014 tentang Perkebunan",
+    "Mengubah UU - Undang-Undang Nomor 4 Tahun 2009 tentang Pertambangan Mineral dan Batubara ",
+    "Mengubah UU - Undang-Undang Nomor 18 Tahun 2013 tentang Pencegahan dan Pemberantasan Perusakan Hutan ",
+    "Mengubah UU - Undang-Undang Nomor 41 Tahun 1999 tentang Kehutanan ",
+    "Mengubah UU - Undang-Undang Nomor 32 Tahun 2009 tentang Perlindungan dan Pengelolaan Lingkungan Hidup ",
+    "Mengubah UU - Undang-Undang Nomor 26 Tahun 2007 tentang Penataan Ruang",
+    "Mengubah UU - Undang-Undang Nomor 5 Tahun 1960 tentang Peraturan Dasar Pokok-Pokok Agraria ",
+    "Mengubah UU - Undang-Undang Nomor 2 Tahun 2012 tentang Pengadaan Tanah bagi Pembangunan untuk Kepentingan Umum"
+  ],
+  "topic": "CIPTA KERJA",
+  "year": 2020,
+  "number": 11,
+  "perkara": [],
+  "lembaranNegaraNumber": "245",
+  "tambahanLembaranNegaraNumber": "6573",
+  "peraturanPelaksanaan": [
+    {
+      "pasal": "104",
+      "ayat": "3",
+      "peraturan": "Peraturan Pemerintah No. 17/2021",
+      "keterangan": "Perubahan Keempat atas Peraturan Pemerintah Nomor 15 Tahun 2005 tentang Jalan Tol."
+    },
+    {
+      "pasal": "106",
+      "ayat": "-",
+      "peraturan": "Peraturan Pemerintah No. 48/2021",
+      "keterangan": "Perubahan Ketiga atas Peraturan Pemerintah Nomor 31 Tahun 2013 tentang Peraturan\nPelaksanaan Undang-Undang Nomor 6 Tahun 2011 tentang Keimigrasian\n"
+    },
+    {
+      "pasal": "109",
+      "ayat": "-",
+      "peraturan": "Peraturan Pemerintah No. 8/2021",
+      "keterangan": "Modal Dasar Perseroan serta Pendaftaran Pendirian, Perubahan, dan Pembubaran Perseroan yang Memenuhi Kriteria Untuk Usaha Mikro dan Kecil."
+    },
+    {
+      "pasal": "109",
+      "ayat": "-",
+      "peraturan": "Peraturan Pemerintah No. 8/2021",
+      "keterangan": "Modal Dasar Perseroan serta Pendaftaran Pendirian, Perubahan, dan Pembubaran Perseroan yang Memenuhi Kriteria Untuk Usaha Mikro dan Kecil"
+    },
+    {
+      "pasal": "111",
+      "ayat": "-",
+      "peraturan": "Peraturan Pemerintah No. 9/2021",
+      "keterangan": "Perlakukan Perpajakan untuk Mendukung Kemudahan Berusaha"
+    },
+    {
+      "pasal": "111",
+      "ayat": "-",
+      "peraturan": "Peraturan Pemerintah No. 13/2021",
+      "keterangan": "Penyelenggaraan Rumah Susun."
+    },
+    {
+      "pasal": "114",
+      "ayat": "-",
+      "peraturan": "Peraturan Pemerintah No. 10/2021",
+      "keterangan": "Pajak Daerah dan Retribusi Daerah dalam rangka Mendukung Kemudahan Berusaha dan Layanan Daerah\n"
+    },
+    {
+      "pasal": "114",
+      "ayat": "-",
+      "peraturan": "Peraturan Pemerintah No. 14/2021",
+      "keterangan": "Perubahan atas Peraturan Pemerintah Nomor 22 Tahun 2020 tentang Peraturan Pelaksanaan Undang-Undang Nomor 2 Tahun 2017 Tentang Jasa Konstruksi"
+    },
+    {
+      "pasal": "114",
+      "ayat": "-",
+      "peraturan": "Peraturan Pemerintah No. 14/2021",
+      "keterangan": "Perubahan atas Peraturan Pemerintah Nomor 22 Tahun 2020 tentang Peraturan Pelaksanaan Undang-Undang Nomor 2 Tahun 2017 Tentang Jasa Konstruksi"
+    },
+    {
+      "pasal": "117",
+      "ayat": "-",
+      "peraturan": "Peraturan Pemerintah No. 11/2021",
+      "keterangan": "Badan Usaha Milik Pemerintah Desa"
+    },
+    {
+      "pasal": "118",
+      "ayat": "-",
+      "peraturan": "Peraturan Pemerintah No. 44/2021",
+      "keterangan": "Pelaksanaan Larangan Praktek Monopoli dan Persaingan Usaha Tidak Sehat"
+    },
+    {
+      "pasal": "12",
+      "ayat": "-",
+      "peraturan": "Peraturan Pemerintah No. 5/2021",
+      "keterangan": "Penyelenggaraan Perizinan Berusaha Berbasis Risiko."
+    },
+    {
+      "pasal": "123",
+      "ayat": "-",
+      "peraturan": "Peraturan Pemerintah No. 19/2021",
+      "keterangan": "Penyelenggaraan Pengadaan Tanah bagi Pembangunan untuk Kepentingan Umum."
+    },
+    {
+      "pasal": "142",
+      "ayat": "-",
+      "peraturan": "Peraturan Pemerintah No. 18/2021",
+      "keterangan": "Hak Pengelolaan, Hak Atas Tanah, Satuan Rumah Susun, dan Pendaftaran Tanah."
+    },
+    {
+      "pasal": "150",
+      "ayat": "-",
+      "peraturan": "Peraturan Pemerintah No. 40/2021",
+      "keterangan": "Penyelenggaraan Kawasan Ekonomi Khusus."
+    },
+    {
+      "pasal": "152",
+      "ayat": "-",
+      "peraturan": "Peraturan Pemerintah No. 41/2021",
+      "keterangan": "Penyelenggaraan Kawasan Perdagangan Bebas dan Pelabuhan Bebas."
+    },
+    {
+      "pasal": "17",
+      "ayat": "-",
+      "peraturan": "Peraturan Pemerintah No. 21/2021",
+      "keterangan": "Penyelenggaraan Penataan Ruang."
+    },
+    {
+      "pasal": "17",
+      "ayat": "-",
+      "peraturan": "Peraturan Pemerintah No. 43/2021",
+      "keterangan": "Penyelesaian Ketidaksesuaian Antara Tata Ruang, Kawasan Hutan, Izin dan/atau Hak Atas Tanah"
+    },
+    {
+      "pasal": "175",
+      "ayat": "-",
+      "peraturan": "Peraturan Presiden No. 12/2021",
+      "keterangan": "Perubahan atas Peraturan Presiden Nomor 16 Tahun 2018 tentang Pengadaan Barang/Jasa Pemerintah"
+    },
+    {
+      "pasal": "176",
+      "ayat": "-",
+      "peraturan": "Peraturan Pemerintah No. 6/2021",
+      "keterangan": "Penyelenggaraan Perizinan Berusaha di Daerah."
+    },
+    {
+      "pasal": "18",
+      "ayat": "-",
+      "peraturan": "Peraturan Pemerintah No. 27/2021",
+      "keterangan": "Penyelenggaraan Bidang Kelautan dan Perikanan."
+    },
+    {
+      "pasal": "180",
+      "ayat": "-",
+      "peraturan": "Peraturan Pemerintah No. 20/2021",
+      "keterangan": "Penertiban Kawasan dan Tanah Terlantar."
+    },
+    {
+      "pasal": "20",
+      "ayat": "-",
+      "peraturan": "Peraturan Pemerintah No. 45/2021",
+      "keterangan": "Penyelenggaraan Informasi Geospasial"
+    },
+    {
+      "pasal": "20",
+      "ayat": "-",
+      "peraturan": "Peraturan Presiden No. 11/2021",
+      "keterangan": "Kerja Sama Antara Pemerintah Pusat dengan Badan Usaha Milik Negara dalam Penyelenggaraan Informasi Geospasial Dasar\n"
+    },
+    {
+      "pasal": "22",
+      "ayat": "-",
+      "peraturan": "Peraturan Pemerintah No. 22/2021",
+      "keterangan": "Penyelenggaraan Perlindungan dan Pengelolaan Lingkungan Hidup."
+    },
+    {
+      "pasal": "25",
+      "ayat": "-",
+      "peraturan": "Peraturan Pemerintah No. 15/2021",
+      "keterangan": "Peraturan Pelaksanaan Undang-Undang Nomor 6 Tahun 2017 Tentang Arsitek"
+    },
+    {
+      "pasal": "29",
+      "ayat": "-",
+      "peraturan": "Peraturan Pemerintah No. 26/2021",
+      "keterangan": "Penyelenggaraan Bidang Pertanian."
+    },
+    {
+      "pasal": "3",
+      "ayat": "-",
+      "peraturan": "Peraturan Pemerintah No. 42/2021",
+      "keterangan": "Kemudahan Proyek Strategis Nasional"
+    },
+    {
+      "pasal": "36",
+      "ayat": "-",
+      "peraturan": "Peraturan Pemerintah No. 23/2021",
+      "keterangan": "Penyelenggaraan Kehutanan."
+    },
+    {
+      "pasal": "37",
+      "ayat": "-",
+      "peraturan": "Peraturan Pemerintah No. 24/2021",
+      "keterangan": "Tata Cara Pengenaan Sanksi Administratif dan Tata Cara Penerimaan Negara Bukan Pajak yang berasal dari Denda Administratif di Bidang Kehutanan."
+    },
+    {
+      "pasal": "39",
+      "ayat": "-",
+      "peraturan": "Peraturan Pemerintah No. 25/2021",
+      "keterangan": "Penyelenggaraan Bidang Energi dan Sumber Daya Mineral."
+    },
+    {
+      "pasal": "44",
+      "ayat": "-",
+      "peraturan": "Peraturan Pemerintah No. 28/2021",
+      "keterangan": "Penyelenggaraan Bidang Perindustrian"
+    },
+    {
+      "pasal": "46",
+      "ayat": "-",
+      "peraturan": "Peraturan Pemerintah No. 29/2021",
+      "keterangan": "Penyelenggaraan Bidang Perdagangan."
+    },
+    {
+      "pasal": "48",
+      "ayat": "-",
+      "peraturan": "Peraturan Pemerintah No. 39/2021",
+      "keterangan": "Penyelenggaraan Bidang Jaminan Produk Halal."
+    },
+    {
+      "pasal": "50",
+      "ayat": "-",
+      "peraturan": "Peraturan Pemerintah No. 12/2021",
+      "keterangan": "Perubahan atas Peraturan Pemerintah Nomor 14 Tahun 2016 tentang Penyelenggaraan Perumahan dan Kawasan Permukiman."
+    },
+    {
+      "pasal": "50",
+      "ayat": "-",
+      "peraturan": "Peraturan Pemerintah No. 16/2021",
+      "keterangan": "Peraturan Pelaksanaan Undang-Undang Nomor 28 Tahun 2002 tentang Bangunan Gedung"
+    },
+    {
+      "pasal": "50",
+      "ayat": "-",
+      "peraturan": "Peraturan Presiden No. 9/2021",
+      "keterangan": "Badan Percepatan Penyelenggaraan Perumahan."
+    },
+    {
+      "pasal": "55",
+      "ayat": "-",
+      "peraturan": "Peraturan Pemerintah No. 30/2021",
+      "keterangan": "Penyelenggaraan Bidang Lalu Lintas dan Angkutan Jalan."
+    },
+    {
+      "pasal": "56",
+      "ayat": "-",
+      "peraturan": "Peraturan Pemerintah No. 33/2021",
+      "keterangan": "Penyelenggaraan Bidang Perkeretaapian."
+    },
+    {
+      "pasal": "57",
+      "ayat": "-",
+      "peraturan": "Peraturan Pemerintah No. 31/2021",
+      "keterangan": "Penyelenggaraan Bidang Pelayaran"
+    },
+    {
+      "pasal": "58",
+      "ayat": "-",
+      "peraturan": "Peraturan Pemerintah No. 32/2021",
+      "keterangan": "Penyelenggaraan Bidang Penerbangan."
+    },
+    {
+      "pasal": "61",
+      "ayat": "-",
+      "peraturan": "Peraturan Pemerintah No. 47/2021",
+      "keterangan": "Penyelenggaraan Bidang Perumahsakitan"
+    },
+    {
+      "pasal": "68",
+      "ayat": "-",
+      "peraturan": "Peraturan Pemerintah No. 38/2021",
+      "keterangan": "Rekening Penampungan Biaya Perjalanan Ibadah Umrah\n"
+    },
+    {
+      "pasal": "70",
+      "ayat": "-",
+      "peraturan": "Peraturan Pemerintah No. 46/2021",
+      "keterangan": "Pos, Telekomunikasi, dan Penyiaran"
+    },
+    {
+      "pasal": "77",
+      "ayat": "-",
+      "peraturan": "Peraturan Presiden No. 10/2021",
+      "keterangan": "Bidang Usaha Penanaman Modal"
+    },
+    {
+      "pasal": "81",
+      "ayat": "-",
+      "peraturan": "Peraturan Pemerintah No. 34/2021",
+      "keterangan": "Penggunaan Tenaga Kerja Asing."
+    },
+    {
+      "pasal": "81",
+      "ayat": "-",
+      "peraturan": "Peraturan Pemerintah No. 35/2021",
+      "keterangan": "Perjanjian Kerja Waktu Tertentu, Alih Daya, Waktu Kerja, Hubungan Kerja dan Waktu Istirahat, dan Pemutusan Hubungan Kerja."
+    },
+    {
+      "pasal": "81",
+      "ayat": "-",
+      "peraturan": "Peraturan Pemerintah No. 36/2021",
+      "keterangan": "Pengupahan."
+    },
+    {
+      "pasal": "82",
+      "ayat": "-",
+      "peraturan": "Peraturan Pemerintah No. 37/2021",
+      "keterangan": "Penyelenggaraan Program Jaminan Kehilangan Pekerjaan."
+    },
+    {
+      "pasal": "86",
+      "ayat": "-",
+      "peraturan": "Peraturan Pemerintah No. 7/2021",
+      "keterangan": "Kemudahan, Pelindungan dan Pemberdayaan Koperasi dan Usaha Mikro, Kecil dan Menengah."
+    }
+  ]
+}

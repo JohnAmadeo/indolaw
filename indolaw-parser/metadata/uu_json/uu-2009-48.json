@@ -1,0 +1,52 @@
+{
+  "status": [
+    "Mencabut UU - UU No. 4 Tahun 2004 tentang Kekuasaan Kehakiman"
+  ],
+  "topic": "Kekuasaan Kehakiman",
+  "year": 2009,
+  "number": 48,
+  "perkara": [
+    "9/PUU-VIII/2010",
+    "10/PUU-VIII/2010",
+    "16/PUU-VIII/2010",
+    "64/PUU-VIII/2010",
+    "10/PUU-IX/2011",
+    "36/PUU-XI/2013",
+    "97/PUU-XI/2013",
+    "105/PUU-XV/2016",
+    "23/PUU-XV/2017",
+    "62/PUU-XVI/2018",
+    "85/PUU-XVI/2018",
+    "22/PUU-XVII/2019",
+    "28/PUU-XVII/2019",
+    "71/PUU-XVIII/2020"
+  ],
+  "lembaranNegaraNumber": "157",
+  "tambahanLembaranNegaraNumber": "5076",
+  "peraturanPelaksanaan": [
+    {
+      "pasal": "14",
+      "ayat": "4",
+      "peraturan": "Peraturan Mahkamah Agung No. 0/0",
+      "keterangan": "-"
+    },
+    {
+      "pasal": "2",
+      "ayat": "3",
+      "peraturan": "UU No. 2/1986",
+      "keterangan": "Peradilan Umum"
+    },
+    {
+      "pasal": "35",
+      "ayat": "-",
+      "peraturan": "UU No. 24/2003",
+      "keterangan": "Mahkamah Konstitusi"
+    },
+    {
+      "pasal": "48",
+      "ayat": "2",
+      "peraturan": "Peraturan Pemerintah No. 94/2012",
+      "keterangan": "Hak Keuangan Dan Fasilitas Hakim Yang Berada Di Bawah Mahkamah Agung"
+    }
+  ]
+}

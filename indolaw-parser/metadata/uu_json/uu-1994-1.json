@@ -1,0 +1,29 @@
+{
+  "status": [],
+  "topic": "Anggaran Pendapatan Dan Belanja Negara Tahun Anggaran 1994/1995",
+  "year": 1994,
+  "number": 1,
+  "perkara": [],
+  "lembaranNegaraNumber": "18",
+  "tambahanLembaranNegaraNumber": "3543",
+  "peraturanPelaksanaan": [
+    {
+      "pasal": "6",
+      "ayat": "-",
+      "peraturan": "Keputusan Presiden No. 51/1994",
+      "keterangan": "Perincian Anggaran Belanja Negara Rutin Tahun Anggaran 1994/1995"
+    },
+    {
+      "pasal": "7",
+      "ayat": "-",
+      "peraturan": "Keputusan Presiden No. 52/1994",
+      "keterangan": "Perincian Anggaran Belanja Negara Pembangunan Tahun Anggaran 1994/1995"
+    },
+    {
+      "pasal": "9",
+      "ayat": "1",
+      "peraturan": "Peraturan Pemerintah No. 17/1995",
+      "keterangan": "Pemindahan Sisa Kredit Angggaran Pembangunan Tahun Anggaran 1994/1995 Ke Tahun Anggaran 1995/1996"
+    }
+  ]
+}

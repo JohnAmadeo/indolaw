@@ -1,0 +1,539 @@
+{
+  "status": [
+    "Mencabut UU - UU NO. 14/1992",
+    "Dicabut Putusan Mahkamah Konstitusi - o. 3/PUU-III/2015, Penjelasan Pasal 47 ayat (2) huruf e bagian c , bertentangan dengan Undang -Undang Dasar  Negara Republik Indonesia Tahun 1945"
+  ],
+  "topic": "Lalu Lintas Dan Angkutan Jalan",
+  "year": 2009,
+  "number": 22,
+  "perkara": [
+    "43/PUU-VIII/2010",
+    "57/PUU-X/2012",
+    "3/PUU-XIII/2015",
+    "41/PUU-XIV/2016",
+    "67/PUU-XIV/2016",
+    "78/PUU-XIV/2016",
+    "97/PUU-XV/2017",
+    "23/PUU-XVI/2018",
+    "41/PUU-XVI/2018",
+    "64/PUU-XVI/2018",
+    "8/PUU-XVIII/2020",
+    "8/PUU-XVIII/2020",
+    "14/PUU-XVIII/2020",
+    "15/PUU-XVIII/2020"
+  ],
+  "lembaranNegaraNumber": "96",
+  "tambahanLembaranNegaraNumber": "5025",
+  "peraturanPelaksanaan": [
+    {
+      "pasal": "101",
+      "ayat": "-",
+      "peraturan": "Peraturan Pemerintah No. 32/2011",
+      "keterangan": "Manajemen Dan Rekayasa, Analisis Dampak, Serta Manajemen Kebutuhan Lalu Lintas"
+    },
+    {
+      "pasal": "102",
+      "ayat": "(3)",
+      "peraturan": "Peraturan Pemerintah No. 32/2011",
+      "keterangan": "Manajemen Dan Rekayasa, Analisis Dampak, Serta Manajemen Kebutuhan Lalu Lintas"
+    },
+    {
+      "pasal": "103",
+      "ayat": "(4)",
+      "peraturan": "Peraturan Menteri No. 34/2014",
+      "keterangan": "Marka Jalan"
+    },
+    {
+      "pasal": "104",
+      "ayat": "(4)",
+      "peraturan": "Peraturan Kepala Kepolisian RI No. 10/2012",
+      "keterangan": "Pengaturan Lalu Lintas Dalam Keadaan Tertentu\nDan Penggunaan Jalan Selain Untuk Kegiatan Lalu Lintas\n"
+    },
+    {
+      "pasal": "13",
+      "ayat": "(5)",
+      "peraturan": "Peraturan Pemerintah No. 37/2011",
+      "keterangan": "Forum Lalu Lintas dan Angkutan Jalan"
+    },
+    {
+      "pasal": "130",
+      "ayat": "-",
+      "peraturan": "Peraturan Kepala Kepolisian RI No. 10/2012",
+      "keterangan": "Pengaturan Lalu Lintas Dalam Keadaan Tertentu\nDan Penggunaan Jalan Selain Untuk Kegiatan Lalu Lintas\n"
+    },
+    {
+      "pasal": "133",
+      "ayat": "(5)",
+      "peraturan": "Peraturan Pemerintah No. 32/2011",
+      "keterangan": "Manajemen dan Rekayasa, Analisis Dampak, serta Manajemen Kebutuhan Lalu Lintas"
+    },
+    {
+      "pasal": "136",
+      "ayat": "(3)",
+      "peraturan": "Peraturan Pemerintah No. 32/2011",
+      "keterangan": "Manajemen dan Rekayasa, Analisis Dampak, serta Manajemen Kebutuhan Lalu Lintas"
+    },
+    {
+      "pasal": "137",
+      "ayat": "(5)",
+      "peraturan": "Peraturan Pemerintah No. 74/2014",
+      "keterangan": "Angkutan Jalan"
+    },
+    {
+      "pasal": "141",
+      "ayat": "(3)",
+      "peraturan": "Peraturan Menteri Perhubungan No. 10/2012",
+      "keterangan": "Standar Pelayanan Minimal Angkutan Massal Berbasis Jalan"
+    },
+    {
+      "pasal": "150",
+      "ayat": "-",
+      "peraturan": "Peraturan Pemerintah No. 74/2014",
+      "keterangan": "Angkutan Jalan"
+    },
+    {
+      "pasal": "157",
+      "ayat": "-",
+      "peraturan": "Peraturan Menteri Perhubungan No. 26/2017",
+      "keterangan": "Penyelenggaraan Angkutan Orang dan Kendaraan Bermotor Umum Tidak Dalam Trayek"
+    },
+    {
+      "pasal": "159",
+      "ayat": "-",
+      "peraturan": "Peraturan Menteri Perhubungan No. 15/2019",
+      "keterangan": "Penyelenggaraan Angkutan Orang dengan Kendaraan Bermotor Umum dalam Trayek"
+    },
+    {
+      "pasal": "164",
+      "ayat": "-",
+      "peraturan": "Peraturan Menteri Perhubungan No. 60/2019",
+      "keterangan": "Penyelenggaraan Angkutan Barang dengan Kendaraan Bermotor di Jalan"
+    },
+    {
+      "pasal": "165",
+      "ayat": "(4)",
+      "peraturan": "Peraturan Pemerintah No. 8/2011",
+      "keterangan": "Angkutan Multimoda."
+    },
+    {
+      "pasal": "172",
+      "ayat": "-",
+      "peraturan": "Peraturan Pemerintah No. 74/2014",
+      "keterangan": "Angkutan Jalan"
+    },
+    {
+      "pasal": "178",
+      "ayat": "-",
+      "peraturan": "Peraturan Menteri Perhubungan No. 15/2019",
+      "keterangan": "Penyelenggaraan Angkutan Orang dengan Kendaraan Bermotor Umum dalam Trayek"
+    },
+    {
+      "pasal": "179",
+      "ayat": "(2)",
+      "peraturan": "Peraturan Menteri Perhubungan No. 15/2019",
+      "keterangan": "Penyelenggaraan Angkutan Orang dengan Kendaraan Bermotor Umum dalam Trayek"
+    },
+    {
+      "pasal": "18",
+      "ayat": "-",
+      "peraturan": "Peraturan Pemerintah No. 79/2013",
+      "keterangan": "Jaringan Lalu Lintas dan Angkutan Jalan"
+    },
+    {
+      "pasal": "180",
+      "ayat": "(3)",
+      "peraturan": "Peraturan Menteri Perhubungan No. 60/2019",
+      "keterangan": "Penyelenggaraan Angkutan Barang dengan Kendaraan Bermotor di Jalan"
+    },
+    {
+      "pasal": "182",
+      "ayat": "(4)",
+      "peraturan": "Peraturan Menteri No. 0/0",
+      "keterangan": "-"
+    },
+    {
+      "pasal": "185",
+      "ayat": "(2)",
+      "peraturan": "Peraturan Pemerintah No. 74/2014",
+      "keterangan": "Angkutan Jalan"
+    },
+    {
+      "pasal": "19",
+      "ayat": "(5)",
+      "peraturan": "Peraturan Pemerintah No. 34/2006",
+      "keterangan": "Jalan"
+    },
+    {
+      "pasal": "192",
+      "ayat": "(5)",
+      "peraturan": "Peraturan Pemerintah No. 30/2021",
+      "keterangan": "Penyelenggaraan Bidang Lalu Lintas dan Angkutan Jalan"
+    },
+    {
+      "pasal": "193",
+      "ayat": "(5)",
+      "peraturan": "Peraturan Pemerintah No. 74/2014",
+      "keterangan": "Angkutan Jalan"
+    },
+    {
+      "pasal": "197",
+      "ayat": "(2)",
+      "peraturan": "Peraturan Menteri No. 0/0",
+      "keterangan": "-"
+    },
+    {
+      "pasal": "198",
+      "ayat": "(3)",
+      "peraturan": "Peraturan Pemerintah No. 74/2014",
+      "keterangan": "Angkutan Jalan"
+    },
+    {
+      "pasal": "199",
+      "ayat": "(2)",
+      "peraturan": "Peraturan Menteri Perhubungan No. 15/2019",
+      "keterangan": "Penyelenggaraan Angkutan Orang dengan Kendaraan Bermotor Umum dalam Trayek"
+    },
+    {
+      "pasal": "20",
+      "ayat": "(3)",
+      "peraturan": "Peraturan Pemerintah No. 79/2013",
+      "keterangan": "Jaringan Lalu Lintas dan Angkutan Jalan"
+    },
+    {
+      "pasal": "202",
+      "ayat": "-",
+      "peraturan": "Inpres No. 4/2013",
+      "keterangan": "Program Dekade Aksi Keselamatan Jalan"
+    },
+    {
+      "pasal": "205",
+      "ayat": "-",
+      "peraturan": "Peraturan Pemerintah No. 37/2017",
+      "keterangan": "Keselamatan Lalu Lintas dan Angkutan Jalan"
+    },
+    {
+      "pasal": "207",
+      "ayat": "-",
+      "peraturan": "Peraturan Pemerintah No. 37/2017",
+      "keterangan": "Keselamatan Lalu Lintas dan Angkutan Jalan"
+    },
+    {
+      "pasal": "209",
+      "ayat": "(2)",
+      "peraturan": "Peraturan Pemerintah No. 41/1999",
+      "keterangan": "Pengendalian Pencemaran Udara"
+    },
+    {
+      "pasal": "21",
+      "ayat": "(5)",
+      "peraturan": "Peraturan Pemerintah No. 79/2013",
+      "keterangan": "Jaringan Lalu Lintas Dan Angkutan Jalan"
+    },
+    {
+      "pasal": "210",
+      "ayat": "(2)",
+      "peraturan": "Peraturan Pemerintah No. 41/1999",
+      "keterangan": "Pengendalian Pencemaran Udara"
+    },
+    {
+      "pasal": "218",
+      "ayat": "(2)",
+      "peraturan": "Peraturan Pemerintah No. 30/2021",
+      "keterangan": "Penyelenggaraan Bidang Lalu Lintas dan Angkutan Jalan"
+    },
+    {
+      "pasal": "225",
+      "ayat": "-",
+      "peraturan": "Peraturan Pemerintah No. 37/2011",
+      "keterangan": "Forum Lalu Lintas dan Angkutan Jalan"
+    },
+    {
+      "pasal": "228",
+      "ayat": "-",
+      "peraturan": "Peraturan Kepala Kepolisian RI No. 15/2013",
+      "keterangan": "Tata Cara Penanganan Kecelakaan Lalu Lintas"
+    },
+    {
+      "pasal": "242",
+      "ayat": "(3)",
+      "peraturan": "Peraturan Pemerintah No. 74/2014",
+      "keterangan": "Angkutan Jalan"
+    },
+    {
+      "pasal": "244",
+      "ayat": "(2)",
+      "peraturan": "Peraturan Pemerintah No. 74/2014",
+      "keterangan": "Angkutan Jalan"
+    },
+    {
+      "pasal": "25",
+      "ayat": "(2)",
+      "peraturan": "Peraturan Pemerintah No. 79/2013",
+      "keterangan": "Jaringan Lalu Lintas Dan Angkutan Jalan"
+    },
+    {
+      "pasal": "252",
+      "ayat": "-",
+      "peraturan": "Peraturan Pemerintah No. 37/2017",
+      "keterangan": "Keselamatan Lalu Lintas dan Angkutan Jalan"
+    },
+    {
+      "pasal": "255",
+      "ayat": "-",
+      "peraturan": "Peraturan Pemerintah No. 51/2012",
+      "keterangan": "Sumber Daya Manusia di \nBidang Transportasi\n"
+    },
+    {
+      "pasal": "264",
+      "ayat": "-",
+      "peraturan": "Peraturan Pemerintah No. 80/2012",
+      "keterangan": "Tata Cara Pemeriksaan Kendaraan Bermotor di Jalan dan Penindakan Pelanggaran Lalu Lintas dan Angkutan Jalan"
+    },
+    {
+      "pasal": "265",
+      "ayat": "-",
+      "peraturan": "Peraturan Pemerintah No. 80/2012",
+      "keterangan": "Tata Cara Pemeriksaan Kendaraan Bermotor di Jalan dan Penindakan Pelanggaran Lalu Lintas dan Angkutan Jalan"
+    },
+    {
+      "pasal": "266",
+      "ayat": "-",
+      "peraturan": "Peraturan Pemerintah No. 80/2012",
+      "keterangan": "Tata Cara Pemeriksaan Kendaraan Bermotor di Jalan dan Penindakan Pelanggaran Lalu Lintas dan Angkutan Jalan"
+    },
+    {
+      "pasal": "267",
+      "ayat": "-",
+      "peraturan": "Peraturan Pemerintah No. 80/2012",
+      "keterangan": "Tata Cara Pemeriksaan Kendaraan Bermotor di Jalan dan Penindakan Pelanggaran Lalu Lintas dan Angkutan Jalan"
+    },
+    {
+      "pasal": "268",
+      "ayat": "-",
+      "peraturan": "Peraturan Pemerintah No. 80/2012",
+      "keterangan": "Tata Cara Pemeriksaan Kendaraan Bermotor di Jalan dan Penindakan Pelanggaran Lalu Lintas dan Angkutan Jalan"
+    },
+    {
+      "pasal": "269",
+      "ayat": "-",
+      "peraturan": "Peraturan Pemerintah No. 80/2012",
+      "keterangan": "Tata Cara Pemeriksaan Kendaraan Bermotor di Jalan dan Penindakan Pelanggaran Lalu Lintas dan Angkutan Jalan"
+    },
+    {
+      "pasal": "27",
+      "ayat": "(2)",
+      "peraturan": "Peraturan Daerah Provinsi No. 5/2014",
+      "keterangan": "Transportasi"
+    },
+    {
+      "pasal": "270",
+      "ayat": "-",
+      "peraturan": "Peraturan Pemerintah No. 80/2012",
+      "keterangan": "Tata Cara Pemeriksaan Kendaraan Bermotor di Jalan dan Penindakan Pelanggaran Lalu Lintas dan Angkutan Jalan"
+    },
+    {
+      "pasal": "271",
+      "ayat": "-",
+      "peraturan": "Peraturan Pemerintah No. 80/2012",
+      "keterangan": "Tata Cara Pemeriksaan Kendaraan Bermotor di Jalan dan Penindakan Pelanggaran Lalu Lintas dan Angkutan Jalan"
+    },
+    {
+      "pasal": "272",
+      "ayat": "-",
+      "peraturan": "Peraturan Pemerintah No. 80/2012",
+      "keterangan": "Tata Cara Pemeriksaan Kendaraan Bermotor di Jalan dan Penindakan Pelanggaran Lalu Lintas dan Angkutan Jalan"
+    },
+    {
+      "pasal": "32",
+      "ayat": "-",
+      "peraturan": "Peraturan Presiden No. 0/0",
+      "keterangan": "-"
+    },
+    {
+      "pasal": "39",
+      "ayat": "(3)",
+      "peraturan": "Peraturan Daerah Kota Magelang  No. 6/2013",
+      "keterangan": "Penyelenggaraan Terminal"
+    },
+    {
+      "pasal": "39",
+      "ayat": "(3)",
+      "peraturan": "Peraturan Daerah Provinsi DKI Jakarta  No. 5/2014",
+      "keterangan": "Transportasi"
+    },
+    {
+      "pasal": "42",
+      "ayat": "-",
+      "peraturan": "Peraturan Pemerintah No. 79/2013",
+      "keterangan": "Jaringan Lalu Lintas Dan Angkutan Jalan"
+    },
+    {
+      "pasal": "43",
+      "ayat": "(4)",
+      "peraturan": "Peraturan Pemerintah No. 79/2013",
+      "keterangan": "Jaringan Lalu Lintas Dan Angkutan Jalan"
+    },
+    {
+      "pasal": "46",
+      "ayat": "(2)",
+      "peraturan": "Peraturan Pemerintah No. 79/2013",
+      "keterangan": "Jaringan Lalu Lintas dan Angkutan Jalan"
+    },
+    {
+      "pasal": "48",
+      "ayat": "(4)",
+      "peraturan": "Peraturan Pemerintah No. 55/2012",
+      "keterangan": "Kendaraan"
+    },
+    {
+      "pasal": "50",
+      "ayat": "(4)",
+      "peraturan": "Peraturan Pemerintah No. 55/2012",
+      "keterangan": "Kendaraan"
+    },
+    {
+      "pasal": "51",
+      "ayat": "(6)",
+      "peraturan": "Peraturan Pemerintah No. 55/2012",
+      "keterangan": "Kendaraan"
+    },
+    {
+      "pasal": "56",
+      "ayat": "-",
+      "peraturan": "Peraturan Pemerintah No. 55/2012",
+      "keterangan": "Kendaraan"
+    },
+    {
+      "pasal": "57",
+      "ayat": "(4)",
+      "peraturan": "Peraturan Pemerintah No. 55/2012",
+      "keterangan": "Kendaraan"
+    },
+    {
+      "pasal": "59",
+      "ayat": "(6)",
+      "peraturan": "Peraturan Pemerintah No. 55/2012",
+      "keterangan": "Kendaraan"
+    },
+    {
+      "pasal": "59",
+      "ayat": "(7)",
+      "peraturan": "Peraturan Kepala Kepolisian RI No. 10/2012",
+      "keterangan": "Pengaturan Lalu Lintas Dalam Keadaan Tertentu dan Penggunaan Jalan Selain Untuk Kegiatan Lalu Lintas"
+    },
+    {
+      "pasal": "60",
+      "ayat": "(6)",
+      "peraturan": "Peraturan Pemerintah No. 55/2012",
+      "keterangan": "Kendaraan"
+    },
+    {
+      "pasal": "61",
+      "ayat": "(4)",
+      "peraturan": "Peraturan Pemerintah No. 55/2012",
+      "keterangan": "Kendaraan"
+    },
+    {
+      "pasal": "63",
+      "ayat": "(2)",
+      "peraturan": "Peraturan Daerah Kota Yogyakarta No. 1/2019",
+      "keterangan": "Penyelenggaraan Lalu Lintas dan Angkutan Jalan"
+    },
+    {
+      "pasal": "63",
+      "ayat": "(3)",
+      "peraturan": "Peraturan Daerah Provinsi DKI Jakarta  No. 5/2014",
+      "keterangan": "Transportasi"
+    },
+    {
+      "pasal": "64",
+      "ayat": "(6)",
+      "peraturan": "Peraturan Kepala Kepolisian RI No. 5/2012",
+      "keterangan": "Registrasi dan Identifikasi Kendaraan Bermotor"
+    },
+    {
+      "pasal": "67",
+      "ayat": "(4)",
+      "peraturan": "Peraturan Presiden No. 5/2015",
+      "keterangan": "Penyelenggaraan Sistem Administrasi Manunggal Satu Atap Kendaraan Bermotor"
+    },
+    {
+      "pasal": "68",
+      "ayat": "(6)",
+      "peraturan": "Peraturan Kepala Kepolisian RI No. 5/2012",
+      "keterangan": "Registrasi dan Identifikasi Kendaraan Bermotor"
+    },
+    {
+      "pasal": "69",
+      "ayat": "(3)",
+      "peraturan": "Peraturan Kepala Kepolisian RI No. 5/2012",
+      "keterangan": "Registrasi dan Identifikasi Kendaraan Bermotor"
+    },
+    {
+      "pasal": "72",
+      "ayat": "(1)",
+      "peraturan": "Peraturan Kepala Kepolisian RI No. 5/2012",
+      "keterangan": "Registrasi dan Identifikasi Kendaraan Bermotor"
+    },
+    {
+      "pasal": "72",
+      "ayat": "(2)",
+      "peraturan": "Peraturan Kepala Kepolisian RI No. 5/2012",
+      "keterangan": "Registrasi dan Identifikasi Kendaraan Bermotor"
+    },
+    {
+      "pasal": "72",
+      "ayat": "(3)",
+      "peraturan": "Peraturan Kepala Kepolisian RI No. 5/2012",
+      "keterangan": "Registrasi dan Identifikasi Kendaraan Bermotor"
+    },
+    {
+      "pasal": "75",
+      "ayat": "-",
+      "peraturan": "Peraturan Kepala Kepolisian RI No. 5/2012",
+      "keterangan": "Registrasi dan Identifikasi Kendaraan Bermotor"
+    },
+    {
+      "pasal": "76",
+      "ayat": "(5)",
+      "peraturan": "Peraturan Pemerintah No. 55/2012",
+      "keterangan": "Kendaraan"
+    },
+    {
+      "pasal": "88",
+      "ayat": "-",
+      "peraturan": "Peraturan Kepala Kepolisian RI No. 5/2012",
+      "keterangan": "Registrasi dan Identifikasi Kendaraan Bermotor"
+    },
+    {
+      "pasal": "89",
+      "ayat": "(3)",
+      "peraturan": "Peraturan Kepala Kepolisian RI No. 5/2012",
+      "keterangan": "Registrasi dan Identifikasi Kendaraan Bermotor"
+    },
+    {
+      "pasal": "91",
+      "ayat": "(2)",
+      "peraturan": "Peraturan Kepala Kepolisian RI No. 5/2012",
+      "keterangan": "Registrasi dan Identifikasi Kendaraan Bermotor"
+    },
+    {
+      "pasal": "92",
+      "ayat": "(3)",
+      "peraturan": "Peraturan Pemerintah No. 74/2014",
+      "keterangan": "Angkutan Jalan"
+    },
+    {
+      "pasal": "93",
+      "ayat": "-",
+      "peraturan": "Peraturan Pemerintah No. 32/2011",
+      "keterangan": "Manajemen Dan Rekayasa, Analisis Dampak, Serta Manajemen Kebutuhan Lalu Lintas."
+    },
+    {
+      "pasal": "95",
+      "ayat": "(1)",
+      "peraturan": "Peraturan Menteri Perhubungan No. 96/2015",
+      "keterangan": "Pedoman Pelaksanaan Kegiatan Manajemen dan Rekayasa Lalu Lintas"
+    }
+  ]
+}

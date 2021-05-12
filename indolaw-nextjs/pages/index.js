@@ -18,6 +18,10 @@ export default function Home() {
         .link {
           color: blue;
         }
+
+        .link:hover {
+          text-decoration: underline;
+        }
       `}</style>
       <Head>
         <title>HukumJelas BETA 🚧</title>
@@ -30,30 +34,54 @@ export default function Home() {
       <p>If you <i>also</i> know the exact Bab or Pasal you want to go to, you can also navigate to it directly! For example, Pasal 4 of UU 13 2003 is at <span className="link"><Link href="/uu/2003/13#pasal-4">hukumjelas.com/uu/2003/13#pasal-4</Link></span> and Bab 10 of UU 13 2003 is at <span className="link"><Link href="/uu/2003/13#bab-10">hukumjelas.com/uu/2003/13#bab-10</Link></span></p>
       <h3>List of Laws</h3>
       <ul>
-        <li>
-          <span className="link"><Link href="/uu/1974/1">Undang-Undang 1 Tahun 1974 Tentang Perkawinan</Link></span>
-        </li>
-        <li>
-          <span className="link"><Link href="/uu/2003/13">Undang-Undang 13 Tahun 2003 Tentang Ketenagakerjaan</Link></span>
-        </li>
-        <li>
-          <span className="link"><Link href="/uu/1999/8">Undang-Undang 8 Tahun 1999 Tentang Perlindungan Konsumen</Link></span>
-        </li>
-        <li>
-          <span className="link"><Link href="/uu/1986/5">Undang-Undang 5 Tahun 1986 Tentang Peradilan Tata Usaha Negara</Link></span>
-        </li>
-        <li>
-          <span className="link"><Link href="/uu/1997/8">Undang-Undang 8 Tahun 1997 Tentang Dokumen Perusahaan</Link></span>
-        </li>
-        <li>
-          <span className="link"><Link href="/uu/1982/1">Undang-Undang 1 Tahun 1982 Tentang Pengesahan Konvensi Wina Mengenai Hubungan Diplomatik Beserta Protokol Opsionalnya Mengenai Hal Memperoleh Kewarganegaraan (vienna Convention On Diplomatic Relations And Optional Protocol To The Vienna Convertion On Diplomatic Relations Concerning Acquisition Of Nationality, 1961) Dan Pengesahan Konvensi Wina Mengenai Hubungan Konsuler Beserta Protocol Opsionalnya Mengenai Hal Memperoleh Kewarganegaraan (vienna Convention On Consular Relations And Optional Protocol To The Vienna Convention On Consular Relations Concerning Acquisition Of Nationality, 1963)</Link></span>
-        </li>
-        <li>
-          <span className="link"><Link href="/uu/2017/18">Undang-Undang 18 Tahun 2017 Tentang Perlindungan Pekerja Migran Indonesia</Link></span>
-        </li>
-        <li>
-          <span className="link"><Link href="/uu/2007/40">Undang-Undang 40 Tahun 2007 Tentang Perseroan Terbatas</Link></span>
-        </li>
+        <li>1974</li>
+        <ul>
+          <li>
+            <span className="link"><Link href="/uu/1974/1">Undang-Undang 1 Tahun 1974 Tentang Perkawinan</Link></span>
+          </li>
+        </ul>
+        <li>1982</li>
+        <ul>
+          <li>
+            <span className="link"><Link href="/uu/1982/1">Undang-Undang 1 Tahun 1982 Tentang Pengesahan Konvensi Wina Mengenai Hubungan Diplomatik Beserta Protokol Opsionalnya Mengenai Hal Memperoleh Kewarganegaraan (vienna Convention On Diplomatic Relations And Optional Protocol To The Vienna Convertion On Diplomatic Relations Concerning Acquisition Of Nationality, 1961) Dan Pengesahan Konvensi Wina Mengenai Hubungan Konsuler Beserta Protocol Opsionalnya Mengenai Hal Memperoleh Kewarganegaraan (vienna Convention On Consular Relations And Optional Protocol To The Vienna Convention On Consular Relations Concerning Acquisition Of Nationality, 1963)</Link></span>
+          </li>
+        </ul>
+        <li>1986</li>
+        <ul>
+          <li>
+            <span className="link"><Link href="/uu/1986/5">Undang-Undang 5 Tahun 1986 Tentang Peradilan Tata Usaha Negara</Link></span>
+          </li>
+        </ul>
+        <li>1997</li>
+        <ul>
+          <li>
+            <span className="link"><Link href="/uu/1997/8">Undang-Undang 8 Tahun 1997 Tentang Dokumen Perusahaan</Link></span>
+          </li>
+        </ul>
+        <li>1999</li>
+        <ul>
+          <li>
+            <span className="link"><Link href="/uu/1999/8">Undang-Undang 8 Tahun 1999 Tentang Perlindungan Konsumen</Link></span>
+          </li>
+        </ul>
+        <li>2003</li>
+        <ul>
+          <li>
+            <span className="link"><Link href="/uu/2003/13">Undang-Undang 13 Tahun 2003 Tentang Ketenagakerjaan</Link></span>
+          </li>
+        </ul>
+        <li>2007</li>
+        <ul>
+          <li>
+            <span className="link"><Link href="/uu/2007/40">Undang-Undang 40 Tahun 2007 Tentang Perseroan Terbatas</Link></span>
+          </li>
+        </ul>
+        <li>2017</li>
+        <ul>
+          <li>
+            <span className="link"><Link href="/uu/2017/18">Undang-Undang 18 Tahun 2017 Tentang Perlindungan Pekerja Migran Indonesia</Link></span>
+          </li>
+        </ul>
       </ul>
     </div>
   );

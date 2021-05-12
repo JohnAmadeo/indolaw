@@ -1,10 +1,12 @@
 attrs==20.3.0
 autopep8==1.5.4
+beautifulsoup4==4.9.3
 certifi==2019.6.16
 cffi==1.14.3
 chardet==3.0.4
 colorama==0.4.4
 cryptography==3.2.1
+idna==2.10
 importlib-metadata==3.4.0
 iniconfig==1.1.1
 mypy==0.800
@@ -18,11 +20,14 @@ pycodestyle==2.6.0
 pycparser==2.20
 pyparsing==2.4.7
 pytest==6.2.2
+requests==2.25.1
 scipy==1.4.1
 six==1.15.0
 sortedcontainers==2.3.0
+soupsieve==2.2.1
 termcolor==1.1.0
 toml==0.10.2
 typed-ast==1.4.2
 typing-extensions==3.7.4.3
+urllib3==1.26.4
 zipp==3.4.0
