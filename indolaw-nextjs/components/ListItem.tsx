@@ -2,8 +2,8 @@ import { Structure, Complex, Primitive, renderStructure } from "utils/grammar";
 import PrimitiveStructure from "components/PrimitiveStructure";
 import { useMediaQuery } from "react-responsive";
 
-export default function ListItem(props: { structure: Complex }): JSX.Element {
-  const { structure } = props;
+export default function ListItem(props: { structure: Complex; penjelasanUmum?: Array<Complex | Primitive> }): JSX.Element {
+  const { structure, penjelasanUmum } = props;
   const isMobile = useMediaQuery({ maxWidth: 768 });
 
   return (
@@ -26,7 +26,7 @@ export default function ListItem(props: { structure: Complex }): JSX.Element {
       </div>
       <div className="text-block">
         {structure.children.slice(1).map((childStructure, idx) =>
-          renderStructure(childStructure, idx, isMobile)
+          renderStructure(childStructure, idx, penjelasanUmum, isMobile)
         )}
       </div>
     </div>

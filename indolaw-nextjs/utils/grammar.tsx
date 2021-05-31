@@ -4,6 +4,7 @@ import StructureWithHeading from "components/StructureWithHeading";
 import CenteredHeading from "components/CenteredHeading";
 import { CSSProperties } from "react";
 import PenjelasanListItem from "components/PenjelasanListItem";
+import PenjelasanPasalItem from "../components/PenjelasanPasalItem";
 
 export enum Structure {
   UNDANG_UNDANG = "UNDANG_UNDANG",
@@ -93,6 +94,7 @@ export interface Complex {
 export function renderStructure(
   structure: Complex | Primitive,
   key?: string | number,
+  penjelasanUmum?: Array<Complex | Primitive>,
   isMobile?: boolean,
 ) {
   switch (structure.type) {
@@ -152,6 +154,7 @@ export function renderStructure(
       return (
         <StructureWithHeading
           key={key}
+          penjelasanUmum={penjelasanUmum}
           structure={structure as Complex}
           numOfHeadingLines={2}
         />
@@ -171,23 +174,25 @@ export function renderStructure(
     case Structure.PENJELASAN_UMUM:
     case Structure.LIST:
     case Structure.UNORDERED_LIST:
-      return renderChildren(structure as Complex, key);
+      return renderChildren(structure as Complex, key, penjelasanUmum);
     case Structure.PENJELASAN_PASAL_DEMI_PASAL:
       return (
         <>
           <style jsx>{`
             div {
-              margin: 48px 0 0 0;
+              margin: 48px;
+              padding: 40px;
+              border: 5px solid black;
             }
           `}</style>
           <div>
-            {renderChildren(structure as Complex, key)}
+            Untuk kemudahan memakai HukumJelas, penjelasan masing-masing pasal telah dipindahkan ke bawah pasal terkait
           </div>
         </>
       );
     case Structure.LIST_ITEM:
     case Structure.UNORDERED_LIST_ITEM:
-      return <ListItem key={key} structure={structure as Complex} />;
+      return <ListItem key={key} structure={structure as Complex}/>;
     case Structure.PENJELASAN_LIST_ITEM:
       return <PenjelasanListItem key={key} structure={structure as Complex} />;
     default:
@@ -195,14 +200,34 @@ export function renderStructure(
   }
 }
 
+export function renderPenjelasanUmum(structure: Complex | Primitive, key?: string | number) {
+  switch (structure.type) {
+    case Structure.PASAL:
+      console.log(structure);
+      return (
+        <>
+            <PenjelasanPasalItem
+              key={key}
+              structure={structure as Complex}
+              numOfHeadingLines={1}
+            />
+        </>
+      );
+    default:
+      return <></>;
+  }
+
+}
+
 export function renderChildren(
   structure: Complex,
   key?: string | number,
+  penjelasanUmum?: Array<Complex | Primitive>
 ): JSX.Element {
   return (
     <div key={key}>
       {structure.children.map((childStructure, idx) =>
-        renderStructure(childStructure, idx)
+        renderStructure(childStructure, idx, penjelasanUmum)
       )}
     </div>
   );

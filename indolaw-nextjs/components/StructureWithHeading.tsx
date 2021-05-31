@@ -1,12 +1,13 @@
 import { CSSProperties } from "react";
-import { Complex, Primitive, renderStructure } from "utils/grammar";
+import { Complex, Primitive, renderPenjelasanUmum, renderStructure } from "utils/grammar";
 import PrimitiveStructure from "./PrimitiveStructure";
 
 export default function StructureWithHeading(props: {
   structure: Complex;
+  penjelasanUmum?: Array<Complex | Primitive>;
   numOfHeadingLines: number;
 }): JSX.Element {
-  const { structure, numOfHeadingLines } = props;
+  const { structure, numOfHeadingLines, penjelasanUmum } = props;
   const headingStyle: CSSProperties = {
     marginLeft: "0px",
     textAlign: "center",
@@ -34,7 +35,18 @@ export default function StructureWithHeading(props: {
       </div>
       {structure.children
         .slice(numOfHeadingLines)
-        .map((child, idx) => renderStructure(child, idx))}
+        .map((child, idx) => {
+          let result = [renderStructure(child, idx, penjelasanUmum)];
+
+          if (penjelasanUmum) {
+            const penjelasanUmumNode = penjelasanUmum.shift();
+            if (penjelasanUmumNode) {
+              result.push(renderPenjelasanUmum(penjelasanUmumNode));
+            }
+          }
+
+          return result;
+        })}
     </>
   );
 }
