@@ -1,5 +1,5 @@
 import { CSSProperties } from "react";
-import { Complex, Primitive, renderPenjelasanUmum, renderStructure } from "utils/grammar";
+import { Complex, Primitive, renderPenjelasanUmum, renderStructure, Structure } from "utils/grammar";
 import PrimitiveStructure from "./PrimitiveStructure";
 
 export default function StructureWithHeading(props: {
@@ -38,7 +38,7 @@ export default function StructureWithHeading(props: {
         .map((child, idx) => {
           let result = [renderStructure(child, idx, penjelasanUmum)];
 
-          if (penjelasanUmum) {
+          if (child.type === Structure.PASAL && penjelasanUmum) {
             const penjelasanUmumNode = penjelasanUmum.shift();
             if (penjelasanUmumNode) {
               result.push(renderPenjelasanUmum(penjelasanUmumNode));

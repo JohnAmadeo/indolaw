@@ -7247,7 +7247,17 @@
                   },
                   {
                     "type": "PLAINTEXT",
-                    "text": "Ketentuan ini dimaksudkan untuk menerapkan sistem beban pembuktian terbalik. Pasal 23"
+                    "text": "Ketentuan ini dimaksudkan untuk menerapkan sistem beban pembuktian terbalik."
+                  }
+                ]
+              },
+              {
+                "type": "PASAL",
+                "id": "",
+                "children": [
+                  {
+                    "type": "PASAL_NUMBER",
+                    "text": "Pasal 23"
                   },
                   {
                     "type": "PLAINTEXT",
