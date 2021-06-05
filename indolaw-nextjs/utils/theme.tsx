@@ -8,6 +8,7 @@ export const colors = {
   background: "#ffffff",
   text: "#514d48",
   linkText: "#373d3f",
+  subcontent: "#d3d3d3",
   tray: {
     button: '#1b1c1d',
     buttonHover: '#2a2f31',
@@ -20,6 +21,7 @@ export const darkColors = {
   background: "#1b1c1d",
   text: "#ffffff",
   linkText: '#1ecbe1',
+  subcontent: "#373d3f",
   tray: {
     button: '#ffffff',
     buttonHover: '#bbbbbb',
@@ -51,6 +53,7 @@ export interface ColorScheme {
   background: string,
   text: string,
   linkText: string,
+  subcontent: string,
   tray: {
     button: string,
     buttonHover: string,

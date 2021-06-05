@@ -1,4 +1,3 @@
-import { type } from "os";
 import { Complex, Primitive, renderChildren, Structure } from "utils/grammar";
 import { fonts } from "utils/theme";
 
