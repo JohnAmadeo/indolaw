@@ -52,7 +52,7 @@ export default function PenjelasanPasalItem(props: {
 
         {isContentVisible && (
           <div>
-{/*                             
+            {/*                             
             <div id={structure.id}>
             {structure.children
               .slice(0, numOfHeadingLines)
