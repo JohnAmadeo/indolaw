@@ -26,7 +26,7 @@ export default function Status(props: {
           margin: 8px 0;
         }
       `}</style>
-      {status.length > 0 ?
+      {status && status.length > 0 ?
         <ul>
           {status.map(line => <li key={line}>{line}</li>)}
         </ul> :
