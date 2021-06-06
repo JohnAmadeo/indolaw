@@ -7,6 +7,7 @@ const commonTrayColors = {
 export const colors = {
   background: "#ffffff",
   text: "#514d48",
+  textHover: '#818181',
   linkText: "#373d3f",
   tray: {
     button: '#1b1c1d',
@@ -19,6 +20,7 @@ export const colors = {
 export const darkColors = {
   background: "#1b1c1d",
   text: "#ffffff",
+  textHover: '#dadada',
   linkText: '#1ecbe1',
   tray: {
     button: '#ffffff',
@@ -31,6 +33,7 @@ export const darkColors = {
 export const noColors = {
   background: '',
   text: '',
+  textHover: '',
   linkText: '',
   tray: {
     button: '',
@@ -50,6 +53,7 @@ export const fonts = {
 export interface ColorScheme {
   background: string,
   text: string,
+  textHover: string,
   linkText: string,
   tray: {
     button: string,

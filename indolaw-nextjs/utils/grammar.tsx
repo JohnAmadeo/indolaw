@@ -4,6 +4,7 @@ import StructureWithHeading from "components/StructureWithHeading";
 import CenteredHeading from "components/CenteredHeading";
 import { CSSProperties } from "react";
 import PenjelasanListItem from "components/PenjelasanListItem";
+import Pasal from "components/Pasal";
 
 export enum Structure {
   UNDANG_UNDANG = "UNDANG_UNDANG",
@@ -39,8 +40,12 @@ export enum Structure {
   UNORDERED_LIST_ITEM = "UNORDERED_LIST_ITEM",
   LIST_INDEX = "LIST_INDEX",
   NUMBER_WITH_BRACKETS = "NUMBER_WITH_BRACKETS",
+  NUMBER_WITH_RIGHT_BRACKET = "NUMBER_WITH_RIGHT_BRACKET",
   NUMBER_WITH_DOT = "NUMBER_WITH_DOT",
   LETTER_WITH_DOT = "LETTER_WITH_DOT",
+  PENJELASAN_HURUF = "PENJELASAN_HURUF",
+  PENJELASAN_AYAT = "PENJELASAN_AYAT",
+  PENJELASAN_ANGKA = "PENJELASAN_ANGKA",
 }
 
 const HEADING_STRUCTURES = new Set([
@@ -158,7 +163,7 @@ export function renderStructure(
       );
     case Structure.PASAL:
       return (
-        <StructureWithHeading
+        <Pasal
           key={key}
           structure={structure as Complex}
           numOfHeadingLines={1}
@@ -191,7 +196,7 @@ export function renderStructure(
     case Structure.PENJELASAN_LIST_ITEM:
       return <PenjelasanListItem key={key} structure={structure as Complex} />;
     default:
-      return <></>;
+      throw Error('');
   }
 }
 
