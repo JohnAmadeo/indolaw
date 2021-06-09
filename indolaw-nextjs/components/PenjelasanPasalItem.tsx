@@ -35,6 +35,10 @@ export default function PenjelasanPasalItem(props: {
           display: flex;
           justify-content: center;
         }
+
+        .content {
+          margin-top: 20px;
+        }
       `}</style>
       <div className="group">
         <div
@@ -50,23 +54,24 @@ export default function PenjelasanPasalItem(props: {
         </div>
 
         {isContentVisible && (
-          <div>
-            {/*                             
+          <div className="content">
             <div id={structure.id}>
-            {structure.children
-              .slice(0, numOfHeadingLines)
-              .map((child, idx) => (
-                <PrimitiveStructure
-                  key={idx}
-                  structure={child as Primitive}
-                  customStyle={headingStyle}
-                />
-              ))}
-          </div> */}
+              {structure.children
+                .slice(0, numOfHeadingLines)
+                .map((child, idx) => (
+                  <PrimitiveStructure
+                    key={idx}
+                    structure={child as Primitive}
+                    customStyle={headingStyle}
+                  />
+                ))}
+            </div>
 
             {structure.children.slice(numOfHeadingLines).map((child, idx) => {
               if (
                 (child as Primitive).text &&
+                // The line below should be temporary, as the current parser parses "TAMBAHAN xxxx" as part of penjelasan
+                // which should not be the intended behavior
                 (child as Primitive).text.startsWith(
                   "TAMBAHAN LEMBARAN NEGARA REPUBLIK INDONESIA"
                 )

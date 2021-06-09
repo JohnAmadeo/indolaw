@@ -1,5 +1,11 @@
 import { CSSProperties } from "react";
-import { Complex, Primitive, renderPenjelasanUmum, renderStructure, Structure } from "utils/grammar";
+import {
+  Complex,
+  Primitive,
+  renderPenjelasanUmum,
+  renderStructure,
+  Structure,
+} from "utils/grammar";
 import PrimitiveStructure from "./PrimitiveStructure";
 
 export default function StructureWithHeading(props: {
@@ -23,30 +29,29 @@ export default function StructureWithHeading(props: {
         }
       `}</style>
       <div id={structure.id}>
-        {structure.children
-          .slice(0, numOfHeadingLines)
-          .map((child, idx) => (
-            <PrimitiveStructure
-              key={idx}
-              structure={child as Primitive}
-              customStyle={headingStyle}
-            />
-          ))}
+        {structure.children.slice(0, numOfHeadingLines).map((child, idx) => (
+          <PrimitiveStructure
+            key={idx}
+            structure={child as Primitive}
+            customStyle={headingStyle}
+          />
+        ))}
       </div>
-      {structure.children
-        .slice(numOfHeadingLines)
-        .map((child, idx) => {
-          let result = [renderStructure(child, idx, penjelasanUmum)];
+      {structure.children.slice(numOfHeadingLines).map((child, idx) => {
+        let result = [renderStructure(child, idx, penjelasanUmum)];
 
-          if (child.type === Structure.PASAL && penjelasanUmum) {
-            const penjelasanUmumNode = penjelasanUmum.shift();
-            if (penjelasanUmumNode) {
-              result.push(renderPenjelasanUmum(penjelasanUmumNode));
-            }
+        // If the current node is a PASAL and penjelasan umum still exists:
+        // 1. Remove and return the first node from penjelasan umum
+        // 2. Render the penjelasan umum below the pasal
+        if (child.type === Structure.PASAL && penjelasanUmum) {
+          const penjelasanUmumNode = penjelasanUmum.shift();
+          if (penjelasanUmumNode) {
+            result.push(renderPenjelasanUmum(penjelasanUmumNode));
           }
+        }
 
-          return result;
-        })}
+        return result;
+      })}
     </>
   );
 }

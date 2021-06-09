@@ -66,18 +66,18 @@ const PRIMITIVE_STRUCTURES = new Set([
 ]);
 
 export interface LawData {
-  content: Complex,
-  metadata: Metadata,
+  content: Complex;
+  metadata: Metadata;
 }
 
 export interface Metadata {
-  lembaranNegaraNumber: number,
-  lembaranNegaraYear: number,
-  tambahanLembaranNumber: number,
-  number: number,
-  topic: string,
-  year: number,
-  status: Array<string>,
+  lembaranNegaraNumber: number;
+  lembaranNegaraYear: number;
+  tambahanLembaranNumber: number;
+  number: number;
+  topic: string;
+  year: number;
+  status: Array<string>;
 }
 
 export interface Primitive {
@@ -95,7 +95,7 @@ export function renderStructure(
   structure: Complex | Primitive,
   key?: string | number,
   penjelasanUmum?: Array<Complex | Primitive>,
-  isMobile?: boolean,
+  isMobile?: boolean
 ) {
   switch (structure.type) {
     case Structure.UU_TITLE:
@@ -135,7 +135,9 @@ export function renderStructure(
     case Structure.BAGIAN_TITLE:
     case Structure.PARAGRAF_NUMBER:
     case Structure.PARAGRAF_TITLE:
-      return <PrimitiveStructure key={key} structure={structure as Primitive} />;
+      return (
+        <PrimitiveStructure key={key} structure={structure as Primitive} />
+      );
     case Structure.PENJELASAN_UMUM_TITLE:
     case Structure.PENJELASAN_PASAL_DEMI_PASAL_TITLE:
       const headingStyle: CSSProperties = {
@@ -186,13 +188,14 @@ export function renderStructure(
             }
           `}</style>
           <div>
-            Untuk kemudahan memakai HukumJelas, penjelasan masing-masing pasal telah dipindahkan ke bawah pasal terkait
+            Untuk kemudahan pemakaian HukumJelas, penjelasan masing-masing pasal
+            telah dipindahkan ke bawah pasal terkait
           </div>
         </>
       );
     case Structure.LIST_ITEM:
     case Structure.UNORDERED_LIST_ITEM:
-      return <ListItem key={key} structure={structure as Complex}/>;
+      return <ListItem key={key} structure={structure as Complex} />;
     case Structure.PENJELASAN_LIST_ITEM:
       return <PenjelasanListItem key={key} structure={structure as Complex} />;
     default:
@@ -200,23 +203,24 @@ export function renderStructure(
   }
 }
 
-export function renderPenjelasanUmum(structure: Complex | Primitive, key?: string | number) {
+export function renderPenjelasanUmum(
+  structure: Complex | Primitive,
+  key?: string | number
+) {
   switch (structure.type) {
     case Structure.PASAL:
-      console.log(structure);
       return (
         <>
-            <PenjelasanPasalItem
-              key={key}
-              structure={structure as Complex}
-              numOfHeadingLines={1}
-            />
+          <PenjelasanPasalItem
+            key={key}
+            structure={structure as Complex}
+            numOfHeadingLines={1}
+          />
         </>
       );
     default:
       return <></>;
   }
-
 }
 
 export function renderChildren(

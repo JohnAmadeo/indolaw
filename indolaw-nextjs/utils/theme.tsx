@@ -34,6 +34,7 @@ export const noColors = {
   background: '',
   text: '',
   linkText: '',
+  subcontent: '',
   tray: {
     button: '',
     buttonHover: '',
