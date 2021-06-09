@@ -594,6 +594,7 @@ def extract_metadata_from_tree(undang_undang_node: ComplexNode) -> Dict[str, Any
         child = node.children[-1]
 
         if isinstance(child, PrimitiveNode):
+            # remove the Tambahan Lembaran Negara number from Penjelasan Umum
             node.children.pop()
             extractTLN(child)
             return

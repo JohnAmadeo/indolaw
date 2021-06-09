@@ -68,10 +68,10 @@ export default function PenjelasanPasalItem(props: {
             </div>
 
             {structure.children.slice(numOfHeadingLines).map((child, idx) => {
+              // The if-statement below should be temporary, as the current parser parses "TAMBAHAN xxxx" as part of penjelasan
+              // which should not be the intended behavior
               if (
                 (child as Primitive).text &&
-                // The line below should be temporary, as the current parser parses "TAMBAHAN xxxx" as part of penjelasan
-                // which should not be the intended behavior
                 (child as Primitive).text.startsWith(
                   "TAMBAHAN LEMBARAN NEGARA REPUBLIK INDONESIA"
                 )
