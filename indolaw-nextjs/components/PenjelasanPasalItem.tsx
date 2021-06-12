@@ -23,7 +23,7 @@ export default function PenjelasanPasalItem(props: {
       <style jsx>{`
         .group {
           margin: 20px auto;
-          background-color: ${colorScheme.subcontent};
+          background-color: ${colorScheme.subcontent.background};
           padding: 10px 20px;
           border-radius: 7.5px;
         }

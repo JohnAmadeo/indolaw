@@ -42,6 +42,9 @@ export default function StructureWithHeading(props: {
 
         // If the current node is a PASAL and penjelasan umum still exists:
         // 1. Remove and return the first node from penjelasan umum
+        // -- Needs to be removed so the order of the array is still aligned with the pasal
+        // -- This is because the pasal is nested in BABs, whereas the penjelasan umum is flattened
+        // -- , so we can't properly use counter to order them 
         // 2. Render the penjelasan umum below the pasal
         if (child.type === Structure.PASAL && penjelasanUmum) {
           const penjelasanUmumNode = penjelasanUmum.shift();

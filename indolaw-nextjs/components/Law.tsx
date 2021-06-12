@@ -20,19 +20,16 @@ export default function Law(props: { law: Complex, colorScheme : any}): JSX.Elem
 }
 
 function extractPenjelasanUmum(lawNode: Complex): Array<Primitive | Complex> {
-  // The structure of penjelasan umum node should follow:
-  // UNDANG_UNDANG -> PENJELASAN -> PENJELASAN_PASAL_DEMI_PASAL -> [Penjelasan title, penjelasan pasal 1, penjelasan pasal 2, ...]
-  const parentStructures = new Set([
-    Structure.UNDANG_UNDANG,
-    Structure.PENJELASAN,
-  ]);
+  if (lawNode.children) {
+    const penjelasanUmum = lawNode.children[lawNode.children.length - 1];
 
-  for (const childNode of lawNode.children) {
-    if (parentStructures.has(childNode.type)) {
-      return extractPenjelasanUmum(childNode as Complex);
-    } else if (childNode.type.match(Structure.PENJELASAN_PASAL_DEMI_PASAL)) {
-      // remove the first node in the list of nodes (only contains the title of Penjelasan Umum)
-      return (childNode as Complex).children.slice(1);
+    if (penjelasanUmum.type.match(Structure.PENJELASAN) && (penjelasanUmum as Complex).children) {
+      const penjelasanPasalDemiPasal = (penjelasanUmum as Complex).children[(penjelasanUmum as Complex).children.length - 1];
+
+      if (penjelasanPasalDemiPasal.type.match(Structure.PENJELASAN_PASAL_DEMI_PASAL)) {
+        // remove the first node in the list of nodes (only contains the title of Penjelasan Umum)
+        return (penjelasanPasalDemiPasal as Complex).children.slice(1);
+      }
     }
   }
 

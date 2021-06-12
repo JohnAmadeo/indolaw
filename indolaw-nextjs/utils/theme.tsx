@@ -8,42 +8,48 @@ export const colors = {
   background: "#ffffff",
   text: "#514d48",
   linkText: "#373d3f",
-  subcontent: "#d3d3d3",
+  subcontent: { 
+    background: "#d3d3d3" 
+  },
   tray: {
-    button: '#1b1c1d',
-    buttonHover: '#2a2f31',
-    buttonText: '#ffffff',
-    ...commonTrayColors
+    button: "#1b1c1d",
+    buttonHover: "#2a2f31",
+    buttonText: "#ffffff",
+    ...commonTrayColors,
   },
 };
 
 export const darkColors = {
   background: "#1b1c1d",
   text: "#ffffff",
-  linkText: '#1ecbe1',
-  subcontent: "#373d3f",
+  linkText: "#1ecbe1",
+  subcontent: { 
+    background: "#373d3f" 
+  },
   tray: {
-    button: '#ffffff',
-    buttonHover: '#bbbbbb',
-    buttonText: '#514d48',
-    ...commonTrayColors
+    button: "#ffffff",
+    buttonHover: "#bbbbbb",
+    buttonText: "#514d48",
+    ...commonTrayColors,
   },
 };
 
 export const noColors = {
-  background: '',
-  text: '',
-  linkText: '',
-  subcontent: '',
+  background: "",
+  text: "",
+  linkText: "",
+  subcontent: {
+    background: "",
+  },
   tray: {
-    button: '',
-    buttonHover: '',
-    buttonText: '',
-    background: '',
-    text: '',
-    textSecondary: '',
-  }
-}
+    button: "",
+    buttonHover: "",
+    buttonText: "",
+    background: "",
+    text: "",
+    textSecondary: "",
+  },
+};
 
 export const fonts = {
   sans: "Merriweather Sans",
@@ -51,16 +57,18 @@ export const fonts = {
 };
 
 export interface ColorScheme {
-  background: string,
-  text: string,
-  linkText: string,
-  subcontent: string,
+  background: string;
+  text: string;
+  linkText: string;
+  subcontent: {
+    background: string;
+  };
   tray: {
-    button: string,
-    buttonHover: string,
-    buttonText: string,
-    background: string,
-    text: string,
-    textSecondary: string,
-  }
+    button: string;
+    buttonHover: string;
+    buttonText: string;
+    background: string;
+    text: string;
+    textSecondary: string;
+  };
 }
