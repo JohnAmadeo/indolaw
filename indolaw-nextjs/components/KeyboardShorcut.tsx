@@ -10,6 +10,7 @@ export default function KeyboardShortcut(props: {
       <style jsx>{`
         .keyboard-shortcut {
           display: block;
+          color: ${colorScheme.tray.buttonText};
           background-color: ${colorScheme.tray.button};
           border-radius: 4px;
           width: 24px;
