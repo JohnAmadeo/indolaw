@@ -6,6 +6,7 @@ const commonTrayColors = {
 
 export const colors = {
   background: "#ffffff",
+  backgroundSecondary: '#f5f5f5',
   text: "#514d48",
   textHover: '#818181',
   linkText: "#373d3f",
@@ -22,6 +23,7 @@ export const colors = {
 
 export const darkColors = {
   background: "#1b1c1d",
+  backgroundSecondary: '#242424',
   text: "#ffffff",
   textHover: "#dadada",
   linkText: "#1ecbe1",
@@ -37,9 +39,11 @@ export const darkColors = {
 };
 
 export const noColors = {
-  background: "",
-  text: "",
-  linkText: "",
+  background: '',
+  backgroundSecondary: '',
+  text: '',
+  textHover: '',
+  linkText: '',
   subcontent: {
     background: "",
   },
@@ -59,13 +63,14 @@ export const fonts = {
 };
 
 export interface ColorScheme {
-  background: string;
-  text: string;
-  textHover: string;
-  linkText: string;
+  background: string,
+  backgroundSecondary: string,
+  text: string,
+  textHover: string,
+  linkText: string,
   subcontent: {
-    background: string;
-  };
+    background: string,
+  },
   tray: {
     button: string;
     buttonHover: string;

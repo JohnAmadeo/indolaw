@@ -6,6 +6,7 @@ import { CSSProperties } from "react";
 import PenjelasanListItem from "components/PenjelasanListItem";
 import PenjelasanPasalItem from "../components/PenjelasanPasalItem";
 import Pasal from "components/Pasal";
+import UUTitle from "components/UUTitle";
 
 export enum Structure {
   UNDANG_UNDANG = "UNDANG_UNDANG",
@@ -104,6 +105,7 @@ export function renderStructure(
 ) {
   switch (structure.type) {
     case Structure.UU_TITLE:
+      return <UUTitle key={key} structure={structure as Complex} />;
     case Structure.PREFACE:
     case Structure.AGREEMENT:
     case Structure.CLOSING:

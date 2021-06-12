@@ -1,4 +1,4 @@
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import { LawData } from "utils/grammar";
 import { colors } from "utils/theme";
 import TableOfContentsGroup from "components/TableOfContentsGroup";
@@ -10,16 +10,40 @@ import MetadataSection from "./MetadataSection";
 import Tab from "./Tab";
 import TrayButton from "./TrayButton";
 import PutusanMK from "./PutusanMK";
+import KeyboardShortcut from "./KeyboardShorcut";
 
 enum Tabs {
   TABLE_OF_CONTENTS,
   METADATA,
 };
 
-export default function Tray(props: { law: LawData }): JSX.Element {
-  const { law } = props;
+export default function Tray(props: {
+  law: LawData,
+  isExpanded: boolean,
+  onExpand: () => void,
+  onMinimize: () => void,
+  width: number,
+}): JSX.Element {
+  const { law, isExpanded, onExpand, onMinimize, width } = props;
   const { colorScheme, toggleDarkMode } = useAppContext();
   const [activeTab, setActiveTab] = useState(Tabs.TABLE_OF_CONTENTS);
+
+  useEffect(() => {
+    const listener = function (event: KeyboardEvent) {
+      if (event.key === 'f') {
+        if (isExpanded) {
+          onMinimize();
+        } else {
+          onExpand();
+        }
+      }
+    };
+
+    document.addEventListener('keydown', listener);
+    return () => {
+      document.removeEventListener("keydown", listener);
+    };
+  }, [isExpanded]);
 
   const renderTab = (tab: Tabs): JSX.Element => {
     switch (tab) {
@@ -73,37 +97,100 @@ export default function Tray(props: { law: LawData }): JSX.Element {
     }
   };
 
-  return (
+  const contents = (
     <>
       <style jsx>{`
         .tabs {
           display: flex;
           flex-direction: row;
         }
+
         .pill-container {
           margin: 0 24px 0 0;
+          display: flex;
+          place-items: center;
         }
-      }`}</style>
-      <div>
-        <div className="tabs">
-          <div className="pill-container">
-            <Tab
-              isActive={activeTab === Tabs.TABLE_OF_CONTENTS}
-              onClick={() => setActiveTab(Tabs.TABLE_OF_CONTENTS)}
-              text={'Daftar Isi'}
-            />
+
+        .tray-icon {
+          color: ${colorScheme.tray.text};
+          margin-left: auto;
+          cursor: pointer;
+          display: flex;
+        }
+
+        .tray-icon:hover {
+          color: ${colorScheme.tray.textSecondary}
+        }
+
+        .material-icons.style {
+          vertical-align: bottom;
+          font-size: 28px;
+          margin: 0 2px 0 -4px;
+        }
+      `}</style>
+      {isExpanded ? (
+        <>
+          <div>
+            <div className="tabs">
+              <div className="pill-container">
+                <Tab
+                  isActive={activeTab === Tabs.TABLE_OF_CONTENTS}
+                  onClick={() => setActiveTab(Tabs.TABLE_OF_CONTENTS)}
+                  text={'Daftar Isi'}
+                />
+              </div>
+              <div className="pill-container">
+                <Tab
+                  isActive={activeTab === Tabs.METADATA}
+                  onClick={() => setActiveTab(Tabs.METADATA)}
+                  text={'Terkait'}
+                />
+              </div>
+              <div
+                className="tray-icon"
+                onClick={onMinimize}
+              >
+                <i className="material-icons style">close</i>
+                <KeyboardShortcut text={'F'} />
+              </div>
+            </div>
+            <Divider />
           </div>
-          <div className="pill-container">
-            <Tab
-              isActive={activeTab === Tabs.METADATA}
-              onClick={() => setActiveTab(Tabs.METADATA)}
-              text={'Terkait'}
-            />
-          </div>
+          {renderTab(activeTab)}
+        </>
+      ) : (
+        <div
+          className="tray-icon"
+          onClick={onExpand}
+        >
+          <i className="material-icons style">arrow_forward</i>
+          <KeyboardShortcut text={'F'} />
         </div>
-        <Divider />
-      </div>
-      {renderTab(activeTab)}
+      )}
     </>
+  );
+
+  return (
+    <div className="container">
+      <style jsx>{`
+        .container {
+          width: ${width}px;
+          transition: width ease 0.2s;
+        }
+
+        .sticky-container {
+          padding: ${isExpanded ? '20px' : '20px 12px'};
+          position: fixed;
+          width: ${width}px;
+          background-color: ${colorScheme.tray.background};
+          transition: width ease 0.2s;
+          height: 100%;
+          overflow: auto;
+        }
+      `}</style>
+      <div className="sticky-container">
+        {contents}
+      </div>
+    </div>
   );
 }
