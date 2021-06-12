@@ -35,7 +35,7 @@ export default function DesktopLawPage(props: {
         }
 
         .law {
-          margin: 0 auto;
+          margin: 24px auto 0 auto;
           width: 768px;
         }
 

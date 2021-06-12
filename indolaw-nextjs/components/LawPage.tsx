@@ -7,7 +7,7 @@ import MobileLawPage from "./MobileLawPage";
 
 // TODO(johnamadeo): Fix "Warning: Each child in a list should have a unique "key" prop." problem
 export default function LawPage(props: {
-  law: LawData;
+  law: LawData,
 }): JSX.Element {
   const isMobile = useMediaQuery({ query: "(max-width: 768px)" });
   const { law } = props;

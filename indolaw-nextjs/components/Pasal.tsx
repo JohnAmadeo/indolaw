@@ -6,13 +6,13 @@ import { Structure } from "utils/grammar";
 import ReactDOMServer from "react-dom/server";
 import { useMediaQuery } from "react-responsive";
 import * as clipboard from "clipboard-polyfill";
+import CopyButton from "./CopyButton";
 
 export default function Pasal(props: {
-  structure: Complex;
-  numOfHeadingLines: number;
+  structure: Complex,
+  numOfHeadingLines: number,
 }): JSX.Element {
   const { structure, numOfHeadingLines } = props;
-  const [iconName, setIconName] = useState('content_copy');
   const isMobile = useMediaQuery({ query: "(max-width: 768px)" });
 
   const { colorScheme } = useAppContext();
@@ -31,28 +31,8 @@ export default function Pasal(props: {
   );
 
   const copyButton = (
-    <>
-      <style jsx>{`
-      div {
-        display: flex;
-        align-items: center;
-        padding: 0 4px;
-        margin: 0 4px;
-        cursor: pointer;
-      }
-      
-      .material-icons.style {
-        vertical-align: bottom;
-        font-size: 18px;
-        color: ${colorScheme.text};
-      }
-
-      .material-icons.style:hover {
-        color: ${colorScheme.textHover};
-      }
-    }`}</style>
-      <div onClick={async () => {
-        setIconName('check');
+    <CopyButton
+      onClick={async () => {
         const item = new clipboard.ClipboardItem({
           "text/html": new Blob(
             [htmlToCopy],
@@ -62,14 +42,8 @@ export default function Pasal(props: {
         await clipboard.write([item]);
 
         console.log(htmlToCopy);
-
-        setTimeout(() => {
-          setIconName('content_copy');
-        }, 2000);
-      }}>
-        <i className="material-icons style">{iconName}</i>
-      </div>
-    </>
+      }}
+    />
   );
 
   return (
