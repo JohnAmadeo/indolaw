@@ -4,6 +4,7 @@ import { useAppContext } from "utils/context-provider";
 import PrimitiveStructure from "./PrimitiveStructure";
 import { Structure } from "utils/grammar";
 import ReactDOMServer from "react-dom/server";
+import { useMediaQuery } from "react-responsive";
 import * as clipboard from "clipboard-polyfill";
 
 export default function Pasal(props: {
@@ -12,6 +13,8 @@ export default function Pasal(props: {
 }): JSX.Element {
   const { structure, numOfHeadingLines } = props;
   const [iconName, setIconName] = useState('content_copy');
+  const isMobile = useMediaQuery({ query: "(max-width: 768px)" });
+
   const { colorScheme } = useAppContext();
 
   const headingStyle: CSSProperties = {
@@ -87,7 +90,7 @@ export default function Pasal(props: {
           structure={structure.children[0] as Primitive}
           customStyle={headingStyle}
         />
-        {copyButton}
+        {!isMobile && copyButton}
       </div>
       {structure.children
         .slice(numOfHeadingLines)
