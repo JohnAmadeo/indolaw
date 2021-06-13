@@ -3,6 +3,7 @@ import re
 
 from parser_types import Structure
 
+PASAL_NUMBER_REGEX = r'Pasal[\s]+([0-9]+|[MDCLXVI]+)'
 
 def is_start_of_structure(structure: Structure, law: List[str], start_index: int) -> bool:
     """Checks if law[start_index] marks the start of a structure.
@@ -457,7 +458,7 @@ def is_start_of_pasal_number(law: List[str], start_index: int) -> bool:
         >>> is_start_of_pasal_number(law, 2)
         True
     """
-    return is_heading(r'Pasal[\s]+[0-9]+', law[start_index])
+    return is_heading(PASAL_NUMBER_REGEX, law[start_index])
 
 
 def is_start_of_bagian(law: List[str], start_index: int) -> bool:
