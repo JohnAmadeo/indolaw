@@ -9,7 +9,7 @@ import Divider from "./Divider";
 import MetadataSection from "./MetadataSection";
 import Tab from "./Tab";
 import TrayButton from "./TrayButton";
-import PutusanMK from "./PutusanMK";
+import Putusan from "./Putusan";
 import KeyboardShortcut from "./KeyboardShorcut";
 
 enum Tabs {
@@ -80,8 +80,13 @@ export default function Tray(props: {
               }
             />
             <MetadataSection
-              title={'Putusan MK'}
-              content={<PutusanMK law={law} />}
+              title={'Putusan (MK, MA, pengadilan lain)'}
+              content={(
+                <Putusan
+                  law={law}
+                  textColor={colorScheme.tray.textSecondary}
+                />
+              )}
             />
             <MetadataSection
               title={'Theme'}
