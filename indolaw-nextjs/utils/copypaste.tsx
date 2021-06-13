@@ -5,11 +5,6 @@ export const renderCopyPasalHtml = (structure: Complex): JSX.Element => {
     switch (childStructure.type) {
       case Structure.PASAL_NUMBER:
       case Structure.MODIFIED_PASAL_NUMBER:
-        return (
-          <p style={{ textAlign: 'center' }}>
-            {(childStructure as Primitive).text}
-          </p>
-        );
       case Structure.PLAINTEXT:
         return <p>{(childStructure as Primitive).text}</p>;
       case Structure.LIST:
@@ -164,6 +159,7 @@ const renderCopyPenjelasanListItemHtml = (structure: Complex): JSX.Element => {
 const renderCopyHtml = (structure: Complex | Primitive): JSX.Element => {
   switch (structure.type) {
     case Structure.PASAL:
+    case Structure.MODIFIED_PASAL:
       return renderCopyPasalHtml(structure as Complex);
     case Structure.PASAL_NUMBER:
       return (
