@@ -20,6 +20,8 @@ export enum Structure {
   BAB_TITLE = "BAB_TITLE",
   PASAL = "PASAL",
   PASAL_NUMBER = "PASAL_NUMBER",
+  MODIFIED_PASAL = "MODIFIED_PASAL",
+  MODIFIED_PASAL_NUMBER = "MODIFIED_PASAL_NUMBER",
   BAGIAN = "BAGIAN",
   BAGIAN_TITLE = "BAGIAN_TITLE",
   BAGIAN_NUMBER = "BAGIAN_NUMBER",
@@ -53,6 +55,7 @@ const HEADING_STRUCTURES = new Set([
   Structure.BAB_NUMBER,
   Structure.BAB_TITLE,
   Structure.PASAL_NUMBER,
+  Structure.MODIFIED_PASAL_NUMBER,
   Structure.BAGIAN_NUMBER,
   Structure.BAGIAN_TITLE,
   Structure.PARAGRAF_NUMBER,
@@ -64,6 +67,7 @@ const PRIMITIVE_STRUCTURES = new Set([
   Structure.BAB_NUMBER,
   Structure.BAB_TITLE,
   Structure.PASAL_NUMBER,
+  Structure.MODIFIED_PASAL_NUMBER,
   Structure.BAGIAN_NUMBER,
   Structure.BAGIAN_TITLE,
   Structure.PARAGRAF_NUMBER,
@@ -136,6 +140,7 @@ export function renderStructure(
     case Structure.BAB_NUMBER:
     case Structure.BAB_TITLE:
     case Structure.PASAL_NUMBER:
+    case Structure.MODIFIED_PASAL_NUMBER:
     case Structure.BAGIAN_NUMBER:
     case Structure.BAGIAN_TITLE:
     case Structure.PARAGRAF_NUMBER:
@@ -164,6 +169,7 @@ export function renderStructure(
         />
       );
     case Structure.PASAL:
+    case Structure.MODIFIED_PASAL:
       return (
         <Pasal
           key={key}
@@ -198,7 +204,7 @@ export function renderStructure(
     case Structure.PENJELASAN_LIST_ITEM:
       return <PenjelasanListItem key={key} structure={structure as Complex} />;
     default:
-      throw Error('');
+      throw Error(`No rendering function ${structure.type}`);
   }
 }
 
