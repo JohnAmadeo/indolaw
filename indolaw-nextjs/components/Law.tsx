@@ -20,7 +20,7 @@ export default function Law(props: { law: Complex, colorScheme: any }): JSX.Elem
           color: ${props.colorScheme.text};
         }
       `}</style>
-        {renderChildren(props.law, undefined)}
+        {renderChildren(props.law)}
       </div>
     </LawContext.Provider>
   );
