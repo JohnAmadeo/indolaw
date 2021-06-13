@@ -76,10 +76,22 @@ export default function Home() {
             <span className="link"><Link href="/uu/2007/40">Undang-Undang 40 Tahun 2007 Tentang Perseroan Terbatas</Link></span>
           </li>
         </ul>
+        <li>2011</li>
+        <ul>
+          <li>
+            <span className="link"><Link href="/uu/2011/12">Undang-Undang 12 Tahun 2011 Tentang Pembentukan Peraturan Perundang-Undangan</Link></span>
+          </li>
+        </ul>
         <li>2017</li>
         <ul>
           <li>
             <span className="link"><Link href="/uu/2017/18">Undang-Undang 18 Tahun 2017 Tentang Perlindungan Pekerja Migran Indonesia</Link></span>
+          </li>
+        </ul>
+        <li>2019</li>
+        <ul>
+          <li>
+            <span className="link"><Link href="/uu/2019/19">Undang-Undang 19 Tahun 2019 Tentang Perubahan Kedua atas Undang-Undang Nomor 30 Tahun 2002 Tentang Komisi Pemberantasan Tindak Pidana Korupsi</Link></span>
           </li>
         </ul>
       </ul>
