@@ -85,12 +85,10 @@ export default function PenjelasanPasalItem(props: {
           className="title"
           onClick={() => setIsContentVisible(!isContentVisible)}
         >
-          <span> Penjelasan</span>
-          {
-            <i className="material-icons style">
-              {isContentVisible ? "expand_less" : "expand_more"}
-            </i>
-          }
+          Penjelasan
+          <i className="material-icons style">
+            {isContentVisible ? "expand_less" : "expand_more"}
+          </i>
         </div>
 
         {isContentVisible && (
@@ -104,11 +102,12 @@ export default function PenjelasanPasalItem(props: {
             </div>
 
             {structure.children.slice(numOfHeadingLines).map((child, idx) => {
+              child = child as Primitive;
               // The if-statement below should be temporary, as the current parser parses "TAMBAHAN xxxx" as part of penjelasan
               // which should not be the intended behavior
               if (
-                (child as Primitive).text &&
-                (child as Primitive).text.startsWith(
+                child.text &&
+                child.text.startsWith(
                   "TAMBAHAN LEMBARAN NEGARA REPUBLIK INDONESIA"
                 )
               ) {
