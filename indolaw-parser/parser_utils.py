@@ -13,6 +13,8 @@ from parser_types import (
     PlaintextInListItemScenario
 )
 from parser_is_start_of_x import (
+    MODIFIED_PASAL_NUMBER_REGEX,
+    PASAL_NUMBER_REGEX,
     is_start_of_number_with_brackets_str,
     is_start_of_number_with_right_bracket_str,
     is_start_of_number_with_dot_str,
@@ -24,6 +26,8 @@ from parser_is_start_of_x import (
     is_start_of_penjelasan_huruf_str,
     is_start_of_unordered_list_index_str,
 )
+
+PAGE_NUMBER_REGEX = r'[0-9]+[\s]*\/[\s]*[0-9]+'
 
 
 def ignore_line(line: str) -> bool:
@@ -52,7 +56,7 @@ def ignore_line(line: str) -> bool:
         return True
     elif "www.hukumonline.com" in line:
         return True
-    elif re.match(r'[0-9]+ \/ [0-9]+', line.rstrip()) != None:
+    elif re.match(PAGE_NUMBER_REGEX, line.rstrip()) != None:
         return True
     # page number
     elif re.match(r'- [0-9]+ -', line.rstrip()) != None:
@@ -289,7 +293,7 @@ def clean_law(law: List[str]) -> List[str]:
     law = list(filterfalse(ignore_line, law))
     new_law = []
     for line in law:
-        result = re.split(r'[0-9]+ / [0-9]+', line)
+        result = re.split(PAGE_NUMBER_REGEX, line)
         new_law.append(result[0])
 
     law = new_law
