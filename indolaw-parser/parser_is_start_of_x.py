@@ -730,7 +730,10 @@ def is_start_of_closing(law: List[str], start_index: int) -> bool:
         True
     """
     return 'Lembaran Negara Republik Indonesia'.lower() in law[start_index-1].lower() and\
-        'Disahkan Di Jakarta'.lower() in law[start_index].lower()
+        (
+            'Disahkan Di Jakarta'.lower() in law[start_index].lower() or
+            'Diundangkan Di Jakarta'.lower() in law[start_index].lower()
+    )
 
 
 def is_start_of_lembaran_number(law: List[str], start_index: int) -> bool:
