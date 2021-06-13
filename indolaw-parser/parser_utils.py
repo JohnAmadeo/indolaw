@@ -309,6 +309,17 @@ def clean_law(law: List[str]) -> List[str]:
     law = new_law
 
     '''
+    Deal with heading structures (e.g PASAL_NUMBER and MODIFIED_PASAL_NUMBER) squashed onto the end of 
+    the previous line. (In theory, this can be expanded to BAB_TITLE, BAGIAN_TITLE etc.)
+    '''
+    new_law = []
+    for _, line in enumerate(law):
+        list_item = clean_maybe_squashed_heading(line)
+        new_law.extend(list_item)
+
+    law = new_law
+
+    '''
     Stitch together plaintext lines that get separated into 2 lines due to page breaks
     '''
     new_law = clean_split_plaintext(law)
@@ -489,6 +500,76 @@ def get_squashed_list_item(line):
 
     if user_input == 'y':
         return start_of_squashed_list_item_idx
+    else:
+        return None
+
+
+def clean_maybe_squashed_heading(line: str) -> List[str]:
+    start_index = get_squashed_heading(line)
+    if start_index != None:
+        return [
+            line[:start_index-1].strip(),
+            *clean_maybe_squashed_heading(line[start_index:]),
+        ]
+
+    return [line.strip()]
+
+
+def get_squashed_heading(line):
+    line_ending_regex = [
+        r'(;)',
+        r'(:)',
+        r'(\.)',
+        r'(; dan/atau)',
+        r'(; dan)',
+        r'(,)',
+    ]
+
+    def group(regex):
+        return r'(' + regex + r')'
+
+    heading_regex = [
+        group(PASAL_NUMBER_REGEX),  # PASAL_NUMBER
+        group(MODIFIED_PASAL_NUMBER_REGEX),  # MODIFIED_PASAL_NUMBER
+    ]
+
+    regexes = []
+    for i in line_ending_regex:
+        for j in heading_regex:
+            regexes.append(i + r'\s+' + j)
+
+    '''
+    There may be multiple squashed headings on a single line; we want to identify
+    the squashed heading that comes first.
+    '''
+    earliest_match = None
+    for regex in regexes:
+        match = re.search(regex, line)
+        if match is None:
+            continue
+
+        if (earliest_match is None) or match.start(0) < earliest_match.start(0):
+            print(regex)
+            earliest_match = match
+
+    if earliest_match is None:
+        return None
+
+    print(earliest_match.groups())
+    start_of_squashed_heading_idx = earliest_match.start(2)
+
+    user_input = input(f'''
+---------------
+{line[:start_of_squashed_heading_idx-1].strip()}
+- - - - - - - -
+{line[start_of_squashed_heading_idx:]}
+---------------
+
+Split line? {colored('y', 'green')} / {colored('n', 'red')}
+''')
+
+    if user_input == 'y':
+        return start_of_squashed_heading_idx
     else:
         return None
 
