@@ -415,6 +415,9 @@ def test_is_start_of_pasal_number():
     assert is_start_of_pasal_number(law, 2) == True
     assert is_start_of_pasal_number(law, 3) == False
 
+    assert is_start_of_pasal_number(['Pasal IV'], 0) == True
+    assert is_start_of_pasal_number(['Pasal 9III'], 0) == False
+
 
 def test_is_start_of_pasal():
     law = [
