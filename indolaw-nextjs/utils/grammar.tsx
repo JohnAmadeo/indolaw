@@ -83,7 +83,6 @@ export type NodeMap = { [key: string]: Complex };
 export function renderStructure(
   structure: Complex | Primitive,
   key?: string | number,
-  penjelasanUmum?: Array<Complex | Primitive>,
   isMobile?: boolean
 ) {
   switch (structure.type) {
@@ -147,7 +146,6 @@ export function renderStructure(
       return (
         <StructureWithHeading
           key={key}
-          penjelasanUmum={penjelasanUmum}
           structure={structure as Complex}
           numOfHeadingLines={2}
         />
@@ -168,7 +166,7 @@ export function renderStructure(
     case Structure.PENJELASAN_UMUM:
     case Structure.LIST:
     case Structure.UNORDERED_LIST:
-      return renderChildren(structure as Complex, key, penjelasanUmum);
+      return renderChildren(structure as Complex, key);
     case Structure.PENJELASAN_PASAL_DEMI_PASAL:
       // TODO(@johnamadeo): Add proper border color
       return (
@@ -196,11 +194,12 @@ export function renderStructure(
   }
 }
 
-export function renderPenjelasanUmum(
+export function renderPenjelasan(
   structure: Complex | Primitive,
   key?: string | number
 ) {
   switch (structure.type) {
+    case Structure.MODIFIED_PASAL:
     case Structure.PASAL:
       return (
         <>
@@ -219,12 +218,11 @@ export function renderPenjelasanUmum(
 export function renderChildren(
   structure: Complex,
   key?: string | number,
-  penjelasanUmum?: Array<Complex | Primitive>
 ): JSX.Element {
   return (
     <div key={key}>
       {structure.children.map((childStructure, idx) =>
-        renderStructure(childStructure, idx, penjelasanUmum)
+        renderStructure(childStructure, idx)
       )}
     </div>
   );

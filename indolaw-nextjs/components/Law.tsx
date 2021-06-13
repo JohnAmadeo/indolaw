@@ -1,37 +1,52 @@
-import { Complex, Primitive, renderChildren, Structure } from "utils/grammar";
+import { useMemo } from "react";
+import { Complex, Primitive, renderChildren, Structure, NodeMap } from "utils/grammar";
 import { fonts } from "utils/theme";
+import { LawContext, getPenjelasanMapKey } from "utils/context-provider";
 
 // TODO(johnamadeo): Fix "Warning: Each child in a list should have a unique "key" prop." problem
-export default function Law(props: { law: Complex, colorScheme : any}): JSX.Element {
-  const penjelasanUmum = extractPenjelasanUmum(props.law);
+export default function Law(props: { law: Complex, colorScheme: any }): JSX.Element {
+  // This method requires a brute force traversal of PENJELASAN_PASAL_DEMI_PASAL
+  // so we want to run it once & memoize
+  const penjelasanMap = useMemo(() => extractPenjelasanMap(props.law), [props.law]);
+  console.log(penjelasanMap);
 
   return (
-    <div>
-      <style jsx>{`
+    <LawContext.Provider value={{ penjelasanMap }}>
+      <div>
+        <style jsx>{`
         div {
           font-family: ${fonts.serif};
           font-size: 18px;
           color: ${props.colorScheme.text};
         }
       `}</style>
-      {renderChildren(props.law, undefined, penjelasanUmum)}
-    </div>
+        {renderChildren(props.law, undefined)}
+      </div>
+    </LawContext.Provider>
   );
 }
 
-function extractPenjelasanUmum(lawNode: Complex): Array<Primitive | Complex> {
-  if (lawNode.children) {
-    const penjelasanUmum = lawNode.children[lawNode.children.length - 1];
+function extractPenjelasanMap(law: Complex): NodeMap {
+  const penjelasan = (law.children[law.children.length - 1] as Complex);
+  const penjelasanPasalDemiPasal = penjelasan.children[penjelasan.children.length - 1];
+  const penjelasanMap: NodeMap = {};
 
-    if (penjelasanUmum.type.match(Structure.PENJELASAN) && (penjelasanUmum as Complex).children) {
-      const penjelasanPasalDemiPasal = (penjelasanUmum as Complex).children[(penjelasanUmum as Complex).children.length - 1];
+  function traverse(node: Complex | Primitive) {
+    if (node.children !== undefined) {
 
-      if (penjelasanPasalDemiPasal.type.match(Structure.PENJELASAN_PASAL_DEMI_PASAL)) {
-        // remove the first node in the list of nodes (only contains the title of Penjelasan Umum)
-        return (penjelasanPasalDemiPasal as Complex).children.slice(1);
+      node = node as Complex;
+      if (node.type === Structure.PASAL || node.type == Structure.MODIFIED_PASAL) {
+        const pasalNumber = node.children[0] as Primitive;
+        const key = getPenjelasanMapKey(node.type, pasalNumber.text);
+        penjelasanMap[key] = node;
+      }
+
+      for (let child of node.children) {
+        traverse(child);
       }
     }
   }
 
-  return [];
+  traverse(penjelasanPasalDemiPasal);
+  return penjelasanMap;
 }

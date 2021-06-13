@@ -1,13 +1,14 @@
-import { CSSProperties, useState } from "react";
+import { CSSProperties, useContext } from "react";
 import { Complex, Primitive, renderStructure } from "utils/grammar";
 import { useAppContext } from "utils/context-provider";
 import PrimitiveStructure from "./PrimitiveStructure";
-import { Structure } from "utils/grammar";
+import { Structure, renderPenjelasan } from "utils/grammar";
 import ReactDOMServer from "react-dom/server";
 import { useMediaQuery } from "react-responsive";
 import * as clipboard from "clipboard-polyfill";
 import CopyButton from "./CopyButton";
 import { renderCopyPasalHtml } from "utils/copypaste";
+import { LawContext, getPenjelasanMapKey } from "utils/context-provider";
 
 export default function Pasal(props: {
   structure: Complex,
@@ -15,8 +16,7 @@ export default function Pasal(props: {
 }): JSX.Element {
   const { structure, numOfHeadingLines } = props;
   const isMobile = useMediaQuery({ query: "(max-width: 768px)" });
-
-  const { colorScheme } = useAppContext();
+  const { penjelasanMap } = useContext(LawContext);
 
   const headingStyle: CSSProperties = {
     marginLeft: "0px",
@@ -45,7 +45,10 @@ export default function Pasal(props: {
     />
   );
 
+  const pasalNumber = structure.children[0] as Primitive;
   const isModifiedPasal = structure.type === Structure.MODIFIED_PASAL;
+  const key = getPenjelasanMapKey(structure.type, pasalNumber.text);
+
   return (
     <>
       <style jsx>{`
@@ -60,7 +63,7 @@ export default function Pasal(props: {
         id={structure.id}
       >
         <PrimitiveStructure
-          structure={structure.children[0] as Primitive}
+          structure={pasalNumber}
           customStyle={headingStyle}
         />
         {!isMobile && copyButton}
@@ -68,6 +71,7 @@ export default function Pasal(props: {
       {structure.children
         .slice(numOfHeadingLines)
         .map((child, idx) => renderStructure(child, idx))}
+      {renderPenjelasan(penjelasanMap[key], undefined)}
     </>
   );
 }
