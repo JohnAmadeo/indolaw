@@ -302,7 +302,7 @@ def clean_law(law: List[str]) -> List[str]:
     Deal with list indexes. See clean_maybe_list_item for more.
     '''
     new_law = []
-    for i, line in enumerate(law):
+    for _, line in enumerate(law):
         list_item = clean_maybe_list_item(line)
         new_law.extend(list_item)
 
