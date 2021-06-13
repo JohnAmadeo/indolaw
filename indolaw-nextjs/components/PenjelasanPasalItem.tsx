@@ -28,6 +28,10 @@ export default function PenjelasanPasalItem(props: {
           border-radius: 7.5px;
         }
 
+        .group:hover {
+          cursor: pointer;
+        }
+
         .title {
           margin: 8px 0;
           font-weight: 700;
@@ -40,11 +44,11 @@ export default function PenjelasanPasalItem(props: {
           margin-top: 20px;
         }
       `}</style>
-      <div className="group">
-        <div
-          className="title"
-          onClick={() => setIsContentVisible(!isContentVisible)}
-        >
+      <div
+        className="group"
+        onClick={() => setIsContentVisible(!isContentVisible)}
+      >
+        <div className="title">
           {
             <i className="material-icons style">
               {isContentVisible ? "expand_less" : "expand_more"}
