@@ -16,6 +16,8 @@ from parser_is_start_of_x import (
     is_start_of_closing,
     is_start_of_first_list_index,
     is_start_of_lembaran_number,
+    is_start_of_modified_pasal,
+    is_start_of_modified_pasal_number,
     is_start_of_number_with_brackets_str,
     is_start_of_number_with_brackets,
     is_start_of_number_with_right_bracket_str,
@@ -428,6 +430,20 @@ def test_is_start_of_pasal():
 
     assert is_start_of_pasal(law, 0) == False
     assert is_start_of_pasal(law, 1) == True
+
+
+def test_is_start_of_modified_pasal_number():
+    assert is_start_of_modified_pasal_number(['“Pasal 18'], 0) == True
+    assert is_start_of_modified_pasal_number(['“Pasal 18C'], 0) == True
+    assert is_start_of_modified_pasal_number(['“Pasal C'], 0) == False
+    assert is_start_of_modified_pasal_number(['Pasal 5'], 0) == False
+
+
+def test_is_start_of_modified_pasal():
+    assert is_start_of_modified_pasal(['“Pasal 18'], 0) == True
+    assert is_start_of_modified_pasal(['“Pasal 18C'], 0) == True
+    assert is_start_of_modified_pasal(['“Pasal C'], 0) == False
+    assert is_start_of_modified_pasal(['Pasal 5'], 0) == False
 
 
 def test_is_start_of_agreement():
