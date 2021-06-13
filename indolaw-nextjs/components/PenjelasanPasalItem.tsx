@@ -2,6 +2,11 @@ import { CSSProperties, useState } from "react";
 import { Complex, Primitive, renderStructure } from "utils/grammar";
 import { useAppContext } from "../utils/context-provider";
 import PrimitiveStructure from "./PrimitiveStructure";
+import ReactDOMServer from "react-dom/server";
+import * as clipboard from "clipboard-polyfill";
+import CopyButton from "./CopyButton";
+import { renderCopyPasalHtml } from "utils/copypaste";
+import { useMediaQuery } from "react-responsive";
 
 export default function PenjelasanPasalItem(props: {
   structure: Complex;
@@ -10,6 +15,7 @@ export default function PenjelasanPasalItem(props: {
   const { structure, numOfHeadingLines } = props;
   const [isContentVisible, setIsContentVisible] = useState(false);
   const { colorScheme } = useAppContext();
+  const isMobile = useMediaQuery({ query: "(max-width: 768px)" });
 
   const headingStyle: CSSProperties = {
     marginLeft: "0px",
@@ -17,6 +23,26 @@ export default function PenjelasanPasalItem(props: {
     margin: "8px 0",
     fontWeight: 700,
   };
+
+  const htmlToCopy = ReactDOMServer.renderToStaticMarkup(
+    renderCopyPasalHtml(structure)
+  );
+
+  const copyButton = (
+    <CopyButton
+      onClick={async () => {
+        const item = new clipboard.ClipboardItem({
+          "text/html": new Blob(
+            [htmlToCopy],
+            { type: "text/html" }
+          )
+        });
+        await clipboard.write([item]);
+
+        console.log(htmlToCopy);
+      }}
+    />
+  );
 
   return (
     <>
@@ -28,7 +54,7 @@ export default function PenjelasanPasalItem(props: {
           border-radius: 7.5px;
         }
 
-        .group:hover {
+        .title:hover {
           cursor: pointer;
         }
 
@@ -43,32 +69,38 @@ export default function PenjelasanPasalItem(props: {
         .content {
           margin-top: 20px;
         }
+
+        .heading-container {
+          display: flex;
+          justify-content: center;
+        }
+
+        .material-icons.style {
+          vertical-align: bottom;
+          padding-top: 2px;
+        }
       `}</style>
-      <div
-        className="group"
-        onClick={() => setIsContentVisible(!isContentVisible)}
-      >
-        <div className="title">
+      <div className="group">
+        <div
+          className="title"
+          onClick={() => setIsContentVisible(!isContentVisible)}
+        >
+          <span> Penjelasan</span>
           {
             <i className="material-icons style">
               {isContentVisible ? "expand_less" : "expand_more"}
             </i>
           }
-          <span> Penjelasan </span>
         </div>
 
         {isContentVisible && (
           <div className="content">
-            <div id={structure.id}>
-              {structure.children
-                .slice(0, numOfHeadingLines)
-                .map((child, idx) => (
-                  <PrimitiveStructure
-                    key={idx}
-                    structure={child as Primitive}
-                    customStyle={headingStyle}
-                  />
-                ))}
+            <div id={structure.id} className="heading-container">
+              <PrimitiveStructure
+                structure={structure.children[0] as Primitive}
+                customStyle={headingStyle}
+              />
+              {!isMobile && copyButton}
             </div>
 
             {structure.children.slice(numOfHeadingLines).map((child, idx) => {
