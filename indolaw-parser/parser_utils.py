@@ -683,9 +683,9 @@ def extract_metadata_from_tree(undang_undang_node: ComplexNode) -> Dict[str, Any
             node.children.pop()
             extractTLN(child)
             return
-        
+
         f(child)
-            
+
     def extractTLN(node: PrimitiveNode):
         match = re.search(r'([0-9]+)', node.text)
         if match is None:
@@ -767,17 +767,27 @@ def get_id(node: ComplexNode) -> str:
         bab_number_int = roman_to_int(bab_number_roman)
         return f'bab-{str(bab_number_int)}'
 
-    elif node.type == Structure.PASAL:
-        # We want the unique ID to be associated w/ the actual pasal, not the
-        # penjelasan tambahan at the end of the law
-        if node.parent is None or node.parent.type == Structure.PENJELASAN_PASAL_DEMI_PASAL:
-            return ''
-
+    elif node.type == Structure.PASAL or node.type == Structure.MODIFIED_PASAL:
         pasal_number_node = node.children[0]
         assert isinstance(pasal_number_node, PrimitiveNode) and \
-            pasal_number_node.type == Structure.PASAL_NUMBER
+            (
+                pasal_number_node.type == Structure.PASAL_NUMBER or
+                pasal_number_node.type == Structure.MODIFIED_PASAL_NUMBER
+        )
 
-        return f'pasal-{pasal_number_node.text.split()[1]}'
+        pasal_number = pasal_number_node.text.split()[1]
+
+        is_in_penjelasan = is_x_an_ancestor(
+            node, Structure.PENJELASAN_PASAL_DEMI_PASAL)
+
+        if is_in_penjelasan and node.type == Structure.PASAL:
+            return f'penjelasan-pasal-{pasal_number}'
+        elif not is_in_penjelasan and node.type == Structure.PASAL:
+            return f'pasal-{pasal_number}'
+        elif is_in_penjelasan and node.type == Structure.MODIFIED_PASAL:
+            return f'penjelasan-modified-pasal-{pasal_number}'
+        elif not is_in_penjelasan and node.type == Structure.MODIFIED_PASAL:
+            return f'modified-pasal-{pasal_number}'
 
     elif node.type == Structure.BAGIAN:
         bagian_number_node = node.children[0]
@@ -880,6 +890,7 @@ This PLAINTEXT is the 3rd line of a LIST_INDEX. Is it:
     else:
         raise Exception(f'Invalid command "{user_input}" entered by user')
 
+
 def is_descendant_of_modified_pasal(node: ComplexNode) -> bool:
     currNode = node.parent
     while currNode is not None:
@@ -887,5 +898,18 @@ def is_descendant_of_modified_pasal(node: ComplexNode) -> bool:
             return True
 
         currNode = currNode.parent
+
+    return False
+
+
+def is_x_an_ancestor(
+    node: Union[ComplexNode, PrimitiveNode],
+    ancestor_structure: Structure
+):
+    if node.parent is not None:
+        if node.parent.type == ancestor_structure:
+            return True
+        else:
+            return is_x_an_ancestor(node.parent, ancestor_structure)
 
     return False

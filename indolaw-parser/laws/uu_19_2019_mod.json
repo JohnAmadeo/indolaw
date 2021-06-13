@@ -247,7 +247,7 @@
                   },
                   {
                     "type": "MODIFIED_PASAL",
-                    "id": "",
+                    "id": "modified-pasal-1",
                     "children": [
                       {
                         "type": "MODIFIED_PASAL_NUMBER",
@@ -365,7 +365,7 @@
                   },
                   {
                     "type": "MODIFIED_PASAL",
-                    "id": "",
+                    "id": "modified-pasal-3",
                     "children": [
                       {
                         "type": "MODIFIED_PASAL_NUMBER",
@@ -393,7 +393,7 @@
                   },
                   {
                     "type": "MODIFIED_PASAL",
-                    "id": "",
+                    "id": "modified-pasal-5",
                     "children": [
                       {
                         "type": "MODIFIED_PASAL_NUMBER",
@@ -511,7 +511,7 @@
                   },
                   {
                     "type": "MODIFIED_PASAL",
-                    "id": "",
+                    "id": "modified-pasal-6",
                     "children": [
                       {
                         "type": "MODIFIED_PASAL_NUMBER",
@@ -629,7 +629,7 @@
                   },
                   {
                     "type": "MODIFIED_PASAL",
-                    "id": "",
+                    "id": "modified-pasal-7",
                     "children": [
                       {
                         "type": "MODIFIED_PASAL_NUMBER",
@@ -777,7 +777,7 @@
                   },
                   {
                     "type": "MODIFIED_PASAL",
-                    "id": "",
+                    "id": "modified-pasal-8",
                     "children": [
                       {
                         "type": "MODIFIED_PASAL_NUMBER",
@@ -881,7 +881,7 @@
                   },
                   {
                     "type": "MODIFIED_PASAL",
-                    "id": "",
+                    "id": "modified-pasal-9",
                     "children": [
                       {
                         "type": "MODIFIED_PASAL_NUMBER",
@@ -957,7 +957,7 @@
                   },
                   {
                     "type": "MODIFIED_PASAL",
-                    "id": "",
+                    "id": "modified-pasal-10",
                     "children": [
                       {
                         "type": "MODIFIED_PASAL_NUMBER",
@@ -1015,7 +1015,7 @@
                   },
                   {
                     "type": "MODIFIED_PASAL",
-                    "id": "",
+                    "id": "modified-pasal-10A",
                     "children": [
                       {
                         "type": "MODIFIED_PASAL_NUMBER",
@@ -1205,7 +1205,7 @@
                   },
                   {
                     "type": "MODIFIED_PASAL",
-                    "id": "",
+                    "id": "modified-pasal-11",
                     "children": [
                       {
                         "type": "MODIFIED_PASAL_NUMBER",
@@ -1311,7 +1311,7 @@
                   },
                   {
                     "type": "MODIFIED_PASAL",
-                    "id": "",
+                    "id": "modified-pasal-12",
                     "children": [
                       {
                         "type": "MODIFIED_PASAL_NUMBER",
@@ -1487,7 +1487,7 @@
                   },
                   {
                     "type": "MODIFIED_PASAL",
-                    "id": "",
+                    "id": "modified-pasal-12A",
                     "children": [
                       {
                         "type": "MODIFIED_PASAL_NUMBER",
@@ -1501,7 +1501,7 @@
                   },
                   {
                     "type": "MODIFIED_PASAL",
-                    "id": "",
+                    "id": "modified-pasal-12B",
                     "children": [
                       {
                         "type": "MODIFIED_PASAL_NUMBER",
@@ -1573,7 +1573,7 @@
                   },
                   {
                     "type": "MODIFIED_PASAL",
-                    "id": "",
+                    "id": "modified-pasal-12C",
                     "children": [
                       {
                         "type": "MODIFIED_PASAL_NUMBER",
@@ -1617,7 +1617,7 @@
                   },
                   {
                     "type": "MODIFIED_PASAL",
-                    "id": "",
+                    "id": "modified-pasal-12D",
                     "children": [
                       {
                         "type": "MODIFIED_PASAL_NUMBER",
@@ -1689,7 +1689,7 @@
                   },
                   {
                     "type": "MODIFIED_PASAL",
-                    "id": "",
+                    "id": "modified-pasal-13",
                     "children": [
                       {
                         "type": "MODIFIED_PASAL_NUMBER",
@@ -1731,7 +1731,7 @@
                   },
                   {
                     "type": "MODIFIED_PASAL",
-                    "id": "",
+                    "id": "modified-pasal-15",
                     "children": [
                       {
                         "type": "MODIFIED_PASAL_NUMBER",
@@ -1849,7 +1849,7 @@
                   },
                   {
                     "type": "MODIFIED_PASAL",
-                    "id": "",
+                    "id": "modified-pasal-19",
                     "children": [
                       {
                         "type": "MODIFIED_PASAL_NUMBER",
@@ -1907,7 +1907,7 @@
                   },
                   {
                     "type": "MODIFIED_PASAL",
-                    "id": "",
+                    "id": "modified-pasal-21",
                     "children": [
                       {
                         "type": "MODIFIED_PASAL_NUMBER",
@@ -2103,7 +2103,7 @@
                   },
                   {
                     "type": "MODIFIED_PASAL",
-                    "id": "",
+                    "id": "modified-pasal-24",
                     "children": [
                       {
                         "type": "MODIFIED_PASAL_NUMBER",
@@ -2175,7 +2175,7 @@
                   },
                   {
                     "type": "MODIFIED_PASAL",
-                    "id": "",
+                    "id": "modified-pasal-29",
                     "children": [
                       {
                         "type": "MODIFIED_PASAL_NUMBER",
@@ -2363,7 +2363,7 @@
                   },
                   {
                     "type": "MODIFIED_PASAL",
-                    "id": "",
+                    "id": "modified-pasal-32",
                     "children": [
                       {
                         "type": "MODIFIED_PASAL_NUMBER",
@@ -2553,7 +2553,7 @@
                   },
                   {
                     "type": "MODIFIED_PASAL",
-                    "id": "",
+                    "id": "modified-pasal-33",
                     "children": [
                       {
                         "type": "MODIFIED_PASAL_NUMBER",
@@ -2625,7 +2625,7 @@
                   },
                   {
                     "type": "MODIFIED_PASAL",
-                    "id": "",
+                    "id": "modified-pasal-37",
                     "children": [
                       {
                         "type": "MODIFIED_PASAL_NUMBER",
@@ -2675,7 +2675,7 @@
                   },
                   {
                     "type": "MODIFIED_PASAL",
-                    "id": "",
+                    "id": "modified-pasal-37A",
                     "children": [
                       {
                         "type": "MODIFIED_PASAL_NUMBER",
@@ -2733,7 +2733,7 @@
                   },
                   {
                     "type": "MODIFIED_PASAL",
-                    "id": "",
+                    "id": "modified-pasal-37B",
                     "children": [
                       {
                         "type": "MODIFIED_PASAL_NUMBER",
@@ -2881,7 +2881,7 @@
                   },
                   {
                     "type": "MODIFIED_PASAL",
-                    "id": "",
+                    "id": "modified-pasal-37C",
                     "children": [
                       {
                         "type": "MODIFIED_PASAL_NUMBER",
@@ -2925,7 +2925,7 @@
                   },
                   {
                     "type": "MODIFIED_PASAL",
-                    "id": "",
+                    "id": "modified-pasal-37D",
                     "children": [
                       {
                         "type": "MODIFIED_PASAL_NUMBER",
@@ -3113,7 +3113,7 @@
                   },
                   {
                     "type": "MODIFIED_PASAL",
-                    "id": "",
+                    "id": "modified-pasal-37E",
                     "children": [
                       {
                         "type": "MODIFIED_PASAL_NUMBER",
@@ -3283,7 +3283,7 @@
                   },
                   {
                     "type": "MODIFIED_PASAL",
-                    "id": "",
+                    "id": "modified-pasal-37F",
                     "children": [
                       {
                         "type": "MODIFIED_PASAL_NUMBER",
@@ -3445,7 +3445,7 @@
                   },
                   {
                     "type": "MODIFIED_PASAL",
-                    "id": "",
+                    "id": "modified-pasal-37G",
                     "children": [
                       {
                         "type": "MODIFIED_PASAL_NUMBER",
@@ -3503,7 +3503,7 @@
                   },
                   {
                     "type": "MODIFIED_PASAL",
-                    "id": "",
+                    "id": "modified-pasal-38",
                     "children": [
                       {
                         "type": "MODIFIED_PASAL_NUMBER",
@@ -3531,7 +3531,7 @@
                   },
                   {
                     "type": "MODIFIED_PASAL",
-                    "id": "",
+                    "id": "modified-pasal-40",
                     "children": [
                       {
                         "type": "MODIFIED_PASAL_NUMBER",
@@ -3617,7 +3617,7 @@
                   },
                   {
                     "type": "MODIFIED_PASAL",
-                    "id": "",
+                    "id": "modified-pasal-43",
                     "children": [
                       {
                         "type": "MODIFIED_PASAL_NUMBER",
@@ -3689,7 +3689,7 @@
                   },
                   {
                     "type": "MODIFIED_PASAL",
-                    "id": "",
+                    "id": "modified-pasal-43A",
                     "children": [
                       {
                         "type": "MODIFIED_PASAL_NUMBER",
@@ -3885,7 +3885,7 @@
                   },
                   {
                     "type": "MODIFIED_PASAL",
-                    "id": "",
+                    "id": "modified-pasal-45",
                     "children": [
                       {
                         "type": "MODIFIED_PASAL_NUMBER",
@@ -3971,7 +3971,7 @@
                   },
                   {
                     "type": "MODIFIED_PASAL",
-                    "id": "",
+                    "id": "modified-pasal-45A",
                     "children": [
                       {
                         "type": "MODIFIED_PASAL_NUMBER",
@@ -4167,7 +4167,7 @@
                   },
                   {
                     "type": "MODIFIED_PASAL",
-                    "id": "",
+                    "id": "modified-pasal-46",
                     "children": [
                       {
                         "type": "MODIFIED_PASAL_NUMBER",
@@ -4195,7 +4195,7 @@
                   },
                   {
                     "type": "MODIFIED_PASAL",
-                    "id": "",
+                    "id": "modified-pasal-47",
                     "children": [
                       {
                         "type": "MODIFIED_PASAL_NUMBER",
@@ -4357,7 +4357,7 @@
                   },
                   {
                     "type": "MODIFIED_PASAL",
-                    "id": "",
+                    "id": "modified-pasal-47A",
                     "children": [
                       {
                         "type": "MODIFIED_PASAL_NUMBER",
@@ -4415,7 +4415,7 @@
                   },
                   {
                     "type": "MODIFIED_PASAL",
-                    "id": "",
+                    "id": "modified-pasal-69A",
                     "children": [
                       {
                         "type": "MODIFIED_PASAL_NUMBER",
@@ -4487,7 +4487,7 @@
                   },
                   {
                     "type": "MODIFIED_PASAL",
-                    "id": "",
+                    "id": "modified-pasal-69B",
                     "children": [
                       {
                         "type": "MODIFIED_PASAL_NUMBER",
@@ -4531,7 +4531,7 @@
                   },
                   {
                     "type": "MODIFIED_PASAL",
-                    "id": "",
+                    "id": "modified-pasal-69C",
                     "children": [
                       {
                         "type": "MODIFIED_PASAL_NUMBER",
@@ -4545,7 +4545,7 @@
                   },
                   {
                     "type": "MODIFIED_PASAL",
-                    "id": "",
+                    "id": "modified-pasal-69D",
                     "children": [
                       {
                         "type": "MODIFIED_PASAL_NUMBER",
@@ -4573,7 +4573,7 @@
                   },
                   {
                     "type": "MODIFIED_PASAL",
-                    "id": "",
+                    "id": "modified-pasal-70A",
                     "children": [
                       {
                         "type": "MODIFIED_PASAL_NUMBER",
@@ -4587,7 +4587,7 @@
                   },
                   {
                     "type": "MODIFIED_PASAL",
-                    "id": "",
+                    "id": "modified-pasal-70B",
                     "children": [
                       {
                         "type": "MODIFIED_PASAL_NUMBER",
@@ -4601,7 +4601,7 @@
                   },
                   {
                     "type": "MODIFIED_PASAL",
-                    "id": "",
+                    "id": "modified-pasal-70C",
                     "children": [
                       {
                         "type": "MODIFIED_PASAL_NUMBER",
@@ -4807,7 +4807,7 @@
               },
               {
                 "type": "PASAL",
-                "id": "",
+                "id": "penjelasan-pasal-I",
                 "children": [
                   {
                     "type": "PASAL_NUMBER",
@@ -4827,7 +4827,7 @@
                           },
                           {
                             "type": "MODIFIED_PASAL",
-                            "id": "",
+                            "id": "penjelasan-modified-pasal-1",
                             "children": [
                               {
                                 "type": "MODIFIED_PASAL_NUMBER",
@@ -4851,7 +4851,7 @@
                           },
                           {
                             "type": "MODIFIED_PASAL",
-                            "id": "",
+                            "id": "penjelasan-modified-pasal-3",
                             "children": [
                               {
                                 "type": "MODIFIED_PASAL_NUMBER",
@@ -4879,7 +4879,7 @@
                           },
                           {
                             "type": "MODIFIED_PASAL",
-                            "id": "",
+                            "id": "penjelasan-modified-pasal-5",
                             "children": [
                               {
                                 "type": "MODIFIED_PASAL_NUMBER",
@@ -4903,7 +4903,7 @@
                           },
                           {
                             "type": "MODIFIED_PASAL",
-                            "id": "",
+                            "id": "penjelasan-modified-pasal-6",
                             "children": [
                               {
                                 "type": "MODIFIED_PASAL_NUMBER",
@@ -4927,7 +4927,7 @@
                           },
                           {
                             "type": "MODIFIED_PASAL",
-                            "id": "",
+                            "id": "penjelasan-modified-pasal-7",
                             "children": [
                               {
                                 "type": "MODIFIED_PASAL_NUMBER",
@@ -4951,7 +4951,7 @@
                           },
                           {
                             "type": "MODIFIED_PASAL",
-                            "id": "",
+                            "id": "penjelasan-modified-pasal-8",
                             "children": [
                               {
                                 "type": "MODIFIED_PASAL_NUMBER",
@@ -4975,7 +4975,7 @@
                           },
                           {
                             "type": "MODIFIED_PASAL",
-                            "id": "",
+                            "id": "penjelasan-modified-pasal-9",
                             "children": [
                               {
                                 "type": "MODIFIED_PASAL_NUMBER",
@@ -4999,7 +4999,7 @@
                           },
                           {
                             "type": "MODIFIED_PASAL",
-                            "id": "",
+                            "id": "penjelasan-modified-pasal-10",
                             "children": [
                               {
                                 "type": "MODIFIED_PASAL_NUMBER",
@@ -5023,7 +5023,7 @@
                           },
                           {
                             "type": "MODIFIED_PASAL",
-                            "id": "",
+                            "id": "penjelasan-modified-pasal-10A",
                             "children": [
                               {
                                 "type": "MODIFIED_PASAL_NUMBER",
@@ -5047,7 +5047,7 @@
                           },
                           {
                             "type": "MODIFIED_PASAL",
-                            "id": "",
+                            "id": "penjelasan-modified-pasal-11",
                             "children": [
                               {
                                 "type": "MODIFIED_PASAL_NUMBER",
@@ -5071,7 +5071,7 @@
                           },
                           {
                             "type": "MODIFIED_PASAL",
-                            "id": "",
+                            "id": "penjelasan-modified-pasal-12",
                             "children": [
                               {
                                 "type": "MODIFIED_PASAL_NUMBER",
@@ -5095,7 +5095,7 @@
                           },
                           {
                             "type": "MODIFIED_PASAL",
-                            "id": "",
+                            "id": "penjelasan-modified-pasal-12A",
                             "children": [
                               {
                                 "type": "MODIFIED_PASAL_NUMBER",
@@ -5109,7 +5109,7 @@
                           },
                           {
                             "type": "MODIFIED_PASAL",
-                            "id": "",
+                            "id": "penjelasan-modified-pasal-12B",
                             "children": [
                               {
                                 "type": "MODIFIED_PASAL_NUMBER",
@@ -5181,7 +5181,7 @@
                           },
                           {
                             "type": "MODIFIED_PASAL",
-                            "id": "",
+                            "id": "penjelasan-modified-pasal-12C",
                             "children": [
                               {
                                 "type": "MODIFIED_PASAL_NUMBER",
@@ -5195,7 +5195,7 @@
                           },
                           {
                             "type": "MODIFIED_PASAL",
-                            "id": "",
+                            "id": "penjelasan-modified-pasal-12D",
                             "children": [
                               {
                                 "type": "MODIFIED_PASAL_NUMBER",
@@ -5263,7 +5263,7 @@
                           },
                           {
                             "type": "MODIFIED_PASAL",
-                            "id": "",
+                            "id": "penjelasan-modified-pasal-13",
                             "children": [
                               {
                                 "type": "MODIFIED_PASAL_NUMBER",
@@ -5287,7 +5287,7 @@
                           },
                           {
                             "type": "MODIFIED_PASAL",
-                            "id": "",
+                            "id": "penjelasan-modified-pasal-14",
                             "children": [
                               {
                                 "type": "MODIFIED_PASAL_NUMBER",
@@ -5311,7 +5311,7 @@
                           },
                           {
                             "type": "MODIFIED_PASAL",
-                            "id": "",
+                            "id": "penjelasan-modified-pasal-15",
                             "children": [
                               {
                                 "type": "MODIFIED_PASAL_NUMBER",
@@ -5335,7 +5335,7 @@
                           },
                           {
                             "type": "MODIFIED_PASAL",
-                            "id": "",
+                            "id": "penjelasan-modified-pasal-19",
                             "children": [
                               {
                                 "type": "MODIFIED_PASAL_NUMBER",
@@ -5359,7 +5359,7 @@
                           },
                           {
                             "type": "MODIFIED_PASAL",
-                            "id": "",
+                            "id": "penjelasan-modified-pasal-21",
                             "children": [
                               {
                                 "type": "MODIFIED_PASAL_NUMBER",
@@ -5383,7 +5383,7 @@
                           },
                           {
                             "type": "MODIFIED_PASAL",
-                            "id": "",
+                            "id": "penjelasan-modified-pasal-22",
                             "children": [
                               {
                                 "type": "MODIFIED_PASAL_NUMBER",
@@ -5407,7 +5407,7 @@
                           },
                           {
                             "type": "MODIFIED_PASAL",
-                            "id": "",
+                            "id": "penjelasan-modified-pasal-23",
                             "children": [
                               {
                                 "type": "MODIFIED_PASAL_NUMBER",
@@ -5431,7 +5431,7 @@
                           },
                           {
                             "type": "MODIFIED_PASAL",
-                            "id": "",
+                            "id": "penjelasan-modified-pasal-24",
                             "children": [
                               {
                                 "type": "MODIFIED_PASAL_NUMBER",
@@ -5455,7 +5455,7 @@
                           },
                           {
                             "type": "MODIFIED_PASAL",
-                            "id": "",
+                            "id": "penjelasan-modified-pasal-29",
                             "children": [
                               {
                                 "type": "MODIFIED_PASAL_NUMBER",
@@ -5635,7 +5635,7 @@
                           },
                           {
                             "type": "MODIFIED_PASAL",
-                            "id": "",
+                            "id": "penjelasan-modified-pasal-32",
                             "children": [
                               {
                                 "type": "MODIFIED_PASAL_NUMBER",
@@ -5817,7 +5817,7 @@
                           },
                           {
                             "type": "MODIFIED_PASAL",
-                            "id": "",
+                            "id": "penjelasan-modified-pasal-33",
                             "children": [
                               {
                                 "type": "MODIFIED_PASAL_NUMBER",
@@ -5841,7 +5841,7 @@
                           },
                           {
                             "type": "MODIFIED_PASAL",
-                            "id": "",
+                            "id": "penjelasan-modified-pasal-37",
                             "children": [
                               {
                                 "type": "MODIFIED_PASAL_NUMBER",
@@ -5883,7 +5883,7 @@
                           },
                           {
                             "type": "MODIFIED_PASAL",
-                            "id": "",
+                            "id": "penjelasan-modified-pasal-37A",
                             "children": [
                               {
                                 "type": "MODIFIED_PASAL_NUMBER",
@@ -5897,7 +5897,7 @@
                           },
                           {
                             "type": "MODIFIED_PASAL",
-                            "id": "",
+                            "id": "penjelasan-modified-pasal-37B",
                             "children": [
                               {
                                 "type": "MODIFIED_PASAL_NUMBER",
@@ -5911,7 +5911,7 @@
                           },
                           {
                             "type": "MODIFIED_PASAL",
-                            "id": "",
+                            "id": "penjelasan-modified-pasal-37C",
                             "children": [
                               {
                                 "type": "MODIFIED_PASAL_NUMBER",
@@ -5925,7 +5925,7 @@
                           },
                           {
                             "type": "MODIFIED_PASAL",
-                            "id": "",
+                            "id": "penjelasan-modified-pasal-37D",
                             "children": [
                               {
                                 "type": "MODIFIED_PASAL_NUMBER",
@@ -5939,7 +5939,7 @@
                           },
                           {
                             "type": "MODIFIED_PASAL",
-                            "id": "",
+                            "id": "penjelasan-modified-pasal-37E",
                             "children": [
                               {
                                 "type": "MODIFIED_PASAL_NUMBER",
@@ -5953,7 +5953,7 @@
                           },
                           {
                             "type": "MODIFIED_PASAL",
-                            "id": "",
+                            "id": "penjelasan-modified-pasal-37F",
                             "children": [
                               {
                                 "type": "MODIFIED_PASAL_NUMBER",
@@ -6111,7 +6111,7 @@
                           },
                           {
                             "type": "MODIFIED_PASAL",
-                            "id": "",
+                            "id": "penjelasan-modified-pasal-37G",
                             "children": [
                               {
                                 "type": "MODIFIED_PASAL_NUMBER",
@@ -6135,7 +6135,7 @@
                           },
                           {
                             "type": "MODIFIED_PASAL",
-                            "id": "",
+                            "id": "penjelasan-modified-pasal-38",
                             "children": [
                               {
                                 "type": "MODIFIED_PASAL_NUMBER",
@@ -6159,7 +6159,7 @@
                           },
                           {
                             "type": "MODIFIED_PASAL",
-                            "id": "",
+                            "id": "penjelasan-modified-pasal-40",
                             "children": [
                               {
                                 "type": "MODIFIED_PASAL_NUMBER",
@@ -6183,7 +6183,7 @@
                           },
                           {
                             "type": "MODIFIED_PASAL",
-                            "id": "",
+                            "id": "penjelasan-modified-pasal-43",
                             "children": [
                               {
                                 "type": "MODIFIED_PASAL_NUMBER",
@@ -6207,7 +6207,7 @@
                           },
                           {
                             "type": "MODIFIED_PASAL",
-                            "id": "",
+                            "id": "penjelasan-modified-pasal-43A",
                             "children": [
                               {
                                 "type": "MODIFIED_PASAL_NUMBER",
@@ -6231,7 +6231,7 @@
                           },
                           {
                             "type": "MODIFIED_PASAL",
-                            "id": "",
+                            "id": "penjelasan-modified-pasal-45",
                             "children": [
                               {
                                 "type": "MODIFIED_PASAL_NUMBER",
@@ -6255,7 +6255,7 @@
                           },
                           {
                             "type": "MODIFIED_PASAL",
-                            "id": "",
+                            "id": "penjelasan-modified-pasal-45A",
                             "children": [
                               {
                                 "type": "MODIFIED_PASAL_NUMBER",
@@ -6279,7 +6279,7 @@
                           },
                           {
                             "type": "MODIFIED_PASAL",
-                            "id": "",
+                            "id": "penjelasan-modified-pasal-46",
                             "children": [
                               {
                                 "type": "MODIFIED_PASAL_NUMBER",
@@ -6303,7 +6303,7 @@
                           },
                           {
                             "type": "MODIFIED_PASAL",
-                            "id": "",
+                            "id": "penjelasan-modified-pasal-47",
                             "children": [
                               {
                                 "type": "MODIFIED_PASAL_NUMBER",
@@ -6327,7 +6327,7 @@
                           },
                           {
                             "type": "MODIFIED_PASAL",
-                            "id": "",
+                            "id": "penjelasan-modified-pasal-47A",
                             "children": [
                               {
                                 "type": "MODIFIED_PASAL_NUMBER",
@@ -6351,7 +6351,7 @@
                           },
                           {
                             "type": "MODIFIED_PASAL",
-                            "id": "",
+                            "id": "penjelasan-modified-pasal-69A",
                             "children": [
                               {
                                 "type": "MODIFIED_PASAL_NUMBER",
@@ -6365,7 +6365,7 @@
                           },
                           {
                             "type": "MODIFIED_PASAL",
-                            "id": "",
+                            "id": "penjelasan-modified-pasal-69B",
                             "children": [
                               {
                                 "type": "MODIFIED_PASAL_NUMBER",
@@ -6379,7 +6379,7 @@
                           },
                           {
                             "type": "MODIFIED_PASAL",
-                            "id": "",
+                            "id": "penjelasan-modified-pasal-69C",
                             "children": [
                               {
                                 "type": "MODIFIED_PASAL_NUMBER",
@@ -6393,7 +6393,7 @@
                           },
                           {
                             "type": "MODIFIED_PASAL",
-                            "id": "",
+                            "id": "penjelasan-modified-pasal-69D",
                             "children": [
                               {
                                 "type": "MODIFIED_PASAL_NUMBER",
@@ -6417,7 +6417,7 @@
                           },
                           {
                             "type": "MODIFIED_PASAL",
-                            "id": "",
+                            "id": "penjelasan-modified-pasal-70A",
                             "children": [
                               {
                                 "type": "MODIFIED_PASAL_NUMBER",
@@ -6431,7 +6431,7 @@
                           },
                           {
                             "type": "MODIFIED_PASAL",
-                            "id": "",
+                            "id": "penjelasan-modified-pasal-70B",
                             "children": [
                               {
                                 "type": "MODIFIED_PASAL_NUMBER",
@@ -6445,7 +6445,7 @@
                           },
                           {
                             "type": "MODIFIED_PASAL",
-                            "id": "",
+                            "id": "penjelasan-modified-pasal-70C",
                             "children": [
                               {
                                 "type": "MODIFIED_PASAL_NUMBER",
@@ -6465,7 +6465,7 @@
               },
               {
                 "type": "PASAL",
-                "id": "",
+                "id": "penjelasan-pasal-II",
                 "children": [
                   {
                     "type": "PASAL_NUMBER",
@@ -6474,10 +6474,6 @@
                   {
                     "type": "PLAINTEXT",
                     "text": "Cukup jelas."
-                  },
-                  {
-                    "type": "PLAINTEXT",
-                    "text": "TAMBAHAN LEMBARAN NEGARA REPUBLIK INDONESIA NOMOR 6409"
                   }
                 ]
               }
