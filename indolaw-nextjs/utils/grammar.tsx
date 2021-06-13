@@ -4,6 +4,7 @@ import StructureWithHeading from "components/StructureWithHeading";
 import CenteredHeading from "components/CenteredHeading";
 import { CSSProperties } from "react";
 import PenjelasanListItem from "components/PenjelasanListItem";
+import PenjelasanPasalItem from "../components/PenjelasanPasalItem";
 import Pasal from "components/Pasal";
 import UUTitle from "components/UUTitle";
 
@@ -75,18 +76,18 @@ const PRIMITIVE_STRUCTURES = new Set([
 ]);
 
 export interface LawData {
-  content: Complex,
-  metadata: Metadata,
+  content: Complex;
+  metadata: Metadata;
 }
 
 export interface Metadata {
-  lembaranNegaraNumber: number,
-  lembaranNegaraYear: number,
-  tambahanLembaranNumber: number,
-  number: number,
-  topic: string,
-  year: number,
-  status: Array<string>,
+  lembaranNegaraNumber: number;
+  lembaranNegaraYear: number;
+  tambahanLembaranNumber: number;
+  number: number;
+  topic: string;
+  year: number;
+  status: Array<string>;
 }
 
 export interface Primitive {
@@ -103,7 +104,8 @@ export interface Complex {
 export function renderStructure(
   structure: Complex | Primitive,
   key?: string | number,
-  isMobile?: boolean,
+  penjelasanUmum?: Array<Complex | Primitive>,
+  isMobile?: boolean
 ) {
   switch (structure.type) {
     case Structure.UU_TITLE:
@@ -145,7 +147,9 @@ export function renderStructure(
     case Structure.BAGIAN_TITLE:
     case Structure.PARAGRAF_NUMBER:
     case Structure.PARAGRAF_TITLE:
-      return <PrimitiveStructure key={key} structure={structure as Primitive} />;
+      return (
+        <PrimitiveStructure key={key} structure={structure as Primitive} />
+      );
     case Structure.PENJELASAN_UMUM_TITLE:
     case Structure.PENJELASAN_PASAL_DEMI_PASAL_TITLE:
       const headingStyle: CSSProperties = {
@@ -164,6 +168,7 @@ export function renderStructure(
       return (
         <StructureWithHeading
           key={key}
+          penjelasanUmum={penjelasanUmum}
           structure={structure as Complex}
           numOfHeadingLines={2}
         />
@@ -184,17 +189,20 @@ export function renderStructure(
     case Structure.PENJELASAN_UMUM:
     case Structure.LIST:
     case Structure.UNORDERED_LIST:
-      return renderChildren(structure as Complex, key);
+      return renderChildren(structure as Complex, key, penjelasanUmum);
     case Structure.PENJELASAN_PASAL_DEMI_PASAL:
       return (
         <>
           <style jsx>{`
             div {
-              margin: 48px 0 0 0;
+              margin: 48px;
+              padding: 40px;
+              border: 5px solid black;
             }
           `}</style>
           <div>
-            {renderChildren(structure as Complex, key)}
+            Untuk kemudahan pemakaian HukumJelas, penjelasan masing-masing pasal
+            telah dipindahkan ke bawah pasal terkait
           </div>
         </>
       );
@@ -208,14 +216,35 @@ export function renderStructure(
   }
 }
 
+export function renderPenjelasanUmum(
+  structure: Complex | Primitive,
+  key?: string | number
+) {
+  switch (structure.type) {
+    case Structure.PASAL:
+      return (
+        <>
+          <PenjelasanPasalItem
+            key={key}
+            structure={structure as Complex}
+            numOfHeadingLines={1}
+          />
+        </>
+      );
+    default:
+      return <></>;
+  }
+}
+
 export function renderChildren(
   structure: Complex,
   key?: string | number,
+  penjelasanUmum?: Array<Complex | Primitive>
 ): JSX.Element {
   return (
     <div key={key}>
       {structure.children.map((childStructure, idx) =>
-        renderStructure(childStructure, idx)
+        renderStructure(childStructure, idx, penjelasanUmum)
       )}
     </div>
   );

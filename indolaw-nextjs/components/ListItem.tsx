@@ -26,7 +26,7 @@ export default function ListItem(props: { structure: Complex }): JSX.Element {
       </div>
       <div className="text-block">
         {structure.children.slice(1).map((childStructure, idx) =>
-          renderStructure(childStructure, idx, isMobile)
+          renderStructure(childStructure, idx, [], isMobile)
         )}
       </div>
     </div>

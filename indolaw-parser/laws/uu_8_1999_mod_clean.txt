@@ -1,1229 +1,1212 @@
-[
-  "UNDANG-UNDANG REPUBLIK INDONESIA",
-  "NOMOR 8 TAHUN 1999",
-  "TENTANG",
-  "PERLINDUNGAN KONSUMEN",
-  "DENGAN RAHMAT TUHAN YANG MAHA ESA",
-  "PRESIDEN REPUBLIK INDONESIA,",
-  "Menimbang:",
-  "a.",
-  "bahwa pembangunan nasional bertujuan untuk mewujudkan suatu masyarakat adil dan makmur yang merata materiil dan spiritual dalam era demokrasi ekonomi berdasarkan Pancasila dan Undang undang Dasar 1945;",
-  "b.",
-  "bahwa pembangunan perekonomian nasional pada era globalisasi harus dapat mendukung tumbuhnya dunia usaha sehingga mampu menghasilkan beraneka barang dan/atau jasa yang memiliki kandungan teknologi yang dapat meningkatkan kesejahteraan masyarakat banyak dan sekaligus mendapatkan kepastian atas barang dan/atau jasa yang diperoleh dari perdagangan tanpa mengakibatkan kerugian konsumen;",
-  "c.",
-  "bahwa semakin terbukanya pasar nasional sebagai akibat dari proses globalisasi ekonomi harus tetap menjamin peningkatan kesejahteraan masyarakat serta kepastian atas mutu, jumlah, dan keamanan barang dan/atau jasa yang diperolehnya di pasar;",
-  "d.",
-  "bahwa untuk meningkatkan harkat dan martabat konsumen perlu meningkatkan kesadaran, pengetahuan, kepedulian, kemampuan dan kemandirian konsumen untuk melindungi dirinya serta menumbuhkembangkan sikap pelaku usaha yang bertanggung jawab;",
-  "e.",
-  "bahwa ketentuan hukum yang melindungi kepentingan konsumen di Indonesia belum memadai;",
-  "f.",
-  "bahwa berdasarkan pertimbangan tersebut di atas diperlukan perangkat perundang-undangan untuk mewujudkan keseimbangan perlindungan kepentingan konsumen dan pelaku usaha sehingga tercipta perekonomian yang sehat;",
-  "g.",
-  "bahwa untuk itu perlu dibentuk Undang-undang tentang Perlindungan Konsumen.",
-  "Mengingat:",
-  "Pasal 5 ayat (1), Pasal 21 ayat (1), Pasal 27, dan Pasal 33 Undang-Undang Dasar 1945.",
-  "Dengan Persetujuan:",
-  "DEWAN PERWAKILAN RAKYAT REPUBLIK INDONESIA,",
-  "MEMUTUSKAN:",
-  "Menetapkan:",
-  "UNDANG-UNDANG TENTANG PERLINDUNGAN KONSUMEN",
-  "BAB I",
-  "KETENTUAN UMUM",
-  "Pasal 1",
-  "Dalam Undang-undang ini yang dimaksud dengan:",
-  "1.",
-  "Perlindungan konsumen adalah segala upaya yang menjamin adanya kepastian hukum untuk memberi perlindungan kepada konsumen.",
-  "2.",
-  "Konsumen adalah setiap orang pemakai barang dan/atau jasa yang tersedia dalam masyarakat, baik bagi kepentingan diri sendiri, keluarga, orang lain maupun makhluk hidup lain dan tidak untuk diperdagangkan.",
-  "3.",
-  "Pelaku usaha adalah setiap orang perseorangan atau badan usaha, baik yang berbentuk badan hukum maupun bukan badan hukum yang didirikan dan berkedudukan atau melakukan kegiatan dalam wilayah hukum negara Republik Indonesia, baik sendiri maupun bersama-sama melalui perjanjian menyelenggarakan kegiatan usaha dalam berbagai bidang ekonomi.",
-  "4.",
-  "Barang adalah setiap benda baik berwujud maupun tidak berwujud, baik bergerak maupun tidak bergerak, dapat dihabiskan maupun tidak dapat dihabiskan, yang dapat untuk diperdagangkan, dipakai, dipergunakan, atau dimanfaatkan oleh konsumen.",
-  "5.",
-  "Jasa adalah setiap layanan yang berbentuk pekerjaan atau prestasi yang disediakan bagi masyarakat untuk dimanfaatkan oleh konsumen.",
-  "6.",
-  "Promosi adalah kegiatan pengenalan atau penyebarluasan informasi suatu barang dan/atau jasa untuk menarik minat beli konsumen terhadap barang dan/atau jasa yang akan dan sedang diperdagangkan.",
-  "7.",
-  "Impor barang adalah kegiatan memasukkan barang ke dalam daerah pabean.",
-  "8.",
-  "Impor jasa adalah kegiatan penyediaan jasa asing untuk digunakan di dalam wilayah Republik Indonesia.",
-  "9.",
-  "Lembaga Perlindungan Konsumen Swadaya Masyarakat adalah lembaga non-pemerintah yang terdaftar dan diakui oleh pemerintah yang mempunyai kegiatan menangani perlindungan konsumen.",
-  "10.",
-  "Klausula Baku adalah setiap aturan atau ketentuan dan syarat-syarat yang telah dipersiapkan dan ditetapkan terlebih dahulu secara sepihak oleh pelaku usaha yang dituangkan dalam suatu dokumen dan/atau perjanjian yang mengikat dan wajib dipenuhi oleh konsumen.",
-  "11.",
-  "Badan Penyelesaian Sengketa Konsumen adalah badan yang bertugas menangani dan menyelesaikan sengketa antara pelaku usaha dan konsumen.",
-  "12.",
-  "Badan Perlindungan Konsumen Nasional adalah badan yang dibentuk untuk membantu upaya pengembangan perlindungan konsumen.",
-  "13.",
-  "Menteri adalah menteri yang ruang lingkup tugas dan tanggung jawabnya meliputi bidang perdagangan.",
-  "BAB II",
-  "ASAS DAN TUJUAN",
-  "Pasal 2",
-  "Perlindungan konsumen berasaskan manfaat, keadilan, keseimbangan, keamanan dan keselamatan  konsumen, serta kepastian hukum.",
-  "Pasal 3",
-  "Perlindungan konsumen bertujuan:",
-  "a.",
-  "meningkatkan kesadaran, kemampuan dan kemandirian konsumen untuk melindungi diri;",
-  "b.",
-  "mengangkat harkat dan martabat konsumen dengan cara menghindarkannya dari ekses negatif pemakaian barang dan/atau jasa;",
-  "c.",
-  "meningkatkan pemberdayaan konsumen dalam memilih, menentukan dan menuntut hak-haknya sebagai konsumen;",
-  "d.",
-  "menciptakan sistem perlindungan konsumen yang mengandung unsur kepastian hukum dan keterbukaan informasi serta akses untuk mendapatkan informasi;",
-  "e.",
-  "menumbuhkan kesadaran pelaku usaha mengenai pentingnya perlindungan konsumen sehingga tumbuh sikap yang jujur dan bertanggung jawab dalam berusaha;",
-  "f.",
-  "meningkatkan kualitas barang dan/atau jasa yang menjamin kelangsungan usaha produksi barang dan/atau jasa, kesehatan, kenyamanan, keamanan, dan keselamatan konsumen.",
-  "BAB III",
-  "HAK DAN KEWAJIBAN",
-  "Bagian Pertama",
-  "Hak dan Kewajiban Konsumen",
-  "Pasal 4",
-  "Hak konsumen adalah:",
-  "a.",
-  "hak atas kenyamanan, keamanan, dan keselamatan dalam mengkonsumsi barang dan/atau jasa;",
-  "b.",
-  "hak untuk memilih barang dan/atau jasa serta mendapatkan barang dan/atau jasa tersebut sesuai dengan nilai tukar dan kondisi serta jaminan yang dijanjikan;",
-  "c.",
-  "hak atas informasi yang benar, jelas, dan jujur mengenai kondisi dan jaminan barang dan/atau jasa;",
-  "d.",
-  "hak untuk didengar pendapat dan keluhannya atas barang dan/atau jasa yang digunakan;",
-  "e.",
-  "hak untuk mendapatkan advokasi, perlindungan, dan upaya penyelesaian sengketa perlindungan konsumen secara patut;",
-  "f.",
-  "hak untuk mendapat pembinaan dan pendidikan konsumen;",
-  "g.",
-  "hak untuk diperlakukan atau dilayani secara benar dan jujur serta tidak diskriminatif;",
-  "h.",
-  "hak untuk mendapatkan kompensasi, ganti rugi dan/atau penggantian, apabila barang dan/atau jasa yang diterima tidak sesuai dengan perjanjian atau tidak sebagaimana mestinya;",
-  "i.",
-  "hak-hak yang diatur dalam ketentuan peraturan perundang-undangan lainnya.",
-  "Pasal 5",
-  "Kewajiban konsumen adalah:",
-  "a.",
-  "membaca atau mengikuti petunjuk informasi dan prosedur pemakaian atau pemanfaatan barang dan/atau jasa, demi keamanan dan keselamatan;",
-  "b.",
-  "beritikad baik dalam melakukan transaksi pembelian barang dan/atau jasa;",
-  "c.",
-  "membayar sesuai dengan nilai tukar yang disepakati;",
-  "d.",
-  "mengikuti upaya penyelesaian hukum sengketa perlindungan konsumen secara patut.",
-  "Bagian Kedua",
-  "Hak dan Kewajiban Pelaku Usaha",
-  "Pasal 6",
-  "Hak pelaku usaha adalah:",
-  "a.",
-  "hak untuk menerima pembayaran yang sesuai dengan kesepakatan mengenai kondisi dan nilai tukar barang dan/atau jasa yang diperdagangkan;",
-  "b.",
-  "hak untuk mendapat perlindungan hukum dari tindakan konsumen yang beritikad tidak baik;",
-  "c.",
-  "hak untuk melakukan pembelaan diri sepatutnya di dalam penyelesaian hukum sengketa konsumen;",
-  "d.",
-  "hak untuk rehabilitasi nama baik apabila terbukti secara hukum bahwa kerugian konsumen tidak diakibatkan oleh barang dan/atau jasa yang diperdagangkan;",
-  "e.",
-  "hak-hak yang diatur dalam ketentuan peraturan perundang-undangan lainnya.",
-  "Pasal 7",
-  "Kewajiban pelaku usaha adalah:",
-  "a.",
-  "beritikad baik dalam melakukan kegiatan usahanya;",
-  "b.",
-  "memberikan informasi yang benar, jelas dan jujur mengenai kondisi dan jaminan barang dan/atau jasa serta memberi penjelasan penggunaan, perbaikan dan pemeliharaan;",
-  "c.",
-  "memperlakukan atau melayani konsumen secara benar dan jujur serta tidak diskriminatif;",
-  "d.",
-  "menjamin mutu barang dan/atau jasa yang diproduksi dan/atau diperdagangkan berdasarkan ketentuan standar mutu barang dan/atau jasa yang berlaku;",
-  "e.",
-  "memberi kesempatan kepada konsumen untuk menguji, dan/atau mencoba barang dan/atau jasa tertentu serta memberi jaminan dan/atau garansi atas barang yang dibuat dan/atau yang diperdagangkan;",
-  "f.",
-  "memberi kompensasi, ganti rugi dan/atau penggantian atas kerugian akibat penggunaan, pemakaian dan pemanfaatan barang dan/atau jasa yang diperdagangkan;",
-  "g.",
-  "memberi kompensasi, ganti rugi dan/atau penggantian apabila barang dan/atau jasa yang diterima atau dimanfaatkan tidak sesuai dengan perjanjian.",
-  "BAB IV",
-  "PERBUATAN YANG DILARANG BAGI PELAKU USAHA",
-  "Pasal 8",
-  "(1)",
-  "Pelaku usaha dilarang memproduksi dan/atau memperdagangkan barang dan/atau jasa yang:",
-  "a.",
-  "tidak memenuhi atau tidak sesuai dengan standar yang dipersyaratkan dan ketentuan peraturan perundang-undangan;",
-  "b.",
-  "tidak sesuai dengan berat bersih, isi bersih atau netto, dan jumlah dalam hitungan sebagaimana yang dinyatakan dalam label atau etiket barang tersebut;",
-  "c.",
-  "tidak sesuai dengan ukuran, takaran, timbangan dan jumlah dalam hitungan menurut ukuran yang sebenarnya;",
-  "d.",
-  "tidak sesuai dengan kondisi, jaminan, keistimewaan atau kemanjuran sebagaimana dinyatakan dalam label, etiket atau keterangan barang dan/atau jasa tersebut;",
-  "e.",
-  "tidak sesuai dengan mutu, tingkatan, komposisi, proses pengolahan, gaya, mode, atau penggunaan tertentu sebagaimana dinyatakan dalam label atau keterangan barang dan/atau jasa tersebut;",
-  "f.",
-  "tidak sesuai dengan janji yang dinyatakan dalam label, etiket, keterangan, iklan atau promosi penjualan barang dan/atau jasa tersebut;",
-  "g.",
-  "tidak mencantumkan tanggal kadaluwarsa atau jangka waktu penggunaan/ pemanfaatan yang paling baik atas barang tertentu;",
-  "h.",
-  "tidak mengikuti ketentuan berproduksi secara halal, sebagaimana pernyataan \"halal\" yang dicantumkan dalam label;",
-  "i.",
-  "tidak memasang label atau membuat penjelasan barang yang memuat nama barang, ukuran, berat/isi bersih atau netto, komposisi, aturan pakai, tanggal pembuatan, akibat sampingan, nama dan alamat pelaku usaha serta keterangan lain untuk penggunaan yang menurut ketentuan harus dipasang/dibuat;",
-  "j.",
-  "tidak mencantumkan informasi dan/atau petunjuk penggunaan barang dalam bahasa Indonesia sesuai dengan ketentuan perundang-undangan yang berlaku.",
-  "(2)",
-  "Pelaku usaha dilarang memperdagangkan barang yang rusak, cacat atau bekas, dan tercemar tanpa memberikan informasi secara lengkap dan benar atas barang dimaksud.",
-  "(3)",
-  "Pelaku usaha dilarang memperdagangkan sediaan farmasi dan pangan yang rusak, cacat atau bekas dan tercemar, dengan atau tanpa memberikan informasi secara lengkap dan benar.",
-  "(4)",
-  "Pelaku usaha yang melakukan pelanggaran pada ayat (1) dan ayat (2) dilarang memperdagangkan barang dan/atau jasa tersebut serta wajib menariknya dari peredaran.",
-  "Pasal 9",
-  "(1)",
-  "Pelaku usaha dilarang menawarkan, mempromosikan, mengiklankan suatu barang dan/atau jasa secara tidak benar, dan/atau seolah-olah:",
-  "a.",
-  "barang tersebut telah memenuhi dan/atau memiliki potongan harga, harga khusus, standar mutu tertentu, gaya atau mode tertentu, karakteristik tertentu, sejarah atau guna tertentu;",
-  "b.",
-  "barang tersebut dalam keadaan baik dan/atau baru;",
-  "c.",
-  "barang dan/atau jasa tersebut telah mendapatkan dan/atau memiliki sponsor, persetujuan, perlengkapan tertentu, keuntungan tertentu, ciri-ciri kerja atau aksesori tertentu;",
-  "d.",
-  "barang dan/atau jasa tersebut dibuat oleh perusahaan yang mempunyai sponsor, persetujuan atau afiliasi;",
-  "e.",
-  "barang dan/atau jasa tersebut tersedia;",
-  "f.",
-  "barang tersebut tidak mengandung cacat tersembunyi;",
-  "g.",
-  "barang tersebut merupakan kelengkapan dari barang tertentu;",
-  "h.",
-  "barang tersebut berasal dari daerah tertentu;",
-  "i.",
-  "secara langsung atau tidak langsung merendahkan barang dan/atau jasa lain;",
-  "j.",
-  "menggunakan kata-kata yang berlebihan, seperti aman, tidak berbahaya, tidak mengandung risiko atau efek sampingan tanpa keterangan yang lengkap;",
-  "k.",
-  "menawarkan sesuatu yang mengandung janji yang belum pasti.",
-  "(2)",
-  "Barang dan/atau jasa sebagaimana dimaksud pada ayat (1) dilarang untuk diperdagangkan.",
-  "(3)",
-  "Pelaku usaha yang melakukan pelanggaran terhadap ayat (1) dilarang melanjutkan penawaran, promosi, dan pengiklanan barang dan/atau jasa tersebut.",
-  "Pasal 10",
-  "Pelaku usaha dalam menawarkan barang dan/atau jasa yang ditujukan untuk diperdagangkan dilarang  menawarkan, mempromosikan, mengiklankan atau membuat pernyataan yang tidak benar atau  menyesatkan mengenai:",
-  "a.",
-  "harga atau tarif suatu barang dan/atau jasa;",
-  "b.",
-  "kegunaan suatu barang dan/atau jasa;",
-  "c.",
-  "kondisi, tanggungan, jaminan, hak atau ganti rugi atas suatu barang dan/atau jasa;",
-  "d.",
-  "tawaran potongan harga atau hadiah menarik yang ditawarkan;",
-  "e.",
-  "bahaya penggunaan barang dan/atau jasa.",
-  "Pasal 11",
-  "Pelaku usaha dalam hal penjualan yang dilakukan melalui cara obral atau lelang, dilarang  mengelabui/menyesatkan konsumen dengan:",
-  "a.",
-  "menyatakan barang dan/atau jasa tersebut seolah-olah telah memenuhi standar mutu tertentu;",
-  "b.",
-  "menyatakan barang dan/atau jasa tersebut seolah-olah tidak mengandung cacat tersembunyi;",
-  "c.",
-  "tidak berniat untuk menjual barang yang ditawarkan melainkan dengan maksud untuk menjual barang lain;",
-  "d.",
-  "tidak menyediakan barang dalam jumlah tertentu dan/atau jumlah yang cukup dengan maksud menjual barang yang lain;",
-  "e.",
-  "tidak menyediakan jasa dalam kapasitas tertentu atau dalam jumlah cukup dengan maksud menjual jasa yang lain;",
-  "f.",
-  "menaikkan harga atau tarif barang dan/atau jasa sebelum melakukan obral.",
-  "Pasal 12",
-  "Pelaku usaha dilarang menawarkan, mempromosikan atau mengiklankan suatu barang dan/atau jasa  dengan harga atau tarif khusus dalam waktu dan jumlah tertentu, jika pelaku usaha tersebut tidak  bermaksud untuk melaksanakannya sesuai dengan waktu dan jumlah yang ditawarkan, dipromosikan, atau  diiklankan.",
-  "Pasal 13",
-  "(1)",
-  "Pelaku usaha dilarang menawarkan, mempromosikan, atau mengiklankan suatu barang dan/jasa dengan cara menjanjikan pemberian hadiah berupa barang dan/atau jasa lain secara cuma-cuma dengan maksud tidak memberikannya atau memberikan tidak sebagaimana yang dijanjikannya.",
-  "(2)",
-  "Pelaku usaha dilarang menawarkan, mempromosikan atau mengiklankan obat, obat tradisional, suplemen makanan, alat kesehatan, dan jasa pelayanan kesehatan dengan cara menjanjikan pemberian hadiah berupa barang dan/atau jasa lain.",
-  "Pasal 14",
-  "Pelaku usaha dalam menawarkan barang dan/atau jasa yang ditujukan untuk diperdagangkan dengan  memberikan hadiah melalui cara undian, dilarang untuk:",
-  "a.",
-  "tidak melakukan penarikan hadiah setelah batas waktu yang dijanjikan;",
-  "b.",
-  "mengumumkan hasilnya tidak melalui media massa;",
-  "c.",
-  "memberikan hadiah tidak sesuai dengan yang dijanjikan;",
-  "d.",
-  "mengganti hadiah yang tidak setara dengan nilai hadiah yang dijanjikan.",
-  "Pasal 15",
-  "Pelaku usaha dalam menawarkan barang dan/atau jasa dilarang melakukan dengan cara pemaksaan atau  cara lain yang dapat menimbulkan gangguan baik fisik maupun psikis terhadap konsumen.",
-  "Pasal 16",
-  "Pelaku usaha dalam menawarkan barang dan/atau jasa melalui pesanan dilarang untuk:",
-  "a.",
-  "tidak menepati pesanan dan/atau kesepakatan waktu penyelesaian sesuai dengan yang dijanjikan;",
-  "b.",
-  "tidak menepati janji atas suatu pelayanan dan/atau prestasi.",
-  "Pasal 17",
-  "(1)",
-  "Pelaku usaha periklanan dilarang memproduksi iklan yang:",
-  "a.",
-  "mengelabui konsumen mengenai kualitas, kuantitas, bahan, kegunaan dan harga barang dan/atau tarif jasa serta ketepatan waktu penerimaan barang dan/atau jasa;",
-  "b.",
-  "mengelabui jaminan/garansi terhadap barang dan/atau jasa;",
-  "c.",
-  "memuat informasi yang keliru, salah, atau tidak tepat mengenai barang dan/atau jasa;",
-  "d.",
-  "tidak memuat informasi mengenai risiko pemakaian barang dan/atau jasa;",
-  "e.",
-  "mengeksploitasi kejadian dan/atau seseorang tanpa seizin yang berwenang atau persetujuan yang bersangkutan;",
-  "f.",
-  "melanggar etika dan/atau ketentuan peraturan perundang-undangan mengenai periklanan.",
-  "(2)",
-  "Pelaku usaha periklanan dilarang melanjutkan peredaran iklan yang telah melanggar ketentuan pada ayat (1).",
-  "BAB V",
-  "KETENTUAN PENCANTUMAN KLAUSULA BAKU",
-  "Pasal 18",
-  "(1)",
-  "Pelaku usaha dalam menawarkan barang dan/atau jasa yang ditujukan untuk diperdagangkan dilarang membuat atau mencantumkan klausula baku pada setiap dokumen dan/atau perjanjian apabila:",
-  "a.",
-  "menyatakan pengalihan tanggung jawab pelaku usaha;",
-  "b.",
-  "menyatakan bahwa pelaku usaha berhak menolak penyerahan kembali barang yang dibeli konsumen;",
-  "c.",
-  "menyatakan bahwa pelaku usaha berhak menolak penyerahan kembali uang yang dibayarkan atas barang dan/atau jasa yang dibeli oleh konsumen;",
-  "d.",
-  "menyatakan pemberian kuasa dari konsumen kepada pelaku usaha baik secara langsung maupun tidak langsung untuk melakukan segala tindakan sepihak yang berkaitan dengan barang yang dibeli oleh konsumen secara angsuran;",
-  "e.",
-  "mengatur perihal pembuktian atas hilangnya kegunaan barang atau pemanfaatan jasa yang dibeli oleh konsumen;",
-  "f.",
-  "memberi hak kepada pelaku usaha untuk mengurangi manfaat jasa atau mengurangi harta kekayaan konsumen yang menjadi obyek jual beli jasa;",
-  "g.",
-  "menyatakan tunduknya konsumen kepada peraturan yang berupa aturan baru, tambahan, lanjutan dan/atau pengubahan lanjutan yang dibuat sepihak oleh pelaku usaha dalam masa konsumen memanfaatkan jasa yang dibelinya;",
-  "h.",
-  "menyatakan bahwa konsumen memberi kuasa kepada pelaku usaha untuk pembebanan hak tanggungan, hak gadai, atau hak jaminan terhadap barang yang dibeli oleh konsumen secara angsuran.",
-  "(2)",
-  "Pelaku usaha dilarang mencantumkan klausula baku yang letak atau bentuknya sulit terlihat atau tidak dapat dibaca secara jelas, atau yang pengungkapannya sulit dimengerti.",
-  "(3)",
-  "Setiap klausula baku yang telah ditetapkan oleh pelaku usaha pada dokumen atau perjanjian yang memenuhi ketentuan sebagaimana dimaksud pada ayat (1) dan ayat (2) dinyatakan batal demi hukum.",
-  "(4)",
-  "Pelaku usaha wajib menyesuaikan klausula baku yang bertentangan dengan Undang-undang ini.",
-  "BAB VI",
-  "TANGGUNG JAWAB PELAKU USAHA",
-  "Pasal 19",
-  "(1)",
-  "Pelaku usaha bertanggung jawab memberikan ganti rugi atas kerusakan, pencemaran, dan/atau kerugian konsumen akibat mengkonsumsi barang dan/atau jasa yang dihasilkan atau diperdagangkan.",
-  "(2)",
-  "Ganti rugi sebagaimana dimaksud pada ayat (1) dapat berupa pengembalian uang atau penggantian barang dan/atau jasa yang sejenis atau setara nilainya, atau perawatan kesehatan dan/atau pemberian santunan yang sesuai dengan ketentuan peraturan perundang-undangan yang berlaku.",
-  "(3)",
-  "Pemberian ganti rugi dilaksanakan dalam tenggang waktu 7 (tujuh) hari setelah tanggal transaksi.",
-  "(4)",
-  "Pemberian ganti rugi sebagaimana dimaksud pada ayat (1) dan ayat (2) tidak menghapuskan kemungkinan adanya tuntutan pidana berdasarkan pembuktian lebih lanjut mengenai adanya unsur kesalahan.",
-  "(5)",
-  "Ketentuan sebagaimana dimaksud pada ayat (1) dan ayat (2) tidak berlaku apabila pelaku usaha dapat membuktikan bahwa kesalahan tersebut merupakan kesalahan konsumen.",
-  "Pasal 20",
-  "Pelaku usaha periklanan bertanggung jawab atas iklan yang diproduksi dan segala akibat yang ditimbulkan  oleh iklan tersebut.",
-  "Pasal 21",
-  "(1)",
-  "Importir barang bertanggung jawab sebagai pembuat barang yang diimpor apabila importasi barang tersebut tidak dilakukan oleh agen atau perwakilan produsen luar negeri.",
-  "(2)",
-  "Importir jasa bertanggung jawab sebagai penyedia jasa asing apabila penyediaan jasa asing tersebut tidak dilakukan oleh agen atau perwakilan penyedia jasa asing.",
-  "Pasal 22",
-  "Pembuktian terhadap ada tidaknya unsur kesalahan dalam kasus pidana sebagaimana dimaksud dalam  Pasal 19 ayat (4), Pasal 20, dan Pasal 21 merupakan beban dan tanggung jawab pelaku usaha tanpa  menutup kemungkinan bagi jaksa untuk melakukan pembuktian.",
-  "Pasal 23",
-  "Pelaku usaha yang menolak dan/atau tidak memberi tanggapan dan/atau tidak memenuhi ganti rugi atas  tuntutan konsumen sebagaimana dimaksud dalam Pasal 19 ayat (1), ayat (2), ayat (3), dan ayat (4), dapat  digugat melalui badan penyelesaian sengketa konsumen atau mengajukan ke badan peradilan di tempat  kedudukan konsumen.",
-  "Pasal 24",
-  "(1)",
-  "Pelaku usaha yang menjual barang dan/atau jasa kepada pelaku usaha lain bertanggung jawab atas tuntutan ganti rugi dan/atau gugatan konsumen apabila:",
-  "a.",
-  "pelaku usaha lain menjual kepada konsumen tanpa melakukan perubahan apa pun atas barang dan/atau jasa tersebut;",
-  "b.",
-  "pelaku usaha lain, di dalam transaksi jual beli tidak mengetahui adanya perubahan barang dan/atau jasa yang dilakukan oleh pelaku usaha atau tidak sesuai dengan contoh, mutu, dan komposisi.",
-  "(2)",
-  "Pelaku usaha sebagaimana dimaksud pada ayat (1) dibebaskan dari tanggung jawab atas tuntutan ganti rugi dan/atau gugatan konsumen apabila pelaku usaha lain yang membeli barang dan/atau jasa menjual kembali kepada konsumen dengan melakukan perubahan atas barang dan/atau jasa tersebut.",
-  "Pasal 25",
-  "(1)",
-  "Pelaku usaha yang memproduksi barang yang pemanfaatannya berkelanjutan dalam batas waktu sekurang-kurangnya 1 (satu) tahun wajib menyediakan suku cadang dan/atau fasilitas purna jual dan wajib memenuhi jaminan atau garansi sesuai dengan yang diperjanjikan.",
-  "(2)",
-  "Pelaku usaha sebagaimana dimaksud pada ayat (1) bertanggung jawab atas tuntutan ganti rugi dan/atau gugatan konsumen apabila pelaku usaha tersebut:",
-  "a.",
-  "tidak menyediakan atau lalai menyediakan suku cadang dan/atau fasilitas perbaikan;",
-  "b.",
-  "tidak memenuhi atau gagal memenuhi jaminan atau garansi yang diperjanjikan.",
-  "Pasal 26",
-  "Pelaku usaha yang memperdagangkan jasa wajib memenuhi jaminan dan/atau garansi yang disepakati  dan/atau yang diperjanjikan.",
-  "Pasal 27",
-  "Pelaku usaha yang memproduksi barang dibebaskan dari tanggung jawab atas kerugian yang diderita  konsumen, apabila:",
-  "a.",
-  "barang tersebut terbukti seharusnya tidak diedarkan atau tidak dimaksudkan untuk diedarkan;",
-  "b.",
-  "cacat barang timbul pada kemudian hari;",
-  "c.",
-  "cacat timbul akibat ditaatinya ketentuan mengenai kualifikasi barang;",
-  "d.",
-  "kelalaian yang diakibatkan oleh konsumen;",
-  "e.",
-  "lewatnya jangka waktu penuntutan 4 (empat) tahun sejak barang dibeli atau lewatnya jangka waktu yang diperjanjikan.",
-  "Pasal 28",
-  "Pembuktian terhadap ada tidaknya unsur kesalahan dalam gugatan ganti rugi sebagaimana dimaksud dalam Pasal 19, Pasal 22, dan Pasal 23 merupakan beban dan tanggung jawab pelaku usaha.",
-  "BAB VII",
-  "PEMBINAAN DAN PENGAWASAN",
-  "Bagian Pertama",
-  "Pembinaan",
-  "Pasal 29",
-  "(1)",
-  "Pemerintah bertanggung jawab atas pembinaan penyelenggaraan perlindungan konsumen yang menjamin diperolehnya hak konsumen dan pelaku usaha serta dilaksanakannya kewajiban konsumen dan pelaku usaha.",
-  "(2)",
-  "Pembinaan oleh pemerintah atas penyelenggaraan perlindungan konsumen sebagaimana dimaksud pada ayat (1) dilaksanakan oleh Menteri dan/atau menteri teknis terkait.",
-  "(3)",
-  "Menteri sebagaimana dimaksud pada ayat (2) melakukan koordinasi atas penyelenggaraan perlindungan konsumen.",
-  "(4)",
-  "Pembinaan penyelenggaraan perlindungan konsumen sebagaimana dimaksud pada ayat (2) meliputi upaya untuk:",
-  "a.",
-  "terciptanya iklim usaha dan tumbuhnya hubungan yang sehat antara pelaku usaha dan konsumen;",
-  "b.",
-  "berkembangnya lembaga perlindungan konsumen swadaya masyarakat;",
-  "c.",
-  "meningkatnya kualitas sumber daya manusia serta meningkatnya kegiatan penelitian dan pengembangan di bidang perlindungan konsumen.",
-  "(5)",
-  "Ketentuan lebih lanjut mengenai pembinaan penyelenggaraan perlindungan konsumen diatur dengan Peraturan Pemerintah.",
-  "Bagian Kedua",
-  "Pengawasan",
-  "Pasal 30",
-  "(1)",
-  "Pengawasan terhadap penyelenggaraan perlindungan konsumen serta penerapan ketentuan peraturan perundang-undangannya diselenggarakan oleh pemerintah, masyarakat, dan lembaga perlindungan konsumen swadaya masyarakat.",
-  "(2)",
-  "Pengawasan oleh pemerintah sebagaimana dimaksud pada ayat (1) dilaksanakan oleh Menteri dan/atau menteri teknis terkait.",
-  "(3)",
-  "Pengawasan oleh masyarakat dan lembaga perlindungan konsumen swadaya masyarakat dilakukan terhadap barang dan/atau jasa yang beredar di pasar.",
-  "(4)",
-  "Apabila hasil pengawasan sebagaimana dimaksud pada ayat (3) ternyata menyimpang dari peraturan perundang-undangan yang berlaku dan membahayakan konsumen, Menteri dan/atau menteri teknis mengambil tindakan sesuai dengan peraturan perundang-undangan yang berlaku.",
-  "(5)",
-  "Hasil pengawasan yang diselenggarakan masyarakat dan lembaga perlindungan konsumen swadaya masyarakat dapat disebarluaskan kepada masyarakat dan dapat disampaikan kepada Menteri dan menteri teknis.",
-  "(6)",
-  "Ketentuan pelaksanaan tugas pengawasan sebagaimana dimaksud pada ayat (1), ayat (2), dan ayat (3) ditetapkan dengan Peraturan Pemerintah.",
-  "BAB VIII",
-  "BADAN PERLINDUNGAN KONSUMEN NASIONAL",
-  "Bagian Pertama",
-  "Nama, Kedudukan, Fungsi, dan Tugas",
-  "Pasal 31",
-  "Dalam rangka mengembangkan upaya perlindungan konsumen dibentuk Badan Perlindungan Konsumen  Nasional.",
-  "Pasal 32",
-  "Badan Perlindungan Konsumen Nasional berkedudukan di Ibu Kota Negara Republik Indonesia dan  bertanggung jawab kepada Presiden.",
-  "Pasal 33",
-  "Badan Perlindungan Konsumen Nasional mempunyai fungsi memberikan saran dan pertimbangan kepada  pemerintah dalam upaya mengembangkan perlindungan konsumen di Indonesia.",
-  "Pasal 34",
-  "(1)",
-  "Untuk menjalankan fungsi sebagaimana dimaksud dalam Pasal 33, Badan Perlindungan Konsumen Nasional mempunyai tugas:",
-  "a.",
-  "memberikan saran dan rekomendasi kepada pemerintah dalam rangka penyusunan kebijaksanaan di bidang perlindungan konsumen;",
-  "b.",
-  "melakukan penelitian dan pengkajian terhadap peraturan perundang-undangan yang berlaku di bidang perlindungan konsumen;",
-  "c.",
-  "melakukan penelitian terhadap barang dan/atau jasa yang menyangkut keselamatan konsumen;",
-  "d.",
-  "mendorong berkembangnya lembaga perlindungan konsumen swadaya masyarakat;",
-  "e.",
-  "menyebarluaskan informasi melalui media mengenai perlindungan konsumen dan memasyarakatkan sikap keberpihakan kepada konsumen;",
-  "f.",
-  "menerima pengaduan tentang perlindungan konsumen dari masyarakat, lembaga perlindungan konsumen swadaya masyarakat, atau pelaku usaha;",
-  "g.",
-  "melakukan survei yang menyangkut kebutuhan konsumen.",
-  "(2)",
-  "Dalam melaksanakan tugas sebagaimana dimaksud pada ayat (1), Badan Perlindungan Konsumen Nasional dapat bekerjasama dengan organisasi konsumen internasional.",
-  "Bagian Kedua",
-  "Susunan Organisasi dan Keanggotaan",
-  "Pasal 35",
-  "(1)",
-  "Badan Perlindungan Konsumen Nasional terdiri atas seorang ketua merangkap anggota, seorang wakil ketua merangkap anggota, serta sekurang-kurangnya 15 (lima belas) orang dan sebanyak banyaknya 25 (dua puluh lima) orang anggota yang mewakili semua unsur.",
-  "(2)",
-  "Anggota Badan Perlindungan Konsumen Nasional diangkat dan diberhentikan oleh Presiden atas usul Menteri, setelah dikonsultasikan kepada Dewan Perwakilan Rakyat Republik Indonesia.",
-  "(3)",
-  "Masa jabatan ketua, wakil ketua, dan anggota Badan Perlindungan Konsumen Nasional selama 3 (tiga) tahun dan dapat diangkat kembali untuk 1 (satu) kali masa jabatan berikutnya.",
-  "(4)",
-  "Ketua dan wakil ketua Badan Perlindungan Konsumen Nasional dipilih oleh anggota.",
-  "Pasal 36",
-  "Anggota Badan Perlindungan Konsumen Nasional terdiri atas unsur:",
-  "a.",
-  "pemerintah;",
-  "b.",
-  "pelaku usaha;",
-  "c.",
-  "lembaga perlindungan konsumen swadaya masyarakat;",
-  "d.",
-  "akademisi; dan",
-  "e.",
-  "tenaga ahli.",
-  "Pasal 37",
-  "Persyaratan keanggotaan Badan Perlindungan Konsumen Nasional adalah:",
-  "a.",
-  "warga negara Republik Indonesia;",
-  "b.",
-  "berbadan sehat;",
-  "c.",
-  "berkelakuan baik;",
-  "d.",
-  "tidak pernah dihukum karena kejahatan;",
-  "e.",
-  "memiliki pengetahuan dan pengalaman di bidang perlindungan konsumen; dan",
-  "f.",
-  "berusia sekurang-kurangnya 30 (tiga puluh) tahun.",
-  "Pasal 38",
-  "Keanggotaan Badan Perlindungan Konsumen Nasional berhenti karena:",
-  "a.",
-  "meninggal dunia;",
-  "b.",
-  "mengundurkan diri atas permintaan sendiri;",
-  "c.",
-  "bertempat tinggal di luar wilayah negara Republik Indonesia;",
-  "d.",
-  "sakit secara terus menerus;",
-  "e.",
-  "berakhir masa jabatan sebagai anggota;atau",
-  "f.",
-  "diberhentikan.",
-  "Pasal 39",
-  "(1)",
-  "Untuk kelancaran pelaksanaan tugas, Badan Perlindungan Konsumen, Nasional dibantu oleh sekretariat.",
-  "(2)",
-  "Sekretariat sebagaimana dimaksud pada ayat (1) dipimpin oleh seorang sekretaris yang diangkat oleh Ketua Badan Perlindungan Konsumen Nasional.",
-  "(3)",
-  "Fungsi, tugas, dan tata kerja sekretariat sebagaimana dimaksud pada ayat (1) diatur dalam keputusan Ketua Badan Perlindungan Konsumen Nasional.",
-  "Pasal 40",
-  "(1)",
-  "Apabila diperlukan Badan Perlindungan Konsumen Nasional dapat membentuk perwakilan di Ibu Kota Daerah Tingkat I untuk membantu pelaksanaan tugasnya.",
-  "(2)",
-  "Pembentukan perwakilan sebagaimana dimaksud pada ayat (1) ditetapkan lebih lanjut dengan keputusan Ketua Badan Perlindungan Konsumen Nasional.",
-  "Pasal 41",
-  "Dalam pelaksanaan tugas, Badan Perlindungan Konsumen Nasional bekerja berdasarkan tata kerja yang  diatur dengan keputusan Ketua Badan Perlindungan Konsumen Nasional.",
-  "Pasal 42",
-  "Biaya untuk pelaksanaan tugas Badan Perlindungan Konsumen Nasional dibebankan kepada anggaran  pendapatan dan belanja negara dan sumber lain yang sesuai dengan peraturan perundang-undangan yang  berlaku.",
-  "Pasal 43",
-  "Ketentuan lebih lanjut mengenai pembentukan Badan Perlindungan Konsumen Nasional diatur dalam  Peraturan Pemerintah.",
-  "BAB IX",
-  "LEMBAGA PERLINDUNGAN KONSUMEN SWADAYA MASYARAKAT",
-  "Pasal 44",
-  "(1)",
-  "Pemerintah mengakui lembaga perlindungan konsumen swadaya masyarakat yang memenuhi syarat.",
-  "(2)",
-  "Lembaga perlindungan konsumen swadaya masyarakat memiliki kesempatan untuk berperan aktif dalam mewujudkan perlindungan konsumen.",
-  "(3)",
-  "Tugas lembaga perlindungan konsumen swadaya masyarakat meliputi kegiatan:",
-  "a.",
-  "menyebarkan informasi dalam rangka meningkatkan kesadaran atas hak dan kewajiban dan kehati-hatian konsumen dalam mengkonsumsi barang dan/atau jasa;",
-  "b.",
-  "memberikan nasihat kepada konsumen yang memerlukannya;",
-  "c.",
-  "bekerja sama dengan instansi terkait dalam upaya mewujudkan perlindungan konsumen;",
-  "d.",
-  "membantu konsumen dalam memperjuangkan haknya, termasuk menerima keluhan atau pengaduan konsumen;",
-  "e.",
-  "melakukan pengawasan bersama pemerintah dan masyarakat terhadap pelaksanaan perlindungan konsumen.",
-  "(4)",
-  "Ketentuan lebih lanjut mengenai tugas lembaga perlindungan konsumen swadaya masyarakat sebagaimana dimaksud pada ayat (3) diatur dalam Peraturan Pemerintah.",
-  "BAB X",
-  "PENYELESAIAN SENGKETA",
-  "Bagian Pertama",
-  "Umum",
-  "Pasal 45",
-  "(1)",
-  "Setiap konsumen yang dirugikan dapat menggugat pelaku usaha melalui lembaga yang bertugas menyelesaikan sengketa antara konsumen dan pelaku usaha atau melalui peradilan yang berada di lingkungan peradilan umum.",
-  "(2)",
-  "Penyelesaian sengketa konsumen dapat ditempuh melalui pengadilan atau diluar pengadilan berdasarkan pilihan sukarela para pihak yang bersengketa.",
-  "(3)",
-  "Penyelesaian sengketa di luar pengadilan sebagaimana dimaksud pada ayat (2) tidak menghilangkan tanggung jawab pidana sebagaimana diatur dalam Undang-undang.",
-  "(4)",
-  "Apabila telah dipilih upaya penyelesaian sengketa konsumen di luar pengadilan, gugatan melalui pengadilan hanya dapat ditempuh apabila upaya tersebut dinyatakan tidak berhasil oleh salah satu pihak atau oleh para pihak yang bersengketa.",
-  "Pasal 46",
-  "(1)",
-  "Gugatan atas pelanggaran pelaku usaha dapat dilakukan oleh:",
-  "a.",
-  "seorang konsumen yang dirugikan atau ahli waris yang bersangkutan;",
-  "b.",
-  "sekelompok konsumen yang mempunyai kepentingan yang sama;",
-  "c.",
-  "lembaga perlindungan konsumen swadaya masyarakat yang memenuhi syarat, yaitu berbentuk badan hukum atau yayasan, yang dalam anggaran dasarnya menyebutkan dengan tegas bahwa tujuan didirikannya organisasi tersebut adalah untuk kepentingan perlindungan konsumen dan telah melaksanakan kegiatan sesuai dengan anggaran dasarnya;",
-  "d.",
-  "pemerintah dan/atau instansi terkait apabila barang dan/atau jasa yang dikonsumsi atau dimanfaatkan mengakibatkan kerugian materi yang besar dan/atau korban yang tidak sedikit.",
-  "(2)",
-  "Gugatan yang diajukan oleh sekelompok konsumen, lembaga perlindungan konsumen swadaya masyarakat atau pemerintah sebagaimana dimaksud pada ayat (1) huruf b, huruf c, atau huruf d diajukan kepada peradilan umum.",
-  "(3)",
-  "Ketentuan lebih lanjut mengenai kerugian materi yang besar dan/atau korban yang tidak sedikit sebagaimana dimaksud pada ayat (1) huruf d diatur dengan Peraturan Pemerintah.",
-  "Bagian Kedua",
-  "Penyelesaian Sengketa di luar Pengadilan",
-  "Pasal 47",
-  "Penyelesaian sengketa konsumen di luar pengadilan diselenggarakan untuk mencapai kesepakatan  mengenai bentuk dan besarnya ganti rugi dan/atau mengenai tindakan tertentu untuk menjamin tidak akan  terjadi kembali atau tidak akan terulang kembali kerugian yang diderita oleh konsumen.",
-  "Bagian Ketiga",
-  "Penyelesaian Sengketa Melalui Pengadilan",
-  "Pasal 48",
-  "Penyelesaian sengketa konsumen melalui pengadilan mengacu pada ketentuan tentang peradilan umum  yang berlaku dengan memperhatikan ketentuan dalam Pasal 45.",
-  "BAB XI",
-  "BADAN PENYELESAIAN SENGKETA KONSUMEN",
-  "Pasal 49",
-  "(1)",
-  "Pemerintah membentuk badan penyelesaian sengketa konsumen di Daerah Tingkat II untuk penyelesaian sengketa konsumen di luar pengadilan.",
-  "(2)",
-  "Untuk dapat diangkat menjadi anggota badan penyelesaian sengketa konsumen, seseorang harus memenuhi syarat sebagai berikut:",
-  "a.",
-  "warga negara Republik Indonesia;",
-  "b.",
-  "berbadan sehat;",
-  "c.",
-  "berkelakuan baik;",
-  "d.",
-  "tidak pernah dihukum karena kejahatan;",
-  "e.",
-  "memiliki pengetahuan dan pengalaman di bidang perlindungan konsumen;",
-  "f.",
-  "berusia sekurang-kurangnya 30 (tiga puluh) tahun.",
-  "(3)",
-  "Anggota sebagaimana dimaksud pada ayat (2) terdiri atas unsur pemerintah, unsur konsumen, dan unsur pelaku usaha.",
-  "(4)",
-  "Anggota setiap unsur sebagaimana dimaksud pada ayat (3) berjumlah sedikit-dikitnya 3 (tiga) orang, dan sebanyak-banyaknya 5 (lima) orang.",
-  "(5)",
-  "Pengangkatan dan pemberhentian anggota badan penyelesaian sengketa konsumen ditetapkan oleh Menteri.",
-  "Pasal 50",
-  "Badan penyelesaian sengketa konsumen sebagaimana dimaksud dalam Pasal 49 ayat (1) terdiri atas:",
-  "a.",
-  "ketua merangkap anggota;",
-  "b.",
-  "wakil ketua merangkap anggota;",
-  "c.",
-  "anggota.",
-  "Pasal 51",
-  "(1)",
-  "Badan penyelesaian sengketa konsumen dalam menjalankan tugasnya dibantu oleh sekretariat.",
-  "(2)",
-  "Sekretariat badan penyelesaian sengketa konsumen terdiri atas kepala sekretariat dan anggota sekretariat.",
-  "(3)",
-  "Pengangkatan dan pemberhentian kepala sekretariat dan anggota sekretariat badan penyelesaian sengketa konsumen ditetapkan oleh Menteri.",
-  "Pasal 52",
-  "Tugas dan wewenang badan penyelesaian sengketa konsumen meliputi:",
-  "a.",
-  "melaksanakan penanganan dan penyelesaian sengketa konsumen, dengan cara melalui mediasi atau arbitrase atau konsiliasi;",
-  "b.",
-  "memberikan konsultasi perlindungan konsumen;",
-  "c.",
-  "melakukan pengawasan terhadap pencantuman klausula baku;",
-  "d.",
-  "melaporkan kepada penyidik umum apabila terjadi pelanggaran ketentuan dalam Undang-undang ini;",
-  "e.",
-  "menerima pengaduan baik tertulis maupun tidak tertulis, dari konsumen tentang terjadinya pelanggaran terhadap perlindungan konsumen;",
-  "f.",
-  "melakukan penelitian dan pemeriksaan sengketa perlindungan konsumen;",
-  "g.",
-  "memanggil pelaku usaha yang diduga telah melakukan pelanggaran terhadap perlindungan konsumen;",
-  "h.",
-  "memanggil dan menghadirkan saksi, saksi ahli dan/atau setiap orang yang dianggap mengetahui pelanggaran terhadap Undang-undang ini;",
-  "i.",
-  "meminta bantuan penyidik untuk menghadirkan pelaku usaha, saksi, saksi ahli, atau setiap orang sebagaimana dimaksud pada huruf g dan huruf h, yang tidak bersedia memenuhi panggilan badan penyelesaian sengketa konsumen;",
-  "j.",
-  "mendapatkan, meneliti dan/atau menilai surat, dokumen, atau alat bukti lain guna penyelidikan dan/atau pemeriksaan;",
-  "k.",
-  "memutuskan dan menetapkan ada atau tidak adanya kerugian di pihak konsumen;",
-  "l.",
-  "memberitahukan putusan kepada pelaku usaha yang melakukan pelanggaran terhadap perlindungan konsumen;",
-  "m.",
-  "menjatuhkan sanksi administratif kepada pelaku usaha yang melanggar ketentuan Undang-undang ini.",
-  "Pasal 53",
-  "Ketentuan lebih lanjut mengenai pelaksanaan tugas dan wewenang badan penyelesaian sengketa  konsumen Daerah Tingkat II diatur dalam surat keputusan menteri.",
-  "Pasal 54",
-  "(1)",
-  "Untuk menangani dan menyelesaikan sengketa konsumen, badan penyelesaian sengketa konsumen membentuk majelis.",
-  "(2)",
-  "Jumlah anggota majelis sebagaimana dimaksud pada ayat (1) harus ganjil dan sedikit-sedikitnya 3 (tiga) orang yang mewakili semua unsur sebagaimana dimaksud dalam Pasal 49 ayat (3), serta dibantu oleh seorang panitera.",
-  "(3)",
-  "Putusan majelis bersifat final dan mengikat.",
-  "(4)",
-  "Ketentuan teknis lebih lanjut mengenai pelaksanaan tugas majelis diatur dalam surat keputusan menteri.",
-  "Pasal 55",
-  "Badan penyelesaian sengketa konsumen wajib mengeluarkan putusan paling lambat dalam waktu 21 (dua  puluh satu) hari kerja setelah gugatan diterima.",
-  "Pasal 56",
-  "(1)",
-  "Dalam waktu paling lambat 7 (tujuh) hari kerja sejak menerima putusan badan penyelesaian sengketa konsumen sebagaimana dimaksud dalam Pasal 55 pelaku usaha wajib melaksanakan putusan tersebut.",
-  "(2)",
-  "Para pihak dapat mengajukan keberatan kepada Pengadilan Negeri paling lambat 4 (empat belas) hari kerja setelah menerima pemberitahuan putusan tersebut.",
-  "(3)",
-  "Pelaku usaha yang tidak mengajukan keberatan dalam jangka waktu sebagaimana dimaksud pada ayat (2) dianggap menerima putusan badan penyelesaian sengketa konsumen.",
-  "(4)",
-  "Apabila ketentuan sebagaimana dimaksud pada ayat (1) dan ayat (3) tidak dijalankan oleh pelaku usaha, badan penyelesaian sengketa konsumen menyerahkan putusan tersebut kepada penyidik untuk melakukan penyidikan sesuai dengan ketentuan perundang-undangan yang berlaku.",
-  "(5)",
-  "Putusan badan penyelesaian sengketa konsumen sebagaimana dimaksud pada ayat (3) merupakan bukti permulaan yang cukup bagi penyidik untuk melakukan penyidikan.",
-  "Pasal 57",
-  "Putusan majelis sebagaimana dimaksud dalam Pasal 54 ayat (3) dimintakan penetapan eksekusinya kepada Pengadilan Negeri di tempat konsumen yang dirugikan.",
-  "Pasal 58",
-  "(1)",
-  "Pengadilan Negeri wajib mengeluarkan putusan atas keberatan sebagaimana dimaksud dalam Pasal 56 ayat (2) dalam waktu paling lambat 21 (dua puluh satu) hari sejak diterimanya keberatan.",
-  "(2)",
-  "Terhadap putusan Pengadilan Negeri sebagaimana dimaksud pada ayat (1), para pihak dalam waktu paling lambat 14 (empat belas) hari dapat mengajukan kasasi ke Mahkamah Agung Republik Indonesia.",
-  "(3)",
-  "Mahkamah Agung Republik Indonesia wajib mengeluarkan putusan dalam waktu paling lambat 30 (tiga puluh) hari sejak menerima permohonan kasasi.",
-  "BAB XII",
-  "PENYIDIKAN",
-  "Pasal 59",
-  "(1)",
-  "Selain Pejabat Polisi Negara Republik Indonesia, Pejabat Pegawai Negeri Sipil tertentu di lingkungan instansi pemerintah yang lingkup tugas dan tanggung jawabnya di bidang perlindungan konsumen juga diberi wewenang khusus sebagai penyidik sebagaimana dimaksud dalam Undang-undang  Hukum Acara Pidana yang berlaku.",
-  "(2)",
-  "Penyidik Pejabat Pegawai Negeri Sipil sebagaimana dimaksud pada ayat (1) berwenang:",
-  "a.",
-  "melakukan pemeriksaan atas kebenaran laporan atau keterangan berkenaan dengan tindak pidana di bidang perlindungan konsumen;",
-  "b.",
-  "melakukan pemeriksaan terhadap orang lain atau badan hukum yang diduga melakukan tindak pidana di bidang perlindungan konsumen;",
-  "c.",
-  "meminta keterangan dan bahan bukti dari orang atau badan hukum sehubungan dengan peristiwa tindak pidana di bidang perlindungan konsumen;",
-  "d.",
-  "melakukan pemeriksaan atas pembukuan, catatan, dan dokumen lain berkenaan dengan tindak pidana di bidang perlindungan konsumen;",
-  "e.",
-  "melakukan pemeriksaan di tempat tertentu yang diduga terdapat bahan bukti serta melakukan penyitaan terhadap barang hasil pelanggaran yang dapat dijadikan bukti dalam perkara tindak pidana di bidang perlindungan konsumen.",
-  "f.",
-  "Meminta bantuan ahli dalam rangka pelaksanaan tugas penyidikan tindak pidana di bidang perlindungan konsumen.",
-  "(3)",
-  "Penyidik Pejabat Pegawai Negeri Sipil sebagaimana dimaksud pada ayat (1) memberitahukan dimulainya penyidikan dan hasil penyidikannya kepada Penyidik Pejabat Polisi Negara Republik Indonesia.",
-  "(4)",
-  "Penyidik Pejabat Pegawai Negeri Sipil sebagaimana dimaksud pada ayat (1) menyampaikan hasil penyidikan kepada Penuntut Umum melalui Penyidik Pejabat Polisi Negara Republik Indonesia.",
-  "BAB XIII",
-  "SANKSI",
-  "Bagian Pertama",
-  "Sanksi Administratif",
-  "Pasal 60",
-  "(1)",
-  "Badan penyelesaian sengketa konsumen berwenang menjatuhkan sanksi administratif terhadap pelaku usaha yang melanggar Pasal 19 ayat (2) dan ayat (3), Pasal 20, Pasal 25 dan Pasal 26.",
-  "(2)",
-  "Sanksi administratif berupa penetapan ganti rugi paling banyak Rp 200.000.000,00 (dua ratus juta rupiah).",
-  "(3)",
-  "Tata cara penetapan sanksi administratif sebagaimana dimaksud pada ayat (1) diatur lebih lanjut dalam peraturan perundang-undangan.",
-  "Bagian Kedua",
-  "Sanksi Pidana",
-  "Pasal 61",
-  "Penuntutan pidana dapat dilakukan terhadap pelaku usaha dan/atau pengurusnya.",
-  "Pasal 62",
-  "(1)",
-  "Pelaku usaha yang melanggar ketentuan sebagaimana dimaksud dalam Pasal 8, Pasal 9, Pasal 10, Pasal 13 ayat (2), Pasal 15, Pasal 17 ayat (1) huruf a, huruf b, huruf c, huruf e, ayat (2) dan Pasal 18 dipidana dengan pidana penjara paling lama 5 (lima) tahun atau pidana denda paling banyak Rp 2.000.000.000,00 (dua miliar rupiah).",
-  "(2)",
-  "Pelaku usaha yang melanggar ketentuan sebagaimana dimaksud dalam Pasal 11, Pasal 12, Pasal 13 ayat (1), Pasal 14, Pasal 16, dan Pasal 17 ayat (1) huruf d dan huruf f dipidana dengan pidana penjara paling lama 2 (dua) tahun atau pidana denda paling banyak Rp 500.000.000,00 (lima ratus juta rupiah).",
-  "(3)",
-  "Terhadap pelanggaran yang mengakibatkan luka berat, sakit berat, cacat tetap atau kematian diberlakukan ketentuan pidana yang berlaku.",
-  "Pasal 63",
-  "Terhadap sanksi pidana sebagaimana dimaksud dalam Pasal 62, dapat dijatuhkan hukuman tambahan,  berupa:",
-  "a.",
-  "perampasan barang tertentu;",
-  "b.",
-  "pengumuman keputusan hakim;",
-  "c.",
-  "pembayaran ganti rugi;",
-  "d.",
-  "perintah penghentian kegiatan tertentu yang menyebabkan timbulnya kerugian konsumen;",
-  "e.",
-  "kewajiban penarikan barang dari peredaran;atau",
-  "f.",
-  "pencabutan izin usaha.",
-  "BAB XIV",
-  "KETENTUAN PERALIHAN",
-  "Pasal 64",
-  "Segala ketentuan peraturan perundang-undangan yang bertujuan melindungi konsumen yang telah ada  pada saat Undang-undang ini diundangkan, dinyatakan tetap berlaku sepanjang tidak diatur secara khusus  dan/atau tidak bertentangan dengan ketentuan dalam Undang-undang ini.",
-  "BAB XV",
-  "KETENTUAN PENUTUP",
-  "Pasal 65",
-  "Undang-undang ini mulai berlaku setelah 1 (satu) tahun sejak diundangkan.",
-  "Agar setiap orang mengetahuinya, memerintahkan pengundangan Undang-undang ini dengan  penempatannya dalam Lembaran Negara Republik Indonesia.",
-  "Disahkan Di Jakarta,",
-  "Pada Tanggal 20 April 1999",
-  "PRESIDEN REPUBLIK INDONESIA,",
-  "Ttd.",
-  "BACHARUDDIN JUSUF HABIBIE",
-  "Diundangkan Di Jakarta,",
-  "Pada Tanggal 20 April 1999",
-  "MENTERI NEGARA/SEKRETARIS NEGARA REPUBLIK INDONESIA,",
-  "Ttd.",
-  "AKBAR TANDJUNG",
-  "LEMBARAN NEGARA REPUBLIK INDONESIA TAHUN 1999 NOMOR 42",
-  "PENJELASAN",
-  "UNDANG-UNDANG REPUBLIK INDONESIA",
-  "NOMOR 8 TAHUN 1999",
-  "TENTANG",
-  "PERLINDUNGAN KONSUMEN",
-  "I. UMUM",
-  "Pembangunan dan perkembangan perekonomian umumnya dan khususnya di bidang perindustrian  dan perdagangan nasional telah menghasilkan berbagai variasi barang dan/atau jasa yang dapat  dikonsumsi. Di samping itu, globalisasi dan perdagangan bebas yang didukung oleh kemajuan  teknologi telekomunikasi dan informatika telah memperluas ruang gerak arus transaksi barang  dan/atau jasa melintasi batas-batas wilayah suatu negara, sehingga barang dan/atau jasa yang  ditawarkan bervariasi baik produksi luar negeri maupun produksi dalam negeri.",
-  "Kondisi yang demikian pada satu pihak mempunyai manfaat bagi konsumen karena kebutuhan  konsumen akan barang dan/atau jasa yang diinginkan dapat terpenuhi serta semakin terbuka lebar  kebebasan untuk memilih aneka jenis kualitas barang dan/atau jasa sesuai dengan keinginan dan  kemampuan konsumen.",
-  "Di sisi lain, kondisi dan fenomena tersebut di atas dapat mengakibatkan kedudukan pelaku usaha dan konsumen menjadi tidak seimbang dan konsumen berada pada posisi yang lemah. Konsumen  menjadi objek aktivitas bisnis untuk meraup keuntungan yang sebesar-besarnya oleh pelaku usaha  melalui kiat promosi, cara penjualan, serta penerapan perjanjian standar yang merugikan konsumen.",
-  "Faktor utama yang menjadi kelemahan konsumen adalah tingkat kesadaran konsumen akan haknya  masih rendah. Hal ini terutama disebabkan oleh rendahnya pendidikan konsumen. Oleh karena itu,  Undang-undang Perlindungan Konsumen dimaksudkan menjadi landasan hukum yang kuat bagi  pemerintah dan lembaga perlindungan konsumen swadaya masyarakat untuk melakukan upaya  pemberdayaan konsumen melalui pembinaan dan pendidikan konsumen.",
-  "Upaya pemberdayaan ini penting karena tidak mudah mengharapkan kesadaran pelaku usaha yang  pada dasarnya prinsip ekonomi pelaku usaha adalah mendapat keuntungan yang semaksimal  mungkin dengan modal seminimal mungkin. Prinsip ini sangat potensial merugikan kepentingan  konsumen, baik secara langsung maupun tidak langsung.",
-  "Atas dasar kondisi sebagaimana dipaparkan di atas, perlu upaya pemberdayaan konsumen melalui  pembentukan undang-undang yang dapat melindungi kepentingan konsumen secara integratif dan  komprehensif serta dapat diterapkan secara efektif di masyarakat.",
-  "Piranti hukum yang melindungi konsumen tidak dimaksudkan untuk mematikan usaha para pelaku  usaha, tetapi justru sebaliknya perlindungan konsumen dapat mendorong iklim berusaha yang sehat  yang mendorong lahirnya perusahaan yang tangguh dalam menghadapi persaingan melalui  penyediaan barang dan/atau jasa yang berkualitas.",
-  "Disamping itu, Undang-undang tentang Perlindungan Konsumen ini dalam pelaksanaannya tetap  memberikan perhatian khusus kepada pelaku usaha kecil dan menengah. Hal itu dilakukan melalui  upaya pembinaan dan penerapan sanksi atas pelanggarannya.",
-  "Undang-undang tentang Perlindungan Konsumen ini dirumuskan dengan mengacu pada filosofi  pembangunan nasional bahwa pembangunan nasional termasuk pembangunan hukum yang  memberikan perlindungan terhadap konsumen adalah dalam rangka membangun manusia Indonesia  seutuhnya yang berlandaskan pada falsafah kenegaraan Republik Indonesia yaitu dasar negara  Pancasila dan konstitusi negara Undang-Undang Dasar 1945.",
-  "Disamping itu, Undang-undang tentang Perlindungan Konsumen pada dasarnya bukan merupakan  awal dan akhir dari hukum yang mengatur tentang perlindungan konsumen, sebab sampai pada  terbentuknya Undang-undang tentang Perlindungan Konsumen ini telah ada beberapa undang undang yang materinya melindungi kepentingan konsumen, seperti:",
-  "a.",
-  "Undang-undang Nomor 10 Tahun 1961 tentang Penetapan Peraturan Pemerintah Pengganti Undang-undang Nomor 1 Tahun 1961 tentang Barang, menjadi Undang-undang;",
-  "b.",
-  "Undang-undang Nomor 2 Tahun 1966 tentang Hygiene;",
-  "c.",
-  "Undang-undang Nomor 5 Tahun 1974 tentang Pokok-pokok Pemerintahan di Daerah;",
-  "d.",
-  "Undang-undang Nomor 2 Tahun 1981 tentang Metrologi Legal;",
-  "e.",
-  "Undang-undang Nomor 3 Tahun 1982 tentang Wajib Daftar Perusahaan;",
-  "f.",
-  "Undang-undang Nomor 5 Tahun 1984 tentang Perindustrian;",
-  "g.",
-  "Undang-undang Nomor 15 Tahun 1985 tentang Ketenagalistrikan;",
-  "h.",
-  "Undang-undang Nomor 1 Tahun 1987 tentang Kamar Dagang dan Industri;",
-  "i.",
-  "Undang-undang Nomor 23 Tahun 1992 tentang Kesehatan;",
-  "j.",
-  "Undang-undang Nomor 7 Tahun 1994 tentang Agreement Establishing The World Trade Organization (Persetujuan Pembentukan Organisasi Perdagangan Dunia);",
-  "k.",
-  "Undang-undang Nomor 1 Tahun 1995 tentang Perseroan Terbatas;",
-  "l.",
-  "Undang-undang Nomor 9 Tahun 1995 tentang Usaha Kecil;",
-  "m.",
-  "Undang-undang Nomor 7 Tahun 1996 tentang Pangan;",
-  "n.",
-  "Undang-undang Nomor 12 Tahun 1997 tentang perubahan Atas Undang-undang Hak Cipta sebagaimana telah diubah dengan Undang-undang Nomor 7 Tahun 1987;",
-  "o.",
-  "Undang-undang Nomor 13 Tahun 1997 tentang Perubahan Atas Undang-undang Nomor 6 Tahun 1989 Tentang Paten;",
-  "p.",
-  "Undang-undang Nomor 14 Tahun 1997 tentang Perubahan Atas Undang-undang Nomor 19 Tahun 1989 tentang Merek;",
-  "q.",
-  "Undang-undang Nomor 23 Tahun 1997 tentang Pengelolaan Lingkungan Hidup;",
-  "r.",
-  "Undang-undang Nomor 24 Tahun 1997 tentang Penyiaran;",
-  "s.",
-  "Undang-undang Nomor 25 Tahun 1997 tentang Ketenagakerjaan;",
-  "t.",
-  "Undang-undang Nomor 10 Tahun 1998 tentang Perubahan Atas Undang-undang Nomor 7 Tahun 1992 tentang Perbankan.",
-  "Perlindungan konsumen dalam hal pelaku usaha melanggar hak atas kekayaan intelektual (HAKI)  tidak diatur dalam Undang-undang tentang Perlindungan Konsumen ini karena sudah diatur dalam  Undang-undang Nomor 12 Tahun 1997 tentang Hak Cipta, Undang-undang Nomor 13 Tahun 97  tentang Paten, dan Undang-undang Nomor 14 Tahun 1997 tentang Merek, yang melarang  menghasilkan atau memperdagangkan barang dan/atau jasa yang melanggar ketentuan tentang  HAKI.",
-  "Demikian juga perlindungan konsumen di bidang lingkungan hidup tidak diatur dalam Undang-undang  tentang Perlindungan Konsumen ini karena telah diatur dalam Undang-undang Nomor 23 Tahun 1997  tentang Pengelolaan Lingkungan Hidup mengenai kewajiban setiap orang untuk memelihara  kelestarian fungsi lingkungan hidup serta mencegah dan menanggulangi pencemaran dan perusakan  lingkungan hidup.",
-  "Di kemudian hari masih terbuka kemungkinan terbentuknya undang-undang baru yang pada dasarnya memuat ketentuan-ketentuan yang melindungi konsumen. Dengan demikian, Undang-undang tentang Perlindungan Konsumen ini merupakan payung yang mengintegrasikan dan memperkuat penegakan  hukum di bidang perlindungan konsumen.",
-  "II. PASAL DEMI PASAL",
-  "Pasal 1",
-  "Angka 1",
-  "Cukup jelas.",
-  "Angka 2",
-  "Di dalam kepustakaan ekonomi dikenal istilah konsumen akhir dan konsumen antara. Konsumen akhir adalah pengguna atau pemanfaat akhir dari suatu produk, sedangkan konsumen antara adalah  konsumen yang menggunakan suatu produk sebagai bagian dari proses produksi suatu produk  lainnya. Pengertian konsumen dalam Undang-undang ini adalah konsumen akhir.",
-  "Angka 3",
-  "Pelaku usaha yang termasuk dalam pengertian ini adalah perusahaan korporasi, BUMN, koperasi,  importir, pedagang, distributor, dan lain-lain.",
-  "Angka 4",
-  "Cukup jelas.",
-  "Angka 5",
-  "Cukup jelas.",
-  "Angka 6",
-  "Cukup jelas.",
-  "Angka 7",
-  "Cukup jelas.",
-  "Angka 8",
-  "Cukup jelas.",
-  "Angka 9",
-  "Lembaga ini dibentuk untuk meningkatkan partisipasi masyarakat dalam upaya perlindungan  konsumen serta menunjukkan bahwa perlindungan konsumen menjadi tanggung jawab bersama  antara pemerintah dan masyarakat.",
-  "Angka 10",
-  "Cukup jelas.",
-  "Angka 11",
-  "Badan ini dibentuk untuk menangani penyelesaian sengketa konsumen yang efisien, cepat, murah  dan profesional.",
-  "Angka 12",
-  "Cukup jelas.",
-  "Angka 13",
-  "Cukup jelas.",
-  "Pasal 2",
-  "Perlindungan konsumen diselenggarakan sebagai usaha bersama berdasarkan 5 (lima) asas yang relevan  dalam pembangunan nasional yaitu:",
-  "1.",
-  "Asas manfaat dimaksudkan untuk mengamanatkan bahwa segala upaya dalam penyelenggaraan perlindungan konsumen harus memberikan manfaat sebesar-besarnya bagi kepentingan konsumen dan pelaku usaha secara keseluruhan.",
-  "2.",
-  "Asas keadilan dimaksudkan agar partisipasi seluruh rakyat dapat diwujudkan secara maksimal dan memberikan kesempatan kepada konsumen dan pelaku usaha untuk memperoleh haknya dan melaksanakan kewajibannya secara adil.",
-  "3.",
-  "Asas keseimbangan dimaksudkan untuk memberikan keseimbangan antara kepentingan konsumen, pelaku usaha dan pemerintah dalam arti materiil ataupun spiritual.",
-  "4.",
-  "Asas keamanan dan keselamatan konsumen dimaksudkan untuk memberikan jaminan atas keamanan dan keselamatan kepada konsumen dalam penggunaan, pemakaian dan pemanfaatan barang dan/atau jasa yang dikonsumsi atau digunakan.",
-  "5.",
-  "Asas kepastian hukum dimaksudkan agar baik pelaku usaha maupun konsumen menaati hukum dan memperoleh keadilan dalam penyelenggaraan perlindungan konsumen, serta negara menjamin kepastian hukum.",
-  "Pasal 3",
-  "Cukup jelas.",
-  "Pasal 4",
-  "Huruf a",
-  "Cukup jelas.",
-  "Huruf b",
-  "Cukup jelas.",
-  "Huruf c",
-  "Cukup jelas.",
-  "Huruf d",
-  "Cukup jelas.",
-  "Huruf e",
-  "Cukup jelas.",
-  "Huruf f",
-  "Cukup jelas.",
-  "Huruf g",
-  "Hak untuk diperlakukan atau dilayani secara benar dan jujur serta tidak diskriminatif berdasarkan  suku, agama, budaya, daerah, pendidikan, kaya, miskin dan status sosial lainnya.",
-  "Huruf h",
-  "Cukup jelas.",
-  "Huruf i",
-  "Cukup jelas.",
-  "Pasal 5",
-  "Cukup jelas.",
-  "Pasal 6",
-  "Cukup jelas.",
-  "Pasal 7",
-  "Huruf a",
-  "Cukup jelas.",
-  "Huruf b",
-  "Cukup jelas.",
-  "Huruf c",
-  "Pelaku usaha dilarang membeda-bedakan konsumen dalam memberikan pelayanan. Pelaku usaha  dilarang membeda-bedakan mutu pelayanan kepada konsumen.",
-  "Huruf d",
-  "Cukup jelas.",
-  "Huruf e",
-  "Yang dimaksud dengan barang dan/atau jasa tertentu adalah barang yang dapat diuji atau dicoba  tanpa mengakibatkan kerusakan atau kerugian.",
-  "Huruf f",
-  "Cukup jelas.",
-  "Huruf g",
-  "Cukup jelas.",
-  "Pasal 8",
-  "Ayat (1)",
-  "Huruf a",
-  "Cukup jelas.",
-  "Huruf b",
-  "Cukup jelas.",
-  "Huruf c",
-  "Cukup jelas.",
-  "Huruf d",
-  "Cukup jelas.",
-  "Huruf e",
-  "Cukup jelas.",
-  "Huruf f",
-  "Cukup jelas.",
-  "Huruf g",
-  "Jangka waktu penggunaan/pemanfaatannya yang paling baik adalah terjemahan dari kata best  before yang biasa digunakan dalam label produk makanan.",
-  "Huruf h",
-  "Cukup jelas.",
-  "Huruf i",
-  "Cukup jelas.",
-  "Huruf j",
-  "Cukup jelas.",
-  "Ayat (2)",
-  "Barang-barang yang dimaksud adalah barang-barang yang tidak membahayakan konsumen dan  sesuai dengan ketentuan peraturan perundang-undangan yang berlaku.",
-  "Ayat (3)",
-  "Sediaan farmasi dan pangan yang dimaksud adalah yang membahayakan konsumen menurut  peraturan perundang-undangan yang berlaku.",
-  "Ayat (4)",
-  "Menteri dan menteri teknis berwenang menarik barang dan/atau jasa dari peredaran.",
-  "Pasal 9",
-  "Ayat (1)",
-  "Cukup jelas.",
-  "Ayat (2)",
-  "Cukup jelas.",
-  "Ayat (3)",
-  "Cukup jelas.",
-  "Pasal 10",
-  "Cukup jelas.",
-  "Pasal 11",
-  "Huruf a",
-  "Cukup jelas.",
-  "Huruf b",
-  "Cukup jelas.",
-  "Huruf c",
-  "Cukup jelas.",
-  "Huruf d",
-  "Yang dimaksud dengan jumlah tertentu dan jumlah yang cukup adalah jumlah yang memadai sesuai  dengan antisipasi permintaan konsumen.",
-  "Huruf e",
-  "Cukup jelas.",
-  "Huruf f",
-  "Cukup jelas.",
-  "Pasal 12",
-  "Cukup jelas.",
-  "Pasal 13",
-  "Ayat (1)",
-  "Cukup jelas.",
-  "Ayat (2)",
-  "Cukup jelas.",
-  "Pasal 14",
-  "Cukup jelas.",
-  "Pasal 15",
-  "Cukup jelas.",
-  "Pasal 16",
-  "Cukup jelas.",
-  "Pasal 17",
-  "Ayat (1)",
-  "Cukup jelas.",
-  "Ayat (2)",
-  "Cukup jelas.",
-  "Pasal 18",
-  "Ayat (1)",
-  "Huruf a",
-  "Cukup jelas.",
-  "Huruf b",
-  "Cukup jelas.",
-  "Huruf c",
-  "Cukup jelas.",
-  "Huruf d",
-  "Cukup jelas.",
-  "Huruf e",
-  "Cukup jelas.",
-  "Huruf f",
-  "Cukup jelas.",
-  "Huruf g",
-  "Cukup jelas.",
-  "Huruf h",
-  "Cukup jelas.",
-  "Ayat (2)",
-  "Cukup jelas.",
-  "Ayat (3)",
-  "Cukup jelas.",
-  "Ayat (4)",
-  "Cukup jelas.",
-  "Pasal 19",
-  "Ayat (1)",
-  "Cukup jelas.",
-  "Ayat (2)",
-  "Cukup jelas.",
-  "Ayat (3)",
-  "Cukup jelas.",
-  "Ayat (4)",
-  "Cukup jelas.",
-  "Ayat (5)",
-  "Cukup jelas.",
-  "Pasal 20",
-  "Cukup jelas.",
-  "Pasal 21",
-  "Ayat (1)",
-  "Cukup jelas.",
-  "Ayat (2)",
-  "Cukup jelas.",
-  "Pasal 22",
-  "Ketentuan ini dimaksudkan untuk menerapkan sistem beban pembuktian terbalik. Pasal 23",
-  "Cukup jelas.",
-  "Pasal 24",
-  "Ayat (1)",
-  "Cukup jelas.",
-  "Ayat (2)",
-  "Cukup jelas.",
-  "Pasal 25",
-  "Ayat (1)",
-  "Cukup jelas.",
-  "Ayat (2)",
-  "Cukup jelas.",
-  "Pasal 26",
-  "Cukup jelas.",
-  "Pasal 27",
-  "Huruf a",
-  "Cukup jelas.",
-  "Huruf b",
-  "Cacat timbul di kemudian hari adalah sesudah tanggal yang mendapat jaminan dari pelaku usaha  sebagaimana diperjanjikan, baik tertulis maupun lisan.",
-  "Huruf c",
-  "Yang dimaksud dengan kualifikasi barang adalah ketentuan standarisasi yang telah ditetapkan  pemerintah berdasarkan kesepakatan semua pihak.",
-  "Huruf d",
-  "Cukup jelas.",
-  "Huruf e",
-  "Jangka waktu yang diperjanjikan itu adalah masa garansi.",
-  "Pasal 28",
-  "Cukup jelas.",
-  "Pasal 29",
-  "Ayat (1)",
-  "Cukup jelas.",
-  "Ayat (2)",
-  "Cukup jelas.",
-  "Ayat (3)",
-  "Cukup jelas.",
-  "Ayat (4)",
-  "Cukup jelas.",
-  "Ayat (5)",
-  "Cukup jelas.",
-  "Pasal 30",
-  "Ayat (1)",
-  "Cukup jelas.",
-  "Ayat (2)",
-  "Yang dimaksud dengan menteri teknis adalah menteri yang bertanggung jawab secara teknis menurut bidang tugasnya.",
-  "Ayat (3)",
-  "Pengawasan yang dilakukan oleh masyarakat dan lembaga perlindungan konsumen swadaya  masyarakat dilakukan atas barang dan/atau jasa yang beredar di pasar dengan cara penelitian,  pengujian dan/atau survei.",
-  "Aspek pengawasan meliputi pemuatan informasi tentang risiko penggunaan barang jika diharuskan,  pemasangan label, pengiklanan, dan lain-lain yang disyaratkan berdasarkan ketentuan peraturan  perundang-undangan dan kebiasaan dalam praktik dunia usaha.",
-  "Ayat (4)",
-  "Cukup jelas.",
-  "Ayat (5)",
-  "Cukup jelas.",
-  "Ayat (6)",
-  "Cukup jelas.",
-  "Pasal 31",
-  "Cukup jelas.",
-  "Pasal 32",
-  "Cukup jelas.",
-  "Pasal 33",
-  "Cukup jelas.",
-  "Pasal 34",
-  "Ayat (1)",
-  "Huruf a",
-  "Cukup jelas.",
-  "Huruf b",
-  "Cukup jelas.",
-  "Huruf c",
-  "Cukup jelas.",
-  "Huruf d",
-  "Cukup jelas.",
-  "Huruf e",
-  "Keberpihakan kepada konsumen dimaksudkan untuk meningkatkan sikap peduli yang tinggi  terhadap konsumen (wise consumerism).",
-  "Huruf f",
-  "Cukup jelas.",
-  "Huruf g",
-  "Cukup jelas.",
-  "Ayat (2)",
-  "Cukup jelas.",
-  "Pasal 35",
-  "Ayat (1)",
-  "Jumlah wakil setiap unsur tidak harus sama.",
-  "Ayat (2)",
-  "Cukup jelas.",
-  "Ayat (3)",
-  "Cukup jelas.",
-  "Ayat (4)",
-  "Cukup jelas.",
-  "Pasal 36",
-  "Huruf a",
-  "Cukup jelas.",
-  "Huruf b",
-  "Cukup jelas.",
-  "Huruf c",
-  "Cukup jelas.",
-  "Huruf d",
-  "Akademisi adalah mereka yang berpendidikan tinggi dan anggota perguruan tinggi.",
-  "Huruf e",
-  "Tenaga ahli adalah mereka yang berpengalaman di bidang perlindungan konsumen.",
-  "Pasal 37",
-  "Cukup jelas.",
-  "Pasal 38",
-  "Huruf a",
-  "Cukup jelas.",
-  "Huruf b",
-  "Cukup jelas.",
-  "Huruf c",
-  "Cukup jelas.",
-  "Huruf d",
-  "Sakit secara terus menerus sehingga tidak mampu melaksanakan tugasnya.",
-  "Huruf e",
-  "Cukup jelas.",
-  "Huruf f",
-  "Cukup jelas.",
-  "Pasal 39",
-  "Ayat (1)",
-  "Cukup jelas.",
-  "Ayat (2)",
-  "Cukup jelas.",
-  "Ayat (3)",
-  "Cukup jelas.",
-  "Pasal 40",
-  "Ayat (1)",
-  "Cukup jelas.",
-  "Ayat (2)",
-  "Yang dimaksud dengan keputusan Ketua Badan Perlindungan Konsumen Nasional adalah keputusan  yang ditetapkan berdasarkan musyawarah anggota.",
-  "Pasal 41",
-  "Yang dimaksud dengan keputusan Ketua Badan Perlindungan Konsumen Nasional adalah keputusan yang  ditetapkan berdasarkan musyawarah anggota.",
-  "Pasal 42",
-  "Cukup jelas.",
-  "Pasal 43",
-  "Cukup jelas.",
-  "Pasal 44",
-  "Ayat (1)",
-  "Yang dimaksud dengan memenuhi syarat, antara lain, terdaftar dan diakui serta bergerak di bidang  perlindungan konsumen.",
-  "Ayat (2)",
-  "Cukup jelas.",
-  "Ayat (3)",
-  "Cukup jelas.",
-  "Ayat (4)",
-  "Cukup jelas.",
-  "Pasal 45",
-  "Ayat (1)",
-  "Cukup jelas.",
-  "Ayat (2)",
-  "Penyelesaian sengketa konsumen sebagaimana dimaksud pada ayat ini tidak menutup kemungkinan  penyelesaian damai oleh para pihak yang bersengketa. Pada setiap tahap diusahakan untuk  menggunakan penyelesaian damai oleh kedua belah pihak yang bersengketa.",
-  "Yang dimaksud dengan penyelesaian secara damai adalah penyelesaian yang dilakukan oleh kedua  belah pihak yang bersengketa (pelaku usaha dan konsumen) tanpa melalui pengadilan atau badan  penyelesaian sengketa konsumen dan tidak bertentangan dengan Undang-undang ini.",
-  "Ayat (3)",
-  "Cukup jelas.",
-  "Ayat (4)",
-  "Cukup jelas.",
-  "Pasal 46",
-  "Ayat (1)",
-  "Huruf a",
-  "Cukup jelas.",
-  "Huruf b",
-  "Undang-undang ini mengakui gugatan kelompok atau class action. Gugatan kelompok atau  class action harus diajukan oleh konsumen yang benar-benar dirugikan dan dapat dibuktikan  secara hukum, salah satu diantaranya adalah adanya bukti transaksi.",
-  "Huruf c",
-  "Cukup jelas.",
-  "Huruf d",
-  "Tolok ukur kerugian materi yang besar dan/atau korban yang tidak sedikit yang dipakai adalah  besar dampaknya terhadap konsumen.",
-  "Ayat (2)",
-  "Cukup jelas.",
-  "Ayat (3)",
-  "Cukup jelas.",
-  "Pasal 47",
-  "Bentuk jaminan yang dimaksud dalam hal ini berupa pernyataan tertulis yang menerangkan bahwa tidak  akan terulang kembali perbuatan yang telah merugikan konsumen tersebut.",
-  "Pasal 48",
-  "Cukup jelas.",
-  "Pasal 49",
-  "Ayat (1)",
-  "Cukup jelas.",
-  "Ayat (2)",
-  "Cukup jelas.",
-  "Ayat (3)",
-  "Unsur konsumen adalah lembaga perlindungan konsumen swadaya masyarakat atau sekelompok  konsumen.",
-  "Ayat (4)",
-  "Cukup jelas.",
-  "Ayat (5)",
-  "Cukup jelas.",
-  "Pasal 50",
-  "Cukup jelas.",
-  "Pasal 51",
-  "Ayat (1)",
-  "Cukup jelas.",
-  "Ayat (2)",
-  "Cukup jelas.",
-  "Ayat (3)",
-  "Cukup jelas.",
-  "Pasal 52",
-  "Cukup jelas.",
-  "Pasal 53",
-  "Cukup jelas.",
-  "Pasal 54",
-  "Ayat (1)",
-  "Cukup jelas.",
-  "Ayat (2)",
-  "Cukup jelas.",
-  "Ayat (3)",
-  "Yang dimaksud dengan putusan majelis bersifat final adalah bahwa dalam badan penyelesaian  sengketa konsumen tidak ada upaya banding dan kasasi.",
-  "Ayat (4)",
-  "Cukup jelas.",
-  "Pasal 55",
-  "Cukup jelas.",
-  "Pasal 56",
-  "Ayat (1)",
-  "Cukup jelas",
-  "Ayat (2)",
-  "Cukup jelas",
-  "Ayat (3)",
-  "Cukup jelas",
-  "Ayat (4)",
-  "Cukup jelas",
-  "Ayat (5)",
-  "Cukup jelas",
-  "Pasal 57",
-  "Cukup jelas.",
-  "Pasal 58",
-  "Ayat (1)",
-  "Cukup jelas.",
-  "Ayat (2)",
-  "Cukup jelas.",
-  "Ayat (3)",
-  "Cukup jelas.",
-  "Pasal 59",
-  "Ayat (1)",
-  "Cukup jelas.",
-  "Ayat (2)",
-  "Cukup jelas.",
-  "Ayat (3)",
-  "Cukup jelas.",
-  "Ayat (4)",
-  "Cukup jelas.",
-  "Pasal 60",
-  "Ayat (1)",
-  "Cukup jelas.",
-  "Ayat (2)",
-  "Cukup jelas.",
-  "Ayat (3)",
-  "Cukup jelas.",
-  "Pasal 61",
-  "Cukup jelas.",
-  "Pasal 62",
-  "Ayat (1)",
-  "Cukup jelas.",
-  "Ayat (2)",
-  "Cukup jelas.",
-  "Ayat (3)",
-  "Cukup jelas.",
-  "Pasal 63",
-  "Cukup jelas.",
-  "Pasal 64",
-  "Cukup jelas.",
-  "Pasal 65",
-  "Cukup jelas.",
-  "TAMBAHAN LEMBARAN NEGARA REPUBLIK INDONESIA NOMOR 3821"
-]
+UNDANG-UNDANG REPUBLIK INDONESIA
+NOMOR 8 TAHUN 1999
+TENTANG
+PERLINDUNGAN KONSUMEN
+DENGAN RAHMAT TUHAN YANG MAHA ESA
+PRESIDEN REPUBLIK INDONESIA,
+Menimbang:
+a.
+bahwa pembangunan nasional bertujuan untuk mewujudkan suatu masyarakat adil dan makmur yang merata materiil dan spiritual dalam era demokrasi ekonomi berdasarkan Pancasila dan Undang undang Dasar 1945;
+b.
+bahwa pembangunan perekonomian nasional pada era globalisasi harus dapat mendukung tumbuhnya dunia usaha sehingga mampu menghasilkan beraneka barang dan/atau jasa yang memiliki kandungan teknologi yang dapat meningkatkan kesejahteraan masyarakat banyak dan sekaligus mendapatkan kepastian atas barang dan/atau jasa yang diperoleh dari perdagangan tanpa mengakibatkan kerugian konsumen;
+c.
+bahwa semakin terbukanya pasar nasional sebagai akibat dari proses globalisasi ekonomi harus tetap menjamin peningkatan kesejahteraan masyarakat serta kepastian atas mutu, jumlah, dan keamanan barang dan/atau jasa yang diperolehnya di pasar;
+d.
+bahwa untuk meningkatkan harkat dan martabat konsumen perlu meningkatkan kesadaran, pengetahuan, kepedulian, kemampuan dan kemandirian konsumen untuk melindungi dirinya serta menumbuhkembangkan sikap pelaku usaha yang bertanggung jawab;
+e.
+bahwa ketentuan hukum yang melindungi kepentingan konsumen di Indonesia belum memadai;
+f.
+bahwa berdasarkan pertimbangan tersebut di atas diperlukan perangkat perundang-undangan untuk mewujudkan keseimbangan perlindungan kepentingan konsumen dan pelaku usaha sehingga tercipta perekonomian yang sehat;
+g.
+bahwa untuk itu perlu dibentuk Undang-undang tentang Perlindungan Konsumen.
+Mengingat:
+Pasal 5 ayat (1), Pasal 21 ayat (1), Pasal 27, dan Pasal 33 Undang-Undang Dasar 1945.
+Dengan Persetujuan:
+DEWAN PERWAKILAN RAKYAT REPUBLIK INDONESIA,
+MEMUTUSKAN:
+Menetapkan:
+UNDANG-UNDANG TENTANG PERLINDUNGAN KONSUMEN
+BAB I
+KETENTUAN UMUM
+Pasal 1
+Dalam Undang-undang ini yang dimaksud dengan:
+1.
+Perlindungan konsumen adalah segala upaya yang menjamin adanya kepastian hukum untuk memberi perlindungan kepada konsumen.
+2.
+Konsumen adalah setiap orang pemakai barang dan/atau jasa yang tersedia dalam masyarakat, baik bagi kepentingan diri sendiri, keluarga, orang lain maupun makhluk hidup lain dan tidak untuk diperdagangkan.
+3.
+Pelaku usaha adalah setiap orang perseorangan atau badan usaha, baik yang berbentuk badan hukum maupun bukan badan hukum yang didirikan dan berkedudukan atau melakukan kegiatan dalam wilayah hukum negara Republik Indonesia, baik sendiri maupun bersama-sama melalui perjanjian menyelenggarakan kegiatan usaha dalam berbagai bidang ekonomi.
+4.
+Barang adalah setiap benda baik berwujud maupun tidak berwujud, baik bergerak maupun tidak bergerak, dapat dihabiskan maupun tidak dapat dihabiskan, yang dapat untuk diperdagangkan, dipakai, dipergunakan, atau dimanfaatkan oleh konsumen.
+5.
+Jasa adalah setiap layanan yang berbentuk pekerjaan atau prestasi yang disediakan bagi masyarakat untuk dimanfaatkan oleh konsumen.
+6.
+Promosi adalah kegiatan pengenalan atau penyebarluasan informasi suatu barang dan/atau jasa untuk menarik minat beli konsumen terhadap barang dan/atau jasa yang akan dan sedang diperdagangkan.
+7.
+Impor barang adalah kegiatan memasukkan barang ke dalam daerah pabean.
+8.
+Impor jasa adalah kegiatan penyediaan jasa asing untuk digunakan di dalam wilayah Republik Indonesia.
+9.
+Lembaga Perlindungan Konsumen Swadaya Masyarakat adalah lembaga non-pemerintah yang terdaftar dan diakui oleh pemerintah yang mempunyai kegiatan menangani perlindungan konsumen.
+10.
+Klausula Baku adalah setiap aturan atau ketentuan dan syarat-syarat yang telah dipersiapkan dan ditetapkan terlebih dahulu secara sepihak oleh pelaku usaha yang dituangkan dalam suatu dokumen dan/atau perjanjian yang mengikat dan wajib dipenuhi oleh konsumen.
+11.
+Badan Penyelesaian Sengketa Konsumen adalah badan yang bertugas menangani dan menyelesaikan sengketa antara pelaku usaha dan konsumen.
+12.
+Badan Perlindungan Konsumen Nasional adalah badan yang dibentuk untuk membantu upaya pengembangan perlindungan konsumen.
+13.
+Menteri adalah menteri yang ruang lingkup tugas dan tanggung jawabnya meliputi bidang perdagangan.
+BAB II
+ASAS DAN TUJUAN
+Pasal 2
+Perlindungan konsumen berasaskan manfaat, keadilan, keseimbangan, keamanan dan keselamatan  konsumen, serta kepastian hukum.
+Pasal 3
+Perlindungan konsumen bertujuan:
+a.
+meningkatkan kesadaran, kemampuan dan kemandirian konsumen untuk melindungi diri;
+b.
+mengangkat harkat dan martabat konsumen dengan cara menghindarkannya dari ekses negatif pemakaian barang dan/atau jasa;
+c.
+meningkatkan pemberdayaan konsumen dalam memilih, menentukan dan menuntut hak-haknya sebagai konsumen;
+d.
+menciptakan sistem perlindungan konsumen yang mengandung unsur kepastian hukum dan keterbukaan informasi serta akses untuk mendapatkan informasi;
+e.
+menumbuhkan kesadaran pelaku usaha mengenai pentingnya perlindungan konsumen sehingga tumbuh sikap yang jujur dan bertanggung jawab dalam berusaha;
+f.
+meningkatkan kualitas barang dan/atau jasa yang menjamin kelangsungan usaha produksi barang dan/atau jasa, kesehatan, kenyamanan, keamanan, dan keselamatan konsumen.
+BAB III
+HAK DAN KEWAJIBAN
+Bagian Pertama
+Hak dan Kewajiban Konsumen
+Pasal 4
+Hak konsumen adalah:
+a.
+hak atas kenyamanan, keamanan, dan keselamatan dalam mengkonsumsi barang dan/atau jasa;
+b.
+hak untuk memilih barang dan/atau jasa serta mendapatkan barang dan/atau jasa tersebut sesuai dengan nilai tukar dan kondisi serta jaminan yang dijanjikan;
+c.
+hak atas informasi yang benar, jelas, dan jujur mengenai kondisi dan jaminan barang dan/atau jasa;
+d.
+hak untuk didengar pendapat dan keluhannya atas barang dan/atau jasa yang digunakan;
+e.
+hak untuk mendapatkan advokasi, perlindungan, dan upaya penyelesaian sengketa perlindungan konsumen secara patut;
+f.
+hak untuk mendapat pembinaan dan pendidikan konsumen;
+g.
+hak untuk diperlakukan atau dilayani secara benar dan jujur serta tidak diskriminatif;
+h.
+hak untuk mendapatkan kompensasi, ganti rugi dan/atau penggantian, apabila barang dan/atau jasa yang diterima tidak sesuai dengan perjanjian atau tidak sebagaimana mestinya;
+i.
+hak-hak yang diatur dalam ketentuan peraturan perundang-undangan lainnya.
+Pasal 5
+Kewajiban konsumen adalah:
+a.
+membaca atau mengikuti petunjuk informasi dan prosedur pemakaian atau pemanfaatan barang dan/atau jasa, demi keamanan dan keselamatan;
+b.
+beritikad baik dalam melakukan transaksi pembelian barang dan/atau jasa;
+c.
+membayar sesuai dengan nilai tukar yang disepakati;
+d.
+mengikuti upaya penyelesaian hukum sengketa perlindungan konsumen secara patut.
+Bagian Kedua
+Hak dan Kewajiban Pelaku Usaha
+Pasal 6
+Hak pelaku usaha adalah:
+a.
+hak untuk menerima pembayaran yang sesuai dengan kesepakatan mengenai kondisi dan nilai tukar barang dan/atau jasa yang diperdagangkan;
+b.
+hak untuk mendapat perlindungan hukum dari tindakan konsumen yang beritikad tidak baik;
+c.
+hak untuk melakukan pembelaan diri sepatutnya di dalam penyelesaian hukum sengketa konsumen;
+d.
+hak untuk rehabilitasi nama baik apabila terbukti secara hukum bahwa kerugian konsumen tidak diakibatkan oleh barang dan/atau jasa yang diperdagangkan;
+e.
+hak-hak yang diatur dalam ketentuan peraturan perundang-undangan lainnya.
+Pasal 7
+Kewajiban pelaku usaha adalah:
+a.
+beritikad baik dalam melakukan kegiatan usahanya;
+b.
+memberikan informasi yang benar, jelas dan jujur mengenai kondisi dan jaminan barang dan/atau jasa serta memberi penjelasan penggunaan, perbaikan dan pemeliharaan;
+c.
+memperlakukan atau melayani konsumen secara benar dan jujur serta tidak diskriminatif;
+d.
+menjamin mutu barang dan/atau jasa yang diproduksi dan/atau diperdagangkan berdasarkan ketentuan standar mutu barang dan/atau jasa yang berlaku;
+e.
+memberi kesempatan kepada konsumen untuk menguji, dan/atau mencoba barang dan/atau jasa tertentu serta memberi jaminan dan/atau garansi atas barang yang dibuat dan/atau yang diperdagangkan;
+f.
+memberi kompensasi, ganti rugi dan/atau penggantian atas kerugian akibat penggunaan, pemakaian dan pemanfaatan barang dan/atau jasa yang diperdagangkan;
+g.
+memberi kompensasi, ganti rugi dan/atau penggantian apabila barang dan/atau jasa yang diterima atau dimanfaatkan tidak sesuai dengan perjanjian.
+BAB IV
+PERBUATAN YANG DILARANG BAGI PELAKU USAHA
+Pasal 8
+(1)
+Pelaku usaha dilarang memproduksi dan/atau memperdagangkan barang dan/atau jasa yang:
+a.
+tidak memenuhi atau tidak sesuai dengan standar yang dipersyaratkan dan ketentuan peraturan perundang-undangan;
+b.
+tidak sesuai dengan berat bersih, isi bersih atau netto, dan jumlah dalam hitungan sebagaimana yang dinyatakan dalam label atau etiket barang tersebut;
+c.
+tidak sesuai dengan ukuran, takaran, timbangan dan jumlah dalam hitungan menurut ukuran yang sebenarnya;
+d.
+tidak sesuai dengan kondisi, jaminan, keistimewaan atau kemanjuran sebagaimana dinyatakan dalam label, etiket atau keterangan barang dan/atau jasa tersebut;
+e.
+tidak sesuai dengan mutu, tingkatan, komposisi, proses pengolahan, gaya, mode, atau penggunaan tertentu sebagaimana dinyatakan dalam label atau keterangan barang dan/atau jasa tersebut;
+f.
+tidak sesuai dengan janji yang dinyatakan dalam label, etiket, keterangan, iklan atau promosi penjualan barang dan/atau jasa tersebut;
+g.
+tidak mencantumkan tanggal kadaluwarsa atau jangka waktu penggunaan/ pemanfaatan yang paling baik atas barang tertentu;
+h.
+tidak mengikuti ketentuan berproduksi secara halal, sebagaimana pernyataan "halal" yang dicantumkan dalam label;
+i.
+tidak memasang label atau membuat penjelasan barang yang memuat nama barang, ukuran, berat/isi bersih atau netto, komposisi, aturan pakai, tanggal pembuatan, akibat sampingan, nama dan alamat pelaku usaha serta keterangan lain untuk penggunaan yang menurut ketentuan harus dipasang/dibuat;
+j.
+tidak mencantumkan informasi dan/atau petunjuk penggunaan barang dalam bahasa Indonesia sesuai dengan ketentuan perundang-undangan yang berlaku.
+(2)
+Pelaku usaha dilarang memperdagangkan barang yang rusak, cacat atau bekas, dan tercemar tanpa memberikan informasi secara lengkap dan benar atas barang dimaksud.
+(3)
+Pelaku usaha dilarang memperdagangkan sediaan farmasi dan pangan yang rusak, cacat atau bekas dan tercemar, dengan atau tanpa memberikan informasi secara lengkap dan benar.
+(4)
+Pelaku usaha yang melakukan pelanggaran pada ayat (1) dan ayat (2) dilarang memperdagangkan barang dan/atau jasa tersebut serta wajib menariknya dari peredaran.
+Pasal 9
+(1)
+Pelaku usaha dilarang menawarkan, mempromosikan, mengiklankan suatu barang dan/atau jasa secara tidak benar, dan/atau seolah-olah:
+a.
+barang tersebut telah memenuhi dan/atau memiliki potongan harga, harga khusus, standar mutu tertentu, gaya atau mode tertentu, karakteristik tertentu, sejarah atau guna tertentu;
+b.
+barang tersebut dalam keadaan baik dan/atau baru;
+c.
+barang dan/atau jasa tersebut telah mendapatkan dan/atau memiliki sponsor, persetujuan, perlengkapan tertentu, keuntungan tertentu, ciri-ciri kerja atau aksesori tertentu;
+d.
+barang dan/atau jasa tersebut dibuat oleh perusahaan yang mempunyai sponsor, persetujuan atau afiliasi;
+e.
+barang dan/atau jasa tersebut tersedia;
+f.
+barang tersebut tidak mengandung cacat tersembunyi;
+g.
+barang tersebut merupakan kelengkapan dari barang tertentu;
+h.
+barang tersebut berasal dari daerah tertentu;
+i.
+secara langsung atau tidak langsung merendahkan barang dan/atau jasa lain;
+j.
+menggunakan kata-kata yang berlebihan, seperti aman, tidak berbahaya, tidak mengandung risiko atau efek sampingan tanpa keterangan yang lengkap;
+k.
+menawarkan sesuatu yang mengandung janji yang belum pasti.
+(2)
+Barang dan/atau jasa sebagaimana dimaksud pada ayat (1) dilarang untuk diperdagangkan.
+(3)
+Pelaku usaha yang melakukan pelanggaran terhadap ayat (1) dilarang melanjutkan penawaran, promosi, dan pengiklanan barang dan/atau jasa tersebut.
+Pasal 10
+Pelaku usaha dalam menawarkan barang dan/atau jasa yang ditujukan untuk diperdagangkan dilarang  menawarkan, mempromosikan, mengiklankan atau membuat pernyataan yang tidak benar atau  menyesatkan mengenai:
+a.
+harga atau tarif suatu barang dan/atau jasa;
+b.
+kegunaan suatu barang dan/atau jasa;
+c.
+kondisi, tanggungan, jaminan, hak atau ganti rugi atas suatu barang dan/atau jasa;
+d.
+tawaran potongan harga atau hadiah menarik yang ditawarkan;
+e.
+bahaya penggunaan barang dan/atau jasa.
+Pasal 11
+Pelaku usaha dalam hal penjualan yang dilakukan melalui cara obral atau lelang, dilarang  mengelabui/menyesatkan konsumen dengan:
+a.
+menyatakan barang dan/atau jasa tersebut seolah-olah telah memenuhi standar mutu tertentu;
+b.
+menyatakan barang dan/atau jasa tersebut seolah-olah tidak mengandung cacat tersembunyi;
+c.
+tidak berniat untuk menjual barang yang ditawarkan melainkan dengan maksud untuk menjual barang lain;
+d.
+tidak menyediakan barang dalam jumlah tertentu dan/atau jumlah yang cukup dengan maksud menjual barang yang lain;
+e.
+tidak menyediakan jasa dalam kapasitas tertentu atau dalam jumlah cukup dengan maksud menjual jasa yang lain;
+f.
+menaikkan harga atau tarif barang dan/atau jasa sebelum melakukan obral.
+Pasal 12
+Pelaku usaha dilarang menawarkan, mempromosikan atau mengiklankan suatu barang dan/atau jasa  dengan harga atau tarif khusus dalam waktu dan jumlah tertentu, jika pelaku usaha tersebut tidak  bermaksud untuk melaksanakannya sesuai dengan waktu dan jumlah yang ditawarkan, dipromosikan, atau  diiklankan.
+Pasal 13
+(1)
+Pelaku usaha dilarang menawarkan, mempromosikan, atau mengiklankan suatu barang dan/jasa dengan cara menjanjikan pemberian hadiah berupa barang dan/atau jasa lain secara cuma-cuma dengan maksud tidak memberikannya atau memberikan tidak sebagaimana yang dijanjikannya.
+(2)
+Pelaku usaha dilarang menawarkan, mempromosikan atau mengiklankan obat, obat tradisional, suplemen makanan, alat kesehatan, dan jasa pelayanan kesehatan dengan cara menjanjikan pemberian hadiah berupa barang dan/atau jasa lain.
+Pasal 14
+Pelaku usaha dalam menawarkan barang dan/atau jasa yang ditujukan untuk diperdagangkan dengan  memberikan hadiah melalui cara undian, dilarang untuk:
+a.
+tidak melakukan penarikan hadiah setelah batas waktu yang dijanjikan;
+b.
+mengumumkan hasilnya tidak melalui media massa;
+c.
+memberikan hadiah tidak sesuai dengan yang dijanjikan;
+d.
+mengganti hadiah yang tidak setara dengan nilai hadiah yang dijanjikan.
+Pasal 15
+Pelaku usaha dalam menawarkan barang dan/atau jasa dilarang melakukan dengan cara pemaksaan atau  cara lain yang dapat menimbulkan gangguan baik fisik maupun psikis terhadap konsumen.
+Pasal 16
+Pelaku usaha dalam menawarkan barang dan/atau jasa melalui pesanan dilarang untuk:
+a.
+tidak menepati pesanan dan/atau kesepakatan waktu penyelesaian sesuai dengan yang dijanjikan;
+b.
+tidak menepati janji atas suatu pelayanan dan/atau prestasi.
+Pasal 17
+(1)
+Pelaku usaha periklanan dilarang memproduksi iklan yang:
+a.
+mengelabui konsumen mengenai kualitas, kuantitas, bahan, kegunaan dan harga barang dan/atau tarif jasa serta ketepatan waktu penerimaan barang dan/atau jasa;
+b.
+mengelabui jaminan/garansi terhadap barang dan/atau jasa;
+c.
+memuat informasi yang keliru, salah, atau tidak tepat mengenai barang dan/atau jasa;
+d.
+tidak memuat informasi mengenai risiko pemakaian barang dan/atau jasa;
+e.
+mengeksploitasi kejadian dan/atau seseorang tanpa seizin yang berwenang atau persetujuan yang bersangkutan;
+f.
+melanggar etika dan/atau ketentuan peraturan perundang-undangan mengenai periklanan.
+(2)
+Pelaku usaha periklanan dilarang melanjutkan peredaran iklan yang telah melanggar ketentuan pada ayat (1).
+BAB V
+KETENTUAN PENCANTUMAN KLAUSULA BAKU
+Pasal 18
+(1)
+Pelaku usaha dalam menawarkan barang dan/atau jasa yang ditujukan untuk diperdagangkan dilarang membuat atau mencantumkan klausula baku pada setiap dokumen dan/atau perjanjian apabila:
+a.
+menyatakan pengalihan tanggung jawab pelaku usaha;
+b.
+menyatakan bahwa pelaku usaha berhak menolak penyerahan kembali barang yang dibeli konsumen;
+c.
+menyatakan bahwa pelaku usaha berhak menolak penyerahan kembali uang yang dibayarkan atas barang dan/atau jasa yang dibeli oleh konsumen;
+d.
+menyatakan pemberian kuasa dari konsumen kepada pelaku usaha baik secara langsung maupun tidak langsung untuk melakukan segala tindakan sepihak yang berkaitan dengan barang yang dibeli oleh konsumen secara angsuran;
+e.
+mengatur perihal pembuktian atas hilangnya kegunaan barang atau pemanfaatan jasa yang dibeli oleh konsumen;
+f.
+memberi hak kepada pelaku usaha untuk mengurangi manfaat jasa atau mengurangi harta kekayaan konsumen yang menjadi obyek jual beli jasa;
+g.
+menyatakan tunduknya konsumen kepada peraturan yang berupa aturan baru, tambahan, lanjutan dan/atau pengubahan lanjutan yang dibuat sepihak oleh pelaku usaha dalam masa konsumen memanfaatkan jasa yang dibelinya;
+h.
+menyatakan bahwa konsumen memberi kuasa kepada pelaku usaha untuk pembebanan hak tanggungan, hak gadai, atau hak jaminan terhadap barang yang dibeli oleh konsumen secara angsuran.
+(2)
+Pelaku usaha dilarang mencantumkan klausula baku yang letak atau bentuknya sulit terlihat atau tidak dapat dibaca secara jelas, atau yang pengungkapannya sulit dimengerti.
+(3)
+Setiap klausula baku yang telah ditetapkan oleh pelaku usaha pada dokumen atau perjanjian yang memenuhi ketentuan sebagaimana dimaksud pada ayat (1) dan ayat (2) dinyatakan batal demi hukum.
+(4)
+Pelaku usaha wajib menyesuaikan klausula baku yang bertentangan dengan Undang-undang ini.
+BAB VI
+TANGGUNG JAWAB PELAKU USAHA
+Pasal 19
+(1)
+Pelaku usaha bertanggung jawab memberikan ganti rugi atas kerusakan, pencemaran, dan/atau kerugian konsumen akibat mengkonsumsi barang dan/atau jasa yang dihasilkan atau diperdagangkan.
+(2)
+Ganti rugi sebagaimana dimaksud pada ayat (1) dapat berupa pengembalian uang atau penggantian barang dan/atau jasa yang sejenis atau setara nilainya, atau perawatan kesehatan dan/atau pemberian santunan yang sesuai dengan ketentuan peraturan perundang-undangan yang berlaku.
+(3)
+Pemberian ganti rugi dilaksanakan dalam tenggang waktu 7 (tujuh) hari setelah tanggal transaksi.
+(4)
+Pemberian ganti rugi sebagaimana dimaksud pada ayat (1) dan ayat (2) tidak menghapuskan kemungkinan adanya tuntutan pidana berdasarkan pembuktian lebih lanjut mengenai adanya unsur kesalahan.
+(5)
+Ketentuan sebagaimana dimaksud pada ayat (1) dan ayat (2) tidak berlaku apabila pelaku usaha dapat membuktikan bahwa kesalahan tersebut merupakan kesalahan konsumen.
+Pasal 20
+Pelaku usaha periklanan bertanggung jawab atas iklan yang diproduksi dan segala akibat yang ditimbulkan  oleh iklan tersebut.
+Pasal 21
+(1)
+Importir barang bertanggung jawab sebagai pembuat barang yang diimpor apabila importasi barang tersebut tidak dilakukan oleh agen atau perwakilan produsen luar negeri.
+(2)
+Importir jasa bertanggung jawab sebagai penyedia jasa asing apabila penyediaan jasa asing tersebut tidak dilakukan oleh agen atau perwakilan penyedia jasa asing.
+Pasal 22
+Pembuktian terhadap ada tidaknya unsur kesalahan dalam kasus pidana sebagaimana dimaksud dalam  Pasal 19 ayat (4), Pasal 20, dan Pasal 21 merupakan beban dan tanggung jawab pelaku usaha tanpa  menutup kemungkinan bagi jaksa untuk melakukan pembuktian.
+Pasal 23
+Pelaku usaha yang menolak dan/atau tidak memberi tanggapan dan/atau tidak memenuhi ganti rugi atas  tuntutan konsumen sebagaimana dimaksud dalam Pasal 19 ayat (1), ayat (2), ayat (3), dan ayat (4), dapat  digugat melalui badan penyelesaian sengketa konsumen atau mengajukan ke badan peradilan di tempat  kedudukan konsumen.
+Pasal 24
+(1)
+Pelaku usaha yang menjual barang dan/atau jasa kepada pelaku usaha lain bertanggung jawab atas tuntutan ganti rugi dan/atau gugatan konsumen apabila:
+a.
+pelaku usaha lain menjual kepada konsumen tanpa melakukan perubahan apa pun atas barang dan/atau jasa tersebut;
+b.
+pelaku usaha lain, di dalam transaksi jual beli tidak mengetahui adanya perubahan barang dan/atau jasa yang dilakukan oleh pelaku usaha atau tidak sesuai dengan contoh, mutu, dan komposisi.
+(2)
+Pelaku usaha sebagaimana dimaksud pada ayat (1) dibebaskan dari tanggung jawab atas tuntutan ganti rugi dan/atau gugatan konsumen apabila pelaku usaha lain yang membeli barang dan/atau jasa menjual kembali kepada konsumen dengan melakukan perubahan atas barang dan/atau jasa tersebut.
+Pasal 25
+(1)
+Pelaku usaha yang memproduksi barang yang pemanfaatannya berkelanjutan dalam batas waktu sekurang-kurangnya 1 (satu) tahun wajib menyediakan suku cadang dan/atau fasilitas purna jual dan wajib memenuhi jaminan atau garansi sesuai dengan yang diperjanjikan.
+(2)
+Pelaku usaha sebagaimana dimaksud pada ayat (1) bertanggung jawab atas tuntutan ganti rugi dan/atau gugatan konsumen apabila pelaku usaha tersebut:
+a.
+tidak menyediakan atau lalai menyediakan suku cadang dan/atau fasilitas perbaikan;
+b.
+tidak memenuhi atau gagal memenuhi jaminan atau garansi yang diperjanjikan.
+Pasal 26
+Pelaku usaha yang memperdagangkan jasa wajib memenuhi jaminan dan/atau garansi yang disepakati  dan/atau yang diperjanjikan.
+Pasal 27
+Pelaku usaha yang memproduksi barang dibebaskan dari tanggung jawab atas kerugian yang diderita  konsumen, apabila:
+a.
+barang tersebut terbukti seharusnya tidak diedarkan atau tidak dimaksudkan untuk diedarkan;
+b.
+cacat barang timbul pada kemudian hari;
+c.
+cacat timbul akibat ditaatinya ketentuan mengenai kualifikasi barang;
+d.
+kelalaian yang diakibatkan oleh konsumen;
+e.
+lewatnya jangka waktu penuntutan 4 (empat) tahun sejak barang dibeli atau lewatnya jangka waktu yang diperjanjikan.
+Pasal 28
+Pembuktian terhadap ada tidaknya unsur kesalahan dalam gugatan ganti rugi sebagaimana dimaksud dalam Pasal 19, Pasal 22, dan Pasal 23 merupakan beban dan tanggung jawab pelaku usaha.
+BAB VII
+PEMBINAAN DAN PENGAWASAN
+Bagian Pertama
+Pembinaan
+Pasal 29
+(1)
+Pemerintah bertanggung jawab atas pembinaan penyelenggaraan perlindungan konsumen yang menjamin diperolehnya hak konsumen dan pelaku usaha serta dilaksanakannya kewajiban konsumen dan pelaku usaha.
+(2)
+Pembinaan oleh pemerintah atas penyelenggaraan perlindungan konsumen sebagaimana dimaksud pada ayat (1) dilaksanakan oleh Menteri dan/atau menteri teknis terkait.
+(3)
+Menteri sebagaimana dimaksud pada ayat (2) melakukan koordinasi atas penyelenggaraan perlindungan konsumen.
+(4)
+Pembinaan penyelenggaraan perlindungan konsumen sebagaimana dimaksud pada ayat (2) meliputi upaya untuk:
+a.
+terciptanya iklim usaha dan tumbuhnya hubungan yang sehat antara pelaku usaha dan konsumen;
+b.
+berkembangnya lembaga perlindungan konsumen swadaya masyarakat;
+c.
+meningkatnya kualitas sumber daya manusia serta meningkatnya kegiatan penelitian dan pengembangan di bidang perlindungan konsumen.
+(5)
+Ketentuan lebih lanjut mengenai pembinaan penyelenggaraan perlindungan konsumen diatur dengan Peraturan Pemerintah.
+Bagian Kedua
+Pengawasan
+Pasal 30
+(1)
+Pengawasan terhadap penyelenggaraan perlindungan konsumen serta penerapan ketentuan peraturan perundang-undangannya diselenggarakan oleh pemerintah, masyarakat, dan lembaga perlindungan konsumen swadaya masyarakat.
+(2)
+Pengawasan oleh pemerintah sebagaimana dimaksud pada ayat (1) dilaksanakan oleh Menteri dan/atau menteri teknis terkait.
+(3)
+Pengawasan oleh masyarakat dan lembaga perlindungan konsumen swadaya masyarakat dilakukan terhadap barang dan/atau jasa yang beredar di pasar.
+(4)
+Apabila hasil pengawasan sebagaimana dimaksud pada ayat (3) ternyata menyimpang dari peraturan perundang-undangan yang berlaku dan membahayakan konsumen, Menteri dan/atau menteri teknis mengambil tindakan sesuai dengan peraturan perundang-undangan yang berlaku.
+(5)
+Hasil pengawasan yang diselenggarakan masyarakat dan lembaga perlindungan konsumen swadaya masyarakat dapat disebarluaskan kepada masyarakat dan dapat disampaikan kepada Menteri dan menteri teknis.
+(6)
+Ketentuan pelaksanaan tugas pengawasan sebagaimana dimaksud pada ayat (1), ayat (2), dan ayat (3) ditetapkan dengan Peraturan Pemerintah.
+BAB VIII
+BADAN PERLINDUNGAN KONSUMEN NASIONAL
+Bagian Pertama
+Nama, Kedudukan, Fungsi, dan Tugas
+Pasal 31
+Dalam rangka mengembangkan upaya perlindungan konsumen dibentuk Badan Perlindungan Konsumen  Nasional.
+Pasal 32
+Badan Perlindungan Konsumen Nasional berkedudukan di Ibu Kota Negara Republik Indonesia dan  bertanggung jawab kepada Presiden.
+Pasal 33
+Badan Perlindungan Konsumen Nasional mempunyai fungsi memberikan saran dan pertimbangan kepada  pemerintah dalam upaya mengembangkan perlindungan konsumen di Indonesia.
+Pasal 34
+(1)
+Untuk menjalankan fungsi sebagaimana dimaksud dalam Pasal 33, Badan Perlindungan Konsumen Nasional mempunyai tugas:
+a.
+memberikan saran dan rekomendasi kepada pemerintah dalam rangka penyusunan kebijaksanaan di bidang perlindungan konsumen;
+b.
+melakukan penelitian dan pengkajian terhadap peraturan perundang-undangan yang berlaku di bidang perlindungan konsumen;
+c.
+melakukan penelitian terhadap barang dan/atau jasa yang menyangkut keselamatan konsumen;
+d.
+mendorong berkembangnya lembaga perlindungan konsumen swadaya masyarakat;
+e.
+menyebarluaskan informasi melalui media mengenai perlindungan konsumen dan memasyarakatkan sikap keberpihakan kepada konsumen;
+f.
+menerima pengaduan tentang perlindungan konsumen dari masyarakat, lembaga perlindungan konsumen swadaya masyarakat, atau pelaku usaha;
+g.
+melakukan survei yang menyangkut kebutuhan konsumen.
+(2)
+Dalam melaksanakan tugas sebagaimana dimaksud pada ayat (1), Badan Perlindungan Konsumen Nasional dapat bekerjasama dengan organisasi konsumen internasional.
+Bagian Kedua
+Susunan Organisasi dan Keanggotaan
+Pasal 35
+(1)
+Badan Perlindungan Konsumen Nasional terdiri atas seorang ketua merangkap anggota, seorang wakil ketua merangkap anggota, serta sekurang-kurangnya 15 (lima belas) orang dan sebanyak banyaknya 25 (dua puluh lima) orang anggota yang mewakili semua unsur.
+(2)
+Anggota Badan Perlindungan Konsumen Nasional diangkat dan diberhentikan oleh Presiden atas usul Menteri, setelah dikonsultasikan kepada Dewan Perwakilan Rakyat Republik Indonesia.
+(3)
+Masa jabatan ketua, wakil ketua, dan anggota Badan Perlindungan Konsumen Nasional selama 3 (tiga) tahun dan dapat diangkat kembali untuk 1 (satu) kali masa jabatan berikutnya.
+(4)
+Ketua dan wakil ketua Badan Perlindungan Konsumen Nasional dipilih oleh anggota.
+Pasal 36
+Anggota Badan Perlindungan Konsumen Nasional terdiri atas unsur:
+a.
+pemerintah;
+b.
+pelaku usaha;
+c.
+lembaga perlindungan konsumen swadaya masyarakat;
+d.
+akademisi; dan
+e.
+tenaga ahli.
+Pasal 37
+Persyaratan keanggotaan Badan Perlindungan Konsumen Nasional adalah:
+a.
+warga negara Republik Indonesia;
+b.
+berbadan sehat;
+c.
+berkelakuan baik;
+d.
+tidak pernah dihukum karena kejahatan;
+e.
+memiliki pengetahuan dan pengalaman di bidang perlindungan konsumen; dan
+f.
+berusia sekurang-kurangnya 30 (tiga puluh) tahun.
+Pasal 38
+Keanggotaan Badan Perlindungan Konsumen Nasional berhenti karena:
+a.
+meninggal dunia;
+b.
+mengundurkan diri atas permintaan sendiri;
+c.
+bertempat tinggal di luar wilayah negara Republik Indonesia;
+d.
+sakit secara terus menerus;
+e.
+berakhir masa jabatan sebagai anggota;atau
+f.
+diberhentikan.
+Pasal 39
+(1)
+Untuk kelancaran pelaksanaan tugas, Badan Perlindungan Konsumen, Nasional dibantu oleh sekretariat.
+(2)
+Sekretariat sebagaimana dimaksud pada ayat (1) dipimpin oleh seorang sekretaris yang diangkat oleh Ketua Badan Perlindungan Konsumen Nasional.
+(3)
+Fungsi, tugas, dan tata kerja sekretariat sebagaimana dimaksud pada ayat (1) diatur dalam keputusan Ketua Badan Perlindungan Konsumen Nasional.
+Pasal 40
+(1)
+Apabila diperlukan Badan Perlindungan Konsumen Nasional dapat membentuk perwakilan di Ibu Kota Daerah Tingkat I untuk membantu pelaksanaan tugasnya.
+(2)
+Pembentukan perwakilan sebagaimana dimaksud pada ayat (1) ditetapkan lebih lanjut dengan keputusan Ketua Badan Perlindungan Konsumen Nasional.
+Pasal 41
+Dalam pelaksanaan tugas, Badan Perlindungan Konsumen Nasional bekerja berdasarkan tata kerja yang  diatur dengan keputusan Ketua Badan Perlindungan Konsumen Nasional.
+Pasal 42
+Biaya untuk pelaksanaan tugas Badan Perlindungan Konsumen Nasional dibebankan kepada anggaran  pendapatan dan belanja negara dan sumber lain yang sesuai dengan peraturan perundang-undangan yang  berlaku.
+Pasal 43
+Ketentuan lebih lanjut mengenai pembentukan Badan Perlindungan Konsumen Nasional diatur dalam  Peraturan Pemerintah.
+BAB IX
+LEMBAGA PERLINDUNGAN KONSUMEN SWADAYA MASYARAKAT
+Pasal 44
+(1)
+Pemerintah mengakui lembaga perlindungan konsumen swadaya masyarakat yang memenuhi syarat.
+(2)
+Lembaga perlindungan konsumen swadaya masyarakat memiliki kesempatan untuk berperan aktif dalam mewujudkan perlindungan konsumen.
+(3)
+Tugas lembaga perlindungan konsumen swadaya masyarakat meliputi kegiatan:
+a.
+menyebarkan informasi dalam rangka meningkatkan kesadaran atas hak dan kewajiban dan kehati-hatian konsumen dalam mengkonsumsi barang dan/atau jasa;
+b.
+memberikan nasihat kepada konsumen yang memerlukannya;
+c.
+bekerja sama dengan instansi terkait dalam upaya mewujudkan perlindungan konsumen;
+d.
+membantu konsumen dalam memperjuangkan haknya, termasuk menerima keluhan atau pengaduan konsumen;
+e.
+melakukan pengawasan bersama pemerintah dan masyarakat terhadap pelaksanaan perlindungan konsumen.
+(4)
+Ketentuan lebih lanjut mengenai tugas lembaga perlindungan konsumen swadaya masyarakat sebagaimana dimaksud pada ayat (3) diatur dalam Peraturan Pemerintah.
+BAB X
+PENYELESAIAN SENGKETA
+Bagian Pertama
+Umum
+Pasal 45
+(1)
+Setiap konsumen yang dirugikan dapat menggugat pelaku usaha melalui lembaga yang bertugas menyelesaikan sengketa antara konsumen dan pelaku usaha atau melalui peradilan yang berada di lingkungan peradilan umum.
+(2)
+Penyelesaian sengketa konsumen dapat ditempuh melalui pengadilan atau diluar pengadilan berdasarkan pilihan sukarela para pihak yang bersengketa.
+(3)
+Penyelesaian sengketa di luar pengadilan sebagaimana dimaksud pada ayat (2) tidak menghilangkan tanggung jawab pidana sebagaimana diatur dalam Undang-undang.
+(4)
+Apabila telah dipilih upaya penyelesaian sengketa konsumen di luar pengadilan, gugatan melalui pengadilan hanya dapat ditempuh apabila upaya tersebut dinyatakan tidak berhasil oleh salah satu pihak atau oleh para pihak yang bersengketa.
+Pasal 46
+(1)
+Gugatan atas pelanggaran pelaku usaha dapat dilakukan oleh:
+a.
+seorang konsumen yang dirugikan atau ahli waris yang bersangkutan;
+b.
+sekelompok konsumen yang mempunyai kepentingan yang sama;
+c.
+lembaga perlindungan konsumen swadaya masyarakat yang memenuhi syarat, yaitu berbentuk badan hukum atau yayasan, yang dalam anggaran dasarnya menyebutkan dengan tegas bahwa tujuan didirikannya organisasi tersebut adalah untuk kepentingan perlindungan konsumen dan telah melaksanakan kegiatan sesuai dengan anggaran dasarnya;
+d.
+pemerintah dan/atau instansi terkait apabila barang dan/atau jasa yang dikonsumsi atau dimanfaatkan mengakibatkan kerugian materi yang besar dan/atau korban yang tidak sedikit.
+(2)
+Gugatan yang diajukan oleh sekelompok konsumen, lembaga perlindungan konsumen swadaya masyarakat atau pemerintah sebagaimana dimaksud pada ayat (1) huruf b, huruf c, atau huruf d diajukan kepada peradilan umum.
+(3)
+Ketentuan lebih lanjut mengenai kerugian materi yang besar dan/atau korban yang tidak sedikit sebagaimana dimaksud pada ayat (1) huruf d diatur dengan Peraturan Pemerintah.
+Bagian Kedua
+Penyelesaian Sengketa di luar Pengadilan
+Pasal 47
+Penyelesaian sengketa konsumen di luar pengadilan diselenggarakan untuk mencapai kesepakatan  mengenai bentuk dan besarnya ganti rugi dan/atau mengenai tindakan tertentu untuk menjamin tidak akan  terjadi kembali atau tidak akan terulang kembali kerugian yang diderita oleh konsumen.
+Bagian Ketiga
+Penyelesaian Sengketa Melalui Pengadilan
+Pasal 48
+Penyelesaian sengketa konsumen melalui pengadilan mengacu pada ketentuan tentang peradilan umum  yang berlaku dengan memperhatikan ketentuan dalam Pasal 45.
+BAB XI
+BADAN PENYELESAIAN SENGKETA KONSUMEN
+Pasal 49
+(1)
+Pemerintah membentuk badan penyelesaian sengketa konsumen di Daerah Tingkat II untuk penyelesaian sengketa konsumen di luar pengadilan.
+(2)
+Untuk dapat diangkat menjadi anggota badan penyelesaian sengketa konsumen, seseorang harus memenuhi syarat sebagai berikut:
+a.
+warga negara Republik Indonesia;
+b.
+berbadan sehat;
+c.
+berkelakuan baik;
+d.
+tidak pernah dihukum karena kejahatan;
+e.
+memiliki pengetahuan dan pengalaman di bidang perlindungan konsumen;
+f.
+berusia sekurang-kurangnya 30 (tiga puluh) tahun.
+(3)
+Anggota sebagaimana dimaksud pada ayat (2) terdiri atas unsur pemerintah, unsur konsumen, dan unsur pelaku usaha.
+(4)
+Anggota setiap unsur sebagaimana dimaksud pada ayat (3) berjumlah sedikit-dikitnya 3 (tiga) orang, dan sebanyak-banyaknya 5 (lima) orang.
+(5)
+Pengangkatan dan pemberhentian anggota badan penyelesaian sengketa konsumen ditetapkan oleh Menteri.
+Pasal 50
+Badan penyelesaian sengketa konsumen sebagaimana dimaksud dalam Pasal 49 ayat (1) terdiri atas:
+a.
+ketua merangkap anggota;
+b.
+wakil ketua merangkap anggota;
+c.
+anggota.
+Pasal 51
+(1)
+Badan penyelesaian sengketa konsumen dalam menjalankan tugasnya dibantu oleh sekretariat.
+(2)
+Sekretariat badan penyelesaian sengketa konsumen terdiri atas kepala sekretariat dan anggota sekretariat.
+(3)
+Pengangkatan dan pemberhentian kepala sekretariat dan anggota sekretariat badan penyelesaian sengketa konsumen ditetapkan oleh Menteri.
+Pasal 52
+Tugas dan wewenang badan penyelesaian sengketa konsumen meliputi:
+a.
+melaksanakan penanganan dan penyelesaian sengketa konsumen, dengan cara melalui mediasi atau arbitrase atau konsiliasi;
+b.
+memberikan konsultasi perlindungan konsumen;
+c.
+melakukan pengawasan terhadap pencantuman klausula baku;
+d.
+melaporkan kepada penyidik umum apabila terjadi pelanggaran ketentuan dalam Undang-undang ini;
+e.
+menerima pengaduan baik tertulis maupun tidak tertulis, dari konsumen tentang terjadinya pelanggaran terhadap perlindungan konsumen;
+f.
+melakukan penelitian dan pemeriksaan sengketa perlindungan konsumen;
+g.
+memanggil pelaku usaha yang diduga telah melakukan pelanggaran terhadap perlindungan konsumen;
+h.
+memanggil dan menghadirkan saksi, saksi ahli dan/atau setiap orang yang dianggap mengetahui pelanggaran terhadap Undang-undang ini;
+i.
+meminta bantuan penyidik untuk menghadirkan pelaku usaha, saksi, saksi ahli, atau setiap orang sebagaimana dimaksud pada huruf g dan huruf h, yang tidak bersedia memenuhi panggilan badan penyelesaian sengketa konsumen;
+j.
+mendapatkan, meneliti dan/atau menilai surat, dokumen, atau alat bukti lain guna penyelidikan dan/atau pemeriksaan;
+k.
+memutuskan dan menetapkan ada atau tidak adanya kerugian di pihak konsumen;
+l.
+memberitahukan putusan kepada pelaku usaha yang melakukan pelanggaran terhadap perlindungan konsumen;
+m.
+menjatuhkan sanksi administratif kepada pelaku usaha yang melanggar ketentuan Undang-undang ini.
+Pasal 53
+Ketentuan lebih lanjut mengenai pelaksanaan tugas dan wewenang badan penyelesaian sengketa  konsumen Daerah Tingkat II diatur dalam surat keputusan menteri.
+Pasal 54
+(1)
+Untuk menangani dan menyelesaikan sengketa konsumen, badan penyelesaian sengketa konsumen membentuk majelis.
+(2)
+Jumlah anggota majelis sebagaimana dimaksud pada ayat (1) harus ganjil dan sedikit-sedikitnya 3 (tiga) orang yang mewakili semua unsur sebagaimana dimaksud dalam Pasal 49 ayat (3), serta dibantu oleh seorang panitera.
+(3)
+Putusan majelis bersifat final dan mengikat.
+(4)
+Ketentuan teknis lebih lanjut mengenai pelaksanaan tugas majelis diatur dalam surat keputusan menteri.
+Pasal 55
+Badan penyelesaian sengketa konsumen wajib mengeluarkan putusan paling lambat dalam waktu 21 (dua  puluh satu) hari kerja setelah gugatan diterima.
+Pasal 56
+(1)
+Dalam waktu paling lambat 7 (tujuh) hari kerja sejak menerima putusan badan penyelesaian sengketa konsumen sebagaimana dimaksud dalam Pasal 55 pelaku usaha wajib melaksanakan putusan tersebut.
+(2)
+Para pihak dapat mengajukan keberatan kepada Pengadilan Negeri paling lambat 4 (empat belas) hari kerja setelah menerima pemberitahuan putusan tersebut.
+(3)
+Pelaku usaha yang tidak mengajukan keberatan dalam jangka waktu sebagaimana dimaksud pada ayat (2) dianggap menerima putusan badan penyelesaian sengketa konsumen.
+(4)
+Apabila ketentuan sebagaimana dimaksud pada ayat (1) dan ayat (3) tidak dijalankan oleh pelaku usaha, badan penyelesaian sengketa konsumen menyerahkan putusan tersebut kepada penyidik untuk melakukan penyidikan sesuai dengan ketentuan perundang-undangan yang berlaku.
+(5)
+Putusan badan penyelesaian sengketa konsumen sebagaimana dimaksud pada ayat (3) merupakan bukti permulaan yang cukup bagi penyidik untuk melakukan penyidikan.
+Pasal 57
+Putusan majelis sebagaimana dimaksud dalam Pasal 54 ayat (3) dimintakan penetapan eksekusinya kepada Pengadilan Negeri di tempat konsumen yang dirugikan.
+Pasal 58
+(1)
+Pengadilan Negeri wajib mengeluarkan putusan atas keberatan sebagaimana dimaksud dalam Pasal 56 ayat (2) dalam waktu paling lambat 21 (dua puluh satu) hari sejak diterimanya keberatan.
+(2)
+Terhadap putusan Pengadilan Negeri sebagaimana dimaksud pada ayat (1), para pihak dalam waktu paling lambat 14 (empat belas) hari dapat mengajukan kasasi ke Mahkamah Agung Republik Indonesia.
+(3)
+Mahkamah Agung Republik Indonesia wajib mengeluarkan putusan dalam waktu paling lambat 30 (tiga puluh) hari sejak menerima permohonan kasasi.
+BAB XII
+PENYIDIKAN
+Pasal 59
+(1)
+Selain Pejabat Polisi Negara Republik Indonesia, Pejabat Pegawai Negeri Sipil tertentu di lingkungan instansi pemerintah yang lingkup tugas dan tanggung jawabnya di bidang perlindungan konsumen juga diberi wewenang khusus sebagai penyidik sebagaimana dimaksud dalam Undang-undang  Hukum Acara Pidana yang berlaku.
+(2)
+Penyidik Pejabat Pegawai Negeri Sipil sebagaimana dimaksud pada ayat (1) berwenang:
+a.
+melakukan pemeriksaan atas kebenaran laporan atau keterangan berkenaan dengan tindak pidana di bidang perlindungan konsumen;
+b.
+melakukan pemeriksaan terhadap orang lain atau badan hukum yang diduga melakukan tindak pidana di bidang perlindungan konsumen;
+c.
+meminta keterangan dan bahan bukti dari orang atau badan hukum sehubungan dengan peristiwa tindak pidana di bidang perlindungan konsumen;
+d.
+melakukan pemeriksaan atas pembukuan, catatan, dan dokumen lain berkenaan dengan tindak pidana di bidang perlindungan konsumen;
+e.
+melakukan pemeriksaan di tempat tertentu yang diduga terdapat bahan bukti serta melakukan penyitaan terhadap barang hasil pelanggaran yang dapat dijadikan bukti dalam perkara tindak pidana di bidang perlindungan konsumen.
+f.
+Meminta bantuan ahli dalam rangka pelaksanaan tugas penyidikan tindak pidana di bidang perlindungan konsumen.
+(3)
+Penyidik Pejabat Pegawai Negeri Sipil sebagaimana dimaksud pada ayat (1) memberitahukan dimulainya penyidikan dan hasil penyidikannya kepada Penyidik Pejabat Polisi Negara Republik Indonesia.
+(4)
+Penyidik Pejabat Pegawai Negeri Sipil sebagaimana dimaksud pada ayat (1) menyampaikan hasil penyidikan kepada Penuntut Umum melalui Penyidik Pejabat Polisi Negara Republik Indonesia.
+BAB XIII
+SANKSI
+Bagian Pertama
+Sanksi Administratif
+Pasal 60
+(1)
+Badan penyelesaian sengketa konsumen berwenang menjatuhkan sanksi administratif terhadap pelaku usaha yang melanggar Pasal 19 ayat (2) dan ayat (3), Pasal 20, Pasal 25 dan Pasal 26.
+(2)
+Sanksi administratif berupa penetapan ganti rugi paling banyak Rp 200.000.000,00 (dua ratus juta rupiah).
+(3)
+Tata cara penetapan sanksi administratif sebagaimana dimaksud pada ayat (1) diatur lebih lanjut dalam peraturan perundang-undangan.
+Bagian Kedua
+Sanksi Pidana
+Pasal 61
+Penuntutan pidana dapat dilakukan terhadap pelaku usaha dan/atau pengurusnya.
+Pasal 62
+(1)
+Pelaku usaha yang melanggar ketentuan sebagaimana dimaksud dalam Pasal 8, Pasal 9, Pasal 10, Pasal 13 ayat (2), Pasal 15, Pasal 17 ayat (1) huruf a, huruf b, huruf c, huruf e, ayat (2) dan Pasal 18 dipidana dengan pidana penjara paling lama 5 (lima) tahun atau pidana denda paling banyak Rp 2.000.000.000,00 (dua miliar rupiah).
+(2)
+Pelaku usaha yang melanggar ketentuan sebagaimana dimaksud dalam Pasal 11, Pasal 12, Pasal 13 ayat (1), Pasal 14, Pasal 16, dan Pasal 17 ayat (1) huruf d dan huruf f dipidana dengan pidana penjara paling lama 2 (dua) tahun atau pidana denda paling banyak Rp 500.000.000,00 (lima ratus juta rupiah).
+(3)
+Terhadap pelanggaran yang mengakibatkan luka berat, sakit berat, cacat tetap atau kematian diberlakukan ketentuan pidana yang berlaku.
+Pasal 63
+Terhadap sanksi pidana sebagaimana dimaksud dalam Pasal 62, dapat dijatuhkan hukuman tambahan,  berupa:
+a.
+perampasan barang tertentu;
+b.
+pengumuman keputusan hakim;
+c.
+pembayaran ganti rugi;
+d.
+perintah penghentian kegiatan tertentu yang menyebabkan timbulnya kerugian konsumen;
+e.
+kewajiban penarikan barang dari peredaran;atau
+f.
+pencabutan izin usaha.
+BAB XIV
+KETENTUAN PERALIHAN
+Pasal 64
+Segala ketentuan peraturan perundang-undangan yang bertujuan melindungi konsumen yang telah ada  pada saat Undang-undang ini diundangkan, dinyatakan tetap berlaku sepanjang tidak diatur secara khusus  dan/atau tidak bertentangan dengan ketentuan dalam Undang-undang ini.
+BAB XV
+KETENTUAN PENUTUP
+Pasal 65
+Undang-undang ini mulai berlaku setelah 1 (satu) tahun sejak diundangkan. Agar setiap orang mengetahuinya, memerintahkan pengundangan Undang-undang ini dengan  penempatannya dalam Lembaran Negara Republik Indonesia.
+Disahkan Di Jakarta,
+Pada Tanggal 20 April 1999
+PRESIDEN REPUBLIK INDONESIA,
+Ttd.
+BACHARUDDIN JUSUF HABIBIE
+Diundangkan Di Jakarta,
+Pada Tanggal 20 April 1999
+MENTERI NEGARA/SEKRETARIS NEGARA REPUBLIK INDONESIA,
+Ttd.
+AKBAR TANDJUNG
+LEMBARAN NEGARA REPUBLIK INDONESIA TAHUN 1999 NOMOR 42
+PENJELASAN
+UNDANG-UNDANG REPUBLIK INDONESIA
+NOMOR 8 TAHUN 1999
+TENTANG
+PERLINDUNGAN KONSUMEN
+I. UMUM
+Pembangunan dan perkembangan perekonomian umumnya dan khususnya di bidang perindustrian  dan perdagangan nasional telah menghasilkan berbagai variasi barang dan/atau jasa yang dapat  dikonsumsi. Di samping itu, globalisasi dan perdagangan bebas yang didukung oleh kemajuan  teknologi telekomunikasi dan informatika telah memperluas ruang gerak arus transaksi barang  dan/atau jasa melintasi batas-batas wilayah suatu negara, sehingga barang dan/atau jasa yang  ditawarkan bervariasi baik produksi luar negeri maupun produksi dalam negeri. Kondisi yang demikian pada satu pihak mempunyai manfaat bagi konsumen karena kebutuhan  konsumen akan barang dan/atau jasa yang diinginkan dapat terpenuhi serta semakin terbuka lebar  kebebasan untuk memilih aneka jenis kualitas barang dan/atau jasa sesuai dengan keinginan dan  kemampuan konsumen. Di sisi lain, kondisi dan fenomena tersebut di atas dapat mengakibatkan kedudukan pelaku usaha dan konsumen menjadi tidak seimbang dan konsumen berada pada posisi yang lemah. Konsumen  menjadi objek aktivitas bisnis untuk meraup keuntungan yang sebesar-besarnya oleh pelaku usaha  melalui kiat promosi, cara penjualan, serta penerapan perjanjian standar yang merugikan konsumen. Faktor utama yang menjadi kelemahan konsumen adalah tingkat kesadaran konsumen akan haknya  masih rendah. Hal ini terutama disebabkan oleh rendahnya pendidikan konsumen. Oleh karena itu,  Undang-undang Perlindungan Konsumen dimaksudkan menjadi landasan hukum yang kuat bagi  pemerintah dan lembaga perlindungan konsumen swadaya masyarakat untuk melakukan upaya  pemberdayaan konsumen melalui pembinaan dan pendidikan konsumen. Upaya pemberdayaan ini penting karena tidak mudah mengharapkan kesadaran pelaku usaha yang  pada dasarnya prinsip ekonomi pelaku usaha adalah mendapat keuntungan yang semaksimal  mungkin dengan modal seminimal mungkin. Prinsip ini sangat potensial merugikan kepentingan  konsumen, baik secara langsung maupun tidak langsung. Atas dasar kondisi sebagaimana dipaparkan di atas, perlu upaya pemberdayaan konsumen melalui  pembentukan undang-undang yang dapat melindungi kepentingan konsumen secara integratif dan  komprehensif serta dapat diterapkan secara efektif di masyarakat. Piranti hukum yang melindungi konsumen tidak dimaksudkan untuk mematikan usaha para pelaku  usaha, tetapi justru sebaliknya perlindungan konsumen dapat mendorong iklim berusaha yang sehat  yang mendorong lahirnya perusahaan yang tangguh dalam menghadapi persaingan melalui  penyediaan barang dan/atau jasa yang berkualitas. Disamping itu, Undang-undang tentang Perlindungan Konsumen ini dalam pelaksanaannya tetap  memberikan perhatian khusus kepada pelaku usaha kecil dan menengah. Hal itu dilakukan melalui  upaya pembinaan dan penerapan sanksi atas pelanggarannya. Undang-undang tentang Perlindungan Konsumen ini dirumuskan dengan mengacu pada filosofi  pembangunan nasional bahwa pembangunan nasional termasuk pembangunan hukum yang  memberikan perlindungan terhadap konsumen adalah dalam rangka membangun manusia Indonesia  seutuhnya yang berlandaskan pada falsafah kenegaraan Republik Indonesia yaitu dasar negara  Pancasila dan konstitusi negara Undang-Undang Dasar 1945. Disamping itu, Undang-undang tentang Perlindungan Konsumen pada dasarnya bukan merupakan  awal dan akhir dari hukum yang mengatur tentang perlindungan konsumen, sebab sampai pada  terbentuknya Undang-undang tentang Perlindungan Konsumen ini telah ada beberapa undang undang yang materinya melindungi kepentingan konsumen, seperti:
+a.
+Undang-undang Nomor 10 Tahun 1961 tentang Penetapan Peraturan Pemerintah Pengganti Undang-undang Nomor 1 Tahun 1961 tentang Barang, menjadi Undang-undang;
+b.
+Undang-undang Nomor 2 Tahun 1966 tentang Hygiene;
+c.
+Undang-undang Nomor 5 Tahun 1974 tentang Pokok-pokok Pemerintahan di Daerah;
+d.
+Undang-undang Nomor 2 Tahun 1981 tentang Metrologi Legal;
+e.
+Undang-undang Nomor 3 Tahun 1982 tentang Wajib Daftar Perusahaan;
+f.
+Undang-undang Nomor 5 Tahun 1984 tentang Perindustrian;
+g.
+Undang-undang Nomor 15 Tahun 1985 tentang Ketenagalistrikan;
+h.
+Undang-undang Nomor 1 Tahun 1987 tentang Kamar Dagang dan Industri;
+i.
+Undang-undang Nomor 23 Tahun 1992 tentang Kesehatan;
+j.
+Undang-undang Nomor 7 Tahun 1994 tentang Agreement Establishing The World Trade Organization (Persetujuan Pembentukan Organisasi Perdagangan Dunia);
+k.
+Undang-undang Nomor 1 Tahun 1995 tentang Perseroan Terbatas;
+l.
+Undang-undang Nomor 9 Tahun 1995 tentang Usaha Kecil;
+m.
+Undang-undang Nomor 7 Tahun 1996 tentang Pangan;
+n.
+Undang-undang Nomor 12 Tahun 1997 tentang perubahan Atas Undang-undang Hak Cipta sebagaimana telah diubah dengan Undang-undang Nomor 7 Tahun 1987;
+o.
+Undang-undang Nomor 13 Tahun 1997 tentang Perubahan Atas Undang-undang Nomor 6 Tahun 1989 Tentang Paten;
+p.
+Undang-undang Nomor 14 Tahun 1997 tentang Perubahan Atas Undang-undang Nomor 19 Tahun 1989 tentang Merek;
+q.
+Undang-undang Nomor 23 Tahun 1997 tentang Pengelolaan Lingkungan Hidup;
+r.
+Undang-undang Nomor 24 Tahun 1997 tentang Penyiaran;
+s.
+Undang-undang Nomor 25 Tahun 1997 tentang Ketenagakerjaan;
+t.
+Undang-undang Nomor 10 Tahun 1998 tentang Perubahan Atas Undang-undang Nomor 7 Tahun 1992 tentang Perbankan. Perlindungan konsumen dalam hal pelaku usaha melanggar hak atas kekayaan intelektual (HAKI)  tidak diatur dalam Undang-undang tentang Perlindungan Konsumen ini karena sudah diatur dalam  Undang-undang Nomor 12 Tahun 1997 tentang Hak Cipta, Undang-undang Nomor 13 Tahun 97  tentang Paten, dan Undang-undang Nomor 14 Tahun 1997 tentang Merek, yang melarang  menghasilkan atau memperdagangkan barang dan/atau jasa yang melanggar ketentuan tentang  HAKI. Demikian juga perlindungan konsumen di bidang lingkungan hidup tidak diatur dalam Undang-undang  tentang Perlindungan Konsumen ini karena telah diatur dalam Undang-undang Nomor 23 Tahun 1997  tentang Pengelolaan Lingkungan Hidup mengenai kewajiban setiap orang untuk memelihara  kelestarian fungsi lingkungan hidup serta mencegah dan menanggulangi pencemaran dan perusakan  lingkungan hidup. Di kemudian hari masih terbuka kemungkinan terbentuknya undang-undang baru yang pada dasarnya memuat ketentuan-ketentuan yang melindungi konsumen. Dengan demikian, Undang-undang tentang Perlindungan Konsumen ini merupakan payung yang mengintegrasikan dan memperkuat penegakan  hukum di bidang perlindungan konsumen.
+II. PASAL DEMI PASAL
+Pasal 1
+Angka 1
+Cukup jelas.
+Angka 2
+Di dalam kepustakaan ekonomi dikenal istilah konsumen akhir dan konsumen antara. Konsumen akhir adalah pengguna atau pemanfaat akhir dari suatu produk, sedangkan konsumen antara adalah  konsumen yang menggunakan suatu produk sebagai bagian dari proses produksi suatu produk  lainnya. Pengertian konsumen dalam Undang-undang ini adalah konsumen akhir.
+Angka 3
+Pelaku usaha yang termasuk dalam pengertian ini adalah perusahaan korporasi, BUMN, koperasi,  importir, pedagang, distributor, dan lain-lain.
+Angka 4
+Cukup jelas.
+Angka 5
+Cukup jelas.
+Angka 6
+Cukup jelas.
+Angka 7
+Cukup jelas.
+Angka 8
+Cukup jelas.
+Angka 9
+Lembaga ini dibentuk untuk meningkatkan partisipasi masyarakat dalam upaya perlindungan  konsumen serta menunjukkan bahwa perlindungan konsumen menjadi tanggung jawab bersama  antara pemerintah dan masyarakat.
+Angka 10
+Cukup jelas.
+Angka 11
+Badan ini dibentuk untuk menangani penyelesaian sengketa konsumen yang efisien, cepat, murah  dan profesional.
+Angka 12
+Cukup jelas.
+Angka 13
+Cukup jelas.
+Pasal 2
+Perlindungan konsumen diselenggarakan sebagai usaha bersama berdasarkan 5 (lima) asas yang relevan  dalam pembangunan nasional yaitu:
+1.
+Asas manfaat dimaksudkan untuk mengamanatkan bahwa segala upaya dalam penyelenggaraan perlindungan konsumen harus memberikan manfaat sebesar-besarnya bagi kepentingan konsumen dan pelaku usaha secara keseluruhan.
+2.
+Asas keadilan dimaksudkan agar partisipasi seluruh rakyat dapat diwujudkan secara maksimal dan memberikan kesempatan kepada konsumen dan pelaku usaha untuk memperoleh haknya dan melaksanakan kewajibannya secara adil.
+3.
+Asas keseimbangan dimaksudkan untuk memberikan keseimbangan antara kepentingan konsumen, pelaku usaha dan pemerintah dalam arti materiil ataupun spiritual.
+4.
+Asas keamanan dan keselamatan konsumen dimaksudkan untuk memberikan jaminan atas keamanan dan keselamatan kepada konsumen dalam penggunaan, pemakaian dan pemanfaatan barang dan/atau jasa yang dikonsumsi atau digunakan.
+5.
+Asas kepastian hukum dimaksudkan agar baik pelaku usaha maupun konsumen menaati hukum dan memperoleh keadilan dalam penyelenggaraan perlindungan konsumen, serta negara menjamin kepastian hukum.
+Pasal 3
+Cukup jelas.
+Pasal 4
+Huruf a
+Cukup jelas.
+Huruf b
+Cukup jelas.
+Huruf c
+Cukup jelas.
+Huruf d
+Cukup jelas.
+Huruf e
+Cukup jelas.
+Huruf f
+Cukup jelas.
+Huruf g
+Hak untuk diperlakukan atau dilayani secara benar dan jujur serta tidak diskriminatif berdasarkan  suku, agama, budaya, daerah, pendidikan, kaya, miskin dan status sosial lainnya.
+Huruf h
+Cukup jelas.
+Huruf i
+Cukup jelas.
+Pasal 5
+Cukup jelas.
+Pasal 6
+Cukup jelas.
+Pasal 7
+Huruf a
+Cukup jelas.
+Huruf b
+Cukup jelas.
+Huruf c
+Pelaku usaha dilarang membeda-bedakan konsumen dalam memberikan pelayanan. Pelaku usaha  dilarang membeda-bedakan mutu pelayanan kepada konsumen.
+Huruf d
+Cukup jelas.
+Huruf e
+Yang dimaksud dengan barang dan/atau jasa tertentu adalah barang yang dapat diuji atau dicoba  tanpa mengakibatkan kerusakan atau kerugian.
+Huruf f
+Cukup jelas.
+Huruf g
+Cukup jelas.
+Pasal 8
+Ayat (1)
+Huruf a
+Cukup jelas.
+Huruf b
+Cukup jelas.
+Huruf c
+Cukup jelas.
+Huruf d
+Cukup jelas.
+Huruf e
+Cukup jelas.
+Huruf f
+Cukup jelas.
+Huruf g
+Jangka waktu penggunaan/pemanfaatannya yang paling baik adalah terjemahan dari kata best  before yang biasa digunakan dalam label produk makanan.
+Huruf h
+Cukup jelas.
+Huruf i
+Cukup jelas.
+Huruf j
+Cukup jelas.
+Ayat (2)
+Barang-barang yang dimaksud adalah barang-barang yang tidak membahayakan konsumen dan  sesuai dengan ketentuan peraturan perundang-undangan yang berlaku.
+Ayat (3)
+Sediaan farmasi dan pangan yang dimaksud adalah yang membahayakan konsumen menurut  peraturan perundang-undangan yang berlaku.
+Ayat (4)
+Menteri dan menteri teknis berwenang menarik barang dan/atau jasa dari peredaran.
+Pasal 9
+Ayat (1)
+Cukup jelas.
+Ayat (2)
+Cukup jelas.
+Ayat (3)
+Cukup jelas.
+Pasal 10
+Cukup jelas.
+Pasal 11
+Huruf a
+Cukup jelas.
+Huruf b
+Cukup jelas.
+Huruf c
+Cukup jelas.
+Huruf d
+Yang dimaksud dengan jumlah tertentu dan jumlah yang cukup adalah jumlah yang memadai sesuai  dengan antisipasi permintaan konsumen.
+Huruf e
+Cukup jelas.
+Huruf f
+Cukup jelas.
+Pasal 12
+Cukup jelas.
+Pasal 13
+Ayat (1)
+Cukup jelas.
+Ayat (2)
+Cukup jelas.
+Pasal 14
+Cukup jelas.
+Pasal 15
+Cukup jelas.
+Pasal 16
+Cukup jelas.
+Pasal 17
+Ayat (1)
+Cukup jelas.
+Ayat (2)
+Cukup jelas.
+Pasal 18
+Ayat (1)
+Huruf a
+Cukup jelas.
+Huruf b
+Cukup jelas.
+Huruf c
+Cukup jelas.
+Huruf d
+Cukup jelas.
+Huruf e
+Cukup jelas.
+Huruf f
+Cukup jelas.
+Huruf g
+Cukup jelas.
+Huruf h
+Cukup jelas.
+Ayat (2)
+Cukup jelas.
+Ayat (3)
+Cukup jelas.
+Ayat (4)
+Cukup jelas.
+Pasal 19
+Ayat (1)
+Cukup jelas.
+Ayat (2)
+Cukup jelas.
+Ayat (3)
+Cukup jelas.
+Ayat (4)
+Cukup jelas.
+Ayat (5)
+Cukup jelas.
+Pasal 20
+Cukup jelas.
+Pasal 21
+Ayat (1)
+Cukup jelas.
+Ayat (2)
+Cukup jelas.
+Pasal 22
+Ketentuan ini dimaksudkan untuk menerapkan sistem beban pembuktian terbalik. Pasal 23
+Cukup jelas.
+Pasal 24
+Ayat (1)
+Cukup jelas.
+Ayat (2)
+Cukup jelas.
+Pasal 25
+Ayat (1)
+Cukup jelas.
+Ayat (2)
+Cukup jelas.
+Pasal 26
+Cukup jelas.
+Pasal 27
+Huruf a
+Cukup jelas.
+Huruf b
+Cacat timbul di kemudian hari adalah sesudah tanggal yang mendapat jaminan dari pelaku usaha  sebagaimana diperjanjikan, baik tertulis maupun lisan.
+Huruf c
+Yang dimaksud dengan kualifikasi barang adalah ketentuan standarisasi yang telah ditetapkan  pemerintah berdasarkan kesepakatan semua pihak.
+Huruf d
+Cukup jelas.
+Huruf e
+Jangka waktu yang diperjanjikan itu adalah masa garansi.
+Pasal 28
+Cukup jelas.
+Pasal 29
+Ayat (1)
+Cukup jelas.
+Ayat (2)
+Cukup jelas.
+Ayat (3)
+Cukup jelas.
+Ayat (4)
+Cukup jelas.
+Ayat (5)
+Cukup jelas.
+Pasal 30
+Ayat (1)
+Cukup jelas.
+Ayat (2)
+Yang dimaksud dengan menteri teknis adalah menteri yang bertanggung jawab secara teknis menurut bidang tugasnya.
+Ayat (3)
+Pengawasan yang dilakukan oleh masyarakat dan lembaga perlindungan konsumen swadaya  masyarakat dilakukan atas barang dan/atau jasa yang beredar di pasar dengan cara penelitian,  pengujian dan/atau survei. Aspek pengawasan meliputi pemuatan informasi tentang risiko penggunaan barang jika diharuskan,  pemasangan label, pengiklanan, dan lain-lain yang disyaratkan berdasarkan ketentuan peraturan  perundang-undangan dan kebiasaan dalam praktik dunia usaha.
+Ayat (4)
+Cukup jelas.
+Ayat (5)
+Cukup jelas.
+Ayat (6)
+Cukup jelas.
+Pasal 31
+Cukup jelas.
+Pasal 32
+Cukup jelas.
+Pasal 33
+Cukup jelas.
+Pasal 34
+Ayat (1)
+Huruf a
+Cukup jelas.
+Huruf b
+Cukup jelas.
+Huruf c
+Cukup jelas.
+Huruf d
+Cukup jelas.
+Huruf e
+Keberpihakan kepada konsumen dimaksudkan untuk meningkatkan sikap peduli yang tinggi  terhadap konsumen (wise consumerism).
+Huruf f
+Cukup jelas.
+Huruf g
+Cukup jelas.
+Ayat (2)
+Cukup jelas.
+Pasal 35
+Ayat (1)
+Jumlah wakil setiap unsur tidak harus sama.
+Ayat (2)
+Cukup jelas.
+Ayat (3)
+Cukup jelas.
+Ayat (4)
+Cukup jelas.
+Pasal 36
+Huruf a
+Cukup jelas.
+Huruf b
+Cukup jelas.
+Huruf c
+Cukup jelas.
+Huruf d
+Akademisi adalah mereka yang berpendidikan tinggi dan anggota perguruan tinggi.
+Huruf e
+Tenaga ahli adalah mereka yang berpengalaman di bidang perlindungan konsumen.
+Pasal 37
+Cukup jelas.
+Pasal 38
+Huruf a
+Cukup jelas.
+Huruf b
+Cukup jelas.
+Huruf c
+Cukup jelas.
+Huruf d
+Sakit secara terus menerus sehingga tidak mampu melaksanakan tugasnya.
+Huruf e
+Cukup jelas.
+Huruf f
+Cukup jelas.
+Pasal 39
+Ayat (1)
+Cukup jelas.
+Ayat (2)
+Cukup jelas.
+Ayat (3)
+Cukup jelas.
+Pasal 40
+Ayat (1)
+Cukup jelas.
+Ayat (2)
+Yang dimaksud dengan keputusan Ketua Badan Perlindungan Konsumen Nasional adalah keputusan  yang ditetapkan berdasarkan musyawarah anggota.
+Pasal 41
+Yang dimaksud dengan keputusan Ketua Badan Perlindungan Konsumen Nasional adalah keputusan yang  ditetapkan berdasarkan musyawarah anggota.
+Pasal 42
+Cukup jelas.
+Pasal 43
+Cukup jelas.
+Pasal 44
+Ayat (1)
+Yang dimaksud dengan memenuhi syarat, antara lain, terdaftar dan diakui serta bergerak di bidang  perlindungan konsumen.
+Ayat (2)
+Cukup jelas.
+Ayat (3)
+Cukup jelas.
+Ayat (4)
+Cukup jelas.
+Pasal 45
+Ayat (1)
+Cukup jelas.
+Ayat (2)
+Penyelesaian sengketa konsumen sebagaimana dimaksud pada ayat ini tidak menutup kemungkinan  penyelesaian damai oleh para pihak yang bersengketa. Pada setiap tahap diusahakan untuk  menggunakan penyelesaian damai oleh kedua belah pihak yang bersengketa. Yang dimaksud dengan penyelesaian secara damai adalah penyelesaian yang dilakukan oleh kedua  belah pihak yang bersengketa (pelaku usaha dan konsumen) tanpa melalui pengadilan atau badan  penyelesaian sengketa konsumen dan tidak bertentangan dengan Undang-undang ini.
+Ayat (3)
+Cukup jelas.
+Ayat (4)
+Cukup jelas.
+Pasal 46
+Ayat (1)
+Huruf a
+Cukup jelas.
+Huruf b
+Undang-undang ini mengakui gugatan kelompok atau class action. Gugatan kelompok atau  class action harus diajukan oleh konsumen yang benar-benar dirugikan dan dapat dibuktikan  secara hukum, salah satu diantaranya adalah adanya bukti transaksi.
+Huruf c
+Cukup jelas.
+Huruf d
+Tolok ukur kerugian materi yang besar dan/atau korban yang tidak sedikit yang dipakai adalah  besar dampaknya terhadap konsumen.
+Ayat (2)
+Cukup jelas.
+Ayat (3)
+Cukup jelas.
+Pasal 47
+Bentuk jaminan yang dimaksud dalam hal ini berupa pernyataan tertulis yang menerangkan bahwa tidak  akan terulang kembali perbuatan yang telah merugikan konsumen tersebut.
+Pasal 48
+Cukup jelas.
+Pasal 49
+Ayat (1)
+Cukup jelas.
+Ayat (2)
+Cukup jelas.
+Ayat (3)
+Unsur konsumen adalah lembaga perlindungan konsumen swadaya masyarakat atau sekelompok  konsumen.
+Ayat (4)
+Cukup jelas.
+Ayat (5)
+Cukup jelas.
+Pasal 50
+Cukup jelas.
+Pasal 51
+Ayat (1)
+Cukup jelas.
+Ayat (2)
+Cukup jelas.
+Ayat (3)
+Cukup jelas.
+Pasal 52
+Cukup jelas.
+Pasal 53
+Cukup jelas.
+Pasal 54
+Ayat (1)
+Cukup jelas.
+Ayat (2)
+Cukup jelas.
+Ayat (3)
+Yang dimaksud dengan putusan majelis bersifat final adalah bahwa dalam badan penyelesaian  sengketa konsumen tidak ada upaya banding dan kasasi.
+Ayat (4)
+Cukup jelas.
+Pasal 55
+Cukup jelas.
+Pasal 56
+Ayat (1)
+Cukup jelas
+Ayat (2)
+Cukup jelas
+Ayat (3)
+Cukup jelas
+Ayat (4)
+Cukup jelas
+Ayat (5)
+Cukup jelas
+Pasal 57
+Cukup jelas.
+Pasal 58
+Ayat (1)
+Cukup jelas.
+Ayat (2)
+Cukup jelas.
+Ayat (3)
+Cukup jelas.
+Pasal 59
+Ayat (1)
+Cukup jelas.
+Ayat (2)
+Cukup jelas.
+Ayat (3)
+Cukup jelas.
+Ayat (4)
+Cukup jelas.
+Pasal 60
+Ayat (1)
+Cukup jelas.
+Ayat (2)
+Cukup jelas.
+Ayat (3)
+Cukup jelas.
+Pasal 61
+Cukup jelas.
+Pasal 62
+Ayat (1)
+Cukup jelas.
+Ayat (2)
+Cukup jelas.
+Ayat (3)
+Cukup jelas.
+Pasal 63
+Cukup jelas.
+Pasal 64
+Cukup jelas.
+Pasal 65
+Cukup jelas.
+TAMBAHAN LEMBARAN NEGARA REPUBLIK INDONESIA NOMOR 3821

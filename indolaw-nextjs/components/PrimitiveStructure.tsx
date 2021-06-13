@@ -14,7 +14,6 @@ export default function PrimitiveStructure(props: {
       <style jsx>{`
         div {
           margin: 4px 0 16px 0;
-          font-size: 18px;
         }
 
         p {

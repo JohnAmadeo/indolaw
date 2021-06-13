@@ -23,7 +23,7 @@ export default function PenjelasanListItem(props: { structure: Complex }): JSX.E
       <div className="list-item">
         <div className="text-block">
           {structure.children.slice(1).map((childStructure, idx) =>
-            renderStructure(childStructure, idx, isMobile)
+            renderStructure(childStructure, idx, [], isMobile)
           )}
         </div>
       </div>

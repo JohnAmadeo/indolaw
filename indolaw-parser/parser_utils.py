@@ -676,14 +676,22 @@ def extract_metadata_from_tree(undang_undang_node: ComplexNode) -> Dict[str, Any
     e.g TAMBAHAN LEMBARAN NEGARA REPUBLIK INDONESIA NOMOR 4279
     '''
     def f(node: Union[ComplexNode, PrimitiveNode]):
-        if isinstance(node, ComplexNode):
-            f(node.children[-1])
-        elif isinstance(node, PrimitiveNode):
-            match = re.search(r'([0-9]+)', node.text)
-            if match is None:
-                raise Exception('Failed to get Tambahan Lembaran Negara no.')
+        child = node.children[-1]
 
-            metadata['tambahanLembaranNumber'] = int(match.group(0))
+        if isinstance(child, PrimitiveNode):
+            # remove the Tambahan Lembaran Negara number from Penjelasan Umum
+            node.children.pop()
+            extractTLN(child)
+            return
+        
+        f(child)
+            
+    def extractTLN(node: PrimitiveNode):
+        match = re.search(r'([0-9]+)', node.text)
+        if match is None:
+            raise Exception('Failed to get Tambahan Lembaran Negara no.')
+
+        metadata['tambahanLembaranNumber'] = int(match.group(0))
 
     f(undang_undang_node)
 
