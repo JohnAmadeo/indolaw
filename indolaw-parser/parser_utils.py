@@ -786,3 +786,13 @@ This PLAINTEXT is the 3rd line of a LIST_INDEX. Is it:
         return PlaintextInListItemScenario.EMBEDDED_LAW_SNIPPET
     else:
         raise Exception(f'Invalid command "{user_input}" entered by user')
+
+def is_descendant_of_modified_pasal(node: ComplexNode) -> bool:
+    currNode = node.parent
+    while currNode is not None:
+        if currNode.type == Structure.MODIFIED_PASAL:
+            return True
+
+        currNode = currNode.parent
+
+    return False
