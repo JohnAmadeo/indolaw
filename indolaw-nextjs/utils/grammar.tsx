@@ -78,6 +78,8 @@ export interface Complex {
   id: string;
 }
 
+export type NodeMap = { [key: string]: Complex };
+
 export function renderStructure(
   structure: Complex | Primitive,
   key?: string | number,
