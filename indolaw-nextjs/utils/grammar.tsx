@@ -191,6 +191,7 @@ export function renderStructure(
     case Structure.UNORDERED_LIST:
       return renderChildren(structure as Complex, key, penjelasanUmum);
     case Structure.PENJELASAN_PASAL_DEMI_PASAL:
+      // TODO(@johnamadeo): Add proper border color
       return (
         <>
           <style jsx>{`
