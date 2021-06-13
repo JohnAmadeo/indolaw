@@ -15,6 +15,7 @@ from parser_types import (
 )
 from parser_is_start_of_x import (
     is_start_of_lembaran_number,
+    is_start_of_modified_pasal,
     is_start_of_number_with_right_bracket,
     is_start_of_pasal,
     is_start_of_penjelasan_angka,
@@ -36,6 +37,7 @@ from parser_utils import (
     extract_metadata_from_tree,
     gen_plaintext_in_list_item_scenario_from_user,
     get_list_index_type,
+    is_descendant_of_modified_pasal,
     is_next_list_index_number,
     load_clean_law,
     print_around,
@@ -650,7 +652,86 @@ def parse_pasal(parent: ComplexNode, law: List[str], start_index: int) -> int:
             Structure.PENJELASAN
         ],
         sibling_structures=[Structure.PASAL],
-        child_structures=TEXT_BLOCK_STRUCTURES)
+        child_structures=TEXT_BLOCK_STRUCTURES+[Structure.MODIFIED_PASAL])
+
+    return end_index
+
+
+def parse_modified_pasal(parent: ComplexNode, law: List[str], start_index: int) -> int:
+    modified_pasal_node = ComplexNode(type=Structure.MODIFIED_PASAL)
+    parent.add_child(modified_pasal_node)
+
+    '''
+    TODO(@johnamadeo): Parsing MODIFIED_PASAL currently relies on adding
+    “ character to the start of every MODIFIED_PASAL_NUMBER and ” character
+    to the end of a consecutive block of MODIFIED_PASALs.
+
+    This notation is not present in the official UU PDFs, but added in
+    more recent HukumOnline PDFs. Since this notation is useful for parsing,
+    we have extended it & taken advantage of it. But once parsed, we want 
+    to remove these special characters.
+
+    If possible, being able to automatically parse MODIFIED_ASAL without these special
+    characters would obviously be better. Areas to look at include:
+    - It seems that pasals are numbered w/ Roman numerals (I, II, III, etc.) in UU
+    that are mostly modifying previous UUs, so readers can visually distinguish
+    pasals of the UU itself, and pasals of other UUs being mentioned & modified. 
+    '''
+
+    modified_pasal_number = law[start_index][1:]
+    modified_pasal_node.add_child(PrimitiveNode(
+        type=Structure.MODIFIED_PASAL_NUMBER, text=modified_pasal_number))
+
+    start_index = start_index+1
+    child_structures = TEXT_BLOCK_STRUCTURES
+
+    end_index = start_index-1
+
+    '''
+    "Cheat" by guessing the last index of this MODIFIED_PASAL with heuristics
+    and confirm with user ; this greatly simplifies the parsing below
+    '''
+    index = start_index
+    while index < len(law) - 1:
+        end_quote_char = '”'
+        if law[index].count(end_quote_char) % 2 == 1 and law[index][-1] == end_quote_char:
+            modified_pasal_end_index = index
+            law[index] = law[index][:-1]
+            break
+        elif is_start_of_modified_pasal(law, index):
+            modified_pasal_end_index = index-1
+            break
+
+        index += 1
+
+    # user_input = input(f'''
+    #     Is the line below the end of the MODIFIED_PASAL {modified_pasal_number}? (y / other line number)
+    #     [Line {modified_pasal_end_index}] {law[modified_pasal_end_index]}
+    #     INPUT: ''')
+
+    user_input = 'y'
+    if user_input.isnumeric():
+        modified_pasal_end_index = int(user_input)
+    elif user_input != 'y':
+        raise Exception(f'Input "{user_input}" is invalid')
+
+    while end_index < modified_pasal_end_index:
+        child_structure = None
+
+        # check if we've reached the start of a child structure
+        for maybe_child_structure in child_structures:
+            if is_start_of_structure(maybe_child_structure, law, start_index):
+                child_structure = maybe_child_structure
+                break
+
+        if child_structure == None:
+            crash(law, start_index,
+                  f'Cannot find structure for line {start_index}')
+
+        assert child_structure is not None  # mypy type hint
+        end_index = parse_structure(
+            modified_pasal_node, child_structure, law, start_index)
+        start_index = end_index + 1
 
     return end_index
 
@@ -871,6 +952,7 @@ def parse_list(parent: ComplexNode, law: List[str], start_index: int) -> int:
     non_recursive_ancestors = [
         Structure.PRINCIPLES,
         Structure.AGREEMENT,
+        Structure.MODIFIED_PASAL,
         Structure.PASAL,
         Structure.PARAGRAF,
         Structure.BAGIAN,
@@ -1014,13 +1096,22 @@ def parse_penjelasan_list_item(parent: ComplexNode, law: List[str], start_index:
     if is_start_of_penjelasan_list_index_str(law[start_index]):
         end_index = parse_list(penjelasan_list_item_node, law, start_index)
     else:
+        ancestor_structures = [Structure.PASAL]
+        child_structures = TEXT_BLOCK_STRUCTURES.copy()
+
+        is_desc = is_descendant_of_modified_pasal(penjelasan_list_item_node)
+        if is_desc:
+            ancestor_structures.append(Structure.MODIFIED_PASAL)
+        else:
+            child_structures.append(Structure.MODIFIED_PASAL)
+
         end_index = parse_complex_structure(
             penjelasan_list_item_node,
             law,
             start_index=start_index,
-            ancestor_structures=[Structure.PASAL],
+            ancestor_structures=ancestor_structures,
             sibling_structures=[Structure.PENJELASAN_LIST_ITEM],
-            child_structures=TEXT_BLOCK_STRUCTURES,
+            child_structures=child_structures,
         )
 
     return end_index
@@ -1163,6 +1254,8 @@ def parse_list_item(parent: ComplexNode, law: List[str], start_index: int) -> in
         Structure.PENJELASAN,
         Structure.PENJELASAN_PASAL_DEMI_PASAL,
     ]
+    if is_descendant_of_modified_pasal(list_item_node):
+        non_recursive_ancestors.append(Structure.MODIFIED_PASAL)
 
     start_index += 2
     end_index = start_index-1
@@ -1278,6 +1371,14 @@ def parse_list_item(parent: ComplexNode, law: List[str], start_index: int) -> in
                 return end_index
         elif is_start_of_unordered_list_item(law, start_index):
             child_structure = Structure.UNORDERED_LIST
+        elif is_start_of_modified_pasal(law, start_index) and\
+                not is_descendant_of_modified_pasal(list_item_node):
+            '''
+            If this LIST_ITEM is already a descendant of a MODIFIED_PASAL,
+            then it cannot be the parent of another MODIFIED_PASAL since
+            there is no such thing as nested MODIFIED PASAL
+            '''
+            child_structure = Structure.MODIFIED_PASAL
 
         if child_structure == None:
             crash(law, start_index,
@@ -1645,6 +1746,8 @@ def parse_structure(
         return parse_bab(parent, law, start_index)
     elif structure == Structure.PASAL:
         return parse_pasal(parent, law, start_index)
+    elif structure == Structure.MODIFIED_PASAL:
+        return parse_modified_pasal(parent, law, start_index)
     elif structure == Structure.BAGIAN:
         return parse_bagian(parent, law, start_index)
     elif structure == Structure.PARAGRAF:
