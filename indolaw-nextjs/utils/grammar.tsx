@@ -52,29 +52,6 @@ export enum Structure {
   PENJELASAN_ANGKA = "PENJELASAN_ANGKA",
 }
 
-const HEADING_STRUCTURES = new Set([
-  Structure.BAB_NUMBER,
-  Structure.BAB_TITLE,
-  Structure.PASAL_NUMBER,
-  Structure.MODIFIED_PASAL_NUMBER,
-  Structure.BAGIAN_NUMBER,
-  Structure.BAGIAN_TITLE,
-  Structure.PARAGRAF_NUMBER,
-  Structure.PARAGRAF_TITLE,
-]);
-
-const PRIMITIVE_STRUCTURES = new Set([
-  Structure.PLAINTEXT,
-  Structure.BAB_NUMBER,
-  Structure.BAB_TITLE,
-  Structure.PASAL_NUMBER,
-  Structure.MODIFIED_PASAL_NUMBER,
-  Structure.BAGIAN_NUMBER,
-  Structure.BAGIAN_TITLE,
-  Structure.PARAGRAF_NUMBER,
-  Structure.PARAGRAF_TITLE,
-]);
-
 export interface LawData {
   content: Complex;
   metadata: Metadata;
