@@ -46,11 +46,12 @@ export default function Pasal(props: {
     />
   );
 
+  const isModifiedPasal = structure.type === Structure.MODIFIED_PASAL;
   return (
     <>
       <style jsx>{`
         .container {
-          margin: 48px 0 0 0;
+          margin: ${isModifiedPasal ? '0' : '48px'} 0 0 0;
           // border: 1px solid red;
           display: flex;
           justify-content: center;
@@ -77,6 +78,7 @@ const renderCopyPasalHtml = (structure: Complex): JSX.Element => {
   const children = structure.children.map(childStructure => {
     switch (childStructure.type) {
       case Structure.PASAL_NUMBER:
+      case Structure.MODIFIED_PASAL_NUMBER:
         return (
           <p style={{ textAlign: 'center' }}>
             {(childStructure as Primitive).text}
@@ -88,9 +90,10 @@ const renderCopyPasalHtml = (structure: Complex): JSX.Element => {
         return renderCopyListHtml(childStructure as Complex);
       case Structure.UNORDERED_LIST:
         return renderCopyUnorderedListHtml(childStructure as Complex);
+      case Structure.MODIFIED_PASAL:
+        return renderCopyPasalHtml(childStructure as Complex);
       default:
-        console.log(structure);
-        throw Error(`Cannot render ${childStructure.type}`);
+        throw Error(`Cannot render ${childStructure.type} for copy-paste`);
     }
   });
 
