@@ -16,7 +16,7 @@ export default function DesktopLawPage(props: {
   // Ideally we'd want to set the width of the minimized tray to just 'inherit' so that it'll be as
   // wide as its contents; however in order to animate the tray collapsing/expanding we cannot use
   // 'inherit' due to a CSS transition limitation. See https://css-tricks.com/using-css-transitions-auto-dimensions/
-  const minimizedTrayWidth = 76;
+  const minimizedTrayWidth = 44;
   const trayWidth = isTrayExpanded ? expandedTrayWidth : minimizedTrayWidth;
 
   return (

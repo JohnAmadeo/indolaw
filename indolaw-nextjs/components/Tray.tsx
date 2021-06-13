@@ -130,7 +130,7 @@ export default function Tray(props: {
         .material-icons.style {
           vertical-align: bottom;
           font-size: 28px;
-          margin: 0 2px 0 -4px;
+          margin: 0 -4px 0 -4px;
         }
       `}</style>
       {isExpanded ? (
@@ -155,8 +155,7 @@ export default function Tray(props: {
                 className="tray-icon"
                 onClick={onMinimize}
               >
-                <i className="material-icons style">close</i>
-                <KeyboardShortcut text={'F'} />
+                <i className="material-icons style">arrow_back</i>
               </div>
             </div>
             <Divider />
@@ -169,7 +168,6 @@ export default function Tray(props: {
           onClick={onExpand}
         >
           <i className="material-icons style">arrow_forward</i>
-          <KeyboardShortcut text={'F'} />
         </div>
       )}
     </>
