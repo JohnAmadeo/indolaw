@@ -49,6 +49,7 @@ export default function Pasal(props: {
   const isModifiedPasal = structure.type === Structure.MODIFIED_PASAL;
   const isInPenjelasan = structure.id.includes('penjelasan');
   const key = getPenjelasanMapKey(structure.type, pasalNumber.text);
+  const penjelasanPasal = penjelasanMap[key];
 
   return (
     <>
@@ -72,7 +73,7 @@ export default function Pasal(props: {
       {structure.children
         .slice(numOfHeadingLines)
         .map((child, idx) => renderStructure(child, idx))}
-      {!isInPenjelasan && renderPenjelasan(penjelasanMap[key], undefined)}
+      {!isInPenjelasan && penjelasanPasal != null && renderPenjelasan(penjelasanPasal, undefined)}
     </>
   );
 }
