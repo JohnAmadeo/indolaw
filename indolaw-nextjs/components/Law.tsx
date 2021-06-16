@@ -32,7 +32,7 @@ function extractPenjelasanMap(law: Complex): NodeMap {
   const penjelasanMap: NodeMap = {};
 
   function traverse(node: Complex | Primitive) {
-    if (node.children !== undefined) {
+    if ("children" in node && node.children !== undefined) {
 
       node = node as Complex;
       if (node.type === Structure.PASAL || node.type == Structure.MODIFIED_PASAL) {
