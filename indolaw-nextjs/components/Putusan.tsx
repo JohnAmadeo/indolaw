@@ -21,8 +21,8 @@ export default function Putusan(props: {
 
         const maUrl = `https://putusan3.mahkamahagung.go.id/search.html?q=${topicKeywords}`;
         const mkUrl = `https://www.mkri.id/index.php?page=web.Putusan&id=1&kat=5&cari=${topicKeywords}`;
-        window.open(mkUrl, '_blank');
-        window.open(maUrl, '_blank');
+        window.open(mkUrl, '_mk');
+        window.open(maUrl, '_ma');
       }}
       iconName={'open_in_new'}
       text={'Lihat Putusan Terkait'}
