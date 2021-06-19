@@ -19,3 +19,59 @@ a {
 p {
   margin: 0;
 }
+
+@font-face {
+  font-family: "Merriweather";
+  src: url("/fonts/Merriweawther/Merriweather-Bold.ttf");
+  font-weight: 700;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Merriweather";
+  src: url("/fonts/Merriweather/Merriweather-BoldItalic.ttf");
+  font-weight: 700;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Merriweather";
+  src: url("/fonts/Merriweather/Merriweather-Italic.ttf");
+  font-weight: 400;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Merriweather";
+  src: url("/fonts/Merriweather/Merriweather-Regular.ttf");
+  font-weight: 400;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Merriweather Sans";
+  src: url("/fonts/MerriweatherSans/MerriweatherSans-Regular.ttf");
+  font-weight: 400;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Merriweather Sans";
+  src: url("/fonts/MerriweatherSans/MerriweatherSans-Italic.ttf");
+  font-weight: 400;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Merriweather Sans";
+  src: url("/fonts/MerriweatherSans/MerriweatherSans-Bold.ttf");
+  font-weight: 700;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Merriweather Sans";
+  src: url("/fonts/MerriweatherSans/MerriweatherSans-BoldItalic.ttf");
+  font-weight: 700;
+  font-display: swap;
+}
