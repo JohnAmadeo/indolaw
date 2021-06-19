@@ -46,18 +46,6 @@ class MyDocument extends Document {
             as="font"
             crossOrigin=""
           ></link>
-          <link 
-            rel="preload"
-            href="/fonts/Merriweather/MerriweatherSans-Bold.ttf"
-            as="font"
-            crossOrigin=""
-          ></link>
-          <link 
-            rel="preload"
-            href="/fonts/Merriweather/MerriweatherSans-BoldItalic.ttf"
-            as="font"
-            crossOrigin=""
-          ></link>
           <link
             href="https://fonts.googleapis.com/icon?family=Material+Icons"
             rel="stylesheet"

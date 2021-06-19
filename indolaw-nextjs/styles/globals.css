@@ -51,6 +51,7 @@ p {
 @font-face {
   font-family: "Merriweather Sans";
   src: url("/fonts/MerriweatherSans/MerriweatherSans-Regular.ttf");
+  font-style: normal;
   font-weight: 400;
   font-display: swap;
 }
@@ -58,20 +59,7 @@ p {
 @font-face {
   font-family: "Merriweather Sans";
   src: url("/fonts/MerriweatherSans/MerriweatherSans-Italic.ttf");
+  font-style: italic;
   font-weight: 400;
-  font-display: swap;
-}
-
-@font-face {
-  font-family: "Merriweather Sans";
-  src: url("/fonts/MerriweatherSans/MerriweatherSans-Bold.ttf");
-  font-weight: 700;
-  font-display: swap;
-}
-
-@font-face {
-  font-family: "Merriweather Sans";
-  src: url("/fonts/MerriweatherSans/MerriweatherSans-BoldItalic.ttf");
-  font-weight: 700;
   font-display: swap;
 }
