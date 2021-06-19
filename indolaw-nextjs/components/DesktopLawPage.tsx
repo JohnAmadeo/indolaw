@@ -57,7 +57,7 @@ export default function DesktopLawPage(props: {
       <div className="law-container">
 
         <div className="law">
-          <Law law={props.law.content} colorScheme={colorScheme} />
+          <Law law={props.law.content} metadata={props.law.metadata} colorScheme={colorScheme} />
         </div>
       </div>
     </div>
