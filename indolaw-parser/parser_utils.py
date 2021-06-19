@@ -13,6 +13,8 @@ from parser_types import (
     PlaintextInListItemScenario
 )
 from parser_is_start_of_x import (
+    MODIFIED_PASAL_NUMBER_REGEX,
+    PASAL_NUMBER_REGEX,
     is_start_of_number_with_brackets_str,
     is_start_of_number_with_right_bracket_str,
     is_start_of_number_with_dot_str,
@@ -24,6 +26,8 @@ from parser_is_start_of_x import (
     is_start_of_penjelasan_huruf_str,
     is_start_of_unordered_list_index_str,
 )
+
+PAGE_NUMBER_REGEX = r'[0-9]+[\s]*\/[\s]*[0-9]+'
 
 
 def ignore_line(line: str) -> bool:
@@ -52,7 +56,7 @@ def ignore_line(line: str) -> bool:
         return True
     elif "www.hukumonline.com" in line:
         return True
-    elif re.match(r'[0-9]+ \/ [0-9]+', line.rstrip()) != None:
+    elif re.match(PAGE_NUMBER_REGEX, line.rstrip()) != None:
         return True
     # page number
     elif re.match(r'- [0-9]+ -', line.rstrip()) != None:
@@ -289,7 +293,7 @@ def clean_law(law: List[str]) -> List[str]:
     law = list(filterfalse(ignore_line, law))
     new_law = []
     for line in law:
-        result = re.split(r'[0-9]+ / [0-9]+', line)
+        result = re.split(PAGE_NUMBER_REGEX, line)
         new_law.append(result[0])
 
     law = new_law
@@ -298,8 +302,19 @@ def clean_law(law: List[str]) -> List[str]:
     Deal with list indexes. See clean_maybe_list_item for more.
     '''
     new_law = []
-    for i, line in enumerate(law):
+    for _, line in enumerate(law):
         list_item = clean_maybe_list_item(line)
+        new_law.extend(list_item)
+
+    law = new_law
+
+    '''
+    Deal with heading structures (e.g PASAL_NUMBER and MODIFIED_PASAL_NUMBER) squashed onto the end of 
+    the previous line. (In theory, this can be expanded to BAB_TITLE, BAGIAN_TITLE etc.)
+    '''
+    new_law = []
+    for _, line in enumerate(law):
+        list_item = clean_maybe_squashed_heading(line)
         new_law.extend(list_item)
 
     law = new_law
@@ -489,6 +504,76 @@ def get_squashed_list_item(line):
         return None
 
 
+def clean_maybe_squashed_heading(line: str) -> List[str]:
+    start_index = get_squashed_heading(line)
+    if start_index != None:
+        return [
+            line[:start_index-1].strip(),
+            *clean_maybe_squashed_heading(line[start_index:]),
+        ]
+
+    return [line.strip()]
+
+
+def get_squashed_heading(line):
+    line_ending_regex = [
+        r'(;)',
+        r'(:)',
+        r'(\.)',
+        r'(; dan/atau)',
+        r'(; dan)',
+        r'(,)',
+    ]
+
+    def group(regex):
+        return r'(' + regex + r')'
+
+    heading_regex = [
+        group(PASAL_NUMBER_REGEX),  # PASAL_NUMBER
+        group(MODIFIED_PASAL_NUMBER_REGEX),  # MODIFIED_PASAL_NUMBER
+    ]
+
+    regexes = []
+    for i in line_ending_regex:
+        for j in heading_regex:
+            regexes.append(i + r'\s+' + j)
+
+    '''
+    There may be multiple squashed headings on a single line; we want to identify
+    the squashed heading that comes first.
+    '''
+    earliest_match = None
+    for regex in regexes:
+        match = re.search(regex, line)
+        if match is None:
+            continue
+
+        if (earliest_match is None) or match.start(0) < earliest_match.start(0):
+            print(regex)
+            earliest_match = match
+
+    if earliest_match is None:
+        return None
+
+    print(earliest_match.groups())
+    start_of_squashed_heading_idx = earliest_match.start(2)
+
+    user_input = input(f'''
+---------------
+{line[:start_of_squashed_heading_idx-1].strip()}
+- - - - - - - -
+{line[start_of_squashed_heading_idx:]}
+---------------
+
+Split line? {colored('y', 'green')} / {colored('n', 'red')}
+''')
+
+    if user_input == 'y':
+        return start_of_squashed_heading_idx
+    else:
+        return None
+
+
 def get_next_list_index(list_index: str) -> str:
     """Returns the string of the next list index that comes after the list index passed in
 
@@ -644,14 +729,22 @@ def extract_metadata_from_tree(undang_undang_node: ComplexNode) -> Dict[str, Any
     e.g TAMBAHAN LEMBARAN NEGARA REPUBLIK INDONESIA NOMOR 4279
     '''
     def f(node: Union[ComplexNode, PrimitiveNode]):
-        if isinstance(node, ComplexNode):
-            f(node.children[-1])
-        elif isinstance(node, PrimitiveNode):
-            match = re.search(r'([0-9]+)', node.text)
-            if match is None:
-                raise Exception('Failed to get Tambahan Lembaran Negara no.')
+        child = node.children[-1]
 
-            metadata['tambahanLembaranNumber'] = int(match.group(0))
+        if isinstance(child, PrimitiveNode):
+            # remove the Tambahan Lembaran Negara number from Penjelasan Umum
+            node.children.pop()
+            extractTLN(child)
+            return
+
+        f(child)
+
+    def extractTLN(node: PrimitiveNode):
+        match = re.search(r'([0-9]+)', node.text)
+        if match is None:
+            raise Exception('Failed to get Tambahan Lembaran Negara no.')
+
+        metadata['tambahanLembaranNumber'] = int(match.group(0))
 
     f(undang_undang_node)
 
@@ -770,17 +863,27 @@ def get_id(node: ComplexNode) -> str:
         bab_number_int = roman_to_int(bab_number_roman)
         return f'bab-{str(bab_number_int)}'
 
-    elif node.type == Structure.PASAL:
-        # We want the unique ID to be associated w/ the actual pasal, not the
-        # penjelasan tambahan at the end of the law
-        if node.parent is None or node.parent.type == Structure.PENJELASAN_PASAL_DEMI_PASAL:
-            return ''
-
+    elif node.type == Structure.PASAL or node.type == Structure.MODIFIED_PASAL:
         pasal_number_node = node.children[0]
         assert isinstance(pasal_number_node, PrimitiveNode) and \
-            pasal_number_node.type == Structure.PASAL_NUMBER
+            (
+                pasal_number_node.type == Structure.PASAL_NUMBER or
+                pasal_number_node.type == Structure.MODIFIED_PASAL_NUMBER
+        )
 
-        return f'pasal-{pasal_number_node.text.split()[1]}'
+        pasal_number = pasal_number_node.text.split()[1]
+
+        is_in_penjelasan = is_x_an_ancestor(
+            node, Structure.PENJELASAN_PASAL_DEMI_PASAL)
+
+        if is_in_penjelasan and node.type == Structure.PASAL:
+            return f'penjelasan-pasal-{pasal_number}'
+        elif not is_in_penjelasan and node.type == Structure.PASAL:
+            return f'pasal-{pasal_number}'
+        elif is_in_penjelasan and node.type == Structure.MODIFIED_PASAL:
+            return f'penjelasan-modified-pasal-{pasal_number}'
+        elif not is_in_penjelasan and node.type == Structure.MODIFIED_PASAL:
+            return f'modified-pasal-{pasal_number}'
 
     elif node.type == Structure.BAGIAN:
         bagian_number_node = node.children[0]
@@ -883,3 +986,26 @@ This PLAINTEXT is the 3rd line of a LIST_INDEX. Is it:
     else:
         raise Exception(f'Invalid command "{user_input}" entered by user')
 
+
+def is_descendant_of_modified_pasal(node: ComplexNode) -> bool:
+    currNode = node.parent
+    while currNode is not None:
+        if currNode.type == Structure.MODIFIED_PASAL:
+            return True
+
+        currNode = currNode.parent
+
+    return False
+
+
+def is_x_an_ancestor(
+    node: Union[ComplexNode, PrimitiveNode],
+    ancestor_structure: Structure
+):
+    if node.parent is not None:
+        if node.parent.type == ancestor_structure:
+            return True
+        else:
+            return is_x_an_ancestor(node.parent, ancestor_structure)
+
+    return False

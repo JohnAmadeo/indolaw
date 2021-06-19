@@ -1,5 +1,12 @@
 import { CSSProperties } from "react";
-import { Complex, Primitive, renderStructure } from "utils/grammar";
+import {
+  Complex,
+  Primitive,
+  renderPenjelasan,
+  renderStructure,
+  Structure,
+  NodeMap,
+} from "utils/grammar";
 import PrimitiveStructure from "./PrimitiveStructure";
 
 export default function StructureWithHeading(props: {
@@ -22,19 +29,16 @@ export default function StructureWithHeading(props: {
         }
       `}</style>
       <div id={structure.id}>
-        {structure.children
-          .slice(0, numOfHeadingLines)
-          .map((child, idx) => (
-            <PrimitiveStructure
-              key={idx}
-              structure={child as Primitive}
-              customStyle={headingStyle}
-            />
-          ))}
+        {structure.children.slice(0, numOfHeadingLines).map((child, idx) => (
+          <PrimitiveStructure
+            key={idx}
+            structure={child as Primitive}
+            customStyle={headingStyle}
+          />
+        ))}
       </div>
-      {structure.children
-        .slice(numOfHeadingLines)
-        .map((child, idx) => renderStructure(child, idx))}
+      {structure.children.slice(numOfHeadingLines).map((child, idx) =>
+        renderStructure(child, idx))}
     </>
   );
 }

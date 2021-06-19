@@ -23,14 +23,14 @@ export default function TableOfContentsGroup(props: {
     return <></>;
   }
 
-  const base = 18;
+  const base = 14;
   const px = (num: number) => `${num}px`;
   const style = {
     titleSize: px(base),
     numberSize: '14px',
-    // numberSize: px((4 / 5) * base),
-    iconSize: px((4 / 3) * base),
-    iconMarginLeft: px((-1 / 4) * base),
+    iconSize: '24px',
+    iconMarginLeft: '-6px',
+    iconMarginTop: '-4px',
     groupPaddingVert: px((1 / 4) * base),
   };
 
@@ -94,6 +94,7 @@ export default function TableOfContentsGroup(props: {
         .material-icons.style {
           font-size: ${style.iconSize};
           margin-left: ${style.iconMarginLeft};
+          margin-top: ${style.iconMarginTop};
           cursor: pointer;
           vertical-align: bottom;
           // border: 1px solid red;

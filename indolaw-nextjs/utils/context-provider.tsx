@@ -1,5 +1,6 @@
-import { Context, createContext, useContext, useState, ReactNode } from "react";
-import { ColorScheme, colors, darkColors, noColors } from "utils/theme";
+import { Context, createContext, useContext, useState, ReactNode } from 'react';
+import { ColorScheme, colors, darkColors, noColors } from 'utils/theme';
+import { NodeMap, Structure } from 'utils/grammar';
 import { emptyTooltip, TooltipData } from "./tooltip";
 
 type AppContextType = {
@@ -21,6 +22,21 @@ const AppContext: Context<AppContextType> = createContext({
   tooltipData: { contentKey: "", xPosition: 0, yPosition: 0 },
   setTooltip: (tooltipData) => {},
 });
+
+type LawContextType = {
+  penjelasanMap: NodeMap,
+};
+
+export const LawContext: Context<LawContextType> = createContext({
+  penjelasanMap: {},
+});
+
+export function getPenjelasanMapKey(
+  structure: Structure,
+  heading: string,
+): string {
+  return `${structure}-${heading}`;
+}
 
 export function AppContextWrapper(props: Props): JSX.Element {
   const [darkTheme, setDarkTheme] = useState(false);

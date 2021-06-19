@@ -4,6 +4,9 @@ import StructureWithHeading from "components/StructureWithHeading";
 import CenteredHeading from "components/CenteredHeading";
 import { CSSProperties } from "react";
 import PenjelasanListItem from "components/PenjelasanListItem";
+import PenjelasanPasalItem from "../components/PenjelasanPasalItem";
+import Pasal from "components/Pasal";
+import UUTitle from "components/UUTitle";
 
 export enum Structure {
   UNDANG_UNDANG = "UNDANG_UNDANG",
@@ -18,6 +21,8 @@ export enum Structure {
   BAB_TITLE = "BAB_TITLE",
   PASAL = "PASAL",
   PASAL_NUMBER = "PASAL_NUMBER",
+  MODIFIED_PASAL = "MODIFIED_PASAL",
+  MODIFIED_PASAL_NUMBER = "MODIFIED_PASAL_NUMBER",
   BAGIAN = "BAGIAN",
   BAGIAN_TITLE = "BAGIAN_TITLE",
   BAGIAN_NUMBER = "BAGIAN_NUMBER",
@@ -39,30 +44,13 @@ export enum Structure {
   UNORDERED_LIST_ITEM = "UNORDERED_LIST_ITEM",
   LIST_INDEX = "LIST_INDEX",
   NUMBER_WITH_BRACKETS = "NUMBER_WITH_BRACKETS",
+  NUMBER_WITH_RIGHT_BRACKET = "NUMBER_WITH_RIGHT_BRACKET",
   NUMBER_WITH_DOT = "NUMBER_WITH_DOT",
   LETTER_WITH_DOT = "LETTER_WITH_DOT",
+  PENJELASAN_HURUF = "PENJELASAN_HURUF",
+  PENJELASAN_AYAT = "PENJELASAN_AYAT",
+  PENJELASAN_ANGKA = "PENJELASAN_ANGKA",
 }
-
-const HEADING_STRUCTURES = new Set([
-  Structure.BAB_NUMBER,
-  Structure.BAB_TITLE,
-  Structure.PASAL_NUMBER,
-  Structure.BAGIAN_NUMBER,
-  Structure.BAGIAN_TITLE,
-  Structure.PARAGRAF_NUMBER,
-  Structure.PARAGRAF_TITLE,
-]);
-
-const PRIMITIVE_STRUCTURES = new Set([
-  Structure.PLAINTEXT,
-  Structure.BAB_NUMBER,
-  Structure.BAB_TITLE,
-  Structure.PASAL_NUMBER,
-  Structure.BAGIAN_NUMBER,
-  Structure.BAGIAN_TITLE,
-  Structure.PARAGRAF_NUMBER,
-  Structure.PARAGRAF_TITLE,
-]);
 
 export interface LawData {
   content: Complex;
@@ -91,6 +79,8 @@ export interface Complex {
   id: string;
 }
 
+export type NodeMap = { [key: string]: Complex };
+
 export function renderStructure(
   structure: Complex | Primitive,
   key?: string | number,
@@ -98,6 +88,7 @@ export function renderStructure(
 ) {
   switch (structure.type) {
     case Structure.UU_TITLE:
+      return <UUTitle key={key} structure={structure as Complex} />;
     case Structure.PREFACE:
     case Structure.AGREEMENT:
     case Structure.CLOSING:
@@ -130,6 +121,7 @@ export function renderStructure(
     case Structure.BAB_NUMBER:
     case Structure.BAB_TITLE:
     case Structure.PASAL_NUMBER:
+    case Structure.MODIFIED_PASAL_NUMBER:
     case Structure.BAGIAN_NUMBER:
     case Structure.BAGIAN_TITLE:
     case Structure.PARAGRAF_NUMBER:
@@ -160,8 +152,9 @@ export function renderStructure(
         />
       );
     case Structure.PASAL:
+    case Structure.MODIFIED_PASAL:
       return (
-        <StructureWithHeading
+        <Pasal
           key={key}
           structure={structure as Complex}
           numOfHeadingLines={1}
@@ -176,14 +169,20 @@ export function renderStructure(
     case Structure.UNORDERED_LIST:
       return renderChildren(structure as Complex, key);
     case Structure.PENJELASAN_PASAL_DEMI_PASAL:
+      // TODO(@johnamadeo): Add proper border color
       return (
         <>
           <style jsx>{`
             div {
-              margin: 48px 0 0 0;
+              margin: 48px;
+              padding: 40px;
+              border: 5px solid black;
             }
           `}</style>
-          <div>{renderChildren(structure as Complex, key)}</div>
+          <div>
+            Untuk kemudahan pemakaian HukumJelas, penjelasan masing-masing pasal
+            telah dipindahkan ke bawah pasal terkait
+          </div>
         </>
       );
     case Structure.LIST_ITEM:
@@ -191,6 +190,27 @@ export function renderStructure(
       return <ListItem key={key} structure={structure as Complex} />;
     case Structure.PENJELASAN_LIST_ITEM:
       return <PenjelasanListItem key={key} structure={structure as Complex} />;
+    default:
+      throw Error(`No rendering function ${structure.type}`);
+  }
+}
+
+export function renderPenjelasan(
+  structure: Complex | Primitive,
+  key?: string | number
+) {
+  switch (structure.type) {
+    case Structure.MODIFIED_PASAL:
+    case Structure.PASAL:
+      return (
+        <>
+          <PenjelasanPasalItem
+            key={key}
+            structure={structure as Complex}
+            numOfHeadingLines={1}
+          />
+        </>
+      );
     default:
       return <></>;
   }

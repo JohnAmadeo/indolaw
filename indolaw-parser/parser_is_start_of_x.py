@@ -3,6 +3,9 @@ import re
 
 from parser_types import Structure
 
+PASAL_NUMBER_REGEX = r'Pasal[\s]+([0-9]+|[MDCLXVI]+)'
+MODIFIED_PASAL_NUMBER_REGEX = r'“Pasal[\s]+[0-9]+[A-Z]*'
+
 
 def is_start_of_structure(structure: Structure, law: List[str], start_index: int) -> bool:
     """Checks if law[start_index] marks the start of a structure.
@@ -64,6 +67,10 @@ def is_start_of_structure(structure: Structure, law: List[str], start_index: int
         return is_start_of_pasal(law, start_index)
     elif structure == Structure.PASAL_NUMBER:
         return is_start_of_pasal_number(law, start_index)
+    elif structure == Structure.MODIFIED_PASAL:
+        return is_start_of_modified_pasal(law, start_index)
+    elif structure == Structure.MODIFIED_PASAL_NUMBER:
+        return is_start_of_modified_pasal_number(law, start_index)
     # BAGIAN
     elif structure == Structure.BAGIAN:
         return is_start_of_bagian(law, start_index)
@@ -457,7 +464,15 @@ def is_start_of_pasal_number(law: List[str], start_index: int) -> bool:
         >>> is_start_of_pasal_number(law, 2)
         True
     """
-    return is_heading(r'Pasal[\s]+[0-9]+', law[start_index])
+    return is_heading(PASAL_NUMBER_REGEX, law[start_index])
+
+
+def is_start_of_modified_pasal(law: List[str], start_index: int, ) -> bool:
+    return is_start_of_modified_pasal_number(law, start_index)
+
+
+def is_start_of_modified_pasal_number(law: List[str], start_index: int) -> bool:
+    return is_heading(MODIFIED_PASAL_NUMBER_REGEX, law[start_index])
 
 
 def is_start_of_bagian(law: List[str], start_index: int) -> bool:
@@ -730,7 +745,10 @@ def is_start_of_closing(law: List[str], start_index: int) -> bool:
         True
     """
     return 'Lembaran Negara Republik Indonesia'.lower() in law[start_index-1].lower() and\
-        'Disahkan Di Jakarta'.lower() in law[start_index].lower()
+        (
+            'Disahkan Di Jakarta'.lower() in law[start_index].lower() or
+            'Diundangkan Di Jakarta'.lower() in law[start_index].lower()
+    )
 
 
 def is_start_of_lembaran_number(law: List[str], start_index: int) -> bool:
