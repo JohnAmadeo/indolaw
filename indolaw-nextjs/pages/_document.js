@@ -24,12 +24,6 @@ class MyDocument extends Document {
           ></link>
           <link 
             rel="preload"
-            href="/fonts/Merriweather/Merriweather-BoldItalic.ttf"
-            as="font"
-            crossOrigin=""
-          ></link>
-          <link 
-            rel="preload"
             href="/fonts/Merriweather/Merriweather-Bold.ttf"
             as="font"
             crossOrigin=""
