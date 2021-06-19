@@ -52,6 +52,11 @@ export default function UUTitle(props: {
           display: flex;
           justify-content: center;
         }
+
+        div {
+          font-family: ${fonts.serif};
+        }
+
       `}</style>
       <div id={structure.id} className="container">
         {structure.children.map((child, idx) => {

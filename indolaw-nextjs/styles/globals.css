@@ -22,6 +22,13 @@ p {
 
 @font-face {
   font-family: "Merriweather";
+  src: url("/fonts/Merriweawther/Merriweather-BoldItalic.ttf");
+  font-weight: 700;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Merriweather";
   src: url("/fonts/Merriweawther/Merriweather-Bold.ttf");
   font-weight: 700;
   font-display: swap;
