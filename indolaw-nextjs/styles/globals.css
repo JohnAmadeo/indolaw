@@ -23,6 +23,7 @@ p {
 @font-face {
   font-family: "Merriweather";
   src: url("/fonts/Merriweawther/Merriweather-Bold.ttf");
+  font-style: normal;
   font-weight: 700;
   font-display: swap;
 }
@@ -30,6 +31,7 @@ p {
 @font-face {
   font-family: "Merriweather";
   src: url("/fonts/Merriweather/Merriweather-BoldItalic.ttf");
+  font-style: italic;
   font-weight: 700;
   font-display: swap;
 }
@@ -37,6 +39,7 @@ p {
 @font-face {
   font-family: "Merriweather";
   src: url("/fonts/Merriweather/Merriweather-Italic.ttf");
+  font-style: italic;
   font-weight: 400;
   font-display: swap;
 }
@@ -44,6 +47,7 @@ p {
 @font-face {
   font-family: "Merriweather";
   src: url("/fonts/Merriweather/Merriweather-Regular.ttf");
+  font-style: normal;
   font-weight: 400;
   font-display: swap;
 }
