@@ -11,8 +11,40 @@ class MyDocument extends Document {
       <Html>
         <Head>
           <link 
-            rel="stylesheet"
-            href="https://fonts.googleapis.com/css2?family=Merriweather+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Merriweather:ital,wght@0,400;0,700;1,400;1,700&display=swap" 
+            rel="preload"
+            href="/fonts/Merriweather/Merriweather-Regular.ttf"
+            as="font"
+            crossOrigin=""
+          ></link>
+          <link 
+            rel="preload"
+            href="/fonts/Merriweather/Merriweather-Italic.ttf"
+            as="font"
+            crossOrigin=""
+          ></link>
+          <link 
+            rel="preload"
+            href="/fonts/Merriweather/Merriweather-BoldItalic.ttf"
+            as="font"
+            crossOrigin=""
+          ></link>
+          <link 
+            rel="preload"
+            href="/fonts/Merriweather/Merriweather-Bold.ttf"
+            as="font"
+            crossOrigin=""
+          ></link>
+          <link 
+            rel="preload"
+            href="/fonts/Merriweather/MerriweatherSans-Regular.ttf"
+            as="font"
+            crossOrigin=""
+          ></link>
+          <link 
+            rel="preload"
+            href="/fonts/Merriweather/MerriweatherSans-Italic.ttf"
+            as="font"
+            crossOrigin=""
           ></link>
           <link
             href="https://fonts.googleapis.com/icon?family=Material+Icons"
