@@ -7,7 +7,7 @@ import ReactDOMServer from "react-dom/server";
 import { useMediaQuery } from "react-responsive";
 import * as clipboard from "clipboard-polyfill";
 import CopyButton from "./CopyButton";
-import { renderCopyPasalHtml } from "utils/copypaste";
+import { renderCopyHtml } from "utils/copypaste";
 import { LawContext, getPenjelasanMapKey } from "utils/context-provider";
 
 export default function Pasal(props: {
@@ -26,7 +26,7 @@ export default function Pasal(props: {
   };
 
   const htmlToCopy = ReactDOMServer.renderToStaticMarkup(
-    renderCopyPasalHtml(structure)
+    renderCopyHtml(structure)
   );
 
   const copyButton = (
@@ -45,9 +45,10 @@ export default function Pasal(props: {
     />
   );
 
+  const isPerubahanStructure = structure.type.includes('PERUBAHAN');
+  const isPenjelasanStructure = structure.type.includes('PENJELASAN');
+
   const pasalNumber = structure.children[0] as Primitive;
-  const isModifiedPasal = structure.type === Structure.MODIFIED_PASAL;
-  const isInPenjelasan = structure.id.includes('penjelasan');
   const key = getPenjelasanMapKey(structure.type, pasalNumber.text);
   const penjelasanPasal = penjelasanMap[key];
 
@@ -55,7 +56,7 @@ export default function Pasal(props: {
     <>
       <style jsx>{`
         .container {
-          margin: ${isModifiedPasal ? '0' : '48px'} 0 0 0;
+          margin: ${isPerubahanStructure ? '0' : '48px'} 0 0 0;
           display: flex;
           justify-content: center;
         }
@@ -73,7 +74,11 @@ export default function Pasal(props: {
       {structure.children
         .slice(numOfHeadingLines)
         .map((child, idx) => renderStructure(child, idx))}
-      {!isInPenjelasan && penjelasanPasal != null && renderPenjelasan(penjelasanPasal, undefined)}
+      {
+        !isPenjelasanStructure &&
+        penjelasanPasal != null &&
+        renderPenjelasan(penjelasanPasal, undefined)
+      }
     </>
   );
 }

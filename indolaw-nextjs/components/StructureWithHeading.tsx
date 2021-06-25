@@ -21,11 +21,13 @@ export default function StructureWithHeading(props: {
     fontWeight: 700,
   };
 
+  const inPerubahanStructure = structure.type.includes('PERUBAHAN');
+
   return (
     <>
       <style jsx>{`
         div {
-          margin: 48px 0 0 0;
+          margin: ${inPerubahanStructure ? '0' : '48px'} 0 0 0;
         }
       `}</style>
       <div id={structure.id}>

@@ -4,7 +4,7 @@ import StructureWithHeading from "components/StructureWithHeading";
 import CenteredHeading from "components/CenteredHeading";
 import { CSSProperties } from "react";
 import PenjelasanListItem from "components/PenjelasanListItem";
-import PenjelasanPasalItem from "../components/PenjelasanPasalItem";
+import PenjelasanPasal from "../components/PenjelasanPasal";
 import Pasal from "components/Pasal";
 import UUTitle from "components/UUTitle";
 
@@ -16,32 +16,39 @@ export enum Structure {
   AGREEMENT = "AGREEMENT",
   CONSIDERATIONS = "CONSIDERATIONS",
   PRINCIPLES = "PRINCIPLES",
+
   BAB = "BAB",
   BAB_NUMBER = "BAB_NUMBER",
   BAB_TITLE = "BAB_TITLE",
+
   PASAL = "PASAL",
   PASAL_NUMBER = "PASAL_NUMBER",
-  MODIFIED_PASAL = "MODIFIED_PASAL",
-  MODIFIED_PASAL_NUMBER = "MODIFIED_PASAL_NUMBER",
   BAGIAN = "BAGIAN",
   BAGIAN_TITLE = "BAGIAN_TITLE",
   BAGIAN_NUMBER = "BAGIAN_NUMBER",
+
   PARAGRAF = "PARAGRAF",
   PARAGRAF_TITLE = "PARAGRAF_TITLE",
   PARAGRAF_NUMBER = "PARAGRAF_NUMBER",
+
   CLOSING = "CLOSING",
+
   PENJELASAN = "PENJELASAN",
+  PENJELASAN_PASAL = "PENJELASAN_PASAL",
   PENJELASAN_TITLE = "PENJELASAN_TITLE",
   PENJELASAN_UMUM = "PENJELASAN_UMUM",
   PENJELASAN_UMUM_TITLE = "PENJELASAN_UMUM_TITLE",
   PENJELASAN_PASAL_DEMI_PASAL = "PENJELASAN_PASAL_DEMI_PASAL",
   PENJELASAN_PASAL_DEMI_PASAL_TITLE = "PENJELASAN_PASAL_DEMI_PASAL_TITLE",
   PENJELASAN_LIST_ITEM = "PENJELASAN_LIST_ITEM",
+
   PLAINTEXT = "PLAINTEXT",
+
   LIST = "LIST",
   LIST_ITEM = "LIST_ITEM",
   UNORDERED_LIST = "UNORDERED_LIST",
   UNORDERED_LIST_ITEM = "UNORDERED_LIST_ITEM",
+
   LIST_INDEX = "LIST_INDEX",
   NUMBER_WITH_BRACKETS = "NUMBER_WITH_BRACKETS",
   NUMBER_WITH_RIGHT_BRACKET = "NUMBER_WITH_RIGHT_BRACKET",
@@ -50,6 +57,16 @@ export enum Structure {
   PENJELASAN_HURUF = "PENJELASAN_HURUF",
   PENJELASAN_AYAT = "PENJELASAN_AYAT",
   PENJELASAN_ANGKA = "PENJELASAN_ANGKA",
+
+  PERUBAHAN_SECTION = "PERUBAHAN_SECTION",
+  PERUBAHAN_PASAL = "PERUBAHAN_PASAL",
+  PERUBAHAN_BAB = "PERUBAHAN_BAB",
+  PERUBAHAN_BAGIAN = "PERUBAHAN_BAGIAN",
+
+  PENJELASAN_PERUBAHAN_SECTION = "PENJELASAN_PERUBAHAN_SECTION",
+  PENJELASAN_PERUBAHAN_PASAL = "PENJELASAN_PERUBAHAN_PASAL",
+  PENJELASAN_PERUBAHAN_BAB = "PENJELASAN_PERUBAHAN_BAB",
+  PENJELASAN_PERUBAHAN_BAGIAN = "PENJELASAN_PERUBAHAN_BAGIAN",
 }
 
 export interface LawData {
@@ -120,7 +137,6 @@ export function renderStructure(
     case Structure.BAB_NUMBER:
     case Structure.BAB_TITLE:
     case Structure.PASAL_NUMBER:
-    case Structure.MODIFIED_PASAL_NUMBER:
     case Structure.BAGIAN_NUMBER:
     case Structure.BAGIAN_TITLE:
     case Structure.PARAGRAF_NUMBER:
@@ -143,6 +159,8 @@ export function renderStructure(
     case Structure.BAB:
     case Structure.BAGIAN:
     case Structure.PARAGRAF:
+    case Structure.PERUBAHAN_BAB:
+    case Structure.PERUBAHAN_BAGIAN:
       return (
         <StructureWithHeading
           key={key}
@@ -150,10 +168,28 @@ export function renderStructure(
           numOfHeadingLines={2}
         />
       );
+    case Structure.PENJELASAN_PERUBAHAN_BAGIAN:
+    case Structure.PENJELASAN_PERUBAHAN_BAB:
+      return (
+        <StructureWithHeading
+          key={key}
+          structure={structure as Complex}
+          numOfHeadingLines={1}
+        />
+      );
     case Structure.PASAL:
-    case Structure.MODIFIED_PASAL:
+    case Structure.PERUBAHAN_PASAL:
+    case Structure.PENJELASAN_PERUBAHAN_PASAL:
       return (
         <Pasal
+          key={key}
+          structure={structure as Complex}
+          numOfHeadingLines={1}
+        />
+      );
+    case Structure.PENJELASAN_PASAL:
+      return (
+        <PenjelasanPasal
           key={key}
           structure={structure as Complex}
           numOfHeadingLines={1}
@@ -166,6 +202,8 @@ export function renderStructure(
     case Structure.PENJELASAN_UMUM:
     case Structure.LIST:
     case Structure.UNORDERED_LIST:
+    case Structure.PERUBAHAN_SECTION:
+    case Structure.PENJELASAN_PERUBAHAN_SECTION:
       return renderChildren(structure as Complex, key);
     case Structure.PENJELASAN_PASAL_DEMI_PASAL:
       // TODO(@johnamadeo): Add proper border color
@@ -199,11 +237,10 @@ export function renderPenjelasan(
   key?: string | number
 ) {
   switch (structure.type) {
-    case Structure.MODIFIED_PASAL:
-    case Structure.PASAL:
+    case Structure.PENJELASAN_PASAL:
       return (
         <>
-          <PenjelasanPasalItem
+          <PenjelasanPasal
             key={key}
             structure={structure as Complex}
             numOfHeadingLines={1}

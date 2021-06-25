@@ -5,10 +5,10 @@ import PrimitiveStructure from "./PrimitiveStructure";
 import ReactDOMServer from "react-dom/server";
 import * as clipboard from "clipboard-polyfill";
 import CopyButton from "./CopyButton";
-import { renderCopyPasalHtml } from "utils/copypaste";
+import { renderCopyHtml } from "utils/copypaste";
 import { useMediaQuery } from "react-responsive";
 
-export default function PenjelasanPasalItem(props: {
+export default function PenjelasanPasal(props: {
   structure: Complex;
   numOfHeadingLines: number;
 }): JSX.Element {
@@ -25,7 +25,7 @@ export default function PenjelasanPasalItem(props: {
   };
 
   const htmlToCopy = ReactDOMServer.renderToStaticMarkup(
-    renderCopyPasalHtml(structure)
+    renderCopyHtml(structure)
   );
 
   const copyButton = (

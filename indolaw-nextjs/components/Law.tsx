@@ -31,17 +31,16 @@ function extractPenjelasanMap(law: Complex): NodeMap {
   const penjelasanPasalDemiPasal = penjelasan.children[penjelasan.children.length - 1];
   const penjelasanMap: NodeMap = {};
 
-  function traverse(node: Complex | Primitive) {
-    if ("children" in node && node.children !== undefined) {
-
-      node = node as Complex;
-      if (node.type === Structure.PASAL || node.type == Structure.MODIFIED_PASAL) {
-        const pasalNumber = node.children[0] as Primitive;
-        const key = getPenjelasanMapKey(node.type, pasalNumber.text);
-        penjelasanMap[key] = node;
+  function traverse(structure: Complex | Primitive) {
+    if ("children" in structure && structure.children !== undefined) {
+      structure = structure as Complex;
+      if (structure.type === Structure.PENJELASAN_PASAL) {
+        const pasalNumber = structure.children[0] as Primitive;
+        const key = getPenjelasanMapKey(Structure.PASAL, pasalNumber.text);
+        penjelasanMap[key] = structure;
       }
 
-      for (let child of node.children) {
+      for (let child of structure.children) {
         traverse(child);
       }
     }
