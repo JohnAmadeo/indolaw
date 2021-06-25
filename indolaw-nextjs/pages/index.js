@@ -82,6 +82,12 @@ export default function Home() {
             <span className="link"><Link href="/uu/2011/12">Undang-Undang 12 Tahun 2011 Tentang Pembentukan Peraturan Perundang-Undangan</Link></span>
           </li>
         </ul>
+        <li>2016</li>
+        <ul>
+          <li>
+            <span className="link"><Link href="/uu/2016/19">Undang-Undang 19 Tahun 2016 Tentang Perubahan Atas Undang-Undang Nomor 11 Tahun 2008 Tentang Informasi dan Transaksi Elektronik</Link></span>
+          </li>
+        </ul>
         <li>2017</li>
         <ul>
           <li>
@@ -92,6 +98,17 @@ export default function Home() {
         <ul>
           <li>
             <span className="link"><Link href="/uu/2019/19">Undang-Undang 19 Tahun 2019 Tentang Perubahan Kedua atas Undang-Undang Nomor 30 Tahun 2002 Tentang Komisi Pemberantasan Tindak Pidana Korupsi</Link></span>
+          </li>
+        </ul>
+        <li>2020</li>
+        <ul>
+          <li>
+            <span className="link"><Link href="/uu/2020/3">Undang-Undang 3 Tahun 2020 Tentang Perubahan Atas Undang-Undang Nomor 4 Tahun 2009 Tentang Pertambangan Mineral Dan Batubara</Link></span>
+          </li>
+        </ul>
+        <ul>
+          <li>
+            <span className="link"><Link href="/uu/2020/7">Undang-Undang 7 Tahun 2020 Tentang Perubahan Ketiga Atas Undang-Undang Nomor 24 Tahun 2003 Tentang Mahkamah Konstitusi</Link></span>
           </li>
         </ul>
       </ul>
