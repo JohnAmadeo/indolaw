@@ -1,0 +1,2808 @@
+{
+  "metadata": {
+    "lembaranNegaraNumber": 216,
+    "lembaranNegaraYear": 2020,
+    "tambahanLembaranNumber": 6554,
+    "number": 7,
+    "topic": "Perubahan Ketiga Atas Undang-undang Nomor 24 Tahun 2003 Tentang Mahkamah Konstitusi",
+    "year": 2020
+  },
+  "content": {
+    "type": "UNDANG_UNDANG",
+    "id": "",
+    "children": [
+      {
+        "type": "OPENING",
+        "id": "",
+        "children": [
+          {
+            "type": "UU_TITLE",
+            "id": "",
+            "children": [
+              {
+                "type": "PLAINTEXT",
+                "text": "UNDANG-UNDANG REPUBLIK INDONESIA"
+              },
+              {
+                "type": "UU_TITLE_YEAR_AND_NUMBER",
+                "text": "NOMOR 7 TAHUN 2020"
+              },
+              {
+                "type": "PLAINTEXT",
+                "text": "TENTANG"
+              },
+              {
+                "type": "UU_TITLE_TOPIC",
+                "text": "PERUBAHAN KETIGA ATAS UNDANG-UNDANG NOMOR 24 TAHUN 2003 TENTANG MAHKAMAH KONSTITUSI"
+              }
+            ]
+          },
+          {
+            "type": "PREFACE",
+            "id": "",
+            "children": [
+              {
+                "type": "PLAINTEXT",
+                "text": "DENGAN RAHMAT TUHAN YANG MAHA ESA"
+              },
+              {
+                "type": "PLAINTEXT",
+                "text": "PRESIDEN REPUBLIK INDONESIA,"
+              }
+            ]
+          },
+          {
+            "type": "CONSIDERATIONS",
+            "id": "",
+            "children": [
+              {
+                "type": "PLAINTEXT",
+                "text": "Menimbang:"
+              },
+              {
+                "type": "LIST",
+                "id": "",
+                "children": [
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "LETTER_WITH_DOT",
+                        "text": "a."
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "bahwa Negara Kesatuan Republik Indonesia merupakan negara hukum yang berdasarkan Pancasila dan Undang-Undang Dasar Negara Republik Indonesia Tahun 1945, bertujuan untuk mewujudkan tata kehidupan bangsa dan negara yang tertib, bersih, makmur, dan berkeadilan;"
+                      }
+                    ]
+                  },
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "LETTER_WITH_DOT",
+                        "text": "b."
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "bahwa Mahkamah Konstitusi merupakan pelaku kekuasaan kehakiman yang merdeka dan mempunyai peranan penting guna menegakkan konstitusi dan prinsip negara hukum sesuai dengan kewenangan dan kewajibannya sebagaimana ditentukan dalam Undang-Undang Dasar Negara Republik Indonesia Tahun 1945;"
+                      }
+                    ]
+                  },
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "LETTER_WITH_DOT",
+                        "text": "c."
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "bahwa beberapa ketentuan dalam Undang-Undang Nomor 24 Tahun 2003 tentang Mahkamah Konstitusi sebagaimana telah beberapa kali diubah yaitu dengan Undang-Undang Nomor 8 Tahun 2011 tentang Perubahan atas Undang-Undang Nomor 24 Tahun 2003 tentang Mahkamah Konstitusi dan dengan Undang-Undang Nomor 4 Tahun 2014 tentang Penetapan Peraturan Pemerintah Pengganti Undang-Undang Nomor 1 Tahun 2013 tentang Perubahan Kedua atas Undang-Undang Nomor 24 Tahun 2003 tentang Mahkamah Konstitusi Menjadi Undang-Undang sudah tidak sesuai dengan perkembangan kebutuhan hukum masyarakat dan kehidupan ketatanegaraan sehingga perlu diubah;"
+                      }
+                    ]
+                  },
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "LETTER_WITH_DOT",
+                        "text": "d."
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "bahwa berdasarkan pertimbangan sebagaimana dimaksud dalam huruf a, huruf b, dan huruf c, perlu membentuk Undang-Undang tentang Perubahan Ketiga atas Undang-Undang Nomor 24 Tahun 2003 tentang Mahkamah Konstitusi."
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "PRINCIPLES",
+            "id": "",
+            "children": [
+              {
+                "type": "PLAINTEXT",
+                "text": "Mengingat:"
+              },
+              {
+                "type": "LIST",
+                "id": "",
+                "children": [
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "NUMBER_WITH_DOT",
+                        "text": "1."
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "Pasal 7A, Pasal 78, Pasal 20, Pasal 21, Pasal 24,Pasal 24C, dan Pasal 25 Undang-Undang Dasar Negara Republik Indonesia Tahun 1945;"
+                      }
+                    ]
+                  },
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "NUMBER_WITH_DOT",
+                        "text": "2."
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "Undang-Undang Nomor 24 Tahun 2003 tentang Mahkamah Konstitusi (Lembaran Negara Republik Indonesia Tahun 2003 Nomor 98, Tambahan Lembaran Negara Republik Indonesia Nomor 4316), sebagaimana telah beberapa kali diubah terakhir dengan Undang-Undang Nomor 4 Tahun 2014 tentang Penetapan Peraturan Pemerintah Pengganti Undang-Undang Nomor 1 Tahun 2013 tentang Perubahan Kedua atas Undang-Undang Nomor 24 Tahun 2003 tentang Mahkamah Konstitusi Menjadi Undang-Undang (Lembaran Negara Republik Indonesia Tahun 2014 Nomor 5, Tambahan Lembaran Negara Republik Indonesia Nomor 5456)."
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "AGREEMENT",
+            "id": "",
+            "children": [
+              {
+                "type": "PLAINTEXT",
+                "text": "Dengan Persetujuan Bersama"
+              },
+              {
+                "type": "PLAINTEXT",
+                "text": "DEWAN PERWAKILAN RAKYAT REPUBLIK INDONESIA"
+              },
+              {
+                "type": "PLAINTEXT",
+                "text": "dan"
+              },
+              {
+                "type": "PLAINTEXT",
+                "text": "PRESIDEN REPUBLIK INDONESIA"
+              },
+              {
+                "type": "PLAINTEXT",
+                "text": "MEMUTUSKAN:"
+              },
+              {
+                "type": "PLAINTEXT",
+                "text": "Menetapkan:"
+              },
+              {
+                "type": "PLAINTEXT",
+                "text": "UNDANG-UNDANG TENTANG PERUBAHAN KETIGA ATAS UNDANG-UNDANG NOMOR 24 TAHUN 2003 TENTANG MAHKAMAH KONSTITUSI."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "PASAL",
+        "id": "pasal-I",
+        "children": [
+          {
+            "type": "PASAL_NUMBER",
+            "text": "Pasal I"
+          },
+          {
+            "type": "PLAINTEXT",
+            "text": "Beberapa ketentuan dalam Undang-Undang Nomor 24 Tahun 2003 tentang Mahkamah Konstitusi (Lembaran Negara Republik Indonesia Tahun 2003 Nomor 98, Tambahan Lembaran Negara Republik Indonesia Nomor 4316), yang telah beberapa kali diubah dengan Undang-Undang:"
+          },
+          {
+            "type": "LIST",
+            "id": "",
+            "children": [
+              {
+                "type": "LIST_ITEM",
+                "id": "",
+                "children": [
+                  {
+                    "type": "LETTER_WITH_DOT",
+                    "text": "a."
+                  },
+                  {
+                    "type": "PLAINTEXT",
+                    "text": "Nomor 8 Tahun 2011 tentang Perubahan atas Undang-Undang Nomor 24 Tahun 2003 tentang Mahkamah Konstitusi (Lembaran Negara Republik Indonesia Tahun 2011 Nomor 70, Tambahan Lembaran Negara Republik Indonesia Nomor 5226);"
+                  }
+                ]
+              },
+              {
+                "type": "LIST_ITEM",
+                "id": "",
+                "children": [
+                  {
+                    "type": "LETTER_WITH_DOT",
+                    "text": "b."
+                  },
+                  {
+                    "type": "PLAINTEXT",
+                    "text": "Nomor 4 Tahun 2014 tentang Penetapan Peraturan Pemerintah Pengganti Undang-Undang Nomor 1 Tahun 2013 tentang Perubahan Kedua atas Undang-Undang Nomor 24 Tahun 2003 tentang Mahkamah Konstitusi Menjadi Undang-Undang (Lembaran Negara Republik Indonesia Tahun 2014 Nomor 5, Tambahan Lembaran Negara Republik Indonesia Nomor 5456);"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "PLAINTEXT",
+            "text": "diubah sebagai berikut:"
+          },
+          {
+            "type": "LIST",
+            "id": "",
+            "children": [
+              {
+                "type": "LIST_ITEM",
+                "id": "",
+                "children": [
+                  {
+                    "type": "NUMBER_WITH_DOT",
+                    "text": "1."
+                  },
+                  {
+                    "type": "PLAINTEXT",
+                    "text": "Ketentuan ayat (3) dan ayat (4) Pasal 4 diubah, ayat (4f), ayat (4g), dan ayat (4h) Pasal 4 dihapus, sehingga Pasal 4 berbunyi sebagai berikut:"
+                  },
+                  {
+                    "type": "PERUBAHAN_SECTION",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "PERUBAHAN_PASAL",
+                        "id": "perubahan-pasal-4",
+                        "children": [
+                          {
+                            "type": "PASAL_NUMBER",
+                            "text": "Pasal 4"
+                          },
+                          {
+                            "type": "LIST",
+                            "id": "",
+                            "children": [
+                              {
+                                "type": "LIST_ITEM",
+                                "id": "",
+                                "children": [
+                                  {
+                                    "type": "NUMBER_WITH_BRACKETS",
+                                    "text": "(1)"
+                                  },
+                                  {
+                                    "type": "PLAINTEXT",
+                                    "text": "Mahkamah Konstitusi mempunyai 9 (sembilan) orang anggota hakim konstitusi yang ditetapkan dengan Keputusan Presiden."
+                                  }
+                                ]
+                              },
+                              {
+                                "type": "LIST_ITEM",
+                                "id": "",
+                                "children": [
+                                  {
+                                    "type": "NUMBER_WITH_BRACKETS",
+                                    "text": "(2)"
+                                  },
+                                  {
+                                    "type": "PLAINTEXT",
+                                    "text": "Susunan Mahkamah Konstitusi terdiri atas seorang Ketua merangkap anggota, seorang Wakil Ketua merangkap anggota, dan 7 (tujuh) orang anggota hakim konstitusi."
+                                  }
+                                ]
+                              },
+                              {
+                                "type": "LIST_ITEM",
+                                "id": "",
+                                "children": [
+                                  {
+                                    "type": "NUMBER_WITH_BRACKETS",
+                                    "text": "(3)"
+                                  },
+                                  {
+                                    "type": "PLAINTEXT",
+                                    "text": "Ketua dan Wakil Ketua Mahkamah Konstitusi dipilih dari dan oleh anggota hakim konstitusi untuk masa jabatan selama 5 (lima) tahun terhitung sejak tanggal pengangkatan Ketua dan Wakil Ketua Mahkamah Konstitusi."
+                                  }
+                                ]
+                              },
+                              {
+                                "type": "LIST_ITEM",
+                                "id": "",
+                                "children": [
+                                  {
+                                    "type": "NUMBER_WITH_BRACKETS",
+                                    "text": "(3a)"
+                                  },
+                                  {
+                                    "type": "PLAINTEXT",
+                                    "text": "Ketua dan Wakil Ketua Mahkamah Konstitusi yang terpilih sebagaimana dimaksud pada ayat (3) dapat dipilih kembali dalam jabatan yang sama untuk 1 (satu) kali masa jabatan."
+                                  }
+                                ]
+                              },
+                              {
+                                "type": "LIST_ITEM",
+                                "id": "",
+                                "children": [
+                                  {
+                                    "type": "NUMBER_WITH_BRACKETS",
+                                    "text": "(4)"
+                                  },
+                                  {
+                                    "type": "PLAINTEXT",
+                                    "text": "Sebelum Ketua dan Wakil Ketua Mahkamah Konstitusi sebagaimana dimaksud pada ayat (3) terpilih, rapat pemilihan Ketua dan Wakil Ketua Mahkamah Konstitusi dipimpin oleh hakim konstitusi yang tertua."
+                                  }
+                                ]
+                              },
+                              {
+                                "type": "LIST_ITEM",
+                                "id": "",
+                                "children": [
+                                  {
+                                    "type": "NUMBER_WITH_BRACKETS",
+                                    "text": "(4a)"
+                                  },
+                                  {
+                                    "type": "PLAINTEXT",
+                                    "text": "Rapat pemilihan sebagaimana dimaksud pada ayat (4) dihadiri paling sedikit 7 (tujuh) orang anggota hakim konstitusi."
+                                  }
+                                ]
+                              },
+                              {
+                                "type": "LIST_ITEM",
+                                "id": "",
+                                "children": [
+                                  {
+                                    "type": "NUMBER_WITH_BRACKETS",
+                                    "text": "(4b)"
+                                  },
+                                  {
+                                    "type": "PLAINTEXT",
+                                    "text": "Dalam hal kuorum rapat sebagaimana dimaksud pada ayat (4a) tidak terpenuhi, rapat ditunda paling lama 2 (dua) jam."
+                                  }
+                                ]
+                              },
+                              {
+                                "type": "LIST_ITEM",
+                                "id": "",
+                                "children": [
+                                  {
+                                    "type": "NUMBER_WITH_BRACKETS",
+                                    "text": "(4c)"
+                                  },
+                                  {
+                                    "type": "PLAINTEXT",
+                                    "text": "Apabila penundaan rapat sebagaimana dimaksud pada ayat (4b) telah dilakukan dan kuorum rapat belum terpenuhi, rapat dapat mengambil keputusan tanpa kuorum."
+                                  }
+                                ]
+                              },
+                              {
+                                "type": "LIST_ITEM",
+                                "id": "",
+                                "children": [
+                                  {
+                                    "type": "NUMBER_WITH_BRACKETS",
+                                    "text": "(4d)"
+                                  },
+                                  {
+                                    "type": "PLAINTEXT",
+                                    "text": "Pengambilan keputusan dalam rapat pemilihan Ketua dan Wakil Ketua Mahkamah Konstitusi sebagaimana dimaksud pada ayat (4c) dilakukan secara musyawarah mufakat untuk mencapai aklamasi."
+                                  }
+                                ]
+                              },
+                              {
+                                "type": "LIST_ITEM",
+                                "id": "",
+                                "children": [
+                                  {
+                                    "type": "NUMBER_WITH_BRACKETS",
+                                    "text": "(4e)"
+                                  },
+                                  {
+                                    "type": "PLAINTEXT",
+                                    "text": "Apabila keputusan tidak dapat dicapai secara aklamasi sebagaimana dimaksud pada ayat (4d), keputusan diambil berdasarkan suara terbanyak melalui pemungutan suara yang dilakukan secara bebas dan rahasia."
+                                  }
+                                ]
+                              },
+                              {
+                                "type": "LIST_ITEM",
+                                "id": "",
+                                "children": [
+                                  {
+                                    "type": "NUMBER_WITH_BRACKETS",
+                                    "text": "(4f)"
+                                  },
+                                  {
+                                    "type": "PLAINTEXT",
+                                    "text": "Dihapus."
+                                  }
+                                ]
+                              },
+                              {
+                                "type": "LIST_ITEM",
+                                "id": "",
+                                "children": [
+                                  {
+                                    "type": "NUMBER_WITH_BRACKETS",
+                                    "text": "(4g)"
+                                  },
+                                  {
+                                    "type": "PLAINTEXT",
+                                    "text": "Dihapus."
+                                  }
+                                ]
+                              },
+                              {
+                                "type": "LIST_ITEM",
+                                "id": "",
+                                "children": [
+                                  {
+                                    "type": "NUMBER_WITH_BRACKETS",
+                                    "text": "(4h)"
+                                  },
+                                  {
+                                    "type": "PLAINTEXT",
+                                    "text": "Dihapus."
+                                  }
+                                ]
+                              },
+                              {
+                                "type": "LIST_ITEM",
+                                "id": "",
+                                "children": [
+                                  {
+                                    "type": "NUMBER_WITH_BRACKETS",
+                                    "text": "(5)"
+                                  },
+                                  {
+                                    "type": "PLAINTEXT",
+                                    "text": "Ketentuan lebih lanjut mengenai tata cara pemilihan Ketua dan Wakil Ketua diatur dalam Peraturan Mahkamah Konstitusi."
+                                  }
+                                ]
+                              }
+                            ]
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "LIST_ITEM",
+                "id": "",
+                "children": [
+                  {
+                    "type": "NUMBER_WITH_DOT",
+                    "text": "2."
+                  },
+                  {
+                    "type": "PLAINTEXT",
+                    "text": "Ketentuan ayat (1) Pasal 7A diubah sehingga Pasal 7A berbunyi sebagai berikut:"
+                  },
+                  {
+                    "type": "PERUBAHAN_SECTION",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "PERUBAHAN_PASAL",
+                        "id": "perubahan-pasal-7A",
+                        "children": [
+                          {
+                            "type": "PASAL_NUMBER",
+                            "text": "Pasal 7A"
+                          },
+                          {
+                            "type": "LIST",
+                            "id": "",
+                            "children": [
+                              {
+                                "type": "LIST_ITEM",
+                                "id": "",
+                                "children": [
+                                  {
+                                    "type": "NUMBER_WITH_BRACKETS",
+                                    "text": "(1)"
+                                  },
+                                  {
+                                    "type": "PLAINTEXT",
+                                    "text": "Kepaniteraan sebagaimana dimaksud dalam Pasal 7 merupakan jabatan fungsional yang menjalankan tugas teknis administratif peradilan Mahkamah Konstitusi dengan usia pensiun 62 (enam puluh dua) tahun bagi panitera, panitera muda, dan panitera pengganti."
+                                  }
+                                ]
+                              },
+                              {
+                                "type": "LIST_ITEM",
+                                "id": "",
+                                "children": [
+                                  {
+                                    "type": "NUMBER_WITH_BRACKETS",
+                                    "text": "(2)"
+                                  },
+                                  {
+                                    "type": "PLAINTEXT",
+                                    "text": "Tugas teknis administratif peradilan sebagaimana dimaksud pada ayat (1) meliputi:"
+                                  },
+                                  {
+                                    "type": "LIST",
+                                    "id": "",
+                                    "children": [
+                                      {
+                                        "type": "LIST_ITEM",
+                                        "id": "",
+                                        "children": [
+                                          {
+                                            "type": "LETTER_WITH_DOT",
+                                            "text": "a."
+                                          },
+                                          {
+                                            "type": "PLAINTEXT",
+                                            "text": "koordinasi pelaksanaan teknis peradilan di Mahkamah Konstitusi;"
+                                          }
+                                        ]
+                                      },
+                                      {
+                                        "type": "LIST_ITEM",
+                                        "id": "",
+                                        "children": [
+                                          {
+                                            "type": "LETTER_WITH_DOT",
+                                            "text": "b."
+                                          },
+                                          {
+                                            "type": "PLAINTEXT",
+                                            "text": "pembinaan dan pelaksanaan administrasi perkara;"
+                                          }
+                                        ]
+                                      },
+                                      {
+                                        "type": "LIST_ITEM",
+                                        "id": "",
+                                        "children": [
+                                          {
+                                            "type": "LETTER_WITH_DOT",
+                                            "text": "c."
+                                          },
+                                          {
+                                            "type": "PLAINTEXT",
+                                            "text": "pembinaan pelayanan teknis kegiatan peradilan di Mahkamah Konstitusi; dan"
+                                          }
+                                        ]
+                                      },
+                                      {
+                                        "type": "LIST_ITEM",
+                                        "id": "",
+                                        "children": [
+                                          {
+                                            "type": "LETTER_WITH_DOT",
+                                            "text": "d."
+                                          },
+                                          {
+                                            "type": "PLAINTEXT",
+                                            "text": "pelaksanaan tugas lain yang diberikan oleh Ketua Mahkamah Konstitusi sesuai dengan bidang tugasnya."
+                                          }
+                                        ]
+                                      }
+                                    ]
+                                  }
+                                ]
+                              }
+                            ]
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "LIST_ITEM",
+                "id": "",
+                "children": [
+                  {
+                    "type": "NUMBER_WITH_DOT",
+                    "text": "3."
+                  },
+                  {
+                    "type": "PLAINTEXT",
+                    "text": "Ketentuan huruf b, huruf d, dan huruf h ayat (2) Pasal 15 diubah sehingga Pasal 15 berbunyi sebagai berikut:"
+                  },
+                  {
+                    "type": "PERUBAHAN_SECTION",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "PERUBAHAN_PASAL",
+                        "id": "perubahan-pasal-15",
+                        "children": [
+                          {
+                            "type": "PASAL_NUMBER",
+                            "text": "Pasal 15"
+                          },
+                          {
+                            "type": "LIST",
+                            "id": "",
+                            "children": [
+                              {
+                                "type": "LIST_ITEM",
+                                "id": "",
+                                "children": [
+                                  {
+                                    "type": "NUMBER_WITH_BRACKETS",
+                                    "text": "(1)"
+                                  },
+                                  {
+                                    "type": "PLAINTEXT",
+                                    "text": "Hakim konstitusi harus memenuhi syarat sebagai berikut:"
+                                  },
+                                  {
+                                    "type": "LIST",
+                                    "id": "",
+                                    "children": [
+                                      {
+                                        "type": "LIST_ITEM",
+                                        "id": "",
+                                        "children": [
+                                          {
+                                            "type": "LETTER_WITH_DOT",
+                                            "text": "a."
+                                          },
+                                          {
+                                            "type": "PLAINTEXT",
+                                            "text": "memiliki integritas dan kepribadian yang tidak tercela;"
+                                          }
+                                        ]
+                                      },
+                                      {
+                                        "type": "LIST_ITEM",
+                                        "id": "",
+                                        "children": [
+                                          {
+                                            "type": "LETTER_WITH_DOT",
+                                            "text": "b."
+                                          },
+                                          {
+                                            "type": "PLAINTEXT",
+                                            "text": "adil; dan"
+                                          }
+                                        ]
+                                      },
+                                      {
+                                        "type": "LIST_ITEM",
+                                        "id": "",
+                                        "children": [
+                                          {
+                                            "type": "LETTER_WITH_DOT",
+                                            "text": "c."
+                                          },
+                                          {
+                                            "type": "PLAINTEXT",
+                                            "text": "negarawan yang menguasai konstitusi dan ketatanegaraan."
+                                          }
+                                        ]
+                                      }
+                                    ]
+                                  }
+                                ]
+                              },
+                              {
+                                "type": "LIST_ITEM",
+                                "id": "",
+                                "children": [
+                                  {
+                                    "type": "NUMBER_WITH_BRACKETS",
+                                    "text": "(2)"
+                                  },
+                                  {
+                                    "type": "PLAINTEXT",
+                                    "text": "Untuk dapat diangkat menjadi hakim konstitusi, selain harus memenuhi syarat sebagaimana dimaksud pada ayat (1), seorang calon hakim konstitusi harus memenuhi syarat:"
+                                  },
+                                  {
+                                    "type": "LIST",
+                                    "id": "",
+                                    "children": [
+                                      {
+                                        "type": "LIST_ITEM",
+                                        "id": "",
+                                        "children": [
+                                          {
+                                            "type": "LETTER_WITH_DOT",
+                                            "text": "a."
+                                          },
+                                          {
+                                            "type": "PLAINTEXT",
+                                            "text": "warga negara Indonesia;"
+                                          }
+                                        ]
+                                      },
+                                      {
+                                        "type": "LIST_ITEM",
+                                        "id": "",
+                                        "children": [
+                                          {
+                                            "type": "LETTER_WITH_DOT",
+                                            "text": "b."
+                                          },
+                                          {
+                                            "type": "PLAINTEXT",
+                                            "text": "berijazah doktor (strata tiga) dengan dasar sarjana (strata satu) yang berlatar belakang pendidikan di bidang hukum;"
+                                          }
+                                        ]
+                                      },
+                                      {
+                                        "type": "LIST_ITEM",
+                                        "id": "",
+                                        "children": [
+                                          {
+                                            "type": "LETTER_WITH_DOT",
+                                            "text": "c."
+                                          },
+                                          {
+                                            "type": "PLAINTEXT",
+                                            "text": "bertakwa kepada Tuhan Yang Maha Esa dan berakhlak mulia;"
+                                          }
+                                        ]
+                                      },
+                                      {
+                                        "type": "LIST_ITEM",
+                                        "id": "",
+                                        "children": [
+                                          {
+                                            "type": "LETTER_WITH_DOT",
+                                            "text": "d."
+                                          },
+                                          {
+                                            "type": "PLAINTEXT",
+                                            "text": "berusia paling rendah 55 (lima puluh lima) tahun;"
+                                          }
+                                        ]
+                                      },
+                                      {
+                                        "type": "LIST_ITEM",
+                                        "id": "",
+                                        "children": [
+                                          {
+                                            "type": "LETTER_WITH_DOT",
+                                            "text": "e."
+                                          },
+                                          {
+                                            "type": "PLAINTEXT",
+                                            "text": "mampu secara jasmani dan rohani dalam menjalankan tugas dan kewajiban;"
+                                          }
+                                        ]
+                                      },
+                                      {
+                                        "type": "LIST_ITEM",
+                                        "id": "",
+                                        "children": [
+                                          {
+                                            "type": "LETTER_WITH_DOT",
+                                            "text": "f."
+                                          },
+                                          {
+                                            "type": "PLAINTEXT",
+                                            "text": "tidak pernah dijatuhi pidana penjara berdasarkan putusan pengadilan yang telah memperoleh kekuatan hukum tetap;"
+                                          }
+                                        ]
+                                      },
+                                      {
+                                        "type": "LIST_ITEM",
+                                        "id": "",
+                                        "children": [
+                                          {
+                                            "type": "LETTER_WITH_DOT",
+                                            "text": "g."
+                                          },
+                                          {
+                                            "type": "PLAINTEXT",
+                                            "text": "tidak sedang dinyatakan pailit berdasarkan putusan pengadilan; dan"
+                                          }
+                                        ]
+                                      },
+                                      {
+                                        "type": "LIST_ITEM",
+                                        "id": "",
+                                        "children": [
+                                          {
+                                            "type": "LETTER_WITH_DOT",
+                                            "text": "h."
+                                          },
+                                          {
+                                            "type": "PLAINTEXT",
+                                            "text": "mempunyai pengalaman kerja di bidang hukum paling sedikit 15 (lima belas) tahun dan/atau untuk calon hakim yang berasal dari lingkungan Mahkamah Agung, sedang menjabat sebagai hakim tinggi atau sebagai hakim agung."
+                                          }
+                                        ]
+                                      }
+                                    ]
+                                  }
+                                ]
+                              },
+                              {
+                                "type": "LIST_ITEM",
+                                "id": "",
+                                "children": [
+                                  {
+                                    "type": "NUMBER_WITH_BRACKETS",
+                                    "text": "(3)"
+                                  },
+                                  {
+                                    "type": "PLAINTEXT",
+                                    "text": "Selain persyaratan sebagaimana dimaksud pada ayat (1) dan ayat (2) calon hakim konstitusi juga harus memenuhi kelengkapan administrasi dengan menyerahkan:"
+                                  },
+                                  {
+                                    "type": "LIST",
+                                    "id": "",
+                                    "children": [
+                                      {
+                                        "type": "LIST_ITEM",
+                                        "id": "",
+                                        "children": [
+                                          {
+                                            "type": "LETTER_WITH_DOT",
+                                            "text": "a."
+                                          },
+                                          {
+                                            "type": "PLAINTEXT",
+                                            "text": "surat pernyataan kesediaan untuk menjadi hakim konstitusi;"
+                                          }
+                                        ]
+                                      },
+                                      {
+                                        "type": "LIST_ITEM",
+                                        "id": "",
+                                        "children": [
+                                          {
+                                            "type": "LETTER_WITH_DOT",
+                                            "text": "b."
+                                          },
+                                          {
+                                            "type": "PLAINTEXT",
+                                            "text": "daftar riwayat hidup;"
+                                          }
+                                        ]
+                                      },
+                                      {
+                                        "type": "LIST_ITEM",
+                                        "id": "",
+                                        "children": [
+                                          {
+                                            "type": "LETTER_WITH_DOT",
+                                            "text": "c."
+                                          },
+                                          {
+                                            "type": "PLAINTEXT",
+                                            "text": "menyerahkan fotokopi ijazah yang telah dilegalisasi dengan menunjukkan ijazah asli;"
+                                          }
+                                        ]
+                                      },
+                                      {
+                                        "type": "LIST_ITEM",
+                                        "id": "",
+                                        "children": [
+                                          {
+                                            "type": "LETTER_WITH_DOT",
+                                            "text": "d."
+                                          },
+                                          {
+                                            "type": "PLAINTEXT",
+                                            "text": "laporan daftar harta kekayaan serta sumber penghasilan calon yang disertai dengan dokumen pendukung yang sah dan telah mendapat pengesahan dari lembaga yang berwenang; dan"
+                                          }
+                                        ]
+                                      },
+                                      {
+                                        "type": "LIST_ITEM",
+                                        "id": "",
+                                        "children": [
+                                          {
+                                            "type": "LETTER_WITH_DOT",
+                                            "text": "e."
+                                          },
+                                          {
+                                            "type": "PLAINTEXT",
+                                            "text": "nomor pokok wajib pajak (NPWP)."
+                                          }
+                                        ]
+                                      }
+                                    ]
+                                  }
+                                ]
+                              }
+                            ]
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "LIST_ITEM",
+                "id": "",
+                "children": [
+                  {
+                    "type": "NUMBER_WITH_DOT",
+                    "text": "4."
+                  },
+                  {
+                    "type": "PLAINTEXT",
+                    "text": "Ketentuan ayat (2) Pasal 20 diubah sehingga Pasal 20 berbunyi sebagai berikut:"
+                  },
+                  {
+                    "type": "PERUBAHAN_SECTION",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "PERUBAHAN_PASAL",
+                        "id": "perubahan-pasal-20",
+                        "children": [
+                          {
+                            "type": "PASAL_NUMBER",
+                            "text": "Pasal 20"
+                          },
+                          {
+                            "type": "LIST",
+                            "id": "",
+                            "children": [
+                              {
+                                "type": "LIST_ITEM",
+                                "id": "",
+                                "children": [
+                                  {
+                                    "type": "NUMBER_WITH_BRACKETS",
+                                    "text": "(1)"
+                                  },
+                                  {
+                                    "type": "PLAINTEXT",
+                                    "text": "Ketentuan mengenai tata cara seleksi, pemilihan, dan pengajuan hakim konstitusi diatur oleh masing-masing lembaga yang berwenang sebagaimana dimaksud dalam Pasal 18 ayat (1)."
+                                  }
+                                ]
+                              },
+                              {
+                                "type": "LIST_ITEM",
+                                "id": "",
+                                "children": [
+                                  {
+                                    "type": "NUMBER_WITH_BRACKETS",
+                                    "text": "(2)"
+                                  },
+                                  {
+                                    "type": "PLAINTEXT",
+                                    "text": "Proses pemilihan hakim konstitusi dari ketiga unsur lembaga negara sebagaimana dimaksud pada ayat (1) dilakukan melalui proses seleksi yang objektif, akuntabel, transparan, dan terbuka oleh masing-masing lembaga negara."
+                                  }
+                                ]
+                              }
+                            ]
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "LIST_ITEM",
+                "id": "",
+                "children": [
+                  {
+                    "type": "NUMBER_WITH_DOT",
+                    "text": "5."
+                  },
+                  {
+                    "type": "PLAINTEXT",
+                    "text": "Judul Bagian Kedua Bab IV dihapus"
+                  }
+                ]
+              },
+              {
+                "type": "LIST_ITEM",
+                "id": "",
+                "children": [
+                  {
+                    "type": "NUMBER_WITH_DOT",
+                    "text": "6."
+                  },
+                  {
+                    "type": "PLAINTEXT",
+                    "text": "Pasal 22 dihapus."
+                  }
+                ]
+              },
+              {
+                "type": "LIST_ITEM",
+                "id": "",
+                "children": [
+                  {
+                    "type": "NUMBER_WITH_DOT",
+                    "text": "7."
+                  },
+                  {
+                    "type": "PLAINTEXT",
+                    "text": "Judul Bagian Ketiga Bab IV diubah sehingga berbunyi sebagai berikut:"
+                  },
+                  {
+                    "type": "PERUBAHAN_SECTION",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "PERUBAHAN_BAGIAN",
+                        "id": "",
+                        "children": [
+                          {
+                            "type": "BAGIAN_NUMBER",
+                            "text": "Bagian Kedua"
+                          },
+                          {
+                            "type": "BAGIAN_TITLE",
+                            "text": "Pemberhentian"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "LIST_ITEM",
+                "id": "",
+                "children": [
+                  {
+                    "type": "NUMBER_WITH_DOT",
+                    "text": "8."
+                  },
+                  {
+                    "type": "PLAINTEXT",
+                    "text": "Ketentuan huruf d ayat (1) Pasal 23 dihapus sehingga Pasal 23 berbunyi sebagai berikut:"
+                  },
+                  {
+                    "type": "PERUBAHAN_SECTION",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "PERUBAHAN_PASAL",
+                        "id": "perubahan-pasal-23",
+                        "children": [
+                          {
+                            "type": "PASAL_NUMBER",
+                            "text": "Pasal 23"
+                          },
+                          {
+                            "type": "LIST",
+                            "id": "",
+                            "children": [
+                              {
+                                "type": "LIST_ITEM",
+                                "id": "",
+                                "children": [
+                                  {
+                                    "type": "NUMBER_WITH_BRACKETS",
+                                    "text": "(1)"
+                                  },
+                                  {
+                                    "type": "PLAINTEXT",
+                                    "text": "Hakim konstitusi diberhentikan dengan hormat dengan alasan:"
+                                  },
+                                  {
+                                    "type": "LIST",
+                                    "id": "",
+                                    "children": [
+                                      {
+                                        "type": "LIST_ITEM",
+                                        "id": "",
+                                        "children": [
+                                          {
+                                            "type": "LETTER_WITH_DOT",
+                                            "text": "a."
+                                          },
+                                          {
+                                            "type": "PLAINTEXT",
+                                            "text": "meninggal dunia;"
+                                          }
+                                        ]
+                                      },
+                                      {
+                                        "type": "LIST_ITEM",
+                                        "id": "",
+                                        "children": [
+                                          {
+                                            "type": "LETTER_WITH_DOT",
+                                            "text": "b."
+                                          },
+                                          {
+                                            "type": "PLAINTEXT",
+                                            "text": "mengundurkan diri atas permintaan sendiri yang diajukan kepada Ketua Mahkamah Konstitusi;"
+                                          }
+                                        ]
+                                      },
+                                      {
+                                        "type": "LIST_ITEM",
+                                        "id": "",
+                                        "children": [
+                                          {
+                                            "type": "LETTER_WITH_DOT",
+                                            "text": "c."
+                                          },
+                                          {
+                                            "type": "PLAINTEXT",
+                                            "text": "telah berusia 70 (tujuh puluh) tahun;"
+                                          }
+                                        ]
+                                      },
+                                      {
+                                        "type": "LIST_ITEM",
+                                        "id": "",
+                                        "children": [
+                                          {
+                                            "type": "LETTER_WITH_DOT",
+                                            "text": "d."
+                                          },
+                                          {
+                                            "type": "PLAINTEXT",
+                                            "text": "dihapus; atau"
+                                          }
+                                        ]
+                                      },
+                                      {
+                                        "type": "LIST_ITEM",
+                                        "id": "",
+                                        "children": [
+                                          {
+                                            "type": "LETTER_WITH_DOT",
+                                            "text": "e."
+                                          },
+                                          {
+                                            "type": "PLAINTEXT",
+                                            "text": "sakit jasmani atau rohani secara terus-menerus selama 3 (tiga) bulan sehingga tidak dapat menjalankan tugasnya yang dibuktikan dengan surat keterangan dokter."
+                                          }
+                                        ]
+                                      }
+                                    ]
+                                  }
+                                ]
+                              },
+                              {
+                                "type": "LIST_ITEM",
+                                "id": "",
+                                "children": [
+                                  {
+                                    "type": "NUMBER_WITH_BRACKETS",
+                                    "text": "(2)"
+                                  },
+                                  {
+                                    "type": "PLAINTEXT",
+                                    "text": "Hakim konstitusi diberhentikan tidak dengan hormat apabila:"
+                                  },
+                                  {
+                                    "type": "LIST",
+                                    "id": "",
+                                    "children": [
+                                      {
+                                        "type": "LIST_ITEM",
+                                        "id": "",
+                                        "children": [
+                                          {
+                                            "type": "LETTER_WITH_DOT",
+                                            "text": "a."
+                                          },
+                                          {
+                                            "type": "PLAINTEXT",
+                                            "text": "dijatuhi pidana penjara berdasarkan putusan pengadilan yang telah memperoleh kekuatan hukum tetap karena melakukan tindak pidana yang diancam dengan pidana penjara;"
+                                          }
+                                        ]
+                                      },
+                                      {
+                                        "type": "LIST_ITEM",
+                                        "id": "",
+                                        "children": [
+                                          {
+                                            "type": "LETTER_WITH_DOT",
+                                            "text": "b."
+                                          },
+                                          {
+                                            "type": "PLAINTEXT",
+                                            "text": "melakukan perbuatan tercela;"
+                                          }
+                                        ]
+                                      },
+                                      {
+                                        "type": "LIST_ITEM",
+                                        "id": "",
+                                        "children": [
+                                          {
+                                            "type": "LETTER_WITH_DOT",
+                                            "text": "c."
+                                          },
+                                          {
+                                            "type": "PLAINTEXT",
+                                            "text": "tidak menghadiri persidangan yang menjadi tugas dan kewajibannya selama 5 (lima) kali berturut-turut tanpa alasan yang sah;"
+                                          }
+                                        ]
+                                      },
+                                      {
+                                        "type": "LIST_ITEM",
+                                        "id": "",
+                                        "children": [
+                                          {
+                                            "type": "LETTER_WITH_DOT",
+                                            "text": "d."
+                                          },
+                                          {
+                                            "type": "PLAINTEXT",
+                                            "text": "melanggar sumpah atau janji jabatan;"
+                                          }
+                                        ]
+                                      },
+                                      {
+                                        "type": "LIST_ITEM",
+                                        "id": "",
+                                        "children": [
+                                          {
+                                            "type": "LETTER_WITH_DOT",
+                                            "text": "e."
+                                          },
+                                          {
+                                            "type": "PLAINTEXT",
+                                            "text": "dengan sengaja menghambat Mahkamah Konstitusi memberi putusan dalam waktu sebagaimana dimaksud dalam Pasal 7B ayat (4) Undang-Undang Dasar Negara Republik Indonesia Tahun 1945;"
+                                          }
+                                        ]
+                                      },
+                                      {
+                                        "type": "LIST_ITEM",
+                                        "id": "",
+                                        "children": [
+                                          {
+                                            "type": "LETTER_WITH_DOT",
+                                            "text": "f."
+                                          },
+                                          {
+                                            "type": "PLAINTEXT",
+                                            "text": "melanggar larangan rangkap jabatan sebagaimana dimaksud dalam Pasal 17;"
+                                          }
+                                        ]
+                                      },
+                                      {
+                                        "type": "LIST_ITEM",
+                                        "id": "",
+                                        "children": [
+                                          {
+                                            "type": "LETTER_WITH_DOT",
+                                            "text": "g."
+                                          },
+                                          {
+                                            "type": "PLAINTEXT",
+                                            "text": "tidak lagi memenuhi syarat sebagai hakim konstitusi; dan/atau"
+                                          }
+                                        ]
+                                      },
+                                      {
+                                        "type": "LIST_ITEM",
+                                        "id": "",
+                                        "children": [
+                                          {
+                                            "type": "LETTER_WITH_DOT",
+                                            "text": "h."
+                                          },
+                                          {
+                                            "type": "PLAINTEXT",
+                                            "text": "melanggar Kode Etik dan Pedoman Perilaku Hakim Konstitusi."
+                                          }
+                                        ]
+                                      }
+                                    ]
+                                  }
+                                ]
+                              },
+                              {
+                                "type": "LIST_ITEM",
+                                "id": "",
+                                "children": [
+                                  {
+                                    "type": "NUMBER_WITH_BRACKETS",
+                                    "text": "(3)"
+                                  },
+                                  {
+                                    "type": "PLAINTEXT",
+                                    "text": "Permintaan pemberhentian tidak dengan hormat sebagaimana dimaksud pada ayat (2) huruf b, huruf c, huruf d, huruf e, huruf f, huruf g, dan/atau huruf h dilakukan setelah yang bersangkutan diberi kesempatan untuk membela diri di hadapan Majelis Kehormatan Mahkamah Konstitusi."
+                                  }
+                                ]
+                              },
+                              {
+                                "type": "LIST_ITEM",
+                                "id": "",
+                                "children": [
+                                  {
+                                    "type": "NUMBER_WITH_BRACKETS",
+                                    "text": "(4)"
+                                  },
+                                  {
+                                    "type": "PLAINTEXT",
+                                    "text": "Pemberhentian hakim konstitusi ditetapkan dengan Keputusan Presiden atas permintaan Ketua Mahkamah Konstitusi."
+                                  }
+                                ]
+                              },
+                              {
+                                "type": "LIST_ITEM",
+                                "id": "",
+                                "children": [
+                                  {
+                                    "type": "NUMBER_WITH_BRACKETS",
+                                    "text": "(5)"
+                                  },
+                                  {
+                                    "type": "PLAINTEXT",
+                                    "text": "Keputusan Presiden sebagaimana dimaksud pada ayat (4) ditetapkan dalam jangka waktu paling lama 14 (empat belas) hari kerja terhitung sejak tanggal Presiden menerima permintaan pemberhentian."
+                                  }
+                                ]
+                              }
+                            ]
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "LIST_ITEM",
+                "id": "",
+                "children": [
+                  {
+                    "type": "NUMBER_WITH_DOT",
+                    "text": "9."
+                  },
+                  {
+                    "type": "PLAINTEXT",
+                    "text": "Ketentuan huruf b ayat (1) dan ayat (5) Pasal 26 dihapus sehingga Pasal 26 berbunyi sebagai berikut:"
+                  },
+                  {
+                    "type": "PERUBAHAN_SECTION",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "PERUBAHAN_PASAL",
+                        "id": "perubahan-pasal-26",
+                        "children": [
+                          {
+                            "type": "PASAL_NUMBER",
+                            "text": "Pasal 26"
+                          },
+                          {
+                            "type": "LIST",
+                            "id": "",
+                            "children": [
+                              {
+                                "type": "LIST_ITEM",
+                                "id": "",
+                                "children": [
+                                  {
+                                    "type": "NUMBER_WITH_BRACKETS",
+                                    "text": "(1)"
+                                  },
+                                  {
+                                    "type": "PLAINTEXT",
+                                    "text": "Mahkamah Konstitusi memberitahukan kepada lembaga yang berwenang sebagaimana dimaksud dalam Pasal 18 ayat (1) mengenai hakim konstitusi yang akan diberhentikan dalam jangka waktu paling lama 6 (enam) bulan sebelum:"
+                                  },
+                                  {
+                                    "type": "LIST",
+                                    "id": "",
+                                    "children": [
+                                      {
+                                        "type": "LIST_ITEM",
+                                        "id": "",
+                                        "children": [
+                                          {
+                                            "type": "LETTER_WITH_DOT",
+                                            "text": "a."
+                                          },
+                                          {
+                                            "type": "PLAINTEXT",
+                                            "text": "memasuki usia sebagaimana dimaksud dalam Pasal 23 ayat (1) huruf c; atau b. dihapus."
+                                          }
+                                        ]
+                                      }
+                                    ]
+                                  }
+                                ]
+                              },
+                              {
+                                "type": "LIST_ITEM",
+                                "id": "",
+                                "children": [
+                                  {
+                                    "type": "NUMBER_WITH_BRACKETS",
+                                    "text": "(2)"
+                                  },
+                                  {
+                                    "type": "PLAINTEXT",
+                                    "text": "Dalam jangka waktu paling lama 14 (empat belas) hari kerja sejak Mahkamah Konstitusi menerima Keputusan Presiden sebagaimana dimaksud dalam Pasal 23 ayat (4), Mahkamah Konstitusi memberitahukan kepada lembaga yang berwenang sebagaimana dimaksud dalam Pasal 18 ayat (1) mengenai hakim konstitusi yang diberhentikan berdasarkan ketentuan sebagaimana dimaksud dalam Pasal 23 ayat (1) huruf a, huruf b, huruf e, atau ayat (2)."
+                                  }
+                                ]
+                              },
+                              {
+                                "type": "LIST_ITEM",
+                                "id": "",
+                                "children": [
+                                  {
+                                    "type": "NUMBER_WITH_BRACKETS",
+                                    "text": "(3)"
+                                  },
+                                  {
+                                    "type": "PLAINTEXT",
+                                    "text": "Lembaga yang berwenang sebagaimana dimaksud pada ayat (1) dan ayat (2) mengajukan pengganti hakim konstitusi kepada Presiden dalam jangka waktu paling lama 30 (tiga puluh) hari kerja sejak menerima pemberitahuan Mahkamah Konstitusi."
+                                  }
+                                ]
+                              },
+                              {
+                                "type": "LIST_ITEM",
+                                "id": "",
+                                "children": [
+                                  {
+                                    "type": "NUMBER_WITH_BRACKETS",
+                                    "text": "(4)"
+                                  },
+                                  {
+                                    "type": "PLAINTEXT",
+                                    "text": "Keputusan Presiden tentang pengangkatan pengganti hakim konstitusi sebagaimana dimaksud pada ayat (1) ditetapkan dalam jangka waktu paling lama 7 (tujuh) hari kerja sejak pengajuan diterima Presiden."
+                                  }
+                                ]
+                              },
+                              {
+                                "type": "LIST_ITEM",
+                                "id": "",
+                                "children": [
+                                  {
+                                    "type": "NUMBER_WITH_BRACKETS",
+                                    "text": "(5)"
+                                  },
+                                  {
+                                    "type": "PLAINTEXT",
+                                    "text": "Dihapus."
+                                  }
+                                ]
+                              }
+                            ]
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "LIST_ITEM",
+                "id": "",
+                "children": [
+                  {
+                    "type": "NUMBER_WITH_DOT",
+                    "text": "10."
+                  },
+                  {
+                    "type": "PLAINTEXT",
+                    "text": "Ketentuan huruf c ayat (2) Pasal 27A diubah, huruf d dan huruf e ayat (2), ayat (3), ayat (4), ayat (5), dan ayat (6) Pasal 27A dihapus sehingga Pasal 27A berbunyi sebagai berikut:"
+                  },
+                  {
+                    "type": "PERUBAHAN_SECTION",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "PERUBAHAN_PASAL",
+                        "id": "perubahan-pasal-27A",
+                        "children": [
+                          {
+                            "type": "PASAL_NUMBER",
+                            "text": "Pasal 27A"
+                          },
+                          {
+                            "type": "LIST",
+                            "id": "",
+                            "children": [
+                              {
+                                "type": "LIST_ITEM",
+                                "id": "",
+                                "children": [
+                                  {
+                                    "type": "NUMBER_WITH_BRACKETS",
+                                    "text": "(1)"
+                                  },
+                                  {
+                                    "type": "PLAINTEXT",
+                                    "text": "Mahkamah Konstitusi wajib men5rusun Kode Etik dan Pedoman Perilaku Hakim Konstitusi yang berisi norma yang harus dipatuhi oleh setiap hakim konstitusi dalam menjalankan tugasnya untuk menjaga integritas dan kepribadian yang tidak tercela, adil, dan negarawan."
+                                  }
+                                ]
+                              },
+                              {
+                                "type": "LIST_ITEM",
+                                "id": "",
+                                "children": [
+                                  {
+                                    "type": "NUMBER_WITH_BRACKETS",
+                                    "text": "(2)"
+                                  },
+                                  {
+                                    "type": "PLAINTEXT",
+                                    "text": "Untuk menegakkan Kode Etik dan Pedoman Perilaku Hakim Konstitusi sebagaimana dimaksud pada ayat (1), dibentuk Majelis Kehormatan Mahkamah Konstitusi yang keanggotannya terdiri atas:"
+                                  },
+                                  {
+                                    "type": "LIST",
+                                    "id": "",
+                                    "children": [
+                                      {
+                                        "type": "LIST_ITEM",
+                                        "id": "",
+                                        "children": [
+                                          {
+                                            "type": "LETTER_WITH_DOT",
+                                            "text": "a."
+                                          },
+                                          {
+                                            "type": "PLAINTEXT",
+                                            "text": "1 (satu) orang hakim konstitusi;"
+                                          }
+                                        ]
+                                      },
+                                      {
+                                        "type": "LIST_ITEM",
+                                        "id": "",
+                                        "children": [
+                                          {
+                                            "type": "LETTER_WITH_DOT",
+                                            "text": "b."
+                                          },
+                                          {
+                                            "type": "PLAINTEXT",
+                                            "text": "1 (satu) orang anggota Komisi Yudisial'"
+                                          }
+                                        ]
+                                      },
+                                      {
+                                        "type": "LIST_ITEM",
+                                        "id": "",
+                                        "children": [
+                                          {
+                                            "type": "LETTER_WITH_DOT",
+                                            "text": "c."
+                                          },
+                                          {
+                                            "type": "PLAINTEXT",
+                                            "text": "1 (satu) orang akademisi yang berlatar belakang di bidang hukum;"
+                                          }
+                                        ]
+                                      },
+                                      {
+                                        "type": "LIST_ITEM",
+                                        "id": "",
+                                        "children": [
+                                          {
+                                            "type": "LETTER_WITH_DOT",
+                                            "text": "d."
+                                          },
+                                          {
+                                            "type": "PLAINTEXT",
+                                            "text": "dihapus; dan"
+                                          }
+                                        ]
+                                      },
+                                      {
+                                        "type": "LIST_ITEM",
+                                        "id": "",
+                                        "children": [
+                                          {
+                                            "type": "LETTER_WITH_DOT",
+                                            "text": "e."
+                                          },
+                                          {
+                                            "type": "PLAINTEXT",
+                                            "text": "dihapus."
+                                          }
+                                        ]
+                                      }
+                                    ]
+                                  }
+                                ]
+                              },
+                              {
+                                "type": "LIST_ITEM",
+                                "id": "",
+                                "children": [
+                                  {
+                                    "type": "NUMBER_WITH_BRACKETS",
+                                    "text": "(3)"
+                                  },
+                                  {
+                                    "type": "PLAINTEXT",
+                                    "text": "Dihapus."
+                                  }
+                                ]
+                              },
+                              {
+                                "type": "LIST_ITEM",
+                                "id": "",
+                                "children": [
+                                  {
+                                    "type": "NUMBER_WITH_BRACKETS",
+                                    "text": "(4)"
+                                  },
+                                  {
+                                    "type": "PLAINTEXT",
+                                    "text": "Dihapus."
+                                  }
+                                ]
+                              },
+                              {
+                                "type": "LIST_ITEM",
+                                "id": "",
+                                "children": [
+                                  {
+                                    "type": "NUMBER_WITH_BRACKETS",
+                                    "text": "(5)"
+                                  },
+                                  {
+                                    "type": "PLAINTEXT",
+                                    "text": "Dihapus."
+                                  }
+                                ]
+                              },
+                              {
+                                "type": "LIST_ITEM",
+                                "id": "",
+                                "children": [
+                                  {
+                                    "type": "NUMBER_WITH_BRACKETS",
+                                    "text": "(6)"
+                                  },
+                                  {
+                                    "type": "PLAINTEXT",
+                                    "text": "Dihapus."
+                                  }
+                                ]
+                              },
+                              {
+                                "type": "LIST_ITEM",
+                                "id": "",
+                                "children": [
+                                  {
+                                    "type": "NUMBER_WITH_BRACKETS",
+                                    "text": "(7)"
+                                  },
+                                  {
+                                    "type": "PLAINTEXT",
+                                    "text": "Ketentuan lebih lanjut mengenai susunan, organisasi, dan tata beracara persidangan Majelis Kehormatan Mahkamah Konstitusi diatur dalam Peraturan Mahkamah Konstitusi."
+                                  }
+                                ]
+                              }
+                            ]
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "LIST_ITEM",
+                "id": "",
+                "children": [
+                  {
+                    "type": "NUMBER_WITH_DOT",
+                    "text": "11."
+                  },
+                  {
+                    "type": "PLAINTEXT",
+                    "text": "Pasal 45A dihapus."
+                  }
+                ]
+              },
+              {
+                "type": "LIST_ITEM",
+                "id": "",
+                "children": [
+                  {
+                    "type": "NUMBER_WITH_DOT",
+                    "text": "12."
+                  },
+                  {
+                    "type": "PLAINTEXT",
+                    "text": "Pasal 50A dihapus"
+                  }
+                ]
+              },
+              {
+                "type": "LIST_ITEM",
+                "id": "",
+                "children": [
+                  {
+                    "type": "NUMBER_WITH_DOT",
+                    "text": "13."
+                  },
+                  {
+                    "type": "PLAINTEXT",
+                    "text": "Ketentuan ayat (2a) Pasal 57 dihapus dan penjelasan ayat (3) diubah sebagaimana tercantum dalam penjelasan Pasal 57, sehingga Pasal 57 berbunyi sebagai berikut:"
+                  },
+                  {
+                    "type": "PERUBAHAN_SECTION",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "PERUBAHAN_PASAL",
+                        "id": "perubahan-pasal-57",
+                        "children": [
+                          {
+                            "type": "PASAL_NUMBER",
+                            "text": "Pasal 57"
+                          },
+                          {
+                            "type": "LIST",
+                            "id": "",
+                            "children": [
+                              {
+                                "type": "LIST_ITEM",
+                                "id": "",
+                                "children": [
+                                  {
+                                    "type": "NUMBER_WITH_BRACKETS",
+                                    "text": "(1)"
+                                  },
+                                  {
+                                    "type": "PLAINTEXT",
+                                    "text": "Putusan Mahkamah Konstitusi yang amar putusannya menyatakan bahwa materi muatan ayat, pasal, dan/atau bagian undang-undang bertentangan dengan Undang-Undang Dasar Negara Republik Indonesia Tahun 1945, materi muatan ayat, pasal, dan/atau bagian undang-undang tersebut tidak mempunyai kekuatan hukum mengikat."
+                                  }
+                                ]
+                              },
+                              {
+                                "type": "LIST_ITEM",
+                                "id": "",
+                                "children": [
+                                  {
+                                    "type": "NUMBER_WITH_BRACKETS",
+                                    "text": "(2)"
+                                  },
+                                  {
+                                    "type": "PLAINTEXT",
+                                    "text": "Putusan Mahkamah Konstitusi yang amar putusannya menyatakan bahwa pembentukan undang-undang dimaksud tidak memenuhi ketentuan pembentukan undang-undang berdasarkan Undang-Undang Dasar Negara Republik Indonesia Tahun 1945, undang-undang tersebut tidak mempunyai kekuatan hukum mengikat."
+                                  }
+                                ]
+                              },
+                              {
+                                "type": "LIST_ITEM",
+                                "id": "",
+                                "children": [
+                                  {
+                                    "type": "NUMBER_WITH_BRACKETS",
+                                    "text": "(2a)"
+                                  },
+                                  {
+                                    "type": "PLAINTEXT",
+                                    "text": "Dihapus."
+                                  }
+                                ]
+                              },
+                              {
+                                "type": "LIST_ITEM",
+                                "id": "",
+                                "children": [
+                                  {
+                                    "type": "NUMBER_WITH_BRACKETS",
+                                    "text": "(3)"
+                                  },
+                                  {
+                                    "type": "PLAINTEXT",
+                                    "text": "Putusan Mahkamah Konstitusi yang mengabulkan Permohonan wajib dimuat dalam Berita Negara Republik Indonesia dalam jangka waktu paling lama 30 (tiga puluh) hari kerja sejak putusan diucapkan."
+                                  }
+                                ]
+                              }
+                            ]
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "LIST_ITEM",
+                "id": "",
+                "children": [
+                  {
+                    "type": "NUMBER_WITH_DOT",
+                    "text": "14."
+                  },
+                  {
+                    "type": "PLAINTEXT",
+                    "text": "Ketentuan ayat (2) Pasal 59 dihapus sehingga Pasal 59 berbunyi sebagai berikut:"
+                  },
+                  {
+                    "type": "PERUBAHAN_SECTION",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "PERUBAHAN_PASAL",
+                        "id": "perubahan-pasal-59",
+                        "children": [
+                          {
+                            "type": "PASAL_NUMBER",
+                            "text": "Pasal 59"
+                          },
+                          {
+                            "type": "LIST",
+                            "id": "",
+                            "children": [
+                              {
+                                "type": "LIST_ITEM",
+                                "id": "",
+                                "children": [
+                                  {
+                                    "type": "NUMBER_WITH_BRACKETS",
+                                    "text": "(1)"
+                                  },
+                                  {
+                                    "type": "PLAINTEXT",
+                                    "text": "Putusan Mahkamah Konstitusi mengenai pengujian undang-undang terhadap Undang-Undang Dasar Negara Republik Indonesia Tahun 1945 disampaikan kepada DPR, Dewan Perwakilan Daerah, Presiden, dan Mahkamah Agung."
+                                  }
+                                ]
+                              },
+                              {
+                                "type": "LIST_ITEM",
+                                "id": "",
+                                "children": [
+                                  {
+                                    "type": "NUMBER_WITH_BRACKETS",
+                                    "text": "(2)"
+                                  },
+                                  {
+                                    "type": "PLAINTEXT",
+                                    "text": "Dihapus."
+                                  }
+                                ]
+                              }
+                            ]
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "LIST_ITEM",
+                "id": "",
+                "children": [
+                  {
+                    "type": "NUMBER_WITH_DOT",
+                    "text": "15."
+                  },
+                  {
+                    "type": "PLAINTEXT",
+                    "text": "Ketentuan Pasal 87 diubah sehingga berbunyi sebagai berikut:"
+                  },
+                  {
+                    "type": "PERUBAHAN_SECTION",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "PERUBAHAN_PASAL",
+                        "id": "perubahan-pasal-87",
+                        "children": [
+                          {
+                            "type": "PASAL_NUMBER",
+                            "text": "Pasal 87"
+                          },
+                          {
+                            "type": "PLAINTEXT",
+                            "text": "Pada saat Undang-Undang ini mulai berlaku:"
+                          },
+                          {
+                            "type": "LIST",
+                            "id": "",
+                            "children": [
+                              {
+                                "type": "LIST_ITEM",
+                                "id": "",
+                                "children": [
+                                  {
+                                    "type": "LETTER_WITH_DOT",
+                                    "text": "a."
+                                  },
+                                  {
+                                    "type": "PLAINTEXT",
+                                    "text": "Hakim konstitusi yang saat ini menjabat sebagai Ketua atau Wakil Ketua Mahkamah Konstitusi tetap menjabat sebagai Ketua atau Wakil Ketua Mahkamah Konstitusi sampai dengan masa jabatannya berakhir berdasarkan ketentuan undang-undang ini;"
+                                  }
+                                ]
+                              },
+                              {
+                                "type": "LIST_ITEM",
+                                "id": "",
+                                "children": [
+                                  {
+                                    "type": "LETTER_WITH_DOT",
+                                    "text": "b."
+                                  },
+                                  {
+                                    "type": "PLAINTEXT",
+                                    "text": "Hakim konstitusi yang sedang menjabat pada saat Undang-Undang ini diundangkan dianggap memenuhi syarat menurut Undang-Undang ini dan mengakhiri masa tugasnya sampai usia 70 (tujuh puluh) tahun selama keseluruhan masa tugasnya tidak melebihi 15 (lima belas) tahun."
+                                  }
+                                ]
+                              }
+                            ]
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "PASAL",
+        "id": "pasal-II",
+        "children": [
+          {
+            "type": "PASAL_NUMBER",
+            "text": "Pasal II"
+          },
+          {
+            "type": "PLAINTEXT",
+            "text": "Undang-Undang ini mulai berlaku pada tanggal diundangkan."
+          },
+          {
+            "type": "PLAINTEXT",
+            "text": "Agar setiap orang mengetahuinya, memerintahkan pengundangan Undang-Undang ini dengan penempatannya dalam Lembaran Negara Republik Indonesia."
+          }
+        ]
+      },
+      {
+        "type": "CLOSING",
+        "id": "",
+        "children": [
+          {
+            "type": "PLAINTEXT",
+            "text": "Disahkan Di Jakarta,"
+          },
+          {
+            "type": "PLAINTEXT",
+            "text": "Pada Tanggal 28 September 2020"
+          },
+          {
+            "type": "PLAINTEXT",
+            "text": "PRESIDEN REPUBLIK INDONESIA,"
+          },
+          {
+            "type": "PLAINTEXT",
+            "text": "Ttd."
+          },
+          {
+            "type": "PLAINTEXT",
+            "text": "JOKO WIDODO"
+          },
+          {
+            "type": "PLAINTEXT",
+            "text": "Diundangkan Di Jakarta,"
+          },
+          {
+            "type": "PLAINTEXT",
+            "text": "Pada Tanggal 29 September 2020"
+          },
+          {
+            "type": "PLAINTEXT",
+            "text": "MENTERI HUKUM DAN HAK ASASI MANUSIA REPUBLIK INDONESIA,"
+          },
+          {
+            "type": "PLAINTEXT",
+            "text": "Ttd."
+          },
+          {
+            "type": "PLAINTEXT",
+            "text": "YASONNA H. LAOLY"
+          },
+          {
+            "type": "LEMBARAN_NUMBER",
+            "text": "LEMBARAN NEGARA REPUBLIK INDONESIA TAHUN 2020 NOMOR 216"
+          }
+        ]
+      },
+      {
+        "type": "PENJELASAN",
+        "id": "penjelasan",
+        "children": [
+          {
+            "type": "PENJELASAN_TITLE",
+            "id": "",
+            "children": [
+              {
+                "type": "PLAINTEXT",
+                "text": "PENJELASAN"
+              },
+              {
+                "type": "PLAINTEXT",
+                "text": "UNDANG-UNDANG REPUBLIK INDONESIA"
+              },
+              {
+                "type": "UU_TITLE_YEAR_AND_NUMBER",
+                "text": "NOMOR 7 TAHUN 2020"
+              },
+              {
+                "type": "PLAINTEXT",
+                "text": "TENTANG"
+              },
+              {
+                "type": "UU_TITLE_TOPIC",
+                "text": "PERUBAHAN KETIGA ATAS UNDANG-UNDANG NOMOR 24 TAHUN 2003 TENTANG MAHKAMAH KONSTITUSI"
+              }
+            ]
+          },
+          {
+            "type": "PENJELASAN_UMUM",
+            "id": "",
+            "children": [
+              {
+                "type": "PENJELASAN_UMUM_TITLE",
+                "text": "I. UMUM"
+              },
+              {
+                "type": "PLAINTEXT",
+                "text": "Mahkamah Konstitusi merupakan pelaku kekuasaan kehakiman yang merdeka mempunyai peranan penting guna menegakkan keadilan dan prinsip negara hukum sesuai dengan kewenangan dan kewajibannya sebagaimana ditentukan dalam Undang-Undang Dasar Negara Republik Indonesia Tahun 1945."
+              },
+              {
+                "type": "PLAINTEXT",
+                "text": "Berdasarkan Pasal 24C ayat (1) dan ayat (2) Undang-Undang Dasar Negara Republik Indonesia Tahun 1945, Mahkamah Konstitusi berwenang menguji Undang-Undang terhadap Undang-Undang Dasar Negara Republik Indonesia Tahun 1945, memutus sengketa kewenangan lembaga negara yang kewenangannya diberikan oleh Undang-Undang Dasar Negara Republik Indonesia Tahun 1945, memutus pembubaran partai politik, memutus perselisihan tentang hasil pemilihan umum, dan memberikan putusan atas pendapat DPR bahwa Presiden dan/atau Wakil Presiden diduga telah melakukan pelanggaran hukum berupa pengkhianatan terhadap negara, korupsi, penyuapan, tindak pidana berat lainnya, atau perbuatan tercela, dan/atau tidak lagi memenuhi syarat sebagai Presiden dan/atau Wakil Presiden sebagaimana dimaksud dalam Undang-Undang Dasar Negara Republik Indonesia Tahun 1945."
+              },
+              {
+                "type": "PLAINTEXT",
+                "text": "Dalam perkembangannya, beberapa ketentuan dalam Undang-Undang Nomor 24 Tahun 2003 tentang Mahkamah Konstitusi sebagaimana telah beberapa kali diubah terakhir dengan Undang-Undang Nomor 4 Tahun 2014 tentang Penetapan Peraturan Pemerintah Pengganti Undang-Undang Nomor 1 Tahun 2013 tentang Perubahan Kedua atas Undang-Undang Nomor 24 Tahun 2003 tentang Mahkamah Konstitusi Menjadi Undang-Undang juga telah diuji dan dinyatakan bertentangan dengan Undang-Undang Dasar Negara Republik Indonesia Tahun 1945 oleh Mahkamah Konstitusi."
+              },
+              {
+                "type": "PLAINTEXT",
+                "text": "Undang-Undang ini merupakan perubahan ketiga atas Undang-Undang Nomor 24 Tahun 2003 tentang Mahkamah Konstitusi. Perubahan Undang-Undang tersebut dilatarbelakangi karena terdapat beberapa ketentuan yang tidak sesuai lagi dengan perkembangan kebutuhan hukum masyarakat dan kehidupan ketatanegaraan."
+              },
+              {
+                "type": "PLAINTEXT",
+                "text": "Beberapa pokok materi penting dalam perubahan ketiga Undang-Undang Nomor 24 Tahun 2003 tentang Mahkamah Konstitusi, antara lain pemilihan Ketua dan Wakil Ketua Mahkamah Konstitusi, persyaratan menjadi hakim konstitusi, pemberhentian hakim konstitusi, batas usia pensiun hakim konstitusi."
+              }
+            ]
+          },
+          {
+            "type": "PENJELASAN_PASAL_DEMI_PASAL",
+            "id": "",
+            "children": [
+              {
+                "type": "PENJELASAN_PASAL_DEMI_PASAL_TITLE",
+                "text": "II. PASAL DEMI PASAL"
+              },
+              {
+                "type": "PENJELASAN_PASAL",
+                "id": "",
+                "children": [
+                  {
+                    "type": "PASAL_NUMBER",
+                    "text": "Pasal I"
+                  },
+                  {
+                    "type": "LIST",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "PENJELASAN_LIST_ITEM",
+                        "id": "",
+                        "children": [
+                          {
+                            "type": "PENJELASAN_ANGKA",
+                            "text": "Angka 1"
+                          },
+                          {
+                            "type": "PENJELASAN_PERUBAHAN_SECTION",
+                            "id": "",
+                            "children": [
+                              {
+                                "type": "PENJELASAN_PERUBAHAN_PASAL",
+                                "id": "",
+                                "children": [
+                                  {
+                                    "type": "PASAL_NUMBER",
+                                    "text": "Pasal 4"
+                                  },
+                                  {
+                                    "type": "PLAINTEXT",
+                                    "text": "Cukup jelas."
+                                  }
+                                ]
+                              }
+                            ]
+                          }
+                        ]
+                      },
+                      {
+                        "type": "PENJELASAN_LIST_ITEM",
+                        "id": "",
+                        "children": [
+                          {
+                            "type": "PENJELASAN_ANGKA",
+                            "text": "Angka 2"
+                          },
+                          {
+                            "type": "PENJELASAN_PERUBAHAN_SECTION",
+                            "id": "",
+                            "children": [
+                              {
+                                "type": "PENJELASAN_PERUBAHAN_PASAL",
+                                "id": "",
+                                "children": [
+                                  {
+                                    "type": "PASAL_NUMBER",
+                                    "text": "Pasal 7A"
+                                  },
+                                  {
+                                    "type": "PLAINTEXT",
+                                    "text": "Cukup jelas."
+                                  }
+                                ]
+                              }
+                            ]
+                          }
+                        ]
+                      },
+                      {
+                        "type": "PENJELASAN_LIST_ITEM",
+                        "id": "",
+                        "children": [
+                          {
+                            "type": "PENJELASAN_ANGKA",
+                            "text": "Angka 3"
+                          },
+                          {
+                            "type": "PENJELASAN_PERUBAHAN_SECTION",
+                            "id": "",
+                            "children": [
+                              {
+                                "type": "PENJELASAN_PERUBAHAN_PASAL",
+                                "id": "",
+                                "children": [
+                                  {
+                                    "type": "PASAL_NUMBER",
+                                    "text": "Pasal 15"
+                                  },
+                                  {
+                                    "type": "LIST",
+                                    "id": "",
+                                    "children": [
+                                      {
+                                        "type": "PENJELASAN_LIST_ITEM",
+                                        "id": "",
+                                        "children": [
+                                          {
+                                            "type": "PENJELASAN_AYAT",
+                                            "text": "Ayat (1)"
+                                          },
+                                          {
+                                            "type": "PLAINTEXT",
+                                            "text": "Cukup jelas."
+                                          }
+                                        ]
+                                      },
+                                      {
+                                        "type": "PENJELASAN_LIST_ITEM",
+                                        "id": "",
+                                        "children": [
+                                          {
+                                            "type": "PENJELASAN_AYAT",
+                                            "text": "Ayat (2)"
+                                          },
+                                          {
+                                            "type": "LIST",
+                                            "id": "",
+                                            "children": [
+                                              {
+                                                "type": "PENJELASAN_LIST_ITEM",
+                                                "id": "",
+                                                "children": [
+                                                  {
+                                                    "type": "PENJELASAN_HURUF",
+                                                    "text": "Huruf a"
+                                                  },
+                                                  {
+                                                    "type": "PLAINTEXT",
+                                                    "text": "Cukup jelas."
+                                                  }
+                                                ]
+                                              },
+                                              {
+                                                "type": "PENJELASAN_LIST_ITEM",
+                                                "id": "",
+                                                "children": [
+                                                  {
+                                                    "type": "PENJELASAN_HURUF",
+                                                    "text": "Huruf b"
+                                                  },
+                                                  {
+                                                    "type": "PLAINTEXT",
+                                                    "text": "Cukup jelas."
+                                                  }
+                                                ]
+                                              },
+                                              {
+                                                "type": "PENJELASAN_LIST_ITEM",
+                                                "id": "",
+                                                "children": [
+                                                  {
+                                                    "type": "PENJELASAN_HURUF",
+                                                    "text": "Huruf c"
+                                                  },
+                                                  {
+                                                    "type": "PLAINTEXT",
+                                                    "text": "Yang dimaksud dengan \u201cbertakwa kepada Tuhan Yang Maha Esa\u201d adalah menjalankan agama."
+                                                  }
+                                                ]
+                                              },
+                                              {
+                                                "type": "PENJELASAN_LIST_ITEM",
+                                                "id": "",
+                                                "children": [
+                                                  {
+                                                    "type": "PENJELASAN_HURUF",
+                                                    "text": "Huruf d"
+                                                  },
+                                                  {
+                                                    "type": "PLAINTEXT",
+                                                    "text": "Cukup jelas."
+                                                  }
+                                                ]
+                                              },
+                                              {
+                                                "type": "PENJELASAN_LIST_ITEM",
+                                                "id": "",
+                                                "children": [
+                                                  {
+                                                    "type": "PENJELASAN_HURUF",
+                                                    "text": "Huruf e"
+                                                  },
+                                                  {
+                                                    "type": "PLAINTEXT",
+                                                    "text": "Cukup jelas."
+                                                  }
+                                                ]
+                                              },
+                                              {
+                                                "type": "PENJELASAN_LIST_ITEM",
+                                                "id": "",
+                                                "children": [
+                                                  {
+                                                    "type": "PENJELASAN_HURUF",
+                                                    "text": "Huruf f"
+                                                  },
+                                                  {
+                                                    "type": "PLAINTEXT",
+                                                    "text": "Cukup jelas."
+                                                  }
+                                                ]
+                                              },
+                                              {
+                                                "type": "PENJELASAN_LIST_ITEM",
+                                                "id": "",
+                                                "children": [
+                                                  {
+                                                    "type": "PENJELASAN_HURUF",
+                                                    "text": "Huruf g"
+                                                  },
+                                                  {
+                                                    "type": "PLAINTEXT",
+                                                    "text": "Cukup jelas."
+                                                  }
+                                                ]
+                                              },
+                                              {
+                                                "type": "PENJELASAN_LIST_ITEM",
+                                                "id": "",
+                                                "children": [
+                                                  {
+                                                    "type": "PENJELASAN_HURUF",
+                                                    "text": "Huruf h"
+                                                  },
+                                                  {
+                                                    "type": "PLAINTEXT",
+                                                    "text": "Cukup jelas."
+                                                  }
+                                                ]
+                                              }
+                                            ]
+                                          }
+                                        ]
+                                      },
+                                      {
+                                        "type": "PENJELASAN_LIST_ITEM",
+                                        "id": "",
+                                        "children": [
+                                          {
+                                            "type": "PENJELASAN_AYAT",
+                                            "text": "Ayat (3)"
+                                          },
+                                          {
+                                            "type": "PLAINTEXT",
+                                            "text": "Cukup jelas."
+                                          }
+                                        ]
+                                      }
+                                    ]
+                                  }
+                                ]
+                              }
+                            ]
+                          }
+                        ]
+                      },
+                      {
+                        "type": "PENJELASAN_LIST_ITEM",
+                        "id": "",
+                        "children": [
+                          {
+                            "type": "PENJELASAN_ANGKA",
+                            "text": "Angka 4"
+                          },
+                          {
+                            "type": "PENJELASAN_PERUBAHAN_SECTION",
+                            "id": "",
+                            "children": [
+                              {
+                                "type": "PENJELASAN_PERUBAHAN_PASAL",
+                                "id": "",
+                                "children": [
+                                  {
+                                    "type": "PASAL_NUMBER",
+                                    "text": "Pasal 20"
+                                  },
+                                  {
+                                    "type": "PLAINTEXT",
+                                    "text": "Cukup jelas."
+                                  }
+                                ]
+                              }
+                            ]
+                          }
+                        ]
+                      },
+                      {
+                        "type": "PENJELASAN_LIST_ITEM",
+                        "id": "",
+                        "children": [
+                          {
+                            "type": "PENJELASAN_ANGKA",
+                            "text": "Angka 5"
+                          },
+                          {
+                            "type": "PLAINTEXT",
+                            "text": "Cukup jelas."
+                          }
+                        ]
+                      },
+                      {
+                        "type": "PENJELASAN_LIST_ITEM",
+                        "id": "",
+                        "children": [
+                          {
+                            "type": "PENJELASAN_ANGKA",
+                            "text": "Angka 6"
+                          },
+                          {
+                            "type": "PLAINTEXT",
+                            "text": "Cukup jelas."
+                          }
+                        ]
+                      },
+                      {
+                        "type": "PENJELASAN_LIST_ITEM",
+                        "id": "",
+                        "children": [
+                          {
+                            "type": "PENJELASAN_ANGKA",
+                            "text": "Angka 7"
+                          },
+                          {
+                            "type": "PLAINTEXT",
+                            "text": "Cukup jelas."
+                          }
+                        ]
+                      },
+                      {
+                        "type": "PENJELASAN_LIST_ITEM",
+                        "id": "",
+                        "children": [
+                          {
+                            "type": "PENJELASAN_ANGKA",
+                            "text": "Angka 8"
+                          },
+                          {
+                            "type": "PENJELASAN_PERUBAHAN_SECTION",
+                            "id": "",
+                            "children": [
+                              {
+                                "type": "PENJELASAN_PERUBAHAN_PASAL",
+                                "id": "",
+                                "children": [
+                                  {
+                                    "type": "PASAL_NUMBER",
+                                    "text": "Pasal 23"
+                                  },
+                                  {
+                                    "type": "PLAINTEXT",
+                                    "text": "Cukup jelas."
+                                  }
+                                ]
+                              }
+                            ]
+                          }
+                        ]
+                      },
+                      {
+                        "type": "PENJELASAN_LIST_ITEM",
+                        "id": "",
+                        "children": [
+                          {
+                            "type": "PENJELASAN_ANGKA",
+                            "text": "Angka 9"
+                          },
+                          {
+                            "type": "PENJELASAN_PERUBAHAN_SECTION",
+                            "id": "",
+                            "children": [
+                              {
+                                "type": "PENJELASAN_PERUBAHAN_PASAL",
+                                "id": "",
+                                "children": [
+                                  {
+                                    "type": "PASAL_NUMBER",
+                                    "text": "Pasal 26"
+                                  },
+                                  {
+                                    "type": "PLAINTEXT",
+                                    "text": "Cukup jelas."
+                                  }
+                                ]
+                              }
+                            ]
+                          }
+                        ]
+                      },
+                      {
+                        "type": "PENJELASAN_LIST_ITEM",
+                        "id": "",
+                        "children": [
+                          {
+                            "type": "PENJELASAN_ANGKA",
+                            "text": "Angka 10"
+                          },
+                          {
+                            "type": "PENJELASAN_PERUBAHAN_SECTION",
+                            "id": "",
+                            "children": [
+                              {
+                                "type": "PENJELASAN_PERUBAHAN_PASAL",
+                                "id": "",
+                                "children": [
+                                  {
+                                    "type": "PASAL_NUMBER",
+                                    "text": "Pasal 27A"
+                                  },
+                                  {
+                                    "type": "LIST",
+                                    "id": "",
+                                    "children": [
+                                      {
+                                        "type": "PENJELASAN_LIST_ITEM",
+                                        "id": "",
+                                        "children": [
+                                          {
+                                            "type": "PENJELASAN_AYAT",
+                                            "text": "Ayat (1)"
+                                          },
+                                          {
+                                            "type": "PLAINTEXT",
+                                            "text": "Cukup jelas."
+                                          }
+                                        ]
+                                      },
+                                      {
+                                        "type": "PENJELASAN_LIST_ITEM",
+                                        "id": "",
+                                        "children": [
+                                          {
+                                            "type": "PENJELASAN_AYAT",
+                                            "text": "Ayat (2)"
+                                          },
+                                          {
+                                            "type": "PLAINTEXT",
+                                            "text": "Cukup jelas."
+                                          }
+                                        ]
+                                      },
+                                      {
+                                        "type": "PENJELASAN_LIST_ITEM",
+                                        "id": "",
+                                        "children": [
+                                          {
+                                            "type": "PENJELASAN_AYAT",
+                                            "text": "Ayat (3)"
+                                          },
+                                          {
+                                            "type": "PLAINTEXT",
+                                            "text": "Cukup jelas."
+                                          }
+                                        ]
+                                      },
+                                      {
+                                        "type": "PENJELASAN_LIST_ITEM",
+                                        "id": "",
+                                        "children": [
+                                          {
+                                            "type": "PENJELASAN_AYAT",
+                                            "text": "Ayat (4)"
+                                          },
+                                          {
+                                            "type": "PLAINTEXT",
+                                            "text": "Cukup jelas."
+                                          }
+                                        ]
+                                      },
+                                      {
+                                        "type": "PENJELASAN_LIST_ITEM",
+                                        "id": "",
+                                        "children": [
+                                          {
+                                            "type": "PENJELASAN_AYAT",
+                                            "text": "Ayat (5)"
+                                          },
+                                          {
+                                            "type": "PLAINTEXT",
+                                            "text": "Cukup jelas."
+                                          }
+                                        ]
+                                      },
+                                      {
+                                        "type": "PENJELASAN_LIST_ITEM",
+                                        "id": "",
+                                        "children": [
+                                          {
+                                            "type": "PENJELASAN_AYAT",
+                                            "text": "Ayat (6)"
+                                          },
+                                          {
+                                            "type": "PLAINTEXT",
+                                            "text": "Cukup jelas."
+                                          }
+                                        ]
+                                      },
+                                      {
+                                        "type": "PENJELASAN_LIST_ITEM",
+                                        "id": "",
+                                        "children": [
+                                          {
+                                            "type": "PENJELASAN_AYAT",
+                                            "text": "Ayat (7)"
+                                          },
+                                          {
+                                            "type": "PLAINTEXT",
+                                            "text": "Peraturan Mahkamah Konstitusi dalam ketentuan ini dibuat dengan persetujuan Majelis Kehormatan Mahkamah Konstitusi."
+                                          }
+                                        ]
+                                      }
+                                    ]
+                                  }
+                                ]
+                              }
+                            ]
+                          }
+                        ]
+                      },
+                      {
+                        "type": "PENJELASAN_LIST_ITEM",
+                        "id": "",
+                        "children": [
+                          {
+                            "type": "PENJELASAN_ANGKA",
+                            "text": "Angka 11"
+                          },
+                          {
+                            "type": "PLAINTEXT",
+                            "text": "Cukup jelas."
+                          }
+                        ]
+                      },
+                      {
+                        "type": "PENJELASAN_LIST_ITEM",
+                        "id": "",
+                        "children": [
+                          {
+                            "type": "PENJELASAN_ANGKA",
+                            "text": "Angka 12"
+                          },
+                          {
+                            "type": "PLAINTEXT",
+                            "text": "Cukup jelas."
+                          }
+                        ]
+                      },
+                      {
+                        "type": "PENJELASAN_LIST_ITEM",
+                        "id": "",
+                        "children": [
+                          {
+                            "type": "PENJELASAN_ANGKA",
+                            "text": "Angka 13"
+                          },
+                          {
+                            "type": "PENJELASAN_PERUBAHAN_SECTION",
+                            "id": "",
+                            "children": [
+                              {
+                                "type": "PENJELASAN_PERUBAHAN_PASAL",
+                                "id": "",
+                                "children": [
+                                  {
+                                    "type": "PASAL_NUMBER",
+                                    "text": "Pasal 57"
+                                  },
+                                  {
+                                    "type": "LIST",
+                                    "id": "",
+                                    "children": [
+                                      {
+                                        "type": "PENJELASAN_LIST_ITEM",
+                                        "id": "",
+                                        "children": [
+                                          {
+                                            "type": "PENJELASAN_AYAT",
+                                            "text": "Ayat (1)"
+                                          },
+                                          {
+                                            "type": "PLAINTEXT",
+                                            "text": "Cukup jelas."
+                                          }
+                                        ]
+                                      },
+                                      {
+                                        "type": "PENJELASAN_LIST_ITEM",
+                                        "id": "",
+                                        "children": [
+                                          {
+                                            "type": "PENJELASAN_AYAT",
+                                            "text": "Ayat (2)"
+                                          },
+                                          {
+                                            "type": "PLAINTEXT",
+                                            "text": "Cukup jelas."
+                                          },
+                                          {
+                                            "type": "PLAINTEXT",
+                                            "text": "Ayat (2a)"
+                                          },
+                                          {
+                                            "type": "PLAINTEXT",
+                                            "text": "Cukup jelas."
+                                          }
+                                        ]
+                                      },
+                                      {
+                                        "type": "PENJELASAN_LIST_ITEM",
+                                        "id": "",
+                                        "children": [
+                                          {
+                                            "type": "PENJELASAN_AYAT",
+                                            "text": "Ayat (3)"
+                                          },
+                                          {
+                                            "type": "PLAINTEXT",
+                                            "text": "Berita Negara Republik Indonesia (BNRI) untuk putusan Mahkamah Konstitusi diterbitkan oleh menteri yang menyelenggarakan urusan pemerintahan di bidang hukum."
+                                          }
+                                        ]
+                                      }
+                                    ]
+                                  }
+                                ]
+                              }
+                            ]
+                          }
+                        ]
+                      },
+                      {
+                        "type": "PENJELASAN_LIST_ITEM",
+                        "id": "",
+                        "children": [
+                          {
+                            "type": "PENJELASAN_ANGKA",
+                            "text": "Angka 14"
+                          },
+                          {
+                            "type": "PENJELASAN_PERUBAHAN_SECTION",
+                            "id": "",
+                            "children": [
+                              {
+                                "type": "PENJELASAN_PERUBAHAN_PASAL",
+                                "id": "",
+                                "children": [
+                                  {
+                                    "type": "PASAL_NUMBER",
+                                    "text": "Pasal 59"
+                                  },
+                                  {
+                                    "type": "PLAINTEXT",
+                                    "text": "Cukup jelas"
+                                  }
+                                ]
+                              }
+                            ]
+                          }
+                        ]
+                      },
+                      {
+                        "type": "PENJELASAN_LIST_ITEM",
+                        "id": "",
+                        "children": [
+                          {
+                            "type": "PENJELASAN_ANGKA",
+                            "text": "Angka 15"
+                          },
+                          {
+                            "type": "PENJELASAN_PERUBAHAN_SECTION",
+                            "id": "",
+                            "children": [
+                              {
+                                "type": "PENJELASAN_PERUBAHAN_PASAL",
+                                "id": "",
+                                "children": [
+                                  {
+                                    "type": "PASAL_NUMBER",
+                                    "text": "Pasal 87"
+                                  },
+                                  {
+                                    "type": "PLAINTEXT",
+                                    "text": "Cukup jelas"
+                                  }
+                                ]
+                              }
+                            ]
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "PENJELASAN_PASAL",
+                "id": "",
+                "children": [
+                  {
+                    "type": "PASAL_NUMBER",
+                    "text": "Pasal II"
+                  },
+                  {
+                    "type": "PLAINTEXT",
+                    "text": "Cukup jelas."
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

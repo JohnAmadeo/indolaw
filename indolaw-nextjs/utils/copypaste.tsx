@@ -1,23 +1,39 @@
 import { Complex, Primitive, Structure } from "./grammar";
 
-export const renderCopyPasalHtml = (structure: Complex): JSX.Element => {
-  const children = structure.children.map(childStructure => {
-    switch (childStructure.type) {
-      case Structure.PASAL_NUMBER:
-      case Structure.MODIFIED_PASAL_NUMBER:
-      case Structure.PLAINTEXT:
-        return <p>{(childStructure as Primitive).text}</p>;
-      case Structure.LIST:
-        return renderCopyListHtml(childStructure as Complex);
-      case Structure.UNORDERED_LIST:
-        return renderCopyUnorderedListHtml(childStructure as Complex);
-      case Structure.MODIFIED_PASAL:
-        return renderCopyPasalHtml(childStructure as Complex);
-      default:
-        throw Error(`Cannot render ${childStructure.type} for copy-paste`);
-    }
-  });
+export const renderCopyHtml = (structure: Complex | Primitive): JSX.Element => {
+  switch (structure.type) {
+    case Structure.PASAL:
+    case Structure.PENJELASAN_PASAL:
+    case Structure.PERUBAHAN_SECTION:
+    case Structure.PENJELASAN_PERUBAHAN_SECTION:
+    case Structure.PERUBAHAN_PASAL:
+    case Structure.PENJELASAN_PERUBAHAN_PASAL:
+      return renderChildrenHtml(structure as Complex);
 
+    case Structure.PASAL_NUMBER:
+    case Structure.PLAINTEXT:
+      return <p>{(structure as Primitive).text}</p>;
+
+    case Structure.LIST:
+      return renderCopyListHtml(structure as Complex);
+
+    case Structure.UNORDERED_LIST:
+      return renderCopyUnorderedListHtml(structure as Complex);
+
+    case Structure.LIST_ITEM:
+      return renderCopyListItemHtml(structure as Complex);
+
+    case Structure.PENJELASAN_LIST_ITEM:
+      return renderCopyPenjelasanListItemHtml(structure as Complex);
+
+    default:
+      console.error(`Couldn't render type ${structure.type}`);
+      return <></>;
+  }
+}
+
+const renderChildrenHtml = (structure: Complex): JSX.Element => {
+  const children = structure.children.map(renderCopyHtml);
   return <div>{children}</div>;
 };
 
@@ -155,33 +171,6 @@ const renderCopyPenjelasanListItemHtml = (structure: Complex): JSX.Element => {
     </>
   );
 };
-
-const renderCopyHtml = (structure: Complex | Primitive): JSX.Element => {
-  switch (structure.type) {
-    case Structure.PASAL:
-    case Structure.MODIFIED_PASAL:
-      return renderCopyPasalHtml(structure as Complex);
-    case Structure.PASAL_NUMBER:
-      return (
-        <p style={{ textAlign: 'center' }}>
-          {(structure as Primitive).text}
-        </p>
-      );
-    case Structure.PLAINTEXT:
-      return <p>{(structure as Primitive).text}</p>;
-    case Structure.LIST:
-      return renderCopyListHtml(structure as Complex);
-    case Structure.UNORDERED_LIST:
-      return renderCopyUnorderedListHtml(structure as Complex);
-    case Structure.LIST_ITEM:
-      return renderCopyListItemHtml(structure as Complex);
-    case Structure.PENJELASAN_LIST_ITEM:
-      return renderCopyPenjelasanListItemHtml(structure as Complex);
-    default:
-      console.error(`Couldn't render type ${structure.type}`);
-      return <></>;
-  }
-}
 
 const getListIndexType = (listStructure: Complex): Structure => {
   return (listStructure.children[0] as Complex).children[0].type;

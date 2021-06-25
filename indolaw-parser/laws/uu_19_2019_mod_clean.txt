@@ -196,7 +196,7 @@ meminta bantuan kepolisian atau instansi lain yang terkait untuk melakukan penan
 Di antara Pasal 12 dan Pasal 13 disisipkan 4 (empat) pasal, yakni Pasal 12A, Pasal 12B, Pasal 12C, dan Pasal 12D yang berbunyi sebagai berikut:
 “Pasal 12A
 Dalam melaksanakan tugas penuntutan sebagaimana dimaksud dalam Pasal 6 huruf e, penuntut  pada Komisi Pemberantasan Korupsi melaksanakan koordinasi sesuai dengan ketentuan peraturan  perundang-undangan.
-“Pasal 12B
+Pasal 12B
 (1)
 Penyadapan sebagaimana dimaksud dalam Pasal 12 ayat (1), dilaksanakan setelah mendapatkan izin tertulis dari Dewan Pengawas.
 (2)
@@ -205,12 +205,12 @@ Untuk mendapatkan izin sebagaimana dimaksud pada ayat (1) dilaksanakan berdasark
 Dewan Pengawas dapat memberikan izin tertulis terhadap permintaan sebagaimana dimaksud pada ayat (2) paling lama 1 x 24 (satu kali dua puluh empat) jam terhitung sejak permintaan diajukan.
 (4)
 Dalam hal Pimpinan Komisi Pemberantasan Korupsi mendapatkan izin tertulis dari Dewan Pengawas sebagaimana dimaksud pada ayat (3), Penyadapan dilakukan paling lama 6 (enam) bulan terhitung sejak izin tertulis diterima dan dapat diperpanjang 1 (satu) kali untuk jangka waktu yang sama.
-“Pasal 12C
+Pasal 12C
 (1)
 Penyelidik dan penyidik melaporkan Penyadapan sebagaimana dimaksud dalam Pasal 12 ayat (1) yang sedang berlangsung kepada Pimpinan Komisi Pemberantasan Korupsi secara berkala.
 (2)
 Penyadapan sebagaimana dimaksud dalam Pasal 12 ayat (1) yang telah selesai dilaksanakan harus dipertanggungjawabkan kepada Pimpinan Komisi Pemberantasan Korupsi dan Dewan Pengawas paling lambat 14 (empat belas) hari kerja terhitung sejak Penyadapan selesai dilaksanakan.
-“Pasal 12D
+Pasal 12D
 (1)
 Hasil Penyadapan sebagaimana dimaksud dalam Pasal 12 ayat (1) bersifat rahasia dan hanya untuk kepentingan peradilan dalam Pemberantasan Tindak Pidana Korupsi.
 (2)
@@ -357,7 +357,7 @@ Dalam rangka mengawasi pelaksanaan tugas dan wewenang Komisi Pemberantasan Korup
 Anggota Dewan Pengawas berjumlah 5 (lima) orang.
 (3)
 Anggota Dewan Pengawas sebagaimana dimaksud pada ayat (2) memegang jabatan selama 4 (empat) tahun dan dapat dipilih kembali dalam jabatan yang sama hanya untuk 1 (satu) kali masa jabatan.
-“Pasal 37B
+Pasal 37B
 (1)
 Dewan Pengawas bertugas:
 a.
@@ -376,12 +376,12 @@ melakukan evaluasi kinerja Pimpinan dan Pegawai Komisi Pemberantasan Korupsi sec
 Dewan Pengawas membuat laporan pelaksanaan tugas secara berkala 1 (satu) kali dalam 1 (satu) tahun.
 (3)
 Laporan sebagaimana dimaksud pada ayat (2) disampaikan kepada Presiden Republik Indonesia dan Dewan Perwakilan Rakyat Republik Indonesia.
-“Pasal 37C
+Pasal 37C
 (1)
 Dewan Pengawas dalam menjalankan tugas sebagaimana dimaksud dalam Pasal 37B membentuk organ pelaksana pengawas.
 (2)
 Ketentuan mengenai organ pelaksana pengawas sebagaimana dimaksud pada ayat (1) diatur dengan Peraturan Presiden.
-“Pasal 37D
+Pasal 37D
 Untuk dapat diangkat sebagai anggota Dewan Pengawas sebagaimana dimaksud dalam Pasal 37A,  harus memenuhi persyaratan sebagai berikut:
 a.
 warga negara Indonesia;
@@ -407,7 +407,7 @@ k.
 tidak menjalankan profesinya selama menjadi anggota Dewan Pengawas; dan
 l.
 mengumumkan harta kekayaannya sebelum dan setelah menjabat sesuai dengan ketentuan peraturan perundang-undangan yang berlaku.
-“Pasal 37E
+Pasal 37E
 (1)
 Ketua dan anggota Dewan Pengawas sebagaimana dimaksud dalam Pasal 37A diangkat dan ditetapkan oleh Presiden Republik Indonesia.
 (2)
@@ -430,7 +430,7 @@ Dalam jangka waktu paling lambat 14 (empat belas) hari kerja terhitung sejak tan
 Presiden Republik Indonesia menetapkan ketua dan anggota Dewan Pengawas dalam jangka waktu paling lama 14 (empat belas) hari kerja terhitung sejak konsultasi sebagaimana dimaksud pada ayat (9) selesai dilaksanakan.
 (11)
 Ketentuan lebih lanjut mengenai tata cara pengangkatan ketua dan anggota Dewan Pengawas diatur dengan Peraturan Pemerintah.
-“Pasal 37F
+Pasal 37F
 (1)
 Ketua dan anggota Dewan Pengawas berhenti atau diberhentikan, apabila:
 a.
@@ -451,7 +451,7 @@ Dalam hal ketua dan anggota Dewan Pengawas menjadi tersangka tindak pidana, ketu
 Ketua dan anggota Dewan Pengawas yang mengundurkan diri sebagaimana dimaksud pada ayat (1) huruf e dilarang untuk jangka waktu 5 (lima) tahun sejak tanggal pengunduran dirinya menduduki jabatan publik.
 (4)
 Pemberhentian sebagaimana dimaksud pada ayat (1) dan ayat (2) ditetapkan oleh Presiden Republik Indonesia.
-“Pasal 37G
+Pasal 37G
 (1)
 Sebelum memangku jabatan, Ketua, dan anggota Dewan Pengawas wajib mengucapkan sumpah/janji menurut agamanya di hadapan Presiden Republik Indonesia.
 (2)
@@ -584,22 +584,22 @@ Kriteria ketua dan anggota Dewan Pengawas sebagaimana dimaksud pada ayat (1) ses
 Penunjukan dan pengangkatan sebagaimana dimaksud pada ayat (1) untuk 1 (satu) kali masa jabatan sesuai masa jabatan Dewan Pengawas sebagaimana dimaksud dalam Pasal 37A ayat (3).
 (4)
 Pengangkatan ketua dan anggota Dewan Pengawas sebagaimana dimaksud pada ayat (1) dilaksanakan bersamaan dengan pengangkatan Pimpinan Komisi Pemberantasan Korupsi periode tahun 2019 sampai dengan tahun 2023.
-“Pasal 69B
+Pasal 69B
 (1)
 Pada saat Undang-Undang ini mulai berlaku, penyelidik atau penyidik Komisi Pemberantasan Korupsi yang belum berstatus sebagai pegawai aparatur sipil negara dalam jangka waktu paling lama 2 (dua) tahun sejak Undang-Undang ini berlaku dapat diangkat sebagai pegawai aparatur sipil negara sepanjang memenuhi ketentuan peraturan perundang-undangan.
 (2)
 Pengangkatan sebagaimana dimaksud pada ayat (1) berlaku bagi penyelidik atau penyidik Komisi Pemberantasan Korupsi yang telah mengikuti dan lulus pendidikan di bidang penyelidikan dan penyidikan sesuai dengan ketentuan peraturan perundang-undangan.
-“Pasal 69C
+Pasal 69C
 Pada saat Undang-Undang ini mulai berlaku, Pegawai Komisi Pemberantasan Korupsi yang belum  berstatus sebagai pegawai aparatur sipil negara dalam jangka waktu paling lama 2 (dua) tahun  terhitung sejak Undang-Undang ini mulai berlaku dapat diangkat menjadi pegawai aparatur sipil  negara sesuai dengan ketentuan peraturan perundang-undangan.
-“Pasal 69D
+Pasal 69D
 Sebelum Dewan Pengawas terbentuk, pelaksanaan tugas dan kewenangan Komisi Pemberantasan  Korupsi dilaksanakan berdasarkan ketentuan sebelum Undang-Undang ini diubah.”
 37.
 Di antara Pasal 70 dan Pasal 71 disisipkan 3 (tiga) pasal, yakni Pasal 70A, Pasal 70B, dan Pasal 70C, yang berbunyi sebagai berikut:
 “Pasal 70A
 Pengangkatan, pembinaan, dan pemberhentian Pegawai Komisi Pemberantasan Korupsi  dilaksanakan sesuai dengan ketentuan peraturan perundang-undangan.
-“Pasal 70B
+Pasal 70B
 Pada saat Undang-Undang ini berlaku, semua peraturan perundang-undangan yang bertentangan  dengan Undang-Undang ini dicabut dan dinyatakan tidak berlaku.
-“Pasal 70C
+Pasal 70C
 Pada saat Undang-Undang ini berlaku, semua tindakan penyelidikan, penyidikan, dan penuntutan  Tindak Pidana Korupsi yang proses hukumnya belum selesai harus dilakukan berdasarkan ketentuan  sebagaimana diatur dalam Undang-Undang ini.”
 Pasal II
 Undang-Undang ini mulai berlaku pada tanggal diundangkan.
@@ -669,8 +669,8 @@ Angka 11
 Cukup jelas.”
 Angka 12
 “Pasal 12A
-Cukup jelas.”
-“Pasal 12B
+Cukup jelas.
+Pasal 12B
 Ayat (1)
 Izin tertulis diajukan setelah dilakukan gelar perkara di hadapan Dewan Pengawas.
 Ayat (2)
@@ -678,10 +678,10 @@ Cukup jelas.
 Ayat (3)
 Cukup jelas.
 Ayat (4)
-Cukup jelas.”
-“Pasal 12C
-Cukup jelas.”
-“Pasal 12D
+Cukup jelas.
+Pasal 12C
+Cukup jelas.
+Pasal 12D
 Ayat (1)
 Cukup jelas.
 Ayat (2)
@@ -766,20 +766,20 @@ Angka 24
 “Pasal 37
 Cukup jelas.”
 Angka 25
-BAB VA
-Cukup jelas.
+“BAB VA
+Cukup jelas.”
 Angka 26
 “Pasal 37A
-Cukup jelas.”
-“Pasal 37B
-Cukup jelas.”
-“Pasal 37C
-Cukup jelas.”
-“Pasal 37D
-Cukup jelas.”
-“Pasal 37E
-Cukup jelas.”
-“Pasal 37F
+Cukup jelas.
+Pasal 37B
+Cukup jelas.
+Pasal 37C
+Cukup jelas.
+Pasal 37D
+Cukup jelas.
+Pasal 37E
+Cukup jelas.
+Pasal 37F
 Ayat (1)
 Huruf a
 Cukup jelas.
@@ -798,8 +798,8 @@ Cukup jelas.
 Ayat (3)
 Cukup jelas.
 Ayat (4)
-Cukup jelas.”
-“Pasal 37G
+Cukup jelas.
+Pasal 37G
 Cukup jelas.”
 Angka 27
 “Pasal 38
@@ -830,19 +830,19 @@ Angka 35
 Cukup jelas.”
 Angka 36
 “Pasal 69A
-Cukup jelas.”
-“Pasal 69B
-Cukup jelas.”
-“Pasal 69C
-Cukup jelas.”
-“Pasal 69D
+Cukup jelas.
+Pasal 69B
+Cukup jelas.
+Pasal 69C
+Cukup jelas.
+Pasal 69D
 Cukup jelas.”
 Angka 37
 “Pasal 70A
-Cukup jelas.”
-“Pasal 70B
-Cukup jelas.”
-“Pasal 70C
+Cukup jelas.
+Pasal 70B
+Cukup jelas.
+Pasal 70C
 Cukup jelas.”
 Pasal II
 Cukup jelas.

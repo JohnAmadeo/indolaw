@@ -13819,15 +13819,11 @@
                       },
                       {
                         "type": "PLAINTEXT",
-                        "text": "memperoleh salinan Keputusan Menteri mengenai pengesahan badan hukum Perseroan atau persetujuan perubahan anggaran dasar Perseroan"
+                        "text": "memperoleh salinan Keputusan Menteri mengenai pengesahan badan hukum Perseroan atau persetujuan perubahan anggaran dasar Perseroan diatur dengan Peraturan Pemerintah."
                       }
                     ]
                   }
                 ]
-              },
-              {
-                "type": "PLAINTEXT",
-                "text": "diatur dengan Peraturan Pemerintah."
               }
             ]
           }
@@ -14386,7 +14382,7 @@
                 "text": "II. PASAL DEMI PASAL"
               },
               {
-                "type": "PASAL",
+                "type": "PENJELASAN_PASAL",
                 "id": "",
                 "children": [
                   {
@@ -14400,7 +14396,7 @@
                 ]
               },
               {
-                "type": "PASAL",
+                "type": "PENJELASAN_PASAL",
                 "id": "",
                 "children": [
                   {
@@ -14414,7 +14410,7 @@
                 ]
               },
               {
-                "type": "PASAL",
+                "type": "PENJELASAN_PASAL",
                 "id": "",
                 "children": [
                   {
@@ -14462,7 +14458,7 @@
                 ]
               },
               {
-                "type": "PASAL",
+                "type": "PENJELASAN_PASAL",
                 "id": "",
                 "children": [
                   {
@@ -14484,7 +14480,7 @@
                 ]
               },
               {
-                "type": "PASAL",
+                "type": "PENJELASAN_PASAL",
                 "id": "",
                 "children": [
                   {
@@ -14498,7 +14494,7 @@
                 ]
               },
               {
-                "type": "PASAL",
+                "type": "PENJELASAN_PASAL",
                 "id": "",
                 "children": [
                   {
@@ -14516,7 +14512,7 @@
                 ]
               },
               {
-                "type": "PASAL",
+                "type": "PENJELASAN_PASAL",
                 "id": "",
                 "children": [
                   {
@@ -14626,40 +14622,40 @@
                           {
                             "type": "PLAINTEXT",
                             "text": "Karena status dan karakteristik yang khusus, persyaratan jumlah pendiri bagi Perseroan  sebagaimana dimaksud pada ayat ini diatur dalam peraturan perundang-undangan  tersendiri."
-                          }
-                        ]
-                      }
-                    ]
-                  },
-                  {
-                    "type": "LIST",
-                    "id": "",
-                    "children": [
-                      {
-                        "type": "PENJELASAN_LIST_ITEM",
-                        "id": "",
-                        "children": [
-                          {
-                            "type": "PENJELASAN_HURUF",
-                            "text": "Huruf a"
                           },
                           {
-                            "type": "PLAINTEXT",
-                            "text": "Yang dimaksud dengan \u201cpersero\u201d adalah badan usaha milik negara yang berbentuk  Perseroan yang modalnya terbagi dalam saham yang diatur dalam Undang-Undang  tentang Badan Usaha Milik Negara."
-                          }
-                        ]
-                      },
-                      {
-                        "type": "PENJELASAN_LIST_ITEM",
-                        "id": "",
-                        "children": [
-                          {
-                            "type": "PENJELASAN_HURUF",
-                            "text": "Huruf b"
-                          },
-                          {
-                            "type": "PLAINTEXT",
-                            "text": "Cukup jelas."
+                            "type": "LIST",
+                            "id": "",
+                            "children": [
+                              {
+                                "type": "PENJELASAN_LIST_ITEM",
+                                "id": "",
+                                "children": [
+                                  {
+                                    "type": "PENJELASAN_HURUF",
+                                    "text": "Huruf a"
+                                  },
+                                  {
+                                    "type": "PLAINTEXT",
+                                    "text": "Yang dimaksud dengan \u201cpersero\u201d adalah badan usaha milik negara yang berbentuk  Perseroan yang modalnya terbagi dalam saham yang diatur dalam Undang-Undang  tentang Badan Usaha Milik Negara."
+                                  }
+                                ]
+                              },
+                              {
+                                "type": "PENJELASAN_LIST_ITEM",
+                                "id": "",
+                                "children": [
+                                  {
+                                    "type": "PENJELASAN_HURUF",
+                                    "text": "Huruf b"
+                                  },
+                                  {
+                                    "type": "PLAINTEXT",
+                                    "text": "Cukup jelas."
+                                  }
+                                ]
+                              }
+                            ]
                           }
                         ]
                       }
@@ -14668,7 +14664,7 @@
                 ]
               },
               {
-                "type": "PASAL",
+                "type": "PENJELASAN_PASAL",
                 "id": "",
                 "children": [
                   {
@@ -14782,7 +14778,7 @@
                 ]
               },
               {
-                "type": "PASAL",
+                "type": "PENJELASAN_PASAL",
                 "id": "",
                 "children": [
                   {
@@ -14854,7 +14850,7 @@
                 ]
               },
               {
-                "type": "PASAL",
+                "type": "PENJELASAN_PASAL",
                 "id": "",
                 "children": [
                   {
@@ -15010,7 +15006,7 @@
                 ]
               },
               {
-                "type": "PASAL",
+                "type": "PENJELASAN_PASAL",
                 "id": "",
                 "children": [
                   {
@@ -15024,7 +15020,7 @@
                 ]
               },
               {
-                "type": "PASAL",
+                "type": "PENJELASAN_PASAL",
                 "id": "",
                 "children": [
                   {
@@ -15096,7 +15092,7 @@
                 ]
               },
               {
-                "type": "PASAL",
+                "type": "PENJELASAN_PASAL",
                 "id": "",
                 "children": [
                   {
@@ -15182,7 +15178,7 @@
                 ]
               },
               {
-                "type": "PASAL",
+                "type": "PENJELASAN_PASAL",
                 "id": "",
                 "children": [
                   {
@@ -15268,7 +15264,7 @@
                 ]
               },
               {
-                "type": "PASAL",
+                "type": "PENJELASAN_PASAL",
                 "id": "",
                 "children": [
                   {
@@ -15454,7 +15450,7 @@
                 ]
               },
               {
-                "type": "PASAL",
+                "type": "PENJELASAN_PASAL",
                 "id": "",
                 "children": [
                   {
@@ -15526,7 +15522,7 @@
                 ]
               },
               {
-                "type": "PASAL",
+                "type": "PENJELASAN_PASAL",
                 "id": "",
                 "children": [
                   {
@@ -15570,7 +15566,7 @@
                 ]
               },
               {
-                "type": "PASAL",
+                "type": "PENJELASAN_PASAL",
                 "id": "",
                 "children": [
                   {
@@ -15588,7 +15584,7 @@
                 ]
               },
               {
-                "type": "PASAL",
+                "type": "PENJELASAN_PASAL",
                 "id": "",
                 "children": [
                   {
@@ -15602,7 +15598,7 @@
                 ]
               },
               {
-                "type": "PASAL",
+                "type": "PENJELASAN_PASAL",
                 "id": "",
                 "children": [
                   {
@@ -15646,7 +15642,7 @@
                 ]
               },
               {
-                "type": "PASAL",
+                "type": "PENJELASAN_PASAL",
                 "id": "",
                 "children": [
                   {
@@ -15874,7 +15870,7 @@
                 ]
               },
               {
-                "type": "PASAL",
+                "type": "PENJELASAN_PASAL",
                 "id": "",
                 "children": [
                   {
@@ -15934,7 +15930,7 @@
                 ]
               },
               {
-                "type": "PASAL",
+                "type": "PENJELASAN_PASAL",
                 "id": "",
                 "children": [
                   {
@@ -15992,7 +15988,7 @@
                 ]
               },
               {
-                "type": "PASAL",
+                "type": "PENJELASAN_PASAL",
                 "id": "",
                 "children": [
                   {
@@ -16006,7 +16002,7 @@
                 ]
               },
               {
-                "type": "PASAL",
+                "type": "PENJELASAN_PASAL",
                 "id": "",
                 "children": [
                   {
@@ -16020,7 +16016,7 @@
                 ]
               },
               {
-                "type": "PASAL",
+                "type": "PENJELASAN_PASAL",
                 "id": "",
                 "children": [
                   {
@@ -16078,7 +16074,7 @@
                 ]
               },
               {
-                "type": "PASAL",
+                "type": "PENJELASAN_PASAL",
                 "id": "",
                 "children": [
                   {
@@ -16092,7 +16088,7 @@
                 ]
               },
               {
-                "type": "PASAL",
+                "type": "PENJELASAN_PASAL",
                 "id": "",
                 "children": [
                   {
@@ -16106,7 +16102,7 @@
                 ]
               },
               {
-                "type": "PASAL",
+                "type": "PENJELASAN_PASAL",
                 "id": "",
                 "children": [
                   {
@@ -16250,7 +16246,7 @@
                 ]
               },
               {
-                "type": "PASAL",
+                "type": "PENJELASAN_PASAL",
                 "id": "",
                 "children": [
                   {
@@ -16264,7 +16260,7 @@
                 ]
               },
               {
-                "type": "PASAL",
+                "type": "PENJELASAN_PASAL",
                 "id": "",
                 "children": [
                   {
@@ -16278,7 +16274,7 @@
                 ]
               },
               {
-                "type": "PASAL",
+                "type": "PENJELASAN_PASAL",
                 "id": "",
                 "children": [
                   {
@@ -16336,7 +16332,7 @@
                 ]
               },
               {
-                "type": "PASAL",
+                "type": "PENJELASAN_PASAL",
                 "id": "",
                 "children": [
                   {
@@ -16394,7 +16390,7 @@
                 ]
               },
               {
-                "type": "PASAL",
+                "type": "PENJELASAN_PASAL",
                 "id": "",
                 "children": [
                   {
@@ -16522,7 +16518,7 @@
                 ]
               },
               {
-                "type": "PASAL",
+                "type": "PENJELASAN_PASAL",
                 "id": "",
                 "children": [
                   {
@@ -16628,7 +16624,7 @@
                 ]
               },
               {
-                "type": "PASAL",
+                "type": "PENJELASAN_PASAL",
                 "id": "",
                 "children": [
                   {
@@ -16708,7 +16704,7 @@
                 ]
               },
               {
-                "type": "PASAL",
+                "type": "PENJELASAN_PASAL",
                 "id": "",
                 "children": [
                   {
@@ -16814,7 +16810,7 @@
                 ]
               },
               {
-                "type": "PASAL",
+                "type": "PENJELASAN_PASAL",
                 "id": "",
                 "children": [
                   {
@@ -16828,7 +16824,7 @@
                 ]
               },
               {
-                "type": "PASAL",
+                "type": "PENJELASAN_PASAL",
                 "id": "",
                 "children": [
                   {
@@ -16886,7 +16882,7 @@
                 ]
               },
               {
-                "type": "PASAL",
+                "type": "PENJELASAN_PASAL",
                 "id": "",
                 "children": [
                   {
@@ -16900,7 +16896,7 @@
                 ]
               },
               {
-                "type": "PASAL",
+                "type": "PENJELASAN_PASAL",
                 "id": "",
                 "children": [
                   {
@@ -16958,7 +16954,7 @@
                 ]
               },
               {
-                "type": "PASAL",
+                "type": "PENJELASAN_PASAL",
                 "id": "",
                 "children": [
                   {
@@ -17020,7 +17016,7 @@
                 ]
               },
               {
-                "type": "PASAL",
+                "type": "PENJELASAN_PASAL",
                 "id": "",
                 "children": [
                   {
@@ -17136,7 +17132,7 @@
                 ]
               },
               {
-                "type": "PASAL",
+                "type": "PENJELASAN_PASAL",
                 "id": "",
                 "children": [
                   {
@@ -17184,7 +17180,7 @@
                 ]
               },
               {
-                "type": "PASAL",
+                "type": "PENJELASAN_PASAL",
                 "id": "",
                 "children": [
                   {
@@ -17198,7 +17194,7 @@
                 ]
               },
               {
-                "type": "PASAL",
+                "type": "PENJELASAN_PASAL",
                 "id": "",
                 "children": [
                   {
@@ -17212,7 +17208,7 @@
                 ]
               },
               {
-                "type": "PASAL",
+                "type": "PENJELASAN_PASAL",
                 "id": "",
                 "children": [
                   {
@@ -17298,7 +17294,7 @@
                 ]
               },
               {
-                "type": "PASAL",
+                "type": "PENJELASAN_PASAL",
                 "id": "",
                 "children": [
                   {
@@ -17356,7 +17352,7 @@
                 ]
               },
               {
-                "type": "PASAL",
+                "type": "PENJELASAN_PASAL",
                 "id": "",
                 "children": [
                   {
@@ -17370,7 +17366,7 @@
                 ]
               },
               {
-                "type": "PASAL",
+                "type": "PENJELASAN_PASAL",
                 "id": "",
                 "children": [
                   {
@@ -17532,7 +17528,7 @@
                 ]
               },
               {
-                "type": "PASAL",
+                "type": "PENJELASAN_PASAL",
                 "id": "",
                 "children": [
                   {
@@ -17546,7 +17542,7 @@
                 ]
               },
               {
-                "type": "PASAL",
+                "type": "PENJELASAN_PASAL",
                 "id": "",
                 "children": [
                   {
@@ -17632,7 +17628,7 @@
                 ]
               },
               {
-                "type": "PASAL",
+                "type": "PENJELASAN_PASAL",
                 "id": "",
                 "children": [
                   {
@@ -17708,7 +17704,7 @@
                 ]
               },
               {
-                "type": "PASAL",
+                "type": "PENJELASAN_PASAL",
                 "id": "",
                 "children": [
                   {
@@ -17766,7 +17762,7 @@
                 ]
               },
               {
-                "type": "PASAL",
+                "type": "PENJELASAN_PASAL",
                 "id": "",
                 "children": [
                   {
@@ -17780,7 +17776,7 @@
                 ]
               },
               {
-                "type": "PASAL",
+                "type": "PENJELASAN_PASAL",
                 "id": "",
                 "children": [
                   {
@@ -17866,7 +17862,7 @@
                 ]
               },
               {
-                "type": "PASAL",
+                "type": "PENJELASAN_PASAL",
                 "id": "",
                 "children": [
                   {
@@ -17910,7 +17906,7 @@
                 ]
               },
               {
-                "type": "PASAL",
+                "type": "PENJELASAN_PASAL",
                 "id": "",
                 "children": [
                   {
@@ -17968,7 +17964,7 @@
                 ]
               },
               {
-                "type": "PASAL",
+                "type": "PENJELASAN_PASAL",
                 "id": "",
                 "children": [
                   {
@@ -17982,7 +17978,7 @@
                 ]
               },
               {
-                "type": "PASAL",
+                "type": "PENJELASAN_PASAL",
                 "id": "",
                 "children": [
                   {
@@ -18054,7 +18050,7 @@
                 ]
               },
               {
-                "type": "PASAL",
+                "type": "PENJELASAN_PASAL",
                 "id": "",
                 "children": [
                   {
@@ -18098,7 +18094,7 @@
                 ]
               },
               {
-                "type": "PASAL",
+                "type": "PENJELASAN_PASAL",
                 "id": "",
                 "children": [
                   {
@@ -18186,7 +18182,7 @@
                 ]
               },
               {
-                "type": "PASAL",
+                "type": "PENJELASAN_PASAL",
                 "id": "",
                 "children": [
                   {
@@ -18200,7 +18196,7 @@
                 ]
               },
               {
-                "type": "PASAL",
+                "type": "PENJELASAN_PASAL",
                 "id": "",
                 "children": [
                   {
@@ -18262,7 +18258,7 @@
                 ]
               },
               {
-                "type": "PASAL",
+                "type": "PENJELASAN_PASAL",
                 "id": "",
                 "children": [
                   {
@@ -18276,7 +18272,7 @@
                 ]
               },
               {
-                "type": "PASAL",
+                "type": "PENJELASAN_PASAL",
                 "id": "",
                 "children": [
                   {
@@ -18448,7 +18444,7 @@
                 ]
               },
               {
-                "type": "PASAL",
+                "type": "PENJELASAN_PASAL",
                 "id": "",
                 "children": [
                   {
@@ -18514,7 +18510,7 @@
                 ]
               },
               {
-                "type": "PASAL",
+                "type": "PENJELASAN_PASAL",
                 "id": "",
                 "children": [
                   {
@@ -18708,7 +18704,7 @@
                 ]
               },
               {
-                "type": "PASAL",
+                "type": "PENJELASAN_PASAL",
                 "id": "",
                 "children": [
                   {
@@ -18780,7 +18776,7 @@
                 ]
               },
               {
-                "type": "PASAL",
+                "type": "PENJELASAN_PASAL",
                 "id": "",
                 "children": [
                   {
@@ -18860,7 +18856,7 @@
                 ]
               },
               {
-                "type": "PASAL",
+                "type": "PENJELASAN_PASAL",
                 "id": "",
                 "children": [
                   {
@@ -18926,7 +18922,7 @@
                 ]
               },
               {
-                "type": "PASAL",
+                "type": "PENJELASAN_PASAL",
                 "id": "",
                 "children": [
                   {
@@ -19034,7 +19030,7 @@
                 ]
               },
               {
-                "type": "PASAL",
+                "type": "PENJELASAN_PASAL",
                 "id": "",
                 "children": [
                   {
@@ -19092,7 +19088,7 @@
                 ]
               },
               {
-                "type": "PASAL",
+                "type": "PENJELASAN_PASAL",
                 "id": "",
                 "children": [
                   {
@@ -19168,7 +19164,7 @@
                 ]
               },
               {
-                "type": "PASAL",
+                "type": "PENJELASAN_PASAL",
                 "id": "",
                 "children": [
                   {
@@ -19240,7 +19236,7 @@
                 ]
               },
               {
-                "type": "PASAL",
+                "type": "PENJELASAN_PASAL",
                 "id": "",
                 "children": [
                   {
@@ -19326,7 +19322,7 @@
                 ]
               },
               {
-                "type": "PASAL",
+                "type": "PENJELASAN_PASAL",
                 "id": "",
                 "children": [
                   {
@@ -19398,7 +19394,7 @@
                 ]
               },
               {
-                "type": "PASAL",
+                "type": "PENJELASAN_PASAL",
                 "id": "",
                 "children": [
                   {
@@ -19470,7 +19466,7 @@
                 ]
               },
               {
-                "type": "PASAL",
+                "type": "PENJELASAN_PASAL",
                 "id": "",
                 "children": [
                   {
@@ -19626,7 +19622,7 @@
                 ]
               },
               {
-                "type": "PASAL",
+                "type": "PENJELASAN_PASAL",
                 "id": "",
                 "children": [
                   {
@@ -19758,7 +19754,7 @@
                 ]
               },
               {
-                "type": "PASAL",
+                "type": "PENJELASAN_PASAL",
                 "id": "",
                 "children": [
                   {
@@ -19802,7 +19798,7 @@
                 ]
               },
               {
-                "type": "PASAL",
+                "type": "PENJELASAN_PASAL",
                 "id": "",
                 "children": [
                   {
@@ -19888,7 +19884,7 @@
                 ]
               },
               {
-                "type": "PASAL",
+                "type": "PENJELASAN_PASAL",
                 "id": "",
                 "children": [
                   {
@@ -19932,7 +19928,7 @@
                 ]
               },
               {
-                "type": "PASAL",
+                "type": "PENJELASAN_PASAL",
                 "id": "",
                 "children": [
                   {
@@ -19968,54 +19964,54 @@
                           {
                             "type": "PLAINTEXT",
                             "text": "Dengan ketentuan ini saham Perseroan yang dikuasai oleh Perseroan tersebut, baik  langsung maupun tidak langsung, tidak mempunyai hak suara dan tidak dihitung dalam  penentuan kuorum."
-                          }
-                        ]
-                      }
-                    ]
-                  },
-                  {
-                    "type": "LIST",
-                    "id": "",
-                    "children": [
-                      {
-                        "type": "PENJELASAN_LIST_ITEM",
-                        "id": "",
-                        "children": [
-                          {
-                            "type": "PENJELASAN_HURUF",
-                            "text": "Huruf a"
                           },
                           {
-                            "type": "PLAINTEXT",
-                            "text": "Yang dimaksud dengan \u201cdikuasai sendiri\u201d adalah dikuasai baik karena hubungan  kepemilikan, pembelian kembali maupun karena gadai."
-                          }
-                        ]
-                      },
-                      {
-                        "type": "PENJELASAN_LIST_ITEM",
-                        "id": "",
-                        "children": [
-                          {
-                            "type": "PENJELASAN_HURUF",
-                            "text": "Huruf b"
-                          },
-                          {
-                            "type": "PLAINTEXT",
-                            "text": "Cukup jelas."
-                          }
-                        ]
-                      },
-                      {
-                        "type": "PENJELASAN_LIST_ITEM",
-                        "id": "",
-                        "children": [
-                          {
-                            "type": "PENJELASAN_HURUF",
-                            "text": "Huruf c"
-                          },
-                          {
-                            "type": "PLAINTEXT",
-                            "text": "Cukup jelas."
+                            "type": "LIST",
+                            "id": "",
+                            "children": [
+                              {
+                                "type": "PENJELASAN_LIST_ITEM",
+                                "id": "",
+                                "children": [
+                                  {
+                                    "type": "PENJELASAN_HURUF",
+                                    "text": "Huruf a"
+                                  },
+                                  {
+                                    "type": "PLAINTEXT",
+                                    "text": "Yang dimaksud dengan \u201cdikuasai sendiri\u201d adalah dikuasai baik karena hubungan  kepemilikan, pembelian kembali maupun karena gadai."
+                                  }
+                                ]
+                              },
+                              {
+                                "type": "PENJELASAN_LIST_ITEM",
+                                "id": "",
+                                "children": [
+                                  {
+                                    "type": "PENJELASAN_HURUF",
+                                    "text": "Huruf b"
+                                  },
+                                  {
+                                    "type": "PLAINTEXT",
+                                    "text": "Cukup jelas."
+                                  }
+                                ]
+                              },
+                              {
+                                "type": "PENJELASAN_LIST_ITEM",
+                                "id": "",
+                                "children": [
+                                  {
+                                    "type": "PENJELASAN_HURUF",
+                                    "text": "Huruf c"
+                                  },
+                                  {
+                                    "type": "PLAINTEXT",
+                                    "text": "Cukup jelas."
+                                  }
+                                ]
+                              }
+                            ]
                           }
                         ]
                       }
@@ -20024,7 +20020,7 @@
                 ]
               },
               {
-                "type": "PASAL",
+                "type": "PENJELASAN_PASAL",
                 "id": "",
                 "children": [
                   {
@@ -20142,7 +20138,7 @@
                 ]
               },
               {
-                "type": "PASAL",
+                "type": "PENJELASAN_PASAL",
                 "id": "",
                 "children": [
                   {
@@ -20284,7 +20280,7 @@
                 ]
               },
               {
-                "type": "PASAL",
+                "type": "PENJELASAN_PASAL",
                 "id": "",
                 "children": [
                   {
@@ -20328,7 +20324,7 @@
                 ]
               },
               {
-                "type": "PASAL",
+                "type": "PENJELASAN_PASAL",
                 "id": "",
                 "children": [
                   {
@@ -20342,7 +20338,7 @@
                 ]
               },
               {
-                "type": "PASAL",
+                "type": "PENJELASAN_PASAL",
                 "id": "",
                 "children": [
                   {
@@ -20428,7 +20424,7 @@
                 ]
               },
               {
-                "type": "PASAL",
+                "type": "PENJELASAN_PASAL",
                 "id": "",
                 "children": [
                   {
@@ -20472,7 +20468,7 @@
                 ]
               },
               {
-                "type": "PASAL",
+                "type": "PENJELASAN_PASAL",
                 "id": "",
                 "children": [
                   {
@@ -20490,7 +20486,7 @@
                 ]
               },
               {
-                "type": "PASAL",
+                "type": "PENJELASAN_PASAL",
                 "id": "",
                 "children": [
                   {
@@ -20590,7 +20586,7 @@
                 ]
               },
               {
-                "type": "PASAL",
+                "type": "PENJELASAN_PASAL",
                 "id": "",
                 "children": [
                   {
@@ -20696,7 +20692,7 @@
                 ]
               },
               {
-                "type": "PASAL",
+                "type": "PENJELASAN_PASAL",
                 "id": "",
                 "children": [
                   {
@@ -20842,7 +20838,7 @@
                 ]
               },
               {
-                "type": "PASAL",
+                "type": "PENJELASAN_PASAL",
                 "id": "",
                 "children": [
                   {
@@ -20928,7 +20924,7 @@
                 ]
               },
               {
-                "type": "PASAL",
+                "type": "PENJELASAN_PASAL",
                 "id": "",
                 "children": [
                   {
@@ -20986,7 +20982,7 @@
                 ]
               },
               {
-                "type": "PASAL",
+                "type": "PENJELASAN_PASAL",
                 "id": "",
                 "children": [
                   {
@@ -21158,7 +21154,7 @@
                 ]
               },
               {
-                "type": "PASAL",
+                "type": "PENJELASAN_PASAL",
                 "id": "",
                 "children": [
                   {
@@ -21238,7 +21234,7 @@
                 ]
               },
               {
-                "type": "PASAL",
+                "type": "PENJELASAN_PASAL",
                 "id": "",
                 "children": [
                   {
@@ -21252,7 +21248,7 @@
                 ]
               },
               {
-                "type": "PASAL",
+                "type": "PENJELASAN_PASAL",
                 "id": "",
                 "children": [
                   {
@@ -21372,7 +21368,7 @@
                 ]
               },
               {
-                "type": "PASAL",
+                "type": "PENJELASAN_PASAL",
                 "id": "",
                 "children": [
                   {
@@ -21390,7 +21386,7 @@
                 ]
               },
               {
-                "type": "PASAL",
+                "type": "PENJELASAN_PASAL",
                 "id": "",
                 "children": [
                   {
@@ -21484,7 +21480,7 @@
                 ]
               },
               {
-                "type": "PASAL",
+                "type": "PENJELASAN_PASAL",
                 "id": "",
                 "children": [
                   {
@@ -21498,7 +21494,7 @@
                 ]
               },
               {
-                "type": "PASAL",
+                "type": "PENJELASAN_PASAL",
                 "id": "",
                 "children": [
                   {
@@ -21512,7 +21508,7 @@
                 ]
               },
               {
-                "type": "PASAL",
+                "type": "PENJELASAN_PASAL",
                 "id": "",
                 "children": [
                   {
@@ -21598,7 +21594,7 @@
                 ]
               },
               {
-                "type": "PASAL",
+                "type": "PENJELASAN_PASAL",
                 "id": "",
                 "children": [
                   {
@@ -21740,7 +21736,7 @@
                 ]
               },
               {
-                "type": "PASAL",
+                "type": "PENJELASAN_PASAL",
                 "id": "",
                 "children": [
                   {
@@ -21798,7 +21794,7 @@
                 ]
               },
               {
-                "type": "PASAL",
+                "type": "PENJELASAN_PASAL",
                 "id": "",
                 "children": [
                   {
@@ -21884,7 +21880,7 @@
                 ]
               },
               {
-                "type": "PASAL",
+                "type": "PENJELASAN_PASAL",
                 "id": "",
                 "children": [
                   {
@@ -21898,7 +21894,7 @@
                 ]
               },
               {
-                "type": "PASAL",
+                "type": "PENJELASAN_PASAL",
                 "id": "",
                 "children": [
                   {
@@ -22000,7 +21996,7 @@
                 ]
               },
               {
-                "type": "PASAL",
+                "type": "PENJELASAN_PASAL",
                 "id": "",
                 "children": [
                   {
@@ -22014,7 +22010,7 @@
                 ]
               },
               {
-                "type": "PASAL",
+                "type": "PENJELASAN_PASAL",
                 "id": "",
                 "children": [
                   {
@@ -22086,7 +22082,7 @@
                 ]
               },
               {
-                "type": "PASAL",
+                "type": "PENJELASAN_PASAL",
                 "id": "",
                 "children": [
                   {
@@ -22100,7 +22096,7 @@
                 ]
               },
               {
-                "type": "PASAL",
+                "type": "PENJELASAN_PASAL",
                 "id": "",
                 "children": [
                   {
@@ -22200,7 +22196,7 @@
                 ]
               },
               {
-                "type": "PASAL",
+                "type": "PENJELASAN_PASAL",
                 "id": "",
                 "children": [
                   {
@@ -22214,7 +22210,7 @@
                 ]
               },
               {
-                "type": "PASAL",
+                "type": "PENJELASAN_PASAL",
                 "id": "",
                 "children": [
                   {
@@ -22276,7 +22272,7 @@
                 ]
               },
               {
-                "type": "PASAL",
+                "type": "PENJELASAN_PASAL",
                 "id": "",
                 "children": [
                   {
@@ -22328,7 +22324,7 @@
                 ]
               },
               {
-                "type": "PASAL",
+                "type": "PENJELASAN_PASAL",
                 "id": "",
                 "children": [
                   {
@@ -22376,7 +22372,7 @@
                 ]
               },
               {
-                "type": "PASAL",
+                "type": "PENJELASAN_PASAL",
                 "id": "",
                 "children": [
                   {
@@ -22390,7 +22386,7 @@
                 ]
               },
               {
-                "type": "PASAL",
+                "type": "PENJELASAN_PASAL",
                 "id": "",
                 "children": [
                   {
@@ -22462,7 +22458,7 @@
                 ]
               },
               {
-                "type": "PASAL",
+                "type": "PENJELASAN_PASAL",
                 "id": "",
                 "children": [
                   {
@@ -22506,7 +22502,7 @@
                 ]
               },
               {
-                "type": "PASAL",
+                "type": "PENJELASAN_PASAL",
                 "id": "",
                 "children": [
                   {
@@ -22520,7 +22516,7 @@
                 ]
               },
               {
-                "type": "PASAL",
+                "type": "PENJELASAN_PASAL",
                 "id": "",
                 "children": [
                   {
@@ -22818,7 +22814,7 @@
                 ]
               },
               {
-                "type": "PASAL",
+                "type": "PENJELASAN_PASAL",
                 "id": "",
                 "children": [
                   {
@@ -22832,7 +22828,7 @@
                 ]
               },
               {
-                "type": "PASAL",
+                "type": "PENJELASAN_PASAL",
                 "id": "",
                 "children": [
                   {
@@ -23116,7 +23112,7 @@
                 ]
               },
               {
-                "type": "PASAL",
+                "type": "PENJELASAN_PASAL",
                 "id": "",
                 "children": [
                   {
@@ -23174,7 +23170,7 @@
                 ]
               },
               {
-                "type": "PASAL",
+                "type": "PENJELASAN_PASAL",
                 "id": "",
                 "children": [
                   {
@@ -23302,7 +23298,7 @@
                 ]
               },
               {
-                "type": "PASAL",
+                "type": "PENJELASAN_PASAL",
                 "id": "",
                 "children": [
                   {
@@ -23316,7 +23312,7 @@
                 ]
               },
               {
-                "type": "PASAL",
+                "type": "PENJELASAN_PASAL",
                 "id": "",
                 "children": [
                   {
@@ -23330,7 +23326,7 @@
                 ]
               },
               {
-                "type": "PASAL",
+                "type": "PENJELASAN_PASAL",
                 "id": "",
                 "children": [
                   {
@@ -23344,7 +23340,7 @@
                 ]
               },
               {
-                "type": "PASAL",
+                "type": "PENJELASAN_PASAL",
                 "id": "",
                 "children": [
                   {
@@ -23358,7 +23354,7 @@
                 ]
               },
               {
-                "type": "PASAL",
+                "type": "PENJELASAN_PASAL",
                 "id": "",
                 "children": [
                   {
@@ -23372,7 +23368,7 @@
                 ]
               },
               {
-                "type": "PASAL",
+                "type": "PENJELASAN_PASAL",
                 "id": "",
                 "children": [
                   {
@@ -23438,7 +23434,7 @@
                 ]
               },
               {
-                "type": "PASAL",
+                "type": "PENJELASAN_PASAL",
                 "id": "",
                 "children": [
                   {
@@ -23452,7 +23448,7 @@
                 ]
               },
               {
-                "type": "PASAL",
+                "type": "PENJELASAN_PASAL",
                 "id": "",
                 "children": [
                   {
@@ -23540,7 +23536,7 @@
                 ]
               },
               {
-                "type": "PASAL",
+                "type": "PENJELASAN_PASAL",
                 "id": "",
                 "children": [
                   {
@@ -23554,7 +23550,7 @@
                 ]
               },
               {
-                "type": "PASAL",
+                "type": "PENJELASAN_PASAL",
                 "id": "",
                 "children": [
                   {
@@ -23568,7 +23564,7 @@
                 ]
               },
               {
-                "type": "PASAL",
+                "type": "PENJELASAN_PASAL",
                 "id": "",
                 "children": [
                   {
@@ -23668,7 +23664,7 @@
                 ]
               },
               {
-                "type": "PASAL",
+                "type": "PENJELASAN_PASAL",
                 "id": "",
                 "children": [
                   {
@@ -23782,7 +23778,7 @@
                 ]
               },
               {
-                "type": "PASAL",
+                "type": "PENJELASAN_PASAL",
                 "id": "",
                 "children": [
                   {
@@ -23826,7 +23822,7 @@
                 ]
               },
               {
-                "type": "PASAL",
+                "type": "PENJELASAN_PASAL",
                 "id": "",
                 "children": [
                   {
@@ -23884,7 +23880,7 @@
                 ]
               },
               {
-                "type": "PASAL",
+                "type": "PENJELASAN_PASAL",
                 "id": "",
                 "children": [
                   {
@@ -24108,7 +24104,7 @@
                 ]
               },
               {
-                "type": "PASAL",
+                "type": "PENJELASAN_PASAL",
                 "id": "",
                 "children": [
                   {
@@ -24156,7 +24152,7 @@
                 ]
               },
               {
-                "type": "PASAL",
+                "type": "PENJELASAN_PASAL",
                 "id": "",
                 "children": [
                   {
@@ -24170,7 +24166,7 @@
                 ]
               },
               {
-                "type": "PASAL",
+                "type": "PENJELASAN_PASAL",
                 "id": "",
                 "children": [
                   {
@@ -24184,7 +24180,7 @@
                 ]
               },
               {
-                "type": "PASAL",
+                "type": "PENJELASAN_PASAL",
                 "id": "",
                 "children": [
                   {
@@ -24334,7 +24330,7 @@
                 ]
               },
               {
-                "type": "PASAL",
+                "type": "PENJELASAN_PASAL",
                 "id": "",
                 "children": [
                   {
@@ -24426,7 +24422,7 @@
                 ]
               },
               {
-                "type": "PASAL",
+                "type": "PENJELASAN_PASAL",
                 "id": "",
                 "children": [
                   {
@@ -24440,7 +24436,7 @@
                 ]
               },
               {
-                "type": "PASAL",
+                "type": "PENJELASAN_PASAL",
                 "id": "",
                 "children": [
                   {
@@ -24584,7 +24580,7 @@
                 ]
               },
               {
-                "type": "PASAL",
+                "type": "PENJELASAN_PASAL",
                 "id": "",
                 "children": [
                   {
@@ -24598,7 +24594,7 @@
                 ]
               },
               {
-                "type": "PASAL",
+                "type": "PENJELASAN_PASAL",
                 "id": "",
                 "children": [
                   {
@@ -24612,7 +24608,7 @@
                 ]
               },
               {
-                "type": "PASAL",
+                "type": "PENJELASAN_PASAL",
                 "id": "",
                 "children": [
                   {
@@ -24740,7 +24736,7 @@
                 ]
               },
               {
-                "type": "PASAL",
+                "type": "PENJELASAN_PASAL",
                 "id": "",
                 "children": [
                   {
@@ -24754,7 +24750,7 @@
                 ]
               },
               {
-                "type": "PASAL",
+                "type": "PENJELASAN_PASAL",
                 "id": "",
                 "children": [
                   {
@@ -24802,7 +24798,7 @@
                 ]
               },
               {
-                "type": "PASAL",
+                "type": "PENJELASAN_PASAL",
                 "id": "",
                 "children": [
                   {
@@ -24816,7 +24812,7 @@
                 ]
               },
               {
-                "type": "PASAL",
+                "type": "PENJELASAN_PASAL",
                 "id": "",
                 "children": [
                   {
@@ -24830,7 +24826,7 @@
                 ]
               },
               {
-                "type": "PASAL",
+                "type": "PENJELASAN_PASAL",
                 "id": "",
                 "children": [
                   {
@@ -24902,7 +24898,7 @@
                 ]
               },
               {
-                "type": "PASAL",
+                "type": "PENJELASAN_PASAL",
                 "id": "",
                 "children": [
                   {
@@ -24916,7 +24912,7 @@
                 ]
               },
               {
-                "type": "PASAL",
+                "type": "PENJELASAN_PASAL",
                 "id": "",
                 "children": [
                   {
@@ -24930,7 +24926,7 @@
                 ]
               },
               {
-                "type": "PASAL",
+                "type": "PENJELASAN_PASAL",
                 "id": "",
                 "children": [
                   {
@@ -24944,7 +24940,7 @@
                 ]
               },
               {
-                "type": "PASAL",
+                "type": "PENJELASAN_PASAL",
                 "id": "",
                 "children": [
                   {
@@ -24954,10 +24950,6 @@
                   {
                     "type": "PLAINTEXT",
                     "text": "Cukup jelas."
-                  },
-                  {
-                    "type": "PLAINTEXT",
-                    "text": "TAMBAHAN LEMBARAN NEGARA REPUBLIK INDONESIA NOMOR 4756"
                   }
                 ]
               }

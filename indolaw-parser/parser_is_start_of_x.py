@@ -3,16 +3,45 @@ import re
 
 from parser_types import Structure
 
-PASAL_NUMBER_REGEX = r'Pasal[\s]+([0-9]+|[MDCLXVI]+)'
-MODIFIED_PASAL_NUMBER_REGEX = r'“Pasal[\s]+[0-9]+[A-Z]*'
+OPEN_QUOTE_CHAR = '“'
+CLOSE_QUOTE_CHAR = '”'
+
+PASAL_NUMBER_REGEX = r'(Pasal[\s]+([0-9]+[A-Z]*|[MDCLXVI]+))'
+PASAL_NUMBER_ALPHANUMERIC_VARIANT_REGEX = r'(Pasal[\s]+([0-9]+[A-Z]*))'
+PASAL_NUMBER_WITH_OPEN_QUOTE_CHAR_REGEX = r'(“Pasal[\s]+([0-9]+[A-Z]*|[MDCLXVI]+))'
+BAB_NUMBER_REGEX = r'(BAB [MDCLXVI]+[A-Z]*)'
+BAB_NUMBER_WITH_OPEN_QUOTE_CHAR_REGEX = r'(“BAB [MDCLXVI]+[A-Z]*)'
+BAGIAN_NUMBER_REGEX = r'(Bagian (Ke[a-z]+|Pertama))'
+BAGIAN_NUMBER_WITH_OPEN_QUOTE_CHAR_REGEX = r'(“Bagian (Ke[a-z]+|Pertama))'
+
+LETTER_WITH_DOT_REGEX = r'([a-z]\.)'
+NUMBER_WITH_BRACKETS_REGEX = r'(\([0-9]+[a-z]?\))'
+NUMBER_WITH_BRACKETS_ALPHANUMERIC_VARIANT_REGEX = r'(\([0-9]+[a-z]\))'
+NUMBER_WITH_RIGHT_BRACKET_REGEX = r'([0-9]+\))'
+NUMBER_WITH_DOT_REGEX = r'([0-9]+[a-z]?\.)'
+NUMBER_WITH_DOT_ALPHANUMERIC_VARIANT_REGEX = r'([0-9]+[a-z]\.)'
+
+PENJELASAN_AYAT_REGEX = r'(Ayat \([0-9]+[a-z]?\))'
+PENJELASAN_AYAT_ALPHANUMERIC_VARIANT_REGEX = r'(Ayat \([0-9]+[a-z]\))'
+
+PENJELASAN_HURUF_REGEX = r'(Huruf [a-z])'
+PENJELASAN_ANGKA_REGEX = r'(Angka [0-9]+)'
+
+PAGE_NUMBER_REGEX = r'([0-9]+[\s]*\/[\s]*[0-9]+)'
+
+LINE_ENDING_REGEXES = [
+    r'(;)',
+    r'(:)',
+    r'(\.)',
+    r'(; dan/atau)',
+    r'(; dan)',
+    r'(,)',
+    r'(' + CLOSE_QUOTE_CHAR + r')'
+]
 
 
 def is_start_of_structure(structure: Structure, law: List[str], start_index: int) -> bool:
     """Checks if law[start_index] marks the start of a structure.
-
-    We assume that all is_start_of_x heuristics are mutually exclusive
-    i.e if one of the is_start_of_x functions returns True, all the other
-    is_start_of_x functions return False
 
     Args:
         structures: structure that we want to test against
@@ -67,10 +96,6 @@ def is_start_of_structure(structure: Structure, law: List[str], start_index: int
         return is_start_of_pasal(law, start_index)
     elif structure == Structure.PASAL_NUMBER:
         return is_start_of_pasal_number(law, start_index)
-    elif structure == Structure.MODIFIED_PASAL:
-        return is_start_of_modified_pasal(law, start_index)
-    elif structure == Structure.MODIFIED_PASAL_NUMBER:
-        return is_start_of_modified_pasal_number(law, start_index)
     # BAGIAN
     elif structure == Structure.BAGIAN:
         return is_start_of_bagian(law, start_index)
@@ -85,6 +110,23 @@ def is_start_of_structure(structure: Structure, law: List[str], start_index: int
         return is_start_of_paragraf_number(law, start_index)
     elif structure == Structure.PARAGRAF_TITLE:
         return is_start_of_paragraf_title(law, start_index)
+    # PERUBAHAN SECTION
+    elif structure == Structure.PERUBAHAN_SECTION:
+        return is_start_of_perubahan_section(law, start_index)
+    elif structure == Structure.PERUBAHAN_PASAL:
+        return is_start_of_perubahan_pasal(law, start_index)
+    elif structure == Structure.PERUBAHAN_BAB:
+        return is_start_of_perubahan_bab(law, start_index)
+    elif structure == Structure.PERUBAHAN_BAGIAN:
+        return is_start_of_perubahan_bagian(law, start_index)
+    elif structure == Structure.PENJELASAN_PERUBAHAN_SECTION:
+        return is_start_of_penjelasan_perubahan_section(law, start_index)
+    elif structure == Structure.PENJELASAN_PERUBAHAN_PASAL:
+        return is_start_of_penjelasan_perubahan_pasal(law, start_index)
+    elif structure == Structure.PENJELASAN_PERUBAHAN_BAB:
+        return is_start_of_penjelasan_perubahan_bab(law, start_index)
+    elif structure == Structure.PENJELASAN_PERUBAHAN_BAGIAN:
+        return is_start_of_penjelasan_perubahan_bagian(law, start_index)
     # LIST
     elif structure == Structure.LIST:
         return is_start_of_list(law, start_index)
@@ -124,6 +166,8 @@ def is_start_of_structure(structure: Structure, law: List[str], start_index: int
         return is_start_of_penjelasan_pasal_demi_pasal(law, start_index)
     elif structure == Structure.PENJELASAN_PASAL_DEMI_PASAL_TITLE:
         return is_start_of_penjelasan_pasal_demi_pasal_title(law, start_index)
+    elif structure == Structure.PENJELASAN_PASAL:
+        return is_start_of_penjelasan_pasal(law, start_index)
     elif structure == Structure.PENJELASAN_LIST_ITEM:
         return is_start_of_penjelasan_list_index_str(law[start_index])
     elif structure == Structure.UNORDERED_LIST:
@@ -467,12 +511,32 @@ def is_start_of_pasal_number(law: List[str], start_index: int) -> bool:
     return is_heading(PASAL_NUMBER_REGEX, law[start_index])
 
 
-def is_start_of_modified_pasal(law: List[str], start_index: int, ) -> bool:
-    return is_start_of_modified_pasal_number(law, start_index)
+def is_start_of_perubahan_pasal(law: List[str], start_index: int) -> bool:
+    return is_start_of_pasal(law, start_index) or \
+        is_heading(PASAL_NUMBER_WITH_OPEN_QUOTE_CHAR_REGEX, law[start_index])
 
 
-def is_start_of_modified_pasal_number(law: List[str], start_index: int) -> bool:
-    return is_heading(MODIFIED_PASAL_NUMBER_REGEX, law[start_index])
+def is_start_of_penjelasan_perubahan_pasal(law: List[str], start_index: int) -> bool:
+    return is_start_of_pasal(law, start_index) or \
+        is_heading(PASAL_NUMBER_WITH_OPEN_QUOTE_CHAR_REGEX, law[start_index])
+
+
+def is_start_of_penjelasan_pasal(law: List[str], start_index: int, ) -> bool:
+    return is_start_of_pasal(law, start_index)
+
+
+def is_start_of_perubahan_section(law: List[str], start_index: int) -> bool:
+    '''
+    TODO May need heuristics - what if open/quote chars occur naturally in line
+    '''
+    return law[start_index][0] == OPEN_QUOTE_CHAR
+
+
+def is_start_of_penjelasan_perubahan_section(law: List[str], start_index: int) -> bool:
+    '''
+    TODO May need heuristics - what if open/quote chars occur naturally in line
+    '''
+    return is_start_of_perubahan_section(law, start_index)
 
 
 def is_start_of_bagian(law: List[str], start_index: int) -> bool:
@@ -529,8 +593,7 @@ def is_start_of_bagian_number(law: List[str], start_index: int) -> bool:
     however on rare occasions the 1st bagian can be 'pertama' instead
     of 'kesatu'
     '''
-    return is_heading(r'Bagian Ke[a-z]+', law[start_index]) or \
-        is_heading(r'Bagian Pertama', law[start_index])
+    return is_heading(BAGIAN_NUMBER_REGEX, law[start_index])
 
 
 def is_start_of_bagian_title(law: List[str], start_index: int) -> bool:
@@ -557,6 +620,16 @@ def is_start_of_bagian_title(law: List[str], start_index: int) -> bool:
         True
     """
     return is_start_of_bagian_number(law, start_index-1)
+
+
+def is_start_of_perubahan_bagian(law: List[str], start_index: int) -> bool:
+    return is_start_of_bagian(law, start_index) or \
+        is_heading(BAGIAN_NUMBER_WITH_OPEN_QUOTE_CHAR_REGEX, law[start_index])
+
+
+def is_start_of_penjelasan_perubahan_bagian(law: List[str], start_index: int) -> bool:
+    return is_start_of_bagian(law, start_index) or \
+        is_heading(BAGIAN_NUMBER_WITH_OPEN_QUOTE_CHAR_REGEX, law[start_index])
 
 
 def is_start_of_paragraf(law: List[str], start_index: int) -> bool:
@@ -683,7 +756,7 @@ def is_start_of_bab_number(law: List[str], start_index: int) -> bool:
         >>> is_start_of_bab_number(law, 0)
         True
     """
-    return is_heading(r'BAB [MDCLXVI]+', law[start_index])
+    return is_heading(BAB_NUMBER_REGEX, law[start_index])
 
 
 def is_start_of_bab_title(law: List[str], start_index: int) -> bool:
@@ -711,6 +784,16 @@ def is_start_of_bab_title(law: List[str], start_index: int) -> bool:
         True
     """
     return is_start_of_bab_number(law, start_index-1)
+
+
+def is_start_of_perubahan_bab(law: List[str], start_index: int) -> bool:
+    return is_start_of_bab(law, start_index) or \
+        is_heading(BAB_NUMBER_WITH_OPEN_QUOTE_CHAR_REGEX, law[start_index])
+
+
+def is_start_of_penjelasan_perubahan_bab(law: List[str], start_index: int) -> bool:
+    return is_start_of_bab(law, start_index) or \
+        is_heading(BAB_NUMBER_WITH_OPEN_QUOTE_CHAR_REGEX, law[start_index])
 
 
 def is_start_of_closing(law: List[str], start_index: int) -> bool:
@@ -1035,7 +1118,7 @@ def is_start_of_letter_with_dot_str(string: str) -> bool:
         >>> is_start_of_letter_with_dot_str('1.')
         False
     """
-    return is_heading(r'[a-z]\.', string)
+    return is_heading(LETTER_WITH_DOT_REGEX, string)
 
 
 def is_start_of_number_with_dot(law: List[str], start_index: int) -> bool:
@@ -1097,7 +1180,7 @@ def is_start_of_number_with_dot_str(string: str) -> bool:
         >>> is_start_of_number_with_dot_str('b.')
         False
     """
-    return is_heading(r'[0-9]+\.', string)
+    return is_heading(NUMBER_WITH_DOT_REGEX, string)
 
 
 def is_start_of_number_with_brackets(law: List[str], start_index: int) -> bool:
@@ -1159,7 +1242,7 @@ def is_start_of_number_with_brackets_str(string: str) -> bool:
         >>> is_start_of_number_with_brackets_str('b.')
         False
     """
-    return is_heading(r'\([0-9]+\)', string)
+    return is_heading(NUMBER_WITH_BRACKETS_REGEX, string)
 
 
 def is_start_of_number_with_right_bracket(law: List[str], start_index: int) -> bool:
@@ -1169,34 +1252,7 @@ def is_start_of_number_with_right_bracket(law: List[str], start_index: int) -> b
 
 
 def is_start_of_number_with_right_bracket_str(string: str) -> bool:
-    """Check if string marks the start of a NUMBER_WITH_RIGHT_BRACKET structure.
-
-    e.g consider this LIST structure
-    >>> [
-    ...     '1)' # LIST_INDEX
-    ...     'dengan adanya cara baru...',
-    ...     '2)' # LIST_INDEX
-    ...     'yang dimaksud oleh...', 
-    ...     '(1), # LIST_INDEX
-    ...     'karena data...',
-    ... ]
-
-    '1)' and '2)' marks the start of a NUMBER_WITH_RIGHT_BRACKET, but not '(1)'
-
-    Args:
-        string: self-descriptive
-
-    Returns:
-        bool: True if string marks the start of a NUMBER_WITH_RIGHT_BRACKET structure; False otherwise
-
-    Examples:
-        >>> is_start_of_number_with_right_bracket_str('2)')
-        True
-
-        >>> is_start_of_number_with_right_bracket_str('(4)')
-        False
-    """
-    return is_heading(r'[0-9]+\)', string)
+    return is_heading(NUMBER_WITH_RIGHT_BRACKET_REGEX, string)
 
 
 def is_start_of_penjelasan_ayat(law: List[str], start_index: int) -> bool:
@@ -1204,7 +1260,7 @@ def is_start_of_penjelasan_ayat(law: List[str], start_index: int) -> bool:
 
 
 def is_start_of_penjelasan_ayat_str(string: str) -> bool:
-    return is_heading(r'Ayat \([0-9]+\)', string)
+    return is_heading(PENJELASAN_AYAT_REGEX, string)
 
 
 def is_start_of_penjelasan_huruf(law: List[str], start_index: int) -> bool:
@@ -1212,7 +1268,7 @@ def is_start_of_penjelasan_huruf(law: List[str], start_index: int) -> bool:
 
 
 def is_start_of_penjelasan_huruf_str(string: str) -> bool:
-    return is_heading(r'Huruf [a-z]', string)
+    return is_heading(PENJELASAN_HURUF_REGEX, string)
 
 
 def is_start_of_penjelasan_angka(law: List[str], start_index: int) -> bool:
@@ -1220,7 +1276,7 @@ def is_start_of_penjelasan_angka(law: List[str], start_index: int) -> bool:
 
 
 def is_start_of_penjelasan_angka_str(string: str) -> bool:
-    return is_heading(r'Angka [0-9]+', string)
+    return is_heading(PENJELASAN_ANGKA_REGEX, string)
 
 
 def is_start_of_unordered_list(law: List[str], start_index: int) -> bool:
