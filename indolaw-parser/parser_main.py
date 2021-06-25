@@ -3,6 +3,8 @@ import json
 import sys
 from typing import Any, Dict, List, Tuple, Union
 
+from termcolor import colored
+
 from parser_types import (
     NORMAL_LIST_INDEX_STRUCTURES,
     PENJELASAN_LIST_INDEX_STRUCTURES,
@@ -14,14 +16,15 @@ from parser_types import (
     ComplexNode
 )
 from parser_is_start_of_x import (
+    CLOSE_QUOTE_CHAR,
     is_start_of_lembaran_number,
-    is_start_of_modified_pasal,
     is_start_of_number_with_right_bracket,
     is_start_of_pasal,
     is_start_of_penjelasan_angka,
     is_start_of_penjelasan_ayat,
     is_start_of_penjelasan_huruf,
     is_start_of_penjelasan_list_index_str,
+    is_start_of_perubahan_section,
     is_start_of_structure,
     is_start_of_first_list_index,
     is_start_of_any,
@@ -33,12 +36,14 @@ from parser_is_start_of_x import (
     is_start_of_unordered_list_item,
 )
 from parser_utils import (
+    clean_perubahan_section_quotes,
     convert_tree_to_json,
     extract_metadata_from_tree,
     gen_plaintext_in_list_item_scenario_from_user,
     get_list_index_type,
-    is_descendant_of_modified_pasal,
+    get_perubahan_section_end_index,
     is_next_list_index_number,
+    is_x_an_ancestor,
     load_clean_law,
     print_around,
 )
@@ -652,70 +657,325 @@ def parse_pasal(parent: ComplexNode, law: List[str], start_index: int) -> int:
             Structure.PENJELASAN
         ],
         sibling_structures=[Structure.PASAL],
-        child_structures=TEXT_BLOCK_STRUCTURES+[Structure.MODIFIED_PASAL])
+        child_structures=TEXT_BLOCK_STRUCTURES+[Structure.PERUBAHAN_SECTION])
 
     return end_index
 
 
-def parse_modified_pasal(parent: ComplexNode, law: List[str], start_index: int) -> int:
-    modified_pasal_node = ComplexNode(type=Structure.MODIFIED_PASAL)
-    parent.add_child(modified_pasal_node)
+def parse_penjelasan_pasal(parent: ComplexNode, law: List[str], start_index: int) -> int:
+    pasal_node = ComplexNode(type=Structure.PENJELASAN_PASAL)
+    parent.add_child(pasal_node)
+
+    pasal_node.add_child(PrimitiveNode(
+        type=Structure.PASAL_NUMBER, text=law[start_index]))
+
+    end_index = parse_complex_structure(
+        pasal_node,
+        law,
+        start_index+1,
+        ancestor_structures=[
+            Structure.BAB,
+            Structure.BAGIAN,
+            Structure.PARAGRAF,
+            Structure.CLOSING,
+            Structure.PENJELASAN
+        ],
+        sibling_structures=[Structure.PENJELASAN_PASAL],
+        child_structures=TEXT_BLOCK_STRUCTURES)
+
+    return end_index
+
+
+def parse_perubahan_bab(
+    parent: ComplexNode,
+    law: List[str],
+    start_index: int,
+    perubahan_section_end_index: int,
+) -> int:
+    perubahan_bab_node = ComplexNode(type=Structure.PERUBAHAN_BAB)
+    parent.add_child(perubahan_bab_node)
+
+    perubahan_bab_node.add_child(PrimitiveNode(
+        type=Structure.BAB_NUMBER, text=law[start_index]))
+    perubahan_bab_node.add_child(PrimitiveNode(
+        type=Structure.BAB_TITLE, text=law[start_index+1]))
 
     '''
-    TODO(@johnamadeo): Parsing MODIFIED_PASAL currently relies on adding
-    “ character to the start of every MODIFIED_PASAL_NUMBER and ” character
-    to the end of a consecutive block of MODIFIED_PASALs.
+    A PERUBAHAN_BAB modifies or introduces a new bab, along with 
+    the new PERUBAHAN_PASAL that are part of it. 
+
+    Sometimes, these new PERUBAHAN_PASAL are part of the same PERUBAHAN_SECTION
+    that the PERUBAHAN_BAB is in.
+
+    Other times, the new PERUBAHAN_PASAL are placed in a different PERUBAHAN_SECTION
+    '''
+    if perubahan_section_end_index == start_index+1:
+        return perubahan_section_end_index
+
+    end_index = parse_complex_perubahan_structure(
+        perubahan_bab_node,
+        law,
+        start_index=start_index+1,
+        perubahan_section_end_index=perubahan_section_end_index,
+        next_ancestor_structures=[
+            Structure.PERUBAHAN_SECTION,
+
+            # TODO Do we even need these? because we know end_index of PERUBAHAN_SECTION we don't need these?
+            Structure.BAB,
+            Structure.BAGIAN,
+            Structure.PARAGRAF,
+            Structure.CLOSING,
+        ],
+        next_sibling_structures=[Structure.PERUBAHAN_BAB],
+        # TODO Add other PERUBAHAN structures
+        child_structures=[Structure.PERUBAHAN_PASAL])
+
+    return end_index
+
+
+def parse_perubahan_bagian(
+    parent: ComplexNode,
+    law: List[str],
+    start_index: int,
+    perubahan_section_end_index: int,
+) -> int:
+    perubahan_bagian_node = ComplexNode(type=Structure.PERUBAHAN_BAGIAN)
+    parent.add_child(perubahan_bagian_node)
+
+    perubahan_bagian_node.add_child(PrimitiveNode(
+        type=Structure.BAGIAN_NUMBER, text=law[start_index]))
+    perubahan_bagian_node.add_child(PrimitiveNode(
+        type=Structure.BAGIAN_TITLE, text=law[start_index+1]))
+
+    if perubahan_section_end_index == start_index+1:
+        return perubahan_section_end_index
+
+    end_index = parse_complex_perubahan_structure(
+        perubahan_bagian_node,
+        law,
+        start_index=start_index+1,
+        perubahan_section_end_index=perubahan_section_end_index,
+        next_ancestor_structures=[
+            Structure.PERUBAHAN_SECTION,
+            Structure.PERUBAHAN_BAB,
+            # TODO Add more PERUBAHAN structures
+
+            # TODO Do we even need these? because we know end_index of PERUBAHAN_SECTION we don't need these?
+            Structure.BAB,
+            Structure.BAGIAN,
+            Structure.PARAGRAF,
+            Structure.CLOSING,
+        ],
+        next_sibling_structures=[Structure.PERUBAHAN_BAGIAN],
+        child_structures=TEXT_BLOCK_STRUCTURES)
+
+    return end_index
+
+
+def parse_penjelasan_perubahan_bagian(
+    parent: ComplexNode,
+    law: List[str],
+    start_index: int,
+    perubahan_section_end_index: int,
+) -> int:
+    penjelasan_perubahan_bagian_node = ComplexNode(
+        type=Structure.PENJELASAN_PERUBAHAN_BAGIAN)
+    parent.add_child(penjelasan_perubahan_bagian_node)
+
+    penjelasan_perubahan_bagian_node.add_child(PrimitiveNode(
+        type=Structure.BAGIAN_NUMBER, text=law[start_index]))
+
+    end_index = parse_complex_perubahan_structure(
+        penjelasan_perubahan_bagian_node,
+        law,
+        start_index=start_index+1,
+        perubahan_section_end_index=perubahan_section_end_index,
+        next_ancestor_structures=[
+            Structure.PENJELASAN_PERUBAHAN_SECTION,
+            Structure.PENJELASAN_PERUBAHAN_BAB,
+        ],
+        next_sibling_structures=[Structure.PENJELASAN_PERUBAHAN_BAGIAN],
+        # TODO Do we need to add PENJELASAN_PERUBAHAN_PASAL
+        child_structures=TEXT_BLOCK_STRUCTURES)
+
+    return end_index
+
+
+def parse_perubahan_pasal(
+    parent: ComplexNode,
+    law: List[str],
+    start_index: int,
+    perubahan_section_end_index: int,
+) -> int:
+    perubahan_pasal_node = ComplexNode(type=Structure.PERUBAHAN_PASAL)
+    parent.add_child(perubahan_pasal_node)
+
+    perubahan_pasal_node.add_child(PrimitiveNode(
+        type=Structure.PASAL_NUMBER, text=law[start_index]))
+
+    end_index = parse_complex_perubahan_structure(
+        perubahan_pasal_node,
+        law,
+        start_index=start_index+1,
+        perubahan_section_end_index=perubahan_section_end_index,
+        next_ancestor_structures=[
+            Structure.PERUBAHAN_SECTION,
+            Structure.PERUBAHAN_BAB,
+            Structure.PERUBAHAN_BAGIAN,
+            # TODO Add more PERUBAHAN structures
+
+            # TODO Do we even need these? because we know end_index of PERUBAHAN_SECTION we don't need these?
+            Structure.BAB,
+            Structure.BAGIAN,
+            Structure.PARAGRAF,
+            Structure.CLOSING,
+        ],
+        next_sibling_structures=[Structure.PERUBAHAN_PASAL],
+        child_structures=TEXT_BLOCK_STRUCTURES)
+
+    return end_index
+
+
+def parse_penjelasan_perubahan_pasal(
+    parent: ComplexNode,
+    law: List[str],
+    start_index: int,
+    perubahan_section_end_index: int,
+) -> int:
+    penjelasan_perubahan_pasal_node = ComplexNode(
+        type=Structure.PENJELASAN_PERUBAHAN_PASAL)
+    parent.add_child(penjelasan_perubahan_pasal_node)
+
+    penjelasan_perubahan_pasal_node.add_child(PrimitiveNode(
+        type=Structure.PASAL_NUMBER, text=law[start_index]))
+
+    end_index = parse_complex_perubahan_structure(
+        penjelasan_perubahan_pasal_node,
+        law,
+        start_index=start_index+1,
+        perubahan_section_end_index=perubahan_section_end_index,
+        next_ancestor_structures=[
+            Structure.PENJELASAN_PERUBAHAN_SECTION,
+            Structure.PENJELASAN_PERUBAHAN_BAB,
+            Structure.PENJELASAN_PERUBAHAN_BAGIAN,
+            # TODO Add more PERUBAHAN structures
+        ],
+        next_sibling_structures=[Structure.PENJELASAN_PERUBAHAN_PASAL],
+        child_structures=TEXT_BLOCK_STRUCTURES)
+
+    return end_index
+
+
+def parse_penjelasan_perubahan_bab(
+    parent: ComplexNode,
+    law: List[str],
+    start_index: int,
+    perubahan_section_end_index: int,
+) -> int:
+    penjelasan_perubahan_bab_node = ComplexNode(
+        type=Structure.PENJELASAN_PERUBAHAN_BAB)
+    parent.add_child(penjelasan_perubahan_bab_node)
+
+    penjelasan_perubahan_bab_node.add_child(PrimitiveNode(
+        type=Structure.BAB_NUMBER, text=law[start_index]))
+
+    end_index = parse_complex_perubahan_structure(
+        penjelasan_perubahan_bab_node,
+        law,
+        start_index=start_index+1,
+        perubahan_section_end_index=perubahan_section_end_index,
+        next_ancestor_structures=[
+            Structure.PENJELASAN_PERUBAHAN_SECTION,
+            # TODO Add more PERUBAHAN structures
+        ],
+        next_sibling_structures=[Structure.PENJELASAN_PERUBAHAN_BAB],
+        # TODO Do we need to add PENJELASAN_PERUBAHAN_PASAL & PENJELASAN_PERUBAHAN_BAGIAN
+        child_structures=TEXT_BLOCK_STRUCTURES)
+
+    return end_index
+
+
+def parse_complex_perubahan_structure(
+    parent: ComplexNode,
+    law: List[str],
+    start_index: int,
+    perubahan_section_end_index: int,
+    next_ancestor_structures: List[Structure],
+    next_sibling_structures: List[Structure],
+    child_structures: List[Structure],
+) -> int:
+    if parent.type not in set([
+        Structure.PERUBAHAN_PASAL,
+        Structure.PERUBAHAN_BAB,
+        Structure.PERUBAHAN_BAGIAN,
+        Structure.PENJELASAN_PERUBAHAN_PASAL,
+        Structure.PENJELASAN_PERUBAHAN_BAB,
+        Structure.PENJELASAN_PERUBAHAN_BAGIAN
+    ]):
+        crash(
+            law,
+            start_index,
+            'Do not use parse_complex_perubahan_structure for non PERUBAHAN structures'
+        )
+
+    initial_start_index = start_index
+
+    end_index = start_index-1
+    while end_index < perubahan_section_end_index:
+        '''
+        law[start_index] must be part of the structure we want to parse;
+        otherwise the value of start_index passed in was incorrect
+        '''
+        if start_index > initial_start_index:
+            # check if we've reached the end of this structure by checking
+            # if this is the start of a sibling or ancestor structure
+            for ancestor_or_sibling_structure in next_ancestor_structures + next_sibling_structures:
+                if is_start_of_structure(ancestor_or_sibling_structure, law, start_index):
+                    return end_index
+
+        child_structure = None
+
+        # check if we've reached the start of a child structure
+        for maybe_child_structure in child_structures:
+            if is_start_of_structure(maybe_child_structure, law, start_index):
+                child_structure = maybe_child_structure
+                break
+
+        if child_structure == None:
+            crash(law, start_index,
+                  f'Cannot find structure for line {start_index}')
+
+        assert child_structure is not None  # mypy type hint
+        end_index = parse_structure(parent, child_structure, law, start_index)
+        start_index = end_index + 1
+
+    return end_index
+
+
+def parse_perubahan_section(parent: ComplexNode, law: List[str], start_index: int) -> int:
+    perubahan_section_node = ComplexNode(type=Structure.PERUBAHAN_SECTION)
+    parent.add_child(perubahan_section_node)
+
+    child_structures = [
+        Structure.PERUBAHAN_BAB,
+        Structure.PERUBAHAN_PASAL,
+        Structure.PERUBAHAN_BAGIAN,
+    ]
+
+    '''
+    TODO(@johnamadeo): Currently relies on adding
+    “ character to the start of every PERUBAHAN_SECTION and ” character
+    to the end.
 
     This notation is not present in the official UU PDFs, but added in
     more recent HukumOnline PDFs. Since this notation is useful for parsing,
     we have extended it & taken advantage of it. But once parsed, we want 
     to remove these special characters.
-
-    If possible, being able to automatically parse MODIFIED_ASAL without these special
-    characters would obviously be better. Areas to look at include:
-    - It seems that pasals are numbered w/ Roman numerals (I, II, III, etc.) in UU
-    that are mostly modifying previous UUs, so readers can visually distinguish
-    pasals of the UU itself, and pasals of other UUs being mentioned & modified. 
     '''
+    perubahan_section_end_index = get_perubahan_section_end_index(
+        law, start_index)
 
-    modified_pasal_number = law[start_index][1:]
-    modified_pasal_node.add_child(PrimitiveNode(
-        type=Structure.MODIFIED_PASAL_NUMBER, text=modified_pasal_number))
-
-    start_index = start_index+1
-    child_structures = TEXT_BLOCK_STRUCTURES
-
-    end_index = start_index-1
-
-    '''
-    "Cheat" by guessing the last index of this MODIFIED_PASAL with heuristics
-    and confirm with user ; this greatly simplifies the parsing below
-    '''
-    index = start_index
-    while index < len(law) - 1:
-        end_quote_char = '”'
-        if law[index].count(end_quote_char) % 2 == 1 and law[index][-1] == end_quote_char:
-            modified_pasal_end_index = index
-            law[index] = law[index][:-1]
-            break
-        elif is_start_of_modified_pasal(law, index):
-            modified_pasal_end_index = index-1
-            break
-
-        index += 1
-
-    # user_input = input(f'''
-    #     Is the line below the end of the MODIFIED_PASAL {modified_pasal_number}? (y / other line number)
-    #     [Line {modified_pasal_end_index}] {law[modified_pasal_end_index]}
-    #     INPUT: ''')
-
-    user_input = 'y'
-    if user_input.isnumeric():
-        modified_pasal_end_index = int(user_input)
-    elif user_input != 'y':
-        raise Exception(f'Input "{user_input}" is invalid')
-
-    while end_index < modified_pasal_end_index:
+    while start_index < perubahan_section_end_index:
         child_structure = None
 
         # check if we've reached the start of a child structure
@@ -730,10 +990,69 @@ def parse_modified_pasal(parent: ComplexNode, law: List[str], start_index: int) 
 
         assert child_structure is not None  # mypy type hint
         end_index = parse_structure(
-            modified_pasal_node, child_structure, law, start_index)
+            perubahan_section_node,
+            child_structure,
+            law,
+            start_index,
+            perubahan_section_end_index,
+        )
         start_index = end_index + 1
 
-    return end_index
+    clean_perubahan_section_quotes(perubahan_section_node)
+
+    return perubahan_section_end_index
+
+
+def parse_penjelasan_perubahan_section(parent: ComplexNode, law: List[str], start_index: int) -> int:
+    penjelasan_perubahan_section_node = ComplexNode(
+        type=Structure.PENJELASAN_PERUBAHAN_SECTION)
+    parent.add_child(penjelasan_perubahan_section_node)
+
+    child_structures = [
+        Structure.PENJELASAN_PERUBAHAN_BAB,
+        Structure.PENJELASAN_PERUBAHAN_PASAL,
+        Structure.PENJELASAN_PERUBAHAN_BAGIAN,
+    ]
+
+    '''
+    TODO(@johnamadeo): Currently relies on adding
+    “ character to the start of every PERUBAHAN_SECTION and ” character
+    to the end.
+
+    This notation is not present in the official UU PDFs, but added in
+    more recent HukumOnline PDFs. Since this notation is useful for parsing,
+    we have extended it & taken advantage of it. But once parsed, we want 
+    to remove these special characters.
+    '''
+    perubahan_section_end_index = get_perubahan_section_end_index(
+        law, start_index)
+
+    while start_index < perubahan_section_end_index:
+        child_structure = None
+
+        # check if we've reached the start of a child structure
+        for maybe_child_structure in child_structures:
+            if is_start_of_structure(maybe_child_structure, law, start_index):
+                child_structure = maybe_child_structure
+                break
+
+        if child_structure == None:
+            crash(law, start_index,
+                  f'Cannot find structure for line {start_index}')
+
+        assert child_structure is not None  # mypy type hint
+        end_index = parse_structure(
+            penjelasan_perubahan_section_node,
+            child_structure,
+            law,
+            start_index,
+            perubahan_section_end_index,
+        )
+        start_index = end_index + 1
+
+    clean_perubahan_section_quotes(penjelasan_perubahan_section_node)
+
+    return perubahan_section_end_index
 
 
 def parse_bagian(parent: ComplexNode, law: List[str], start_index: int) -> int:
@@ -949,10 +1268,12 @@ def parse_list(parent: ComplexNode, law: List[str], start_index: int) -> int:
     list_node = ComplexNode(type=Structure.LIST)
     parent.add_child(list_node)
 
+    '''
+    "non-recursive" = these structures can never be the descendant of a LIST
+    '''
     non_recursive_ancestors = [
         Structure.PRINCIPLES,
         Structure.AGREEMENT,
-        Structure.MODIFIED_PASAL,
         Structure.PASAL,
         Structure.PARAGRAF,
         Structure.BAGIAN,
@@ -961,6 +1282,13 @@ def parse_list(parent: ComplexNode, law: List[str], start_index: int) -> int:
         Structure.PENJELASAN,
         Structure.PENJELASAN_PASAL_DEMI_PASAL,
     ]
+    if is_x_an_ancestor(list_node, Structure.PERUBAHAN_SECTION):
+        non_recursive_ancestors.extend([
+            Structure.PERUBAHAN_SECTION,
+            Structure.PERUBAHAN_BAB,
+            Structure.PERUBAHAN_PASAL,
+        ])
+
     sibling_ancestors = [Structure.PLAINTEXT]
 
     initial_start_index = start_index
@@ -1077,42 +1405,79 @@ def parse_list(parent: ComplexNode, law: List[str], start_index: int) -> int:
 
 
 def parse_penjelasan_list_item(parent: ComplexNode, law: List[str], start_index: int) -> int:
-    '''
-    TODO(johnamadeo)
-
-    This doesn't work for nested LIST w/ PENJELASAN_LIST_ITEM when
-    the line after the LIST_INDEX is NOT the start of the nested LIST
-    w/ PENJELASAN_LIST_ITEM
-
-    (e.g try it on Pasal 53 in PENJELASAN of UU 40 2007)
-    '''
     penjelasan_list_item_node = ComplexNode(
         type=Structure.PENJELASAN_LIST_ITEM)
     parent.add_child(penjelasan_list_item_node)
 
     parse_list_index(penjelasan_list_item_node, law, start_index)
+    list_index_type = get_list_index_type(law[start_index])
     start_index += 1
 
     if is_start_of_penjelasan_list_index_str(law[start_index]):
         end_index = parse_list(penjelasan_list_item_node, law, start_index)
     else:
-        ancestor_structures = [Structure.PASAL]
         child_structures = TEXT_BLOCK_STRUCTURES.copy()
-
-        is_desc = is_descendant_of_modified_pasal(penjelasan_list_item_node)
-        if is_desc:
-            ancestor_structures.append(Structure.MODIFIED_PASAL)
-        else:
-            child_structures.append(Structure.MODIFIED_PASAL)
-
-        end_index = parse_complex_structure(
+        is_desc = is_x_an_ancestor(
             penjelasan_list_item_node,
-            law,
-            start_index=start_index,
-            ancestor_structures=ancestor_structures,
-            sibling_structures=[Structure.PENJELASAN_LIST_ITEM],
-            child_structures=child_structures,
+            Structure.PENJELASAN_PERUBAHAN_SECTION
         )
+        if not is_desc:
+            child_structures += [Structure.PENJELASAN_PERUBAHAN_SECTION]
+
+        end_index = start_index-1
+        while end_index < len(law)-1:
+            # check if we've reached the end of this structure by checking
+            # if this is the start of a sibling or ancestor structure
+
+            child_structure = None
+
+            if is_start_of_structure(Structure.PENJELASAN_PASAL, law, start_index):
+                return end_index
+
+            if is_start_of_structure(Structure.PENJELASAN_LIST_ITEM, law, start_index):
+                next_list_index_type = get_list_index_type(law[start_index])
+                if next_list_index_type == list_index_type:
+                    return end_index
+                # PENJELASAN_AYAT can only be a parent of PENJELASAN_HURUF
+                elif list_index_type == Structure.PENJELASAN_HURUF and next_list_index_type == Structure.PENJELASAN_AYAT:
+                    return end_index
+                # PENJELASAN_HURUF can only be a child of PENJELASAN_AYAT
+                elif list_index_type == Structure.PENJELASAN_AYAT and next_list_index_type == Structure.PENJELASAN_HURUF:
+                    pass
+                else:
+                    print('---------------')
+                    print(law[start_index-1])
+                    print('- - - - - - - -')
+                    print(f'[Current Line] {law[start_index]}')
+                    if start_index+1 < len(law):
+                        print('- - - - - - - -')
+                        print(law[start_index+1])
+                    print('---------------')
+
+                    print('Is this list index a child LIST or an ancestor LIST?')
+                    print(
+                        f"{colored('c (child)', 'green')} / {colored('a (ancestor)', 'red')}")
+                    user_input = input()
+
+                    if user_input == 'a':
+                        return end_index
+                    elif user_input != 'c':
+                        raise Exception(f'Input "{user_input}" is invalid')
+
+            # check if we've reached the start of a child structure
+            for maybe_child_structure in child_structures:
+                if is_start_of_structure(maybe_child_structure, law, start_index):
+                    child_structure = maybe_child_structure
+                    break
+
+            if child_structure == None:
+                crash(law, start_index,
+                      f'Cannot find structure for line {start_index}')
+
+            assert child_structure is not None  # mypy type hint
+            end_index = parse_structure(
+                penjelasan_list_item_node, child_structure, law, start_index)
+            start_index = end_index + 1
 
     return end_index
 
@@ -1243,6 +1608,9 @@ def parse_list_item(parent: ComplexNode, law: List[str], start_index: int) -> in
         keterangan tentang...
     '''
 
+    '''
+    "non-recursive" = these structures can never be the descendant of a LIST
+    '''
     non_recursive_ancestors = [
         Structure.PASAL,
         Structure.PARAGRAF,
@@ -1254,8 +1622,13 @@ def parse_list_item(parent: ComplexNode, law: List[str], start_index: int) -> in
         Structure.PENJELASAN,
         Structure.PENJELASAN_PASAL_DEMI_PASAL,
     ]
-    if is_descendant_of_modified_pasal(list_item_node):
-        non_recursive_ancestors.append(Structure.MODIFIED_PASAL)
+
+    if is_x_an_ancestor(list_item_node, Structure.PERUBAHAN_SECTION):
+        non_recursive_ancestors.extend([
+            Structure.PERUBAHAN_SECTION,
+            Structure.PERUBAHAN_BAB,
+            Structure.PERUBAHAN_PASAL,
+        ])
 
     start_index += 2
     end_index = start_index-1
@@ -1371,14 +1744,8 @@ def parse_list_item(parent: ComplexNode, law: List[str], start_index: int) -> in
                 return end_index
         elif is_start_of_unordered_list_item(law, start_index):
             child_structure = Structure.UNORDERED_LIST
-        elif is_start_of_modified_pasal(law, start_index) and\
-                not is_descendant_of_modified_pasal(list_item_node):
-            '''
-            If this LIST_ITEM is already a descendant of a MODIFIED_PASAL,
-            then it cannot be the parent of another MODIFIED_PASAL since
-            there is no such thing as nested MODIFIED PASAL
-            '''
-            child_structure = Structure.MODIFIED_PASAL
+        elif is_start_of_perubahan_section(law, start_index):
+            child_structure = Structure.PERUBAHAN_SECTION
 
         if child_structure == None:
             crash(law, start_index,
@@ -1530,9 +1897,6 @@ def parse_closing(parent: ComplexNode, law: List[str], start_index: int) -> int:
 
 
 def parse_penjelasan(parent: ComplexNode, law: List[str], start_index: int) -> int:
-    """
-    TODO(@johnamadeo)
-    """
     penjelasan_node = ComplexNode(type=Structure.PENJELASAN)
     parent.add_child(penjelasan_node)
 
@@ -1615,9 +1979,6 @@ def parse_penjelasan_title(parent: ComplexNode, law: List[str], start_index: int
 
 
 def parse_penjelasan_umum(parent: ComplexNode, law: List[str], start_index: int) -> int:
-    '''
-    TODO(@johnamadeo)
-    '''
     penjelasan_umum_node = ComplexNode(type=Structure.PENJELASAN_UMUM)
     parent.add_child(penjelasan_umum_node)
 
@@ -1638,9 +1999,6 @@ def parse_penjelasan_umum(parent: ComplexNode, law: List[str], start_index: int)
 
 
 def parse_penjelasan_pasal_demi_pasal(parent: ComplexNode, law: List[str], start_index: int) -> int:
-    '''
-    TODO(@johnamadeo)
-    '''
     penjelasan_pasal_demi_pasal = ComplexNode(
         type=Structure.PENJELASAN_PASAL_DEMI_PASAL)
     parent.add_child(penjelasan_pasal_demi_pasal)
@@ -1669,21 +2027,21 @@ def parse_penjelasan_pasal_demi_pasal(parent: ComplexNode, law: List[str], start
         start_index+1,
         ancestor_structures=[],
         sibling_structures=[],
-        child_structures=[Structure.PASAL])
+        child_structures=[Structure.PENJELASAN_PASAL])
 
     return end_index
 
 
 def parse_unordered_list(parent: ComplexNode, law: List[str], start_index: int) -> int:
-    '''
-    TODO(@johnamadeo)
-    '''
     unordered_list_node = ComplexNode(type=Structure.UNORDERED_LIST)
     parent.add_child(unordered_list_node)
 
     end_index = start_index-1
 
-    # naive algorithm assumes no nested unordered lists exist
+    '''
+    naive algorithm assumes a) no nested UNORDERED_LIST exist
+    and b) all UNORDERED_LIST_ITEM are made of 1 LIST_INDEX and 1 PLAINTEXT
+    '''
     while end_index < len(law)-1:
         if not is_start_of_unordered_list_item(law, start_index):
             break
@@ -1718,7 +2076,8 @@ def parse_structure(
     parent: ComplexNode,
     structure: Structure,
     law: List[str],
-    start_index: int
+    start_index: int,
+    perubahan_section_end_index: int = -1,
 ) -> int:
     """
     Construct a subtree of node(s) that represents a particular section of the law,
@@ -1746,8 +2105,52 @@ def parse_structure(
         return parse_bab(parent, law, start_index)
     elif structure == Structure.PASAL:
         return parse_pasal(parent, law, start_index)
-    elif structure == Structure.MODIFIED_PASAL:
-        return parse_modified_pasal(parent, law, start_index)
+    elif structure == Structure.PERUBAHAN_SECTION:
+        return parse_perubahan_section(parent, law, start_index)
+    elif structure == Structure.PERUBAHAN_PASAL:
+        return parse_perubahan_pasal(
+            parent,
+            law,
+            start_index,
+            perubahan_section_end_index,
+        )
+    elif structure == Structure.PERUBAHAN_BAB:
+        return parse_perubahan_bab(
+            parent,
+            law,
+            start_index,
+            perubahan_section_end_index,
+        )
+    elif structure == Structure.PERUBAHAN_BAGIAN:
+        return parse_perubahan_bagian(
+            parent,
+            law,
+            start_index,
+            perubahan_section_end_index,
+        )
+    elif structure == Structure.PENJELASAN_PERUBAHAN_SECTION:
+        return parse_penjelasan_perubahan_section(parent, law, start_index)
+    elif structure == Structure.PENJELASAN_PERUBAHAN_PASAL:
+        return parse_penjelasan_perubahan_pasal(
+            parent,
+            law,
+            start_index,
+            perubahan_section_end_index,
+        )
+    elif structure == Structure.PENJELASAN_PERUBAHAN_BAB:
+        return parse_penjelasan_perubahan_bab(
+            parent,
+            law,
+            start_index,
+            perubahan_section_end_index,
+        )
+    elif structure == Structure.PENJELASAN_PERUBAHAN_BAGIAN:
+        return parse_penjelasan_perubahan_bagian(
+            parent,
+            law,
+            start_index,
+            perubahan_section_end_index,
+        )
     elif structure == Structure.BAGIAN:
         return parse_bagian(parent, law, start_index)
     elif structure == Structure.PARAGRAF:
@@ -1768,6 +2171,8 @@ def parse_structure(
         return parse_penjelasan_umum(parent, law, start_index)
     elif structure == Structure.PENJELASAN_PASAL_DEMI_PASAL:
         return parse_penjelasan_pasal_demi_pasal(parent, law, start_index)
+    elif structure == Structure.PENJELASAN_PASAL:
+        return parse_penjelasan_pasal(parent, law, start_index)
     elif structure == Structure.PENJELASAN_LIST_ITEM:
         return parse_penjelasan_list_item(parent, law, start_index)
     elif structure == Structure.UNORDERED_LIST:
@@ -1782,6 +2187,7 @@ def parse_complex_structure(
     law: List[str],
     start_index: int,
     # doesn't have to include root structure (i.e UNDANG_UNDANG)
+    # TODO(johnamadeo) - rename to next_ancestor_structures?
     ancestor_structures: List[Structure],
     # TODO(johnamadeo) - rename to next_sibling_structures?
     sibling_structures: List[Structure],

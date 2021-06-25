@@ -1,13 +1,17 @@
 from parser_types import Structure, ComplexNode, PrimitiveNode
 from parser_utils import (
+    clean_maybe_squashed_heading,
     get_id,
     get_squashed_list_item,
     ignore_line,
     get_list_index_type,
     get_list_index_as_num,
+    insert_penjelasan_perubahan_section_close_quotes,
+    insert_penjelasan_perubahan_section_open_quotes,
+    insert_perubahan_section_close_quotes,
+    insert_perubahan_section_open_quotes,
     is_next_list_index_number,
     clean_law,
-    get_next_list_index,
     roman_to_int,
     clean_maybe_list_item
 )
@@ -16,8 +20,6 @@ from parser_is_start_of_x import (
     is_start_of_closing,
     is_start_of_first_list_index,
     is_start_of_lembaran_number,
-    is_start_of_modified_pasal,
-    is_start_of_modified_pasal_number,
     is_start_of_number_with_brackets_str,
     is_start_of_number_with_brackets,
     is_start_of_number_with_right_bracket_str,
@@ -44,11 +46,20 @@ from parser_is_start_of_x import (
     is_start_of_penjelasan,
     is_start_of_penjelasan_ayat_str,
     is_start_of_penjelasan_huruf_str,
+    is_start_of_penjelasan_pasal,
     is_start_of_penjelasan_pasal_demi_pasal,
     is_start_of_penjelasan_pasal_demi_pasal_title,
+    is_start_of_penjelasan_perubahan_bab,
+    is_start_of_penjelasan_perubahan_bagian,
+    is_start_of_penjelasan_perubahan_pasal,
+    is_start_of_penjelasan_perubahan_section,
     is_start_of_penjelasan_title,
     is_start_of_penjelasan_umum,
     is_start_of_penjelasan_umum_title,
+    is_start_of_perubahan_bab,
+    is_start_of_perubahan_bagian,
+    is_start_of_perubahan_pasal,
+    is_start_of_perubahan_section,
     is_start_of_principles,
     is_start_of_considerations,
     is_start_of_preface,
@@ -94,8 +105,10 @@ def test_get_list_index_type():
     assert get_list_index_type('Ayat (4)') == Structure.PENJELASAN_AYAT
     assert get_list_index_type('Huruf e') == Structure.PENJELASAN_HURUF
     assert get_list_index_type('Angka 17') == Structure.PENJELASAN_ANGKA
-    assert get_list_index_type('cara berpikir kreatif') == None
-    assert get_list_index_type('a. cara berpikir kreatif') == None
+
+    with pytest.raises(Exception):
+        get_list_index_type('cara berpikir kreatif')
+        get_list_index_type('a. cara berpikir kreatif')
 
 
 def test_get_list_index_as_num():
@@ -119,10 +132,12 @@ def test_is_next_list_index_number():
         is_next_list_index_number('a.', '(2)')
 
 
-def test_clean_law():
+def test_clean_law(monkeypatch):
+    monkeypatch.setattr('builtins.input', lambda: "y")
+
     input = [
         '1 / 10',
-        'Pasal 1',
+        'Pasal 1 2 / 10',
         '. . .',
         'Dalam Undang-Undang in yang dimaksud dengan makanan enak adalah: 1. martabak;',
         '2. nasi goreng; 3. bakmie ayam;',
@@ -217,6 +232,9 @@ def test_is_start_of_number_with_dot_str():
     assert is_start_of_number_with_dot_str('2.') == True
     assert is_start_of_number_with_dot_str('b.') == False
 
+    assert is_start_of_number_with_dot_str('2d.') == True
+    assert is_start_of_number_with_dot_str('2ab.') == False
+
 
 def test_is_start_of_number_with_dot():
     law = [
@@ -253,13 +271,19 @@ def test_is_start_of_list_index():
         'dengan adanya...',
         '(3)',
         'dengan adanya...',
-        '4)'
+        '4)',
+        'Huruf g',
+        'Ayat (9)',
+        'Angka 5'
     ]
     assert is_start_of_list_index(law, 0) == True
     assert is_start_of_list_index(law, 1) == False
     assert is_start_of_list_index(law, 2) == True
     assert is_start_of_list_index(law, 4) == True
     assert is_start_of_list_index(law, 6) == True
+    assert is_start_of_list_index(law, 7) == True
+    assert is_start_of_list_index(law, 8) == True
+    assert is_start_of_list_index(law, 9) == True
 
 
 def test_is_start_of_list_item():
@@ -406,6 +430,17 @@ def test_is_start_of_bagian():
     assert is_start_of_bagian(law, 1) == True
 
 
+def test_is_start_of_perubahan_bagian():
+    assert is_start_of_perubahan_bagian(['Bagian Kedua'], 0) == True
+    assert is_start_of_perubahan_bagian(['“Bagian Pertama'], 0) == True
+
+
+def test_is_start_of_penjelasan_perubahan_bagian():
+    assert is_start_of_penjelasan_perubahan_bagian(['Bagian Kedua'], 0) == True
+    assert is_start_of_penjelasan_perubahan_bagian(
+        ['“Bagian Pertama'], 0) == True
+
+
 def test_is_start_of_pasal_number():
     law = [
         'BAB IV',
@@ -418,7 +453,8 @@ def test_is_start_of_pasal_number():
     assert is_start_of_pasal_number(law, 3) == False
 
     assert is_start_of_pasal_number(['Pasal IV'], 0) == True
-    assert is_start_of_pasal_number(['Pasal 9III'], 0) == False
+    assert is_start_of_pasal_number(['Pasal 9A'], 0) == True
+    assert is_start_of_pasal_number(['Pasal IVA'], 0) == False
 
 
 def test_is_start_of_pasal():
@@ -432,18 +468,8 @@ def test_is_start_of_pasal():
     assert is_start_of_pasal(law, 1) == True
 
 
-def test_is_start_of_modified_pasal_number():
-    assert is_start_of_modified_pasal_number(['“Pasal 18'], 0) == True
-    assert is_start_of_modified_pasal_number(['“Pasal 18C'], 0) == True
-    assert is_start_of_modified_pasal_number(['“Pasal C'], 0) == False
-    assert is_start_of_modified_pasal_number(['Pasal 5'], 0) == False
-
-
-def test_is_start_of_modified_pasal():
-    assert is_start_of_modified_pasal(['“Pasal 18'], 0) == True
-    assert is_start_of_modified_pasal(['“Pasal 18C'], 0) == True
-    assert is_start_of_modified_pasal(['“Pasal C'], 0) == False
-    assert is_start_of_modified_pasal(['Pasal 5'], 0) == False
+def test_is_start_of_penjelasan_pasal():
+    assert is_start_of_penjelasan_pasal(['Pasal 12'], 0) == True
 
 
 def test_is_start_of_agreement():
@@ -620,33 +646,29 @@ def test_is_start_of_structure():
     assert is_start_of_structure(Structure.UU_TITLE_TOPIC, law, 0) == False
 
 
-def test_get_next_list_index():
-    assert get_next_list_index('1.') == '2.'
-    assert get_next_list_index('(1)') == '(2)'
-    assert get_next_list_index('a.') == 'b.'
-    assert get_next_list_index('5)') == '6)'
-    with pytest.raises(Exception):
-        get_next_list_index('Dengan adanya')
+def test_get_squashed_list_item(monkeypatch):
+    monkeypatch.setattr('builtins.input', lambda: "y")
 
-
-def test_get_squashed_list_item():
-    assert get_squashed_list_item('nasi goreng; 3) bakmie ayam;') == 13
-    assert get_squashed_list_item('gado-gado; dan/atau j. kue lapis;') == 20
+    assert get_squashed_list_item('nasi goreng; 3) bakmie ayam;', 0, 0) == 13
+    assert get_squashed_list_item(
+        'gado-gado; dan/atau j. kue lapis;', 0, 0) == 20
     # From UU 13 2003 Ketenagakerjaan [Pasal 1, list index 27]
     assert get_squashed_list_item(
-        'Siang berakhir pukul 18.00. 28. 1 hari adalah waktu selama 24 jam.') == 28
+        'Siang berakhir pukul 18.00. 28. 1 hari adalah waktu selama 24 jam.', 0, 0) == 28
 
 
-def test_clean_maybe_list_item():
+def test_clean_maybe_list_item(monkeypatch):
+    monkeypatch.setattr('builtins.input', lambda: "y")
+
     simple = '(1) Setiap Orang berhak memperoleh Informasi Publik.'
-    assert clean_maybe_list_item(simple) == [
+    assert clean_maybe_list_item(simple, 0, 0) == [
         '(1)',
         'Setiap Orang berhak memperoleh Informasi Publik.',
     ]
 
     # From UU 14 2008 Keterbukaan Informasi Publik
     true_positive_squashed = '(1) Setiap Orang berhak dilindungi hak-hak dasar. (2) Hak-hak yang dimaksud termasuk:'
-    assert clean_maybe_list_item(true_positive_squashed) == [
+    assert clean_maybe_list_item(true_positive_squashed, 0, 0) == [
         '(1)',
         'Setiap Orang berhak dilindungi hak-hak dasar.',
         '(2)',
@@ -655,14 +677,14 @@ def test_clean_maybe_list_item():
 
     # From UU 14 2008 Keterbukaan Informasi Publik
     false_positive_squashed = '(1) Calon anggota sebagaimana dimaksud dalam Pasal 3 ayat(2) diajukan oleh Presiden.'
-    assert clean_maybe_list_item(false_positive_squashed) == [
+    assert clean_maybe_list_item(false_positive_squashed, 0, 0) == [
         '(1)',
         'Calon anggota sebagaimana dimaksud dalam Pasal 3 ayat(2) diajukan oleh Presiden.',
     ]
 
     # From UU 14 2008 Keterbukaan Informasi Publik
     true_positive_squashed_first = 'Informasi yang wajib disediakan adalah: a. asas dan tujuan'
-    assert clean_maybe_list_item(true_positive_squashed_first) == [
+    assert clean_maybe_list_item(true_positive_squashed_first, 0, 0) == [
         'Informasi yang wajib disediakan adalah:',
         'a.',
         'asas dan tujuan',
@@ -670,13 +692,13 @@ def test_clean_maybe_list_item():
 
     # From UU 14 2008 Keterbukaan Informasi Publik
     false_positive_squashed_first = 'Informasi yang wajib disediakan adalah asas dan tujuan'
-    assert clean_maybe_list_item(false_positive_squashed_first) == [
+    assert clean_maybe_list_item(false_positive_squashed_first, 0, 0) == [
         'Informasi yang wajib disediakan adalah asas dan tujuan',
     ]
 
     # From UU 13 2003 Ketenagakerjaan [Pasal 1, list index 27]
     true_positive_squashed = 'Siang berakhir pukul 18.00. 28. 1 hari adalah waktu selama 24 jam.'
-    assert clean_maybe_list_item(true_positive_squashed) == [
+    assert clean_maybe_list_item(true_positive_squashed, 0, 0) == [
         'Siang berakhir pukul 18.00.',
         '28.',
         '1 hari adalah waktu selama 24 jam.'
@@ -684,7 +706,7 @@ def test_clean_maybe_list_item():
 
     # From UU 13 2003 Ketenagakerjaan [Pasal 79, list index 1]
     true_positive_squashed_multiple_whitespace = 'Pengusaha wajib memberi cuti kepada pekerja.  (2) Waktu istirahat dan cuti sebagaimana'
-    assert clean_maybe_list_item(true_positive_squashed_multiple_whitespace) == [
+    assert clean_maybe_list_item(true_positive_squashed_multiple_whitespace, 0, 0) == [
         'Pengusaha wajib memberi cuti kepada pekerja.',
         '(2)',
         'Waktu istirahat dan cuti sebagaimana'
@@ -692,7 +714,7 @@ def test_clean_maybe_list_item():
 
     # From UU 13 2003 Ketenagakerjaan [Pasal 79, list index 1]
     true_positive_multiple_list_index_structures = '(1) Pengusaha wajib memberi waktu istirahat dan cuti kepada pekerja/buruh.  (2) Waktu istirahat dan cuti sebagaimana dimaksud dalam ayat (1), meliputi:  a. istirahat antara jam kerja, sekurang'
-    assert clean_maybe_list_item(true_positive_multiple_list_index_structures) == [
+    assert clean_maybe_list_item(true_positive_multiple_list_index_structures, 0, 0) == [
         '(1)',
         'Pengusaha wajib memberi waktu istirahat dan cuti kepada pekerja/buruh.',
         '(2)',
@@ -703,7 +725,7 @@ def test_clean_maybe_list_item():
 
     # From UU 13 2003 Ketenagakerjaan [Penjelasan, I. Umum]
     true_positive_unordered_list_squashed = '− Kebebasan Berserikat;  − Diskriminasi; '
-    assert clean_maybe_list_item(true_positive_unordered_list_squashed) == [
+    assert clean_maybe_list_item(true_positive_unordered_list_squashed, 0, 0) == [
         '−',
         'Kebebasan Berserikat;',
         '−',
@@ -712,16 +734,44 @@ def test_clean_maybe_list_item():
 
     # From UU 13 2003 Ketenagakerjaan [Penjelasan, II. Pasal demi Pasal, Pasal 4, Huruf b/c]
     true_positive_penjelasan_huruf = 'Penempatan tenaga kerja diatur agar mengisi kebutuhan seluruh daerah.  Huruf c'
-    assert clean_maybe_list_item(true_positive_penjelasan_huruf) == [
+    assert clean_maybe_list_item(true_positive_penjelasan_huruf, 0, 0) == [
         'Penempatan tenaga kerja diatur agar mengisi kebutuhan seluruh daerah.',
         'Huruf c'
     ]
 
     true_positive_penjelasan_ayat = 'Penempatan tenaga kerja diatur agar mengisi kebutuhan seluruh daerah.  Ayat (12)'
-    assert clean_maybe_list_item(true_positive_penjelasan_ayat) == [
+    assert clean_maybe_list_item(true_positive_penjelasan_ayat, 0, 0) == [
         'Penempatan tenaga kerja diatur agar mengisi kebutuhan seluruh daerah.',
         'Ayat (12)'
     ]
+
+
+def test_clean_maybe_squashed_heading(monkeypatch):
+    monkeypatch.setattr('builtins.input', lambda: "y")
+
+    line = "Di antara Bab V dan Bab VI disisipkan satu bab: “Pasal 5A"
+    assert clean_maybe_squashed_heading(line, 0, 0) == [
+        "Di antara Bab V dan Bab VI disisipkan satu bab:",
+        "“Pasal 5A"
+    ]
+
+    line = "Di antara Bab V dan Bab VI disisipkan satu bab: Pasal II"
+    assert clean_maybe_squashed_heading(line, 0, 0) == [
+        "Di antara Bab V dan Bab VI disisipkan satu bab:",
+        "Pasal II"
+    ]
+
+    line = "Di antara Bab V dan Bab VI disisipkan satu bab: BAB XV"
+    assert clean_maybe_squashed_heading(line, 0, 0) == [
+        "Di antara Bab V dan Bab VI disisipkan satu bab:",
+        "BAB XV"
+    ]
+
+    # line = "Di antara Bab V dan Bab VI disisipkan satu bab: “BAB VA"
+    # assert clean_maybe_squashed_heading(line) == [
+    #     "Di antara Bab V dan Bab VI disisipkan satu bab:",
+    #     "“BAB VA"
+    # ]
 
 
 def test_get_id():
@@ -844,3 +894,153 @@ def test_is_start_of_penjelasan_pasal_demi_pasal_title():
         ['PASAL DEMI PASAL'], 0) == True
     assert is_start_of_penjelasan_pasal_demi_pasal_title(
         ['Arti PASAL DEMI PASAL adalah'], 0) == False
+
+
+def test_is_start_of_perubahan_section():
+    assert is_start_of_perubahan_section(['“Pasal 3'], 0) == True
+    assert is_start_of_perubahan_section(['Pasal 3'], 0) == False
+
+
+def test_is_start_of_penjelasan_perubahan_section():
+    assert is_start_of_penjelasan_perubahan_section(['“BAB III'], 0) == True
+    assert is_start_of_penjelasan_perubahan_section(['BAB III'], 0) == False
+
+
+def test_is_start_of_penjelasan_perubahan_pasal():
+    assert is_start_of_penjelasan_perubahan_pasal(['“Pasal 3'], 0) == True
+    assert is_start_of_penjelasan_perubahan_pasal(['Pasal 3'], 0) == True
+
+
+def test_is_start_of_perubahan_pasal():
+    assert is_start_of_perubahan_pasal(['“Pasal 3'], 0) == True
+    assert is_start_of_perubahan_pasal(['Pasal 3'], 0) == True
+
+
+def test_is_start_of_perubahan_bab():
+    assert is_start_of_perubahan_bab(['“BAB III'], 0) == True
+    assert is_start_of_perubahan_bab(['BAB III'], 0) == True
+
+
+def test_is_start_of_penjelasan_perubahan_bab():
+    assert is_start_of_penjelasan_perubahan_bab(['“BAB III'], 0) == True
+    assert is_start_of_penjelasan_perubahan_bab(['BAB III'], 0) == True
+
+
+def test_insert_perubahan_section_open_quotes(monkeypatch):
+    law = [
+        'Pasal I'
+    ]
+    assert insert_perubahan_section_open_quotes(law) == law
+
+    law = [
+        'Pasal 5',
+        'BAB X',
+        'abcdefg',
+        'Bagian Ketujuh',
+    ]
+    new_law = [
+        '“Pasal 5',
+        '“BAB X',
+        'abcdefg',
+        '“Bagian Ketujuh',
+    ]
+    monkeypatch.setattr('builtins.input', lambda: "y")
+    assert insert_perubahan_section_open_quotes(law) == new_law
+
+
+def test_insert_perubahan_section_close_quotes(monkeypatch):
+    law = [
+        '“Pasal 5',
+        'Hari rabu dinyatakan hari libur”',
+        '“Pasal 6',
+        'Hari kamis dinyatakan hari libur”',
+    ]
+
+    assert insert_perubahan_section_close_quotes(law) == law
+
+    law = [
+        '“Pasal 5',
+        'Hari rabu dinyatakan hari libur',
+        '“Pasal 6',
+        'Hari kamis dinyatakan hari libur”',
+    ]
+    new_law = [
+        '“Pasal 5',
+        'Hari rabu dinyatakan hari libur”',
+        '“Pasal 6',
+        'Hari kamis dinyatakan hari libur”',
+    ]
+    monkeypatch.setattr('builtins.input', lambda: "1")
+    assert insert_perubahan_section_close_quotes(law) == new_law
+
+
+def test_insert_penjelasan_perubahan_section_open_quotes():
+    law = [
+        '“Pasal 5',
+        'Hari rabu dinyatakan hari libur”',
+        '“Pasal 6',
+        'Hari kamis dinyatakan hari libur”',
+        'PENJELASAN',
+        'UNDANG-UNDANG REPUBLIK INDONESIA',
+        'II. PASAL DEMI PASAL',
+        'Pasal 5',
+        'Cukup jelas.',
+        'Pasal 6',
+        'Cukup jelas.'
+    ]
+    new_law = [
+        '“Pasal 5',
+        'Hari rabu dinyatakan hari libur”',
+        '“Pasal 6',
+        'Hari kamis dinyatakan hari libur”',
+        'PENJELASAN',
+        'UNDANG-UNDANG REPUBLIK INDONESIA',
+        'II. PASAL DEMI PASAL',
+        '“Pasal 5',
+        'Cukup jelas.',
+        '“Pasal 6',
+        'Cukup jelas.'
+    ]
+    assert insert_penjelasan_perubahan_section_open_quotes(law) == new_law
+
+
+def test_insert_penjelasan_perubahan_section_close_quotes(monkeypatch):
+    law = [
+        '“Pasal 5',
+        'Hari rabu dinyatakan hari libur”',
+        '“Pasal 6',
+        'Hari kamis dinyatakan hari libur”',
+        'PENJELASAN',
+        'UNDANG-UNDANG REPUBLIK INDONESIA',
+        'II. PASAL DEMI PASAL',
+        'Pasal I',
+        'Angka 1',
+        '“Pasal 5',
+        'Cukup jelas.',
+        'Angka 2',
+        '“Pasal 6',
+        'Cukup jelas.',
+        'Angka 3',
+        'Cukup jelas.'
+    ]
+    new_law = [
+        '“Pasal 5',
+        'Hari rabu dinyatakan hari libur”',
+        '“Pasal 6',
+        'Hari kamis dinyatakan hari libur”',
+        'PENJELASAN',
+        'UNDANG-UNDANG REPUBLIK INDONESIA',
+        'II. PASAL DEMI PASAL',
+        'Pasal I',
+        'Angka 1',
+        '“Pasal 5',
+        'Cukup jelas.”',
+        'Angka 2',
+        '“Pasal 6',
+        'Cukup jelas.”',
+        'Angka 3',
+        'Cukup jelas.'
+    ]
+
+    monkeypatch.setattr('builtins.input', lambda: "y")
+    assert insert_penjelasan_perubahan_section_close_quotes(law) == new_law
