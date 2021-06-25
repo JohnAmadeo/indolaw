@@ -38,8 +38,6 @@ export default function PenjelasanPasal(props: {
           )
         });
         await clipboard.write([item]);
-
-        console.log(htmlToCopy);
       }}
     />
   );

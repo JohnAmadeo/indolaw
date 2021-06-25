@@ -39,8 +39,6 @@ export default function Pasal(props: {
           )
         });
         await clipboard.write([item]);
-
-        console.log(htmlToCopy);
       }}
     />
   );

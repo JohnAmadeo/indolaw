@@ -8,7 +8,6 @@ export default function Law(props: { law: Complex, colorScheme: any }): JSX.Elem
   // This method requires a brute force traversal of PENJELASAN_PASAL_DEMI_PASAL
   // so we want to run it once & memoize
   const penjelasanMap = useMemo(() => extractPenjelasanMap(props.law), [props.law]);
-  console.log(penjelasanMap);
 
   return (
     <LawContext.Provider value={{ penjelasanMap }}>
