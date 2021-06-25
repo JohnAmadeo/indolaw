@@ -1755,8 +1755,7 @@ memperoleh informasi tentang data Perseroan dalam daftar Perseroan;
 e.
 pengumuman yang diwajibkan dalam Undang-Undang ini dalam Berita Negara Republik Indonesia dan Tambahan Berita Negara Republik Indonesia; dan
 f.
-memperoleh salinan Keputusan Menteri mengenai pengesahan badan hukum Perseroan atau persetujuan perubahan anggaran dasar Perseroan
-diatur dengan Peraturan Pemerintah.
+memperoleh salinan Keputusan Menteri mengenai pengesahan badan hukum Perseroan atau persetujuan perubahan anggaran dasar Perseroan diatur dengan Peraturan Pemerintah.
 BAB XII
 KETENTUAN LAIN-LAIN
 Pasal 154
@@ -2122,6 +2121,7 @@ Pasal 35
 Ayat (1)
 Diperlukannya persetujuan RUPS sebagaimana dimaksud pada ayat ini adalah untuk  menegaskan bahwa hanya dengan persetujuan RUPS dapat dilakukan kompensasi karena  dengan disetujuinya kompensasi, hak didahulukan pemegang saham lainnya untuk  mengambil saham baru dengan sendirinya dilepaskan.
 Ayat (2)
+Berdasarkan ketentuan pada ayat ini, bunga dan denda yang terutang sekalipun telah jatuh  waktu dan harus dibayar karena secara nyata tidak diterima oleh Perseroan, tidak dapat  dikompensasikan sebagai setoran saham.
 Huruf a
 Cukup jelas.
 Huruf b
@@ -2143,6 +2143,7 @@ Ayat (4)
 Yang dimaksud dengan “perusahaan efek” adalah sebagaimana dimaksud dalam Undang Undang tentang Pasar Modal.
 Pasal 37
 Ayat (1)
+Pembelian kembali saham Perseroan tidak menyebabkan pengurangan modal, kecuali  apabila saham tersebut ditarik kembali.
 Huruf a
 Yang dimaksud dengan “kekayaan bersih” adalah seluruh harta kekayaan Perseroan  dikurangi seluruh kewajiban Perseroan sesuai dengan laporan keuangan terbaru yang  disahkan oleh RUPS dalam waktu 6 (enam) bulan terakhir.
 Huruf b
@@ -2370,6 +2371,8 @@ Ayat (3)
 Cukup jelas.
 Pasal 68
 Ayat (1)
+Kewajiban untuk menyerahkan laporan keuangan kepada akuntan publik untuk diaudit  timbul dari sifat Perseroan yang bersangkutan.
+Kewajiban untuk menyerahkan laporan keuangan kepada pengawasan ekstern dibenarkan  dengan asumsi bahwa kepercayaan masyarakat tidak boleh dikecewakan.  Demikian juga halnya dengan Perseroan yang untuk pembiayaannya mengharapkan dana  dari pasar modal.
 Huruf a
 Yang dimaksud dengan “kegiatan usaha Perseroan yang menghimpun dan/atau  mengelola dana masyarakat”, antara lain bank, asuransi, reksa dana.
 Huruf b
@@ -2638,6 +2641,7 @@ Ayat (6)
 Direksi sebagai organ Perseroan yang melakukan pengurusan Perseroan memahami  dengan jelas kebutuhan pengurusan Perseroan. Oleh karena itu, apabila RUPS tidak  menetapkan pembagian tugas dan wewenang anggota Direksi, sudah sewajarnya  penetapan tersebut dilakukan oleh Direksi sendiri.
 Pasal 93
 Ayat (1)
+Jangka waktu 5 (lima) tahun terhitung sejak yang bersangkutan dinyatakan bersalah  berdasarkan putusan pengadilan yang mempunyai kekuatan hukum tetap telah  menyebabkan Perseroan pailit atau apabila dihukum terhitung sejak selesai menjalani  hukuman.
 Huruf a
 Cukup jelas.
 Huruf b
@@ -3079,6 +3083,7 @@ Cukup jelas.
 Huruf f
 Yang dimaksud dengan “dicabutnya izin usaha Perseroan sehingga mewajibkan  Perseroan melakukan likuidasi” adalah ketentuan yang tidak memungkinkan  Perseroan untuk berusaha dalam bidang lain setelah izin usahanya dicabut, misalnya  izin usaha perbankan, izin usaha perasuransian.
 Ayat (2)
+Berbeda dari bubarnya Perseroan sebagai akibat Penggabungan dan Peleburan yang tidak  perlu diikuti dengan likuidasi, bubarnya Perseroan berdasarkan ketentuan ayat (1) harus  selalu diikuti dengan likuidasi.
 Huruf a
 Yang dimaksud dengan “likuidasi yang dilakukan oleh kurator” adalah likuidasi yang  khusus dilakukan dalam hal Perseroan bubar berdasarkan ketentuan ayat (1) huruf e.
 Huruf b

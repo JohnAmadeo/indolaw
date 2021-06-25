@@ -1,4 +1,12 @@
 {
+  "metadata": {
+    "lembaranNegaraNumber": 2,
+    "lembaranNegaraYear": 1982,
+    "tambahanLembaranNumber": 3211,
+    "number": 1,
+    "topic": "Pengesahan Konvensi Wina Mengenai Hubungan Diplomatik Beserta Protokol Opsionalnya Mengenai Hal Memperoleh Kewarganegaraan (vienna Convention On Diplomatic Relations And Optional Protocol To The Vienna Convertion On Diplomatic Relations Concerning Acquisition Of Nationality, 1961) Dan Pengesahan Konvensi Wina Mengenai Hubungan Konsuler Beserta Protocol Opsionalnya Mengenai Hal Memperoleh Kewarganegaraan (vienna Convention On Consular Relations And Optional Protocol To The Vienna Convention On Consular Relations Concerning Acquisition Of Nationality, 1963)",
+    "year": 1982
+  },
   "content": {
     "type": "UNDANG_UNDANG",
     "id": "",
@@ -372,34 +380,34 @@
                       {
                         "type": "PLAINTEXT",
                         "text": "Meningkatkan kerjasama antar negara untuk menggalang perdamaian dan ketertiban dunia demi kesejahteraan umat manusia berdasarkan kemerdekaan dan keadilan sosial."
-                      },
-                      {
-                        "type": "PLAINTEXT",
-                        "text": "Dalam rangka melaksanakan politik luar negeri yang bebas aktif untuk menjamin dan memelihara kepentingan nasional Indonesia dan ikut membantu tercapainya ketertiban dunia serta memajukan kerjasama dan hubungan persahabatan dengan semua bangsa di dunia, Pemerintah Indonesia membuka dan menempatkan perwakilan diplomatik dan perwakilan konsuler di berbagai negara. Di samping itu Pemerintah Indonesia menerima pula perwakilan diplomatik dan perwakilan konsuler negara lain."
-                      },
-                      {
-                        "type": "PLAINTEXT",
-                        "text": "Pengaturan hubungan diplomatik dan perwakilan diplomatik sudah lama diadakan yaitu sejak Kongres Wina tahun 1815 yang diubah oleh Protokol Aix-la-Chapelle tahun 1818. Kemudian atas prakarsa Perserikatan Bangsa-Bangsa diadakan konferensi mengenai hubungan diplomatik di Wina dari tanggal 2 Maret sampai 14 April 1961."
-                      },
-                      {
-                        "type": "PLAINTEXT",
-                        "text": "Konferensi tersebut membahas rancangan pasal-pasal yang dipersiapkan oleh Komisi Hukum Internasional Perserikatan Bangsa-bangsa dan menerima baik suatu Konvensi mengenai Hubungan Diplomatik, yang terdiri dari 53 pasal yang mengatur hubungan diplomatik, hak-hak istimewa dan kekebalan-kekebalannya."
-                      },
-                      {
-                        "type": "PLAINTEXT",
-                        "text": "Konvensi yang mencerminkan pelaksanaan hubungan diplomatik ini akan dapat meningkatkan hubungan persahabatan antara bangsa-bangsa di dunia tanpa membedakan ideologi, sistem politik atau sistem sosialnya. Konvensi menetapkan antara lain maksud pemberian hak-hak istimewa dari kekebalan diplomatik tersebut tidaklah untuk kepentingan perseorangan, melainkan guna menjamin kelancaran pelaksanaan fungsi perwakilan diplomatik sebagai wakil negara. Pengaturan Hubungan Konsuler dan Perwakilan Konsuler yang dalam sejarah berkembang melalui tahap-tahap pertumbuhan hukum kebiasaan internasional baru dikodifikasikan pada tahun 1963 dalam Konvensi Wina mengenai Hubungan Konsuler yang disponsori oleh Perserikatan Bangsa-bangsa. Diadakannya Konvensi ini yang terdiri dari 79 pasal yang keseluruhannya mengenai hubungan konsuler, hak hak istimewa dan kekebalan-kekebalannya akan meningkatkan hubungan persahabatan antara bangsa-bangsa tanpa membedakan ideologic sistem politik atau sistem sosialnya. Hak istimewa dan kekebalan tersebut diberikan hanyalah guna menjamin pelaksanaan fungsi perwakilan konsuler secara efisien. Konvensi mengatur antara lain hubungan-hubungan konsuler pada umumnya, fasilitas, hak-hak istimewa dan kekebalan kantor perwakilan konsuler, pejabat konsuler dan anggota perwakilan konsuler lainnya serta tentang pejabat-pejabat konsul kehormatan dan konsulat-konsulat kehormatan."
-                      },
-                      {
-                        "type": "PLAINTEXT",
-                        "text": "Baik Konvensi Wina mengenai Hubungan Diplomatik maupun Konvensi Wina mengenai Hubungan Konsuler masing-masing dilengkapi dengan Protokol Opsional mengenai hal Memperoleh Kewarganegaraan dan Protokol Opsional mengenai hal Penyelesaian Sengketa Secara Wajib. Indonesia dapat menerima seluruh isi Konvensi Wina mengenai Hubungan Diplomatik Beserta Protokol Opsionalnya mengenai hal Memperoleh Kewarganegaraan dan Konvensi Wina mengenai Hubungan Konsuler Beserta Protokol Opsionalnya mengenai hal Memperoleh Kewarganegaraan, kecuali Protokol Opsional mengenai Penyelesaian Sengketa. Secara Wajib Pengecualian ini karena Pemerintah Indonesia lebih mengutamakan penyelesaian sengketa melalui perundingan dan konsultasi atau musyawarah antara negara-negara yang bersengketa."
-                      },
-                      {
-                        "type": "PLAINTEXT",
-                        "text": "Protokol Opsional mengenai hal Memperoleh Kewarganegaraan mengatur bahwa anggota-anggota perwakilan diplomatik dan perwakilan konsuler yang bukan warga negara-negara penerima dan keluarganya tidak akan memperoleh kewarganegaraan negara penerima tersebut semata-mata karena berlakunya hukum negara penerima tersebut."
                       }
                     ]
                   }
                 ]
+              },
+              {
+                "type": "PLAINTEXT",
+                "text": "Dalam rangka melaksanakan politik luar negeri yang bebas aktif untuk menjamin dan memelihara kepentingan nasional Indonesia dan ikut membantu tercapainya ketertiban dunia serta memajukan kerjasama dan hubungan persahabatan dengan semua bangsa di dunia, Pemerintah Indonesia membuka dan menempatkan perwakilan diplomatik dan perwakilan konsuler di berbagai negara. Di samping itu Pemerintah Indonesia menerima pula perwakilan diplomatik dan perwakilan konsuler negara lain."
+              },
+              {
+                "type": "PLAINTEXT",
+                "text": "Pengaturan hubungan diplomatik dan perwakilan diplomatik sudah lama diadakan yaitu sejak Kongres Wina tahun 1815 yang diubah oleh Protokol Aix-la-Chapelle tahun 1818. Kemudian atas prakarsa Perserikatan Bangsa-Bangsa diadakan konferensi mengenai hubungan diplomatik di Wina dari tanggal 2 Maret sampai 14 April 1961."
+              },
+              {
+                "type": "PLAINTEXT",
+                "text": "Konferensi tersebut membahas rancangan pasal-pasal yang dipersiapkan oleh Komisi Hukum Internasional Perserikatan Bangsa-bangsa dan menerima baik suatu Konvensi mengenai Hubungan Diplomatik, yang terdiri dari 53 pasal yang mengatur hubungan diplomatik, hak-hak istimewa dan kekebalan-kekebalannya."
+              },
+              {
+                "type": "PLAINTEXT",
+                "text": "Konvensi yang mencerminkan pelaksanaan hubungan diplomatik ini akan dapat meningkatkan hubungan persahabatan antara bangsa-bangsa di dunia tanpa membedakan ideologi, sistem politik atau sistem sosialnya. Konvensi menetapkan antara lain maksud pemberian hak-hak istimewa dari kekebalan diplomatik tersebut tidaklah untuk kepentingan perseorangan, melainkan guna menjamin kelancaran pelaksanaan fungsi perwakilan diplomatik sebagai wakil negara. Pengaturan Hubungan Konsuler dan Perwakilan Konsuler yang dalam sejarah berkembang melalui tahap-tahap pertumbuhan hukum kebiasaan internasional baru dikodifikasikan pada tahun 1963 dalam Konvensi Wina mengenai Hubungan Konsuler yang disponsori oleh Perserikatan Bangsa-bangsa. Diadakannya Konvensi ini yang terdiri dari 79 pasal yang keseluruhannya mengenai hubungan konsuler, hak hak istimewa dan kekebalan-kekebalannya akan meningkatkan hubungan persahabatan antara bangsa-bangsa tanpa membedakan ideologic sistem politik atau sistem sosialnya. Hak istimewa dan kekebalan tersebut diberikan hanyalah guna menjamin pelaksanaan fungsi perwakilan konsuler secara efisien. Konvensi mengatur antara lain hubungan-hubungan konsuler pada umumnya, fasilitas, hak-hak istimewa dan kekebalan kantor perwakilan konsuler, pejabat konsuler dan anggota perwakilan konsuler lainnya serta tentang pejabat-pejabat konsul kehormatan dan konsulat-konsulat kehormatan."
+              },
+              {
+                "type": "PLAINTEXT",
+                "text": "Baik Konvensi Wina mengenai Hubungan Diplomatik maupun Konvensi Wina mengenai Hubungan Konsuler masing-masing dilengkapi dengan Protokol Opsional mengenai hal Memperoleh Kewarganegaraan dan Protokol Opsional mengenai hal Penyelesaian Sengketa Secara Wajib. Indonesia dapat menerima seluruh isi Konvensi Wina mengenai Hubungan Diplomatik Beserta Protokol Opsionalnya mengenai hal Memperoleh Kewarganegaraan dan Konvensi Wina mengenai Hubungan Konsuler Beserta Protokol Opsionalnya mengenai hal Memperoleh Kewarganegaraan, kecuali Protokol Opsional mengenai Penyelesaian Sengketa. Secara Wajib Pengecualian ini karena Pemerintah Indonesia lebih mengutamakan penyelesaian sengketa melalui perundingan dan konsultasi atau musyawarah antara negara-negara yang bersengketa."
+              },
+              {
+                "type": "PLAINTEXT",
+                "text": "Protokol Opsional mengenai hal Memperoleh Kewarganegaraan mengatur bahwa anggota-anggota perwakilan diplomatik dan perwakilan konsuler yang bukan warga negara-negara penerima dan keluarganya tidak akan memperoleh kewarganegaraan negara penerima tersebut semata-mata karena berlakunya hukum negara penerima tersebut."
               }
             ]
           },
@@ -414,23 +422,11 @@
               {
                 "type": "PLAINTEXT",
                 "text": "Cukup jelas."
-              },
-              {
-                "type": "PLAINTEXT",
-                "text": "TAMBAHAN LEMBARAN NEGARA REPUBLIK INDONESIA NOMOR 3211"
               }
             ]
           }
         ]
       }
     ]
-  },
-  "metadata": {
-    "lembaranNegaraNumber": 2,
-    "lembaranNegaraYear": 1982,
-    "tambahanLembaranNumber": 3211,
-    "number": 1,
-    "topic": "Pengesahan Konvensi Wina Mengenai Hubungan Diplomatik Beserta Protokol Opsionalnya Mengenai Hal Memperoleh Kewarganegaraan (vienna Convention On Diplomatic Relations And Optional Protocol To The Vienna Convertion On Diplomatic Relations Concerning Acquisition Of Nationality, 1961) Dan Pengesahan Konvensi Wina Mengenai Hubungan Konsuler Beserta Protocol Opsionalnya Mengenai Hal Memperoleh Kewarganegaraan (vienna Convention On Consular Relations And Optional Protocol To The Vienna Convention On Consular Relations Concerning Acquisition Of Nationality, 1963)",
-    "year": 1982
   }
 }
