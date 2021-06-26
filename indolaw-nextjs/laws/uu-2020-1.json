@@ -1,0 +1,438 @@
+{
+  "metadata": {
+    "lembaranNegaraNumber": 67,
+    "lembaranNegaraYear": 2020,
+    "tambahanLembaranNumber": 6476,
+    "number": 1,
+    "topic": "Pengesahan Persetujuan Kemitraan Ekonomi Komprehensif Indonesia-australia (indonesia-australia Comprehensive Economic Partnership Agreement)",
+    "year": 2020
+  },
+  "content": {
+    "type": "UNDANG_UNDANG",
+    "id": "",
+    "children": [
+      {
+        "type": "OPENING",
+        "id": "",
+        "children": [
+          {
+            "type": "UU_TITLE",
+            "id": "",
+            "children": [
+              {
+                "type": "PLAINTEXT",
+                "text": "UNDANG-UNDANG REPUBLIK INDONESIA"
+              },
+              {
+                "type": "UU_TITLE_YEAR_AND_NUMBER",
+                "text": "NOMOR 1 TAHUN 2020"
+              },
+              {
+                "type": "PLAINTEXT",
+                "text": "TENTANG"
+              },
+              {
+                "type": "UU_TITLE_TOPIC",
+                "text": "PENGESAHAN PERSETUJUAN KEMITRAAN EKONOMI KOMPREHENSIF INDONESIA-AUSTRALIA (INDONESIA-AUSTRALIA COMPREHENSIVE ECONOMIC PARTNERSHIP AGREEMENT)"
+              }
+            ]
+          },
+          {
+            "type": "PREFACE",
+            "id": "",
+            "children": [
+              {
+                "type": "PLAINTEXT",
+                "text": "DENGAN RAHMAT TUHAN YANG MAHA ESA"
+              },
+              {
+                "type": "PLAINTEXT",
+                "text": "PRESIDEN REPUBLIK INDONESIA,"
+              }
+            ]
+          },
+          {
+            "type": "CONSIDERATIONS",
+            "id": "",
+            "children": [
+              {
+                "type": "PLAINTEXT",
+                "text": "Menimbang:"
+              },
+              {
+                "type": "LIST",
+                "id": "",
+                "children": [
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "LETTER_WITH_DOT",
+                        "text": "a."
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "bahwa kegiatan perdagangan merupakan salah satu sektor utama penggerak perekonomian nasional yang dapat dilakukan melalui kerja sama perdagangan internasional untuk mendukung program pembangunan nasional di bidang ekonomi dalam rangka memajukan kesejahteraan umum sebagaimana tercantum dalam Pembukaan Undang-Undang Dasar Negara Republik Indonesia Tahun 1945;"
+                      }
+                    ]
+                  },
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "LETTER_WITH_DOT",
+                        "text": "b."
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "bahwa untuk meningkatkan kerja sama ekonomi secara komprehensif antara Indonesia dan Australia, Pemerintah Republik Indonesia dan Pemerintah Australia telah menandatangani Persetujuan Kemitraan Ekonomi Komprehensif Indonesia-Australia (Indonesia-Australia Comprehensive Economic Partnership Agreement) pada tanggal 4 Maret 2019 di Jakarta, Indonesia;"
+                      }
+                    ]
+                  },
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "LETTER_WITH_DOT",
+                        "text": "c."
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "bahwa untuk melaksanakan Persetujuan Kemitraan Ekonomi Komprehensif Indonesia-Australia (Indonesia-Australia Comprehensive Economic Partnership Agreement), perlu mengesahkan Persetujuan Kemitraan Ekonomi Komprehensif Indonesia-Australia (Indonesia-Australia Comprehensive Economic Partnership Agreement);"
+                      }
+                    ]
+                  },
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "LETTER_WITH_DOT",
+                        "text": "d."
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "bahwa berdasarkan pertimbangan sebagaimana dimaksud dalam huruf a, huruf b, dan huruf c, perlu membentuk Undang-Undang tentang Pengesahan Persetujuan Kemitraan Ekonomi Komprehensif Indonesia-Australia (Indonesia-Australia Comprehensive Economic Partnership Agreement)."
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "PRINCIPLES",
+            "id": "",
+            "children": [
+              {
+                "type": "PLAINTEXT",
+                "text": "Mengingat:"
+              },
+              {
+                "type": "LIST",
+                "id": "",
+                "children": [
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "NUMBER_WITH_DOT",
+                        "text": "1."
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "Pasal 5 ayat (1), Pasal 11, dan Pasal 20 Undang-Undang Dasar Negara Republik Indonesia Tahun 1945;"
+                      }
+                    ]
+                  },
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "NUMBER_WITH_DOT",
+                        "text": "2."
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "Undang-Undang Nomor 24 Tahun 2000 tentang Perjanjian Internasional (Lembaran Negara Republik Indonesia Tahun 2000 Nomor 185, Tambahan Lembaran Negara Republik Indonesia Nomor 4012);"
+                      }
+                    ]
+                  },
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "NUMBER_WITH_DOT",
+                        "text": "3."
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "Undang-Undang Nomor 7 Tahun 2014 tentang Perdagangan (Lembaran Negara Republik Indonesia Tahun 2014 Nomor 45, Tambahan Lembaran Negara Republik Indonesia Nomor 5512)."
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "AGREEMENT",
+            "id": "",
+            "children": [
+              {
+                "type": "PLAINTEXT",
+                "text": "Dengan Persetujuan Bersama"
+              },
+              {
+                "type": "PLAINTEXT",
+                "text": "DEWAN PERWAKILAN RAKYAT REPUBLIK INDONESIA"
+              },
+              {
+                "type": "PLAINTEXT",
+                "text": "dan"
+              },
+              {
+                "type": "PLAINTEXT",
+                "text": "PRESIDEN REPUBLIK INDONESIA"
+              },
+              {
+                "type": "PLAINTEXT",
+                "text": "MEMUTUSKAN:"
+              },
+              {
+                "type": "PLAINTEXT",
+                "text": "Menetapkan:"
+              },
+              {
+                "type": "PLAINTEXT",
+                "text": "UNDANG-UNDANG TENTANG PENGESAHAN PERSETUJUAN KEMITRAAN EKONOMI KOMPREHENSIF INDONESIA-AUSTRALIA (INDONESIA AUSTRALIA COMPREHENSIVE ECONOMIC PARTNERSHIP AGREEMENT)"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "PASAL",
+        "id": "pasal-1",
+        "children": [
+          {
+            "type": "PASAL_NUMBER",
+            "text": "Pasal 1"
+          },
+          {
+            "type": "LIST",
+            "id": "",
+            "children": [
+              {
+                "type": "LIST_ITEM",
+                "id": "",
+                "children": [
+                  {
+                    "type": "NUMBER_WITH_BRACKETS",
+                    "text": "(1)"
+                  },
+                  {
+                    "type": "PLAINTEXT",
+                    "text": "Mengesahkan Persetujuan Kemitraan Ekonomi Komprehensif Indonesia-Australia (Indonesia-Australia Comprehensive Economic Partnership Agreement) yang telah ditandatangani pada tanggal 4 Maret 2019 di Jakarta, Indonesia."
+                  }
+                ]
+              },
+              {
+                "type": "LIST_ITEM",
+                "id": "",
+                "children": [
+                  {
+                    "type": "NUMBER_WITH_BRACKETS",
+                    "text": "(2)"
+                  },
+                  {
+                    "type": "PLAINTEXT",
+                    "text": "Salinan naskah asli Persetujuan Kemitraan Ekonomi Komprehensif Indonesia-Australia (Indonesia Australia Comprehensive Economic Partnership Agreement) dalam bahasa Indonesia dan bahasa Inggris sebagaimana terlampir dan merupakan bagian yang tidak terpisahkan dari Undang-Undang ini."
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "PASAL",
+        "id": "pasal-2",
+        "children": [
+          {
+            "type": "PASAL_NUMBER",
+            "text": "Pasal 2"
+          },
+          {
+            "type": "PLAINTEXT",
+            "text": "Undang-Undang ini mulai berlaku pada tanggal diundangkan."
+          },
+          {
+            "type": "PLAINTEXT",
+            "text": "Agar setiap orang mengetahuinya, memerintahkan pengundangan Undang-Undang ini dengan penempatannya dalam Lembaran Negara Republik Indonesia."
+          }
+        ]
+      },
+      {
+        "type": "CLOSING",
+        "id": "",
+        "children": [
+          {
+            "type": "PLAINTEXT",
+            "text": "Disahkan Di Jakarta,"
+          },
+          {
+            "type": "PLAINTEXT",
+            "text": "Pada Tanggal 28 Februari 2020"
+          },
+          {
+            "type": "PLAINTEXT",
+            "text": "PRESIDEN REPUBLIK INDONESIA,"
+          },
+          {
+            "type": "PLAINTEXT",
+            "text": "Ttd."
+          },
+          {
+            "type": "PLAINTEXT",
+            "text": "JOKO WIDODO"
+          },
+          {
+            "type": "PLAINTEXT",
+            "text": "Diundangkan Di Jakarta,"
+          },
+          {
+            "type": "PLAINTEXT",
+            "text": "Pada Tanggal 28 Februari 2020"
+          },
+          {
+            "type": "PLAINTEXT",
+            "text": "MENTERI HUKUM DAN HAK ASASI MANUSIA REPUBLIK INDONESIA,"
+          },
+          {
+            "type": "PLAINTEXT",
+            "text": "Ttd."
+          },
+          {
+            "type": "PLAINTEXT",
+            "text": "YASONNA H. LAOLY"
+          },
+          {
+            "type": "LEMBARAN_NUMBER",
+            "text": "LEMBARAN NEGARA REPUBLIK INDONESIA TAHUN 2020 NOMOR 67"
+          }
+        ]
+      },
+      {
+        "type": "PENJELASAN",
+        "id": "penjelasan",
+        "children": [
+          {
+            "type": "PENJELASAN_TITLE",
+            "id": "",
+            "children": [
+              {
+                "type": "PLAINTEXT",
+                "text": "PENJELASAN"
+              },
+              {
+                "type": "PLAINTEXT",
+                "text": "UNDANG-UNDANG REPUBLIK INDONESIA"
+              },
+              {
+                "type": "UU_TITLE_YEAR_AND_NUMBER",
+                "text": "NOMOR 1 TAHUN 2020"
+              },
+              {
+                "type": "PLAINTEXT",
+                "text": "TENTANG"
+              },
+              {
+                "type": "UU_TITLE_TOPIC",
+                "text": "PENGESAHAN PERSETUJUAN KEMITRAAN EKONOMI KOMPREHENSIF INDONESIA-AUSTRALIA (INDONESIA-AUSTRALIA COMPREHENSIVE ECONOMIC PARTNERSHIP AGREEMENT)"
+              }
+            ]
+          },
+          {
+            "type": "PENJELASAN_UMUM",
+            "id": "",
+            "children": [
+              {
+                "type": "PENJELASAN_UMUM_TITLE",
+                "text": "I. UMUM"
+              },
+              {
+                "type": "PLAINTEXT",
+                "text": "Kegiatan perdagangan adalah salah satu sektor penggerak perekonomian nasional dan pendukung pembangunan ekonomi nasional dalam rangka memajukan kesejahteraan umum sebagaimana tercantum dalam Pembukaan Undang-Undang Dasar Negara Republik Indonesia Tahun 1945."
+              },
+              {
+                "type": "PLAINTEXT",
+                "text": "Dalam rangka mendukung pembangunan ekonomi nasional, Indonesia perlu membentuk Persetujuan Perdagangan Internasional dengan negara mitra guna mendapatkan manfaat berupa akses pasar barang, jasa dan modal, promosi dan pelindungan penanaman modal, pengembangan sumber daya manusia, dan program kerja sama ekonomi. Persetujuan Perdagangan Internasional tersebut merupakan konsekuensi globalisasi yang kegiatan perdagangannya, baik barang, jasa maupun penanaman modal melewati batas negara."
+              },
+              {
+                "type": "PLAINTEXT",
+                "text": "Salah satu negara mitra dagang dan penanaman modal terdekat Indonesia yang penting dan saling melengkapi dalam perdagangan dan penanaman modal adalah Australia. Australia memiliki ekonomi berorientasi pasar yang ditandai dengan tingkat perdagangan luar negeri yang tinggi, pasar dengan daya beli tinggi, dan reputasi sebagai mitra perdagangan dan penanaman modal jangka panjang yang tepercaya di kawasan Asia Pasifik. Persetujuan Kemitraan Ekonomi Komprehensif Indonesia-Australia (Indonesia-Australia Comprehensive Economic Partnership Agreement) akan memberikan manfaat peningkatan akses pasar barang dan jasa termasuk tenaga kerja, fasilitasi arus barang dan kepabeanan, akses promosi dan pelindungan penanaman modal, economic powerhouse, pengembangan sumber daya manusia Indonesia dan program-program kerja sama ekonomi bagi Indonesia."
+              },
+              {
+                "type": "PLAINTEXT",
+                "text": "Persetujuan Indonesia-Australia Comprehensive Economic Partnership Agreement diinisiasi pada April 2005 dan dilanjutkan dengan penyusunan Studi Kelayakan Bersama yang menyimpulkan bahwa persetujuan tersebut akan bermanfaat bagi kedua belah pihak. Perundingan Indonesia Australia Comprehensive Economic Partnership Agreement diluncurkan oleh Presiden Republik Indonesia dan Perdana Menteri Australia pada tanggal 2 November 2010."
+              },
+              {
+                "type": "PLAINTEXT",
+                "text": "Perundingan pertama dan kedua dilakukan pada September 2012 dan Juli 2013, tetapi terhenti selama 3 (tiga) tahun. Pada Maret 2016, Indonesia dan Australia sepakat melanjutkan kembali perundingan dan setelah melalui 12 (dua belas) putaran perundingan dan 5 (lima) pertemuan tingkat Ketua Perunding, kedua negara berhasil menyelesaikan perundingan secara substansial. Pada tanggal 31 Agustus 2018 kedua belah pihak mengeluarkan pernyataan bersama yang menandakan selesainya secara substansial proses perundingan dan pada tanggal 4 Maret 2019 Persetujuan Indonesia-Australia Comprehensive Economic Partnership Agreement ditandatangani oleh Menteri Perdagangan Republik Indonesia dan Menteri Perdagangan, Pariwisata dan Penanaman Modal Australia di Jakarta, Indonesia."
+              },
+              {
+                "type": "PLAINTEXT",
+                "text": "Persetujuan Indonesia-Australia Comprehensive Economic Partnership Agreement terdiri atas pembukaan, 21 (dua puluh satu) bab (termasuk 15 (lima belas) lampiran, dan 2 (dua) apendiks), 2 (dua) Memorandum Saling Pengertian, dan 5 (lima) Side Letter. Ruang lingkup Persetujuan Indonesia Australia Comprehensive Economic Partnership Agreement antara lain perdagangan barang, perdagangan jasa, penanaman modal, dan kerja sama ekonomi."
+              }
+            ]
+          },
+          {
+            "type": "PENJELASAN_PASAL_DEMI_PASAL",
+            "id": "",
+            "children": [
+              {
+                "type": "PENJELASAN_PASAL_DEMI_PASAL_TITLE",
+                "text": "II. PASAL DEMI PASAL"
+              },
+              {
+                "type": "PENJELASAN_PASAL",
+                "id": "",
+                "children": [
+                  {
+                    "type": "PASAL_NUMBER",
+                    "text": "Pasal 1"
+                  },
+                  {
+                    "type": "PLAINTEXT",
+                    "text": "Cukup jelas."
+                  }
+                ]
+              },
+              {
+                "type": "PENJELASAN_PASAL",
+                "id": "",
+                "children": [
+                  {
+                    "type": "PASAL_NUMBER",
+                    "text": "Pasal 2"
+                  },
+                  {
+                    "type": "PLAINTEXT",
+                    "text": "Cukup jelas."
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

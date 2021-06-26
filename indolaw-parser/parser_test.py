@@ -729,11 +729,17 @@ def test_clean_maybe_squashed_heading(monkeypatch):
         "BAB XV"
     ]
 
-    # line = "Di antara Bab V dan Bab VI disisipkan satu bab: “BAB VA"
-    # assert clean_maybe_squashed_heading(line) == [
-    #     "Di antara Bab V dan Bab VI disisipkan satu bab:",
-    #     "“BAB VA"
-    # ]
+    line = "Di antara Bab V dan Bab VI disisipkan satu bab: “BAB VA"
+    assert clean_maybe_squashed_heading(line, 0, 0) == [
+        "Di antara Bab V dan Bab VI disisipkan satu bab:",
+        "“BAB VA"
+    ]
+
+    line = "Demikian saja. PASAL DEMI PASAL"
+    assert clean_maybe_squashed_heading(line, 0, 0) == [
+        "Demikian saja.",
+        "PASAL DEMI PASAL",
+    ]
 
 
 def test_get_id():
@@ -783,6 +789,16 @@ def test_is_start_of_penjelasan():
 def test_is_start_of_penjelasan_title():
     law = [
         'PENJELASAN',
+        'UNDANG-UNDANG REPUBLIK INDONESIA',
+        'NOMOR 13 TAHUN 2003',
+        'TENTANG',
+        'KETENAGAKERJAA',
+    ]
+    assert is_start_of_penjelasan_title(law, 0) == True
+
+    law = [
+        'PENJELASAN',
+        'ATAS',
         'UNDANG-UNDANG REPUBLIK INDONESIA',
         'NOMOR 13 TAHUN 2003',
         'TENTANG',

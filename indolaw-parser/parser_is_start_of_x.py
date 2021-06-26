@@ -29,6 +29,8 @@ PENJELASAN_ANGKA_REGEX = r'(Angka [0-9]+)'
 
 PAGE_NUMBER_REGEX = r'([0-9]+[\s]*\/[\s]*[0-9]+)'
 
+PENJELASAN_PASAL_DEMI_PASAL_REGEX = r'((II\.? )?PASAL DEMI PASAL)'
+
 LINE_ENDING_REGEXES = [
     r'(;)',
     r'(:)',
@@ -923,8 +925,14 @@ def is_start_of_penjelasan_title(law: List[str], start_index: int) -> bool:
         >>> is_start_of_penjelasan_title(law, 0)
         True
     """
-    return is_heading(r'PENJELASAN', law[start_index]) and \
+    heuristic_1 = is_heading(r'PENJELASAN', law[start_index]) and \
         is_heading(r'UNDANG-UNDANG REPUBLIK INDONESIA', law[start_index+1])
+
+    heuristic_2 = is_heading(r'PENJELASAN', law[start_index]) and \
+        is_heading(r'ATAS', law[start_index+1]) and \
+        is_heading(r'UNDANG-UNDANG REPUBLIK INDONESIA', law[start_index+2])
+
+    return heuristic_1 or heuristic_2
 
 
 def is_start_of_penjelasan_pasal_demi_pasal(law: List[str], start_index: int) -> bool:
@@ -932,13 +940,7 @@ def is_start_of_penjelasan_pasal_demi_pasal(law: List[str], start_index: int) ->
 
 
 def is_start_of_penjelasan_pasal_demi_pasal_title(law: List[str], start_index: int) -> bool:
-    variants = [
-        r'II. PASAL DEMI PASAL',
-        r'PASAL DEMI PASAL',
-        r'II PASAL DEMI PASAL',
-    ]
-
-    return any([is_heading(variant, law[start_index]) for variant in variants])
+    return is_heading(PENJELASAN_PASAL_DEMI_PASAL_REGEX, law[start_index])
 
 
 def is_start_of_list(law: List[str], start_index: int) -> bool:

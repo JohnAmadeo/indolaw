@@ -34,6 +34,7 @@ from parser_is_start_of_x import (
     PENJELASAN_AYAT_ALPHANUMERIC_VARIANT_REGEX,
     PENJELASAN_AYAT_REGEX,
     PENJELASAN_HURUF_REGEX,
+    PENJELASAN_PASAL_DEMI_PASAL_REGEX,
     START_OF_PERUBAHAN_SECTION_REGEXES,
     is_heading,
     is_start_of_number_with_brackets_str,
@@ -883,6 +884,7 @@ def get_squashed_heading(line: str, approx_len: int, approx_index: int):
         PASAL_NUMBER_WITH_OPEN_QUOTE_CHAR_REGEX,
         BAB_NUMBER_REGEX,
         BAB_NUMBER_WITH_OPEN_QUOTE_CHAR_REGEX,
+        PENJELASAN_PASAL_DEMI_PASAL_REGEX,
     ]
 
     regexes = []
@@ -1036,7 +1038,8 @@ def capitalize(string: str) -> str:
         'Perlindungan Konsumen'
     '''
     return ' '.join(
-        [word[0].upper() + word[1:].lower() for word in string.split(' ')]
+        [word[0].upper() + word[1:].lower()
+         for word in string.strip().split(' ')]
     )
 
 

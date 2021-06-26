@@ -1,0 +1,316 @@
+{
+  "metadata": {
+    "lembaranNegaraNumber": -1,
+    "lembaranNegaraYear": -1,
+    "tambahanLembaranNumber": 2020,
+    "number": 4,
+    "topic": "Pengesahan Persetujuan Antara Pemerintah Republik Indonesia Dan Kabinet Menteri Ukraina Tentang Kerja Sama Dalam Bidang Pertahanan (agreement Between The Government Of The Republic Of Indonesia And The Cabinet Of Ministers Of Ukraine On Cooperation In The Field Of Defence)",
+    "year": 2020
+  },
+  "content": {
+    "type": "UNDANG_UNDANG",
+    "id": "",
+    "children": [
+      {
+        "type": "OPENING",
+        "id": "",
+        "children": [
+          {
+            "type": "UU_TITLE",
+            "id": "",
+            "children": [
+              {
+                "type": "PLAINTEXT",
+                "text": "UNDANG-UNDANG REPUBLIK INDONESIA"
+              },
+              {
+                "type": "UU_TITLE_YEAR_AND_NUMBER",
+                "text": "NOMOR 4 TAHUN 2020"
+              },
+              {
+                "type": "PLAINTEXT",
+                "text": "TENTANG"
+              },
+              {
+                "type": "UU_TITLE_TOPIC",
+                "text": "PENGESAHAN PERSETUJUAN ANTARA PEMERINTAH REPUBLIK INDONESIA DAN KABINET MENTERI UKRAINA TENTANG KERJA SAMA DALAM BIDANG PERTAHANAN (AGREEMENT BETWEEN THE GOVERNMENT OF THE REPUBLIC OF INDONESIA AND THE CABINET OF MINISTERS OF UKRAINE ON COOPERATION IN THE FIELD OF DEFENCE)"
+              }
+            ]
+          },
+          {
+            "type": "PREFACE",
+            "id": "",
+            "children": [
+              {
+                "type": "PLAINTEXT",
+                "text": "DENGAN RAHMAT TUHAN YANG MAHA ESA"
+              },
+              {
+                "type": "PLAINTEXT",
+                "text": "PRESIDEN REPUBLIK INDONESIA,"
+              }
+            ]
+          },
+          {
+            "type": "CONSIDERATIONS",
+            "id": "",
+            "children": [
+              {
+                "type": "PLAINTEXT",
+                "text": "Menimbang:"
+              },
+              {
+                "type": "LIST",
+                "id": "",
+                "children": [
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "LETTER_WITH_DOT",
+                        "text": "a."
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "bahwa hubungan luar negeri yang dilandasi politik bebas aktif merupakan salah satu perwujudan dari tujuan nasional Negara Kesatuan Republik Indonesia sebagaimana tercantum dalam Pembukaan Undang-Undang Dasar Negara Republik Indonesia Tahun 1945, yaitu melindungi segenap bangsa Indonesia dan seluruh tumpah darah Indonesia dan untuk memajukan kesejahteraan umum, mencerdaskan kehidupan bangsa dan ikut melaksanakan ketertiban dunia yang berdasarkan kemerdekaan, perdamaian abadi dan keadilan sosial;"
+                      }
+                    ]
+                  },
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "LETTER_WITH_DOT",
+                        "text": "b."
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "bahwa untuk meningkatkan kerja sama di bidang pertahanan, Pemerintah Republik Indonesia dan Kabinet Menteri Ukraina telah menandatangani Persetujuan antara Pemerintah Republik Indonesia dan Kabinet Menteri Ukraina tentang Kerja Sama dalam Bidang Pertahanan (Agreement between the Government of the Republic of Indonesia and the Cabinet of Ministers of Ukraine on Cooperation in the Field of Defence) pada tanggal 5 Agustus 2016 di Jakarta, Indonesia;"
+                      }
+                    ]
+                  },
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "LETTER_WITH_DOT",
+                        "text": "c."
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "bahwa sesuai dengan ketentuan Pasal 10 Undang-Undang Nomor 24 Tahun 2000 tentang Perjanjian Internasional, pengesahan perjanjian internasional di bidang pertahanan dilakukan dengan Undang Undang;"
+                      }
+                    ]
+                  },
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "LETTER_WITH_DOT",
+                        "text": "d."
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "bahwa berdasarkan pertimbangan sebagaimana dimaksud dalam huruf a, huruf b, dan huruf c, perlu membentuk Undang-Undang tentang Pengesahan Persetujuan antara Pemerintah Republik Indonesia dan Kabinet Menteri Ukraina tentang Kerja Sama dalam Bidang Pertahanan (Agreement between the Government of the Republic of Indonesia and the Cabinet of Ministers of Ukraine on Cooperation in the Field of Defence)."
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "PRINCIPLES",
+            "id": "",
+            "children": [
+              {
+                "type": "PLAINTEXT",
+                "text": "Mengingat:"
+              },
+              {
+                "type": "LIST",
+                "id": "",
+                "children": [
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "NUMBER_WITH_DOT",
+                        "text": "1."
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "Pasal 5 ayat (1), Pasal 11, Pasal 20, dan Pasal 30 ayat (2), ayat (3), dan ayat (5) Undang-Undang Dasar Negara Republik Indonesia Tahun 1945;"
+                      }
+                    ]
+                  },
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "NUMBER_WITH_DOT",
+                        "text": "2."
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "Undang-Undang Nomor 24 Tahun 2000 tentang Perjanjian Internasional (Lembaran Negara Republik Indonesia Tahun 2000 Nomor 185, Tambahan Lembaran Negara Republik Indonesia Nomor 4012)."
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "AGREEMENT",
+            "id": "",
+            "children": [
+              {
+                "type": "PLAINTEXT",
+                "text": "Dengan Persetujuan Bersama"
+              },
+              {
+                "type": "PLAINTEXT",
+                "text": "DEWAN PERWAKILAN RAKYAT REPUBLIK INDONESIA"
+              },
+              {
+                "type": "PLAINTEXT",
+                "text": "dan"
+              },
+              {
+                "type": "PLAINTEXT",
+                "text": "PRESIDEN REPUBLIK INDONESIA"
+              },
+              {
+                "type": "PLAINTEXT",
+                "text": "MEMUTUSKAN:"
+              },
+              {
+                "type": "PLAINTEXT",
+                "text": "Menetapkan:"
+              },
+              {
+                "type": "PLAINTEXT",
+                "text": "UNDANG-UNDANG TENTANG PENGESAHAN PERSETUJUAN ANTARA PEMERINTAH REPUBLIK INDONESIA DAN KABINET MENTERI UKRAINA TENTANG KERJA SAMA DALAM BIDANG PERTAHANAN (AGREEMENT BETWEEN THE GOVERNMENT OF THE REPUBLIC OF INDONESIA AND THE CABINET OF MINISTERS OF UKRAINE ON COOPERATION IN THE FIELD OF DEFENCE)."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "PASAL",
+        "id": "pasal-1",
+        "children": [
+          {
+            "type": "PASAL_NUMBER",
+            "text": "Pasal 1"
+          },
+          {
+            "type": "LIST",
+            "id": "",
+            "children": [
+              {
+                "type": "LIST_ITEM",
+                "id": "",
+                "children": [
+                  {
+                    "type": "NUMBER_WITH_BRACKETS",
+                    "text": "(1)"
+                  },
+                  {
+                    "type": "PLAINTEXT",
+                    "text": "Mengesahkan Persetujuan antara Pemerintah Republik Indonesia dan Kabinet Menteri Ukraina tentang Kerja Sama dalam Bidang Pertahanan (Agreement between the Government of the Republic of Indonesia and the Cabinet of Ministers of Ukraine on Cooperation in the Field of Defence) yang telah ditandatangani pada tanggal 5 Agustus 2016 di Jakarta, Indonesia."
+                  }
+                ]
+              },
+              {
+                "type": "LIST_ITEM",
+                "id": "",
+                "children": [
+                  {
+                    "type": "NUMBER_WITH_BRACKETS",
+                    "text": "(2)"
+                  },
+                  {
+                    "type": "PLAINTEXT",
+                    "text": "Salinan naskah asli Persetujuan antara Pemerintah Republik Indonesia dan Kabinet Menteri Ukraina tentang Kerja Sama dalam Bidang Pertahanan (Agreement between the Government of the Republic of Indonesia and the Cabinet of Ministers of Ukraine on Cooperation in the Field of Defence) dalam bahasa Indonesia, bahasa Ukraina, dan bahasa Inggris sebagaimana terlampir dan merupakan bagian yang tidak terpisahkan dari Undang-Undang ini."
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "PASAL",
+        "id": "pasal-2",
+        "children": [
+          {
+            "type": "PASAL_NUMBER",
+            "text": "Pasal 2"
+          },
+          {
+            "type": "PLAINTEXT",
+            "text": "Undang-Undang ini mulai berlaku pada tanggal diundangkan."
+          },
+          {
+            "type": "PLAINTEXT",
+            "text": "Agar setiap orang mengetahuinya, memerintahkan pengundangan Undang-Undang ini dengan penempatannya dalam Lembaran Negara Republik Indonesia."
+          }
+        ]
+      },
+      {
+        "type": "CLOSING",
+        "id": "",
+        "children": [
+          {
+            "type": "PLAINTEXT",
+            "text": "Disahkan Di Jakarta,"
+          },
+          {
+            "type": "PLAINTEXT",
+            "text": "Pada Tanggal 5 Agustus 2020"
+          },
+          {
+            "type": "PLAINTEXT",
+            "text": "PRESIDEN REPUBLIK INDONESIA,"
+          },
+          {
+            "type": "PLAINTEXT",
+            "text": "Ttd."
+          },
+          {
+            "type": "PLAINTEXT",
+            "text": "JOKO WIDODO"
+          },
+          {
+            "type": "PLAINTEXT",
+            "text": "Diundangkan Di Jakarta,"
+          },
+          {
+            "type": "PLAINTEXT",
+            "text": "Pada Tanggal 6 Agustus 2020"
+          },
+          {
+            "type": "PLAINTEXT",
+            "text": "MENTERI HUKUM DAN HAK ASASI MANUSIA REPUBLIK INDONESIA,"
+          },
+          {
+            "type": "PLAINTEXT",
+            "text": "Ttd."
+          },
+          {
+            "type": "PLAINTEXT",
+            "text": "YASONNA H. LAOLY"
+          }
+        ]
+      }
+    ]
+  }
+}
