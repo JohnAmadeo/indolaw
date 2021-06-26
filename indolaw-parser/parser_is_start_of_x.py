@@ -39,6 +39,12 @@ LINE_ENDING_REGEXES = [
     r'(' + CLOSE_QUOTE_CHAR + r')'
 ]
 
+START_OF_PERUBAHAN_SECTION_REGEXES = [
+    PASAL_NUMBER_WITH_OPEN_QUOTE_CHAR_REGEX,
+    BAB_NUMBER_WITH_OPEN_QUOTE_CHAR_REGEX,
+    BAGIAN_NUMBER_WITH_OPEN_QUOTE_CHAR_REGEX,
+]
+
 
 def is_start_of_structure(structure: Structure, law: List[str], start_index: int) -> bool:
     """Checks if law[start_index] marks the start of a structure.
@@ -527,15 +533,13 @@ def is_start_of_penjelasan_pasal(law: List[str], start_index: int, ) -> bool:
 
 def is_start_of_perubahan_section(law: List[str], start_index: int) -> bool:
     '''
-    TODO May need heuristics - what if open/quote chars occur naturally in line
+    TODO what if open/quote chars occur naturally in line
     '''
-    return law[start_index][0] == OPEN_QUOTE_CHAR
+    line = law[start_index]
+    return line[0] == OPEN_QUOTE_CHAR and CLOSE_QUOTE_CHAR not in line
 
 
 def is_start_of_penjelasan_perubahan_section(law: List[str], start_index: int) -> bool:
-    '''
-    TODO May need heuristics - what if open/quote chars occur naturally in line
-    '''
     return is_start_of_perubahan_section(law, start_index)
 
 
@@ -928,8 +932,13 @@ def is_start_of_penjelasan_pasal_demi_pasal(law: List[str], start_index: int) ->
 
 
 def is_start_of_penjelasan_pasal_demi_pasal_title(law: List[str], start_index: int) -> bool:
-    return is_heading(r'II. PASAL DEMI PASAL', law[start_index]) or \
-        is_heading(r'PASAL DEMI PASAL', law[start_index])
+    variants = [
+        r'II. PASAL DEMI PASAL',
+        r'PASAL DEMI PASAL',
+        r'II PASAL DEMI PASAL',
+    ]
+
+    return any([is_heading(variant, law[start_index]) for variant in variants])
 
 
 def is_start_of_list(law: List[str], start_index: int) -> bool:

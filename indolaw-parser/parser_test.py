@@ -1,6 +1,7 @@
 from parser_types import Structure, ComplexNode, PrimitiveNode
 from parser_utils import (
     clean_maybe_squashed_heading,
+    clean_split_pasal_number,
     get_id,
     get_squashed_list_item,
     ignore_line,
@@ -130,45 +131,6 @@ def test_is_next_list_index_number():
     assert is_next_list_index_number('(13)', '(15)') == False
     with pytest.raises(Exception):
         is_next_list_index_number('a.', '(2)')
-
-
-def test_clean_law(monkeypatch):
-    monkeypatch.setattr('builtins.input', lambda: "y")
-
-    input = [
-        '1 / 10',
-        'Pasal 1 2 / 10',
-        '. . .',
-        'Dalam Undang-Undang in yang dimaksud dengan makanan enak adalah: 1. martabak;',
-        '2. nasi goreng; 3. bakmie ayam;',
-        '4. soto betawi;',
-        '5. ronde jahe; 6. gulai kambing; 7. sup ikan batam;',
-        '(1) Dalam Undang-Undang in yang dimaksud dengan makanan enak adalah: 1. martabak;',
-        '- 2 -',
-    ]
-    output = [
-        'Pasal 1',
-        'Dalam Undang-Undang in yang dimaksud dengan makanan enak adalah:',
-        '1.',
-        'martabak;',
-        '2.',
-        'nasi goreng;',
-        '3.',
-        'bakmie ayam;',
-        '4.',
-        'soto betawi;',
-        '5.',
-        'ronde jahe;',
-        '6.',
-        'gulai kambing;',
-        '7.',
-        'sup ikan batam;',
-        '(1)',
-        'Dalam Undang-Undang in yang dimaksud dengan makanan enak adalah:',
-        '1.',
-        'martabak;',
-    ]
-    assert clean_law(input) == output
 
 
 def test_is_start_of_first_list_index():
@@ -1044,3 +1006,21 @@ def test_insert_penjelasan_perubahan_section_close_quotes(monkeypatch):
 
     monkeypatch.setattr('builtins.input', lambda: "y")
     assert insert_penjelasan_perubahan_section_close_quotes(law) == new_law
+
+
+def test_clean_split_pasal_number():
+    law = [
+        'Pasal 39 B',
+        'Pasal 39    B',
+        '“Pasal 39 B',
+        'Pasal II',
+        'Pasal 54',
+    ]
+    clean_law = [
+        'Pasal 39B',
+        'Pasal 39B',
+        '“Pasal 39B',
+        'Pasal II',
+        'Pasal 54',
+    ]
+    assert clean_split_pasal_number(law) == clean_law

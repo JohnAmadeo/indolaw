@@ -16,6 +16,7 @@ from parser_is_start_of_x import (
     BAB_NUMBER_REGEX,
     BAB_NUMBER_WITH_OPEN_QUOTE_CHAR_REGEX,
     BAGIAN_NUMBER_REGEX,
+    BAGIAN_NUMBER_WITH_OPEN_QUOTE_CHAR_REGEX,
     CLOSE_QUOTE_CHAR,
     LETTER_WITH_DOT_REGEX,
     LINE_ENDING_REGEXES,
@@ -33,6 +34,7 @@ from parser_is_start_of_x import (
     PENJELASAN_AYAT_ALPHANUMERIC_VARIANT_REGEX,
     PENJELASAN_AYAT_REGEX,
     PENJELASAN_HURUF_REGEX,
+    START_OF_PERUBAHAN_SECTION_REGEXES,
     is_heading,
     is_start_of_number_with_brackets_str,
     is_start_of_number_with_right_bracket_str,
@@ -357,6 +359,11 @@ def clean_law(law: List[str]) -> List[str]:
     law = clean_split_plaintext(law)
 
     '''
+    TODO(johnamadeo): Fix "Pasal 38 B" REMOVE THE SPACE WITH REGEX
+    '''
+    law = clean_split_pasal_number(law)
+
+    '''
     Add OPEN_QUOTE_CHAR and CLOSE_QUOTE_CHAR to PERUBAHAN_SECTION and PENJELASAN_PERUBAHAN_SECTION
     '''
     law = insert_perubahan_quotes(law)
@@ -364,6 +371,20 @@ def clean_law(law: List[str]) -> List[str]:
     law = [line.strip() for line in law]
     law = [' '.join(line.split()) for line in law]
     return law
+
+
+def clean_split_pasal_number(law: List[str]) -> List[str]:
+    new_law = []
+    regex = r'(“?Pasal[\s]+[0-9]+[\s]+[A-Z])'
+
+    for line in law:
+        if is_heading(regex, line):
+            pasal, number, letter = line.split()
+            new_law.append(f'{pasal} {number}{letter}')
+        else:
+            new_law.append(line)
+
+    return new_law
 
 
 def insert_perubahan_section_open_quotes(law: List[str]) -> List[str]:
@@ -409,7 +430,7 @@ def insert_perubahan_section_close_quotes(law: List[str]) -> List[str]:
         if is_start_of_penjelasan(new_law, i):
             break
 
-        if line[0] == OPEN_QUOTE_CHAR:
+        if any([is_heading(regex, line) for regex in START_OF_PERUBAHAN_SECTION_REGEXES]):
             open_quote_indexes.append(i)
 
     for i, _ in enumerate(open_quote_indexes):
@@ -509,7 +530,7 @@ def insert_penjelasan_perubahan_section_close_quotes(law: List[str]) -> List[str
         if not in_penjelasan_pasal_demi_pasal:
             continue
 
-        if line[0] == OPEN_QUOTE_CHAR:
+        if any([is_heading(regex, line) for regex in START_OF_PERUBAHAN_SECTION_REGEXES]):
             open_quote_indexes.append(i)
 
     for i, _ in enumerate(open_quote_indexes):
