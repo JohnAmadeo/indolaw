@@ -2,6 +2,7 @@
 import json
 import sys
 from typing import Any, Dict, List, Tuple, Union
+import pyperclip
 
 from termcolor import colored
 
@@ -1464,6 +1465,7 @@ def parse_penjelasan_list_item(parent: ComplexNode, law: List[str], start_index:
                         print(law[start_index+1])
                     print('---------------')
 
+                    pyperclip.copy(law[start_index])
                     print('Is this list index a child LIST or an ancestor LIST?')
                     print(
                         f"{colored('c (child)', 'green')} / {colored('a (ancestor)', 'red')}")

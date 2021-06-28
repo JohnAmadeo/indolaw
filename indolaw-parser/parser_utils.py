@@ -4,6 +4,7 @@ import re
 from os import system, name, path
 from colorama import init
 from termcolor import colored
+import pyperclip
 
 from parser_types import (
     ComplexNode,
@@ -334,6 +335,9 @@ def clean_law(law: List[str]) -> List[str]:
             'Informasi adalah keterangan',
         ]
     """
+    law = [line.strip() for line in law]
+    law = [' '.join(line.split()) for line in law]
+
     '''
     Remove semantically meaningless text e.g '. . .' or '1 / 23'
 
@@ -370,9 +374,6 @@ def clean_law(law: List[str]) -> List[str]:
     Add OPEN_QUOTE_CHAR and CLOSE_QUOTE_CHAR to PERUBAHAN_SECTION and PENJELASAN_PERUBAHAN_SECTION
     '''
     law = insert_perubahan_quotes(law)
-
-    law = [line.strip() for line in law]
-    law = [' '.join(line.split()) for line in law]
     return law
 
 
@@ -410,6 +411,8 @@ def insert_perubahan_section_open_quotes(law: List[str]) -> List[str]:
                 print_dashed_line()
                 print(new_law[i+1])
             print_line()
+
+            pyperclip.copy(line)
             print('Add open quote in front of line?')
             print_yes_no()
             user_input = input()
@@ -456,6 +459,8 @@ def insert_perubahan_section_close_quotes(law: List[str]) -> List[str]:
         for j in range(open_quote_index, next_open_quote_index):
             print(f'[Line {j}] {new_law[j]}')
             print_dashed_line()
+
+        pyperclip.copy(new_law[open_quote_index])
         print('For which line should a close quote be added to the end?')
         user_input = input()
 
@@ -506,6 +511,8 @@ def insert_penjelasan_perubahan_section_open_quotes(law: List[str]) -> List[str]
             print_line()
             print(line)
             print_line()
+
+            pyperclip.copy(line)
             print('Add open quote in front of line?')
             print_yes_no()
             user_input = input()
@@ -557,6 +564,7 @@ def insert_penjelasan_perubahan_section_close_quotes(law: List[str]) -> List[str
 
             print_dashed_line()
 
+        pyperclip.copy(new_law[open_quote_index])
         print('For which line should a close quote be added to the end?')
         if best_guess_index != -1:
             print(f'Or {colored("y(es)", "green")} to use the best guess line')
@@ -580,6 +588,8 @@ def insert_penjelasan_perubahan_section_close_quotes(law: List[str]) -> List[str
 
 
 def insert_perubahan_quotes(law: List[str]) -> List[str]:
+    print_section_header('INSERT PERUBAHAN SECTION QUOTES...')
+
     print('Is this UU an UU Perubahan?')
     print_yes_no()
     user_input = input()
@@ -600,11 +610,7 @@ def insert_perubahan_quotes(law: List[str]) -> List[str]:
 
 
 def clean_squashed_page_numbers(law: List[str]) -> List[str]:
-    print(f"{colored('---------------', 'green')}")
-    print()
-    print(f"{colored('CLEANING SQUASHED PAGE NUMBER...', 'green')}")
-    print()
-    print(f"{colored('---------------', 'green')}")
+    print_section_header('CLEANING SQUASHED PAGE NUMBER...')
 
     new_law = []
     for idx, line in enumerate(law):
@@ -618,6 +624,7 @@ def clean_squashed_page_numbers(law: List[str]) -> List[str]:
             print(line)
             print('---------------')
 
+            pyperclip.copy(line)
             print('Does this line have a page number squashed onto the end?')
             print_yes_no()
             user_input = input()
@@ -636,11 +643,7 @@ def clean_split_plaintext(law: List[str]) -> List[str]:
     '''
     Stitch together plaintext lines that get separated into 2 lines due to page breaks
     '''
-    print(f"{colored('---------------', 'green')}")
-    print()
-    print(f"{colored('CLEANING SPLIT PLAINTEXT...', 'green')}")
-    print()
-    print(f"{colored('---------------', 'green')}")
+    print_section_header('CLEANING SPLIT PLAINTEXT...')
 
     new_law: List[str] = []
     for i, line in enumerate(law):
@@ -671,7 +674,7 @@ def clean_split_plaintext(law: List[str]) -> List[str]:
                         not is_start_of_pasal(law, i) and
                         not is_start_of_perubahan_pasal(law, i) and
                         not is_start_of_penjelasan_list_index_str(law[i]) and
-                        not is_start_of_bagian(law, i) and 
+                        not is_start_of_bagian(law, i) and
                         not is_start_of_paragraf(law, i)
                     )
                 )
@@ -686,6 +689,8 @@ def clean_split_plaintext(law: List[str]) -> List[str]:
             print('- - - - - - - - - - - - - - - - -')
             print(f'{law[i]}')
             print('---------------------------------')
+
+            pyperclip.copy(law[i])
             print("Combine lines into one?")
             print_yes_no()
             user_input = input()
@@ -701,11 +706,7 @@ def clean_split_plaintext(law: List[str]) -> List[str]:
 
 
 def clean_maybe_list_items(law: List[str]) -> List[str]:
-    print(f"{colored('---------------', 'green')}")
-    print()
-    print(f"{colored('CLEANING MAYBE LIST ITEMS...', 'green')}")
-    print()
-    print(f"{colored('---------------', 'green')}")
+    print_section_header('CLEANING MAYBE LIST ITEMS...')
 
     approx_len = len(law)
     new_law = []
@@ -841,6 +842,8 @@ def get_squashed_list_item(line: str, approx_len: int, approx_index: int):
     print('- - - - - - - -')
     print(f'{line[start_of_squashed_list_item_idx:]}')
     print('---------------')
+
+    pyperclip.copy(line[start_of_squashed_list_item_idx:])
     print('Split line?')
     print_yes_no()
     user_input = input()
@@ -852,11 +855,7 @@ def get_squashed_list_item(line: str, approx_len: int, approx_index: int):
 
 
 def clean_maybe_squashed_headings(law: List[str]) -> List[str]:
-    print(f"{colored('---------------', 'green')}")
-    print()
-    print(f"{colored('CLEANING MAYBE SQUASHED HEADINGS...', 'green')}")
-    print()
-    print(f"{colored('---------------', 'green')}")
+    print_section_header('CLEANING MAYBE SQUASHED HEADINGS...')
 
     approx_len = len(law)
     new_law = []
@@ -920,6 +919,8 @@ def get_squashed_heading(line: str, approx_len: int, approx_index: int):
     print('- - - - - - - -')
     print(f"{line[start_of_squashed_heading_idx:]}")
     print('---------------')
+
+    pyperclip.copy(line[start_of_squashed_heading_idx:])
     print('Split line?')
     print_yes_no()
     user_input = input()
@@ -1197,6 +1198,14 @@ def print_yes_no():
     print(f"{colored('y', 'green')} / {colored('n', 'red')}")
 
 
+def print_section_header(line):
+    print(f"{colored('---------------', 'green')}")
+    print()
+    print(f"{colored(line, 'green')}")
+    print()
+    print(f"{colored('---------------', 'green')}")
+
+
 def gen_plaintext_in_list_item_scenario_from_user(law: List[str], i: int) -> PlaintextInListItemScenario:
     print_line()
     print(f'{law[i-2]}')
@@ -1207,10 +1216,10 @@ def gen_plaintext_in_list_item_scenario_from_user(law: List[str], i: int) -> Pla
     print(f'{law[i]}')
     print_line()
 
+    pyperclip.copy(law[i])
     print('This PLAINTEXT is the 3rd line of a LIST_INDEX. Is it:')
     print('- a sibling of the LIST this LIST_ITEM is in? (s)')
     print('- a child of the LIST ITEM? (c)')
-    print('- an embedded structure e.g is this UU modifying other UU? (e)')
 
     user_input = input()
 
@@ -1219,8 +1228,6 @@ def gen_plaintext_in_list_item_scenario_from_user(law: List[str], i: int) -> Pla
         return PlaintextInListItemScenario.SIBLING_OF_LIST
     elif user_input == 'c':
         return PlaintextInListItemScenario.CHILD_OF_LIST_ITEM
-    elif user_input == 'e':
-        return PlaintextInListItemScenario.EMBEDDED_LAW_SNIPPET
     else:
         raise Exception(f'Invalid command "{user_input}" entered by user')
 
