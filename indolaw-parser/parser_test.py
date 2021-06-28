@@ -768,6 +768,15 @@ def test_get_id():
     bab_node.add_child(bagian_node_2)
     assert get_id(bagian_node_2) == 'bab-3-bagian-8'
 
+    bagian_node_3 = ComplexNode(type=Structure.BAGIAN)
+    bagian_node_3.add_child(PrimitiveNode(
+        type=Structure.BAGIAN_NUMBER, text="Bagian Kedua Belas"))
+    bagian_node_3.add_child(PrimitiveNode(
+        type=Structure.BAGIAN_TITLE, text="Jasa Ojek Online"))
+
+    bab_node.add_child(bagian_node_3)
+    assert get_id(bagian_node_3) == 'bab-3-bagian-12'
+
     pasal_node = ComplexNode(type=Structure.PASAL)
     bab_node.add_child(pasal_node)
     pasal_node.add_child(PrimitiveNode(

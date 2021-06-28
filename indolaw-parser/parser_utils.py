@@ -1113,8 +1113,8 @@ def get_id(node: ComplexNode) -> str:
         if bagian_number_indo == 'pertama':
             bagian_number_int = 1
         else:
-            bagian_number_indo = \
-                bagian_number_node.text.split()[1][2:]
+            text = bagian_number_node.text
+            bagian_number_indo = ' '.join(text.split()[1:])[2:].lower()
             """
             This is obviously janky, but good enough for now. When this fails,
             all we need to do is add more numbers and rerun the parser.
@@ -1131,6 +1131,14 @@ def get_id(node: ComplexNode) -> str:
                 'sembilan': 9,
                 'sepuluh': 10,
                 'sebelas': 11,
+                'dua belas': 12,
+                'tiga belas': 13,
+                'empat belas': 14,
+                'lima belas': 15,
+                'enam belas': 16,
+                'tujuh belas': 17,
+                'delapan belas': 18,
+                'sembilan belas': 19,
             }[bagian_number_indo]
 
         bab_node = node.parent
