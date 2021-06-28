@@ -719,7 +719,7 @@ def parse_perubahan_bab(
     end_index = parse_complex_perubahan_structure(
         perubahan_bab_node,
         law,
-        start_index=start_index+1,
+        start_index=start_index+2,
         perubahan_section_end_index=perubahan_section_end_index,
         next_ancestor_structures=[
             Structure.PERUBAHAN_SECTION,
@@ -732,7 +732,7 @@ def parse_perubahan_bab(
         ],
         next_sibling_structures=[Structure.PERUBAHAN_BAB],
         # TODO Add other PERUBAHAN structures
-        child_structures=[Structure.PERUBAHAN_PASAL])
+        child_structures=[Structure.PERUBAHAN_PASAL, Structure.PERUBAHAN_BAGIAN])
 
     return end_index
 
@@ -757,7 +757,7 @@ def parse_perubahan_bagian(
     end_index = parse_complex_perubahan_structure(
         perubahan_bagian_node,
         law,
-        start_index=start_index+1,
+        start_index=start_index+2,
         perubahan_section_end_index=perubahan_section_end_index,
         next_ancestor_structures=[
             Structure.PERUBAHAN_SECTION,
@@ -771,7 +771,7 @@ def parse_perubahan_bagian(
             Structure.CLOSING,
         ],
         next_sibling_structures=[Structure.PERUBAHAN_BAGIAN],
-        child_structures=TEXT_BLOCK_STRUCTURES)
+        child_structures=[Structure.PERUBAHAN_PASAL])
 
     return end_index
 
@@ -950,7 +950,13 @@ def parse_complex_perubahan_structure(
                   f'Cannot find structure for line {start_index}')
 
         assert child_structure is not None  # mypy type hint
-        end_index = parse_structure(parent, child_structure, law, start_index)
+        end_index = parse_structure(
+            parent,
+            child_structure,
+            law,
+            start_index,
+            perubahan_section_end_index,
+        )
         start_index = end_index + 1
 
     return end_index
