@@ -15,6 +15,9 @@ NEW_FILENAME_NO_NICKNAME="uu-${YEAR}-${NUMBER}"
 mv ~/Downloads/${ORIGINAL_FILENAME}.PDF ./raw-laws/${NEW_FILENAME}.pdf
 mv ~/Downloads/${ORIGINAL_FILENAME}.PDF.txt ./raw-laws/${NEW_FILENAME}.txt
 
+mv ~/Downloads/${ORIGINAL_FILENAME}.pdf ./raw-laws/${NEW_FILENAME}.pdf
+mv ~/Downloads/${ORIGINAL_FILENAME}.txt ./raw-laws/${NEW_FILENAME}.txt
+
 cp ./raw-laws/${NEW_FILENAME}.txt ./${NEW_FILENAME_NO_NICKNAME}.txt
 cp ./${NEW_FILENAME_NO_NICKNAME}.txt ./${NEW_FILENAME_NO_NICKNAME}-mod.txt
 
