@@ -1,0 +1,2756 @@
+{
+  "metadata": {
+    "lembaranNegaraNumber": 183,
+    "lembaranNegaraYear": 2019,
+    "tambahanLembaranNumber": 6398,
+    "number": 15,
+    "topic": "Perubahan Atas Undang-undang Nomor 12 Tahun 2011 Tentang Pembentukan Peraturan Perundang-undangan",
+    "year": 2019
+  },
+  "content": {
+    "type": "UNDANG_UNDANG",
+    "id": "",
+    "children": [
+      {
+        "type": "OPENING",
+        "id": "",
+        "children": [
+          {
+            "type": "UU_TITLE",
+            "id": "",
+            "children": [
+              {
+                "type": "PLAINTEXT",
+                "text": "UNDANG-UNDANG REPUBLIK INDONESIA"
+              },
+              {
+                "type": "UU_TITLE_YEAR_AND_NUMBER",
+                "text": "NOMOR 15 TAHUN 2019"
+              },
+              {
+                "type": "PLAINTEXT",
+                "text": "TENTANG"
+              },
+              {
+                "type": "UU_TITLE_TOPIC",
+                "text": "PERUBAHAN ATAS UNDANG-UNDANG NOMOR 12 TAHUN 2011 TENTANG PEMBENTUKAN PERATURAN PERUNDANG-UNDANGAN"
+              }
+            ]
+          },
+          {
+            "type": "PREFACE",
+            "id": "",
+            "children": [
+              {
+                "type": "PLAINTEXT",
+                "text": "DENGAN RAHMAT TUHAN YANG MAHA ESA"
+              },
+              {
+                "type": "PLAINTEXT",
+                "text": "PRESIDEN REPUBLIK INDONESIA,"
+              }
+            ]
+          },
+          {
+            "type": "CONSIDERATIONS",
+            "id": "",
+            "children": [
+              {
+                "type": "PLAINTEXT",
+                "text": "Menimbang:"
+              },
+              {
+                "type": "LIST",
+                "id": "",
+                "children": [
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "LETTER_WITH_DOT",
+                        "text": "a."
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "bahwa pembangunan hukum nasional yang terencana, terpadu, dan berkelanjutan harus benar-benar mencerminkan kedaulatan berada di tangan rakyat dan menjamin pelindungan hak dan kewajiban segenap rakyat Indonesia berdasarkan Undang-Undang Dasar Negara Republik Indonesia Tahun 1945;"
+                      }
+                    ]
+                  },
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "LETTER_WITH_DOT",
+                        "text": "b."
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "bahwa untuk memperkuat pembentukan peraturan perundang-undangan yang berkelanjutan, dibutuhkan penataan dan perbaikan mekanisme pembentukan peraturan perundang-undangan sejak perencanaan hingga pemantauan dan peninjauan;"
+                      }
+                    ]
+                  },
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "LETTER_WITH_DOT",
+                        "text": "c."
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "bahwa Undang-Undang Nomor 12 Tahun 2011 tentang Pembentukan Peraturan Perundang-undangan masih terdapat kekurangan dan belum menampung perkembangan kebutuhan masyarakat sehingga perlu diubah;"
+                      }
+                    ]
+                  },
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "LETTER_WITH_DOT",
+                        "text": "d."
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "bahwa berdasarkan pertimbangan sebagaimana dimaksud dalam huruf a, huruf b, dan huruf c, perlu membentuk Undang-Undang tentang Perubahan atas Undang-Undang Nomor 12 Tahun 2011 tentang Pembentukan Peraturan Perundang-undangan."
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "PRINCIPLES",
+            "id": "",
+            "children": [
+              {
+                "type": "PLAINTEXT",
+                "text": "Mengingat:"
+              },
+              {
+                "type": "LIST",
+                "id": "",
+                "children": [
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "NUMBER_WITH_DOT",
+                        "text": "1."
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "Pasal 20, Pasal 21, dan Pasal 22A Undang-Undang Dasar Negara Republik Indonesia Tahun 1945;"
+                      }
+                    ]
+                  },
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "NUMBER_WITH_DOT",
+                        "text": "2."
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "Undang-Undang Nomor 12 Tahun 2011 tentang Pembentukan Peraturan Perundang-undangan (Lembaran Negara Republik Indonesia Tahun 2011 Nomor 82, Tambahan Lembaran Negara Republik Indonesia Nomor 5234)."
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "AGREEMENT",
+            "id": "",
+            "children": [
+              {
+                "type": "PLAINTEXT",
+                "text": "Dengan Persetujuan Bersama"
+              },
+              {
+                "type": "PLAINTEXT",
+                "text": "DEWAN PERWAKILAN RAKYAT REPUBLIK INDONESIA"
+              },
+              {
+                "type": "PLAINTEXT",
+                "text": "dan"
+              },
+              {
+                "type": "PLAINTEXT",
+                "text": "PRESIDEN REPUBLIK INDONESIA"
+              },
+              {
+                "type": "PLAINTEXT",
+                "text": "MEMUTUSKAN:"
+              },
+              {
+                "type": "PLAINTEXT",
+                "text": "Menetapkan:"
+              },
+              {
+                "type": "PLAINTEXT",
+                "text": "UNDANG-UNDANG TENTANG PERUBAHAN ATAS UNDANG-UNDANG NOMOR 12 TAHUN 2011 TENTANG PEMBENTUKAN PERATURAN PERUNDANG-UNDANGAN"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "PASAL",
+        "id": "pasal-I",
+        "children": [
+          {
+            "type": "PASAL_NUMBER",
+            "text": "Pasal I"
+          },
+          {
+            "type": "PLAINTEXT",
+            "text": "Beberapa ketentuan dalam Undang-Undang Nomor 12 Tahun 2011 tentang Pembentukan Peraturan Perundang-undangan (Lembaran Negara Republik Indonesia Tahun 2011 Nomor 82, Tambahan Lembaran Negara Republik Indonesia Nomor 5234) diubah sebagai berikut:"
+          },
+          {
+            "type": "LIST",
+            "id": "",
+            "children": [
+              {
+                "type": "LIST_ITEM",
+                "id": "",
+                "children": [
+                  {
+                    "type": "NUMBER_WITH_DOT",
+                    "text": "1."
+                  },
+                  {
+                    "type": "PLAINTEXT",
+                    "text": "Ketentuan Pasal 1 diubah sehingga berbunyi sebagai berikut:"
+                  },
+                  {
+                    "type": "PERUBAHAN_SECTION",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "PERUBAHAN_PASAL",
+                        "id": "perubahan-pasal-1",
+                        "children": [
+                          {
+                            "type": "PASAL_NUMBER",
+                            "text": "Pasal 1"
+                          },
+                          {
+                            "type": "PLAINTEXT",
+                            "text": "Dalam Undang-Undang ini yang dimaksud dengan:"
+                          },
+                          {
+                            "type": "LIST",
+                            "id": "",
+                            "children": [
+                              {
+                                "type": "LIST_ITEM",
+                                "id": "",
+                                "children": [
+                                  {
+                                    "type": "NUMBER_WITH_DOT",
+                                    "text": "1."
+                                  },
+                                  {
+                                    "type": "PLAINTEXT",
+                                    "text": "Pembentukan Peraturan Perundang-undangan adalah pembuatan Peraturan Perundang undangan yang mencakup tahapan perencanaan, penyusunan, pembahasan, pengesahan atau penetapan, pengundangan."
+                                  }
+                                ]
+                              },
+                              {
+                                "type": "LIST_ITEM",
+                                "id": "",
+                                "children": [
+                                  {
+                                    "type": "NUMBER_WITH_DOT",
+                                    "text": "2."
+                                  },
+                                  {
+                                    "type": "PLAINTEXT",
+                                    "text": "Peraturan Perundang-undangan adalah peraturan tertulis yang memuat norma hukum yang mengikat secara umum dan dibentuk atau ditetapkan oleh lembaga negara atau pejabat yang berwenang melalui prosedur yang ditetapkan dalam Peraturan Perundang-undangan."
+                                  }
+                                ]
+                              },
+                              {
+                                "type": "LIST_ITEM",
+                                "id": "",
+                                "children": [
+                                  {
+                                    "type": "NUMBER_WITH_DOT",
+                                    "text": "3."
+                                  },
+                                  {
+                                    "type": "PLAINTEXT",
+                                    "text": "Undang-Undang adalah Peraturan Perundang-undangan yang dibentuk oleh Dewan Perwakilan Rakyat dengan persetujuan bersama Presiden."
+                                  }
+                                ]
+                              },
+                              {
+                                "type": "LIST_ITEM",
+                                "id": "",
+                                "children": [
+                                  {
+                                    "type": "NUMBER_WITH_DOT",
+                                    "text": "4."
+                                  },
+                                  {
+                                    "type": "PLAINTEXT",
+                                    "text": "Peraturan Pemerintah Pengganti Undang-Undang adalah Peraturan Perundang-undangan yang ditetapkan oleh Presiden dalam hal ihwal kegentingan yang memaksa."
+                                  }
+                                ]
+                              },
+                              {
+                                "type": "LIST_ITEM",
+                                "id": "",
+                                "children": [
+                                  {
+                                    "type": "NUMBER_WITH_DOT",
+                                    "text": "5."
+                                  },
+                                  {
+                                    "type": "PLAINTEXT",
+                                    "text": "Peraturan Pemerintah adalah Peraturan Perundang-undangan yang ditetapkan oleh Presiden untuk menjalankan Undang-Undang sebagaimana mestinya."
+                                  }
+                                ]
+                              },
+                              {
+                                "type": "LIST_ITEM",
+                                "id": "",
+                                "children": [
+                                  {
+                                    "type": "NUMBER_WITH_DOT",
+                                    "text": "6."
+                                  },
+                                  {
+                                    "type": "PLAINTEXT",
+                                    "text": "Peraturan Presiden adalah Peraturan Perundang-undangan yang ditetapkan oleh Presiden untuk menjalankan perintah Peraturan Perundang-undangan yang lebih tinggi atau dalam menyelenggarakan kekuasaan pemerintahan."
+                                  }
+                                ]
+                              },
+                              {
+                                "type": "LIST_ITEM",
+                                "id": "",
+                                "children": [
+                                  {
+                                    "type": "NUMBER_WITH_DOT",
+                                    "text": "7."
+                                  },
+                                  {
+                                    "type": "PLAINTEXT",
+                                    "text": "Peraturan Daerah Provinsi adalah Peraturan Perundang-undangan yang dibentuk oleh Dewan Perwakilan Rakyat Daerah Provinsi dengan persetujuan bersama Gubernur."
+                                  }
+                                ]
+                              },
+                              {
+                                "type": "LIST_ITEM",
+                                "id": "",
+                                "children": [
+                                  {
+                                    "type": "NUMBER_WITH_DOT",
+                                    "text": "8."
+                                  },
+                                  {
+                                    "type": "PLAINTEXT",
+                                    "text": "Peraturan Daerah Kabupaten/Kota adalah Peraturan Perundang-undangan yang dibentuk oleh Dewan Perwakilan Rakyat Daerah Kabupaten/Kota dengan persetujuan bersama Bupati/Walikota."
+                                  }
+                                ]
+                              },
+                              {
+                                "type": "LIST_ITEM",
+                                "id": "",
+                                "children": [
+                                  {
+                                    "type": "NUMBER_WITH_DOT",
+                                    "text": "9."
+                                  },
+                                  {
+                                    "type": "PLAINTEXT",
+                                    "text": "Program Legislasi Nasional yang selanjutnya disebut Prolegnas adalah instrumen perencanaan program pembentukan Undang-Undang yang disusun secara terencana, terpadu, dan sistematis."
+                                  }
+                                ]
+                              },
+                              {
+                                "type": "LIST_ITEM",
+                                "id": "",
+                                "children": [
+                                  {
+                                    "type": "NUMBER_WITH_DOT",
+                                    "text": "10."
+                                  },
+                                  {
+                                    "type": "PLAINTEXT",
+                                    "text": "Program Legislasi Daerah yang selanjutnya disebut Prolegda adalah instrumen perencanaan program pembentukan Peraturan Daerah Provinsi atau Peraturan Daerah Kabupaten/Kota yang disusun secara terencana, terpadu, dan sistematis."
+                                  }
+                                ]
+                              },
+                              {
+                                "type": "LIST_ITEM",
+                                "id": "",
+                                "children": [
+                                  {
+                                    "type": "NUMBER_WITH_DOT",
+                                    "text": "11."
+                                  },
+                                  {
+                                    "type": "PLAINTEXT",
+                                    "text": "Naskah Akademik adalah naskah hasil penelitian atau pengkajian hukum dan hasil penelitian lainnya terhadap suatu masalah tertentu yang dapat dipertanggungjawabkan secara ilmiah mengenai pengaturan masalah tersebut dalam suatu Rancangan Undang-Undang, Rancangan Peraturan Daerah Provinsi, atau Rancangan Peraturan Daerah Kabupaten/Kota sebagai solusi terhadap permasalahan dan kebutuhan hukum masyarakat."
+                                  }
+                                ]
+                              },
+                              {
+                                "type": "LIST_ITEM",
+                                "id": "",
+                                "children": [
+                                  {
+                                    "type": "NUMBER_WITH_DOT",
+                                    "text": "12."
+                                  },
+                                  {
+                                    "type": "PLAINTEXT",
+                                    "text": "Pengundangan adalah penempatan Peraturan Perundang-undangan dalam Lembaran Negara Republik Indonesia, Tambahan Lembaran Negara Republik Indonesia, Berita Negara Republik Indonesia, Tambahan Berita Negara Republik Indonesia, Lembaran Daerah, Tambahan Lembaran Daerah, atau Berita Daerah."
+                                  }
+                                ]
+                              },
+                              {
+                                "type": "LIST_ITEM",
+                                "id": "",
+                                "children": [
+                                  {
+                                    "type": "NUMBER_WITH_DOT",
+                                    "text": "13."
+                                  },
+                                  {
+                                    "type": "PLAINTEXT",
+                                    "text": "Materi Muatan Peraturan Perundang-undangan adalah materi yang dimuat dalam Peraturan Perundang-undangan sesuai dengan jenis, fungsi, dan hierarki Peraturan Perundang undangan."
+                                  }
+                                ]
+                              },
+                              {
+                                "type": "LIST_ITEM",
+                                "id": "",
+                                "children": [
+                                  {
+                                    "type": "NUMBER_WITH_DOT",
+                                    "text": "14."
+                                  },
+                                  {
+                                    "type": "PLAINTEXT",
+                                    "text": "Pemantauan dan Peninjauan adalah kegiatan untuk mengamati, mencatat, dan menilai atas pelaksanaan Undang-Undang yang berlaku sehingga diketahui ketercapaian hasil yang direncanakan, dampak yang ditimbulkan, dan kemanfaatannya bagi Negara Kesatuan Republik Indonesia."
+                                  }
+                                ]
+                              },
+                              {
+                                "type": "LIST_ITEM",
+                                "id": "",
+                                "children": [
+                                  {
+                                    "type": "NUMBER_WITH_DOT",
+                                    "text": "15."
+                                  },
+                                  {
+                                    "type": "PLAINTEXT",
+                                    "text": "Dewan Perwakilan Rakyat yang selanjutnya disingkat DPR adalah Dewan Perwakilan Rakyat sebagaimana dimaksud dalam Undang-Undang Dasar Negara Republik Indonesia Tahun 1945."
+                                  }
+                                ]
+                              },
+                              {
+                                "type": "LIST_ITEM",
+                                "id": "",
+                                "children": [
+                                  {
+                                    "type": "NUMBER_WITH_DOT",
+                                    "text": "16."
+                                  },
+                                  {
+                                    "type": "PLAINTEXT",
+                                    "text": "Dewan Perwakilan Daerah yang selanjutnya disingkat DPD adalah Dewan Perwakilan Daerah sebagaimana dimaksud dalam Undang-Undang Dasar Negara Republik Indonesia Tahun 1945."
+                                  }
+                                ]
+                              },
+                              {
+                                "type": "LIST_ITEM",
+                                "id": "",
+                                "children": [
+                                  {
+                                    "type": "NUMBER_WITH_DOT",
+                                    "text": "17."
+                                  },
+                                  {
+                                    "type": "PLAINTEXT",
+                                    "text": "Dewan Perwakilan Rakyat Daerah yang selanjutnya disingkat DPRD adalah Dewan Perwakilan Rakyat Daerah sebagaimana dimaksud dalam Undang-Undang Dasar Negara Republik Indonesia Tahun 1945."
+                                  }
+                                ]
+                              }
+                            ]
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "LIST_ITEM",
+                "id": "",
+                "children": [
+                  {
+                    "type": "NUMBER_WITH_DOT",
+                    "text": "2."
+                  },
+                  {
+                    "type": "PLAINTEXT",
+                    "text": "Ketentuan Pasal 20 diubah sehingga berbunyi sebagai berikut:"
+                  },
+                  {
+                    "type": "PERUBAHAN_SECTION",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "PERUBAHAN_PASAL",
+                        "id": "perubahan-pasal-20",
+                        "children": [
+                          {
+                            "type": "PASAL_NUMBER",
+                            "text": "Pasal 20"
+                          },
+                          {
+                            "type": "LIST",
+                            "id": "",
+                            "children": [
+                              {
+                                "type": "LIST_ITEM",
+                                "id": "",
+                                "children": [
+                                  {
+                                    "type": "NUMBER_WITH_BRACKETS",
+                                    "text": "(1)"
+                                  },
+                                  {
+                                    "type": "PLAINTEXT",
+                                    "text": "Penyusunan Prolegnas dilaksanakan oleh DPR, DPD, dan Pemerintah."
+                                  }
+                                ]
+                              },
+                              {
+                                "type": "LIST_ITEM",
+                                "id": "",
+                                "children": [
+                                  {
+                                    "type": "NUMBER_WITH_BRACKETS",
+                                    "text": "(2)"
+                                  },
+                                  {
+                                    "type": "PLAINTEXT",
+                                    "text": "Prolegnas ditetapkan untuk jangka menengah dan tahunan berdasarkan skala prioritas pembentukan Rancangan Undang-Undang."
+                                  }
+                                ]
+                              },
+                              {
+                                "type": "LIST_ITEM",
+                                "id": "",
+                                "children": [
+                                  {
+                                    "type": "NUMBER_WITH_BRACKETS",
+                                    "text": "(3)"
+                                  },
+                                  {
+                                    "type": "PLAINTEXT",
+                                    "text": "Penyusunan dan penetapan Prolegnas jangka menengah dilakukan pada awal masa keanggotaan DPR sebagai Prolegnas untuk jangka waktu 5 (lima) tahun."
+                                  }
+                                ]
+                              },
+                              {
+                                "type": "LIST_ITEM",
+                                "id": "",
+                                "children": [
+                                  {
+                                    "type": "NUMBER_WITH_BRACKETS",
+                                    "text": "(4)"
+                                  },
+                                  {
+                                    "type": "PLAINTEXT",
+                                    "text": "Sebelum menyusun dan menetapkan Prolegnas jangka menengah sebagaimana dimaksud pada ayat (3), DPR, DPD, dan Pemerintah melakukan evaluasi terhadap Prolegnas jangka menengah masa keanggotaan DPR sebelumnya."
+                                  }
+                                ]
+                              },
+                              {
+                                "type": "LIST_ITEM",
+                                "id": "",
+                                "children": [
+                                  {
+                                    "type": "NUMBER_WITH_BRACKETS",
+                                    "text": "(5)"
+                                  },
+                                  {
+                                    "type": "PLAINTEXT",
+                                    "text": "Prolegnas jangka menengah sebagaimana dimaksud pada ayat (3) dapat dievaluasi setiap akhir tahun bersamaan dengan penyusunan dan penetapan Prolegnas prioritas tahunan."
+                                  }
+                                ]
+                              },
+                              {
+                                "type": "LIST_ITEM",
+                                "id": "",
+                                "children": [
+                                  {
+                                    "type": "NUMBER_WITH_BRACKETS",
+                                    "text": "(6)"
+                                  },
+                                  {
+                                    "type": "PLAINTEXT",
+                                    "text": "Penyusunan dan penetapan Prolegnas prioritas tahunan sebagai pelaksanaan Prolegnas jangka menengah dilakukan setiap tahun sebelum penetapan Rancangan Undang-Undang tentang Anggaran Pendapatan dan Belanja Negara."
+                                  }
+                                ]
+                              }
+                            ]
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "LIST_ITEM",
+                "id": "",
+                "children": [
+                  {
+                    "type": "NUMBER_WITH_DOT",
+                    "text": "3."
+                  },
+                  {
+                    "type": "PLAINTEXT",
+                    "text": "Ketentuan ayat (4) Pasal 21 diubah sehingga Pasal 21 berbunyi sebagai berikut:"
+                  },
+                  {
+                    "type": "PERUBAHAN_SECTION",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "PERUBAHAN_PASAL",
+                        "id": "perubahan-pasal-21",
+                        "children": [
+                          {
+                            "type": "PASAL_NUMBER",
+                            "text": "Pasal 21"
+                          },
+                          {
+                            "type": "LIST",
+                            "id": "",
+                            "children": [
+                              {
+                                "type": "LIST_ITEM",
+                                "id": "",
+                                "children": [
+                                  {
+                                    "type": "NUMBER_WITH_BRACKETS",
+                                    "text": "(1)"
+                                  },
+                                  {
+                                    "type": "PLAINTEXT",
+                                    "text": "Penyusunan Prolegnas antara DPR dan Pemerintah dikoordinasikan oleh DPR melalui alat kelengkapan DPR yang khusus menangani bidang legislasi."
+                                  }
+                                ]
+                              },
+                              {
+                                "type": "LIST_ITEM",
+                                "id": "",
+                                "children": [
+                                  {
+                                    "type": "NUMBER_WITH_BRACKETS",
+                                    "text": "(2)"
+                                  },
+                                  {
+                                    "type": "PLAINTEXT",
+                                    "text": "Penyusunan Prolegnas di lingkungan DPR dikoordinasikan oleh alat kelengkapan DPR yang khusus menangani bidang legislasi."
+                                  }
+                                ]
+                              },
+                              {
+                                "type": "LIST_ITEM",
+                                "id": "",
+                                "children": [
+                                  {
+                                    "type": "NUMBER_WITH_BRACKETS",
+                                    "text": "(3)"
+                                  },
+                                  {
+                                    "type": "PLAINTEXT",
+                                    "text": "Penyusunan Prolegnas di lingkungan DPR sebagaimana dimaksud pada ayat (2) dilakukan dengan mempertimbangkan usulan dari fraksi, komisi, anggota DPR, DPD, dan/atau masyarakat."
+                                  }
+                                ]
+                              },
+                              {
+                                "type": "LIST_ITEM",
+                                "id": "",
+                                "children": [
+                                  {
+                                    "type": "NUMBER_WITH_BRACKETS",
+                                    "text": "(4)"
+                                  },
+                                  {
+                                    "type": "PLAINTEXT",
+                                    "text": "Penyusunan Prolegnas di lingkungan Pemerintah dikoordinasikan oleh menteri atau kepala lembaga yang menyelenggarakan urusan pemerintahan di bidang Pembentukan Peraturan Perundang-undangan."
+                                  }
+                                ]
+                              },
+                              {
+                                "type": "LIST_ITEM",
+                                "id": "",
+                                "children": [
+                                  {
+                                    "type": "NUMBER_WITH_BRACKETS",
+                                    "text": "(5)"
+                                  },
+                                  {
+                                    "type": "PLAINTEXT",
+                                    "text": "Ketentuan lebih lanjut mengenai tata cara penyusunan Prolegnas sebagaimana dimaksud pada ayat (1), ayat (2), dan ayat (3) diatur dengan Peraturan DPR."
+                                  }
+                                ]
+                              },
+                              {
+                                "type": "LIST_ITEM",
+                                "id": "",
+                                "children": [
+                                  {
+                                    "type": "NUMBER_WITH_BRACKETS",
+                                    "text": "(6)"
+                                  },
+                                  {
+                                    "type": "PLAINTEXT",
+                                    "text": "Ketentuan lebih lanjut mengenai tata cara penyusunan Prolegnas di lingkungan Pemerintah sebagaimana dimaksud pada ayat (4) diatur dengan Peraturan Presiden."
+                                  }
+                                ]
+                              }
+                            ]
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "LIST_ITEM",
+                "id": "",
+                "children": [
+                  {
+                    "type": "NUMBER_WITH_DOT",
+                    "text": "4."
+                  },
+                  {
+                    "type": "PLAINTEXT",
+                    "text": "Ketentuan ayat (2) Pasal 23 diubah sehingga Pasal 23 berbunyi sebagai berikut:"
+                  },
+                  {
+                    "type": "PERUBAHAN_SECTION",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "PERUBAHAN_PASAL",
+                        "id": "perubahan-pasal-23",
+                        "children": [
+                          {
+                            "type": "PASAL_NUMBER",
+                            "text": "Pasal 23"
+                          },
+                          {
+                            "type": "LIST",
+                            "id": "",
+                            "children": [
+                              {
+                                "type": "LIST_ITEM",
+                                "id": "",
+                                "children": [
+                                  {
+                                    "type": "NUMBER_WITH_BRACKETS",
+                                    "text": "(1)"
+                                  },
+                                  {
+                                    "type": "PLAINTEXT",
+                                    "text": "Dalam Prolegnas dimuat daftar kumulatif terbuka yang terdiri atas:"
+                                  },
+                                  {
+                                    "type": "LIST",
+                                    "id": "",
+                                    "children": [
+                                      {
+                                        "type": "LIST_ITEM",
+                                        "id": "",
+                                        "children": [
+                                          {
+                                            "type": "LETTER_WITH_DOT",
+                                            "text": "a."
+                                          },
+                                          {
+                                            "type": "PLAINTEXT",
+                                            "text": "pengesahan perjanjian internasional tertentu;"
+                                          }
+                                        ]
+                                      },
+                                      {
+                                        "type": "LIST_ITEM",
+                                        "id": "",
+                                        "children": [
+                                          {
+                                            "type": "LETTER_WITH_DOT",
+                                            "text": "b."
+                                          },
+                                          {
+                                            "type": "PLAINTEXT",
+                                            "text": "akibat putusan Mahkamah Konstitusi;"
+                                          }
+                                        ]
+                                      },
+                                      {
+                                        "type": "LIST_ITEM",
+                                        "id": "",
+                                        "children": [
+                                          {
+                                            "type": "LETTER_WITH_DOT",
+                                            "text": "c."
+                                          },
+                                          {
+                                            "type": "PLAINTEXT",
+                                            "text": "Anggaran Pendapatan dan Belanja Negara;"
+                                          }
+                                        ]
+                                      },
+                                      {
+                                        "type": "LIST_ITEM",
+                                        "id": "",
+                                        "children": [
+                                          {
+                                            "type": "LETTER_WITH_DOT",
+                                            "text": "d."
+                                          },
+                                          {
+                                            "type": "PLAINTEXT",
+                                            "text": "pembentukan, pemekaran, dan penggabungan daerah Provinsi dan/atau Kabupaten/Kota; dan"
+                                          }
+                                        ]
+                                      },
+                                      {
+                                        "type": "LIST_ITEM",
+                                        "id": "",
+                                        "children": [
+                                          {
+                                            "type": "LETTER_WITH_DOT",
+                                            "text": "e."
+                                          },
+                                          {
+                                            "type": "PLAINTEXT",
+                                            "text": "penetapan/pencabutan Peraturan Pemerintah Pengganti Undang-Undang."
+                                          }
+                                        ]
+                                      }
+                                    ]
+                                  }
+                                ]
+                              },
+                              {
+                                "type": "LIST_ITEM",
+                                "id": "",
+                                "children": [
+                                  {
+                                    "type": "NUMBER_WITH_BRACKETS",
+                                    "text": "(2)"
+                                  },
+                                  {
+                                    "type": "PLAINTEXT",
+                                    "text": "Dalam keadaan tertentu, DPR atau Presiden dapat mengajukan Rancangan Undang-Undang di luar Prolegnas mencakup:"
+                                  },
+                                  {
+                                    "type": "LIST",
+                                    "id": "",
+                                    "children": [
+                                      {
+                                        "type": "LIST_ITEM",
+                                        "id": "",
+                                        "children": [
+                                          {
+                                            "type": "LETTER_WITH_DOT",
+                                            "text": "a."
+                                          },
+                                          {
+                                            "type": "PLAINTEXT",
+                                            "text": "untuk mengatasi keadaan luar biasa, keadaan konflik, atau bencana alam; dan"
+                                          }
+                                        ]
+                                      },
+                                      {
+                                        "type": "LIST_ITEM",
+                                        "id": "",
+                                        "children": [
+                                          {
+                                            "type": "LETTER_WITH_DOT",
+                                            "text": "b."
+                                          },
+                                          {
+                                            "type": "PLAINTEXT",
+                                            "text": "keadaan tertentu lainnya yang memastikan adanya urgensi nasional atas suatu Rancangan Undang-Undang yang dapat disetujui bersama oleh alat kelengkapan DPR yang khusus menangani bidang legislasi dan menteri atau kepala lembaga yang menyelenggarakan urusan pemerintahan di bidang Pembentukan Peraturan Perundang undangan."
+                                          }
+                                        ]
+                                      }
+                                    ]
+                                  }
+                                ]
+                              }
+                            ]
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "LIST_ITEM",
+                "id": "",
+                "children": [
+                  {
+                    "type": "NUMBER_WITH_DOT",
+                    "text": "5."
+                  },
+                  {
+                    "type": "PLAINTEXT",
+                    "text": "Ketentuan ayat (1) Pasal 26 diubah sehingga Pasal 26 berbunyi sebagai berikut:"
+                  },
+                  {
+                    "type": "PERUBAHAN_SECTION",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "PERUBAHAN_PASAL",
+                        "id": "perubahan-pasal-26",
+                        "children": [
+                          {
+                            "type": "PASAL_NUMBER",
+                            "text": "Pasal 26"
+                          },
+                          {
+                            "type": "LIST",
+                            "id": "",
+                            "children": [
+                              {
+                                "type": "LIST_ITEM",
+                                "id": "",
+                                "children": [
+                                  {
+                                    "type": "NUMBER_WITH_BRACKETS",
+                                    "text": "(1)"
+                                  },
+                                  {
+                                    "type": "PLAINTEXT",
+                                    "text": "Perencanaan penyusunan Peraturan Pemerintah sebagaimana dimaksud dalam Pasal 25 dikoordinasikan oleh menteri atau kepala lembaga yang menyelenggarakan urusan pemerintahan di bidang Pembentukan Peraturan Perundang-undangan."
+                                  }
+                                ]
+                              },
+                              {
+                                "type": "LIST_ITEM",
+                                "id": "",
+                                "children": [
+                                  {
+                                    "type": "NUMBER_WITH_BRACKETS",
+                                    "text": "(2)"
+                                  },
+                                  {
+                                    "type": "PLAINTEXT",
+                                    "text": "Perencanaan penyusunan Peraturan Pemerintah sebagaimana dimaksud pada ayat (1) ditetapkan dengan Keputusan Presiden."
+                                  }
+                                ]
+                              }
+                            ]
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "LIST_ITEM",
+                "id": "",
+                "children": [
+                  {
+                    "type": "NUMBER_WITH_DOT",
+                    "text": "6."
+                  },
+                  {
+                    "type": "PLAINTEXT",
+                    "text": "Ketentuan Pasal 47 diubah sehingga berbunyi sebagai berikut:"
+                  },
+                  {
+                    "type": "PERUBAHAN_SECTION",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "PERUBAHAN_PASAL",
+                        "id": "perubahan-pasal-47",
+                        "children": [
+                          {
+                            "type": "PASAL_NUMBER",
+                            "text": "Pasal 47"
+                          },
+                          {
+                            "type": "LIST",
+                            "id": "",
+                            "children": [
+                              {
+                                "type": "LIST_ITEM",
+                                "id": "",
+                                "children": [
+                                  {
+                                    "type": "NUMBER_WITH_BRACKETS",
+                                    "text": "(1)"
+                                  },
+                                  {
+                                    "type": "PLAINTEXT",
+                                    "text": "Rancangan Undang-Undang yang diajukan oleh Presiden disiapkan oleh menteri atau pimpinan lembaga pemerintah nonkementerian sesuai dengan lingkup tugas dan tanggung jawabnya."
+                                  }
+                                ]
+                              },
+                              {
+                                "type": "LIST_ITEM",
+                                "id": "",
+                                "children": [
+                                  {
+                                    "type": "NUMBER_WITH_BRACKETS",
+                                    "text": "(2)"
+                                  },
+                                  {
+                                    "type": "PLAINTEXT",
+                                    "text": "Dalam penyusunan Rancangan Undang-Undang, menteri atau pimpinan lembaga pemerintah nonkementerian terkait membentuk panitia antar kementerian dan/atau antar nonkementerian."
+                                  }
+                                ]
+                              },
+                              {
+                                "type": "LIST_ITEM",
+                                "id": "",
+                                "children": [
+                                  {
+                                    "type": "NUMBER_WITH_BRACKETS",
+                                    "text": "(3)"
+                                  },
+                                  {
+                                    "type": "PLAINTEXT",
+                                    "text": "Pengharmonisasian, pembulatan, dan pemantapan konsepsi Rancangan Undang-Undang yang berasal dari Presiden dikoordinasikan oleh menteri atau kepala lembaga yang menyelenggarakan urusan pemerintahan di bidang Pembentukan Peraturan Perundang undangan."
+                                  }
+                                ]
+                              },
+                              {
+                                "type": "LIST_ITEM",
+                                "id": "",
+                                "children": [
+                                  {
+                                    "type": "NUMBER_WITH_BRACKETS",
+                                    "text": "(4)"
+                                  },
+                                  {
+                                    "type": "PLAINTEXT",
+                                    "text": "Ketentuan lebih lanjut mengenai tata cara mempersiapkan Rancangan Undang-Undang sebagaimana dimaksud pada ayat (1) diatur dengan Peraturan Presiden."
+                                  }
+                                ]
+                              }
+                            ]
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "LIST_ITEM",
+                "id": "",
+                "children": [
+                  {
+                    "type": "NUMBER_WITH_DOT",
+                    "text": "7."
+                  },
+                  {
+                    "type": "PLAINTEXT",
+                    "text": "Ketentuan Pasal 49 diubah sehingga berbunyi sebagai berikut:"
+                  },
+                  {
+                    "type": "PERUBAHAN_SECTION",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "PERUBAHAN_PASAL",
+                        "id": "perubahan-pasal-49",
+                        "children": [
+                          {
+                            "type": "PASAL_NUMBER",
+                            "text": "Pasal 49"
+                          },
+                          {
+                            "type": "LIST",
+                            "id": "",
+                            "children": [
+                              {
+                                "type": "LIST_ITEM",
+                                "id": "",
+                                "children": [
+                                  {
+                                    "type": "NUMBER_WITH_BRACKETS",
+                                    "text": "(1)"
+                                  },
+                                  {
+                                    "type": "PLAINTEXT",
+                                    "text": "Rancangan Undang-Undang dari DPR disampaikan dengan surat pimpinan DPR kepada Presiden."
+                                  }
+                                ]
+                              },
+                              {
+                                "type": "LIST_ITEM",
+                                "id": "",
+                                "children": [
+                                  {
+                                    "type": "NUMBER_WITH_BRACKETS",
+                                    "text": "(2)"
+                                  },
+                                  {
+                                    "type": "PLAINTEXT",
+                                    "text": "Presiden menugasi menteri yang mewakili untuk membahas Rancangan Undang-Undang bersama DPR dalam jangka waktu paling lama 60 (enam puluh) hari terhitung sejak surat pimpinan DPR diterima."
+                                  }
+                                ]
+                              },
+                              {
+                                "type": "LIST_ITEM",
+                                "id": "",
+                                "children": [
+                                  {
+                                    "type": "NUMBER_WITH_BRACKETS",
+                                    "text": "(3)"
+                                  },
+                                  {
+                                    "type": "PLAINTEXT",
+                                    "text": "Menteri sebagaimana dimaksud pada ayat (2) mengoordinasikan persiapan pembahasan dengan menteri atau kepala lembaga yang menyelenggarakan urusan pemerintahan di bidang Pembentukan Peraturan Perundang-undangan."
+                                  }
+                                ]
+                              }
+                            ]
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "LIST_ITEM",
+                "id": "",
+                "children": [
+                  {
+                    "type": "NUMBER_WITH_DOT",
+                    "text": "8."
+                  },
+                  {
+                    "type": "PLAINTEXT",
+                    "text": "Ketentuan Pasal 54 diubah sehingga berbunyi sebagai berikut:"
+                  },
+                  {
+                    "type": "PERUBAHAN_SECTION",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "PERUBAHAN_PASAL",
+                        "id": "perubahan-pasal-54",
+                        "children": [
+                          {
+                            "type": "PASAL_NUMBER",
+                            "text": "Pasal 54"
+                          },
+                          {
+                            "type": "LIST",
+                            "id": "",
+                            "children": [
+                              {
+                                "type": "LIST_ITEM",
+                                "id": "",
+                                "children": [
+                                  {
+                                    "type": "NUMBER_WITH_BRACKETS",
+                                    "text": "(1)"
+                                  },
+                                  {
+                                    "type": "PLAINTEXT",
+                                    "text": "Dalam penyusunan Rancangan Peraturan Pemerintah, pemrakarsa membentuk panitia antarkementerian dan/atau lembaga pemerintah nonkementerian."
+                                  }
+                                ]
+                              },
+                              {
+                                "type": "LIST_ITEM",
+                                "id": "",
+                                "children": [
+                                  {
+                                    "type": "NUMBER_WITH_BRACKETS",
+                                    "text": "(2)"
+                                  },
+                                  {
+                                    "type": "PLAINTEXT",
+                                    "text": "Pengharmonisasian, pembulatan, dan pemantapan konsepsi Rancangan Peraturan Pemerintah dikoordinasikan oleh menteri atau kepala lembaga yang menyelenggarakan urusan pemerintahan di bidang Pembentukan Peraturan Perundang-undangan."
+                                  }
+                                ]
+                              },
+                              {
+                                "type": "LIST_ITEM",
+                                "id": "",
+                                "children": [
+                                  {
+                                    "type": "NUMBER_WITH_BRACKETS",
+                                    "text": "(3)"
+                                  },
+                                  {
+                                    "type": "PLAINTEXT",
+                                    "text": "Ketentuan lebih lanjut mengenai tata cara penyusunan Rancangan Peraturan Pemerintah diatur dengan Peraturan Presiden."
+                                  }
+                                ]
+                              }
+                            ]
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "LIST_ITEM",
+                "id": "",
+                "children": [
+                  {
+                    "type": "NUMBER_WITH_DOT",
+                    "text": "9."
+                  },
+                  {
+                    "type": "PLAINTEXT",
+                    "text": "Ketentuan Pasal 55 diubah sehingga berbunyi sebagai berikut:"
+                  },
+                  {
+                    "type": "PERUBAHAN_SECTION",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "PERUBAHAN_PASAL",
+                        "id": "perubahan-pasal-55",
+                        "children": [
+                          {
+                            "type": "PASAL_NUMBER",
+                            "text": "Pasal 55"
+                          },
+                          {
+                            "type": "LIST",
+                            "id": "",
+                            "children": [
+                              {
+                                "type": "LIST_ITEM",
+                                "id": "",
+                                "children": [
+                                  {
+                                    "type": "NUMBER_WITH_BRACKETS",
+                                    "text": "(1)"
+                                  },
+                                  {
+                                    "type": "PLAINTEXT",
+                                    "text": "Dalam penyusunan Rancangan Peraturan Presiden, pemrakarsa membentuk panitia antarkementerian dan/atau antarnonkementerian."
+                                  }
+                                ]
+                              },
+                              {
+                                "type": "LIST_ITEM",
+                                "id": "",
+                                "children": [
+                                  {
+                                    "type": "NUMBER_WITH_BRACKETS",
+                                    "text": "(2)"
+                                  },
+                                  {
+                                    "type": "PLAINTEXT",
+                                    "text": "Pengharmonisasian, pembulatan, dan pemantapan konsepsi Rancangan Peraturan Presiden dikoordinasikan oleh menteri atau kepala lembaga yang menyelenggarakan urusan pemerintahan di bidang Pembentukan Peraturan Perundang-undangan."
+                                  }
+                                ]
+                              },
+                              {
+                                "type": "LIST_ITEM",
+                                "id": "",
+                                "children": [
+                                  {
+                                    "type": "NUMBER_WITH_BRACKETS",
+                                    "text": "(3)"
+                                  },
+                                  {
+                                    "type": "PLAINTEXT",
+                                    "text": "Ketentuan lebih lanjut mengenai tata cara penyusunan Rancangan Peraturan Presiden diatur dengan Peraturan Presiden."
+                                  }
+                                ]
+                              }
+                            ]
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "LIST_ITEM",
+                "id": "",
+                "children": [
+                  {
+                    "type": "NUMBER_WITH_DOT",
+                    "text": "10."
+                  },
+                  {
+                    "type": "PLAINTEXT",
+                    "text": "Ketentuan ayat (2) Pasal 58 diubah sehingga Pasal 58 berbunyi sebagai berikut:"
+                  },
+                  {
+                    "type": "PERUBAHAN_SECTION",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "PERUBAHAN_PASAL",
+                        "id": "perubahan-pasal-58",
+                        "children": [
+                          {
+                            "type": "PASAL_NUMBER",
+                            "text": "Pasal 58"
+                          },
+                          {
+                            "type": "LIST",
+                            "id": "",
+                            "children": [
+                              {
+                                "type": "LIST_ITEM",
+                                "id": "",
+                                "children": [
+                                  {
+                                    "type": "NUMBER_WITH_BRACKETS",
+                                    "text": "(1)"
+                                  },
+                                  {
+                                    "type": "PLAINTEXT",
+                                    "text": "Pengharmonisasian, pembulatan, dan pemantapan konsepsi Rancangan Peraturan Daerah Provinsi yang berasal dari DPRD Provinsi dikoordinasikan oleh alat kelengkapan DPRD Provinsi yang khusus menangani bidang legislasi."
+                                  }
+                                ]
+                              },
+                              {
+                                "type": "LIST_ITEM",
+                                "id": "",
+                                "children": [
+                                  {
+                                    "type": "NUMBER_WITH_BRACKETS",
+                                    "text": "(2)"
+                                  },
+                                  {
+                                    "type": "PLAINTEXT",
+                                    "text": "Pengharmonisasian, pembulatan, dan pemantapan konsepsi Rancangan Peraturan Daerah Provinsi yang berasal dari Gubernur dilaksanakan oleh kementerian atau lembaga yang menyelenggarakan urusan pemerintahan di bidang Pembentukan Peraturan Perundang undangan."
+                                  }
+                                ]
+                              }
+                            ]
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "LIST_ITEM",
+                "id": "",
+                "children": [
+                  {
+                    "type": "NUMBER_WITH_DOT",
+                    "text": "11."
+                  },
+                  {
+                    "type": "PLAINTEXT",
+                    "text": "Di antara Pasal 71 dan Pasal 72 disisipkan 1 (satu) pasal, yakni Pasal 71A sehingga berbunyi sebagai berikut:"
+                  },
+                  {
+                    "type": "PERUBAHAN_SECTION",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "PERUBAHAN_PASAL",
+                        "id": "perubahan-pasal-71A",
+                        "children": [
+                          {
+                            "type": "PASAL_NUMBER",
+                            "text": "Pasal 71A"
+                          },
+                          {
+                            "type": "PLAINTEXT",
+                            "text": "Dalam hal pembahasan Rancangan Undang-Undang sebagaimana dimaksud dalam Pasal 65 ayat (1) telah memasuki pembahasan Daftar Inventarisasi Masalah pada periode masa keanggotaan DPR saat itu, hasil pembahasan Rancangan Undang-Undang tersebut disampaikan kepada DPR periode berikutnya dan berdasarkan kesepakatan DPR, Presiden, dan/atau DPD, Rancangan Undang-Undang tersebut dapat dimasukkan kembali ke dalam daftar Prolegnas jangka menengah dan/atau Prolegnas prioritas tahunan."
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "LIST_ITEM",
+                "id": "",
+                "children": [
+                  {
+                    "type": "NUMBER_WITH_DOT",
+                    "text": "12."
+                  },
+                  {
+                    "type": "PLAINTEXT",
+                    "text": "Ketentuan Pasal 72 tetap, Penjelasan Pasal 72 diubah sebagaimana tercantum dalam penjelasan pasal demi pasal."
+                  }
+                ]
+              },
+              {
+                "type": "LIST_ITEM",
+                "id": "",
+                "children": [
+                  {
+                    "type": "NUMBER_WITH_DOT",
+                    "text": "13."
+                  },
+                  {
+                    "type": "PLAINTEXT",
+                    "text": "Ketentuan Pasal 85 diubah sehingga berbunyi sebagai berikut:"
+                  },
+                  {
+                    "type": "PERUBAHAN_SECTION",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "PERUBAHAN_PASAL",
+                        "id": "perubahan-pasal-85",
+                        "children": [
+                          {
+                            "type": "PASAL_NUMBER",
+                            "text": "Pasal 85"
+                          },
+                          {
+                            "type": "PLAINTEXT",
+                            "text": "Pengundangan Peraturan Perundang-undangan dalam Lembaran Negara Republik Indonesia atau Berita Negara Republik Indonesia sebagaimana dimaksud dalam Pasal 82 dan Pasal 83 dilaksanakan oleh menteri atau kepala lembaga yang menyelenggarakan urusan pemerintahan di bidang Pembentukan Peraturan Perundang-undangan."
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "LIST_ITEM",
+                "id": "",
+                "children": [
+                  {
+                    "type": "NUMBER_WITH_DOT",
+                    "text": "14."
+                  },
+                  {
+                    "type": "PLAINTEXT",
+                    "text": "Ketentuan ayat (1) Pasal 91 diubah sehingga Pasal 91 berbunyi sebagai berikut:"
+                  },
+                  {
+                    "type": "PERUBAHAN_SECTION",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "PERUBAHAN_PASAL",
+                        "id": "perubahan-pasal-91",
+                        "children": [
+                          {
+                            "type": "PASAL_NUMBER",
+                            "text": "Pasal 91"
+                          },
+                          {
+                            "type": "LIST",
+                            "id": "",
+                            "children": [
+                              {
+                                "type": "LIST_ITEM",
+                                "id": "",
+                                "children": [
+                                  {
+                                    "type": "NUMBER_WITH_BRACKETS",
+                                    "text": "(1)"
+                                  },
+                                  {
+                                    "type": "PLAINTEXT",
+                                    "text": "Dalam hal Peraturan Perundang-undangan perlu diterjemahkan ke dalam bahasa asing, penerjemahannya dilaksanakan oleh menteri atau kepala lembaga yang menyelenggarakan urusan pemerintahan di bidang Pembentukan Peraturan Perundang-undangan."
+                                  }
+                                ]
+                              },
+                              {
+                                "type": "LIST_ITEM",
+                                "id": "",
+                                "children": [
+                                  {
+                                    "type": "NUMBER_WITH_BRACKETS",
+                                    "text": "(2)"
+                                  },
+                                  {
+                                    "type": "PLAINTEXT",
+                                    "text": "Terjemahan sebagaimana dimaksud pada ayat (1) merupakan terjemahan resmi."
+                                  }
+                                ]
+                              }
+                            ]
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "LIST_ITEM",
+                "id": "",
+                "children": [
+                  {
+                    "type": "NUMBER_WITH_DOT",
+                    "text": "15."
+                  },
+                  {
+                    "type": "PLAINTEXT",
+                    "text": "Di antara BAB X dan BAB XI disisipkan 1 (satu) bab, yakni BAB XA sehingga berbunyi sebagai berikut:"
+                  },
+                  {
+                    "type": "PERUBAHAN_SECTION",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "PERUBAHAN_BAB",
+                        "id": "",
+                        "children": [
+                          {
+                            "type": "BAB_NUMBER",
+                            "text": "BAB XA"
+                          },
+                          {
+                            "type": "BAB_TITLE",
+                            "text": "PEMANTAUAN DAN PENINJAUAN TERHADAP UNDANG-UNDANG"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "LIST_ITEM",
+                "id": "",
+                "children": [
+                  {
+                    "type": "NUMBER_WITH_DOT",
+                    "text": "16."
+                  },
+                  {
+                    "type": "PLAINTEXT",
+                    "text": "Di antara Pasal 95 dan Pasal 96 disisipkan 2 (dua) pasal, yakni Pasal 95A dan Pasal 95B sehingga berbunyi sebagai berikut:"
+                  },
+                  {
+                    "type": "PERUBAHAN_SECTION",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "PERUBAHAN_PASAL",
+                        "id": "perubahan-pasal-95A",
+                        "children": [
+                          {
+                            "type": "PASAL_NUMBER",
+                            "text": "Pasal 95A"
+                          },
+                          {
+                            "type": "LIST",
+                            "id": "",
+                            "children": [
+                              {
+                                "type": "LIST_ITEM",
+                                "id": "",
+                                "children": [
+                                  {
+                                    "type": "NUMBER_WITH_BRACKETS",
+                                    "text": "(1)"
+                                  },
+                                  {
+                                    "type": "PLAINTEXT",
+                                    "text": "Pemantauan dan Peninjauan terhadap Undang-Undang dilakukan setelah Undang-Undang berlaku."
+                                  }
+                                ]
+                              },
+                              {
+                                "type": "LIST_ITEM",
+                                "id": "",
+                                "children": [
+                                  {
+                                    "type": "NUMBER_WITH_BRACKETS",
+                                    "text": "(2)"
+                                  },
+                                  {
+                                    "type": "PLAINTEXT",
+                                    "text": "Pemantauan dan Peninjauan terhadap Undang-Undang sebagaimana dimaksud pada ayat (1) dilaksanakan oleh DPR, DPD, dan Pemerintah."
+                                  }
+                                ]
+                              },
+                              {
+                                "type": "LIST_ITEM",
+                                "id": "",
+                                "children": [
+                                  {
+                                    "type": "NUMBER_WITH_BRACKETS",
+                                    "text": "(3)"
+                                  },
+                                  {
+                                    "type": "PLAINTEXT",
+                                    "text": "Pemantauan dan Peninjauan terhadap Undang-Undang sebagaimana dimaksud pada ayat (1) dikoordinasikan oleh DPR melalui alat kelengkapan yang khusus menangani bidang legislasi."
+                                  }
+                                ]
+                              },
+                              {
+                                "type": "LIST_ITEM",
+                                "id": "",
+                                "children": [
+                                  {
+                                    "type": "NUMBER_WITH_BRACKETS",
+                                    "text": "(4)"
+                                  },
+                                  {
+                                    "type": "PLAINTEXT",
+                                    "text": "Hasil dari Pemantauan dan Peninjauan terhadap Undang-Undang sebagaimana dimaksud pada ayat (2) dapat menjadi usul dalam penyusunan Prolegnas."
+                                  }
+                                ]
+                              }
+                            ]
+                          }
+                        ]
+                      },
+                      {
+                        "type": "PERUBAHAN_PASAL",
+                        "id": "perubahan-pasal-95B",
+                        "children": [
+                          {
+                            "type": "PASAL_NUMBER",
+                            "text": "Pasal 95B"
+                          },
+                          {
+                            "type": "LIST",
+                            "id": "",
+                            "children": [
+                              {
+                                "type": "LIST_ITEM",
+                                "id": "",
+                                "children": [
+                                  {
+                                    "type": "NUMBER_WITH_BRACKETS",
+                                    "text": "(1)"
+                                  },
+                                  {
+                                    "type": "PLAINTEXT",
+                                    "text": "Pemantauan dan Peninjauan terhadap Undang-Undang dilaksanakan dalam 3 (tiga) tahap sebagai berikut:"
+                                  },
+                                  {
+                                    "type": "LIST",
+                                    "id": "",
+                                    "children": [
+                                      {
+                                        "type": "LIST_ITEM",
+                                        "id": "",
+                                        "children": [
+                                          {
+                                            "type": "LETTER_WITH_DOT",
+                                            "text": "a."
+                                          },
+                                          {
+                                            "type": "PLAINTEXT",
+                                            "text": "tahap perencanaan;"
+                                          }
+                                        ]
+                                      },
+                                      {
+                                        "type": "LIST_ITEM",
+                                        "id": "",
+                                        "children": [
+                                          {
+                                            "type": "LETTER_WITH_DOT",
+                                            "text": "b."
+                                          },
+                                          {
+                                            "type": "PLAINTEXT",
+                                            "text": "tahap pelaksanaan; dan"
+                                          }
+                                        ]
+                                      },
+                                      {
+                                        "type": "LIST_ITEM",
+                                        "id": "",
+                                        "children": [
+                                          {
+                                            "type": "LETTER_WITH_DOT",
+                                            "text": "c."
+                                          },
+                                          {
+                                            "type": "PLAINTEXT",
+                                            "text": "tahap tindak lanjut."
+                                          }
+                                        ]
+                                      }
+                                    ]
+                                  }
+                                ]
+                              },
+                              {
+                                "type": "LIST_ITEM",
+                                "id": "",
+                                "children": [
+                                  {
+                                    "type": "NUMBER_WITH_BRACKETS",
+                                    "text": "(2)"
+                                  },
+                                  {
+                                    "type": "PLAINTEXT",
+                                    "text": "Ketentuan lebih lanjut mengenai Pemantauan dan Peninjauan terhadap Undang-Undang diatur masing-masing dengan Peraturan DPR, Peraturan DPD, dan Peraturan Presiden."
+                                  }
+                                ]
+                              }
+                            ]
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "LIST_ITEM",
+                "id": "",
+                "children": [
+                  {
+                    "type": "NUMBER_WITH_DOT",
+                    "text": "17."
+                  },
+                  {
+                    "type": "PLAINTEXT",
+                    "text": "Di antara BAB XII dan BAB XIII disisipkan 1 (satu) bab, yakni BAB XIIA sehingga berbunyi sebagai berikut:"
+                  },
+                  {
+                    "type": "PERUBAHAN_SECTION",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "PERUBAHAN_BAB",
+                        "id": "",
+                        "children": [
+                          {
+                            "type": "BAB_NUMBER",
+                            "text": "BAB XIIA"
+                          },
+                          {
+                            "type": "BAB_TITLE",
+                            "text": "KETENTUAN PERALIHAN"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "LIST_ITEM",
+                "id": "",
+                "children": [
+                  {
+                    "type": "NUMBER_WITH_DOT",
+                    "text": "18."
+                  },
+                  {
+                    "type": "PLAINTEXT",
+                    "text": "Di antara Pasal 99 dan Pasal 100 disisipkan 1 (satu) pasal, yakni Pasal 99A sehingga berbunyi sebagai berikut:"
+                  },
+                  {
+                    "type": "PERUBAHAN_SECTION",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "PERUBAHAN_PASAL",
+                        "id": "perubahan-pasal-99A",
+                        "children": [
+                          {
+                            "type": "PASAL_NUMBER",
+                            "text": "Pasal 99A"
+                          },
+                          {
+                            "type": "PLAINTEXT",
+                            "text": "Pada saat pembentukan kementerian atau lembaga yang menyelenggarakan urusan pemerintahan di bidang Pembentukan Peraturan Perundang-undangan belum terbentuk, tugas dan fungsi Pembentukan Peraturan Perundang-undangan tetap dilaksanakan oleh menteri yang menyelenggarakan urusan pemerintahan di bidang hukum."
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "PASAL",
+        "id": "pasal-II",
+        "children": [
+          {
+            "type": "PASAL_NUMBER",
+            "text": "Pasal II"
+          },
+          {
+            "type": "PLAINTEXT",
+            "text": "Undang-Undang ini mulai berlaku pada tanggal diundangkan."
+          },
+          {
+            "type": "PLAINTEXT",
+            "text": "Agar setiap orang mengetahuinya, memerintahkan pengundangan Undang-Undang ini dengan penempatannya dalam Lembaran Negara Republik Indonesia."
+          }
+        ]
+      },
+      {
+        "type": "CLOSING",
+        "id": "",
+        "children": [
+          {
+            "type": "PLAINTEXT",
+            "text": "Disahkan Di Jakarta,"
+          },
+          {
+            "type": "PLAINTEXT",
+            "text": "Pada Tanggal 2 Oktober 2019"
+          },
+          {
+            "type": "PLAINTEXT",
+            "text": "PRESIDEN REPUBLIK INDONESIA,"
+          },
+          {
+            "type": "PLAINTEXT",
+            "text": "Ttd."
+          },
+          {
+            "type": "PLAINTEXT",
+            "text": "JOKO WIDODO"
+          },
+          {
+            "type": "PLAINTEXT",
+            "text": "Diundangkan Di Jakarta,"
+          },
+          {
+            "type": "PLAINTEXT",
+            "text": "Pada Tanggal 4 Oktober 2019"
+          },
+          {
+            "type": "PLAINTEXT",
+            "text": "PLT. MENTERI HUKUM DAN HAK ASASI MANUSIA REPUBLIK INDONESIA,"
+          },
+          {
+            "type": "PLAINTEXT",
+            "text": "Ttd."
+          },
+          {
+            "type": "PLAINTEXT",
+            "text": "TJAHJO KUMOLO"
+          },
+          {
+            "type": "LEMBARAN_NUMBER",
+            "text": "LEMBARAN NEGARA REPUBLIK INDONESIA TAHUN 2019 NOMOR 183"
+          }
+        ]
+      },
+      {
+        "type": "PENJELASAN",
+        "id": "penjelasan",
+        "children": [
+          {
+            "type": "PENJELASAN_TITLE",
+            "id": "",
+            "children": [
+              {
+                "type": "PLAINTEXT",
+                "text": "PENJELASAN"
+              },
+              {
+                "type": "PLAINTEXT",
+                "text": "UNDANG-UNDANG REPUBLIK INDONESIA"
+              },
+              {
+                "type": "UU_TITLE_YEAR_AND_NUMBER",
+                "text": "NOMOR 15 TAHUN 2019"
+              },
+              {
+                "type": "PLAINTEXT",
+                "text": "TENTANG"
+              },
+              {
+                "type": "UU_TITLE_TOPIC",
+                "text": "PERUBAHAN ATAS UNDANG-UNDANG NOMOR 12 TAHUN 2011 TENTANG PEMBENTUKAN PERATURAN PERUNDANG-UNDANGAN"
+              }
+            ]
+          },
+          {
+            "type": "PENJELASAN_UMUM",
+            "id": "",
+            "children": [
+              {
+                "type": "PENJELASAN_UMUM_TITLE",
+                "text": "I. UMUM"
+              },
+              {
+                "type": "PLAINTEXT",
+                "text": "Undang-Undang tentang Pembentukan Peraturan Perundang-undangan merupakan pelaksanaan dari perintah Pasal 22A Undang-Undang Dasar Negara Republik Indonesia Tahun 1945 yang menyatakan bahwa \"Ketentuan lebih lanjut mengenai tata cara pembentukan undang-undang diatur lebih lanjut dengan undang-undang\". Undang-Undang tentang Pembentukan Peraturan Perundang-undangan didasarkan pada pemikiran bahwa Negara Indonesia adalah negara hukum. Sebagai negara hukum, segala aspek kehidupan dalam bidang kemasyarakatan, kebangsaan, dan kenegaraan termasuk pemerintahan harus berdasarkan atas hukum yang sesuai dengan sistem hukum nasional."
+              },
+              {
+                "type": "PLAINTEXT",
+                "text": "Sistem hukum nasional merupakan hukum yang berlaku di Indonesia dengan semua elemennya yang saling menunjang satu dengan yang lain dalam rangka mengantisipasi dan mengatasi permasalahan yang timbul dalam kehidupan bermasyarakat, berbangsa, dan bernegara yang berdasarkan Pancasila dan Undang-Undang Dasar Negara Republik Indonesia Tahun 1945. Undang-Undang ini merupakan penyempurnaan terhadap Undang-Undang Nomor 12 Tahun 2011 tentang Pembentukan Peraturan Perundang-undangan, dan untuk memastikan keberlanjutan Pembentukan Peraturan Perundang undangan sejak perencanaan hingga Pemantauan dan Peninjauan."
+              },
+              {
+                "type": "PLAINTEXT",
+                "text": "Sebagai penyempurnaan terhadap Undang-Undang sebelumnya, terdapat materi muatan baru yang ditambahkan dalam Undang-Undang ini, yaitu antara lain: pengaturan mekanisme pembahasan Rancangan Undang-Undang yang sudah dibahas oleh DPR bersama Presiden dalam suatu periode untuk dibahas kembali dalam periode selanjutnya untuk memastikan keberlanjutan dalam pembentukan Undang-Undang dan pengaturan mengenai Pemantauan dan Peninjauan terhadap Peraturan Perundang-undangan sebagai satu kesatuan yang tak terpisahkan dalam proses Pembentukan Peraturan Perundang-undangan."
+              }
+            ]
+          },
+          {
+            "type": "PENJELASAN_PASAL_DEMI_PASAL",
+            "id": "",
+            "children": [
+              {
+                "type": "PENJELASAN_PASAL_DEMI_PASAL_TITLE",
+                "text": "II. PASAL DEMI PASAL"
+              },
+              {
+                "type": "PENJELASAN_PASAL",
+                "id": "",
+                "children": [
+                  {
+                    "type": "PASAL_NUMBER",
+                    "text": "Pasal I"
+                  },
+                  {
+                    "type": "LIST",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "PENJELASAN_LIST_ITEM",
+                        "id": "",
+                        "children": [
+                          {
+                            "type": "PENJELASAN_ANGKA",
+                            "text": "Angka 1"
+                          },
+                          {
+                            "type": "PENJELASAN_PERUBAHAN_SECTION",
+                            "id": "",
+                            "children": [
+                              {
+                                "type": "PENJELASAN_PERUBAHAN_PASAL",
+                                "id": "",
+                                "children": [
+                                  {
+                                    "type": "PASAL_NUMBER",
+                                    "text": "Pasal 1"
+                                  },
+                                  {
+                                    "type": "PLAINTEXT",
+                                    "text": "Cukup jelas."
+                                  }
+                                ]
+                              }
+                            ]
+                          }
+                        ]
+                      },
+                      {
+                        "type": "PENJELASAN_LIST_ITEM",
+                        "id": "",
+                        "children": [
+                          {
+                            "type": "PENJELASAN_ANGKA",
+                            "text": "Angka 2"
+                          },
+                          {
+                            "type": "PENJELASAN_PERUBAHAN_SECTION",
+                            "id": "",
+                            "children": [
+                              {
+                                "type": "PENJELASAN_PERUBAHAN_PASAL",
+                                "id": "",
+                                "children": [
+                                  {
+                                    "type": "PASAL_NUMBER",
+                                    "text": "Pasal 20"
+                                  },
+                                  {
+                                    "type": "PLAINTEXT",
+                                    "text": "Cukup jelas."
+                                  }
+                                ]
+                              }
+                            ]
+                          }
+                        ]
+                      },
+                      {
+                        "type": "PENJELASAN_LIST_ITEM",
+                        "id": "",
+                        "children": [
+                          {
+                            "type": "PENJELASAN_ANGKA",
+                            "text": "Angka 3"
+                          },
+                          {
+                            "type": "PENJELASAN_PERUBAHAN_SECTION",
+                            "id": "",
+                            "children": [
+                              {
+                                "type": "PENJELASAN_PERUBAHAN_PASAL",
+                                "id": "",
+                                "children": [
+                                  {
+                                    "type": "PASAL_NUMBER",
+                                    "text": "Pasal 21"
+                                  },
+                                  {
+                                    "type": "PLAINTEXT",
+                                    "text": "Cukup jelas."
+                                  }
+                                ]
+                              }
+                            ]
+                          }
+                        ]
+                      },
+                      {
+                        "type": "PENJELASAN_LIST_ITEM",
+                        "id": "",
+                        "children": [
+                          {
+                            "type": "PENJELASAN_ANGKA",
+                            "text": "Angka 4"
+                          },
+                          {
+                            "type": "PENJELASAN_PERUBAHAN_SECTION",
+                            "id": "",
+                            "children": [
+                              {
+                                "type": "PENJELASAN_PERUBAHAN_PASAL",
+                                "id": "",
+                                "children": [
+                                  {
+                                    "type": "PASAL_NUMBER",
+                                    "text": "Pasal 23"
+                                  },
+                                  {
+                                    "type": "LIST",
+                                    "id": "",
+                                    "children": [
+                                      {
+                                        "type": "PENJELASAN_LIST_ITEM",
+                                        "id": "",
+                                        "children": [
+                                          {
+                                            "type": "PENJELASAN_AYAT",
+                                            "text": "Ayat (1)"
+                                          },
+                                          {
+                                            "type": "LIST",
+                                            "id": "",
+                                            "children": [
+                                              {
+                                                "type": "PENJELASAN_LIST_ITEM",
+                                                "id": "",
+                                                "children": [
+                                                  {
+                                                    "type": "PENJELASAN_HURUF",
+                                                    "text": "Huruf a"
+                                                  },
+                                                  {
+                                                    "type": "PLAINTEXT",
+                                                    "text": "Yang dimaksud dengan \"perjanjian internasional tertentu\" adalah perjanjian internasional yang menimbulkan akibat yang luas dan mendasar bagi kehidupan rakyat yang terkait dengan beban keuangan negara dan/atau perjanjian tersebut mengharuskan perubahan atau pembentukan Undang-Undang dengan persetujuan DPR."
+                                                  }
+                                                ]
+                                              },
+                                              {
+                                                "type": "PENJELASAN_LIST_ITEM",
+                                                "id": "",
+                                                "children": [
+                                                  {
+                                                    "type": "PENJELASAN_HURUF",
+                                                    "text": "Huruf b"
+                                                  },
+                                                  {
+                                                    "type": "PLAINTEXT",
+                                                    "text": "Cukup jelas."
+                                                  }
+                                                ]
+                                              },
+                                              {
+                                                "type": "PENJELASAN_LIST_ITEM",
+                                                "id": "",
+                                                "children": [
+                                                  {
+                                                    "type": "PENJELASAN_HURUF",
+                                                    "text": "Huruf c"
+                                                  },
+                                                  {
+                                                    "type": "PLAINTEXT",
+                                                    "text": "Cukup jelas."
+                                                  }
+                                                ]
+                                              },
+                                              {
+                                                "type": "PENJELASAN_LIST_ITEM",
+                                                "id": "",
+                                                "children": [
+                                                  {
+                                                    "type": "PENJELASAN_HURUF",
+                                                    "text": "Huruf d"
+                                                  },
+                                                  {
+                                                    "type": "PLAINTEXT",
+                                                    "text": "Cukup jelas."
+                                                  }
+                                                ]
+                                              },
+                                              {
+                                                "type": "PENJELASAN_LIST_ITEM",
+                                                "id": "",
+                                                "children": [
+                                                  {
+                                                    "type": "PENJELASAN_HURUF",
+                                                    "text": "Huruf e"
+                                                  },
+                                                  {
+                                                    "type": "PLAINTEXT",
+                                                    "text": "Cukup jelas."
+                                                  }
+                                                ]
+                                              }
+                                            ]
+                                          }
+                                        ]
+                                      },
+                                      {
+                                        "type": "PENJELASAN_LIST_ITEM",
+                                        "id": "",
+                                        "children": [
+                                          {
+                                            "type": "PENJELASAN_AYAT",
+                                            "text": "Ayat (2)"
+                                          },
+                                          {
+                                            "type": "PLAINTEXT",
+                                            "text": "Cukup jelas."
+                                          }
+                                        ]
+                                      }
+                                    ]
+                                  }
+                                ]
+                              }
+                            ]
+                          }
+                        ]
+                      },
+                      {
+                        "type": "PENJELASAN_LIST_ITEM",
+                        "id": "",
+                        "children": [
+                          {
+                            "type": "PENJELASAN_ANGKA",
+                            "text": "Angka 5"
+                          },
+                          {
+                            "type": "PENJELASAN_PERUBAHAN_SECTION",
+                            "id": "",
+                            "children": [
+                              {
+                                "type": "PENJELASAN_PERUBAHAN_PASAL",
+                                "id": "",
+                                "children": [
+                                  {
+                                    "type": "PASAL_NUMBER",
+                                    "text": "Pasal 26"
+                                  },
+                                  {
+                                    "type": "PLAINTEXT",
+                                    "text": "Cukup jelas."
+                                  }
+                                ]
+                              }
+                            ]
+                          }
+                        ]
+                      },
+                      {
+                        "type": "PENJELASAN_LIST_ITEM",
+                        "id": "",
+                        "children": [
+                          {
+                            "type": "PENJELASAN_ANGKA",
+                            "text": "Angka 6"
+                          },
+                          {
+                            "type": "PENJELASAN_PERUBAHAN_SECTION",
+                            "id": "",
+                            "children": [
+                              {
+                                "type": "PENJELASAN_PERUBAHAN_PASAL",
+                                "id": "",
+                                "children": [
+                                  {
+                                    "type": "PASAL_NUMBER",
+                                    "text": "Pasal 47"
+                                  },
+                                  {
+                                    "type": "PLAINTEXT",
+                                    "text": "Cukup jelas."
+                                  }
+                                ]
+                              }
+                            ]
+                          }
+                        ]
+                      },
+                      {
+                        "type": "PENJELASAN_LIST_ITEM",
+                        "id": "",
+                        "children": [
+                          {
+                            "type": "PENJELASAN_ANGKA",
+                            "text": "Angka 7"
+                          },
+                          {
+                            "type": "PENJELASAN_PERUBAHAN_SECTION",
+                            "id": "",
+                            "children": [
+                              {
+                                "type": "PENJELASAN_PERUBAHAN_PASAL",
+                                "id": "",
+                                "children": [
+                                  {
+                                    "type": "PASAL_NUMBER",
+                                    "text": "Pasal 49"
+                                  },
+                                  {
+                                    "type": "LIST",
+                                    "id": "",
+                                    "children": [
+                                      {
+                                        "type": "PENJELASAN_LIST_ITEM",
+                                        "id": "",
+                                        "children": [
+                                          {
+                                            "type": "PENJELASAN_AYAT",
+                                            "text": "Ayat (1)"
+                                          },
+                                          {
+                                            "type": "PLAINTEXT",
+                                            "text": "Cukup jelas."
+                                          }
+                                        ]
+                                      },
+                                      {
+                                        "type": "PENJELASAN_LIST_ITEM",
+                                        "id": "",
+                                        "children": [
+                                          {
+                                            "type": "PENJELASAN_AYAT",
+                                            "text": "Ayat (2)"
+                                          },
+                                          {
+                                            "type": "PLAINTEXT",
+                                            "text": "Penugasan menteri disertai penyampaian Daftar Inventarisasi Masalah (DIM) yang telah disusun dalam jangka waktu 60 (enam puluh) hari tersebut."
+                                          }
+                                        ]
+                                      },
+                                      {
+                                        "type": "PENJELASAN_LIST_ITEM",
+                                        "id": "",
+                                        "children": [
+                                          {
+                                            "type": "PENJELASAN_AYAT",
+                                            "text": "Ayat (3)"
+                                          },
+                                          {
+                                            "type": "PLAINTEXT",
+                                            "text": "Cukup jelas."
+                                          }
+                                        ]
+                                      }
+                                    ]
+                                  }
+                                ]
+                              }
+                            ]
+                          }
+                        ]
+                      },
+                      {
+                        "type": "PENJELASAN_LIST_ITEM",
+                        "id": "",
+                        "children": [
+                          {
+                            "type": "PENJELASAN_ANGKA",
+                            "text": "Angka 8"
+                          },
+                          {
+                            "type": "PENJELASAN_PERUBAHAN_SECTION",
+                            "id": "",
+                            "children": [
+                              {
+                                "type": "PENJELASAN_PERUBAHAN_PASAL",
+                                "id": "",
+                                "children": [
+                                  {
+                                    "type": "PASAL_NUMBER",
+                                    "text": "Pasal 54"
+                                  },
+                                  {
+                                    "type": "PLAINTEXT",
+                                    "text": "Cukup jelas."
+                                  }
+                                ]
+                              }
+                            ]
+                          }
+                        ]
+                      },
+                      {
+                        "type": "PENJELASAN_LIST_ITEM",
+                        "id": "",
+                        "children": [
+                          {
+                            "type": "PENJELASAN_ANGKA",
+                            "text": "Angka 9"
+                          },
+                          {
+                            "type": "PENJELASAN_PERUBAHAN_SECTION",
+                            "id": "",
+                            "children": [
+                              {
+                                "type": "PENJELASAN_PERUBAHAN_PASAL",
+                                "id": "",
+                                "children": [
+                                  {
+                                    "type": "PASAL_NUMBER",
+                                    "text": "Pasal 55"
+                                  },
+                                  {
+                                    "type": "PLAINTEXT",
+                                    "text": "Cukup jelas."
+                                  }
+                                ]
+                              }
+                            ]
+                          }
+                        ]
+                      },
+                      {
+                        "type": "PENJELASAN_LIST_ITEM",
+                        "id": "",
+                        "children": [
+                          {
+                            "type": "PENJELASAN_ANGKA",
+                            "text": "Angka 10"
+                          },
+                          {
+                            "type": "PENJELASAN_PERUBAHAN_SECTION",
+                            "id": "",
+                            "children": [
+                              {
+                                "type": "PENJELASAN_PERUBAHAN_PASAL",
+                                "id": "",
+                                "children": [
+                                  {
+                                    "type": "PASAL_NUMBER",
+                                    "text": "Pasal 58"
+                                  },
+                                  {
+                                    "type": "PLAINTEXT",
+                                    "text": "Cukup jelas."
+                                  }
+                                ]
+                              }
+                            ]
+                          }
+                        ]
+                      },
+                      {
+                        "type": "PENJELASAN_LIST_ITEM",
+                        "id": "",
+                        "children": [
+                          {
+                            "type": "PENJELASAN_ANGKA",
+                            "text": "Angka 11"
+                          },
+                          {
+                            "type": "PENJELASAN_PERUBAHAN_SECTION",
+                            "id": "",
+                            "children": [
+                              {
+                                "type": "PENJELASAN_PERUBAHAN_PASAL",
+                                "id": "",
+                                "children": [
+                                  {
+                                    "type": "PASAL_NUMBER",
+                                    "text": "Pasal 71A"
+                                  },
+                                  {
+                                    "type": "PLAINTEXT",
+                                    "text": "Cukup jelas."
+                                  }
+                                ]
+                              }
+                            ]
+                          }
+                        ]
+                      },
+                      {
+                        "type": "PENJELASAN_LIST_ITEM",
+                        "id": "",
+                        "children": [
+                          {
+                            "type": "PENJELASAN_ANGKA",
+                            "text": "Angka 12"
+                          },
+                          {
+                            "type": "PENJELASAN_PERUBAHAN_SECTION",
+                            "id": "",
+                            "children": [
+                              {
+                                "type": "PENJELASAN_PERUBAHAN_PASAL",
+                                "id": "",
+                                "children": [
+                                  {
+                                    "type": "PASAL_NUMBER",
+                                    "text": "Pasal 72"
+                                  },
+                                  {
+                                    "type": "LIST",
+                                    "id": "",
+                                    "children": [
+                                      {
+                                        "type": "PENJELASAN_LIST_ITEM",
+                                        "id": "",
+                                        "children": [
+                                          {
+                                            "type": "PENJELASAN_AYAT",
+                                            "text": "Ayat (1)"
+                                          },
+                                          {
+                                            "type": "PLAINTEXT",
+                                            "text": "Cukup jelas."
+                                          }
+                                        ]
+                                      },
+                                      {
+                                        "type": "PENJELASAN_LIST_ITEM",
+                                        "id": "",
+                                        "children": [
+                                          {
+                                            "type": "PENJELASAN_AYAT",
+                                            "text": "Ayat (2)"
+                                          },
+                                          {
+                                            "type": "PLAINTEXT",
+                                            "text": "Tenggang waktu 7 (tujuh) hari kerja dianggap layak untuk mempersiapkan segala hal yang berkaitan dengan teknis penulisan Rancangan Undang-Undang ke Lembaran Resmi Presiden sampai dengan penandatanganan, pengesahan Undang-Undang oleh Presiden dan penandatanganan sekaligus pengundangan ke Lembaran Negara Republik Indonesia."
+                                          }
+                                        ]
+                                      }
+                                    ]
+                                  }
+                                ]
+                              }
+                            ]
+                          }
+                        ]
+                      },
+                      {
+                        "type": "PENJELASAN_LIST_ITEM",
+                        "id": "",
+                        "children": [
+                          {
+                            "type": "PENJELASAN_ANGKA",
+                            "text": "Angka 13"
+                          },
+                          {
+                            "type": "PENJELASAN_PERUBAHAN_SECTION",
+                            "id": "",
+                            "children": [
+                              {
+                                "type": "PENJELASAN_PERUBAHAN_PASAL",
+                                "id": "",
+                                "children": [
+                                  {
+                                    "type": "PASAL_NUMBER",
+                                    "text": "Pasal 85"
+                                  },
+                                  {
+                                    "type": "PLAINTEXT",
+                                    "text": "Cukup jelas."
+                                  }
+                                ]
+                              }
+                            ]
+                          }
+                        ]
+                      },
+                      {
+                        "type": "PENJELASAN_LIST_ITEM",
+                        "id": "",
+                        "children": [
+                          {
+                            "type": "PENJELASAN_ANGKA",
+                            "text": "Angka 14"
+                          },
+                          {
+                            "type": "PENJELASAN_PERUBAHAN_SECTION",
+                            "id": "",
+                            "children": [
+                              {
+                                "type": "PENJELASAN_PERUBAHAN_PASAL",
+                                "id": "",
+                                "children": [
+                                  {
+                                    "type": "PASAL_NUMBER",
+                                    "text": "Pasal 91"
+                                  },
+                                  {
+                                    "type": "PLAINTEXT",
+                                    "text": "Cukup jelas."
+                                  }
+                                ]
+                              }
+                            ]
+                          }
+                        ]
+                      },
+                      {
+                        "type": "PENJELASAN_LIST_ITEM",
+                        "id": "",
+                        "children": [
+                          {
+                            "type": "PENJELASAN_ANGKA",
+                            "text": "Angka 15"
+                          },
+                          {
+                            "type": "PENJELASAN_PERUBAHAN_SECTION",
+                            "id": "",
+                            "children": [
+                              {
+                                "type": "PENJELASAN_PERUBAHAN_BAB",
+                                "id": "",
+                                "children": [
+                                  {
+                                    "type": "BAB_NUMBER",
+                                    "text": "BAB XA"
+                                  },
+                                  {
+                                    "type": "PLAINTEXT",
+                                    "text": "Cukup jelas."
+                                  }
+                                ]
+                              }
+                            ]
+                          }
+                        ]
+                      },
+                      {
+                        "type": "PENJELASAN_LIST_ITEM",
+                        "id": "",
+                        "children": [
+                          {
+                            "type": "PENJELASAN_ANGKA",
+                            "text": "Angka 16"
+                          },
+                          {
+                            "type": "PENJELASAN_PERUBAHAN_SECTION",
+                            "id": "",
+                            "children": [
+                              {
+                                "type": "PENJELASAN_PERUBAHAN_PASAL",
+                                "id": "",
+                                "children": [
+                                  {
+                                    "type": "PASAL_NUMBER",
+                                    "text": "Pasal 95A"
+                                  },
+                                  {
+                                    "type": "LIST",
+                                    "id": "",
+                                    "children": [
+                                      {
+                                        "type": "PENJELASAN_LIST_ITEM",
+                                        "id": "",
+                                        "children": [
+                                          {
+                                            "type": "PENJELASAN_AYAT",
+                                            "text": "Ayat (1)"
+                                          },
+                                          {
+                                            "type": "PLAINTEXT",
+                                            "text": "Cukup jelas."
+                                          }
+                                        ]
+                                      },
+                                      {
+                                        "type": "PENJELASAN_LIST_ITEM",
+                                        "id": "",
+                                        "children": [
+                                          {
+                                            "type": "PENJELASAN_AYAT",
+                                            "text": "Ayat (2)"
+                                          },
+                                          {
+                                            "type": "PLAINTEXT",
+                                            "text": "Pelaksanaan Pemantauan dan Peninjauan terhadap Undang-Undang yang dilakukan oleh DPD berkaitan dengan otonomi daerah, hubungan pusat dan daerah, pembentukan dan pemekaran serta penggabungan daerah, pengelolaan sumber daya alam dan sumber daya ekonomi lainnya, serta perimbangan keuangan pusat dan daerah."
+                                          }
+                                        ]
+                                      },
+                                      {
+                                        "type": "PENJELASAN_LIST_ITEM",
+                                        "id": "",
+                                        "children": [
+                                          {
+                                            "type": "PENJELASAN_AYAT",
+                                            "text": "Ayat (3)"
+                                          },
+                                          {
+                                            "type": "PLAINTEXT",
+                                            "text": "Cukup jelas."
+                                          }
+                                        ]
+                                      },
+                                      {
+                                        "type": "PENJELASAN_LIST_ITEM",
+                                        "id": "",
+                                        "children": [
+                                          {
+                                            "type": "PENJELASAN_AYAT",
+                                            "text": "Ayat (4)"
+                                          },
+                                          {
+                                            "type": "PLAINTEXT",
+                                            "text": "Cukup jelas."
+                                          }
+                                        ]
+                                      }
+                                    ]
+                                  }
+                                ]
+                              },
+                              {
+                                "type": "PENJELASAN_PERUBAHAN_PASAL",
+                                "id": "",
+                                "children": [
+                                  {
+                                    "type": "PASAL_NUMBER",
+                                    "text": "Pasal 95B"
+                                  },
+                                  {
+                                    "type": "PLAINTEXT",
+                                    "text": "Cukup jelas."
+                                  }
+                                ]
+                              }
+                            ]
+                          }
+                        ]
+                      },
+                      {
+                        "type": "PENJELASAN_LIST_ITEM",
+                        "id": "",
+                        "children": [
+                          {
+                            "type": "PENJELASAN_ANGKA",
+                            "text": "Angka 17"
+                          },
+                          {
+                            "type": "PENJELASAN_PERUBAHAN_SECTION",
+                            "id": "",
+                            "children": [
+                              {
+                                "type": "PENJELASAN_PERUBAHAN_BAB",
+                                "id": "",
+                                "children": [
+                                  {
+                                    "type": "BAB_NUMBER",
+                                    "text": "BAB XIIA"
+                                  },
+                                  {
+                                    "type": "PLAINTEXT",
+                                    "text": "Cukup jelas."
+                                  }
+                                ]
+                              }
+                            ]
+                          }
+                        ]
+                      },
+                      {
+                        "type": "PENJELASAN_LIST_ITEM",
+                        "id": "",
+                        "children": [
+                          {
+                            "type": "PENJELASAN_ANGKA",
+                            "text": "Angka 18"
+                          },
+                          {
+                            "type": "PENJELASAN_PERUBAHAN_SECTION",
+                            "id": "",
+                            "children": [
+                              {
+                                "type": "PENJELASAN_PERUBAHAN_PASAL",
+                                "id": "",
+                                "children": [
+                                  {
+                                    "type": "PASAL_NUMBER",
+                                    "text": "Pasal 99A"
+                                  },
+                                  {
+                                    "type": "PLAINTEXT",
+                                    "text": "Cukup jelas."
+                                  }
+                                ]
+                              }
+                            ]
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "PENJELASAN_PASAL",
+                "id": "",
+                "children": [
+                  {
+                    "type": "PASAL_NUMBER",
+                    "text": "Pasal II"
+                  },
+                  {
+                    "type": "PLAINTEXT",
+                    "text": "Cukup jelas."
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

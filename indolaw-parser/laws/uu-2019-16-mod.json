@@ -1,0 +1,650 @@
+{
+  "metadata": {
+    "lembaranNegaraNumber": 186,
+    "lembaranNegaraYear": 2019,
+    "tambahanLembaranNumber": 6401,
+    "number": 16,
+    "topic": "Perubahan Atas Undang-undang Nomor 1 Tahun 1974 Tentang Perkawinan",
+    "year": 2019
+  },
+  "content": {
+    "type": "UNDANG_UNDANG",
+    "id": "",
+    "children": [
+      {
+        "type": "OPENING",
+        "id": "",
+        "children": [
+          {
+            "type": "UU_TITLE",
+            "id": "",
+            "children": [
+              {
+                "type": "PLAINTEXT",
+                "text": "UNDANG-UNDANG REPUBLIK INDONESIA"
+              },
+              {
+                "type": "UU_TITLE_YEAR_AND_NUMBER",
+                "text": "NOMOR 16 TAHUN 2019"
+              },
+              {
+                "type": "PLAINTEXT",
+                "text": "TENTANG"
+              },
+              {
+                "type": "UU_TITLE_TOPIC",
+                "text": "PERUBAHAN ATAS UNDANG-UNDANG NOMOR 1 TAHUN 1974 TENTANG PERKAWINAN"
+              }
+            ]
+          },
+          {
+            "type": "PREFACE",
+            "id": "",
+            "children": [
+              {
+                "type": "PLAINTEXT",
+                "text": "DENGAN RAHMAT TUHAN YANG MAHA ESA"
+              },
+              {
+                "type": "PLAINTEXT",
+                "text": "PRESIDEN REPUBLIK INDONESIA,"
+              }
+            ]
+          },
+          {
+            "type": "CONSIDERATIONS",
+            "id": "",
+            "children": [
+              {
+                "type": "PLAINTEXT",
+                "text": "Menimbang:"
+              },
+              {
+                "type": "LIST",
+                "id": "",
+                "children": [
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "LETTER_WITH_DOT",
+                        "text": "a."
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "bahwa negara menjamin hak warga negara untuk membentuk keluarga dan melanjutkan keturunan melalui perkawinan yang sah, menjamin hak anak atas kelangsungan hidup, tumbuh, dan berkembang serta berhak atas perlindungan dari kekerasan dan diskriminasi sebagaimana diamanatkan dalam Undang-Undang Dasar Negara Republik Indonesia Tahun 1945;"
+                      }
+                    ]
+                  },
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "LETTER_WITH_DOT",
+                        "text": "b."
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "bahwa perkawinan pada usia anak menimbulkan dampak negatif bagi tumbuh kembang anak dan akan menyebabkan tidak terpenuhinya hak dasar anak seperti hak atas perlindungan dari kekerasan dan diskriminasi, hak sipil anak, hak kesehatan, hak pendidikan, dan hak sosial anak;"
+                      }
+                    ]
+                  },
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "LETTER_WITH_DOT",
+                        "text": "c."
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "bahwa sebagai pelaksanaan atas putusan Mahkamah Konstitusi Republik Indonesia Nomor 22/PUU XV/2017 perlu melaksanakan perubahan atas ketentuan Pasal 7 Undang-Undang Nomor 1 Tahun 1974 tentang Perkawinan;"
+                      }
+                    ]
+                  },
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "LETTER_WITH_DOT",
+                        "text": "d."
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "bahwa berdasarkan pertimbangan sebagaimana dimaksud dalam huruf a, huruf b, dan huruf c, perlu membentuk Undang-Undang tentang Perubahan atas Undang-Undang Nomor 1 Tahun 1974 tentang Perkawinan."
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "PRINCIPLES",
+            "id": "",
+            "children": [
+              {
+                "type": "PLAINTEXT",
+                "text": "Mengingat:"
+              },
+              {
+                "type": "LIST",
+                "id": "",
+                "children": [
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "NUMBER_WITH_DOT",
+                        "text": "1."
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "Pasal 5 ayat (1), Pasal 20, dan Pasal 28B Undang-Undang Dasar Negara Republik Indonesia Tahun 1945;"
+                      }
+                    ]
+                  },
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "NUMBER_WITH_DOT",
+                        "text": "2."
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "Undang-Undang Nomor 1 Tahun 1974 tentang Perkawinan (Lembaran Negara Republik Indonesia Tahun 1974 Nomor 1, Tambahan Lembaran Negara Republik Indonesia Nomor 3019)."
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "AGREEMENT",
+            "id": "",
+            "children": [
+              {
+                "type": "PLAINTEXT",
+                "text": "Dengan Persetujuan Bersama"
+              },
+              {
+                "type": "PLAINTEXT",
+                "text": "DEWAN PERWAKILAN RAKYAT REPUBLIK INDONESIA"
+              },
+              {
+                "type": "PLAINTEXT",
+                "text": "dan"
+              },
+              {
+                "type": "PLAINTEXT",
+                "text": "PRESIDEN REPUBLIK INDONESIA"
+              },
+              {
+                "type": "PLAINTEXT",
+                "text": "MEMUTUSKAN:"
+              },
+              {
+                "type": "PLAINTEXT",
+                "text": "Menetapkan:"
+              },
+              {
+                "type": "PLAINTEXT",
+                "text": "UNDANG-UNDANG TENTANG PERUBAHAN ATAS UNDANG-UNDANG NOMOR 1 TAHUN 1974 TENTANG PERKAWINAN"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "PASAL",
+        "id": "pasal-I",
+        "children": [
+          {
+            "type": "PASAL_NUMBER",
+            "text": "Pasal I"
+          },
+          {
+            "type": "PLAINTEXT",
+            "text": "Beberapa ketentuan dalam Undang-Undang Nomor 1 Tahun 1974 tentang Perkawinan (Lembaran Negara Republik Indonesia Tahun 1974 Nomor 1, Tambahan Lembaran Negara Republik Indonesia Nomor 3019) diubah sebagai berikut:"
+          },
+          {
+            "type": "LIST",
+            "id": "",
+            "children": [
+              {
+                "type": "LIST_ITEM",
+                "id": "",
+                "children": [
+                  {
+                    "type": "NUMBER_WITH_DOT",
+                    "text": "1."
+                  },
+                  {
+                    "type": "PLAINTEXT",
+                    "text": "Ketentuan Pasal 7 diubah sehingga berbunyi sebagai berikut:"
+                  },
+                  {
+                    "type": "PERUBAHAN_SECTION",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "PERUBAHAN_PASAL",
+                        "id": "perubahan-pasal-7",
+                        "children": [
+                          {
+                            "type": "PASAL_NUMBER",
+                            "text": "Pasal 7"
+                          },
+                          {
+                            "type": "LIST",
+                            "id": "",
+                            "children": [
+                              {
+                                "type": "LIST_ITEM",
+                                "id": "",
+                                "children": [
+                                  {
+                                    "type": "NUMBER_WITH_BRACKETS",
+                                    "text": "(1)"
+                                  },
+                                  {
+                                    "type": "PLAINTEXT",
+                                    "text": "Perkawinan hanya diizinkan apabila pria dan wanita sudah mencapai umur 19 (sembilan belas) tahun."
+                                  }
+                                ]
+                              },
+                              {
+                                "type": "LIST_ITEM",
+                                "id": "",
+                                "children": [
+                                  {
+                                    "type": "NUMBER_WITH_BRACKETS",
+                                    "text": "(2)"
+                                  },
+                                  {
+                                    "type": "PLAINTEXT",
+                                    "text": "Dalam hal terjadi penyimpangan terhadap ketentuan umur sebagaimana dimaksud pada ayat (1), orang tua pihak pria dan/atau orang tua pihak wanita dapat meminta dispensasi kepada Pengadilan dengan alasan sangat mendesak disertai bukti-bukti pendukung yang cukup."
+                                  }
+                                ]
+                              },
+                              {
+                                "type": "LIST_ITEM",
+                                "id": "",
+                                "children": [
+                                  {
+                                    "type": "NUMBER_WITH_BRACKETS",
+                                    "text": "(3)"
+                                  },
+                                  {
+                                    "type": "PLAINTEXT",
+                                    "text": "Pemberian dispensasi oleh Pengadilan sebagaimana dimaksud pada ayat (2) wajib mendengarkan pendapat kedua belah calon mempelai yang akan melangsungkan perkawinan."
+                                  }
+                                ]
+                              },
+                              {
+                                "type": "LIST_ITEM",
+                                "id": "",
+                                "children": [
+                                  {
+                                    "type": "NUMBER_WITH_BRACKETS",
+                                    "text": "(4)"
+                                  },
+                                  {
+                                    "type": "PLAINTEXT",
+                                    "text": "Ketentuan-ketentuan mengenai keadaan seorang atau kedua orang tua calon mempelai sebagaimana dimaksud dalam Pasal 6 ayat (3) dan ayat (4) berlaku juga ketentuan mengenai permintaan dispensasi sebagaimana dimaksud pada ayat (2) dengan tidak mengurangi ketentuan sebagaimana dimaksud dalam Pasal 6 ayat (6)."
+                                  }
+                                ]
+                              }
+                            ]
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "LIST_ITEM",
+                "id": "",
+                "children": [
+                  {
+                    "type": "NUMBER_WITH_DOT",
+                    "text": "2."
+                  },
+                  {
+                    "type": "PLAINTEXT",
+                    "text": "Di antara Pasal 65 dan Pasal 66 disisipkan 1 (satu) pasal yakni Pasal 65A yang berbunyi sebagai berikut:"
+                  },
+                  {
+                    "type": "PERUBAHAN_SECTION",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "PERUBAHAN_PASAL",
+                        "id": "perubahan-pasal-65A",
+                        "children": [
+                          {
+                            "type": "PASAL_NUMBER",
+                            "text": "Pasal 65A"
+                          },
+                          {
+                            "type": "PLAINTEXT",
+                            "text": "Pada saat Undang-Undang ini mulai berlaku, permohonan perkawinan yang telah didaftarkan berdasarkan Undang-Undang Nomor 1 Tahun 1974 tentang Perkawinan, tetap dilanjutkan prosesnya sesuai dengan ketentuan Undang-Undang Nomor 1 Tahun 1974 tentang Perkawinan."
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "PASAL",
+        "id": "pasal-II",
+        "children": [
+          {
+            "type": "PASAL_NUMBER",
+            "text": "Pasal II"
+          },
+          {
+            "type": "PLAINTEXT",
+            "text": "Undang-Undang ini mulai berlaku pada tanggal diundangkan."
+          },
+          {
+            "type": "PLAINTEXT",
+            "text": "Agar setiap orang mengetahuinya, memerintahkan pengundangan Undang-Undang ini dengan penempatannya dalam Lembaran Negara Republik Indonesia."
+          }
+        ]
+      },
+      {
+        "type": "CLOSING",
+        "id": "",
+        "children": [
+          {
+            "type": "PLAINTEXT",
+            "text": "Disahkan Di Jakarta,"
+          },
+          {
+            "type": "PLAINTEXT",
+            "text": "Pada Tanggal 14 Oktober 2019"
+          },
+          {
+            "type": "PLAINTEXT",
+            "text": "PRESIDEN REPUBLIK INDONESIA,"
+          },
+          {
+            "type": "PLAINTEXT",
+            "text": "Ttd."
+          },
+          {
+            "type": "PLAINTEXT",
+            "text": "JOKO WIDODO"
+          },
+          {
+            "type": "PLAINTEXT",
+            "text": "Diundangkan Di Jakarta,"
+          },
+          {
+            "type": "PLAINTEXT",
+            "text": "Pada Tanggal 15 Oktober 2019"
+          },
+          {
+            "type": "PLAINTEXT",
+            "text": "PLT. MENTERI HUKUM DAN HAK ASASI MANUSIA REPUBLIK INDONESIA,"
+          },
+          {
+            "type": "PLAINTEXT",
+            "text": "Ttd."
+          },
+          {
+            "type": "PLAINTEXT",
+            "text": "TJAHJO KUMOLO"
+          },
+          {
+            "type": "LEMBARAN_NUMBER",
+            "text": "LEMBARAN NEGARA REPUBLIK INDONESIA TAHUN 2019 NOMOR 186"
+          }
+        ]
+      },
+      {
+        "type": "PENJELASAN",
+        "id": "penjelasan",
+        "children": [
+          {
+            "type": "PENJELASAN_TITLE",
+            "id": "",
+            "children": [
+              {
+                "type": "PLAINTEXT",
+                "text": "PENJELASAN"
+              },
+              {
+                "type": "PLAINTEXT",
+                "text": "UNDANG-UNDANG REPUBLIK INDONESIA"
+              },
+              {
+                "type": "UU_TITLE_YEAR_AND_NUMBER",
+                "text": "NOMOR 16 TAHUN 2019"
+              },
+              {
+                "type": "PLAINTEXT",
+                "text": "TENTANG"
+              },
+              {
+                "type": "UU_TITLE_TOPIC",
+                "text": "PERUBAHAN ATAS UNDANG-UNDANG NOMOR 1 TAHUN 1974 TENTANG PERKAWINAN"
+              }
+            ]
+          },
+          {
+            "type": "PENJELASAN_UMUM",
+            "id": "",
+            "children": [
+              {
+                "type": "PENJELASAN_UMUM_TITLE",
+                "text": "I. UMUM"
+              },
+              {
+                "type": "PLAINTEXT",
+                "text": "Dalam ketentuan Pasal 28B Undang-Undang Dasar Negara Republik Indonesia Tahun 1945, dicantumkan bahwa setiap orang berhak membentuk keluarga dan melanjutkan keturunan melalui perkawinan yang sah serta Negara menjamin hak anak atas kelangsungan hidup, tumbuh, dan berkembang serta berhak atas pelindungan dari kekerasan dan diskriminasi."
+              },
+              {
+                "type": "PLAINTEXT",
+                "text": "Pasal 7 ayat (1) Undang-Undang Nomor 1 Tahun 1974 menyatakan bahwa perkawinan hanya diizinkan apabila pihak pria mencapai umur 19 (sembilan belas) tahun dan pihak wanita sudah mencapai usia 16 (enam belas) tahun, ketentuan tersebut memungkinkan terjadinya perkawinan dalam usia anak pada anak wanita karena dalam Pasal 1 angka 1 Undang-Undang tentang Perubahan Atas Undang-Undang Nomor 23 Tahun 2002 tentang Pelindungan Anak didefinisikan bahwa anak adalah seseorang yang belum berusia 18 (delapan belas) tahun, termasuk anak yang masih dalam kandungan."
+              },
+              {
+                "type": "PLAINTEXT",
+                "text": "Mahkamah Konstitusi Republik Indonesia telah mengeluarkan Putusan Mahkamah Konstitusi Nomor 22/PUU-XV/2017 yang salah satu pertimbangan Mahkamah Konstitusi dalam putusan tersebut yaitu \"Namun tatkala pembedaan perlakuan antara pria dan wanita itu berdampak pada atau menghalangi pemenuhan hak-hak dasar atau hak-hak konstitusional warga negara, baik yang termasuk ke dalam kelompok hak-hak sipil dan politik maupun hak-hak ekonomi, pendidikan, sosial, dan kebudayaan, yang seharusnya tidak boleh dibedakan semata-mata berdasarkan alasan jenis kelamin, maka pembedaan demikian jelas merupakan diskriminasi.\" Dalam pertimbangan yang sama juga disebutkan Pengaturan batas usia minimal perkawinan yang berbeda antara pria dan wanita tidak saja menimbulkan diskriminasi dalam konteks pelaksanaan hak untuk membentuk keluarga sebagaimana dijamin dalam Pasal 28B ayat (1) UUD 1945, melainkan juga telah menimbulkan diskriminasi terhadap pelindungan dan pemenuhan hak anak sebagaimana dijamin dalam Pasal 28B ayat (2) UUD 1945. Dalam hal ini, ketika usia minimal perkawinan bagi wanita lebih rendah dibandingkan pria, maka secara hukum wanita dapat lebih cepat untuk membentuk keluarga. Oleh karena hal tersebut, dalam amar putusannya Mahkamah Konstitusi memerintahkan kepada pembentuk undang-undang untuk dalam jangka waktu paling lama 3 (tiga) tahun melakukan perubahan terhadap Undang-Undang Nomor 1 Tahun 1974 tentang Perkawinan."
+              },
+              {
+                "type": "PLAINTEXT",
+                "text": "Perubahan norma dalam Undang-Undang Nomor 1 Tahun 1974 tentang Perkawinan ini menjangkau batas usia untuk melakukan perkawinan, perbaikan norma menjangkau dengan menaikkan batas minimal umur perkawinan bagi wanita. Dalam hal ini batas minimal umur perkawinan bagi wanita dipersamakan dengan batas minimal umur perkawinan bagi pria, yaitu 19 (sembilan belas) tahun. Batas usia dimaksud dinilai telah matang jiwa raganya untuk dapat melangsungkan perkawinan agar dapat mewujudkan tujuan perkawinan secara baik tanpa berakhir pada perceraian dan mendapat keturunan yang sehat dan berkualitas. Diharapkan juga kenaikan batas umur yang lebih tinggi dari 16 (enam belas) tahun bagi wanita untuk kawin akan mengakibatkan laju kelahiran yang lebih rendah dan menurunkan resiko kematian ibu dan anak. Selain itu juga dapat terpenuhinya hak-hak anak sehingga mengoptimalkan tumbuh kembang anak termasuk pendampingan orang tua serta memberikan akses anak terhadap pendidikan setinggi mungkin."
+              }
+            ]
+          },
+          {
+            "type": "PENJELASAN_PASAL_DEMI_PASAL",
+            "id": "",
+            "children": [
+              {
+                "type": "PENJELASAN_PASAL_DEMI_PASAL_TITLE",
+                "text": "II. PASAL DEMI PASAL"
+              },
+              {
+                "type": "PENJELASAN_PASAL",
+                "id": "",
+                "children": [
+                  {
+                    "type": "PASAL_NUMBER",
+                    "text": "Pasal I"
+                  },
+                  {
+                    "type": "LIST",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "PENJELASAN_LIST_ITEM",
+                        "id": "",
+                        "children": [
+                          {
+                            "type": "PENJELASAN_ANGKA",
+                            "text": "Angka 1"
+                          },
+                          {
+                            "type": "PENJELASAN_PERUBAHAN_SECTION",
+                            "id": "",
+                            "children": [
+                              {
+                                "type": "PENJELASAN_PERUBAHAN_PASAL",
+                                "id": "",
+                                "children": [
+                                  {
+                                    "type": "PASAL_NUMBER",
+                                    "text": "Pasal 7"
+                                  },
+                                  {
+                                    "type": "LIST",
+                                    "id": "",
+                                    "children": [
+                                      {
+                                        "type": "PENJELASAN_LIST_ITEM",
+                                        "id": "",
+                                        "children": [
+                                          {
+                                            "type": "PENJELASAN_AYAT",
+                                            "text": "Ayat (1)"
+                                          },
+                                          {
+                                            "type": "PLAINTEXT",
+                                            "text": "Cukup jelas."
+                                          }
+                                        ]
+                                      },
+                                      {
+                                        "type": "PENJELASAN_LIST_ITEM",
+                                        "id": "",
+                                        "children": [
+                                          {
+                                            "type": "PENJELASAN_AYAT",
+                                            "text": "Ayat (2)"
+                                          },
+                                          {
+                                            "type": "PLAINTEXT",
+                                            "text": "Yang dimaksud dengan \"penyimpangan\" adalah hanya dapat dilakukan melalui pengajuan permohonan dispensasi oleh orang tua dari salah satu atau kedua belah pihak dari calon mempelai kepada Pengadilan Agama bagi mereka yang beragama Islam dan Pengadilan Negeri bagi yang lainnya, apabila pihak pria dan wanita berumur di bawah 19 (sembilan belas) tahun."
+                                          },
+                                          {
+                                            "type": "PLAINTEXT",
+                                            "text": "Yang dimaksud dengan \"alasan sangat mendesak\" adalah keadaan tidak ada pilihan lain dan sangat terpaksa harus dilangsungkan perkawinan."
+                                          },
+                                          {
+                                            "type": "PLAINTEXT",
+                                            "text": "Yang dimaksud dengan \"bukti-bukti pendukung yang cukup\" adalah surat keterangan yang membuktikan bahwa usia mempelai masih di bawah ketentuan undang-undang dan surat keterangan dari tenaga kesehatan yang mendukung pernyataan orang tua bahwa perkawinan tersebut sangat mendesak untuk dilaksanakan."
+                                          },
+                                          {
+                                            "type": "PLAINTEXT",
+                                            "text": "Kemudian untuk memastikan terlaksananya ketentuan ini, Pemerintah melakukan sosialisasi dan pembinaan kepada masyarakat mengenai pencegahan perkawinan usia dini, bahaya seks bebas dan perkawinan tidak tercatat demi terwujudnya generasi bangsa yang lebih unggul."
+                                          }
+                                        ]
+                                      },
+                                      {
+                                        "type": "PENJELASAN_LIST_ITEM",
+                                        "id": "",
+                                        "children": [
+                                          {
+                                            "type": "PENJELASAN_AYAT",
+                                            "text": "Ayat (3)"
+                                          },
+                                          {
+                                            "type": "PLAINTEXT",
+                                            "text": "Pemberian dispensasi oleh Pengadilan Agama bagi mereka yang beragama Islam dan Pengadilan Negeri bagi yang beragama lainnya berdasarkan pada semangat pencegahan perkawinan anak, pertimbangan moral, agama, adat dan budaya, aspek psikologis, aspek kesehatan, dan dampak yang ditimbulkan."
+                                          }
+                                        ]
+                                      },
+                                      {
+                                        "type": "PENJELASAN_LIST_ITEM",
+                                        "id": "",
+                                        "children": [
+                                          {
+                                            "type": "PENJELASAN_AYAT",
+                                            "text": "Ayat (4)"
+                                          },
+                                          {
+                                            "type": "PLAINTEXT",
+                                            "text": "Cukup jelas."
+                                          }
+                                        ]
+                                      }
+                                    ]
+                                  }
+                                ]
+                              }
+                            ]
+                          }
+                        ]
+                      },
+                      {
+                        "type": "PENJELASAN_LIST_ITEM",
+                        "id": "",
+                        "children": [
+                          {
+                            "type": "PENJELASAN_ANGKA",
+                            "text": "Angka 2"
+                          },
+                          {
+                            "type": "PENJELASAN_PERUBAHAN_SECTION",
+                            "id": "",
+                            "children": [
+                              {
+                                "type": "PENJELASAN_PERUBAHAN_PASAL",
+                                "id": "",
+                                "children": [
+                                  {
+                                    "type": "PASAL_NUMBER",
+                                    "text": "Pasal 65A"
+                                  },
+                                  {
+                                    "type": "PLAINTEXT",
+                                    "text": "Cukup jelas."
+                                  }
+                                ]
+                              }
+                            ]
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "PENJELASAN_PASAL",
+                "id": "",
+                "children": [
+                  {
+                    "type": "PASAL_NUMBER",
+                    "text": "Pasal II"
+                  },
+                  {
+                    "type": "PLAINTEXT",
+                    "text": "Cukup jelas."
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}
