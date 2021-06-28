@@ -37,12 +37,14 @@ from parser_is_start_of_x import (
     PENJELASAN_PASAL_DEMI_PASAL_REGEX,
     START_OF_PERUBAHAN_SECTION_REGEXES,
     is_heading,
+    is_start_of_bagian,
     is_start_of_number_with_brackets_str,
     is_start_of_number_with_right_bracket_str,
     is_start_of_number_with_dot_str,
     is_start_of_letter_with_dot_str,
     is_start_of_first_list_index,
     is_start_of_list_index_str,
+    is_start_of_paragraf,
     is_start_of_pasal,
     is_start_of_penjelasan,
     is_start_of_penjelasan_angka,
@@ -668,7 +670,9 @@ def clean_split_plaintext(law: List[str]) -> List[str]:
                         not_all_caps and
                         not is_start_of_pasal(law, i) and
                         not is_start_of_perubahan_pasal(law, i) and
-                        not is_start_of_penjelasan_list_index_str(law[i])
+                        not is_start_of_penjelasan_list_index_str(law[i]) and
+                        not is_start_of_bagian(law, i) and 
+                        not is_start_of_paragraf(law, i)
                     )
                 )
             )
