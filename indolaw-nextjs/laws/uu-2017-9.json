@@ -1,0 +1,382 @@
+{
+  "metadata": {
+    "lembaranNegaraNumber": 190,
+    "lembaranNegaraYear": 2017,
+    "tambahanLembaranNumber": 6112,
+    "number": 9,
+    "topic": "Penetapan Peraturan Pemerintah Pengganti Undang-undang Nomor 1 Tahun 2017 Tentang Akses Informasi Keuangan Untuk Kepentingan Perpajakan Menjadi Undang-undang",
+    "year": 2017
+  },
+  "content": {
+    "type": "UNDANG_UNDANG",
+    "id": "",
+    "children": [
+      {
+        "type": "OPENING",
+        "id": "",
+        "children": [
+          {
+            "type": "UU_TITLE",
+            "id": "",
+            "children": [
+              {
+                "type": "PLAINTEXT",
+                "text": "UNDANG-UNDANG REPUBLIK INDONESIA"
+              },
+              {
+                "type": "UU_TITLE_YEAR_AND_NUMBER",
+                "text": "NOMOR 9 TAHUN 2017"
+              },
+              {
+                "type": "PLAINTEXT",
+                "text": "TENTANG"
+              },
+              {
+                "type": "UU_TITLE_TOPIC",
+                "text": "PENETAPAN PERATURAN PEMERINTAH PENGGANTI UNDANG-UNDANG NOMOR 1 TAHUN 2017 TENTANG AKSES INFORMASI KEUANGAN UNTUK KEPENTINGAN PERPAJAKAN MENJADI UNDANG-UNDANG"
+              }
+            ]
+          },
+          {
+            "type": "PREFACE",
+            "id": "",
+            "children": [
+              {
+                "type": "PLAINTEXT",
+                "text": "DENGAN RAHMAT TUHAN YANG MAHA ESA"
+              },
+              {
+                "type": "PLAINTEXT",
+                "text": "PRESIDEN REPUBLIK INDONESIA,"
+              }
+            ]
+          },
+          {
+            "type": "CONSIDERATIONS",
+            "id": "",
+            "children": [
+              {
+                "type": "PLAINTEXT",
+                "text": "Menimbang:"
+              },
+              {
+                "type": "LIST",
+                "id": "",
+                "children": [
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "LETTER_WITH_DOT",
+                        "text": "a."
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "bahwa dalam melaksanakan pembangunan nasional Negara Kesatuan Republik Indonesia yang mempunyai tujuan untuk menyejahterakan dan memakmurkan seluruh rakyat Indonesia secara merata dan berkeadilan, dibutuhkan pendanaan yang bersumber dari penerimaan negara terutama yang berasal dari pajak, sehingga untuk memenuhi kebutuhan penerimaan pajak tersebut diperlukan pemberian akses yang luas bagi otoritas perpajakan untuk menerima dan memperoleh informasi keuangan bagi kepentingan perpajakan;"
+                      }
+                    ]
+                  },
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "LETTER_WITH_DOT",
+                        "text": "b."
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "bahwa saat ini masih terdapat keterbatasan akses bagi otoritas perpajakan Indonesia untuk menerima dan memperoleh informasi keuangan yang diatur dalam undang-undang di bidang perpajakan, perbankan, perbankan syariah, dan pasar modal, serta peraturan perundang-undangan lainnya, yang dapat mengakibatkan kendala bagi otoritas perpajakan dalam penguatan basis data perpajakan untuk memenuhi kebutuhan penerimaan pajak dan menjaga keberlanjutan efektivitas kebijakan pengampunan pajak;"
+                      }
+                    ]
+                  },
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "LETTER_WITH_DOT",
+                        "text": "c."
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "bahwa Indonesia telah mengikatkan diri pada perjanjian internasional di bidang perpajakan yang berkewajiban untuk memenuhi komitmen keikutsertaan dalam mengimplementasikan pertukaran informasi keuangan secara otomatis (Automatic Exchange of Financial Account Information) dan harus segera membentuk peraturan perundang-undangan setingkat undang-undang mengenai akses informasi keuangan untuk kepentingan perpajakan sebelum tanggal 30 Juni 2017;"
+                      }
+                    ]
+                  },
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "LETTER_WITH_DOT",
+                        "text": "d."
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "bahwa Presiden telah menetapkan Peraturan Pemerintah Pengganti Undang-Undang Nomor 1 Tahun 2017 tentang Akses Informasi Keuangan Untuk Kepentingan Perpajakan pada tanggal 8 Mei 2017;"
+                      }
+                    ]
+                  },
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "LETTER_WITH_DOT",
+                        "text": "e."
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "bahwa berdasarkan pertimbangan sebagaimana dimaksud dalam huruf a, huruf b, huruf c, dan huruf d, perlu membentuk Undang-Undang tentang Penetapan Peraturan Pemerintah Pengganti Undang Undang Nomor 1 Tahun 2017 tentang Akses Informasi Keuangan Untuk Kepentingan Perpajakan Menjadi Undang-Undang."
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "PRINCIPLES",
+            "id": "",
+            "children": [
+              {
+                "type": "PLAINTEXT",
+                "text": "Mengingat:"
+              },
+              {
+                "type": "PLAINTEXT",
+                "text": "Pasal 5 ayat (1), Pasal 20, dan Pasal 22 ayat (2) Undang-Undang Dasar Negara Republik Indonesia Tahun 1945."
+              }
+            ]
+          },
+          {
+            "type": "AGREEMENT",
+            "id": "",
+            "children": [
+              {
+                "type": "PLAINTEXT",
+                "text": "Dengan Persetujuan Bersama"
+              },
+              {
+                "type": "PLAINTEXT",
+                "text": "DEWAN PERWAKILAN RAKYAT REPUBLIK INDONESIA"
+              },
+              {
+                "type": "PLAINTEXT",
+                "text": "DAN"
+              },
+              {
+                "type": "PLAINTEXT",
+                "text": "PRESIDEN REPUBLIK INDONESIA"
+              },
+              {
+                "type": "PLAINTEXT",
+                "text": "MEMUTUSKAN:"
+              },
+              {
+                "type": "PLAINTEXT",
+                "text": "Menetapkan:"
+              },
+              {
+                "type": "PLAINTEXT",
+                "text": "UNDANG-UNDANG TENTANG PENETAPAN PERATURAN PEMERINTAH PENGGANTI UNDANG UNDANG NOMOR 1 TAHUN 2017 TENTANG AKSES INFORMASI KEUANGAN UNTUK KEPENTINGAN PERPAJAKAN MENJADI UNDANG-UNDANG"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "PASAL",
+        "id": "pasal-1",
+        "children": [
+          {
+            "type": "PASAL_NUMBER",
+            "text": "Pasal 1"
+          },
+          {
+            "type": "PLAINTEXT",
+            "text": "Peraturan Pemerintah Pengganti Undang-Undang Nomor 1 Tahun 2017 tentang Akses Informasi Keuangan Untuk Kepentingan Perpajakan (Lembaran Negara Republik Indonesia Tahun 2017 Nomor 95, Tambahan Lembaran Negara Republik Indonesia Nomor 6051) ditetapkan menjadi Undang-Undang dan melampirkannya sebagai bagian yang tidak terpisahkan dari Undang-Undang ini."
+          }
+        ]
+      },
+      {
+        "type": "PASAL",
+        "id": "pasal-2",
+        "children": [
+          {
+            "type": "PASAL_NUMBER",
+            "text": "Pasal 2"
+          },
+          {
+            "type": "PLAINTEXT",
+            "text": "Undang-Undang ini mulai berlaku pada tanggal diundangkan."
+          },
+          {
+            "type": "PLAINTEXT",
+            "text": "Agar setiap orang mengetahuinya, memerintahkan pengundangan Undang-Undang ini dengan penempatannya dalam Lembaran Negara Republik Indonesia."
+          }
+        ]
+      },
+      {
+        "type": "CLOSING",
+        "id": "",
+        "children": [
+          {
+            "type": "PLAINTEXT",
+            "text": "Disahkan Di Jakarta,"
+          },
+          {
+            "type": "PLAINTEXT",
+            "text": "Pada Tanggal 23 Agustus 2017"
+          },
+          {
+            "type": "PLAINTEXT",
+            "text": "PRESIDEN REPUBLIK INDONESIA,"
+          },
+          {
+            "type": "PLAINTEXT",
+            "text": "Ttd."
+          },
+          {
+            "type": "PLAINTEXT",
+            "text": "JOKO WIDODO"
+          },
+          {
+            "type": "PLAINTEXT",
+            "text": "Diundangkan Di Jakarta,"
+          },
+          {
+            "type": "PLAINTEXT",
+            "text": "Pada Tanggal 23 Agustus 2017"
+          },
+          {
+            "type": "PLAINTEXT",
+            "text": "MENTERI HUKUM DAN HAK ASASI MANUSIA REPUBLIK INDONESIA,"
+          },
+          {
+            "type": "PLAINTEXT",
+            "text": "Ttd."
+          },
+          {
+            "type": "PLAINTEXT",
+            "text": "YASONNA H. LAOLY"
+          },
+          {
+            "type": "LEMBARAN_NUMBER",
+            "text": "LEMBARAN NEGARA REPUBLIK INDONESIA TAHUN 2017 NOMOR 190"
+          }
+        ]
+      },
+      {
+        "type": "PENJELASAN",
+        "id": "penjelasan",
+        "children": [
+          {
+            "type": "PENJELASAN_TITLE",
+            "id": "",
+            "children": [
+              {
+                "type": "PLAINTEXT",
+                "text": "PENJELASAN"
+              },
+              {
+                "type": "PLAINTEXT",
+                "text": "UNDANG-UNDANG REPUBLIK INDONESIA"
+              },
+              {
+                "type": "UU_TITLE_YEAR_AND_NUMBER",
+                "text": "NOMOR 9 TAHUN 2017"
+              },
+              {
+                "type": "PLAINTEXT",
+                "text": "TENTANG"
+              },
+              {
+                "type": "UU_TITLE_TOPIC",
+                "text": "PENETAPAN PERATURAN PEMERINTAH PENGGANTI UNDANG-UNDANG NOMOR 1 TAHUN 2017 TENTANG AKSES INFORMASI KEUANGAN UNTUK KEPENTINGAN PERPAJAKAN MENJADI UNDANG-UNDANG"
+              }
+            ]
+          },
+          {
+            "type": "PENJELASAN_UMUM",
+            "id": "",
+            "children": [
+              {
+                "type": "PENJELASAN_UMUM_TITLE",
+                "text": "I. UMUM"
+              },
+              {
+                "type": "PLAINTEXT",
+                "text": "Dalam rangka melaksanakan pembangunan nasional Negara Kesatuan Republik Indonesia yang bertujuan untuk menyejahterakan dan memakmurkan seluruh rakyat Indonesia secara merata dan berkeadilan, sesuai dengan amanat Pembukaan Undang-Undang Dasar Negara Republik Indonesia Tahun 1945, dibutuhkan pendanaan yang bersumber dari penerimaan negara terutama yang berasal dari pajak, yang pemungutannya diatur dengan undang-undang sebagai perwujudan ketentuan Pasal 23A Undang-Undang Dasar Negara Republik Indonesia Tahun 1945."
+              },
+              {
+                "type": "PLAINTEXT",
+                "text": "Upaya pemungutan pajak untuk kepentingan pembangunan nasional masih mengalami kendala baik yang berasal dari faktor internal maupun dari faktor eksternal. Dalam mengatasi kendala dari faktor internal, saat ini Pemerintah telah dan sedang melakukan reformasi perpajakan pada Direktorat Jenderal Pajak dengan tujuan antara lain untuk memperbaiki organisasi, proses kerja, pengelolaan data dan informasi dari perbankan, serta sumber daya manusia. Sedangkan dari faktor eksternal, selain terjadinya pelemahan ekonomi dan perdagangan global, juga masih banyak ditemukannya Wajib Pajak yang melakukan penghindaran pajak ke luar Indonesia. Dengan adanya pusat-pusat pelarian pajak/perlindungan dari pengenaan pajak (tax haven), dan belum adanya mekanisme serta aturan yang mengharuskan pertukaran informasi antar negara dan yurisdiksi, semakin mempersulit upaya pengumpulan pajak di Indonesia yang berdasarkan pada sistem self-assesment."
+              },
+              {
+                "type": "PLAINTEXT",
+                "text": "Sementara itu, pengawasan Wajib Pajak dalam memenuhi kewajiban perpajakannya secara self assessment tersebut merupakan hal yang esensial untuk meningkatkan penerimaan pajak. Pengawasan tersebut dapat dilaksanakan dengan optimal sepanjang telah tersedianya akses yang luas bagi otoritas perpajakan untuk menerima dan memperoleh informasi keuangan bagi kepentingan perpajakan dalam pembentukan basis data perpajakan yang lebih kuat dan akurat."
+              },
+              {
+                "type": "PLAINTEXT",
+                "text": "Ketentuan peraturan perundang-undangan di bidang perpajakan, perbankan, perbankan syariah, dan pasar modal, serta peraturan perundang-undangan lainnya yang berlaku saat ini telah membatasi akses otoritas perpajakan untuk menerima dan memperoleh informasi keuangan, baik dari sisi prosedur maupun persyaratan. Kondisi keterbatasan akses tersebut dimanfaatkan Wajib Pajak untuk tidak patuh melaporkan penghasilan dan harta sesungguhnya. Hal ini dapat menghambat terwujudnya keberlanjutan efektivitas kebijakan pengampunan pajak dan penguatan basis data perpajakan, serta Indonesia berpotensi menjadi negara tujuan penempatan dana ilegal."
+              },
+              {
+                "type": "PLAINTEXT",
+                "text": "Di samping itu, Indonesia telah mengikatkan diri pada perjanjian internasional di bidang perpajakan dengan banyak negara/yurisdiksi, yang di dalamnya juga mengatur mengenai pertukaran informasi termasuk pertukaran informasi keuangan secara otomatis (Automatic Exchange of Financial Account Information) sesuai dengan standar internasional yang disepakati. Salah satu persyaratan yang harus dipenuhi oleh Indonesia untuk mengimplementasikan pertukaran informasi keuangan secara otomatis adalah membentuk aturan domestik yang mengatur mengenai kewenangan otoritas perpajakan untuk mengakses informasi keuangan, kewajiban bagi lembaga jasa keuangan, lembaga jasa keuangan lainnya, dan/atau entitas lain untuk melaporkan informasi keuangan secara otomatis kepada otoritas perpajakan, melakukan prosedur identifikasi rekening keuangan untuk kepentingan pelaporan dimaksud, serta adanya penerapan sanksi bagi ketidakpatuhan atas kewajiban-kewajiban tersebut."
+              },
+              {
+                "type": "PLAINTEXT",
+                "text": "Untuk mengatasi hal tersebut di atas, Presiden telah menetapkan Peraturan Pemerintah Pengganti Undang-Undang Nomor 1 Tahun 2017 tentang Akses Informasi Keuangan Untuk Kepentingan Perpajakan pada tanggal 8 Mei 2017, guna memberikan kepastian hukum mengenai pemberian akses yang luas bagi otoritas perpajakan dalam menerima dan memperoleh informasi keuangan bagi kepentingan perpajakan dan memenuhi komitmen Indonesia dalam perjanjian internasional terkait dengan pertukaran informasi keuangan secara otomatis."
+              },
+              {
+                "type": "PLAINTEXT",
+                "text": "Peraturan Pemerintah Pengganti Undang-Undang Nomor 1 Tahun 2017 tentang Akses Informasi Keuangan Untuk Kepentingan Perpajakan telah mendapat persetujuan Dewan Perwakilan Rakyat untuk kemudian disahkan menjadi Undang-Undang tentang Penetapan Peraturan Pemerintah Pengganti Undang-Undang Nomor 1 Tahun 2017 tentang Akses Informasi Keuangan untuk Kepentingan Perpajakan menjadi Undang-Undang berdasarkan ketentuan Pasal 22 ayat (2) Undang Undang Dasar Negara Republik Indonesia Tahun 1945."
+              }
+            ]
+          },
+          {
+            "type": "PENJELASAN_PASAL_DEMI_PASAL",
+            "id": "",
+            "children": [
+              {
+                "type": "PENJELASAN_PASAL_DEMI_PASAL_TITLE",
+                "text": "II. PASAL DEMI PASAL"
+              },
+              {
+                "type": "PENJELASAN_PASAL",
+                "id": "",
+                "children": [
+                  {
+                    "type": "PASAL_NUMBER",
+                    "text": "Pasal 1"
+                  },
+                  {
+                    "type": "PLAINTEXT",
+                    "text": "Cukup jelas."
+                  }
+                ]
+              },
+              {
+                "type": "PENJELASAN_PASAL",
+                "id": "",
+                "children": [
+                  {
+                    "type": "PASAL_NUMBER",
+                    "text": "Pasal 2"
+                  },
+                  {
+                    "type": "PLAINTEXT",
+                    "text": "Cukup jelas."
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}
