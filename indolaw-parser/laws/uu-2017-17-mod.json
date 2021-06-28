@@ -1,0 +1,930 @@
+{
+  "metadata": {
+    "lembaranNegaraNumber": 240,
+    "lembaranNegaraYear": 2017,
+    "tambahanLembaranNumber": 6140,
+    "number": 17,
+    "topic": "Pengesahan Protocol Amending The Marrakesh Agreement Establishing The World Trade Organization (protokol Perubahan Persetujuan Marrakesh Mengenai Pembentukan Organisasi Perdagangan Dunia)",
+    "year": 2017
+  },
+  "content": {
+    "type": "UNDANG_UNDANG",
+    "id": "",
+    "children": [
+      {
+        "type": "OPENING",
+        "id": "",
+        "children": [
+          {
+            "type": "UU_TITLE",
+            "id": "",
+            "children": [
+              {
+                "type": "PLAINTEXT",
+                "text": "UNDANG-UNDANG REPUBLIK INDONESIA"
+              },
+              {
+                "type": "UU_TITLE_YEAR_AND_NUMBER",
+                "text": "NOMOR 17 TAHUN 2017"
+              },
+              {
+                "type": "PLAINTEXT",
+                "text": "TENTANG"
+              },
+              {
+                "type": "UU_TITLE_TOPIC",
+                "text": "PENGESAHAN PROTOCOL AMENDING THE MARRAKESH AGREEMENT ESTABLISHING THE WORLD TRADE ORGANIZATION (PROTOKOL PERUBAHAN PERSETUJUAN MARRAKESH MENGENAI PEMBENTUKAN ORGANISASI PERDAGANGAN DUNIA)"
+              }
+            ]
+          },
+          {
+            "type": "PREFACE",
+            "id": "",
+            "children": [
+              {
+                "type": "PLAINTEXT",
+                "text": "DENGAN RAHMAT TUHAN YANG MAHA ESA"
+              },
+              {
+                "type": "PLAINTEXT",
+                "text": "PRESIDEN REPUBLIK INDONESIA,"
+              }
+            ]
+          },
+          {
+            "type": "CONSIDERATIONS",
+            "id": "",
+            "children": [
+              {
+                "type": "PLAINTEXT",
+                "text": "Menimbang:"
+              },
+              {
+                "type": "LIST",
+                "id": "",
+                "children": [
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "LETTER_WITH_DOT",
+                        "text": "a."
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "bahwa kegiatan perdagangan merupakan salah satu sektor utama penggerak perekonomian nasional yang dapat dilakukan melalui kerja sama perdagangan internasional untuk mendukung program program pembangunan nasional di bidang ekonomi dalam rangka memajukan kesejahteraan umum sebagaimana diamanatkan Undang-Undang Dasar Negara Republik Indonesia Tahun 1945;"
+                      }
+                    ]
+                  },
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "LETTER_WITH_DOT",
+                        "text": "b."
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "bahwa Anggota World Trade Organization (WTO) pada Konferensi Tingkat Menteri ke-9 telah menyepakati Persetujuan Fasilitasi Perdagangan yang akan menjadi bagian tidak terpisahkan dari Persetujuan WTO melalui pengesahan Protocol Amending the Marrakesh Agreement Establishing the World Trade Organization (Protokol Perubahan Persetujuan Marrakesh mengenai Pembentukan Organisasi Perdagangan Dunia) yang telah diadopsi oleh Dewan Umum WTO pada tanggal 27 November 2014 di Jenewa, Swiss;"
+                      }
+                    ]
+                  },
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "LETTER_WITH_DOT",
+                        "text": "c."
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "bahwa sebagai dasar hukum dalam memberlakukan ketentuan-ketentuan Persetujuan Fasilitasi Perdagangan termasuk perubahan dalam struktur Persetujuan WTO dan sesuai ketentuan Pasal 16 ayat (3) Undang-Undang Nomor 24 Tahun 2000 tentang Perjanjian Internasional, perlu mengesahkan Protokol dimaksud dengan Undang-Undang;"
+                      }
+                    ]
+                  },
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "LETTER_WITH_DOT",
+                        "text": "d."
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "bahwa berdasarkan pertimbangan sebagaimana dimaksud dalam huruf a, huruf b, dan huruf c, perlu membentuk Undang-Undang tentang Pengesahan Protocol Amending the Marrakesh Agreement Establishing the World Trade Organization (Protokol Perubahan Persetujuan Marrakesh mengenai Pembentukan Organisasi Perdagangan Dunia)."
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "PRINCIPLES",
+            "id": "",
+            "children": [
+              {
+                "type": "PLAINTEXT",
+                "text": "Mengingat:"
+              },
+              {
+                "type": "LIST",
+                "id": "",
+                "children": [
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "NUMBER_WITH_DOT",
+                        "text": "1."
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "Pasal 5 ayat (1), Pasal 11, dan Pasal 20 Undang-Undang Dasar Negara Republik Indonesia Tahun 1945;"
+                      }
+                    ]
+                  },
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "NUMBER_WITH_DOT",
+                        "text": "2."
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "Undang-Undang Nomor 7 Tahun 1994 Tentang Pengesahan Agreement Establishing the World Trade Organization (Persetujuan Pembentukan Organisasi Perdagangan Dunia) (Lembaran Negara Republik Indonesia Tahun 1994 Nomor 57, Tambahan Lembaran Negara Republik Indonesia Nomor 3564);"
+                      }
+                    ]
+                  },
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "NUMBER_WITH_DOT",
+                        "text": "3."
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "Undang-Undang Nomor 24 Tahun 2000 Tentang Perjanjian Internasional (Lembaran Negara Republik Indonesia Tahun 2000 Nomor 185, Tambahan Lembaran Negara Republik Indonesia Nomor 4012);"
+                      }
+                    ]
+                  },
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "NUMBER_WITH_DOT",
+                        "text": "4."
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "Undang-Undang Nomor 7 Tahun 2014 Tentang Perdagangan (Lembaran Negara Republik Indonesia Tahun 2014 Nomor 45, Tambahan Lembaran Negara Republik Indonesia Nomor 5512)."
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "AGREEMENT",
+            "id": "",
+            "children": [
+              {
+                "type": "PLAINTEXT",
+                "text": "Dengan Persetujuan Bersama"
+              },
+              {
+                "type": "PLAINTEXT",
+                "text": "DEWAN PERWAKILAN RAKYAT REPUBLIK INDONESIA"
+              },
+              {
+                "type": "PLAINTEXT",
+                "text": "dan"
+              },
+              {
+                "type": "PLAINTEXT",
+                "text": "PRESIDEN REPUBLIK INDONESIA"
+              },
+              {
+                "type": "PLAINTEXT",
+                "text": "MEMUTUSKAN:"
+              },
+              {
+                "type": "PLAINTEXT",
+                "text": "Menetapkan:"
+              },
+              {
+                "type": "PLAINTEXT",
+                "text": "UNDANG-UNDANG TENTANG PENGESAHAN PROTOCOL AMENDING THE MARRAKESH AGREEMENT ESTABLISHING THE WORLD TRADE ORGANIZATION (PROTOKOL PERUBAHAN PERSETUJUAN MARRAKESH MENGENAI PEMBENTUKAN ORGANISASI PERDAGANGAN DUNIA)"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "PASAL",
+        "id": "pasal-1",
+        "children": [
+          {
+            "type": "PASAL_NUMBER",
+            "text": "Pasal 1"
+          },
+          {
+            "type": "PLAINTEXT",
+            "text": "Mengesahkan Protocol Amending the Marrakesh Agreement Establishing the World Trade Organization (Protokol Perubahan Persetujuan Marrakesh mengenai Pembentukan Organisasi Perdagangan Dunia) yang salinan naskah aslinya dalam bahasa Inggris, bahasa Perancis, bahasa Spanyol dan terjemahannya dalam bahasa Indonesia sebagaimana terlampir dan merupakan bagian yang tidak terpisahkan dari Undang Undang ini."
+          }
+        ]
+      },
+      {
+        "type": "PASAL",
+        "id": "pasal-2",
+        "children": [
+          {
+            "type": "PASAL_NUMBER",
+            "text": "Pasal 2"
+          },
+          {
+            "type": "PLAINTEXT",
+            "text": "Undang-Undang ini mulai berlaku pada tanggal diundangkan."
+          },
+          {
+            "type": "PLAINTEXT",
+            "text": "Agar setiap orang mengetahuinya, memerintahkan pengundangan Undang-Undang ini dengan penempatannya dalam Lembaran Negara Republik Indonesia."
+          }
+        ]
+      },
+      {
+        "type": "CLOSING",
+        "id": "",
+        "children": [
+          {
+            "type": "PLAINTEXT",
+            "text": "Disahkan Di Jakarta,"
+          },
+          {
+            "type": "PLAINTEXT",
+            "text": "Pada Tanggal 22 November 2017"
+          },
+          {
+            "type": "PLAINTEXT",
+            "text": "PRESIDEN REPUBLIK INDONESIA,"
+          },
+          {
+            "type": "PLAINTEXT",
+            "text": "Ttd."
+          },
+          {
+            "type": "PLAINTEXT",
+            "text": "JOKO WIDODO"
+          },
+          {
+            "type": "PLAINTEXT",
+            "text": "Diundangkan Di Jakarta,"
+          },
+          {
+            "type": "PLAINTEXT",
+            "text": "Pada Tanggal 22 November 2017"
+          },
+          {
+            "type": "PLAINTEXT",
+            "text": "MENTERI HUKUM DAN HAK ASASI MANUSIA REPUBLIK INDONESIA,"
+          },
+          {
+            "type": "PLAINTEXT",
+            "text": "Ttd."
+          },
+          {
+            "type": "PLAINTEXT",
+            "text": "YASONNA H. LAOLY"
+          },
+          {
+            "type": "LEMBARAN_NUMBER",
+            "text": "LEMBARAN NEGARA REPUBLIK INDONESIA TAHUN 2017 NOMOR 240"
+          }
+        ]
+      },
+      {
+        "type": "PENJELASAN",
+        "id": "penjelasan",
+        "children": [
+          {
+            "type": "PENJELASAN_TITLE",
+            "id": "",
+            "children": [
+              {
+                "type": "PLAINTEXT",
+                "text": "PENJELASAN"
+              },
+              {
+                "type": "PLAINTEXT",
+                "text": "UNDANG-UNDANG REPUBLIK INDONESIA"
+              },
+              {
+                "type": "UU_TITLE_YEAR_AND_NUMBER",
+                "text": "NOMOR 17 TAHUN 2017"
+              },
+              {
+                "type": "PLAINTEXT",
+                "text": "TENTANG"
+              },
+              {
+                "type": "UU_TITLE_TOPIC",
+                "text": "PENGESAHAN PROTOCOL AMENDING THE MARRAKESH AGREEMENT ESTABLISHING THE WORLD TRADE ORGANIZATION (PROTOKOL PERUBAHAN PERSETUJUAN MARRAKESH MENGENAI PEMBENTUKAN ORGANISASI PERDAGANGAN DUNIA)"
+              }
+            ]
+          },
+          {
+            "type": "PENJELASAN_UMUM",
+            "id": "",
+            "children": [
+              {
+                "type": "PENJELASAN_UMUM_TITLE",
+                "text": "I. UMUM"
+              },
+              {
+                "type": "PLAINTEXT",
+                "text": "Kegiatan perdagangan merupakan salah satu sektor utama penggerak perekonomian nasional dan pendukung kegiatan pembangunan nasional di bidang ekonomi. Kegiatan pembangunan nasional di bidang ekonomi disusun dan dilaksanakan untuk memajukan kesejahteraan umum melalui pelaksanaan demokrasi ekonomi dengan prinsip kebersamaan, efisiensi berkeadilan, berkelanjutan, berwawasan lingkungan, kemandirian, serta dengan menjaga keseimbangan kemajuan dan kesatuan ekonomi nasional sebagaimana diamanatkan Undang-Undang Dasar Negara Republik Indonesia Tahun 1945."
+              },
+              {
+                "type": "PLAINTEXT",
+                "text": "Dalam era globalisasi, di mana perdagangan menjadi semakin bersifat lintas batas, perundingan dalam bidang perdagangan internasional merupakan hal yang lazim dan penting dalam kebijakan perdagangan tiap negara. Indonesia terlibat secara aktif dalam berbagai fora perundingan perdagangan sebagai salah satu cara untuk menggerakkan perekonomian nasional dan mendukung pembangunan nasional di bidang ekonomi."
+              },
+              {
+                "type": "PLAINTEXT",
+                "text": "Salah satu bentuk keterlibatan aktif Indonesia dalam fora perundingan perdagangan multilateral adalah keanggotaan Indonesia dalam Organisasi Perdagangan Dunia (World Trade Organization/WTO). Indonesia merupakan salah satu Anggota pertama WTO, dan ke depannya ikut terlibat aktif dalam perundingan-perundingan WTO."
+              },
+              {
+                "type": "PLAINTEXT",
+                "text": "Indonesia telah berhasil menyelenggarakan Konferensi Tingkat Menteri (KTM) IX WTO di Bali, pada tanggal 3-7 Desember 2013 yang menyepakati Paket Bali sebagai suatu kesepakatan perundingan perdagangan internasional dalam bidang pertanian, fasilitasi perdagangan, dan pembangunan. Kesepakatan dalam bidang fasilitasi perdagangan dituangkan dalam bentuk Trade Facilitation Agreement (TFA)."
+              },
+              {
+                "type": "PLAINTEXT",
+                "text": "TFA merupakan persetujuan multilateral WTO pertama yang disepakati sejak pembentukan WTO pada tahun 1994 yang mengatur aspek fasilitasi perdagangan bagi Anggota-Anggota WTO dengan menerapkan praktik terbaik (best practices) dalam bidang fasilitasi perdagangan."
+              },
+              {
+                "type": "PLAINTEXT",
+                "text": "Keberadaan TFA sebagai tanggapan atas meningkatnya perdagangan lintas batas yang menyebabkan efek leher botol (bottleneck effect) dalam perdagangan internasional. TFA diharapkan dapat mengurangi hambatan perdagangan dan mempercepat proses pelepasan barang."
+              },
+              {
+                "type": "PLAINTEXT",
+                "text": "Ketentuan dalam TFA sejalan dengan arah kebijakan dan semangat reformasi perekonomian Indonesia dalam bidang fasilitasi perdagangan. Adapun manfaat yang diharapkan dari penerapan TFA bagi perdagangan Indonesia yaitu:"
+              },
+              {
+                "type": "LIST",
+                "id": "",
+                "children": [
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "NUMBER_WITH_DOT",
+                        "text": "1."
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "kelancaran dan peningkatan perdagangan barang pada pasar ekspor tradisional dan pasar ekspor non-tradisional;"
+                      }
+                    ]
+                  },
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "NUMBER_WITH_DOT",
+                        "text": "2."
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "pengurangan biaya logistik dan biaya perdagangan yang dikeluarkan oleh pelaku usaha;"
+                      }
+                    ]
+                  },
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "NUMBER_WITH_DOT",
+                        "text": "3."
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "peningkatan akses ekspor bagi Usaha Mikro Kecil Menengah;"
+                      }
+                    ]
+                  },
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "NUMBER_WITH_DOT",
+                        "text": "4."
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "peningkatan transparansi dalam proses ekspor-impor."
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "PLAINTEXT",
+                "text": "TFA terbagi ke dalam 3 (tiga) bagian. Bagian pertama mengatur tentang ketentuan-ketentuan teknis yang wajib dijalankan oleh Anggota-Anggota WTO terkait aspek fasilitasi perdagangan. Bagian kedua mengatur tentang Special and Differential Treatment (SDT) yang diberikan kepada Anggota-Anggota WTO yang masuk ke dalam kategori negara berkembang (developing countries) dan negara kurang berkembang (Least Developed Countries/LDCs). Bagian ketiga mengatur tentang pengaturan kelembagaan dan ketentuan-ketentuan akhir dari TFA."
+              },
+              {
+                "type": "PLAINTEXT",
+                "text": "Beberapa bagian penting dari Bagian pertama TFA adalah:"
+              },
+              {
+                "type": "LIST",
+                "id": "",
+                "children": [
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "NUMBER_WITH_DOT",
+                        "text": "1."
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "Publikasi dan Ketersediaan Informasi"
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "Kewajiban untuk melakukan publikasi dan menyediakan informasi terkait kegiatan yang berkaitan dengan fasilitasi perdagangan termasuk menyediakan hal-hal tertentu dalam jaringan. Ketentuan ini juga mengatur tentang penunjukan enquiry point dan prosedur notifikasi."
+                      }
+                    ]
+                  },
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "NUMBER_WITH_DOT",
+                        "text": "2."
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "Kesempatan Memberikan Komentar, Memperoleh Informasi Sebelum Pemberlakuan dan Konsultasi"
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "Kewajiban untuk menyediakan kesempatan bagi pihak-pihak terkait untuk memberikan komentar terkait dengan rancangan dan perubahan terhadap instrumen hukum terkait dengan fasilitasi perdagangan. Ketentuan ini juga mengatur tentang kewajiban untuk mengadakan konsultasi rutin dengan para pemangku kepentingan."
+                      }
+                    ]
+                  },
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "NUMBER_WITH_DOT",
+                        "text": "3."
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "Advance Rulings"
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "Kewajiban untuk menyediakan keputusan awal (advance rulings) tertulis mengenai permintaan dari pedagang terkait klasifikasi tarif atau asal barang (origin). Advance rulings tersebut harus bersifat mengikat bagi institusi kepabeanan dan tetap berlaku secara sah untuk jangka waktu tertentu."
+                      }
+                    ]
+                  },
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "NUMBER_WITH_DOT",
+                        "text": "4."
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "Banding atau Prosedur Tinjauan"
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "Kewajiban untuk memberikan hak bagi pelaku usaha untuk mengajukan banding dan hak tersebut harus bersifat non-diskriminasi. Banding yang dilakukan dapat berupa banding administratif atau hukum."
+                      }
+                    ]
+                  },
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "NUMBER_WITH_DOT",
+                        "text": "5."
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "Kebijakan Lain Guna Memperkuat Netralitas, Non-Diskriminasi dan Transparansi"
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "Kewajiban pengawasan atau pemeriksaan di perbatasan terkait produk makanan, minuman atau pakan ternak guna melindungi kesehatan dan keselamatan manusia, hewan, atau tumbuh tumbuhan, jika dilakukan penahanan barang impor, maka penahanan tersebut harus segera diberitahukan ke importir dan terjaminnya hak importir untuk memperoleh tes uji kedua."
+                      }
+                    ]
+                  },
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "NUMBER_WITH_DOT",
+                        "text": "6."
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "Ketentuan-Ketentuan mengenai Biaya dan Ongkos yang Dibebankan pada atau yang Terkait dengan Kegiatan Impor dan Ekspor"
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "Ketentuan-ketentuan mengenai biaya dan ongkos yang dibebankan pada atau yang terkait dengan kegiatan impor dan ekspor terkait dengan publikasi biaya dan ongkos, standar terkait biaya dan ongkos, serta ketentuan sanksi kepabeanan."
+                      }
+                    ]
+                  },
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "NUMBER_WITH_DOT",
+                        "text": "7."
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "Pelepasan dan Izin Barang"
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "Kewajiban terkait dengan standar pelaksanaan pelepasan dan izin barang."
+                      }
+                    ]
+                  },
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "NUMBER_WITH_DOT",
+                        "text": "8."
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "Kerja Sama Badan di Perbatasan"
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "Kewajiban untuk bekerja sama dan berkoordinasi antara otoritas perbatasan terkait pengawasan perbatasan dan prosedur fasilitasi perdagangan."
+                      }
+                    ]
+                  },
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "NUMBER_WITH_DOT",
+                        "text": "9."
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "Pergerakan Barang dalam Pengawasan Bea dan Cukai yang Ditujukan untuk Impor"
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "Kewajiban, sejauh dapat dilaksanakan dan semua syarat terpenuhi, untuk mengizinkan perpindahan barang dari satu kantor kepabeanan di pintu masuk ke kantor kepabeanan lainnya tempat barang akan dilepaskan."
+                      }
+                    ]
+                  },
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "NUMBER_WITH_DOT",
+                        "text": "10."
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "Formalitas Terkait Importasi, Eksportasi dan Transit"
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "Ketentuan terkait dengan kewajiban dalam hal Importasi, Eksportasi, dan Transit, antara lain:"
+                      },
+                      {
+                        "type": "LIST",
+                        "id": "",
+                        "children": [
+                          {
+                            "type": "LIST_ITEM",
+                            "id": "",
+                            "children": [
+                              {
+                                "type": "LETTER_WITH_DOT",
+                                "text": "a."
+                              },
+                              {
+                                "type": "PLAINTEXT",
+                                "text": "formalitas dan persyaratan dokumentasi;"
+                              }
+                            ]
+                          },
+                          {
+                            "type": "LIST_ITEM",
+                            "id": "",
+                            "children": [
+                              {
+                                "type": "LETTER_WITH_DOT",
+                                "text": "b."
+                              },
+                              {
+                                "type": "PLAINTEXT",
+                                "text": "penerimaan salinan;"
+                              }
+                            ]
+                          },
+                          {
+                            "type": "LIST_ITEM",
+                            "id": "",
+                            "children": [
+                              {
+                                "type": "LETTER_WITH_DOT",
+                                "text": "c."
+                              },
+                              {
+                                "type": "PLAINTEXT",
+                                "text": "penggunaan standar internasional;"
+                              }
+                            ]
+                          },
+                          {
+                            "type": "LIST_ITEM",
+                            "id": "",
+                            "children": [
+                              {
+                                "type": "LETTER_WITH_DOT",
+                                "text": "d."
+                              },
+                              {
+                                "type": "PLAINTEXT",
+                                "text": "sistem perizinan satu atap;"
+                              }
+                            ]
+                          },
+                          {
+                            "type": "LIST_ITEM",
+                            "id": "",
+                            "children": [
+                              {
+                                "type": "LETTER_WITH_DOT",
+                                "text": "e."
+                              },
+                              {
+                                "type": "PLAINTEXT",
+                                "text": "pemeriksaan sebelum pengiriman barang;"
+                              }
+                            ]
+                          },
+                          {
+                            "type": "LIST_ITEM",
+                            "id": "",
+                            "children": [
+                              {
+                                "type": "LETTER_WITH_DOT",
+                                "text": "f."
+                              },
+                              {
+                                "type": "PLAINTEXT",
+                                "text": "penggunaan perantara kepabeanan;"
+                              }
+                            ]
+                          },
+                          {
+                            "type": "LIST_ITEM",
+                            "id": "",
+                            "children": [
+                              {
+                                "type": "LETTER_WITH_DOT",
+                                "text": "g."
+                              },
+                              {
+                                "type": "PLAINTEXT",
+                                "text": "prosedur-prosedur perbatasan yang umum dan keseragaman persyaratan dokumentasi;"
+                              }
+                            ]
+                          },
+                          {
+                            "type": "LIST_ITEM",
+                            "id": "",
+                            "children": [
+                              {
+                                "type": "LETTER_WITH_DOT",
+                                "text": "h."
+                              },
+                              {
+                                "type": "PLAINTEXT",
+                                "text": "barang-barang yang ditolak;"
+                              }
+                            ]
+                          },
+                          {
+                            "type": "LIST_ITEM",
+                            "id": "",
+                            "children": [
+                              {
+                                "type": "LETTER_WITH_DOT",
+                                "text": "i."
+                              },
+                              {
+                                "type": "PLAINTEXT",
+                                "text": "penerimaan sementara barang-barang/proses pengolahan di dalam dan di luar daerah pabean."
+                              }
+                            ]
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "NUMBER_WITH_DOT",
+                        "text": "11."
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "Kebebasan Transit"
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "Kewajiban untuk tidak menerapkan peraturan terkait transit jika memungkinkan atau jika solusi yang tidak lebih menghambat perdagangan tersedia."
+                      }
+                    ]
+                  },
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "NUMBER_WITH_DOT",
+                        "text": "12."
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "Kerja Sama Kepabeanan"
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "Aturan tentang kerja sama antar institusi kepabeanan."
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "PLAINTEXT",
+                "text": "Bagian kedua TFA mengatur tentang SDT yang diberikan kepada Anggota WTO yang masuk kategori negara berkembang (developing countries) dan negara kurang berkembang (Least Developed Countries/LDCs). Dalam skema SDT tersebut, developing countries dan LDCs diberikan kesempatan untuk mengkategorisasikan ketentuan dalam TFA ke dalam kategori-kategori tertentu, yaitu:"
+              },
+              {
+                "type": "LIST",
+                "id": "",
+                "children": [
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "NUMBER_WITH_DOT",
+                        "text": "1."
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "Kategori A"
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "Ketentuan yang masuk ke dalam Kategori A akan langsung berlaku ketika TFA entry into force."
+                      }
+                    ]
+                  },
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "NUMBER_WITH_DOT",
+                        "text": "2."
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "Kategori B"
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "Ketentuan yang masuk ke dalam Kategori B akan berlaku setelah jangka waktu tertentu yang ditentukan oleh Anggota, terhitung dari TFA entry into force."
+                      }
+                    ]
+                  },
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "NUMBER_WITH_DOT",
+                        "text": "3."
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "Kategori C"
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "Ketentuan yang masuk ke dalam Kategori C akan berlaku setelah jangka waktu tertentu yang ditentukan oleh Anggota, terhitung dari TFA entry into force, dan dalam implementasinya Anggota membutuhkan bantuan atau dukungan dari donor."
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "PLAINTEXT",
+                "text": "Anggota yang masuk ke dalam kategori developing countries dan LDCs melakukan seluruh proses kategorisasi komitmen tersebut dengan berlandaskan asas, self assessing dan self determining."
+              },
+              {
+                "type": "PLAINTEXT",
+                "text": "Bagian ketiga TFA mengatur tentang pengaturan kelembagaan dan ketentuan akhir. Dalam pengaturan kelembagaan, Anggota wajib memiliki sebuah komite nasional yang berfungsi sebagai lembaga yang mengawasi proses implementasi ketentuan-ketentuan dalam TFA."
+              },
+              {
+                "type": "PLAINTEXT",
+                "text": "Sebagai syarat agar TFA entry into force, ketentuan Article X.3 Persetujuan Marrakesh, menyebutkan bahwa minimal 2/3 (dua per tiga) dari jumlah Anggota WTO harus mengesahkan dan menyerahkan instrument of acceptance ke WTO. Dasar untuk meratifikasi adalah Protocol Amending the Marrakesh Agreement Establishing the World Trade Organization yang telah disepakati oleh Anggota WTO pada tanggal 27 November 2014."
+              },
+              {
+                "type": "PLAINTEXT",
+                "text": "Protocol Amending the Marrakesh Agreement Establishing the World Trade Organization akan digunakan sebagai dasar untuk mengubah struktur Persetujuan Marrakesh dengan memasukkan TFA ke dalam Annex 1A, Multilateral Agreements on Trade in Goods, yang akan berlaku sebagai instrumen hukum resmi WTO. Apabila TFA entry into force, maka ketentuan-ketentuan dalam TFA akan berlaku secara aktif bagi Anggota-Anggota WTO."
+              }
+            ]
+          },
+          {
+            "type": "PENJELASAN_PASAL_DEMI_PASAL",
+            "id": "",
+            "children": [
+              {
+                "type": "PENJELASAN_PASAL_DEMI_PASAL_TITLE",
+                "text": "II. PASAL DEMI PASAL"
+              },
+              {
+                "type": "PENJELASAN_PASAL",
+                "id": "",
+                "children": [
+                  {
+                    "type": "PASAL_NUMBER",
+                    "text": "Pasal 1"
+                  },
+                  {
+                    "type": "PLAINTEXT",
+                    "text": "Dalam hal terjadi perbedaan penafsiran antara terjemahan Protokol dalam bahasa Indonesia dengan salinan naskah asli Protokol dalam bahasa Inggris, yang digunakan adalah salinan naskah aslinya dalam bahasa Inggris."
+                  }
+                ]
+              },
+              {
+                "type": "PENJELASAN_PASAL",
+                "id": "",
+                "children": [
+                  {
+                    "type": "PASAL_NUMBER",
+                    "text": "Pasal 2"
+                  },
+                  {
+                    "type": "PLAINTEXT",
+                    "text": "Cukup jelas."
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

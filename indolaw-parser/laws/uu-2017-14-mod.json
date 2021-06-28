@@ -1,0 +1,610 @@
+{
+  "metadata": {
+    "lembaranNegaraNumber": 232,
+    "lembaranNegaraYear": 2017,
+    "tambahanLembaranNumber": 6137,
+    "number": 14,
+    "topic": "Pengesahan Persetujuan Antara Pemerintah Republik Indonesia Dan Pemerintah Negara Merdeka Papua Nugini Tentang Kegiatan Kerja Sama Di Bidang Pertahanan (agreement Between The Government Of The Republic Of Indonesia And The Government Of The Independent State Of Papua New Guinea Concerning Cooperation Activities In The Field Of Defence)",
+    "year": 2017
+  },
+  "content": {
+    "type": "UNDANG_UNDANG",
+    "id": "",
+    "children": [
+      {
+        "type": "OPENING",
+        "id": "",
+        "children": [
+          {
+            "type": "UU_TITLE",
+            "id": "",
+            "children": [
+              {
+                "type": "PLAINTEXT",
+                "text": "UNDANG-UNDANG REPUBLIK INDONESIA"
+              },
+              {
+                "type": "UU_TITLE_YEAR_AND_NUMBER",
+                "text": "NOMOR 14 TAHUN 2017"
+              },
+              {
+                "type": "PLAINTEXT",
+                "text": "TENTANG"
+              },
+              {
+                "type": "UU_TITLE_TOPIC",
+                "text": "PENGESAHAN PERSETUJUAN ANTARA PEMERINTAH REPUBLIK INDONESIA DAN PEMERINTAH NEGARA MERDEKA PAPUA NUGINI TENTANG KEGIATAN KERJA SAMA DI BIDANG PERTAHANAN (AGREEMENT BETWEEN THE GOVERNMENT OF THE REPUBLIC OF INDONESIA AND THE GOVERNMENT OF THE INDEPENDENT STATE OF PAPUA NEW GUINEA CONCERNING COOPERATION ACTIVITIES IN THE FIELD OF DEFENCE)"
+              }
+            ]
+          },
+          {
+            "type": "PREFACE",
+            "id": "",
+            "children": [
+              {
+                "type": "PLAINTEXT",
+                "text": "DENGAN RAHMAT TUHAN YANG MAHA ESA"
+              },
+              {
+                "type": "PLAINTEXT",
+                "text": "PRESIDEN REPUBLIK INDONESIA,"
+              }
+            ]
+          },
+          {
+            "type": "CONSIDERATIONS",
+            "id": "",
+            "children": [
+              {
+                "type": "PLAINTEXT",
+                "text": "Menimbang:"
+              },
+              {
+                "type": "LIST",
+                "id": "",
+                "children": [
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "LETTER_WITH_DOT",
+                        "text": "a."
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "bahwa hubungan luar negeri yang dilandasi politik bebas aktif merupakan salah satu perwujudan dari tujuan Pemerintah Negara Kesatuan Republik Indonesia untuk melindungi segenap bangsa dan seluruh tumpah darah Indonesia, memajukan kesejahteraan umum, mencerdaskan kehidupan bangsa dan ikut melaksanakan ketertiban dunia yang berdasarkan kemerdekaan, perdamaian abadi, dan keadilan sosial;"
+                      }
+                    ]
+                  },
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "LETTER_WITH_DOT",
+                        "text": "b."
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "bahwa untuk meningkatkan kerja sama di bidang pertahanan antara Pemerintah Republik Indonesia dan Pemerintah Negara Merdeka Papua Nugini, pada tanggal 12 Maret 2010 di Port Moresby, Papua Nugini telah ditandatangani Persetujuan antara Pemerintah Republik Indonesia dan Pemerintah Negara Merdeka Papua Nugini tentang Kegiatan Kerja Sama di Bidang Pertahanan (Agreement between the Government of the Republic of Indonesia and the Government of the Independent State of Papua New Guinea concerning Cooperation Activities in the Field of Defence);"
+                      }
+                    ]
+                  },
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "LETTER_WITH_DOT",
+                        "text": "c."
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "bahwa sesuai dengan ketentuan Pasal 10 Undang-Undang Nomor 24 Tahun 2000 tentang Perjanjian Internasional, Pengesahan Perjanjian Internasional berkenaan dengan pertahanan dilakukan dengan undang-undang;"
+                      }
+                    ]
+                  },
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "LETTER_WITH_DOT",
+                        "text": "d."
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "bahwa berdasarkan pertimbangan sebagaimana dimaksud dalam huruf a, huruf b, dan huruf c, perlu membentuk Undang-Undang tentang Pengesahan Persetujuan antara Pemerintah Republik Indonesia dan Pemerintah Negara Merdeka Papua Nugini tentang Kegiatan Kerja Sama di Bidang Pertahanan (Agreement between the Government of the Republic of Indonesia and the Government of the Independent State of Papua New Guinea concerning Cooperation Activities in the Field of Defence)."
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "PRINCIPLES",
+            "id": "",
+            "children": [
+              {
+                "type": "PLAINTEXT",
+                "text": "Mengingat:"
+              },
+              {
+                "type": "LIST",
+                "id": "",
+                "children": [
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "NUMBER_WITH_DOT",
+                        "text": "1."
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "Pasal 5 ayat (1), Pasal 11, Pasal 20, dan Pasal 30 ayat (2), ayat (3), dan ayat (5) Undang-Undang Dasar Negara Republik Indonesia Tahun 1945;"
+                      }
+                    ]
+                  },
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "NUMBER_WITH_DOT",
+                        "text": "2."
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "Undang-Undang Nomor 24 Tahun 2000 tentang Perjanjian Internasional (Lembaran Negara Republik Indonesia Tahun 2000 Nomor 185, Tambahan Lembaran Negara Republik Indonesia Nomor 4012)."
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "AGREEMENT",
+            "id": "",
+            "children": [
+              {
+                "type": "PLAINTEXT",
+                "text": "Dengan Persetujuan Bersama"
+              },
+              {
+                "type": "PLAINTEXT",
+                "text": "DEWAN PERWAKILAN RAKYAT REPUBLIK INDONESIA"
+              },
+              {
+                "type": "PLAINTEXT",
+                "text": "dan"
+              },
+              {
+                "type": "PLAINTEXT",
+                "text": "PRESIDEN REPUBLIK INDONESIA"
+              },
+              {
+                "type": "PLAINTEXT",
+                "text": "MEMUTUSKAN:"
+              },
+              {
+                "type": "PLAINTEXT",
+                "text": "Menetapkan:"
+              },
+              {
+                "type": "PLAINTEXT",
+                "text": "UNDANG-UNDANG TENTANG PENGESAHAN PERSETUJUAN ANTARA PEMERINTAH REPUBLIK INDONESIA DAN PEMERINTAH NEGARA MERDEKA PAPUA NUGINI TENTANG KEGIATAN KERJA SAMA DI BIDANG PERTAHANAN (AGREEMENT BETWEEN THE GOVERNMENT OF THE REPUBLIC OF INDONESIA AND THE GOVERNMENT OF THE INDEPENDENT STATE OF PAPUA NEW GUINEA CONCERNING COOPERATION ACTIVITIES IN THE FIELD OF DEFENCE)"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "PASAL",
+        "id": "pasal-1",
+        "children": [
+          {
+            "type": "PASAL_NUMBER",
+            "text": "Pasal 1"
+          },
+          {
+            "type": "LIST",
+            "id": "",
+            "children": [
+              {
+                "type": "LIST_ITEM",
+                "id": "",
+                "children": [
+                  {
+                    "type": "NUMBER_WITH_BRACKETS",
+                    "text": "(1)"
+                  },
+                  {
+                    "type": "PLAINTEXT",
+                    "text": "Mengesahkan Persetujuan antara Pemerintah Republik Indonesia dan Pemerintah Negara Merdeka Papua Nugini tentang Kegiatan Kerja Sama di Bidang Pertahanan (Agreement between the Government of the Republic of Indonesia and the Government of the Independent State of Papua New Guinea concerning Cooperation Activities in the Field of Defence) yang telah ditandatangani pada tanggal 12 Maret 2010 di Port Moresby, Papua Nugini."
+                  }
+                ]
+              },
+              {
+                "type": "LIST_ITEM",
+                "id": "",
+                "children": [
+                  {
+                    "type": "NUMBER_WITH_BRACKETS",
+                    "text": "(2)"
+                  },
+                  {
+                    "type": "PLAINTEXT",
+                    "text": "Salinan naskah asli Persetujuan antara Pemerintah Republik Indonesia dan Pemerintah Negara Merdeka Papua Nugini tentang Kegiatan Kerja Sama di Bidang Pertahanan (Agreement between the Government of the Republic of Indonesia and the Government of the Independent State of Papua New Guinea concerning Cooperation Activities in the Field of Defence) dalam bahasa Indonesia dan bahasa Inggris sebagaimana terlampir dan merupakan bagian yang tidak terpisahkan dari Undang Undang ini."
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "PASAL",
+        "id": "pasal-2",
+        "children": [
+          {
+            "type": "PASAL_NUMBER",
+            "text": "Pasal 2"
+          },
+          {
+            "type": "PLAINTEXT",
+            "text": "Undang-Undang ini mulai berlaku pada tanggal diundangkan."
+          },
+          {
+            "type": "PLAINTEXT",
+            "text": "Agar setiap orang mengetahuinya, memerintahkan pengundangan Undang-Undang ini dengan penempatannya dalam Lembaran Negara Republik Indonesia."
+          }
+        ]
+      },
+      {
+        "type": "CLOSING",
+        "id": "",
+        "children": [
+          {
+            "type": "PLAINTEXT",
+            "text": "Disahkan Di Jakarta,"
+          },
+          {
+            "type": "PLAINTEXT",
+            "text": "Pada Tanggal 10 November 2017"
+          },
+          {
+            "type": "PLAINTEXT",
+            "text": "PRESIDEN REPUBLIK INDONESIA,"
+          },
+          {
+            "type": "PLAINTEXT",
+            "text": "Ttd."
+          },
+          {
+            "type": "PLAINTEXT",
+            "text": "JOKO WIDODO"
+          },
+          {
+            "type": "PLAINTEXT",
+            "text": "Diundangkan Di Jakarta,"
+          },
+          {
+            "type": "PLAINTEXT",
+            "text": "Pada Tanggal 13 November 2017"
+          },
+          {
+            "type": "PLAINTEXT",
+            "text": "MENTERI HUKUM DAN HAK ASASI MANUSIA REPUBLIK INDONESIA,"
+          },
+          {
+            "type": "PLAINTEXT",
+            "text": "Ttd."
+          },
+          {
+            "type": "PLAINTEXT",
+            "text": "YASONNA H. LAOLY"
+          },
+          {
+            "type": "LEMBARAN_NUMBER",
+            "text": "LEMBARAN NEGARA REPUBLIK INDONESIA TAHUN 2017 NOMOR 232"
+          }
+        ]
+      },
+      {
+        "type": "PENJELASAN",
+        "id": "penjelasan",
+        "children": [
+          {
+            "type": "PENJELASAN_TITLE",
+            "id": "",
+            "children": [
+              {
+                "type": "PLAINTEXT",
+                "text": "PENJELASAN"
+              },
+              {
+                "type": "PLAINTEXT",
+                "text": "UNDANG-UNDANG REPUBLIK INDONESIA"
+              },
+              {
+                "type": "UU_TITLE_YEAR_AND_NUMBER",
+                "text": "NOMOR 14 TAHUN 2017"
+              },
+              {
+                "type": "PLAINTEXT",
+                "text": "TENTANG"
+              },
+              {
+                "type": "UU_TITLE_TOPIC",
+                "text": "PENGESAHAN PERSETUJUAN ANTARA PEMERINTAH REPUBLIK INDONESIA DAN PEMERINTAH NEGARA MERDEKA PAPUA NUGINI TENTANG KEGIATAN KERJA SAMA DI BIDANG PERTAHANAN (AGREEMENT BETWEEN THE GOVERNMENT OF THE REPUBLIC OF INDONESIA AND THE GOVERNMENT OF THE INDEPENDENT STATE OF PAPUA NEW GUINEA CONCERNING COOPERATION ACTIVITIES IN THE FIELD OF DEFENCE)"
+              }
+            ]
+          },
+          {
+            "type": "PENJELASAN_UMUM",
+            "id": "",
+            "children": [
+              {
+                "type": "PENJELASAN_UMUM_TITLE",
+                "text": "I. UMUM"
+              },
+              {
+                "type": "PLAINTEXT",
+                "text": "Dalam kehidupan bernegara aspek pertahanan merupakan salah satu faktor yang sangat hakiki dalam menjamin kelangsungan hidup negara tersebut. Kemampuan mempertahankan diri terhadap ancaman dari luar negeri dan/atau dari dalam negeri merupakan syarat mutlak bagi suatu negara dalam mempertahankan kedaulatannya."
+              },
+              {
+                "type": "PLAINTEXT",
+                "text": "Seiring dengan keinginan untuk menjaga dan mempertahankan kedaulatan negara, membangun kehidupan berbangsa dan bernegara, serta berpartisipasi dalam menjaga ketertiban dunia, kerja sama di bidang pertahanan merupakan salah satu faktor yang sangat diperlukan guna meningkatkan hubungan baik antarnegara dalam rangka meningkatkan kemampuan pertahanan negara."
+              },
+              {
+                "type": "PLAINTEXT",
+                "text": "Kerja sama antara Pemerintah Republik Indonesia dan Pemerintah Negara Merdeka Papua Nugini diwujudkan dalam bentuk Persetujuan antara Pemerintah Republik Indonesia dan Pemerintah Negara Merdeka Papua Nugini tentang Kegiatan Kerja Sama di Bidang Pertahanan (Agreement between the Government of the Republic of Indonesia and the Government of the Independent State of Papua New Guinea concerning Cooperation Activities in the Field of Defence) yang telah ditandatangani pada tanggal 12 Maret 2010 di Port Moresby, Papua Nugini yang selanjutnya disebut dengan Persetujuan, perlu disahkan dengan Undang-Undang."
+              },
+              {
+                "type": "PLAINTEXT",
+                "text": "Materi muatan dalam Persetujuan antara Pemerintah Republik Indonesia dan Pemerintah Negara Merdeka Papua Nugini tentang Kegiatan Kerja Sama di Bidang Pertahanan antara lain:"
+              },
+              {
+                "type": "LIST",
+                "id": "",
+                "children": [
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "NUMBER_WITH_DOT",
+                        "text": "1."
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "Ruang lingkup kerja sama meliputi:"
+                      },
+                      {
+                        "type": "LIST",
+                        "id": "",
+                        "children": [
+                          {
+                            "type": "LIST_ITEM",
+                            "id": "",
+                            "children": [
+                              {
+                                "type": "LETTER_WITH_DOT",
+                                "text": "a."
+                              },
+                              {
+                                "type": "PLAINTEXT",
+                                "text": "dialog dan konsultasi bilateral secara berkala mengenai isu strategis dan keamanan yang menjadi perhatian bersama;"
+                              }
+                            ]
+                          },
+                          {
+                            "type": "LIST_ITEM",
+                            "id": "",
+                            "children": [
+                              {
+                                "type": "LETTER_WITH_DOT",
+                                "text": "b."
+                              },
+                              {
+                                "type": "PLAINTEXT",
+                                "text": "pertukaran personel dalam rangka pendidikan, pelatihan profesional dan saling kunjung;"
+                              }
+                            ]
+                          },
+                          {
+                            "type": "LIST_ITEM",
+                            "id": "",
+                            "children": [
+                              {
+                                "type": "LETTER_WITH_DOT",
+                                "text": "c."
+                              },
+                              {
+                                "type": "PLAINTEXT",
+                                "text": "berbagi informasi dalam bidang pertahanan dan hal lain, termasuk organisasi, doktrin dan kebijakan;"
+                              }
+                            ]
+                          },
+                          {
+                            "type": "LIST_ITEM",
+                            "id": "",
+                            "children": [
+                              {
+                                "type": "LETTER_WITH_DOT",
+                                "text": "d."
+                              },
+                              {
+                                "type": "PLAINTEXT",
+                                "text": "pertukaran intelijen antara instansi terkait dari Para Pihak;"
+                              }
+                            ]
+                          },
+                          {
+                            "type": "LIST_ITEM",
+                            "id": "",
+                            "children": [
+                              {
+                                "type": "LETTER_WITH_DOT",
+                                "text": "e."
+                              },
+                              {
+                                "type": "PLAINTEXT",
+                                "text": "kerja sama di bidang logistik;"
+                              }
+                            ]
+                          },
+                          {
+                            "type": "LIST_ITEM",
+                            "id": "",
+                            "children": [
+                              {
+                                "type": "LETTER_WITH_DOT",
+                                "text": "f."
+                              },
+                              {
+                                "type": "PLAINTEXT",
+                                "text": "mendorong kerja sama interoperabilitas angkatan bersenjata kedua Pihak dalam operasi terkoordinasi dan latihan; dan"
+                              }
+                            ]
+                          },
+                          {
+                            "type": "LIST_ITEM",
+                            "id": "",
+                            "children": [
+                              {
+                                "type": "LETTER_WITH_DOT",
+                                "text": "g."
+                              },
+                              {
+                                "type": "PLAINTEXT",
+                                "text": "kerja sama di bidang lain sesuai kepentingan bersama."
+                              }
+                            ]
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "NUMBER_WITH_DOT",
+                        "text": "2."
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "Pembentukan Komite Bersama guna memonitor, mengatur dan mengimplementasikan Persetujuan."
+                      }
+                    ]
+                  },
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "NUMBER_WITH_DOT",
+                        "text": "3."
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "Pelindungan hak atas kekayaan intelektual yang timbul dari pelaksanaan Persetujuan."
+                      }
+                    ]
+                  },
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "NUMBER_WITH_DOT",
+                        "text": "4."
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "Pelindungan terhadap informasi rahasia yang diperoleh dalam pelaksanaan Persetujuan."
+                      }
+                    ]
+                  },
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "NUMBER_WITH_DOT",
+                        "text": "5."
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "Pembiayaan pelaksanaan Persetujuan, disesuaikan dengan alokasi anggaran masing-masing Pihak yang akan ditentukan dalam pengaturan pelaksanaan Persetujuan."
+                      }
+                    ]
+                  },
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "NUMBER_WITH_DOT",
+                        "text": "6."
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "Penyelesaian sengketa dilakukan secara damai melalui negosiasi dalam Komite Bersama, jika tidak dapat diselesaikan maka penyelesaiannya melalui Menteri Pertahanan masing-masing, dan jika sengketa tersebut masih belum dapat diselesaikan maka penyelesaiannya dilakukan melalui saluran diplomatik."
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "PENJELASAN_PASAL_DEMI_PASAL",
+            "id": "",
+            "children": [
+              {
+                "type": "PENJELASAN_PASAL_DEMI_PASAL_TITLE",
+                "text": "II. PASAL DEMI PASAL"
+              },
+              {
+                "type": "PENJELASAN_PASAL",
+                "id": "",
+                "children": [
+                  {
+                    "type": "PASAL_NUMBER",
+                    "text": "Pasal 1"
+                  },
+                  {
+                    "type": "PLAINTEXT",
+                    "text": "Cukup jelas."
+                  }
+                ]
+              },
+              {
+                "type": "PENJELASAN_PASAL",
+                "id": "",
+                "children": [
+                  {
+                    "type": "PASAL_NUMBER",
+                    "text": "Pasal 2"
+                  },
+                  {
+                    "type": "PLAINTEXT",
+                    "text": "Cukup jelas."
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}
