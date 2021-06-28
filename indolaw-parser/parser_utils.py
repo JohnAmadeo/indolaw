@@ -265,7 +265,7 @@ def is_next_list_index_number(list_index_a: str, list_index_b: str) -> bool:
 
 def load_clean_law(filename: str) -> List[str]:
     should_clean_law = True
-    clean_filename = f'{filename}_clean.txt'
+    clean_filename = f'{filename}-clean.txt'
 
     if path.isfile(clean_filename):
         y = colored('y', 'green')
@@ -286,7 +286,7 @@ def load_clean_law(filename: str) -> List[str]:
         law = file.read().split("\n")
         law = clean_law(law)
 
-        with open(filename + '_clean.txt', 'w') as outfile:
+        with open(filename + '-clean.txt', 'w') as outfile:
             txt_law = []
             for i, line in enumerate(law):
                 if i < len(law) - 1:
