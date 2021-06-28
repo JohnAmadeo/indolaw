@@ -1,0 +1,582 @@
+{
+  "metadata": {
+    "lembaranNegaraNumber": 189,
+    "lembaranNegaraYear": 2018,
+    "tambahanLembaranNumber": 6258,
+    "number": 11,
+    "topic": "Pengesahan Nota Kesepahaman Antara Kementerian Pertahanan Republik Indonesia Dan Kementerian Pertahanan Kerajaan Belanda Tentang Kerja Sama Terkait Pertahanan (memorandum Of Understanding Between The Ministry Of Defence Of The Republic Of Indonesia And The Ministry Of Defence Of The Kingdom Of The Netherlands On Defence-related Cooperation)",
+    "year": 2018
+  },
+  "content": {
+    "type": "UNDANG_UNDANG",
+    "id": "",
+    "children": [
+      {
+        "type": "OPENING",
+        "id": "",
+        "children": [
+          {
+            "type": "UU_TITLE",
+            "id": "",
+            "children": [
+              {
+                "type": "PLAINTEXT",
+                "text": "UNDANG-UNDANG REPUBLIK INDONESIA"
+              },
+              {
+                "type": "UU_TITLE_YEAR_AND_NUMBER",
+                "text": "NOMOR 11 TAHUN 2018"
+              },
+              {
+                "type": "PLAINTEXT",
+                "text": "TENTANG"
+              },
+              {
+                "type": "UU_TITLE_TOPIC",
+                "text": "PENGESAHAN NOTA KESEPAHAMAN ANTARA KEMENTERIAN PERTAHANAN REPUBLIK INDONESIA DAN KEMENTERIAN PERTAHANAN KERAJAAN BELANDA TENTANG KERJA SAMA TERKAIT PERTAHANAN (MEMORANDUM OF UNDERSTANDING BETWEEN THE MINISTRY OF DEFENCE OF THE REPUBLIC OF INDONESIA AND THE MINISTRY OF DEFENCE OF THE KINGDOM OF THE NETHERLANDS ON DEFENCE-RELATED COOPERATION)"
+              }
+            ]
+          },
+          {
+            "type": "PREFACE",
+            "id": "",
+            "children": [
+              {
+                "type": "PLAINTEXT",
+                "text": "DENGAN RAHMAT TUHAN YANG MAHA ESA"
+              },
+              {
+                "type": "PLAINTEXT",
+                "text": "PRESIDEN REPUBLIK INDONESIA,"
+              }
+            ]
+          },
+          {
+            "type": "CONSIDERATIONS",
+            "id": "",
+            "children": [
+              {
+                "type": "PLAINTEXT",
+                "text": "Menimbang:"
+              },
+              {
+                "type": "LIST",
+                "id": "",
+                "children": [
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "LETTER_WITH_DOT",
+                        "text": "a."
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "bahwa hubungan luar negeri yang dilandasi politik bebas aktif merupakan salah satu Perwujudan dari tujuan Pemerintah Negara Kesatuan Republik Indonesia untuk melindungi segenap bangsa dan seluruh tumpah darah Indonesia, memajukan kesejahteraan umum, mencerdaskan kehidupan bangsa dan ikut melaksanakan ketertiban dunia yang berdasarkan kemerdekaan, perdamaian abadi, dan keadilan sosial;"
+                      }
+                    ]
+                  },
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "LETTER_WITH_DOT",
+                        "text": "b."
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "bahwa untuk meningkatkan kerja sama di bidang pertahanan antara Pemerintah Republik Indonesia dan Pemerintah Kerajaan Belanda, pada tanggal 4 Februari 2014 di Den Haag, Belanda telah ditandatangani Nota Kesepahaman antara Kementerian Pertahanan Republik Indonesia dan Kementerian Pertahanan Kerajaan Belanda tentang Kerja Sama Terkait Pertahanan (Memorandum of Understanding between the Ministry of Defence of the Republic of Indonesia and the Ministry of Defence of the Kingdom of the Netherlands on Defence-Related Cooperation);"
+                      }
+                    ]
+                  },
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "LETTER_WITH_DOT",
+                        "text": "c."
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "bahwa sesuai dengan ketentuan Pasal 10 Undang-Undang Nomor 24 Tahun 2000 tentang Perjanjian Internasional, pengesahan perjanjian internasional berkenaan dengan pertahanan dilakukan dengan Undang-Undang;"
+                      }
+                    ]
+                  },
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "LETTER_WITH_DOT",
+                        "text": "d."
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "bahwa berdasarkan pertimbangan sebagaimana dimaksud dalam huruf a, huruf b, dan huruf c, perlu membentuk Undang-Undang tentang Pengesahan Nota Kesepahaman antara Kementerian Pertahanan Republik Indonesia dan Kementerian Pertahanan Kerajaan Belanda tentang Kerja Sama Terkait Pertahanan (Memorandum of Understanding between the Ministry of Defence of the Republic of Indonesia and the Ministry of Defence of the Kingdom of the Netherlands on Defence-Related Cooperation)."
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "PRINCIPLES",
+            "id": "",
+            "children": [
+              {
+                "type": "PLAINTEXT",
+                "text": "Mengingat:"
+              },
+              {
+                "type": "LIST",
+                "id": "",
+                "children": [
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "NUMBER_WITH_DOT",
+                        "text": "1."
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "Pasal 5 ayat (1), Pasal 11, Pasal 20, dan Pasal 30 ayat (2), ayat (3), dan ayat (5) Undang-Undang Dasar Negara Republik Indonesia Tahun 1945;"
+                      }
+                    ]
+                  },
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "NUMBER_WITH_DOT",
+                        "text": "2."
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "Undang-Undang Nomor 24 Tahun 2000 tentang Perjanjian Internasional (Lembaran Negara Republik Indonesia Tahun 2000 Nomor 185, Tambahan Lembaran Negara Republik Indonesia Nomor 4012)."
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "AGREEMENT",
+            "id": "",
+            "children": [
+              {
+                "type": "PLAINTEXT",
+                "text": "Dengan Persetujuan Bersama"
+              },
+              {
+                "type": "PLAINTEXT",
+                "text": "DEWAN PERWAKILAN RAKYAT REPUBLIK INDONESIA"
+              },
+              {
+                "type": "PLAINTEXT",
+                "text": "dan"
+              },
+              {
+                "type": "PLAINTEXT",
+                "text": "PRESIDEN REPUBLIK INDONESIA"
+              },
+              {
+                "type": "PLAINTEXT",
+                "text": "MEMUTUSKAN:"
+              },
+              {
+                "type": "PLAINTEXT",
+                "text": "Menetapkan:"
+              },
+              {
+                "type": "PLAINTEXT",
+                "text": "UNDANG-UNDANG TENTANG PENGESAHAN NOTA KESEPAHAMAN ANTARA KEMENTERIAN PERTAHANAN REPUBLIK INDONESIA DAN KEMENTERIAN PERTAHANAN KERAJAAN BELANDA TENTANG KERJA SAMA TERKAIT PERTAHANAN (MEMORANDUM OF UNDERSTANDING BETWEEN THE MINISTRY OF DEFENCE OF THE REPUBLIC OF INDONESIA AND THE MINISTRY OF DEFENCE OF THE KINGDOM OF THE NETHERLANDS ON DEFENCE-RELATED COOPERATION)"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "PASAL",
+        "id": "pasal-1",
+        "children": [
+          {
+            "type": "PASAL_NUMBER",
+            "text": "Pasal 1"
+          },
+          {
+            "type": "LIST",
+            "id": "",
+            "children": [
+              {
+                "type": "LIST_ITEM",
+                "id": "",
+                "children": [
+                  {
+                    "type": "NUMBER_WITH_BRACKETS",
+                    "text": "(1)"
+                  },
+                  {
+                    "type": "PLAINTEXT",
+                    "text": "Mengesahkan Nota Kesepahaman antara Kementerian Pertahanan Republik Indonesia dan Kementerian Pertahanan Kerajaan Belanda tentang Kerja Sama Terkait Pertahanan (Memorandum of Understanding between the Ministry of Defence of the Republic of Indonesia and the Ministry of Defence of the Kingdom of the Netherlands on Defence-Related Cooperation) yang telah ditandatangani pada tanggal 4 Februari 2014 di Den Haag, Belanda."
+                  }
+                ]
+              },
+              {
+                "type": "LIST_ITEM",
+                "id": "",
+                "children": [
+                  {
+                    "type": "NUMBER_WITH_BRACKETS",
+                    "text": "(2)"
+                  },
+                  {
+                    "type": "PLAINTEXT",
+                    "text": "Salinan naskah asli Nota Kesepahaman antara Kementerian Pertahanan Republik Indonesia dan Kementerian Pertahanan Kerajaan Belanda tentang Kerja Sama Terkait Pertahanan (Memorandum of Understanding between the Ministry of Defence of the Republic of Indonesia and the Ministry of Defence of the Kingdom of the Netherlands on Defence-Related Cooperation) dalam bahasa Indonesia, bahasa Belanda, dan bahasa Inggris sebagaimana terlampir dan merupakan bagian yang tidak terpisahkan dari Undang-Undang ini."
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "PASAL",
+        "id": "pasal-2",
+        "children": [
+          {
+            "type": "PASAL_NUMBER",
+            "text": "Pasal 2"
+          },
+          {
+            "type": "PLAINTEXT",
+            "text": "Undang-Undang ini mulai berlaku pada tanggal diundangkan."
+          },
+          {
+            "type": "PLAINTEXT",
+            "text": "Agar setiap orang mengetahuinya, memerintahkan pengundangan Undang-Undang ini dengan penempatannya dalam Lembaran Negara Republik Indonesia."
+          }
+        ]
+      },
+      {
+        "type": "CLOSING",
+        "id": "",
+        "children": [
+          {
+            "type": "PLAINTEXT",
+            "text": "Disahkan Di Jakarta,"
+          },
+          {
+            "type": "PLAINTEXT",
+            "text": "Pada Tanggal 30 Oktober 2018"
+          },
+          {
+            "type": "PLAINTEXT",
+            "text": "PRESIDEN REPUBLIK INDONESIA,"
+          },
+          {
+            "type": "PLAINTEXT",
+            "text": "Ttd."
+          },
+          {
+            "type": "PLAINTEXT",
+            "text": "JOKO WIDODO"
+          },
+          {
+            "type": "PLAINTEXT",
+            "text": "Diundangkan Di Jakarta,"
+          },
+          {
+            "type": "PLAINTEXT",
+            "text": "Pada Tanggal 31 Oktober 2018"
+          },
+          {
+            "type": "PLAINTEXT",
+            "text": "MENTERI HUKUM DAN HAK ASASI MANUSIA REPUBLIK INDONESIA,"
+          },
+          {
+            "type": "PLAINTEXT",
+            "text": "Ttd."
+          },
+          {
+            "type": "PLAINTEXT",
+            "text": "YASONNA H. LAOLY"
+          },
+          {
+            "type": "LEMBARAN_NUMBER",
+            "text": "LEMBARAN NEGARA REPUBLIK INDONESIA TAHUN 2018 NOMOR 189"
+          }
+        ]
+      },
+      {
+        "type": "PENJELASAN",
+        "id": "penjelasan",
+        "children": [
+          {
+            "type": "PENJELASAN_TITLE",
+            "id": "",
+            "children": [
+              {
+                "type": "PLAINTEXT",
+                "text": "PENJELASAN"
+              },
+              {
+                "type": "PLAINTEXT",
+                "text": "UNDANG-UNDANG REPUBLIK INDONESIA"
+              },
+              {
+                "type": "UU_TITLE_YEAR_AND_NUMBER",
+                "text": "NOMOR 11 TAHUN 2018"
+              },
+              {
+                "type": "PLAINTEXT",
+                "text": "TENTANG"
+              },
+              {
+                "type": "UU_TITLE_TOPIC",
+                "text": "PENGESAHAN NOTA KESEPAHAMAN ANTARA KEMENTERIAN PERTAHANAN REPUBLIK INDONESIA DAN KEMENTERIAN PERTAHANAN KERAJAAN BELANDA TENTANG KERJA SAMA TERKAIT PERTAHANAN (MEMORANDUM OF UNDERSTANDING BETWEEN THE MINISTRY OF DEFENCE OF THE REPUBLIC OF INDONESIA AND THE MINISTRY OF DEFENCE OF THE KINGDOM OF THE NETHERLANDS ON DEFENCE-RELATED COOPERATION)"
+              }
+            ]
+          },
+          {
+            "type": "PENJELASAN_UMUM",
+            "id": "",
+            "children": [
+              {
+                "type": "PENJELASAN_UMUM_TITLE",
+                "text": "I. UMUM"
+              },
+              {
+                "type": "PLAINTEXT",
+                "text": "Dalam kehidupan bernegara, aspek pertahanan merupakan salah satu faktor yang sangat hakiki dalam menjamin kelangsungan hidup negara tersebut. Kemampuan mempertahankan diri terhadap ancaman dari luar negeri dan/atau dari dalam negeri merupakan syarat mutlak bagi suatu negara dalam mempertahankan kedaulatannya."
+              },
+              {
+                "type": "PLAINTEXT",
+                "text": "Seiring dengan keinginan untuk menjaga dan mempertahankan kedaulatan negara, membangun kehidupan berbangsa dan bernegara, serta berpartisipasi dalam menjaga ketertiban dunia, kerja sama di bidang pertahanan merupakan salah satu faktor yang sangat diperlukan guna meningkatkan hubungan baik antarnegara dalam rangka meningkatkan kemampuan pertahanan negara."
+              },
+              {
+                "type": "PLAINTEXT",
+                "text": "Kerja sama antara Pemerintah Republik Indonesia dengan Pemerintah Kerajaan Belanda diwujudkan dalam bentuk Nota Kesepahaman antara Kementerian Pertahanan Republik Indonesia dan Kementerian Pertahanan Kerajaan Belanda tentang Kerja Sama Terkait Pertahanan (Memorandum of Understanding between the Ministry of Defence of the Republic of Indonesia and the Ministry of Defence of the Kingdom of the Netherlands on Defence-Related Cooperation) yang telah ditandatangani pada tanggal 4 Februari 2014 di Den Haag, Belanda yang selanjutnya disebut dengan Nota Kesepahaman, perlu disahkan dengan Undang-Undang."
+              },
+              {
+                "type": "PLAINTEXT",
+                "text": "Materi muatan dalam Nota Kesepahaman antara Kementerian Pertahanan Republik Indonesia dan Kementerian Pertahanan Kerajaan Belanda tentang Kerja Sama Terkait Pertahanan antara lain:"
+              },
+              {
+                "type": "LIST",
+                "id": "",
+                "children": [
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "NUMBER_WITH_DOT",
+                        "text": "1."
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "Ruang lingkup kerja sama, meliputi:"
+                      },
+                      {
+                        "type": "LIST",
+                        "id": "",
+                        "children": [
+                          {
+                            "type": "LIST_ITEM",
+                            "id": "",
+                            "children": [
+                              {
+                                "type": "LETTER_WITH_DOT",
+                                "text": "a."
+                              },
+                              {
+                                "type": "PLAINTEXT",
+                                "text": "dialog strategis mengenai isu keamanan regional dan internasional;"
+                              }
+                            ]
+                          },
+                          {
+                            "type": "LIST_ITEM",
+                            "id": "",
+                            "children": [
+                              {
+                                "type": "LETTER_WITH_DOT",
+                                "text": "b."
+                              },
+                              {
+                                "type": "PLAINTEXT",
+                                "text": "pertukaran kunjungan pejabat termasuk personel militer dan sipil dari lembaga masing masing Pihak;"
+                              }
+                            ]
+                          },
+                          {
+                            "type": "LIST_ITEM",
+                            "id": "",
+                            "children": [
+                              {
+                                "type": "LETTER_WITH_DOT",
+                                "text": "c."
+                              },
+                              {
+                                "type": "PLAINTEXT",
+                                "text": "kerja sama materiil pertahanan;"
+                              }
+                            ]
+                          },
+                          {
+                            "type": "LIST_ITEM",
+                            "id": "",
+                            "children": [
+                              {
+                                "type": "LETTER_WITH_DOT",
+                                "text": "d."
+                              },
+                              {
+                                "type": "PLAINTEXT",
+                                "text": "berbagi informasi dan/atau pengalaman;"
+                              }
+                            ]
+                          },
+                          {
+                            "type": "LIST_ITEM",
+                            "id": "",
+                            "children": [
+                              {
+                                "type": "LETTER_WITH_DOT",
+                                "text": "e."
+                              },
+                              {
+                                "type": "PLAINTEXT",
+                                "text": "pembinaan hubungan antara lembaga-lembaga Angkatan Bersenjata dari kedua negara;"
+                              }
+                            ]
+                          },
+                          {
+                            "type": "LIST_ITEM",
+                            "id": "",
+                            "children": [
+                              {
+                                "type": "LETTER_WITH_DOT",
+                                "text": "f."
+                              },
+                              {
+                                "type": "PLAINTEXT",
+                                "text": "peningkatan pengembangan sumber daya manusia pada lembaga pertahanan dari Para Pihak melalui pendidikan, pelatihan, dan latihan; dan"
+                              }
+                            ]
+                          },
+                          {
+                            "type": "LIST_ITEM",
+                            "id": "",
+                            "children": [
+                              {
+                                "type": "LETTER_WITH_DOT",
+                                "text": "g."
+                              },
+                              {
+                                "type": "PLAINTEXT",
+                                "text": "bidang lain yang disepakati bersama."
+                              }
+                            ]
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "NUMBER_WITH_DOT",
+                        "text": "2."
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "Biaya akan ditanggung masing-masing Pihak terkait partisipasinya dalam Nota Kesepahaman, kecuali ditentukan lain oleh Para Pihak."
+                      }
+                    ]
+                  },
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "NUMBER_WITH_DOT",
+                        "text": "3."
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "Pertukaran informasi rahasia dalam kerangka Nota Kesepahaman, dan pelindungan terhadap informasi rahasia dimaksud oleh Para Pihak."
+                      }
+                    ]
+                  },
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "NUMBER_WITH_DOT",
+                        "text": "4."
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "Penyelesaian perselisihan dilakukan melalui perundingan damai, apabila tidak dapat diselesaikan maka penyelesaiannya dilakukan melalui saluran diplomatik."
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "PENJELASAN_PASAL_DEMI_PASAL",
+            "id": "",
+            "children": [
+              {
+                "type": "PENJELASAN_PASAL_DEMI_PASAL_TITLE",
+                "text": "II. PASAL DEMI PASAL"
+              },
+              {
+                "type": "PENJELASAN_PASAL",
+                "id": "",
+                "children": [
+                  {
+                    "type": "PASAL_NUMBER",
+                    "text": "Pasal 1"
+                  },
+                  {
+                    "type": "PLAINTEXT",
+                    "text": "Cukup jelas."
+                  }
+                ]
+              },
+              {
+                "type": "PENJELASAN_PASAL",
+                "id": "",
+                "children": [
+                  {
+                    "type": "PASAL_NUMBER",
+                    "text": "Pasal 2"
+                  },
+                  {
+                    "type": "PLAINTEXT",
+                    "text": "Cukup jelas."
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}
