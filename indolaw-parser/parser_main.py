@@ -2354,14 +2354,18 @@ if __name__ == "__main__":
 
     metadata = extract_metadata_from_tree(ROOT)
 
-    ketentuan_umum_list = sorted(metadata['ketentuan_umum'].keys(), key=lambda x: len(x), reverse=True)
+    ketentuan_umum_list = []
+
+    if metadata['ketentuan_umum']:
+        ketentuan_umum_list = sorted(metadata['ketentuan_umum'].keys(), key=lambda x: len(x), reverse=True)
+
     content = convert_tree_to_json(ROOT, ketentuan_umum_list)
 
     with open(filename + '.json', 'w') as outfile:
         json.dump(
             {
-                'content': content,
-                'metadata': metadata
+                'metadata': metadata,
+                'content': content
             },
             outfile,
             indent=2
