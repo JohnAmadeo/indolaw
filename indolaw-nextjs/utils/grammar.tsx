@@ -69,6 +69,11 @@ export enum Structure {
   PENJELASAN_PERUBAHAN_BAGIAN = "PENJELASAN_PERUBAHAN_BAGIAN",
 }
 
+export const penjelasanStructureMap: Record<string, Structure> = {
+  [Structure.PENJELASAN_PASAL]: Structure.PASAL,
+  [Structure.PENJELASAN_PERUBAHAN_PASAL]: Structure.PERUBAHAN_PASAL
+}
+
 export interface LawData {
   content: Complex;
   metadata: Metadata;
@@ -179,7 +184,6 @@ export function renderStructure(
       );
     case Structure.PASAL:
     case Structure.PERUBAHAN_PASAL:
-    case Structure.PENJELASAN_PERUBAHAN_PASAL:
       return (
         <Pasal
           key={key}
@@ -187,6 +191,7 @@ export function renderStructure(
           numOfHeadingLines={1}
         />
       );
+    case Structure.PENJELASAN_PERUBAHAN_PASAL:
     case Structure.PENJELASAN_PASAL:
       return (
         <PenjelasanPasal
@@ -237,6 +242,7 @@ export function renderPenjelasan(
   key?: string | number
 ) {
   switch (structure.type) {
+    case Structure.PENJELASAN_PERUBAHAN_PASAL:
     case Structure.PENJELASAN_PASAL:
       return (
         <>
