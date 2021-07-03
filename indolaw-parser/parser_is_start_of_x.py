@@ -932,7 +932,13 @@ def is_start_of_penjelasan_title(law: List[str], start_index: int) -> bool:
         is_heading(r'ATAS', law[start_index+1]) and \
         is_heading(r'UNDANG-UNDANG REPUBLIK INDONESIA', law[start_index+2])
 
-    return heuristic_1 or heuristic_2
+    heuristic_3 = is_heading(r'PENJELASAN', law[start_index]) and \
+        is_heading(
+            r'RANCANGAN UNDANG-UNDANG REPUBLIK INDONESIA',
+            law[start_index+1],
+    )
+
+    return heuristic_1 or heuristic_2 or heuristic_3
 
 
 def is_start_of_penjelasan_pasal_demi_pasal(law: List[str], start_index: int) -> bool:
