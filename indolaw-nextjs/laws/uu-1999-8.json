@@ -1,4 +1,27 @@
 {
+  "metadata": {
+    "lembaranNegaraNumber": 42,
+    "lembaranNegaraYear": 1999,
+    "tambahanLembaranNumber": 3821,
+    "number": 8,
+    "topic": "Perlindungan Konsumen",
+    "year": 1999,
+    "ketentuan_umum": {
+      "PERLINDUNGAN KONSUMEN": "segala upaya yang menjamin adanya kepastian hukum untuk memberi perlindungan kepada konsumen.",
+      "KONSUMEN": "setiap orang pemakai barang dan/atau jasa yang tersedia dalam masyarakat, baik bagi kepentingan diri sendiri, keluarga, orang lain maupun makhluk hidup lain dan tidak untuk diperdagangkan.",
+      "PELAKU USAHA": "setiap orang perseorangan atau badan usaha, baik yang berbentuk badan hukum maupun bukan badan hukum yang didirikan dan berkedudukan atau melakukan kegiatan dalam wilayah hukum negara Republik Indonesia, baik sendiri maupun bersama-sama melalui perjanjian menyelenggarakan kegiatan usaha dalam berbagai bidang ekonomi.",
+      "BARANG": "setiap benda baik berwujud maupun tidak berwujud, baik bergerak maupun tidak bergerak, dapat dihabiskan maupun tidak dapat dihabiskan, yang dapat untuk diperdagangkan, dipakai, dipergunakan, atau dimanfaatkan oleh konsumen.",
+      "JASA": "setiap layanan yang berbentuk pekerjaan atau prestasi yang disediakan bagi masyarakat untuk dimanfaatkan oleh konsumen.",
+      "PROMOSI": "kegiatan pengenalan atau penyebarluasan informasi suatu barang dan/atau jasa untuk menarik minat beli konsumen terhadap barang dan/atau jasa yang akan dan sedang diperdagangkan.",
+      "IMPOR BARANG": "kegiatan memasukkan barang ke dalam daerah pabean.",
+      "IMPOR JASA": "kegiatan penyediaan jasa asing untuk digunakan di dalam wilayah Republik Indonesia.",
+      "LEMBAGA PERLINDUNGAN KONSUMEN SWADAYA MASYARAKAT": "lembaga non-pemerintah yang terdaftar dan diakui oleh pemerintah yang mempunyai kegiatan menangani perlindungan konsumen.",
+      "KLAUSULA BAKU": "setiap aturan atau ketentuan dan syarat-syarat yang telah dipersiapkan dan ditetapkan terlebih dahulu secara sepihak oleh pelaku usaha yang dituangkan dalam suatu dokumen dan/atau perjanjian yang mengikat dan wajib dipenuhi oleh konsumen.",
+      "BADAN PENYELESAIAN SENGKETA KONSUMEN": "badan yang bertugas menangani dan menyelesaikan sengketa antara pelaku usaha dan konsumen.",
+      "BADAN PERLINDUNGAN KONSUMEN NASIONAL": "badan yang dibentuk untuk membantu upaya pengembangan perlindungan konsumen.",
+      "MENTERI": "menteri yang ruang lingkup tugas dan tanggung jawabnya meliputi bidang perdagangan."
+    }
+  },
   "content": {
     "type": "UNDANG_UNDANG",
     "id": "",
@@ -9278,28 +9301,5 @@
         ]
       }
     ]
-  },
-  "metadata": {
-    "lembaranNegaraNumber": 42,
-    "lembaranNegaraYear": 1999,
-    "tambahanLembaranNumber": 3821,
-    "number": 8,
-    "topic": "Perlindungan Konsumen",
-    "year": 1999,
-    "ketentuan_umum": {
-      "PERLINDUNGAN KONSUMEN": "segala upaya yang menjamin adanya kepastian hukum untuk memberi perlindungan kepada konsumen.",
-      "KONSUMEN": "setiap orang pemakai barang dan/atau jasa yang tersedia dalam masyarakat, baik bagi kepentingan diri sendiri, keluarga, orang lain maupun makhluk hidup lain dan tidak untuk diperdagangkan.",
-      "PELAKU USAHA": "setiap orang perseorangan atau badan usaha, baik yang berbentuk badan hukum maupun bukan badan hukum yang didirikan dan berkedudukan atau melakukan kegiatan dalam wilayah hukum negara Republik Indonesia, baik sendiri maupun bersama-sama melalui perjanjian menyelenggarakan kegiatan usaha dalam berbagai bidang ekonomi.",
-      "BARANG": "setiap benda baik berwujud maupun tidak berwujud, baik bergerak maupun tidak bergerak, dapat dihabiskan maupun tidak dapat dihabiskan, yang dapat untuk diperdagangkan, dipakai, dipergunakan, atau dimanfaatkan oleh konsumen.",
-      "JASA": "setiap layanan yang berbentuk pekerjaan atau prestasi yang disediakan bagi masyarakat untuk dimanfaatkan oleh konsumen.",
-      "PROMOSI": "kegiatan pengenalan atau penyebarluasan informasi suatu barang dan/atau jasa untuk menarik minat beli konsumen terhadap barang dan/atau jasa yang akan dan sedang diperdagangkan.",
-      "IMPOR BARANG": "kegiatan memasukkan barang ke dalam daerah pabean.",
-      "IMPOR JASA": "kegiatan penyediaan jasa asing untuk digunakan di dalam wilayah Republik Indonesia.",
-      "LEMBAGA PERLINDUNGAN KONSUMEN SWADAYA MASYARAKAT": "lembaga non-pemerintah yang terdaftar dan diakui oleh pemerintah yang mempunyai kegiatan menangani perlindungan konsumen.",
-      "KLAUSULA BAKU": "setiap aturan atau ketentuan dan syarat-syarat yang telah dipersiapkan dan ditetapkan terlebih dahulu secara sepihak oleh pelaku usaha yang dituangkan dalam suatu dokumen dan/atau perjanjian yang mengikat dan wajib dipenuhi oleh konsumen.",
-      "BADAN PENYELESAIAN SENGKETA KONSUMEN": "badan yang bertugas menangani dan menyelesaikan sengketa antara pelaku usaha dan konsumen.",
-      "BADAN PERLINDUNGAN KONSUMEN NASIONAL": "badan yang dibentuk untuk membantu upaya pengembangan perlindungan konsumen.",
-      "MENTERI": "menteri yang ruang lingkup tugas dan tanggung jawabnya meliputi bidang perdagangan."
-    }
   }
 }

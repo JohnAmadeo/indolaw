@@ -5,7 +5,22 @@
     "tambahanLembaranNumber": 3821,
     "number": 8,
     "topic": "Perlindungan Konsumen",
-    "year": 1999
+    "year": 1999,
+    "ketentuan_umum": {
+      "PERLINDUNGAN KONSUMEN": "segala upaya yang menjamin adanya kepastian hukum untuk memberi perlindungan kepada konsumen.",
+      "KONSUMEN": "setiap orang pemakai barang dan/atau jasa yang tersedia dalam masyarakat, baik bagi kepentingan diri sendiri, keluarga, orang lain maupun makhluk hidup lain dan tidak untuk diperdagangkan.",
+      "PELAKU USAHA": "setiap orang perseorangan atau badan usaha, baik yang berbentuk badan hukum maupun bukan badan hukum yang didirikan dan berkedudukan atau melakukan kegiatan dalam wilayah hukum negara Republik Indonesia, baik sendiri maupun bersama-sama melalui perjanjian menyelenggarakan kegiatan usaha dalam berbagai bidang ekonomi.",
+      "BARANG": "setiap benda baik berwujud maupun tidak berwujud, baik bergerak maupun tidak bergerak, dapat dihabiskan maupun tidak dapat dihabiskan, yang dapat untuk diperdagangkan, dipakai, dipergunakan, atau dimanfaatkan oleh konsumen.",
+      "JASA": "setiap layanan yang berbentuk pekerjaan atau prestasi yang disediakan bagi masyarakat untuk dimanfaatkan oleh konsumen.",
+      "PROMOSI": "kegiatan pengenalan atau penyebarluasan informasi suatu barang dan/atau jasa untuk menarik minat beli konsumen terhadap barang dan/atau jasa yang akan dan sedang diperdagangkan.",
+      "IMPOR BARANG": "kegiatan memasukkan barang ke dalam daerah pabean.",
+      "IMPOR JASA": "kegiatan penyediaan jasa asing untuk digunakan di dalam wilayah Republik Indonesia.",
+      "LEMBAGA PERLINDUNGAN KONSUMEN SWADAYA MASYARAKAT": "lembaga non-pemerintah yang terdaftar dan diakui oleh pemerintah yang mempunyai kegiatan menangani perlindungan konsumen.",
+      "KLAUSULA BAKU": "setiap aturan atau ketentuan dan syarat-syarat yang telah dipersiapkan dan ditetapkan terlebih dahulu secara sepihak oleh pelaku usaha yang dituangkan dalam suatu dokumen dan/atau perjanjian yang mengikat dan wajib dipenuhi oleh konsumen.",
+      "BADAN PENYELESAIAN SENGKETA KONSUMEN": "badan yang bertugas menangani dan menyelesaikan sengketa antara pelaku usaha dan konsumen.",
+      "BADAN PERLINDUNGAN KONSUMEN NASIONAL": "badan yang dibentuk untuk membantu upaya pengembangan perlindungan konsumen.",
+      "MENTERI": "menteri yang ruang lingkup tugas dan tanggung jawabnya meliputi bidang perdagangan."
+    }
   },
   "content": {
     "type": "UNDANG_UNDANG",
@@ -445,7 +460,7 @@
               },
               {
                 "type": "PLAINTEXT",
-                "text": "Perlindungan konsumen berasaskan manfaat, keadilan, keseimbangan, keamanan dan keselamatan  konsumen, serta kepastian hukum."
+                "text": "${Perlindungan konsumen} berasaskan manfaat, keadilan, keseimbangan, keamanan dan keselamatan  konsumen, serta kepastian hukum."
               }
             ]
           },
@@ -459,7 +474,7 @@
               },
               {
                 "type": "PLAINTEXT",
-                "text": "Perlindungan konsumen bertujuan:"
+                "text": "${Perlindungan konsumen} bertujuan:"
               },
               {
                 "type": "LIST",
@@ -475,7 +490,7 @@
                       },
                       {
                         "type": "PLAINTEXT",
-                        "text": "meningkatkan kesadaran, kemampuan dan kemandirian konsumen untuk melindungi diri;"
+                        "text": "meningkatkan kesadaran, kemampuan dan kemandirian ${konsumen} untuk melindungi diri;"
                       }
                     ]
                   },
@@ -489,7 +504,7 @@
                       },
                       {
                         "type": "PLAINTEXT",
-                        "text": "mengangkat harkat dan martabat konsumen dengan cara menghindarkannya dari ekses negatif pemakaian barang dan/atau jasa;"
+                        "text": "mengangkat harkat dan martabat ${konsumen} dengan cara menghindarkannya dari ekses negatif pemakaian ${barang} dan/atau ${jasa};"
                       }
                     ]
                   },
@@ -503,7 +518,7 @@
                       },
                       {
                         "type": "PLAINTEXT",
-                        "text": "meningkatkan pemberdayaan konsumen dalam memilih, menentukan dan menuntut hak-haknya sebagai konsumen;"
+                        "text": "meningkatkan pemberdayaan ${konsumen} dalam memilih, menentukan dan menuntut hak-haknya sebagai ${konsumen};"
                       }
                     ]
                   },
@@ -517,7 +532,7 @@
                       },
                       {
                         "type": "PLAINTEXT",
-                        "text": "menciptakan sistem perlindungan konsumen yang mengandung unsur kepastian hukum dan keterbukaan informasi serta akses untuk mendapatkan informasi;"
+                        "text": "menciptakan sistem ${perlindungan konsumen} yang mengandung unsur kepastian hukum dan keterbukaan informasi serta akses untuk mendapatkan informasi;"
                       }
                     ]
                   },
@@ -531,7 +546,7 @@
                       },
                       {
                         "type": "PLAINTEXT",
-                        "text": "menumbuhkan kesadaran pelaku usaha mengenai pentingnya perlindungan konsumen sehingga tumbuh sikap yang jujur dan bertanggung jawab dalam berusaha;"
+                        "text": "menumbuhkan kesadaran ${pelaku usaha} mengenai pentingnya ${perlindungan konsumen} sehingga tumbuh sikap yang jujur dan bertanggung jawab dalam berusaha;"
                       }
                     ]
                   },
@@ -545,7 +560,7 @@
                       },
                       {
                         "type": "PLAINTEXT",
-                        "text": "meningkatkan kualitas barang dan/atau jasa yang menjamin kelangsungan usaha produksi barang dan/atau jasa, kesehatan, kenyamanan, keamanan, dan keselamatan konsumen."
+                        "text": "meningkatkan kualitas ${barang} dan/atau ${jasa} yang menjamin kelangsungan usaha produksi ${barang} dan/atau ${jasa}, kesehatan, kenyamanan, keamanan, dan keselamatan ${konsumen}."
                       }
                     ]
                   }
@@ -589,7 +604,7 @@
                   },
                   {
                     "type": "PLAINTEXT",
-                    "text": "Hak konsumen adalah:"
+                    "text": "Hak ${konsumen} adalah:"
                   },
                   {
                     "type": "LIST",
@@ -605,7 +620,7 @@
                           },
                           {
                             "type": "PLAINTEXT",
-                            "text": "hak atas kenyamanan, keamanan, dan keselamatan dalam mengkonsumsi barang dan/atau jasa;"
+                            "text": "hak atas kenyamanan, keamanan, dan keselamatan dalam mengkonsumsi ${barang} dan/atau ${jasa};"
                           }
                         ]
                       },
@@ -619,7 +634,7 @@
                           },
                           {
                             "type": "PLAINTEXT",
-                            "text": "hak untuk memilih barang dan/atau jasa serta mendapatkan barang dan/atau jasa tersebut sesuai dengan nilai tukar dan kondisi serta jaminan yang dijanjikan;"
+                            "text": "hak untuk memilih ${barang} dan/atau ${jasa} serta mendapatkan ${barang} dan/atau ${jasa} tersebut sesuai dengan nilai tukar dan kondisi serta jaminan yang dijanjikan;"
                           }
                         ]
                       },
@@ -633,7 +648,7 @@
                           },
                           {
                             "type": "PLAINTEXT",
-                            "text": "hak atas informasi yang benar, jelas, dan jujur mengenai kondisi dan jaminan barang dan/atau jasa;"
+                            "text": "hak atas informasi yang benar, jelas, dan jujur mengenai kondisi dan jaminan ${barang} dan/atau ${jasa};"
                           }
                         ]
                       },
@@ -647,7 +662,7 @@
                           },
                           {
                             "type": "PLAINTEXT",
-                            "text": "hak untuk didengar pendapat dan keluhannya atas barang dan/atau jasa yang digunakan;"
+                            "text": "hak untuk didengar pendapat dan keluhannya atas ${barang} dan/atau ${jasa} yang digunakan;"
                           }
                         ]
                       },
@@ -661,7 +676,7 @@
                           },
                           {
                             "type": "PLAINTEXT",
-                            "text": "hak untuk mendapatkan advokasi, perlindungan, dan upaya penyelesaian sengketa perlindungan konsumen secara patut;"
+                            "text": "hak untuk mendapatkan advokasi, perlindungan, dan upaya penyelesaian sengketa ${perlindungan konsumen} secara patut;"
                           }
                         ]
                       },
@@ -675,7 +690,7 @@
                           },
                           {
                             "type": "PLAINTEXT",
-                            "text": "hak untuk mendapat pembinaan dan pendidikan konsumen;"
+                            "text": "hak untuk mendapat pembinaan dan pendidikan ${konsumen};"
                           }
                         ]
                       },
@@ -703,7 +718,7 @@
                           },
                           {
                             "type": "PLAINTEXT",
-                            "text": "hak untuk mendapatkan kompensasi, ganti rugi dan/atau penggantian, apabila barang dan/atau jasa yang diterima tidak sesuai dengan perjanjian atau tidak sebagaimana mestinya;"
+                            "text": "hak untuk mendapatkan kompensasi, ganti rugi dan/atau penggantian, apabila ${barang} dan/atau ${jasa} yang diterima tidak sesuai dengan perjanjian atau tidak sebagaimana mestinya;"
                           }
                         ]
                       },
@@ -735,7 +750,7 @@
                   },
                   {
                     "type": "PLAINTEXT",
-                    "text": "Kewajiban konsumen adalah:"
+                    "text": "Kewajiban ${konsumen} adalah:"
                   },
                   {
                     "type": "LIST",
@@ -751,7 +766,7 @@
                           },
                           {
                             "type": "PLAINTEXT",
-                            "text": "membaca atau mengikuti petunjuk informasi dan prosedur pemakaian atau pemanfaatan barang dan/atau jasa, demi keamanan dan keselamatan;"
+                            "text": "membaca atau mengikuti petunjuk informasi dan prosedur pemakaian atau pemanfaatan ${barang} dan/atau ${jasa}, demi keamanan dan keselamatan;"
                           }
                         ]
                       },
@@ -765,7 +780,7 @@
                           },
                           {
                             "type": "PLAINTEXT",
-                            "text": "beritikad baik dalam melakukan transaksi pembelian barang dan/atau jasa;"
+                            "text": "beritikad baik dalam melakukan transaksi pembelian ${barang} dan/atau ${jasa};"
                           }
                         ]
                       },
@@ -793,7 +808,7 @@
                           },
                           {
                             "type": "PLAINTEXT",
-                            "text": "mengikuti upaya penyelesaian hukum sengketa perlindungan konsumen secara patut."
+                            "text": "mengikuti upaya penyelesaian hukum sengketa ${perlindungan konsumen} secara patut."
                           }
                         ]
                       }
@@ -825,7 +840,7 @@
                   },
                   {
                     "type": "PLAINTEXT",
-                    "text": "Hak pelaku usaha adalah:"
+                    "text": "Hak ${pelaku usaha} adalah:"
                   },
                   {
                     "type": "LIST",
@@ -841,7 +856,7 @@
                           },
                           {
                             "type": "PLAINTEXT",
-                            "text": "hak untuk menerima pembayaran yang sesuai dengan kesepakatan mengenai kondisi dan nilai tukar barang dan/atau jasa yang diperdagangkan;"
+                            "text": "hak untuk menerima pembayaran yang sesuai dengan kesepakatan mengenai kondisi dan nilai tukar ${barang} dan/atau ${jasa} yang diperdagangkan;"
                           }
                         ]
                       },
@@ -855,7 +870,7 @@
                           },
                           {
                             "type": "PLAINTEXT",
-                            "text": "hak untuk mendapat perlindungan hukum dari tindakan konsumen yang beritikad tidak baik;"
+                            "text": "hak untuk mendapat perlindungan hukum dari tindakan ${konsumen} yang beritikad tidak baik;"
                           }
                         ]
                       },
@@ -869,7 +884,7 @@
                           },
                           {
                             "type": "PLAINTEXT",
-                            "text": "hak untuk melakukan pembelaan diri sepatutnya di dalam penyelesaian hukum sengketa konsumen;"
+                            "text": "hak untuk melakukan pembelaan diri sepatutnya di dalam penyelesaian hukum sengketa ${konsumen};"
                           }
                         ]
                       },
@@ -883,7 +898,7 @@
                           },
                           {
                             "type": "PLAINTEXT",
-                            "text": "hak untuk rehabilitasi nama baik apabila terbukti secara hukum bahwa kerugian konsumen tidak diakibatkan oleh barang dan/atau jasa yang diperdagangkan;"
+                            "text": "hak untuk rehabilitasi nama baik apabila terbukti secara hukum bahwa kerugian ${konsumen} tidak diakibatkan oleh ${barang} dan/atau ${jasa} yang diperdagangkan;"
                           }
                         ]
                       },
@@ -915,7 +930,7 @@
                   },
                   {
                     "type": "PLAINTEXT",
-                    "text": "Kewajiban pelaku usaha adalah:"
+                    "text": "Kewajiban ${pelaku usaha} adalah:"
                   },
                   {
                     "type": "LIST",
@@ -945,7 +960,7 @@
                           },
                           {
                             "type": "PLAINTEXT",
-                            "text": "memberikan informasi yang benar, jelas dan jujur mengenai kondisi dan jaminan barang dan/atau jasa serta memberi penjelasan penggunaan, perbaikan dan pemeliharaan;"
+                            "text": "memberikan informasi yang benar, jelas dan jujur mengenai kondisi dan jaminan ${barang} dan/atau ${jasa} serta memberi penjelasan penggunaan, perbaikan dan pemeliharaan;"
                           }
                         ]
                       },
@@ -959,7 +974,7 @@
                           },
                           {
                             "type": "PLAINTEXT",
-                            "text": "memperlakukan atau melayani konsumen secara benar dan jujur serta tidak diskriminatif;"
+                            "text": "memperlakukan atau melayani ${konsumen} secara benar dan jujur serta tidak diskriminatif;"
                           }
                         ]
                       },
@@ -973,7 +988,7 @@
                           },
                           {
                             "type": "PLAINTEXT",
-                            "text": "menjamin mutu barang dan/atau jasa yang diproduksi dan/atau diperdagangkan berdasarkan ketentuan standar mutu barang dan/atau jasa yang berlaku;"
+                            "text": "menjamin mutu ${barang} dan/atau ${jasa} yang diproduksi dan/atau diperdagangkan berdasarkan ketentuan standar mutu ${barang} dan/atau ${jasa} yang berlaku;"
                           }
                         ]
                       },
@@ -987,7 +1002,7 @@
                           },
                           {
                             "type": "PLAINTEXT",
-                            "text": "memberi kesempatan kepada konsumen untuk menguji, dan/atau mencoba barang dan/atau jasa tertentu serta memberi jaminan dan/atau garansi atas barang yang dibuat dan/atau yang diperdagangkan;"
+                            "text": "memberi kesempatan kepada ${konsumen} untuk menguji, dan/atau mencoba ${barang} dan/atau ${jasa} tertentu serta memberi jaminan dan/atau garansi atas ${barang} yang dibuat dan/atau yang diperdagangkan;"
                           }
                         ]
                       },
@@ -1001,7 +1016,7 @@
                           },
                           {
                             "type": "PLAINTEXT",
-                            "text": "memberi kompensasi, ganti rugi dan/atau penggantian atas kerugian akibat penggunaan, pemakaian dan pemanfaatan barang dan/atau jasa yang diperdagangkan;"
+                            "text": "memberi kompensasi, ganti rugi dan/atau penggantian atas kerugian akibat penggunaan, pemakaian dan pemanfaatan ${barang} dan/atau ${jasa} yang diperdagangkan;"
                           }
                         ]
                       },
@@ -1015,7 +1030,7 @@
                           },
                           {
                             "type": "PLAINTEXT",
-                            "text": "memberi kompensasi, ganti rugi dan/atau penggantian apabila barang dan/atau jasa yang diterima atau dimanfaatkan tidak sesuai dengan perjanjian."
+                            "text": "memberi kompensasi, ganti rugi dan/atau penggantian apabila ${barang} dan/atau ${jasa} yang diterima atau dimanfaatkan tidak sesuai dengan perjanjian."
                           }
                         ]
                       }
@@ -1061,7 +1076,7 @@
                       },
                       {
                         "type": "PLAINTEXT",
-                        "text": "Pelaku usaha dilarang memproduksi dan/atau memperdagangkan barang dan/atau jasa yang:"
+                        "text": "${Pelaku usaha} dilarang memproduksi dan/atau memperdagangkan ${barang} dan/atau ${jasa} yang:"
                       },
                       {
                         "type": "LIST",
@@ -1091,7 +1106,7 @@
                               },
                               {
                                 "type": "PLAINTEXT",
-                                "text": "tidak sesuai dengan berat bersih, isi bersih atau netto, dan jumlah dalam hitungan sebagaimana yang dinyatakan dalam label atau etiket barang tersebut;"
+                                "text": "tidak sesuai dengan berat bersih, isi bersih atau netto, dan jumlah dalam hitungan sebagaimana yang dinyatakan dalam label atau etiket ${barang} tersebut;"
                               }
                             ]
                           },
@@ -1119,7 +1134,7 @@
                               },
                               {
                                 "type": "PLAINTEXT",
-                                "text": "tidak sesuai dengan kondisi, jaminan, keistimewaan atau kemanjuran sebagaimana dinyatakan dalam label, etiket atau keterangan barang dan/atau jasa tersebut;"
+                                "text": "tidak sesuai dengan kondisi, jaminan, keistimewaan atau kemanjuran sebagaimana dinyatakan dalam label, etiket atau keterangan ${barang} dan/atau ${jasa} tersebut;"
                               }
                             ]
                           },
@@ -1133,7 +1148,7 @@
                               },
                               {
                                 "type": "PLAINTEXT",
-                                "text": "tidak sesuai dengan mutu, tingkatan, komposisi, proses pengolahan, gaya, mode, atau penggunaan tertentu sebagaimana dinyatakan dalam label atau keterangan barang dan/atau jasa tersebut;"
+                                "text": "tidak sesuai dengan mutu, tingkatan, komposisi, proses pengolahan, gaya, mode, atau penggunaan tertentu sebagaimana dinyatakan dalam label atau keterangan ${barang} dan/atau ${jasa} tersebut;"
                               }
                             ]
                           },
@@ -1147,7 +1162,7 @@
                               },
                               {
                                 "type": "PLAINTEXT",
-                                "text": "tidak sesuai dengan janji yang dinyatakan dalam label, etiket, keterangan, iklan atau promosi penjualan barang dan/atau jasa tersebut;"
+                                "text": "tidak sesuai dengan janji yang dinyatakan dalam label, etiket, keterangan, iklan atau ${promosi} penjualan ${barang} dan/atau ${jasa} tersebut;"
                               }
                             ]
                           },
@@ -1161,7 +1176,7 @@
                               },
                               {
                                 "type": "PLAINTEXT",
-                                "text": "tidak mencantumkan tanggal kadaluwarsa atau jangka waktu penggunaan/ pemanfaatan yang paling baik atas barang tertentu;"
+                                "text": "tidak mencantumkan tanggal kadaluwarsa atau jangka waktu penggunaan/ pemanfaatan yang paling baik atas ${barang} tertentu;"
                               }
                             ]
                           },
@@ -1189,7 +1204,7 @@
                               },
                               {
                                 "type": "PLAINTEXT",
-                                "text": "tidak memasang label atau membuat penjelasan barang yang memuat nama barang, ukuran, berat/isi bersih atau netto, komposisi, aturan pakai, tanggal pembuatan, akibat sampingan, nama dan alamat pelaku usaha serta keterangan lain untuk penggunaan yang menurut ketentuan harus dipasang/dibuat;"
+                                "text": "tidak memasang label atau membuat penjelasan ${barang} yang memuat nama ${barang}, ukuran, berat/isi bersih atau netto, komposisi, aturan pakai, tanggal pembuatan, akibat sampingan, nama dan alamat ${pelaku usaha} serta keterangan lain untuk penggunaan yang menurut ketentuan harus dipasang/dibuat;"
                               }
                             ]
                           },
@@ -1203,7 +1218,7 @@
                               },
                               {
                                 "type": "PLAINTEXT",
-                                "text": "tidak mencantumkan informasi dan/atau petunjuk penggunaan barang dalam bahasa Indonesia sesuai dengan ketentuan perundang-undangan yang berlaku."
+                                "text": "tidak mencantumkan informasi dan/atau petunjuk penggunaan ${barang} dalam bahasa Indonesia sesuai dengan ketentuan perundang-undangan yang berlaku."
                               }
                             ]
                           }
@@ -1221,7 +1236,7 @@
                       },
                       {
                         "type": "PLAINTEXT",
-                        "text": "Pelaku usaha dilarang memperdagangkan barang yang rusak, cacat atau bekas, dan tercemar tanpa memberikan informasi secara lengkap dan benar atas barang dimaksud."
+                        "text": "${Pelaku usaha} dilarang memperdagangkan ${barang} yang rusak, cacat atau bekas, dan tercemar tanpa memberikan informasi secara lengkap dan benar atas ${barang} dimaksud."
                       }
                     ]
                   },
@@ -1235,7 +1250,7 @@
                       },
                       {
                         "type": "PLAINTEXT",
-                        "text": "Pelaku usaha dilarang memperdagangkan sediaan farmasi dan pangan yang rusak, cacat atau bekas dan tercemar, dengan atau tanpa memberikan informasi secara lengkap dan benar."
+                        "text": "${Pelaku usaha} dilarang memperdagangkan sediaan farmasi dan pangan yang rusak, cacat atau bekas dan tercemar, dengan atau tanpa memberikan informasi secara lengkap dan benar."
                       }
                     ]
                   },
@@ -1249,7 +1264,7 @@
                       },
                       {
                         "type": "PLAINTEXT",
-                        "text": "Pelaku usaha yang melakukan pelanggaran pada ayat (1) dan ayat (2) dilarang memperdagangkan barang dan/atau jasa tersebut serta wajib menariknya dari peredaran."
+                        "text": "${Pelaku usaha} yang melakukan pelanggaran pada ayat (1) dan ayat (2) dilarang memperdagangkan ${barang} dan/atau ${jasa} tersebut serta wajib menariknya dari peredaran."
                       }
                     ]
                   }
@@ -1279,7 +1294,7 @@
                       },
                       {
                         "type": "PLAINTEXT",
-                        "text": "Pelaku usaha dilarang menawarkan, mempromosikan, mengiklankan suatu barang dan/atau jasa secara tidak benar, dan/atau seolah-olah:"
+                        "text": "${Pelaku usaha} dilarang menawarkan, mempromosikan, mengiklankan suatu ${barang} dan/atau ${jasa} secara tidak benar, dan/atau seolah-olah:"
                       },
                       {
                         "type": "LIST",
@@ -1295,7 +1310,7 @@
                               },
                               {
                                 "type": "PLAINTEXT",
-                                "text": "barang tersebut telah memenuhi dan/atau memiliki potongan harga, harga khusus, standar mutu tertentu, gaya atau mode tertentu, karakteristik tertentu, sejarah atau guna tertentu;"
+                                "text": "${barang} tersebut telah memenuhi dan/atau memiliki potongan harga, harga khusus, standar mutu tertentu, gaya atau mode tertentu, karakteristik tertentu, sejarah atau guna tertentu;"
                               }
                             ]
                           },
@@ -1309,7 +1324,7 @@
                               },
                               {
                                 "type": "PLAINTEXT",
-                                "text": "barang tersebut dalam keadaan baik dan/atau baru;"
+                                "text": "${barang} tersebut dalam keadaan baik dan/atau baru;"
                               }
                             ]
                           },
@@ -1323,7 +1338,7 @@
                               },
                               {
                                 "type": "PLAINTEXT",
-                                "text": "barang dan/atau jasa tersebut telah mendapatkan dan/atau memiliki sponsor, persetujuan, perlengkapan tertentu, keuntungan tertentu, ciri-ciri kerja atau aksesori tertentu;"
+                                "text": "${barang} dan/atau ${jasa} tersebut telah mendapatkan dan/atau memiliki sponsor, persetujuan, perlengkapan tertentu, keuntungan tertentu, ciri-ciri kerja atau aksesori tertentu;"
                               }
                             ]
                           },
@@ -1337,7 +1352,7 @@
                               },
                               {
                                 "type": "PLAINTEXT",
-                                "text": "barang dan/atau jasa tersebut dibuat oleh perusahaan yang mempunyai sponsor, persetujuan atau afiliasi;"
+                                "text": "${barang} dan/atau ${jasa} tersebut dibuat oleh perusahaan yang mempunyai sponsor, persetujuan atau afiliasi;"
                               }
                             ]
                           },
@@ -1351,7 +1366,7 @@
                               },
                               {
                                 "type": "PLAINTEXT",
-                                "text": "barang dan/atau jasa tersebut tersedia;"
+                                "text": "${barang} dan/atau ${jasa} tersebut tersedia;"
                               }
                             ]
                           },
@@ -1365,7 +1380,7 @@
                               },
                               {
                                 "type": "PLAINTEXT",
-                                "text": "barang tersebut tidak mengandung cacat tersembunyi;"
+                                "text": "${barang} tersebut tidak mengandung cacat tersembunyi;"
                               }
                             ]
                           },
@@ -1379,7 +1394,7 @@
                               },
                               {
                                 "type": "PLAINTEXT",
-                                "text": "barang tersebut merupakan kelengkapan dari barang tertentu;"
+                                "text": "${barang} tersebut merupakan kelengkapan dari ${barang} tertentu;"
                               }
                             ]
                           },
@@ -1393,7 +1408,7 @@
                               },
                               {
                                 "type": "PLAINTEXT",
-                                "text": "barang tersebut berasal dari daerah tertentu;"
+                                "text": "${barang} tersebut berasal dari daerah tertentu;"
                               }
                             ]
                           },
@@ -1407,7 +1422,7 @@
                               },
                               {
                                 "type": "PLAINTEXT",
-                                "text": "secara langsung atau tidak langsung merendahkan barang dan/atau jasa lain;"
+                                "text": "secara langsung atau tidak langsung merendahkan ${barang} dan/atau ${jasa} lain;"
                               }
                             ]
                           },
@@ -1453,7 +1468,7 @@
                       },
                       {
                         "type": "PLAINTEXT",
-                        "text": "Barang dan/atau jasa sebagaimana dimaksud pada ayat (1) dilarang untuk diperdagangkan."
+                        "text": "${Barang} dan/atau ${jasa} sebagaimana dimaksud pada ayat (1) dilarang untuk diperdagangkan."
                       }
                     ]
                   },
@@ -1467,7 +1482,7 @@
                       },
                       {
                         "type": "PLAINTEXT",
-                        "text": "Pelaku usaha yang melakukan pelanggaran terhadap ayat (1) dilarang melanjutkan penawaran, promosi, dan pengiklanan barang dan/atau jasa tersebut."
+                        "text": "${Pelaku usaha} yang melakukan pelanggaran terhadap ayat (1) dilarang melanjutkan penawaran, ${promosi}, dan pengiklanan ${barang} dan/atau ${jasa} tersebut."
                       }
                     ]
                   }
@@ -1485,7 +1500,7 @@
               },
               {
                 "type": "PLAINTEXT",
-                "text": "Pelaku usaha dalam menawarkan barang dan/atau jasa yang ditujukan untuk diperdagangkan dilarang  menawarkan, mempromosikan, mengiklankan atau membuat pernyataan yang tidak benar atau  menyesatkan mengenai:"
+                "text": "${Pelaku usaha} dalam menawarkan ${barang} dan/atau ${jasa} yang ditujukan untuk diperdagangkan dilarang  menawarkan, mempromosikan, mengiklankan atau membuat pernyataan yang tidak benar atau  menyesatkan mengenai:"
               },
               {
                 "type": "LIST",
@@ -1501,7 +1516,7 @@
                       },
                       {
                         "type": "PLAINTEXT",
-                        "text": "harga atau tarif suatu barang dan/atau jasa;"
+                        "text": "harga atau tarif suatu ${barang} dan/atau ${jasa};"
                       }
                     ]
                   },
@@ -1515,7 +1530,7 @@
                       },
                       {
                         "type": "PLAINTEXT",
-                        "text": "kegunaan suatu barang dan/atau jasa;"
+                        "text": "kegunaan suatu ${barang} dan/atau ${jasa};"
                       }
                     ]
                   },
@@ -1529,7 +1544,7 @@
                       },
                       {
                         "type": "PLAINTEXT",
-                        "text": "kondisi, tanggungan, jaminan, hak atau ganti rugi atas suatu barang dan/atau jasa;"
+                        "text": "kondisi, tanggungan, jaminan, hak atau ganti rugi atas suatu ${barang} dan/atau ${jasa};"
                       }
                     ]
                   },
@@ -1557,7 +1572,7 @@
                       },
                       {
                         "type": "PLAINTEXT",
-                        "text": "bahaya penggunaan barang dan/atau jasa."
+                        "text": "bahaya penggunaan ${barang} dan/atau ${jasa}."
                       }
                     ]
                   }
@@ -1575,7 +1590,7 @@
               },
               {
                 "type": "PLAINTEXT",
-                "text": "Pelaku usaha dalam hal penjualan yang dilakukan melalui cara obral atau lelang, dilarang  mengelabui/menyesatkan konsumen dengan:"
+                "text": "${Pelaku usaha} dalam hal penjualan yang dilakukan melalui cara obral atau lelang, dilarang  mengelabui/menyesatkan ${konsumen} dengan:"
               },
               {
                 "type": "LIST",
@@ -1591,7 +1606,7 @@
                       },
                       {
                         "type": "PLAINTEXT",
-                        "text": "menyatakan barang dan/atau jasa tersebut seolah-olah telah memenuhi standar mutu tertentu;"
+                        "text": "menyatakan ${barang} dan/atau ${jasa} tersebut seolah-olah telah memenuhi standar mutu tertentu;"
                       }
                     ]
                   },
@@ -1605,7 +1620,7 @@
                       },
                       {
                         "type": "PLAINTEXT",
-                        "text": "menyatakan barang dan/atau jasa tersebut seolah-olah tidak mengandung cacat tersembunyi;"
+                        "text": "menyatakan ${barang} dan/atau ${jasa} tersebut seolah-olah tidak mengandung cacat tersembunyi;"
                       }
                     ]
                   },
@@ -1619,7 +1634,7 @@
                       },
                       {
                         "type": "PLAINTEXT",
-                        "text": "tidak berniat untuk menjual barang yang ditawarkan melainkan dengan maksud untuk menjual barang lain;"
+                        "text": "tidak berniat untuk menjual ${barang} yang ditawarkan melainkan dengan maksud untuk menjual ${barang} lain;"
                       }
                     ]
                   },
@@ -1633,7 +1648,7 @@
                       },
                       {
                         "type": "PLAINTEXT",
-                        "text": "tidak menyediakan barang dalam jumlah tertentu dan/atau jumlah yang cukup dengan maksud menjual barang yang lain;"
+                        "text": "tidak menyediakan ${barang} dalam jumlah tertentu dan/atau jumlah yang cukup dengan maksud menjual ${barang} yang lain;"
                       }
                     ]
                   },
@@ -1647,7 +1662,7 @@
                       },
                       {
                         "type": "PLAINTEXT",
-                        "text": "tidak menyediakan jasa dalam kapasitas tertentu atau dalam jumlah cukup dengan maksud menjual jasa yang lain;"
+                        "text": "tidak menyediakan ${jasa} dalam kapasitas tertentu atau dalam jumlah cukup dengan maksud menjual ${jasa} yang lain;"
                       }
                     ]
                   },
@@ -1661,7 +1676,7 @@
                       },
                       {
                         "type": "PLAINTEXT",
-                        "text": "menaikkan harga atau tarif barang dan/atau jasa sebelum melakukan obral."
+                        "text": "menaikkan harga atau tarif ${barang} dan/atau ${jasa} sebelum melakukan obral."
                       }
                     ]
                   }
@@ -1679,7 +1694,7 @@
               },
               {
                 "type": "PLAINTEXT",
-                "text": "Pelaku usaha dilarang menawarkan, mempromosikan atau mengiklankan suatu barang dan/atau jasa  dengan harga atau tarif khusus dalam waktu dan jumlah tertentu, jika pelaku usaha tersebut tidak  bermaksud untuk melaksanakannya sesuai dengan waktu dan jumlah yang ditawarkan, dipromosikan, atau  diiklankan."
+                "text": "${Pelaku usaha} dilarang menawarkan, mempromosikan atau mengiklankan suatu ${barang} dan/atau ${jasa}  dengan harga atau tarif khusus dalam waktu dan jumlah tertentu, jika pelaku usaha tersebut tidak  bermaksud untuk melaksanakannya sesuai dengan waktu dan jumlah yang ditawarkan, dipromosikan, atau  diiklankan."
               }
             ]
           },
@@ -1705,7 +1720,7 @@
                       },
                       {
                         "type": "PLAINTEXT",
-                        "text": "Pelaku usaha dilarang menawarkan, mempromosikan, atau mengiklankan suatu barang dan/jasa dengan cara menjanjikan pemberian hadiah berupa barang dan/atau jasa lain secara cuma-cuma dengan maksud tidak memberikannya atau memberikan tidak sebagaimana yang dijanjikannya."
+                        "text": "${Pelaku usaha} dilarang menawarkan, mempromosikan, atau mengiklankan suatu ${barang} dan/${jasa} dengan cara menjanjikan pemberian hadiah berupa ${barang} dan/atau ${jasa} lain secara cuma-cuma dengan maksud tidak memberikannya atau memberikan tidak sebagaimana yang dijanjikannya."
                       }
                     ]
                   },
@@ -1719,7 +1734,7 @@
                       },
                       {
                         "type": "PLAINTEXT",
-                        "text": "Pelaku usaha dilarang menawarkan, mempromosikan atau mengiklankan obat, obat tradisional, suplemen makanan, alat kesehatan, dan jasa pelayanan kesehatan dengan cara menjanjikan pemberian hadiah berupa barang dan/atau jasa lain."
+                        "text": "${Pelaku usaha} dilarang menawarkan, mempromosikan atau mengiklankan obat, obat tradisional, suplemen makanan, alat kesehatan, dan ${jasa} pelayanan kesehatan dengan cara menjanjikan pemberian hadiah berupa ${barang} dan/atau ${jasa} lain."
                       }
                     ]
                   }
@@ -1737,7 +1752,7 @@
               },
               {
                 "type": "PLAINTEXT",
-                "text": "Pelaku usaha dalam menawarkan barang dan/atau jasa yang ditujukan untuk diperdagangkan dengan  memberikan hadiah melalui cara undian, dilarang untuk:"
+                "text": "${Pelaku usaha} dalam menawarkan ${barang} dan/atau ${jasa} yang ditujukan untuk diperdagangkan dengan  memberikan hadiah melalui cara undian, dilarang untuk:"
               },
               {
                 "type": "LIST",
@@ -1813,7 +1828,7 @@
               },
               {
                 "type": "PLAINTEXT",
-                "text": "Pelaku usaha dalam menawarkan barang dan/atau jasa dilarang melakukan dengan cara pemaksaan atau  cara lain yang dapat menimbulkan gangguan baik fisik maupun psikis terhadap konsumen."
+                "text": "${Pelaku usaha} dalam menawarkan ${barang} dan/atau ${jasa} dilarang melakukan dengan cara pemaksaan atau  cara lain yang dapat menimbulkan gangguan baik fisik maupun psikis terhadap ${konsumen}."
               }
             ]
           },
@@ -1827,7 +1842,7 @@
               },
               {
                 "type": "PLAINTEXT",
-                "text": "Pelaku usaha dalam menawarkan barang dan/atau jasa melalui pesanan dilarang untuk:"
+                "text": "${Pelaku usaha} dalam menawarkan ${barang} dan/atau ${jasa} melalui pesanan dilarang untuk:"
               },
               {
                 "type": "LIST",
@@ -1887,7 +1902,7 @@
                       },
                       {
                         "type": "PLAINTEXT",
-                        "text": "Pelaku usaha periklanan dilarang memproduksi iklan yang:"
+                        "text": "${Pelaku usaha} periklanan dilarang memproduksi iklan yang:"
                       },
                       {
                         "type": "LIST",
@@ -1903,7 +1918,7 @@
                               },
                               {
                                 "type": "PLAINTEXT",
-                                "text": "mengelabui konsumen mengenai kualitas, kuantitas, bahan, kegunaan dan harga barang dan/atau tarif jasa serta ketepatan waktu penerimaan barang dan/atau jasa;"
+                                "text": "mengelabui ${konsumen} mengenai kualitas, kuantitas, bahan, kegunaan dan harga ${barang} dan/atau tarif ${jasa} serta ketepatan waktu penerimaan ${barang} dan/atau ${jasa};"
                               }
                             ]
                           },
@@ -1917,7 +1932,7 @@
                               },
                               {
                                 "type": "PLAINTEXT",
-                                "text": "mengelabui jaminan/garansi terhadap barang dan/atau jasa;"
+                                "text": "mengelabui jaminan/garansi terhadap ${barang} dan/atau ${jasa};"
                               }
                             ]
                           },
@@ -1931,7 +1946,7 @@
                               },
                               {
                                 "type": "PLAINTEXT",
-                                "text": "memuat informasi yang keliru, salah, atau tidak tepat mengenai barang dan/atau jasa;"
+                                "text": "memuat informasi yang keliru, salah, atau tidak tepat mengenai ${barang} dan/atau ${jasa};"
                               }
                             ]
                           },
@@ -1945,7 +1960,7 @@
                               },
                               {
                                 "type": "PLAINTEXT",
-                                "text": "tidak memuat informasi mengenai risiko pemakaian barang dan/atau jasa;"
+                                "text": "tidak memuat informasi mengenai risiko pemakaian ${barang} dan/atau ${jasa};"
                               }
                             ]
                           },
@@ -1991,7 +2006,7 @@
                       },
                       {
                         "type": "PLAINTEXT",
-                        "text": "Pelaku usaha periklanan dilarang melanjutkan peredaran iklan yang telah melanggar ketentuan pada ayat (1)."
+                        "text": "${Pelaku usaha} periklanan dilarang melanjutkan peredaran iklan yang telah melanggar ketentuan pada ayat (1)."
                       }
                     ]
                   }
@@ -2035,7 +2050,7 @@
                       },
                       {
                         "type": "PLAINTEXT",
-                        "text": "Pelaku usaha dalam menawarkan barang dan/atau jasa yang ditujukan untuk diperdagangkan dilarang membuat atau mencantumkan klausula baku pada setiap dokumen dan/atau perjanjian apabila:"
+                        "text": "${Pelaku usaha} dalam menawarkan ${barang} dan/atau ${jasa} yang ditujukan untuk diperdagangkan dilarang membuat atau mencantumkan ${klausula baku} pada setiap dokumen dan/atau perjanjian apabila:"
                       },
                       {
                         "type": "LIST",
@@ -2051,7 +2066,7 @@
                               },
                               {
                                 "type": "PLAINTEXT",
-                                "text": "menyatakan pengalihan tanggung jawab pelaku usaha;"
+                                "text": "menyatakan pengalihan tanggung jawab ${pelaku usaha};"
                               }
                             ]
                           },
@@ -2065,7 +2080,7 @@
                               },
                               {
                                 "type": "PLAINTEXT",
-                                "text": "menyatakan bahwa pelaku usaha berhak menolak penyerahan kembali barang yang dibeli konsumen;"
+                                "text": "menyatakan bahwa ${pelaku usaha} berhak menolak penyerahan kembali ${barang} yang dibeli ${konsumen};"
                               }
                             ]
                           },
@@ -2079,7 +2094,7 @@
                               },
                               {
                                 "type": "PLAINTEXT",
-                                "text": "menyatakan bahwa pelaku usaha berhak menolak penyerahan kembali uang yang dibayarkan atas barang dan/atau jasa yang dibeli oleh konsumen;"
+                                "text": "menyatakan bahwa ${pelaku usaha} berhak menolak penyerahan kembali uang yang dibayarkan atas ${barang} dan/atau ${jasa} yang dibeli oleh ${konsumen};"
                               }
                             ]
                           },
@@ -2093,7 +2108,7 @@
                               },
                               {
                                 "type": "PLAINTEXT",
-                                "text": "menyatakan pemberian kuasa dari konsumen kepada pelaku usaha baik secara langsung maupun tidak langsung untuk melakukan segala tindakan sepihak yang berkaitan dengan barang yang dibeli oleh konsumen secara angsuran;"
+                                "text": "menyatakan pemberian kuasa dari ${konsumen} kepada ${pelaku usaha} baik secara langsung maupun tidak langsung untuk melakukan segala tindakan sepihak yang berkaitan dengan ${barang} yang dibeli oleh ${konsumen} secara angsuran;"
                               }
                             ]
                           },
@@ -2107,7 +2122,7 @@
                               },
                               {
                                 "type": "PLAINTEXT",
-                                "text": "mengatur perihal pembuktian atas hilangnya kegunaan barang atau pemanfaatan jasa yang dibeli oleh konsumen;"
+                                "text": "mengatur perihal pembuktian atas hilangnya kegunaan ${barang} atau pemanfaatan ${jasa} yang dibeli oleh ${konsumen};"
                               }
                             ]
                           },
@@ -2121,7 +2136,7 @@
                               },
                               {
                                 "type": "PLAINTEXT",
-                                "text": "memberi hak kepada pelaku usaha untuk mengurangi manfaat jasa atau mengurangi harta kekayaan konsumen yang menjadi obyek jual beli jasa;"
+                                "text": "memberi hak kepada ${pelaku usaha} untuk mengurangi manfaat ${jasa} atau mengurangi harta kekayaan ${konsumen} yang menjadi obyek jual beli ${jasa};"
                               }
                             ]
                           },
@@ -2135,7 +2150,7 @@
                               },
                               {
                                 "type": "PLAINTEXT",
-                                "text": "menyatakan tunduknya konsumen kepada peraturan yang berupa aturan baru, tambahan, lanjutan dan/atau pengubahan lanjutan yang dibuat sepihak oleh pelaku usaha dalam masa konsumen memanfaatkan jasa yang dibelinya;"
+                                "text": "menyatakan tunduknya ${konsumen} kepada peraturan yang berupa aturan baru, tambahan, lanjutan dan/atau pengubahan lanjutan yang dibuat sepihak oleh ${pelaku usaha} dalam masa ${konsumen} memanfaatkan ${jasa} yang dibelinya;"
                               }
                             ]
                           },
@@ -2149,7 +2164,7 @@
                               },
                               {
                                 "type": "PLAINTEXT",
-                                "text": "menyatakan bahwa konsumen memberi kuasa kepada pelaku usaha untuk pembebanan hak tanggungan, hak gadai, atau hak jaminan terhadap barang yang dibeli oleh konsumen secara angsuran."
+                                "text": "menyatakan bahwa ${konsumen} memberi kuasa kepada ${pelaku usaha} untuk pembebanan hak tanggungan, hak gadai, atau hak jaminan terhadap ${barang} yang dibeli oleh ${konsumen} secara angsuran."
                               }
                             ]
                           }
@@ -2167,7 +2182,7 @@
                       },
                       {
                         "type": "PLAINTEXT",
-                        "text": "Pelaku usaha dilarang mencantumkan klausula baku yang letak atau bentuknya sulit terlihat atau tidak dapat dibaca secara jelas, atau yang pengungkapannya sulit dimengerti."
+                        "text": "${Pelaku usaha} dilarang mencantumkan ${klausula baku} yang letak atau bentuknya sulit terlihat atau tidak dapat dibaca secara jelas, atau yang pengungkapannya sulit dimengerti."
                       }
                     ]
                   },
@@ -2181,7 +2196,7 @@
                       },
                       {
                         "type": "PLAINTEXT",
-                        "text": "Setiap klausula baku yang telah ditetapkan oleh pelaku usaha pada dokumen atau perjanjian yang memenuhi ketentuan sebagaimana dimaksud pada ayat (1) dan ayat (2) dinyatakan batal demi hukum."
+                        "text": "Setiap ${klausula baku} yang telah ditetapkan oleh ${pelaku usaha} pada dokumen atau perjanjian yang memenuhi ketentuan sebagaimana dimaksud pada ayat (1) dan ayat (2) dinyatakan batal demi hukum."
                       }
                     ]
                   },
@@ -2195,7 +2210,7 @@
                       },
                       {
                         "type": "PLAINTEXT",
-                        "text": "Pelaku usaha wajib menyesuaikan klausula baku yang bertentangan dengan Undang-undang ini."
+                        "text": "${Pelaku usaha} wajib menyesuaikan ${klausula baku} yang bertentangan dengan Undang-undang ini."
                       }
                     ]
                   }
@@ -2239,7 +2254,7 @@
                       },
                       {
                         "type": "PLAINTEXT",
-                        "text": "Pelaku usaha bertanggung jawab memberikan ganti rugi atas kerusakan, pencemaran, dan/atau kerugian konsumen akibat mengkonsumsi barang dan/atau jasa yang dihasilkan atau diperdagangkan."
+                        "text": "${Pelaku usaha} bertanggung jawab memberikan ganti rugi atas kerusakan, pencemaran, dan/atau kerugian ${konsumen} akibat mengkonsumsi ${barang} dan/atau ${jasa} yang dihasilkan atau diperdagangkan."
                       }
                     ]
                   },
@@ -2253,7 +2268,7 @@
                       },
                       {
                         "type": "PLAINTEXT",
-                        "text": "Ganti rugi sebagaimana dimaksud pada ayat (1) dapat berupa pengembalian uang atau penggantian barang dan/atau jasa yang sejenis atau setara nilainya, atau perawatan kesehatan dan/atau pemberian santunan yang sesuai dengan ketentuan peraturan perundang-undangan yang berlaku."
+                        "text": "Ganti rugi sebagaimana dimaksud pada ayat (1) dapat berupa pengembalian uang atau penggantian ${barang} dan/atau ${jasa} yang sejenis atau setara nilainya, atau perawatan kesehatan dan/atau pemberian santunan yang sesuai dengan ketentuan peraturan perundang-undangan yang berlaku."
                       }
                     ]
                   },
@@ -2295,7 +2310,7 @@
                       },
                       {
                         "type": "PLAINTEXT",
-                        "text": "Ketentuan sebagaimana dimaksud pada ayat (1) dan ayat (2) tidak berlaku apabila pelaku usaha dapat membuktikan bahwa kesalahan tersebut merupakan kesalahan konsumen."
+                        "text": "Ketentuan sebagaimana dimaksud pada ayat (1) dan ayat (2) tidak berlaku apabila ${pelaku usaha} dapat membuktikan bahwa kesalahan tersebut merupakan kesalahan ${konsumen}."
                       }
                     ]
                   }
@@ -2313,7 +2328,7 @@
               },
               {
                 "type": "PLAINTEXT",
-                "text": "Pelaku usaha periklanan bertanggung jawab atas iklan yang diproduksi dan segala akibat yang ditimbulkan  oleh iklan tersebut."
+                "text": "${Pelaku usaha} periklanan bertanggung jawab atas iklan yang diproduksi dan segala akibat yang ditimbulkan  oleh iklan tersebut."
               }
             ]
           },
@@ -2339,7 +2354,7 @@
                       },
                       {
                         "type": "PLAINTEXT",
-                        "text": "Importir barang bertanggung jawab sebagai pembuat barang yang diimpor apabila importasi barang tersebut tidak dilakukan oleh agen atau perwakilan produsen luar negeri."
+                        "text": "Importir ${barang} bertanggung jawab sebagai pembuat ${barang} yang diimpor apabila importasi ${barang} tersebut tidak dilakukan oleh agen atau perwakilan produsen luar negeri."
                       }
                     ]
                   },
@@ -2353,7 +2368,7 @@
                       },
                       {
                         "type": "PLAINTEXT",
-                        "text": "Importir jasa bertanggung jawab sebagai penyedia jasa asing apabila penyediaan jasa asing tersebut tidak dilakukan oleh agen atau perwakilan penyedia jasa asing."
+                        "text": "Importir ${jasa} bertanggung jawab sebagai penyedia ${jasa} asing apabila penyediaan ${jasa} asing tersebut tidak dilakukan oleh agen atau perwakilan penyedia ${jasa} asing."
                       }
                     ]
                   }
@@ -2371,7 +2386,7 @@
               },
               {
                 "type": "PLAINTEXT",
-                "text": "Pembuktian terhadap ada tidaknya unsur kesalahan dalam kasus pidana sebagaimana dimaksud dalam  Pasal 19 ayat (4), Pasal 20, dan Pasal 21 merupakan beban dan tanggung jawab pelaku usaha tanpa  menutup kemungkinan bagi jaksa untuk melakukan pembuktian."
+                "text": "Pembuktian terhadap ada tidaknya unsur kesalahan dalam kasus pidana sebagaimana dimaksud dalam  Pasal 19 ayat (4), Pasal 20, dan Pasal 21 merupakan beban dan tanggung jawab ${pelaku usaha} tanpa  menutup kemungkinan bagi jaksa untuk melakukan pembuktian."
               }
             ]
           },
@@ -2385,7 +2400,7 @@
               },
               {
                 "type": "PLAINTEXT",
-                "text": "Pelaku usaha yang menolak dan/atau tidak memberi tanggapan dan/atau tidak memenuhi ganti rugi atas  tuntutan konsumen sebagaimana dimaksud dalam Pasal 19 ayat (1), ayat (2), ayat (3), dan ayat (4), dapat  digugat melalui badan penyelesaian sengketa konsumen atau mengajukan ke badan peradilan di tempat  kedudukan konsumen."
+                "text": "${Pelaku usaha} yang menolak dan/atau tidak memberi tanggapan dan/atau tidak memenuhi ganti rugi atas  tuntutan konsumen sebagaimana dimaksud dalam Pasal 19 ayat (1), ayat (2), ayat (3), dan ayat (4), dapat  digugat melalui ${badan penyelesaian sengketa konsumen} atau mengajukan ke badan peradilan di tempat  kedudukan konsumen."
               }
             ]
           },
@@ -2411,7 +2426,7 @@
                       },
                       {
                         "type": "PLAINTEXT",
-                        "text": "Pelaku usaha yang menjual barang dan/atau jasa kepada pelaku usaha lain bertanggung jawab atas tuntutan ganti rugi dan/atau gugatan konsumen apabila:"
+                        "text": "${Pelaku usaha} yang menjual ${barang} dan/atau ${jasa} kepada pelaku usaha lain bertanggung jawab atas tuntutan ganti rugi dan/atau gugatan ${konsumen} apabila:"
                       },
                       {
                         "type": "LIST",
@@ -2427,7 +2442,7 @@
                               },
                               {
                                 "type": "PLAINTEXT",
-                                "text": "pelaku usaha lain menjual kepada konsumen tanpa melakukan perubahan apa pun atas barang dan/atau jasa tersebut;"
+                                "text": "${pelaku usaha} lain menjual kepada ${konsumen} tanpa melakukan perubahan apa pun atas ${barang} dan/atau ${jasa} tersebut;"
                               }
                             ]
                           },
@@ -2441,7 +2456,7 @@
                               },
                               {
                                 "type": "PLAINTEXT",
-                                "text": "pelaku usaha lain, di dalam transaksi jual beli tidak mengetahui adanya perubahan barang dan/atau jasa yang dilakukan oleh pelaku usaha atau tidak sesuai dengan contoh, mutu, dan komposisi."
+                                "text": "${pelaku usaha} lain, di dalam transaksi jual beli tidak mengetahui adanya perubahan ${barang} dan/atau ${jasa} yang dilakukan oleh ${pelaku usaha} atau tidak sesuai dengan contoh, mutu, dan komposisi."
                               }
                             ]
                           }
@@ -2459,7 +2474,7 @@
                       },
                       {
                         "type": "PLAINTEXT",
-                        "text": "Pelaku usaha sebagaimana dimaksud pada ayat (1) dibebaskan dari tanggung jawab atas tuntutan ganti rugi dan/atau gugatan konsumen apabila pelaku usaha lain yang membeli barang dan/atau jasa menjual kembali kepada konsumen dengan melakukan perubahan atas barang dan/atau jasa tersebut."
+                        "text": "${Pelaku usaha} sebagaimana dimaksud pada ayat (1) dibebaskan dari tanggung jawab atas tuntutan ganti rugi dan/atau gugatan ${konsumen} apabila pelaku usaha lain yang membeli ${barang} dan/atau ${jasa} menjual kembali kepada ${konsumen} dengan melakukan perubahan atas ${barang} dan/atau ${jasa} tersebut."
                       }
                     ]
                   }
@@ -2489,7 +2504,7 @@
                       },
                       {
                         "type": "PLAINTEXT",
-                        "text": "Pelaku usaha yang memproduksi barang yang pemanfaatannya berkelanjutan dalam batas waktu sekurang-kurangnya 1 (satu) tahun wajib menyediakan suku cadang dan/atau fasilitas purna jual dan wajib memenuhi jaminan atau garansi sesuai dengan yang diperjanjikan."
+                        "text": "${Pelaku usaha} yang memproduksi ${barang} yang pemanfaatannya berkelanjutan dalam batas waktu sekurang-kurangnya 1 (satu) tahun wajib menyediakan suku cadang dan/atau fasilitas purna jual dan wajib memenuhi jaminan atau garansi sesuai dengan yang diperjanjikan."
                       }
                     ]
                   },
@@ -2503,7 +2518,7 @@
                       },
                       {
                         "type": "PLAINTEXT",
-                        "text": "Pelaku usaha sebagaimana dimaksud pada ayat (1) bertanggung jawab atas tuntutan ganti rugi dan/atau gugatan konsumen apabila pelaku usaha tersebut:"
+                        "text": "${Pelaku usaha} sebagaimana dimaksud pada ayat (1) bertanggung jawab atas tuntutan ganti rugi dan/atau gugatan ${konsumen} apabila pelaku usaha tersebut:"
                       },
                       {
                         "type": "LIST",
@@ -2555,7 +2570,7 @@
               },
               {
                 "type": "PLAINTEXT",
-                "text": "Pelaku usaha yang memperdagangkan jasa wajib memenuhi jaminan dan/atau garansi yang disepakati  dan/atau yang diperjanjikan."
+                "text": "${Pelaku usaha} yang memperdagangkan ${jasa} wajib memenuhi jaminan dan/atau garansi yang disepakati  dan/atau yang diperjanjikan."
               }
             ]
           },
@@ -2569,7 +2584,7 @@
               },
               {
                 "type": "PLAINTEXT",
-                "text": "Pelaku usaha yang memproduksi barang dibebaskan dari tanggung jawab atas kerugian yang diderita  konsumen, apabila:"
+                "text": "${Pelaku usaha} yang memproduksi ${barang} dibebaskan dari tanggung jawab atas kerugian yang diderita  ${konsumen}, apabila:"
               },
               {
                 "type": "LIST",
@@ -2585,7 +2600,7 @@
                       },
                       {
                         "type": "PLAINTEXT",
-                        "text": "barang tersebut terbukti seharusnya tidak diedarkan atau tidak dimaksudkan untuk diedarkan;"
+                        "text": "${barang} tersebut terbukti seharusnya tidak diedarkan atau tidak dimaksudkan untuk diedarkan;"
                       }
                     ]
                   },
@@ -2599,7 +2614,7 @@
                       },
                       {
                         "type": "PLAINTEXT",
-                        "text": "cacat barang timbul pada kemudian hari;"
+                        "text": "cacat ${barang} timbul pada kemudian hari;"
                       }
                     ]
                   },
@@ -2613,7 +2628,7 @@
                       },
                       {
                         "type": "PLAINTEXT",
-                        "text": "cacat timbul akibat ditaatinya ketentuan mengenai kualifikasi barang;"
+                        "text": "cacat timbul akibat ditaatinya ketentuan mengenai kualifikasi ${barang};"
                       }
                     ]
                   },
@@ -2627,7 +2642,7 @@
                       },
                       {
                         "type": "PLAINTEXT",
-                        "text": "kelalaian yang diakibatkan oleh konsumen;"
+                        "text": "kelalaian yang diakibatkan oleh ${konsumen};"
                       }
                     ]
                   },
@@ -2641,7 +2656,7 @@
                       },
                       {
                         "type": "PLAINTEXT",
-                        "text": "lewatnya jangka waktu penuntutan 4 (empat) tahun sejak barang dibeli atau lewatnya jangka waktu yang diperjanjikan."
+                        "text": "lewatnya jangka waktu penuntutan 4 (empat) tahun sejak ${barang} dibeli atau lewatnya jangka waktu yang diperjanjikan."
                       }
                     ]
                   }
@@ -2659,7 +2674,7 @@
               },
               {
                 "type": "PLAINTEXT",
-                "text": "Pembuktian terhadap ada tidaknya unsur kesalahan dalam gugatan ganti rugi sebagaimana dimaksud dalam Pasal 19, Pasal 22, dan Pasal 23 merupakan beban dan tanggung jawab pelaku usaha."
+                "text": "Pembuktian terhadap ada tidaknya unsur kesalahan dalam gugatan ganti rugi sebagaimana dimaksud dalam Pasal 19, Pasal 22, dan Pasal 23 merupakan beban dan tanggung jawab ${pelaku usaha}."
               }
             ]
           }
@@ -2711,7 +2726,7 @@
                           },
                           {
                             "type": "PLAINTEXT",
-                            "text": "Pemerintah bertanggung jawab atas pembinaan penyelenggaraan perlindungan konsumen yang menjamin diperolehnya hak konsumen dan pelaku usaha serta dilaksanakannya kewajiban konsumen dan pelaku usaha."
+                            "text": "Pemerintah bertanggung jawab atas pembinaan penyelenggaraan ${perlindungan konsumen} yang menjamin diperolehnya hak konsumen dan ${pelaku usaha} serta dilaksanakannya kewajiban konsumen dan ${pelaku usaha}."
                           }
                         ]
                       },
@@ -2725,7 +2740,7 @@
                           },
                           {
                             "type": "PLAINTEXT",
-                            "text": "Pembinaan oleh pemerintah atas penyelenggaraan perlindungan konsumen sebagaimana dimaksud pada ayat (1) dilaksanakan oleh Menteri dan/atau menteri teknis terkait."
+                            "text": "Pembinaan oleh pemerintah atas penyelenggaraan ${perlindungan konsumen} sebagaimana dimaksud pada ayat (1) dilaksanakan oleh ${Menteri} dan/atau menteri teknis terkait."
                           }
                         ]
                       },
@@ -2739,7 +2754,7 @@
                           },
                           {
                             "type": "PLAINTEXT",
-                            "text": "Menteri sebagaimana dimaksud pada ayat (2) melakukan koordinasi atas penyelenggaraan perlindungan konsumen."
+                            "text": "${Menteri} sebagaimana dimaksud pada ayat (2) melakukan koordinasi atas penyelenggaraan ${perlindungan konsumen}."
                           }
                         ]
                       },
@@ -2753,7 +2768,7 @@
                           },
                           {
                             "type": "PLAINTEXT",
-                            "text": "Pembinaan penyelenggaraan perlindungan konsumen sebagaimana dimaksud pada ayat (2) meliputi upaya untuk:"
+                            "text": "Pembinaan penyelenggaraan ${perlindungan konsumen} sebagaimana dimaksud pada ayat (2) meliputi upaya untuk:"
                           },
                           {
                             "type": "LIST",
@@ -2769,7 +2784,7 @@
                                   },
                                   {
                                     "type": "PLAINTEXT",
-                                    "text": "terciptanya iklim usaha dan tumbuhnya hubungan yang sehat antara pelaku usaha dan konsumen;"
+                                    "text": "terciptanya iklim usaha dan tumbuhnya hubungan yang sehat antara ${pelaku usaha} dan ${konsumen};"
                                   }
                                 ]
                               },
@@ -2783,7 +2798,7 @@
                                   },
                                   {
                                     "type": "PLAINTEXT",
-                                    "text": "berkembangnya lembaga perlindungan konsumen swadaya masyarakat;"
+                                    "text": "berkembangnya ${lembaga perlindungan konsumen swadaya masyarakat};"
                                   }
                                 ]
                               },
@@ -2797,7 +2812,7 @@
                                   },
                                   {
                                     "type": "PLAINTEXT",
-                                    "text": "meningkatnya kualitas sumber daya manusia serta meningkatnya kegiatan penelitian dan pengembangan di bidang perlindungan konsumen."
+                                    "text": "meningkatnya kualitas sumber daya manusia serta meningkatnya kegiatan penelitian dan pengembangan di bidang ${perlindungan konsumen}."
                                   }
                                 ]
                               }
@@ -2815,7 +2830,7 @@
                           },
                           {
                             "type": "PLAINTEXT",
-                            "text": "Ketentuan lebih lanjut mengenai pembinaan penyelenggaraan perlindungan konsumen diatur dengan Peraturan Pemerintah."
+                            "text": "Ketentuan lebih lanjut mengenai pembinaan penyelenggaraan ${perlindungan konsumen} diatur dengan Peraturan Pemerintah."
                           }
                         ]
                       }
@@ -2859,7 +2874,7 @@
                           },
                           {
                             "type": "PLAINTEXT",
-                            "text": "Pengawasan terhadap penyelenggaraan perlindungan konsumen serta penerapan ketentuan peraturan perundang-undangannya diselenggarakan oleh pemerintah, masyarakat, dan lembaga perlindungan konsumen swadaya masyarakat."
+                            "text": "Pengawasan terhadap penyelenggaraan perlindungan konsumen serta penerapan ketentuan peraturan perundang-undangannya diselenggarakan oleh pemerintah, masyarakat, dan ${lembaga perlindungan konsumen swadaya masyarakat}."
                           }
                         ]
                       },
@@ -2873,7 +2888,7 @@
                           },
                           {
                             "type": "PLAINTEXT",
-                            "text": "Pengawasan oleh pemerintah sebagaimana dimaksud pada ayat (1) dilaksanakan oleh Menteri dan/atau menteri teknis terkait."
+                            "text": "Pengawasan oleh pemerintah sebagaimana dimaksud pada ayat (1) dilaksanakan oleh ${Menteri} dan/atau menteri teknis terkait."
                           }
                         ]
                       },
@@ -2887,7 +2902,7 @@
                           },
                           {
                             "type": "PLAINTEXT",
-                            "text": "Pengawasan oleh masyarakat dan lembaga perlindungan konsumen swadaya masyarakat dilakukan terhadap barang dan/atau jasa yang beredar di pasar."
+                            "text": "Pengawasan oleh masyarakat dan ${lembaga perlindungan konsumen swadaya masyarakat} dilakukan terhadap ${barang} dan/atau ${jasa} yang beredar di pasar."
                           }
                         ]
                       },
@@ -2901,7 +2916,7 @@
                           },
                           {
                             "type": "PLAINTEXT",
-                            "text": "Apabila hasil pengawasan sebagaimana dimaksud pada ayat (3) ternyata menyimpang dari peraturan perundang-undangan yang berlaku dan membahayakan konsumen, Menteri dan/atau menteri teknis mengambil tindakan sesuai dengan peraturan perundang-undangan yang berlaku."
+                            "text": "Apabila hasil pengawasan sebagaimana dimaksud pada ayat (3) ternyata menyimpang dari peraturan perundang-undangan yang berlaku dan membahayakan ${konsumen}, ${Menteri} dan/atau menteri teknis mengambil tindakan sesuai dengan peraturan perundang-undangan yang berlaku."
                           }
                         ]
                       },
@@ -2915,7 +2930,7 @@
                           },
                           {
                             "type": "PLAINTEXT",
-                            "text": "Hasil pengawasan yang diselenggarakan masyarakat dan lembaga perlindungan konsumen swadaya masyarakat dapat disebarluaskan kepada masyarakat dan dapat disampaikan kepada Menteri dan menteri teknis."
+                            "text": "Hasil pengawasan yang diselenggarakan masyarakat dan ${lembaga perlindungan konsumen swadaya masyarakat} dapat disebarluaskan kepada masyarakat dan dapat disampaikan kepada ${Menteri} dan menteri teknis."
                           }
                         ]
                       },
@@ -2975,7 +2990,7 @@
                   },
                   {
                     "type": "PLAINTEXT",
-                    "text": "Dalam rangka mengembangkan upaya perlindungan konsumen dibentuk Badan Perlindungan Konsumen  Nasional."
+                    "text": "Dalam rangka mengembangkan upaya ${perlindungan konsumen} dibentuk Badan Perlindungan Konsumen  Nasional."
                   }
                 ]
               },
@@ -2989,7 +3004,7 @@
                   },
                   {
                     "type": "PLAINTEXT",
-                    "text": "Badan Perlindungan Konsumen Nasional berkedudukan di Ibu Kota Negara Republik Indonesia dan  bertanggung jawab kepada Presiden."
+                    "text": "${Badan Perlindungan Konsumen Nasional} berkedudukan di Ibu Kota Negara Republik Indonesia dan  bertanggung jawab kepada Presiden."
                   }
                 ]
               },
@@ -3003,7 +3018,7 @@
                   },
                   {
                     "type": "PLAINTEXT",
-                    "text": "Badan Perlindungan Konsumen Nasional mempunyai fungsi memberikan saran dan pertimbangan kepada  pemerintah dalam upaya mengembangkan perlindungan konsumen di Indonesia."
+                    "text": "${Badan Perlindungan Konsumen Nasional} mempunyai fungsi memberikan saran dan pertimbangan kepada  pemerintah dalam upaya mengembangkan perlindungan konsumen di Indonesia."
                   }
                 ]
               },
@@ -3029,7 +3044,7 @@
                           },
                           {
                             "type": "PLAINTEXT",
-                            "text": "Untuk menjalankan fungsi sebagaimana dimaksud dalam Pasal 33, Badan Perlindungan Konsumen Nasional mempunyai tugas:"
+                            "text": "Untuk menjalankan fungsi sebagaimana dimaksud dalam Pasal 33, ${Badan Perlindungan Konsumen Nasional} mempunyai tugas:"
                           },
                           {
                             "type": "LIST",
@@ -3045,7 +3060,7 @@
                                   },
                                   {
                                     "type": "PLAINTEXT",
-                                    "text": "memberikan saran dan rekomendasi kepada pemerintah dalam rangka penyusunan kebijaksanaan di bidang perlindungan konsumen;"
+                                    "text": "memberikan saran dan rekomendasi kepada pemerintah dalam rangka penyusunan kebijaksanaan di bidang ${perlindungan konsumen};"
                                   }
                                 ]
                               },
@@ -3059,7 +3074,7 @@
                                   },
                                   {
                                     "type": "PLAINTEXT",
-                                    "text": "melakukan penelitian dan pengkajian terhadap peraturan perundang-undangan yang berlaku di bidang perlindungan konsumen;"
+                                    "text": "melakukan penelitian dan pengkajian terhadap peraturan perundang-undangan yang berlaku di bidang ${perlindungan konsumen};"
                                   }
                                 ]
                               },
@@ -3073,7 +3088,7 @@
                                   },
                                   {
                                     "type": "PLAINTEXT",
-                                    "text": "melakukan penelitian terhadap barang dan/atau jasa yang menyangkut keselamatan konsumen;"
+                                    "text": "melakukan penelitian terhadap ${barang} dan/atau ${jasa} yang menyangkut keselamatan ${konsumen};"
                                   }
                                 ]
                               },
@@ -3087,7 +3102,7 @@
                                   },
                                   {
                                     "type": "PLAINTEXT",
-                                    "text": "mendorong berkembangnya lembaga perlindungan konsumen swadaya masyarakat;"
+                                    "text": "mendorong berkembangnya ${lembaga perlindungan konsumen swadaya masyarakat};"
                                   }
                                 ]
                               },
@@ -3101,7 +3116,7 @@
                                   },
                                   {
                                     "type": "PLAINTEXT",
-                                    "text": "menyebarluaskan informasi melalui media mengenai perlindungan konsumen dan memasyarakatkan sikap keberpihakan kepada konsumen;"
+                                    "text": "menyebarluaskan informasi melalui media mengenai ${perlindungan konsumen} dan memasyarakatkan sikap keberpihakan kepada konsumen;"
                                   }
                                 ]
                               },
@@ -3115,7 +3130,7 @@
                                   },
                                   {
                                     "type": "PLAINTEXT",
-                                    "text": "menerima pengaduan tentang perlindungan konsumen dari masyarakat, lembaga perlindungan konsumen swadaya masyarakat, atau pelaku usaha;"
+                                    "text": "menerima pengaduan tentang perlindungan konsumen dari masyarakat, ${lembaga perlindungan konsumen swadaya masyarakat}, atau ${pelaku usaha};"
                                   }
                                 ]
                               },
@@ -3129,7 +3144,7 @@
                                   },
                                   {
                                     "type": "PLAINTEXT",
-                                    "text": "melakukan survei yang menyangkut kebutuhan konsumen."
+                                    "text": "melakukan survei yang menyangkut kebutuhan ${konsumen}."
                                   }
                                 ]
                               }
@@ -3147,7 +3162,7 @@
                           },
                           {
                             "type": "PLAINTEXT",
-                            "text": "Dalam melaksanakan tugas sebagaimana dimaksud pada ayat (1), Badan Perlindungan Konsumen Nasional dapat bekerjasama dengan organisasi konsumen internasional."
+                            "text": "Dalam melaksanakan tugas sebagaimana dimaksud pada ayat (1), ${Badan Perlindungan Konsumen Nasional} dapat bekerjasama dengan organisasi konsumen internasional."
                           }
                         ]
                       }
@@ -3191,7 +3206,7 @@
                           },
                           {
                             "type": "PLAINTEXT",
-                            "text": "Badan Perlindungan Konsumen Nasional terdiri atas seorang ketua merangkap anggota, seorang wakil ketua merangkap anggota, serta sekurang-kurangnya 15 (lima belas) orang dan sebanyak banyaknya 25 (dua puluh lima) orang anggota yang mewakili semua unsur."
+                            "text": "${Badan Perlindungan Konsumen Nasional} terdiri atas seorang ketua merangkap anggota, seorang wakil ketua merangkap anggota, serta sekurang-kurangnya 15 (lima belas) orang dan sebanyak banyaknya 25 (dua puluh lima) orang anggota yang mewakili semua unsur."
                           }
                         ]
                       },
@@ -3205,7 +3220,7 @@
                           },
                           {
                             "type": "PLAINTEXT",
-                            "text": "Anggota Badan Perlindungan Konsumen Nasional diangkat dan diberhentikan oleh Presiden atas usul Menteri, setelah dikonsultasikan kepada Dewan Perwakilan Rakyat Republik Indonesia."
+                            "text": "Anggota ${Badan Perlindungan Konsumen Nasional} diangkat dan diberhentikan oleh Presiden atas usul ${Menteri}, setelah dikonsultasikan kepada Dewan Perwakilan Rakyat Republik Indonesia."
                           }
                         ]
                       },
@@ -3219,7 +3234,7 @@
                           },
                           {
                             "type": "PLAINTEXT",
-                            "text": "Masa jabatan ketua, wakil ketua, dan anggota Badan Perlindungan Konsumen Nasional selama 3 (tiga) tahun dan dapat diangkat kembali untuk 1 (satu) kali masa jabatan berikutnya."
+                            "text": "Masa jabatan ketua, wakil ketua, dan anggota ${Badan Perlindungan Konsumen Nasional} selama 3 (tiga) tahun dan dapat diangkat kembali untuk 1 (satu) kali masa jabatan berikutnya."
                           }
                         ]
                       },
@@ -3233,7 +3248,7 @@
                           },
                           {
                             "type": "PLAINTEXT",
-                            "text": "Ketua dan wakil ketua Badan Perlindungan Konsumen Nasional dipilih oleh anggota."
+                            "text": "Ketua dan wakil ketua ${Badan Perlindungan Konsumen Nasional} dipilih oleh anggota."
                           }
                         ]
                       }
@@ -3251,7 +3266,7 @@
                   },
                   {
                     "type": "PLAINTEXT",
-                    "text": "Anggota Badan Perlindungan Konsumen Nasional terdiri atas unsur:"
+                    "text": "Anggota ${Badan Perlindungan Konsumen Nasional} terdiri atas unsur:"
                   },
                   {
                     "type": "LIST",
@@ -3281,7 +3296,7 @@
                           },
                           {
                             "type": "PLAINTEXT",
-                            "text": "pelaku usaha;"
+                            "text": "${pelaku usaha};"
                           }
                         ]
                       },
@@ -3295,7 +3310,7 @@
                           },
                           {
                             "type": "PLAINTEXT",
-                            "text": "lembaga perlindungan konsumen swadaya masyarakat;"
+                            "text": "${lembaga perlindungan konsumen swadaya masyarakat};"
                           }
                         ]
                       },
@@ -3341,7 +3356,7 @@
                   },
                   {
                     "type": "PLAINTEXT",
-                    "text": "Persyaratan keanggotaan Badan Perlindungan Konsumen Nasional adalah:"
+                    "text": "Persyaratan keanggotaan ${Badan Perlindungan Konsumen Nasional} adalah:"
                   },
                   {
                     "type": "LIST",
@@ -3413,7 +3428,7 @@
                           },
                           {
                             "type": "PLAINTEXT",
-                            "text": "memiliki pengetahuan dan pengalaman di bidang perlindungan konsumen; dan"
+                            "text": "memiliki pengetahuan dan pengalaman di bidang ${perlindungan konsumen}; dan"
                           }
                         ]
                       },
@@ -3445,7 +3460,7 @@
                   },
                   {
                     "type": "PLAINTEXT",
-                    "text": "Keanggotaan Badan Perlindungan Konsumen Nasional berhenti karena:"
+                    "text": "Keanggotaan ${Badan Perlindungan Konsumen Nasional} berhenti karena:"
                   },
                   {
                     "type": "LIST",
@@ -3561,7 +3576,7 @@
                           },
                           {
                             "type": "PLAINTEXT",
-                            "text": "Untuk kelancaran pelaksanaan tugas, Badan Perlindungan Konsumen, Nasional dibantu oleh sekretariat."
+                            "text": "Untuk kelancaran pelaksanaan tugas, Badan ${Perlindungan Konsumen}, Nasional dibantu oleh sekretariat."
                           }
                         ]
                       },
@@ -3575,7 +3590,7 @@
                           },
                           {
                             "type": "PLAINTEXT",
-                            "text": "Sekretariat sebagaimana dimaksud pada ayat (1) dipimpin oleh seorang sekretaris yang diangkat oleh Ketua Badan Perlindungan Konsumen Nasional."
+                            "text": "Sekretariat sebagaimana dimaksud pada ayat (1) dipimpin oleh seorang sekretaris yang diangkat oleh Ketua ${Badan Perlindungan Konsumen Nasional}."
                           }
                         ]
                       },
@@ -3589,7 +3604,7 @@
                           },
                           {
                             "type": "PLAINTEXT",
-                            "text": "Fungsi, tugas, dan tata kerja sekretariat sebagaimana dimaksud pada ayat (1) diatur dalam keputusan Ketua Badan Perlindungan Konsumen Nasional."
+                            "text": "Fungsi, tugas, dan tata kerja sekretariat sebagaimana dimaksud pada ayat (1) diatur dalam keputusan Ketua ${Badan Perlindungan Konsumen Nasional}."
                           }
                         ]
                       }
@@ -3619,7 +3634,7 @@
                           },
                           {
                             "type": "PLAINTEXT",
-                            "text": "Apabila diperlukan Badan Perlindungan Konsumen Nasional dapat membentuk perwakilan di Ibu Kota Daerah Tingkat I untuk membantu pelaksanaan tugasnya."
+                            "text": "Apabila diperlukan ${Badan Perlindungan Konsumen Nasional} dapat membentuk perwakilan di Ibu Kota Daerah Tingkat I untuk membantu pelaksanaan tugasnya."
                           }
                         ]
                       },
@@ -3633,7 +3648,7 @@
                           },
                           {
                             "type": "PLAINTEXT",
-                            "text": "Pembentukan perwakilan sebagaimana dimaksud pada ayat (1) ditetapkan lebih lanjut dengan keputusan Ketua Badan Perlindungan Konsumen Nasional."
+                            "text": "Pembentukan perwakilan sebagaimana dimaksud pada ayat (1) ditetapkan lebih lanjut dengan keputusan Ketua ${Badan Perlindungan Konsumen Nasional}."
                           }
                         ]
                       }
@@ -3651,7 +3666,7 @@
                   },
                   {
                     "type": "PLAINTEXT",
-                    "text": "Dalam pelaksanaan tugas, Badan Perlindungan Konsumen Nasional bekerja berdasarkan tata kerja yang  diatur dengan keputusan Ketua Badan Perlindungan Konsumen Nasional."
+                    "text": "Dalam pelaksanaan tugas, ${Badan Perlindungan Konsumen Nasional} bekerja berdasarkan tata kerja yang  diatur dengan keputusan Ketua ${Badan Perlindungan Konsumen Nasional}."
                   }
                 ]
               },
@@ -3665,7 +3680,7 @@
                   },
                   {
                     "type": "PLAINTEXT",
-                    "text": "Biaya untuk pelaksanaan tugas Badan Perlindungan Konsumen Nasional dibebankan kepada anggaran  pendapatan dan belanja negara dan sumber lain yang sesuai dengan peraturan perundang-undangan yang  berlaku."
+                    "text": "Biaya untuk pelaksanaan tugas ${Badan Perlindungan Konsumen Nasional} dibebankan kepada anggaran  pendapatan dan belanja negara dan sumber lain yang sesuai dengan peraturan perundang-undangan yang  berlaku."
                   }
                 ]
               },
@@ -3679,7 +3694,7 @@
                   },
                   {
                     "type": "PLAINTEXT",
-                    "text": "Ketentuan lebih lanjut mengenai pembentukan Badan Perlindungan Konsumen Nasional diatur dalam  Peraturan Pemerintah."
+                    "text": "Ketentuan lebih lanjut mengenai pembentukan ${Badan Perlindungan Konsumen Nasional} diatur dalam  Peraturan Pemerintah."
                   }
                 ]
               }
@@ -3721,7 +3736,7 @@
                       },
                       {
                         "type": "PLAINTEXT",
-                        "text": "Pemerintah mengakui lembaga perlindungan konsumen swadaya masyarakat yang memenuhi syarat."
+                        "text": "Pemerintah mengakui ${lembaga perlindungan konsumen swadaya masyarakat} yang memenuhi syarat."
                       }
                     ]
                   },
@@ -3735,7 +3750,7 @@
                       },
                       {
                         "type": "PLAINTEXT",
-                        "text": "Lembaga perlindungan konsumen swadaya masyarakat memiliki kesempatan untuk berperan aktif dalam mewujudkan perlindungan konsumen."
+                        "text": "${Lembaga perlindungan konsumen swadaya masyarakat} memiliki kesempatan untuk berperan aktif dalam mewujudkan perlindungan konsumen."
                       }
                     ]
                   },
@@ -3749,7 +3764,7 @@
                       },
                       {
                         "type": "PLAINTEXT",
-                        "text": "Tugas lembaga perlindungan konsumen swadaya masyarakat meliputi kegiatan:"
+                        "text": "Tugas ${lembaga perlindungan konsumen swadaya masyarakat} meliputi kegiatan:"
                       },
                       {
                         "type": "LIST",
@@ -3765,7 +3780,7 @@
                               },
                               {
                                 "type": "PLAINTEXT",
-                                "text": "menyebarkan informasi dalam rangka meningkatkan kesadaran atas hak dan kewajiban dan kehati-hatian konsumen dalam mengkonsumsi barang dan/atau jasa;"
+                                "text": "menyebarkan informasi dalam rangka meningkatkan kesadaran atas hak dan kewajiban dan kehati-hatian ${konsumen} dalam mengkonsumsi ${barang} dan/atau ${jasa};"
                               }
                             ]
                           },
@@ -3779,7 +3794,7 @@
                               },
                               {
                                 "type": "PLAINTEXT",
-                                "text": "memberikan nasihat kepada konsumen yang memerlukannya;"
+                                "text": "memberikan nasihat kepada ${konsumen} yang memerlukannya;"
                               }
                             ]
                           },
@@ -3793,7 +3808,7 @@
                               },
                               {
                                 "type": "PLAINTEXT",
-                                "text": "bekerja sama dengan instansi terkait dalam upaya mewujudkan perlindungan konsumen;"
+                                "text": "bekerja sama dengan instansi terkait dalam upaya mewujudkan ${perlindungan konsumen};"
                               }
                             ]
                           },
@@ -3807,7 +3822,7 @@
                               },
                               {
                                 "type": "PLAINTEXT",
-                                "text": "membantu konsumen dalam memperjuangkan haknya, termasuk menerima keluhan atau pengaduan konsumen;"
+                                "text": "membantu ${konsumen} dalam memperjuangkan haknya, termasuk menerima keluhan atau pengaduan ${konsumen};"
                               }
                             ]
                           },
@@ -3821,7 +3836,7 @@
                               },
                               {
                                 "type": "PLAINTEXT",
-                                "text": "melakukan pengawasan bersama pemerintah dan masyarakat terhadap pelaksanaan perlindungan konsumen."
+                                "text": "melakukan pengawasan bersama pemerintah dan masyarakat terhadap pelaksanaan ${perlindungan konsumen}."
                               }
                             ]
                           }
@@ -3839,7 +3854,7 @@
                       },
                       {
                         "type": "PLAINTEXT",
-                        "text": "Ketentuan lebih lanjut mengenai tugas lembaga perlindungan konsumen swadaya masyarakat sebagaimana dimaksud pada ayat (3) diatur dalam Peraturan Pemerintah."
+                        "text": "Ketentuan lebih lanjut mengenai tugas ${lembaga perlindungan konsumen swadaya masyarakat} sebagaimana dimaksud pada ayat (3) diatur dalam Peraturan Pemerintah."
                       }
                     ]
                   }
@@ -3895,7 +3910,7 @@
                           },
                           {
                             "type": "PLAINTEXT",
-                            "text": "Setiap konsumen yang dirugikan dapat menggugat pelaku usaha melalui lembaga yang bertugas menyelesaikan sengketa antara konsumen dan pelaku usaha atau melalui peradilan yang berada di lingkungan peradilan umum."
+                            "text": "Setiap ${konsumen} yang dirugikan dapat menggugat ${pelaku usaha} melalui lembaga yang bertugas menyelesaikan sengketa antara ${konsumen} dan ${pelaku usaha} atau melalui peradilan yang berada di lingkungan peradilan umum."
                           }
                         ]
                       },
@@ -3909,7 +3924,7 @@
                           },
                           {
                             "type": "PLAINTEXT",
-                            "text": "Penyelesaian sengketa konsumen dapat ditempuh melalui pengadilan atau diluar pengadilan berdasarkan pilihan sukarela para pihak yang bersengketa."
+                            "text": "Penyelesaian sengketa ${konsumen} dapat ditempuh melalui pengadilan atau diluar pengadilan berdasarkan pilihan sukarela para pihak yang bersengketa."
                           }
                         ]
                       },
@@ -3937,7 +3952,7 @@
                           },
                           {
                             "type": "PLAINTEXT",
-                            "text": "Apabila telah dipilih upaya penyelesaian sengketa konsumen di luar pengadilan, gugatan melalui pengadilan hanya dapat ditempuh apabila upaya tersebut dinyatakan tidak berhasil oleh salah satu pihak atau oleh para pihak yang bersengketa."
+                            "text": "Apabila telah dipilih upaya penyelesaian sengketa ${konsumen} di luar pengadilan, gugatan melalui pengadilan hanya dapat ditempuh apabila upaya tersebut dinyatakan tidak berhasil oleh salah satu pihak atau oleh para pihak yang bersengketa."
                           }
                         ]
                       }
@@ -3967,7 +3982,7 @@
                           },
                           {
                             "type": "PLAINTEXT",
-                            "text": "Gugatan atas pelanggaran pelaku usaha dapat dilakukan oleh:"
+                            "text": "Gugatan atas pelanggaran ${pelaku usaha} dapat dilakukan oleh:"
                           },
                           {
                             "type": "LIST",
@@ -3983,7 +3998,7 @@
                                   },
                                   {
                                     "type": "PLAINTEXT",
-                                    "text": "seorang konsumen yang dirugikan atau ahli waris yang bersangkutan;"
+                                    "text": "seorang ${konsumen} yang dirugikan atau ahli waris yang bersangkutan;"
                                   }
                                 ]
                               },
@@ -3997,7 +4012,7 @@
                                   },
                                   {
                                     "type": "PLAINTEXT",
-                                    "text": "sekelompok konsumen yang mempunyai kepentingan yang sama;"
+                                    "text": "sekelompok ${konsumen} yang mempunyai kepentingan yang sama;"
                                   }
                                 ]
                               },
@@ -4011,7 +4026,7 @@
                                   },
                                   {
                                     "type": "PLAINTEXT",
-                                    "text": "lembaga perlindungan konsumen swadaya masyarakat yang memenuhi syarat, yaitu berbentuk badan hukum atau yayasan, yang dalam anggaran dasarnya menyebutkan dengan tegas bahwa tujuan didirikannya organisasi tersebut adalah untuk kepentingan perlindungan konsumen dan telah melaksanakan kegiatan sesuai dengan anggaran dasarnya;"
+                                    "text": "${lembaga perlindungan konsumen swadaya masyarakat} yang memenuhi syarat, yaitu berbentuk badan hukum atau yayasan, yang dalam anggaran dasarnya menyebutkan dengan tegas bahwa tujuan didirikannya organisasi tersebut adalah untuk kepentingan perlindungan konsumen dan telah melaksanakan kegiatan sesuai dengan anggaran dasarnya;"
                                   }
                                 ]
                               },
@@ -4025,7 +4040,7 @@
                                   },
                                   {
                                     "type": "PLAINTEXT",
-                                    "text": "pemerintah dan/atau instansi terkait apabila barang dan/atau jasa yang dikonsumsi atau dimanfaatkan mengakibatkan kerugian materi yang besar dan/atau korban yang tidak sedikit."
+                                    "text": "pemerintah dan/atau instansi terkait apabila ${barang} dan/atau ${jasa} yang dikonsumsi atau dimanfaatkan mengakibatkan kerugian materi yang besar dan/atau korban yang tidak sedikit."
                                   }
                                 ]
                               }
@@ -4043,7 +4058,7 @@
                           },
                           {
                             "type": "PLAINTEXT",
-                            "text": "Gugatan yang diajukan oleh sekelompok konsumen, lembaga perlindungan konsumen swadaya masyarakat atau pemerintah sebagaimana dimaksud pada ayat (1) huruf b, huruf c, atau huruf d diajukan kepada peradilan umum."
+                            "text": "Gugatan yang diajukan oleh sekelompok konsumen, ${lembaga perlindungan konsumen swadaya masyarakat} atau pemerintah sebagaimana dimaksud pada ayat (1) huruf b, huruf c, atau huruf d diajukan kepada peradilan umum."
                           }
                         ]
                       },
@@ -4089,7 +4104,7 @@
                   },
                   {
                     "type": "PLAINTEXT",
-                    "text": "Penyelesaian sengketa konsumen di luar pengadilan diselenggarakan untuk mencapai kesepakatan  mengenai bentuk dan besarnya ganti rugi dan/atau mengenai tindakan tertentu untuk menjamin tidak akan  terjadi kembali atau tidak akan terulang kembali kerugian yang diderita oleh konsumen."
+                    "text": "Penyelesaian sengketa ${konsumen} di luar pengadilan diselenggarakan untuk mencapai kesepakatan  mengenai bentuk dan besarnya ganti rugi dan/atau mengenai tindakan tertentu untuk menjamin tidak akan  terjadi kembali atau tidak akan terulang kembali kerugian yang diderita oleh ${konsumen}."
                   }
                 ]
               }
@@ -4117,7 +4132,7 @@
                   },
                   {
                     "type": "PLAINTEXT",
-                    "text": "Penyelesaian sengketa konsumen melalui pengadilan mengacu pada ketentuan tentang peradilan umum  yang berlaku dengan memperhatikan ketentuan dalam Pasal 45."
+                    "text": "Penyelesaian sengketa ${konsumen} melalui pengadilan mengacu pada ketentuan tentang peradilan umum  yang berlaku dengan memperhatikan ketentuan dalam Pasal 45."
                   }
                 ]
               }
@@ -4159,7 +4174,7 @@
                       },
                       {
                         "type": "PLAINTEXT",
-                        "text": "Pemerintah membentuk badan penyelesaian sengketa konsumen di Daerah Tingkat II untuk penyelesaian sengketa konsumen di luar pengadilan."
+                        "text": "Pemerintah membentuk ${badan penyelesaian sengketa konsumen} di Daerah Tingkat II untuk penyelesaian sengketa konsumen di luar pengadilan."
                       }
                     ]
                   },
@@ -4173,7 +4188,7 @@
                       },
                       {
                         "type": "PLAINTEXT",
-                        "text": "Untuk dapat diangkat menjadi anggota badan penyelesaian sengketa konsumen, seseorang harus memenuhi syarat sebagai berikut:"
+                        "text": "Untuk dapat diangkat menjadi anggota ${badan penyelesaian sengketa konsumen}, seseorang harus memenuhi syarat sebagai berikut:"
                       },
                       {
                         "type": "LIST",
@@ -4245,7 +4260,7 @@
                               },
                               {
                                 "type": "PLAINTEXT",
-                                "text": "memiliki pengetahuan dan pengalaman di bidang perlindungan konsumen;"
+                                "text": "memiliki pengetahuan dan pengalaman di bidang ${perlindungan konsumen};"
                               }
                             ]
                           },
@@ -4277,7 +4292,7 @@
                       },
                       {
                         "type": "PLAINTEXT",
-                        "text": "Anggota sebagaimana dimaksud pada ayat (2) terdiri atas unsur pemerintah, unsur konsumen, dan unsur pelaku usaha."
+                        "text": "Anggota sebagaimana dimaksud pada ayat (2) terdiri atas unsur pemerintah, unsur ${konsumen}, dan unsur ${pelaku usaha}."
                       }
                     ]
                   },
@@ -4305,7 +4320,7 @@
                       },
                       {
                         "type": "PLAINTEXT",
-                        "text": "Pengangkatan dan pemberhentian anggota badan penyelesaian sengketa konsumen ditetapkan oleh Menteri."
+                        "text": "Pengangkatan dan pemberhentian anggota ${badan penyelesaian sengketa konsumen} ditetapkan oleh ${Menteri}."
                       }
                     ]
                   }
@@ -4323,7 +4338,7 @@
               },
               {
                 "type": "PLAINTEXT",
-                "text": "Badan penyelesaian sengketa konsumen sebagaimana dimaksud dalam Pasal 49 ayat (1) terdiri atas:"
+                "text": "${Badan penyelesaian sengketa konsumen} sebagaimana dimaksud dalam Pasal 49 ayat (1) terdiri atas:"
               },
               {
                 "type": "LIST",
@@ -4397,7 +4412,7 @@
                       },
                       {
                         "type": "PLAINTEXT",
-                        "text": "Badan penyelesaian sengketa konsumen dalam menjalankan tugasnya dibantu oleh sekretariat."
+                        "text": "${Badan penyelesaian sengketa konsumen} dalam menjalankan tugasnya dibantu oleh sekretariat."
                       }
                     ]
                   },
@@ -4411,7 +4426,7 @@
                       },
                       {
                         "type": "PLAINTEXT",
-                        "text": "Sekretariat badan penyelesaian sengketa konsumen terdiri atas kepala sekretariat dan anggota sekretariat."
+                        "text": "Sekretariat ${badan penyelesaian sengketa konsumen} terdiri atas kepala sekretariat dan anggota sekretariat."
                       }
                     ]
                   },
@@ -4425,7 +4440,7 @@
                       },
                       {
                         "type": "PLAINTEXT",
-                        "text": "Pengangkatan dan pemberhentian kepala sekretariat dan anggota sekretariat badan penyelesaian sengketa konsumen ditetapkan oleh Menteri."
+                        "text": "Pengangkatan dan pemberhentian kepala sekretariat dan anggota sekretariat ${badan penyelesaian sengketa konsumen} ditetapkan oleh ${Menteri}."
                       }
                     ]
                   }
@@ -4443,7 +4458,7 @@
               },
               {
                 "type": "PLAINTEXT",
-                "text": "Tugas dan wewenang badan penyelesaian sengketa konsumen meliputi:"
+                "text": "Tugas dan wewenang ${badan penyelesaian sengketa konsumen} meliputi:"
               },
               {
                 "type": "LIST",
@@ -4459,7 +4474,7 @@
                       },
                       {
                         "type": "PLAINTEXT",
-                        "text": "melaksanakan penanganan dan penyelesaian sengketa konsumen, dengan cara melalui mediasi atau arbitrase atau konsiliasi;"
+                        "text": "melaksanakan penanganan dan penyelesaian sengketa ${konsumen}, dengan cara melalui mediasi atau arbitrase atau konsiliasi;"
                       }
                     ]
                   },
@@ -4473,7 +4488,7 @@
                       },
                       {
                         "type": "PLAINTEXT",
-                        "text": "memberikan konsultasi perlindungan konsumen;"
+                        "text": "memberikan konsultasi ${perlindungan konsumen};"
                       }
                     ]
                   },
@@ -4487,7 +4502,7 @@
                       },
                       {
                         "type": "PLAINTEXT",
-                        "text": "melakukan pengawasan terhadap pencantuman klausula baku;"
+                        "text": "melakukan pengawasan terhadap pencantuman ${klausula baku};"
                       }
                     ]
                   },
@@ -4515,7 +4530,7 @@
                       },
                       {
                         "type": "PLAINTEXT",
-                        "text": "menerima pengaduan baik tertulis maupun tidak tertulis, dari konsumen tentang terjadinya pelanggaran terhadap perlindungan konsumen;"
+                        "text": "menerima pengaduan baik tertulis maupun tidak tertulis, dari konsumen tentang terjadinya pelanggaran terhadap ${perlindungan konsumen};"
                       }
                     ]
                   },
@@ -4529,7 +4544,7 @@
                       },
                       {
                         "type": "PLAINTEXT",
-                        "text": "melakukan penelitian dan pemeriksaan sengketa perlindungan konsumen;"
+                        "text": "melakukan penelitian dan pemeriksaan sengketa ${perlindungan konsumen};"
                       }
                     ]
                   },
@@ -4543,7 +4558,7 @@
                       },
                       {
                         "type": "PLAINTEXT",
-                        "text": "memanggil pelaku usaha yang diduga telah melakukan pelanggaran terhadap perlindungan konsumen;"
+                        "text": "memanggil ${pelaku usaha} yang diduga telah melakukan pelanggaran terhadap ${perlindungan konsumen};"
                       }
                     ]
                   },
@@ -4571,7 +4586,7 @@
                       },
                       {
                         "type": "PLAINTEXT",
-                        "text": "meminta bantuan penyidik untuk menghadirkan pelaku usaha, saksi, saksi ahli, atau setiap orang sebagaimana dimaksud pada huruf g dan huruf h, yang tidak bersedia memenuhi panggilan badan penyelesaian sengketa konsumen;"
+                        "text": "meminta bantuan penyidik untuk menghadirkan ${pelaku usaha}, saksi, saksi ahli, atau setiap orang sebagaimana dimaksud pada huruf g dan huruf h, yang tidak bersedia memenuhi panggilan ${badan penyelesaian sengketa konsumen};"
                       }
                     ]
                   },
@@ -4599,7 +4614,7 @@
                       },
                       {
                         "type": "PLAINTEXT",
-                        "text": "memutuskan dan menetapkan ada atau tidak adanya kerugian di pihak konsumen;"
+                        "text": "memutuskan dan menetapkan ada atau tidak adanya kerugian di pihak ${konsumen};"
                       }
                     ]
                   },
@@ -4613,7 +4628,7 @@
                       },
                       {
                         "type": "PLAINTEXT",
-                        "text": "memberitahukan putusan kepada pelaku usaha yang melakukan pelanggaran terhadap perlindungan konsumen;"
+                        "text": "memberitahukan putusan kepada ${pelaku usaha} yang melakukan pelanggaran terhadap ${perlindungan konsumen};"
                       }
                     ]
                   },
@@ -4627,7 +4642,7 @@
                       },
                       {
                         "type": "PLAINTEXT",
-                        "text": "menjatuhkan sanksi administratif kepada pelaku usaha yang melanggar ketentuan Undang-undang ini."
+                        "text": "menjatuhkan sanksi administratif kepada ${pelaku usaha} yang melanggar ketentuan Undang-undang ini."
                       }
                     ]
                   }
@@ -4645,7 +4660,7 @@
               },
               {
                 "type": "PLAINTEXT",
-                "text": "Ketentuan lebih lanjut mengenai pelaksanaan tugas dan wewenang badan penyelesaian sengketa  konsumen Daerah Tingkat II diatur dalam surat keputusan menteri."
+                "text": "Ketentuan lebih lanjut mengenai pelaksanaan tugas dan wewenang badan penyelesaian sengketa  ${konsumen} Daerah Tingkat II diatur dalam surat keputusan ${menteri}."
               }
             ]
           },
@@ -4671,7 +4686,7 @@
                       },
                       {
                         "type": "PLAINTEXT",
-                        "text": "Untuk menangani dan menyelesaikan sengketa konsumen, badan penyelesaian sengketa konsumen membentuk majelis."
+                        "text": "Untuk menangani dan menyelesaikan sengketa konsumen, ${badan penyelesaian sengketa konsumen} membentuk majelis."
                       }
                     ]
                   },
@@ -4713,7 +4728,7 @@
                       },
                       {
                         "type": "PLAINTEXT",
-                        "text": "Ketentuan teknis lebih lanjut mengenai pelaksanaan tugas majelis diatur dalam surat keputusan menteri."
+                        "text": "Ketentuan teknis lebih lanjut mengenai pelaksanaan tugas majelis diatur dalam surat keputusan ${menteri}."
                       }
                     ]
                   }
@@ -4731,7 +4746,7 @@
               },
               {
                 "type": "PLAINTEXT",
-                "text": "Badan penyelesaian sengketa konsumen wajib mengeluarkan putusan paling lambat dalam waktu 21 (dua  puluh satu) hari kerja setelah gugatan diterima."
+                "text": "${Badan penyelesaian sengketa konsumen} wajib mengeluarkan putusan paling lambat dalam waktu 21 (dua  puluh satu) hari kerja setelah gugatan diterima."
               }
             ]
           },
@@ -4757,7 +4772,7 @@
                       },
                       {
                         "type": "PLAINTEXT",
-                        "text": "Dalam waktu paling lambat 7 (tujuh) hari kerja sejak menerima putusan badan penyelesaian sengketa konsumen sebagaimana dimaksud dalam Pasal 55 pelaku usaha wajib melaksanakan putusan tersebut."
+                        "text": "Dalam waktu paling lambat 7 (tujuh) hari kerja sejak menerima putusan ${badan penyelesaian sengketa konsumen} sebagaimana dimaksud dalam Pasal 55 ${pelaku usaha} wajib melaksanakan putusan tersebut."
                       }
                     ]
                   },
@@ -4785,7 +4800,7 @@
                       },
                       {
                         "type": "PLAINTEXT",
-                        "text": "Pelaku usaha yang tidak mengajukan keberatan dalam jangka waktu sebagaimana dimaksud pada ayat (2) dianggap menerima putusan badan penyelesaian sengketa konsumen."
+                        "text": "${Pelaku usaha} yang tidak mengajukan keberatan dalam jangka waktu sebagaimana dimaksud pada ayat (2) dianggap menerima putusan ${badan penyelesaian sengketa konsumen}."
                       }
                     ]
                   },
@@ -4799,7 +4814,7 @@
                       },
                       {
                         "type": "PLAINTEXT",
-                        "text": "Apabila ketentuan sebagaimana dimaksud pada ayat (1) dan ayat (3) tidak dijalankan oleh pelaku usaha, badan penyelesaian sengketa konsumen menyerahkan putusan tersebut kepada penyidik untuk melakukan penyidikan sesuai dengan ketentuan perundang-undangan yang berlaku."
+                        "text": "Apabila ketentuan sebagaimana dimaksud pada ayat (1) dan ayat (3) tidak dijalankan oleh ${pelaku usaha}, ${badan penyelesaian sengketa konsumen} menyerahkan putusan tersebut kepada penyidik untuk melakukan penyidikan sesuai dengan ketentuan perundang-undangan yang berlaku."
                       }
                     ]
                   },
@@ -4813,7 +4828,7 @@
                       },
                       {
                         "type": "PLAINTEXT",
-                        "text": "Putusan badan penyelesaian sengketa konsumen sebagaimana dimaksud pada ayat (3) merupakan bukti permulaan yang cukup bagi penyidik untuk melakukan penyidikan."
+                        "text": "Putusan ${badan penyelesaian sengketa konsumen} sebagaimana dimaksud pada ayat (3) merupakan bukti permulaan yang cukup bagi penyidik untuk melakukan penyidikan."
                       }
                     ]
                   }
@@ -4831,7 +4846,7 @@
               },
               {
                 "type": "PLAINTEXT",
-                "text": "Putusan majelis sebagaimana dimaksud dalam Pasal 54 ayat (3) dimintakan penetapan eksekusinya kepada Pengadilan Negeri di tempat konsumen yang dirugikan."
+                "text": "Putusan majelis sebagaimana dimaksud dalam Pasal 54 ayat (3) dimintakan penetapan eksekusinya kepada Pengadilan Negeri di tempat ${konsumen} yang dirugikan."
               }
             ]
           },
@@ -4929,7 +4944,7 @@
                       },
                       {
                         "type": "PLAINTEXT",
-                        "text": "Selain Pejabat Polisi Negara Republik Indonesia, Pejabat Pegawai Negeri Sipil tertentu di lingkungan instansi pemerintah yang lingkup tugas dan tanggung jawabnya di bidang perlindungan konsumen juga diberi wewenang khusus sebagai penyidik sebagaimana dimaksud dalam Undang-undang  Hukum Acara Pidana yang berlaku."
+                        "text": "Selain Pejabat Polisi Negara Republik Indonesia, Pejabat Pegawai Negeri Sipil tertentu di lingkungan instansi pemerintah yang lingkup tugas dan tanggung jawabnya di bidang ${perlindungan konsumen} juga diberi wewenang khusus sebagai penyidik sebagaimana dimaksud dalam Undang-undang  Hukum Acara Pidana yang berlaku."
                       }
                     ]
                   },
@@ -4959,7 +4974,7 @@
                               },
                               {
                                 "type": "PLAINTEXT",
-                                "text": "melakukan pemeriksaan atas kebenaran laporan atau keterangan berkenaan dengan tindak pidana di bidang perlindungan konsumen;"
+                                "text": "melakukan pemeriksaan atas kebenaran laporan atau keterangan berkenaan dengan tindak pidana di bidang ${perlindungan konsumen};"
                               }
                             ]
                           },
@@ -4973,7 +4988,7 @@
                               },
                               {
                                 "type": "PLAINTEXT",
-                                "text": "melakukan pemeriksaan terhadap orang lain atau badan hukum yang diduga melakukan tindak pidana di bidang perlindungan konsumen;"
+                                "text": "melakukan pemeriksaan terhadap orang lain atau badan hukum yang diduga melakukan tindak pidana di bidang ${perlindungan konsumen};"
                               }
                             ]
                           },
@@ -4987,7 +5002,7 @@
                               },
                               {
                                 "type": "PLAINTEXT",
-                                "text": "meminta keterangan dan bahan bukti dari orang atau badan hukum sehubungan dengan peristiwa tindak pidana di bidang perlindungan konsumen;"
+                                "text": "meminta keterangan dan bahan bukti dari orang atau badan hukum sehubungan dengan peristiwa tindak pidana di bidang ${perlindungan konsumen};"
                               }
                             ]
                           },
@@ -5001,7 +5016,7 @@
                               },
                               {
                                 "type": "PLAINTEXT",
-                                "text": "melakukan pemeriksaan atas pembukuan, catatan, dan dokumen lain berkenaan dengan tindak pidana di bidang perlindungan konsumen;"
+                                "text": "melakukan pemeriksaan atas pembukuan, catatan, dan dokumen lain berkenaan dengan tindak pidana di bidang ${perlindungan konsumen};"
                               }
                             ]
                           },
@@ -5015,7 +5030,7 @@
                               },
                               {
                                 "type": "PLAINTEXT",
-                                "text": "melakukan pemeriksaan di tempat tertentu yang diduga terdapat bahan bukti serta melakukan penyitaan terhadap barang hasil pelanggaran yang dapat dijadikan bukti dalam perkara tindak pidana di bidang perlindungan konsumen."
+                                "text": "melakukan pemeriksaan di tempat tertentu yang diduga terdapat bahan bukti serta melakukan penyitaan terhadap ${barang} hasil pelanggaran yang dapat dijadikan bukti dalam perkara tindak pidana di bidang ${perlindungan konsumen}."
                               }
                             ]
                           },
@@ -5029,7 +5044,7 @@
                               },
                               {
                                 "type": "PLAINTEXT",
-                                "text": "Meminta bantuan ahli dalam rangka pelaksanaan tugas penyidikan tindak pidana di bidang perlindungan konsumen."
+                                "text": "Meminta bantuan ahli dalam rangka pelaksanaan tugas penyidikan tindak pidana di bidang ${perlindungan konsumen}."
                               }
                             ]
                           }
@@ -5117,7 +5132,7 @@
                           },
                           {
                             "type": "PLAINTEXT",
-                            "text": "Badan penyelesaian sengketa konsumen berwenang menjatuhkan sanksi administratif terhadap pelaku usaha yang melanggar Pasal 19 ayat (2) dan ayat (3), Pasal 20, Pasal 25 dan Pasal 26."
+                            "text": "${Badan penyelesaian sengketa konsumen} berwenang menjatuhkan sanksi administratif terhadap ${pelaku usaha} yang melanggar Pasal 19 ayat (2) dan ayat (3), Pasal 20, Pasal 25 dan Pasal 26."
                           }
                         ]
                       },
@@ -5177,7 +5192,7 @@
                   },
                   {
                     "type": "PLAINTEXT",
-                    "text": "Penuntutan pidana dapat dilakukan terhadap pelaku usaha dan/atau pengurusnya."
+                    "text": "Penuntutan pidana dapat dilakukan terhadap ${pelaku usaha} dan/atau pengurusnya."
                   }
                 ]
               },
@@ -5203,7 +5218,7 @@
                           },
                           {
                             "type": "PLAINTEXT",
-                            "text": "Pelaku usaha yang melanggar ketentuan sebagaimana dimaksud dalam Pasal 8, Pasal 9, Pasal 10, Pasal 13 ayat (2), Pasal 15, Pasal 17 ayat (1) huruf a, huruf b, huruf c, huruf e, ayat (2) dan Pasal 18 dipidana dengan pidana penjara paling lama 5 (lima) tahun atau pidana denda paling banyak Rp 2.000.000.000,00 (dua miliar rupiah)."
+                            "text": "${Pelaku usaha} yang melanggar ketentuan sebagaimana dimaksud dalam Pasal 8, Pasal 9, Pasal 10, Pasal 13 ayat (2), Pasal 15, Pasal 17 ayat (1) huruf a, huruf b, huruf c, huruf e, ayat (2) dan Pasal 18 dipidana dengan pidana penjara paling lama 5 (lima) tahun atau pidana denda paling banyak Rp 2.000.000.000,00 (dua miliar rupiah)."
                           }
                         ]
                       },
@@ -5217,7 +5232,7 @@
                           },
                           {
                             "type": "PLAINTEXT",
-                            "text": "Pelaku usaha yang melanggar ketentuan sebagaimana dimaksud dalam Pasal 11, Pasal 12, Pasal 13 ayat (1), Pasal 14, Pasal 16, dan Pasal 17 ayat (1) huruf d dan huruf f dipidana dengan pidana penjara paling lama 2 (dua) tahun atau pidana denda paling banyak Rp 500.000.000,00 (lima ratus juta rupiah)."
+                            "text": "${Pelaku usaha} yang melanggar ketentuan sebagaimana dimaksud dalam Pasal 11, Pasal 12, Pasal 13 ayat (1), Pasal 14, Pasal 16, dan Pasal 17 ayat (1) huruf d dan huruf f dipidana dengan pidana penjara paling lama 2 (dua) tahun atau pidana denda paling banyak Rp 500.000.000,00 (lima ratus juta rupiah)."
                           }
                         ]
                       },
@@ -5265,7 +5280,7 @@
                           },
                           {
                             "type": "PLAINTEXT",
-                            "text": "perampasan barang tertentu;"
+                            "text": "perampasan ${barang} tertentu;"
                           }
                         ]
                       },
@@ -5307,7 +5322,7 @@
                           },
                           {
                             "type": "PLAINTEXT",
-                            "text": "perintah penghentian kegiatan tertentu yang menyebabkan timbulnya kerugian konsumen;"
+                            "text": "perintah penghentian kegiatan tertentu yang menyebabkan timbulnya kerugian ${konsumen};"
                           }
                         ]
                       },
@@ -5321,7 +5336,7 @@
                           },
                           {
                             "type": "PLAINTEXT",
-                            "text": "kewajiban penarikan barang dari peredaran;atau"
+                            "text": "kewajiban penarikan ${barang} dari peredaran;atau"
                           }
                         ]
                       },
@@ -5369,7 +5384,7 @@
               },
               {
                 "type": "PLAINTEXT",
-                "text": "Segala ketentuan peraturan perundang-undangan yang bertujuan melindungi konsumen yang telah ada  pada saat Undang-undang ini diundangkan, dinyatakan tetap berlaku sepanjang tidak diatur secara khusus  dan/atau tidak bertentangan dengan ketentuan dalam Undang-undang ini."
+                "text": "Segala ketentuan peraturan perundang-undangan yang bertujuan melindungi ${konsumen} yang telah ada  pada saat Undang-undang ini diundangkan, dinyatakan tetap berlaku sepanjang tidak diatur secara khusus  dan/atau tidak bertentangan dengan ketentuan dalam Undang-undang ini."
               }
             ]
           }
