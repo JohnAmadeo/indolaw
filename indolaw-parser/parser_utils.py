@@ -1144,6 +1144,16 @@ def get_id(node: ComplexNode) -> str:
                 'tujuh belas': 17,
                 'delapan belas': 18,
                 'sembilan belas': 19,
+                'dua puluh': 20,
+                'dua puluh satu': 21,
+                'dua puluh dua': 22,
+                'dua puluh tiga': 23,
+                'dua puluh empat': 24,
+                'dua puluh lima': 25,
+                'dua puluh enam': 26,
+                'dua puluh tujuh': 27,
+                'dua puluh delapan': 28,
+                'dua puluh sembilan': 29,
             }[bagian_number_indo]
 
         bab_node = node.parent
