@@ -2,7 +2,6 @@ import { useMemo } from "react";
 import { Complex, Primitive, renderChildren, Structure, NodeMap, penjelasanStructureMap } from "utils/grammar";
 import { fonts } from "utils/theme";
 import { LawContext, getPenjelasanMapKey } from "utils/context-provider";
-import _ from "lodash";
 
 // TODO(johnamadeo): Fix "Warning: Each child in a list should have a unique "key" prop." problem
 export default function Law(props: { law: Complex, colorScheme: any }): JSX.Element {
@@ -46,7 +45,7 @@ function extractPenjelasanMap(law: Complex): NodeMap {
   function traverse(structure: Complex | Primitive) {
     if ("children" in structure && structure.children !== undefined) {
       structure = structure as Complex;
-      if (_.keys(penjelasanStructureMap).includes(structure.type)) {
+      if (structure.type === Structure.PENJELASAN_PASAL || structure.type === Structure.PENJELASAN_PERUBAHAN_PASAL) {
         if (isPenjelasanPerubahan(structure)) {
           for (let child of structure.children) {
             traverse(child);
