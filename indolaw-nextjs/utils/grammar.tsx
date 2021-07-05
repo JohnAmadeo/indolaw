@@ -1,3 +1,5 @@
+import { InlineMath, BlockMath } from 'react-katex';
+
 import PrimitiveStructure from "components/PrimitiveStructure";
 import ListItem from "components/ListItem";
 import StructureWithHeading from "components/StructureWithHeading";
@@ -43,6 +45,7 @@ export enum Structure {
   PENJELASAN_LIST_ITEM = "PENJELASAN_LIST_ITEM",
 
   PLAINTEXT = "PLAINTEXT",
+  MATH = "MATH",
 
   LIST = "LIST",
   LIST_ITEM = "LIST_ITEM",
@@ -134,6 +137,12 @@ export function renderStructure(
           structure={structure as Primitive}
           customStyle={customStyle}
         />
+      );
+    case Structure.MATH:
+      return (
+        <div style={{ fontSize: '24px' }}>
+          <InlineMath math={(structure as Primitive).text} />
+        </div>
       );
     case Structure.BAB_NUMBER:
     case Structure.BAB_TITLE:
