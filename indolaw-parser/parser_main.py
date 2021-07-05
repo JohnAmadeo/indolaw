@@ -1575,7 +1575,7 @@ def parse_list_item(parent: ComplexNode, law: List[str], start_index: int) -> in
     '''
     parse_list_index(list_item_node, law, start_index)
 
-    if is_start_of_structure(Structure.FORMATTED_MATH_ROW, law, start_index+1):
+    if is_start_of_formatted_math_row(law, start_index+1):
         parse_formatted_math_row(list_item_node, law, start_index+1)
     else:
         list_item_node.add_child(PrimitiveNode(
