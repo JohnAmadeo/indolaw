@@ -4261,7 +4261,21 @@
                                   },
                                   {
                                     "type": "PLAINTEXT",
-                                    "text": "telah dicapai penyelesaian atas keberatan yang diajukan kreditor; atau c. gugatan kreditor ditolak oleh pengadilan berdasarkan putusan yang telah memperoleh kekuatan hukum tetap."
+                                    "text": "telah dicapai penyelesaian atas keberatan yang diajukan kreditor; atau"
+                                  }
+                                ]
+                              },
+                              {
+                                "type": "LIST_ITEM",
+                                "id": "",
+                                "children": [
+                                  {
+                                    "type": "LETTER_WITH_DOT",
+                                    "text": "c."
+                                  },
+                                  {
+                                    "type": "PLAINTEXT",
+                                    "text": "gugatan kreditor ditolak oleh pengadilan berdasarkan putusan yang telah memperoleh kekuatan hukum tetap."
                                   }
                                 ]
                               }
@@ -24371,7 +24385,21 @@
                                   },
                                   {
                                     "type": "PLAINTEXT",
-                                    "text": "pembubaran oleh RUPS karena Perseroan dibubarkan oleh RUPS; atau b. penetapan pengadilan yang telah memperoleh kekuatan hukum tetap karena Perseroan dibubarkan berdasarkan penetapan pengadilan."
+                                    "text": "pembubaran oleh RUPS karena Perseroan dibubarkan oleh RUPS; atau"
+                                  }
+                                ]
+                              },
+                              {
+                                "type": "LIST_ITEM",
+                                "id": "",
+                                "children": [
+                                  {
+                                    "type": "LETTER_WITH_DOT",
+                                    "text": "b."
+                                  },
+                                  {
+                                    "type": "PLAINTEXT",
+                                    "text": "penetapan pengadilan yang telah memperoleh kekuatan hukum tetap karena Perseroan dibubarkan berdasarkan penetapan pengadilan."
                                   }
                                 ]
                               }

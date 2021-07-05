@@ -5381,7 +5381,21 @@
                                   },
                                   {
                                     "type": "PLAINTEXT",
-                                    "text": "Jemaah Haji membatalkan keberangkatannya dengan alasan yang sah; atau c. Jemaah Haji dibatalkan keberangkatannya dengan alasan yang sah."
+                                    "text": "Jemaah Haji membatalkan keberangkatannya dengan alasan yang sah; atau"
+                                  }
+                                ]
+                              },
+                              {
+                                "type": "LIST_ITEM",
+                                "id": "",
+                                "children": [
+                                  {
+                                    "type": "LETTER_WITH_DOT",
+                                    "text": "c."
+                                  },
+                                  {
+                                    "type": "PLAINTEXT",
+                                    "text": "Jemaah Haji dibatalkan keberangkatannya dengan alasan yang sah."
                                   }
                                 ]
                               }
@@ -6953,7 +6967,21 @@
                                   },
                                   {
                                     "type": "PLAINTEXT",
-                                    "text": "Jemaah Haji Khusus membatalkan keberangkatannya dengan alasan yang sah; atau c. Jemaah Haji Khusus dibatalkan keberangkatannya dengan alasan yang sah."
+                                    "text": "Jemaah Haji Khusus membatalkan keberangkatannya dengan alasan yang sah; atau"
+                                  }
+                                ]
+                              },
+                              {
+                                "type": "LIST_ITEM",
+                                "id": "",
+                                "children": [
+                                  {
+                                    "type": "LETTER_WITH_DOT",
+                                    "text": "c."
+                                  },
+                                  {
+                                    "type": "PLAINTEXT",
+                                    "text": "Jemaah Haji Khusus dibatalkan keberangkatannya dengan alasan yang sah."
                                   }
                                 ]
                               }

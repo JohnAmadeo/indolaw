@@ -4955,7 +4955,21 @@
                               },
                               {
                                 "type": "PLAINTEXT",
-                                "text": "penghentian sementara kegiatan penyelenggaraan satuan pendidikan; atau f. pembekuan kegiatan penyelenggaraan satuan pendidikan."
+                                "text": "penghentian sementara kegiatan penyelenggaraan satuan pendidikan; atau"
+                              }
+                            ]
+                          },
+                          {
+                            "type": "LIST_ITEM",
+                            "id": "",
+                            "children": [
+                              {
+                                "type": "LETTER_WITH_DOT",
+                                "text": "f."
+                              },
+                              {
+                                "type": "PLAINTEXT",
+                                "text": "pembekuan kegiatan penyelenggaraan satuan pendidikan."
                               }
                             ]
                           }
