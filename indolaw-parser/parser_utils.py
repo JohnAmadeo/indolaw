@@ -10,7 +10,6 @@ from parser_types import (
     ComplexNode,
     PrimitiveNode,
     Structure,
-    LIST_INDEX_STRUCTURES,
     PlaintextInListItemScenario
 )
 from parser_is_start_of_x import (
@@ -19,46 +18,34 @@ from parser_is_start_of_x import (
     BAGIAN_NUMBER_REGEX,
     BAGIAN_NUMBER_WITH_OPEN_QUOTE_CHAR_REGEX,
     CLOSE_QUOTE_CHAR,
-    LETTER_WITH_DOT_REGEX,
     LINE_ENDING_REGEXES,
-    NUMBER_WITH_BRACKETS_ALPHANUMERIC_VARIANT_REGEX,
-    NUMBER_WITH_BRACKETS_REGEX,
-    NUMBER_WITH_DOT_ALPHANUMERIC_VARIANT_REGEX,
-    NUMBER_WITH_DOT_REGEX,
-    NUMBER_WITH_RIGHT_BRACKET_REGEX,
+    LIST_INDEX_DEFINITIONS,
+    LIST_INDEX_STRUCTURES,
     OPEN_QUOTE_CHAR,
     PAGE_NUMBER_REGEX,
     PASAL_NUMBER_ALPHANUMERIC_VARIANT_REGEX,
     PASAL_NUMBER_REGEX,
     PASAL_NUMBER_WITH_OPEN_QUOTE_CHAR_REGEX,
-    PENJELASAN_ANGKA_REGEX,
-    PENJELASAN_AYAT_ALPHANUMERIC_VARIANT_REGEX,
-    PENJELASAN_AYAT_REGEX,
-    PENJELASAN_HURUF_REGEX,
+    PENJELASAN_LIST_INDEX_DEFINITIONS,
+    PENJELASAN_LIST_INDEX_REGEXES,
     PENJELASAN_PASAL_DEMI_PASAL_REGEX,
     START_OF_PERUBAHAN_SECTION_REGEXES,
     is_heading,
     is_start_of_bagian,
-    is_start_of_number_with_brackets_str,
-    is_start_of_number_with_right_bracket_str,
-    is_start_of_number_with_dot_str,
-    is_start_of_letter_with_dot_str,
     is_start_of_first_list_index,
     is_start_of_list_index_str,
     is_start_of_paragraf,
     is_start_of_pasal,
     is_start_of_penjelasan,
-    is_start_of_penjelasan_angka,
-    is_start_of_penjelasan_angka_str,
-    is_start_of_penjelasan_ayat_str,
-    is_start_of_penjelasan_huruf_str,
     is_start_of_penjelasan_list_index_str,
     is_start_of_penjelasan_pasal_demi_pasal,
     is_start_of_perubahan_bab,
     is_start_of_perubahan_bagian,
     is_start_of_perubahan_pasal,
+    is_start_of_structure,
     is_start_of_unordered_list_index_str,
 )
+from parser_ui import print_dashed_line, print_line, print_section_header, print_yes_no
 
 
 def ignore_line(line: str) -> bool:
@@ -92,11 +79,13 @@ def ignore_line(line: str) -> bool:
     # page number
     elif re.match(r'- [0-9]+ -', line.rstrip()) != None:
         return True
+    elif line == '' or line.isspace():
+        return True
     else:
         return False
 
 
-def get_list_index_type(list_index_str: str) -> Optional[Structure]:
+def get_list_index_type(list_index_str: str) -> Structure:
     """Identify the type of list index in list_index_str
 
     Args:
@@ -131,22 +120,14 @@ def get_list_index_type(list_index_str: str) -> Optional[Structure]:
         >>> get_list_index_type('a. cara berpikir kreatif')
         None
     """
-    if is_start_of_number_with_brackets_str(list_index_str):
-        return Structure.NUMBER_WITH_BRACKETS
-    elif is_start_of_number_with_right_bracket_str(list_index_str):
-        return Structure.NUMBER_WITH_RIGHT_BRACKET
-    elif is_start_of_number_with_dot_str(list_index_str):
-        return Structure.NUMBER_WITH_DOT
-    elif is_start_of_letter_with_dot_str(list_index_str):
-        return Structure.LETTER_WITH_DOT
-    elif is_start_of_penjelasan_ayat_str(list_index_str):
-        return Structure.PENJELASAN_AYAT
-    elif is_start_of_penjelasan_huruf_str(list_index_str):
-        return Structure.PENJELASAN_HURUF
-    elif is_start_of_penjelasan_angka_str(list_index_str):
-        return Structure.PENJELASAN_ANGKA
-    else:
-        raise Exception(f'the string "{list_index_str}" is not a LIST_INDEX')
+    for structure, definition in LIST_INDEX_DEFINITIONS.items():
+        regex = definition['regex']
+        assert isinstance(regex, str)
+
+        if is_heading(regex, list_index_str):
+            return structure
+
+    raise Exception(f'the string "{list_index_str}" is not a LIST_INDEX')
 
 
 def get_list_index_as_num(list_index_str: str) -> int:
@@ -165,44 +146,56 @@ def get_list_index_as_num(list_index_str: str) -> int:
         >>> get_list_index_as_num('13.')
         13
 
-        >>> get_list_index_as_num('(8)')
-        8
-
         >>> get_list_index_as_num('Ayat (8)')
         8
 
         >>> get_list_index_as_num('Huruf d')
         4
     """
-    regex = None
-    if is_start_of_number_with_brackets_str(list_index_str):
-        regex = r'\(([0-9]+)\)'
-    elif is_start_of_number_with_right_bracket_str(list_index_str):
-        regex = r'([0-9]+)\)'
-    elif is_start_of_number_with_dot_str(list_index_str):
-        regex = r'([0-9]+)[a-z]?\.'
-    elif is_start_of_letter_with_dot_str(list_index_str):
-        regex = r'([a-z])\.'
-    elif is_start_of_penjelasan_huruf_str(list_index_str):
-        regex = r'Huruf ([a-z])'
-    elif is_start_of_penjelasan_ayat_str(list_index_str):
-        regex = r'Ayat \(([0-9]+)\)'
-    elif is_start_of_penjelasan_angka_str(list_index_str):
-        regex = r'Angka ([0-9]+)'
-    else:
-        raise Exception('list_index_str is not a list index')
+    structure = get_list_index_type(list_index_str)
+    regex = LIST_INDEX_DEFINITIONS[structure]['regex']
+    assert isinstance(regex, str)
 
     match = re.match(regex, list_index_str)
     # mypy: https://mypy.readthedocs.io/en/stable/common_issues.html#unexpected-errors-about-none-and-or-optional-types
     assert match is not None
 
-    number_string = match.group(1)
+    number_string = match.groupdict()['number']
+    assert isinstance(number_string, str)
+
     # e.g '100'
     if number_string.isnumeric():
         return int(number_string)
     # e.g 'a'
-    else:
+    elif number_string.isalpha():
         return ord(number_string.lower())-96
+    else:
+        raise Exception(
+            f'Invalid input {list_index_str}: note this function doesnt work on alphanumeric list indexes')
+
+
+def is_alphanumeric_list_index(list_index_str: str) -> bool:
+    for definition in LIST_INDEX_DEFINITIONS.values():
+        regex = definition['regex']
+        assert isinstance(regex, str)
+
+        if not is_heading(regex, list_index_str):
+            continue
+
+        match = re.match(regex, list_index_str)
+        if match == None:
+            continue
+
+        assert match is not None
+        capture_groups = match.groupdict()
+
+        if 'alphabet' not in capture_groups:
+            continue
+
+        if capture_groups['alphabet'] != '':
+            return True
+
+    return False
 
 
 def is_next_list_index_number(list_index_a: str, list_index_b: str) -> bool:
@@ -231,18 +224,12 @@ def is_next_list_index_number(list_index_a: str, list_index_b: str) -> bool:
     a_type = get_list_index_type(list_index_a)
     b_type = get_list_index_type(list_index_b)
 
-    if b_type not in set(LIST_INDEX_STRUCTURES):
+    if b_type not in LIST_INDEX_STRUCTURES:
         raise Exception('next_list_index_number: Invalid input')
     if not (a_type == None or a_type == b_type):
         raise Exception('next_list_index_number: Invalid input')
 
-    if is_heading(NUMBER_WITH_DOT_ALPHANUMERIC_VARIANT_REGEX, list_index_a) or \
-            is_heading(NUMBER_WITH_DOT_ALPHANUMERIC_VARIANT_REGEX, list_index_b) or \
-            is_heading(NUMBER_WITH_BRACKETS_ALPHANUMERIC_VARIANT_REGEX, list_index_a) or \
-            is_heading(NUMBER_WITH_BRACKETS_ALPHANUMERIC_VARIANT_REGEX, list_index_b) or \
-            is_heading(PENJELASAN_AYAT_ALPHANUMERIC_VARIANT_REGEX, list_index_a) or \
-            is_heading(PENJELASAN_AYAT_ALPHANUMERIC_VARIANT_REGEX, list_index_b):
-
+    if is_alphanumeric_list_index(list_index_a) or is_alphanumeric_list_index(list_index_b):
         print_line()
         print(list_index_a)
         print_dashed_line()
@@ -289,14 +276,7 @@ def load_clean_law(filename: str) -> List[str]:
         law = file.read().split("\n")
         law = clean_law(law)
 
-        with open(filename + '-clean.txt', 'w') as outfile:
-            txt_law = []
-            for i, line in enumerate(law):
-                if i < len(law) - 1:
-                    txt_law.append(f'{line}\n')
-                else:
-                    txt_law.append(f'{line}')
-            outfile.writelines(txt_law)
+        save_law_to_file(law, clean_filename)
 
     else:
         file = open(
@@ -338,6 +318,8 @@ def clean_law(law: List[str]) -> List[str]:
     law = [line.strip() for line in law]
     law = [' '.join(line.split()) for line in law]
 
+    save_law_to_file(law, 'a.txt')
+
     '''
     Remove semantically meaningless text e.g '. . .' or '1 / 23'
 
@@ -349,10 +331,14 @@ def clean_law(law: List[str]) -> List[str]:
     law = list(filterfalse(ignore_line, law))
     law = clean_squashed_page_numbers(law)
 
+    save_law_to_file(law, 'b.txt')
+
     '''
     Deal with list indexes. See clean_maybe_list_item for more.
     '''
     law = clean_maybe_list_items(law)
+
+    save_law_to_file(law, 'c.txt')
 
     '''
     Deal with heading structures (e.g PASAL_NUMBER) squashed onto the end of
@@ -360,15 +346,21 @@ def clean_law(law: List[str]) -> List[str]:
     '''
     law = clean_maybe_squashed_headings(law)
 
+    save_law_to_file(law, 'd.txt')
+
     '''
     Stitch together plaintext lines that get separated into 2 lines due to page breaks
     '''
     law = clean_split_plaintext(law)
 
+    save_law_to_file(law, 'e.txt')
+
     '''
     TODO(johnamadeo): Fix "Pasal 38 B" REMOVE THE SPACE WITH REGEX
     '''
     law = clean_split_pasal_number(law)
+
+    save_law_to_file(law, 'f.txt')
 
     '''
     Add OPEN_QUOTE_CHAR and CLOSE_QUOTE_CHAR to PERUBAHAN_SECTION and PENJELASAN_PERUBAHAN_SECTION
@@ -439,6 +431,7 @@ def insert_perubahan_section_close_quotes(law: List[str]) -> List[str]:
         if any([is_heading(regex, line) for regex in START_OF_PERUBAHAN_SECTION_REGEXES]):
             open_quote_indexes.append(i)
 
+    best_guess_index = -1
     for i, _ in enumerate(open_quote_indexes):
         open_quote_index = open_quote_indexes[i]
         if i == len(open_quote_indexes) - 1:
@@ -455,21 +448,41 @@ def insert_perubahan_section_close_quotes(law: List[str]) -> List[str]:
         if has_close_quote:
             continue
 
+        best_guess_index = next_open_quote_index-3
         print_line()
         for j in range(open_quote_index, next_open_quote_index):
-            print(f'[Line {j}] {new_law[j]}')
+            if j == best_guess_index:
+                print(f"{colored(f'[Line {j}] {new_law[j]}', 'green')}")
+            else:
+                print(f'[Line {j}] {new_law[j]}')
+
             print_dashed_line()
 
         pyperclip.copy(new_law[open_quote_index])
         print('For which line should a close quote be added to the end?')
+        if best_guess_index != -1:
+            print(f'Or {colored("y(es)", "green")} to use the best guess line')
+
         user_input = input()
 
-        if not user_input.isnumeric():
-            raise Exception(f"Invalid input {user_input} - expected a number")
+        user_input_int = -1
+        if user_input == 'y':
+            user_input_int = best_guess_index
+        else:
+            if not user_input.isnumeric():
+                raise Exception(
+                    f"Invalid input {user_input} - expected a number")
 
-        user_input_int = int(user_input)
-        if user_input_int < open_quote_index or user_input_int >= next_open_quote_index:
-            raise Exception(f"Invalid input {user_input} - out of bounds")
+            user_input_int = int(user_input)
+            if user_input_int < open_quote_index or user_input_int >= next_open_quote_index:
+                print('This input may be out of bounds. Do you want to proceed?')
+                print_yes_no()
+                user_input = input()
+                if user_input == 'y':
+                    pass
+                else:
+                    raise Exception(
+                        f"Invalid input {user_input} - out of bounds")
 
         new_law[user_input_int] = new_law[user_input_int] + CLOSE_QUOTE_CHAR
 
@@ -501,9 +514,8 @@ def insert_penjelasan_perubahan_section_open_quotes(law: List[str]) -> List[str]
         if not in_penjelasan_pasal_demi_pasal:
             continue
 
-        if line in open_quote_headings:
-            new_law[i] = OPEN_QUOTE_CHAR + new_law[i]
-        elif is_start_of_perubahan_pasal(new_law, i) or \
+        if line in open_quote_headings or \
+                is_start_of_perubahan_pasal(new_law, i) or \
                 is_start_of_perubahan_bab(new_law, i) or \
                 is_start_of_perubahan_bagian(new_law, i):
 
@@ -556,7 +568,7 @@ def insert_penjelasan_perubahan_section_close_quotes(law: List[str]) -> List[str
         best_guess_index = -1
         for j in range(open_quote_index, next_open_quote_index):
             # heuristic for guessing which line to add close quote to
-            if j+1 < len(law) and is_start_of_penjelasan_angka(new_law, j+1):
+            if j+1 < len(law) and is_start_of_structure(Structure.PENJELASAN_ANGKA, new_law, j+1):
                 best_guess_index = j
                 print(f"{colored(f'[Line {j}] {new_law[j]}', 'green')}")
             else:
@@ -580,7 +592,14 @@ def insert_penjelasan_perubahan_section_close_quotes(law: List[str]) -> List[str
         else:
             close_quote_index = int(user_input)
             if close_quote_index < open_quote_index or close_quote_index >= next_open_quote_index:
-                raise Exception(f"Invalid input {user_input} - out of bounds")
+                print('This input may be out of bounds. Do you want to proceed?')
+                print_yes_no()
+                user_input = input()
+                if user_input == 'y':
+                    pass
+                else:
+                    raise Exception(
+                        f"Invalid input {user_input} - out of bounds")
 
         new_law[close_quote_index] += CLOSE_QUOTE_CHAR
 
@@ -602,8 +621,11 @@ def insert_perubahan_quotes(law: List[str]) -> List[str]:
     helper functions MUST be called in this order
     '''
     law = insert_perubahan_section_open_quotes(law)
+    save_law_to_file(law, 'g1.txt')
     law = insert_perubahan_section_close_quotes(law)
+    save_law_to_file(law, 'g2.txt')
     law = insert_penjelasan_perubahan_section_open_quotes(law)
+    save_law_to_file(law, 'g3.txt')
     law = insert_penjelasan_perubahan_section_close_quotes(law)
 
     return law
@@ -618,17 +640,17 @@ def clean_squashed_page_numbers(law: List[str]) -> List[str]:
         if len(result) == 1:
             new_law.append(line)
         elif len(result) > 1:
-            # remove page number at end of string
-            print('---------------')
+            print_line()
             print(f'{idx} / {len(law)}')
             print(line)
-            print('---------------')
+            print_line()
 
             pyperclip.copy(line)
             print('Does this line have a page number squashed onto the end?')
             print_yes_no()
             user_input = input()
 
+            # user_input = 'y'
             if user_input == 'y':
                 new_law.append(''.join(result[:-2]))
             elif user_input == 'n':
@@ -796,26 +818,16 @@ def get_squashed_list_item(line: str, approx_len: int, approx_index: int):
         >>> get_squashed_list_item('nasi goreng; 3. bakmie ayam;')
         13
     '''
-    def wrap_in_brackets_with_space(regex):
-        return r'(' + regex + r' )'
+    list_index_regexes = [r'(\u2212 )', r'(- )']
+    for definition in LIST_INDEX_DEFINITIONS.values():
+        regex = definition['regex']
+        assert isinstance(regex, str)
 
-    list_index_regex = [
-        wrap_in_brackets_with_space(LETTER_WITH_DOT_REGEX),
-        wrap_in_brackets_with_space(NUMBER_WITH_DOT_REGEX),
-        wrap_in_brackets_with_space(NUMBER_WITH_BRACKETS_REGEX),
-        wrap_in_brackets_with_space(NUMBER_WITH_RIGHT_BRACKET_REGEX),
-    ]
-
-    unordered_list_index_regex = [r'(\u2212 )', r'(- )']
-    penjelasan_list_index_regex = [
-        PENJELASAN_HURUF_REGEX,
-        PENJELASAN_AYAT_REGEX,
-        PENJELASAN_ANGKA_REGEX,
-    ]
+        list_index_regexes.append(regex)
 
     regexes = []
     for i in LINE_ENDING_REGEXES:
-        for j in list_index_regex + unordered_list_index_regex + penjelasan_list_index_regex:
+        for j in list_index_regexes:
             regexes.append(i + r'\s+' + j)
 
     '''
@@ -834,20 +846,24 @@ def get_squashed_list_item(line: str, approx_len: int, approx_index: int):
     if earliest_match is None:
         return None
 
-    start_of_squashed_list_item_idx = earliest_match.start(2)
+    if 'full' not in earliest_match.groupdict():
+        raise Exception(f'Cannot find start of list index in string "{line}"')
 
-    print('---------------')
+    start_of_squashed_list_item_idx = earliest_match.start('full')
+
+    print_line()
     print(f'{approx_index} / {approx_len}')
     print(f'{line[:start_of_squashed_list_item_idx-1].strip()}')
-    print('- - - - - - - -')
+    print_dashed_line()
     print(f'{line[start_of_squashed_list_item_idx:]}')
-    print('---------------')
+    print_line()
 
     pyperclip.copy(line[start_of_squashed_list_item_idx:])
     print('Split line?')
     print_yes_no()
     user_input = input()
 
+    # user_input = 'y'
     if user_input == 'y':
         return start_of_squashed_list_item_idx
     else:
@@ -887,7 +903,10 @@ def get_squashed_heading(line: str, approx_len: int, approx_index: int):
         PASAL_NUMBER_WITH_OPEN_QUOTE_CHAR_REGEX,
         BAB_NUMBER_REGEX,
         BAB_NUMBER_WITH_OPEN_QUOTE_CHAR_REGEX,
+        BAGIAN_NUMBER_REGEX,
+        BAGIAN_NUMBER_WITH_OPEN_QUOTE_CHAR_REGEX,
         PENJELASAN_PASAL_DEMI_PASAL_REGEX,
+        *PENJELASAN_LIST_INDEX_REGEXES,
     ]
 
     regexes = []
@@ -913,18 +932,27 @@ def get_squashed_heading(line: str, approx_len: int, approx_index: int):
 
     start_of_squashed_heading_idx = earliest_match.start(2)
 
-    print('---------------')
+    rest_of_line = line[start_of_squashed_heading_idx:]
+
+    if len(rest_of_line) > 200:
+        return None
+
+    if not any([is_heading(regex, rest_of_line) for regex in heading_regex]):
+        return None
+
+    print_line()
     print(f'{approx_index} / {approx_len}')
     print(f"{line[:start_of_squashed_heading_idx-1].strip()}")
-    print('- - - - - - - -')
+    print_dashed_line()
     print(f"{line[start_of_squashed_heading_idx:]}")
-    print('---------------')
+    print_line()
 
     pyperclip.copy(line[start_of_squashed_heading_idx:])
     print('Split line?')
     print_yes_no()
     user_input = input()
 
+    # user_input = 'n'
     if user_input == 'y':
         return start_of_squashed_heading_idx
     else:
@@ -1183,39 +1211,6 @@ def get_id(node: ComplexNode) -> str:
     return ''
 
 
-def print_law(law: List[str]) -> None:
-    for i, l in enumerate(law):
-        print(f'[{i}] {l}\n')
-
-
-def clear():
-    # i.e Windows
-    if name == 'nt':
-        _ = system('cls')
-    else:
-        _ = system('clear')
-
-
-def print_line():
-    print('---------------')
-
-
-def print_dashed_line():
-    print('- - - - - - - -')
-
-
-def print_yes_no():
-    print(f"{colored('y', 'green')} / {colored('n', 'red')}")
-
-
-def print_section_header(line):
-    print(f"{colored('---------------', 'green')}")
-    print()
-    print(f"{colored(line, 'green')}")
-    print()
-    print(f"{colored('---------------', 'green')}")
-
-
 def gen_plaintext_in_list_item_scenario_from_user(law: List[str], i: int) -> PlaintextInListItemScenario:
     print_line()
     print(f'{law[i-2]}')
@@ -1227,9 +1222,10 @@ def gen_plaintext_in_list_item_scenario_from_user(law: List[str], i: int) -> Pla
     print_line()
 
     pyperclip.copy(law[i])
-    print('This PLAINTEXT is the 3rd line of a LIST_INDEX. Is it:')
+    print('This line is the 3rd line of a LIST_INDEX. Is it:')
     print('- a sibling of the LIST this LIST_ITEM is in? (s)')
-    print('- a child of the LIST ITEM? (c)')
+    print('- a PLAINTEXT child of the LIST ITEM? (c)')
+    print('- a FORMATTED_MATH_ROW child of the LIST ITEM? (cm)')
 
     user_input = input()
 
@@ -1238,6 +1234,8 @@ def gen_plaintext_in_list_item_scenario_from_user(law: List[str], i: int) -> Pla
         return PlaintextInListItemScenario.SIBLING_OF_LIST
     elif user_input == 'c':
         return PlaintextInListItemScenario.CHILD_OF_LIST_ITEM
+    elif user_input == 'cm':
+        return PlaintextInListItemScenario.FORMATTED_MATH_ROW_CHILD_OF_LIST_ITEM
     else:
         raise Exception(f'Invalid command "{user_input}" entered by user')
 
@@ -1294,3 +1292,14 @@ def clean_perubahan_section_quotes(perubahan_section_node: ComplexNode):
 
     last_primitive_node = g(perubahan_section_node)
     last_primitive_node.text = last_primitive_node.text[:-1]
+
+
+def save_law_to_file(law: List[str], filename: str):
+    with open(filename, 'w') as outfile:
+        txt_law = []
+        for i, line in enumerate(law):
+            if i < len(law) - 1:
+                txt_law.append(f'{line}\n')
+            else:
+                txt_law.append(f'{line}')
+        outfile.writelines(txt_law)

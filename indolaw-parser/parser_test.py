@@ -11,8 +11,8 @@ from parser_utils import (
     insert_penjelasan_perubahan_section_open_quotes,
     insert_perubahan_section_close_quotes,
     insert_perubahan_section_open_quotes,
+    is_alphanumeric_list_index,
     is_next_list_index_number,
-    clean_law,
     roman_to_int,
     clean_maybe_list_item
 )
@@ -21,14 +21,7 @@ from parser_is_start_of_x import (
     is_start_of_closing,
     is_start_of_first_list_index,
     is_start_of_lembaran_number,
-    is_start_of_number_with_brackets_str,
-    is_start_of_number_with_brackets,
-    is_start_of_number_with_right_bracket_str,
-    is_start_of_number_with_right_bracket,
-    is_start_of_number_with_dot_str,
-    is_start_of_number_with_dot,
-    is_start_of_letter_with_dot_str,
-    is_start_of_letter_with_dot,
+    is_start_of_list_index_str,
     is_start_of_list_index,
     is_start_of_list_item,
     is_start_of_list,
@@ -45,8 +38,7 @@ from parser_is_start_of_x import (
     is_start_of_pasal,
     is_start_of_agreement,
     is_start_of_penjelasan,
-    is_start_of_penjelasan_ayat_str,
-    is_start_of_penjelasan_huruf_str,
+    is_start_of_penjelasan_list_index_str,
     is_start_of_penjelasan_pasal,
     is_start_of_penjelasan_pasal_demi_pasal,
     is_start_of_penjelasan_pasal_demi_pasal_title,
@@ -101,9 +93,12 @@ def test_ignore_line():
 def test_get_list_index_type():
     assert get_list_index_type('a.') == Structure.LETTER_WITH_DOT
     assert get_list_index_type('(2)') == Structure.NUMBER_WITH_BRACKETS
+    assert get_list_index_type('(2b)') == Structure.NUMBER_WITH_BRACKETS
     assert get_list_index_type('3.') == Structure.NUMBER_WITH_DOT
+    assert get_list_index_type('3g.') == Structure.NUMBER_WITH_DOT
     assert get_list_index_type('5)') == Structure.NUMBER_WITH_RIGHT_BRACKET
     assert get_list_index_type('Ayat (4)') == Structure.PENJELASAN_AYAT
+    assert get_list_index_type('Ayat (4a)') == Structure.PENJELASAN_AYAT
     assert get_list_index_type('Huruf e') == Structure.PENJELASAN_HURUF
     assert get_list_index_type('Angka 17') == Structure.PENJELASAN_ANGKA
 
@@ -122,15 +117,40 @@ def test_get_list_index_as_num():
     assert get_list_index_as_num('Angka 12') == 12
     with pytest.raises(Exception):
         get_list_index_as_num('Berhubungan dengan peraturan...')
+    with pytest.raises(Exception):
+        get_list_index_as_num('13a.')
+    with pytest.raises(Exception):
+        get_list_index_as_num('Ayat (8d)')
 
 
-def test_is_next_list_index_number():
+def test_is_next_list_index_number(monkeypatch):
     assert is_next_list_index_number('d.', 'e.') == True
     assert is_next_list_index_number('(13)', '(14)') == True
     assert is_next_list_index_number('3)', '4)') == True
     assert is_next_list_index_number('(13)', '(15)') == False
     with pytest.raises(Exception):
         is_next_list_index_number('a.', '(2)')
+
+    monkeypatch.setattr('builtins.input', lambda: "y")
+    assert is_next_list_index_number('(13f)', '(13g)') == True
+    assert is_next_list_index_number('(13f)', '(14)') == True
+
+
+def test_is_alphanumeric_list_index():
+    assert is_alphanumeric_list_index('5.') == False
+    assert is_alphanumeric_list_index('5f.') == True
+
+    assert is_alphanumeric_list_index('(5)') == False
+    assert is_alphanumeric_list_index('(5f)') == True
+
+    assert is_alphanumeric_list_index('5)') == False
+    assert is_alphanumeric_list_index('5f)') == True
+
+    assert is_alphanumeric_list_index('Ayat (5)') == False
+    assert is_alphanumeric_list_index('Ayat (5f)') == True
+
+    assert is_alphanumeric_list_index('Angka 5') == False
+    assert is_alphanumeric_list_index('Angka 5f') == True
 
 
 def test_is_start_of_first_list_index():
@@ -158,94 +178,27 @@ def test_is_start_of_first_list_index():
     assert is_start_of_first_list_index('dengan adanya...') == False
 
 
-def test_is_start_of_number_with_brackets_str():
-    assert is_start_of_number_with_brackets_str('(2)') == True
-    assert is_start_of_number_with_brackets_str('b.') == False
+def test_is_start_of_list_index_str():
+    assert is_start_of_list_index_str('a.') == True
+    assert is_start_of_list_index_str('2.') == True
+    assert is_start_of_list_index_str('2d.') == True
+    assert is_start_of_list_index_str('(3)') == True
+    assert is_start_of_list_index_str('(3f)') == True
+    assert is_start_of_list_index_str('4)') == True
+    assert is_start_of_list_index_str('Huruf g') == True
+    assert is_start_of_list_index_str('Ayat (11)') == True
+    assert is_start_of_list_index_str('Ayat (11b)') == True
+    assert is_start_of_list_index_str('Angka 5') == True
 
 
-def test_is_start_of_number_with_brackets():
-    law = [
-        '(1)',
-        'dengan adanya...',
-        '(2)',
-    ]
-    assert is_start_of_number_with_brackets(law, 0) == True
-    assert is_start_of_number_with_brackets(law, 1) == False
-    assert is_start_of_number_with_brackets(law, 2) == True
-
-
-def test_is_start_of_number_with_right_bracket_str():
-    assert is_start_of_number_with_right_bracket_str('2)') == True
-    assert is_start_of_number_with_right_bracket_str('(2)') == False
-
-
-def test_is_start_of_number_with_right_bracket():
-    law = [
-        '1)',
-        'dengan adanya...',
-        '2)',
-    ]
-    assert is_start_of_number_with_right_bracket(law, 0) == True
-    assert is_start_of_number_with_right_bracket(law, 1) == False
-    assert is_start_of_number_with_right_bracket(law, 2) == True
-
-
-def test_is_start_of_number_with_dot_str():
-    assert is_start_of_number_with_dot_str('2.') == True
-    assert is_start_of_number_with_dot_str('b.') == False
-
-    assert is_start_of_number_with_dot_str('2d.') == True
-    assert is_start_of_number_with_dot_str('2ab.') == False
-
-
-def test_is_start_of_number_with_dot():
-    law = [
-        '1.',
-        'dengan adanya...',
-        '2.',
-    ]
-    assert is_start_of_number_with_dot(law, 0) == True
-    assert is_start_of_number_with_dot(law, 1) == False
-    assert is_start_of_number_with_dot(law, 2) == True
-
-
-def test_is_start_of_letter_with_dot_str():
-    assert is_start_of_letter_with_dot_str('b.') == True
-    assert is_start_of_letter_with_dot_str('3.') == False
-
-
-def test_is_start_of_letter_with_dot():
-    law = [
-        'a.',
-        'dengan adanya...',
-        'b.',
-    ]
-    assert is_start_of_letter_with_dot(law, 0) == True
-    assert is_start_of_letter_with_dot(law, 1) == False
-    assert is_start_of_letter_with_dot(law, 2) == True
-
-
-def test_is_start_of_list_index():
-    law = [
-        'a.',
-        'dengan adanya...',
-        '2.',
-        'dengan adanya...',
-        '(3)',
-        'dengan adanya...',
-        '4)',
-        'Huruf g',
-        'Ayat (9)',
-        'Angka 5'
-    ]
-    assert is_start_of_list_index(law, 0) == True
-    assert is_start_of_list_index(law, 1) == False
-    assert is_start_of_list_index(law, 2) == True
-    assert is_start_of_list_index(law, 4) == True
-    assert is_start_of_list_index(law, 6) == True
-    assert is_start_of_list_index(law, 7) == True
-    assert is_start_of_list_index(law, 8) == True
-    assert is_start_of_list_index(law, 9) == True
+def test_is_start_of_penjelasan_list_index_str():
+    assert is_start_of_penjelasan_list_index_str('a.') == False
+    assert is_start_of_penjelasan_list_index_str('2.') == False
+    assert is_start_of_penjelasan_list_index_str('2d.') == False
+    assert is_start_of_list_index_str('Huruf g') == True
+    assert is_start_of_list_index_str('Ayat (11)') == True
+    assert is_start_of_list_index_str('Ayat (11b)') == True
+    assert is_start_of_list_index_str('Angka 5') == True
 
 
 def test_is_start_of_list_item():
@@ -607,11 +560,23 @@ def test_is_start_of_structure():
     assert is_start_of_structure(Structure.BAB_NUMBER, law, 0) == True
     assert is_start_of_structure(Structure.UU_TITLE_TOPIC, law, 0) == False
 
+    assert is_start_of_structure(
+        Structure.PENJELASAN_AYAT,
+        ['Ayat (9d)'],
+        0,
+    ) == True
+    assert is_start_of_structure(
+        Structure.NUMBER_WITH_RIGHT_BRACKET,
+        ['9)'],
+        0,
+    ) == True
+
 
 def test_get_squashed_list_item(monkeypatch):
     monkeypatch.setattr('builtins.input', lambda: "y")
 
     assert get_squashed_list_item('nasi goreng; 3) bakmie ayam;', 0, 0) == 13
+    assert get_squashed_list_item('nasi goreng; 3a. bakmie ayam;', 0, 0) == 13
     assert get_squashed_list_item(
         'gado-gado; dan/atau j. kue lapis;', 0, 0) == 20
     # From UU 13 2003 Ketenagakerjaan [Pasal 1, list index 27]
@@ -855,21 +820,6 @@ def test_is_start_of_penjelasan_umum_title():
         'Pembangunan ketenagakerjaan sebagai bagian integral...',
     ]
     assert is_start_of_penjelasan_umum_title(law, 0) == True
-
-
-def test_is_start_of_penjelasan_huruf_str():
-    assert is_start_of_penjelasan_huruf_str('Huruf e') == True
-    assert is_start_of_penjelasan_huruf_str('Huruf e.') == False
-    assert is_start_of_penjelasan_huruf_str('e.') == False
-    assert is_start_of_penjelasan_huruf_str(
-        'Yang dimaksud dengan Huruf e') == False
-
-
-def test_is_start_of_penjelasan_ayat_str():
-    assert is_start_of_penjelasan_ayat_str('Ayat (2)') == True
-    assert is_start_of_penjelasan_ayat_str('(2)') == False
-    assert is_start_of_penjelasan_ayat_str(
-        'Yang dimaksud dengan Ayat (2)') == False
 
 
 def test_is_start_of_penjelasan_pasal_demi_pasal():

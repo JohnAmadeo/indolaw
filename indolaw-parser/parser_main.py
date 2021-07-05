@@ -3,12 +3,11 @@ import json
 import sys
 from typing import Any, Dict, List, Tuple, Union
 import pyperclip
+import re
 
 from termcolor import colored
 
 from parser_types import (
-    NORMAL_LIST_INDEX_STRUCTURES,
-    PENJELASAN_LIST_INDEX_STRUCTURES,
     PlaintextInListItemScenario,
     Structure,
     TEXT_BLOCK_STRUCTURES,
@@ -18,13 +17,13 @@ from parser_types import (
 )
 from parser_is_start_of_x import (
     CLOSE_QUOTE_CHAR,
+    FORMATTED_MATH_ROW_SPLIT_REGEX,
+    NORMAL_LIST_INDEX_STRUCTURES,
+    PENJELASAN_LIST_INDEX_STRUCTURES,
     is_heading,
+    is_start_of_formatted_math_row,
     is_start_of_lembaran_number,
-    is_start_of_number_with_right_bracket,
     is_start_of_pasal,
-    is_start_of_penjelasan_angka,
-    is_start_of_penjelasan_ayat,
-    is_start_of_penjelasan_huruf,
     is_start_of_penjelasan_list_index_str,
     is_start_of_penjelasan_umum,
     is_start_of_perubahan_section,
@@ -33,9 +32,6 @@ from parser_is_start_of_x import (
     is_start_of_any,
     is_start_of_plaintext,
     is_start_of_list_item,
-    is_start_of_letter_with_dot,
-    is_start_of_number_with_dot,
-    is_start_of_number_with_brackets,
     is_start_of_unordered_list_item,
 )
 from parser_utils import (
@@ -1300,7 +1296,7 @@ def parse_list(parent: ComplexNode, law: List[str], start_index: int) -> int:
             Structure.PERUBAHAN_PASAL,
         ])
 
-    sibling_ancestors = [Structure.PLAINTEXT]
+    sibling_ancestors = [Structure.PLAINTEXT, Structure.FORMATTED_MATH_ROW]
 
     initial_start_index = start_index
     end_index = start_index-1
@@ -1578,8 +1574,12 @@ def parse_list_item(parent: ComplexNode, law: List[str], start_index: int) -> in
         Pasal 6 dihapus
     '''
     parse_list_index(list_item_node, law, start_index)
-    list_item_node.add_child(PrimitiveNode(
-        type=Structure.PLAINTEXT, text=law[start_index+1]))
+
+    if is_start_of_structure(Structure.FORMATTED_MATH_ROW, law, start_index+1):
+        parse_formatted_math_row(list_item_node, law, start_index+1)
+    else:
+        list_item_node.add_child(PrimitiveNode(
+            type=Structure.PLAINTEXT, text=law[start_index+1]))
 
     '''
     The 3rd line can be one of 2 scenarios.
@@ -1665,7 +1665,7 @@ def parse_list_item(parent: ComplexNode, law: List[str], start_index: int) -> in
             return end_index
 
         child_structure = None
-        if is_start_of_plaintext(law, start_index):
+        if is_start_of_plaintext(law, start_index) or is_start_of_formatted_math_row(law, start_index):
             '''
             If the 3rd line is PLAINTEXT, it could be:
             a) Sibling of the LIST the LIST_ITEM is in
@@ -1724,6 +1724,8 @@ def parse_list_item(parent: ComplexNode, law: List[str], start_index: int) -> in
                 return end_index
             elif scenario == PlaintextInListItemScenario.CHILD_OF_LIST_ITEM:
                 child_structure = Structure.PLAINTEXT
+            elif scenario == PlaintextInListItemScenario.FORMATTED_MATH_ROW_CHILD_OF_LIST_ITEM:
+                child_structure = Structure.FORMATTED_MATH_ROW
             elif scenario == PlaintextInListItemScenario.EMBEDDED_LAW_SNIPPET:
                 crash(
                     law,
@@ -1797,30 +1799,8 @@ def parse_list_index(parent: ComplexNode, law: List[str], i: int) -> None:
         law: Ordered list of strings that contain the text of the law we want to parse
         i: law[i] is the line containing the LIST_INDEX we want to parse
     """
-
-    if is_start_of_letter_with_dot(law, i):
-        parent.add_child(PrimitiveNode(
-            type=Structure.LETTER_WITH_DOT, text=law[i]))
-    elif is_start_of_number_with_dot(law, i):
-        parent.add_child(PrimitiveNode(
-            type=Structure.NUMBER_WITH_DOT, text=law[i]))
-    elif is_start_of_number_with_brackets(law, i):
-        parent.add_child(PrimitiveNode(
-            type=Structure.NUMBER_WITH_BRACKETS, text=law[i]))
-    elif is_start_of_number_with_right_bracket(law, i):
-        parent.add_child(PrimitiveNode(
-            type=Structure.NUMBER_WITH_RIGHT_BRACKET, text=law[i]))
-    elif is_start_of_penjelasan_ayat(law, i):
-        parent.add_child(PrimitiveNode(
-            type=Structure.PENJELASAN_AYAT, text=law[i]))
-    elif is_start_of_penjelasan_huruf(law, i):
-        parent.add_child(PrimitiveNode(
-            type=Structure.PENJELASAN_HURUF, text=law[i]))
-    elif is_start_of_penjelasan_angka(law, i):
-        parent.add_child(PrimitiveNode(
-            type=Structure.PENJELASAN_ANGKA, text=law[i]))
-    else:
-        crash(law, i, f'line {i} is not a list index')
+    structure = get_list_index_type(law[i])
+    parent.add_child(PrimitiveNode(type=structure, text=law[i]))
 
 
 def parse_closing(parent: ComplexNode, law: List[str], start_index: int) -> int:
@@ -1977,6 +1957,7 @@ def parse_penjelasan_title(parent: ComplexNode, law: List[str], start_index: int
 
     i = 0
     while not is_start_of_penjelasan_umum(law, start_index+i):
+        line = law[start_index+i]
         previous_line = law[start_index+i-1]
         if is_heading('TENTANG', previous_line):
             penjelasan_title_node.add_child(
@@ -1986,6 +1967,13 @@ def parse_penjelasan_title(parent: ComplexNode, law: List[str], start_index: int
                 )
             )
         elif is_heading('UNDANG-UNDANG REPUBLIK INDONESIA', previous_line):
+            penjelasan_title_node.add_child(
+                PrimitiveNode(
+                    type=Structure.UU_TITLE_YEAR_AND_NUMBER,
+                    text=law[start_index+i]
+                )
+            )
+        elif is_heading(r'UNDANG-UNDANG NOMOR [0-9]+ TAHUN [0-9]{4}', line):
             penjelasan_title_node.add_child(
                 PrimitiveNode(
                     type=Structure.UU_TITLE_YEAR_AND_NUMBER,
@@ -2069,6 +2057,10 @@ def parse_unordered_list(parent: ComplexNode, law: List[str], start_index: int) 
     '''
     naive algorithm assumes a) no nested UNORDERED_LIST exist
     and b) all UNORDERED_LIST_ITEM are made of 1 LIST_INDEX and 1 PLAINTEXT
+
+    TODO(johnamadeo): UU 2007 28 Penjelasan Pasal 17C has
+    - nested unordered lists
+    - unordered lists w/ >2 children
     '''
     while end_index < len(law)-1:
         if not is_start_of_unordered_list_item(law, start_index):
@@ -2080,15 +2072,54 @@ def parse_unordered_list(parent: ComplexNode, law: List[str], start_index: int) 
 
         unordered_list_index_node = PrimitiveNode(
             type=Structure.UNORDERED_LIST_INDEX, text=law[start_index])
-        plaintext_node = PrimitiveNode(
-            type=Structure.PLAINTEXT, text=law[start_index+1])
         unordered_list_item_node.add_child(unordered_list_index_node)
-        unordered_list_item_node.add_child(plaintext_node)
+
+        if is_start_of_structure(Structure.FORMATTED_MATH_ROW, law, start_index+1):
+            parse_formatted_math_row(
+                unordered_list_item_node, law, start_index+1)
+        else:
+            plaintext_node = PrimitiveNode(
+                type=Structure.PLAINTEXT, text=law[start_index+1])
+            unordered_list_item_node.add_child(plaintext_node)
 
         end_index += 2
         start_index = end_index+1
 
     return end_index
+
+
+def parse_formatted_math_row(parent: ComplexNode, law: List[str], start_index: int) -> int:
+    formatted_math_row_node = ComplexNode(type=Structure.FORMATTED_MATH_ROW)
+    parent.add_child(formatted_math_row_node)
+
+    line = law[start_index]
+
+    match = re.search(FORMATTED_MATH_ROW_SPLIT_REGEX, line)
+    if match is None:
+        raise Exception(f'Line is not a FORMATTED_MATH_ROW: {line}')
+
+    split_index = match.start('full')
+    formatted_math_row_node.add_child(
+        PrimitiveNode(
+            type=Structure.PLAINTEXT,
+            text=line[:split_index],
+        )
+    )
+
+    plus_or_minus_string = match.groupdict('plus_or_minus')
+    use_underline_formatting = plus_or_minus_string != None and plus_or_minus_string != ''
+
+    formatted_math_row_node.add_child(
+        PrimitiveNode(
+            type=Structure.PLAINTEXT,
+            text=line[split_index:],
+            formatting={
+                'underline_currency': use_underline_formatting
+            }
+        )
+    )
+
+    return start_index
 
 
 '''
@@ -2205,6 +2236,8 @@ def parse_structure(
         return parse_penjelasan_list_item(parent, law, start_index)
     elif structure == Structure.UNORDERED_LIST:
         return parse_unordered_list(parent, law, start_index)
+    elif structure == Structure.FORMATTED_MATH_ROW:
+        return parse_formatted_math_row(parent, law, start_index)
     else:
         crash(law, start_index, f'No function to parse {structure.value}')
         return -1  # only to satisfy mypy; will never run since we crash
