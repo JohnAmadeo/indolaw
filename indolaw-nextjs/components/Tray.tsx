@@ -30,7 +30,7 @@ export default function Tray(props: {
 
   useEffect(() => {
     const listener = function (event: KeyboardEvent) {
-      if (event.key === 'f') {
+      if (event.key === 'g') {
         if (isExpanded) {
           onMinimize();
         } else {
