@@ -2356,7 +2356,7 @@ if __name__ == "__main__":
 
     ketentuan_umum_list = []
 
-    if metadata['ketentuan_umum']:
+    if 'ketentuan_umum' in metadata:
         ketentuan_umum_list = sorted(metadata['ketentuan_umum'].keys(), key=lambda x: len(x), reverse=True)
 
     content = convert_tree_to_json(ROOT, ketentuan_umum_list)
