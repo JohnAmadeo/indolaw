@@ -1106,7 +1106,8 @@ def extract_metadata_from_tree(undang_undang_node: ComplexNode) -> Dict[str, Any
                 for child in node.children:
                     h(child)
     
-    h(undang_undang_node)
+    # TODO: uncomment this after ketentuam umum parsing works on most edge cases
+    # h(undang_undang_node)
 
     return metadata
 
