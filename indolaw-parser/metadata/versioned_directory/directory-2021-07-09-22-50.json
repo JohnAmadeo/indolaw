@@ -1075,7 +1075,7 @@
   "1974": [
     {
       "number": 1,
-      "topic": "Perkawinan",
+      "topic": "Perkawinan.",
       "metadataPagelink": "https://www.dpr.go.id/jdih/index/id/742",
       "pdfLink": "https://www.dpr.go.id/dokjdih/document/uu/742.pdf",
       "bpkLink": "https://peraturan.bpk.go.id/Home/Details/47406/uu-no-1-tahun-1974",
@@ -20343,433 +20343,168 @@
       "topic": "Lembaga Keuangan Mikro",
       "metadataPagelink": "https://www.dpr.go.id/jdih/index/id/285",
       "pdfLink": "https://www.dpr.go.id/dokjdih/document/uu/UU_2013_1.pdf",
-      "bpkLink": "https://peraturan.bpk.go.id/Home/Details/38813/uu-no-1-tahun-2013",
-      "status": {},
-      "theme": [
-        {
-          "theme": "Perbankan, Lembaga Keuangan",
-          "link": "https://peraturan.bpk.go.id/Home/Search?tema=44"
-        },
-        {
-          "theme": "Dasar Pembentukan Kementerian/Lembaga/Badan/Organisasi",
-          "link": "https://peraturan.bpk.go.id/Home/Search?tema=71"
-        }
-      ],
-      "puu": []
+      "bpkLink": "https://peraturan.bpk.go.id/Home/Details/38813/uu-no-1-tahun-2013"
     },
     {
       "number": 2,
       "topic": "Pembentukan Kabupaten Mahakam Ulu Di Provinsi Kalimantan Timur",
       "metadataPagelink": "https://www.dpr.go.id/jdih/index/id/286",
       "pdfLink": "https://www.dpr.go.id/dokjdih/document/uu/UU_2013_2.pdf",
-      "bpkLink": "https://peraturan.bpk.go.id/Home/Details/38821/uu-no-2-tahun-2013",
-      "status": {},
-      "theme": [
-        {
-          "theme": "Otonomi Daerah dan Pemerintah Daerah",
-          "link": "https://peraturan.bpk.go.id/Home/Search?tema=30"
-        }
-      ],
-      "puu": []
+      "bpkLink": "https://peraturan.bpk.go.id/Home/Details/38821/uu-no-2-tahun-2013"
     },
     {
       "number": 3,
       "topic": "Pembentukan Kabupaten Malaka Di Provinsi Nusa Tenggara Timur",
       "metadataPagelink": "https://www.dpr.go.id/jdih/index/id/287",
       "pdfLink": "https://www.dpr.go.id/dokjdih/document/uu/UU_2013_3.pdf",
-      "bpkLink": "https://peraturan.bpk.go.id/Home/Details/38828/uu-no-3-tahun-2013",
-      "status": {},
-      "theme": [
-        {
-          "theme": "Otonomi Daerah dan Pemerintah Daerah",
-          "link": "https://peraturan.bpk.go.id/Home/Search?tema=30"
-        }
-      ],
-      "puu": []
+      "bpkLink": "https://peraturan.bpk.go.id/Home/Details/38828/uu-no-3-tahun-2013"
     },
     {
       "number": 4,
       "topic": "Pembentukan Kabupaten Mamuju Tengah Di Provinsi Sulawesi Barat",
       "metadataPagelink": "https://www.dpr.go.id/jdih/index/id/288",
       "pdfLink": "https://www.dpr.go.id/dokjdih/document/uu/UU_2013_4.pdf",
-      "bpkLink": "https://peraturan.bpk.go.id/Home/Details/38829/uu-no-4-tahun-2013",
-      "status": {},
-      "theme": [
-        {
-          "theme": "Otonomi Daerah dan Pemerintah Daerah",
-          "link": "https://peraturan.bpk.go.id/Home/Search?tema=30"
-        }
-      ],
-      "puu": []
+      "bpkLink": "https://peraturan.bpk.go.id/Home/Details/38829/uu-no-4-tahun-2013"
     },
     {
       "number": 5,
       "topic": "Pembentukan Kabupaten Banggai Laut Di Provinsi Sulawesi Tengah",
       "metadataPagelink": "https://www.dpr.go.id/jdih/index/id/289",
       "pdfLink": "https://www.dpr.go.id/dokjdih/document/uu/UU_2013_5.pdf",
-      "bpkLink": "https://peraturan.bpk.go.id/Home/Details/38832/uu-no-5-tahun-2013",
-      "status": {},
-      "theme": [
-        {
-          "theme": "Otonomi Daerah dan Pemerintah Daerah",
-          "link": "https://peraturan.bpk.go.id/Home/Search?tema=30"
-        }
-      ],
-      "puu": []
+      "bpkLink": "https://peraturan.bpk.go.id/Home/Details/38832/uu-no-5-tahun-2013"
     },
     {
       "number": 6,
       "topic": "Pembentukan Kabupaten Pulau Taliabu Di Provinsi Maluku Utara",
       "metadataPagelink": "https://www.dpr.go.id/jdih/index/id/290",
       "pdfLink": "https://www.dpr.go.id/dokjdih/document/uu/UU_2013_6.pdf",
-      "bpkLink": "https://peraturan.bpk.go.id/Home/Details/38835/uu-no-6-tahun-2013",
-      "status": {},
-      "theme": [
-        {
-          "theme": "Otonomi Daerah dan Pemerintah Daerah",
-          "link": "https://peraturan.bpk.go.id/Home/Search?tema=30"
-        }
-      ],
-      "puu": []
+      "bpkLink": "https://peraturan.bpk.go.id/Home/Details/38835/uu-no-6-tahun-2013"
     },
     {
       "number": 7,
       "topic": "Pembentukan Kabupaten Penukal Abab Lematang Ilir Di Provinsi Sumatera Selatan",
       "metadataPagelink": "https://www.dpr.go.id/jdih/index/id/291",
       "pdfLink": "https://www.dpr.go.id/dokjdih/document/uu/UU_2013_7.pdf",
-      "bpkLink": "https://peraturan.bpk.go.id/Home/Details/38837/uu-no-7-tahun-2013",
-      "status": {},
-      "theme": [
-        {
-          "theme": "Otonomi Daerah dan Pemerintah Daerah",
-          "link": "https://peraturan.bpk.go.id/Home/Search?tema=30"
-        }
-      ],
-      "puu": []
+      "bpkLink": "https://peraturan.bpk.go.id/Home/Details/38837/uu-no-7-tahun-2013"
     },
     {
       "number": 8,
       "topic": "Pembentukan Kabupaten Kolaka Timur Di Provinsi Sulawesi Tenggara",
       "metadataPagelink": "https://www.dpr.go.id/jdih/index/id/292",
       "pdfLink": "https://www.dpr.go.id/dokjdih/document/uu/UU_2013_8.pdf",
-      "bpkLink": "https://peraturan.bpk.go.id/Home/Details/38839/uu-no-8-tahun-2013",
-      "status": {},
-      "theme": [
-        {
-          "theme": "Otonomi Daerah dan Pemerintah Daerah",
-          "link": "https://peraturan.bpk.go.id/Home/Search?tema=30"
-        }
-      ],
-      "puu": []
+      "bpkLink": "https://peraturan.bpk.go.id/Home/Details/38839/uu-no-8-tahun-2013"
     },
     {
       "number": 9,
       "topic": "Pencegahan Dan Pemberantasan Tindak Pidana Pendanaan Terorisme",
       "metadataPagelink": "https://www.dpr.go.id/jdih/index/id/293",
       "pdfLink": "https://www.dpr.go.id/dokjdih/document/uu/UU_2013_9.pdf",
-      "bpkLink": "https://peraturan.bpk.go.id/Home/Details/38846/uu-no-9-tahun-2013",
-      "status": {},
-      "theme": [
-        {
-          "theme": "Terorisme",
-          "link": "https://peraturan.bpk.go.id/Home/Search?tema=57"
-        }
-      ],
-      "puu": []
+      "bpkLink": "https://peraturan.bpk.go.id/Home/Details/38846/uu-no-9-tahun-2013"
     },
     {
       "number": 10,
       "topic": "Pengesahan Rotterdam Convention On The Prior Informed Consent Procedure For Certain Hazardous Chemicals And Pesticides In International Trade (Konvensi Rotterdam Tentang Prosedur Persetujuan Atas Dasar Informasi Awal Untuk Bahan Kimia Dan Pestisida Berbahaya Tertentu Dalam Perdagangan Internasional)",
       "metadataPagelink": "https://www.dpr.go.id/jdih/index/id/294",
       "pdfLink": "https://www.dpr.go.id/dokjdih/document/uu/UU_2013_10.pdf",
-      "bpkLink": "https://peraturan.bpk.go.id/Home/Details/38847/uu-no-10-tahun-2013",
-      "status": {},
-      "theme": [
-        {
-          "theme": "Pengesahan dan/atau Pembatalan Persetujuan/Konvensi/ Perjanjian Internasional",
-          "link": "https://peraturan.bpk.go.id/Home/Search?tema=42"
-        }
-      ],
-      "puu": []
+      "bpkLink": "https://peraturan.bpk.go.id/Home/Details/38847/uu-no-10-tahun-2013"
     },
     {
       "number": 11,
       "topic": "Pengesahan Nagoya Protocol On Acces To Genetic Resources And The Fair And Equitable Sharing Of Benefits Arising From Their Utilization To The Convention On Biological Diversity (Protokol Nagoya Tentang Akses Pada Sumber Daya Genetik Dan Pembagian Keuntungan Yang Adil Dan Seimbang Yang Timbul Dari Pemanfaatannya Atas Kovensi Keanekaragaman Hayati)",
       "metadataPagelink": "https://www.dpr.go.id/jdih/index/id/357",
       "pdfLink": "https://www.dpr.go.id/dokjdih/document/uu/UU_2013_11.pdf",
-      "bpkLink": "https://peraturan.bpk.go.id/Home/Details/38848/uu-no-11-tahun-2013",
-      "status": {},
-      "theme": [
-        {
-          "theme": "Pengesahan dan/atau Pembatalan Persetujuan/Konvensi/ Perjanjian Internasional",
-          "link": "https://peraturan.bpk.go.id/Home/Search?tema=42"
-        }
-      ],
-      "puu": []
+      "bpkLink": "https://peraturan.bpk.go.id/Home/Details/38848/uu-no-11-tahun-2013"
     },
     {
       "number": 12,
       "topic": "Pembentukan Kabupaten Morowali Utara Di Provinsi Sulawesi Tengah",
       "metadataPagelink": "https://www.dpr.go.id/jdih/index/id/358",
       "pdfLink": "https://www.dpr.go.id/dokjdih/document/uu/UU_2013_12.pdf",
-      "bpkLink": "https://peraturan.bpk.go.id/Home/Details/38849/uu-no-12-tahun-2013",
-      "status": {},
-      "theme": [
-        {
-          "theme": "Otonomi Daerah dan Pemerintah Daerah",
-          "link": "https://peraturan.bpk.go.id/Home/Search?tema=30"
-        }
-      ],
-      "puu": []
+      "bpkLink": "https://peraturan.bpk.go.id/Home/Details/38849/uu-no-12-tahun-2013"
     },
     {
       "number": 13,
       "topic": "Pembentukan Kabupaten Konawe Kepulauan Di Provinsi Sulawesi Tenggara",
       "metadataPagelink": "https://www.dpr.go.id/jdih/index/id/359",
       "pdfLink": "https://www.dpr.go.id/dokjdih/document/uu/UU_2013_13.pdf",
-      "bpkLink": "https://peraturan.bpk.go.id/Home/Details/38861/uu-no-13-tahun-2013",
-      "status": {},
-      "theme": [
-        {
-          "theme": "Otonomi Daerah dan Pemerintah Daerah",
-          "link": "https://peraturan.bpk.go.id/Home/Search?tema=30"
-        }
-      ],
-      "puu": []
+      "bpkLink": "https://peraturan.bpk.go.id/Home/Details/38861/uu-no-13-tahun-2013"
     },
     {
       "number": 14,
       "topic": "Perubahan Atas Undang-Undang Nomor 56 Tahun 2008 Tentang Pembentukan Kabupaten Tambrauw Di Provinsi Papua Barat",
       "metadataPagelink": "https://www.dpr.go.id/jdih/index/id/360",
       "pdfLink": "https://www.dpr.go.id/dokjdih/document/uu/UU_2013_14.pdf",
-      "bpkLink": "https://peraturan.bpk.go.id/Home/Details/38865/uu-no-14-tahun-2013",
-      "status": {
-        "mengubah": [
-          {
-            "year": "2008",
-            "number": "56",
-            "law": "UU No. 56 Tahun 2008 tentang Pembentukan Kabupaten Tambrauw di Provinsi Papua Barat",
-            "link": "https://peraturan.bpk.go.id/Home/Details/39764/uu-no-56-tahun-2008",
-            "context": ""
-          }
-        ]
-      },
-      "theme": [
-        {
-          "theme": "Otonomi Daerah dan Pemerintah Daerah",
-          "link": "https://peraturan.bpk.go.id/Home/Search?tema=30"
-        }
-      ],
-      "puu": []
+      "bpkLink": "https://peraturan.bpk.go.id/Home/Details/38865/uu-no-14-tahun-2013"
     },
     {
       "number": 15,
       "topic": "Perubahan Atas Undang-Undang Nomor 19 Tahun 2012 Tentang Anggaran Dan Pendapatan Belanja Negara Tahun Anggaran 2013",
       "metadataPagelink": "https://www.dpr.go.id/jdih/index/id/361",
       "pdfLink": "https://www.dpr.go.id/dokjdih/document/uu/UU_2013_15.pdf",
-      "bpkLink": "https://peraturan.bpk.go.id/Home/Details/38872/uu-no-15-tahun-2013",
-      "status": {},
-      "theme": [
-        {
-          "theme": "APBN",
-          "link": "https://peraturan.bpk.go.id/Home/Search?tema=4"
-        }
-      ],
-      "puu": [
-        {
-          "id": "83/PUU-XI/2013",
-          "link": "https://peraturan.bpk.go.id/Home/DownloadUjiMateri/86/putusan_sidang_1662_83%20PUU%202013-26Maret2014.pdf",
-          "context": "Pasal 9 ayat (1) huruf a Undang-Undang Nomor 15 Tahun 2003 tentang Perubahan atas Undang-Undang Nomor 19 Tahun 2012 tentang Anggaran Pendapatan dan Belanja Negara Tahun Anggaran 2013 bertentangan dengan UUD NRI Tahun 1945 dan tidak mempunyai kekuatan hukum mengikat sepanjang tidak dimaknai negara dengan kekuasaan yang ada padanya harus dapat menjamin dan memastikan pelunasan ganti kerugian sebagaimana mestinya terhadao masyarakat di dalam wilayah Peta Area Terdampak oleh perusahaan yang bertanggung jawab untuk itu."
-        }
-      ]
+      "bpkLink": "https://peraturan.bpk.go.id/Home/Details/38872/uu-no-15-tahun-2013"
     },
     {
       "number": 16,
       "topic": "Pembentukan Kabupaten Musi Rawas Utara Di Provinsi Sumatera Selatan",
       "metadataPagelink": "https://www.dpr.go.id/jdih/index/id/362",
       "pdfLink": "https://www.dpr.go.id/dokjdih/document/uu/UU_2013_16.pdf",
-      "bpkLink": "https://peraturan.bpk.go.id/Home/Details/38874/uu-no-16-tahun-2013",
-      "status": {},
-      "theme": [
-        {
-          "theme": "Otonomi Daerah dan Pemerintah Daerah",
-          "link": "https://peraturan.bpk.go.id/Home/Search?tema=30"
-        }
-      ],
-      "puu": []
+      "bpkLink": "https://peraturan.bpk.go.id/Home/Details/38874/uu-no-16-tahun-2013"
     },
     {
       "number": 17,
       "topic": "Organisasi Kemasyarakatan",
       "metadataPagelink": "https://www.dpr.go.id/jdih/index/id/363",
       "pdfLink": "https://www.dpr.go.id/dokjdih/document/uu/UU_2013_17.pdf",
-      "bpkLink": "https://peraturan.bpk.go.id/Home/Details/38876/uu-no-17-tahun-2013",
-      "status": {
-        "mencabut": [
-          {
-            "year": "1985",
-            "number": "8",
-            "law": "UU No. 8 Tahun 1985 tentang Organisasi Kemasyarakatan",
-            "link": "https://peraturan.bpk.go.id/Home/Details/46956/uu-no-8-tahun-1985",
-            "context": ""
-          }
-        ]
-      },
-      "theme": [
-        {
-          "theme": "Dasar Pembentukan Kementerian/Lembaga/Badan/Organisasi",
-          "link": "https://peraturan.bpk.go.id/Home/Search?tema=71"
-        }
-      ],
-      "puu": []
+      "bpkLink": "https://peraturan.bpk.go.id/Home/Details/38876/uu-no-17-tahun-2013"
     },
     {
       "number": 18,
       "topic": "Pencegahan Dan Pemberantasan Perusakan Hutan",
       "metadataPagelink": "https://www.dpr.go.id/jdih/index/id/364",
       "pdfLink": "https://www.dpr.go.id/dokjdih/document/uu/UU_2013_18.pdf",
-      "bpkLink": "https://peraturan.bpk.go.id/Home/Details/38884/uu-no-18-tahun-2013",
-      "status": {
-        "diubah dengan": [
-          {
-            "year": "2020",
-            "number": "11",
-            "law": "UU No. 11 Tahun 2020 tentang Cipta Kerja",
-            "link": "https://peraturan.bpk.go.id/Home/Details/149750/uu-no-11-tahun-2020",
-            "context": ""
-          }
-        ]
-      },
-      "theme": [
-        {
-          "theme": "Kehutanan dan Perkebunan",
-          "link": "https://peraturan.bpk.go.id/Home/Search?tema=20"
-        }
-      ],
-      "puu": []
+      "bpkLink": "https://peraturan.bpk.go.id/Home/Details/38884/uu-no-18-tahun-2013"
     },
     {
       "number": 19,
       "topic": "Perlindungan Dan Pemberdayaan Petani",
       "metadataPagelink": "https://www.dpr.go.id/jdih/index/id/365",
       "pdfLink": "https://www.dpr.go.id/dokjdih/document/uu/UU_2013_19.pdf",
-      "bpkLink": "https://peraturan.bpk.go.id/Home/Details/38893/uu-no-19-tahun-2013",
-      "status": {
-        "diubah dengan": [
-          {
-            "year": "2020",
-            "number": "11",
-            "law": "UU No. 11 Tahun 2020 tentang Cipta Kerja",
-            "link": "https://peraturan.bpk.go.id/Home/Details/149750/uu-no-11-tahun-2020",
-            "context": ""
-          }
-        ]
-      },
-      "theme": [
-        {
-          "theme": "Pertanian dan Peternakan",
-          "link": "https://peraturan.bpk.go.id/Home/Search?tema=50"
-        }
-      ],
-      "puu": []
+      "bpkLink": "https://peraturan.bpk.go.id/Home/Details/38893/uu-no-19-tahun-2013"
     },
     {
       "number": 20,
       "topic": "Pendidikan Kedokteran",
       "metadataPagelink": "https://www.dpr.go.id/jdih/index/id/366",
       "pdfLink": "https://www.dpr.go.id/dokjdih/document/uu/UU_2013_20.pdf",
-      "bpkLink": "https://peraturan.bpk.go.id/Home/Details/38895/uu-no-20-tahun-2013",
-      "status": {},
-      "theme": [
-        {
-          "theme": "Kesehatan",
-          "link": "https://peraturan.bpk.go.id/Home/Search?tema=23"
-        },
-        {
-          "theme": "Pendidikan",
-          "link": "https://peraturan.bpk.go.id/Home/Search?tema=38"
-        }
-      ],
-      "puu": []
+      "bpkLink": "https://peraturan.bpk.go.id/Home/Details/38895/uu-no-20-tahun-2013"
     },
     {
       "number": 21,
       "topic": "Keantariksaan",
       "metadataPagelink": "https://www.dpr.go.id/jdih/index/id/367",
       "pdfLink": "https://www.dpr.go.id/dokjdih/document/uu/367.pdf",
-      "bpkLink": "https://peraturan.bpk.go.id/Home/Details/38897/uu-no-21-tahun-2013",
-      "status": {},
-      "theme": [],
-      "puu": []
+      "bpkLink": "https://peraturan.bpk.go.id/Home/Details/38897/uu-no-21-tahun-2013"
     },
     {
       "number": 22,
       "topic": "Pertanggungjawaban atas Pelaksanaan Anggaran Pendapatan dan Belanja Negara Tahun Anggaran 2012",
       "metadataPagelink": "https://www.dpr.go.id/jdih/index/id/1669",
       "pdfLink": "https://www.dpr.go.id/dokjdih/document/uu/1669.pdf",
-      "bpkLink": "https://peraturan.bpk.go.id/Home/Details/38966/uu-no-22-tahun-2013",
-      "status": {},
-      "theme": [
-        {
-          "theme": "APBN",
-          "link": "https://peraturan.bpk.go.id/Home/Search?tema=4"
-        }
-      ],
-      "puu": []
+      "bpkLink": "https://peraturan.bpk.go.id/Home/Details/38966/uu-no-22-tahun-2013"
     },
     {
       "number": 23,
       "topic": "Anggaran Pendapatan Dan Belanja Negara Tahun Anggaran 2014 ",
       "metadataPagelink": "https://www.dpr.go.id/jdih/index/id/1670",
       "pdfLink": "https://www.dpr.go.id/dokjdih/document/uu/1670.pdf",
-      "bpkLink": "https://peraturan.bpk.go.id/Home/Details/38979/uu-no-23-tahun-2013",
-      "status": {
-        "diubah dengan": [
-          {
-            "year": "Anggaran",
-            "number": "12",
-            "law": "UU No. 12 Tahun 2014 tentang Perubahan atas Undang-Undang Nomor 23 Tahun 2013 Tentang Anggaran Pendapatan dan Belanja Negara Tahun Anggaran 2014",
-            "link": "https://peraturan.bpk.go.id/Home/Details/38604/uu-no-12-tahun-2014",
-            "context": ""
-          }
-        ]
-      },
-      "theme": [
-        {
-          "theme": "APBN",
-          "link": "https://peraturan.bpk.go.id/Home/Search?tema=4"
-        }
-      ],
-      "puu": []
+      "bpkLink": "https://peraturan.bpk.go.id/Home/Details/38979/uu-no-23-tahun-2013"
     },
     {
       "number": 24,
       "topic": "Perubahan Atas Undang-Undang Nomor 23 Tahun 2006 Tentang Administrasi Kependudukan ",
       "metadataPagelink": "https://www.dpr.go.id/jdih/index/id/1671",
       "pdfLink": "https://www.dpr.go.id/dokjdih/document/uu/1671.pdf",
-      "bpkLink": "https://peraturan.bpk.go.id/Home/Details/38985/uu-no-24-tahun-2013",
-      "status": {
-        "mengubah": [
-          {
-            "year": "2006",
-            "number": "23",
-            "law": "UU No. 23 Tahun 2006 tentang Administrasi Kependudukan",
-            "link": "https://peraturan.bpk.go.id/Home/Details/40202/uu-no-23-tahun-2006",
-            "context": ""
-          }
-        ]
-      },
-      "theme": [
-        {
-          "theme": "Administrasi dan Tata Usaha Negara",
-          "link": "https://peraturan.bpk.go.id/Home/Search?tema=1"
-        },
-        {
-          "theme": "Kependudukan dan Perkawinan",
-          "link": "https://peraturan.bpk.go.id/Home/Search?tema=22"
-        }
-      ],
-      "puu": []
+      "bpkLink": "https://peraturan.bpk.go.id/Home/Details/38985/uu-no-24-tahun-2013"
     }
   ],
   "2014": [
