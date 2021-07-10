@@ -36,12 +36,28 @@ export const getStaticProps: GetStaticProps = async ({ params }) => {
     return { notFound: true };
   }
 
-  const file = fs.readFileSync(`./laws/uu-${params.yearOrNickname}-${params.number}.json`, 'utf8');
+  const year = params.yearOrNickname as string;
+  const number = params.number as string;
+
+  const law = JSON.parse(fs.readFileSync(`./laws/uu-${year}-${number}.json`, 'utf8'));
+
+  // TODO(johnamadeo): This is obviously ugly. Find a better way to combine metadata from law JSON to directory JSON
+  const directory = JSON.parse(fs.readFileSync(`../indolaw-parser/metadata/directory.json`, 'utf8'));
+  // @ts-ignore
+  var metadata = directory[year].find(entry => entry['number'] === parseInt(number));
+
+
+  law['metadata'] = {
+    ...law['metadata'],
+    ...metadata,
+  }
+
+  console.log(law);
 
   return {
     props: {
       data: {
-        law: JSON.parse(file),
+        law,
       },
     },
   };

@@ -85,8 +85,30 @@ export interface Metadata {
   number: number;
   topic: string;
   year: number;
-  status: Array<string>;
+  status: { [key: string]: Array<LawStatus> };
+  theme: Array<LawTheme>;
+  puu: Array<PengujianUndangUndang>;
 }
+
+export interface LawStatus {
+  year: string;
+  number: string;
+  law: string;
+  link: string;
+  context: string;
+}
+
+export interface PengujianUndangUndang {
+  id: string;
+  link: string;
+  context: string;
+}
+
+export interface LawTheme {
+  theme: string;
+  link: string;
+}
+
 
 export interface Primitive {
   type: Structure;
