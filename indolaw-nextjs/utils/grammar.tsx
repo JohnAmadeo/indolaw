@@ -88,6 +88,7 @@ export interface Metadata {
   status: { [key: string]: Array<LawStatus> };
   theme: Array<LawTheme>;
   puu: Array<PengujianUndangUndang>;
+  ketentuan_umum: Record<string, string>;
 }
 
 export interface LawStatus {
@@ -286,7 +287,7 @@ export function renderPenjelasan(
 
 export function renderChildren(
   structure: Complex,
-  key?: string | number,
+  key?: string | number
 ): JSX.Element {
   return (
     <div key={key}>

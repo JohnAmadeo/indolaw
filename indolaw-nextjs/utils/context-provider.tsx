@@ -1,21 +1,26 @@
 import { Context, createContext, useContext, useState, ReactNode } from 'react';
 import { ColorScheme, colors, darkColors, noColors } from 'utils/theme';
 import { NodeMap, Structure } from 'utils/grammar';
+import { emptyTooltip, TooltipData } from "./tooltip";
 
 type AppContextType = {
-  colorScheme: ColorScheme,
-  invertedColorScheme: ColorScheme,
-  toggleDarkMode: () => void,
+  colorScheme: ColorScheme;
+  invertedColorScheme: ColorScheme;
+  toggleDarkMode: () => void;
+  tooltipData: TooltipData;
+  setTooltip: (tooltipData: TooltipData) => void;
 };
 
 type Props = {
-  children: ReactNode,
-}
+  children: ReactNode;
+};
 
 const AppContext: Context<AppContextType> = createContext({
   colorScheme: noColors,
   invertedColorScheme: noColors,
-  toggleDarkMode: () => { }
+  toggleDarkMode: () => {},
+  tooltipData: { contentKey: "", xPosition: 0, yPosition: 0 },
+  setTooltip: (tooltipData) => {},
 });
 
 type LawContextType = {
@@ -35,6 +40,7 @@ export function getPenjelasanMapKey(
 
 export function AppContextWrapper(props: Props): JSX.Element {
   const [darkTheme, setDarkTheme] = useState(false);
+  const [tooltipData, setTooltip] = useState(emptyTooltip);
 
   const toggleDarkMode = () => setDarkTheme(!darkTheme);
   const colorScheme = darkTheme ? darkColors : colors;
@@ -43,20 +49,20 @@ export function AppContextWrapper(props: Props): JSX.Element {
   let state = {
     colorScheme,
     invertedColorScheme,
-    toggleDarkMode
-  }
+    toggleDarkMode,
+    tooltipData,
+    setTooltip,
+  };
 
   return (
-    <AppContext.Provider value={state}>
-      {props.children}
-    </AppContext.Provider>
+    <AppContext.Provider value={state}>{props.children}</AppContext.Provider>
   );
 }
 
 export function useAppContext(): AppContextType {
   const context = useContext(AppContext);
   if (context.colorScheme === noColors) {
-    throw Error('Component is not wrapped with a Provider?');
+    throw Error("Component is not wrapped with a Provider?");
   }
   return context;
 }
