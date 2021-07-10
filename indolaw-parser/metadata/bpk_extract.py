@@ -31,18 +31,18 @@ def scrape_all_law_details_page():
     directory = open_json('directory.json')
 
     for year in directory:
-        if int(year) >= 2014:
-            continue
+        # if int(year) >= 2014:
+        #     continue
 
         save_and_version_directory(directory)
         for entry in directory[year]:
             # if entry['number'] != 6:
             #     continue
 
-            # if all(k in entry for k in ['puu', 'status', 'theme']):
-            #     yellow(
-            #         f"Already scraped BPK law details page of UU {year} No. {entry['number']}")
-            #     continue
+            if all(k in entry for k in ['puu', 'status', 'theme']):
+                yellow(
+                    f"Already scraped BPK law details page of UU {year} No. {entry['number']}")
+                continue
 
             if 'bpkLink' not in entry:
                 red(f"UU {year} No. {entry['number']} has no BPK law details page URL")
@@ -334,39 +334,3 @@ if __name__ == "__main__":
 
     elif flag == '--ldp-all':
         scrape_all_law_details_page()
-
-'''
-from bs4 import BeautifulSoup
-import json 
-
-def print_json(obj: dict):
-    print(json.dumps(obj, indent=2))
-
-def open_html(filepath):
-    with open(filepath, 'r') as f:
-        return f.read()
-
-def c(str):
-    return ' '.join(str.split())
-
-s = BeautifulSoup(open_html('a.html'), 'html.parser')
-s = s.find_all(class_='portlet')[2]
-s = s.find_all('li')
-
-print_json({ 'a': s })
-
-'''
-
-'''
-{
-    bpkStatus: {
-        mencabut: [
-            {
-                link: "",
-                law: "",
-            }
-        ]
-    }
-}
-
-'''
