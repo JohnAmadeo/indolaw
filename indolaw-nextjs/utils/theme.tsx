@@ -8,10 +8,10 @@ export const colors = {
   background: "#ffffff",
   backgroundSecondary: '#f5f5f5',
   text: "#514d48",
-  textHover: '#818181',
+  textHover: '#8b8b8b',
   linkText: "#373d3f",
-  subcontent: { 
-    background: "#d3d3d3" 
+  subcontent: {
+    background: "#d3d3d3"
   },
   tray: {
     button: "#1b1c1d",
@@ -25,10 +25,10 @@ export const darkColors = {
   background: "#1b1c1d",
   backgroundSecondary: '#242424',
   text: "#ffffff",
-  textHover: "#dadada",
+  textHover: "#afafaf",
   linkText: "#1ecbe1",
-  subcontent: { 
-    background: "#373d3f" 
+  subcontent: {
+    background: "#373d3f"
   },
   tray: {
     button: "#ffffff",
