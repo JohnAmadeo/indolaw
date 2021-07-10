@@ -1,0 +1,376 @@
+{
+  "metadata": {
+    "lembaranNegaraNumber": 142,
+    "lembaranNegaraYear": 2019,
+    "tambahanLembaranNumber": 6371,
+    "number": 9,
+    "topic": "Pengesahan Perjanjian Antara Republik Indonesia Dan Republik Islam Iran Tentang Ekstradisi (treaty Between The Republic Of Indonesia And The Islamic Republic Of Iran On Extradition)",
+    "year": 2019
+  },
+  "content": {
+    "type": "UNDANG_UNDANG",
+    "id": "",
+    "children": [
+      {
+        "type": "OPENING",
+        "id": "",
+        "children": [
+          {
+            "type": "UU_TITLE",
+            "id": "",
+            "children": [
+              {
+                "type": "PLAINTEXT",
+                "text": "UNDANG-UNDANG REPUBLIK INDONESIA"
+              },
+              {
+                "type": "UU_TITLE_YEAR_AND_NUMBER",
+                "text": "NOMOR 9 TAHUN 2019"
+              },
+              {
+                "type": "PLAINTEXT",
+                "text": "TENTANG"
+              },
+              {
+                "type": "UU_TITLE_TOPIC",
+                "text": "PENGESAHAN PERJANJIAN ANTARA REPUBLIK INDONESIA DAN REPUBLIK ISLAM IRAN TENTANG EKSTRADISI (TREATY BETWEEN THE REPUBLIC OF INDONESIA AND THE ISLAMIC REPUBLIC OF IRAN ON EXTRADITION)"
+              }
+            ]
+          },
+          {
+            "type": "PREFACE",
+            "id": "",
+            "children": [
+              {
+                "type": "PLAINTEXT",
+                "text": "DENGAN RAHMAT TUHAN YANG MAHA ESA"
+              },
+              {
+                "type": "PLAINTEXT",
+                "text": "PRESIDEN REPUBLIK INDONESIA,"
+              }
+            ]
+          },
+          {
+            "type": "CONSIDERATIONS",
+            "id": "",
+            "children": [
+              {
+                "type": "PLAINTEXT",
+                "text": "Menimbang:"
+              },
+              {
+                "type": "LIST",
+                "id": "",
+                "children": [
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "LETTER_WITH_DOT",
+                        "text": "a."
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "bahwa untuk melindungi segenap bangsa Indonesia dan seluruh tumpah darah Indonesia, dan untuk memajukan kesejahteraan umum, mencerdaskan kehidupan bangsa, dan ikut melaksanakan ketertiban dunia yang berdasarkan kemerdekaan, perdamaian abadi, dan keadilan sosial, Pemerintah Republik Indonesia sebagai bagian dari masyarakat internasional melakukan hubungan dan kerja sama internasional yang diwujudkan dalam perjanjian internasional;"
+                      }
+                    ]
+                  },
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "LETTER_WITH_DOT",
+                        "text": "b."
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "bahwa untuk meningkatkan kerja sama di bidang penegakan hukum, Pemerintah Republik Indonesia dan Pemerintah Republik Islam Iran telah menandatangani Perjanjian antara Republik Indonesia dan Republik Islam Iran tentang Ekstradisi (Treaty between the Republic of Indonesia and the Islamic Republic of Iran on Extradition) pada tanggal 14 Desember 2016 di Tehran, Iran, sehingga perlu ditindaklanjuti dengan melakukan pengesahan atas Perjanjian tersebut sesuai dengan Undang Undang Nomor 24 Tahun 2000 tentang Perjanjian Internasional;"
+                      }
+                    ]
+                  },
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "LETTER_WITH_DOT",
+                        "text": "c."
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "bahwa berdasarkan pertimbangan sebagaimana dimaksud dalam huruf a dan huruf b, perlu membentuk Undang-Undang tentang Pengesahan Perjanjian antara Republik Indonesia dan Republik Islam Iran tentang Ekstradisi (Treaty between the Republic of Indonesia and the Islamic Republic of Iran on Extradition)."
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "PRINCIPLES",
+            "id": "",
+            "children": [
+              {
+                "type": "PLAINTEXT",
+                "text": "Mengingat:"
+              },
+              {
+                "type": "LIST",
+                "id": "",
+                "children": [
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "NUMBER_WITH_DOT",
+                        "text": "1."
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "Pasal 5 ayat (1), Pasal 11, dan Pasal 20 Undang-Undang Dasar Negara Republik Indonesia Tahun 1945;"
+                      }
+                    ]
+                  },
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "NUMBER_WITH_DOT",
+                        "text": "2."
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "Undang-Undang Nomor 24 Tahun 2000 tentang Perjanjian Internasional (Lembaran Negara Republik Indonesia Tahun 2000 Nomor 185, Tambahan Lembaran Negara Republik Indonesia Nomor 4012)."
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "AGREEMENT",
+            "id": "",
+            "children": [
+              {
+                "type": "PLAINTEXT",
+                "text": "Dengan Persetujuan Bersama"
+              },
+              {
+                "type": "PLAINTEXT",
+                "text": "DEWAN PERWAKILAN RAKYAT REPUBLIK INDONESIA"
+              },
+              {
+                "type": "PLAINTEXT",
+                "text": "dan"
+              },
+              {
+                "type": "PLAINTEXT",
+                "text": "PRESIDEN REPUBLIK INDONESIA"
+              },
+              {
+                "type": "PLAINTEXT",
+                "text": "MEMUTUSKAN:"
+              },
+              {
+                "type": "PLAINTEXT",
+                "text": "Menetapkan:"
+              },
+              {
+                "type": "PLAINTEXT",
+                "text": "UNDANG-UNDANG TENTANG PENGESAHAN PERJANJIAN ANTARA REPUBLIK INDONESIA DAN REPUBLIK ISLAM IRAN TENTANG EKSTRADISI (TREATY BETWEEN THE REPUBLIC OF INDONESIA AND THE ISLAMIC REPUBLIC OF IRAN ON EXTRADITION)"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "PASAL",
+        "id": "pasal-1",
+        "children": [
+          {
+            "type": "PASAL_NUMBER",
+            "text": "Pasal 1"
+          },
+          {
+            "type": "PLAINTEXT",
+            "text": "Mengesahkan Perjanjian antara Republik Indonesia dan Republik Islam Iran tentang Ekstradisi (Treaty between the Republic of Indonesia and the Islamic Republic of Iran on Extradition) yang ditandatangani pada tanggal 14 Desember 2016 di Tehran, Iran, yang salinan naskah aslinya dalam bahasa Indonesia, bahasa Persia, dan bahasa Inggris sebagaimana terlampir dan merupakan bagian yang tidak terpisahkan dari Undang-Undang ini."
+          }
+        ]
+      },
+      {
+        "type": "PASAL",
+        "id": "pasal-2",
+        "children": [
+          {
+            "type": "PASAL_NUMBER",
+            "text": "Pasal 2"
+          },
+          {
+            "type": "PLAINTEXT",
+            "text": "Undang-Undang ini mulai berlaku pada tanggal diundangkan."
+          },
+          {
+            "type": "PLAINTEXT",
+            "text": "Agar setiap orang mengetahuinya, memerintahkan pengundangan Undang-Undang ini dengan penempatannya dalam Lembaran Negara Republik Indonesia."
+          }
+        ]
+      },
+      {
+        "type": "CLOSING",
+        "id": "",
+        "children": [
+          {
+            "type": "PLAINTEXT",
+            "text": "Disahkan Di Jakarta,"
+          },
+          {
+            "type": "PLAINTEXT",
+            "text": "Pada Tanggal 1 Agustus 2019"
+          },
+          {
+            "type": "PLAINTEXT",
+            "text": "PRESIDEN REPUBLIK INDONESIA,"
+          },
+          {
+            "type": "PLAINTEXT",
+            "text": "Ttd."
+          },
+          {
+            "type": "PLAINTEXT",
+            "text": "JOKO WIDODO"
+          },
+          {
+            "type": "PLAINTEXT",
+            "text": "Diundangkan Di Jakarta,"
+          },
+          {
+            "type": "PLAINTEXT",
+            "text": "Pada Tanggal 1 Agustus 2019"
+          },
+          {
+            "type": "PLAINTEXT",
+            "text": "MENTERI HUKUM DAN HAK ASASI MANUSIA REPUBLIK INDONESIA,"
+          },
+          {
+            "type": "PLAINTEXT",
+            "text": "Ttd."
+          },
+          {
+            "type": "PLAINTEXT",
+            "text": "YASONNA H. LAOLY"
+          },
+          {
+            "type": "LEMBARAN_NUMBER",
+            "text": "LEMBARAN NEGARA REPUBLIK INDONESIA TAHUN 2019 NOMOR 142"
+          }
+        ]
+      },
+      {
+        "type": "PENJELASAN",
+        "id": "penjelasan",
+        "children": [
+          {
+            "type": "PENJELASAN_TITLE",
+            "id": "",
+            "children": [
+              {
+                "type": "PLAINTEXT",
+                "text": "PENJELASAN"
+              },
+              {
+                "type": "PLAINTEXT",
+                "text": "UNDANG-UNDANG REPUBLIK INDONESIA"
+              },
+              {
+                "type": "UU_TITLE_YEAR_AND_NUMBER",
+                "text": "NOMOR 9 TAHUN 2019"
+              },
+              {
+                "type": "PLAINTEXT",
+                "text": "TENTANG"
+              },
+              {
+                "type": "UU_TITLE_TOPIC",
+                "text": "PENGESAHAN PERJANJIAN ANTARA REPUBLIK INDONESIA DAN REPUBLIK ISLAM IRAN TENTANG EKSTRADISI (TREATY BETWEEN THE REPUBLIC OF INDONESIA AND THE ISLAMIC REPUBLIC OF IRAN ON EXTRADITION)"
+              }
+            ]
+          },
+          {
+            "type": "PENJELASAN_UMUM",
+            "id": "",
+            "children": [
+              {
+                "type": "PENJELASAN_UMUM_TITLE",
+                "text": "I. UMUM"
+              },
+              {
+                "type": "PLAINTEXT",
+                "text": "Dalam rangka mencapai tujuan negara Republik Indonesia sebagaimana tercantum dalam Pembukaan Undang-Undang Dasar Negara Republik Indonesia Tahun 1945, yaitu melindungi segenap bangsa Indonesia dan seluruh tumpah darah Indonesia, dan untuk memajukan kesejahteraan umum, mencerdaskan kehidupan bangsa, dan ikut melaksanakan ketertiban dunia yang berdasarkan kemerdekaan, perdamaian abadi, dan keadilan sosial, Pemerintah Republik Indonesia sebagai bagian dari masyarakat internasional melakukan hubungan dan kerja sama internasional yang diwujudkan dalam perjanjian internasional."
+              },
+              {
+                "type": "PLAINTEXT",
+                "text": "Perkembangan ilmu pengetahuan dan teknologi, khususnya teknologi transportasi, komunikasi, dan informasi yang semakin canggih, telah menyebabkan wilayah negara yang satu dengan wilayah negara yang lain seakan-akan tanpa batas (borderless), sehingga memudahkan lalu lintas dan perpindahan manusia dari satu negara ke negara lain. Hal tersebut juga memberikan peluang yang lebih besar bagi pelaku tindak pidana untuk meloloskan diri dari penyidikan, penuntutan, pemeriksaan di sidang pengadilan, dan pelaksanaan pidana dari negara tempat tindak pidana dilakukan."
+              },
+              {
+                "type": "PLAINTEXT",
+                "text": "Menyadari adanya pelaku kejahatan yang meloloskan diri dari penyidikan, penuntutan, dan pelaksanaan pidana dari negara tempat kejahatan dilakukan, Pemerintah Republik Indonesia dan Pemerintah Republik Islam Iran telah sepakat mengadakan kerja sama Ekstradisi yang telah ditandatangani pada tanggal 14 Desember 2016 di Tehran, Iran. Dengan adanya perjanjian tersebut, hubungan dan kerja sama antara kedua negara dalam bidang penegakan hukum dan pemberantasan kejahatan atas dasar kerja sama yang saling menguntungkan (mutual benefit), diharapkan semakin meningkat."
+              },
+              {
+                "type": "PLAINTEXT",
+                "text": "Dalam Perjanjian antara Republik Indonesia dan Republik Islam Iran tentang Ekstradisi ini diatur antara lain mengenai kesepakatan Para Pihak untuk melakukan ekstradisi, tindak pidana yang dapat diekstradisikan, permintaan ekstradisi, alasan penolakan ekstradisi, saluran komunikasi, otoritas pusat, penyerahan orang yang diekstradisikan, biaya, kewajiban internasional, penyelesaian perbedaan, dan amandemen perjanjian."
+              },
+              {
+                "type": "PLAINTEXT",
+                "text": "Dengan disahkannya Undang-Undang tentang Pengesahan Perjanjian antara Republik Indonesia dan Republik Islam Iran tentang Ekstradisi (Treaty between the Republic of Indonesia and the Islamic Republic of Iran on Extradition) akan mendukung penegakan hukum di Indonesia terutama yang berkaitan dengan kejahatan lintas negara (transnational crime)."
+              }
+            ]
+          },
+          {
+            "type": "PENJELASAN_PASAL_DEMI_PASAL",
+            "id": "",
+            "children": [
+              {
+                "type": "PENJELASAN_PASAL_DEMI_PASAL_TITLE",
+                "text": "II. PASAL DEMI PASAL"
+              },
+              {
+                "type": "PENJELASAN_PASAL",
+                "id": "",
+                "children": [
+                  {
+                    "type": "PASAL_NUMBER",
+                    "text": "Pasal 1"
+                  },
+                  {
+                    "type": "PLAINTEXT",
+                    "text": "Cukup jelas."
+                  }
+                ]
+              },
+              {
+                "type": "PENJELASAN_PASAL",
+                "id": "",
+                "children": [
+                  {
+                    "type": "PASAL_NUMBER",
+                    "text": "Pasal 2"
+                  },
+                  {
+                    "type": "PLAINTEXT",
+                    "text": "Cukup jelas."
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

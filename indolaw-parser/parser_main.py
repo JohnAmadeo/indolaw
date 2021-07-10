@@ -2,6 +2,7 @@
 import json
 import sys
 from typing import Any, Dict, List, Tuple, Union
+import pyperclip
 
 from termcolor import colored
 
@@ -17,6 +18,7 @@ from parser_types import (
 )
 from parser_is_start_of_x import (
     CLOSE_QUOTE_CHAR,
+    is_heading,
     is_start_of_lembaran_number,
     is_start_of_number_with_right_bracket,
     is_start_of_pasal,
@@ -24,6 +26,7 @@ from parser_is_start_of_x import (
     is_start_of_penjelasan_ayat,
     is_start_of_penjelasan_huruf,
     is_start_of_penjelasan_list_index_str,
+    is_start_of_penjelasan_umum,
     is_start_of_perubahan_section,
     is_start_of_structure,
     is_start_of_first_list_index,
@@ -119,7 +122,9 @@ def parse_undang_undang(root: ComplexNode, law: List[str]):
         child_structures=[child_structure, Structure.CLOSING],
     )
 
-    _ = parse_penjelasan(root, law, start_index=end_index+1)
+    start_index = end_index+1
+    if start_index < len(law):
+        _ = parse_penjelasan(root, law, start_index)
 
 
 def parse_opening(parent: ComplexNode, law: List[str], start_index: int) -> int:
@@ -715,7 +720,7 @@ def parse_perubahan_bab(
     end_index = parse_complex_perubahan_structure(
         perubahan_bab_node,
         law,
-        start_index=start_index+1,
+        start_index=start_index+2,
         perubahan_section_end_index=perubahan_section_end_index,
         next_ancestor_structures=[
             Structure.PERUBAHAN_SECTION,
@@ -728,7 +733,7 @@ def parse_perubahan_bab(
         ],
         next_sibling_structures=[Structure.PERUBAHAN_BAB],
         # TODO Add other PERUBAHAN structures
-        child_structures=[Structure.PERUBAHAN_PASAL])
+        child_structures=[Structure.PERUBAHAN_PASAL, Structure.PERUBAHAN_BAGIAN])
 
     return end_index
 
@@ -753,7 +758,7 @@ def parse_perubahan_bagian(
     end_index = parse_complex_perubahan_structure(
         perubahan_bagian_node,
         law,
-        start_index=start_index+1,
+        start_index=start_index+2,
         perubahan_section_end_index=perubahan_section_end_index,
         next_ancestor_structures=[
             Structure.PERUBAHAN_SECTION,
@@ -767,7 +772,7 @@ def parse_perubahan_bagian(
             Structure.CLOSING,
         ],
         next_sibling_structures=[Structure.PERUBAHAN_BAGIAN],
-        child_structures=TEXT_BLOCK_STRUCTURES)
+        child_structures=[Structure.PERUBAHAN_PASAL])
 
     return end_index
 
@@ -946,7 +951,13 @@ def parse_complex_perubahan_structure(
                   f'Cannot find structure for line {start_index}')
 
         assert child_structure is not None  # mypy type hint
-        end_index = parse_structure(parent, child_structure, law, start_index)
+        end_index = parse_structure(
+            parent,
+            child_structure,
+            law,
+            start_index,
+            perubahan_section_end_index,
+        )
         start_index = end_index + 1
 
     return end_index
@@ -1454,6 +1465,7 @@ def parse_penjelasan_list_item(parent: ComplexNode, law: List[str], start_index:
                         print(law[start_index+1])
                     print('---------------')
 
+                    pyperclip.copy(law[start_index])
                     print('Is this list index a child LIST or an ancestor LIST?')
                     print(
                         f"{colored('c (child)', 'green')} / {colored('a (ancestor)', 'red')}")
@@ -1963,18 +1975,34 @@ def parse_penjelasan_title(parent: ComplexNode, law: List[str], start_index: int
     penjelasan_title_node = ComplexNode(type=Structure.PENJELASAN_TITLE)
     parent.add_child(penjelasan_title_node)
 
-    penjelasan_title_node.add_child(PrimitiveNode(
-        type=Structure.PLAINTEXT, text=law[start_index]))
-    penjelasan_title_node.add_child(PrimitiveNode(
-        type=Structure.PLAINTEXT, text=law[start_index+1]))
-    penjelasan_title_node.add_child(PrimitiveNode(type=Structure.UU_TITLE_YEAR_AND_NUMBER,
-                                                  text=law[start_index+2]))
-    penjelasan_title_node.add_child(PrimitiveNode(
-        type=Structure.PLAINTEXT, text=law[start_index+3]))
-    penjelasan_title_node.add_child(PrimitiveNode(type=Structure.UU_TITLE_TOPIC,
-                                                  text=law[start_index+4]))
+    i = 0
+    while not is_start_of_penjelasan_umum(law, start_index+i):
+        previous_line = law[start_index+i-1]
+        if is_heading('TENTANG', previous_line):
+            penjelasan_title_node.add_child(
+                PrimitiveNode(
+                    type=Structure.UU_TITLE_TOPIC,
+                    text=law[start_index+i]
+                )
+            )
+        elif is_heading('UNDANG-UNDANG REPUBLIK INDONESIA', previous_line):
+            penjelasan_title_node.add_child(
+                PrimitiveNode(
+                    type=Structure.UU_TITLE_YEAR_AND_NUMBER,
+                    text=law[start_index+i]
+                )
+            )
+        else:
+            penjelasan_title_node.add_child(
+                PrimitiveNode(
+                    type=Structure.PLAINTEXT,
+                    text=law[start_index+i]
+                )
+            )
 
-    end_index = start_index+4
+        i += 1
+
+    end_index = start_index+i-1
     return end_index
 
 

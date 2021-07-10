@@ -1,0 +1,1148 @@
+{
+  "metadata": {
+    "lembaranNegaraNumber": 277,
+    "lembaranNegaraYear": 2015,
+    "tambahanLembaranNumber": 5766,
+    "number": 13,
+    "topic": "Pengesahan Perjanjian Bantuan Timbal Balik Dalam Masalah Pidana Antara Republik Indonesia Dan Republik Sosialis Viet Nam (treaty On Mutual Legal Assistance In Criminal Matters Between The Republic Of Indonesia And The Socialist Republic Of Viet Nam)",
+    "year": 2015
+  },
+  "content": {
+    "type": "UNDANG_UNDANG",
+    "id": "",
+    "children": [
+      {
+        "type": "OPENING",
+        "id": "",
+        "children": [
+          {
+            "type": "UU_TITLE",
+            "id": "",
+            "children": [
+              {
+                "type": "PLAINTEXT",
+                "text": "UNDANG-UNDANG REPUBLIK INDONESIA"
+              },
+              {
+                "type": "UU_TITLE_YEAR_AND_NUMBER",
+                "text": "NOMOR 13 TAHUN 2015"
+              },
+              {
+                "type": "PLAINTEXT",
+                "text": "TENTANG"
+              },
+              {
+                "type": "UU_TITLE_TOPIC",
+                "text": "PENGESAHAN PERJANJIAN BANTUAN TIMBAL BALIK DALAM MASALAH PIDANA ANTARA REPUBLIK INDONESIA DAN REPUBLIK SOSIALIS VIET NAM (TREATY ON MUTUAL LEGAL ASSISTANCE IN CRIMINAL MATTERS BETWEEN THE REPUBLIC OF INDONESIA AND THE SOCIALIST REPUBLIC OF VIET NAM)"
+              }
+            ]
+          },
+          {
+            "type": "PREFACE",
+            "id": "",
+            "children": [
+              {
+                "type": "PLAINTEXT",
+                "text": "DENGAN RAHMAT TUHAN YANG MAHA ESA"
+              },
+              {
+                "type": "PLAINTEXT",
+                "text": "PRESIDEN REPUBLIK INDONESIA,"
+              }
+            ]
+          },
+          {
+            "type": "CONSIDERATIONS",
+            "id": "",
+            "children": [
+              {
+                "type": "PLAINTEXT",
+                "text": "Menimbang:"
+              },
+              {
+                "type": "LIST",
+                "id": "",
+                "children": [
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "LETTER_WITH_DOT",
+                        "text": "a."
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "bahwa untuk mencapai tujuan Negara Republik Indonesia yaitu melindungi segenap bangsa Indonesia dan seluruh tumpah darah Indonesia dan memajukan kesejahteraan umum, mencerdaskan kehidupan bangsa, dan ikut melaksanakan ketertiban dunia yang berdasarkan kemerdekaan, perdamaian abadi dan keadilan sosial, Pemerintah Republik Indonesia sebagai bagian dari masyarakat internasional melakukan hubungan dan kerja sama internasional yang diwujudkan dalam perjanjian internasional;"
+                      }
+                    ]
+                  },
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "LETTER_WITH_DOT",
+                        "text": "b."
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "bahwa perkembangan ilmu pengetahuan dan teknologi terutama di bidang transportasi, komunikasi dan informasi, selain mempunyai dampak positif juga mempunyai dampak negatif yaitu timbulnya tindak pidana yang tidak lagi mengenal batas yurisdiksi suatu negara, sehingga penanggulangan dan pemberantasannya memerlukan kerja sama antarnegara yang efektif, baik bersifat bilateral maupun multilateral;"
+                      }
+                    ]
+                  },
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "LETTER_WITH_DOT",
+                        "text": "c."
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "bahwa untuk meningkatkan kerja sama yang erat dalam bidang penyidikan, penuntutan, dan pemidanaan, termasuk penelusuran, pemblokiran, penyitaan, atau perampasan hasil dan sarana tindak pidana, Pemerintah Republik Indonesia dan Pemerintah Republik Sosialis Viet Nam pada tanggal 27 Juni 2013 di Jakarta telah menandatangani Perjanjian Bantuan Timbal Balik dalam Masalah Pidana;"
+                      }
+                    ]
+                  },
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "LETTER_WITH_DOT",
+                        "text": "d."
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "bahwa berdasarkan pertimbangan sebagaimana dimaksud dalam huruf a, huruf b, dan huruf c, perlu membentuk Undang-Undang tentang Pengesahan Perjanjian Bantuan Timbal Balik dalam Masalah Pidana antara Republik Indonesia dan Republik Sosialis Viet Nam (Treaty on Mutual Legal Assistance in Criminal Matters between the Republic of Indonesia and the Socialist Republic of Viet Nam)."
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "PRINCIPLES",
+            "id": "",
+            "children": [
+              {
+                "type": "PLAINTEXT",
+                "text": "Mengingat:"
+              },
+              {
+                "type": "LIST",
+                "id": "",
+                "children": [
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "NUMBER_WITH_DOT",
+                        "text": "1."
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "Pasal 5 ayat (1), Pasal 11, dan Pasal 20 Undang-Undang Dasar Negara Republik Indonesia Tahun 1945;"
+                      }
+                    ]
+                  },
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "NUMBER_WITH_DOT",
+                        "text": "2."
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "Undang-Undang Nomor 24 Tahun 2000 tentang Perjanjian Internasional (Lembaran Negara Republik Indonesia Tahun 2000 Nomor 185, Tambahan Lembaran Negara Republik Indonesia Nomor 4012)."
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "AGREEMENT",
+            "id": "",
+            "children": [
+              {
+                "type": "PLAINTEXT",
+                "text": "Dengan Persetujuan Bersama"
+              },
+              {
+                "type": "PLAINTEXT",
+                "text": "DEWAN PERWAKILAN RAKYAT REPUBLIK INDONESIA"
+              },
+              {
+                "type": "PLAINTEXT",
+                "text": "dan"
+              },
+              {
+                "type": "PLAINTEXT",
+                "text": "PRESIDEN REPUBLIK INDONESIA"
+              },
+              {
+                "type": "PLAINTEXT",
+                "text": "MEMUTUSKAN:"
+              },
+              {
+                "type": "PLAINTEXT",
+                "text": "Menetapkan:"
+              },
+              {
+                "type": "PLAINTEXT",
+                "text": "UNDANG-UNDANG TENTANG PENGESAHAN PERJANJIAN BANTUAN TIMBAL BALIK DALAM MASALAH PIDANA ANTARA REPUBLIK INDONESIA DAN REPUBLIK SOSIALIS VIET NAM (TREATY ON MUTUAL LEGAL ASSISTANCE IN CRIMINAL MATTERS BETWEEN THE REPUBLIC OF INDONESIA AND THE SOCIALIST REPUBLIC OF VIET NAM)"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "PASAL",
+        "id": "pasal-1",
+        "children": [
+          {
+            "type": "PASAL_NUMBER",
+            "text": "Pasal 1"
+          },
+          {
+            "type": "PLAINTEXT",
+            "text": "Mengesahkan Perjanjian Bantuan Timbal Balik dalam Masalah Pidana antara Republik Indonesia dan Republik Sosialis Viet Nam (Treaty on Mutual Legal Assistance in Criminal Matters between the Republic of Indonesia and the Socialist Republic of Viet Nam) yang ditandatangani pada tanggal 27 Juni 2013 di Jakarta yang salinan naskah aslinya dalam bahasa Indonesia, bahasa Viet Nam, dan bahasa Inggris sebagaimana terlampir dan merupakan bagian yang tidak terpisahkan dari Undang-Undang ini."
+          }
+        ]
+      },
+      {
+        "type": "PASAL",
+        "id": "pasal-2",
+        "children": [
+          {
+            "type": "PASAL_NUMBER",
+            "text": "Pasal 2"
+          },
+          {
+            "type": "PLAINTEXT",
+            "text": "Undang-Undang ini mulai berlaku pada tanggal diundangkan."
+          },
+          {
+            "type": "PLAINTEXT",
+            "text": "Agar setiap orang mengetahuinya, memerintahkan pengundangan Undang-Undang ini dengan penempatannya dalam Lembaran Negara Republik Indonesia."
+          }
+        ]
+      },
+      {
+        "type": "CLOSING",
+        "id": "",
+        "children": [
+          {
+            "type": "PLAINTEXT",
+            "text": "Disahkan Di Jakarta,"
+          },
+          {
+            "type": "PLAINTEXT",
+            "text": "Pada Tanggal 18 November 2015"
+          },
+          {
+            "type": "PLAINTEXT",
+            "text": "PRESIDEN REPUBLIK INDONESIA,"
+          },
+          {
+            "type": "PLAINTEXT",
+            "text": "Ttd."
+          },
+          {
+            "type": "PLAINTEXT",
+            "text": "JOKO WIDODO"
+          },
+          {
+            "type": "PLAINTEXT",
+            "text": "Diundangkan Di Jakarta,"
+          },
+          {
+            "type": "PLAINTEXT",
+            "text": "Pada Tanggal 18 November 2015"
+          },
+          {
+            "type": "PLAINTEXT",
+            "text": "MENTERI HUKUM DAN HAK ASASI MANUSIA REPUBLIK INDONESIA,"
+          },
+          {
+            "type": "PLAINTEXT",
+            "text": "Ttd."
+          },
+          {
+            "type": "PLAINTEXT",
+            "text": "YASONNA H. LAOLY"
+          },
+          {
+            "type": "LEMBARAN_NUMBER",
+            "text": "LEMBARAN NEGARA REPUBLIK INDONESIA TAHUN 2015 NOMOR 277"
+          }
+        ]
+      },
+      {
+        "type": "PENJELASAN",
+        "id": "penjelasan",
+        "children": [
+          {
+            "type": "PENJELASAN_TITLE",
+            "id": "",
+            "children": [
+              {
+                "type": "PLAINTEXT",
+                "text": "PENJELASAN"
+              },
+              {
+                "type": "PLAINTEXT",
+                "text": "UNDANG-UNDANG REPUBLIK INDONESIA"
+              },
+              {
+                "type": "UU_TITLE_YEAR_AND_NUMBER",
+                "text": "NOMOR 13 TAHUN 2015"
+              },
+              {
+                "type": "PLAINTEXT",
+                "text": "TENTANG"
+              },
+              {
+                "type": "UU_TITLE_TOPIC",
+                "text": "PENGESAHAN PERJANJIAN BANTUAN TIMBAL BALIK DALAM MASALAH PIDANA ANTARA REPUBLIK INDONESIA DAN REPUBLIK SOSIALIS VIET NAM (TREATY ON MUTUAL LEGAL ASSISTANCE IN CRIMINAL MATTERS BETWEEN THE REPUBLIC OF INDONESIA AND THE SOCIALIST REPUBLIC OF VIET NAM)"
+              }
+            ]
+          },
+          {
+            "type": "PENJELASAN_UMUM",
+            "id": "",
+            "children": [
+              {
+                "type": "PENJELASAN_UMUM_TITLE",
+                "text": "I. UMUM"
+              },
+              {
+                "type": "PLAINTEXT",
+                "text": "Dalam rangka mencapai tujuan Negara Republik Indonesia sebagaimana tercantum dalam Pembukaan Undang-Undang Dasar Negara Republik Indonesia Tahun 1945, yaitu melindungi segenap bangsa Indonesia dan seluruh tumpah darah Indonesia, dan untuk memajukan kesejahteraan umum, mencerdaskan kehidupan bangsa, dan ikut melaksanakan ketertiban dunia yang berdasarkan kemerdekaan, perdamaian abadi dan keadilan sosial, Pemerintah Republik Indonesia sebagai bagian dari masyarakat internasional melakukan hubungan dan kerja sama internasional yang diwujudkan dalam perjanjian internasional."
+              },
+              {
+                "type": "PLAINTEXT",
+                "text": "Perkembangan ilmu pengetahuan dan teknologi terutama di bidang transportasi, komunikasi dan informasi, telah mengakibatkan hubungan lintas negara seakan-akan tanpa batas sehingga memudahkan mobilisasi orang maupun perpindahan barang dari satu negara ke negara lain dapat dilakukan dengan cepat."
+              },
+              {
+                "type": "PLAINTEXT",
+                "text": "Selaras dengan kemajuan tersebut maka memunculkan dampak yang signifikan pada lintas batas negara. Selain mempunyai dampak positif juga mempunyai dampak negatif, yaitu timbulnya tindak pidana yang tidak lagi mengenal batas yurisdiksi suatu negara sehingga penanggulangan dan pemberantasannya memerlukan kerja sama antarnegara yang efektif baik bersifat bilateral maupun multilateral."
+              },
+              {
+                "type": "PLAINTEXT",
+                "text": "Dengan meningkatnya hubungan antara Pemerintah Republik Indonesia dan Pemerintah Republik Sosialis Viet Nam khususnya di bidang ekonomi dan perdagangan, dan untuk menjaga hubungan baik kedua belah pihak maka diperlukan kerja sama yang efektif di bidang pidana. Lingkup bantuan timbal balik dalam masalah pidana meliputi penyidikan, penuntutan, dan pemidanaan, termasuk penelusuran, pemblokiran, penyitaan, atau perampasan hasil dan sarana tindak pidana yang diajukan berdasarkan yurisdiksi pihak yang berwenang di Pihak Peminta. Masalah pidana meliputi juga masalah mengenai kejahatan terhadap hukum yang berkaitan dengan pajak, kepabeanan, pengawasan pertukaran mata uang atau masalah penghasilan lainnya."
+              },
+              {
+                "type": "PLAINTEXT",
+                "text": "Menyadari kenyataan tersebut, Pemerintah Republik Indonesia dan Pemerintah Republik Sosialis Viet Nam telah sepakat mengadakan perjanjian bantuan timbal balik dalam masalah pidana yang telah ditandatangani pada tanggal 27 Juni 2013 di Jakarta."
+              },
+              {
+                "type": "PLAINTEXT",
+                "text": "Kesepakatan tersebut pada hakikatnya dimaksudkan untuk lebih meningkatkan efektivitas kerja sama dalam penanggulangan dan pemberantasan tindak pidana terutama yang bersifat transnasional maka Perjanjian Bantuan Timbal Balik dalam Masalah Pidana harus memperhatikan prinsip umum hukum internasional yang menitikberatkan pada asas penghormatan kedaulatan negara dan kedaulatan hukum, kesetaraan, dan saling menguntungkan."
+              },
+              {
+                "type": "PLAINTEXT",
+                "text": "Beberapa bagian penting dalam Perjanjian Bantuan Timbal Balik dalam Masalah Pidana antara Republik Indonesia dan Republik Sosialis Viet Nam, antara lain:"
+              },
+              {
+                "type": "LIST",
+                "id": "",
+                "children": [
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "NUMBER_WITH_DOT",
+                        "text": "1."
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "Bantuan hukum timbal balik dapat berupa:"
+                      },
+                      {
+                        "type": "LIST",
+                        "id": "",
+                        "children": [
+                          {
+                            "type": "LIST_ITEM",
+                            "id": "",
+                            "children": [
+                              {
+                                "type": "LETTER_WITH_DOT",
+                                "text": "a."
+                              },
+                              {
+                                "type": "PLAINTEXT",
+                                "text": "pencarian dan pengidentifikasian orang dan barang;"
+                              }
+                            ]
+                          },
+                          {
+                            "type": "LIST_ITEM",
+                            "id": "",
+                            "children": [
+                              {
+                                "type": "LETTER_WITH_DOT",
+                                "text": "b."
+                              },
+                              {
+                                "type": "PLAINTEXT",
+                                "text": "pemeriksaan barang dan lokasi;"
+                              }
+                            ]
+                          },
+                          {
+                            "type": "LIST_ITEM",
+                            "id": "",
+                            "children": [
+                              {
+                                "type": "LETTER_WITH_DOT",
+                                "text": "c."
+                              },
+                              {
+                                "type": "PLAINTEXT",
+                                "text": "penyampaian dokumen, termasuk dokumen untuk mengupayakan kehadiran orang;"
+                              }
+                            ]
+                          },
+                          {
+                            "type": "LIST_ITEM",
+                            "id": "",
+                            "children": [
+                              {
+                                "type": "LETTER_WITH_DOT",
+                                "text": "d."
+                              },
+                              {
+                                "type": "PLAINTEXT",
+                                "text": "penyediaan informasi, dokumen, catatan, dan barang bukti;"
+                              }
+                            ]
+                          },
+                          {
+                            "type": "LIST_ITEM",
+                            "id": "",
+                            "children": [
+                              {
+                                "type": "LETTER_WITH_DOT",
+                                "text": "e."
+                              },
+                              {
+                                "type": "PLAINTEXT",
+                                "text": "penyediaan dokumen asli atau salinan resmi yang relevan, catatan, dan barang bukti;"
+                              }
+                            ]
+                          },
+                          {
+                            "type": "LIST_ITEM",
+                            "id": "",
+                            "children": [
+                              {
+                                "type": "LETTER_WITH_DOT",
+                                "text": "f."
+                              },
+                              {
+                                "type": "PLAINTEXT",
+                                "text": "penyediaan barang, termasuk peminjaman barang bukti;"
+                              }
+                            ]
+                          },
+                          {
+                            "type": "LIST_ITEM",
+                            "id": "",
+                            "children": [
+                              {
+                                "type": "LETTER_WITH_DOT",
+                                "text": "g."
+                              },
+                              {
+                                "type": "PLAINTEXT",
+                                "text": "penggeledahan dan penyitaan;"
+                              }
+                            ]
+                          },
+                          {
+                            "type": "LIST_ITEM",
+                            "id": "",
+                            "children": [
+                              {
+                                "type": "LETTER_WITH_DOT",
+                                "text": "h."
+                              },
+                              {
+                                "type": "PLAINTEXT",
+                                "text": "pengambilan barang bukti dan keterangan;"
+                              }
+                            ]
+                          },
+                          {
+                            "type": "LIST_ITEM",
+                            "id": "",
+                            "children": [
+                              {
+                                "type": "LETTER_WITH_DOT",
+                                "text": "i."
+                              },
+                              {
+                                "type": "PLAINTEXT",
+                                "text": "penghadiran orang yang ditahan untuk memberikan kesaksian atau membantu penyidikan, penuntutan, penyelesaian perkara di pengadilan, atau proses hukum pidana lainnya pada Pihak Peminta;"
+                              }
+                            ]
+                          },
+                          {
+                            "type": "LIST_ITEM",
+                            "id": "",
+                            "children": [
+                              {
+                                "type": "LETTER_WITH_DOT",
+                                "text": "j."
+                              },
+                              {
+                                "type": "PLAINTEXT",
+                                "text": "pemfasilitasan kehadiran saksi atau bantuan orang dalam proses penyidikan;"
+                              }
+                            ]
+                          },
+                          {
+                            "type": "LIST_ITEM",
+                            "id": "",
+                            "children": [
+                              {
+                                "type": "LETTER_WITH_DOT",
+                                "text": "k."
+                              },
+                              {
+                                "type": "PLAINTEXT",
+                                "text": "pengupayaan dalam penelusuran, pemblokiran, pembekuan, penyitaan, perampasan, dan pengembalian hasil dan/atau sarana tindak pidana; dan"
+                              }
+                            ]
+                          },
+                          {
+                            "type": "LIST_ITEM",
+                            "id": "",
+                            "children": [
+                              {
+                                "type": "LETTER_WITH_DOT",
+                                "text": "l."
+                              },
+                              {
+                                "type": "PLAINTEXT",
+                                "text": "bentuk bantuan lain yang tidak dilarang berdasarkan hukum Pihak Diminta."
+                              }
+                            ]
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "NUMBER_WITH_DOT",
+                        "text": "2."
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "Perjanjian ini berlaku juga untuk setiap permintaan bantuan timbal balik terkait dengan perbuatan ataupun pembiaran tindak pidana yang dilakukan sebelum berlakunya Perjanjian ini."
+                      }
+                    ]
+                  },
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "NUMBER_WITH_DOT",
+                        "text": "3."
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "Bantuan juga dapat diberikan terkait dengan penyidikan, penuntutan, penyelesaian perkara di pengadilan, atau proses hukum lainnya terkait dengan tindak pidana perpajakan, bea cukai, dan pengawasan valuta asing atau setiap masalah penghasilan lainnya."
+                      }
+                    ]
+                  },
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "NUMBER_WITH_DOT",
+                        "text": "4."
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "Ketentuan dalam Perjanjian ini tidak memberikan hak apapun kepada perseorangan untuk memperoleh, menolak, atau mengesampingkan bukti atau menghalangi pelaksanaan permintaan bantuan."
+                      }
+                    ]
+                  },
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "NUMBER_WITH_DOT",
+                        "text": "5."
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "Pengecualian"
+                      },
+                      {
+                        "type": "LIST",
+                        "id": "",
+                        "children": [
+                          {
+                            "type": "LIST_ITEM",
+                            "id": "",
+                            "children": [
+                              {
+                                "type": "LETTER_WITH_DOT",
+                                "text": "a."
+                              },
+                              {
+                                "type": "PLAINTEXT",
+                                "text": "Perjanjian ini tidak berlaku untuk:"
+                              },
+                              {
+                                "type": "LIST",
+                                "id": "",
+                                "children": [
+                                  {
+                                    "type": "LIST_ITEM",
+                                    "id": "",
+                                    "children": [
+                                      {
+                                        "type": "NUMBER_WITH_RIGHT_BRACKET",
+                                        "text": "1)"
+                                      },
+                                      {
+                                        "type": "PLAINTEXT",
+                                        "text": "penangkapan atau penahanan orang untuk tujuan ekstradisi orang tersebut;"
+                                      }
+                                    ]
+                                  },
+                                  {
+                                    "type": "LIST_ITEM",
+                                    "id": "",
+                                    "children": [
+                                      {
+                                        "type": "NUMBER_WITH_RIGHT_BRACKET",
+                                        "text": "2)"
+                                      },
+                                      {
+                                        "type": "PLAINTEXT",
+                                        "text": "pemindahan terpidana untuk menjalani hukuman; dan"
+                                      }
+                                    ]
+                                  },
+                                  {
+                                    "type": "LIST_ITEM",
+                                    "id": "",
+                                    "children": [
+                                      {
+                                        "type": "NUMBER_WITH_RIGHT_BRACKET",
+                                        "text": "3)"
+                                      },
+                                      {
+                                        "type": "PLAINTEXT",
+                                        "text": "pemindahan proses hukum dalam masalah pidana."
+                                      }
+                                    ]
+                                  }
+                                ]
+                              }
+                            ]
+                          },
+                          {
+                            "type": "LIST_ITEM",
+                            "id": "",
+                            "children": [
+                              {
+                                "type": "LETTER_WITH_DOT",
+                                "text": "b."
+                              },
+                              {
+                                "type": "PLAINTEXT",
+                                "text": "Perjanjian ini tidak memberikan hak kepada salah satu Pihak untuk melakukan penerapan yurisdiksi dan pelaksanaan fungsi yang dimiliki secara eksklusif oleh lembaga berwenang Pihak lain di wilayah Pihak lainnya menurut hukum nasionalnya."
+                              }
+                            ]
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "NUMBER_WITH_DOT",
+                        "text": "6."
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "Penolakan Bantuan"
+                      },
+                      {
+                        "type": "LIST",
+                        "id": "",
+                        "children": [
+                          {
+                            "type": "LIST_ITEM",
+                            "id": "",
+                            "children": [
+                              {
+                                "type": "LETTER_WITH_DOT",
+                                "text": "a."
+                              },
+                              {
+                                "type": "PLAINTEXT",
+                                "text": "permintaan bantuan hukum tidak dikabulkan jika:"
+                              },
+                              {
+                                "type": "LIST",
+                                "id": "",
+                                "children": [
+                                  {
+                                    "type": "LIST_ITEM",
+                                    "id": "",
+                                    "children": [
+                                      {
+                                        "type": "NUMBER_WITH_RIGHT_BRACKET",
+                                        "text": "1)"
+                                      },
+                                      {
+                                        "type": "PLAINTEXT",
+                                        "text": "menurut pandangan Pihak Diminta, pelaksanaan permintaan dimaksud akan mengganggu kedaulatan, keamanan, ketertiban umum, atau kepentingan umum;"
+                                      }
+                                    ]
+                                  },
+                                  {
+                                    "type": "LIST_ITEM",
+                                    "id": "",
+                                    "children": [
+                                      {
+                                        "type": "NUMBER_WITH_RIGHT_BRACKET",
+                                        "text": "2)"
+                                      },
+                                      {
+                                        "type": "PLAINTEXT",
+                                        "text": "permintaan terkait dengan tindak pidana yang tersangkanya telah dinyatakan tidak bersalah atau diampuni;"
+                                      }
+                                    ]
+                                  },
+                                  {
+                                    "type": "LIST_ITEM",
+                                    "id": "",
+                                    "children": [
+                                      {
+                                        "type": "NUMBER_WITH_RIGHT_BRACKET",
+                                        "text": "3)"
+                                      },
+                                      {
+                                        "type": "PLAINTEXT",
+                                        "text": "permintaan terkait dengan suatu penuntutan terhadap seseorang atas tindak pidana yang telah dijatuhi putusan yang berkekuatan hukum tetap;"
+                                      }
+                                    ]
+                                  },
+                                  {
+                                    "type": "LIST_ITEM",
+                                    "id": "",
+                                    "children": [
+                                      {
+                                        "type": "NUMBER_WITH_RIGHT_BRACKET",
+                                        "text": "4)"
+                                      },
+                                      {
+                                        "type": "PLAINTEXT",
+                                        "text": "Pihak Diminta memiliki alasan kuat untuk meyakini bahwa permintaan bantuan hukum timbal balik diajukan dengan tujuan untuk menuntut orang yang diminta berdasarkan ras, agama, kewarganegaraan, suku, pandangan politik, atau orang tersebut akan mendapatkan perlakuan tidak adil dalam proses peradilannya dengan alasan tersebut;"
+                                      }
+                                    ]
+                                  },
+                                  {
+                                    "type": "LIST_ITEM",
+                                    "id": "",
+                                    "children": [
+                                      {
+                                        "type": "NUMBER_WITH_RIGHT_BRACKET",
+                                        "text": "5)"
+                                      },
+                                      {
+                                        "type": "PLAINTEXT",
+                                        "text": "Pihak Peminta tidak dapat memberikan jaminan bahwa bantuan yang dimintakan tidak akan digunakan untuk tujuan selain yang tercantum dalam permintaan tanpa persetujuan sebelumnya dari Pihak Diminta;"
+                                      }
+                                    ]
+                                  },
+                                  {
+                                    "type": "LIST_ITEM",
+                                    "id": "",
+                                    "children": [
+                                      {
+                                        "type": "NUMBER_WITH_RIGHT_BRACKET",
+                                        "text": "6)"
+                                      },
+                                      {
+                                        "type": "PLAINTEXT",
+                                        "text": "Pihak Peminta tidak dapat memberikan jaminan untuk pengembalian bukti yang telah diperoleh berdasarkan permintaan bantuan hukum sesuai dengan Perjanjian ini;"
+                                      }
+                                    ]
+                                  },
+                                  {
+                                    "type": "LIST_ITEM",
+                                    "id": "",
+                                    "children": [
+                                      {
+                                        "type": "NUMBER_WITH_RIGHT_BRACKET",
+                                        "text": "7)"
+                                      },
+                                      {
+                                        "type": "PLAINTEXT",
+                                        "text": "permintaan terkait dengan penyidikan, penuntutan, atau penghukuman terhadap seseorang atas suatu tindakan atau pembiaran yang jika terjadi pada Pihak Diminta, bukan merupakan suatu tindak pidana menurut hukum nasional Pihak Diminta, kecuali Pihak Diminta dapat memberikan bantuan tanpa adanya kriminalitas ganda jika dimungkinkan oleh hukum nasionalnya;"
+                                      }
+                                    ]
+                                  },
+                                  {
+                                    "type": "LIST_ITEM",
+                                    "id": "",
+                                    "children": [
+                                      {
+                                        "type": "NUMBER_WITH_RIGHT_BRACKET",
+                                        "text": "8)"
+                                      },
+                                      {
+                                        "type": "PLAINTEXT",
+                                        "text": "permintaan terkait dengan penuntutan terhadap seseorang atas tindak pidana dalam hal orang tersebut sudah tidak dapat dituntut lagi dengan alasan daluwarsa apabila tindak pidana tersebut telah dilakukan dalam yurisdiksi Pihak Diminta; dan"
+                                      }
+                                    ]
+                                  },
+                                  {
+                                    "type": "LIST_ITEM",
+                                    "id": "",
+                                    "children": [
+                                      {
+                                        "type": "NUMBER_WITH_RIGHT_BRACKET",
+                                        "text": "9)"
+                                      },
+                                      {
+                                        "type": "PLAINTEXT",
+                                        "text": "permintaan terkait dengan suatu tindak pidana yang hanya dapat dihukum berdasarkan hukum militer atau suatu tindak pidana yang bersifat politik."
+                                      }
+                                    ]
+                                  }
+                                ]
+                              },
+                              {
+                                "type": "PLAINTEXT",
+                                "text": "Tindak pidana berikut tidak termasuk sebagai tindak pidana yang bersifat politik:"
+                              },
+                              {
+                                "type": "LIST",
+                                "id": "",
+                                "children": [
+                                  {
+                                    "type": "LIST_ITEM",
+                                    "id": "",
+                                    "children": [
+                                      {
+                                        "type": "NUMBER_WITH_RIGHT_BRACKET",
+                                        "text": "1)"
+                                      },
+                                      {
+                                        "type": "PLAINTEXT",
+                                        "text": "tindak pidana terhadap nyawa atau diri Kepala Negara atau Kepala Pemerintahan atau anggota keluarga inti;"
+                                      }
+                                    ]
+                                  },
+                                  {
+                                    "type": "LIST_ITEM",
+                                    "id": "",
+                                    "children": [
+                                      {
+                                        "type": "NUMBER_WITH_RIGHT_BRACKET",
+                                        "text": "2)"
+                                      },
+                                      {
+                                        "type": "PLAINTEXT",
+                                        "text": "tindak pidana berdasarkan konvensi internasional dalam hal para Pihak memiliki kewajiban dengan menjadi Negara Pihak dalam konvensi tersebut untuk memberikan bantuan timbal balik dalam masalah pidana;"
+                                      }
+                                    ]
+                                  },
+                                  {
+                                    "type": "LIST_ITEM",
+                                    "id": "",
+                                    "children": [
+                                      {
+                                        "type": "NUMBER_WITH_RIGHT_BRACKET",
+                                        "text": "3)"
+                                      },
+                                      {
+                                        "type": "PLAINTEXT",
+                                        "text": "tindak pidana terkait terorisme yang pada saat permintaan diajukan berdasarkan hukum Pihak Diminta tidak dianggap sebagai tindak pidana yang bersifat politik; dan"
+                                      }
+                                    ]
+                                  },
+                                  {
+                                    "type": "LIST_ITEM",
+                                    "id": "",
+                                    "children": [
+                                      {
+                                        "type": "NUMBER_WITH_RIGHT_BRACKET",
+                                        "text": "4)"
+                                      },
+                                      {
+                                        "type": "PLAINTEXT",
+                                        "text": "percobaan atau permufakatan jahat untuk melakukan setiap tindak pidana sebagaimana tersebut di atas atau turut serta dalam pembantuan kepada seseorang yang melakukan atau mencoba untuk melakukan tindak pidana tersebut."
+                                      }
+                                    ]
+                                  }
+                                ]
+                              }
+                            ]
+                          },
+                          {
+                            "type": "LIST_ITEM",
+                            "id": "",
+                            "children": [
+                              {
+                                "type": "LETTER_WITH_DOT",
+                                "text": "b."
+                              },
+                              {
+                                "type": "PLAINTEXT",
+                                "text": "permintaan bantuan dapat tidak dikabulkan jika:"
+                              },
+                              {
+                                "type": "LIST",
+                                "id": "",
+                                "children": [
+                                  {
+                                    "type": "LIST_ITEM",
+                                    "id": "",
+                                    "children": [
+                                      {
+                                        "type": "NUMBER_WITH_RIGHT_BRACKET",
+                                        "text": "1)"
+                                      },
+                                      {
+                                        "type": "PLAINTEXT",
+                                        "text": "pemberian bantuan dimaksud dapat atau mungkin dapat mengancam keselamatan siapapun walau orang tersebut berada di dalam atau di luar wilayah Pihak Diminta; dan"
+                                      }
+                                    ]
+                                  },
+                                  {
+                                    "type": "LIST_ITEM",
+                                    "id": "",
+                                    "children": [
+                                      {
+                                        "type": "NUMBER_WITH_RIGHT_BRACKET",
+                                        "text": "2)"
+                                      },
+                                      {
+                                        "type": "PLAINTEXT",
+                                        "text": "permintaan terkait dengan penyidikan, penuntutan, atau penghukuman terhadap seseorang yang berkenaan dengan suatu alasan yang dapat digunakan sebagai dasar untuk menolak berdasarkan hukum nasional Pihak Diminta."
+                                      }
+                                    ]
+                                  }
+                                ]
+                              }
+                            ]
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "NUMBER_WITH_DOT",
+                        "text": "7."
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "Pelaksanaan Permintaan"
+                      },
+                      {
+                        "type": "LIST",
+                        "id": "",
+                        "children": [
+                          {
+                            "type": "LIST_ITEM",
+                            "id": "",
+                            "children": [
+                              {
+                                "type": "LETTER_WITH_DOT",
+                                "text": "a."
+                              },
+                              {
+                                "type": "PLAINTEXT",
+                                "text": "permintaan bantuan harus segera dilaksanakan sesuai dengan hukum nasional Pihak Diminta dan dengan cara yang dikehendaki oleh Pihak Peminta;"
+                              }
+                            ]
+                          },
+                          {
+                            "type": "LIST_ITEM",
+                            "id": "",
+                            "children": [
+                              {
+                                "type": "LETTER_WITH_DOT",
+                                "text": "b."
+                              },
+                              {
+                                "type": "PLAINTEXT",
+                                "text": "Diminta harus, berdasarkan permintaan, memberitahu Pihak Peminta mengenai tanggal dan tempat pelaksanaan permintaan bantuan;"
+                              }
+                            ]
+                          },
+                          {
+                            "type": "LIST_ITEM",
+                            "id": "",
+                            "children": [
+                              {
+                                "type": "LETTER_WITH_DOT",
+                                "text": "c."
+                              },
+                              {
+                                "type": "PLAINTEXT",
+                                "text": "bantuan dapat ditunda oleh Pihak Diminta jika pelaksanaan bantuan dimaksud dapat mengganggu penyidikan, penuntutan, dan penyelesaian perkara di pengadilan pada Pihak Diminta;"
+                              }
+                            ]
+                          },
+                          {
+                            "type": "LIST_ITEM",
+                            "id": "",
+                            "children": [
+                              {
+                                "type": "LETTER_WITH_DOT",
+                                "text": "d."
+                              },
+                              {
+                                "type": "PLAINTEXT",
+                                "text": "Pihak Diminta harus segera memberitahu Pihak Peminta mengenai keputusannya untuk tidak memenuhi seluruh atau sebagian permintaan atau menunda pelaksanaan bantuan, dan harus menyampaikan alasan keputusan dimaksud; dan"
+                              }
+                            ]
+                          },
+                          {
+                            "type": "LIST_ITEM",
+                            "id": "",
+                            "children": [
+                              {
+                                "type": "LETTER_WITH_DOT",
+                                "text": "e."
+                              },
+                              {
+                                "type": "PLAINTEXT",
+                                "text": "sebelum menolak suatu permintaan bantuan atau sebelum menunda pelaksanaan permintaan, Pihak Diminta harus mempertimbangkan apakah bantuan tersebut dapat diberikan sesuai dengan persyaratan yang dipandang perlu oleh Pihak Diminta. Jika Pihak Peminta setuju menerima bantuan sesuai dengan persyaratan tersebut, Pihak Peminta harus mematuhinya."
+                              }
+                            ]
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "NUMBER_WITH_DOT",
+                        "text": "8."
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "Pemberlakuan dan Pengakhiran"
+                      },
+                      {
+                        "type": "LIST",
+                        "id": "",
+                        "children": [
+                          {
+                            "type": "LIST_ITEM",
+                            "id": "",
+                            "children": [
+                              {
+                                "type": "LETTER_WITH_DOT",
+                                "text": "a."
+                              },
+                              {
+                                "type": "PLAINTEXT",
+                                "text": "Para Pihak harus memberitahukan satu sama lain mengenai selesainya persyaratan domestik masing-masing untuk pemberlakuan Perjanjian ini. Perjanjian ini mulai berlaku pada tanggal diterimanya pemberitahuan pemberlakuan yang paling akhir."
+                              }
+                            ]
+                          },
+                          {
+                            "type": "LIST_ITEM",
+                            "id": "",
+                            "children": [
+                              {
+                                "type": "LETTER_WITH_DOT",
+                                "text": "b."
+                              },
+                              {
+                                "type": "PLAINTEXT",
+                                "text": "Salah satu Pihak dapat mengakhiri Perjanjian ini kapanpun melalui pemberitahuan secara tertulis kepada Pihak lainnya melalui saluran diplomatik. Pengakhiran ini berlaku setelah 6 (enam) bulan sejak diterimanya pemberitahuan mengenai pengakhiran dimaksud. Pengakhiran Perjanjian ini tidak akan mempengaruhi permintaan bantuan hukum timbal balik yang telah disampaikan sebelum pengakhiran Perjanjian ini."
+                              }
+                            ]
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "PENJELASAN_PASAL_DEMI_PASAL",
+            "id": "",
+            "children": [
+              {
+                "type": "PENJELASAN_PASAL_DEMI_PASAL_TITLE",
+                "text": "II. PASAL DEMI PASAL"
+              },
+              {
+                "type": "PENJELASAN_PASAL",
+                "id": "",
+                "children": [
+                  {
+                    "type": "PASAL_NUMBER",
+                    "text": "Pasal 1"
+                  },
+                  {
+                    "type": "PLAINTEXT",
+                    "text": "Cukup jelas."
+                  }
+                ]
+              },
+              {
+                "type": "PENJELASAN_PASAL",
+                "id": "",
+                "children": [
+                  {
+                    "type": "PASAL_NUMBER",
+                    "text": "Pasal 2"
+                  },
+                  {
+                    "type": "PLAINTEXT",
+                    "text": "Cukup jelas."
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

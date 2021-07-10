@@ -1,5 +1,5 @@
 attrs==20.3.0
-autopep8==1.5.4
+autopep8==1.5.7
 beautifulsoup4==4.9.3
 certifi==2019.6.16
 cffi==1.14.3
@@ -16,9 +16,10 @@ packaging==20.9
 pdfminer.six==20201018
 pluggy==0.13.1
 py==1.10.0
-pycodestyle==2.6.0
+pycodestyle==2.7.0
 pycparser==2.20
 pyparsing==2.4.7
+pyperclip==1.8.2
 pytest==6.2.2
 requests==2.25.1
 scipy==1.4.1

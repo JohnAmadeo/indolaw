@@ -1,0 +1,394 @@
+{
+  "metadata": {
+    "lembaranNegaraNumber": 58,
+    "lembaranNegaraYear": 2019,
+    "tambahanLembaranNumber": 6327,
+    "number": 6,
+    "topic": "Pengesahan Perjanjian Mengenai Bantuan Timbal Balik Dalam Masalah Pidana Antara Republik Indonesia Dan Persatuan Emirat Arab (treaty On Mutual Legal Assistance In Criminal Matters Between The Republic Of Indonesia And The United Arab Emirates)",
+    "year": 2019
+  },
+  "content": {
+    "type": "UNDANG_UNDANG",
+    "id": "",
+    "children": [
+      {
+        "type": "OPENING",
+        "id": "",
+        "children": [
+          {
+            "type": "UU_TITLE",
+            "id": "",
+            "children": [
+              {
+                "type": "PLAINTEXT",
+                "text": "UNDANG-UNDANG REPUBLIK INDONESIA"
+              },
+              {
+                "type": "UU_TITLE_YEAR_AND_NUMBER",
+                "text": "NOMOR 6 TAHUN 2019"
+              },
+              {
+                "type": "PLAINTEXT",
+                "text": "TENTANG"
+              },
+              {
+                "type": "UU_TITLE_TOPIC",
+                "text": "PENGESAHAN PERJANJIAN MENGENAI BANTUAN TIMBAL BALIK DALAM MASALAH PIDANA ANTARA REPUBLIK INDONESIA DAN PERSATUAN EMIRAT ARAB (TREATY ON MUTUAL LEGAL ASSISTANCE IN CRIMINAL MATTERS BETWEEN THE REPUBLIC OF INDONESIA AND THE UNITED ARAB EMIRATES)"
+              }
+            ]
+          },
+          {
+            "type": "PREFACE",
+            "id": "",
+            "children": [
+              {
+                "type": "PLAINTEXT",
+                "text": "DENGAN RAHMAT TUHAN YANG MAHA ESA"
+              },
+              {
+                "type": "PLAINTEXT",
+                "text": "PRESIDEN REPUBLIK INDONESIA,"
+              }
+            ]
+          },
+          {
+            "type": "CONSIDERATIONS",
+            "id": "",
+            "children": [
+              {
+                "type": "PLAINTEXT",
+                "text": "Menimbang:"
+              },
+              {
+                "type": "LIST",
+                "id": "",
+                "children": [
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "LETTER_WITH_DOT",
+                        "text": "a."
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "bahwa dalam rangka mencapai tujuan Negara Republik Indonesia untuk melindungi segenap bangsa Indonesia dan seluruh tumpah darah Indonesia, dan untuk memajukan kesejahteraan umum, mencerdaskan kehidupan bangsa, dan ikut melaksanakan ketertiban dunia yang berdasarkan kemerdekaan, perdamaian abadi dan keadilan sosial, Pemerintah Republik Indonesia sebagai bagian dan masyarakat internasional melakukan hubungan dan kerja sama internasional yang diwujudkan dalam perjanjian internasional;"
+                      }
+                    ]
+                  },
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "LETTER_WITH_DOT",
+                        "text": "b."
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "bahwa perkembangan ilmu pengetahuan dan teknologi khususnya di bidang transportasi, komunikasi dan informasi, selain mempunyai dampak positif juga mempunyai dampak negatif, yaitu timbulnya tindak pidana yang tidak lagi mengenal batas yurisdiksi suatu negara, sehingga penanggulangan dan pemberantasannya memerlukan kerja sama antarnegara yang efektif, baik bersifat bilateral maupun multilateral;"
+                      }
+                    ]
+                  },
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "LETTER_WITH_DOT",
+                        "text": "c."
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "bahwa untuk meningkatkan kerja sama di bidang hukum dalam penanggulangan dan pemberantasan tindak pidana, Pemerintah Republik Indonesia dan Pemerintah Persatuan Emirat Arab telah menandatangani Perjanjian mengenai Bantuan Timbal Balik dalam Masalah Pidana pada tanggal 2 Februari 2014 di Abu Dhabi, Persatuan Emirat Arab;"
+                      }
+                    ]
+                  },
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "LETTER_WITH_DOT",
+                        "text": "d."
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "bahwa berdasarkan pertimbangan sebagaimana dimaksud dalam huruf a, huruf b, dan huruf c, perlu membentuk Undang-Undang tentang Pengesahan Perjanjian mengenai Bantuan Timbal Balik dalam Masalah Pidana antara Republik Indonesia dan Persatuan Emirat Arab (Treaty on Mutual Legal Assistance in Criminal Matters between the Republic of Indonesia and the United Arab Emirates)."
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "PRINCIPLES",
+            "id": "",
+            "children": [
+              {
+                "type": "PLAINTEXT",
+                "text": "Mengingat:"
+              },
+              {
+                "type": "LIST",
+                "id": "",
+                "children": [
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "NUMBER_WITH_DOT",
+                        "text": "1."
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "Pasal 5 ayat (1), Pasal 11, dan Pasal 20 Undang-Undang Dasar Negara Republik Indonesia Tahun 1945;"
+                      }
+                    ]
+                  },
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "NUMBER_WITH_DOT",
+                        "text": "2."
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "Undang-Undang Nomor 24 Tahun 2000 tentang Perjanjian Internasional (Lembaran Negara Republik Indonesia Tahun 2000 Nomor 185, Tambahan Lembaran Negara Republik Indonesia Nomor 4012)."
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "AGREEMENT",
+            "id": "",
+            "children": [
+              {
+                "type": "PLAINTEXT",
+                "text": "Dengan Persetujuan Bersama"
+              },
+              {
+                "type": "PLAINTEXT",
+                "text": "DEWAN PERWAKILAN RAKYAT REPUBLIK INDONESIA"
+              },
+              {
+                "type": "PLAINTEXT",
+                "text": "dan"
+              },
+              {
+                "type": "PLAINTEXT",
+                "text": "PRESIDEN REPUBLIK INDONESIA"
+              },
+              {
+                "type": "PLAINTEXT",
+                "text": "MEMUTUSKAN:"
+              },
+              {
+                "type": "PLAINTEXT",
+                "text": "Menetapkan:"
+              },
+              {
+                "type": "PLAINTEXT",
+                "text": "UNDANG-UNDANG TENTANG PENGESAHAN PERJANJIAN MENGENAI BANTUAN TIMBAL BALIK DALAM MASALAH PIDANA ANTARA REPUBLIK INDONESIA DAN PERSATUAN EMIRAT ARAB (TREATY ON MUTUAL LEGAL ASSISTANCE IN CRIMINAL MATTERS BETWEEN THE REPUBLIC OF INDONESIA AND THE UNITED ARAB EMIRATES)"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "PASAL",
+        "id": "pasal-1",
+        "children": [
+          {
+            "type": "PASAL_NUMBER",
+            "text": "Pasal 1"
+          },
+          {
+            "type": "PLAINTEXT",
+            "text": "Mengesahkan Perjanjian mengenai Bantuan Timbal Balik dalam Masalah Pidana antara Republik Indonesia dan Persatuan Emirat Arab (Treaty on Mutual Legal Assistance in Criminal Matters between the Republic of Indonesia and the United Arab Emirates) yang ditandatangani pada tanggal 2 Februari 2014 di Abu Dhabi, Persatuan Emirat Arab yang salinan naskah aslinya dalam bahasa Indonesia, bahasa Arab, dan bahasa Inggris sebagaimana terlampir dan merupakan bagian yang tidak terpisahkan dari Undang-Undang ini."
+          }
+        ]
+      },
+      {
+        "type": "PASAL",
+        "id": "pasal-2",
+        "children": [
+          {
+            "type": "PASAL_NUMBER",
+            "text": "Pasal 2"
+          },
+          {
+            "type": "PLAINTEXT",
+            "text": "Undang-Undang ini mulai berlaku pada tanggal diundangkan."
+          },
+          {
+            "type": "PLAINTEXT",
+            "text": "Agar setiap orang mengetahuinya, memerintahkan pengundangan Undang-Undang ini dengan penempatannya dalam Lembaran Negara Republik Indonesia."
+          }
+        ]
+      },
+      {
+        "type": "CLOSING",
+        "id": "",
+        "children": [
+          {
+            "type": "PLAINTEXT",
+            "text": "Disahkan Di Jakarta,"
+          },
+          {
+            "type": "PLAINTEXT",
+            "text": "Pada Tanggal 13 Maret 2019"
+          },
+          {
+            "type": "PLAINTEXT",
+            "text": "PRESIDEN REPUBLIK INDONESIA,"
+          },
+          {
+            "type": "PLAINTEXT",
+            "text": "Ttd."
+          },
+          {
+            "type": "PLAINTEXT",
+            "text": "JOKO WIDODO"
+          },
+          {
+            "type": "PLAINTEXT",
+            "text": "Diundangkan Di Jakarta,"
+          },
+          {
+            "type": "PLAINTEXT",
+            "text": "Pada Tanggal 15 Maret 2019"
+          },
+          {
+            "type": "PLAINTEXT",
+            "text": "MENTERI HUKUM DAN HAK ASASI MANUSIA REPUBLIK INDONESIA,"
+          },
+          {
+            "type": "PLAINTEXT",
+            "text": "Ttd."
+          },
+          {
+            "type": "PLAINTEXT",
+            "text": "YASONNA H. LAOLY"
+          },
+          {
+            "type": "LEMBARAN_NUMBER",
+            "text": "LEMBARAN NEGARA REPUBLIK INDONESIA TAHUN 2019 NOMOR 58"
+          }
+        ]
+      },
+      {
+        "type": "PENJELASAN",
+        "id": "penjelasan",
+        "children": [
+          {
+            "type": "PENJELASAN_TITLE",
+            "id": "",
+            "children": [
+              {
+                "type": "PLAINTEXT",
+                "text": "PENJELASAN"
+              },
+              {
+                "type": "PLAINTEXT",
+                "text": "UNDANG-UNDANG REPUBLIK INDONESIA"
+              },
+              {
+                "type": "UU_TITLE_YEAR_AND_NUMBER",
+                "text": "NOMOR 6 TAHUN 2019"
+              },
+              {
+                "type": "PLAINTEXT",
+                "text": "TENTANG"
+              },
+              {
+                "type": "UU_TITLE_TOPIC",
+                "text": "PENGESAHAN PERJANJIAN MENGENAI BANTUAN TIMBAL BALIK DALAM MASALAH PIDANA ANTARA REPUBLIK INDONESIA DAN PERSATUAN EMIRAT ARAB (TREATY ON MUTUAL LEGAL ASSISTANCE IN CRIMINAL MATTERS BETWEEN THE REPUBLIC OF INDONESIA AND THE UNITED ARAB EMIRATES)"
+              }
+            ]
+          },
+          {
+            "type": "PENJELASAN_UMUM",
+            "id": "",
+            "children": [
+              {
+                "type": "PENJELASAN_UMUM_TITLE",
+                "text": "I. UMUM"
+              },
+              {
+                "type": "PLAINTEXT",
+                "text": "Dalam rangka mencapai tujuan Negara Republik Indonesia sebagaimana tercantum dalam Pembukaan Undang-Undang Dasar Negara Republik Indonesia Tahun 1945, yaitu melindungi segenap bangsa Indonesia dan seluruh tumpah darah Indonesia, dan untuk memajukan kesejahteraan umum, mencerdaskan kehidupan bangsa, dan ikut melaksanakan ketertiban dunia yang berdasarkan kemerdekaan, perdamaian abadi dan keadilan sosial, Pemerintah Republik Indonesia sebagai bagian dari masyarakat internasional melakukan hubungan dan kerja sama internasional yang diwujudkan dalam perjanjian internasional."
+              },
+              {
+                "type": "PLAINTEXT",
+                "text": "Perjanjian internasional di atas diperlukan seiring dengan perkembangan ilmu pengetahuan dan teknologi khususnya di bidang transportasi, komunikasi dan informasi, telah mengakibatkan hubungan lintas negara seakan-akan tanpa batas sehingga memudahkan mobilisasi orang maupun perpindahan barang dari satu negara ke negara lain dapat dilakukan dengan cepat. Selaras dengan kemajuan tersebut maka memunculkan dampak yang signifikan pada lintas batas negara, selain mempunyai dampak positif juga mempunyai dampak negatif yaitu timbulnya tindak pidana yang tidak lagi mengenal batas yurisdiksi suatu negara sehingga penanggulangan dan pemberantasannya memerlukan kerja sama antarnegara yang efektif baik bersifat bilateral maupun multilateral."
+              },
+              {
+                "type": "PLAINTEXT",
+                "text": "Hubungan Pemerintah Republik Indonesia dan Pemerintah Persatuan Emirat Arab sudah terjalin cukup lama dalam penyelenggaraan pemerintahan. Untuk lebih meningkatkan hubungan baik kedua belah pihak tersebut, Pemerintah Republik Indonesia dan Pemerintah Persatuan Emirat Arab telah sepakat mengadakan kerja sama bantuan timbal balik dalam masalah pidana yang telah ditandatangani pada tanggal 2 Februari 2014 di Abu Dhabi, Persatuan Emirat Arab."
+              },
+              {
+                "type": "PLAINTEXT",
+                "text": "Lingkup bantuan timbal balik dalam masalah pidana di atas meliputi penyidikan, penuntutan, atau proses acara yang berkaitan dengan setiap tindak pidana atau kejahatan yang dapat dihukum pada saat permintaan bantuan diajukan berdasarkan yurisdiksi pihak yang berwenang di Pihak Peminta."
+              },
+              {
+                "type": "PLAINTEXT",
+                "text": "Kesepakatan tersebut pada hakikatnya dimaksudkan untuk lebih meningkatkan efektivitas kerja sama dalam penanggulangan dan pemberantasan tindak pidana termasuk tindak pidana terkait dengan perpajakan dan bea cukai. Perjanjian bantuan timbal balik dalam masalah pidana tersebut harus memperhatikan prinsip umum hukum internasional yang menitikberatkan pada asas penghormatan kedaulatan negara dan kedaulatan hukum, kesetaraan, dan saling menguntungkan."
+              },
+              {
+                "type": "PLAINTEXT",
+                "text": "Dalam perjanjian bantuan timbal balik antara Republik Indonesia dan Persatuan Emirat Arab ini diatur antara lain mengenai ruang lingkup bantuan, otoritas pusat, permintaan dan pelaksanaan bantuan, alasan penolakan permintaan bantuan, masa pemberlakuan, kerahasiaan dan pembatasan penggunaan, penggeledahan dan penyitaan, dan penyelesaian sengketa."
+              }
+            ]
+          },
+          {
+            "type": "PENJELASAN_PASAL_DEMI_PASAL",
+            "id": "",
+            "children": [
+              {
+                "type": "PENJELASAN_PASAL_DEMI_PASAL_TITLE",
+                "text": "II. PASAL DEMI PASAL"
+              },
+              {
+                "type": "PENJELASAN_PASAL",
+                "id": "",
+                "children": [
+                  {
+                    "type": "PASAL_NUMBER",
+                    "text": "Pasal 1"
+                  },
+                  {
+                    "type": "PLAINTEXT",
+                    "text": "Cukup jelas."
+                  }
+                ]
+              },
+              {
+                "type": "PENJELASAN_PASAL",
+                "id": "",
+                "children": [
+                  {
+                    "type": "PASAL_NUMBER",
+                    "text": "Pasal 2"
+                  },
+                  {
+                    "type": "PLAINTEXT",
+                    "text": "Cukup jelas."
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

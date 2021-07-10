@@ -11,8 +11,8 @@ PASAL_NUMBER_ALPHANUMERIC_VARIANT_REGEX = r'(Pasal[\s]+([0-9]+[A-Z]*))'
 PASAL_NUMBER_WITH_OPEN_QUOTE_CHAR_REGEX = r'(“Pasal[\s]+([0-9]+[A-Z]*|[MDCLXVI]+))'
 BAB_NUMBER_REGEX = r'(BAB [MDCLXVI]+[A-Z]*)'
 BAB_NUMBER_WITH_OPEN_QUOTE_CHAR_REGEX = r'(“BAB [MDCLXVI]+[A-Z]*)'
-BAGIAN_NUMBER_REGEX = r'(Bagian (Ke[a-z]+|Pertama))'
-BAGIAN_NUMBER_WITH_OPEN_QUOTE_CHAR_REGEX = r'(“Bagian (Ke[a-z]+|Pertama))'
+BAGIAN_NUMBER_REGEX = r'(Bagian (Ke[a-z]+( (Belas|Puluh( [A-z][a-z]+)?))?|Pertama))'
+BAGIAN_NUMBER_WITH_OPEN_QUOTE_CHAR_REGEX = r'(“Bagian (Ke[a-z]+( (Belas|Puluh( [A-z][a-z]+)?))?|Pertama))'
 
 LETTER_WITH_DOT_REGEX = r'([a-z]\.)'
 NUMBER_WITH_BRACKETS_REGEX = r'(\([0-9]+[a-z]?\))'
@@ -29,6 +29,8 @@ PENJELASAN_ANGKA_REGEX = r'(Angka [0-9]+)'
 
 PAGE_NUMBER_REGEX = r'([0-9]+[\s]*\/[\s]*[0-9]+)'
 
+PENJELASAN_PASAL_DEMI_PASAL_REGEX = r'((II\.? )?PASAL DEMI PASAL)'
+
 LINE_ENDING_REGEXES = [
     r'(;)',
     r'(:)',
@@ -37,6 +39,12 @@ LINE_ENDING_REGEXES = [
     r'(; dan)',
     r'(,)',
     r'(' + CLOSE_QUOTE_CHAR + r')'
+]
+
+START_OF_PERUBAHAN_SECTION_REGEXES = [
+    PASAL_NUMBER_WITH_OPEN_QUOTE_CHAR_REGEX,
+    BAB_NUMBER_WITH_OPEN_QUOTE_CHAR_REGEX,
+    BAGIAN_NUMBER_WITH_OPEN_QUOTE_CHAR_REGEX,
 ]
 
 
@@ -527,15 +535,13 @@ def is_start_of_penjelasan_pasal(law: List[str], start_index: int, ) -> bool:
 
 def is_start_of_perubahan_section(law: List[str], start_index: int) -> bool:
     '''
-    TODO May need heuristics - what if open/quote chars occur naturally in line
+    TODO what if open/quote chars occur naturally in line
     '''
-    return law[start_index][0] == OPEN_QUOTE_CHAR
+    line = law[start_index]
+    return line[0] == OPEN_QUOTE_CHAR and CLOSE_QUOTE_CHAR not in line
 
 
 def is_start_of_penjelasan_perubahan_section(law: List[str], start_index: int) -> bool:
-    '''
-    TODO May need heuristics - what if open/quote chars occur naturally in line
-    '''
     return is_start_of_perubahan_section(law, start_index)
 
 
@@ -919,8 +925,20 @@ def is_start_of_penjelasan_title(law: List[str], start_index: int) -> bool:
         >>> is_start_of_penjelasan_title(law, 0)
         True
     """
-    return is_heading(r'PENJELASAN', law[start_index]) and \
+    heuristic_1 = is_heading(r'PENJELASAN', law[start_index]) and \
         is_heading(r'UNDANG-UNDANG REPUBLIK INDONESIA', law[start_index+1])
+
+    heuristic_2 = is_heading(r'PENJELASAN', law[start_index]) and \
+        is_heading(r'ATAS', law[start_index+1]) and \
+        is_heading(r'UNDANG-UNDANG REPUBLIK INDONESIA', law[start_index+2])
+
+    heuristic_3 = is_heading(r'PENJELASAN', law[start_index]) and \
+        is_heading(
+            r'RANCANGAN UNDANG-UNDANG REPUBLIK INDONESIA',
+            law[start_index+1],
+    )
+
+    return heuristic_1 or heuristic_2 or heuristic_3
 
 
 def is_start_of_penjelasan_pasal_demi_pasal(law: List[str], start_index: int) -> bool:
@@ -928,8 +946,7 @@ def is_start_of_penjelasan_pasal_demi_pasal(law: List[str], start_index: int) ->
 
 
 def is_start_of_penjelasan_pasal_demi_pasal_title(law: List[str], start_index: int) -> bool:
-    return is_heading(r'II. PASAL DEMI PASAL', law[start_index]) or \
-        is_heading(r'PASAL DEMI PASAL', law[start_index])
+    return is_heading(PENJELASAN_PASAL_DEMI_PASAL_REGEX, law[start_index])
 
 
 def is_start_of_list(law: List[str], start_index: int) -> bool:

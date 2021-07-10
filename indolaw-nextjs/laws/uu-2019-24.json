@@ -1,0 +1,3076 @@
+{
+  "metadata": {
+    "lembaranNegaraNumber": 212,
+    "lembaranNegaraYear": 2019,
+    "tambahanLembaranNumber": 6414,
+    "number": 24,
+    "topic": "Ekonomi Kreatif",
+    "year": 2019
+  },
+  "content": {
+    "type": "UNDANG_UNDANG",
+    "id": "",
+    "children": [
+      {
+        "type": "OPENING",
+        "id": "",
+        "children": [
+          {
+            "type": "UU_TITLE",
+            "id": "",
+            "children": [
+              {
+                "type": "PLAINTEXT",
+                "text": "UNDANG-UNDANG REPUBLIK INDONESIA"
+              },
+              {
+                "type": "UU_TITLE_YEAR_AND_NUMBER",
+                "text": "NOMOR 24 TAHUN 2019"
+              },
+              {
+                "type": "PLAINTEXT",
+                "text": "TENTANG"
+              },
+              {
+                "type": "UU_TITLE_TOPIC",
+                "text": "EKONOMI KREATIF"
+              }
+            ]
+          },
+          {
+            "type": "PREFACE",
+            "id": "",
+            "children": [
+              {
+                "type": "PLAINTEXT",
+                "text": "DENGAN RAHMAT TUHAN YANG MAHA ESA"
+              },
+              {
+                "type": "PLAINTEXT",
+                "text": "PRESIDEN REPUBLIK INDONESIA,"
+              }
+            ]
+          },
+          {
+            "type": "CONSIDERATIONS",
+            "id": "",
+            "children": [
+              {
+                "type": "PLAINTEXT",
+                "text": "Menimbang:"
+              },
+              {
+                "type": "LIST",
+                "id": "",
+                "children": [
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "LETTER_WITH_DOT",
+                        "text": "a."
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "bahwa Indonesia memiliki kekayaan warisan budaya yang perlu dimanfaatkan menjadi produk yang menciptakan nilai tambah melalui pengembangan ekonomi kreatif untuk memajukan kesejahteraan umum sebagaimana diamanatkan dalam Undang-Undang Dasar Negara Republik Indonesia Tahun 1945;"
+                      }
+                    ]
+                  },
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "LETTER_WITH_DOT",
+                        "text": "b."
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "bahwa Pemerintah dan/atau Pemerintah Daerah bertanggung jawab dalam menciptakan dan mengembangkan ekosistem ekonomi kreatif sehingga mampu memberikan kontribusi bagi perekonomian nasional dan meningkatkan daya saing global guna tercapainya tujuan pembangunan berkelanjutan;"
+                      }
+                    ]
+                  },
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "LETTER_WITH_DOT",
+                        "text": "c."
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "bahwa untuk memberikan dasar kepastian hukum kepada Pemerintah dan/atau Pemerintah Daerah dalam menciptakan dan mengembangkan ekosistem ekonomi kreatif, perlu pengaturan tentang ekonomi kreatif;"
+                      }
+                    ]
+                  },
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "LETTER_WITH_DOT",
+                        "text": "d."
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "bahwa berdasarkan pertimbangan sebagaimana dimaksud dalam huruf a, huruf b, dan huruf c, perlu membentuk Undang-Undang tentang Ekonomi Kreatif."
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "PRINCIPLES",
+            "id": "",
+            "children": [
+              {
+                "type": "PLAINTEXT",
+                "text": "Mengingat:"
+              },
+              {
+                "type": "PLAINTEXT",
+                "text": "Pasal 20, Pasal 21, Pasal 22D ayat (1), dan Pasal 33 ayat (4) Undang-Undang Dasar Negara Republik Indonesia Tahun 1945."
+              }
+            ]
+          },
+          {
+            "type": "AGREEMENT",
+            "id": "",
+            "children": [
+              {
+                "type": "PLAINTEXT",
+                "text": "Dengan Persetujuan Bersama"
+              },
+              {
+                "type": "PLAINTEXT",
+                "text": "DEWAN PERWAKILAN RAKYAT REPUBLIK INDONESIA"
+              },
+              {
+                "type": "PLAINTEXT",
+                "text": "dan"
+              },
+              {
+                "type": "PLAINTEXT",
+                "text": "PRESIDEN REPUBLIK INDONESIA"
+              },
+              {
+                "type": "PLAINTEXT",
+                "text": "MEMUTUSKAN:"
+              },
+              {
+                "type": "PLAINTEXT",
+                "text": "Menetapkan:"
+              },
+              {
+                "type": "PLAINTEXT",
+                "text": "UNDANG-UNDANG TENTANG EKONOMI KREATIF"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "BAB",
+        "id": "bab-1",
+        "children": [
+          {
+            "type": "BAB_NUMBER",
+            "text": "BAB I"
+          },
+          {
+            "type": "BAB_TITLE",
+            "text": "KETENTUAN UMUM"
+          },
+          {
+            "type": "PASAL",
+            "id": "pasal-1",
+            "children": [
+              {
+                "type": "PASAL_NUMBER",
+                "text": "Pasal 1"
+              },
+              {
+                "type": "PLAINTEXT",
+                "text": "Dalam Undang-Undang ini yang dimaksud dengan:"
+              },
+              {
+                "type": "LIST",
+                "id": "",
+                "children": [
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "NUMBER_WITH_DOT",
+                        "text": "1."
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "Ekonomi Kreatif adalah perwujudan nilai tambah dari kekayaan intelektual yang bersumber dari kreativitas manusia yang berbasis warisan budaya, ilmu pengetahuan, dan/atau teknologi."
+                      }
+                    ]
+                  },
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "NUMBER_WITH_DOT",
+                        "text": "2."
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "Pelaku Ekonomi Kreatif adalah orang perseorangan atau kelompok orang warga negara Indonesia atau badan usaha berbadan hukum atau bukan berbadan hukum yang didirikan berdasarkan hukum Indonesia yang melakukan kegiatan Ekonomi Kreatif."
+                      }
+                    ]
+                  },
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "NUMBER_WITH_DOT",
+                        "text": "3."
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "Ekosistem Ekonomi Kreatif adalah keterhubungan sistem yang mendukung rantai nilai Ekonomi Kreatif, yaitu kreasi, produksi, distribusi, konsumsi, dan konservasi, yang dilakukan oleh Pelaku Ekonomi Kreatif untuk memberikan nilai tambah pada produknya sehingga berdaya saing tinggi, mudah diakses, dan terlindungi secara hukum."
+                      }
+                    ]
+                  },
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "NUMBER_WITH_DOT",
+                        "text": "4."
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "Pemerintah Pusat yang selanjutnya disebut Pemerintah adalah, Presiden Republik Indonesia yang memegang kekuasaan pemerintahan negara Republik Indonesia yang dibantu oleh Wakil Presiden dan menteri sebagaimana dimaksud dalam Undang-Undang Dasar Negara Republik Indonesia Tahun 1945."
+                      }
+                    ]
+                  },
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "NUMBER_WITH_DOT",
+                        "text": "5."
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "Pemerintah Daerah adalah kepala daerah sebagai unsur penyelenggara pemerintahan daerah yang memimpin pelaksanaan urusan pemerintahan yang menjadi kewenangan daerah otonom."
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "PASAL",
+            "id": "pasal-2",
+            "children": [
+              {
+                "type": "PASAL_NUMBER",
+                "text": "Pasal 2"
+              },
+              {
+                "type": "PLAINTEXT",
+                "text": "Pelaksanaan Ekonomi Kreatif harus berdasarkan Pancasila, Undang-Undang Dasar Negara Republik Indonesia Tahun 1945, Negara Kesatuan Republik Indonesia, dan Bhinneka Tunggal Ika."
+              }
+            ]
+          },
+          {
+            "type": "PASAL",
+            "id": "pasal-3",
+            "children": [
+              {
+                "type": "PASAL_NUMBER",
+                "text": "Pasal 3"
+              },
+              {
+                "type": "PLAINTEXT",
+                "text": "Pelaksanaan Ekonomi Kreatif berasaskan:"
+              },
+              {
+                "type": "LIST",
+                "id": "",
+                "children": [
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "LETTER_WITH_DOT",
+                        "text": "a."
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "keimanan dan ketakwaan kepada Tuhan Yang Maha Esa;"
+                      }
+                    ]
+                  },
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "LETTER_WITH_DOT",
+                        "text": "b."
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "manfaat;"
+                      }
+                    ]
+                  },
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "LETTER_WITH_DOT",
+                        "text": "c."
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "keadilan;"
+                      }
+                    ]
+                  },
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "LETTER_WITH_DOT",
+                        "text": "d."
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "berkelanjutan; dan"
+                      }
+                    ]
+                  },
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "LETTER_WITH_DOT",
+                        "text": "e."
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "identitas bangsa."
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "PASAL",
+            "id": "pasal-4",
+            "children": [
+              {
+                "type": "PASAL_NUMBER",
+                "text": "Pasal 4"
+              },
+              {
+                "type": "PLAINTEXT",
+                "text": "Undang-Undang Ekonomi Kreatif bertujuan:"
+              },
+              {
+                "type": "LIST",
+                "id": "",
+                "children": [
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "LETTER_WITH_DOT",
+                        "text": "a."
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "mendorong seluruh aspek Ekonomi Kreatif sesuai dengan perkembangan kebudayaan, teknologi, kreativitas, inovasi masyarakat Indonesia, dan perubahan lingkungan perekonomian global;"
+                      }
+                    ]
+                  },
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "LETTER_WITH_DOT",
+                        "text": "b."
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "menyejahterakan rakyat Indonesia dan meningkatkan pendapatan negara;"
+                      }
+                    ]
+                  },
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "LETTER_WITH_DOT",
+                        "text": "c."
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "menciptakan Ekosistem Ekonomi Kreatif yang berdaya saing global;"
+                      }
+                    ]
+                  },
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "LETTER_WITH_DOT",
+                        "text": "d."
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "menciptakan kesempatan kerja baru yang berpihak pada nilai seni dan budaya bangsa Indonesia serta sumber daya ekonomi lokal;"
+                      }
+                    ]
+                  },
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "LETTER_WITH_DOT",
+                        "text": "e."
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "mengoptimalkan potensi Pelaku Ekonomi Kreatif;"
+                      }
+                    ]
+                  },
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "LETTER_WITH_DOT",
+                        "text": "f."
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "melindungi hasil kreativitas Pelaku Ekonomi Kreatif; dan"
+                      }
+                    ]
+                  },
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "LETTER_WITH_DOT",
+                        "text": "g."
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "mengarusutamakan Ekonomi Kreatif dalam Rencana Pembangunan Nasional."
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "BAB",
+        "id": "bab-2",
+        "children": [
+          {
+            "type": "BAB_NUMBER",
+            "text": "BAB II"
+          },
+          {
+            "type": "BAB_TITLE",
+            "text": "PELAKU EKONOMI KREATIF"
+          },
+          {
+            "type": "PASAL",
+            "id": "pasal-5",
+            "children": [
+              {
+                "type": "PASAL_NUMBER",
+                "text": "Pasal 5"
+              },
+              {
+                "type": "PLAINTEXT",
+                "text": "Setiap Pelaku Ekonomi Kreatif berhak memperoleh dukungan dari Pemerintah dan/atau Pemerintah Daerah melalui pengembangan Ekosistem Ekonomi Kreatif."
+              }
+            ]
+          },
+          {
+            "type": "PASAL",
+            "id": "pasal-6",
+            "children": [
+              {
+                "type": "PASAL_NUMBER",
+                "text": "Pasal 6"
+              },
+              {
+                "type": "PLAINTEXT",
+                "text": "Pelaku Ekonomi Kreatif terdiri atas:"
+              },
+              {
+                "type": "LIST",
+                "id": "",
+                "children": [
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "LETTER_WITH_DOT",
+                        "text": "a."
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "pelaku kreasi; dan"
+                      }
+                    ]
+                  },
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "LETTER_WITH_DOT",
+                        "text": "b."
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "pengelola kekayaan intelektual."
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "PASAL",
+            "id": "pasal-7",
+            "children": [
+              {
+                "type": "PASAL_NUMBER",
+                "text": "Pasal 7"
+              },
+              {
+                "type": "PLAINTEXT",
+                "text": "Pemerintah dan/atau Pemerintah Daerah melakukan pengembangan kapasitas Pelaku Ekonomi Kreatif melalui:"
+              },
+              {
+                "type": "LIST",
+                "id": "",
+                "children": [
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "LETTER_WITH_DOT",
+                        "text": "a."
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "pelatihan, pembimbingan teknis, dan pendampingan untuk meningkatkan kemampuan teknis dan manajerial Pelaku Ekonomi Kreatif;"
+                      }
+                    ]
+                  },
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "LETTER_WITH_DOT",
+                        "text": "b."
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "dukungan fasilitasi untuk menghadapi perkembangan teknologi di dunia usaha; dan"
+                      }
+                    ]
+                  },
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "LETTER_WITH_DOT",
+                        "text": "c."
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "standardisasi usaha dan sertifikasi profesi bidang Ekonomi Kreatif."
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "PASAL",
+            "id": "pasal-8",
+            "children": [
+              {
+                "type": "PASAL_NUMBER",
+                "text": "Pasal 8"
+              },
+              {
+                "type": "PLAINTEXT",
+                "text": "Pengembangan kapasitas Pelaku Ekonomi Kreatif sebagaimana dimaksud dalam Pasal 7 dilaksanakan sesuai dengan ketentuan peraturan perundang-undangan."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "BAB",
+        "id": "bab-3",
+        "children": [
+          {
+            "type": "BAB_NUMBER",
+            "text": "BAB III"
+          },
+          {
+            "type": "BAB_TITLE",
+            "text": "EKOSISTEM EKONOMI KREATIF"
+          },
+          {
+            "type": "BAGIAN",
+            "id": "bab-3-bagian-1",
+            "children": [
+              {
+                "type": "BAGIAN_NUMBER",
+                "text": "Bagian Kesatu"
+              },
+              {
+                "type": "BAGIAN_TITLE",
+                "text": "Umum"
+              },
+              {
+                "type": "PASAL",
+                "id": "pasal-9",
+                "children": [
+                  {
+                    "type": "PASAL_NUMBER",
+                    "text": "Pasal 9"
+                  },
+                  {
+                    "type": "PLAINTEXT",
+                    "text": "Pemerintah dan/atau Pemerintah Daerah bertanggung jawab dalam mengembangkan Ekosistem Ekonomi Kreatif."
+                  }
+                ]
+              },
+              {
+                "type": "PASAL",
+                "id": "pasal-10",
+                "children": [
+                  {
+                    "type": "PASAL_NUMBER",
+                    "text": "Pasal 10"
+                  },
+                  {
+                    "type": "PLAINTEXT",
+                    "text": "Pengembangan Ekosistem Ekonomi Kreatif dilakukan melalui:"
+                  },
+                  {
+                    "type": "LIST",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "LIST_ITEM",
+                        "id": "",
+                        "children": [
+                          {
+                            "type": "LETTER_WITH_DOT",
+                            "text": "a."
+                          },
+                          {
+                            "type": "PLAINTEXT",
+                            "text": "pengembangan riset;"
+                          }
+                        ]
+                      },
+                      {
+                        "type": "LIST_ITEM",
+                        "id": "",
+                        "children": [
+                          {
+                            "type": "LETTER_WITH_DOT",
+                            "text": "b."
+                          },
+                          {
+                            "type": "PLAINTEXT",
+                            "text": "pengembangan pendidikan;"
+                          }
+                        ]
+                      },
+                      {
+                        "type": "LIST_ITEM",
+                        "id": "",
+                        "children": [
+                          {
+                            "type": "LETTER_WITH_DOT",
+                            "text": "c."
+                          },
+                          {
+                            "type": "PLAINTEXT",
+                            "text": "fasilitasi pendanaan dan pembiayaan;"
+                          }
+                        ]
+                      },
+                      {
+                        "type": "LIST_ITEM",
+                        "id": "",
+                        "children": [
+                          {
+                            "type": "LETTER_WITH_DOT",
+                            "text": "d."
+                          },
+                          {
+                            "type": "PLAINTEXT",
+                            "text": "penyediaan infrastruktur;"
+                          }
+                        ]
+                      },
+                      {
+                        "type": "LIST_ITEM",
+                        "id": "",
+                        "children": [
+                          {
+                            "type": "LETTER_WITH_DOT",
+                            "text": "e."
+                          },
+                          {
+                            "type": "PLAINTEXT",
+                            "text": "pengembangan sistem pemasaran;"
+                          }
+                        ]
+                      },
+                      {
+                        "type": "LIST_ITEM",
+                        "id": "",
+                        "children": [
+                          {
+                            "type": "LETTER_WITH_DOT",
+                            "text": "f."
+                          },
+                          {
+                            "type": "PLAINTEXT",
+                            "text": "pemberian insentif;"
+                          }
+                        ]
+                      },
+                      {
+                        "type": "LIST_ITEM",
+                        "id": "",
+                        "children": [
+                          {
+                            "type": "LETTER_WITH_DOT",
+                            "text": "g."
+                          },
+                          {
+                            "type": "PLAINTEXT",
+                            "text": "fasilitasi kekayaan intelektual; dan"
+                          }
+                        ]
+                      },
+                      {
+                        "type": "LIST_ITEM",
+                        "id": "",
+                        "children": [
+                          {
+                            "type": "LETTER_WITH_DOT",
+                            "text": "h."
+                          },
+                          {
+                            "type": "PLAINTEXT",
+                            "text": "pelindungan hasil kreativitas."
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "BAGIAN",
+            "id": "bab-3-bagian-2",
+            "children": [
+              {
+                "type": "BAGIAN_NUMBER",
+                "text": "Bagian Kedua"
+              },
+              {
+                "type": "BAGIAN_TITLE",
+                "text": "Pengembangan Riset"
+              },
+              {
+                "type": "PASAL",
+                "id": "pasal-11",
+                "children": [
+                  {
+                    "type": "PASAL_NUMBER",
+                    "text": "Pasal 11"
+                  },
+                  {
+                    "type": "LIST",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "LIST_ITEM",
+                        "id": "",
+                        "children": [
+                          {
+                            "type": "NUMBER_WITH_BRACKETS",
+                            "text": "(1)"
+                          },
+                          {
+                            "type": "PLAINTEXT",
+                            "text": "Pemerintah dan/atau Pemerintah Daerah bertanggung jawab terhadap pengembangan riset Ekonomi Kreatif."
+                          }
+                        ]
+                      },
+                      {
+                        "type": "LIST_ITEM",
+                        "id": "",
+                        "children": [
+                          {
+                            "type": "NUMBER_WITH_BRACKETS",
+                            "text": "(2)"
+                          },
+                          {
+                            "type": "PLAINTEXT",
+                            "text": "Pengembangan riset sebagaimana dimaksud pada ayat (1) dapat dilakukan oleh lembaga penelitian dan pengembangan, perguruan tinggi, dan/atau masyarakat."
+                          }
+                        ]
+                      },
+                      {
+                        "type": "LIST_ITEM",
+                        "id": "",
+                        "children": [
+                          {
+                            "type": "NUMBER_WITH_BRACKETS",
+                            "text": "(3)"
+                          },
+                          {
+                            "type": "PLAINTEXT",
+                            "text": "Hasil pengembangan riset sebagaimana dimaksud pada ayat (2) digunakan sebagai pembuatan kebijakan di bidang Ekonomi Kreatif."
+                          }
+                        ]
+                      },
+                      {
+                        "type": "LIST_ITEM",
+                        "id": "",
+                        "children": [
+                          {
+                            "type": "NUMBER_WITH_BRACKETS",
+                            "text": "(4)"
+                          },
+                          {
+                            "type": "PLAINTEXT",
+                            "text": "Pengembangan riset Ekonomi Kreatif sebagaimana dimaksud pada ayat (2) dilaksanakan sesuai dengan ketentuan peraturan perundang-undangan."
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "BAGIAN",
+            "id": "bab-3-bagian-3",
+            "children": [
+              {
+                "type": "BAGIAN_NUMBER",
+                "text": "Bagian Ketiga"
+              },
+              {
+                "type": "BAGIAN_TITLE",
+                "text": "Pengembangan Pendidikan"
+              },
+              {
+                "type": "PASAL",
+                "id": "pasal-12",
+                "children": [
+                  {
+                    "type": "PASAL_NUMBER",
+                    "text": "Pasal 12"
+                  },
+                  {
+                    "type": "PLAINTEXT",
+                    "text": "Sistem pengembangan pendidikan Ekonomi Kreatif disusun untuk menciptakan dan meningkatkan kualitas Pelaku Ekonomi Kreatif yang mampu bersaing dalam skala global."
+                  }
+                ]
+              },
+              {
+                "type": "PASAL",
+                "id": "pasal-13",
+                "children": [
+                  {
+                    "type": "PASAL_NUMBER",
+                    "text": "Pasal 13"
+                  },
+                  {
+                    "type": "PLAINTEXT",
+                    "text": "Pendidikan kreativitas, inovasi, dan kewirausahaan di bidang Ekonomi Kreatif dikembangkan berdasarkan sistem pendidikan nasional melalui:"
+                  },
+                  {
+                    "type": "LIST",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "LIST_ITEM",
+                        "id": "",
+                        "children": [
+                          {
+                            "type": "LETTER_WITH_DOT",
+                            "text": "a."
+                          },
+                          {
+                            "type": "PLAINTEXT",
+                            "text": "intrakurikuler, kokurikuler, atau ekstrakurikuler dalam jalur pendidikan formal; dan"
+                          }
+                        ]
+                      },
+                      {
+                        "type": "LIST_ITEM",
+                        "id": "",
+                        "children": [
+                          {
+                            "type": "LETTER_WITH_DOT",
+                            "text": "b."
+                          },
+                          {
+                            "type": "PLAINTEXT",
+                            "text": "intrakurikuler dan kokurikuler dalam jalur pendidikan nonformal."
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "BAGIAN",
+            "id": "bab-3-bagian-4",
+            "children": [
+              {
+                "type": "BAGIAN_NUMBER",
+                "text": "Bagian Keempat"
+              },
+              {
+                "type": "BAGIAN_TITLE",
+                "text": "Fasilitasi Pendanaan dan Pembiayaan"
+              },
+              {
+                "type": "PASAL",
+                "id": "pasal-14",
+                "children": [
+                  {
+                    "type": "PASAL_NUMBER",
+                    "text": "Pasal 14"
+                  },
+                  {
+                    "type": "PLAINTEXT",
+                    "text": "Pendanaan untuk kegiatan Ekonomi Kreatif bersumber dari:"
+                  },
+                  {
+                    "type": "LIST",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "LIST_ITEM",
+                        "id": "",
+                        "children": [
+                          {
+                            "type": "LETTER_WITH_DOT",
+                            "text": "a."
+                          },
+                          {
+                            "type": "PLAINTEXT",
+                            "text": "anggaran pendapatan dan belanja negara;"
+                          }
+                        ]
+                      },
+                      {
+                        "type": "LIST_ITEM",
+                        "id": "",
+                        "children": [
+                          {
+                            "type": "LETTER_WITH_DOT",
+                            "text": "b."
+                          },
+                          {
+                            "type": "PLAINTEXT",
+                            "text": "anggaran pendapatan dan belanja daerah; dan/atau"
+                          }
+                        ]
+                      },
+                      {
+                        "type": "LIST_ITEM",
+                        "id": "",
+                        "children": [
+                          {
+                            "type": "LETTER_WITH_DOT",
+                            "text": "c."
+                          },
+                          {
+                            "type": "PLAINTEXT",
+                            "text": "dana lainnya yang sah sesuai dengan ketentuan peraturan perundang-undangan."
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "PASAL",
+                "id": "pasal-15",
+                "children": [
+                  {
+                    "type": "PASAL_NUMBER",
+                    "text": "Pasal 15"
+                  },
+                  {
+                    "type": "LIST",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "LIST_ITEM",
+                        "id": "",
+                        "children": [
+                          {
+                            "type": "NUMBER_WITH_BRACKETS",
+                            "text": "(1)"
+                          },
+                          {
+                            "type": "PLAINTEXT",
+                            "text": "Pembiayaan Ekonomi Kreatif bersumber dari:"
+                          },
+                          {
+                            "type": "LIST",
+                            "id": "",
+                            "children": [
+                              {
+                                "type": "LIST_ITEM",
+                                "id": "",
+                                "children": [
+                                  {
+                                    "type": "LETTER_WITH_DOT",
+                                    "text": "a."
+                                  },
+                                  {
+                                    "type": "PLAINTEXT",
+                                    "text": "anggaran pendapatan dan belanja negara;"
+                                  }
+                                ]
+                              },
+                              {
+                                "type": "LIST_ITEM",
+                                "id": "",
+                                "children": [
+                                  {
+                                    "type": "LETTER_WITH_DOT",
+                                    "text": "b."
+                                  },
+                                  {
+                                    "type": "PLAINTEXT",
+                                    "text": "anggaran pendapatan dan belanja daerah; dan/atau"
+                                  }
+                                ]
+                              },
+                              {
+                                "type": "LIST_ITEM",
+                                "id": "",
+                                "children": [
+                                  {
+                                    "type": "LETTER_WITH_DOT",
+                                    "text": "c."
+                                  },
+                                  {
+                                    "type": "PLAINTEXT",
+                                    "text": "sumber lainnya yang sah."
+                                  }
+                                ]
+                              }
+                            ]
+                          }
+                        ]
+                      },
+                      {
+                        "type": "LIST_ITEM",
+                        "id": "",
+                        "children": [
+                          {
+                            "type": "NUMBER_WITH_BRACKETS",
+                            "text": "(2)"
+                          },
+                          {
+                            "type": "PLAINTEXT",
+                            "text": "Pembiayaan sebagaimana dimaksud pada ayat (1) huruf a dan huruf b disalurkan melalui lembaga keuangan bank dan nonbank."
+                          }
+                        ]
+                      },
+                      {
+                        "type": "LIST_ITEM",
+                        "id": "",
+                        "children": [
+                          {
+                            "type": "NUMBER_WITH_BRACKETS",
+                            "text": "(3)"
+                          },
+                          {
+                            "type": "PLAINTEXT",
+                            "text": "Pembiayaan yang bersumber dari sumber lainnya yang sah sebagaimana dimaksud pada ayat (1) huruf c tidak mengikat dan sesuai dengan ketentuan peraturan perundang-undangan."
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "PASAL",
+                "id": "pasal-16",
+                "children": [
+                  {
+                    "type": "PASAL_NUMBER",
+                    "text": "Pasal 16"
+                  },
+                  {
+                    "type": "LIST",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "LIST_ITEM",
+                        "id": "",
+                        "children": [
+                          {
+                            "type": "NUMBER_WITH_BRACKETS",
+                            "text": "(1)"
+                          },
+                          {
+                            "type": "PLAINTEXT",
+                            "text": "Pemerintah memfasilitasi skema pembiayaan berbasis kekayaan intelektual bagi Pelaku Ekonomi Kreatif."
+                          }
+                        ]
+                      },
+                      {
+                        "type": "LIST_ITEM",
+                        "id": "",
+                        "children": [
+                          {
+                            "type": "NUMBER_WITH_BRACKETS",
+                            "text": "(2)"
+                          },
+                          {
+                            "type": "PLAINTEXT",
+                            "text": "Ketentuan mengenai skema pembiayaan berbasis kekayaan intelektual sebagaimana dimaksud pada ayat (1) diatur dengan Peraturan Pemerintah."
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "PASAL",
+                "id": "pasal-17",
+                "children": [
+                  {
+                    "type": "PASAL_NUMBER",
+                    "text": "Pasal 17"
+                  },
+                  {
+                    "type": "PLAINTEXT",
+                    "text": "Selain memfasilitasi skema pembiayaan sebagaimana dimaksud dalam Pasal 16, Pemerintah dan/atau Pemerintah Daerah dapat mengembangkan sumber pembiayaan alternatif di luar mekanisme lembaga pembiayaan."
+                  }
+                ]
+              },
+              {
+                "type": "PASAL",
+                "id": "pasal-18",
+                "children": [
+                  {
+                    "type": "PASAL_NUMBER",
+                    "text": "Pasal 18"
+                  },
+                  {
+                    "type": "LIST",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "LIST_ITEM",
+                        "id": "",
+                        "children": [
+                          {
+                            "type": "NUMBER_WITH_BRACKETS",
+                            "text": "(1)"
+                          },
+                          {
+                            "type": "PLAINTEXT",
+                            "text": "Dalam pengembangan Ekonomi Kreatif, Pemerintah atau Pemerintah Daerah dapat membentuk Badan Layanan Umum."
+                          }
+                        ]
+                      },
+                      {
+                        "type": "LIST_ITEM",
+                        "id": "",
+                        "children": [
+                          {
+                            "type": "NUMBER_WITH_BRACKETS",
+                            "text": "(2)"
+                          },
+                          {
+                            "type": "PLAINTEXT",
+                            "text": "Pembentukan Badan Layanan Umum sebagaimana dimaksud pada ayat (1) dilaksanakan sesuai dengan ketentuan peraturan perundang-undangan."
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "BAGIAN",
+            "id": "bab-3-bagian-5",
+            "children": [
+              {
+                "type": "BAGIAN_NUMBER",
+                "text": "Bagian Kelima"
+              },
+              {
+                "type": "BAGIAN_TITLE",
+                "text": "Penyediaan Infrastruktur"
+              },
+              {
+                "type": "PASAL",
+                "id": "pasal-19",
+                "children": [
+                  {
+                    "type": "PASAL_NUMBER",
+                    "text": "Pasal 19"
+                  },
+                  {
+                    "type": "PLAINTEXT",
+                    "text": "Pemerintah dan/atau Pemerintah Daerah mendorong tersedianya infrastruktur Ekonomi Kreatif yang memadai untuk Ekonomi Kreatif."
+                  }
+                ]
+              },
+              {
+                "type": "PASAL",
+                "id": "pasal-20",
+                "children": [
+                  {
+                    "type": "PASAL_NUMBER",
+                    "text": "Pasal 20"
+                  },
+                  {
+                    "type": "PLAINTEXT",
+                    "text": "Infrastruktur Ekonomi Kreatif sebagaimana dimaksud dalam Pasal 19 terdiri atas:"
+                  },
+                  {
+                    "type": "LIST",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "LIST_ITEM",
+                        "id": "",
+                        "children": [
+                          {
+                            "type": "LETTER_WITH_DOT",
+                            "text": "a."
+                          },
+                          {
+                            "type": "PLAINTEXT",
+                            "text": "infrastruktur fisik; dan"
+                          }
+                        ]
+                      },
+                      {
+                        "type": "LIST_ITEM",
+                        "id": "",
+                        "children": [
+                          {
+                            "type": "LETTER_WITH_DOT",
+                            "text": "b."
+                          },
+                          {
+                            "type": "PLAINTEXT",
+                            "text": "infrastruktur teknologi informasi dan komunikasi."
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "BAGIAN",
+            "id": "bab-3-bagian-6",
+            "children": [
+              {
+                "type": "BAGIAN_NUMBER",
+                "text": "Bagian Keenam"
+              },
+              {
+                "type": "BAGIAN_TITLE",
+                "text": "Pengembangan Sistem Pemasaran"
+              },
+              {
+                "type": "PASAL",
+                "id": "pasal-21",
+                "children": [
+                  {
+                    "type": "PASAL_NUMBER",
+                    "text": "Pasal 21"
+                  },
+                  {
+                    "type": "LIST",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "LIST_ITEM",
+                        "id": "",
+                        "children": [
+                          {
+                            "type": "NUMBER_WITH_BRACKETS",
+                            "text": "(1)"
+                          },
+                          {
+                            "type": "PLAINTEXT",
+                            "text": "Pemerintah dan/atau Pemerintah Daerah memfasilitasi pengembangan sistem pemasaran produk Ekonomi Kreatif berbasis kekayaan intelektual."
+                          }
+                        ]
+                      },
+                      {
+                        "type": "LIST_ITEM",
+                        "id": "",
+                        "children": [
+                          {
+                            "type": "NUMBER_WITH_BRACKETS",
+                            "text": "(2)"
+                          },
+                          {
+                            "type": "PLAINTEXT",
+                            "text": "Ketentuan mengenai fasilitasi pengembangan sistem pemasaran produk Ekonomi Kreatif berbasis kekayaan intelektual sebagaimana dimaksud pada ayat (1) diatur dengan Peraturan Pemerintah."
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "BAGIAN",
+            "id": "bab-3-bagian-7",
+            "children": [
+              {
+                "type": "BAGIAN_NUMBER",
+                "text": "Bagian Ketujuh"
+              },
+              {
+                "type": "BAGIAN_TITLE",
+                "text": "Pemberian Insentif"
+              },
+              {
+                "type": "PASAL",
+                "id": "pasal-22",
+                "children": [
+                  {
+                    "type": "PASAL_NUMBER",
+                    "text": "Pasal 22"
+                  },
+                  {
+                    "type": "LIST",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "LIST_ITEM",
+                        "id": "",
+                        "children": [
+                          {
+                            "type": "NUMBER_WITH_BRACKETS",
+                            "text": "(1)"
+                          },
+                          {
+                            "type": "PLAINTEXT",
+                            "text": "Pemerintah dan/atau Pemerintah Daerah dapat memberikan insentif kepada Pelaku Ekonomi Kreatif."
+                          }
+                        ]
+                      },
+                      {
+                        "type": "LIST_ITEM",
+                        "id": "",
+                        "children": [
+                          {
+                            "type": "NUMBER_WITH_BRACKETS",
+                            "text": "(2)"
+                          },
+                          {
+                            "type": "PLAINTEXT",
+                            "text": "Insentif sebagaimana dimaksud pada ayat (1) berupa:"
+                          },
+                          {
+                            "type": "LIST",
+                            "id": "",
+                            "children": [
+                              {
+                                "type": "LIST_ITEM",
+                                "id": "",
+                                "children": [
+                                  {
+                                    "type": "LETTER_WITH_DOT",
+                                    "text": "a."
+                                  },
+                                  {
+                                    "type": "PLAINTEXT",
+                                    "text": "fiskal; dan/atau"
+                                  }
+                                ]
+                              },
+                              {
+                                "type": "LIST_ITEM",
+                                "id": "",
+                                "children": [
+                                  {
+                                    "type": "LETTER_WITH_DOT",
+                                    "text": "b."
+                                  },
+                                  {
+                                    "type": "PLAINTEXT",
+                                    "text": "nonfiskal."
+                                  }
+                                ]
+                              }
+                            ]
+                          }
+                        ]
+                      },
+                      {
+                        "type": "LIST_ITEM",
+                        "id": "",
+                        "children": [
+                          {
+                            "type": "NUMBER_WITH_BRACKETS",
+                            "text": "(3)"
+                          },
+                          {
+                            "type": "PLAINTEXT",
+                            "text": "Pemberian insentif sebagaimana dimaksud pada ayat (2) dilaksanakan sesuai dengan ketentuan peraturan perundang-undangan."
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "BAGIAN",
+            "id": "bab-3-bagian-8",
+            "children": [
+              {
+                "type": "BAGIAN_NUMBER",
+                "text": "Bagian Kedelapan"
+              },
+              {
+                "type": "BAGIAN_TITLE",
+                "text": "Fasilitasi Kekayaan Intelektual"
+              },
+              {
+                "type": "PASAL",
+                "id": "pasal-23",
+                "children": [
+                  {
+                    "type": "PASAL_NUMBER",
+                    "text": "Pasal 23"
+                  },
+                  {
+                    "type": "LIST",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "LIST_ITEM",
+                        "id": "",
+                        "children": [
+                          {
+                            "type": "NUMBER_WITH_BRACKETS",
+                            "text": "(1)"
+                          },
+                          {
+                            "type": "PLAINTEXT",
+                            "text": "Pemerintah dan/atau Pemerintah Daerah memfasilitasi pencatatan atas hak cipta dan hak terkait serta pendaftaran hak kekayaan industri kepada Pelaku Ekonomi Kreatif."
+                          }
+                        ]
+                      },
+                      {
+                        "type": "LIST_ITEM",
+                        "id": "",
+                        "children": [
+                          {
+                            "type": "NUMBER_WITH_BRACKETS",
+                            "text": "(2)"
+                          },
+                          {
+                            "type": "PLAINTEXT",
+                            "text": "Pemerintah dan/atau Pemerintah Daerah memfasilitasi pemanfaatan kekayaan intelektual kepada Pelaku Ekonomi Kreatif."
+                          }
+                        ]
+                      },
+                      {
+                        "type": "LIST_ITEM",
+                        "id": "",
+                        "children": [
+                          {
+                            "type": "NUMBER_WITH_BRACKETS",
+                            "text": "(3)"
+                          },
+                          {
+                            "type": "PLAINTEXT",
+                            "text": "Fasilitasi sebagaimana dimaksud pada ayat (1) dan ayat (2) dilaksanakan sesuai dengan ketentuan peraturan perundang-undangan."
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "BAGIAN",
+            "id": "bab-3-bagian-9",
+            "children": [
+              {
+                "type": "BAGIAN_NUMBER",
+                "text": "Bagian Kesembilan"
+              },
+              {
+                "type": "BAGIAN_TITLE",
+                "text": "Pelindungan Hasil Kreativitas"
+              },
+              {
+                "type": "PASAL",
+                "id": "pasal-24",
+                "children": [
+                  {
+                    "type": "PASAL_NUMBER",
+                    "text": "Pasal 24"
+                  },
+                  {
+                    "type": "LIST",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "LIST_ITEM",
+                        "id": "",
+                        "children": [
+                          {
+                            "type": "NUMBER_WITH_BRACKETS",
+                            "text": "(1)"
+                          },
+                          {
+                            "type": "PLAINTEXT",
+                            "text": "Pemerintah dan/atau Pemerintah Daerah melindungi hasil kreativitas Pelaku Ekonomi Kreatif yang berupa kekayaan intelektual."
+                          }
+                        ]
+                      },
+                      {
+                        "type": "LIST_ITEM",
+                        "id": "",
+                        "children": [
+                          {
+                            "type": "NUMBER_WITH_BRACKETS",
+                            "text": "(2)"
+                          },
+                          {
+                            "type": "PLAINTEXT",
+                            "text": "Pelindungan sebagaimana dimaksud pada ayat (1) dilaksanakan sesuai dengan ketentuan peraturan perundang-undangan."
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "BAB",
+        "id": "bab-4",
+        "children": [
+          {
+            "type": "BAB_NUMBER",
+            "text": "BAB IV"
+          },
+          {
+            "type": "BAB_TITLE",
+            "text": "RENCANA INDUK EKONOMI KREATIF"
+          },
+          {
+            "type": "PASAL",
+            "id": "pasal-25",
+            "children": [
+              {
+                "type": "PASAL_NUMBER",
+                "text": "Pasal 25"
+              },
+              {
+                "type": "LIST",
+                "id": "",
+                "children": [
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "NUMBER_WITH_BRACKETS",
+                        "text": "(1)"
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "Ekonomi Kreatif dilaksanakan berdasarkan Rencana Induk Ekonomi Kreatif."
+                      }
+                    ]
+                  },
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "NUMBER_WITH_BRACKETS",
+                        "text": "(2)"
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "Rencana Induk Ekonomi Kreatif sebagaimana dimaksud pada ayat (1) disusun oleh Pemerintah."
+                      }
+                    ]
+                  },
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "NUMBER_WITH_BRACKETS",
+                        "text": "(3)"
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "Rencana Induk Ekonomi Kreatif sebagaimana dimaksud pada ayat (1) merupakan bagian integral dari Rencana Pembangunan Jangka Panjang Nasional."
+                      }
+                    ]
+                  },
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "NUMBER_WITH_BRACKETS",
+                        "text": "(4)"
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "Rencana Induk Ekonomi Kreatif paling sedikit memuat:"
+                      },
+                      {
+                        "type": "LIST",
+                        "id": "",
+                        "children": [
+                          {
+                            "type": "LIST_ITEM",
+                            "id": "",
+                            "children": [
+                              {
+                                "type": "LETTER_WITH_DOT",
+                                "text": "a."
+                              },
+                              {
+                                "type": "PLAINTEXT",
+                                "text": "prinsip pengembangan Ekonomi Kreatif sesuai dengan tujuan pembangunan berkelanjutan;"
+                              }
+                            ]
+                          },
+                          {
+                            "type": "LIST_ITEM",
+                            "id": "",
+                            "children": [
+                              {
+                                "type": "LETTER_WITH_DOT",
+                                "text": "b."
+                              },
+                              {
+                                "type": "PLAINTEXT",
+                                "text": "visi dan misi;"
+                              }
+                            ]
+                          },
+                          {
+                            "type": "LIST_ITEM",
+                            "id": "",
+                            "children": [
+                              {
+                                "type": "LETTER_WITH_DOT",
+                                "text": "c."
+                              },
+                              {
+                                "type": "PLAINTEXT",
+                                "text": "tujuan dan ruang lingkup; dan"
+                              }
+                            ]
+                          },
+                          {
+                            "type": "LIST_ITEM",
+                            "id": "",
+                            "children": [
+                              {
+                                "type": "LETTER_WITH_DOT",
+                                "text": "d."
+                              },
+                              {
+                                "type": "PLAINTEXT",
+                                "text": "arah kebijakan, sasaran, strategi, dan pemangku kepentingan."
+                              }
+                            ]
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "NUMBER_WITH_BRACKETS",
+                        "text": "(5)"
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "Rencana Induk Ekonomi Kreatif disusun untuk jangka waktu 20 (dua puluh) tahun dan dapat ditinjau kembali setiap 5 (lima) tahun."
+                      }
+                    ]
+                  },
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "NUMBER_WITH_BRACKETS",
+                        "text": "(6)"
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "Ketentuan lebih lanjut mengenai Rencana Induk Ekonomi Kreatif diatur dengan Peraturan Presiden."
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "PASAL",
+            "id": "pasal-26",
+            "children": [
+              {
+                "type": "PASAL_NUMBER",
+                "text": "Pasal 26"
+              },
+              {
+                "type": "LIST",
+                "id": "",
+                "children": [
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "NUMBER_WITH_BRACKETS",
+                        "text": "(1)"
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "Pengembangan Ekonomi Kreatif dituangkan dalam Rencana Induk Ekonomi Kreatif dan dijadikan sebagai pedoman bagi Pemerintah dan Pemerintah Daerah."
+                      }
+                    ]
+                  },
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "NUMBER_WITH_BRACKETS",
+                        "text": "(2)"
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "Pengembangan Ekonomi Kreatif di daerah diintegrasikan ke dalam dokumen perencanaan pembangunan daerah."
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "PASAL",
+            "id": "pasal-27",
+            "children": [
+              {
+                "type": "PASAL_NUMBER",
+                "text": "Pasal 27"
+              },
+              {
+                "type": "PLAINTEXT",
+                "text": "Dalam mengembangkan Ekonomi Kreatif, Pemerintah dan/atau Pemerintah Daerah dapat bekerja sama dengan lembaga pendidikan, dunia usaha, dunia industri, jejaring komunitas, dan/atau media."
+              }
+            ]
+          },
+          {
+            "type": "PASAL",
+            "id": "pasal-28",
+            "children": [
+              {
+                "type": "PASAL_NUMBER",
+                "text": "Pasal 28"
+              },
+              {
+                "type": "LIST",
+                "id": "",
+                "children": [
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "NUMBER_WITH_BRACKETS",
+                        "text": "(1)"
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "Dalam mengembangkan Ekonomi Kreatif sebagaimana dimaksud dalam Pasal 27, Pemerintah dan/atau Pemerintah Daerah dapat melakukan kerja sama internasional."
+                      }
+                    ]
+                  },
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "NUMBER_WITH_BRACKETS",
+                        "text": "(2)"
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "Kerja sama sebagaimana dimaksud pada ayat (1) dilaksanakan sesuai dengan ketentuan peraturan perundang-undangan."
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "BAB",
+        "id": "bab-5",
+        "children": [
+          {
+            "type": "BAB_NUMBER",
+            "text": "BAB V"
+          },
+          {
+            "type": "BAB_TITLE",
+            "text": "KELEMBAGAAN"
+          },
+          {
+            "type": "PASAL",
+            "id": "pasal-29",
+            "children": [
+              {
+                "type": "PASAL_NUMBER",
+                "text": "Pasal 29"
+              },
+              {
+                "type": "PLAINTEXT",
+                "text": "Tugas pemerintahan di bidang Ekonomi Kreatif dilaksanakan oleh Pemerintah dan Pemerintah Daerah sesuai dengan ketentuan peraturan perundang-undangan."
+              }
+            ]
+          },
+          {
+            "type": "PASAL",
+            "id": "pasal-30",
+            "children": [
+              {
+                "type": "PASAL_NUMBER",
+                "text": "Pasal 30"
+              },
+              {
+                "type": "LIST",
+                "id": "",
+                "children": [
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "NUMBER_WITH_BRACKETS",
+                        "text": "(1)"
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "Tugas Pemerintah di bidang Ekonomi Kreatif dilaksanakan oleh kementerian/lembaga."
+                      }
+                    ]
+                  },
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "NUMBER_WITH_BRACKETS",
+                        "text": "(2)"
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "Ketentuan lebih lanjut mengenai kementerian/lembaga sebagaimana dimaksud pada ayat (1) diatur dengan Peraturan Presiden."
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "BAB",
+        "id": "bab-6",
+        "children": [
+          {
+            "type": "BAB_NUMBER",
+            "text": "BAB VI"
+          },
+          {
+            "type": "BAB_TITLE",
+            "text": "KETENTUAN PERALIHAN"
+          },
+          {
+            "type": "PASAL",
+            "id": "pasal-31",
+            "children": [
+              {
+                "type": "PASAL_NUMBER",
+                "text": "Pasal 31"
+              },
+              {
+                "type": "PLAINTEXT",
+                "text": "Pada saat Undang-Undang ini mulai berlaku, pelaksanaan tugas pemerintahan di bidang Ekonomi Kreatif tetap dilaksanakan oleh badan yang dibentuk berdasarkan Peraturan Presiden Nomor 6 Tahun 2015 tentang Badan Ekonomi Kreatif sebagaimana telah diubah dengan Peraturan Presiden Nomor 72 Tahun 2015 tentang Perubahan atas Peraturan Presiden Nomor 6 Tahun 2015 tentang Badan Ekonomi Kreatif, sampai dengan dibentuknya kementerian/lembaga yang melaksanakan urusan pemerintahan di bidang Ekonomi Kreatif berdasarkan Undang-Undang ini."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "BAB",
+        "id": "bab-7",
+        "children": [
+          {
+            "type": "BAB_NUMBER",
+            "text": "BAB VII"
+          },
+          {
+            "type": "BAB_TITLE",
+            "text": "KETENTUAN PENUTUP"
+          },
+          {
+            "type": "PASAL",
+            "id": "pasal-32",
+            "children": [
+              {
+                "type": "PASAL_NUMBER",
+                "text": "Pasal 32"
+              },
+              {
+                "type": "PLAINTEXT",
+                "text": "Pada saat Undang-Undang ini mulai berlaku, semua peraturan perundang-undangan yang mengatur mengenai Ekonomi Kreatif dinyatakan masih tetap berlaku sepanjang tidak bertentangan dengan ketentuan dalam Undang-Undang ini."
+              }
+            ]
+          },
+          {
+            "type": "PASAL",
+            "id": "pasal-33",
+            "children": [
+              {
+                "type": "PASAL_NUMBER",
+                "text": "Pasal 33"
+              },
+              {
+                "type": "PLAINTEXT",
+                "text": "Peraturan pelaksanaan dari Undang-Undang ini harus ditetapkan paling lama 2 (dua) tahun terhitung sejak Undang-Undang ini diundangkan."
+              }
+            ]
+          },
+          {
+            "type": "PASAL",
+            "id": "pasal-34",
+            "children": [
+              {
+                "type": "PASAL_NUMBER",
+                "text": "Pasal 34"
+              },
+              {
+                "type": "PLAINTEXT",
+                "text": "Undang-Undang ini mulai berlaku pada tanggal diundangkan."
+              },
+              {
+                "type": "PLAINTEXT",
+                "text": "Agar setiap orang mengetahuinya, memerintahkan pengundangan Undang-Undang ini dengan penempatannya dalam Lembaran Negara Republik Indonesia."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "CLOSING",
+        "id": "",
+        "children": [
+          {
+            "type": "PLAINTEXT",
+            "text": "Disahkan Di Jakarta,"
+          },
+          {
+            "type": "PLAINTEXT",
+            "text": "Pada Tanggal 24 Oktober 2019"
+          },
+          {
+            "type": "PLAINTEXT",
+            "text": "PRESIDEN REPUBLIK INDONESIA,"
+          },
+          {
+            "type": "PLAINTEXT",
+            "text": "Ttd."
+          },
+          {
+            "type": "PLAINTEXT",
+            "text": "JOKO WIDODO"
+          },
+          {
+            "type": "PLAINTEXT",
+            "text": "Diundangkan Di Jakarta,"
+          },
+          {
+            "type": "PLAINTEXT",
+            "text": "Pada Tanggal 24 Oktober 2019"
+          },
+          {
+            "type": "PLAINTEXT",
+            "text": "MENTERI HUKUM DAN HAK ASASI MANUSIA REPUBLIK INDONESIA, Ttd."
+          },
+          {
+            "type": "PLAINTEXT",
+            "text": "YASONNA H. LAOLY"
+          },
+          {
+            "type": "LEMBARAN_NUMBER",
+            "text": "LEMBARAN NEGARA REPUBLIK INDONESIA TAHUN 2019 NOMOR 212"
+          }
+        ]
+      },
+      {
+        "type": "PENJELASAN",
+        "id": "penjelasan",
+        "children": [
+          {
+            "type": "PENJELASAN_TITLE",
+            "id": "",
+            "children": [
+              {
+                "type": "PLAINTEXT",
+                "text": "PENJELASAN"
+              },
+              {
+                "type": "PLAINTEXT",
+                "text": "UNDANG-UNDANG REPUBLIK INDONESIA"
+              },
+              {
+                "type": "UU_TITLE_YEAR_AND_NUMBER",
+                "text": "NOMOR 24 TAHUN 2019"
+              },
+              {
+                "type": "PLAINTEXT",
+                "text": "TENTANG"
+              },
+              {
+                "type": "UU_TITLE_TOPIC",
+                "text": "EKONOMI KREATIF"
+              }
+            ]
+          },
+          {
+            "type": "PENJELASAN_UMUM",
+            "id": "",
+            "children": [
+              {
+                "type": "PENJELASAN_UMUM_TITLE",
+                "text": "I. UMUM"
+              },
+              {
+                "type": "PLAINTEXT",
+                "text": "Pembukaan Undang-Undang Dasar Negara Republik Indonesia Tahun 1945 mengamanatkan bahwa tujuan nasional bangsa Indonesia adalah melindungi segenap bangsa Indonesia dan seluruh tumpah darah Indonesia, memajukan kesejahteraan umum dan mencerdaskan kehidupan bangsa, serta ikut melaksanakan ketertiban dunia yang berdasarkan kemerdekaan, perdamaian abadi, dan keadilan sosial. Selanjutnya, Pasal 33 ayat (4) Undang-Undang Dasar Negara Republik Indonesia Tahun 1945 mengamanatkan bahwa \"Perekonomian nasional diselenggarakan berdasar atas demokrasi ekonomi dengan prinsip kebersamaan, efisiensi berkeadilan, berkelanjutan, berwawasan lingkungan, kemandirian, serta dengan menjaga keseimbangan kemajuan dan kesatuan ekonomi nasional\"."
+              },
+              {
+                "type": "PLAINTEXT",
+                "text": "Dalam mencapai masyarakat adil dan makmur yang mampu memajukan kesejahteraan umum, negara Indonesia harus mengoptimalkan seluruh sumber daya ekonomi, terutama mengoptimalkan kreativitas sumber daya manusia yang berbasis warisan budaya, ilmu pengetahuan, dan/atau teknologi."
+              },
+              {
+                "type": "PLAINTEXT",
+                "text": "Untuk mengoptimalkan sumber daya manusia tersebut, diperlukan pengelolaan potensi Ekonomi Kreatif secara sistematis, terstruktur, dan berkelanjutan. Oleh karena itu, diperlukan pengarusutamaan Ekonomi Kreatif dalam rencana pembangunan nasional melalui pengembangan Ekosistem Ekonomi Kreatif yang memberikan nilai tambah pada produk Ekonomi Kreatif yang berdaya saing tinggi, mudah diakses, dan terlindungi secara hukum. Dalam pelaksanaannya, pengembangan Ekonomi Kreatif mengalami beberapa kendala, seperti keterbatasan akses perbankan, promosi, infrastruktur, pengembangan kapasitas Pelaku Ekonomi Kreatif, dan sinergitas di antara pemangku kepentingan. Untuk itu, diperlukan suatu pengaturan Ekonomi Kreatif secara komprehensif yang berdasarkan Pancasila, Undang-Undang Dasar Negara Republik Indonesia Tahun 1945, Negara Kesatuan Republik Indonesia, dan Bhinneka Tunggal Ika serta berasaskan keimanan dan ketakwaan kepada Tuhan Yang Maha Esa, manfaat, keadilan, berkelanjutan, dan identitas bangsa."
+              },
+              {
+                "type": "PLAINTEXT",
+                "text": "Secara umum, Undang-Undang tentang Ekonomi Kreatif mengatur materi pokok mengenai Pelaku Ekonomi Kreatif, Ekosistem Ekonomi Kreatif, Rencana Induk Ekonomi Kreatif, dan Kelembagaan yang diuraikan dalam batang tubuh Undang-Undang tentang Ekonomi Kreatif beserta penjelasannya."
+              }
+            ]
+          },
+          {
+            "type": "PENJELASAN_PASAL_DEMI_PASAL",
+            "id": "",
+            "children": [
+              {
+                "type": "PENJELASAN_PASAL_DEMI_PASAL_TITLE",
+                "text": "II. PASAL DEMI PASAL"
+              },
+              {
+                "type": "PENJELASAN_PASAL",
+                "id": "",
+                "children": [
+                  {
+                    "type": "PASAL_NUMBER",
+                    "text": "Pasal 1"
+                  },
+                  {
+                    "type": "PLAINTEXT",
+                    "text": "Cukup jelas."
+                  }
+                ]
+              },
+              {
+                "type": "PENJELASAN_PASAL",
+                "id": "",
+                "children": [
+                  {
+                    "type": "PASAL_NUMBER",
+                    "text": "Pasal 2"
+                  },
+                  {
+                    "type": "PLAINTEXT",
+                    "text": "Cukup jelas."
+                  }
+                ]
+              },
+              {
+                "type": "PENJELASAN_PASAL",
+                "id": "",
+                "children": [
+                  {
+                    "type": "PASAL_NUMBER",
+                    "text": "Pasal 3"
+                  },
+                  {
+                    "type": "LIST",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "PENJELASAN_LIST_ITEM",
+                        "id": "",
+                        "children": [
+                          {
+                            "type": "PENJELASAN_HURUF",
+                            "text": "Huruf a"
+                          },
+                          {
+                            "type": "PLAINTEXT",
+                            "text": "Yang dimaksud dengan \"asas keimanan dan ketakwaan kepada Tuhan Yang Maha Esa\" adalah bahwa pelaksanaan Ekonomi Kreatif didasari atau berlandaskan pada iman dan takwa kepada Tuhan Yang Maha Esa."
+                          }
+                        ]
+                      },
+                      {
+                        "type": "PENJELASAN_LIST_ITEM",
+                        "id": "",
+                        "children": [
+                          {
+                            "type": "PENJELASAN_HURUF",
+                            "text": "Huruf b"
+                          },
+                          {
+                            "type": "PLAINTEXT",
+                            "text": "Yang dimaksud dengan \"asas manfaat\" adalah bahwa pelaksanaan Ekonomi Kreatif mampu memberikan manfaat sebesar-besarnya bagi kesejahteraan rakyat."
+                          }
+                        ]
+                      },
+                      {
+                        "type": "PENJELASAN_LIST_ITEM",
+                        "id": "",
+                        "children": [
+                          {
+                            "type": "PENJELASAN_HURUF",
+                            "text": "Huruf c"
+                          },
+                          {
+                            "type": "PLAINTEXT",
+                            "text": "Yang dimaksud dengan \"asas keadilan\" adalah bahwa pelaksanaan Ekonomi Kreatif menjamin adanya kesetaraan kesempatan yang sama kepada Pelaku Ekonomi Kreatif."
+                          }
+                        ]
+                      },
+                      {
+                        "type": "PENJELASAN_LIST_ITEM",
+                        "id": "",
+                        "children": [
+                          {
+                            "type": "PENJELASAN_HURUF",
+                            "text": "Huruf d"
+                          },
+                          {
+                            "type": "PLAINTEXT",
+                            "text": "Yang dimaksud dengan \"asas berkelanjutan\" adalah bahwa pelaksanaan Ekonomi Kreatif dilakukan secara sistematis, terencana, dan terus-menerus."
+                          }
+                        ]
+                      },
+                      {
+                        "type": "PENJELASAN_LIST_ITEM",
+                        "id": "",
+                        "children": [
+                          {
+                            "type": "PENJELASAN_HURUF",
+                            "text": "Huruf e"
+                          },
+                          {
+                            "type": "PLAINTEXT",
+                            "text": "Yang dimaksud dengan \"asas identitas bangsa\" adalah bahwa pelaksanaan Ekonomi Kreatif mampu mencerminkan dan mengembangkan kearifan lokal masyarakat setempat serta memperhatikan agama, suku dan golongan, kondisi khusus daerah, serta budaya dalam kehidupan bermasyarakat, berbangsa, dan bernegara."
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "PENJELASAN_PASAL",
+                "id": "",
+                "children": [
+                  {
+                    "type": "PASAL_NUMBER",
+                    "text": "Pasal 4"
+                  },
+                  {
+                    "type": "PLAINTEXT",
+                    "text": "Cukup jelas."
+                  }
+                ]
+              },
+              {
+                "type": "PENJELASAN_PASAL",
+                "id": "",
+                "children": [
+                  {
+                    "type": "PASAL_NUMBER",
+                    "text": "Pasal 5"
+                  },
+                  {
+                    "type": "PLAINTEXT",
+                    "text": "Cukup jelas."
+                  }
+                ]
+              },
+              {
+                "type": "PENJELASAN_PASAL",
+                "id": "",
+                "children": [
+                  {
+                    "type": "PASAL_NUMBER",
+                    "text": "Pasal 6"
+                  },
+                  {
+                    "type": "LIST",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "PENJELASAN_LIST_ITEM",
+                        "id": "",
+                        "children": [
+                          {
+                            "type": "PENJELASAN_HURUF",
+                            "text": "Huruf a"
+                          },
+                          {
+                            "type": "PLAINTEXT",
+                            "text": "Yang dimaksud dengan \"pelaku kreasi\" adalah orang atau sekelompok orang yang bekerja mempertunjukkan kreativitasnya atau melakukan proses kreatif atau menghasilkan suatu karya cipta, desain, atau invensi."
+                          }
+                        ]
+                      },
+                      {
+                        "type": "PENJELASAN_LIST_ITEM",
+                        "id": "",
+                        "children": [
+                          {
+                            "type": "PENJELASAN_HURUF",
+                            "text": "Huruf b"
+                          },
+                          {
+                            "type": "PLAINTEXT",
+                            "text": "Yang dimaksud dengan \"pengelola kekayaan intelektual\" adalah pihak yang melakukan komersialisasi kekayaan intelektual yang dimiliki sendiri atau yang dimiliki pihak lain berdasarkan perjanjian tertentu."
+                          },
+                          {
+                            "type": "PLAINTEXT",
+                            "text": "Contoh pengelola kekayaan intelektual antara lain penerbit musik/film/gim, distributor musik/film/gim, bioskop, layanan pengaliran video (video streaming), rumah makan/restoran/ kafe, perusahaan iklan, penyelenggara teater, pengelola portal daring (online), dan pengelola program daring."
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "PENJELASAN_PASAL",
+                "id": "",
+                "children": [
+                  {
+                    "type": "PASAL_NUMBER",
+                    "text": "Pasal 7"
+                  },
+                  {
+                    "type": "PLAINTEXT",
+                    "text": "Cukup jelas."
+                  }
+                ]
+              },
+              {
+                "type": "PENJELASAN_PASAL",
+                "id": "",
+                "children": [
+                  {
+                    "type": "PASAL_NUMBER",
+                    "text": "Pasal 8"
+                  },
+                  {
+                    "type": "PLAINTEXT",
+                    "text": "Cukup jelas."
+                  }
+                ]
+              },
+              {
+                "type": "PENJELASAN_PASAL",
+                "id": "",
+                "children": [
+                  {
+                    "type": "PASAL_NUMBER",
+                    "text": "Pasal 9"
+                  },
+                  {
+                    "type": "PLAINTEXT",
+                    "text": "Cukup jelas."
+                  }
+                ]
+              },
+              {
+                "type": "PENJELASAN_PASAL",
+                "id": "",
+                "children": [
+                  {
+                    "type": "PASAL_NUMBER",
+                    "text": "Pasal 10"
+                  },
+                  {
+                    "type": "PLAINTEXT",
+                    "text": "Cukup jelas."
+                  }
+                ]
+              },
+              {
+                "type": "PENJELASAN_PASAL",
+                "id": "",
+                "children": [
+                  {
+                    "type": "PASAL_NUMBER",
+                    "text": "Pasal 11"
+                  },
+                  {
+                    "type": "LIST",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "PENJELASAN_LIST_ITEM",
+                        "id": "",
+                        "children": [
+                          {
+                            "type": "PENJELASAN_AYAT",
+                            "text": "Ayat (1)"
+                          },
+                          {
+                            "type": "PLAINTEXT",
+                            "text": "Pengembangan riset di bidang Ekonomi Kreatif antara lain dilakukan terhadap produk, Pelaku Ekonomi Kreatif, potensi lokal, dan pasar."
+                          }
+                        ]
+                      },
+                      {
+                        "type": "PENJELASAN_LIST_ITEM",
+                        "id": "",
+                        "children": [
+                          {
+                            "type": "PENJELASAN_AYAT",
+                            "text": "Ayat (2)"
+                          },
+                          {
+                            "type": "PLAINTEXT",
+                            "text": "Cukup jelas."
+                          }
+                        ]
+                      },
+                      {
+                        "type": "PENJELASAN_LIST_ITEM",
+                        "id": "",
+                        "children": [
+                          {
+                            "type": "PENJELASAN_AYAT",
+                            "text": "Ayat (3)"
+                          },
+                          {
+                            "type": "PLAINTEXT",
+                            "text": "Cukup jelas."
+                          }
+                        ]
+                      },
+                      {
+                        "type": "PENJELASAN_LIST_ITEM",
+                        "id": "",
+                        "children": [
+                          {
+                            "type": "PENJELASAN_AYAT",
+                            "text": "Ayat (4)"
+                          },
+                          {
+                            "type": "PLAINTEXT",
+                            "text": "Cukup jelas."
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "PENJELASAN_PASAL",
+                "id": "",
+                "children": [
+                  {
+                    "type": "PASAL_NUMBER",
+                    "text": "Pasal 12"
+                  },
+                  {
+                    "type": "PLAINTEXT",
+                    "text": "Cukup jelas."
+                  }
+                ]
+              },
+              {
+                "type": "PENJELASAN_PASAL",
+                "id": "",
+                "children": [
+                  {
+                    "type": "PASAL_NUMBER",
+                    "text": "Pasal 13"
+                  },
+                  {
+                    "type": "PLAINTEXT",
+                    "text": "Cukup jelas."
+                  }
+                ]
+              },
+              {
+                "type": "PENJELASAN_PASAL",
+                "id": "",
+                "children": [
+                  {
+                    "type": "PASAL_NUMBER",
+                    "text": "Pasal 14"
+                  },
+                  {
+                    "type": "PLAINTEXT",
+                    "text": "Cukup jelas."
+                  }
+                ]
+              },
+              {
+                "type": "PENJELASAN_PASAL",
+                "id": "",
+                "children": [
+                  {
+                    "type": "PASAL_NUMBER",
+                    "text": "Pasal 15"
+                  },
+                  {
+                    "type": "PLAINTEXT",
+                    "text": "Cukup jelas."
+                  }
+                ]
+              },
+              {
+                "type": "PENJELASAN_PASAL",
+                "id": "",
+                "children": [
+                  {
+                    "type": "PASAL_NUMBER",
+                    "text": "Pasal 16"
+                  },
+                  {
+                    "type": "LIST",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "PENJELASAN_LIST_ITEM",
+                        "id": "",
+                        "children": [
+                          {
+                            "type": "PENJELASAN_AYAT",
+                            "text": "Ayat (1)"
+                          },
+                          {
+                            "type": "PLAINTEXT",
+                            "text": "Skema pembiayaan berbasis kekayaan intelektual merupakan skema pembiayaan yang menjadikan kekayaan intelektual sebagai objek jaminan utang bagi lembaga keuangan agar dapat memberikan pembiayaan kepada Pelaku Ekonomi Kreatif."
+                          }
+                        ]
+                      },
+                      {
+                        "type": "PENJELASAN_LIST_ITEM",
+                        "id": "",
+                        "children": [
+                          {
+                            "type": "PENJELASAN_AYAT",
+                            "text": "Ayat (2)"
+                          },
+                          {
+                            "type": "PLAINTEXT",
+                            "text": "Cukup jelas."
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "PENJELASAN_PASAL",
+                "id": "",
+                "children": [
+                  {
+                    "type": "PASAL_NUMBER",
+                    "text": "Pasal 17"
+                  },
+                  {
+                    "type": "PLAINTEXT",
+                    "text": "Cukup jelas."
+                  }
+                ]
+              },
+              {
+                "type": "PENJELASAN_PASAL",
+                "id": "",
+                "children": [
+                  {
+                    "type": "PASAL_NUMBER",
+                    "text": "Pasal 18"
+                  },
+                  {
+                    "type": "LIST",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "PENJELASAN_LIST_ITEM",
+                        "id": "",
+                        "children": [
+                          {
+                            "type": "PENJELASAN_AYAT",
+                            "text": "Ayat (1)"
+                          },
+                          {
+                            "type": "PLAINTEXT",
+                            "text": "Yang dimaksud dengan \"Badan Layanan Umum\" adalah instansi di lingkungan Pemerintah dan/atau Pemerintah Daerah yang dibentuk untuk memberikan pelayanan kepada Pelaku Ekonomi Kreatif yang dikelola dengan pola pengelolaan keuangan Badan Layanan Umum yang memberikan fleksibilitas berupa keleluasaan untuk menerapkan praktik bisnis yang sehat dalam rangka meningkatkan pelayanan kepada masyarakat tanpa mengutamakan mencari keuntungan dan dalam melakukan kegiatannya didasarkan pada prinsip efisiensi dan produktivitas."
+                          }
+                        ]
+                      },
+                      {
+                        "type": "PENJELASAN_LIST_ITEM",
+                        "id": "",
+                        "children": [
+                          {
+                            "type": "PENJELASAN_AYAT",
+                            "text": "Ayat (2)"
+                          },
+                          {
+                            "type": "PLAINTEXT",
+                            "text": "Cukup jelas."
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "PENJELASAN_PASAL",
+                "id": "",
+                "children": [
+                  {
+                    "type": "PASAL_NUMBER",
+                    "text": "Pasal 19"
+                  },
+                  {
+                    "type": "PLAINTEXT",
+                    "text": "Cukup jelas."
+                  }
+                ]
+              },
+              {
+                "type": "PENJELASAN_PASAL",
+                "id": "",
+                "children": [
+                  {
+                    "type": "PASAL_NUMBER",
+                    "text": "Pasal 20"
+                  },
+                  {
+                    "type": "LIST",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "PENJELASAN_LIST_ITEM",
+                        "id": "",
+                        "children": [
+                          {
+                            "type": "PENJELASAN_HURUF",
+                            "text": "Huruf a"
+                          },
+                          {
+                            "type": "PLAINTEXT",
+                            "text": "Yang dimaksud dengan \"infrastruktur fisik\" adalah ruang fisik dan/atau sarana fisik yang mendukung pelaksanaan sebagian dan/atau seluruh Ekosistem Ekonomi Kreatif, antara lain ruang pameran, gedung pertunjukan, studio rekaman, dan bioskop."
+                          }
+                        ]
+                      },
+                      {
+                        "type": "PENJELASAN_LIST_ITEM",
+                        "id": "",
+                        "children": [
+                          {
+                            "type": "PENJELASAN_HURUF",
+                            "text": "Huruf b"
+                          },
+                          {
+                            "type": "PLAINTEXT",
+                            "text": "Yang dimaksud dengan \"infrastruktur teknologi informasi dan komunikasi\" adalah sarana berupa teknologi untuk menyiapkan, mengumpulkan, memproses, menganalisis, mengumumkan dengan menyebarkan informasi, dan/atau menyimpan. Teknologi informasi dan komunikasi meliputi perangkat lunak, perangkat keras, jaringan, dan layanan yang mendukungnya, antara lain jaringan internet, komputasi awan, lokapasar digital, dan pusat data."
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "PENJELASAN_PASAL",
+                "id": "",
+                "children": [
+                  {
+                    "type": "PASAL_NUMBER",
+                    "text": "Pasal 21"
+                  },
+                  {
+                    "type": "LIST",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "PENJELASAN_LIST_ITEM",
+                        "id": "",
+                        "children": [
+                          {
+                            "type": "PENJELASAN_AYAT",
+                            "text": "Ayat (1)"
+                          },
+                          {
+                            "type": "PLAINTEXT",
+                            "text": "Yang dimaksud dengan \"sistem pemasaran produk Ekonomi Kreatif berbasis kekayaan intelektual\" adalah sistem pemasaran yang mengutamakan pemanfaatan kekayaan intelektual antara lain lisensi, waralaba, alih teknologi, jenama bersama (co-branding), dan/atau pengalihan hak."
+                          }
+                        ]
+                      },
+                      {
+                        "type": "PENJELASAN_LIST_ITEM",
+                        "id": "",
+                        "children": [
+                          {
+                            "type": "PENJELASAN_AYAT",
+                            "text": "Ayat (2)"
+                          },
+                          {
+                            "type": "PLAINTEXT",
+                            "text": "Cukup jelas."
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "PENJELASAN_PASAL",
+                "id": "",
+                "children": [
+                  {
+                    "type": "PASAL_NUMBER",
+                    "text": "Pasal 22"
+                  },
+                  {
+                    "type": "LIST",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "PENJELASAN_LIST_ITEM",
+                        "id": "",
+                        "children": [
+                          {
+                            "type": "PENJELASAN_AYAT",
+                            "text": "Ayat (1)"
+                          },
+                          {
+                            "type": "PLAINTEXT",
+                            "text": "Cukup jelas."
+                          }
+                        ]
+                      },
+                      {
+                        "type": "PENJELASAN_LIST_ITEM",
+                        "id": "",
+                        "children": [
+                          {
+                            "type": "PENJELASAN_AYAT",
+                            "text": "Ayat (2)"
+                          },
+                          {
+                            "type": "LIST",
+                            "id": "",
+                            "children": [
+                              {
+                                "type": "PENJELASAN_LIST_ITEM",
+                                "id": "",
+                                "children": [
+                                  {
+                                    "type": "PENJELASAN_HURUF",
+                                    "text": "Huruf a"
+                                  },
+                                  {
+                                    "type": "PLAINTEXT",
+                                    "text": "Yang dimaksud dengan \"insentif fiskal\" adalah dukungan fiskal untuk Pelaku Ekonomi Kreatif melalui pendapatan, belanja, dan/atau pembiayaan."
+                                  }
+                                ]
+                              },
+                              {
+                                "type": "PENJELASAN_LIST_ITEM",
+                                "id": "",
+                                "children": [
+                                  {
+                                    "type": "PENJELASAN_HURUF",
+                                    "text": "Huruf b"
+                                  },
+                                  {
+                                    "type": "PLAINTEXT",
+                                    "text": "Yang dimaksud dengan \"insentif nonfiskal\" adalah pemberian kemudahan untuk mendukung Pelaku Ekonomi Kreatif dalam bentuk fasilitasi baik fisik maupun nonfisik. Bentuk insentif nonfiskal antara lain proses perizinan yang cepat, penyediaan lokasi lahan, pelayanan, dan pemberian bantuan teknis."
+                                  }
+                                ]
+                              }
+                            ]
+                          }
+                        ]
+                      },
+                      {
+                        "type": "PENJELASAN_LIST_ITEM",
+                        "id": "",
+                        "children": [
+                          {
+                            "type": "PENJELASAN_AYAT",
+                            "text": "Ayat (3)"
+                          },
+                          {
+                            "type": "PLAINTEXT",
+                            "text": "Cukup jelas."
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "PENJELASAN_PASAL",
+                "id": "",
+                "children": [
+                  {
+                    "type": "PASAL_NUMBER",
+                    "text": "Pasal 23"
+                  },
+                  {
+                    "type": "LIST",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "PENJELASAN_LIST_ITEM",
+                        "id": "",
+                        "children": [
+                          {
+                            "type": "PENJELASAN_AYAT",
+                            "text": "Ayat (1)"
+                          },
+                          {
+                            "type": "PLAINTEXT",
+                            "text": "Yang termasuk dalam \"memfasilitasi\", antara lain bantuan berupa kemudahan, konsultasi, dan pendampingan dalam proses pencatatan atas hak cipta dan hak terkait serta pendaftaran hak kekayaan industri kepada Pelaku Ekonomi Kreatif."
+                          }
+                        ]
+                      },
+                      {
+                        "type": "PENJELASAN_LIST_ITEM",
+                        "id": "",
+                        "children": [
+                          {
+                            "type": "PENJELASAN_AYAT",
+                            "text": "Ayat (2)"
+                          },
+                          {
+                            "type": "PLAINTEXT",
+                            "text": "Cukup jelas."
+                          }
+                        ]
+                      },
+                      {
+                        "type": "PENJELASAN_LIST_ITEM",
+                        "id": "",
+                        "children": [
+                          {
+                            "type": "PENJELASAN_AYAT",
+                            "text": "Ayat (3)"
+                          },
+                          {
+                            "type": "PLAINTEXT",
+                            "text": "Cukup jelas."
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "PENJELASAN_PASAL",
+                "id": "",
+                "children": [
+                  {
+                    "type": "PASAL_NUMBER",
+                    "text": "Pasal 24"
+                  },
+                  {
+                    "type": "PLAINTEXT",
+                    "text": "Cukup jelas."
+                  }
+                ]
+              },
+              {
+                "type": "PENJELASAN_PASAL",
+                "id": "",
+                "children": [
+                  {
+                    "type": "PASAL_NUMBER",
+                    "text": "Pasal 25"
+                  },
+                  {
+                    "type": "PLAINTEXT",
+                    "text": "Cukup jelas."
+                  }
+                ]
+              },
+              {
+                "type": "PENJELASAN_PASAL",
+                "id": "",
+                "children": [
+                  {
+                    "type": "PASAL_NUMBER",
+                    "text": "Pasal 26"
+                  },
+                  {
+                    "type": "PLAINTEXT",
+                    "text": "Cukup jelas."
+                  }
+                ]
+              },
+              {
+                "type": "PENJELASAN_PASAL",
+                "id": "",
+                "children": [
+                  {
+                    "type": "PASAL_NUMBER",
+                    "text": "Pasal 27"
+                  },
+                  {
+                    "type": "PLAINTEXT",
+                    "text": "Cukup jelas."
+                  }
+                ]
+              },
+              {
+                "type": "PENJELASAN_PASAL",
+                "id": "",
+                "children": [
+                  {
+                    "type": "PASAL_NUMBER",
+                    "text": "Pasal 28"
+                  },
+                  {
+                    "type": "PLAINTEXT",
+                    "text": "Kerja sama Pemerintah dan/atau Pemerintah Daerah dengan lembaga pendidikan, dunia usaha, dunia industri, jejaring komunitas, dan/atau media di tingkat internasional dilaksanakan berdasarkan prinsip saling menguntungkan dan demi kemaslahatan bersama dengan mengutamakan kepentingan nasional yang bertujuan meningkatkan kapasitas nasional, mendukung upaya penetrasi pasar, membantu menarik investasi asing, serta menunjukkan peran dan kepemimpinan Indonesia di tingkat global."
+                  }
+                ]
+              },
+              {
+                "type": "PENJELASAN_PASAL",
+                "id": "",
+                "children": [
+                  {
+                    "type": "PASAL_NUMBER",
+                    "text": "Pasal 29"
+                  },
+                  {
+                    "type": "PLAINTEXT",
+                    "text": "Cukup jelas."
+                  }
+                ]
+              },
+              {
+                "type": "PENJELASAN_PASAL",
+                "id": "",
+                "children": [
+                  {
+                    "type": "PASAL_NUMBER",
+                    "text": "Pasal 30"
+                  },
+                  {
+                    "type": "PLAINTEXT",
+                    "text": "Cukup jelas."
+                  }
+                ]
+              },
+              {
+                "type": "PENJELASAN_PASAL",
+                "id": "",
+                "children": [
+                  {
+                    "type": "PASAL_NUMBER",
+                    "text": "Pasal 31"
+                  },
+                  {
+                    "type": "PLAINTEXT",
+                    "text": "Cukup jelas."
+                  }
+                ]
+              },
+              {
+                "type": "PENJELASAN_PASAL",
+                "id": "",
+                "children": [
+                  {
+                    "type": "PASAL_NUMBER",
+                    "text": "Pasal 32"
+                  },
+                  {
+                    "type": "PLAINTEXT",
+                    "text": "Cukup jelas."
+                  }
+                ]
+              },
+              {
+                "type": "PENJELASAN_PASAL",
+                "id": "",
+                "children": [
+                  {
+                    "type": "PASAL_NUMBER",
+                    "text": "Pasal 33"
+                  },
+                  {
+                    "type": "PLAINTEXT",
+                    "text": "Cukup jelas."
+                  }
+                ]
+              },
+              {
+                "type": "PENJELASAN_PASAL",
+                "id": "",
+                "children": [
+                  {
+                    "type": "PASAL_NUMBER",
+                    "text": "Pasal 34"
+                  },
+                  {
+                    "type": "PLAINTEXT",
+                    "text": "Cukup jelas."
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

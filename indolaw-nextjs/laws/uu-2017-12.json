@@ -1,0 +1,648 @@
+{
+  "metadata": {
+    "lembaranNegaraNumber": 230,
+    "lembaranNegaraYear": 2017,
+    "tambahanLembaranNumber": 6135,
+    "number": 12,
+    "topic": "Pengesahan Asean Convention Against Trafficking In Persons, Especially Women And Children (konvensi Asean Menentang Perdagangan Orang, Terutama Perempuan Dan Anak)",
+    "year": 2017
+  },
+  "content": {
+    "type": "UNDANG_UNDANG",
+    "id": "",
+    "children": [
+      {
+        "type": "OPENING",
+        "id": "",
+        "children": [
+          {
+            "type": "UU_TITLE",
+            "id": "",
+            "children": [
+              {
+                "type": "PLAINTEXT",
+                "text": "UNDANG-UNDANG REPUBLIK INDONESIA"
+              },
+              {
+                "type": "UU_TITLE_YEAR_AND_NUMBER",
+                "text": "NOMOR 12 TAHUN 2017"
+              },
+              {
+                "type": "PLAINTEXT",
+                "text": "TENTANG"
+              },
+              {
+                "type": "UU_TITLE_TOPIC",
+                "text": "PENGESAHAN ASEAN CONVENTION AGAINST TRAFFICKING IN PERSONS, ESPECIALLY WOMEN AND CHILDREN (KONVENSI ASEAN MENENTANG PERDAGANGAN ORANG, TERUTAMA PEREMPUAN DAN ANAK)"
+              }
+            ]
+          },
+          {
+            "type": "PREFACE",
+            "id": "",
+            "children": [
+              {
+                "type": "PLAINTEXT",
+                "text": "DENGAN RAHMAT TUHAN YANG MAHA ESA"
+              },
+              {
+                "type": "PLAINTEXT",
+                "text": "PRESIDEN REPUBLIK INDONESIA,"
+              }
+            ]
+          },
+          {
+            "type": "CONSIDERATIONS",
+            "id": "",
+            "children": [
+              {
+                "type": "PLAINTEXT",
+                "text": "Menimbang:"
+              },
+              {
+                "type": "LIST",
+                "id": "",
+                "children": [
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "LETTER_WITH_DOT",
+                        "text": "a."
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "bahwa dalam rangka melindungi segenap bangsa Indonesia dan seluruh tumpah darah Indonesia, dan untuk memajukan kesejahteraan umum, mencerdaskan kehidupan bangsa, dan ikut melaksanakan ketertiban dunia yang berdasarkan kemerdekaan, perdamaian abadi, dan keadilan sosial, Pemerintah Republik Indonesia sebagai bagian dari masyarakat internasional melaksanakan hubungan dan kerja sama internasional untuk mencegah dan memberantas tindak pidana perdagangan orang, terutama perempuan dan anak;"
+                      }
+                    ]
+                  },
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "LETTER_WITH_DOT",
+                        "text": "b."
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "bahwa Negara Republik Indonesia sebagai anggota ASEAN telah berkomitmen untuk bekerja sama di bidang pencegahan dan pemberantasan tindak pidana perdagangan orang terutama perempuan dan anak dengan memperhatikan prinsip perjanjian internasional yang telah disepakati dan kepentingan nasional yang sesuai dengan Pancasila dan Undang-Undang Dasar Negara Republik Indonesia Tahun 1945;"
+                      }
+                    ]
+                  },
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "LETTER_WITH_DOT",
+                        "text": "c."
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "bahwa Pemerintah Republik Indonesia telah menandatangani ASEAN Convention Against Trafficking in Persons, Especially Women and Children (Konvensi ASEAN Menentang Perdagangan Orang, Terutama Perempuan dan Anak) pada tanggal 21 November 2015 di Kuala Lumpur, Malaysia;"
+                      }
+                    ]
+                  },
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "LETTER_WITH_DOT",
+                        "text": "d."
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "bahwa berdasarkan pertimbangan sebagaimana dimaksud dalam huruf a, huruf b, dan huruf c, perlu membentuk Undang-Undang tentang Pengesahan ASEAN Convention Against Trafficking in Persons, Especially Women and Children (Konvensi ASEAN Menentang Perdagangan Orang, Terutama Perempuan dan Anak)."
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "PRINCIPLES",
+            "id": "",
+            "children": [
+              {
+                "type": "PLAINTEXT",
+                "text": "Mengingat:"
+              },
+              {
+                "type": "LIST",
+                "id": "",
+                "children": [
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "NUMBER_WITH_DOT",
+                        "text": "1."
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "Pasal 5 ayat (1), Pasal 11, dan Pasal 20 Undang-Undang Dasar Negara Republik Indonesia Tahun 1945;"
+                      }
+                    ]
+                  },
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "NUMBER_WITH_DOT",
+                        "text": "2."
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "Undang-Undang Nomor 24 Tahun 2000 tentang Perjanjian Internasional (Lembaran Negara Republik Indonesia Tahun 2000 Nomor 185, Tambahan Lembaran Negara Republik Indonesia Nomor 4012)."
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "AGREEMENT",
+            "id": "",
+            "children": [
+              {
+                "type": "PLAINTEXT",
+                "text": "Dengan Persetujuan Bersama"
+              },
+              {
+                "type": "PLAINTEXT",
+                "text": "DEWAN PERWAKILAN RAKYAT REPUBLIK INDONESIA"
+              },
+              {
+                "type": "PLAINTEXT",
+                "text": "dan"
+              },
+              {
+                "type": "PLAINTEXT",
+                "text": "PRESIDEN REPUBLIK INDONESIA"
+              },
+              {
+                "type": "PLAINTEXT",
+                "text": "MEMUTUSKAN:"
+              },
+              {
+                "type": "PLAINTEXT",
+                "text": "Menetapkan:"
+              },
+              {
+                "type": "PLAINTEXT",
+                "text": "UNDANG-UNDANG TENTANG PENGESAHAN ASEAN CONVENTION AGAINST TRAFFICKING IN PERSONS, ESPECIALLY WOMEN AND CHILDREN (KONVENSI ASEAN MENENTANG PERDAGANGAN ORANG, TERUTAMA PEREMPUAN DAN ANAK)"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "PASAL",
+        "id": "pasal-1",
+        "children": [
+          {
+            "type": "PASAL_NUMBER",
+            "text": "Pasal 1"
+          },
+          {
+            "type": "LIST",
+            "id": "",
+            "children": [
+              {
+                "type": "LIST_ITEM",
+                "id": "",
+                "children": [
+                  {
+                    "type": "NUMBER_WITH_BRACKETS",
+                    "text": "(1)"
+                  },
+                  {
+                    "type": "PLAINTEXT",
+                    "text": "Mengesahkan ASEAN Convention Against Trafficking in Persons, Especially Women and Children (Konvensi ASEAN Menentang Perdagangan Orang, Terutama Perempuan dan Anak) yang ditandatangani oleh Pemerintah Indonesia pada tanggal 21 November 2015 di Kuala Lumpur, Malaysia."
+                  }
+                ]
+              },
+              {
+                "type": "LIST_ITEM",
+                "id": "",
+                "children": [
+                  {
+                    "type": "NUMBER_WITH_BRACKETS",
+                    "text": "(2)"
+                  },
+                  {
+                    "type": "PLAINTEXT",
+                    "text": "Salinan naskah asli ASEAN Convention Against Trafficking in Persons, Especially Women and Children (Konvensi ASEAN Menentang Perdagangan Orang, Terutama Perempuan dan Anak) dalam bahasa Inggris dan terjemahannya dalam bahasa Indonesia sebagaimana terlampir dan merupakan bagian yang tidak terpisahkan dari Undang-Undang ini."
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "PASAL",
+        "id": "pasal-2",
+        "children": [
+          {
+            "type": "PASAL_NUMBER",
+            "text": "Pasal 2"
+          },
+          {
+            "type": "PLAINTEXT",
+            "text": "Undang-Undang ini mulai berlaku pada tanggal diundangkan."
+          },
+          {
+            "type": "PLAINTEXT",
+            "text": "Agar setiap orang mengetahuinya, memerintahkan pengundangan Undang-Undang ini dengan penempatannya dalam Lembaran Negara Republik Indonesia."
+          }
+        ]
+      },
+      {
+        "type": "CLOSING",
+        "id": "",
+        "children": [
+          {
+            "type": "PLAINTEXT",
+            "text": "Disahkan Di Jakarta,"
+          },
+          {
+            "type": "PLAINTEXT",
+            "text": "Pada Tanggal 10 November 2017"
+          },
+          {
+            "type": "PLAINTEXT",
+            "text": "PRESIDEN REPUBLIK INDONESIA,"
+          },
+          {
+            "type": "PLAINTEXT",
+            "text": "Ttd."
+          },
+          {
+            "type": "PLAINTEXT",
+            "text": "JOKO WIDODO"
+          },
+          {
+            "type": "PLAINTEXT",
+            "text": "Diundangkan Di Jakarta,"
+          },
+          {
+            "type": "PLAINTEXT",
+            "text": "Pada Tanggal 13 November 2017"
+          },
+          {
+            "type": "PLAINTEXT",
+            "text": "MENTERI HUKUM DAN HAK ASASI MANUSIA REPUBLIK INDONESIA,"
+          },
+          {
+            "type": "PLAINTEXT",
+            "text": "Ttd."
+          },
+          {
+            "type": "PLAINTEXT",
+            "text": "YASONNA H. LAOLY"
+          },
+          {
+            "type": "LEMBARAN_NUMBER",
+            "text": "LEMBARAN NEGARA REPUBLIK INDONESIA TAHUN 2017 NOMOR 230"
+          }
+        ]
+      },
+      {
+        "type": "PENJELASAN",
+        "id": "penjelasan",
+        "children": [
+          {
+            "type": "PENJELASAN_TITLE",
+            "id": "",
+            "children": [
+              {
+                "type": "PLAINTEXT",
+                "text": "PENJELASAN"
+              },
+              {
+                "type": "PLAINTEXT",
+                "text": "UNDANG-UNDANG REPUBLIK INDONESIA"
+              },
+              {
+                "type": "UU_TITLE_YEAR_AND_NUMBER",
+                "text": "NOMOR 12 TAHUN 2017"
+              },
+              {
+                "type": "PLAINTEXT",
+                "text": "TENTANG"
+              },
+              {
+                "type": "UU_TITLE_TOPIC",
+                "text": "PENGESAHAN ASEAN CONVENTION AGAINST TRAFFICKING IN PERSONS, ESPECIALLY WOMEN AND CHILDREN (KONVENSI ASEAN MENENTANG PERDAGANGAN ORANG, TERUTAMA PEREMPUAN DAN ANAK)"
+              }
+            ]
+          },
+          {
+            "type": "PENJELASAN_UMUM",
+            "id": "",
+            "children": [
+              {
+                "type": "PENJELASAN_UMUM_TITLE",
+                "text": "I. UMUM"
+              },
+              {
+                "type": "PLAINTEXT",
+                "text": "Dalam rangka mencapai tujuan Negara Republik Indonesia sebagaimana tercantum dalam Pembukaan Undang-Undang Dasar Negara Republik Indonesia Tahun 1945, yaitu melindungi segenap bangsa Indonesia dan seluruh tumpah darah Indonesia, dan untuk memajukan kesejahteraan umum, mencerdaskan kehidupan bangsa, dan ikut melaksanakan ketertiban dunia yang berdasarkan kemerdekaan, perdamaian abadi, dan keadilan sosial, Pemerintah Republik Indonesia sebagai bagian dari masyarakat internasional, melaksanakan hubungan dan kerja sama internasional yang diwujudkan dalam perjanjian internasional."
+              },
+              {
+                "type": "PLAINTEXT",
+                "text": "Dalam kehidupan berbangsa dan bernegara, kerja sama dengan negara sahabat perlu terus ditingkatkan berdasarkan prinsip saling menguntungkan, kesetaraan, dan penghormatan atas kedaulatan setiap negara. Association of Southeast Asian Nations (ASEAN) memiliki arti yang strategis dalam menghadapi berbagai bentuk ancaman dan tantangan guna mewujudkan perdamaian dan stabilitas kawasan. Sebagai anggota ASEAN, Indonesia merupakan negara yang aktif dalam mengimplementasikan kebijakan yang ditetapkan ASEAN ke dalam kebijakan nasional."
+              },
+              {
+                "type": "PLAINTEXT",
+                "text": "Perdagangan orang terutama perempuan dan anak merupakan tindakan yang bertentangan dengan harkat dan martabat manusia. Hal ini merupakan pelanggaran terhadap hak asasi manusia. Perdagangan perempuan dan anak di Asia Tenggara, dalam beberapa tahun belakangan ini meningkat."
+              },
+              {
+                "type": "PLAINTEXT",
+                "text": "Pemberantasan tindak pidana perdagangan orang terutama perempuan dan anak tidak dapat ditangani sendiri oleh Indonesia, tetapi perlu ditangani oleh seluruh negara di kawasan ASEAN yang merupakan negara asal, transit, dan/atau tujuan dari tindak pidana perdagangan orang. Oleh karena itu, Pemerintah Republik Indonesia memandang perlu meningkatkan kerja sama dengan negara yang tergabung dalam ASEAN dalam mencegah dan memberantas tindak pidana perdagangan orang terutama perempuan dan anak dengan menandatangani ASEAN Convention Against Trafficking in Persons, Especially Women and Children (Konvensi ASEAN Menentang Perdagangan Orang, Terutama Perempuan dan Anak) pada tanggal 21 November 2015 di Kuala Lumpur, Malaysia."
+              },
+              {
+                "type": "PLAINTEXT",
+                "text": "Dengan mengesahkan Konvensi tersebut, diharapkan dapat meningkatkan efektivitas pencegahan dan pemberantasan tindak pidana perdagangan orang, terutama perempuan dan anak serta memberikan pelindungan dan bantuan terhadap korban tindak pidana perdagangan orang, terutama perempuan dan anak. Konvensi ini memuat antara lain:"
+              },
+              {
+                "type": "LIST",
+                "id": "",
+                "children": [
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "NUMBER_WITH_DOT",
+                        "text": "1."
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "Tujuan"
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "Tujuan dari Konvensi ini adalah:"
+                      },
+                      {
+                        "type": "LIST",
+                        "id": "",
+                        "children": [
+                          {
+                            "type": "LIST_ITEM",
+                            "id": "",
+                            "children": [
+                              {
+                                "type": "LETTER_WITH_DOT",
+                                "text": "a."
+                              },
+                              {
+                                "type": "PLAINTEXT",
+                                "text": "mencegah dan memerangi tindak pidana perdagangan orang, terutama terhadap perempuan dan anak, dan untuk memastikan hukuman yang adil dan efektif bagi pelaku perdagangan orang;"
+                              }
+                            ]
+                          },
+                          {
+                            "type": "LIST_ITEM",
+                            "id": "",
+                            "children": [
+                              {
+                                "type": "LETTER_WITH_DOT",
+                                "text": "b."
+                              },
+                              {
+                                "type": "PLAINTEXT",
+                                "text": "melindungi dan membantu korban perdagangan orang, berlandaskan penghormatan terhadap hak asasi manusia; dan"
+                              }
+                            ]
+                          },
+                          {
+                            "type": "LIST_ITEM",
+                            "id": "",
+                            "children": [
+                              {
+                                "type": "LETTER_WITH_DOT",
+                                "text": "c."
+                              },
+                              {
+                                "type": "PLAINTEXT",
+                                "text": "memajukan kerja sama antara Negara Pihak guna memenuhi tujuan tersebut."
+                              }
+                            ]
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "NUMBER_WITH_DOT",
+                        "text": "2."
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "Ruang Lingkup"
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "Konvensi ini berlaku terhadap pencegahan, penyidikan dan penuntutan tindak pidana perdagangan orang yang bersifat transnasional, termasuk yang dilakukan oleh kelompok pelaku tindak pidana terorganisasi, serta pelindungan dan bantuan terhadap korban tindak pidana perdagangan orang."
+                      }
+                    ]
+                  },
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "NUMBER_WITH_DOT",
+                        "text": "3."
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "Kriminalisasi"
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "Memuat ketentuan mengenai kriminalisasi perdagangan orang dan tindakan lain yang terkait dengan tindak pidana perdagangan orang yakni keikutsertaan dalam kelompok pelaku tindak pidana terorganisasi, pencucian hasil tindak pidana perdagangan orang, korupsi, dan gangguan proses peradilan."
+                      }
+                    ]
+                  },
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "NUMBER_WITH_DOT",
+                        "text": "4."
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "Pencegahan"
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "Memuat ketentuan mengenai pencegahan tindak pidana perdagangan orang, bidang kerja sama, kerja sama lintas batas, pengawasan dan keabsahan dokumen."
+                      }
+                    ]
+                  },
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "NUMBER_WITH_DOT",
+                        "text": "5."
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "Pelindungan"
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "Memuat ketentuan mengenai pelindungan korban tindak pidana perdagangan orang, repatriasi, dan pemulangan korban."
+                      }
+                    ]
+                  },
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "NUMBER_WITH_DOT",
+                        "text": "6."
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "Penegakan Hukum"
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "Memuat ketentuan mengenai penegakan hukum dan penuntutan serta tindakan di dalam penegakan hukum yaitu perampasan dan penyitaan."
+                      }
+                    ]
+                  },
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "NUMBER_WITH_DOT",
+                        "text": "7."
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "Kerja Sama Internasional"
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "Memuat ketentuan mengenai bantuan hukum timbal balik dalam masalah pidana, ekstradisi, kerja sama penegak hukum, kerja sama internasional untuk tujuan perampasan dan penyerahan hasil tindak pidana atau kekayaan yang dirampas."
+                      }
+                    ]
+                  },
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "NUMBER_WITH_DOT",
+                        "text": "8."
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "Ketentuan Penutup"
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "Memuat ketentuan mengenai pendirian struktur koordinasi, pengawasan, peninjauan ulang dan pelaporan, kerahasiaan dokumen, catatan dan informasi, hubungan dengan instrumen internasional lainnya, penyelesaian perselisihan, pengesahan, persetujuan dan penyimpanan, pemberlakuan dan amendemen, serta penarikan diri dan pendaftaran."
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "PENJELASAN_PASAL_DEMI_PASAL",
+            "id": "",
+            "children": [
+              {
+                "type": "PENJELASAN_PASAL_DEMI_PASAL_TITLE",
+                "text": "II. PASAL DEMI PASAL"
+              },
+              {
+                "type": "PENJELASAN_PASAL",
+                "id": "",
+                "children": [
+                  {
+                    "type": "PASAL_NUMBER",
+                    "text": "Pasal 1"
+                  },
+                  {
+                    "type": "LIST",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "PENJELASAN_LIST_ITEM",
+                        "id": "",
+                        "children": [
+                          {
+                            "type": "PENJELASAN_AYAT",
+                            "text": "Ayat (1)"
+                          },
+                          {
+                            "type": "PLAINTEXT",
+                            "text": "Cukup jelas."
+                          }
+                        ]
+                      },
+                      {
+                        "type": "PENJELASAN_LIST_ITEM",
+                        "id": "",
+                        "children": [
+                          {
+                            "type": "PENJELASAN_AYAT",
+                            "text": "Ayat (2)"
+                          },
+                          {
+                            "type": "PLAINTEXT",
+                            "text": "Dalam hal terjadi perbedaan penafsiran antara terjemahan Konvensi dalam bahasa Indonesia dengan salinan naskah asli Konvensi dalam bahasa Inggris, yang digunakan adalah salinan naskah aslinya dalam bahasa Inggris."
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "PENJELASAN_PASAL",
+                "id": "",
+                "children": [
+                  {
+                    "type": "PASAL_NUMBER",
+                    "text": "Pasal 2"
+                  },
+                  {
+                    "type": "PLAINTEXT",
+                    "text": "Cukup jelas."
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

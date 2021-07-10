@@ -5,8 +5,8 @@ import LawPage from "components/LawPage";
 
 export default function Number(props: {
   data: {
-    law: LawData;
-  };
+    law: LawData
+  }
 }): JSX.Element {
   return (
     <LawPage

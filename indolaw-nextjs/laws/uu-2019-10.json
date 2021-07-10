@@ -1,0 +1,390 @@
+{
+  "metadata": {
+    "lembaranNegaraNumber": 143,
+    "lembaranNegaraYear": 2019,
+    "tambahanLembaranNumber": 6372,
+    "number": 10,
+    "topic": "Pengesahan Perjanjian Antara Republik Indonesia Dan Republik Islam Iran Tentang Bantuan Timbal Balik Dalam Masalah Pidana (treaty Between The Republic Of Indonesia And The Islamic Republic Of Iran On Mutual Legal Assistance In Criminal Matters)",
+    "year": 2019
+  },
+  "content": {
+    "type": "UNDANG_UNDANG",
+    "id": "",
+    "children": [
+      {
+        "type": "OPENING",
+        "id": "",
+        "children": [
+          {
+            "type": "UU_TITLE",
+            "id": "",
+            "children": [
+              {
+                "type": "PLAINTEXT",
+                "text": "UNDANG-UNDANG REPUBLIK INDONESIA"
+              },
+              {
+                "type": "UU_TITLE_YEAR_AND_NUMBER",
+                "text": "NOMOR 10 TAHUN 2019"
+              },
+              {
+                "type": "PLAINTEXT",
+                "text": "TENTANG"
+              },
+              {
+                "type": "UU_TITLE_TOPIC",
+                "text": "PENGESAHAN PERJANJIAN ANTARA REPUBLIK INDONESIA DAN REPUBLIK ISLAM IRAN TENTANG BANTUAN TIMBAL BALIK DALAM MASALAH PIDANA (TREATY BETWEEN THE REPUBLIC OF INDONESIA AND THE ISLAMIC REPUBLIC OF IRAN ON MUTUAL LEGAL ASSISTANCE IN CRIMINAL MATTERS)"
+              }
+            ]
+          },
+          {
+            "type": "PREFACE",
+            "id": "",
+            "children": [
+              {
+                "type": "PLAINTEXT",
+                "text": "DENGAN RAHMAT TUHAN YANG MAHA ESA"
+              },
+              {
+                "type": "PLAINTEXT",
+                "text": "PRESIDEN REPUBLIK INDONESIA,"
+              }
+            ]
+          },
+          {
+            "type": "CONSIDERATIONS",
+            "id": "",
+            "children": [
+              {
+                "type": "PLAINTEXT",
+                "text": "Menimbang:"
+              },
+              {
+                "type": "LIST",
+                "id": "",
+                "children": [
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "LETTER_WITH_DOT",
+                        "text": "a."
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "bahwa dalam rangka mencapai tujuan negara Republik Indonesia untuk melindungi segenap bangsa Indonesia dan seluruh tumpah darah Indonesia, untuk memajukan kesejahteraan umum, mencerdaskan kehidupan bangsa, dan ikut melaksanakan ketertiban dunia yang berdasarkan kemerdekaan, perdamaian abadi, dan keadilan sosial, Pemerintah Republik Indonesia sebagai bagian dari masyarakat internasional melakukan hubungan dan kerja sama internasional yang diwujudkan dalam perjanjian internasional;"
+                      }
+                    ]
+                  },
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "LETTER_WITH_DOT",
+                        "text": "b."
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "bahwa perkembangan ilmu pengetahuan dan teknologi khususnya di bidang transportasi, komunikasi, dan informasi, selain mempunyai dampak positif juga mempunyai dampak negatif, yaitu timbulnya tindak pidana yang tidak lagi mengenal batas yurisdiksi suatu negara, sehingga penanggulangan dan pemberantasannya memerlukan kerja sama antarnegara yang efektif, baik bersifat bilateral maupun multilateral;"
+                      }
+                    ]
+                  },
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "LETTER_WITH_DOT",
+                        "text": "c."
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "bahwa untuk meningkatkan kerja sama di bidang hukum dalam penanggulangan dan pemberantasan tindak pidana, Pemerintah Republik Indonesia dan Pemerintah Republik Islam Iran telah menandatangani Perjanjian antara Republik Indonesia dan Republik Islam Iran tentang Bantuan Timbal Balik dalam Masalah Pidana (Treaty between the Republic of Indonesia and the Islamic Republic of Iran on Mutual Legal Assistance in Criminal Matters) pada tanggal 14 Desember 2016 di Tehran, Iran;"
+                      }
+                    ]
+                  },
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "LETTER_WITH_DOT",
+                        "text": "d."
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "bahwa berdasarkan pertimbangan sebagaimana dimaksud huruf a, huruf b, dan huruf c, perlu membentuk Undang-Undang tentang Pengesahan Perjanjian antara Republik Indonesia dan Republik Islam Iran tentang Bantuan Timbal Balik dalam Masalah Pidana (Treaty between the Republic of Indonesia and the Islamic Republic of Iran on Mutual Legal Assistance in Criminal Matters)."
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "PRINCIPLES",
+            "id": "",
+            "children": [
+              {
+                "type": "PLAINTEXT",
+                "text": "Mengingat:"
+              },
+              {
+                "type": "LIST",
+                "id": "",
+                "children": [
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "NUMBER_WITH_DOT",
+                        "text": "1."
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "Pasal 5 ayat (1), Pasal 11, dan Pasal 20 Undang-Undang Dasar Negara Republik Indonesia Tahun 1945;"
+                      }
+                    ]
+                  },
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "NUMBER_WITH_DOT",
+                        "text": "2."
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "Undang-Undang Nomor 24 Tahun 2000 tentang Perjanjian Internasional (Lembaran Negara Republik Indonesia Tahun 2000 Nomor 185, Tambahan Lembaran Negara Republik Indonesia Nomor 4012)."
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "AGREEMENT",
+            "id": "",
+            "children": [
+              {
+                "type": "PLAINTEXT",
+                "text": "Dengan Persetujuan Bersama"
+              },
+              {
+                "type": "PLAINTEXT",
+                "text": "DEWAN PERWAKILAN RAKYAT REPUBLIK INDONESIA"
+              },
+              {
+                "type": "PLAINTEXT",
+                "text": "dan"
+              },
+              {
+                "type": "PLAINTEXT",
+                "text": "PRESIDEN REPUBLIK INDONESIA"
+              },
+              {
+                "type": "PLAINTEXT",
+                "text": "MEMUTUSKAN:"
+              },
+              {
+                "type": "PLAINTEXT",
+                "text": "Menetapkan:"
+              },
+              {
+                "type": "PLAINTEXT",
+                "text": "UNDANG-UNDANG TENTANG PENGESAHAN PERJANJIAN ANTARA REPUBLIK INDONESIA DAN REPUBLIK ISLAM IRAN TENTANG BANTUAN TIMBAL BALIK DALAM MASALAH PIDANA (TREATY BETWEEN THE REPUBLIC OF INDONESIA AND THE ISLAMIC REPUBLIC OF IRAN ON MUTUAL LEGAL ASSISTANCE IN CRIMINAL MATTERS)"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "PASAL",
+        "id": "pasal-1",
+        "children": [
+          {
+            "type": "PASAL_NUMBER",
+            "text": "Pasal 1"
+          },
+          {
+            "type": "PLAINTEXT",
+            "text": "Mengesahkan Perjanjian antara Republik Indonesia dan Republik Islam Iran tentang Bantuan Timbal Balik dalam Masalah Pidana (Treaty between the Republic of Indonesia and the Islamic Republic of Iran on Mutual Legal Assistance in Criminal Matters) yang ditandatangani pada tanggal 14 Desember 2016 di Tehran, Iran, yang salinan naskah aslinya dalam bahasa Indonesia, bahasa Persia, dan bahasa Inggris sebagaimana terlampir dan merupakan bagian yang tidak terpisahkan dari Undang-Undang ini."
+          }
+        ]
+      },
+      {
+        "type": "PASAL",
+        "id": "pasal-2",
+        "children": [
+          {
+            "type": "PASAL_NUMBER",
+            "text": "Pasal 2"
+          },
+          {
+            "type": "PLAINTEXT",
+            "text": "Undang-Undang ini mulai berlaku pada tanggal diundangkan."
+          },
+          {
+            "type": "PLAINTEXT",
+            "text": "Agar setiap orang mengetahuinya, memerintahkan pengundangan Undang-Undang ini dengan penempatannya dalam Lembaran Negara Republik Indonesia."
+          }
+        ]
+      },
+      {
+        "type": "CLOSING",
+        "id": "",
+        "children": [
+          {
+            "type": "PLAINTEXT",
+            "text": "Disahkan Di Jakarta,"
+          },
+          {
+            "type": "PLAINTEXT",
+            "text": "Pada Tanggal 1 Agustus 2019"
+          },
+          {
+            "type": "PLAINTEXT",
+            "text": "PRESIDEN REPUBLIK INDONESIA,"
+          },
+          {
+            "type": "PLAINTEXT",
+            "text": "Ttd."
+          },
+          {
+            "type": "PLAINTEXT",
+            "text": "JOKO WIDODO"
+          },
+          {
+            "type": "PLAINTEXT",
+            "text": "Diundangkan Di Jakarta,"
+          },
+          {
+            "type": "PLAINTEXT",
+            "text": "Pada Tanggal 1 Agustus 2019"
+          },
+          {
+            "type": "PLAINTEXT",
+            "text": "MENTERI HUKUM DAN HAK ASASI MANUSIA REPUBLIK INDONESIA,"
+          },
+          {
+            "type": "PLAINTEXT",
+            "text": "Ttd."
+          },
+          {
+            "type": "PLAINTEXT",
+            "text": "YASONNA H. LAOLY"
+          },
+          {
+            "type": "LEMBARAN_NUMBER",
+            "text": "LEMBARAN NEGARA REPUBLIK INDONESIA TAHUN 2019 NOMOR 143"
+          }
+        ]
+      },
+      {
+        "type": "PENJELASAN",
+        "id": "penjelasan",
+        "children": [
+          {
+            "type": "PENJELASAN_TITLE",
+            "id": "",
+            "children": [
+              {
+                "type": "PLAINTEXT",
+                "text": "PENJELASAN"
+              },
+              {
+                "type": "PLAINTEXT",
+                "text": "UNDANG-UNDANG REPUBLIK INDONESIA"
+              },
+              {
+                "type": "UU_TITLE_YEAR_AND_NUMBER",
+                "text": "NOMOR 10 TAHUN 2019"
+              },
+              {
+                "type": "PLAINTEXT",
+                "text": "TENTANG"
+              },
+              {
+                "type": "UU_TITLE_TOPIC",
+                "text": "PENGESAHAN PERJANJIAN ANTARA REPUBLIK INDONESIA DAN REPUBLIK ISLAM IRAN TENTANG BANTUAN TIMBAL BALIK DALAM MASALAH PIDANA (TREATY BETWEEN THE REPUBLIC OF INDONESIA AND THE ISLAMIC REPUBLIC OF IRAN ON MUTUAL LEGAL ASSISTANCE IN CRIMINAL MATTERS)"
+              }
+            ]
+          },
+          {
+            "type": "PENJELASAN_UMUM",
+            "id": "",
+            "children": [
+              {
+                "type": "PENJELASAN_UMUM_TITLE",
+                "text": "I. UMUM"
+              },
+              {
+                "type": "PLAINTEXT",
+                "text": "Dalam rangka mencapai tujuan negara Republik Indonesia sebagaimana tercantum dalam Pembukaan Undang-Undang Dasar Negara Republik Indonesia Tahun 1945, yaitu melindungi segenap bangsa Indonesia dan seluruh tumpah darah Indonesia, dan untuk memajukan kesejahteraan umum, mencerdaskan kehidupan bangsa, dan ikut melaksanakan ketertiban dunia yang berdasarkan kemerdekaan, perdamaian abadi, dan keadilan sosial, Pemerintah Republik Indonesia sebagai bagian dari masyarakat internasional melakukan hubungan dan kerja sama internasional yang diwujudkan dalam perjanjian internasional."
+              },
+              {
+                "type": "PLAINTEXT",
+                "text": "Perjanjian internasional di atas diperlukan seiring dengan perkembangan ilmu pengetahuan dan teknologi khususnya di bidang transportasi, komunikasi, dan informasi, telah mengakibatkan hubungan lintas negara seakan-akan tanpa batas sehingga memudahkan mobilisasi orang maupun perpindahan barang dari satu negara ke negara lain dapat dilakukan dengan cepat. Hal tersebut memunculkan dampak yang signifikan pada lintas batas negara, yaitu timbulnya tindak pidana yang tidak lagi mengenal batas yurisdiksi suatu negara."
+              },
+              {
+                "type": "PLAINTEXT",
+                "text": "Dalam menanggulangi dan memberantas tindak pidana, terutama yang bersifat transnasional, diperlukan kerja sama antarnegara yang efektif baik bersifat bilateral maupun multilateral."
+              },
+              {
+                "type": "PLAINTEXT",
+                "text": "Dengan menyadari kenyataan tersebut, Pemerintah Republik Indonesia dan Pemerintah Republik Islam Iran telah sepakat mengadakan kerja sama bantuan timbal balik dalam masalah pidana yang telah ditandatangani pada tanggal 14 Desember 2016 di Tehran, Iran. Untuk lebih meningkatkan efektivitas kerja sama di bidang hukum dalam penanggulangan dan pemberantasan tindak pidana, terutama yang bersifat transnasional, perjanjian bantuan timbal balik dalam masalah pidana harus memperhatikan prinsip umum hukum internasional yang menitikberatkan pada asas penghormatan kedaulatan negara dan kedaulatan hukum, kesetaraan, dan saling menguntungkan serta mengacu pada asas tindak pidana ganda (double criminality)."
+              },
+              {
+                "type": "PLAINTEXT",
+                "text": "Dalam isi Perjanjian antara Pemerintah Republik Indonesia dan Pemerintah Republik Islam Iran tentang Bantuan Hukum Timbal Balik dalam Masalah Pidana ini diatur antara lain mengenai ruang lingkup bantuan, otoritas pusat, prosedur pelaksanaan bantuan, biaya, kewajiban internasional, konsultasi, penyelesaian sengketa, dan amandemen perjanjian."
+              }
+            ]
+          },
+          {
+            "type": "PENJELASAN_PASAL_DEMI_PASAL",
+            "id": "",
+            "children": [
+              {
+                "type": "PENJELASAN_PASAL_DEMI_PASAL_TITLE",
+                "text": "II. PASAL DEMI PASAL"
+              },
+              {
+                "type": "PENJELASAN_PASAL",
+                "id": "",
+                "children": [
+                  {
+                    "type": "PASAL_NUMBER",
+                    "text": "Pasal 1"
+                  },
+                  {
+                    "type": "PLAINTEXT",
+                    "text": "Cukup jelas."
+                  }
+                ]
+              },
+              {
+                "type": "PENJELASAN_PASAL",
+                "id": "",
+                "children": [
+                  {
+                    "type": "PASAL_NUMBER",
+                    "text": "Pasal 2"
+                  },
+                  {
+                    "type": "PLAINTEXT",
+                    "text": "Cukup jelas."
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

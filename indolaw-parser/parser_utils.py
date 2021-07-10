@@ -4,6 +4,7 @@ import re
 from os import system, name, path
 from colorama import init
 from termcolor import colored
+import pyperclip
 
 from parser_types import (
     ComplexNode,
@@ -16,6 +17,7 @@ from parser_is_start_of_x import (
     BAB_NUMBER_REGEX,
     BAB_NUMBER_WITH_OPEN_QUOTE_CHAR_REGEX,
     BAGIAN_NUMBER_REGEX,
+    BAGIAN_NUMBER_WITH_OPEN_QUOTE_CHAR_REGEX,
     CLOSE_QUOTE_CHAR,
     LETTER_WITH_DOT_REGEX,
     LINE_ENDING_REGEXES,
@@ -33,13 +35,17 @@ from parser_is_start_of_x import (
     PENJELASAN_AYAT_ALPHANUMERIC_VARIANT_REGEX,
     PENJELASAN_AYAT_REGEX,
     PENJELASAN_HURUF_REGEX,
+    PENJELASAN_PASAL_DEMI_PASAL_REGEX,
+    START_OF_PERUBAHAN_SECTION_REGEXES,
     is_heading,
+    is_start_of_bagian,
     is_start_of_number_with_brackets_str,
     is_start_of_number_with_right_bracket_str,
     is_start_of_number_with_dot_str,
     is_start_of_letter_with_dot_str,
     is_start_of_first_list_index,
     is_start_of_list_index_str,
+    is_start_of_paragraf,
     is_start_of_pasal,
     is_start_of_penjelasan,
     is_start_of_penjelasan_angka,
@@ -262,7 +268,7 @@ def is_next_list_index_number(list_index_a: str, list_index_b: str) -> bool:
 
 def load_clean_law(filename: str) -> List[str]:
     should_clean_law = True
-    clean_filename = f'{filename}_clean.txt'
+    clean_filename = f'{filename}-clean.txt'
 
     if path.isfile(clean_filename):
         y = colored('y', 'green')
@@ -283,7 +289,7 @@ def load_clean_law(filename: str) -> List[str]:
         law = file.read().split("\n")
         law = clean_law(law)
 
-        with open(filename + '_clean.txt', 'w') as outfile:
+        with open(filename + '-clean.txt', 'w') as outfile:
             txt_law = []
             for i, line in enumerate(law):
                 if i < len(law) - 1:
@@ -329,6 +335,9 @@ def clean_law(law: List[str]) -> List[str]:
             'Informasi adalah keterangan',
         ]
     """
+    law = [line.strip() for line in law]
+    law = [' '.join(line.split()) for line in law]
+
     '''
     Remove semantically meaningless text e.g '. . .' or '1 / 23'
 
@@ -357,13 +366,29 @@ def clean_law(law: List[str]) -> List[str]:
     law = clean_split_plaintext(law)
 
     '''
+    TODO(johnamadeo): Fix "Pasal 38 B" REMOVE THE SPACE WITH REGEX
+    '''
+    law = clean_split_pasal_number(law)
+
+    '''
     Add OPEN_QUOTE_CHAR and CLOSE_QUOTE_CHAR to PERUBAHAN_SECTION and PENJELASAN_PERUBAHAN_SECTION
     '''
     law = insert_perubahan_quotes(law)
-
-    law = [line.strip() for line in law]
-    law = [' '.join(line.split()) for line in law]
     return law
+
+
+def clean_split_pasal_number(law: List[str]) -> List[str]:
+    new_law = []
+    regex = r'(“?Pasal[\s]+[0-9]+[\s]+[A-Z])'
+
+    for line in law:
+        if is_heading(regex, line):
+            pasal, number, letter = line.split()
+            new_law.append(f'{pasal} {number}{letter}')
+        else:
+            new_law.append(line)
+
+    return new_law
 
 
 def insert_perubahan_section_open_quotes(law: List[str]) -> List[str]:
@@ -386,6 +411,8 @@ def insert_perubahan_section_open_quotes(law: List[str]) -> List[str]:
                 print_dashed_line()
                 print(new_law[i+1])
             print_line()
+
+            pyperclip.copy(line)
             print('Add open quote in front of line?')
             print_yes_no()
             user_input = input()
@@ -409,7 +436,7 @@ def insert_perubahan_section_close_quotes(law: List[str]) -> List[str]:
         if is_start_of_penjelasan(new_law, i):
             break
 
-        if line[0] == OPEN_QUOTE_CHAR:
+        if any([is_heading(regex, line) for regex in START_OF_PERUBAHAN_SECTION_REGEXES]):
             open_quote_indexes.append(i)
 
     for i, _ in enumerate(open_quote_indexes):
@@ -432,6 +459,8 @@ def insert_perubahan_section_close_quotes(law: List[str]) -> List[str]:
         for j in range(open_quote_index, next_open_quote_index):
             print(f'[Line {j}] {new_law[j]}')
             print_dashed_line()
+
+        pyperclip.copy(new_law[open_quote_index])
         print('For which line should a close quote be added to the end?')
         user_input = input()
 
@@ -482,6 +511,8 @@ def insert_penjelasan_perubahan_section_open_quotes(law: List[str]) -> List[str]
             print_line()
             print(line)
             print_line()
+
+            pyperclip.copy(line)
             print('Add open quote in front of line?')
             print_yes_no()
             user_input = input()
@@ -509,7 +540,7 @@ def insert_penjelasan_perubahan_section_close_quotes(law: List[str]) -> List[str
         if not in_penjelasan_pasal_demi_pasal:
             continue
 
-        if line[0] == OPEN_QUOTE_CHAR:
+        if any([is_heading(regex, line) for regex in START_OF_PERUBAHAN_SECTION_REGEXES]):
             open_quote_indexes.append(i)
 
     for i, _ in enumerate(open_quote_indexes):
@@ -533,6 +564,7 @@ def insert_penjelasan_perubahan_section_close_quotes(law: List[str]) -> List[str
 
             print_dashed_line()
 
+        pyperclip.copy(new_law[open_quote_index])
         print('For which line should a close quote be added to the end?')
         if best_guess_index != -1:
             print(f'Or {colored("y(es)", "green")} to use the best guess line')
@@ -556,6 +588,8 @@ def insert_penjelasan_perubahan_section_close_quotes(law: List[str]) -> List[str
 
 
 def insert_perubahan_quotes(law: List[str]) -> List[str]:
+    print_section_header('INSERT PERUBAHAN SECTION QUOTES...')
+
     print('Is this UU an UU Perubahan?')
     print_yes_no()
     user_input = input()
@@ -576,11 +610,7 @@ def insert_perubahan_quotes(law: List[str]) -> List[str]:
 
 
 def clean_squashed_page_numbers(law: List[str]) -> List[str]:
-    print(f"{colored('---------------', 'green')}")
-    print()
-    print(f"{colored('CLEANING SQUASHED PAGE NUMBER...', 'green')}")
-    print()
-    print(f"{colored('---------------', 'green')}")
+    print_section_header('CLEANING SQUASHED PAGE NUMBER...')
 
     new_law = []
     for idx, line in enumerate(law):
@@ -594,6 +624,7 @@ def clean_squashed_page_numbers(law: List[str]) -> List[str]:
             print(line)
             print('---------------')
 
+            pyperclip.copy(line)
             print('Does this line have a page number squashed onto the end?')
             print_yes_no()
             user_input = input()
@@ -612,11 +643,7 @@ def clean_split_plaintext(law: List[str]) -> List[str]:
     '''
     Stitch together plaintext lines that get separated into 2 lines due to page breaks
     '''
-    print(f"{colored('---------------', 'green')}")
-    print()
-    print(f"{colored('CLEANING SPLIT PLAINTEXT...', 'green')}")
-    print()
-    print(f"{colored('---------------', 'green')}")
+    print_section_header('CLEANING SPLIT PLAINTEXT...')
 
     new_law: List[str] = []
     for i, line in enumerate(law):
@@ -646,7 +673,9 @@ def clean_split_plaintext(law: List[str]) -> List[str]:
                         not_all_caps and
                         not is_start_of_pasal(law, i) and
                         not is_start_of_perubahan_pasal(law, i) and
-                        not is_start_of_penjelasan_list_index_str(law[i])
+                        not is_start_of_penjelasan_list_index_str(law[i]) and
+                        not is_start_of_bagian(law, i) and
+                        not is_start_of_paragraf(law, i)
                     )
                 )
             )
@@ -660,6 +689,8 @@ def clean_split_plaintext(law: List[str]) -> List[str]:
             print('- - - - - - - - - - - - - - - - -')
             print(f'{law[i]}')
             print('---------------------------------')
+
+            pyperclip.copy(law[i])
             print("Combine lines into one?")
             print_yes_no()
             user_input = input()
@@ -675,11 +706,7 @@ def clean_split_plaintext(law: List[str]) -> List[str]:
 
 
 def clean_maybe_list_items(law: List[str]) -> List[str]:
-    print(f"{colored('---------------', 'green')}")
-    print()
-    print(f"{colored('CLEANING MAYBE LIST ITEMS...', 'green')}")
-    print()
-    print(f"{colored('---------------', 'green')}")
+    print_section_header('CLEANING MAYBE LIST ITEMS...')
 
     approx_len = len(law)
     new_law = []
@@ -815,6 +842,8 @@ def get_squashed_list_item(line: str, approx_len: int, approx_index: int):
     print('- - - - - - - -')
     print(f'{line[start_of_squashed_list_item_idx:]}')
     print('---------------')
+
+    pyperclip.copy(line[start_of_squashed_list_item_idx:])
     print('Split line?')
     print_yes_no()
     user_input = input()
@@ -826,11 +855,7 @@ def get_squashed_list_item(line: str, approx_len: int, approx_index: int):
 
 
 def clean_maybe_squashed_headings(law: List[str]) -> List[str]:
-    print(f"{colored('---------------', 'green')}")
-    print()
-    print(f"{colored('CLEANING MAYBE SQUASHED HEADINGS...', 'green')}")
-    print()
-    print(f"{colored('---------------', 'green')}")
+    print_section_header('CLEANING MAYBE SQUASHED HEADINGS...')
 
     approx_len = len(law)
     new_law = []
@@ -862,6 +887,7 @@ def get_squashed_heading(line: str, approx_len: int, approx_index: int):
         PASAL_NUMBER_WITH_OPEN_QUOTE_CHAR_REGEX,
         BAB_NUMBER_REGEX,
         BAB_NUMBER_WITH_OPEN_QUOTE_CHAR_REGEX,
+        PENJELASAN_PASAL_DEMI_PASAL_REGEX,
     ]
 
     regexes = []
@@ -893,6 +919,8 @@ def get_squashed_heading(line: str, approx_len: int, approx_index: int):
     print('- - - - - - - -')
     print(f"{line[start_of_squashed_heading_idx:]}")
     print('---------------')
+
+    pyperclip.copy(line[start_of_squashed_heading_idx:])
     print('Split line?')
     print_yes_no()
     user_input = input()
@@ -1119,7 +1147,8 @@ def capitalize(string: str) -> str:
         'Perlindungan Konsumen'
     '''
     return ' '.join(
-        [word[0].upper() + word[1:].lower() for word in string.split(' ')]
+        [word[0].upper() + word[1:].lower()
+         for word in string.strip().split(' ')]
     )
 
 
@@ -1193,8 +1222,8 @@ def get_id(node: ComplexNode) -> str:
         if bagian_number_indo == 'pertama':
             bagian_number_int = 1
         else:
-            bagian_number_indo = \
-                bagian_number_node.text.split()[1][2:]
+            text = bagian_number_node.text
+            bagian_number_indo = ' '.join(text.split()[1:])[2:].lower()
             """
             This is obviously janky, but good enough for now. When this fails,
             all we need to do is add more numbers and rerun the parser.
@@ -1211,6 +1240,24 @@ def get_id(node: ComplexNode) -> str:
                 'sembilan': 9,
                 'sepuluh': 10,
                 'sebelas': 11,
+                'dua belas': 12,
+                'tiga belas': 13,
+                'empat belas': 14,
+                'lima belas': 15,
+                'enam belas': 16,
+                'tujuh belas': 17,
+                'delapan belas': 18,
+                'sembilan belas': 19,
+                'dua puluh': 20,
+                'dua puluh satu': 21,
+                'dua puluh dua': 22,
+                'dua puluh tiga': 23,
+                'dua puluh empat': 24,
+                'dua puluh lima': 25,
+                'dua puluh enam': 26,
+                'dua puluh tujuh': 27,
+                'dua puluh delapan': 28,
+                'dua puluh sembilan': 29,
             }[bagian_number_indo]
 
         bab_node = node.parent
@@ -1265,6 +1312,14 @@ def print_yes_no():
     print(f"{colored('y', 'green')} / {colored('n', 'red')}")
 
 
+def print_section_header(line):
+    print(f"{colored('---------------', 'green')}")
+    print()
+    print(f"{colored(line, 'green')}")
+    print()
+    print(f"{colored('---------------', 'green')}")
+
+
 def gen_plaintext_in_list_item_scenario_from_user(law: List[str], i: int) -> PlaintextInListItemScenario:
     print_line()
     print(f'{law[i-2]}')
@@ -1275,10 +1330,10 @@ def gen_plaintext_in_list_item_scenario_from_user(law: List[str], i: int) -> Pla
     print(f'{law[i]}')
     print_line()
 
+    pyperclip.copy(law[i])
     print('This PLAINTEXT is the 3rd line of a LIST_INDEX. Is it:')
     print('- a sibling of the LIST this LIST_ITEM is in? (s)')
     print('- a child of the LIST ITEM? (c)')
-    print('- an embedded structure e.g is this UU modifying other UU? (e)')
 
     user_input = input()
 
@@ -1287,8 +1342,6 @@ def gen_plaintext_in_list_item_scenario_from_user(law: List[str], i: int) -> Pla
         return PlaintextInListItemScenario.SIBLING_OF_LIST
     elif user_input == 'c':
         return PlaintextInListItemScenario.CHILD_OF_LIST_ITEM
-    elif user_input == 'e':
-        return PlaintextInListItemScenario.EMBEDDED_LAW_SNIPPET
     else:
         raise Exception(f'Invalid command "{user_input}" entered by user')
 

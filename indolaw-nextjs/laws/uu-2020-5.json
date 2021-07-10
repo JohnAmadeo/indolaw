@@ -1,0 +1,386 @@
+{
+  "metadata": {
+    "lembaranNegaraNumber": 188,
+    "lembaranNegaraYear": 2020,
+    "tambahanLembaranNumber": 6544,
+    "number": 5,
+    "topic": "Pengesahan Perjanjian Tentang Bantuan Hukum Timbal Balik Dalam Masalah Pidana Antara Republik Indonesia Dan Konfederasi Swiss (treaty On Mutual Legal Assistance In Criminal Matters Between The Republic Of Indonesia And The Swiss Confederation",
+    "year": 2020
+  },
+  "content": {
+    "type": "UNDANG_UNDANG",
+    "id": "",
+    "children": [
+      {
+        "type": "OPENING",
+        "id": "",
+        "children": [
+          {
+            "type": "UU_TITLE",
+            "id": "",
+            "children": [
+              {
+                "type": "PLAINTEXT",
+                "text": "UNDANG-UNDANG REPUBLIK INDONESIA"
+              },
+              {
+                "type": "UU_TITLE_YEAR_AND_NUMBER",
+                "text": "NOMOR 5 TAHUN 2020"
+              },
+              {
+                "type": "PLAINTEXT",
+                "text": "TENTANG"
+              },
+              {
+                "type": "UU_TITLE_TOPIC",
+                "text": "PENGESAHAN PERJANJIAN TENTANG BANTUAN HUKUM TIMBAL BALIK DALAM MASALAH PIDANA ANTARA REPUBLIK INDONESIA DAN KONFEDERASI SWISS (TREATY ON MUTUAL LEGAL ASSISTANCE IN CRIMINAL MATTERS BETWEEN THE REPUBLIC OF INDONESIA AND THE SWISS CONFEDERATION)"
+              }
+            ]
+          },
+          {
+            "type": "PREFACE",
+            "id": "",
+            "children": [
+              {
+                "type": "PLAINTEXT",
+                "text": "DENGAN RAHMAT TUHAN YANG MAHA ESA"
+              },
+              {
+                "type": "PLAINTEXT",
+                "text": "PRESIDEN REPUBLIK INDONESIA,"
+              }
+            ]
+          },
+          {
+            "type": "CONSIDERATIONS",
+            "id": "",
+            "children": [
+              {
+                "type": "PLAINTEXT",
+                "text": "Menimbang:"
+              },
+              {
+                "type": "LIST",
+                "id": "",
+                "children": [
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "LETTER_WITH_DOT",
+                        "text": "a."
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "bahwa dalam rangka mencapai tujuan Negara Republik Indonesia untuk melindungi segenap bangsa Indonesia dan seluruh tumpah darah Indonesia, memajukan kesejahteraan umum, mencerdaskan kehidupan bangsa, dan ikut melaksanakan ketertiban dunia yang berdasarkan kemerdekaan, perdamaian abadi dan -keadilan sosial, Pemerintah Republik Indonesia sebagai bagian dari masyarakat internasional melakukan hubungan dan kerjasama internasional yang diwujudkan dalam perjanjian internasional;"
+                      }
+                    ]
+                  },
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "LETTER_WITH_DOT",
+                        "text": "b."
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "bahwa perkembangan ilmu pengetahuan dan teknologi khususnya di bidang transportasi, komunikasi, dan informasi, selain mempunyai dampak positif juga mempunyai dampak negatif, antara lain timbulnya tindak pidana yang tidak lagi mengenal batas yurisdiksi suatu negara, sehingga untuk meningkatkan kerja sama di bidang hukum dalam penanggulangan dampak negatif tersebut, Pemerintah Republik Indonesia dan Pemerintah Konfederasi Swiss telah menandatangani Perjanjian tentang Bantuan Hukum Timbal Balik dalam Masalah Pidana antara Republik Indonesia dan Konfederasi Swiss (Treaty on Mutual Legal Assistance in Criminal Matters between the Republic of Indonesia and the Swiss Confederation) pada tanggal 4 Februari 2019 di Bern, Swiss;"
+                      }
+                    ]
+                  },
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "LETTER_WITH_DOT",
+                        "text": "c."
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "bahwa berdasarkan ketentuan Pasal 10 Undang-Undang Nomor 24 tahun 2000 tentang Perjanjian Internasional, pengesahan Perjanjian sebagaimana dimaksud dalam huruf b dilakukan dengan Undang Undang;"
+                      }
+                    ]
+                  },
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "LETTER_WITH_DOT",
+                        "text": "d."
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "bahwa berdasarkan pertimbangan sebagaimana dimaksud dalam huruf a, huruf b, dan huruf c, perlu membentuk Undang-Undang tentang Pengesahan Perjanjian tentang Bantuan Hukum Timbal Balik dalam Masalah Pidana antara Republik Indonesia dan Konfederasi Swiss (Treaty on Mutual Legal Assistance in Criminal Matters between the Republic of Indonesia and the Swiss Confederation)."
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "PRINCIPLES",
+            "id": "",
+            "children": [
+              {
+                "type": "PLAINTEXT",
+                "text": "Mengingat:"
+              },
+              {
+                "type": "LIST",
+                "id": "",
+                "children": [
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "NUMBER_WITH_DOT",
+                        "text": "1."
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "Pasal 5 ayat (1), Pasal 11, dan Pasal 20 Undang-Undang Dasar Negara Republik Indonesia Tahun 1945;"
+                      }
+                    ]
+                  },
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "NUMBER_WITH_DOT",
+                        "text": "2."
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "Undang-Undang Nomor 24 Tahun 2000 tentang Perjanjian Internasional (Lembaran Negara Republik Indonesia Tahun 2000 Nomor 185, Tambahan Lembaran Negara Republik Indonesia Nomor 4012);"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "AGREEMENT",
+            "id": "",
+            "children": [
+              {
+                "type": "PLAINTEXT",
+                "text": "Dengan Persetujuan Bersama"
+              },
+              {
+                "type": "PLAINTEXT",
+                "text": "DEWAN PERWAKILAN RAKYAT REPUBLIK INDONESIA"
+              },
+              {
+                "type": "PLAINTEXT",
+                "text": "dan"
+              },
+              {
+                "type": "PLAINTEXT",
+                "text": "PRESIDEN REPUBLIK INDONESIA"
+              },
+              {
+                "type": "PLAINTEXT",
+                "text": "MEMUTUSKAN:"
+              },
+              {
+                "type": "PLAINTEXT",
+                "text": "Menetapkan:"
+              },
+              {
+                "type": "PLAINTEXT",
+                "text": "UNDANG-UNDANG TENTANG PENGESAHAN PERJANJIAN TENTANG BANTUAN HUKUM TIMBAL BALIK DALAM MASALAH PIDANA ANTARA REPUBLIK INDONESIA DAN KONFEDERASI SWISS (TREATY ON MUTUAL LEGAL ASSISTANCE IN CRIMINAL MATTERS BETWEEN THE REPUBLIC OF INDONESIA AND THE SWISS CONFEDERATION)."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "PASAL",
+        "id": "pasal-1",
+        "children": [
+          {
+            "type": "PASAL_NUMBER",
+            "text": "Pasal 1"
+          },
+          {
+            "type": "PLAINTEXT",
+            "text": "Mengesahkan Perjanjian tentang Bantuan Hukum Timbal Balik dalam Masalah Pidana antara Republik Indonesia dan Konfederasi Swiss (Treaty on Mutual Legal Assistance in Criminal Matters between the Republic of Indonesia and the Swiss Confederation) yang telah ditandatangani pada tanggal 4 Februari 2019 di Bern, Swiss yang salinan naskah aslinya dalam bahasa Indonesia, bahasa Jerman, dan bahasa Inggris sebagaimana terlampir dan merupakan bagian yang tidak terpisahkan dari Undang-Undang ini."
+          }
+        ]
+      },
+      {
+        "type": "PASAL",
+        "id": "pasal-2",
+        "children": [
+          {
+            "type": "PASAL_NUMBER",
+            "text": "Pasal 2"
+          },
+          {
+            "type": "PLAINTEXT",
+            "text": "Undang-Undang ini mulai berlaku pada tanggal diundangkan."
+          },
+          {
+            "type": "PLAINTEXT",
+            "text": "Agar setiap orang mengetahuinya, memerintahkan pengundangan Undang-Undang ini dengan penempatannya dalam Lembaran Negara Republik Indonesia."
+          }
+        ]
+      },
+      {
+        "type": "CLOSING",
+        "id": "",
+        "children": [
+          {
+            "type": "PLAINTEXT",
+            "text": "Disahkan Di Jakarta,"
+          },
+          {
+            "type": "PLAINTEXT",
+            "text": "Pada Tanggal 5 Agustus 2020"
+          },
+          {
+            "type": "PLAINTEXT",
+            "text": "PRESIDEN REPUBLIK INDONESIA,"
+          },
+          {
+            "type": "PLAINTEXT",
+            "text": "Ttd."
+          },
+          {
+            "type": "PLAINTEXT",
+            "text": "JOKO WIDODO"
+          },
+          {
+            "type": "PLAINTEXT",
+            "text": "Diundangkan Di Jakarta,"
+          },
+          {
+            "type": "PLAINTEXT",
+            "text": "Pada Tanggal 6 Agustus 2020"
+          },
+          {
+            "type": "PLAINTEXT",
+            "text": "MENTERI HUKUM DAN HAK ASASI MANUSIA REPUBLIK INDONESIA,"
+          },
+          {
+            "type": "PLAINTEXT",
+            "text": "Ttd."
+          },
+          {
+            "type": "PLAINTEXT",
+            "text": "YASONNA H. LAOLY"
+          },
+          {
+            "type": "LEMBARAN_NUMBER",
+            "text": "LEMBARAN NEGARA REPUBLIK INDONESIA TAHUN 2020 NOMOR 188"
+          }
+        ]
+      },
+      {
+        "type": "PENJELASAN",
+        "id": "penjelasan",
+        "children": [
+          {
+            "type": "PENJELASAN_TITLE",
+            "id": "",
+            "children": [
+              {
+                "type": "PLAINTEXT",
+                "text": "PENJELASAN"
+              },
+              {
+                "type": "PLAINTEXT",
+                "text": "ATAS"
+              },
+              {
+                "type": "PLAINTEXT",
+                "text": "UNDANG-UNDANG REPUBLIK INDONESIA"
+              },
+              {
+                "type": "UU_TITLE_YEAR_AND_NUMBER",
+                "text": "NOMOR 5 TAHUN 2020"
+              },
+              {
+                "type": "PLAINTEXT",
+                "text": "TENTANG"
+              },
+              {
+                "type": "UU_TITLE_TOPIC",
+                "text": "PENGESAHAN PERJANJIAN TENTANG BANTUAN HUKUM TIMBAL BALIK DALAM MASALAH PIDANA ANTARA REPUBLIK INDONESIA DAN KONFEDERASI SWISS (TREATY ON MUTUAL LEGAL ASSISTANCE IN CRIMINAL MATTERS BETWEEN THE REPUBLIC OF INDONESIA AND THE SWISS CONFEDERATION"
+              }
+            ]
+          },
+          {
+            "type": "PENJELASAN_UMUM",
+            "id": "",
+            "children": [
+              {
+                "type": "PENJELASAN_UMUM_TITLE",
+                "text": "I. UMUM"
+              },
+              {
+                "type": "PLAINTEXT",
+                "text": "Dalam rangka mencapai tujuan negara Republik Indonesia sebagaimana tercantum dalam Pembukaan Undang-Undang Dasar Negara Republik Indonesia Tahun 1945, yaitu melindungi segenap bangsa Indonesia dan seluruh tumpah darah Indonesia, dan untuk memajukan kesejahteraan umum, mencerdaskan kehidupan bangsa, dan ikut melaksanakan ketertiban dunia yang berdasarkan kemerdekaan, perdamaian abadi, dan keadilan sosial, Pemerintah Republik Indonesia sebagai bagian dari masyarakat internasional melakukan hubungan dan kerja sama internasional yang diwujudkan dalam perjanjian internasional."
+              },
+              {
+                "type": "PLAINTEXT",
+                "text": "Dalam menanggulangi dan memberantas tindak pidana, terutama yang bersifat transnasional, diperlukan kerja sama antarnegara yang efektif baik bersifat bilateral maupun multilateral. Menyadari kenyataan tersebut, Pemerintah Republik Indonesia dan Pemerintah Konfederasi Swiss telah menandatangani Perjanjian tentang Bantuan Hukum Timbal Balik dalam Masalah Pidana antara Republik Indonesia dan Konfederasi Swiss (Treaty on Mutual Legal Assistance in Criminal Matters between the Republic of Indonesia and the Swiss Confederation) pada tanggal 4 Februari 2019 di Bern, Swiss. Untuk lebih meningkatkan efektivitas kerja sama di bidang hukum dalam penanggulangan dan pemberantasan tindak pidana, terutama yang bersifat transnasional, perjanjian bantuan timbal balik dalam masalah pidana harus memperhatikan prinsip umum hukum internasional yang menitikberatkan pada asas penghormatan kedaulatan negara dan kedaulatan hukum, kesetaraan, dan saling menguntungkan serta mengacu pada asas tindak pidana ganda (double criminality)."
+              },
+              {
+                "type": "PLAINTEXT",
+                "text": "Perjanjian tentang Bantuan Hukum Timbal Balik dalam Masalah Pidana antara Republik Indonesia dan Konfederasi Swiss (Treaty on Mutual Legal Assistance in Criminal Matters between the Republic of Indonesia and the Swiss Confederation) ini mengatur antara lain mengenai ruang lingkup bantuan hukum timbal balik, otoritas pusat, prosedur pelaksanaan bantuan, biaya, kewajiban internasional, konsultasi, penyelesaian perselisihan, dan amendemen perjanjian."
+              }
+            ]
+          },
+          {
+            "type": "PENJELASAN_PASAL_DEMI_PASAL",
+            "id": "",
+            "children": [
+              {
+                "type": "PENJELASAN_PASAL_DEMI_PASAL_TITLE",
+                "text": "II. PASAL DEMI PASAL"
+              },
+              {
+                "type": "PENJELASAN_PASAL",
+                "id": "",
+                "children": [
+                  {
+                    "type": "PASAL_NUMBER",
+                    "text": "Pasal 1"
+                  },
+                  {
+                    "type": "PLAINTEXT",
+                    "text": "Cukup jelas."
+                  }
+                ]
+              },
+              {
+                "type": "PENJELASAN_PASAL",
+                "id": "",
+                "children": [
+                  {
+                    "type": "PASAL_NUMBER",
+                    "text": "Pasal 2"
+                  },
+                  {
+                    "type": "PLAINTEXT",
+                    "text": "Cukup jelas."
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}
