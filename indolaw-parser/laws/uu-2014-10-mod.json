@@ -1,0 +1,856 @@
+{
+  "metadata": {
+    "lembaranNegaraNumber": 59,
+    "lembaranNegaraYear": 2014,
+    "tambahanLembaranNumber": 5518,
+    "number": 10,
+    "topic": "Pengesahan International Convention For The Suppression Of Acts Of Nuclear Terrorism (konvensi Internasional Penanggulangan Tindakan Terorisme Nuklir)",
+    "year": 2014
+  },
+  "content": {
+    "type": "UNDANG_UNDANG",
+    "id": "",
+    "children": [
+      {
+        "type": "OPENING",
+        "id": "",
+        "children": [
+          {
+            "type": "UU_TITLE",
+            "id": "",
+            "children": [
+              {
+                "type": "PLAINTEXT",
+                "text": "UNDANG-UNDANG REPUBLIK INDONESIA"
+              },
+              {
+                "type": "UU_TITLE_YEAR_AND_NUMBER",
+                "text": "NOMOR 10 TAHUN 2014"
+              },
+              {
+                "type": "PLAINTEXT",
+                "text": "TENTANG"
+              },
+              {
+                "type": "UU_TITLE_TOPIC",
+                "text": "PENGESAHAN INTERNATIONAL CONVENTION FOR THE SUPPRESSION OF ACTS OF NUCLEAR TERRORISM (KONVENSI INTERNASIONAL PENANGGULANGAN TINDAKAN TERORISME NUKLIR)"
+              }
+            ]
+          },
+          {
+            "type": "PREFACE",
+            "id": "",
+            "children": [
+              {
+                "type": "PLAINTEXT",
+                "text": "DENGAN RAHMAT TUHAN YANG MAHA ESA"
+              },
+              {
+                "type": "PLAINTEXT",
+                "text": "PRESIDEN REPUBLIK INDONESIA,"
+              }
+            ]
+          },
+          {
+            "type": "CONSIDERATIONS",
+            "id": "",
+            "children": [
+              {
+                "type": "PLAINTEXT",
+                "text": "Menimbang:"
+              },
+              {
+                "type": "LIST",
+                "id": "",
+                "children": [
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "LETTER_WITH_DOT",
+                        "text": "a."
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "bahwa tujuan Pemerintah Negara Indonesia sebagaimana tertuang dalam Pembukaan Undang-Undang Dasar Negara Republik Indonesia Tahun 1945 adalah untuk melindungi segenap bangsa Indonesia dan seluruh tumpah darah Indonesia, memajukan kesejahteraan umum, mencerdaskan kehidupan bangsa serta ikut melaksanakan ketertiban dunia yang berdasarkan kemerdekaan, perdamaian abadi, dan keadilan sosial;"
+                      }
+                    ]
+                  },
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "LETTER_WITH_DOT",
+                        "text": "b."
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "bahwa berdasarkan pertimbangan sebagaimana dimaksud dalam huruf a, Pemerintah Indonesia sebagai bagian dari masyarakat internasional berkomitmen untuk mendukung upaya penanggulangan tindakan terorisme, khususnya terorisme nuklir;"
+                      }
+                    ]
+                  },
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "LETTER_WITH_DOT",
+                        "text": "c."
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "bahwa tindak pidana terorisme nuklir merupakan kejahatan internasional yang menimbulkan bahaya terhadap keamanan dan perdamaian dunia serta kemanusiaan dan peradaban sehingga pencegahan dan pemberantasannya memerlukan kerja sama antarnegara;"
+                      }
+                    ]
+                  },
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "LETTER_WITH_DOT",
+                        "text": "d."
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "bahwa berdasarkan pertimbangan sebagaimana dimaksud dalam huruf a, huruf b, dan huruf c, perlu mengesahkan International Convention for the Suppression of Acts of Nuclear Terrorism (Konvensi Internasional Penanggulangan Tindakan Terorisme Nuklir) dengan Undang-Undang."
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "PRINCIPLES",
+            "id": "",
+            "children": [
+              {
+                "type": "PLAINTEXT",
+                "text": "Mengingat:"
+              },
+              {
+                "type": "LIST",
+                "id": "",
+                "children": [
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "NUMBER_WITH_DOT",
+                        "text": "1."
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "Pasal 5 ayat (1), Pasal 11, dan Pasal 20 Undang-Undang Dasar Negara Republik Indonesia Tahun 1945;"
+                      }
+                    ]
+                  },
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "NUMBER_WITH_DOT",
+                        "text": "2."
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "Undang-Undang Nomor 24 Tahun 2000 tentang Perjanjian Internasional (Lembaran Negara Republik Indonesia Tahun 2000 Nomor 185, Tambahan Lembaran Negara Republik Indonesia Nomor 4012)."
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "AGREEMENT",
+            "id": "",
+            "children": [
+              {
+                "type": "PLAINTEXT",
+                "text": "Dengan Persetujuan Bersama:"
+              },
+              {
+                "type": "PLAINTEXT",
+                "text": "DEWAN PERWAKILAN RAKYAT REPUBLIK INDONESIA"
+              },
+              {
+                "type": "PLAINTEXT",
+                "text": "dan"
+              },
+              {
+                "type": "PLAINTEXT",
+                "text": "PRESIDEN REPUBLIK INDONESIA"
+              },
+              {
+                "type": "PLAINTEXT",
+                "text": "MEMUTUSKAN:"
+              },
+              {
+                "type": "PLAINTEXT",
+                "text": "Menetapkan:"
+              },
+              {
+                "type": "PLAINTEXT",
+                "text": "UNDANG-UNDANG TENTANG PENGESAHAN INTERNATIONAL CONVENTION FOR THE SUPPRESSION OF ACTS OF NUCLEAR TERRORISM (KONVENSI INTERNASIONAL PENANGGULANGAN TINDAKAN TERORISME NUKLIR)"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "PASAL",
+        "id": "pasal-1",
+        "children": [
+          {
+            "type": "PASAL_NUMBER",
+            "text": "Pasal 1"
+          },
+          {
+            "type": "LIST",
+            "id": "",
+            "children": [
+              {
+                "type": "LIST_ITEM",
+                "id": "",
+                "children": [
+                  {
+                    "type": "NUMBER_WITH_BRACKETS",
+                    "text": "(1)"
+                  },
+                  {
+                    "type": "PLAINTEXT",
+                    "text": "Mengesahkan International Convention for the Suppression of Acts of Nuclear Terrorism (Konvensi Internasional Penanggulangan Tindakan Terorisme Nuklir) dengan Declaration (Pernyataan) terhadap Pasal 4 dan Reservation (Pensyaratan) terhadap Pasal 23 ayat (1)."
+                  }
+                ]
+              },
+              {
+                "type": "LIST_ITEM",
+                "id": "",
+                "children": [
+                  {
+                    "type": "NUMBER_WITH_BRACKETS",
+                    "text": "(2)"
+                  },
+                  {
+                    "type": "PLAINTEXT",
+                    "text": "Salinan naskah asli International Convention for the Suppression of Acts of Nuclear Terrorism (Konvensi Internasional Penanggulangan Tindakan Terorisme Nuklir) dengan Declaration (Pernyataan) terhadap Pasal 4 dan Reservation (Pensyaratan) terhadap Pasal 23 ayat (1) dalam bahasa Inggris dan terjemahannya dalam bahasa Indonesia sebagaimana terlampir dan merupakan bagian yang tidak terpisahkan dari Undang-Undang ini."
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "PASAL",
+        "id": "pasal-2",
+        "children": [
+          {
+            "type": "PASAL_NUMBER",
+            "text": "Pasal 2"
+          },
+          {
+            "type": "PLAINTEXT",
+            "text": "Undang-Undang ini mulai berlaku pada tanggal diundangkan."
+          },
+          {
+            "type": "PLAINTEXT",
+            "text": "Agar setiap orang mengetahuinya, memerintahkan pengundangan Undang-Undang ini dengan penempatannya dalam Lembaran Negara Republik Indonesia."
+          }
+        ]
+      },
+      {
+        "type": "CLOSING",
+        "id": "",
+        "children": [
+          {
+            "type": "PLAINTEXT",
+            "text": "Disahkan Di Jakarta,"
+          },
+          {
+            "type": "PLAINTEXT",
+            "text": "Pada Tanggal 19 Maret 2014"
+          },
+          {
+            "type": "PLAINTEXT",
+            "text": "PRESIDEN REPUBLIK INDONESIA,"
+          },
+          {
+            "type": "PLAINTEXT",
+            "text": "Ttd."
+          },
+          {
+            "type": "PLAINTEXT",
+            "text": "DR. H. SUSILO BAMBANG YUDHOYONO"
+          },
+          {
+            "type": "PLAINTEXT",
+            "text": "Diundangkan Di Jakarta,"
+          },
+          {
+            "type": "PLAINTEXT",
+            "text": "Pada Tanggal 19 Maret 2014"
+          },
+          {
+            "type": "PLAINTEXT",
+            "text": "MENTERI HUKUM DAN HAK ASASI MANUSIA REPUBLIK INDONESIA,"
+          },
+          {
+            "type": "PLAINTEXT",
+            "text": "Ttd."
+          },
+          {
+            "type": "PLAINTEXT",
+            "text": "AMIR SYAMSUDIN"
+          },
+          {
+            "type": "LEMBARAN_NUMBER",
+            "text": "LEMBARAN NEGARA REPUBLIK INDONESIA TAHUN 2014 NOMOR 59"
+          }
+        ]
+      },
+      {
+        "type": "PENJELASAN",
+        "id": "penjelasan",
+        "children": [
+          {
+            "type": "PENJELASAN_TITLE",
+            "id": "",
+            "children": [
+              {
+                "type": "PLAINTEXT",
+                "text": "PENJELASAN"
+              },
+              {
+                "type": "PLAINTEXT",
+                "text": "UNDANG-UNDANG REPUBLIK INDONESIA"
+              },
+              {
+                "type": "UU_TITLE_YEAR_AND_NUMBER",
+                "text": "NOMOR 10 TAHUN 2014"
+              },
+              {
+                "type": "PLAINTEXT",
+                "text": "TENTANG"
+              },
+              {
+                "type": "UU_TITLE_TOPIC",
+                "text": "PENGESAHAN INTERNATIONAL CONVENTION FOR THE SUPPRESSION OF ACTS OF NUCLEAR TERRORISM (KONVENSI INTERNASIONAL PENANGGULANGAN TINDAKAN TERORISME NUKLIR)"
+              }
+            ]
+          },
+          {
+            "type": "PENJELASAN_UMUM",
+            "id": "",
+            "children": [
+              {
+                "type": "PENJELASAN_UMUM_TITLE",
+                "text": "I. UMUM"
+              },
+              {
+                "type": "PLAINTEXT",
+                "text": "Sebagaimana tercantum dalam Pembukaan Undang-Undang Dasar Negara Republik Indonesia Tahun 1945, tujuan Negara Republik Indonesia adalah melindungi segenap bangsa dan seluruh tumpah darah Indonesia, dan untuk memajukan kesejahteraan umum, mencerdaskan kehidupan bangsa, dan ikut melaksanakan ketertiban dunia yang berdasarkan kemerdekaan, perdamaian abadi, dan keadilan sosial."
+              },
+              {
+                "type": "PLAINTEXT",
+                "text": "Pemerintah Indonesia menyadari bahwa maraknya tindakan terorisme pada beberapa dekade terakhir telah membuat berbagai negara semakin khawatir akan keselamatan warga negara dan kestabilan keamanan dalam negeri maupun internasional. Terorisme yang terjadi belakangan semakin canggih metodenya karena para pelaku mampu mengikuti perkembangan teknologi serta kondisi sosial masyarakat terkini, sehingga tindakan terorisme mampu menciptakan rasa takut di masyarakat."
+              },
+              {
+                "type": "PLAINTEXT",
+                "text": "Naskah International Convention for the Suppression of Acts of Nuclear Terrorism (Konvensi Internasional Penanggulangan Tindakan Terorisme Nuklir atau disebut juga sebagai Konvensi Terorisme Nuklir) pertama kali diajukan pada sesi pertama Komite Ad Hoc PBB yang lahir berdasarkan Resolusi Majelis Umum PBB Nomor 51/210. Pada saat itu, instrumen internasional yang ada belum mengatur mengenai upaya pencegahan dan pemberantasan terorisme nuklir. Konvensi Proteksi Fisik Bahan Nuklir, yang saat itu merupakan satu-satunya instrumen hukum nuklir yang dapat diacu, terbatas pada pengaturan proteksi fisik bahan nuklir dan instalasi nuklir termasuk pengangkutan internasional bahan nuklir dan karenanya tidak mengatur zat radioaktif dan fasilitas radiasi yang dapat menjadi target tindakan terorisme."
+              },
+              {
+                "type": "PLAINTEXT",
+                "text": "Indonesia sebagai bagian dari masyarakat internasional telah berpartisipasi dengan aktif dalam berbagai upaya kerja sama internasional di bidang keamanan nuklir, yaitu antara lain dalam forum Konferensi Tingkat Tinggi (KTT) Keamanan Nuklir (Nuclear Security Summit) I pada tahun 2010 yang mengakui adanya ancaman serius terhadap keamanan nuklir dan perlunya kerja sama untuk mencapai tujuan mengamankan seluruh bahan nuklir, fasilitas nuklir, zat radioaktif dan fasilitas radiasi di seluruh dunia dari segala bentuk penyalahgunaan yang dilakukan oleh berbagai pihak. Kemudian dalam KTT Keamanan Nuklir II pada tahun 2012, Pemerintah Indonesia menegaskan dukungan lebih lanjut atas keamanan nuklir dengan melakukan konversi pemanfaatan High Enriched Uranium (HEU) menjadi Low Enriched Uranium (LEU) sesuai dengan kepentingan nasional, memasang radiation portal monitor di pelabuhan, mengesahkan amandemen Konvensi Proteksi Fisik dan Bahan Nuklir, dan memulai proses pengesahan Konvensi Terorisme Nuklir. Di samping itu, Indonesia juga selalu mengambil bagian dalam kegiatan Badan Tenaga Atom Internasional untuk topik yang berkaitan dengan keselamatan (safety), keamanan (security), dan safeguards."
+              },
+              {
+                "type": "PLAINTEXT",
+                "text": "Indonesia menyadari bahwa pengesahan Konvensi akan bermanfaat bagi kepentingan nasional dan sekaligus menunjukkan komitmen Indonesia untuk menjaga keamanan dan perdamaian dunia dan sesuai dengan tujuan politik bebas aktif Indonesia. Implementasi pengesahan Konvensi ini akan memperkuat fondasi hukum dan kerangka hukum di Indonesia. Dengan disahkannya Konvensi ini, dimungkinkan adanya penguatan infrastruktur yang berkaitan dengan keamanan nuklir, kerja sama multilateral dan kolaborasi dengan negara anggota dan organisasi internasional dalam hal kerangka hukum pencegahan dan penanggulangan terorisme."
+              },
+              {
+                "type": "PLAINTEXT",
+                "text": "Pengesahan Konvensi Terorisme Nuklir membuka pula kemungkinan bantuan teknis dari dunia internasional dalam hal capacity building, penguatan infrastruktur terkait keamanan nuklir, penguatan koordinasi dan kelembagaan, serta kerahasiaan informasi."
+              },
+              {
+                "type": "PLAINTEXT",
+                "text": "Peraturan perundang-undangan yang terkait dengan Konvensi Terorisme Nuklir, sebagai berikut:"
+              },
+              {
+                "type": "LIST",
+                "id": "",
+                "children": [
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "NUMBER_WITH_DOT",
+                        "text": "1."
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "Undang-Undang Nomor 8 Tahun 1978 tentang Pengesahan Treaty on the Non-Proliferation of Nuclear Weapons (Perjanjian mengenai Pencegahan Penyebaran Senjata-Senjata Nuklir);"
+                      }
+                    ]
+                  },
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "NUMBER_WITH_DOT",
+                        "text": "2."
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "Undang-Undang Nomor 1 Tahun 1979 tentang Ekstradisi;"
+                      }
+                    ]
+                  },
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "NUMBER_WITH_DOT",
+                        "text": "3."
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "Undang-Undang Nomor 9 Tahun 1997 tentang Pengesahan Treaty on the South East Asia Nuclear Weapon Free Zone (Traktat Kawasan Bebas Senjata Nuklir di Asia Tenggara);"
+                      }
+                    ]
+                  },
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "NUMBER_WITH_DOT",
+                        "text": "4."
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "Undang-Undang Nomor 10 Tahun 1997 tentang Ketenaganukliran;"
+                      }
+                    ]
+                  },
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "NUMBER_WITH_DOT",
+                        "text": "5."
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "Undang-Undang Nomor 37 Tahun 1999 tentang Hubungan Luar Negeri;"
+                      }
+                    ]
+                  },
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "NUMBER_WITH_DOT",
+                        "text": "6."
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "Undang-Undang Nomor 24 Tahun 2000 tentang Perjanjian Internasional;"
+                      }
+                    ]
+                  },
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "NUMBER_WITH_DOT",
+                        "text": "7."
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "Undang-Undang Nomor 15 Tahun 2003 tentang Penetapan Peraturan Pemerintah Pengganti Undang-Undang Nomor 1 Tahun 2002 tentang Pemberantasan Tindak Pidana Terorisme, menjadi Undang-Undang;"
+                      }
+                    ]
+                  },
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "NUMBER_WITH_DOT",
+                        "text": "8."
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "Undang-Undang Nomor 1 Tahun 2006 tentang Bantuan Timbal Balik dalam Masalah Pidana;"
+                      }
+                    ]
+                  },
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "NUMBER_WITH_DOT",
+                        "text": "9."
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "Undang-Undang Nomor 17 Tahun 2007 tentang Rencana Pembangunan Jangka Panjang Nasional Tahun 2005 - 2025;"
+                      }
+                    ]
+                  },
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "NUMBER_WITH_DOT",
+                        "text": "10."
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "Undang-Undang Nomor 30 Tahun 2007 tentang Energi;"
+                      }
+                    ]
+                  },
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "NUMBER_WITH_DOT",
+                        "text": "11."
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "Undang-Undang Nomor 9 Tahun 2013 tentang Pencegahan dan Pemberantasan Tindak Pidana Pendanaan Terorisme;"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "PLAINTEXT",
+                "text": "Materi pokok yang diatur dalam Konvensi Terorisme Nuklir, sebagai berikut:"
+              },
+              {
+                "type": "LIST",
+                "id": "",
+                "children": [
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "NUMBER_WITH_DOT",
+                        "text": "1."
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "Tujuan"
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "Konvensi ini bertujuan untuk mencegah dan menanggulangi tindakan terorisme nuklir."
+                      }
+                    ]
+                  },
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "NUMBER_WITH_DOT",
+                        "text": "2."
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "Ruang Lingkup Konvensi"
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "Konvensi ini mengatur mengenai upaya pencegahan dan penanggulangan tindakan terorisme nuklir baik di dalam negeri maupun antarnegara berdasarkan definisi yang diatur dalam Konvensi ini."
+                      }
+                    ]
+                  },
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "NUMBER_WITH_DOT",
+                        "text": "3."
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "Kewajiban Negara Pihak"
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "Sesuai dengan ketentuan Konvensi ini, Negara-Negara Pihak pada Konvensi ini mempunyai kewajiban sebagai berikut:"
+                      },
+                      {
+                        "type": "LIST",
+                        "id": "",
+                        "children": [
+                          {
+                            "type": "LIST_ITEM",
+                            "id": "",
+                            "children": [
+                              {
+                                "type": "LETTER_WITH_DOT",
+                                "text": "a."
+                              },
+                              {
+                                "type": "PLAINTEXT",
+                                "text": "menetapkan kepada setiap orang yang melakukan hal yang dilarang dalam Konvensi ini sebagai tindak pidana dalam hukum nasionalnya;"
+                              }
+                            ]
+                          },
+                          {
+                            "type": "LIST_ITEM",
+                            "id": "",
+                            "children": [
+                              {
+                                "type": "LETTER_WITH_DOT",
+                                "text": "b."
+                              },
+                              {
+                                "type": "PLAINTEXT",
+                                "text": "menyusun undang-undang dan ketentuan lainnya yang dipandang perlu agar terorisme nuklir dapat dikriminalisasi sesuai dengan sistem hukumnya masing-masing;"
+                              }
+                            ]
+                          },
+                          {
+                            "type": "LIST_ITEM",
+                            "id": "",
+                            "children": [
+                              {
+                                "type": "LETTER_WITH_DOT",
+                                "text": "c."
+                              },
+                              {
+                                "type": "PLAINTEXT",
+                                "text": "bekerja sama untuk mencegah dan memberantas tindak kejahatan terorisme nuklir, tukar menukar informasi, melindungi kerahasiaan informasi terkait upaya memberantas kejahatan dimaksud, dan menyampaikan informasi kepada Sekretaris Jenderal Perserikatan Bangsa Bangsa tentang lembaga yang berwenang dan pihak penghubung di dalam negeri terkait dengan pelaksanaan Konvensi ini;"
+                              }
+                            ]
+                          },
+                          {
+                            "type": "LIST_ITEM",
+                            "id": "",
+                            "children": [
+                              {
+                                "type": "LETTER_WITH_DOT",
+                                "text": "d."
+                              },
+                              {
+                                "type": "PLAINTEXT",
+                                "text": "memastikan proteksi zat radioaktif, dengan mempertimbangkan rekomendasi yang relevan dari Badan Tenaga Atom Internasional;"
+                              }
+                            ]
+                          },
+                          {
+                            "type": "LIST_ITEM",
+                            "id": "",
+                            "children": [
+                              {
+                                "type": "LETTER_WITH_DOT",
+                                "text": "e."
+                              },
+                              {
+                                "type": "PLAINTEXT",
+                                "text": "menetapkan yurisdiksi apabila kejahatan dilakukan di wilayah negaranya, kejahatan dilakukan di kapal laut yang berbendera negara dimaksud, atau di pesawat terbang yang terdaftar menurut hukum negara dimaksud pada saat kejahatan dilakukan, kejahatan dilakukan oleh warga negara dimaksud, kejahatan dilakukan terhadap warga negara dari negara dimaksud, kejahatan dilakukan terhadap fasilitas negara atau pemerintah di luar negeri, kejahatan dilakukan oleh orang yang tidak memiliki kewarganegaraan yang tempat tinggalnya berada di wilayah negara dimaksud, kejahatan dilakukan dalam upaya memaksa negara dimaksud melakukan atau tidak melakukan suatu tindakan, dan kejahatan dilakukan di pesawat terbang yang dioperasikan oleh pemerintah negara dimaksud;"
+                              }
+                            ]
+                          },
+                          {
+                            "type": "LIST_ITEM",
+                            "id": "",
+                            "children": [
+                              {
+                                "type": "LETTER_WITH_DOT",
+                                "text": "f."
+                              },
+                              {
+                                "type": "PLAINTEXT",
+                                "text": "menyelidiki fakta yang terkandung dalam informasi mengenai tindak pidana kejahatan terorisme nuklir, dan menjamin kehadiran tersangka pelaku untuk maksud penuntutan dan ekstradisi, dan hak tersangka pelaku tindak pidana kejahatan terorisme nuklir untuk berkomunikasi, dikunjungi, dan diberikan informasi, serta kewajiban Negara Pihak untuk menyampaikan pemberitahuan kepada Sekretaris Jenderal Perserikatan Bangsa-Bangsa dan juga bila dianggap perlu kepada Negara Pihak lain yang berminat, mengenai penahanan tersangka pelaku tindak pidana kejahatan terorisme nuklir;"
+                              }
+                            ]
+                          },
+                          {
+                            "type": "LIST_ITEM",
+                            "id": "",
+                            "children": [
+                              {
+                                "type": "LETTER_WITH_DOT",
+                                "text": "g."
+                              },
+                              {
+                                "type": "PLAINTEXT",
+                                "text": "mengadili atau mengekstradisi tersangka pelaku tindak pidana kejahatan terorisme nuklir;"
+                              }
+                            ]
+                          },
+                          {
+                            "type": "LIST_ITEM",
+                            "id": "",
+                            "children": [
+                              {
+                                "type": "LETTER_WITH_DOT",
+                                "text": "h."
+                              },
+                              {
+                                "type": "PLAINTEXT",
+                                "text": "memberikan bantuan terkait penyelidikan atau proses hukum pidana atau ekstradisi, termasuk bantuan dalam memperoleh bukti untuk proses hukum, sesuai dengan perjanjian atau persetujuan bantuan hukum timbal balik;"
+                              }
+                            ]
+                          },
+                          {
+                            "type": "LIST_ITEM",
+                            "id": "",
+                            "children": [
+                              {
+                                "type": "LETTER_WITH_DOT",
+                                "text": "i."
+                              },
+                              {
+                                "type": "PLAINTEXT",
+                                "text": "mengambil langkah untuk menemukan kembali zat radioaktif, dan menguasai kembali alat atau fasilitas nuklir setelah terjadi tindak pidana terorisme, dan menjamin pemanfaatan bahan nuklir sesuai dengan safeguards, serta mempertimbangkan rekomendasi proteksi fisik, standar kesehatan dan keselamatan dari Badan Tenaga Atom Internasional;"
+                              }
+                            ]
+                          },
+                          {
+                            "type": "LIST_ITEM",
+                            "id": "",
+                            "children": [
+                              {
+                                "type": "LETTER_WITH_DOT",
+                                "text": "j."
+                              },
+                              {
+                                "type": "PLAINTEXT",
+                                "text": "mengomunikasikan hasil akhir penuntutan tersangka pelaku tindak pidana kejahatan terorisme nuklir kepada Sekretaris Jenderal Perserikatan Bangsa-Bangsa dan Negara Pihak lain;"
+                              }
+                            ]
+                          },
+                          {
+                            "type": "LIST_ITEM",
+                            "id": "",
+                            "children": [
+                              {
+                                "type": "LETTER_WITH_DOT",
+                                "text": "k."
+                              },
+                              {
+                                "type": "PLAINTEXT",
+                                "text": "berkonsultasi dengan Negara Pihak lain secara langsung atau melalui Sekretaris Jenderal Perserikatan Bangsa-Bangsa, dengan bantuan organisasi internasional lain dalam penerapan Konvensi ini;"
+                              }
+                            ]
+                          },
+                          {
+                            "type": "LIST_ITEM",
+                            "id": "",
+                            "children": [
+                              {
+                                "type": "LETTER_WITH_DOT",
+                                "text": "l."
+                              },
+                              {
+                                "type": "PLAINTEXT",
+                                "text": "melaksanakan Konvensi ini sesuai dengan prinsip persamaan kedaulatan dan integritas wilayah negara dan nonintervensi dalam urusan luar negeri negara lain."
+                              }
+                            ]
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "PENJELASAN_PASAL_DEMI_PASAL",
+            "id": "",
+            "children": [
+              {
+                "type": "PENJELASAN_PASAL_DEMI_PASAL_TITLE",
+                "text": "II. PASAL DEMI PASAL"
+              },
+              {
+                "type": "PENJELASAN_PASAL",
+                "id": "",
+                "children": [
+                  {
+                    "type": "PASAL_NUMBER",
+                    "text": "Pasal 1"
+                  },
+                  {
+                    "type": "LIST",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "PENJELASAN_LIST_ITEM",
+                        "id": "",
+                        "children": [
+                          {
+                            "type": "PENJELASAN_AYAT",
+                            "text": "Ayat (1)"
+                          },
+                          {
+                            "type": "PLAINTEXT",
+                            "text": "Cukup jelas."
+                          }
+                        ]
+                      },
+                      {
+                        "type": "PENJELASAN_LIST_ITEM",
+                        "id": "",
+                        "children": [
+                          {
+                            "type": "PENJELASAN_AYAT",
+                            "text": "Ayat (2)"
+                          },
+                          {
+                            "type": "PLAINTEXT",
+                            "text": "Apabila terjadi perbedaan penafsiran terhadap terjemahan dalam bahasa Indonesia maka yang berlaku adalah naskah asli Konvensi dalam bahasa Inggris."
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "PENJELASAN_PASAL",
+                "id": "",
+                "children": [
+                  {
+                    "type": "PASAL_NUMBER",
+                    "text": "Pasal 2"
+                  },
+                  {
+                    "type": "PLAINTEXT",
+                    "text": "Cukup jelas."
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}
