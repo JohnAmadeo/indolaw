@@ -5,7 +5,38 @@
     "tambahanLembaranNumber": 6141,
     "number": 18,
     "topic": "Pelindungan Pekerja Migran Indonesia",
-    "year": 2017
+    "year": 2017,
+    "status": [
+      "Mencabut UU - UU No. 39/2004"
+    ],
+    "ketentuan_umum": {
+      "CALON PEKERJA MIGRAN INDONESIA": "setiap tenaga kerja Indonesia yang memenuhi syarat sebagai pencari kerja yang akan bekerja di luar negeri dan terdaftar di instansi pemerintah kabupaten/kota yang bertanggung jawab di bidang ketenagakerjaan.",
+      "PEKERJA MIGRAN INDONESIA": "setiap warga negara Indonesia yang akan, sedang, atau telah melakukan pekerjaan dengan menerima upah di luar wilayah Republik Indonesia.",
+      "KELUARGA PEKERJA MIGRAN INDONESIA": "suami, istri, anak, atau orang tua termasuk hubungan karena putusan dan/atau penetapan pengadilan, baik yang berada di Indonesia maupun yang tinggal bersama Pekerja Migran Indonesia di luar negeri.",
+      "PEKERJA MIGRAN INDONESIA PERSEORANGAN": "Pekerja Migran Indonesia yang akan bekerja ke luar negeri tanpa melalui pelaksana penempatan.",
+      "PELINDUNGAN PEKERJA MIGRAN INDONESIA": "segala upaya untuk melindungi kepentingan Calon Pekerja Migran Indonesia dan/atau Pekerja Migran Indonesia dan keluarganya dalam mewujudkan terjaminnya pemenuhan haknya dalam keseluruhan kegiatan sebelum bekerja, selama bekerja, dan setelah bekerja dalam aspek hukum, ekonomi, dan sosial.",
+      "PELINDUNGAN SEBELUM BEKERJA": "keseluruhan aktivitas untuk memberikan pelindungan sejak pendaftaran sampai pemberangkatan.",
+      "PELINDUNGAN SELAMA BEKERJA": "keseluruhan aktivitas untuk memberikan pelindungan selama Pekerja Migran Indonesia dan anggota keluarganya berada di luar negeri.",
+      "PELINDUNGAN SETELAH BEKERJA": "keseluruhan aktivitas untuk memberikan pelindungan sejak Pekerja Migran Indonesia dan anggota keluarganya tiba di debarkasi di Indonesia hingga kembali ke daerah asal, termasuk pelayanan lanjutan menjadi pekerja produktif.",
+      "PERUSAHAAN PENEMPATAN PEKERJA MIGRAN INDONESIA": "badan usaha berbadan hukum perseroan terbatas yang telah memperoleh izin tertulis dari Menteri untuk menyelenggarakan pelayanan penempatan Pekerja Migran Indonesia.",
+      "MITRA USAHA": "instansi dan/atau badan usaha berbentuk badan hukum di negara tujuan penempatan yang bertanggung jawab menempatkan Pekerja Migran Indonesia pada pemberi kerja.",
+      "PEMBERI KERJA": "instansi pemerintah, badan hukum pemerintah, badan hukum swasta, dan/atau perseorangan di negara tujuan penempatan yang mempekerjakan Pekerja Migran Indonesia.",
+      "PERJANJIAN KERJA SAMA PENEMPATAN": "perjanjian tertulis antara Perusahaan Penempatan Pekerja Migran Indonesia dan Mitra Usaha atau Pemberi Kerja yang memuat hak dan kewajiban setiap pihak dalam rangka penempatan dan Pelindungan Pekerja Migran Indonesia di negara tujuan penempatan.",
+      "PERJANJIAN PENEMPATAN": "perjanjian tertulis antara pelaksana penempatan Pekerja Migran Indonesia dan Calon Pekerja Migran Indonesia yang memuat hak dan kewajiban setiap pihak, dalam rangka penempatan Pekerja Migran Indonesia di negara tujuan penempatan sesuai dengan ketentuan peraturan perundang undangan.",
+      "PERJANJIAN KERJA": "perjanjian tertulis antara Pekerja Migran Indonesia dan Pemberi Kerja yang memuat syarat kerja, hak, dan kewajiban setiap pihak, serta jaminan keamanan dan keselamatan selama bekerja sesuai dengan ketentuan peraturan perundang-undangan.",
+      "VISA KERJA": "izin tertulis yang diberikan oleh pejabat yang berwenang di suatu negara tujuan penempatan yang memuat persetujuan untuk masuk dan melakukan pekerjaan di negara yang bersangkutan.",
+      "SIP3MI": "izin tertulis yang diberikan oleh Menteri kepada badan usaha berbadan hukum Indonesia yang akan menjadi Perusahaan Penempatan Pekerja Migran Indonesia.",
+      "SIP2MI": "lzin yang diberikan oleh kepala Badan kepada Perusahaan Penempatan Pekerja Migran Indonesia yang digunakan untuk menempatkan Calon Pekerja Migran Indonesia.",
+      "JAMINAN SOSIAL": "salah satu bentuk pelindungan sosial untuk menjamin seluruh rakyat agar dapat memenuhi kebutuhan dasar hidupnya yang layak.",
+      "ORANG": "orang perseorangan dan/atau korporasi.",
+      "BADAN PENYELENGGARA JAMINAN SOSIAL": "badan hukum yang menyelenggarakan program Jaminan Sosial Pekerja Migran Indonesia.",
+      "PEMERINTAH PUSAT": "Presiden Republik Indonesia yang memegang kekuasaan pemerintahan negara Republik Indonesia yang dibantu oleh Wakil Presiden dan menteri sebagaimana dimaksud dalam Undang-Undang Dasar Negara Republik Indonesia Tahun 1945.",
+      "PEMERINTAH DAERAH": "kepala daerah sebagai unsur penyelenggara pemerintahan daerah yang memimpin pelaksanaan urusan pemerintahan yang menjadi kewenangan daerah otonom.",
+      "PEMERINTAH DESA": "kepala desa atau yang disebut dengan nama lain dibantu perangkat desa sebagai unsur penyelenggara pemerintahan desa.",
+      "PERWAKILAN REPUBLIK INDONESIA": "perwakilan diplomatik dan perwakilan konsuler Republik Indonesia yang secara resmi mewakili dan memperjuangkan kepentingan bangsa, negara, dan pemerintah Republik Indonesia secara keseluruhan di negara tujuan penempatan atau pada organisasi internasional.",
+      "MENTERI": "menteri yang menyelenggarakan urusan pemerintahan di bidang ketenagakerjaan.",
+      "BADAN": "lembaga pemerintah nonkementerian yang bertugas sebagai pelaksana kebijakan dalam pelayanan dan Pelindungan Pekerja Migran Indonesia secara terpadu."
+    }
   },
   "content": {
     "type": "UNDANG_UNDANG",
@@ -679,7 +710,7 @@
               },
               {
                 "type": "PLAINTEXT",
-                "text": "Pelindungan Pekerja Migran Indonesia memiliki asas:"
+                "text": "${Pelindungan Pekerja Migran Indonesia} memiliki asas:"
               },
               {
                 "type": "LIST",
@@ -853,7 +884,7 @@
               },
               {
                 "type": "PLAINTEXT",
-                "text": "Pelindungan Pekerja Migran Indonesia bertujuan untuk:"
+                "text": "${Pelindungan Pekerja Migran Indonesia} bertujuan untuk:"
               },
               {
                 "type": "LIST",
@@ -869,7 +900,7 @@
                       },
                       {
                         "type": "PLAINTEXT",
-                        "text": "menjamin pemenuhan dan penegakan hak asasi manusia sebagai warga negara dan Pekerja Migran Indonesia; dan"
+                        "text": "menjamin pemenuhan dan penegakan hak asasi manusia sebagai warga negara dan ${Pekerja Migran Indonesia}; dan"
                       }
                     ]
                   },
@@ -883,7 +914,7 @@
                       },
                       {
                         "type": "PLAINTEXT",
-                        "text": "menjamin pelindungan hukum, ekonomi, dan sosial Pekerja Migran Indonesia dan keluarganya."
+                        "text": "menjamin pelindungan hukum, ekonomi, dan sosial ${Pekerja Migran Indonesia} dan keluarganya."
                       }
                     ]
                   }
@@ -939,7 +970,7 @@
                           },
                           {
                             "type": "PLAINTEXT",
-                            "text": "Pekerja Migran Indonesia meliputi:"
+                            "text": "${Pekerja Migran Indonesia} meliputi:"
                           },
                           {
                             "type": "LIST",
@@ -955,7 +986,7 @@
                                   },
                                   {
                                     "type": "PLAINTEXT",
-                                    "text": "Pekerja Migran Indonesia yang bekerja pada Pemberi Kerja berbadan hukum;"
+                                    "text": "${Pekerja Migran Indonesia} yang bekerja pada ${Pemberi Kerja} berbadan hukum;"
                                   }
                                 ]
                               },
@@ -969,7 +1000,7 @@
                                   },
                                   {
                                     "type": "PLAINTEXT",
-                                    "text": "Pekerja Migran Indonesia yang bekerja pada Pemberi Kerja perseorangan atau rumah tangga; dan"
+                                    "text": "${Pekerja Migran Indonesia} yang bekerja pada ${Pemberi Kerja} perseorangan atau rumah tangga; dan"
                                   }
                                 ]
                               },
@@ -1001,7 +1032,7 @@
                           },
                           {
                             "type": "PLAINTEXT",
-                            "text": "Tidak termasuk sebagai Pekerja Migran Indonesia dalam Undang-Undang ini, yaitu:"
+                            "text": "Tidak termasuk sebagai ${Pekerja Migran Indonesia} dalam Undang-Undang ini, yaitu:"
                           },
                           {
                             "type": "LIST",
@@ -1017,7 +1048,7 @@
                                   },
                                   {
                                     "type": "PLAINTEXT",
-                                    "text": "warga negara Indonesia yang dikirim atau dipekerjakan oleh badan internasional atau oleh negara di luar wilayahnya untuk menjalankan tugas resmi;"
+                                    "text": "warga negara Indonesia yang dikirim atau dipekerjakan oleh ${badan} internasional atau oleh negara di luar wilayahnya untuk menjalankan tugas resmi;"
                                   }
                                 ]
                               },
@@ -1073,7 +1104,7 @@
                                   },
                                   {
                                     "type": "PLAINTEXT",
-                                    "text": "aparatur sipil negara atau pegawai setempat yang bekerja di Perwakilan Republik Indonesia;"
+                                    "text": "aparatur sipil negara atau pegawai setempat yang bekerja di ${Perwakilan Republik Indonesia};"
                                   }
                                 ]
                               },
@@ -1137,7 +1168,7 @@
                   },
                   {
                     "type": "PLAINTEXT",
-                    "text": "Setiap Pekerja Migran Indonesia yang akan bekerja ke luar negeri harus memenuhi persyaratan:"
+                    "text": "Setiap ${Pekerja Migran Indonesia} yang akan bekerja ke luar negeri harus memenuhi persyaratan:"
                   },
                   {
                     "type": "LIST",
@@ -1195,7 +1226,7 @@
                           },
                           {
                             "type": "PLAINTEXT",
-                            "text": "terdaftar dan memiliki nomor kepesertaan Jaminan Sosial; dan"
+                            "text": "terdaftar dan memiliki nomor kepesertaan ${Jaminan Sosial}; dan"
                           }
                         ]
                       },
@@ -1253,7 +1284,7 @@
                           },
                           {
                             "type": "PLAINTEXT",
-                            "text": "Setiap Calon Pekerja Migran Indonesia atau Pekerja Migran Indonesia memiliki hak:"
+                            "text": "Setiap ${Calon Pekerja Migran Indonesia} atau Pekerja Migran Indonesia memiliki hak:"
                           },
                           {
                             "type": "LIST",
@@ -1339,7 +1370,7 @@
                                   },
                                   {
                                     "type": "PLAINTEXT",
-                                    "text": "memperoleh upah sesuai dengan standar upah yang berlaku di negara tujuan penempatan dan/atau kesepakatan kedua negara dan/atau Perjanjian Kerja;"
+                                    "text": "memperoleh upah sesuai dengan standar upah yang berlaku di negara tujuan penempatan dan/atau kesepakatan kedua negara dan/atau ${Perjanjian Kerja};"
                                   }
                                 ]
                               },
@@ -1367,7 +1398,7 @@
                                   },
                                   {
                                     "type": "PLAINTEXT",
-                                    "text": "memperoleh penjelasan mengenai hak dan kewajiban sebagaimana tertuang dalam Perjanjian Kerja;"
+                                    "text": "memperoleh penjelasan mengenai hak dan kewajiban sebagaimana tertuang dalam ${Perjanjian Kerja};"
                                   }
                                 ]
                               },
@@ -1423,7 +1454,7 @@
                                   },
                                   {
                                     "type": "PLAINTEXT",
-                                    "text": "memperoleh jaminan pelindungan keselamatan dan keamanan kepulangan Pekerja Migran Indonesia ke daerah asal; dan/atau"
+                                    "text": "memperoleh jaminan pelindungan keselamatan dan keamanan kepulangan ${Pekerja Migran Indonesia} ke daerah asal; dan/atau"
                                   }
                                 ]
                               },
@@ -1437,7 +1468,7 @@
                                   },
                                   {
                                     "type": "PLAINTEXT",
-                                    "text": "memperoleh dokumen dan Perjanjian Kerja Calon Pekerja Migran Indonesia dan/atau Pekerja Migran Indonesia."
+                                    "text": "memperoleh dokumen dan ${Perjanjian Kerja} ${Calon Pekerja Migran Indonesia} dan/atau Pekerja Migran Indonesia."
                                   }
                                 ]
                               }
@@ -1455,7 +1486,7 @@
                           },
                           {
                             "type": "PLAINTEXT",
-                            "text": "Setiap Pekerja Migran Indonesia memiliki kewajiban:"
+                            "text": "Setiap ${Pekerja Migran Indonesia} memiliki kewajiban:"
                           },
                           {
                             "type": "LIST",
@@ -1499,7 +1530,7 @@
                                   },
                                   {
                                     "type": "PLAINTEXT",
-                                    "text": "menaati dan melaksanakan pekerjaannya sesuai dengan Perjanjian Kerja; dan"
+                                    "text": "menaati dan melaksanakan pekerjaannya sesuai dengan ${Perjanjian Kerja}; dan"
                                   }
                                 ]
                               },
@@ -1513,7 +1544,7 @@
                                   },
                                   {
                                     "type": "PLAINTEXT",
-                                    "text": "melaporkan kedatangan, keberadaan, dan kepulangan Pekerja Migran lndonesia kepada Perwakilan Republik Indonesia di negara tujuan penempatan."
+                                    "text": "melaporkan kedatangan, keberadaan, dan kepulangan Pekerja Migran lndonesia kepada ${Perwakilan Republik Indonesia} di negara tujuan penempatan."
                                   }
                                 ]
                               }
@@ -1531,7 +1562,7 @@
                           },
                           {
                             "type": "PLAINTEXT",
-                            "text": "Setiap Keluarga Pekerja Migran Indonesia memiliki hak:"
+                            "text": "Setiap ${Keluarga Pekerja Migran Indonesia} memiliki hak:"
                           },
                           {
                             "type": "LIST",
@@ -1547,7 +1578,7 @@
                                   },
                                   {
                                     "type": "PLAINTEXT",
-                                    "text": "memperoleh informasi mengenai kondisi, masalah, dan kepulangan Pekerja Migran Indonesia;"
+                                    "text": "memperoleh informasi mengenai kondisi, masalah, dan kepulangan ${Pekerja Migran Indonesia};"
                                   }
                                 ]
                               },
@@ -1561,7 +1592,7 @@
                                   },
                                   {
                                     "type": "PLAINTEXT",
-                                    "text": "menerima seluruh harta benda Pekerja Migran Indonesia yang meninggal di luar negeri;"
+                                    "text": "menerima seluruh harta benda ${Pekerja Migran Indonesia} yang meninggal di luar negeri;"
                                   }
                                 ]
                               },
@@ -1575,7 +1606,7 @@
                                   },
                                   {
                                     "type": "PLAINTEXT",
-                                    "text": "memperoleh salinan dokumen dan Perjanjian Kerja Calon Pekerja Migran Indonesia dan/atau Pekerja Migran Indonesia; dan"
+                                    "text": "memperoleh salinan dokumen dan ${Perjanjian Kerja} ${Calon Pekerja Migran Indonesia} dan/atau Pekerja Migran Indonesia; dan"
                                   }
                                 ]
                               },
@@ -1639,7 +1670,7 @@
                   },
                   {
                     "type": "PLAINTEXT",
-                    "text": "Pelindungan Calon Pekerja Migran Indonesia Pekerja Migran Indonesia meliputi:"
+                    "text": "Pelindungan ${Calon Pekerja Migran Indonesia} Pekerja Migran Indonesia meliputi:"
                   },
                   {
                     "type": "LIST",
@@ -1655,7 +1686,7 @@
                           },
                           {
                             "type": "PLAINTEXT",
-                            "text": "Pelindungan Sebelum Bekerja;"
+                            "text": "${Pelindungan Sebelum Bekerja};"
                           }
                         ]
                       },
@@ -1669,7 +1700,7 @@
                           },
                           {
                             "type": "PLAINTEXT",
-                            "text": "Pelindungan Selama Bekerja; dan"
+                            "text": "${Pelindungan Selama Bekerja}; dan"
                           }
                         ]
                       },
@@ -1683,7 +1714,7 @@
                           },
                           {
                             "type": "PLAINTEXT",
-                            "text": "Pelindungan Setelah Bekerja."
+                            "text": "${Pelindungan Setelah Bekerja}."
                           }
                         ]
                       }
@@ -1727,7 +1758,7 @@
                           },
                           {
                             "type": "PLAINTEXT",
-                            "text": "Pelindungan Sebelum Bekerja sebagaimana dimaksud dalam Pasal 7 huruf a meliputi:"
+                            "text": "${Pelindungan Sebelum Bekerja} sebagaimana dimaksud dalam Pasal 7 huruf a meliputi:"
                           },
                           {
                             "type": "LIST",
@@ -1853,7 +1884,7 @@
                                   },
                                   {
                                     "type": "PLAINTEXT",
-                                    "text": "peningkatan kualitas Calon Pekerja Migran Indonesia melalui pendidikan dan pelatihan kerja;"
+                                    "text": "peningkatan kualitas ${Calon Pekerja Migran Indonesia} melalui pendidikan dan pelatihan kerja;"
                                   }
                                 ]
                               },
@@ -1867,7 +1898,7 @@
                                   },
                                   {
                                     "type": "PLAINTEXT",
-                                    "text": "Jaminan Sosial;"
+                                    "text": "${Jaminan Sosial};"
                                   }
                                 ]
                               },
@@ -1881,7 +1912,7 @@
                                   },
                                   {
                                     "type": "PLAINTEXT",
-                                    "text": "fasilitasi pemenuhan hak Calon Pekerja Migran Indonesia;"
+                                    "text": "fasilitasi pemenuhan hak ${Calon Pekerja Migran Indonesia};"
                                   }
                                 ]
                               },
@@ -1909,7 +1940,7 @@
                                   },
                                   {
                                     "type": "PLAINTEXT",
-                                    "text": "pelayanan penempatan di layanan terpadu satu atap penempatan dan pelindungan Pekerja Migran Indonesia; dan"
+                                    "text": "pelayanan penempatan di layanan terpadu satu atap penempatan dan ${pelindungan Pekerja Migran Indonesia}; dan"
                                   }
                                 ]
                               },
@@ -1957,7 +1988,7 @@
                           },
                           {
                             "type": "PLAINTEXT",
-                            "text": "Informasi sebagaimana dimaksud dalam Pasal 6 ayat (1) huruf c dan permintaan Pekerja Migran Indonesia berasal dari:"
+                            "text": "Informasi sebagaimana dimaksud dalam Pasal 6 ayat (1) huruf c dan permintaan ${Pekerja Migran Indonesia} berasal dari:"
                           },
                           {
                             "type": "LIST",
@@ -1973,7 +2004,7 @@
                                   },
                                   {
                                     "type": "PLAINTEXT",
-                                    "text": "Perwakilan Republik Indonesia di negara tujuan penempatan;"
+                                    "text": "${Perwakilan Republik Indonesia} di negara tujuan penempatan;"
                                   }
                                 ]
                               },
@@ -1987,7 +2018,7 @@
                                   },
                                   {
                                     "type": "PLAINTEXT",
-                                    "text": "Mitra Usaha di negara tujuan penempatan; dan/atau"
+                                    "text": "${Mitra Usaha} di negara tujuan penempatan; dan/atau"
                                   }
                                 ]
                               },
@@ -2001,7 +2032,7 @@
                                   },
                                   {
                                     "type": "PLAINTEXT",
-                                    "text": "calon Pemberi Kerja, baik perseorangan maupun badan usaha asing di negara tujuan penempatan."
+                                    "text": "calon ${Pemberi Kerja}, baik perseorangan maupun ${badan} usaha asing di negara tujuan penempatan."
                                   }
                                 ]
                               }
@@ -2019,7 +2050,7 @@
                           },
                           {
                             "type": "PLAINTEXT",
-                            "text": "Informasi dan permintaan Pekerja Migran Indonesia yang berasal dari Mitra Usaha dan calon Pemberi Kerja di negara tujuan penempatan sebagaimana dimaksud dalam Pasal 6 ayat (1) huruf c harus diverifikasi oleh atase ketenagakerjaan dan/atau pejabat dinas luar negeri yang ditunjuk."
+                            "text": "Informasi dan permintaan ${Pekerja Migran Indonesia} yang berasal dari ${Mitra Usaha} dan calon ${Pemberi Kerja} di negara tujuan penempatan sebagaimana dimaksud dalam Pasal 6 ayat (1) huruf c harus diverifikasi oleh atase ketenagakerjaan dan/atau pejabat dinas luar negeri yang ditunjuk."
                           }
                         ]
                       }
@@ -2065,7 +2096,7 @@
                                   },
                                   {
                                     "type": "PLAINTEXT",
-                                    "text": "Mitra Usaha; dan"
+                                    "text": "${Mitra Usaha}; dan"
                                   }
                                 ]
                               },
@@ -2079,7 +2110,7 @@
                                   },
                                   {
                                     "type": "PLAINTEXT",
-                                    "text": "calon Pemberi Kerja."
+                                    "text": "calon ${Pemberi Kerja}."
                                   }
                                 ]
                               }
@@ -2097,7 +2128,7 @@
                           },
                           {
                             "type": "PLAINTEXT",
-                            "text": "Berdasarkan hasil verifikasi terhadap Mitra Usaha dan calon Pemberi Kerja sebagaimana dimaksud pada ayat (1), atase ketenagakerjaan dan/atau pejabat dinas luar negeri yang ditunjuk menetapkan Pemberi Kerja dan Mitra Usaha yang bermasalah dalam daftar Pemberi Kerja dan Mitra Usaha yang bermasalah."
+                            "text": "Berdasarkan hasil verifikasi terhadap ${Mitra Usaha} dan calon ${Pemberi Kerja} sebagaimana dimaksud pada ayat (1), atase ketenagakerjaan dan/atau pejabat dinas luar negeri yang ditunjuk menetapkan ${Pemberi Kerja} dan ${Mitra Usaha} yang bermasalah dalam daftar ${Pemberi Kerja} dan ${Mitra Usaha} yang bermasalah."
                           }
                         ]
                       },
@@ -2111,7 +2142,7 @@
                           },
                           {
                             "type": "PLAINTEXT",
-                            "text": "Atase ketenagakerjaan dan/atau pejabat dinas luar negeri yang ditunjuk wajib mengumumkan daftar Mitra Usaha dan calon Pemberi Kerja bermasalah secara periodik."
+                            "text": "Atase ketenagakerjaan dan/atau pejabat dinas luar negeri yang ditunjuk wajib mengumumkan daftar ${Mitra Usaha} dan calon ${Pemberi Kerja} bermasalah secara periodik."
                           }
                         ]
                       },
@@ -2125,7 +2156,7 @@
                           },
                           {
                             "type": "PLAINTEXT",
-                            "text": "Hasil verifikasi terhadap Mitra Usaha dan calon Pemberi Kerja bermasalah sebagaimana dimaksud pada ayat (2) menjadi bahan rekomendasi dalam pemberian izin penempatan bagi Perusahaan Penempatan Pekerja Migran Indonesia yang bermitra dengan Mitra Usaha yang bermasalah."
+                            "text": "Hasil verifikasi terhadap ${Mitra Usaha} dan calon ${Pemberi Kerja} bermasalah sebagaimana dimaksud pada ayat (2) menjadi bahan rekomendasi dalam pemberian izin penempatan bagi ${Perusahaan Penempatan Pekerja Migran Indonesia} yang bermitra dengan ${Mitra Usaha} yang bermasalah."
                           }
                         ]
                       }
@@ -2155,7 +2186,7 @@
                           },
                           {
                             "type": "PLAINTEXT",
-                            "text": "Pemerintah Pusat mendistribusikan informasi dan permintaan Pekerja Migran Indonesia kepada Pemerintah Daerah kabupaten/kota melalui Pemerintah Daerah provinsi."
+                            "text": "${Pemerintah Pusat} mendistribusikan informasi dan permintaan ${Pekerja Migran Indonesia} kepada ${Pemerintah Daerah} kabupaten/kota melalui ${Pemerintah Daerah} provinsi."
                           }
                         ]
                       },
@@ -2169,7 +2200,7 @@
                           },
                           {
                             "type": "PLAINTEXT",
-                            "text": "Pemerintah Daerah kabupaten/kota melakukan sosialisasi informasi dan permintaan Pekerja Migran Indonesia sebagaimana dimaksud pada ayat (1) kepada masyarakat dengan melibatkan aparat Pemerintah Desa."
+                            "text": "${Pemerintah Daerah} kabupaten/kota melakukan sosialisasi informasi dan permintaan ${Pekerja Migran Indonesia} sebagaimana dimaksud pada ayat (1) kepada masyarakat dengan melibatkan aparat ${Pemerintah Desa}."
                           }
                         ]
                       }
@@ -2199,7 +2230,7 @@
                           },
                           {
                             "type": "PLAINTEXT",
-                            "text": "Calon Pekerja Migran Indonesia wajib mengikuti proses yang dipersyaratkan sebelum bekerja."
+                            "text": "${Calon Pekerja Migran Indonesia} wajib mengikuti proses yang dipersyaratkan sebelum bekerja."
                           }
                         ]
                       },
@@ -2213,7 +2244,7 @@
                           },
                           {
                             "type": "PLAINTEXT",
-                            "text": "Ketentuan lebih lanjut mengenai proses yang dipersyaratkan diatur dengan Peraturan Kepala Badan."
+                            "text": "Ketentuan lebih lanjut mengenai proses yang dipersyaratkan diatur dengan Peraturan Kepala ${Badan}."
                           }
                         ]
                       }
@@ -2231,7 +2262,7 @@
                   },
                   {
                     "type": "PLAINTEXT",
-                    "text": "Untuk dapat ditempatkan di luar negeri, Calon Pekerja Migran Indonesia wajib memiliki dokumen yang  meliputi:"
+                    "text": "Untuk dapat ditempatkan di luar negeri, ${Calon Pekerja Migran Indonesia} wajib memiliki dokumen yang  meliputi:"
                   },
                   {
                     "type": "LIST",
@@ -2261,7 +2292,7 @@
                           },
                           {
                             "type": "PLAINTEXT",
-                            "text": "surat keterangan izin suami atau istri, izin orang tua, atau izin wali yang diketahui oleh kepala desa atau lurah;"
+                            "text": "surat keterangan izin suami atau istri, izin ${orang} tua, atau izin wali yang diketahui oleh kepala desa atau lurah;"
                           }
                         ]
                       },
@@ -2317,7 +2348,7 @@
                           },
                           {
                             "type": "PLAINTEXT",
-                            "text": "Visa Kerja;"
+                            "text": "${Visa Kerja};"
                           }
                         ]
                       },
@@ -2331,7 +2362,7 @@
                           },
                           {
                             "type": "PLAINTEXT",
-                            "text": "Perjanjian Penempatan Pekerja Migran Indonesia; dan"
+                            "text": "${Perjanjian Penempatan} ${Pekerja Migran Indonesia}; dan"
                           }
                         ]
                       },
@@ -2345,7 +2376,7 @@
                           },
                           {
                             "type": "PLAINTEXT",
-                            "text": "Perjanjian Kerja."
+                            "text": "${Perjanjian Kerja}."
                           }
                         ]
                       }
@@ -2363,7 +2394,7 @@
                   },
                   {
                     "type": "PLAINTEXT",
-                    "text": "Hubungan kerja antara Pemberi Kerja dan Pekerja Migran Indonesia berdasarkan Perjanjian Kerja yang  mempunyai unsur pekerjaan, upah, dan perintah."
+                    "text": "Hubungan kerja antara ${Pemberi Kerja} dan ${Pekerja Migran Indonesia} berdasarkan ${Perjanjian Kerja} yang  mempunyai unsur pekerjaan, upah, dan perintah."
                   }
                 ]
               },
@@ -2389,7 +2420,7 @@
                           },
                           {
                             "type": "PLAINTEXT",
-                            "text": "Hubungan kerja antara Pemberi Kerja dan Pekerja Migran Indonesia terjadi setelah Perjanjian Kerja sebagaimana dimaksud dalam Pasal 14 disepakati dan ditandatangani oleh para pihak."
+                            "text": "Hubungan kerja antara ${Pemberi Kerja} dan ${Pekerja Migran Indonesia} terjadi setelah ${Perjanjian Kerja} sebagaimana dimaksud dalam Pasal 14 disepakati dan ditandatangani oleh para pihak."
                           }
                         ]
                       },
@@ -2403,7 +2434,7 @@
                           },
                           {
                             "type": "PLAINTEXT",
-                            "text": "Perjanjian Kerja sebagaimana dimaksud pada ayat (1) paling sedikit meliputi:"
+                            "text": "${Perjanjian Kerja} sebagaimana dimaksud pada ayat (1) paling sedikit meliputi:"
                           },
                           {
                             "type": "LIST",
@@ -2419,7 +2450,7 @@
                                   },
                                   {
                                     "type": "PLAINTEXT",
-                                    "text": "nama, profil, dan alamat lengkap Pemberi Kerja;"
+                                    "text": "nama, profil, dan alamat lengkap ${Pemberi Kerja};"
                                   }
                                 ]
                               },
@@ -2433,7 +2464,7 @@
                                   },
                                   {
                                     "type": "PLAINTEXT",
-                                    "text": "nama dan alamat lengkap Pekerja Migran Indonesia;"
+                                    "text": "nama dan alamat lengkap ${Pekerja Migran Indonesia};"
                                   }
                                 ]
                               },
@@ -2447,7 +2478,7 @@
                                   },
                                   {
                                     "type": "PLAINTEXT",
-                                    "text": "jabatan atau jenis pekerjaan Pekerja Migran Indonesia;"
+                                    "text": "jabatan atau jenis pekerjaan ${Pekerja Migran Indonesia};"
                                   }
                                 ]
                               },
@@ -2475,7 +2506,7 @@
                                   },
                                   {
                                     "type": "PLAINTEXT",
-                                    "text": "kondisi dan syarat kerja yang meliputi jam kerja, upah dan tata cara pembayaran, hak cuti dan waktu istirahat, serta fasilitas dan Jaminan Sosial dan/atau asuransi;"
+                                    "text": "kondisi dan syarat kerja yang meliputi jam kerja, upah dan tata cara pembayaran, hak cuti dan waktu istirahat, serta fasilitas dan ${Jaminan Sosial} dan/atau asuransi;"
                                   }
                                 ]
                               },
@@ -2489,7 +2520,7 @@
                                   },
                                   {
                                     "type": "PLAINTEXT",
-                                    "text": "jangka waktu Perjanjian Kerja; dan"
+                                    "text": "jangka waktu ${Perjanjian Kerja}; dan"
                                   }
                                 ]
                               },
@@ -2503,7 +2534,7 @@
                                   },
                                   {
                                     "type": "PLAINTEXT",
-                                    "text": "jaminan keamanan dan keselamatan Pekerja Migran Indonesia selama bekerja."
+                                    "text": "jaminan keamanan dan keselamatan ${Pekerja Migran Indonesia} selama bekerja."
                                   }
                                 ]
                               }
@@ -2521,7 +2552,7 @@
                           },
                           {
                             "type": "PLAINTEXT",
-                            "text": "Ketentuan lebih lanjut mengenai standar Perjanjian Kerja, penandatanganan, dan verifikasi diatur dengan Peraturan Kepala Badan."
+                            "text": "Ketentuan lebih lanjut mengenai standar ${Perjanjian Kerja}, penandatanganan, dan verifikasi diatur dengan Peraturan Kepala ${Badan}."
                           }
                         ]
                       }
@@ -2539,7 +2570,7 @@
                   },
                   {
                     "type": "PLAINTEXT",
-                    "text": "Jangka waktu Perjanjian Kerja sebagaimana dimaksud dalam Pasal 15 ayat (2) huruf f dibuat berdasarkan  kesepakatan tertulis antara Pekerja Migran Indonesia dan Pemberi Kerja serta dapat diperpanjang."
+                    "text": "Jangka waktu ${Perjanjian Kerja} sebagaimana dimaksud dalam Pasal 15 ayat (2) huruf f dibuat berdasarkan  kesepakatan tertulis antara ${Pekerja Migran Indonesia} dan ${Pemberi Kerja} serta dapat diperpanjang."
                   }
                 ]
               },
@@ -2553,7 +2584,7 @@
                   },
                   {
                     "type": "PLAINTEXT",
-                    "text": "Perpanjangan jangka waktu Perjanjian Kerja sebagaimana dimaksud dalam Pasal 16 dilakukan di hadapan  pejabat yang berwenang di kantor Perwakilan Republik Indonesia di negara tujuan penempatan."
+                    "text": "Perpanjangan jangka waktu ${Perjanjian Kerja} sebagaimana dimaksud dalam Pasal 16 dilakukan di hadapan  pejabat yang berwenang di kantor ${Perwakilan Republik Indonesia} di negara tujuan penempatan."
                   }
                 ]
               },
@@ -2567,7 +2598,7 @@
                   },
                   {
                     "type": "PLAINTEXT",
-                    "text": "Perjanjian Kerja sebagaimana dimaksud dalam Pasal 15 tidak dapat diubah tanpa persetujuan para pihak."
+                    "text": "${Perjanjian Kerja} sebagaimana dimaksud dalam Pasal 15 tidak dapat diubah tanpa persetujuan para pihak."
                   }
                 ]
               },
@@ -2593,7 +2624,7 @@
                           },
                           {
                             "type": "PLAINTEXT",
-                            "text": "Perusahaan Penempatan Pekerja Migran Indonesia wajib menempatkan Calon Pekerja Migran Indonesia sesuai dengan jabatan dan jenis pekerjaan sebagaimana tercantum dalam Perjanjian Kerja."
+                            "text": "${Perusahaan Penempatan Pekerja Migran Indonesia} wajib menempatkan ${Calon Pekerja Migran Indonesia} sesuai dengan jabatan dan jenis pekerjaan sebagaimana tercantum dalam ${Perjanjian Kerja}."
                           }
                         ]
                       },
@@ -2607,7 +2638,7 @@
                           },
                           {
                             "type": "PLAINTEXT",
-                            "text": "Perusahaan Penempatan Pekerja Migran Indonesia yang tidak menempatkan Calon Pekerja Migran Indonesia sesuai dengan jabatan dan jenis pekerjaan yang tercantum dalam Perjanjian Kerja sebagaimana di maksud pada ayat (1) dikenai sanksi administratif."
+                            "text": "${Perusahaan Penempatan Pekerja Migran Indonesia} yang tidak menempatkan ${Calon Pekerja Migran Indonesia} sesuai dengan jabatan dan jenis pekerjaan yang tercantum dalam ${Perjanjian Kerja} sebagaimana di maksud pada ayat (1) dikenai sanksi administratif."
                           }
                         ]
                       }
@@ -2625,7 +2656,7 @@
                   },
                   {
                     "type": "PLAINTEXT",
-                    "text": "Ketentuan lebih lanjut mengenai tata cara pemberian Pelindungan Sebelum Bekerja sebagaimana dimaksud dalam Pasal 8 sampai dengan Pasal 19 diatur dengan Peraturan Pemerintah."
+                    "text": "Ketentuan lebih lanjut mengenai tata cara pemberian ${Pelindungan Sebelum Bekerja} sebagaimana dimaksud dalam Pasal 8 sampai dengan Pasal 19 diatur dengan Peraturan Pemerintah."
                   }
                 ]
               }
@@ -2665,7 +2696,7 @@
                           },
                           {
                             "type": "PLAINTEXT",
-                            "text": "Pelindungan Selama Bekerja sebagaimana dimaksud dalam Pasal 7 huruf b meliputi:"
+                            "text": "${Pelindungan Selama Bekerja} sebagaimana dimaksud dalam Pasal 7 huruf b meliputi:"
                           },
                           {
                             "type": "LIST",
@@ -2695,7 +2726,7 @@
                                   },
                                   {
                                     "type": "PLAINTEXT",
-                                    "text": "pemantauan dan evaluasi terhadap Pemberi Kerja, pekerjaan, dan kondisi kerja;"
+                                    "text": "pemantauan dan evaluasi terhadap ${Pemberi Kerja}, pekerjaan, dan kondisi kerja;"
                                   }
                                 ]
                               },
@@ -2709,7 +2740,7 @@
                                   },
                                   {
                                     "type": "PLAINTEXT",
-                                    "text": "fasilitasi pemenuhan hak Pekerja Migran Indonesia;"
+                                    "text": "fasilitasi pemenuhan hak ${Pekerja Migran Indonesia};"
                                   }
                                 ]
                               },
@@ -2751,7 +2782,7 @@
                                   },
                                   {
                                     "type": "PLAINTEXT",
-                                    "text": "pendampingan, mediasi, advokasi, dan pemberian bantuan hukum berupa fasilitasi jasa advokat oleh Pemerintah Pusat dan/atau Perwakilan Republik Indonesia serta perwalian sesuai dengan hukum negara setempat;"
+                                    "text": "pendampingan, mediasi, advokasi, dan pemberian bantuan hukum berupa fasilitasi jasa advokat oleh ${Pemerintah Pusat} dan/atau ${Perwakilan Republik Indonesia} serta perwalian sesuai dengan hukum negara setempat;"
                                   }
                                 ]
                               },
@@ -2765,7 +2796,7 @@
                                   },
                                   {
                                     "type": "PLAINTEXT",
-                                    "text": "pembinaan terhadap Pekerja Migran Indonesia; dan"
+                                    "text": "pembinaan terhadap ${Pekerja Migran Indonesia}; dan"
                                   }
                                 ]
                               },
@@ -2797,7 +2828,7 @@
                           },
                           {
                             "type": "PLAINTEXT",
-                            "text": "Pelindungan Pekerja Migran Indonesia selama bekerja sebagaimana dimaksud pada ayat (1) dilakukan dengan tidak mengambil alih tanggung jawab pidana dan/atau perdata Pekerja Migran Indonesia dan dilaksanakan sesuai dengan ketentuan peraturan perundang-undangan, hukum negara tujuan penempatan, serta hukum dan kebiasaan internasional."
+                            "text": "${Pelindungan Pekerja Migran Indonesia} selama bekerja sebagaimana dimaksud pada ayat (1) dilakukan dengan tidak mengambil alih tanggung jawab pidana dan/atau perdata Pekerja Migran Indonesia dan dilaksanakan sesuai dengan ketentuan peraturan perundang-undangan, hukum negara tujuan penempatan, serta hukum dan kebiasaan internasional."
                           }
                         ]
                       }
@@ -2827,7 +2858,7 @@
                           },
                           {
                             "type": "PLAINTEXT",
-                            "text": "Dalam rangka peningkatan hubungan bilateral di bidang ketenagakerjaan dan Pelindungan Pekerja Migran Indonesia di luar negeri, Pemerintah Pusat menetapkan jabatan atase ketenagakerjaan pada Perwakilan Republik Indonesia di negara tertentu."
+                            "text": "Dalam rangka peningkatan hubungan bilateral di bidang ketenagakerjaan dan ${Pelindungan Pekerja Migran Indonesia} di luar negeri, ${Pemerintah Pusat} menetapkan jabatan atase ketenagakerjaan pada ${Perwakilan Republik Indonesia} di negara tertentu."
                           }
                         ]
                       },
@@ -2887,7 +2918,7 @@
                   },
                   {
                     "type": "PLAINTEXT",
-                    "text": "Ketentuan lebih lanjut mengenai tata cara pemberian Pelindungan Selama Bekerja sebagaimana dimaksud  dalam Pasal 21 diatur dengan Peraturan Pemerintah."
+                    "text": "Ketentuan lebih lanjut mengenai tata cara pemberian ${Pelindungan Selama Bekerja} sebagaimana dimaksud  dalam Pasal 21 diatur dengan Peraturan Pemerintah."
                   }
                 ]
               }
@@ -2927,7 +2958,7 @@
                           },
                           {
                             "type": "PLAINTEXT",
-                            "text": "Pelindungan Setelah Bekerja sebagaimana dimaksud dalam Pasal 7 huruf c meliputi:"
+                            "text": "${Pelindungan Setelah Bekerja} sebagaimana dimaksud dalam Pasal 7 huruf c meliputi:"
                           },
                           {
                             "type": "LIST",
@@ -2957,7 +2988,7 @@
                                   },
                                   {
                                     "type": "PLAINTEXT",
-                                    "text": "penyelesaian hak Pekerja Migran Indonesia yang belum terpenuhi;"
+                                    "text": "penyelesaian hak ${Pekerja Migran Indonesia} yang belum terpenuhi;"
                                   }
                                 ]
                               },
@@ -2971,7 +3002,7 @@
                                   },
                                   {
                                     "type": "PLAINTEXT",
-                                    "text": "fasilitasi pengurusan Pekerja Migran Indonesia yang sakit dan meninggal dunia;"
+                                    "text": "fasilitasi pengurusan ${Pekerja Migran Indonesia} yang sakit dan meninggal dunia;"
                                   }
                                 ]
                               },
@@ -2999,7 +3030,7 @@
                                   },
                                   {
                                     "type": "PLAINTEXT",
-                                    "text": "pemberdayaan Pekerja Migran Indonesia dan keluarganya."
+                                    "text": "pemberdayaan ${Pekerja Migran Indonesia} dan keluarganya."
                                   }
                                 ]
                               }
@@ -3017,7 +3048,7 @@
                           },
                           {
                             "type": "PLAINTEXT",
-                            "text": "Pelindungan Setelah Bekerja sebagaimana dimaksud pada ayat (1) dilakukan oleh Pemerintah Pusat bersama-sama dengan Pemerintah Daerah."
+                            "text": "${Pelindungan Setelah Bekerja} sebagaimana dimaksud pada ayat (1) dilakukan oleh ${Pemerintah Pusat} bersama-sama dengan ${Pemerintah Daerah}."
                           }
                         ]
                       }
@@ -3047,7 +3078,7 @@
                           },
                           {
                             "type": "PLAINTEXT",
-                            "text": "Perusahaan Penempatan Pekerja Migran Indonesia wajib melaporkan data kepulangan dan/atau data perpanjangan Perjanjian Kerja Pekerja Migran Indonesia kepada Perwakilan Republik Indonesia di negara tujuan penempatan."
+                            "text": "${Perusahaan Penempatan Pekerja Migran Indonesia} wajib melaporkan data kepulangan dan/atau data perpanjangan ${Perjanjian Kerja} Pekerja Migran Indonesia kepada ${Perwakilan Republik Indonesia} di negara tujuan penempatan."
                           }
                         ]
                       },
@@ -3061,7 +3092,7 @@
                           },
                           {
                             "type": "PLAINTEXT",
-                            "text": "Perwakilan Republik Indonesia wajib melakukan verifikasi atas laporan sebagaimana dimaksud pada ayat (1)."
+                            "text": "${Perwakilan Republik Indonesia} wajib melakukan verifikasi atas laporan sebagaimana dimaksud pada ayat (1)."
                           }
                         ]
                       },
@@ -3075,7 +3106,7 @@
                           },
                           {
                             "type": "PLAINTEXT",
-                            "text": "Perusahaan Penempatan Pekerja Migran Indonesia yang tidak melaporkan data kepulangan dan/atau data perpanjangan Perjanjian Kerja pekerja Migran Indonesia kepada Perwakilan Republik Indonesia di negara tujuan penempatan sebagaimana dimaksud pada ayat (i) dikenai sanksi administratif."
+                            "text": "${Perusahaan Penempatan Pekerja Migran Indonesia} yang tidak melaporkan data kepulangan dan/atau data perpanjangan ${Perjanjian Kerja} pekerja Migran Indonesia kepada ${Perwakilan Republik Indonesia} di negara tujuan penempatan sebagaimana dimaksud pada ayat (i) dikenai sanksi administratif."
                           }
                         ]
                       }
@@ -3093,7 +3124,7 @@
                   },
                   {
                     "type": "PLAINTEXT",
-                    "text": "Berdasarkan hasil verifikasi sebagaimana dimaksud dalam Pasal 25 ayat (2), Pekerja Migran Indonesia yang tidak memiliki permasalahan dapat:"
+                    "text": "Berdasarkan hasil verifikasi sebagaimana dimaksud dalam Pasal 25 ayat (2), ${Pekerja Migran Indonesia} yang tidak memiliki permasalahan dapat:"
                   },
                   {
                     "type": "LIST",
@@ -3123,7 +3154,7 @@
                           },
                           {
                             "type": "PLAINTEXT",
-                            "text": "melakukan perpanjangan Perjanjian Kerja."
+                            "text": "melakukan perpanjangan ${Perjanjian Kerja}."
                           }
                         ]
                       }
@@ -3153,7 +3184,7 @@
                           },
                           {
                             "type": "PLAINTEXT",
-                            "text": "Kepulangan Pekerja Migran Indonesia sebagaimana dimaksud dalam Pasal 26 huruf a, dapat terjadi karena:"
+                            "text": "Kepulangan ${Pekerja Migran Indonesia} sebagaimana dimaksud dalam Pasal 26 huruf a, dapat terjadi karena:"
                           },
                           {
                             "type": "LIST",
@@ -3169,7 +3200,7 @@
                                   },
                                   {
                                     "type": "PLAINTEXT",
-                                    "text": "berakhirnya Perjanjian Kerja;"
+                                    "text": "berakhirnya ${Perjanjian Kerja};"
                                   }
                                 ]
                               },
@@ -3197,7 +3228,7 @@
                                   },
                                   {
                                     "type": "PLAINTEXT",
-                                    "text": "pemutusan hubungan kerja sebelum masa Perjanjian Kerja berakhir;"
+                                    "text": "pemutusan hubungan kerja sebelum masa ${Perjanjian Kerja} berakhir;"
                                   }
                                 ]
                               },
@@ -3281,7 +3312,7 @@
                                   },
                                   {
                                     "type": "PLAINTEXT",
-                                    "text": "sebab lain yang menimbulkan kerugian pekerja Migran Indonesia."
+                                    "text": "sebab lain yang menimbulkan kerugian ${pekerja Migran Indonesia}."
                                   }
                                 ]
                               }
@@ -3299,7 +3330,7 @@
                           },
                           {
                             "type": "PLAINTEXT",
-                            "text": "Dalam hal Pekerja Migran Indonesia meninggal dunia di negara tujuan penempatan sebagaimana dimaksud pada ayat (1) huruf h, perusahaan Penempatan Pekerja Migran Indonesia berkewajiban:"
+                            "text": "Dalam hal Pekerja Migran Indonesia meninggal dunia di negara tujuan penempatan sebagaimana dimaksud pada ayat (1) huruf h, ${perusahaan Penempatan Pekerja Migran Indonesia} berkewajiban:"
                           },
                           {
                             "type": "LIST",
@@ -3315,7 +3346,7 @@
                                   },
                                   {
                                     "type": "PLAINTEXT",
-                                    "text": "memberitahukan tentang kematian Pekerja Migran Indonesia kepada keluarganya paling lambat 3 (tiga) kali 24 (dua puluh empat) jam sejak diketahuinya kematian tersebut;"
+                                    "text": "memberitahukan tentang kematian ${Pekerja Migran Indonesia} kepada keluarganya paling lambat 3 (tiga) kali 24 (dua puluh empat) jam sejak diketahuinya kematian tersebut;"
                                   }
                                 ]
                               },
@@ -3329,7 +3360,7 @@
                                   },
                                   {
                                     "type": "PLAINTEXT",
-                                    "text": "mencari informasi tentang sebab kematian dan memberitahukannya kepada pejabat Perwakilan Republik Indonesia dan anggota Keluarga Pekerja Migran Indonesia yang bersangkutan;"
+                                    "text": "mencari informasi tentang sebab kematian dan memberitahukannya kepada pejabat ${Perwakilan Republik Indonesia} dan anggota ${Keluarga Pekerja Migran Indonesia} yang bersangkutan;"
                                   }
                                 ]
                               },
@@ -3343,7 +3374,7 @@
                                   },
                                   {
                                     "type": "PLAINTEXT",
-                                    "text": "memulangkan jenazah Pekerja Migran Indonesia ke tempat asal dengan cara yang layak serta menanggung semua biaya yang diperlukan, termasuk biaya penguburan sesuai dengan tata cara agama Pekerja Migran Indonesia yang bersangkutan;"
+                                    "text": "memulangkan jenazah ${Pekerja Migran Indonesia} ke tempat asal dengan cara yang layak serta menanggung semua biaya yang diperlukan, termasuk biaya penguburan sesuai dengan tata cara agama ${Pekerja Migran Indonesia} yang bersangkutan;"
                                   }
                                 ]
                               },
@@ -3357,7 +3388,7 @@
                                   },
                                   {
                                     "type": "PLAINTEXT",
-                                    "text": "mengurus pemakaman di negara tujuan penempatan Pekerja Migran Indonesia atas persetujuan pihak Keluarga Pekerja Migran Indonesia atau sesuai dengan ketentuan yang berlaku di negara yang bersangkutan;"
+                                    "text": "mengurus pemakaman di negara tujuan penempatan Pekerja Migran Indonesia atas persetujuan pihak ${Keluarga Pekerja Migran Indonesia} atau sesuai dengan ketentuan yang berlaku di negara yang bersangkutan;"
                                   }
                                 ]
                               },
@@ -3371,7 +3402,7 @@
                                   },
                                   {
                                     "type": "PLAINTEXT",
-                                    "text": "memberikan pelindungan terhadap seluruh harta milik Pekerja Migran Indonesia untuk kepentingan keluarganya; dan"
+                                    "text": "memberikan pelindungan terhadap seluruh harta milik ${Pekerja Migran Indonesia} untuk kepentingan keluarganya; dan"
                                   }
                                 ]
                               },
@@ -3385,7 +3416,7 @@
                                   },
                                   {
                                     "type": "PLAINTEXT",
-                                    "text": "mengurus pemenuhan semua hak Pekerja Migran Indonesia yang seharusnya diterima."
+                                    "text": "mengurus pemenuhan semua hak ${Pekerja Migran Indonesia} yang seharusnya diterima."
                                   }
                                 ]
                               }
@@ -3403,7 +3434,7 @@
                           },
                           {
                             "type": "PLAINTEXT",
-                            "text": "Perusahaan Penempatan Pekerja Migran Indonesia yang tidak melaksanakan kewajiban sebagaimana dimaksud pada ayat (2) dikenai sanksi administratif."
+                            "text": "${Perusahaan Penempatan Pekerja Migran Indonesia} yang tidak melaksanakan kewajiban sebagaimana dimaksud pada ayat (2) dikenai sanksi administratif."
                           }
                         ]
                       }
@@ -3421,7 +3452,7 @@
                   },
                   {
                     "type": "PLAINTEXT",
-                    "text": "Ketentuan lebih lanjut mengenai tata cara pemberian Pelindungan Setelah Bekerja sebagaimana dimaksud  dalam Pasal 24 sampai dengan Pasal 27 diatur dengan Peraturan Pemerintah."
+                    "text": "Ketentuan lebih lanjut mengenai tata cara pemberian ${Pelindungan Setelah Bekerja} sebagaimana dimaksud  dalam Pasal 24 sampai dengan Pasal 27 diatur dengan Peraturan Pemerintah."
                   }
                 ]
               }
@@ -3461,7 +3492,7 @@
                           },
                           {
                             "type": "PLAINTEXT",
-                            "text": "Dalam upaya Pelindungan Pekerja Migran Indonesia, Pemerintah Pusat menyelenggarakan Jaminan Sosial bagi Pekerja Migran Indonesia dan keluarganya."
+                            "text": "Dalam upaya ${Pelindungan Pekerja Migran Indonesia}, ${Pemerintah Pusat} menyelenggarakan ${Jaminan Sosial} bagi Pekerja Migran Indonesia dan keluarganya."
                           }
                         ]
                       },
@@ -3475,7 +3506,7 @@
                           },
                           {
                             "type": "PLAINTEXT",
-                            "text": "Penyelenggaraan program Jaminan Sosial bagi Pekerja Migran Indonesia dan keluarganya merupakan bagian dari Sistem Jaminan Sosial Nasional."
+                            "text": "Penyelenggaraan program ${Jaminan Sosial} bagi ${Pekerja Migran Indonesia} dan keluarganya merupakan bagian dari Sistem ${Jaminan Sosial} Nasional."
                           }
                         ]
                       },
@@ -3489,7 +3520,7 @@
                           },
                           {
                             "type": "PLAINTEXT",
-                            "text": "Penyelenggaraan Jaminan Sosial sebagaimana dimaksud pada ayat (1) dikelola oleh Badan Penyelenggara Jaminan Sosial."
+                            "text": "Penyelenggaraan Jaminan Sosial sebagaimana dimaksud pada ayat (1) dikelola oleh ${Badan Penyelenggara Jaminan Sosial}."
                           }
                         ]
                       },
@@ -3503,7 +3534,7 @@
                           },
                           {
                             "type": "PLAINTEXT",
-                            "text": "Untuk risiko tertentu yang tidak tercakup oleh Jaminan Sosial, Badan Penyelenggara Jaminan Sosial Ketenagakerjaan dapat bekerja sama dengan lembaga pemerintah atau swasta."
+                            "text": "Untuk risiko tertentu yang tidak tercakup oleh Jaminan Sosial, ${Badan Penyelenggara Jaminan Sosial} Ketenagakerjaan dapat bekerja sama dengan lembaga pemerintah atau swasta."
                           }
                         ]
                       },
@@ -3517,7 +3548,7 @@
                           },
                           {
                             "type": "PLAINTEXT",
-                            "text": "Ketentuan lebih lanjut mengenai Jaminan Sosial bagi Pekerja Migran Indonesia secara khusus diatur dengan Peraturan Menteri."
+                            "text": "Ketentuan lebih lanjut mengenai ${Jaminan Sosial} bagi ${Pekerja Migran Indonesia} secara khusus diatur dengan Peraturan ${Menteri}."
                           }
                         ]
                       }
@@ -3561,7 +3592,7 @@
                           },
                           {
                             "type": "PLAINTEXT",
-                            "text": "Pekerja Migran Indonesia tidak dapat dibebani biaya penempatan."
+                            "text": "${Pekerja Migran Indonesia} tidak dapat dibebani biaya penempatan."
                           }
                         ]
                       },
@@ -3575,7 +3606,7 @@
                           },
                           {
                             "type": "PLAINTEXT",
-                            "text": "Ketentuan lebih lanjut mengenai biaya penempatan sebagaimana dimaksud pada ayat (1) diatur dengan Peraturan Kepala Badan."
+                            "text": "Ketentuan lebih lanjut mengenai biaya penempatan sebagaimana dimaksud pada ayat (1) diatur dengan Peraturan Kepala ${Badan}."
                           }
                         ]
                       }
@@ -3619,7 +3650,7 @@
                       },
                       {
                         "type": "PLAINTEXT",
-                        "text": "Pekerja Migran Indonesia hanya dapat bekerja ke negara tujuan penempatan yang:"
+                        "text": "${Pekerja Migran Indonesia} hanya dapat bekerja ke negara tujuan penempatan yang:"
                       },
                       {
                         "type": "LIST",
@@ -3663,7 +3694,7 @@
                               },
                               {
                                 "type": "PLAINTEXT",
-                                "text": "memiliki sistem Jaminan Sosial dan/atau asuransi yang melindungi pekerja asing."
+                                "text": "memiliki sistem ${Jaminan Sosial} dan/atau asuransi yang melindungi pekerja asing."
                               }
                             ]
                           }
@@ -3693,7 +3724,7 @@
                               },
                               {
                                 "type": "PLAINTEXT",
-                                "text": "Pemerintah Pusat dapat menghentikan dan/atau melarang penempatan Pekerja Migran Indonesia untuk negara tertentu atau jabatan tertentu di luar negeri dengan pertimbangan:"
+                                "text": "${Pemerintah Pusat} dapat menghentikan dan/atau melarang penempatan ${Pekerja Migran Indonesia} untuk negara tertentu atau jabatan tertentu di luar negeri dengan pertimbangan:"
                               },
                               {
                                 "type": "LIST",
@@ -3769,7 +3800,7 @@
                               },
                               {
                                 "type": "PLAINTEXT",
-                                "text": "Dalam menghentikan dan/atau melarang penempatan Pekerja Migran Indonesia sebagaimana dimaksud pada ayat (1), Pemerintah Pusat memperhatikan saran dan pertimbangan Perwakilan Republik Indonesia, kementerian/lembaga, Perusahaan Penempatan Pekerja Migran Indonesia, dan masyarakat."
+                                "text": "Dalam menghentikan dan/atau melarang penempatan Pekerja Migran Indonesia sebagaimana dimaksud pada ayat (1), ${Pemerintah Pusat} memperhatikan saran dan pertimbangan ${Perwakilan Republik Indonesia}, kementerian/lembaga, ${Perusahaan Penempatan Pekerja Migran Indonesia}, dan masyarakat."
                               }
                             ]
                           },
@@ -3783,7 +3814,7 @@
                               },
                               {
                                 "type": "PLAINTEXT",
-                                "text": "Penetapan negara tertentu atau jabatan tertentu sebagaimana dimaksud pada ayat (1) ditetapkan oleh Pemerintah Pusat."
+                                "text": "Penetapan negara tertentu atau jabatan tertentu sebagaimana dimaksud pada ayat (1) ditetapkan oleh ${Pemerintah Pusat}."
                               }
                             ]
                           },
@@ -3797,7 +3828,7 @@
                               },
                               {
                                 "type": "PLAINTEXT",
-                                "text": "Ketentuan lebih lanjut mengenai penghentian dan pelarangan penempatan Pekerja Migran Indonesia sebagaimana dimaksud pada ayat (1) diatur dengan Peraturan Menteri."
+                                "text": "Ketentuan lebih lanjut mengenai penghentian dan pelarangan penempatan ${Pekerja Migran Indonesia} sebagaimana dimaksud pada ayat (1) diatur dengan Peraturan ${Menteri}."
                               }
                             ]
                           }
@@ -3815,7 +3846,7 @@
                       },
                       {
                         "type": "PLAINTEXT",
-                        "text": "Pemerintah Pusat dan Pemerintah Daerah memberikan pelindungan hukum terhadap Pekerja Migran  Indonesia sesuai dengan ketentuan peraturan perundang-undangan, hukum negara tujuan penempatan,  serta hukum dan kebiasaan internasional."
+                        "text": "${Pemerintah Pusat} dan ${Pemerintah Daerah} memberikan pelindungan hukum terhadap Pekerja Migran  Indonesia sesuai dengan ketentuan peraturan perundang-undangan, hukum negara tujuan penempatan,  serta hukum dan kebiasaan internasional."
                       }
                     ]
                   }
@@ -3843,7 +3874,7 @@
                       },
                       {
                         "type": "PLAINTEXT",
-                        "text": "Pemerintah Pusat dan Pemerintah Daerah sesuai dengan kewenangannya wajib melakukan pelindungan  sosial bagi Calon Pekerja Migran Indonesia dan/atau Pekerja Migran Indonesia melalui:"
+                        "text": "${Pemerintah Pusat} dan ${Pemerintah Daerah} sesuai dengan kewenangannya wajib melakukan pelindungan  sosial bagi ${Calon Pekerja Migran Indonesia} dan/atau Pekerja Migran Indonesia melalui:"
                       },
                       {
                         "type": "LIST",
@@ -3901,7 +3932,7 @@
                               },
                               {
                                 "type": "PLAINTEXT",
-                                "text": "reintegrasi sosial melalui layanan peningkatan keterampilan, baik terhadap Pekerja Migran Indonesia maupun keluarganya;"
+                                "text": "reintegrasi sosial melalui layanan peningkatan keterampilan, baik terhadap ${Pekerja Migran Indonesia} maupun keluarganya;"
                               }
                             ]
                           },
@@ -3929,7 +3960,7 @@
                               },
                               {
                                 "type": "PLAINTEXT",
-                                "text": "penyediaan pusat Pelindungan Pekerja Migran Indonesia di negara tujuan penempatan."
+                                "text": "penyediaan pusat ${Pelindungan Pekerja Migran Indonesia} di negara tujuan penempatan."
                               }
                             ]
                           }
@@ -3961,7 +3992,7 @@
                       },
                       {
                         "type": "PLAINTEXT",
-                        "text": "Pemerintah Pusat dan Pemerintah Daerah sesuai dengan kewenangannya wajib melakukan pelindungan  ekonomi bagi Calon Pekerja Migran Indonesia dan/atau Pekerja Migran Indonesia melalui:"
+                        "text": "${Pemerintah Pusat} dan ${Pemerintah Daerah} sesuai dengan kewenangannya wajib melakukan pelindungan  ekonomi bagi ${Calon Pekerja Migran Indonesia} dan/atau Pekerja Migran Indonesia melalui:"
                       },
                       {
                         "type": "LIST",
@@ -3991,7 +4022,7 @@
                               },
                               {
                                 "type": "PLAINTEXT",
-                                "text": "edukasi keuangan agar Pekerja Migran Indonesia dan keluarganya dapat mengelola hasil remitansinya; dan"
+                                "text": "edukasi keuangan agar ${Pekerja Migran Indonesia} dan keluarganya dapat mengelola hasil remitansinya; dan"
                               }
                             ]
                           },
@@ -4023,7 +4054,7 @@
                       },
                       {
                         "type": "PLAINTEXT",
-                        "text": "Ketentuan lebih lanjut mengenai pelindungan hukum, pelindungan sosial, dan pelindungan ekonomi bagi  Calon Pekerja Migran Indonesia dan/atau Pekerja Migran Indonesia sebagaimana dimaksud dalam Pasal 31 sampai dengan Pasal 35 diatur dengan Peraturan Pemerintah."
+                        "text": "Ketentuan lebih lanjut mengenai pelindungan hukum, pelindungan sosial, dan pelindungan ekonomi bagi  ${Calon Pekerja Migran Indonesia} dan/atau Pekerja Migran Indonesia sebagaimana dimaksud dalam Pasal 31 sampai dengan Pasal 35 diatur dengan Peraturan Pemerintah."
                       }
                     ]
                   }
@@ -4127,7 +4158,7 @@
                           },
                           {
                             "type": "PLAINTEXT",
-                            "text": "Ketentuan lebih lanjut mengenai tata cara pengenaan sanksi administratif sebagaimana dimaksud pada ayat (1) diatur dengan Peraturan Menteri."
+                            "text": "Ketentuan lebih lanjut mengenai tata cara pengenaan sanksi administratif sebagaimana dimaksud pada ayat (1) diatur dengan Peraturan ${Menteri}."
                           }
                         ]
                       }
@@ -4173,7 +4204,7 @@
                       },
                       {
                         "type": "PLAINTEXT",
-                        "text": "Pelayanan penempatan dan Pelindungan Pekerja Migran Indonesia dilakukan oleh Pemerintah Pusat dan Pemerintah Daerah secara terkoordinasi dan terintegrasi."
+                        "text": "Pelayanan penempatan dan ${Pelindungan Pekerja Migran Indonesia} dilakukan oleh ${Pemerintah Pusat} dan ${Pemerintah Daerah} secara terkoordinasi dan terintegrasi."
                       }
                     ]
                   },
@@ -4187,7 +4218,7 @@
                       },
                       {
                         "type": "PLAINTEXT",
-                        "text": "Dalam memberikan pelayanan penempatan dan pelindungan sebagaimana dimaksud pada ayat (1), Pemerintah Daerah membentuk layanan terpadu satu atap."
+                        "text": "Dalam memberikan pelayanan penempatan dan pelindungan sebagaimana dimaksud pada ayat (1), ${Pemerintah Daerah} membentuk layanan terpadu satu atap."
                       }
                     ]
                   },
@@ -4217,7 +4248,7 @@
                               },
                               {
                                 "type": "PLAINTEXT",
-                                "text": "mewujudkan efektivitas penyelenggaraan pelayanan penempatan dan Pelindungan Pekerja Migran Indonesia;"
+                                "text": "mewujudkan efektivitas penyelenggaraan pelayanan penempatan dan ${Pelindungan Pekerja Migran Indonesia};"
                               }
                             ]
                           },
@@ -4231,7 +4262,7 @@
                               },
                               {
                                 "type": "PLAINTEXT",
-                                "text": "memberikan efisiensi dan transparansi dalam pengurusan dokumen penempatan dan pelindungan Calon Pekerja Migran Indonesia dan/atau Pekerja Migran Indonesia; dan"
+                                "text": "memberikan efisiensi dan transparansi dalam pengurusan dokumen penempatan dan pelindungan ${Calon Pekerja Migran Indonesia} dan/atau Pekerja Migran Indonesia; dan"
                               }
                             ]
                           },
@@ -4245,7 +4276,7 @@
                               },
                               {
                                 "type": "PLAINTEXT",
-                                "text": "mempercepat peningkatan kualitas pelayanan Pekerja Migran Indonesia."
+                                "text": "mempercepat peningkatan kualitas pelayanan ${Pekerja Migran Indonesia}."
                               }
                             ]
                           }
@@ -4307,7 +4338,7 @@
                   },
                   {
                     "type": "PLAINTEXT",
-                    "text": "Pemerintah Pusat memiliki tugas dan tanggung jawab:"
+                    "text": "${Pemerintah Pusat} memiliki tugas dan tanggung jawab:"
                   },
                   {
                     "type": "LIST",
@@ -4323,7 +4354,7 @@
                           },
                           {
                             "type": "PLAINTEXT",
-                            "text": "menjamin pelindungan Calon Pekerja Migran Indonesia dan/atau Pekerja Migran Indonesia dan keluarganya;"
+                            "text": "menjamin pelindungan ${Calon Pekerja Migran Indonesia} dan/atau Pekerja Migran Indonesia dan keluarganya;"
                           }
                         ]
                       },
@@ -4337,7 +4368,7 @@
                           },
                           {
                             "type": "PLAINTEXT",
-                            "text": "mengatur, membina, melaksanakan, dan mengawasi penyelenggaraan penempatan Pekerja Migran Indonesia;"
+                            "text": "mengatur, membina, melaksanakan, dan mengawasi penyelenggaraan penempatan ${Pekerja Migran Indonesia};"
                           }
                         ]
                       },
@@ -4351,7 +4382,7 @@
                           },
                           {
                             "type": "PLAINTEXT",
-                            "text": "menjamin pemenuhan hak Calon Pekerja Migran Indonesia dan/atau Pekerja Migran Indonesia dan keluarganya;"
+                            "text": "menjamin pemenuhan hak ${Calon Pekerja Migran Indonesia} dan/atau Pekerja Migran Indonesia dan keluarganya;"
                           }
                         ]
                       },
@@ -4365,7 +4396,7 @@
                           },
                           {
                             "type": "PLAINTEXT",
-                            "text": "membentuk dan mengembangkan sistem informasi terpadu dalam penyelenggaraan penempatan dan Pelindungan Pekerja Migran Indonesia;"
+                            "text": "membentuk dan mengembangkan sistem informasi terpadu dalam penyelenggaraan penempatan dan ${Pelindungan Pekerja Migran Indonesia};"
                           }
                         ]
                       },
@@ -4379,7 +4410,7 @@
                           },
                           {
                             "type": "PLAINTEXT",
-                            "text": "melakukan koordinasi kerja sama antar instansi terkait dalam menanggapi pengaduan dan penanganan kasus Calon Pekerja Migran Indonesia dan/atau Pekerja Migran Indonesia;"
+                            "text": "melakukan koordinasi kerja sama antar instansi terkait dalam menanggapi pengaduan dan penanganan kasus ${Calon Pekerja Migran Indonesia} dan/atau Pekerja Migran Indonesia;"
                           }
                         ]
                       },
@@ -4393,7 +4424,7 @@
                           },
                           {
                             "type": "PLAINTEXT",
-                            "text": "mengurus kepulangan Pekerja Migran Indonesia dalam hal terjadi peperangan, bencana alam, wabah penyakit, deportasi, dan Pekerja Migran Indonesia bermasalah;"
+                            "text": "mengurus kepulangan ${Pekerja Migran Indonesia} dalam hal terjadi peperangan, bencana alam, wabah penyakit, deportasi, dan ${Pekerja Migran Indonesia} bermasalah;"
                           }
                         ]
                       },
@@ -4407,7 +4438,7 @@
                           },
                           {
                             "type": "PLAINTEXT",
-                            "text": "melakukan upaya untuk menjamin pemenuhan hak dan Pelindungan Pekerja Migran Indonesia secara optimal di negara tujuan penempatan;"
+                            "text": "melakukan upaya untuk menjamin pemenuhan hak dan ${Pelindungan Pekerja Migran Indonesia} secara optimal di negara tujuan penempatan;"
                           }
                         ]
                       },
@@ -4421,7 +4452,7 @@
                           },
                           {
                             "type": "PLAINTEXT",
-                            "text": "menyusun kebijakan mengenai Pelindungan Pekerja Migran Indonesia dan keluarganya;"
+                            "text": "menyusun kebijakan mengenai ${Pelindungan Pekerja Migran Indonesia} dan keluarganya;"
                           }
                         ]
                       },
@@ -4435,7 +4466,7 @@
                           },
                           {
                             "type": "PLAINTEXT",
-                            "text": "menghentikan atau melarang penempatan Pekerja Migran Indonesia untuk negara tertentu atau pada jabatan tertentu di luar negeri;"
+                            "text": "menghentikan atau melarang penempatan ${Pekerja Migran Indonesia} untuk negara tertentu atau pada jabatan tertentu di luar negeri;"
                           }
                         ]
                       },
@@ -4449,7 +4480,7 @@
                           },
                           {
                             "type": "PLAINTEXT",
-                            "text": "membuka negara atau jabatan tertentu yang tertutup bagi penempatan Pekerja Migran Indonesia;"
+                            "text": "membuka negara atau jabatan tertentu yang tertutup bagi penempatan ${Pekerja Migran Indonesia};"
                           }
                         ]
                       },
@@ -4463,7 +4494,7 @@
                           },
                           {
                             "type": "PLAINTEXT",
-                            "text": "menerbitkan dan mencabut SIP3MI;"
+                            "text": "menerbitkan dan mencabut ${SIP3MI};"
                           }
                         ]
                       },
@@ -4477,7 +4508,7 @@
                           },
                           {
                             "type": "PLAINTEXT",
-                            "text": "menerbitkan dan mencabut SIP2MI;"
+                            "text": "menerbitkan dan mencabut ${SIP2MI};"
                           }
                         ]
                       },
@@ -4491,7 +4522,7 @@
                           },
                           {
                             "type": "PLAINTEXT",
-                            "text": "melakukan koordinasi antar instansi terkait mengenai kebijakan Pelindungan Pekerja Migran Indonesia;"
+                            "text": "melakukan koordinasi antar instansi terkait mengenai kebijakan ${Pelindungan Pekerja Migran Indonesia};"
                           }
                         ]
                       },
@@ -4505,7 +4536,7 @@
                           },
                           {
                             "type": "PLAINTEXT",
-                            "text": "mengangkat pejabat sebagai atase ketenagakerjaan yang ditempatkan di kantor Perwakilan Republik Indonesia atas usul Menteri; dan"
+                            "text": "mengangkat pejabat sebagai atase ketenagakerjaan yang ditempatkan di kantor ${Perwakilan Republik Indonesia} atas usul ${Menteri}; dan"
                           }
                         ]
                       },
@@ -4519,7 +4550,7 @@
                           },
                           {
                             "type": "PLAINTEXT",
-                            "text": "menyediakan dan memfasilitasi pelatihan Calon Pekerja Migran Indonesia melalui pelatihan vokasi yang anggarannya berasal dari fungsi pendidikan."
+                            "text": "menyediakan dan memfasilitasi pelatihan ${Calon Pekerja Migran Indonesia} melalui pelatihan vokasi yang anggarannya berasal dari fungsi pendidikan."
                           }
                         ]
                       }
@@ -4551,7 +4582,7 @@
                   },
                   {
                     "type": "PLAINTEXT",
-                    "text": "Pemerintah Daerah provinsi memiliki tugas dan tanggung jawab:"
+                    "text": "${Pemerintah Daerah} provinsi memiliki tugas dan tanggung jawab:"
                   },
                   {
                     "type": "LIST",
@@ -4581,7 +4612,7 @@
                           },
                           {
                             "type": "PLAINTEXT",
-                            "text": "mengurus kepulangan Pekerja Migran Indonesia dalam hal terjadi peperangan, bencana alam, wabah penyakit, deportasi, dan Pekerja Migran Indonesia bermasalah sesuai dengan kewenangannya;"
+                            "text": "mengurus kepulangan ${Pekerja Migran Indonesia} dalam hal terjadi peperangan, bencana alam, wabah penyakit, deportasi, dan ${Pekerja Migran Indonesia} bermasalah sesuai dengan kewenangannya;"
                           }
                         ]
                       },
@@ -4595,7 +4626,7 @@
                           },
                           {
                             "type": "PLAINTEXT",
-                            "text": "menerbitkan izin kantor cabang Perusahaan Penempatan Pekerja Migran Indonesia;"
+                            "text": "menerbitkan izin kantor cabang ${Perusahaan Penempatan Pekerja Migran Indonesia};"
                           }
                         ]
                       },
@@ -4609,7 +4640,7 @@
                           },
                           {
                             "type": "PLAINTEXT",
-                            "text": "melaporkan hasil evaluasi terhadap Perusahaan Penempatan Pekerja Migran Indonesia secara berjenjang dan periodik kepada Menteri;"
+                            "text": "melaporkan hasil evaluasi terhadap ${Perusahaan Penempatan Pekerja Migran Indonesia} secara berjenjang dan periodik kepada ${Menteri};"
                           }
                         ]
                       },
@@ -4623,7 +4654,7 @@
                           },
                           {
                             "type": "PLAINTEXT",
-                            "text": "memberikan Pelindungan Pekerja Migran Indonesia sebelum bekerja dan setelah bekerja;"
+                            "text": "memberikan ${Pelindungan Pekerja Migran Indonesia} sebelum bekerja dan setelah bekerja;"
                           }
                         ]
                       },
@@ -4637,7 +4668,7 @@
                           },
                           {
                             "type": "PLAINTEXT",
-                            "text": "menyediakan pos bantuan dan pelayanan di tempat pemberangkatan dan pemulangan Pekerja Migran Indonesia yang memenuhi syarat dan standar kesehatan;"
+                            "text": "menyediakan pos bantuan dan pelayanan di tempat pemberangkatan dan pemulangan ${Pekerja Migran Indonesia} yang memenuhi syarat dan standar kesehatan;"
                           }
                         ]
                       },
@@ -4651,7 +4682,7 @@
                           },
                           {
                             "type": "PLAINTEXT",
-                            "text": "menyediakan dan memfasilitasi pelatihan Calon Pekerja Migran Indonesia melalui pelatihan vokasi yang anggarannya berasal dari fungsi pendidikan;"
+                            "text": "menyediakan dan memfasilitasi pelatihan ${Calon Pekerja Migran Indonesia} melalui pelatihan vokasi yang anggarannya berasal dari fungsi pendidikan;"
                           }
                         ]
                       },
@@ -4665,7 +4696,7 @@
                           },
                           {
                             "type": "PLAINTEXT",
-                            "text": "mengatur, membina, melaksanakan, dan mengawasi penyelenggaraan penempatan Pekerja Migran Indonesia; dan"
+                            "text": "mengatur, membina, melaksanakan, dan mengawasi penyelenggaraan penempatan ${Pekerja Migran Indonesia}; dan"
                           }
                         ]
                       },
@@ -4679,7 +4710,7 @@
                           },
                           {
                             "type": "PLAINTEXT",
-                            "text": "dapat membentuk layanan terpadu satu atap penempatan dan Pelindungan Pekerja Migran Indonesia di tingkat provinsi."
+                            "text": "dapat membentuk layanan terpadu satu atap penempatan dan ${Pelindungan Pekerja Migran Indonesia} di tingkat provinsi."
                           }
                         ]
                       }
@@ -4711,7 +4742,7 @@
                   },
                   {
                     "type": "PLAINTEXT",
-                    "text": "Pemerintah Daerah kabupaten/kota memiliki tugas dan tanggung jawab:"
+                    "text": "${Pemerintah Daerah} kabupaten/kota memiliki tugas dan tanggung jawab:"
                   },
                   {
                     "type": "LIST",
@@ -4727,7 +4758,7 @@
                           },
                           {
                             "type": "PLAINTEXT",
-                            "text": "menyosialisasikan informasi dan permintaan Pekerja Migran Indonesia kepada masyarakat;"
+                            "text": "menyosialisasikan informasi dan permintaan ${Pekerja Migran Indonesia} kepada masyarakat;"
                           }
                         ]
                       },
@@ -4741,7 +4772,7 @@
                           },
                           {
                             "type": "PLAINTEXT",
-                            "text": "membuat basis data Pekerja Migran Indonesia;"
+                            "text": "membuat basis data ${Pekerja Migran Indonesia};"
                           }
                         ]
                       },
@@ -4755,7 +4786,7 @@
                           },
                           {
                             "type": "PLAINTEXT",
-                            "text": "melaporkan hasil evaluasi terhadap Perusahaan Penempatan Pekerja Migran Indonesia secara periodik kepada Pemerintah Daerah provinsi;"
+                            "text": "melaporkan hasil evaluasi terhadap ${Perusahaan Penempatan Pekerja Migran Indonesia} secara periodik kepada ${Pemerintah Daerah} provinsi;"
                           }
                         ]
                       },
@@ -4769,7 +4800,7 @@
                           },
                           {
                             "type": "PLAINTEXT",
-                            "text": "mengurus kepulangan Pekerja Migran Indonesia dalam hal terjadi peperangan, bencana alam, wabah penyakit, deportasi, dan Pekerja Migran Indonesia bermasalah sesuai dengan kewenangannya;"
+                            "text": "mengurus kepulangan ${Pekerja Migran Indonesia} dalam hal terjadi peperangan, bencana alam, wabah penyakit, deportasi, dan ${Pekerja Migran Indonesia} bermasalah sesuai dengan kewenangannya;"
                           }
                         ]
                       },
@@ -4783,7 +4814,7 @@
                           },
                           {
                             "type": "PLAINTEXT",
-                            "text": "memberikan Pelindungan Pekerja Migran Indonesia sebelum bekerja dan setelah bekerja di daerah kabupaten/kota yang menjadi tugas dan kewenangannya;"
+                            "text": "memberikan ${Pelindungan Pekerja Migran Indonesia} sebelum bekerja dan setelah bekerja di daerah kabupaten/kota yang menjadi tugas dan kewenangannya;"
                           }
                         ]
                       },
@@ -4797,7 +4828,7 @@
                           },
                           {
                             "type": "PLAINTEXT",
-                            "text": "menyelenggarakan pendidikan dan pelatihan kerja kepada Calon Pekerja Migran Indonesia yang dapat bekerja sama dengan lembaga pendidikan dan lembaga pelatihan kerja milik pemerintah dan/atau swasta yang terakreditasi;"
+                            "text": "menyelenggarakan pendidikan dan pelatihan kerja kepada ${Calon Pekerja Migran Indonesia} yang dapat bekerja sama dengan lembaga pendidikan dan lembaga pelatihan kerja milik pemerintah dan/atau swasta yang terakreditasi;"
                           }
                         ]
                       },
@@ -4825,7 +4856,7 @@
                           },
                           {
                             "type": "PLAINTEXT",
-                            "text": "melakukan reintegrasi sosial dan ekonomi bagi Pekerja Migran Indonesia dan keluarganya;"
+                            "text": "melakukan reintegrasi sosial dan ekonomi bagi ${Pekerja Migran Indonesia} dan keluarganya;"
                           }
                         ]
                       },
@@ -4839,7 +4870,7 @@
                           },
                           {
                             "type": "PLAINTEXT",
-                            "text": "menyediakan dan memfasilitasi pelatihan Calon Pekerja Migran Indonesia melalui pelatihan vokasi yang anggarannya berasal dari fungsi pendidikan;"
+                            "text": "menyediakan dan memfasilitasi pelatihan ${Calon Pekerja Migran Indonesia} melalui pelatihan vokasi yang anggarannya berasal dari fungsi pendidikan;"
                           }
                         ]
                       },
@@ -4853,7 +4884,7 @@
                           },
                           {
                             "type": "PLAINTEXT",
-                            "text": "mengatur, membina, melaksanakan, dan mengawasi penyelenggaraan penempatan Pekerja Migran Indonesia; dan"
+                            "text": "mengatur, membina, melaksanakan, dan mengawasi penyelenggaraan penempatan ${Pekerja Migran Indonesia}; dan"
                           }
                         ]
                       },
@@ -4867,7 +4898,7 @@
                           },
                           {
                             "type": "PLAINTEXT",
-                            "text": "dapat membentuk layanan terpadu satu atap penempatan dan Pelindungan Pekerja Migran Indonesia di tingkat kabupaten/kota."
+                            "text": "dapat membentuk layanan terpadu satu atap penempatan dan ${Pelindungan Pekerja Migran Indonesia} di tingkat kabupaten/kota."
                           }
                         ]
                       }
@@ -4899,7 +4930,7 @@
                   },
                   {
                     "type": "PLAINTEXT",
-                    "text": "Pemerintah Desa memiliki tugas dan tanggung jawab:"
+                    "text": "${Pemerintah Desa} memiliki tugas dan tanggung jawab:"
                   },
                   {
                     "type": "LIST",
@@ -4929,7 +4960,7 @@
                           },
                           {
                             "type": "PLAINTEXT",
-                            "text": "melakukan verifikasi data dan pencatatan Calon Pekerja Migran Indonesia;"
+                            "text": "melakukan verifikasi data dan pencatatan ${Calon Pekerja Migran Indonesia};"
                           }
                         ]
                       },
@@ -4943,7 +4974,7 @@
                           },
                           {
                             "type": "PLAINTEXT",
-                            "text": "memfasilitasi pemenuhan persyaratan administrasi kependudukan Calon Pekerja Migran Indonesia;"
+                            "text": "memfasilitasi pemenuhan persyaratan administrasi kependudukan ${Calon Pekerja Migran Indonesia};"
                           }
                         ]
                       },
@@ -4957,7 +4988,7 @@
                           },
                           {
                             "type": "PLAINTEXT",
-                            "text": "melakukan pemantauan keberangkatan dan kepulangan Pekerja Migran Indonesia; dan"
+                            "text": "melakukan pemantauan keberangkatan dan kepulangan ${Pekerja Migran Indonesia}; dan"
                           }
                         ]
                       },
@@ -4971,7 +5002,7 @@
                           },
                           {
                             "type": "PLAINTEXT",
-                            "text": "melakukan pemberdayaan kepada Calon Pekerja Migran Indonesia, Pekerja Migran Indonesia, dan keluarganya."
+                            "text": "melakukan pemberdayaan kepada ${Calon Pekerja Migran Indonesia}, Pekerja Migran Indonesia, dan keluarganya."
                           }
                         ]
                       }
@@ -4989,7 +5020,7 @@
                   },
                   {
                     "type": "PLAINTEXT",
-                    "text": "Ketentuan lebih lanjut mengenai tugas dan tanggung jawab Pemerintah Pusat dan Pemerintah Daerah diatur dengan Peraturan Pemerintah."
+                    "text": "Ketentuan lebih lanjut mengenai tugas dan tanggung jawab ${Pemerintah Pusat} dan ${Pemerintah Daerah} diatur dengan Peraturan Pemerintah."
                   }
                 ]
               }
@@ -5019,7 +5050,7 @@
               },
               {
                 "type": "PLAINTEXT",
-                "text": "Pelaksanaan tugas pemerintah di bidang Pelindungan Pekerja Migran Indonesia diselenggarakan oleh  kementerian dan Badan."
+                "text": "Pelaksanaan tugas pemerintah di bidang ${Pelindungan Pekerja Migran Indonesia} diselenggarakan oleh  kementerian dan ${Badan}."
               }
             ]
           },
@@ -5033,7 +5064,7 @@
               },
               {
                 "type": "PLAINTEXT",
-                "text": "Tugas Menteri sebagai pembuat kebijakan:"
+                "text": "Tugas ${Menteri} sebagai pembuat kebijakan:"
               },
               {
                 "type": "LIST",
@@ -5065,7 +5096,7 @@
                               },
                               {
                                 "type": "PLAINTEXT",
-                                "text": "Pelindungan Pekerja Migran Indonesia;"
+                                "text": "${Pelindungan Pekerja Migran Indonesia};"
                               }
                             ]
                           },
@@ -5093,7 +5124,7 @@
                               },
                               {
                                 "type": "PLAINTEXT",
-                                "text": "penetapan penyelenggara Jaminan Sosial;"
+                                "text": "penetapan penyelenggara ${Jaminan Sosial};"
                               }
                             ]
                           },
@@ -5107,7 +5138,7 @@
                               },
                               {
                                 "type": "PLAINTEXT",
-                                "text": "pemenuhan hak Pekerja Migran Indonesia;"
+                                "text": "pemenuhan hak ${Pekerja Migran Indonesia};"
                               }
                             ]
                           }
@@ -5125,7 +5156,7 @@
                       },
                       {
                         "type": "PLAINTEXT",
-                        "text": "mengawasi dan mengevaluasi pelaksanaan kebijakan Pelindungan Pekerja Migran Indonesia;"
+                        "text": "mengawasi dan mengevaluasi pelaksanaan kebijakan ${Pelindungan Pekerja Migran Indonesia};"
                       }
                     ]
                   },
@@ -5139,7 +5170,7 @@
                       },
                       {
                         "type": "PLAINTEXT",
-                        "text": "melakukan kerja sama luar negeri untuk menjamin pemenuhan hak dan Pelindungan Pekerja Migran Indonesia melalui koordinasi dengan menteri yang menyelenggarakan urusan pemerintahan di bidang hubungan luar negeri;"
+                        "text": "melakukan kerja sama luar negeri untuk menjamin pemenuhan hak dan ${Pelindungan Pekerja Migran Indonesia} melalui koordinasi dengan ${menteri} yang menyelenggarakan urusan pemerintahan di bidang hubungan luar negeri;"
                       }
                     ]
                   },
@@ -5153,7 +5184,7 @@
                       },
                       {
                         "type": "PLAINTEXT",
-                        "text": "menghentikan atau melarang penempatan Pekerja Migran indonesia pada negara tertentu atau jabatan/profesi tertentu;"
+                        "text": "menghentikan atau melarang penempatan ${Pekerja Migran indonesia} pada negara tertentu atau jabatan/profesi tertentu;"
                       }
                     ]
                   },
@@ -5167,7 +5198,7 @@
                       },
                       {
                         "type": "PLAINTEXT",
-                        "text": "menerbitkan dan mencabut SIP3MI atas usul kepala Badan paling lama 60 (enam puluh) hari kalender terhitung sejak tanggal pengusulan;"
+                        "text": "menerbitkan dan mencabut ${SIP3MI} atas usul kepala ${Badan} paling lama 60 (enam puluh) hari kalender terhitung sejak tanggal pengusulan;"
                       }
                     ]
                   },
@@ -5181,7 +5212,7 @@
                       },
                       {
                         "type": "PLAINTEXT",
-                        "text": "mengusulkan pejabat atase ketenagakerjaan kepada menteri yang menyelenggarakan urusan pemerintahan di bidang hubungan luar negeri;"
+                        "text": "mengusulkan pejabat atase ketenagakerjaan kepada ${menteri} yang menyelenggarakan urusan pemerintahan di bidang hubungan luar negeri;"
                       }
                     ]
                   },
@@ -5195,7 +5226,7 @@
                       },
                       {
                         "type": "PLAINTEXT",
-                        "text": "melakukan pemberdayaan sosial dan ekonomi purna Pekerja Migran indonesia; dan"
+                        "text": "melakukan pemberdayaan sosial dan ekonomi purna ${Pekerja Migran indonesia}; dan"
                       }
                     ]
                   },
@@ -5239,7 +5270,7 @@
                       },
                       {
                         "type": "PLAINTEXT",
-                        "text": "Tugas Pelindungan Pekerja Migran Indonesia dilaksanakan oleh Badan yang dibentuk oleh Presiden."
+                        "text": "Tugas ${Pelindungan Pekerja Migran Indonesia} dilaksanakan oleh ${Badan} yang dibentuk oleh Presiden."
                       }
                     ]
                   },
@@ -5253,7 +5284,7 @@
                       },
                       {
                         "type": "PLAINTEXT",
-                        "text": "Badan sebagaimana dimaksud pada ayat (1) dipimpin oleh kepala Badan yang diangkat oleh Presiden dan bertanggung jawab kepada Presiden melalui Menteri."
+                        "text": "${Badan} sebagaimana dimaksud pada ayat (1) dipimpin oleh kepala ${Badan} yang diangkat oleh Presiden dan bertanggung jawab kepada Presiden melalui ${Menteri}."
                       }
                     ]
                   },
@@ -5267,7 +5298,7 @@
                       },
                       {
                         "type": "PLAINTEXT",
-                        "text": "Badan sebagaimana dimaksud pada ayat (2) merupakan lembaga pemerintah nonkementerian yang bertugas sebagai pelaksana kebijakan dalam pelayanan Pelindungan Pekerja Migran Indonesia secara terpadu."
+                        "text": "${Badan} sebagaimana dimaksud pada ayat (2) merupakan lembaga pemerintah nonkementerian yang bertugas sebagai pelaksana kebijakan dalam pelayanan ${Pelindungan Pekerja Migran Indonesia} secara terpadu."
                       }
                     ]
                   }
@@ -5285,7 +5316,7 @@
               },
               {
                 "type": "PLAINTEXT",
-                "text": "Tugas kepala Badan sebagai pelaksana kebijakan:"
+                "text": "Tugas kepala ${Badan} sebagai pelaksana kebijakan:"
               },
               {
                 "type": "LIST",
@@ -5301,7 +5332,7 @@
                       },
                       {
                         "type": "PLAINTEXT",
-                        "text": "melaksanakan kebijakan penempatan dan Pelindungan Pekerja Migran Indonesia:"
+                        "text": "melaksanakan kebijakan penempatan dan ${Pelindungan Pekerja Migran Indonesia}:"
                       },
                       {
                         "type": "LIST",
@@ -5317,7 +5348,7 @@
                               },
                               {
                                 "type": "PLAINTEXT",
-                                "text": "melayani dan melindungi Pekerja Migran Indonesia;"
+                                "text": "melayani dan melindungi ${Pekerja Migran Indonesia};"
                               }
                             ]
                           },
@@ -5331,7 +5362,7 @@
                               },
                               {
                                 "type": "PLAINTEXT",
-                                "text": "menerbitkan dan mencabut SIP2MI;"
+                                "text": "menerbitkan dan mencabut ${SIP2MI};"
                               }
                             ]
                           },
@@ -5359,7 +5390,7 @@
                               },
                               {
                                 "type": "PLAINTEXT",
-                                "text": "melakukan pengawasan pelaksanaan pelayanan Jaminan Sosial;"
+                                "text": "melakukan pengawasan pelaksanaan pelayanan ${Jaminan Sosial};"
                               }
                             ]
                           },
@@ -5373,7 +5404,7 @@
                               },
                               {
                                 "type": "PLAINTEXT",
-                                "text": "memenuhi hak Pekerja Migran Indonesia;"
+                                "text": "memenuhi hak ${Pekerja Migran Indonesia};"
                               }
                             ]
                           },
@@ -5387,7 +5418,7 @@
                               },
                               {
                                 "type": "PLAINTEXT",
-                                "text": "memverifikasi dokumen Pekerja Migran Indonesia;"
+                                "text": "memverifikasi dokumen ${Pekerja Migran Indonesia};"
                               }
                             ]
                           }
@@ -5405,7 +5436,7 @@
                       },
                       {
                         "type": "PLAINTEXT",
-                        "text": "melaksanakan penempatan dan Pelindungan Pekerja Migran Indonesia melalui kerja sama antara Pemerintah Pusat dengan negara tujuan penempatan;"
+                        "text": "melaksanakan penempatan dan ${Pelindungan Pekerja Migran Indonesia} melalui kerja sama antara ${Pemerintah Pusat} dengan negara tujuan penempatan;"
                       }
                     ]
                   },
@@ -5419,7 +5450,7 @@
                       },
                       {
                         "type": "PLAINTEXT",
-                        "text": "mengusulkan pencabutan SIP3MI kepada Menteri terhadap Perusahaan Penempatan Pekerja Migran Indonesia;"
+                        "text": "mengusulkan pencabutan ${SIP3MI} kepada ${Menteri} terhadap ${Perusahaan Penempatan Pekerja Migran Indonesia};"
                       }
                     ]
                   },
@@ -5433,7 +5464,7 @@
                       },
                       {
                         "type": "PLAINTEXT",
-                        "text": "memberikan Pelindungan Selama Bekerja dengan berkoordinasi dengan Perwakilan Republik Indonesia di negara tujuan penempatan;"
+                        "text": "memberikan ${Pelindungan Selama Bekerja} dengan berkoordinasi dengan ${Perwakilan Republik Indonesia} di negara tujuan penempatan;"
                       }
                     ]
                   },
@@ -5447,7 +5478,7 @@
                       },
                       {
                         "type": "PLAINTEXT",
-                        "text": "melakukan fasilitasi, rehabilitasi, dan reintegrasi purna Pekerja Migran Indonesia;"
+                        "text": "melakukan fasilitasi, rehabilitasi, dan reintegrasi purna ${Pekerja Migran Indonesia};"
                       }
                     ]
                   },
@@ -5461,7 +5492,7 @@
                       },
                       {
                         "type": "PLAINTEXT",
-                        "text": "melakukan pemberdayaan sosial dan ekonomi purna Pekerja Migran Indonesia; dan"
+                        "text": "melakukan pemberdayaan sosial dan ekonomi purna ${Pekerja Migran Indonesia}; dan"
                       }
                     ]
                   },
@@ -5493,7 +5524,7 @@
               },
               {
                 "type": "PLAINTEXT",
-                "text": "Ketentuan lebih lanjut mengenai pembentukan, fungsi, tugas, struktur organisasi, dan tata kerja Badan diatur dengan Peraturan Presiden."
+                "text": "Ketentuan lebih lanjut mengenai pembentukan, fungsi, tugas, struktur organisasi, dan tata kerja ${Badan} diatur dengan Peraturan Presiden."
               }
             ]
           }
@@ -5533,7 +5564,7 @@
                   },
                   {
                     "type": "PLAINTEXT",
-                    "text": "Pelaksana penempatan Pekerja Migran Indonesia ke luar negeri terdiri atas:"
+                    "text": "Pelaksana penempatan ${Pekerja Migran Indonesia} ke luar negeri terdiri atas:"
                   },
                   {
                     "type": "LIST",
@@ -5549,7 +5580,7 @@
                           },
                           {
                             "type": "PLAINTEXT",
-                            "text": "Badan;"
+                            "text": "${Badan};"
                           }
                         ]
                       },
@@ -5563,7 +5594,7 @@
                           },
                           {
                             "type": "PLAINTEXT",
-                            "text": "Perusahaan Penempatan Pekerja Migran Indonesia; atau"
+                            "text": "${Perusahaan Penempatan Pekerja Migran Indonesia}; atau"
                           }
                         ]
                       },
@@ -5577,7 +5608,7 @@
                           },
                           {
                             "type": "PLAINTEXT",
-                            "text": "perusahaan yang menempatkan Pekerja Migran Indonesia untuk kepentingan perusahaan sendiri."
+                            "text": "perusahaan yang menempatkan ${Pekerja Migran Indonesia} untuk kepentingan perusahaan sendiri."
                           }
                         ]
                       }
@@ -5607,7 +5638,7 @@
                           },
                           {
                             "type": "PLAINTEXT",
-                            "text": "Penempatan Pekerja Migran Indonesia oleh Badan sebagaimana dimaksud dalam Pasal 49 huruf a, dilakukan atas dasar perjanjian secara tertulis antara pemerintah dengan pemerintah negara Pemberi Kerja Pekerja Migran Indonesia atau Pemberi Kerja berbadan hukum di negara tujuan penempatan."
+                            "text": "Penempatan ${Pekerja Migran Indonesia} oleh ${Badan} sebagaimana dimaksud dalam Pasal 49 huruf a, dilakukan atas dasar perjanjian secara tertulis antara pemerintah dengan pemerintah negara ${Pemberi Kerja} ${Pekerja Migran Indonesia} atau ${Pemberi Kerja} berbadan hukum di negara tujuan penempatan."
                           }
                         ]
                       },
@@ -5621,7 +5652,7 @@
                           },
                           {
                             "type": "PLAINTEXT",
-                            "text": "Ketentuan lebih lanjut mengenai tata cara penempatan Pekerja Migran Indonesia oleh Badan sebagaimana dimaksud pada ayat (1) diatur dengan Peraturan Pemerintah."
+                            "text": "Ketentuan lebih lanjut mengenai tata cara penempatan ${Pekerja Migran Indonesia} oleh ${Badan} sebagaimana dimaksud pada ayat (1) diatur dengan Peraturan Pemerintah."
                           }
                         ]
                       }
@@ -5651,7 +5682,7 @@
                           },
                           {
                             "type": "PLAINTEXT",
-                            "text": "Perusahaan yang akan menjadi Perusahaan Penempatan Pekerja Migran Indonesia sebagaimana dimaksud dalam Pasal 49 huruf b wajib mendapat izin tertulis berupa SIP3MI dari Menteri."
+                            "text": "Perusahaan yang akan menjadi ${Perusahaan Penempatan Pekerja Migran Indonesia} sebagaimana dimaksud dalam Pasal 49 huruf b wajib mendapat izin tertulis berupa ${SIP3MI} dari ${Menteri}."
                           }
                         ]
                       },
@@ -5665,7 +5696,7 @@
                           },
                           {
                             "type": "PLAINTEXT",
-                            "text": "SIP3MI sebagaimana dimaksud pada ayat (1) tidak dapat dialihkan dan dipindahtangankan kepada pihak lain."
+                            "text": "${SIP3MI} sebagaimana dimaksud pada ayat (1) tidak dapat dialihkan dan dipindahtangankan kepada pihak lain."
                           }
                         ]
                       },
@@ -5679,7 +5710,7 @@
                           },
                           {
                             "type": "PLAINTEXT",
-                            "text": "Ketentuan lebih lanjut mengenai izin tertulis berupa SIP3Mi sebagaimana dimaksud pada ayat (1) diatur dengan Peraturan Menteri."
+                            "text": "Ketentuan lebih lanjut mengenai izin tertulis berupa ${SIP3Mi} sebagaimana dimaksud pada ayat (1) diatur dengan Peraturan ${Menteri}."
                           }
                         ]
                       }
@@ -5709,7 +5740,7 @@
                           },
                           {
                             "type": "PLAINTEXT",
-                            "text": "Perusahaan Penempatan Pekerja Migran Indonesia sebagaimana dimaksud dalam Pasal 49 huruf b mempunyai tugas dan tanggung jawab:"
+                            "text": "${Perusahaan Penempatan Pekerja Migran Indonesia} sebagaimana dimaksud dalam Pasal 49 huruf b mempunyai tugas dan tanggung jawab:"
                           },
                           {
                             "type": "LIST",
@@ -5739,7 +5770,7 @@
                                   },
                                   {
                                     "type": "PLAINTEXT",
-                                    "text": "menempatkan Pekerja Migran Indonesia; dan"
+                                    "text": "menempatkan ${Pekerja Migran Indonesia}; dan"
                                   }
                                 ]
                               },
@@ -5753,7 +5784,7 @@
                                   },
                                   {
                                     "type": "PLAINTEXT",
-                                    "text": "menyelesaikan permasalahan Pekerja Migran Indonesia yang ditempatkannya."
+                                    "text": "menyelesaikan permasalahan ${Pekerja Migran Indonesia} yang ditempatkannya."
                                   }
                                 ]
                               }
@@ -5771,7 +5802,7 @@
                           },
                           {
                             "type": "PLAINTEXT",
-                            "text": "Ketentuan lebih lanjut mengenai tugas dan tanggung jawab Perusahaan Penempatan Pekerja Migran Indonesia sebagaimana dimaksud pada ayat (1) diatur dengan Peraturan Pemerintah."
+                            "text": "Ketentuan lebih lanjut mengenai tugas dan tanggung jawab ${Perusahaan Penempatan Pekerja Migran Indonesia} sebagaimana dimaksud pada ayat (1) diatur dengan Peraturan Pemerintah."
                           }
                         ]
                       }
@@ -5801,7 +5832,7 @@
                           },
                           {
                             "type": "PLAINTEXT",
-                            "text": "Perusahaan Penempatan Pekerja Migran Indonesia dapat membentuk kantor cabang di luar wilayah domisili kantor pusatnya."
+                            "text": "${Perusahaan Penempatan Pekerja Migran Indonesia} dapat membentuk kantor cabang di luar wilayah domisili kantor pusatnya."
                           }
                         ]
                       },
@@ -5815,7 +5846,7 @@
                           },
                           {
                             "type": "PLAINTEXT",
-                            "text": "Kegiatan yang dilakukan oleh kantor cabang Perusahaan Penempatan Pekerja Migran Indonesia menjadi tanggung jawab kantor pusat Perusahaan Penempatan Pekerja Migran Indonesia."
+                            "text": "Kegiatan yang dilakukan oleh kantor cabang ${Perusahaan Penempatan Pekerja Migran Indonesia} menjadi tanggung jawab kantor pusat ${Perusahaan Penempatan Pekerja Migran Indonesia}."
                           }
                         ]
                       },
@@ -5829,7 +5860,7 @@
                           },
                           {
                             "type": "PLAINTEXT",
-                            "text": "Kantor cabang sebagaimana dimaksud pada ayat (1) wajib terdaftar di Pemerintah Daerah provinsi."
+                            "text": "Kantor cabang sebagaimana dimaksud pada ayat (1) wajib terdaftar di ${Pemerintah Daerah} provinsi."
                           }
                         ]
                       },
@@ -5843,7 +5874,7 @@
                           },
                           {
                             "type": "PLAINTEXT",
-                            "text": "Ketentuan lebih lanjut mengenai tata cara pembentukan kantor cabang Perusahaan Penempatan Pekerja Migran Indonesia sebagaimana dimaksud pada ayat (1) diatur dengan Peraturan Menteri."
+                            "text": "Ketentuan lebih lanjut mengenai tata cara pembentukan kantor cabang ${Perusahaan Penempatan Pekerja Migran Indonesia} sebagaimana dimaksud pada ayat (1) diatur dengan Peraturan ${Menteri}."
                           }
                         ]
                       }
@@ -5873,7 +5904,7 @@
                           },
                           {
                             "type": "PLAINTEXT",
-                            "text": "Untuk dapat memperoleh SIP3MI sebagaimana dimaksud dalam Pasal 51 ayat (1), Perusahaan Penempatan Pekerja Migran Indonesia harus memenuhi persyaratan:"
+                            "text": "Untuk dapat memperoleh ${SIP3MI} sebagaimana dimaksud dalam Pasal 51 ayat (1), ${Perusahaan Penempatan Pekerja Migran Indonesia} harus memenuhi persyaratan:"
                           },
                           {
                             "type": "LIST",
@@ -5903,7 +5934,7 @@
                                   },
                                   {
                                     "type": "PLAINTEXT",
-                                    "text": "menyetor uang kepada bank pemerintah dalam bentuk deposito paling sedikit Rp1.500.000.000,00 (satu miliar lima ratus juta rupiah) yang sewaktu-waktu dapat dicairkan sebagai jaminan untuk memenuhi kewajiban dalam Pelindungan Pekerja Migran Indonesia;"
+                                    "text": "menyetor uang kepada bank pemerintah dalam bentuk deposito paling sedikit Rp1.500.000.000,00 (satu miliar lima ratus juta rupiah) yang sewaktu-waktu dapat dicairkan sebagai jaminan untuk memenuhi kewajiban dalam ${Pelindungan Pekerja Migran Indonesia};"
                                   }
                                 ]
                               },
@@ -5917,7 +5948,7 @@
                                   },
                                   {
                                     "type": "PLAINTEXT",
-                                    "text": "memiliki rencana kerja penempatan dan Pelindungan Pekerja Migran Indonesia paling singkat 3 (tiga) tahun berjalan; dan"
+                                    "text": "memiliki rencana kerja penempatan dan ${Pelindungan Pekerja Migran Indonesia} paling singkat 3 (tiga) tahun berjalan; dan"
                                   }
                                 ]
                               },
@@ -5931,7 +5962,7 @@
                                   },
                                   {
                                     "type": "PLAINTEXT",
-                                    "text": "memiliki sarana dan prasarana pelayanan penempatan Pekerja Migran Indonesia."
+                                    "text": "memiliki sarana dan prasarana pelayanan penempatan ${Pekerja Migran Indonesia}."
                                   }
                                 ]
                               }
@@ -5949,7 +5980,7 @@
                           },
                           {
                             "type": "PLAINTEXT",
-                            "text": "Deposito sebagaimana dimaksud pada ayat (1) huruf b, hanya dapat dicairkan oleh Menteri apabila Perusahaan Penempatan Pekerja Migran Indonesia tidak memenuhi kewajiban terhadap Calon Pekerja Migran Indonesia dan/atau Pekerja Migran Indonesia."
+                            "text": "Deposito sebagaimana dimaksud pada ayat (1) huruf b, hanya dapat dicairkan oleh ${Menteri} apabila ${Perusahaan Penempatan Pekerja Migran Indonesia} tidak memenuhi kewajiban terhadap ${Calon Pekerja Migran Indonesia} dan/atau Pekerja Migran Indonesia."
                           }
                         ]
                       },
@@ -5963,7 +5994,7 @@
                           },
                           {
                             "type": "PLAINTEXT",
-                            "text": "Sesuai dengan perkembangan keadaan, besarnya modal disetor sebagaimana dimaksud pada ayat (1) huruf a dan jaminan dalam bentuk deposito sebagaimana dimaksud pada ayat (1) huruf b, dapat ditinjau kembali dan diubah dengan Peraturan Menteri."
+                            "text": "Sesuai dengan perkembangan keadaan, besarnya modal disetor sebagaimana dimaksud pada ayat (1) huruf a dan jaminan dalam bentuk deposito sebagaimana dimaksud pada ayat (1) huruf b, dapat ditinjau kembali dan diubah dengan Peraturan ${Menteri}."
                           }
                         ]
                       }
@@ -5993,7 +6024,7 @@
                           },
                           {
                             "type": "PLAINTEXT",
-                            "text": "Perusahaan Penempatan Pekerja Migran Indonesia wajib menambah biaya keperluan penyelesaian perselisihan atau sengketa Calon Pekerja Migran Indonesia dan/atau Pekerja Migran Indonesia jika deposito yang digunakan tidak mencukupi."
+                            "text": "${Perusahaan Penempatan Pekerja Migran Indonesia} wajib menambah biaya keperluan penyelesaian perselisihan atau sengketa ${Calon Pekerja Migran Indonesia} dan/atau Pekerja Migran Indonesia jika deposito yang digunakan tidak mencukupi."
                           }
                         ]
                       },
@@ -6007,7 +6038,7 @@
                           },
                           {
                             "type": "PLAINTEXT",
-                            "text": "Menteri mengembalikan deposito kepada Perusahaan Penempatan Pekerja Migran Indonesia apabila masa berlaku SIP3MI telah berakhir, tidak diperpanjang, atau dicabut setelah perusahaan menyelesaikan seluruh kewajibannya."
+                            "text": "${Menteri} mengembalikan deposito kepada ${Perusahaan Penempatan Pekerja Migran Indonesia} apabila masa berlaku ${SIP3MI} telah berakhir, tidak diperpanjang, atau dicabut setelah perusahaan menyelesaikan seluruh kewajibannya."
                           }
                         ]
                       },
@@ -6021,7 +6052,7 @@
                           },
                           {
                             "type": "PLAINTEXT",
-                            "text": "Ketentuan lebih lanjut mengenai penyetoran, penggunaan, pencairan, dan pengembalian deposito sebagaimana dimaksud pada ayat (1) dan ayat (2) diatur dengan Peraturan Menteri."
+                            "text": "Ketentuan lebih lanjut mengenai penyetoran, penggunaan, pencairan, dan pengembalian deposito sebagaimana dimaksud pada ayat (1) dan ayat (2) diatur dengan Peraturan ${Menteri}."
                           }
                         ]
                       }
@@ -6039,7 +6070,7 @@
                   },
                   {
                     "type": "PLAINTEXT",
-                    "text": "Perusahaan Penempatan Pekerja Migran Indonesia yang tidak menambah biaya keperluan penyelesaian  perselisihan atau sengketa Calon Pekerja Migran Indonesia dan/atau Pekerja Migran Indonesia jika deposito yang digunakan tidak mencukupi sebagaimana dimaksud dalam Pasal 54 ayat (1) huruf b dikenai sanksi  administratif."
+                    "text": "${Perusahaan Penempatan Pekerja Migran Indonesia} yang tidak menambah biaya keperluan penyelesaian  perselisihan atau sengketa ${Calon Pekerja Migran Indonesia} dan/atau Pekerja Migran Indonesia jika deposito yang digunakan tidak mencukupi sebagaimana dimaksud dalam Pasal 54 ayat (1) huruf b dikenai sanksi  administratif."
                   }
                 ]
               },
@@ -6065,7 +6096,7 @@
                           },
                           {
                             "type": "PLAINTEXT",
-                            "text": "SIP3MI diberikan untuk jangka waktu 5 (lima) tahun dan dapat diperpanjang setiap 5 (lima) tahun sekali setelah mendapat rekomendasi dari Badan."
+                            "text": "${SIP3MI} diberikan untuk jangka waktu 5 (lima) tahun dan dapat diperpanjang setiap 5 (lima) tahun sekali setelah mendapat rekomendasi dari ${Badan}."
                           }
                         ]
                       },
@@ -6079,7 +6110,7 @@
                           },
                           {
                             "type": "PLAINTEXT",
-                            "text": "Selain harus memenuhi syarat sebagaimana dimaksud dalam Pasal 54 ayat (1), perpanjangan SIP3MI sebagaimana dimaksud pada ayat (1) dapat diberikan kepada Perusahaan Penempatan Pekerja Migran Indonesia dengan memenuhi persyaratan paling sedikit:"
+                            "text": "Selain harus memenuhi syarat sebagaimana dimaksud dalam Pasal 54 ayat (1), perpanjangan ${SIP3MI} sebagaimana dimaksud pada ayat (1) dapat diberikan kepada ${Perusahaan Penempatan Pekerja Migran Indonesia} dengan memenuhi persyaratan paling sedikit:"
                           },
                           {
                             "type": "LIST",
@@ -6095,7 +6126,7 @@
                                   },
                                   {
                                     "type": "PLAINTEXT",
-                                    "text": "telah melaksanakan kewajibannya untuk memberikan laporan secara periodik kepada Menteri;"
+                                    "text": "telah melaksanakan kewajibannya untuk memberikan laporan secara periodik kepada ${Menteri};"
                                   }
                                 ]
                               },
@@ -6109,7 +6140,7 @@
                                   },
                                   {
                                     "type": "PLAINTEXT",
-                                    "text": "telah melaksanakan penempatan paling sedikit 75% (tujuh puluh lima persen) dari rencana penempatan pada waktu memperoleh SIP3MI;"
+                                    "text": "telah melaksanakan penempatan paling sedikit 75% (tujuh puluh lima persen) dari rencana penempatan pada waktu memperoleh ${SIP3MI};"
                                   }
                                 ]
                               },
@@ -6183,7 +6214,7 @@
                           },
                           {
                             "type": "PLAINTEXT",
-                            "text": "Perusahaan Penempatan Pekerja Migran Indonesia harus menyerahkan pembaruan data dan menyelesaikan persyaratan sebagaimana dimaksud pada ayat (2) paling lambat 30 (tiga puluh) hari kerja."
+                            "text": "${Perusahaan Penempatan Pekerja Migran Indonesia} harus menyerahkan pembaruan data dan menyelesaikan persyaratan sebagaimana dimaksud pada ayat (2) paling lambat 30 (tiga puluh) hari kerja."
                           }
                         ]
                       },
@@ -6197,7 +6228,7 @@
                           },
                           {
                             "type": "PLAINTEXT",
-                            "text": "Dalam hal Perusahaan Penempatan Pekerja Migran Indonesia tidak menyerahkan pembaruan data sebagaimana dimaksud pada ayat (3), Perusahaan Penempatan Pekerja Migran Indonesia diizinkan untuk memperbarui SIP3MI paling lambat 30 (tiga puluh) hari kerja dengan membayar denda keterlambatan."
+                            "text": "Dalam hal ${Perusahaan Penempatan Pekerja Migran Indonesia} tidak menyerahkan pembaruan data sebagaimana dimaksud pada ayat (3), ${Perusahaan Penempatan Pekerja Migran Indonesia} diizinkan untuk memperbarui ${SIP3MI} paling lambat 30 (tiga puluh) hari kerja dengan membayar denda keterlambatan."
                           }
                         ]
                       },
@@ -6211,7 +6242,7 @@
                           },
                           {
                             "type": "PLAINTEXT",
-                            "text": "Ketentuan lebih lanjut mengenai denda keterlambatan sebagaimana dimaksud pada ayat (4) diatur dengan Peraturan Menteri."
+                            "text": "Ketentuan lebih lanjut mengenai denda keterlambatan sebagaimana dimaksud pada ayat (4) diatur dengan Peraturan ${Menteri}."
                           }
                         ]
                       }
@@ -6241,7 +6272,7 @@
                           },
                           {
                             "type": "PLAINTEXT",
-                            "text": "Menteri mencabut SIP3MI jika Perusahaan Penempatan Pekerja Migran Indonesia:"
+                            "text": "${Menteri} mencabut ${SIP3MI} jika ${Perusahaan Penempatan Pekerja Migran Indonesia}:"
                           },
                           {
                             "type": "LIST",
@@ -6271,7 +6302,7 @@
                                   },
                                   {
                                     "type": "PLAINTEXT",
-                                    "text": "tidak melaksanakan kewajiban dan tanggung jawabnya dan/atau melanggar larangan dalam penempatan dan Pelindungan Pekerja Migran Indonesia yang diatur dalam Undang-Undang ini."
+                                    "text": "tidak melaksanakan kewajiban dan tanggung jawabnya dan/atau melanggar larangan dalam penempatan dan ${Pelindungan Pekerja Migran Indonesia} yang diatur dalam Undang-Undang ini."
                                   }
                                 ]
                               }
@@ -6289,7 +6320,7 @@
                           },
                           {
                             "type": "PLAINTEXT",
-                            "text": "Pencabutan SIP3MI oleh Menteri sebagaimana dimaksud pada ayat (1), tidak mengurangi tanggung jawab Perusahaan Penempatan Pekerja Migran Indonesia terhadap Pekerja Migran Indonesia yang telah ditempatkan dan masih berada di luar negeri."
+                            "text": "Pencabutan ${SIP3MI} oleh ${Menteri} sebagaimana dimaksud pada ayat (1), tidak mengurangi tanggung jawab ${Perusahaan Penempatan Pekerja Migran Indonesia} terhadap Pekerja Migran Indonesia yang telah ditempatkan dan masih berada di luar negeri."
                           }
                         ]
                       }
@@ -6319,7 +6350,7 @@
                           },
                           {
                             "type": "PLAINTEXT",
-                            "text": "Perusahaan Penempatan Pekerja Migran Indonesia yang akan melaksanakan penempatan wajib memiliki SIP2MI."
+                            "text": "${Perusahaan Penempatan Pekerja Migran Indonesia} yang akan melaksanakan penempatan wajib memiliki ${SIP2MI}."
                           }
                         ]
                       },
@@ -6333,7 +6364,7 @@
                           },
                           {
                             "type": "PLAINTEXT",
-                            "text": "SIP2MI sebagaimana dimaksud pada ayat (1) tidak dapat dialihkan dan dipindahtangankan kepada pihak lain."
+                            "text": "${SIP2MI} sebagaimana dimaksud pada ayat (1) tidak dapat dialihkan dan dipindahtangankan kepada pihak lain."
                           }
                         ]
                       },
@@ -6347,7 +6378,7 @@
                           },
                           {
                             "type": "PLAINTEXT",
-                            "text": "SIP2MI sebagaimana dimaksud pada ayat (1) harus mencantumkan negara tujuan penempatan."
+                            "text": "${SIP2MI} sebagaimana dimaksud pada ayat (1) harus mencantumkan negara tujuan penempatan."
                           }
                         ]
                       },
@@ -6361,7 +6392,7 @@
                           },
                           {
                             "type": "PLAINTEXT",
-                            "text": "Untuk mendapatkan SIP2MI sebagaimana dimaksud pada ayat (1), Perusahaan Penempatan Pekerja Migran Indonesia harus memiliki dokumen:"
+                            "text": "Untuk mendapatkan ${SIP2MI} sebagaimana dimaksud pada ayat (1), ${Perusahaan Penempatan Pekerja Migran Indonesia} harus memiliki dokumen:"
                           },
                           {
                             "type": "LIST",
@@ -6377,7 +6408,7 @@
                                   },
                                   {
                                     "type": "PLAINTEXT",
-                                    "text": "Perjanjian Kerja Sama penempatan;"
+                                    "text": "${Perjanjian Kerja Sama penempatan};"
                                   }
                                 ]
                               },
@@ -6391,7 +6422,7 @@
                                   },
                                   {
                                     "type": "PLAINTEXT",
-                                    "text": "surat permintaan Pekerja Migran Indonesia dari Pemberi Kerja;"
+                                    "text": "surat permintaan ${Pekerja Migran Indonesia} dari ${Pemberi Kerja};"
                                   }
                                 ]
                               },
@@ -6405,7 +6436,7 @@
                                   },
                                   {
                                     "type": "PLAINTEXT",
-                                    "text": "rancangan Perjanjian Penempatan; dan"
+                                    "text": "rancangan ${Perjanjian Penempatan}; dan"
                                   }
                                 ]
                               },
@@ -6419,7 +6450,7 @@
                                   },
                                   {
                                     "type": "PLAINTEXT",
-                                    "text": "rancangan Perjanjian Kerja."
+                                    "text": "rancangan ${Perjanjian Kerja}."
                                   }
                                 ]
                               }
@@ -6441,7 +6472,7 @@
                   },
                   {
                     "type": "PLAINTEXT",
-                    "text": "Ketentuan lebih lanjut mengenai penempatan Pekerja Migran Indonesia oleh Perusahaan Penempatan  Pekerja Migran Indonesia diatur dengan Peraturan Menteri."
+                    "text": "Ketentuan lebih lanjut mengenai penempatan ${Pekerja Migran Indonesia} oleh Perusahaan Penempatan  ${Pekerja Migran Indonesia} diatur dengan Peraturan ${Menteri}."
                   }
                 ]
               },
@@ -6495,7 +6526,7 @@
                           },
                           {
                             "type": "PLAINTEXT",
-                            "text": "Ketentuan lebih lanjut mengenai penempatan pekerja oleh perusahaan untuk kepentingan perusahaan sendiri sebagaimana dimaksud pada ayat (1) diatur dengan Peraturan Menteri."
+                            "text": "Ketentuan lebih lanjut mengenai penempatan pekerja oleh perusahaan untuk kepentingan perusahaan sendiri sebagaimana dimaksud pada ayat (1) diatur dengan Peraturan ${Menteri}."
                           }
                         ]
                       }
@@ -6539,7 +6570,7 @@
                           },
                           {
                             "type": "PLAINTEXT",
-                            "text": "Pekerja Migran Indonesia Perseorangan dapat bekerja ke luar negeri pada Pemberi Kerja berbadan hukum."
+                            "text": "${Pekerja Migran Indonesia Perseorangan} dapat bekerja ke luar negeri pada ${Pemberi Kerja} berbadan hukum."
                           }
                         ]
                       },
@@ -6553,7 +6584,7 @@
                           },
                           {
                             "type": "PLAINTEXT",
-                            "text": "Segala risiko ketenagakerjaan yang dialami oleh Pekerja Migran Indonesia Perseorangan, menjadi tanggung jawab sendiri."
+                            "text": "Segala risiko ketenagakerjaan yang dialami oleh ${Pekerja Migran Indonesia Perseorangan}, menjadi tanggung jawab sendiri."
                           }
                         ]
                       },
@@ -6567,7 +6598,7 @@
                           },
                           {
                             "type": "PLAINTEXT",
-                            "text": "Pekerja Migran Indonesia Perseorangan sebagaimana dimaksud pada ayat (1) wajib melapor pada instansi yang menyelenggarakan urusan pemerintahan di bidang ketenagakerjaan dan Perwakilan Republik Indonesia."
+                            "text": "${Pekerja Migran Indonesia Perseorangan} sebagaimana dimaksud pada ayat (1) wajib melapor pada instansi yang menyelenggarakan urusan pemerintahan di bidang ketenagakerjaan dan ${Perwakilan Republik Indonesia}."
                           }
                         ]
                       },
@@ -6581,7 +6612,7 @@
                           },
                           {
                             "type": "PLAINTEXT",
-                            "text": "Ketentuan lebih lanjut mengenai Pekerja Migran Indonesia Perseorangan sebagaimana dimaksud pada ayat (1) diatur dengan Peraturan Menteri."
+                            "text": "Ketentuan lebih lanjut mengenai ${Pekerja Migran Indonesia Perseorangan} sebagaimana dimaksud pada ayat (1) diatur dengan Peraturan ${Menteri}."
                           }
                         ]
                       }
@@ -6627,7 +6658,7 @@
                   },
                   {
                     "type": "PLAINTEXT",
-                    "text": "Setiap Orang dilarang memberikan tidak benar dalam pengisian sebagaimana dimaksud dalam Pasal data  dan informasi setiap dokumen"
+                    "text": "Setiap ${Orang} dilarang memberikan tidak benar dalam pengisian sebagaimana dimaksud dalam Pasal data  dan informasi setiap dokumen"
                   }
                 ]
               },
@@ -6641,7 +6672,7 @@
                   },
                   {
                     "type": "PLAINTEXT",
-                    "text": "Setiap Orang dilarang menempatkan Pekerja Migran Indonesia yang tidak memenuhi persyaratan umur  sebagaimana dimaksud dalam Pasal 5 huruf a."
+                    "text": "Setiap ${Orang} dilarang menempatkan ${Pekerja Migran Indonesia} yang tidak memenuhi persyaratan umur  sebagaimana dimaksud dalam Pasal 5 huruf a."
                   }
                 ]
               },
@@ -6655,7 +6686,7 @@
                   },
                   {
                     "type": "PLAINTEXT",
-                    "text": "Setiap Orang dilarang menempatkan Calon Pekerja Migran Indonesia pada:"
+                    "text": "Setiap ${Orang} dilarang menempatkan ${Calon Pekerja Migran Indonesia} pada:"
                   },
                   {
                     "type": "LIST",
@@ -6671,7 +6702,7 @@
                           },
                           {
                             "type": "PLAINTEXT",
-                            "text": "jabatan dan jenis pekerjaan yang tidak sesuai dengan Perjanjian Kerja sehingga merugikan Calon Pekerja Migran Indonesia sebagaimana dimaksud dalam Pasal 19 ayat (2); atau"
+                            "text": "jabatan dan jenis pekerjaan yang tidak sesuai dengan ${Perjanjian Kerja} sehingga merugikan ${Calon Pekerja Migran Indonesia} sebagaimana dimaksud dalam Pasal 19 ayat (2); atau"
                           }
                         ]
                       },
@@ -6703,7 +6734,7 @@
                   },
                   {
                     "type": "PLAINTEXT",
-                    "text": "Setiap Orang dilarang melaksanakan penempatan yang tidak memenuhi persyaratan Pekerja Migran  Indonesia sebagaimana dimaksud dalam Pasal 5 huruf b sampai dengan huruf e."
+                    "text": "Setiap ${Orang} dilarang melaksanakan penempatan yang tidak memenuhi persyaratan Pekerja Migran  Indonesia sebagaimana dimaksud dalam Pasal 5 huruf b sampai dengan huruf e."
                   }
                 ]
               },
@@ -6717,7 +6748,7 @@
                   },
                   {
                     "type": "PLAINTEXT",
-                    "text": "Orang perseorangan dilarang melaksanakan penempatan Pekerja Migran Indonesia."
+                    "text": "${Orang} perseorangan dilarang melaksanakan penempatan ${Pekerja Migran Indonesia}."
                   }
                 ]
               },
@@ -6743,7 +6774,7 @@
                           },
                           {
                             "type": "PLAINTEXT",
-                            "text": "Setiap pejabat dilarang memberangkatkan Pekerja Migran Indonesia yang tidak memenuhi persyaratan kelengkapan dokumen sebagaimana dimaksud dalam Pasal 13."
+                            "text": "Setiap pejabat dilarang memberangkatkan ${Pekerja Migran Indonesia} yang tidak memenuhi persyaratan kelengkapan dokumen sebagaimana dimaksud dalam Pasal 13."
                           }
                         ]
                       },
@@ -6757,7 +6788,7 @@
                           },
                           {
                             "type": "PLAINTEXT",
-                            "text": "Setiap pejabat dilarang menahan pemberangkatan Pekerja Migran Indonesia yang telah memenuhi persyaratan kelengkapan dokumen sebagaimana dimaksud dalam Pasal 13."
+                            "text": "Setiap pejabat dilarang menahan pemberangkatan ${Pekerja Migran Indonesia} yang telah memenuhi persyaratan kelengkapan dokumen sebagaimana dimaksud dalam Pasal 13."
                           }
                         ]
                       }
@@ -6775,7 +6806,7 @@
                   },
                   {
                     "type": "PLAINTEXT",
-                    "text": "Setiap Orang dilarang:"
+                    "text": "Setiap ${Orang} dilarang:"
                   },
                   {
                     "type": "LIST",
@@ -6791,7 +6822,7 @@
                           },
                           {
                             "type": "PLAINTEXT",
-                            "text": "menempatkan Pekerja Migran Indonesia pada pekerjaan yang tidak sesuai dengan Perjanjian Kerja yang telah disepakati dan ditandatangani Pekerja Migran Indonesia;"
+                            "text": "menempatkan ${Pekerja Migran Indonesia} pada pekerjaan yang tidak sesuai dengan ${Perjanjian Kerja} yang telah disepakati dan ditandatangani ${Pekerja Migran Indonesia};"
                           }
                         ]
                       },
@@ -6805,7 +6836,7 @@
                           },
                           {
                             "type": "PLAINTEXT",
-                            "text": "menempatkan Pekerja Migran Indonesia pada jabatan yang tidak sesuai dengan keahlian, keterampilan, bakat, minat, dan kemampuan;"
+                            "text": "menempatkan ${Pekerja Migran Indonesia} pada jabatan yang tidak sesuai dengan keahlian, keterampilan, bakat, minat, dan kemampuan;"
                           }
                         ]
                       },
@@ -6819,7 +6850,7 @@
                           },
                           {
                             "type": "PLAINTEXT",
-                            "text": "mengalihkan atau memindahtangankan SIP3MI kepada pihak lain; atau"
+                            "text": "mengalihkan atau memindahtangankan ${SIP3MI} kepada pihak lain; atau"
                           }
                         ]
                       },
@@ -6833,7 +6864,7 @@
                           },
                           {
                             "type": "PLAINTEXT",
-                            "text": "mengalihkan atau memindahtangankan SIP2MI kepada pihak lain."
+                            "text": "mengalihkan atau memindahtangankan ${SIP2MI} kepada pihak lain."
                           }
                         ]
                       }
@@ -6851,7 +6882,7 @@
                   },
                   {
                     "type": "PLAINTEXT",
-                    "text": "Setiap Orang dilarang:"
+                    "text": "Setiap ${Orang} dilarang:"
                   },
                   {
                     "type": "LIST",
@@ -6867,7 +6898,7 @@
                           },
                           {
                             "type": "PLAINTEXT",
-                            "text": "membebankan komponen biaya penempatan yang telah ditanggung calon Pemberi Kerja kepada Calon Pekerja Migran Indonesia;"
+                            "text": "membebankan komponen biaya penempatan yang telah ditanggung calon ${Pemberi Kerja} kepada ${Calon Pekerja Migran Indonesia};"
                           }
                         ]
                       },
@@ -6881,7 +6912,7 @@
                           },
                           {
                             "type": "PLAINTEXT",
-                            "text": "menempatkan Calon Pekerja Migran Indonesia ke negara tertentu yang dinyatakan tertutup;"
+                            "text": "menempatkan ${Calon Pekerja Migran Indonesia} ke negara tertentu yang dinyatakan tertutup;"
                           }
                         ]
                       },
@@ -6895,7 +6926,7 @@
                           },
                           {
                             "type": "PLAINTEXT",
-                            "text": "menempatkan Pekerja Migran Indonesia tanpa SIP2MI; atau"
+                            "text": "menempatkan ${Pekerja Migran Indonesia} tanpa ${SIP2MI}; atau"
                           }
                         ]
                       },
@@ -6909,7 +6940,7 @@
                           },
                           {
                             "type": "PLAINTEXT",
-                            "text": "menempatkan Pekerja Migran Indonesia ke negara tujuan penempatan yang tidak mempunyai peraturan perundang-undangan yang melindungi tenaga kerja asing, tidak memiliki perjanjian tertulis antara pemerintah negara tujuan penempatan dan pemerintah Republik Indonesia, dan/atau tidak memiliki sistem Jaminan Sosial dan/atau asuransi yang melindungi pekerja asing."
+                            "text": "menempatkan ${Pekerja Migran Indonesia} ke negara tujuan penempatan yang tidak mempunyai peraturan perundang-undangan yang melindungi tenaga kerja asing, tidak memiliki perjanjian tertulis antara pemerintah negara tujuan penempatan dan pemerintah Republik Indonesia, dan/atau tidak memiliki sistem ${Jaminan Sosial} dan/atau asuransi yang melindungi pekerja asing."
                           }
                         ]
                       }
@@ -6927,7 +6958,7 @@
                   },
                   {
                     "type": "PLAINTEXT",
-                    "text": "Pejabat, pegawai, petugas, dan setiap Orang yang memiliki kewenangan untuk melaksanakan tindakan atau serangkaian tindakan penempatan dan Pelindungan Pekerja Migran Indonesia dilarang merangkap sebagai  komisaris atau pengurus perusahaan penempatan Pekerja Migran Indonesia dan/atau organisasi usaha  yang terkait dengan penempatan Pekerja Migran Indonesia,"
+                    "text": "Pejabat, pegawai, petugas, dan setiap ${Orang} yang memiliki kewenangan untuk melaksanakan tindakan atau serangkaian tindakan penempatan dan ${Pelindungan Pekerja Migran Indonesia} dilarang merangkap sebagai  komisaris atau pengurus ${perusahaan penempatan Pekerja Migran Indonesia} dan/atau organisasi usaha  yang terkait dengan penempatan Pekerja Migran Indonesia,"
                   }
                 ]
               }
@@ -7029,7 +7060,7 @@
                           },
                           {
                             "type": "PLAINTEXT",
-                            "text": "Ketentuan lebih lanjut mengenai tata cara pengenaan sanksi administratif sebagaimana dimaksud pada ayat (1) diatur dengan Peraturan Menteri."
+                            "text": "Ketentuan lebih lanjut mengenai tata cara pengenaan sanksi administratif sebagaimana dimaksud pada ayat (1) diatur dengan Peraturan ${Menteri}."
                           }
                         ]
                       }
@@ -7087,7 +7118,7 @@
                           },
                           {
                             "type": "PLAINTEXT",
-                            "text": "Pemerintah Pusat dan Pemerintah Daerah melakukan pembinaan terhadap lembaga yang terkait dengan penempatan dan Pelindungan Pekerja Migran Indonesia."
+                            "text": "${Pemerintah Pusat} dan ${Pemerintah Daerah} melakukan pembinaan terhadap lembaga yang terkait dengan penempatan dan ${Pelindungan Pekerja Migran Indonesia}."
                           }
                         ]
                       },
@@ -7159,7 +7190,7 @@
                           },
                           {
                             "type": "PLAINTEXT",
-                            "text": "Pemerintah Pusat dan Pemerintah Daerah melakukan pengawasan terhadap pelaksanaan penempatan dan Pelindungan Pekerja Migran Indonesia."
+                            "text": "${Pemerintah Pusat} dan ${Pemerintah Daerah} melakukan pengawasan terhadap pelaksanaan penempatan dan ${Pelindungan Pekerja Migran Indonesia}."
                           }
                         ]
                       },
@@ -7173,7 +7204,7 @@
                           },
                           {
                             "type": "PLAINTEXT",
-                            "text": "Pemerintah Pusat dan Pemerintah Daerah dalam melaksanakan pengawasan sebagaimana dimaksud pada ayat (1) dapat mengikutsertakan masyarakat."
+                            "text": "${Pemerintah Pusat} dan ${Pemerintah Daerah} dalam melaksanakan pengawasan sebagaimana dimaksud pada ayat (1) dapat mengikutsertakan masyarakat."
                           }
                         ]
                       },
@@ -7187,7 +7218,7 @@
                           },
                           {
                             "type": "PLAINTEXT",
-                            "text": "Ketentuan lebih lanjut mengenai pengawasan terhadap pelaksanaan penempatan dan Pelindungan Pekerja Migran Indonesia diatur dengan Peraturan Pemerintah."
+                            "text": "Ketentuan lebih lanjut mengenai pengawasan terhadap pelaksanaan penempatan dan ${Pelindungan Pekerja Migran Indonesia} diatur dengan Peraturan Pemerintah."
                           }
                         ]
                       }
@@ -7233,7 +7264,7 @@
                       },
                       {
                         "type": "PLAINTEXT",
-                        "text": "Dalam hal terjadi perselisihan antara Pekerja Migran Indonesia dengan pelaksana penempatan mengenai pelaksanaan Perjanjian Penempatan, penyelesaian dilakukan secara musyawarah."
+                        "text": "Dalam hal terjadi perselisihan antara ${Pekerja Migran Indonesia} dengan pelaksana penempatan mengenai pelaksanaan ${Perjanjian Penempatan}, penyelesaian dilakukan secara musyawarah."
                       }
                     ]
                   },
@@ -7247,7 +7278,7 @@
                       },
                       {
                         "type": "PLAINTEXT",
-                        "text": "Dalam hal musyawarah sebagaimana dimaksud pada ayat (1) tidak tercapai, salah satu atau kedua belah pihak dapat meminta bantuan penyelesaian perselisihan tersebut kepada instansi yang bertanggung jawab di bidang ketenagakerjaan di Pemerintah Daerah kabupaten/kota, Pemerintah Daerah provinsi, atau Pemerintah Pusat."
+                        "text": "Dalam hal musyawarah sebagaimana dimaksud pada ayat (1) tidak tercapai, salah satu atau kedua belah pihak dapat meminta bantuan penyelesaian perselisihan tersebut kepada instansi yang bertanggung jawab di bidang ketenagakerjaan di ${Pemerintah Daerah} kabupaten/kota, ${Pemerintah Daerah} provinsi, atau ${Pemerintah Pusat}."
                       }
                     ]
                   },
@@ -7305,7 +7336,7 @@
                       },
                       {
                         "type": "PLAINTEXT",
-                        "text": "Selain penyidik pejabat Polisi Negara Republik Indonesia, kepada pejabat pegawai negeri sipil tertentu di instansi Pemerintah Pusat dan Pemerintah Daerah yang bertanggung jawab di bidang ketenagakerjaan diberi wewenang khusus sebagai penyidik sebagaimana dimaksud dalam Undang Undang Hukum Acara Pidana, untuk melakukan penyidikan tindak pidana sebagaimana diatur dalam Undang-Undang ini."
+                        "text": "Selain penyidik pejabat Polisi Negara Republik Indonesia, kepada pejabat pegawai negeri sipil tertentu di instansi ${Pemerintah Pusat} dan ${Pemerintah Daerah} yang bertanggung jawab di bidang ketenagakerjaan diberi wewenang khusus sebagai penyidik sebagaimana dimaksud dalam Undang Undang Hukum Acara Pidana, untuk melakukan penyidikan tindak pidana sebagaimana diatur dalam Undang-Undang ini."
                       }
                     ]
                   },
@@ -7349,7 +7380,7 @@
                               },
                               {
                                 "type": "PLAINTEXT",
-                                "text": "melakukan pemeriksaan terhadap orang yang diduga melakukan tindak pidana di bidang ketenagakerjaan;"
+                                "text": "melakukan pemeriksaan terhadap ${orang} yang diduga melakukan tindak pidana di bidang ketenagakerjaan;"
                               }
                             ]
                           },
@@ -7363,7 +7394,7 @@
                               },
                               {
                                 "type": "PLAINTEXT",
-                                "text": "meminta keterangan dan bukti dari orang atau badan hukum sehubungan dengan tindak pidana di bidang ketenagakerjaan;"
+                                "text": "meminta keterangan dan bukti dari ${orang} atau ${badan} hukum sehubungan dengan tindak pidana di bidang ketenagakerjaan;"
                               }
                             ]
                           },
@@ -7483,7 +7514,7 @@
               },
               {
                 "type": "PLAINTEXT",
-                "text": "Setiap Orang yang dengan sengaja memberikan data dan informasi tidak benar dalam pengisian setiap  dokumen sebagaimana dimaksud dalam Pasal 65 dipidana dengan pidana penjara paling lama 2 (dua)  tahun dan/atau denda paling banyak Rp200.000.000,00 (dua ratus juta rupiah)."
+                "text": "Setiap ${Orang} yang dengan sengaja memberikan data dan informasi tidak benar dalam pengisian setiap  dokumen sebagaimana dimaksud dalam Pasal 65 dipidana dengan pidana penjara paling lama 2 (dua)  tahun dan/atau denda paling banyak Rp200.000.000,00 (dua ratus juta rupiah)."
               }
             ]
           },
@@ -7497,7 +7528,7 @@
               },
               {
                 "type": "PLAINTEXT",
-                "text": "Setiap Orang yang menempatkan Pekerja Migran Indonesia, padahal diketahui atau patut menduganya  bahwa yang bersangkutan tidak memenuhi persyaratan umur sebagaimana dimaksud dalam Pasal 66  dipidana dengan pidana penjara paling lama 3 (tiga) tahun dan denda paling banyak Rp500.000.000,00  (lima ratus juta rupiah)."
+                "text": "Setiap ${Orang} yang menempatkan ${Pekerja Migran Indonesia}, padahal diketahui atau patut menduganya  bahwa yang bersangkutan tidak memenuhi persyaratan umur sebagaimana dimaksud dalam Pasal 66  dipidana dengan pidana penjara paling lama 3 (tiga) tahun dan denda paling banyak Rp500.000.000,00  (lima ratus juta rupiah)."
               }
             ]
           },
@@ -7511,7 +7542,7 @@
               },
               {
                 "type": "PLAINTEXT",
-                "text": "Orang perseorangan yang melaksanakan penempatan Pekerja Migran Indonesia sebagaimana dimaksud  dalam Pasal 69 dipidana dengan pidana penjara paling lama 10 (sepuluh) tahun dan denda paling banyak  Rp15.000.000.000,00 (lima belas miliar rupiah)."
+                "text": "${Orang} perseorangan yang melaksanakan penempatan ${Pekerja Migran Indonesia} sebagaimana dimaksud  dalam Pasal 69 dipidana dengan pidana penjara paling lama 10 (sepuluh) tahun dan denda paling banyak  Rp15.000.000.000,00 (lima belas miliar rupiah)."
               }
             ]
           },
@@ -7525,7 +7556,7 @@
               },
               {
                 "type": "PLAINTEXT",
-                "text": "Dipidana dengan pidana penjara paling lama 10 (sepuluh) tahun dan denda paling banyak  Rp15.000.000.000,00 (lima belas miliar rupiah), setiap Orang yang dengan sengaja menempatkan Calon  Pekerja Migran Indonesia pada:"
+                "text": "Dipidana dengan pidana penjara paling lama 10 (sepuluh) tahun dan denda paling banyak  Rp15.000.000.000,00 (lima belas miliar rupiah), setiap ${Orang} yang dengan sengaja menempatkan Calon  ${Pekerja Migran Indonesia} pada:"
               },
               {
                 "type": "LIST",
@@ -7541,7 +7572,7 @@
                       },
                       {
                         "type": "PLAINTEXT",
-                        "text": "jabatan dan jenis pekerjaan yang tidak sesuai dengan perjanjian kerja sehingga merugikan Calon Pekerja Migran Indonesia tersebut sebagaimana dimaksud dalam Pasal 67 huruf a; atau"
+                        "text": "jabatan dan jenis pekerjaan yang tidak sesuai dengan ${perjanjian kerja} sehingga merugikan ${Calon Pekerja Migran Indonesia} tersebut sebagaimana dimaksud dalam Pasal 67 huruf a; atau"
                       }
                     ]
                   },
@@ -7573,7 +7604,7 @@
               },
               {
                 "type": "PLAINTEXT",
-                "text": "Setiap Orang yang tidak memenuhi persyaratan sebagaimana dimaksud dalam Pasal 68 yang dengan  sengaja melaksanakan penempatan Pekerja Migran Indonesia dipidana dengan pidana penjara paling lama  10 (sepuluh) tahun atau denda paling banyak Rp15.000.000.000,00 (lima belas miliar rupiah)."
+                "text": "Setiap ${Orang} yang tidak memenuhi persyaratan sebagaimana dimaksud dalam Pasal 68 yang dengan  sengaja melaksanakan penempatan ${Pekerja Migran Indonesia} dipidana dengan pidana penjara paling lama  10 (sepuluh) tahun atau denda paling banyak Rp15.000.000.000,00 (lima belas miliar rupiah)."
               }
             ]
           },
@@ -7599,7 +7630,7 @@
                       },
                       {
                         "type": "PLAINTEXT",
-                        "text": "Setiap pejabat yang dengan sengaja memberangkatkan Pekerja Migran Indonesia yang tidak memenuhi persyaratan kelengkapan dokumen sebagaimana dimaksud dalam Pasal 70 ayat (1) dipidana dengan pidana penjara paling lama 5 (lima) tahun dan denda paling banyak Rp1.000.000.000,00 (satu miliar rupiah)."
+                        "text": "Setiap pejabat yang dengan sengaja memberangkatkan ${Pekerja Migran Indonesia} yang tidak memenuhi persyaratan kelengkapan dokumen sebagaimana dimaksud dalam Pasal 70 ayat (1) dipidana dengan pidana penjara paling lama 5 (lima) tahun dan denda paling banyak Rp1.000.000.000,00 (satu miliar rupiah)."
                       }
                     ]
                   },
@@ -7613,7 +7644,7 @@
                       },
                       {
                         "type": "PLAINTEXT",
-                        "text": "Setiap pejabat yang dengan sengaja menahan pemberangkatan Pekerja Migran Indonesia yang telah memenuhi persyaratan kelengkapan dokumen sebagaimana dimaksud dalam Pasal 70 ayat (2) dipidana dengan pidana penjara paling lama 5 (lima) tahun dan denda paling banyak Rp1.000.000.000,00 (satu miliar rupiah)."
+                        "text": "Setiap pejabat yang dengan sengaja menahan pemberangkatan ${Pekerja Migran Indonesia} yang telah memenuhi persyaratan kelengkapan dokumen sebagaimana dimaksud dalam Pasal 70 ayat (2) dipidana dengan pidana penjara paling lama 5 (lima) tahun dan denda paling banyak Rp1.000.000.000,00 (satu miliar rupiah)."
                       }
                     ]
                   }
@@ -7631,7 +7662,7 @@
               },
               {
                 "type": "PLAINTEXT",
-                "text": "Dipidana dengan pidana penjara paling lama 5 (lima) tahun dan denda paling banyak Rp5.000.000.000,00  (lima miliar rupiah), setiap orang yang:"
+                "text": "Dipidana dengan pidana penjara paling lama 5 (lima) tahun dan denda paling banyak Rp5.000.000.000,00  (lima miliar rupiah), setiap ${orang} yang:"
               },
               {
                 "type": "LIST",
@@ -7647,7 +7678,7 @@
                       },
                       {
                         "type": "PLAINTEXT",
-                        "text": "menempatkan Pekerja Migran Indonesia pada pekerjaan yang tidak sesuai dengan Perjanjian Kerja yang telah disepakati dan ditandatangani Pekerja Migran Indonesia sebagaimana dimaksud dalam Pasal 71 huruf a;"
+                        "text": "menempatkan ${Pekerja Migran Indonesia} pada pekerjaan yang tidak sesuai dengan ${Perjanjian Kerja} yang telah disepakati dan ditandatangani ${Pekerja Migran Indonesia} sebagaimana dimaksud dalam Pasal 71 huruf a;"
                       }
                     ]
                   },
@@ -7661,7 +7692,7 @@
                       },
                       {
                         "type": "PLAINTEXT",
-                        "text": "menempatkan Pekerja Migran Indonesia pada jabatan yang tidak sesuai dengan keahlian, keterampilan, bakat, minat, dan kemampuan sebagaimana dimaksud dalam Pasal 71 huruf b;"
+                        "text": "menempatkan ${Pekerja Migran Indonesia} pada jabatan yang tidak sesuai dengan keahlian, keterampilan, bakat, minat, dan kemampuan sebagaimana dimaksud dalam Pasal 71 huruf b;"
                       }
                     ]
                   },
@@ -7675,7 +7706,7 @@
                       },
                       {
                         "type": "PLAINTEXT",
-                        "text": "mengalihkan atau memindahtangankan SIP3MI kepada pihak lain sebagaimana dimaksud dalam Pasal 71 huruf c; atau"
+                        "text": "mengalihkan atau memindahtangankan ${SIP3MI} kepada pihak lain sebagaimana dimaksud dalam Pasal 71 huruf c; atau"
                       }
                     ]
                   },
@@ -7689,7 +7720,7 @@
                       },
                       {
                         "type": "PLAINTEXT",
-                        "text": "mengalihkan atau memindahtangankan SIP2MI kepada pihak lain sebagaimana dimaksud dalam Pasal 71 huruf d."
+                        "text": "mengalihkan atau memindahtangankan ${SIP2MI} kepada pihak lain sebagaimana dimaksud dalam Pasal 71 huruf d."
                       }
                     ]
                   }
@@ -7707,7 +7738,7 @@
               },
               {
                 "type": "PLAINTEXT",
-                "text": "Dipidana dengan pidana penjara paling lama 5 (lima) tahun dan denda paling banyak Rp15.000.000.000,00  (lima belas miliar rupiah), setiap Orang yang:"
+                "text": "Dipidana dengan pidana penjara paling lama 5 (lima) tahun dan denda paling banyak Rp15.000.000.000,00  (lima belas miliar rupiah), setiap ${Orang} yang:"
               },
               {
                 "type": "LIST",
@@ -7723,7 +7754,7 @@
                       },
                       {
                         "type": "PLAINTEXT",
-                        "text": "membebankan komponen biaya penempatan yang telah ditanggung calon Pemberi Kerja kepada Calon Pekerja Migran Indonesia sebagaimana dimaksud dalam Pasal 72 huruf a;"
+                        "text": "membebankan komponen biaya penempatan yang telah ditanggung calon ${Pemberi Kerja} kepada ${Calon Pekerja Migran Indonesia} sebagaimana dimaksud dalam Pasal 72 huruf a;"
                       }
                     ]
                   },
@@ -7737,7 +7768,7 @@
                       },
                       {
                         "type": "PLAINTEXT",
-                        "text": "menempatkan Calon Pekerja Migran Indonesia ke negara tertentu yang dinyatakan tertutup sebagaimana dimaksud dalam Pasal 72 huruf b;"
+                        "text": "menempatkan ${Calon Pekerja Migran Indonesia} ke negara tertentu yang dinyatakan tertutup sebagaimana dimaksud dalam Pasal 72 huruf b;"
                       }
                     ]
                   },
@@ -7751,7 +7782,7 @@
                       },
                       {
                         "type": "PLAINTEXT",
-                        "text": "menempatkan Pekerja Migran Indonesia tanpa SIP2MI sebagaimana dimaksud dalam Pasal 72 huruf c; atau"
+                        "text": "menempatkan ${Pekerja Migran Indonesia} tanpa ${SIP2MI} sebagaimana dimaksud dalam Pasal 72 huruf c; atau"
                       }
                     ]
                   },
@@ -7765,7 +7796,7 @@
                       },
                       {
                         "type": "PLAINTEXT",
-                        "text": "menempatkan Pekerja Migran Indonesia pada negara tujuan penempatan sebagaimana dimaksud dalam Pasal 72 huruf d."
+                        "text": "menempatkan ${Pekerja Migran Indonesia} pada negara tujuan penempatan sebagaimana dimaksud dalam Pasal 72 huruf d."
                       }
                     ]
                   }
@@ -7855,7 +7886,7 @@
               },
               {
                 "type": "PLAINTEXT",
-                "text": "Badan Nasional Penempatan dan Perlindungan Tenaga Kerja Indonesia tetap melaksanakan fungsi dan  tugasnya sampai dibentuknya Badan berdasarkan Undang-Undang ini."
+                "text": "${Badan} Nasional Penempatan dan Perlindungan Tenaga Kerja Indonesia tetap melaksanakan fungsi dan  tugasnya sampai dibentuknya ${Badan} berdasarkan Undang-Undang ini."
               }
             ]
           }
@@ -7949,7 +7980,7 @@
               },
               {
                 "type": "PLAINTEXT",
-                "text": "Agar setiap orang mengetahuinya, memerintahkan pengundangan Undang-Undang ini dengan  penempatannya dalam Lembaran Negara Republik Indonesia."
+                "text": "Agar setiap ${orang} mengetahuinya, memerintahkan pengundangan Undang-Undang ini dengan  penempatannya dalam Lembaran Negara Republik Indonesia."
               }
             ]
           }

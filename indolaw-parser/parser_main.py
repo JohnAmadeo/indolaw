@@ -2346,7 +2346,7 @@ def print_tree() -> None:
     if ROOT is None:
         print('ROOT=None')
     else:
-        print(json.dumps(convert_tree_to_json(ROOT), indent=2))
+        print(json.dumps(convert_tree_to_json(ROOT, []), indent=2))
 
 
 def crash(law: List[str], i: int, error_message: str) -> None:
@@ -2355,7 +2355,7 @@ def crash(law: List[str], i: int, error_message: str) -> None:
     if ROOT is not None:
         with open('./crash.json', 'w') as outfile:
             json.dump(
-                convert_tree_to_json(ROOT),
+                convert_tree_to_json(ROOT, []),
                 outfile,
                 indent=2
             )
@@ -2379,11 +2379,21 @@ if __name__ == "__main__":
     parse_undang_undang(ROOT, law)
 
     assert ROOT is not None
+
+    metadata = extract_metadata_from_tree(ROOT)
+
+    ketentuan_umum_list = []
+
+    if 'ketentuan_umum' in metadata:
+        ketentuan_umum_list = sorted(metadata['ketentuan_umum'].keys(), key=lambda x: len(x), reverse=True)
+
+    content = convert_tree_to_json(ROOT, ketentuan_umum_list)
+
     with open(filename + '.json', 'w') as outfile:
         json.dump(
             {
-                'metadata': extract_metadata_from_tree(ROOT),
-                'content': convert_tree_to_json(ROOT),
+                'metadata': metadata,
+                'content': content
             },
             outfile,
             indent=2

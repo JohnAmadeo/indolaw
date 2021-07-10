@@ -2,12 +2,16 @@ import { CSSProperties } from "react";
 import { Primitive, Structure } from "utils/grammar";
 import Link from "next/link";
 import { useAppContext } from "utils/context-provider";
+import { emptyTooltip } from "../utils/tooltip";
 
 export default function PrimitiveStructure(props: {
   structure: Primitive;
   customStyle?: CSSProperties;
 }): JSX.Element {
-  const { structure: { text, type }, customStyle } = props;
+  const {
+    structure: { text, type },
+    customStyle,
+  } = props;
 
   return (
     <div style={{ ...customStyle }}>
@@ -20,8 +24,8 @@ export default function PrimitiveStructure(props: {
           line-height: 1.5;
         }
       `}</style>
-      <p>{text}</p>
-      {/* <p>{type === Structure.PLAINTEXT ? maybeLinkToOtherLaws(text) : text}</p> */}
+      {/* <p>{text}</p> */}
+      <p>{type === Structure.PLAINTEXT ? sanitizeKetentuanUmum(text) : text}</p>
     </div>
   );
 }
@@ -38,7 +42,7 @@ function maybeLinkToOtherLaws(text: string): string | Array<JSX.Element> {
     return text;
   }
 
-  const { colorScheme } = useAppContext()
+  const { colorScheme } = useAppContext();
 
   let linkedSpans = [];
   for (let i = 0; i < spans.length; i++) {
@@ -59,10 +63,66 @@ function maybeLinkToOtherLaws(text: string): string | Array<JSX.Element> {
             key={i}
             target="_blank"
             rel="noopener noreferrer"
-            href={'https://search.hukumonline.com/search/all/?q=undang+undang+13+2003&language=%5B%22id%22%5D'}
+            href={
+              "https://search.hukumonline.com/search/all/?q=undang+undang+13+2003&language=%5B%22id%22%5D"
+            }
           >
             {spans[i]}
           </a>
+        </span>
+      );
+    } else {
+      linkedSpans.push(<span key={i}>{spans[i]}</span>);
+    }
+  }
+
+  return linkedSpans;
+}
+
+function sanitizeKetentuanUmum(text: string): string | Array<JSX.Element> {
+  // Sanitize law from ketentuan umum identifier
+
+  const regex = /(\${[^}]*})/;
+  const spans = text.split(regex);
+
+  if (spans.length === 1) {
+    return text;
+  }
+
+  const { colorScheme, setTooltip } = useAppContext();
+
+  let linkedSpans = [];
+  for (let i = 0; i < spans.length; i++) {
+    const isLinkable = spans[i].match(regex) != null;
+    if (isLinkable) {
+      const word = spans[i].substring(2, spans[i].length - 1);
+      linkedSpans.push(
+        <span
+          key={i}
+          className="link"
+          onPointerOver={(e) => {
+            setTooltip({
+              contentKey: word,
+              xPosition: e.currentTarget.offsetLeft,
+              yPosition:
+                e.currentTarget.offsetTop + e.currentTarget.offsetHeight,
+            });
+          }}
+          onPointerLeave={() => {
+            setTooltip(emptyTooltip);
+          }}
+        >
+          <style jsx>{`
+            .link {
+              color: ${colorScheme.linkText};
+              border-bottom: 1px dashed;
+            }
+
+            .link:hover {
+              border-bottom: 0px;
+            }
+          `}</style>
+          {word}
         </span>
       );
     } else {

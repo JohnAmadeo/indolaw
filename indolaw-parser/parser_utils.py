@@ -953,8 +953,34 @@ Below are lines {i} and the lines right before & after
     ''')
 
 
-def convert_tree_to_json(node: Union[ComplexNode, PrimitiveNode]) -> Dict[str, Any]:
+def convert_tree_to_json(node: Union[ComplexNode, PrimitiveNode], ketentuan_umum_list: List[str]) -> Dict[str, Any]:
     if isinstance(node, PrimitiveNode):
+        if get_parent_node(node, Structure.BAB) is not None and node.type == Structure.PLAINTEXT:
+            for title in ketentuan_umum_list:
+                index = node.text.upper().find(title)
+
+                pasal_node = get_parent_node(node, Structure.PASAL)
+                is_definition = get_id(pasal_node) == 'pasal-1'
+
+                if is_word_part_of_text(node.text, title, index) and not is_definition:
+                    text = node.text[index:index+len(title)]
+                    '''
+                    Determine if the word is actually a part of a bigger definition, 
+                        and if such case happens, opt for the longer word
+
+                    Ex: 
+                    assume "Lorem ipsum" and "ipsum" exist in the dictionary
+
+                    "Lorem ipsum dolor sit amet" -> "${Lorem ipsum} dolor sit amet"
+                    "Ipsum dolor sit amet" -> "${Ipsum} dolor sit amet"
+                    "Lorem ipsum ipsum lorem" -> "${Lorem ipsum} ${ipsum} lorem"
+                    '''
+                    match = re.findall(r'\$\{[^\}]*' + text + '[^\$]*\}', node.text)
+                    is_part_of_other_definition = len(match) > 0
+
+                    if not is_part_of_other_definition:
+                        node.text = node.text.replace(text, f'${{{text}}}')
+
         return {
             'type': node.type.value,
             'text': node.text,
@@ -963,9 +989,36 @@ def convert_tree_to_json(node: Union[ComplexNode, PrimitiveNode]) -> Dict[str, A
         return {
             'type': node.type.value,
             'id': get_id(node),
-            'children': [convert_tree_to_json(child) for child in node.children],
+            'children': [convert_tree_to_json(child, ketentuan_umum_list) for child in node.children],
         }
 
+def get_parent_node(node: Union[ComplexNode, PrimitiveNode], structure: Structure):
+    if node.parent:
+        if node.parent.type == structure:
+            return node.parent
+        
+        return get_parent_node(node.parent, structure)
+
+    return None
+
+def is_word_part_of_text(string: str, substring: str, start_index) -> bool:
+    '''
+    Determine if a given substring is an independent word that's part of a text.
+    Independent word means that the word is not a substring of another word
+
+    This function checks whether the substring is surrounded by non-alphabet
+
+    e.g.
+    ("anak anak", "anak") -> true
+    ("melaksanakan", "anak") -> false
+    ("kami harus melaksanakan", "anak") -> false
+    '''
+    if start_index >= 0:
+        end_index = start_index + len(substring)
+        return ((start_index == 0 or not string[start_index-1].isalpha()) 
+            and (end_index == len(string) or not string[end_index].isalpha()))
+    
+    return False
 
 def extract_metadata_from_tree(undang_undang_node: ComplexNode) -> Dict[str, Any]:
     '''
@@ -1032,6 +1085,57 @@ def extract_metadata_from_tree(undang_undang_node: ComplexNode) -> Dict[str, Any
                 metadata['lembaranNegaraNumber'] = int(match.group(2))
 
     g(undang_undang_node)
+
+    ketentuan_umum: Dict[str, Any] = {}
+
+    def parse_ketentuan_umum(node: Union[ComplexNode, PrimitiveNode]):
+        if not node.children:
+            return
+
+        if len(node.children) <= 2:
+            for child in node.children:
+                if isinstance(child, PrimitiveNode) and child.type == Structure.PLAINTEXT:
+                    definition_text = child.text.split(r'adalah')
+
+                    title = definition_text[0].strip()
+                    definition = definition_text[1].strip()
+
+                    if 'yang selanjutnya disebut' in title:
+                        title = title.split(r' yang selanjutnya disebut ')[1].strip([' ', ','])
+
+                    ketentuan_umum[title.upper()] = definition
+        else:
+            title = None
+            definition_list = []
+
+            for child in node.children:
+                if child.type == Structure.PLAINTEXT:
+                    title = child.text.split(r'adalah')[0].strip()
+
+                    if 'yang selanjutnya disebut' in title:
+                        title = title.split(r' yang selanjutnya disebut ')[1].strip([' ', ','])
+
+                elif child.type == Structure.LIST:
+                    for list_item in child.children:
+                        definition = " ".join([node.text for node in list_item.children])
+                        definition_list.append(definition)
+                
+            ketentuan_umum[title.upper()] = "\n".join(definition_list)
+        
+        metadata['ketentuan_umum'] = ketentuan_umum
+        
+                                            
+    def h(node: Union[ComplexNode, PrimitiveNode]):
+        if isinstance(node, ComplexNode):
+            if node.parent and get_id(node.parent) == 'pasal-1':
+                for child in node.children:
+                    parse_ketentuan_umum(child)
+            else:
+                for child in node.children:
+                    h(child)
+    
+    # TODO @willemchua: uncomment this after ketentuam umum parsing works on most edge cases
+    # h(undang_undang_node)
 
     return metadata
 

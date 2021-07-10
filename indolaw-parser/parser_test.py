@@ -14,7 +14,8 @@ from parser_utils import (
     is_next_list_index_number,
     clean_law,
     roman_to_int,
-    clean_maybe_list_item
+    clean_maybe_list_item,
+    is_word_part_of_text
 )
 from parser_is_start_of_x import (
     is_heading,
@@ -1041,7 +1042,6 @@ def test_insert_penjelasan_perubahan_section_close_quotes(monkeypatch):
     monkeypatch.setattr('builtins.input', lambda: "y")
     assert insert_penjelasan_perubahan_section_close_quotes(law) == new_law
 
-
 def test_clean_split_pasal_number():
     law = [
         'Pasal 39 B',
@@ -1058,3 +1058,9 @@ def test_clean_split_pasal_number():
         'Pasal 54',
     ]
     assert clean_split_pasal_number(law) == clean_law
+    
+def test_is_word_part_of_text():
+    assert is_word_part_of_text("anak anak", "anak") == True
+    assert is_word_part_of_text("melaksanakan", "anak") == False
+    assert is_word_part_of_text("kami harus melaksanakan", "anak") == False
+    assert is_word_part_of_text("anak-anak", "anak") == False

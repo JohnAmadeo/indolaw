@@ -82,6 +82,7 @@ export interface Metadata {
   topic: string;
   year: number;
   status: Array<string>;
+  ketentuan_umum: Record<string, string>;
 }
 
 export interface Primitive {
@@ -254,7 +255,7 @@ export function renderPenjelasan(
 
 export function renderChildren(
   structure: Complex,
-  key?: string | number,
+  key?: string | number
 ): JSX.Element {
   return (
     <div key={key}>
