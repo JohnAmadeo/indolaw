@@ -125,13 +125,23 @@ def scrape_law_details_page_status(section) -> dict:
 
             number = ''
             year = ''
+            type = ''
+            found_number = False
+            found_year = False
             law_tokens = change.text.split()
 
             for i, substr in enumerate(law_tokens):
-                if substr == 'No.':
+                if i == 0:
+                    if substr == 'UU':
+                        type = 'undang_undang'
+                    elif substr == 'PERPU':
+                        type = 'peraturan_pemerintah'
+                elif substr == 'No.' and not found_number:
                     number = law_tokens[i+1]
-                elif substr == 'Tahun':
+                    found_number = True
+                elif substr == 'Tahun' and not found_year:
                     year = law_tokens[i+1]
+                    found_year = True
 
             status_data[status_heading].append({
                 'year': year,
@@ -139,6 +149,7 @@ def scrape_law_details_page_status(section) -> dict:
                 'law': law,
                 'link': link,
                 'context': context,
+                'type': type,
             })
 
     return status_data
