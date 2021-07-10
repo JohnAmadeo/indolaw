@@ -3,6 +3,7 @@ import { GetStaticProps } from "next";
 import { LawData } from "utils/grammar";
 import LawPage from "components/LawPage";
 import { LAW_NICKNAMES } from "utils/law-nicknames";
+import { getDirectoryMetadata } from "utils/route-utils";
 
 export default function Nickname(props: {
   data: {
@@ -39,11 +40,7 @@ export const getStaticProps: GetStaticProps = async ({ params }) => {
   const [_, year, number] = id.split('-');
 
   const law = JSON.parse(fs.readFileSync(`./laws/${id}.json`, 'utf8'));
-
-  // TODO(johnamadeo): This is obviously ugly. Find a better way to combine metadata from law JSON to directory JSON
-  const directory = JSON.parse(fs.readFileSync(`../indolaw-parser/metadata/directory.json`, 'utf8'));
-  // @ts-ignore
-  var metadata = directory[year].find(entry => entry['number'] === parseInt(number));
+  const metadata = getDirectoryMetadata(year, number);
 
   law['metadata'] = {
     ...law['metadata'],
