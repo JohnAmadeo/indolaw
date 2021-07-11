@@ -1,0 +1,1440 @@
+{
+  "metadata": {
+    "lembaranNegaraNumber": 258,
+    "lembaranNegaraYear": 2014,
+    "tambahanLembaranNumber": 5592,
+    "number": 26,
+    "topic": "Pengesahan Asean Agreement On Transboundary Haze Pollution (persetujuan Asean Tentang Pencemaran Asap Lintas Batas)",
+    "year": 2014
+  },
+  "content": {
+    "type": "UNDANG_UNDANG",
+    "id": "",
+    "children": [
+      {
+        "type": "OPENING",
+        "id": "",
+        "children": [
+          {
+            "type": "UU_TITLE",
+            "id": "",
+            "children": [
+              {
+                "type": "PLAINTEXT",
+                "text": "UNDANG-UNDANG REPUBLIK INDONESIA"
+              },
+              {
+                "type": "UU_TITLE_YEAR_AND_NUMBER",
+                "text": "NOMOR 26 TAHUN 2014"
+              },
+              {
+                "type": "PLAINTEXT",
+                "text": "TENTANG"
+              },
+              {
+                "type": "UU_TITLE_TOPIC",
+                "text": "PENGESAHAN ASEAN AGREEMENT ON TRANSBOUNDARY HAZE POLLUTION (PERSETUJUAN ASEAN TENTANG PENCEMARAN ASAP LINTAS BATAS)"
+              }
+            ]
+          },
+          {
+            "type": "PREFACE",
+            "id": "",
+            "children": [
+              {
+                "type": "PLAINTEXT",
+                "text": "DENGAN RAHMAT TUHAN YANG MAHA ESA"
+              },
+              {
+                "type": "PLAINTEXT",
+                "text": "PRESIDEN REPUBLIK INDONESIA,"
+              }
+            ]
+          },
+          {
+            "type": "CONSIDERATIONS",
+            "id": "",
+            "children": [
+              {
+                "type": "PLAINTEXT",
+                "text": "Menimbang:"
+              },
+              {
+                "type": "LIST",
+                "id": "",
+                "children": [
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "LETTER_WITH_DOT",
+                        "text": "a."
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "bahwa Negara Republik Indonesia sebagai bagian dari anggota negara-negara ASEAN memegang teguh dan konsisten terhadap komitmen solidaritas untuk bekerja sama di bidang pengendalian kebakaran lahan dan/atau hutan serta penyebaran asap lintas batas negara dengan memperhatikan prinsip-prinsip perjanjian internasional yang telah disepakati dan kepentingan nasional sesuai dengan Pancasila dan Undang-Undang Dasar Negara Republik Indonesia Tahun 1945;"
+                      }
+                    ]
+                  },
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "LETTER_WITH_DOT",
+                        "text": "b."
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "bahwa asap yang berasal dari kebakaran lahan dan/atau hutan dapat menyebar sampai lintas batas negara dan berkecenderungan kuat mengakibatkan pencemaran lingkungan, merusak ekosistem, serta merugikan kesehatan manusia, maka diperlukan kerja sama antarnegara Asia Tenggara dalam mengendalikan penyebaran asap lintas batas negara;"
+                      }
+                    ]
+                  },
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "LETTER_WITH_DOT",
+                        "text": "c."
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "bahwa Pemerintah Republik Indonesia telah menandatangani ASEAN Agreement on Transboundary Haze Pollution (Persetujuan ASEAN tentang Pencemaran Asap Lintas Batas) pada tanggal 10 Juni 2002 di Kuala Lumpur, Malaysia;"
+                      }
+                    ]
+                  },
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "LETTER_WITH_DOT",
+                        "text": "d."
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "bahwa berdasarkan pertimbangan sebagaimana dimaksud dalam huruf a, huruf b, dan huruf c, perlu mengesahkan ASEAN Agreement on Transboundary Haze Pollution (Persetujuan ASEAN tentang Pencemaran Asap Lintas Batas) dengan Undang-Undang."
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "PRINCIPLES",
+            "id": "",
+            "children": [
+              {
+                "type": "PLAINTEXT",
+                "text": "Mengingat:"
+              },
+              {
+                "type": "LIST",
+                "id": "",
+                "children": [
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "NUMBER_WITH_DOT",
+                        "text": "1."
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "Pasal 5 ayat (1), Pasal 11, dan Pasal 20 Undang-Undang Dasar Negara Republik Indonesia Tahun 1945;"
+                      }
+                    ]
+                  },
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "NUMBER_WITH_DOT",
+                        "text": "2."
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "Undang-Undang Nomor 37 Tahun 1999 tentang Hubungan Luar Negeri (Lembaran Negara Republik Indonesia Tahun 1999 Nomor 156, Tambahan Lembaran Negara Republik Indonesia Nomor 3882);"
+                      }
+                    ]
+                  },
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "NUMBER_WITH_DOT",
+                        "text": "3."
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "Undang-Undang Nomor 24 Tahun 2000 tentang Perjanjian Internasional (Lembaran Negara Republik Indonesia Tahun 2000 Nomor 185, Tambahan Lembaran Negara Republik Indonesia Nomor 4012)."
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "AGREEMENT",
+            "id": "",
+            "children": [
+              {
+                "type": "PLAINTEXT",
+                "text": "Dengan Persetujuan Bersama"
+              },
+              {
+                "type": "PLAINTEXT",
+                "text": "DEWAN PERWAKILAN RAKYAT REPUBLIK INDONESIA"
+              },
+              {
+                "type": "PLAINTEXT",
+                "text": "dan"
+              },
+              {
+                "type": "PLAINTEXT",
+                "text": "PRESIDEN REPUBLIK INDONESIA"
+              },
+              {
+                "type": "PLAINTEXT",
+                "text": "MEMUTUSKAN:"
+              },
+              {
+                "type": "PLAINTEXT",
+                "text": "Menetapkan:"
+              },
+              {
+                "type": "PLAINTEXT",
+                "text": "UNDANG-UNDANG TENTANG PENGESAHAN ASEAN AGREEMENT ON TRANSBOUNDARY HAZE POLLUTION (PERSETUJUAN ASEAN TENTANG PENCEMARAN ASAP LINTAS BATAS)"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "PASAL",
+        "id": "pasal-1",
+        "children": [
+          {
+            "type": "PASAL_NUMBER",
+            "text": "Pasal 1"
+          },
+          {
+            "type": "LIST",
+            "id": "",
+            "children": [
+              {
+                "type": "LIST_ITEM",
+                "id": "",
+                "children": [
+                  {
+                    "type": "NUMBER_WITH_BRACKETS",
+                    "text": "(1)"
+                  },
+                  {
+                    "type": "PLAINTEXT",
+                    "text": "Mengesahkan ASEAN Agreement on Transboundary Haze Pollution (Persetujuan ASEAN tentang Pencemaran Asap Lintas Batas)."
+                  }
+                ]
+              },
+              {
+                "type": "LIST_ITEM",
+                "id": "",
+                "children": [
+                  {
+                    "type": "NUMBER_WITH_BRACKETS",
+                    "text": "(2)"
+                  },
+                  {
+                    "type": "PLAINTEXT",
+                    "text": "Salinan naskah asli ASEAN Agreement on Transboundary Haze Pollution (Persetujuan ASEAN tentang Pencemaran Asap Lintas Batas) dalam bahasa Inggris dan terjemahannya dalam bahasa Indonesia sebagaimana terlampir dan merupakan bagian yang tidak terpisahkan dari Undang-Undang ini."
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "PASAL",
+        "id": "pasal-2",
+        "children": [
+          {
+            "type": "PASAL_NUMBER",
+            "text": "Pasal 2"
+          },
+          {
+            "type": "PLAINTEXT",
+            "text": "Undang-Undang ini mulai berlaku pada tanggal diundangkan."
+          },
+          {
+            "type": "PLAINTEXT",
+            "text": "Agar setiap orang mengetahuinya, memerintahkan pengundangan Undang-Undang ini dengan penempatannya dalam Lembaran Negara Republik Indonesia."
+          }
+        ]
+      },
+      {
+        "type": "CLOSING",
+        "id": "",
+        "children": [
+          {
+            "type": "PLAINTEXT",
+            "text": "Disahkan Di Jakarta,"
+          },
+          {
+            "type": "PLAINTEXT",
+            "text": "Pada Tanggal 14 Oktober 2014"
+          },
+          {
+            "type": "PLAINTEXT",
+            "text": "PRESIDEN REPUBLIK INDONESIA,"
+          },
+          {
+            "type": "PLAINTEXT",
+            "text": "Ttd."
+          },
+          {
+            "type": "PLAINTEXT",
+            "text": "DR. H. SUSILO BAMBANG YUDHOYONO"
+          },
+          {
+            "type": "PLAINTEXT",
+            "text": "Diundangkan Di Jakarta,"
+          },
+          {
+            "type": "PLAINTEXT",
+            "text": "Pada Tanggal 14 Oktober 2014"
+          },
+          {
+            "type": "PLAINTEXT",
+            "text": "MENTERI HUKUM DAN HAK ASASI MANUSIA REPUBLIK INDONESIA,"
+          },
+          {
+            "type": "PLAINTEXT",
+            "text": "Ttd."
+          },
+          {
+            "type": "PLAINTEXT",
+            "text": "AMIR SYAMSUDIN"
+          },
+          {
+            "type": "LEMBARAN_NUMBER",
+            "text": "LEMBARAN NEGARA REPUBLIK INDONESIA TAHUN 2014 NOMOR 258"
+          }
+        ]
+      },
+      {
+        "type": "PENJELASAN",
+        "id": "penjelasan",
+        "children": [
+          {
+            "type": "PENJELASAN_TITLE",
+            "id": "",
+            "children": [
+              {
+                "type": "PLAINTEXT",
+                "text": "PENJELASAN"
+              },
+              {
+                "type": "PLAINTEXT",
+                "text": "UNDANG-UNDANG REPUBLIK INDONESIA"
+              },
+              {
+                "type": "UU_TITLE_YEAR_AND_NUMBER",
+                "text": "NOMOR 26 TAHUN 2014"
+              },
+              {
+                "type": "PLAINTEXT",
+                "text": "TENTANG"
+              },
+              {
+                "type": "UU_TITLE_TOPIC",
+                "text": "PENGESAHAN ASEAN AGREEMENT ON TRANSBOUNDARY HAZE POLLUTION (PERSETUJUAN ASEAN TENTANG PENCEMARAN ASAP LINTAS BATAS)"
+              }
+            ]
+          },
+          {
+            "type": "PENJELASAN_UMUM",
+            "id": "",
+            "children": [
+              {
+                "type": "PENJELASAN_UMUM_TITLE",
+                "text": "I. UMUM"
+              },
+              {
+                "type": "PLAINTEXT",
+                "text": "Kebakaran lahan dan/atau hutan yang terjadi di wilayah Sumatera dan Kalimantan dapat mengakibatkan pencemaran asap lintas batas negara. Pencemaran asap tersebut dapat merugikan kesehatan manusia, mencemari lingkungan, dan merusak ekosistem."
+              },
+              {
+                "type": "PLAINTEXT",
+                "text": "Asap dapat menimbulkan gangguan kesehatan seperti infeksi saluran pernafasan akut (ISPA), asma, bronchitis, pneumonia (radang paru), serta iritasi mata dan kulit. Selain itu, asap dapat mengganggu proses pertumbuhan tanaman karena sinar matahari terhalang asap sehingga proses fotosintesa tidak dapat dilakukan sempurna oleh tumbuhan."
+              },
+              {
+                "type": "PLAINTEXT",
+                "text": "Kepekatan asap juga memperpendek jarak pandang yang mengganggu transportasi darat, laut, sungai, dan udara serta kegiatan kehidupan sehari-hari sehingga memberi dampak negatif di bidang sosial dan ekonomi."
+              },
+              {
+                "type": "PLAINTEXT",
+                "text": "Indonesia telah melakukan upaya pencegahan, penanggulangan, dan pemulihan dampak pencemaran asap akibat kebakaran lahan dan/atau hutan di tingkat nasional. Namun demikian, untuk penanganan pencemaran asap lintas batas, Indonesia beserta negara ASEAN lainnya menyadari bahwa pencegahan dan penanggulangannya perlu dilakukan secara bersama-sama. Kerja sama antarnegara ASEAN ini didasari atas pelaksanaan komitmen, semangat kemitraan serta solidaritas negara ASEAN dalam menghadapi berbagai kendala penanganan asap lintas batas."
+              },
+              {
+                "type": "PLAINTEXT",
+                "text": "Hal ini juga sesuai dengan prinsip hukum internasional yang menyatakan bahwa setiap negara mempunyai hak berdaulat untuk mengusahakan/memanfaatkan sumber daya alam sesuai kebijakan lingkungan dan pembangunan di wilayahnya masing-masing. Namun demikian, setiap negara juga wajib bertanggung jawab untuk menjamin setiap pengusahaan/pemanfaatan tersebut di dalam yurisdiksinya, tidak menyebabkan pencemaran dan kerusakan lingkungan, serta tidak membahayakan kesehatan dan keselamatan manusia di luar yurisdiksinya."
+              },
+              {
+                "type": "PLAINTEXT",
+                "text": "Masalah pencemaran asap di tingkat regional dibahas dalam pertemuan para Menteri Lingkungan Hidup ASEAN dan kemudian diwujudkan dalam kesepakatan Menteri Lingkungan Hidup ASEAN pada 19 Juni 1990. Kesepakatan Menteri Lingkungan Hidup ASEAN tersebut dijabarkan lebih jauh dalam Rencana Kerja Sama ASEAN tentang Pencemaran Asap Lintas Batas pada tahun 1995. Rencana kerja tersebut meliputi prosedur dan mekanisme untuk kerja sama pencegahan dan penanggulangan pencemaran asap lintas batas."
+              },
+              {
+                "type": "PLAINTEXT",
+                "text": "Kebakaran lahan dan/atau hutan pada tahun 1997 mengakibatkan pencemaran asap lintas batas di ASEAN. Kejadian pencemaran asap lintas batas tersebut dibahas di tingkat ASEAN dan menghasilkan Hanoi Plan of Action 1997 yang mencakupi upaya mengatasi masalah pencemaran asap lintas batas sebagai akibat kebakaran lahan dan/atau hutan."
+              },
+              {
+                "type": "PLAINTEXT",
+                "text": "Untuk memformalkan Rencana Kerja Sama ASEAN tentang Pencemaran Asap Lintas Batas tahun 1995 dan mengefektifkan Hanoi Plan of Action 1997, Anggota ASEAN sepakat untuk membuat ASEAN Agreement on Transboundary Haze Pollution (Persetujuan ASEAN tentang Pencemaran Asap Lintas Batas) atau disebut Persetujuan ASEAN, sebagai komitmen bersama."
+              },
+              {
+                "type": "PLAINTEXT",
+                "text": "Persetujuan ASEAN tersebut ditandatangani tahun 2002 dan berlaku efektif tahun 2007. Persetujuan ASEAN bertujuan mencegah dan menanggulangi pencemaran asap lintas batas sebagai akibat kebakaran lahan dan/atau hutan yang harus dilaksanakan melalui upaya nasional, regional, dan internasional secara intensif."
+              },
+              {
+                "type": "PLAINTEXT",
+                "text": "Dengan didasarkan pada komitmen, semangat kemitraan, dan tradisi solidaritas untuk mencapai perdamaian, kemajuan, dan kesejahteraan di antara negara ASEAN sebagaimana ditetapkan dalam Deklarasi Bangkok tahun 1967 dan menyadari perlunya pencegahan pencemaran asap lintas batas secara bersama oleh negara ASEAN, Indonesia memandang perlu untuk mengesahkan Persetujuan ASEAN tentang Pencemaran Asap Lintas Batas."
+              },
+              {
+                "type": "PLAINTEXT",
+                "text": "Adapun manfaat mengesahkan Persetujuan ASEAN bagi Indonesia, antara lain:"
+              },
+              {
+                "type": "LIST",
+                "id": "",
+                "children": [
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "NUMBER_WITH_DOT",
+                        "text": "1."
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "mendorong peran aktif Indonesia dalam pengambilan keputusan dengan negara anggota ASEAN untuk melakukan pemantauan, penilaian, dan tanggap darurat dari kebakaran lahan dan/atau hutan yang mengakibatkan pencemaran asap lintas batas;"
+                      }
+                    ]
+                  },
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "NUMBER_WITH_DOT",
+                        "text": "2."
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "melindungi masyarakat Indonesia dari dampak negatif pencemaran asap lintas batas akibat kebakaran lahan dan/atau hutan yang dapat merugikan kesehatan dan menurunkan kualitas lingkungan hidup;"
+                      }
+                    ]
+                  },
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "NUMBER_WITH_DOT",
+                        "text": "3."
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "memperkuat regulasi dan kebijakan nasional terkait pencegahan, mitigasi, kesiapsiagaan, pemantauan, penanggulangan, dan pengendalian kebakaran lahan dan/atau hutan yang menyebabkan pencemaran asap lintas batas;"
+                      }
+                    ]
+                  },
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "NUMBER_WITH_DOT",
+                        "text": "4."
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "memanfaatkan sumber daya manusia dan peralatan yang ada di negara ASEAN dan di luar negara ASEAN baik melalui Sekretariat maupun ASEAN Coordinating Centre untuk melakukan pencegahan, mitigasi, kesiapsiagaan, pemantauan, penanggulangan, dan pengendalian kebakaran lahan dan/atau hutan yang menyebabkan pencemaran asap lintas batas;"
+                      }
+                    ]
+                  },
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "NUMBER_WITH_DOT",
+                        "text": "5."
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "meningkatkan pengetahuan dan kesadaran masyarakat melalui kerja sama ASEAN dan bantuan internasional dalam hal pencegahan, mitigasi, kesiapsiagaan, pemantauan, penanggulangan, dan pengendalian kebakaran lahan dan/atau hutan yang menyebabkan pencemaran asap lintas batas;"
+                      }
+                    ]
+                  },
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "NUMBER_WITH_DOT",
+                        "text": "6."
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "memperkuat manajemen dan kemampuan dalam hal pencegahan, mitigasi, kesiapsiagaan, pemantauan, penanggulangan, dan pengendalian kebakaran lahan dan/atau hutan baik di tingkat lokal, nasional maupun regional melalui kerja sama ASEAN dan bantuan internasional sehingga pencemaran asap dapat lebih dikendalikan."
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "PLAINTEXT",
+                "text": "Persetujuan ASEAN terdiri atas 32 (tiga puluh dua) Pasal dan 1 (satu) lampiran. Materi pokok Persetujuan ASEAN mengatur antara lain hal-hal sebagai berikut:"
+              },
+              {
+                "type": "LIST",
+                "id": "",
+                "children": [
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "NUMBER_WITH_DOT",
+                        "text": "1."
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "Definisi"
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "Persetujuan ASEAN mendefinisikan beberapa kelembagaan, di antaranya focal point, otoritas yang berwenang, pihak pemohon, pihak penerima, dan definisi teknis seperti pembakaran terkendali, pembakaran terbuka, daerah rawan kebakaran, pencemaran asap, dan kebakaran lahan dan/atau hutan."
+                      }
+                    ]
+                  },
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "NUMBER_WITH_DOT",
+                        "text": "2."
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "Pemantauan"
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "Persetujuan ASEAN mewajibkan setiap negara membentuk Pusat Pemantauan Nasional untuk melaksanakan pemantauan yang meliputi:"
+                      },
+                      {
+                        "type": "LIST",
+                        "id": "",
+                        "children": [
+                          {
+                            "type": "LIST_ITEM",
+                            "id": "",
+                            "children": [
+                              {
+                                "type": "LETTER_WITH_DOT",
+                                "text": "a."
+                              },
+                              {
+                                "type": "PLAINTEXT",
+                                "text": "daerah rawan kebakaran;"
+                              }
+                            ]
+                          },
+                          {
+                            "type": "LIST_ITEM",
+                            "id": "",
+                            "children": [
+                              {
+                                "type": "LETTER_WITH_DOT",
+                                "text": "b."
+                              },
+                              {
+                                "type": "PLAINTEXT",
+                                "text": "kebakaran lahan dan/atau hutan;"
+                              }
+                            ]
+                          },
+                          {
+                            "type": "LIST_ITEM",
+                            "id": "",
+                            "children": [
+                              {
+                                "type": "LETTER_WITH_DOT",
+                                "text": "c."
+                              },
+                              {
+                                "type": "PLAINTEXT",
+                                "text": "kondisi lingkungan yang mendukung mengakibatkan kebakaran lahan dan/atau hutan;"
+                              }
+                            ]
+                          },
+                          {
+                            "type": "LIST_ITEM",
+                            "id": "",
+                            "children": [
+                              {
+                                "type": "LETTER_WITH_DOT",
+                                "text": "d."
+                              },
+                              {
+                                "type": "PLAINTEXT",
+                                "text": "pencemaran asap yang ditimbulkan oleh kebakaran lahan dan/atau hutan."
+                              }
+                            ]
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "NUMBER_WITH_DOT",
+                        "text": "3."
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "Penilaian"
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "Penilaian dilakukan oleh ASEAN Coordinating Centre melalui mekanisme penerimaan informasi, yaitu:"
+                      },
+                      {
+                        "type": "LIST",
+                        "id": "",
+                        "children": [
+                          {
+                            "type": "LIST_ITEM",
+                            "id": "",
+                            "children": [
+                              {
+                                "type": "LETTER_WITH_DOT",
+                                "text": "a."
+                              },
+                              {
+                                "type": "PLAINTEXT",
+                                "text": "Pusat Pemantauan Nasional mengomunikasikan secara regular hasil pemantauan;"
+                              }
+                            ]
+                          },
+                          {
+                            "type": "LIST_ITEM",
+                            "id": "",
+                            "children": [
+                              {
+                                "type": "LETTER_WITH_DOT",
+                                "text": "b."
+                              },
+                              {
+                                "type": "PLAINTEXT",
+                                "text": "ASEAN Coordinating Centre menerima, mengkonsolidasikan, dan menganalisis data dari Pusat Pemantauan Nasional;"
+                              }
+                            ]
+                          },
+                          {
+                            "type": "LIST_ITEM",
+                            "id": "",
+                            "children": [
+                              {
+                                "type": "LETTER_WITH_DOT",
+                                "text": "c."
+                              },
+                              {
+                                "type": "PLAINTEXT",
+                                "text": "berdasarkan analisis tersebut ASEAN Coordinating Centre memberikan penilaian risiko terhadap kesehatan manusia dan lingkungan hidup."
+                              }
+                            ]
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "NUMBER_WITH_DOT",
+                        "text": "4."
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "Pencegahan"
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "Tindakan pencegahan dalam Persetujuan ASEAN mencakupi:"
+                      },
+                      {
+                        "type": "LIST",
+                        "id": "",
+                        "children": [
+                          {
+                            "type": "LIST_ITEM",
+                            "id": "",
+                            "children": [
+                              {
+                                "type": "LETTER_WITH_DOT",
+                                "text": "a."
+                              },
+                              {
+                                "type": "PLAINTEXT",
+                                "text": "mengembangkan dan melaksanakan peraturan, program, dan strategi kebijakan pembukaan lahan tanpa bakar (zero burning policy);"
+                              }
+                            ]
+                          },
+                          {
+                            "type": "LIST_ITEM",
+                            "id": "",
+                            "children": [
+                              {
+                                "type": "LETTER_WITH_DOT",
+                                "text": "b."
+                              },
+                              {
+                                "type": "PLAINTEXT",
+                                "text": "mengembangkan kebijakan untuk menghambat aktivitas yang dapat mengakibatkan kebakaran lahan dan/atau hutan;"
+                              }
+                            ]
+                          },
+                          {
+                            "type": "LIST_ITEM",
+                            "id": "",
+                            "children": [
+                              {
+                                "type": "LETTER_WITH_DOT",
+                                "text": "c."
+                              },
+                              {
+                                "type": "PLAINTEXT",
+                                "text": "mengidentifikasi daerah rawan kebakaran;"
+                              }
+                            ]
+                          },
+                          {
+                            "type": "LIST_ITEM",
+                            "id": "",
+                            "children": [
+                              {
+                                "type": "LETTER_WITH_DOT",
+                                "text": "d."
+                              },
+                              {
+                                "type": "PLAINTEXT",
+                                "text": "memperkuat pengelolaan dan kapasitas pemadaman kebakaran di tingkat lokal;"
+                              }
+                            ]
+                          },
+                          {
+                            "type": "LIST_ITEM",
+                            "id": "",
+                            "children": [
+                              {
+                                "type": "LETTER_WITH_DOT",
+                                "text": "e."
+                              },
+                              {
+                                "type": "PLAINTEXT",
+                                "text": "meningkatkan kesadaran, pendidikan, dan peran serta masyarakat;"
+                              }
+                            ]
+                          },
+                          {
+                            "type": "LIST_ITEM",
+                            "id": "",
+                            "children": [
+                              {
+                                "type": "LETTER_WITH_DOT",
+                                "text": "f."
+                              },
+                              {
+                                "type": "PLAINTEXT",
+                                "text": "meningkatkan dan memanfaatkan kearifan tradisional;"
+                              }
+                            ]
+                          },
+                          {
+                            "type": "LIST_ITEM",
+                            "id": "",
+                            "children": [
+                              {
+                                "type": "LETTER_WITH_DOT",
+                                "text": "g."
+                              },
+                              {
+                                "type": "PLAINTEXT",
+                                "text": "menjamin adanya tindakan hukum, administratif, dan tindakan lainnya."
+                              }
+                            ]
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "NUMBER_WITH_DOT",
+                        "text": "5."
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "Kesiapsiagaan"
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "Kesiapsiagaan dapat dilakukan secara bersama-sama antarnegara ASEAN atau sendiri-sendiri. Kesiapsiagaan wajib dilakukan dengan:"
+                      },
+                      {
+                        "type": "LIST",
+                        "id": "",
+                        "children": [
+                          {
+                            "type": "LIST_ITEM",
+                            "id": "",
+                            "children": [
+                              {
+                                "type": "LETTER_WITH_DOT",
+                                "text": "a."
+                              },
+                              {
+                                "type": "PLAINTEXT",
+                                "text": "mengembangkan strategi, rencana kesiapsiagaan serta mengendalikan risiko terhadap kesehatan manusia dan lingkungan hidup;"
+                              }
+                            ]
+                          },
+                          {
+                            "type": "LIST_ITEM",
+                            "id": "",
+                            "children": [
+                              {
+                                "type": "LETTER_WITH_DOT",
+                                "text": "b."
+                              },
+                              {
+                                "type": "PLAINTEXT",
+                                "text": "menyiapkan prosedur operasional untuk kerja sama regional dan tindakan nasional."
+                              }
+                            ]
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "NUMBER_WITH_DOT",
+                        "text": "6."
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "Tanggap Darurat Nasional"
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "Setiap Pihak wajib menjamin adanya tindakan legislatif, administratif, dan pendanaan untuk memobilisasi peralatan, bahan, sumber daya manusia, dan keuangan dalam pelaksanaan tanggap darurat nasional serta wajib segera memberitahu pihak lain dan ASEAN Centre mengenai tindakan tersebut."
+                      }
+                    ]
+                  },
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "NUMBER_WITH_DOT",
+                        "text": "7."
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "Tanggap Darurat Bersama"
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "Persetujuan ASEAN mengatur tanggap darurat bersama dengan syarat:"
+                      },
+                      {
+                        "type": "LIST",
+                        "id": "",
+                        "children": [
+                          {
+                            "type": "LIST_ITEM",
+                            "id": "",
+                            "children": [
+                              {
+                                "type": "LETTER_WITH_DOT",
+                                "text": "a."
+                              },
+                              {
+                                "type": "PLAINTEXT",
+                                "text": "melalui proses permohonan bantuan dan persetujuan pemohon;"
+                              }
+                            ]
+                          },
+                          {
+                            "type": "LIST_ITEM",
+                            "id": "",
+                            "children": [
+                              {
+                                "type": "LETTER_WITH_DOT",
+                                "text": "b."
+                              },
+                              {
+                                "type": "PLAINTEXT",
+                                "text": "permohonan bantuan diajukan baik secara langsung maupun melalui ASEAN Coordinating Centre kepada Para Pihak ataupun kepada negara lain atau organisasi internasional;"
+                              }
+                            ]
+                          },
+                          {
+                            "type": "LIST_ITEM",
+                            "id": "",
+                            "children": [
+                              {
+                                "type": "LETTER_WITH_DOT",
+                                "text": "c."
+                              },
+                              {
+                                "type": "PLAINTEXT",
+                                "text": "pencemaran asap dari kebakaran lahan dan/atau hutan;"
+                              }
+                            ]
+                          },
+                          {
+                            "type": "LIST_ITEM",
+                            "id": "",
+                            "children": [
+                              {
+                                "type": "LETTER_WITH_DOT",
+                                "text": "d."
+                              },
+                              {
+                                "type": "PLAINTEXT",
+                                "text": "bantuan harus rinci, tertulis, dan jelas;"
+                              }
+                            ]
+                          },
+                          {
+                            "type": "LIST_ITEM",
+                            "id": "",
+                            "children": [
+                              {
+                                "type": "LETTER_WITH_DOT",
+                                "text": "e."
+                              },
+                              {
+                                "type": "PLAINTEXT",
+                                "text": "Para Pihak mengidentifikasi dan memberitahukan ASEAN Coordinating Centre mengenai tenaga ahli dan peralatan bantuan yang dapat disediakan."
+                              }
+                            ]
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "NUMBER_WITH_DOT",
+                        "text": "8."
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "Petunjuk dan Pengendalian Bantuan"
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "Persetujuan ASEAN mengatur petunjuk dan pengendalian bantuan yaitu:"
+                      },
+                      {
+                        "type": "LIST",
+                        "id": "",
+                        "children": [
+                          {
+                            "type": "LIST_ITEM",
+                            "id": "",
+                            "children": [
+                              {
+                                "type": "LETTER_WITH_DOT",
+                                "text": "a."
+                              },
+                              {
+                                "type": "PLAINTEXT",
+                                "text": "Pihak pemohon bantuan wajib melaksanakan petunjuk, pengendalian, koordinasi, dan pengawasan bantuan di wilayahnya;"
+                              }
+                            ]
+                          },
+                          {
+                            "type": "LIST_ITEM",
+                            "id": "",
+                            "children": [
+                              {
+                                "type": "LETTER_WITH_DOT",
+                                "text": "b."
+                              },
+                              {
+                                "type": "PLAINTEXT",
+                                "text": "Pihak pemberi bantuan wajib menunjuk orang/badan untuk melakukan pengawasan atas personel, peralatan, dan bekerja sama dengan Pihak pemohon bantuan;"
+                              }
+                            ]
+                          },
+                          {
+                            "type": "LIST_ITEM",
+                            "id": "",
+                            "children": [
+                              {
+                                "type": "LETTER_WITH_DOT",
+                                "text": "c."
+                              },
+                              {
+                                "type": "PLAINTEXT",
+                                "text": "Pihak pemohon bantuan menyediakan fasilitas lokal dan pelayanan administrasi yang tepat dan efektif; dan"
+                              }
+                            ]
+                          },
+                          {
+                            "type": "LIST_ITEM",
+                            "id": "",
+                            "children": [
+                              {
+                                "type": "LETTER_WITH_DOT",
+                                "text": "d."
+                              },
+                              {
+                                "type": "PLAINTEXT",
+                                "text": "Pihak pemberi dan penerima bantuan wajib mengkoordinasikan bantuan di wilayahnya masing-masing."
+                              }
+                            ]
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "NUMBER_WITH_DOT",
+                        "text": "9."
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "Pengecualian dan Fasilitas dalam Ketentuan Pemberian Bantuan"
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "Persetujuan ASEAN memberikan pengecualian berupa pembebasan pajak dan fasilitas untuk memasukkan personel, peralatan, dan bahan agar pemberian bantuan efektif dan efisien."
+                      }
+                    ]
+                  },
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "NUMBER_WITH_DOT",
+                        "text": "10."
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "Transit Personel, Peralatan, dan Bahan dalam Ketentuan Pemberian Bantuan"
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "Pihak lain yang wilayahnya menjadi tempat transit wajib memberikan fasilitas bagi personel, peralatan, dan bahan yang dibutuhkan atau digunakan dalam pemberian bantuan."
+                      }
+                    ]
+                  },
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "NUMBER_WITH_DOT",
+                        "text": "11."
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "Kerja Sama Teknis"
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "Para Pihak wajib melakukan kerja sama teknis yang difasilitasi ASEAN Coordinating Centre untuk meningkatkan kesiapsiagaan dan mengurangi risiko terhadap lingkungan hidup dan kesehatan manusia antara lain:"
+                      },
+                      {
+                        "type": "LIST",
+                        "id": "",
+                        "children": [
+                          {
+                            "type": "LIST_ITEM",
+                            "id": "",
+                            "children": [
+                              {
+                                "type": "LETTER_WITH_DOT",
+                                "text": "a."
+                              },
+                              {
+                                "type": "PLAINTEXT",
+                                "text": "mobilitas sumber daya;"
+                              }
+                            ]
+                          },
+                          {
+                            "type": "LIST_ITEM",
+                            "id": "",
+                            "children": [
+                              {
+                                "type": "LETTER_WITH_DOT",
+                                "text": "b."
+                              },
+                              {
+                                "type": "PLAINTEXT",
+                                "text": "standardisasi format laporan;"
+                              }
+                            ]
+                          },
+                          {
+                            "type": "LIST_ITEM",
+                            "id": "",
+                            "children": [
+                              {
+                                "type": "LETTER_WITH_DOT",
+                                "text": "c."
+                              },
+                              {
+                                "type": "PLAINTEXT",
+                                "text": "pertukaran informasi, tenaga ahli, teknologi, teknik, dan keterampilan;"
+                              }
+                            ]
+                          },
+                          {
+                            "type": "LIST_ITEM",
+                            "id": "",
+                            "children": [
+                              {
+                                "type": "LETTER_WITH_DOT",
+                                "text": "d."
+                              },
+                              {
+                                "type": "PLAINTEXT",
+                                "text": "perencanaan pelatihan, pendidikan, dan kampanye peningkatan kesadaran;"
+                              }
+                            ]
+                          },
+                          {
+                            "type": "LIST_ITEM",
+                            "id": "",
+                            "children": [
+                              {
+                                "type": "LETTER_WITH_DOT",
+                                "text": "e."
+                              },
+                              {
+                                "type": "PLAINTEXT",
+                                "text": "pengembangan teknik pembakaran terkendali;"
+                              }
+                            ]
+                          },
+                          {
+                            "type": "LIST_ITEM",
+                            "id": "",
+                            "children": [
+                              {
+                                "type": "LETTER_WITH_DOT",
+                                "text": "f."
+                              },
+                              {
+                                "type": "PLAINTEXT",
+                                "text": "pertukaran pengalaman dan informasi di antara lembaga penegak hukum;"
+                              }
+                            ]
+                          },
+                          {
+                            "type": "LIST_ITEM",
+                            "id": "",
+                            "children": [
+                              {
+                                "type": "LETTER_WITH_DOT",
+                                "text": "g."
+                              },
+                              {
+                                "type": "PLAINTEXT",
+                                "text": "pengembangan pasar untuk pemanfaatan bio massa;"
+                              }
+                            ]
+                          },
+                          {
+                            "type": "LIST_ITEM",
+                            "id": "",
+                            "children": [
+                              {
+                                "type": "LETTER_WITH_DOT",
+                                "text": "h."
+                              },
+                              {
+                                "type": "PLAINTEXT",
+                                "text": "pengembangan program pelatihan bagi pemadam kebakaran;"
+                              }
+                            ]
+                          },
+                          {
+                            "type": "LIST_ITEM",
+                            "id": "",
+                            "children": [
+                              {
+                                "type": "LETTER_WITH_DOT",
+                                "text": "i."
+                              },
+                              {
+                                "type": "PLAINTEXT",
+                                "text": "memperkuat dan meningkatkan kapasitas teknis."
+                              }
+                            ]
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "NUMBER_WITH_DOT",
+                        "text": "12."
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "Penelitian Ilmiah"
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "Penelitian ilmiah wajib dilakukan baik secara bersama-sama maupun antarnegara ASEAN maupun sendiri-sendiri untuk:"
+                      },
+                      {
+                        "type": "LIST",
+                        "id": "",
+                        "children": [
+                          {
+                            "type": "LIST_ITEM",
+                            "id": "",
+                            "children": [
+                              {
+                                "type": "LETTER_WITH_DOT",
+                                "text": "a."
+                              },
+                              {
+                                "type": "PLAINTEXT",
+                                "text": "mempromosikan dan mendukung program penelitian ilmiah dampak terhadap kesehatan masyarakat jangka panjang;"
+                              }
+                            ]
+                          },
+                          {
+                            "type": "LIST_ITEM",
+                            "id": "",
+                            "children": [
+                              {
+                                "type": "LETTER_WITH_DOT",
+                                "text": "b."
+                              },
+                              {
+                                "type": "PLAINTEXT",
+                                "text": "mengembangkan cara, metode, teknik dan peralatan untuk pengendalian kebakaran lahan dan/atau hutan termasuk pemadaman kebakaran."
+                              }
+                            ]
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "PLAINTEXT",
+                "text": "Peraturan perundang-undangan nasional yang berkaitan dengan Persetujuan ASEAN, antara lain:"
+              },
+              {
+                "type": "LIST",
+                "id": "",
+                "children": [
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "NUMBER_WITH_DOT",
+                        "text": "1."
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "Undang-Undang Nomor 41 Tahun 1999 tentang Kehutanan (Lembaran Negara Republik Indonesia Tahun 1999 Nomor 167, Tambahan Lembaran Negara Republik Indonesia Nomor 3888);"
+                      }
+                    ]
+                  },
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "NUMBER_WITH_DOT",
+                        "text": "2."
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "Undang-Undang Nomor 18 Tahun 2004 tentang Perkebunan (Lembaran Negara Republik Indonesia Tahun 2004 Nomor 85, Tambahan Lembaran Negara Republik Indonesia Nomor 4411);"
+                      }
+                    ]
+                  },
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "NUMBER_WITH_DOT",
+                        "text": "3."
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "Undang-Undang Nomor 32 Tahun 2004 tentang Pemerintahan Daerah (Lembaran Negara Republik Indonesia Tahun 2004 Nomor 125, Tambahan Lembaran Negara Republik Indonesia Nomor 4437);"
+                      }
+                    ]
+                  },
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "NUMBER_WITH_DOT",
+                        "text": "4."
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "Undang-Undang Nomor 31 Tahun 2009 tentang Meteorologi, Klimatologi, dan Geofisika (Lembaran Negara Republik Indonesia Tahun 2009 Nomor 139, Tambahan Lembaran Negara Republik Indonesia Nomor 5058);"
+                      }
+                    ]
+                  },
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "NUMBER_WITH_DOT",
+                        "text": "5."
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "Undang-Undang Nomor 32 Tahun 2009 tentang Perlindungan dan Pengelolaan Lingkungan Hidup (Lembaran Negara Republik Indonesia Tahun 2009 Nomor 140, Tambahan Lembaran Negara Republik Indonesia Nomor 5059)."
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "PLAINTEXT",
+                "text": "II."
+              }
+            ]
+          },
+          {
+            "type": "PENJELASAN_PASAL_DEMI_PASAL",
+            "id": "",
+            "children": [
+              {
+                "type": "PENJELASAN_PASAL_DEMI_PASAL_TITLE",
+                "text": "PASAL DEMI PASAL"
+              },
+              {
+                "type": "PENJELASAN_PASAL",
+                "id": "",
+                "children": [
+                  {
+                    "type": "PASAL_NUMBER",
+                    "text": "Pasal 1"
+                  },
+                  {
+                    "type": "LIST",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "PENJELASAN_LIST_ITEM",
+                        "id": "",
+                        "children": [
+                          {
+                            "type": "PENJELASAN_AYAT",
+                            "text": "Ayat (1)"
+                          },
+                          {
+                            "type": "PLAINTEXT",
+                            "text": "Cukup jelas."
+                          }
+                        ]
+                      },
+                      {
+                        "type": "PENJELASAN_LIST_ITEM",
+                        "id": "",
+                        "children": [
+                          {
+                            "type": "PENJELASAN_AYAT",
+                            "text": "Ayat (2)"
+                          },
+                          {
+                            "type": "PLAINTEXT",
+                            "text": "Dalam hal terjadi perbedaan penafsiran antara naskah terjemahan Persetujuan dalam bahasa Indonesia dan naskah aslinya dalam bahasa Inggris, maka yang berlaku adalah naskah asli Persetujuan dalam bahasa Inggris."
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "PENJELASAN_PASAL",
+                "id": "",
+                "children": [
+                  {
+                    "type": "PASAL_NUMBER",
+                    "text": "Pasal 2"
+                  },
+                  {
+                    "type": "PLAINTEXT",
+                    "text": "Cukup jelas."
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}
