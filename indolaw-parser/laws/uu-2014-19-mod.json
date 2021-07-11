@@ -1,0 +1,480 @@
+{
+  "metadata": {
+    "lembaranNegaraNumber": 186,
+    "lembaranNegaraYear": 2014,
+    "tambahanLembaranNumber": 5572,
+    "number": 19,
+    "topic": "Pengesahan Persetujuan Tentang Kerja Sama Industri Pertahanan Antara Pemerintah Republik Indonesia Dan Pemerintah Republik Turki (agreement On Defense Industry Cooperation Between The Government Of The Republic Of Indonesia And The Government Of The Republic Of Turkey)",
+    "year": 2014
+  },
+  "content": {
+    "type": "UNDANG_UNDANG",
+    "id": "",
+    "children": [
+      {
+        "type": "OPENING",
+        "id": "",
+        "children": [
+          {
+            "type": "UU_TITLE",
+            "id": "",
+            "children": [
+              {
+                "type": "PLAINTEXT",
+                "text": "UNDANG-UNDANG REPUBLIK INDONESIA"
+              },
+              {
+                "type": "UU_TITLE_YEAR_AND_NUMBER",
+                "text": "NOMOR 19 TAHUN 2014"
+              },
+              {
+                "type": "PLAINTEXT",
+                "text": "TENTANG"
+              },
+              {
+                "type": "UU_TITLE_TOPIC",
+                "text": "PENGESAHAN PERSETUJUAN TENTANG KERJA SAMA INDUSTRI PERTAHANAN ANTARA PEMERINTAH REPUBLIK INDONESIA DAN PEMERINTAH REPUBLIK TURKI (AGREEMENT ON DEFENSE INDUSTRY COOPERATION BETWEEN THE GOVERNMENT OF THE REPUBLIC OF INDONESIA AND THE GOVERNMENT OF THE REPUBLIC OF TURKEY)"
+              }
+            ]
+          },
+          {
+            "type": "PREFACE",
+            "id": "",
+            "children": [
+              {
+                "type": "PLAINTEXT",
+                "text": "DENGAN RAHMAT TUHAN YANG MAHA ESA"
+              },
+              {
+                "type": "PLAINTEXT",
+                "text": "PRESIDEN REPUBLIK INDONESIA,"
+              }
+            ]
+          },
+          {
+            "type": "CONSIDERATIONS",
+            "id": "",
+            "children": [
+              {
+                "type": "PLAINTEXT",
+                "text": "Menimbang:"
+              },
+              {
+                "type": "LIST",
+                "id": "",
+                "children": [
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "LETTER_WITH_DOT",
+                        "text": "a."
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "bahwa hubungan luar negeri yang dilandasi politik bebas aktif merupakan salah satu perwujudan dari tujuan Pemerintah Negara Kesatuan Republik Indonesia sebagaimana tercantum dalam alinea keempat Pembukaan Undang-Undang Dasar Negara Republik Indonesia Tahun 1945, yaitu melindungi segenap bangsa dan seluruh tumpah darah Indonesia dan untuk memajukan kesejahteraan umum, mencerdaskan kehidupan bangsa dan ikut melaksanakan ketertiban dunia yang berdasarkan kemerdekaan, perdamaian abadi, dan keadilan sosial;"
+                      }
+                    ]
+                  },
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "LETTER_WITH_DOT",
+                        "text": "b."
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "bahwa perkembangan dunia yang ditandai dengan pesatnya kemajuan ilmu pengetahuan, teknologi, komunikasi, dan informasi mendorong kerja sama pengembangan industri pertahanan;"
+                      }
+                    ]
+                  },
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "LETTER_WITH_DOT",
+                        "text": "c."
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "bahwa untuk meningkatkan kerja sama pengembangan industri pertahanan antara Pemerintah Republik Indonesia dan Pemerintah Republik Turki, pada tanggal 29 Juni 2010 di Ankara telah ditandatangani Persetujuan tentang Kerja Sama Industri Pertahanan antara Pemerintah Republik Indonesia dan Pemerintah Republik Turki (Agreement on Defense Industry Cooperation between the Government of the Republic of Indonesia and the Government of the Republic of Turkey);"
+                      }
+                    ]
+                  },
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "LETTER_WITH_DOT",
+                        "text": "d."
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "bahwa berdasarkan pertimbangan sebagaimana dimaksud dalam huruf a, huruf b, dan huruf c perlu mengesahkan Persetujuan tentang Kerja Sama Industri Pertahanan antara Pemerintah Republik Indonesia dan Pemerintah Republik Turki (Agreement on Defense Industry Cooperation between the Government of the Republic of Indonesia and the Government of the Republic of Turkey) dengan undang undang."
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "PRINCIPLES",
+            "id": "",
+            "children": [
+              {
+                "type": "PLAINTEXT",
+                "text": "Mengingat:"
+              },
+              {
+                "type": "LIST",
+                "id": "",
+                "children": [
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "NUMBER_WITH_DOT",
+                        "text": "1."
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "Pasal 5 ayat (1), Pasal 11, Pasal 20, dan Pasal 30 Undang-Undang Dasar Negara Republik Indonesia Tahun 1945;"
+                      }
+                    ]
+                  },
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "NUMBER_WITH_DOT",
+                        "text": "2."
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "Undang-Undang Nomor 24 Tahun 2000 tentang Perjanjian Internasional (Lembaran Negara Republik Indonesia Tahun 2000 Nomor 185, Tambahan Lembaran Negara Republik Indonesia Nomor 4012);"
+                      }
+                    ]
+                  },
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "NUMBER_WITH_DOT",
+                        "text": "3."
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "Undang-Undang Nomor 16 Tahun 2012 tentang Industri Pertahanan (Lembaran Negara Republik Indonesia Tahun 2012 Nomor 183, Tambahan Lembaran Negara Republik Indonesia Nomor 5343)."
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "AGREEMENT",
+            "id": "",
+            "children": [
+              {
+                "type": "PLAINTEXT",
+                "text": "Dengan Persetujuan Bersama"
+              },
+              {
+                "type": "PLAINTEXT",
+                "text": "DEWAN PERWAKILAN RAKYAT REPUBLIK INDONESIA"
+              },
+              {
+                "type": "PLAINTEXT",
+                "text": "dan"
+              },
+              {
+                "type": "PLAINTEXT",
+                "text": "PRESIDEN REPUBLIK INDONESIA"
+              },
+              {
+                "type": "PLAINTEXT",
+                "text": "MEMUTUSKAN:"
+              },
+              {
+                "type": "PLAINTEXT",
+                "text": "Menetapkan:"
+              },
+              {
+                "type": "PLAINTEXT",
+                "text": "UNDANG-UNDANG TENTANG PENGESAHAN PERSETUJUAN TENTANG KERJA SAMA INDUSTRI PERTAHANAN ANTARA PEMERINTAH REPUBLIK INDONESIA DAN PEMERINTAH REPUBLIK TURKI (AGREEMENT ON DEFENSE INDUSTRY COOPERATION BETWEEN THE GOVERNMENT OF THE REPUBLIC OF INDONESIA AND THE GOVERNMENT OF THE REPUBLIC OF TURKEY)"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "PASAL",
+        "id": "pasal-1",
+        "children": [
+          {
+            "type": "PASAL_NUMBER",
+            "text": "Pasal 1"
+          },
+          {
+            "type": "PLAINTEXT",
+            "text": "Mengesahkan Persetujuan tentang Kerja Sama Industri Pertahanan antara Pemerintah Republik Indonesia dan Pemerintah Republik Turki (Agreement on Defense Industry Cooperation between the Government of the Republic of Indonesia and the Government of the Republic of Turkey) yang telah ditandatangani pada tanggal 29 Juni 2010 di Ankara yang naskah aslinya dalam bahasa Indonesia, bahasa Turki, dan bahasa Inggris sebagaimana terlampir dan merupakan bagian yang tidak terpisahkan dari Undang-Undang ini."
+          }
+        ]
+      },
+      {
+        "type": "PASAL",
+        "id": "pasal-2",
+        "children": [
+          {
+            "type": "PASAL_NUMBER",
+            "text": "Pasal 2"
+          },
+          {
+            "type": "PLAINTEXT",
+            "text": "Undang-Undang ini mulai berlaku pada tanggal diundangkan."
+          },
+          {
+            "type": "PLAINTEXT",
+            "text": "Agar setiap orang mengetahuinya, memerintahkan pengundangan Undang-Undang ini dengan penempatannya dalam Lembaran Negara Republik Indonesia."
+          }
+        ]
+      },
+      {
+        "type": "CLOSING",
+        "id": "",
+        "children": [
+          {
+            "type": "PLAINTEXT",
+            "text": "Disahkan Di Jakarta,"
+          },
+          {
+            "type": "PLAINTEXT",
+            "text": "Pada Tanggal 7 Agustus 2014"
+          },
+          {
+            "type": "PLAINTEXT",
+            "text": "PRESIDEN REPUBLIK INDONESIA,"
+          },
+          {
+            "type": "PLAINTEXT",
+            "text": "Ttd."
+          },
+          {
+            "type": "PLAINTEXT",
+            "text": "DR. H. SUSILO BAMBANG YUDHOYONO"
+          },
+          {
+            "type": "PLAINTEXT",
+            "text": "Diundangkan Di Jakarta,"
+          },
+          {
+            "type": "PLAINTEXT",
+            "text": "Pada Tanggal 7 Agustus 2014"
+          },
+          {
+            "type": "PLAINTEXT",
+            "text": "MENTERI HUKUM DAN HAK ASASI MANUSIA REPUBLIK INDONESIA,"
+          },
+          {
+            "type": "PLAINTEXT",
+            "text": "Ttd."
+          },
+          {
+            "type": "PLAINTEXT",
+            "text": "AMIR SYAMSUDIN"
+          },
+          {
+            "type": "LEMBARAN_NUMBER",
+            "text": "LEMBARAN NEGARA REPUBLIK INDONESIA TAHUN 2014 NOMOR 186"
+          }
+        ]
+      },
+      {
+        "type": "PENJELASAN",
+        "id": "penjelasan",
+        "children": [
+          {
+            "type": "PENJELASAN_TITLE",
+            "id": "",
+            "children": [
+              {
+                "type": "PLAINTEXT",
+                "text": "PENJELASAN"
+              },
+              {
+                "type": "PLAINTEXT",
+                "text": "UNDANG-UNDANG REPUBLIK INDONESIA"
+              },
+              {
+                "type": "UU_TITLE_YEAR_AND_NUMBER",
+                "text": "NOMOR 19 TAHUN 2014"
+              },
+              {
+                "type": "PLAINTEXT",
+                "text": "TENTANG"
+              },
+              {
+                "type": "UU_TITLE_TOPIC",
+                "text": "PENGESAHAN PERSETUJUAN TENTANG KERJA SAMA INDUSTRI PERTAHANAN ANTARA PEMERINTAH REPUBLIK INDONESIA DAN PEMERINTAH REPUBLIK TURKI (AGREEMENT ON DEFENSE INDUSTRY COOPERATION BETWEEN THE GOVERNMENT OF THE REPUBLIC OF INDONESIA AND THE GOVERNMENT OF THE REPUBLIC OF TURKEY)"
+              }
+            ]
+          },
+          {
+            "type": "PENJELASAN_UMUM",
+            "id": "",
+            "children": [
+              {
+                "type": "PENJELASAN_UMUM_TITLE",
+                "text": "I. UMUM"
+              },
+              {
+                "type": "PLAINTEXT",
+                "text": "Dalam kehidupan bernegara, aspek pertahanan merupakan salah satu faktor yang sangat hakiki dalam menjamin kelangsungan hidup negara tersebut. Kemampuan mempertahankan diri terhadap ancaman dari luar negeri dan/atau dari dalam negeri merupakan syarat mutlak bagi suatu negara dalam mempertahankan kedaulatannya."
+              },
+              {
+                "type": "PLAINTEXT",
+                "text": "Perkembangan dunia yang ditandai dengan pesatnya kemajuan ilmu pengetahuan dan teknologi telah meningkatkan intensitas hubungan dan interdepedensi antarnegara. Sejalan dengan peningkatan hubungan tersebut, semakin meningkat pula kerja sama internasional dalam berbagai bentuk perjanjian internasional, termasuk kerja sama di bidang industri pertahanan."
+              },
+              {
+                "type": "PLAINTEXT",
+                "text": "Kerja sama di bidang industri pertahanan antara Indonesia dan Turki diwujudkan dalam bentuk Persetujuan tentang Kerja Sama Industri Pertahanan antara Pemerintah Republik Indonesia dan Pemerintah Republik Turki yang telah ditandatangani di Ankara pada tanggal 29 Juni 2010 dan selanjutnya perlu disahkan dengan Undang-Undang."
+              },
+              {
+                "type": "PLAINTEXT",
+                "text": "Beberapa bagian penting dalam Persetujuan tentang Kerja Sama Industri Pertahanan antara Pemerintah Republik Indonesia dan Pemerintah Republik Turki adalah:"
+              },
+              {
+                "type": "LIST",
+                "id": "",
+                "children": [
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "NUMBER_WITH_DOT",
+                        "text": "1."
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "Kerja sama dalam bidang industri pertahanan ini meliputi: penyediaan berbagai fasilitas yang diperlukan bagi ruang lingkup teknis hal penelitian bersama, pengembangan, produksi dan proyek modernisasi, bantuan timbal balik dalam bidang produksi dan pengadaan produk industri dan jasa pertahanan, penjualan produk akhir, pertukaran informasi ilmiah dan teknis, partisipasi dalam pameran industri pertahanan dan simposium, serta penjualan atau pembelian yang saling menguntungkan."
+                      }
+                    ]
+                  },
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "NUMBER_WITH_DOT",
+                        "text": "2."
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "Pembentukan Komite Bersama dalam kerja sama industri pertahanan."
+                      }
+                    ]
+                  },
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "NUMBER_WITH_DOT",
+                        "text": "3."
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "Kewajiban untuk saling melindungi hak kekayaan intelektual, informasi, dokumen, dan bahan bahan yang bersifat rahasia."
+                      }
+                    ]
+                  },
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "NUMBER_WITH_DOT",
+                        "text": "4."
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "Komitmen Para Pihak untuk mengedepankan kepentingan, keamanan, dan integritas masing masing negara."
+                      }
+                    ]
+                  },
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "NUMBER_WITH_DOT",
+                        "text": "5."
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "Penyelesaian sengketa dilakukan secara damai melalui negosiasi Para Pihak dalam Komite Bersama serta tidak membawa setiap sengketa yang timbul ke pengadilan internasional dan apabila diperlukan akan diselesaikan melalui saluran diplomatik."
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "PLAINTEXT",
+                "text": "II."
+              }
+            ]
+          },
+          {
+            "type": "PENJELASAN_PASAL_DEMI_PASAL",
+            "id": "",
+            "children": [
+              {
+                "type": "PENJELASAN_PASAL_DEMI_PASAL_TITLE",
+                "text": "PASAL DEMI PASAL"
+              },
+              {
+                "type": "PENJELASAN_PASAL",
+                "id": "",
+                "children": [
+                  {
+                    "type": "PASAL_NUMBER",
+                    "text": "Pasal 1"
+                  },
+                  {
+                    "type": "PLAINTEXT",
+                    "text": "Cukup jelas."
+                  }
+                ]
+              },
+              {
+                "type": "PENJELASAN_PASAL",
+                "id": "",
+                "children": [
+                  {
+                    "type": "PASAL_NUMBER",
+                    "text": "Pasal 2"
+                  },
+                  {
+                    "type": "PLAINTEXT",
+                    "text": "Cukup jelas."
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}
