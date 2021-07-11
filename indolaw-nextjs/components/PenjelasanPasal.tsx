@@ -11,9 +11,11 @@ import { useMediaQuery } from "react-responsive";
 export default function PenjelasanPasal(props: {
   structure: Complex;
   numOfHeadingLines: number;
+  collapseOnDefault?: boolean;
 }): JSX.Element {
-  const { structure, numOfHeadingLines } = props;
-  const [isContentVisible, setIsContentVisible] = useState(false);
+  const { structure, numOfHeadingLines, collapseOnDefault } = props;
+  // content is visible on default if it's not collapsible, otherwise, collapse content on first view
+  const [isContentVisible, setIsContentVisible] = useState(!collapseOnDefault);
   const { colorScheme } = useAppContext();
   const isMobile = useMediaQuery({ query: "(max-width: 768px)" });
 
@@ -32,10 +34,7 @@ export default function PenjelasanPasal(props: {
     <CopyButton
       onClick={async () => {
         const item = new clipboard.ClipboardItem({
-          "text/html": new Blob(
-            [htmlToCopy],
-            { type: "text/html" }
-          )
+          "text/html": new Blob([htmlToCopy], { type: "text/html" }),
         });
         await clipboard.write([item]);
       }}
@@ -62,6 +61,7 @@ export default function PenjelasanPasal(props: {
           line-height: 1.5;
           display: flex;
           justify-content: center;
+          text-transform: capitalize;
         }
 
         .content {
@@ -79,15 +79,17 @@ export default function PenjelasanPasal(props: {
         }
       `}</style>
       <div className="group">
-        <div
-          className="title"
-          onClick={() => setIsContentVisible(!isContentVisible)}
-        >
-          Penjelasan
-          <i className="material-icons style">
-            {isContentVisible ? "expand_less" : "expand_more"}
-          </i>
-        </div>
+        {collapseOnDefault && (
+          <div
+            className="title"
+            onClick={() => setIsContentVisible(!isContentVisible)}
+          >
+            {structure.type.toString().toLowerCase().replace(/_/g, " ")}
+            <i className="material-icons style">
+              {isContentVisible ? "expand_less" : "expand_more"}
+            </i>
+          </div>
+        )}
 
         {isContentVisible && (
           <div className="content">
