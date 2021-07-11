@@ -5,7 +5,15 @@
     "tambahanLembaranNumber": 3674,
     "number": 8,
     "topic": "Dokumen Perusahaan",
-    "year": 1997
+    "year": 1997,
+    "status": [
+      "Mencabut Lain - Lain - Pasal 6 KUHD"
+    ],
+    "ketentuan_umum": {
+      "PERUSAHAAN": "setiap bentuk usaha yang melakukan kegiatan secara tetap dan terus menerus dengan tujuan memperoleh keuntungan dan atau laba, baik yang diselenggarakan oleh orang-perorangan maupun badan usaha yang berbentuk badan hukum atau bukan badan hukum, yang didirikan dan berkedudukan dalam wilayah Negara Republik Indonesia.",
+      "DOKUMEN PERUSAHAAN": "data, catatan, dan atau keterangan yang dibuat dan atau diterima oleh perusahaan dalam rangka pelaksanaan kegiatannya, baik tertulis di atas kertas atau sarana lain maupun terekam dalam bentuk corak apapun yang dapat dilihat, dibaca, atau didengar.",
+      "JADWAL RETENSI": "jangka waktu penyimpanan dokumen perusahaan yang disusun dalam suatu daftar sesuai dengan jenis dan nilai kegunaannya dan dipakai sebagai pedoman pemusnahan dokumen perusahaan."
+    }
   },
   "content": {
     "type": "UNDANG_UNDANG",
@@ -291,7 +299,7 @@
               },
               {
                 "type": "PLAINTEXT",
-                "text": "Dokumen perusahaan terdiri dari dokumen keuangan dan dokumen lainnya."
+                "text": "${Dokumen perusahaan} terdiri dari dokumen keuangan dan dokumen lainnya."
               }
             ]
           },
@@ -305,7 +313,7 @@
               },
               {
                 "type": "PLAINTEXT",
-                "text": "Dokumen keuangan terdiri dari catatan, bukti pembukuan, dan data pendukung administrasi keuangan, yang  merupakan bukti adanya hak dan kewajiban serta kegiatan usaha suatu perusahaan."
+                "text": "Dokumen keuangan terdiri dari catatan, bukti pembukuan, dan data pendukung administrasi keuangan, yang  merupakan bukti adanya hak dan kewajiban serta kegiatan usaha suatu ${perusahaan}."
               }
             ]
           },
@@ -319,7 +327,7 @@
               },
               {
                 "type": "PLAINTEXT",
-                "text": "Dokumen lainnya terdiri dari data atau setiap tulisan yang berisi keterangan yang mempunyai nilai guna bagi  perusahaan meskipun tidak terkait langsung dengan dokumen keuangan."
+                "text": "Dokumen lainnya terdiri dari data atau setiap tulisan yang berisi keterangan yang mempunyai nilai guna bagi  ${perusahaan} meskipun tidak terkait langsung dengan dokumen keuangan."
               }
             ]
           },
@@ -333,7 +341,7 @@
               },
               {
                 "type": "PLAINTEXT",
-                "text": "Catatan terdiri dari neraca tahunan, perhitungan laba rugi tahunan, rekening, jurnal transaksi harian, atau setiap  tulisan yang berisi keterangan mengenai hak dan kewajiban serta hal-hal lain yang berkaitan dengan kegiatan  usaha suatu perusahaan."
+                "text": "Catatan terdiri dari neraca tahunan, perhitungan laba rugi tahunan, rekening, jurnal transaksi harian, atau setiap  tulisan yang berisi keterangan mengenai hak dan kewajiban serta hal-hal lain yang berkaitan dengan kegiatan  usaha suatu ${perusahaan}."
               }
             ]
           },
@@ -465,7 +473,7 @@
                       },
                       {
                         "type": "PLAINTEXT",
-                        "text": "Setiap perusahaan wajib membuat catatan sebagaimana dimaksud dalam Pasal 5 sesuai dengan kebutuhan perusahaan."
+                        "text": "Setiap ${perusahaan} wajib membuat catatan sebagaimana dimaksud dalam Pasal 5 sesuai dengan kebutuhan ${perusahaan}."
                       }
                     ]
                   },
@@ -523,7 +531,7 @@
                       },
                       {
                         "type": "PLAINTEXT",
-                        "text": "Catatan yang berbentuk neraca tahunan, perhitungan laba rugi tahunan, atau tulisan lain yang menggambarkan neraca dan laba rugi, wajib ditandatangani oleh pimpinan perusahaan atau pejabat yang ditunjuk di lingkungan perusahaan yang bersangkutan."
+                        "text": "Catatan yang berbentuk neraca tahunan, perhitungan laba rugi tahunan, atau tulisan lain yang menggambarkan neraca dan laba rugi, wajib ditandatangani oleh pimpinan ${perusahaan} atau pejabat yang ditunjuk di lingkungan ${perusahaan} yang bersangkutan."
                       }
                     ]
                   },
@@ -537,7 +545,7 @@
                       },
                       {
                         "type": "PLAINTEXT",
-                        "text": "Dalam hal peraturan perundang-undangan yang berkaitan langsung dengan kegiatan perusahaan di bidang tertentu tidak menentukan lain, maka catatan sebagaimana dimaksud dalam ayat (1) wajib dibuat paling lambat 6 (enam) bulan terhitung sejak akhir tahun buku perusahaan yang bersangkutan."
+                        "text": "Dalam hal peraturan perundang-undangan yang berkaitan langsung dengan kegiatan ${perusahaan} di bidang tertentu tidak menentukan lain, maka catatan sebagaimana dimaksud dalam ayat (1) wajib dibuat paling lambat 6 (enam) bulan terhitung sejak akhir tahun buku ${perusahaan} yang bersangkutan."
                       }
                     ]
                   }
@@ -581,7 +589,7 @@
                       },
                       {
                         "type": "PLAINTEXT",
-                        "text": "Catatan yang berbentuk rekening, jurnal transaksi harian, atau setiap tulisan yang berisi keterangan mengenai hak dan kewajiban serta hal-hal lain yang berkaitan dengan kegiatan usaha suatu perusahaan sebagaimana dimaksud dalam Pasal 5, dibuat di atas kertas atau dalam sarana lainnya."
+                        "text": "Catatan yang berbentuk rekening, jurnal transaksi harian, atau setiap tulisan yang berisi keterangan mengenai hak dan kewajiban serta hal-hal lain yang berkaitan dengan kegiatan usaha suatu ${perusahaan} sebagaimana dimaksud dalam Pasal 5, dibuat di atas kertas atau dalam sarana lainnya."
                       }
                     ]
                   }
@@ -611,7 +619,7 @@
                       },
                       {
                         "type": "PLAINTEXT",
-                        "text": "Catatan sebagaimana dimaksud dalam Pasal 5, bukti pembukuan sebagaimana dimaksud dalam Pasal 6, dan data pendukung administrasi keuangan sebagaimana dimaksud dalam Pasal 7 ayat (2) huruf a, wajib disimpan selama 10 (sepuluh) tahun terhitung sejak akhir tahun buku perusahaan yang bersangkutan."
+                        "text": "Catatan sebagaimana dimaksud dalam Pasal 5, bukti pembukuan sebagaimana dimaksud dalam Pasal 6, dan data pendukung administrasi keuangan sebagaimana dimaksud dalam Pasal 7 ayat (2) huruf a, wajib disimpan selama 10 (sepuluh) tahun terhitung sejak akhir tahun buku ${perusahaan} yang bersangkutan."
                       }
                     ]
                   },
@@ -625,7 +633,7 @@
                       },
                       {
                         "type": "PLAINTEXT",
-                        "text": "Data pendukung administrasi keuangan sebagaimana dimaksud dalam Pasal 7 ayat (2) huruf b, jangka waktu penyimpanannya disesuaikan dengan kebutuhan perusahaan yang bersangkutan."
+                        "text": "Data pendukung administrasi keuangan sebagaimana dimaksud dalam Pasal 7 ayat (2) huruf b, jangka waktu penyimpanannya disesuaikan dengan kebutuhan ${perusahaan} yang bersangkutan."
                       }
                     ]
                   },
@@ -653,7 +661,7 @@
                       },
                       {
                         "type": "PLAINTEXT",
-                        "text": "Jangka waktu sebagaimana dimaksud dalam ayat (2) dan ayat (3), disusun oleh perusahaan yang bersangkutan dalam suatu jadwal retensi yang ditetapkan dengan keputusan pimpinan perusahaan."
+                        "text": "Jangka waktu sebagaimana dimaksud dalam ayat (2) dan ayat (3), disusun oleh ${perusahaan} yang bersangkutan dalam suatu ${jadwal retensi} yang ditetapkan dengan keputusan pimpinan ${perusahaan}."
                       }
                     ]
                   },
@@ -711,7 +719,7 @@
                       },
                       {
                         "type": "PLAINTEXT",
-                        "text": "Dokumen perusahaan dapat dialihkan ke dalam mikrofilm atau media lainnya."
+                        "text": "${Dokumen perusahaan} dapat dialihkan ke dalam mikrofilm atau media lainnya."
                       }
                     ]
                   },
@@ -725,7 +733,7 @@
                       },
                       {
                         "type": "PLAINTEXT",
-                        "text": "Pengalihan dokumen perusahaan ke dalam mikrofilm atau media lainnya sebagaimana dimaksud dalam ayat (1) dapat dilakukan sejak dokumen tersebut dibuat atau diterima oleh perusahaan yang bersangkutan."
+                        "text": "Pengalihan ${dokumen perusahaan} ke dalam mikrofilm atau media lainnya sebagaimana dimaksud dalam ayat (1) dapat dilakukan sejak dokumen tersebut dibuat atau diterima oleh perusahaan yang bersangkutan."
                       }
                     ]
                   },
@@ -739,7 +747,7 @@
                       },
                       {
                         "type": "PLAINTEXT",
-                        "text": "Dalam mengalihkan dokumen perusahaan sebagaimana dimaksud dalam ayat (1), pimpinan perusahaan wajib mempertimbangkan kegunaan naskah asli dokumen yang perlu tetap disimpan karena mengandung nilai tertentu demi kepentingan perusahaan atau kepentingan nasional."
+                        "text": "Dalam mengalihkan ${dokumen perusahaan} sebagaimana dimaksud dalam ayat (1), pimpinan perusahaan wajib mempertimbangkan kegunaan naskah asli dokumen yang perlu tetap disimpan karena mengandung nilai tertentu demi kepentingan perusahaan atau kepentingan nasional."
                       }
                     ]
                   },
@@ -753,7 +761,7 @@
                       },
                       {
                         "type": "PLAINTEXT",
-                        "text": "Dalam hal dokumen perusahaan yang dialihkan ke dalam mikrofilm atau media lainnya adalah naskah asli yang mempunyai kekuatan pembuktian otentik dan masih mengandung kepentingan hukum tertentu, pimpinan perusahaan wajib tetap menyimpan naskah asli tersebut."
+                        "text": "Dalam hal ${dokumen perusahaan} yang dialihkan ke dalam mikrofilm atau media lainnya adalah naskah asli yang mempunyai kekuatan pembuktian otentik dan masih mengandung kepentingan hukum tertentu, pimpinan perusahaan wajib tetap menyimpan naskah asli tersebut."
                       }
                     ]
                   }
@@ -771,7 +779,7 @@
               },
               {
                 "type": "PLAINTEXT",
-                "text": "Setiap pengalihan dokumen perusahaan sebagaimana dimaksud dalam Pasal 12 ayat (1) wajib dilegalisasi."
+                "text": "Setiap pengalihan ${dokumen perusahaan} sebagaimana dimaksud dalam Pasal 12 ayat (1) wajib dilegalisasi."
               }
             ]
           },
@@ -797,7 +805,7 @@
                       },
                       {
                         "type": "PLAINTEXT",
-                        "text": "Legalisasi sebagaimana dimaksud dalam Pasal 13 dilakukan oleh pimpinan perusahaan atau pejabat yang ditunjuk di lingkungan perusahaan yang bersangkutan, dengan dibuatkan berita acara."
+                        "text": "Legalisasi sebagaimana dimaksud dalam Pasal 13 dilakukan oleh pimpinan ${perusahaan} atau pejabat yang ditunjuk di lingkungan ${perusahaan} yang bersangkutan, dengan dibuatkan berita acara."
                       }
                     ]
                   },
@@ -841,7 +849,7 @@
                               },
                               {
                                 "type": "PLAINTEXT",
-                                "text": "keterangan bahwa pengalihan dokumen perusahaan yang dibuat di atas kertas ke dalam mikrofilm atau media lainnya telah dilakukan sesuai dengan aslinya; dan"
+                                "text": "keterangan bahwa pengalihan ${dokumen perusahaan} yang dibuat di atas kertas ke dalam mikrofilm atau media lainnya telah dilakukan sesuai dengan aslinya; dan"
                               }
                             ]
                           },
@@ -889,7 +897,7 @@
                       },
                       {
                         "type": "PLAINTEXT",
-                        "text": "Dokumen perusahaan yang telah dimuat dalam mikrofilm atau media lainnya sebagaimana dimaksud dalam Pasal 12 ayat (1) dan atau hasil cetaknya merupakan alat bukti yang sah."
+                        "text": "${Dokumen perusahaan} yang telah dimuat dalam mikrofilm atau media lainnya sebagaimana dimaksud dalam Pasal 12 ayat (1) dan atau hasil cetaknya merupakan alat bukti yang sah."
                       }
                     ]
                   },
@@ -903,7 +911,7 @@
                       },
                       {
                         "type": "PLAINTEXT",
-                        "text": "Apabila dianggap perlu dalam hal tertentu dan untuk keperluan tertentu dapat dilakukan legalisasi terhadap hasil cetak dokumen perusahaan yang telah dimuat dalam mikrofilm atau media lainnya."
+                        "text": "Apabila dianggap perlu dalam hal tertentu dan untuk keperluan tertentu dapat dilakukan legalisasi terhadap hasil cetak ${dokumen perusahaan} yang telah dimuat dalam mikrofilm atau media lainnya."
                       }
                     ]
                   }
@@ -921,7 +929,7 @@
               },
               {
                 "type": "PLAINTEXT",
-                "text": "Ketentuan lebih lanjut mengenai tata cara pengalihan dokumen perusahaan ke dalam mikrofilm atau media  lainnya dan legalisasi diatur dengan Peraturan Pemerintah."
+                "text": "Ketentuan lebih lanjut mengenai tata cara pengalihan ${dokumen perusahaan} ke dalam mikrofilm atau media  lainnya dan legalisasi diatur dengan Peraturan Pemerintah."
               }
             ]
           }
@@ -949,7 +957,7 @@
               },
               {
                 "type": "PLAINTEXT",
-                "text": "Pemindahan dokumen perusahaan dari unit pengolahan ke unit kearsipan di lingkungan perusahaan tersebut  dilakukan berdasarkan keputusan pimpinan perusahaan yang pelaksanaannya disesuaikan dengan kebutuhan  perusahaan yang bersangkutan."
+                "text": "Pemindahan ${dokumen perusahaan} dari unit pengolahan ke unit kearsipan di lingkungan perusahaan tersebut  dilakukan berdasarkan keputusan pimpinan perusahaan yang pelaksanaannya disesuaikan dengan kebutuhan  perusahaan yang bersangkutan."
               }
             ]
           },
@@ -975,7 +983,7 @@
                       },
                       {
                         "type": "PLAINTEXT",
-                        "text": "Dokumen perusahaan tertentu yang mempunyai nilai guna bagi kepentingan nasional wajib diserahkan kepada Arsip Nasional Republik Indonesia berdasarkan keputusan pimpinan perusahaan."
+                        "text": "${Dokumen perusahaan} tertentu yang mempunyai nilai guna bagi kepentingan nasional wajib diserahkan kepada Arsip Nasional Republik Indonesia berdasarkan keputusan pimpinan perusahaan."
                       }
                     ]
                   },
@@ -1081,7 +1089,7 @@
                       },
                       {
                         "type": "PLAINTEXT",
-                        "text": "Pemusnahan catatan, bukti pembukuan, dan data pendukung administrasi keuangan sebagaimana dimaksud dalam Pasal 11 ayat (1) dilaksanakan berdasarkan keputusan pimpinan perusahaan."
+                        "text": "Pemusnahan catatan, bukti pembukuan, dan data pendukung administrasi keuangan sebagaimana dimaksud dalam Pasal 11 ayat (1) dilaksanakan berdasarkan keputusan pimpinan ${perusahaan}."
                       }
                     ]
                   },
@@ -1095,7 +1103,7 @@
                       },
                       {
                         "type": "PLAINTEXT",
-                        "text": "Pemusnahan data pendukung administrasi keuangan sebagaimana dimaksud dalam Pasal 11 ayat (2) dan dokumen lainnya sebagaimana dimaksud dalam Pasal 11 ayat (3) dilaksanakan berdasarkan jadwal retensi."
+                        "text": "Pemusnahan data pendukung administrasi keuangan sebagaimana dimaksud dalam Pasal 11 ayat (2) dan dokumen lainnya sebagaimana dimaksud dalam Pasal 11 ayat (3) dilaksanakan berdasarkan ${jadwal retensi}."
                       }
                     ]
                   },
@@ -1109,7 +1117,7 @@
                       },
                       {
                         "type": "PLAINTEXT",
-                        "text": "Pimpinan perusahaan yang bertanggung jawab atas pemusnahan dokumen perusahaan atau pejabat lain yang ditunjuk, bertanggung jawab atas segala kerugian perusahaan dan atau pihak ketiga dalam hal:"
+                        "text": "Pimpinan perusahaan yang bertanggung jawab atas pemusnahan ${dokumen perusahaan} atau pejabat lain yang ditunjuk, bertanggung jawab atas segala kerugian perusahaan dan atau pihak ketiga dalam hal:"
                       },
                       {
                         "type": "LIST",
@@ -1125,7 +1133,7 @@
                               },
                               {
                                 "type": "PLAINTEXT",
-                                "text": "pemusnahan dokumen perusahaan dilakukan sebelum habis jangka waktu wajib simpan sebagaimana dimaksud dalam Pasal 11 ayat (1); atau"
+                                "text": "pemusnahan ${dokumen perusahaan} dilakukan sebelum habis jangka waktu wajib simpan sebagaimana dimaksud dalam Pasal 11 ayat (1); atau"
                               }
                             ]
                           },
@@ -1139,7 +1147,7 @@
                               },
                               {
                                 "type": "PLAINTEXT",
-                                "text": "pemusnahan dokumen perusahaan dilakukan, sedangkan diketahui atau patut diketahui bahwa dokumen perusahaan tersebut masih tetap harus disimpan, karena mempunyai nilai guna baik yang berkaitan dengan kekayaan, hak, dan kewajiban perusahaan maupun kepentingan lainnya."
+                                "text": "pemusnahan ${dokumen perusahaan} dilakukan, sedangkan diketahui atau patut diketahui bahwa ${dokumen perusahaan} tersebut masih tetap harus disimpan, karena mempunyai nilai guna baik yang berkaitan dengan kekayaan, hak, dan kewajiban perusahaan maupun kepentingan lainnya."
                               }
                             ]
                           }
@@ -1161,7 +1169,7 @@
               },
               {
                 "type": "PLAINTEXT",
-                "text": "Pemusnahan dokumen perusahaan yang telah dialihkan ke dalam mikrofilm atau media lainnya, dapat segera  dilakukan kecuali ditentukan lain oleh pimpinan perusahaan, berdasarkan ketentuan Pasal 12 ayat (3) dan ayat  (4)."
+                "text": "Pemusnahan ${dokumen perusahaan} yang telah dialihkan ke dalam mikrofilm atau media lainnya, dapat segera  dilakukan kecuali ditentukan lain oleh pimpinan perusahaan, berdasarkan ketentuan Pasal 12 ayat (3) dan ayat  (4)."
               }
             ]
           },
@@ -1267,7 +1275,7 @@
               },
               {
                 "type": "PLAINTEXT",
-                "text": "Ketentuan lebih lanjut mengenai tata cara penyerahan dan pemusnahan dokumen perusahaan diatur dengan  Peraturan Pemerintah."
+                "text": "Ketentuan lebih lanjut mengenai tata cara penyerahan dan pemusnahan ${dokumen perusahaan} diatur dengan  Peraturan Pemerintah."
               }
             ]
           }
@@ -1323,7 +1331,7 @@
               },
               {
                 "type": "PLAINTEXT",
-                "text": "Dokumen perusahaan yang pemusnahannya telah dimintakan pertimbangan kepada Ketua Badan Pemeriksa  Keuangan, dan dalam waktu 1 (satu) tahun terhitung sejak tanggal mulai berlakunya Undang-undang ini  pertimbangan tersebut belum diberikan, pemusnahannya dilakukan berdasarkan ketentuan dalam Undang undang ini."
+                "text": "${Dokumen perusahaan} yang pemusnahannya telah dimintakan pertimbangan kepada Ketua Badan Pemeriksa  Keuangan, dan dalam waktu 1 (satu) tahun terhitung sejak tanggal mulai berlakunya Undang-undang ini  pertimbangan tersebut belum diberikan, pemusnahannya dilakukan berdasarkan ketentuan dalam Undang undang ini."
               }
             ]
           },
@@ -1337,7 +1345,7 @@
               },
               {
                 "type": "PLAINTEXT",
-                "text": "Dokumen perusahaan yang pemusnahannya telah dimintakan persetujuan kepada Kepala Arsip Nasional  Republik Indonesia, dan dalam waktu 1 (satu) tahun terhitung sejak tanggal mulai berlakunya Undang-undang  ini persetujuan tersebut belum diberikan, pemusnahannya dilakukan berdasarkan ketentuan dalam Undang undang ini."
+                "text": "${Dokumen perusahaan} yang pemusnahannya telah dimintakan persetujuan kepada Kepala Arsip Nasional  Republik Indonesia, dan dalam waktu 1 (satu) tahun terhitung sejak tanggal mulai berlakunya Undang-undang  ini persetujuan tersebut belum diberikan, pemusnahannya dilakukan berdasarkan ketentuan dalam Undang undang ini."
               }
             ]
           },
@@ -1351,7 +1359,7 @@
               },
               {
                 "type": "PLAINTEXT",
-                "text": "Dokumen perusahaan yang jadwal retensinya sedang dimintakan persetujuan kepada Kepala Arsip Nasional  Republik Indonesia, dan dalam waktu 1 (satu) tahun terhitung sejak tanggal mulai berlakunya Undang-undang  ini persetujuan tersebut belum diberikan, jadwal retensi dan pemusnahannya ditetapkan berdasarkan ketentuan  dalam Undang- undang ini."
+                "text": "${Dokumen perusahaan} yang jadwal retensinya sedang dimintakan persetujuan kepada Kepala Arsip Nasional  Republik Indonesia, dan dalam waktu 1 (satu) tahun terhitung sejak tanggal mulai berlakunya Undang-undang  ini persetujuan tersebut belum diberikan, jadwal retensi dan pemusnahannya ditetapkan berdasarkan ketentuan  dalam Undang- undang ini."
               }
             ]
           }
@@ -1395,7 +1403,7 @@
                       },
                       {
                         "type": "PLAINTEXT",
-                        "text": "kantor perwakilan, kantor cabang, agen perusahaan Indonesia atau yang disamakan dengan itu, yang mempunyai kegiatan usaha di luar wilayah Negara Republik Indonesia, dengan tetap memperhatikan ketentuan yang berlaku di negara setempat;"
+                        "text": "kantor perwakilan, kantor cabang, agen ${perusahaan} Indonesia atau yang disamakan dengan itu, yang mempunyai kegiatan usaha di luar wilayah Negara Republik Indonesia, dengan tetap memperhatikan ketentuan yang berlaku di negara setempat;"
                       }
                     ]
                   },
@@ -1409,7 +1417,7 @@
                       },
                       {
                         "type": "PLAINTEXT",
-                        "text": "kantor perwakilan, kantor cabang, agen perusahaan asing atau yang disamakan dengan itu, yang mempunyai kegiatan usaha di wilayah Negara Republik Indonesia; dan"
+                        "text": "kantor perwakilan, kantor cabang, agen ${perusahaan} asing atau yang disamakan dengan itu, yang mempunyai kegiatan usaha di wilayah Negara Republik Indonesia; dan"
                       }
                     ]
                   },
@@ -1423,7 +1431,7 @@
                       },
                       {
                         "type": "PLAINTEXT",
-                        "text": "badan atau lembaga yang tidak termasuk dalam pengertian perusahaan sebagaimana dimaksud dalam Pasal 1 angka 1, yang dalam kegiatan dan atau tugasnya memiliki dan menghasilkan dokumen sebagaimana layaknya perusahaan."
+                        "text": "badan atau lembaga yang tidak termasuk dalam pengertian ${perusahaan} sebagaimana dimaksud dalam Pasal 1 angka 1, yang dalam kegiatan dan atau tugasnya memiliki dan menghasilkan dokumen sebagaimana layaknya ${perusahaan}."
                       }
                     ]
                   }
@@ -1485,7 +1493,7 @@
                       },
                       {
                         "type": "PLAINTEXT",
-                        "text": "semua peraturan perundang-undangan yang berkaitan dengan dokumen perusahaan dan ketentuan peraturan perundang-undangan yang berkaitan dengan penyimpanan, pemindahan, penyerahan, dan pemusnahan arsip yang bertentangan dengan Undang-undang ini, dinyatakan tidak berlaku lagi."
+                        "text": "semua peraturan perundang-undangan yang berkaitan dengan ${dokumen perusahaan} dan ketentuan peraturan perundang-undangan yang berkaitan dengan penyimpanan, pemindahan, penyerahan, dan pemusnahan arsip yang bertentangan dengan Undang-undang ini, dinyatakan tidak berlaku lagi."
                       }
                     ]
                   }

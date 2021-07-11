@@ -1,7 +1,13 @@
-from typing import List
+from typing import Dict, List, Union
 import re
+from parser_types import ListIndexDefinition, Structure
+from parser_ui import print_line, print_yes_no
+import pyperclip
 
-from parser_types import Structure
+
+def group(regex, name):
+    return fr'(?P<{name}>{regex})'
+
 
 OPEN_QUOTE_CHAR = '“'
 CLOSE_QUOTE_CHAR = '”'
@@ -14,22 +20,15 @@ BAB_NUMBER_WITH_OPEN_QUOTE_CHAR_REGEX = r'(“BAB [MDCLXVI]+[A-Z]*)'
 BAGIAN_NUMBER_REGEX = r'(Bagian (Ke[a-z]+( (Belas|Puluh( [A-z][a-z]+)?))?|Pertama))'
 BAGIAN_NUMBER_WITH_OPEN_QUOTE_CHAR_REGEX = r'(“Bagian (Ke[a-z]+( (Belas|Puluh( [A-z][a-z]+)?))?|Pertama))'
 
-LETTER_WITH_DOT_REGEX = r'([a-z]\.)'
-NUMBER_WITH_BRACKETS_REGEX = r'(\([0-9]+[a-z]?\))'
-NUMBER_WITH_BRACKETS_ALPHANUMERIC_VARIANT_REGEX = r'(\([0-9]+[a-z]\))'
-NUMBER_WITH_RIGHT_BRACKET_REGEX = r'([0-9]+\))'
-NUMBER_WITH_DOT_REGEX = r'([0-9]+[a-z]?\.)'
-NUMBER_WITH_DOT_ALPHANUMERIC_VARIANT_REGEX = r'([0-9]+[a-z]\.)'
-
-PENJELASAN_AYAT_REGEX = r'(Ayat \([0-9]+[a-z]?\))'
-PENJELASAN_AYAT_ALPHANUMERIC_VARIANT_REGEX = r'(Ayat \([0-9]+[a-z]\))'
-
-PENJELASAN_HURUF_REGEX = r'(Huruf [a-z])'
-PENJELASAN_ANGKA_REGEX = r'(Angka [0-9]+)'
-
 PAGE_NUMBER_REGEX = r'([0-9]+[\s]*\/[\s]*[0-9]+)'
 
-PENJELASAN_PASAL_DEMI_PASAL_REGEX = r'((II\.? )?PASAL DEMI PASAL)'
+PLUS_OR_MINUS_REGEX = group(r' \((-|\+)\)', 'plus_or_minus')
+CURRENCY_REGEX = group(r'Rp\.?\s*[0-9]+(\.[0-9]{3})+,00', 'currency')
+CURRENCY_WITH_PLUS_MINUS_REGEX = fr'({CURRENCY_REGEX}(\.?|{PLUS_OR_MINUS_REGEX}?))'
+FORMATTED_MATH_ROW_SPLIT_REGEX = group(
+    fr'(=\s*)?{CURRENCY_WITH_PLUS_MINUS_REGEX}$', 'full')
+
+PENJELASAN_PASAL_DEMI_PASAL_REGEX = r'((II\.? )?((PENJELASAN )?PASAL DEMI PASAL|Pasal Demi Pasal))'
 
 LINE_ENDING_REGEXES = [
     r'(;)',
@@ -37,6 +36,7 @@ LINE_ENDING_REGEXES = [
     r'(\.)',
     r'(; dan/atau)',
     r'(; dan)',
+    r'(; atau)',
     r'(,)',
     r'(' + CLOSE_QUOTE_CHAR + r')'
 ]
@@ -46,6 +46,95 @@ START_OF_PERUBAHAN_SECTION_REGEXES = [
     BAB_NUMBER_WITH_OPEN_QUOTE_CHAR_REGEX,
     BAGIAN_NUMBER_WITH_OPEN_QUOTE_CHAR_REGEX,
 ]
+
+ALPHANUMERIC_NUMBER_ALPHABET = group(fr'[a-z]?', 'alphabet')
+ALPHANUMERIC_NUMBER = group(fr'[0-9]+{ALPHANUMERIC_NUMBER_ALPHABET}', 'number')
+ALPHABET_NUMBER = group(fr'[a-z]', 'number')
+
+'''
+When adding a new list index:
+(1) The 'regex' field must have the following named capture groups:
+    - full: should capture the whole list index
+    - number: should capture the numeric part of the list index e.g '4a' in '(4a)'
+'''
+LIST_INDEX_DEFINITIONS: Dict[Structure, ListIndexDefinition] = {
+    Structure.LETTER_WITH_DOT:
+        {
+            'regex': group(fr'{ALPHABET_NUMBER}\.', 'full'),
+            'is_penjelasan_list_index': False,
+            'first_list_index': 'a.',
+        },
+    Structure.LETTER_WITH_BRACKETS:
+        {
+            'regex': group(fr'\({ALPHABET_NUMBER}\)', 'full'),
+            'is_penjelasan_list_index': False,
+            'first_list_index': '(a)',
+        },
+    Structure.NUMBER_WITH_BRACKETS:
+        {
+            'regex': group(fr'\({ALPHANUMERIC_NUMBER}\)', 'full'),
+            'is_penjelasan_list_index': False,
+            'first_list_index': '(1)',
+        },
+    Structure.NUMBER_WITH_RIGHT_BRACKET:
+        {
+            'regex': group(fr'{ALPHANUMERIC_NUMBER}\)', 'full'),
+            'is_penjelasan_list_index': False,
+            'first_list_index': '1)',
+        },
+    Structure.NUMBER_WITH_DOT:
+        {
+            'regex': group(fr'{ALPHANUMERIC_NUMBER}\.', 'full'),
+            'is_penjelasan_list_index': False,
+            'first_list_index': '1.',
+        },
+    Structure.PENJELASAN_AYAT:
+        {
+            'regex': group(fr'Ayat \({ALPHANUMERIC_NUMBER}\)', 'full'),
+            'is_penjelasan_list_index': True,
+            'first_list_index': 'Ayat (1)',
+        },
+    Structure.PENJELASAN_HURUF:
+        {
+            'regex': group(fr'Huruf {ALPHABET_NUMBER}', 'full'),
+            'is_penjelasan_list_index': True,
+            'first_list_index': 'Huruf a',
+        },
+    Structure.PENJELASAN_ANGKA:
+        {
+            'regex': group(fr'Angka {ALPHANUMERIC_NUMBER}', 'full'),
+            'is_penjelasan_list_index': True,
+            'first_list_index': 'Angka 1',
+        },
+    Structure.PENJELASAN_ANGKA_WITH_RIGHT_BRACKET:
+        {
+            'regex': group(fr'Angka {ALPHANUMERIC_NUMBER}\)', 'full'),
+            'is_penjelasan_list_index': True,
+            'first_list_index': 'Angka 1)',
+        }
+}
+
+PENJELASAN_LIST_INDEX_DEFINITIONS = {
+    k: v for k, v in LIST_INDEX_DEFINITIONS.items() if v['is_penjelasan_list_index'] == True}
+
+PENJELASAN_LIST_INDEX_REGEXES: List[str] = []
+for definition in PENJELASAN_LIST_INDEX_DEFINITIONS.values():
+    regex = definition['regex']
+    assert isinstance(regex, str)
+    PENJELASAN_LIST_INDEX_REGEXES.append(regex)
+
+LIST_INDEX_STRUCTURES = set(LIST_INDEX_DEFINITIONS.keys())
+NORMAL_LIST_INDEX_STRUCTURES = set(filter(
+    lambda s: LIST_INDEX_DEFINITIONS[s]['is_penjelasan_list_index'] == False,
+    LIST_INDEX_DEFINITIONS.keys()
+))
+PENJELASAN_LIST_INDEX_STRUCTURES = set(filter(
+    lambda s: LIST_INDEX_DEFINITIONS[s]['is_penjelasan_list_index'] == True,
+    LIST_INDEX_DEFINITIONS.keys()
+))
+
+FIRST_LIST_INDEXES = set([e['first_list_index']
+                         for e in LIST_INDEX_DEFINITIONS.values()])
 
 
 def is_start_of_structure(structure: Structure, law: List[str], start_index: int) -> bool:
@@ -73,7 +162,16 @@ def is_start_of_structure(structure: Structure, law: List[str], start_index: int
         >>> is_start_of_structure(Structure.UU_TITLE_TOPIC, law, 0)
         False
     """
-    if structure == Structure.UNDANG_UNDANG:
+    # LIST INDEXES
+    if structure in LIST_INDEX_STRUCTURES:
+        regex = LIST_INDEX_DEFINITIONS[structure]['regex']
+        assert isinstance(regex, str)
+        return is_heading(
+            regex,
+            law[start_index]
+        )
+    # UNDANG UNDANG
+    elif structure == Structure.UNDANG_UNDANG:
         return is_start_of_undang_undang(law, start_index)
     # AGREEMENT
     elif structure == Structure.OPENING:
@@ -142,20 +240,6 @@ def is_start_of_structure(structure: Structure, law: List[str], start_index: int
         return is_start_of_list_item(law, start_index)
     elif structure == Structure.LIST_INDEX:
         return is_start_of_list_index(law, start_index)
-    elif structure == Structure.LETTER_WITH_DOT:
-        return is_start_of_letter_with_dot(law, start_index)
-    elif structure == Structure.NUMBER_WITH_DOT:
-        return is_start_of_number_with_dot(law, start_index)
-    elif structure == Structure.NUMBER_WITH_BRACKETS:
-        return is_start_of_number_with_brackets(law, start_index)
-    elif structure == Structure.NUMBER_WITH_RIGHT_BRACKET:
-        return is_start_of_number_with_right_bracket(law, start_index)
-    elif structure == Structure.PENJELASAN_AYAT:
-        return is_start_of_penjelasan_ayat(law, start_index)
-    elif structure == Structure.PENJELASAN_HURUF:
-        return is_start_of_penjelasan_huruf(law, start_index)
-    elif structure == Structure.PENJELASAN_ANGKA:
-        return is_start_of_penjelasan_angka(law, start_index)
     # CLOSING
     elif structure == Structure.CLOSING:
         return is_start_of_closing(law, start_index)
@@ -184,6 +268,8 @@ def is_start_of_structure(structure: Structure, law: List[str], start_index: int
         return is_start_of_unordered_list_item(law, start_index)
     elif structure == Structure.UNORDERED_LIST_INDEX:
         return is_start_of_unordered_list_index(law, start_index)
+    elif structure == Structure.FORMATTED_MATH_ROW:
+        return is_start_of_formatted_math_row(law, start_index)
     # OTHERS
     elif structure == Structure.PLAINTEXT:
         return is_start_of_plaintext(law, start_index)
@@ -899,7 +985,7 @@ def is_start_of_penjelasan_umum(law: List[str], start_index: int) -> bool:
 
 
 def is_start_of_penjelasan_umum_title(law: List[str], start_index: int) -> bool:
-    return is_heading(r'I. UMUM', law[start_index])
+    return is_heading(r'(I\. )?UMUM', law[start_index]) or is_heading(r'PENJELASAN UMUM', law[start_index])
 
 
 def is_start_of_penjelasan_title(law: List[str], start_index: int) -> bool:
@@ -938,7 +1024,12 @@ def is_start_of_penjelasan_title(law: List[str], start_index: int) -> bool:
             law[start_index+1],
     )
 
-    return heuristic_1 or heuristic_2 or heuristic_3
+    heuristic_4 = is_heading(r'PENJELASAN', law[start_index]) and \
+        is_heading(r'ATAS', law[start_index+1]) and \
+        is_heading(
+            r'UNDANG-UNDANG NOMOR [0-9]+ TAHUN [0-9]{4}', law[start_index+2])
+
+    return heuristic_1 or heuristic_2 or heuristic_3 or heuristic_4
 
 
 def is_start_of_penjelasan_pasal_demi_pasal(law: List[str], start_index: int) -> bool:
@@ -1052,248 +1143,28 @@ def is_start_of_list_index_str(list_index_str: str) -> bool:
     """
     See is_start_of_list_index
     """
-    return is_start_of_letter_with_dot_str(list_index_str) or \
-        is_start_of_number_with_dot_str(list_index_str) or \
-        is_start_of_number_with_brackets_str(list_index_str) or \
-        is_start_of_number_with_right_bracket_str(list_index_str) or \
-        is_start_of_penjelasan_ayat_str(list_index_str) or \
-        is_start_of_penjelasan_huruf_str(list_index_str) or \
-        is_start_of_penjelasan_angka_str(list_index_str)
+    for list_index_definition in LIST_INDEX_DEFINITIONS.values():
+        regex = list_index_definition['regex']
+        assert isinstance(regex, str)
+
+        if is_heading(regex, list_index_str):
+            return True
+
+    return False
 
 
 def is_start_of_penjelasan_list_index_str(list_index_str: str) -> bool:
     """
     See is_start_of_list_index
     """
-    return is_start_of_penjelasan_ayat_str(list_index_str) or \
-        is_start_of_penjelasan_huruf_str(list_index_str) or \
-        is_start_of_penjelasan_angka_str(list_index_str)
+    for list_index_definition in PENJELASAN_LIST_INDEX_DEFINITIONS.values():
+        regex = list_index_definition['regex']
+        assert isinstance(regex, str)
 
+        if is_heading(regex, list_index_str):
+            return True
 
-'''
-This pattern below is somewhat redundant and can probably be removed
-down the line; for now it's necessary (ctrl+f the callsites to see why)
-'''
-
-
-def is_start_of_letter_with_dot(law: List[str], start_index: int) -> bool:
-    """See documentation for is_start_of_letter_with_dot_str
-
-    Args:
-        law: ordered list of strings that contain the text of the law we want to parse
-        start_index: law[start_index] indicates the 1st line of the structure we want to check
-
-    Returns:
-        bool: True if law[start_index] marks the start of a LETTER_WITH_DOT structure; False otherwise
-
-    Examples:
-        e.g
-        >>> law = [
-        ...     'a.',
-        ...     'dengan adanya...',
-        ...     'b.',
-        ... ]
-
-        >>> is_start_of_letter_with_dot(law, 0)
-        True
-
-        >>> is_start_of_letter_with_dot(law, 1)
-        False
-
-        >>> is_start_of_letter_with_dot(law, 2)
-        True
-    """
-    line = law[start_index].split()[0]
-    return is_start_of_letter_with_dot_str(line)
-
-
-def is_start_of_letter_with_dot_str(string: str) -> bool:
-    """Check if string marks the start of a LETTER_WITH_DOT structure.
-
-    e.g consider this LIST structure
-    >>> [
-    ...     'a.' # LIST_INDEX
-    ...     'dengan adanya cara baru...',
-    ...     'b.' # LIST_INDEX
-    ...     'yang dimaksud oleh...',
-    ...     '(1)', # LIST_INDEX
-    ...     'karena data...',
-    ... ]
-
-    'a.' and 'b.' marks the start of a LETTER_WITH_DOT, but not '(1)'
-
-    Args:
-        string: self-descriptive
-
-    Returns:
-        bool: True if string marks the start of a LETTER_WITH_DOT structure; False otherwise
-
-    Examples:
-        >>> is_start_of_letter_with_dot_str('a.')
-        True
-
-        >>> is_start_of_letter_with_dot_str('1.')
-        False
-    """
-    return is_heading(LETTER_WITH_DOT_REGEX, string)
-
-
-def is_start_of_number_with_dot(law: List[str], start_index: int) -> bool:
-    """See documentation for is_start_of_number_with_dot_str
-
-    Args:
-        law: ordered list of strings that contain the text of the law we want to parse
-        start_index: law[start_index] indicates the 1st line of the structure we want to check
-
-    Returns:
-        bool: True if law[start_index] marks the start of a NUMBER_WITH_DOT structure; False otherwise
-
-    Examples:
-        e.g
-        >>> law = [
-        ...     '1.',
-        ...     'dengan adanya...',
-        ...     '2.',
-        ... ]
-
-        >>> is_start_of_number_with_dot(law, 0)
-        True
-
-        >>> is_start_of_number_with_dot(law, 1)
-        False
-
-        >>> is_start_of_number_with_dot(law, 2)
-        True
-    """
-    line = law[start_index].split()[0]
-    return is_start_of_number_with_dot_str(line)
-
-
-def is_start_of_number_with_dot_str(string: str) -> bool:
-    """Check if string marks the start of a NUMBER_WITH_DOT structure.
-
-    e.g consider this LIST structure
-    >>> [
-    ...     '1.' # LIST_INDEX
-    ...     'dengan adanya cara baru...',
-    ...     '2.' # LIST_INDEX
-    ...     'yang dimaksud oleh...',
-    ...     '(1)', # LIST_INDEX
-    ...     'karena data...',
-    ... ]
-
-    '1.' and '2.' marks the start of a NUMBER_WITH_DOT, but not '(1)'
-
-    Args:
-        string: self-descriptive
-
-    Returns:
-        bool: True if string marks the start of a NUMBER_WITH_DOT structure; False otherwise
-
-    Examples:
-        >>> is_start_of_number_with_dot_str('2.')
-        True
-
-        >>> is_start_of_number_with_dot_str('b.')
-        False
-    """
-    return is_heading(NUMBER_WITH_DOT_REGEX, string)
-
-
-def is_start_of_number_with_brackets(law: List[str], start_index: int) -> bool:
-    """See documentation for is_start_of_number_with_brackets_str
-
-    Args:
-        law: ordered list of strings that contain the text of the law we want to parse
-        start_index: law[start_index] indicates the 1st line of the structure we want to check
-
-    Returns:
-        bool: True if law[start_index] marks the start of a NUMBER_WITH_BRACKETS structure; False otherwise
-
-    Examples:
-        e.g
-        >>> law = [
-        ...     '(1)',
-        ...     'dengan adanya...',
-        ...     '(2)',
-        ... ]
-
-        >>> is_start_of_number_with_brackets(law, 0)
-        True
-
-        >>> is_start_of_number_with_brackets(law, 1)
-        False
-
-        >>> is_start_of_number_with_brackets(law, 2)
-        True
-    """
-    line = law[start_index].split()[0]
-    return is_start_of_number_with_brackets_str(line)
-
-
-def is_start_of_number_with_brackets_str(string: str) -> bool:
-    """Check if string marks the start of a NUMBER_WITH_BRACKETS structure.
-
-    e.g consider this LIST structure
-    >>> [
-    ...     '(1)' # LIST_INDEX
-    ...     'dengan adanya cara baru...',
-    ...     '(2)' # LIST_INDEX
-    ...     'yang dimaksud oleh...', 
-    ...     'a.', # LIST_INDEX
-    ...     'karena data...',
-    ... ]
-
-    '(1)' and '(2)' marks the start of a NUMBER_WITH_BRACKETS, but not 'a.'
-
-    Args:
-        string: self-descriptive
-
-    Returns:
-        bool: True if string marks the start of a NUMBER_WITH_BRACKETS structure; False otherwise
-
-    Examples:
-        >>> is_start_of_number_with_brackets_str('(2)')
-        True
-
-        >>> is_start_of_number_with_brackets_str('b.')
-        False
-    """
-    return is_heading(NUMBER_WITH_BRACKETS_REGEX, string)
-
-
-def is_start_of_number_with_right_bracket(law: List[str], start_index: int) -> bool:
-    """See documentation for is_start_of_number_with_right_bracket_str"""
-    line = law[start_index].split()[0]
-    return is_start_of_number_with_right_bracket_str(line)
-
-
-def is_start_of_number_with_right_bracket_str(string: str) -> bool:
-    return is_heading(NUMBER_WITH_RIGHT_BRACKET_REGEX, string)
-
-
-def is_start_of_penjelasan_ayat(law: List[str], start_index: int) -> bool:
-    return is_start_of_penjelasan_ayat_str(law[start_index])
-
-
-def is_start_of_penjelasan_ayat_str(string: str) -> bool:
-    return is_heading(PENJELASAN_AYAT_REGEX, string)
-
-
-def is_start_of_penjelasan_huruf(law: List[str], start_index: int) -> bool:
-    return is_start_of_penjelasan_huruf_str(law[start_index])
-
-
-def is_start_of_penjelasan_huruf_str(string: str) -> bool:
-    return is_heading(PENJELASAN_HURUF_REGEX, string)
-
-
-def is_start_of_penjelasan_angka(law: List[str], start_index: int) -> bool:
-    return is_start_of_penjelasan_angka_str(law[start_index])
-
-
-def is_start_of_penjelasan_angka_str(string: str) -> bool:
-    return is_heading(PENJELASAN_ANGKA_REGEX, string)
+    return False
 
 
 def is_start_of_unordered_list(law: List[str], start_index: int) -> bool:
@@ -1314,6 +1185,30 @@ def is_start_of_unordered_list_index_str(string: str) -> bool:
     return is_heading('\u2212', string) or is_heading('-', string)
 
 
+def is_start_of_formatted_math_row(law: List[str], start_index: int) -> bool:
+    line = law[start_index]
+
+    match = re.search(FORMATTED_MATH_ROW_SPLIT_REGEX, line)
+    if match is None:
+        return False
+
+    print_line()
+    print(line)
+    print_line()
+    print('Is this line a FORMATTED_MATH_ROW?')
+
+    pyperclip.copy(line)
+    while True:
+        print_yes_no()
+        user_input = input()
+        if user_input == 'y':
+            return True
+        elif user_input == 'n':
+            return False
+        else:
+            print('Invalid input - try again!')
+
+
 def is_start_of_plaintext(law: List[str], start_index: int) -> bool:
     # TODO: This is hilariously dumb. We should take in a list of the other
     # child structures as an argument and check against that instead
@@ -1332,18 +1227,6 @@ def is_start_of_first_list_index(string: str) -> bool:
     """Check if string marks the start of a 'first' LIST_INDEX structure. 'First' in this 
     context refers to a LIST_INDEX structure that appears at the beginning of a LIST structure.
     See below for examples. In the future, we may need to also include alphanumeric strings e.g '1a.'
-
-    e.g consider this LIST structure
-    >>> [
-    ...    '1.' # LIST_INDEX
-    ...    'dengan adanya cara baru...', # PLAINTEXT
-    ...    '2.' # LIST_INDEX
-    ...    'yang dimaksud oleh...', # PLAINTEXT
-    ... ]
-
-    In the example above, '1.' is a first LIST_INDEX and '2.' is not, because
-    only '1.' can appear at the beginning of a LIST.
-
 
     Args:
         string: self-descriptive
@@ -1380,7 +1263,7 @@ def is_start_of_first_list_index(string: str) -> bool:
         False
     """
     list_index = string.strip()
-    return list_index in set(['a.', '1.', '(1)', '1)', 'Huruf a', 'Ayat (1)', 'Angka 1'])
+    return list_index in FIRST_LIST_INDEXES
 
 
 def is_heading(regex: str, string: str) -> bool:

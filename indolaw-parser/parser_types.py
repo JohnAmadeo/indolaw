@@ -1,6 +1,6 @@
 
 from enum import Enum
-from typing import List, Optional, Union
+from typing import Any, Dict, List, Optional, Union
 from typing_extensions import TypedDict
 
 
@@ -56,15 +56,19 @@ class Structure(Enum):
     NUMBER_WITH_RIGHT_BRACKET = "NUMBER_WITH_RIGHT_BRACKET"
     NUMBER_WITH_DOT = "NUMBER_WITH_DOT"
     LETTER_WITH_DOT = "LETTER_WITH_DOT"
+    LETTER_WITH_BRACKETS = "LETTER_WITH_BRACKETS"
     PENJELASAN_HURUF = "PENJELASAN_HURUF"
     PENJELASAN_AYAT = "PENJELASAN_AYAT"
     PENJELASAN_ANGKA = "PENJELASAN_ANGKA"
+    PENJELASAN_ANGKA_WITH_RIGHT_BRACKET = "PENJELASAN_ANGKA_WITH_RIGHT_BRACKET"
+    FORMATTED_MATH_ROW = "FORMATTED_MATH_ROW"
 
 
 TEXT_BLOCK_STRUCTURES = [
+    Structure.FORMATTED_MATH_ROW,
     Structure.PLAINTEXT,
     Structure.LIST,
-    Structure.UNORDERED_LIST
+    Structure.UNORDERED_LIST,
 ]
 
 '''
@@ -81,34 +85,15 @@ PRIMITIVE_STRUCTURES = [
     Structure.PARAGRAF_TITLE
 ]
 
-LIST_INDEX_STRUCTURES = [
-    Structure.NUMBER_WITH_BRACKETS,
-    Structure.NUMBER_WITH_RIGHT_BRACKET,
-    Structure.NUMBER_WITH_DOT,
-    Structure.LETTER_WITH_DOT,
-    Structure.PENJELASAN_AYAT,
-    Structure.PENJELASAN_HURUF,
-    Structure.PENJELASAN_ANGKA,
-]
 
-NORMAL_LIST_INDEX_STRUCTURES = [
-    Structure.NUMBER_WITH_BRACKETS,
-    Structure.NUMBER_WITH_RIGHT_BRACKET,
-    Structure.NUMBER_WITH_DOT,
-    Structure.LETTER_WITH_DOT,
-]
-
-PENJELASAN_LIST_INDEX_STRUCTURES = [
-    Structure.PENJELASAN_AYAT,
-    Structure.PENJELASAN_HURUF,
-    Structure.PENJELASAN_ANGKA,
-]
+ListIndexDefinition = Dict[str, Union[str, bool]]
 
 
 class PrimitiveNode:
     '''
-    A primitive node is a node whose content is a string, as opposed to a
-    list of other nodes.
+    A primitive node is a node:
+    a) which doesn't have children nodes
+    b) whose content is a string
 
     If we look at the tree of nodes that define a law, all
     the leaf nodes of the law tree are primitive nodes, and all primitive nodes can
@@ -120,10 +105,16 @@ class PrimitiveNode:
     }
     '''
 
-    def __init__(self, type: Structure, text: str) -> None:
+    def __init__(
+        self,
+        type: Structure,
+        text: str,
+        formatting: Dict[str, Any] = {},
+    ) -> None:
         self.type = type
         self.text = text
         self.parent: Union[None, 'ComplexNode'] = None
+        self.formatting: Dict[str, Any] = formatting
         self.id = ''
 
 
@@ -163,4 +154,5 @@ class ComplexNode:
 class PlaintextInListItemScenario(Enum):
     SIBLING_OF_LIST = "SIBLING_OF_LIST"
     CHILD_OF_LIST_ITEM = "CHILD_OF_LIST_ITEM"
+    FORMATTED_MATH_ROW_CHILD_OF_LIST_ITEM = "FORMATTED_MATH_CHILD_OF_LIST_ITEM"
     EMBEDDED_LAW_SNIPPET = "EMBEDDED_LAW_SNIPPET"

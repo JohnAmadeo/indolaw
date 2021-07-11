@@ -5,7 +5,11 @@
     "tambahanLembaranNumber": 4756,
     "number": 40,
     "topic": "Perseroan Terbatas",
-    "year": 2007
+    "year": 2007,
+    "status": [
+      "Mencabut UU - No. 1 Tahun 1995 tentang Perseroan Terbatas",
+      "Bertentangan dengan UUD 1945 Putusan Mahkamah Konstitusi - Pasal 86 ayat (9) berdasarkan Putusan MK No. 84/PUU-XI/2013, Dinyatakan bertentangan dengan UUD NRI Tahun 1945 dan tidak memiliki kekuatan hukum mengikat, secara bersyarat (Inkonstitusional Bersyarat)"
+    ]
   },
   "content": {
     "type": "UNDANG_UNDANG",
@@ -4257,7 +4261,21 @@
                                   },
                                   {
                                     "type": "PLAINTEXT",
-                                    "text": "telah dicapai penyelesaian atas keberatan yang diajukan kreditor; atau c. gugatan kreditor ditolak oleh pengadilan berdasarkan putusan yang telah memperoleh kekuatan hukum tetap."
+                                    "text": "telah dicapai penyelesaian atas keberatan yang diajukan kreditor; atau"
+                                  }
+                                ]
+                              },
+                              {
+                                "type": "LIST_ITEM",
+                                "id": "",
+                                "children": [
+                                  {
+                                    "type": "LETTER_WITH_DOT",
+                                    "text": "c."
+                                  },
+                                  {
+                                    "type": "PLAINTEXT",
+                                    "text": "gugatan kreditor ditolak oleh pengadilan berdasarkan putusan yang telah memperoleh kekuatan hukum tetap."
                                   }
                                 ]
                               }
@@ -24367,7 +24385,21 @@
                                   },
                                   {
                                     "type": "PLAINTEXT",
-                                    "text": "pembubaran oleh RUPS karena Perseroan dibubarkan oleh RUPS; atau b. penetapan pengadilan yang telah memperoleh kekuatan hukum tetap karena Perseroan dibubarkan berdasarkan penetapan pengadilan."
+                                    "text": "pembubaran oleh RUPS karena Perseroan dibubarkan oleh RUPS; atau"
+                                  }
+                                ]
+                              },
+                              {
+                                "type": "LIST_ITEM",
+                                "id": "",
+                                "children": [
+                                  {
+                                    "type": "LETTER_WITH_DOT",
+                                    "text": "b."
+                                  },
+                                  {
+                                    "type": "PLAINTEXT",
+                                    "text": "penetapan pengadilan yang telah memperoleh kekuatan hukum tetap karena Perseroan dibubarkan berdasarkan penetapan pengadilan."
                                   }
                                 ]
                               }

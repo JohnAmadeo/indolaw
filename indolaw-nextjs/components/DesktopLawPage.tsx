@@ -1,9 +1,9 @@
 import { LawData } from "utils/grammar";
 import Law from "components/Law";
 import { useState } from "react";
-import Head from "next/head";
 import { useAppContext } from "../utils/context-provider";
 import Tray from "./Tray";
+import MetadataCardsSection from "./MetadataCardsSection";
 
 // TODO(johnamadeo): Fix "Warning: Each child in a list should have a unique "key" prop." problem
 export default function DesktopLawPage(props: {
@@ -55,9 +55,9 @@ export default function DesktopLawPage(props: {
       />
 
       <div className="law-container">
-
+        <MetadataCardsSection metadata={props.law.metadata} />
         <div className="law">
-          <Law law={props.law.content} colorScheme={colorScheme} />
+          <Law law={props.law.content} metadata={props.law.metadata} colorScheme={colorScheme} />
         </div>
       </div>
     </div>

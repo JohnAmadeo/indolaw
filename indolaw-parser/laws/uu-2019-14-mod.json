@@ -4405,7 +4405,27 @@
                                   },
                                   {
                                     "type": "PLAINTEXT",
-                                    "text": "memperhatikan prinsip etik dalam keadaan darurat dan/atau keselamatan hidup; atau b. harus dengan persetujuan Klien atau keluarga dalam keadaan tidak darurat."
+                                    "text": "memperhatikan prinsip etik dalam keadaan darurat dan/atau keselamatan hidup; atau"
+                                  }
+                                ]
+                              }
+                            ]
+                          },
+                          {
+                            "type": "LIST",
+                            "id": "",
+                            "children": [
+                              {
+                                "type": "LIST_ITEM",
+                                "id": "",
+                                "children": [
+                                  {
+                                    "type": "LETTER_WITH_DOT",
+                                    "text": "b."
+                                  },
+                                  {
+                                    "type": "PLAINTEXT",
+                                    "text": "harus dengan persetujuan Klien atau keluarga dalam keadaan tidak darurat."
                                   }
                                 ]
                               }

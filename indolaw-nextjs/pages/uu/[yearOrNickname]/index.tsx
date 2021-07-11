@@ -3,6 +3,7 @@ import { GetStaticProps } from "next";
 import { LawData } from "utils/grammar";
 import LawPage from "components/LawPage";
 import { LAW_NICKNAMES } from "utils/law-nicknames";
+import { getDirectoryMetadata } from "utils/route-utils";
 
 export default function Nickname(props: {
   data: {
@@ -36,12 +37,20 @@ export const getStaticProps: GetStaticProps = async ({ params }) => {
   }
 
   const id = LAW_NICKNAMES[params.yearOrNickname];
-  const file = fs.readFileSync(`./laws/${id}.json`, 'utf8');
+  const [_, year, number] = id.split('-');
+
+  const law = JSON.parse(fs.readFileSync(`./laws/${id}.json`, 'utf8'));
+  const metadata = getDirectoryMetadata(year, number);
+
+  law['metadata'] = {
+    ...law['metadata'],
+    ...metadata,
+  }
 
   return {
     props: {
       data: {
-        law: JSON.parse(file),
+        law,
       },
     },
   };

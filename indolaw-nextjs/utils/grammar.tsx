@@ -1,3 +1,5 @@
+import { InlineMath, BlockMath } from 'react-katex';
+
 import PrimitiveStructure from "components/PrimitiveStructure";
 import ListItem from "components/ListItem";
 import StructureWithHeading from "components/StructureWithHeading";
@@ -43,6 +45,7 @@ export enum Structure {
   PENJELASAN_LIST_ITEM = "PENJELASAN_LIST_ITEM",
 
   PLAINTEXT = "PLAINTEXT",
+  MATH = "MATH",
 
   LIST = "LIST",
   LIST_ITEM = "LIST_ITEM",
@@ -57,6 +60,7 @@ export enum Structure {
   PENJELASAN_HURUF = "PENJELASAN_HURUF",
   PENJELASAN_AYAT = "PENJELASAN_AYAT",
   PENJELASAN_ANGKA = "PENJELASAN_ANGKA",
+  PENJELASAN_ANGKA_WITH_RIGHT_BRACKET = "PENJELASAN_ANGKA_WITH_RIGHT_BRACKET",
 
   PERUBAHAN_SECTION = "PERUBAHAN_SECTION",
   PERUBAHAN_PASAL = "PERUBAHAN_PASAL",
@@ -86,8 +90,31 @@ export interface Metadata {
   number: number;
   topic: string;
   year: number;
-  status: Array<string>;
+  status: { [key: string]: Array<LawStatus> };
+  theme: Array<LawTheme>;
+  puu: Array<PengujianUndangUndang>;
+  ketentuan_umum: Record<string, string>;
 }
+
+export interface LawStatus {
+  year: string;
+  number: string;
+  law: string;
+  link: string;
+  context: string;
+}
+
+export interface PengujianUndangUndang {
+  id: string;
+  link: string;
+  context: string;
+}
+
+export interface LawTheme {
+  theme: string;
+  link: string;
+}
+
 
 export interface Primitive {
   type: Structure;
@@ -138,6 +165,12 @@ export function renderStructure(
           structure={structure as Primitive}
           customStyle={customStyle}
         />
+      );
+    case Structure.MATH:
+      return (
+        <div style={{ fontSize: '24px' }}>
+          <InlineMath math={(structure as Primitive).text} />
+        </div>
       );
     case Structure.BAB_NUMBER:
     case Structure.BAB_TITLE:
@@ -260,7 +293,7 @@ export function renderPenjelasan(
 
 export function renderChildren(
   structure: Complex,
-  key?: string | number,
+  key?: string | number
 ): JSX.Element {
   return (
     <div key={key}>

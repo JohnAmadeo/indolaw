@@ -1,0 +1,2796 @@
+{
+  "metadata": {
+    "lembaranNegaraNumber": 1,
+    "lembaranNegaraYear": 1970,
+    "tambahanLembaranNumber": 2918,
+    "number": 1,
+    "topic": "Keselamatan Kerja",
+    "year": 1970
+  },
+  "content": {
+    "type": "UNDANG_UNDANG",
+    "id": "",
+    "children": [
+      {
+        "type": "OPENING",
+        "id": "",
+        "children": [
+          {
+            "type": "UU_TITLE",
+            "id": "",
+            "children": [
+              {
+                "type": "PLAINTEXT",
+                "text": "UNDANG-UNDANG REPUBLIK INDONESIA"
+              },
+              {
+                "type": "UU_TITLE_YEAR_AND_NUMBER",
+                "text": "NOMOR 1 TAHUN 1970"
+              },
+              {
+                "type": "PLAINTEXT",
+                "text": "TENTANG"
+              },
+              {
+                "type": "UU_TITLE_TOPIC",
+                "text": "KESELAMATAN KERJA"
+              }
+            ]
+          },
+          {
+            "type": "PREFACE",
+            "id": "",
+            "children": [
+              {
+                "type": "PLAINTEXT",
+                "text": "DENGAN RAHMAT TUHAN YANG MAHA ESA"
+              },
+              {
+                "type": "PLAINTEXT",
+                "text": "PRESIDEN REPUBLIK INDONESIA,"
+              }
+            ]
+          },
+          {
+            "type": "CONSIDERATIONS",
+            "id": "",
+            "children": [
+              {
+                "type": "PLAINTEXT",
+                "text": "Menimbang:"
+              },
+              {
+                "type": "LIST",
+                "id": "",
+                "children": [
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "LETTER_WITH_DOT",
+                        "text": "a."
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "bahwa setiap tenaga kerja berhak mendapat perlindungan atas keselamatannya dalam melakukan pekerjaan untuk kesejahteraan hidup dan meningkatkan produksi serta produktivitas Nasional;"
+                      }
+                    ]
+                  },
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "LETTER_WITH_DOT",
+                        "text": "b."
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "bahwa setiap orang lainnya yang berada di tempat kerja perlu terjamin pula keselamatannya;"
+                      }
+                    ]
+                  },
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "LETTER_WITH_DOT",
+                        "text": "c."
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "bahwa setiap sumber produksi perlu dipakai dan dipergunakan secara aman dan effisien;"
+                      }
+                    ]
+                  },
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "LETTER_WITH_DOT",
+                        "text": "d."
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "bahwa berhubung dengan itu perlu diadakan segala daya upaya untuk membina norma-norma perlindungan kerja;"
+                      }
+                    ]
+                  },
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "LETTER_WITH_DOT",
+                        "text": "e."
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "bahwa pembinaan norma-norma itu perlu diwujudkan dalam Undang-undang yang memuat ketentuan ketentuan umum tentang keselamatan kerja yang sesuai dengan perkembangan masyarakat, industrialisasi, teknik dan teknologi."
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "PRINCIPLES",
+            "id": "",
+            "children": [
+              {
+                "type": "PLAINTEXT",
+                "text": "Mengingat:"
+              },
+              {
+                "type": "LIST",
+                "id": "",
+                "children": [
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "NUMBER_WITH_DOT",
+                        "text": "1."
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "Pasal-pasal 5, 20 dan 27 Undang-Undang Dasar 1945;"
+                      }
+                    ]
+                  },
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "NUMBER_WITH_DOT",
+                        "text": "2."
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "Pasal-pasal 9 dan 10 Undang-undang No. 14 Tahun 1969 tentang Ketentuan-ketentuan Pokok mengenai Tenaga Kerja (Lembaran Negara Republik Indonesia Tahun 1969 No. 55, Tambahan Lembaran Negara No. 2912)."
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "AGREEMENT",
+            "id": "",
+            "children": [
+              {
+                "type": "PLAINTEXT",
+                "text": "Dengan Persetujuan:"
+              },
+              {
+                "type": "PLAINTEXT",
+                "text": "DEWAN PERWAKILAN RAKYAT GOTONG-ROYONG,"
+              },
+              {
+                "type": "PLAINTEXT",
+                "text": "MEMUTUSKAN:"
+              },
+              {
+                "type": "PLAINTEXT",
+                "text": "1."
+              },
+              {
+                "type": "PLAINTEXT",
+                "text": "Mencabut:"
+              },
+              {
+                "type": "PLAINTEXT",
+                "text": "Veiligheidsreglement Tahun 1910 (Stbl. No. 406)."
+              },
+              {
+                "type": "PLAINTEXT",
+                "text": "2."
+              },
+              {
+                "type": "PLAINTEXT",
+                "text": "Menetapkan:"
+              },
+              {
+                "type": "PLAINTEXT",
+                "text": "UNDANG-UNDANG TENTANG KESELAMATAN KERJA."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "BAB",
+        "id": "bab-1",
+        "children": [
+          {
+            "type": "BAB_NUMBER",
+            "text": "BAB I"
+          },
+          {
+            "type": "BAB_TITLE",
+            "text": "TENTANG ISTILAH-ISTILAH"
+          },
+          {
+            "type": "PASAL",
+            "id": "pasal-1",
+            "children": [
+              {
+                "type": "PASAL_NUMBER",
+                "text": "Pasal 1"
+              },
+              {
+                "type": "PLAINTEXT",
+                "text": "Dalam Undang-undang ini yang dimaksudkan dengan:"
+              },
+              {
+                "type": "LIST",
+                "id": "",
+                "children": [
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "NUMBER_WITH_BRACKETS",
+                        "text": "(1)"
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "\"tempat kerja\" ialah tiap ruangan atau lapangan, tertutup atau terbuka, bergerak atau tetap, di mana tenaga kerja bekerja, atau yang sering dimasuki tenaga kerja untuk keperluan suatu usaha dan di mana terdapat sumber atau sumber-sumber bahaya sebagaimana diperinci dalam pasal 2;"
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "termasuk tempat kerja ialah semua ruangan, lapangan, halaman dan sekelilingnya yang merupakan bagian-bagian atau yang berhubungan dengan tempat kerja tersebut;"
+                      }
+                    ]
+                  },
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "NUMBER_WITH_BRACKETS",
+                        "text": "(2)"
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "\"pengurus\" ialah orang yang mempunyai tugas memimpin langsung sesuatu tempat kerja atau bagiannya yang berdiri sendiri;"
+                      }
+                    ]
+                  },
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "NUMBER_WITH_BRACKETS",
+                        "text": "(3)"
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "\"pengusaha\" ialah:"
+                      },
+                      {
+                        "type": "LIST",
+                        "id": "",
+                        "children": [
+                          {
+                            "type": "LIST_ITEM",
+                            "id": "",
+                            "children": [
+                              {
+                                "type": "LETTER_WITH_DOT",
+                                "text": "a."
+                              },
+                              {
+                                "type": "PLAINTEXT",
+                                "text": "orang atau badan hukum yang menjalankan sesuatu usaha milik sendiri dan untuk keperluan itu mempergunakan tempat kerja;"
+                              }
+                            ]
+                          },
+                          {
+                            "type": "LIST_ITEM",
+                            "id": "",
+                            "children": [
+                              {
+                                "type": "LETTER_WITH_DOT",
+                                "text": "b."
+                              },
+                              {
+                                "type": "PLAINTEXT",
+                                "text": "orang atau badan hukum yang secara berdiri sendiri menjalankan sesuatu usaha bukan miliknya dan untuk keperluan itu mempergunakan tempat kerja;"
+                              }
+                            ]
+                          },
+                          {
+                            "type": "LIST_ITEM",
+                            "id": "",
+                            "children": [
+                              {
+                                "type": "LETTER_WITH_DOT",
+                                "text": "c."
+                              },
+                              {
+                                "type": "PLAINTEXT",
+                                "text": "orang atau badan hukum, yang di Indonesia mewakili orang atau badan hukum termaksud pada (a) dan (b), jikalau yang diwakili berkedudukan di luar Indonesia."
+                              }
+                            ]
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "NUMBER_WITH_BRACKETS",
+                        "text": "(4)"
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "\"direktur\" ialah pejabat yang ditunjuk oleh Menteri Tenaga Kerja untuk melaksanakan Undang-undang ini;"
+                      }
+                    ]
+                  },
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "NUMBER_WITH_BRACKETS",
+                        "text": "(5)"
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "\"pegawai pengawas\" ialah pegawai teknis berkeahlian khusus dari Departemen Tenaga Kerja;"
+                      }
+                    ]
+                  },
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "NUMBER_WITH_BRACKETS",
+                        "text": "(6)"
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "\"ahli keselamatan kerja\" ialah tenaga teknis berkeahlian khusus dari luar Departemen Tenaga Kerja yang ditunjuk oleh Menteri Tenaga Kerja untuk mengawasi ditaatinya Undang-undang ini."
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "BAB",
+        "id": "bab-2",
+        "children": [
+          {
+            "type": "BAB_NUMBER",
+            "text": "BAB II"
+          },
+          {
+            "type": "BAB_TITLE",
+            "text": "RUANG LINGKUP"
+          },
+          {
+            "type": "PASAL",
+            "id": "pasal-2",
+            "children": [
+              {
+                "type": "PASAL_NUMBER",
+                "text": "Pasal 2"
+              },
+              {
+                "type": "LIST",
+                "id": "",
+                "children": [
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "NUMBER_WITH_BRACKETS",
+                        "text": "(1)"
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "Yang diatur oleh Undang-undang ini ialah keselamatan kerja dalam segala tempat kerja, baik di darat, di dalam tanah, di permukaan air, di dalam air maupun di udara, yang berada di dalam wilayah kekuasaan hukum Republik Indonesia."
+                      }
+                    ]
+                  },
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "NUMBER_WITH_BRACKETS",
+                        "text": "(2)"
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "Ketentuan-ketentuan dalam ayat (1) tersebut berlaku dalam tempat kerja di mana:"
+                      },
+                      {
+                        "type": "LIST",
+                        "id": "",
+                        "children": [
+                          {
+                            "type": "LIST_ITEM",
+                            "id": "",
+                            "children": [
+                              {
+                                "type": "LETTER_WITH_DOT",
+                                "text": "a."
+                              },
+                              {
+                                "type": "PLAINTEXT",
+                                "text": "dibuat, dicoba, dipakai atau dipergunakan mesin, pesawat, alat, perkakas, peralatan atau instalasi yang berbahaya atau dapat menimbulkan kecelakaan, kebakaran atau peledakan;"
+                              }
+                            ]
+                          },
+                          {
+                            "type": "LIST_ITEM",
+                            "id": "",
+                            "children": [
+                              {
+                                "type": "LETTER_WITH_DOT",
+                                "text": "b."
+                              },
+                              {
+                                "type": "PLAINTEXT",
+                                "text": "dibuat, diolah, dipakai, dipergunakan, diperdagangkan, diangkut atau disimpan bahan atau barang yang : dapat meledak, mudah terbakar, menggigit, beracun, menimbulkan infeksi, bersuhu tinggi;"
+                              }
+                            ]
+                          },
+                          {
+                            "type": "LIST_ITEM",
+                            "id": "",
+                            "children": [
+                              {
+                                "type": "LETTER_WITH_DOT",
+                                "text": "c."
+                              },
+                              {
+                                "type": "PLAINTEXT",
+                                "text": "dikerjakan pembangunan, perbaikan, perawatan, pembersihan atau pembongkaran rumah, gedung atau bangunan lainnya, termasuk bangunan pengairan, saluran atau terowongan di bawah tanah dan sebagainya atau di mana dilakukan pekerjaan persiapan;"
+                              }
+                            ]
+                          },
+                          {
+                            "type": "LIST_ITEM",
+                            "id": "",
+                            "children": [
+                              {
+                                "type": "LETTER_WITH_DOT",
+                                "text": "d."
+                              },
+                              {
+                                "type": "PLAINTEXT",
+                                "text": "dilakukan usaha : pertanian, perkebunan, pembukaan hutan, pengerjaan hutan, pengolahan kayu atau hasil hutan lainnya, peternakan, perikanan dan lapangan kesehatan;"
+                              }
+                            ]
+                          },
+                          {
+                            "type": "LIST_ITEM",
+                            "id": "",
+                            "children": [
+                              {
+                                "type": "LETTER_WITH_DOT",
+                                "text": "e."
+                              },
+                              {
+                                "type": "PLAINTEXT",
+                                "text": "dilakukan usaha pertambangan dan pengolahan : emas, perak, logam atau bijih logam lainnya, batu-batuan, gas, minyak atau mineral lainnya, baik di permukaan atau di dalam bumi, maupun di dasar perairan; dilakukan pengangkutan barang, binatang atau manusia, baik di daratan, melalui terowongan, di permukaan air, dalam air maupun di udara;"
+                              }
+                            ]
+                          },
+                          {
+                            "type": "LIST_ITEM",
+                            "id": "",
+                            "children": [
+                              {
+                                "type": "LETTER_WITH_DOT",
+                                "text": "f."
+                              },
+                              {
+                                "type": "PLAINTEXT",
+                                "text": "dikerjakan bongkar-muat barang muatan di kapal, perahu, dermaga, dok, stasiun atau gudang;"
+                              }
+                            ]
+                          },
+                          {
+                            "type": "LIST_ITEM",
+                            "id": "",
+                            "children": [
+                              {
+                                "type": "LETTER_WITH_DOT",
+                                "text": "g."
+                              },
+                              {
+                                "type": "PLAINTEXT",
+                                "text": "dilakukan penyelaman, pengambilan benda dan pekerjaan lain di dalam air;"
+                              }
+                            ]
+                          },
+                          {
+                            "type": "LIST_ITEM",
+                            "id": "",
+                            "children": [
+                              {
+                                "type": "LETTER_WITH_DOT",
+                                "text": "h."
+                              },
+                              {
+                                "type": "PLAINTEXT",
+                                "text": "dilakukan pekerjaan dalam ketinggian di atas permukaan tanah atau perairan;"
+                              }
+                            ]
+                          },
+                          {
+                            "type": "LIST_ITEM",
+                            "id": "",
+                            "children": [
+                              {
+                                "type": "LETTER_WITH_DOT",
+                                "text": "i."
+                              },
+                              {
+                                "type": "PLAINTEXT",
+                                "text": "dilakukan pekerjaan di bawah tekanan udara atau suhu yang tinggi atau rendah;"
+                              }
+                            ]
+                          },
+                          {
+                            "type": "LIST_ITEM",
+                            "id": "",
+                            "children": [
+                              {
+                                "type": "LETTER_WITH_DOT",
+                                "text": "j."
+                              },
+                              {
+                                "type": "PLAINTEXT",
+                                "text": "dilakukan pekerjaan yang mengandung bahaya tertimbun tanah, kejatuhan, terkena pelantingan benda, terjatuh atau terperosok, hanyut atau terpelanting;"
+                              }
+                            ]
+                          },
+                          {
+                            "type": "LIST_ITEM",
+                            "id": "",
+                            "children": [
+                              {
+                                "type": "LETTER_WITH_DOT",
+                                "text": "k."
+                              },
+                              {
+                                "type": "PLAINTEXT",
+                                "text": "dilakukan pekerjaan dalam tangki, sumur atau lobang;"
+                              }
+                            ]
+                          },
+                          {
+                            "type": "LIST_ITEM",
+                            "id": "",
+                            "children": [
+                              {
+                                "type": "LETTER_WITH_DOT",
+                                "text": "l."
+                              },
+                              {
+                                "type": "PLAINTEXT",
+                                "text": "terdapat atau menyebar suhu, kelembaban, debu, kotoran, api, asap, uap, gas, hembusan angin, cuaca, sinar atau radiasi, suara atau getaran;"
+                              }
+                            ]
+                          },
+                          {
+                            "type": "LIST_ITEM",
+                            "id": "",
+                            "children": [
+                              {
+                                "type": "LETTER_WITH_DOT",
+                                "text": "m."
+                              },
+                              {
+                                "type": "PLAINTEXT",
+                                "text": "dilakukan pembuangan atau pemusnahan sampah atau limbah;"
+                              }
+                            ]
+                          },
+                          {
+                            "type": "LIST_ITEM",
+                            "id": "",
+                            "children": [
+                              {
+                                "type": "LETTER_WITH_DOT",
+                                "text": "n."
+                              },
+                              {
+                                "type": "PLAINTEXT",
+                                "text": "dilakukan pemancaran, penyiaran atau penerimaan radio, radar, televisi atau telepon;"
+                              }
+                            ]
+                          },
+                          {
+                            "type": "LIST_ITEM",
+                            "id": "",
+                            "children": [
+                              {
+                                "type": "LETTER_WITH_DOT",
+                                "text": "o."
+                              },
+                              {
+                                "type": "PLAINTEXT",
+                                "text": "dilakukan pendidikan, pembinaan, percobaan, penyelidikan atau riset (penelitian) yang menggunakan alat teknis;"
+                              }
+                            ]
+                          },
+                          {
+                            "type": "LIST_ITEM",
+                            "id": "",
+                            "children": [
+                              {
+                                "type": "LETTER_WITH_DOT",
+                                "text": "p."
+                              },
+                              {
+                                "type": "PLAINTEXT",
+                                "text": "dibangkitkan, diubah, dikumpulkan, disimpan, dibagi-bagikan atau disalurkan listrik, gas, minyak atau air;"
+                              }
+                            ]
+                          },
+                          {
+                            "type": "LIST_ITEM",
+                            "id": "",
+                            "children": [
+                              {
+                                "type": "LETTER_WITH_DOT",
+                                "text": "q."
+                              },
+                              {
+                                "type": "PLAINTEXT",
+                                "text": "diputar film, dipertunjukkan sandiwara atau diselenggarakan rekreasi lainnya yang memakai peralatan, instalasi listrik atau mekanik."
+                              }
+                            ]
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "NUMBER_WITH_BRACKETS",
+                        "text": "(3)"
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "Dengan peraturan perundangan dapat ditunjuk sebagai tempat kerja, ruangan-ruangan atau lapangan lapangan lainnya yang dapat membahayakan keselamatan atau kesehatan yang bekerja dan atau yang berada di ruangan atau lapangan itu dan dapat diubah perincian tersebut dalam ayat (2)."
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "BAB",
+        "id": "bab-3",
+        "children": [
+          {
+            "type": "BAB_NUMBER",
+            "text": "BAB III"
+          },
+          {
+            "type": "BAB_TITLE",
+            "text": "SYARAT-SYARAT KESELAMATAN KERJA"
+          },
+          {
+            "type": "PASAL",
+            "id": "pasal-3",
+            "children": [
+              {
+                "type": "PASAL_NUMBER",
+                "text": "Pasal 3"
+              },
+              {
+                "type": "LIST",
+                "id": "",
+                "children": [
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "NUMBER_WITH_BRACKETS",
+                        "text": "(1)"
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "Dengan peraturan perundangan ditetapkan syarat-syarat keselamatan kerja untuk:"
+                      },
+                      {
+                        "type": "LIST",
+                        "id": "",
+                        "children": [
+                          {
+                            "type": "LIST_ITEM",
+                            "id": "",
+                            "children": [
+                              {
+                                "type": "LETTER_WITH_DOT",
+                                "text": "a."
+                              },
+                              {
+                                "type": "PLAINTEXT",
+                                "text": "mencegah dan mengurangi kecelakaan;"
+                              }
+                            ]
+                          },
+                          {
+                            "type": "LIST_ITEM",
+                            "id": "",
+                            "children": [
+                              {
+                                "type": "LETTER_WITH_DOT",
+                                "text": "b."
+                              },
+                              {
+                                "type": "PLAINTEXT",
+                                "text": "mencegah, mengurangi dan memadamkan kebakaran;"
+                              }
+                            ]
+                          },
+                          {
+                            "type": "LIST_ITEM",
+                            "id": "",
+                            "children": [
+                              {
+                                "type": "LETTER_WITH_DOT",
+                                "text": "c."
+                              },
+                              {
+                                "type": "PLAINTEXT",
+                                "text": "mencegah dan mengurangi bahaya peledakan;"
+                              }
+                            ]
+                          },
+                          {
+                            "type": "LIST_ITEM",
+                            "id": "",
+                            "children": [
+                              {
+                                "type": "LETTER_WITH_DOT",
+                                "text": "d."
+                              },
+                              {
+                                "type": "PLAINTEXT",
+                                "text": "memberi kesempatan atau jalan menyelamatkan diri pada waktu kebakaran atau kejadian-kejadian lain yang berbahaya;"
+                              }
+                            ]
+                          },
+                          {
+                            "type": "LIST_ITEM",
+                            "id": "",
+                            "children": [
+                              {
+                                "type": "LETTER_WITH_DOT",
+                                "text": "e."
+                              },
+                              {
+                                "type": "PLAINTEXT",
+                                "text": "memberi pertolongan pada kecelakaan;"
+                              }
+                            ]
+                          },
+                          {
+                            "type": "LIST_ITEM",
+                            "id": "",
+                            "children": [
+                              {
+                                "type": "LETTER_WITH_DOT",
+                                "text": "f."
+                              },
+                              {
+                                "type": "PLAINTEXT",
+                                "text": "memberi alat-alat perlindungan diri pada para pekerja;"
+                              }
+                            ]
+                          },
+                          {
+                            "type": "LIST_ITEM",
+                            "id": "",
+                            "children": [
+                              {
+                                "type": "LETTER_WITH_DOT",
+                                "text": "g."
+                              },
+                              {
+                                "type": "PLAINTEXT",
+                                "text": "mencegah dan mengendalikan timbul atau menyebarluasnya suhu, kelembaban, debu, kotoran, asap, uap, gas, hembusan angin, cuaca, sinar atau radiasi, suara dan getaran;"
+                              }
+                            ]
+                          },
+                          {
+                            "type": "LIST_ITEM",
+                            "id": "",
+                            "children": [
+                              {
+                                "type": "LETTER_WITH_DOT",
+                                "text": "h."
+                              },
+                              {
+                                "type": "PLAINTEXT",
+                                "text": "mencegah dan mengendalikan timbulnya penyakit akibat kerja baik physik maupun psychis, peracunan, infeksi dan penularan;"
+                              }
+                            ]
+                          },
+                          {
+                            "type": "LIST_ITEM",
+                            "id": "",
+                            "children": [
+                              {
+                                "type": "LETTER_WITH_DOT",
+                                "text": "i."
+                              },
+                              {
+                                "type": "PLAINTEXT",
+                                "text": "memperoleh penerangan yang cukup dan sesuai;"
+                              }
+                            ]
+                          },
+                          {
+                            "type": "LIST_ITEM",
+                            "id": "",
+                            "children": [
+                              {
+                                "type": "LETTER_WITH_DOT",
+                                "text": "j."
+                              },
+                              {
+                                "type": "PLAINTEXT",
+                                "text": "menyelenggarakan suhu dan lembab udara yang baik;"
+                              }
+                            ]
+                          },
+                          {
+                            "type": "LIST_ITEM",
+                            "id": "",
+                            "children": [
+                              {
+                                "type": "LETTER_WITH_DOT",
+                                "text": "k."
+                              },
+                              {
+                                "type": "PLAINTEXT",
+                                "text": "menyelenggarakan penyegaran udara yang cukup;"
+                              }
+                            ]
+                          },
+                          {
+                            "type": "LIST_ITEM",
+                            "id": "",
+                            "children": [
+                              {
+                                "type": "LETTER_WITH_DOT",
+                                "text": "l."
+                              },
+                              {
+                                "type": "PLAINTEXT",
+                                "text": "memelihara kebersihan, kesehatan dan ketertiban;"
+                              }
+                            ]
+                          },
+                          {
+                            "type": "LIST_ITEM",
+                            "id": "",
+                            "children": [
+                              {
+                                "type": "LETTER_WITH_DOT",
+                                "text": "m."
+                              },
+                              {
+                                "type": "PLAINTEXT",
+                                "text": "memperoleh keserasian antara tenaga kerja, alat kerja, lingkungan, cara dan proses kerjanya;"
+                              }
+                            ]
+                          },
+                          {
+                            "type": "LIST_ITEM",
+                            "id": "",
+                            "children": [
+                              {
+                                "type": "LETTER_WITH_DOT",
+                                "text": "n."
+                              },
+                              {
+                                "type": "PLAINTEXT",
+                                "text": "mengamankan dan memperlancar pengangkutan orang, binatang, tanaman atau barang;"
+                              }
+                            ]
+                          },
+                          {
+                            "type": "LIST_ITEM",
+                            "id": "",
+                            "children": [
+                              {
+                                "type": "LETTER_WITH_DOT",
+                                "text": "o."
+                              },
+                              {
+                                "type": "PLAINTEXT",
+                                "text": "mengamankan dan memelihara segala jenis bangunan;"
+                              }
+                            ]
+                          },
+                          {
+                            "type": "LIST_ITEM",
+                            "id": "",
+                            "children": [
+                              {
+                                "type": "LETTER_WITH_DOT",
+                                "text": "p."
+                              },
+                              {
+                                "type": "PLAINTEXT",
+                                "text": "mengamankan dan memperlancar pekerjaan bongkar-muat, perlakuan dan penyimpanan barang;"
+                              }
+                            ]
+                          },
+                          {
+                            "type": "LIST_ITEM",
+                            "id": "",
+                            "children": [
+                              {
+                                "type": "LETTER_WITH_DOT",
+                                "text": "q."
+                              },
+                              {
+                                "type": "PLAINTEXT",
+                                "text": "mencegah terkena aliran listrik yang berbahaya;"
+                              }
+                            ]
+                          },
+                          {
+                            "type": "LIST_ITEM",
+                            "id": "",
+                            "children": [
+                              {
+                                "type": "LETTER_WITH_DOT",
+                                "text": "r."
+                              },
+                              {
+                                "type": "PLAINTEXT",
+                                "text": "menyesuaikan dan menyempurnakan pengamanan pada pekerjaan yang bahaya kecelakaannya menjadi bertambah tinggi."
+                              }
+                            ]
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "NUMBER_WITH_BRACKETS",
+                        "text": "(2)"
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "Dengan peraturan perundangan dapat di rubah perincian seperti tersebut dalam ayat (1) sesuai dengan perkembangan ilmu pengetahuan, teknik dan teknologi serta pendapatan-pendapatan baru di kemudian hari."
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "PASAL",
+            "id": "pasal-4",
+            "children": [
+              {
+                "type": "PASAL_NUMBER",
+                "text": "Pasal 4"
+              },
+              {
+                "type": "LIST",
+                "id": "",
+                "children": [
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "NUMBER_WITH_BRACKETS",
+                        "text": "(1)"
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "Dengan peraturan perundangan ditetapkan syarat-syarat keselamatan kerja dalam perencanaan, pembuatan, pengangkutan, peredaran, perdagangan, pemasangan, pemakaian, penggunaan, pemeliharaan dan penyimpanan bahan, barang, produk teknik dan aparat produksi yang mengandung dan dapat menimbulkan bahaya kecelakaan."
+                      }
+                    ]
+                  },
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "NUMBER_WITH_BRACKETS",
+                        "text": "(2)"
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "Syarat-syarat tersebut memuat prinsip-prinsip teknik ilmiah menjadi suatu kumpulan ketentuan yang disusun secara teratur,jelas dan praktis yang mencakup bidang konstruksi, bahan, pengolahan dan pembuatan, perlengkapan alat-alat perlindungan, pengujian dan pengesahan, pengepakan atau pembungkusan, pemberian tanda-tanda pengenal atas bahan, barang, produk teknis dan aparat produksi guna menjamin keselamatan barang-barang itu sendiri, keselamatan tenaga kerja yang melakukannya dan keselamatan umum."
+                      }
+                    ]
+                  },
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "NUMBER_WITH_BRACKETS",
+                        "text": "(3)"
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "Dengan peraturan perundangan dapat di rubah perincian seperti tersebut dalam ayat (1) dan (2) : dengan peraturan perundangan ditetapkan siapa yang berkewajiban memenuhi dan menaati syarat-syarat keselamatan tersebut."
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "BAB",
+        "id": "bab-4",
+        "children": [
+          {
+            "type": "BAB_NUMBER",
+            "text": "BAB IV"
+          },
+          {
+            "type": "BAB_TITLE",
+            "text": "PENGAWASAN"
+          },
+          {
+            "type": "PASAL",
+            "id": "pasal-5",
+            "children": [
+              {
+                "type": "PASAL_NUMBER",
+                "text": "Pasal 5"
+              },
+              {
+                "type": "LIST",
+                "id": "",
+                "children": [
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "NUMBER_WITH_BRACKETS",
+                        "text": "(1)"
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "Direktur melakukan pelaksanaan umum terhadap Undang-undang ini, sedangkan para pegawai pengawas dan ahli keselamatan kerja ditugaskan menjalankan pengawasan langsung terhadap ditaatinya Undang-undang ini dan membantu pelaksanaannya."
+                      }
+                    ]
+                  },
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "NUMBER_WITH_BRACKETS",
+                        "text": "(2)"
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "Wewenang dan kewajiban direktur, pegawai pengawas dan ahli keselamatan kerja dalam melaksanakan Undang-undang ini diatur dengan peraturan perundangan."
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "PASAL",
+            "id": "pasal-6",
+            "children": [
+              {
+                "type": "PASAL_NUMBER",
+                "text": "Pasal 6"
+              },
+              {
+                "type": "LIST",
+                "id": "",
+                "children": [
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "NUMBER_WITH_BRACKETS",
+                        "text": "(1)"
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "Barangsiapa tidak dapat menerima keputusan direktur dapat mengajukan permohonan banding kepada Panitia Banding."
+                      }
+                    ]
+                  },
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "NUMBER_WITH_BRACKETS",
+                        "text": "(2)"
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "Tata-cara permohonan banding, susunan Panitia Banding, tugas Panitia Banding dan lain-lainnya ditetapkan oleh Menteri Tenaga Kerja."
+                      }
+                    ]
+                  },
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "NUMBER_WITH_BRACKETS",
+                        "text": "(3)"
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "Keputusan Panitia Banding tidak dapat dibanding lagi."
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "PASAL",
+            "id": "pasal-7",
+            "children": [
+              {
+                "type": "PASAL_NUMBER",
+                "text": "Pasal 7"
+              },
+              {
+                "type": "PLAINTEXT",
+                "text": "Untuk pengawasan berdasarkan Undang-undang ini pengusaha harus membayar retribusi menurut ketentuan ketentuan yang akan diatur dengan peraturan perundangan."
+              }
+            ]
+          },
+          {
+            "type": "PASAL",
+            "id": "pasal-8",
+            "children": [
+              {
+                "type": "PASAL_NUMBER",
+                "text": "Pasal 8"
+              },
+              {
+                "type": "LIST",
+                "id": "",
+                "children": [
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "NUMBER_WITH_BRACKETS",
+                        "text": "(1)"
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "Pengurus diwajibkan memeriksakan kesehatan badan, kondisi mental dan kemampuan fisik dari tenaga kerja yang akan diterimanya maupun akan dipindahkan sesuai dengan sifat-sifat pekerjaan yang diberikan padanya."
+                      }
+                    ]
+                  },
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "NUMBER_WITH_BRACKETS",
+                        "text": "(2)"
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "Pengurus diwajibkan memeriksakan semua tenaga kerja yang berada di bawah pimpinannya, secara berkala pada dokter yang ditunjuk oleh pengusaha dan dibenarkan oleh direktur."
+                      }
+                    ]
+                  },
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "NUMBER_WITH_BRACKETS",
+                        "text": "(3)"
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "Norma-norma mengenai pengujian keselamatan ditetapkan dengan peraturan perundangan."
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "BAB",
+        "id": "bab-5",
+        "children": [
+          {
+            "type": "BAB_NUMBER",
+            "text": "BAB V"
+          },
+          {
+            "type": "BAB_TITLE",
+            "text": "PEMBINAAN"
+          },
+          {
+            "type": "PASAL",
+            "id": "pasal-9",
+            "children": [
+              {
+                "type": "PASAL_NUMBER",
+                "text": "Pasal 9"
+              },
+              {
+                "type": "LIST",
+                "id": "",
+                "children": [
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "NUMBER_WITH_BRACKETS",
+                        "text": "(1)"
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "Pengurus diwajibkan menunjukkan dan menjelaskan pada tiap tenaga kerja baru tentang:"
+                      },
+                      {
+                        "type": "LIST",
+                        "id": "",
+                        "children": [
+                          {
+                            "type": "LIST_ITEM",
+                            "id": "",
+                            "children": [
+                              {
+                                "type": "LETTER_WITH_DOT",
+                                "text": "a."
+                              },
+                              {
+                                "type": "PLAINTEXT",
+                                "text": "Kondisi-kondisi dan bahaya-bahaya serta yang dapat timbul dalam tempat kerjanya;"
+                              }
+                            ]
+                          },
+                          {
+                            "type": "LIST_ITEM",
+                            "id": "",
+                            "children": [
+                              {
+                                "type": "LETTER_WITH_DOT",
+                                "text": "b."
+                              },
+                              {
+                                "type": "PLAINTEXT",
+                                "text": "Semua pengamanan dan alat-alat perlindungan yang diharuskan dalam tempat kerjanya;"
+                              }
+                            ]
+                          },
+                          {
+                            "type": "LIST_ITEM",
+                            "id": "",
+                            "children": [
+                              {
+                                "type": "LETTER_WITH_DOT",
+                                "text": "c."
+                              },
+                              {
+                                "type": "PLAINTEXT",
+                                "text": "Alat-alat perlindungan diri bagi tenaga kerja yang bersangkutan;"
+                              }
+                            ]
+                          },
+                          {
+                            "type": "LIST_ITEM",
+                            "id": "",
+                            "children": [
+                              {
+                                "type": "LETTER_WITH_DOT",
+                                "text": "d."
+                              },
+                              {
+                                "type": "PLAINTEXT",
+                                "text": "Cara-cara dan sikap yang aman dalam melaksanakan pekerjaannya."
+                              }
+                            ]
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "NUMBER_WITH_BRACKETS",
+                        "text": "(2)"
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "Pengurus hanya dapat mempekerjakan tenaga kerja yang bersangkutan setelah ia yakin bahwa tenaga kerja tersebut telah memahami syarat-syarat tersebut di atas."
+                      }
+                    ]
+                  },
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "NUMBER_WITH_BRACKETS",
+                        "text": "(3)"
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "Pengurus diwajibkan menyelenggarakan pembinaan bagi semua tenaga kerja yang berada di bawah pimpinannya, dalam pencegahan kecelakaan dan pemberantasan kebakaran serta peningkatan keselamatan dan kesehatan kerja, pula dalam pemberian pertolongan pertama pada kecelakaan."
+                      }
+                    ]
+                  },
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "NUMBER_WITH_BRACKETS",
+                        "text": "(4)"
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "Pengurus diwajibkan memenuhi dan menaati semua syarat-syarat dan ketentuan-ketentuan yang berlaku bagi usaha dan tempat kerja yang dijalankannya."
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "BAB",
+        "id": "bab-6",
+        "children": [
+          {
+            "type": "BAB_NUMBER",
+            "text": "BAB VI"
+          },
+          {
+            "type": "BAB_TITLE",
+            "text": "PANITIA PEMBINA KESELAMATAN DAN KESEHATAN KERJA"
+          },
+          {
+            "type": "PASAL",
+            "id": "pasal-10",
+            "children": [
+              {
+                "type": "PASAL_NUMBER",
+                "text": "Pasal 10"
+              },
+              {
+                "type": "LIST",
+                "id": "",
+                "children": [
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "NUMBER_WITH_BRACKETS",
+                        "text": "(1)"
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "Menteri Tenaga Kerja berwenang membentuk Panitia Pembina Keselamatan dan Kesehatan Kerja guna memperkembangkan kerja sama, saling pengertian dan partisipasi efektif dari pengusaha atau pengurus dan tenaga kerja dalam tempat-tempat kerja untuk melaksanakan tugas dan kewajiban bersama di bidang keselamatan dan kesehatan kerja, dalam rangka melancarkan usaha berproduksi."
+                      }
+                    ]
+                  },
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "NUMBER_WITH_BRACKETS",
+                        "text": "(2)"
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "Susunan Panitia Pembina Keselamatan dan Kesehatan Kerja, tugas dan lain-lainnya ditetapkan oleh Menteri Tenaga Kerja."
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "BAB",
+        "id": "bab-7",
+        "children": [
+          {
+            "type": "BAB_NUMBER",
+            "text": "BAB VII"
+          },
+          {
+            "type": "BAB_TITLE",
+            "text": "KECELAKAAN"
+          },
+          {
+            "type": "PASAL",
+            "id": "pasal-11",
+            "children": [
+              {
+                "type": "PASAL_NUMBER",
+                "text": "Pasal 11"
+              },
+              {
+                "type": "LIST",
+                "id": "",
+                "children": [
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "NUMBER_WITH_BRACKETS",
+                        "text": "(1)"
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "Pengurus diwajibkan melaporkan tiap kecelakaan yang terjadi dalam tempat kerja yang dipimpinnya, pada pejabat yang ditunjuk oleh Menteri Tenaga Kerja."
+                      }
+                    ]
+                  },
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "NUMBER_WITH_BRACKETS",
+                        "text": "(2)"
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "Tata-cara pelaporan dan pemeriksaan kecelakaan oleh pegawai termaksud dalam ayat (1) diatur dengan peraturan perundangan."
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "BAB",
+        "id": "bab-8",
+        "children": [
+          {
+            "type": "BAB_NUMBER",
+            "text": "BAB VIII"
+          },
+          {
+            "type": "BAB_TITLE",
+            "text": "KEWAJIBAN DAN HAK TENAGA KERJA"
+          },
+          {
+            "type": "PASAL",
+            "id": "pasal-12",
+            "children": [
+              {
+                "type": "PASAL_NUMBER",
+                "text": "Pasal 12"
+              },
+              {
+                "type": "PLAINTEXT",
+                "text": "Dengan peraturan perundangan diatur kewajiban dan atau hak tenaga kerja untuk:"
+              },
+              {
+                "type": "LIST",
+                "id": "",
+                "children": [
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "LETTER_WITH_DOT",
+                        "text": "a."
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "Memberikan keterangan yang benar bila diminta oleh pegawai pengawas dan atau ahli keselamatan kerja;"
+                      }
+                    ]
+                  },
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "LETTER_WITH_DOT",
+                        "text": "b."
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "Memakai alat-alat perlindungan diri yang diwajibkan;"
+                      }
+                    ]
+                  },
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "LETTER_WITH_DOT",
+                        "text": "c."
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "Memenuhi dan menaati semua syarat-syarat keselamatan dan kesehatan kerja yang diwajibkan;"
+                      }
+                    ]
+                  },
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "LETTER_WITH_DOT",
+                        "text": "d."
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "Meminta pada pengurus agar dilaksanakan semua syarat keselamatan dan kesehatan kerja yang diwajibkan;"
+                      }
+                    ]
+                  },
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "LETTER_WITH_DOT",
+                        "text": "e."
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "Menyatakan keberatan kerja pada pekerjaan di mana syarat keselamatan dan kesehatan kerja serta alat alat perlindungan diri yang diwajibkan diragukan olehnya kecuali dalam hal-hal khusus ditentukan lain oleh pegawai pengawas dalam batas-batas yang masih dapat dipertanggungjawabkan."
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "BAB",
+        "id": "bab-9",
+        "children": [
+          {
+            "type": "BAB_NUMBER",
+            "text": "BAB IX"
+          },
+          {
+            "type": "BAB_TITLE",
+            "text": "KEWAJIBAN BILA MEMASUKI TEMPAT KERJA"
+          },
+          {
+            "type": "PASAL",
+            "id": "pasal-13",
+            "children": [
+              {
+                "type": "PASAL_NUMBER",
+                "text": "Pasal 13"
+              },
+              {
+                "type": "PLAINTEXT",
+                "text": "Barangsiapa akan memasuki sesuatu tempat kerja, diwajibkan menaati semua petunjuk keselamatan kerja dan memakai alat-alat perlindungan diri yang diwajibkan."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "BAB",
+        "id": "bab-10",
+        "children": [
+          {
+            "type": "BAB_NUMBER",
+            "text": "BAB X"
+          },
+          {
+            "type": "BAB_TITLE",
+            "text": "KEWAJIBAN PENGURUS"
+          },
+          {
+            "type": "PASAL",
+            "id": "pasal-14",
+            "children": [
+              {
+                "type": "PASAL_NUMBER",
+                "text": "Pasal 14"
+              },
+              {
+                "type": "PLAINTEXT",
+                "text": "Pengurus diwajibkan:"
+              },
+              {
+                "type": "LIST",
+                "id": "",
+                "children": [
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "LETTER_WITH_DOT",
+                        "text": "a."
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "Secara tertulis menempatkan dalam tempat kerja yang dipimpinnya, semua syarat keselamatan kerja yang diwajibkan, sehelai Undang-undang ini dan semua peraturan pelaksanaannya yang berlaku bagi tempat kerja yang bersangkutan, pada tempat-tempat yang mudah dilihat dan terbaca dan menurut petunjuk pegawai pengawas atau ahli keselamatan kerja;"
+                      }
+                    ]
+                  },
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "LETTER_WITH_DOT",
+                        "text": "b."
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "Memasang dalam tempat kerja yang dipimpinnya, semua gambar keselamatan kerja yang diwajibkan dan semua bahan pembinaan lainnya, pada tempat-tempat yang mudah dilihat dan terbaca menurut petunjuk pegawai pengawas atau ahli Keselamatan Kerja;"
+                      }
+                    ]
+                  },
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "LETTER_WITH_DOT",
+                        "text": "c."
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "Menyediakan secara cuma-cuma, semua alat perlindungan diri yang diwajibkan pada tenaga kerja yang berada di bawah pimpinannya dan menyediakan bagi setiap orang lain yang memasuki tempat kerja tersebut, disertai dengan petunjuk-petunjuk yang diperlukan menurut petunjuk pegawai pengawas atau ahli keselamatan kerja."
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "BAB",
+        "id": "bab-11",
+        "children": [
+          {
+            "type": "BAB_NUMBER",
+            "text": "BAB XI"
+          },
+          {
+            "type": "BAB_TITLE",
+            "text": "KETENTUAN-KETENTUAN PENUTUP"
+          },
+          {
+            "type": "PASAL",
+            "id": "pasal-15",
+            "children": [
+              {
+                "type": "PASAL_NUMBER",
+                "text": "Pasal 15"
+              },
+              {
+                "type": "LIST",
+                "id": "",
+                "children": [
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "NUMBER_WITH_BRACKETS",
+                        "text": "(1)"
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "Pelaksanaan ketentuan tersebut pada pasal-pasal di atas diatur lebih lanjut dengan peraturan perundangan."
+                      }
+                    ]
+                  },
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "NUMBER_WITH_BRACKETS",
+                        "text": "(2)"
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "Peraturan perundangan tersebut pada ayat (1) dapat memberikan ancaman pidana atas pelanggaran peraturannya dengan hukuman kurungan selama-lamanya 3 (tiga) bulan atau denda setinggi-tingginya Rp. 100.000,- (seratus ribu rupiah)."
+                      }
+                    ]
+                  },
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "NUMBER_WITH_BRACKETS",
+                        "text": "(3)"
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "Tindak pidana tersebut adalah pelanggaran."
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "PASAL",
+            "id": "pasal-16",
+            "children": [
+              {
+                "type": "PASAL_NUMBER",
+                "text": "Pasal 16"
+              },
+              {
+                "type": "PLAINTEXT",
+                "text": "Pengusaha yang mempergunakan tempat-tempat kerja yang sudah ada pada waktu Undang-undang ini mulai berlaku wajib mengusahakan di dalam satu tahun sesudah Undang-undang ini mulai berlaku, untuk memenuhi ketentuan-ketentuan menurut atau berdasarkan Undang-undang ini."
+              }
+            ]
+          },
+          {
+            "type": "PASAL",
+            "id": "pasal-17",
+            "children": [
+              {
+                "type": "PASAL_NUMBER",
+                "text": "Pasal 17"
+              },
+              {
+                "type": "PLAINTEXT",
+                "text": "Selama peraturan perundangan untuk melaksanakan ketentuan dalam Undang-undang ini belum dikeluarkan, maka peraturan dalam bidang keselamatan kerja yang ada pada waktu Undang-undang ini mulai berlaku, tetapi berlaku sepanjang tidak bertentangan dengan Undang-undang ini."
+              }
+            ]
+          },
+          {
+            "type": "PASAL",
+            "id": "pasal-18",
+            "children": [
+              {
+                "type": "PASAL_NUMBER",
+                "text": "Pasal 18"
+              },
+              {
+                "type": "PLAINTEXT",
+                "text": "Undang-undang ini disebut \"UNDANG-UNDANG KESELAMATAN KERJA\" dan mulai berlaku pada hari diundangkan."
+              },
+              {
+                "type": "PLAINTEXT",
+                "text": "Agar supaya setiap orang dapat mengetahuinya, memerintahkan pengundangan Undang-undang ini dengan penempatan dalam Lembaran Negara Republik Indonesia."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "CLOSING",
+        "id": "",
+        "children": [
+          {
+            "type": "PLAINTEXT",
+            "text": "Disahkan Di Jakarta,"
+          },
+          {
+            "type": "PLAINTEXT",
+            "text": "Pada Tanggal 12 Januari 1970"
+          },
+          {
+            "type": "PLAINTEXT",
+            "text": "PRESIDEN REPUBLIK INDONESIA,"
+          },
+          {
+            "type": "PLAINTEXT",
+            "text": "Ttd."
+          },
+          {
+            "type": "PLAINTEXT",
+            "text": "SOEHARTO"
+          },
+          {
+            "type": "PLAINTEXT",
+            "text": "Jenderal T.N.I."
+          },
+          {
+            "type": "PLAINTEXT",
+            "text": "Diundangkan Di Jakarta,"
+          },
+          {
+            "type": "PLAINTEXT",
+            "text": "Pada Tanggal 12 Januari 1970"
+          },
+          {
+            "type": "PLAINTEXT",
+            "text": "SEKRETARIS NEGARA REPUBLIK INDONESIA,"
+          },
+          {
+            "type": "PLAINTEXT",
+            "text": "Ttd."
+          },
+          {
+            "type": "PLAINTEXT",
+            "text": "ALAMSJAH"
+          },
+          {
+            "type": "PLAINTEXT",
+            "text": "Mayor Jenderal T.N.I."
+          },
+          {
+            "type": "LEMBARAN_NUMBER",
+            "text": "LEMBARAN NEGARA REPUBLIK INDONESIA TAHUN 1970 NOMOR 1"
+          }
+        ]
+      },
+      {
+        "type": "PENJELASAN",
+        "id": "penjelasan",
+        "children": [
+          {
+            "type": "PENJELASAN_TITLE",
+            "id": "",
+            "children": [
+              {
+                "type": "PLAINTEXT",
+                "text": "PENJELASAN"
+              },
+              {
+                "type": "PLAINTEXT",
+                "text": "ATAS"
+              },
+              {
+                "type": "UU_TITLE_YEAR_AND_NUMBER",
+                "text": "UNDANG-UNDANG NOMOR 1 TAHUN 1970"
+              },
+              {
+                "type": "PLAINTEXT",
+                "text": "TENTANG"
+              },
+              {
+                "type": "UU_TITLE_TOPIC",
+                "text": "KESELAMATAN KERJA"
+              }
+            ]
+          },
+          {
+            "type": "PENJELASAN_UMUM",
+            "id": "",
+            "children": [
+              {
+                "type": "PENJELASAN_UMUM_TITLE",
+                "text": "PENJELASAN UMUM"
+              },
+              {
+                "type": "PLAINTEXT",
+                "text": "Veiligheidsreglement yang ada sekarang dan berlaku mulai 1910 (Stbl. No. 406) dan semenjak itu di sana-sini mengalami perobahan mengenai soal-soal yang tidak begitu berarti, ternyata dalam banyak hal sudah terbelakang dan perlu diperbaharui sesuai dengan perkembangan peraturan perlindungan tenaga kerja lainnya dan perkembangan serta kemajuan teknik, teknologi dan industrialisasi di Negara kita dewasa ini dan untuk selanjutnya."
+              },
+              {
+                "type": "PLAINTEXT",
+                "text": "Mesin-mesin, alat-alat, pesawat-pesawat baru dan sebagainya yang serba pesik banyak dipakai sekarang ini, bahan-bahan tehnis baru banyak diolah dan dipergunakan, sedangkan mekanisasi dan elektrifikasi diperluas di mana-mana."
+              },
+              {
+                "type": "PLAINTEXT",
+                "text": "Dengan majunya industrialisasi, mekanisasi, elektrifikasi dan modernisasi, maka dalam kebanyakan hal berlangsung pulalah peningkatan intensitet kerja operasionil dan tempo kerja para pekerja. Hal-hal ini memerlukan pengerahan tenaga secara intensief pula dari para pekerja. Kelelahan, kurang perhatian akan hal hal lain, kehilangan keseimbangan dan lain-lain merupakan akibat dari padanya dan menjadi sebab terjadinya kecelakaan."
+              },
+              {
+                "type": "PLAINTEXT",
+                "text": "Bahan-bahan yang mengandung racun, mesin-mesin, alat-alat, pesawat-pesawat dan sebagainya yang serba pelik serta cara-cara kerja yang buruk, kekurangan ketrampilan dan latihan kerja, tidak adanya pengetahuan tentang sumber bahaya yang baru, senantiasa merupakan sumber-sumber bahaya dan penyakit-penyakit akibat kerja. Maka dapatlah difahami perlu adanya pengetahuan keselamatan kerja dan kesehatan kerja yang maju dan tepat."
+              },
+              {
+                "type": "PLAINTEXT",
+                "text": "Selanjutnya dengan peraturan yang maju akan dicapai keamanan yang baik dan realistis yang merupakan faktor sangat penting dalam memberikan rasa tentram, kegiatan dan kegairahan bekerja pada tenaga-kerja yang bersangkutan dan hal ini dapat mempertinggi mutu pekerjaan, meningkatkan produksi dan produktivitas kerja."
+              },
+              {
+                "type": "PLAINTEXT",
+                "text": "Pengawasan berdasarkan Veiligheidsreglement seluruhnya bersifat repressief."
+              },
+              {
+                "type": "PLAINTEXT",
+                "text": "Dalam Undang-undang ini diadakan perobahan prinsipiil dengan merobahnya menjadi lebih diarahkan pada sifat preventief."
+              },
+              {
+                "type": "PLAINTEXT",
+                "text": "Dalam praktek dan pengalaman dirasakan perlu adanya pengaturan yang baik sebelum perusahaan perusahaan, pabrik-pabrik atau bengkel-bengkel didirikan, karena amatlah sukar untuk merobah atau merombak kembali apa yang telah dibangun dan terpasang di dalamnya guna memenuhi syarat-syarat keselamatan kerja yang bersangkutan."
+              },
+              {
+                "type": "PLAINTEXT",
+                "text": "Peraturan baru ini dibandingkan dengan yang lama, banyak mendapatkan perobahan-perobahan yang penting, baik dalam isi, maupun bentuk dan sistimatikanya."
+              },
+              {
+                "type": "PLAINTEXT",
+                "text": "Pembaruan dan perluasannya adalah mengenai:"
+              },
+              {
+                "type": "LIST",
+                "id": "",
+                "children": [
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "NUMBER_WITH_DOT",
+                        "text": "1."
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "Perluasan ruang lingkup."
+                      }
+                    ]
+                  },
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "NUMBER_WITH_DOT",
+                        "text": "2."
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "Perobahan pengawasan repressief menjadi preventief."
+                      }
+                    ]
+                  },
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "NUMBER_WITH_DOT",
+                        "text": "3."
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "Perumusan teknis yang lebih tegas."
+                      }
+                    ]
+                  },
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "NUMBER_WITH_DOT",
+                        "text": "4."
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "Penyesuaian tata-usaha sebagaimana diperlukan bagi pelaksanaan pengawasan."
+                      }
+                    ]
+                  },
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "NUMBER_WITH_DOT",
+                        "text": "5."
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "Tambahan pengaturan pembinaan Keselamatan Kerja bagi management dan Tenaga Kerja."
+                      }
+                    ]
+                  },
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "NUMBER_WITH_DOT",
+                        "text": "6."
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "Tambahan pengaturan mendirikan Panitya Pembina Keselamatan Kerja dan Kesehatan Kerja."
+                      }
+                    ]
+                  },
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "NUMBER_WITH_DOT",
+                        "text": "7."
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "Tambahan pengaturan pemungutan retribusi tahunan."
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "PENJELASAN_PASAL_DEMI_PASAL",
+            "id": "",
+            "children": [
+              {
+                "type": "PENJELASAN_PASAL_DEMI_PASAL_TITLE",
+                "text": "PENJELASAN PASAL DEMI PASAL"
+              },
+              {
+                "type": "PENJELASAN_PASAL",
+                "id": "",
+                "children": [
+                  {
+                    "type": "PASAL_NUMBER",
+                    "text": "Pasal 1"
+                  },
+                  {
+                    "type": "LIST",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "PENJELASAN_LIST_ITEM",
+                        "id": "",
+                        "children": [
+                          {
+                            "type": "PENJELASAN_AYAT",
+                            "text": "Ayat (1)"
+                          },
+                          {
+                            "type": "PLAINTEXT",
+                            "text": "Dengan perumusan ini ruang lingkup bagi berlakunya Undang-undang ini jelas ditentukan oleh tiga unsur:"
+                          },
+                          {
+                            "type": "LIST",
+                            "id": "",
+                            "children": [
+                              {
+                                "type": "LIST_ITEM",
+                                "id": "",
+                                "children": [
+                                  {
+                                    "type": "NUMBER_WITH_DOT",
+                                    "text": "1."
+                                  },
+                                  {
+                                    "type": "PLAINTEXT",
+                                    "text": "Tempat di mana dilakukan pekerjaan bagi sesuatu usaha,"
+                                  }
+                                ]
+                              },
+                              {
+                                "type": "LIST_ITEM",
+                                "id": "",
+                                "children": [
+                                  {
+                                    "type": "NUMBER_WITH_DOT",
+                                    "text": "2."
+                                  },
+                                  {
+                                    "type": "PLAINTEXT",
+                                    "text": "Adanya tenaga kerja yang bekerja di sana,"
+                                  }
+                                ]
+                              },
+                              {
+                                "type": "LIST_ITEM",
+                                "id": "",
+                                "children": [
+                                  {
+                                    "type": "NUMBER_WITH_DOT",
+                                    "text": "3."
+                                  },
+                                  {
+                                    "type": "PLAINTEXT",
+                                    "text": "Adanya bahaya kerja di tempat itu."
+                                  }
+                                ]
+                              }
+                            ]
+                          },
+                          {
+                            "type": "PLAINTEXT",
+                            "text": "Tidak selalu tenaga kerja harus sehari-hari bekerja dalam sesuatu tempat kerja."
+                          },
+                          {
+                            "type": "PLAINTEXT",
+                            "text": "Sering pula mereka untuk waktu-waktu tertentu harus memasuki ruangan-ruangan untuk mengontrol, menyetel, menjalankan instalasi-instalasi, setelah mana mereka keluar dan bekerja selanjutnya di lain tempat."
+                          },
+                          {
+                            "type": "PLAINTEXT",
+                            "text": "Instalasi-instalasi itu dapat merupakan sumber-sumber bahaya dan dengan demikian haruslah memenuhi syarat-syarat keselamatan kerja yang berlaku baginya, agar setiap orang termasuk tenaga kerja yang memasukinya dan atau untuk mengerjakan sesuatu di sana, walaupun untuk jangka waktu pendek, terjamin keselamatannya."
+                          },
+                          {
+                            "type": "PLAINTEXT",
+                            "text": "Instalasi-instalasi demikian itu misalnya rumah-rumah, transformator, instalasi pompa air yang setelah dihidupkan berjalan otomatis, ruangan-ruangan instalasi radio, listrik tegangan tinggi dan sebagainya."
+                          },
+                          {
+                            "type": "PLAINTEXT",
+                            "text": "Sumber berbahaya adakalanya mempunyai daerah pengaruh yang meluas. Dengan ketentuan dalam ayat ini praktis daerah pengaruh ini tercakup dan dapatlah diambil tindakan-tindakan penyelamatan yang diperlukan. Hal ini sekaligus menjamin kepentingan umum."
+                          },
+                          {
+                            "type": "PLAINTEXT",
+                            "text": "Misalnya suatu pabrik di mana diolah bahan-bahan kimia yang berbahaya dan dipakai serta dibuang banyak air yang mengandung zat-zat yang berbahaya."
+                          },
+                          {
+                            "type": "PLAINTEXT",
+                            "text": "Bila air buangan demikian itu dialirkan atau dibuang begitu saja ke dalam sungai maka air sungai itu menjadi berbahaya, akan dapat mengganggu kesehatan manusia, ternak ikan dan pertumbuhan tanam tanaman."
+                          },
+                          {
+                            "type": "PLAINTEXT",
+                            "text": "Karena itu untuk air buangan itu harus diadakan penampungannya tersendiri atau dikerjakan pengolahan terdahulu, di mana zat-zat kimia di dalamnya dihilangkan atau dinetraliseer, sehingga airnya itu tidak berbahaya lagi dan dapat dialirkan ke dalam sungai."
+                          },
+                          {
+                            "type": "PLAINTEXT",
+                            "text": "Dalam pelaksanaan Undang-undang ini dipakai pengertian tentang tenaga kerja sebagaimana dimuat dalam Undang-undang tentang ketentuan-ketentuan Pokok Mengenai Tenaga Kerja, maka dipandang tidak perlu di muat definisi itu dalam Undang-undang ini."
+                          },
+                          {
+                            "type": "PLAINTEXT",
+                            "text": "Usaha-usaha yang dimaksud dalam Undang-undang ini tidak harus selalu mempunyai motif ekonomi atau motif keuntungan, tapi dapat merupakan usaha-usaha sosial seperti perbengkelan di Sekolah-sekolah teknik, usaha rekreasi-rekreasi dan di rumah-rumah sakit, di mana dipergunakan instalasi-instalasi listrik dan atau mekanik yang berbahaya."
+                          }
+                        ]
+                      },
+                      {
+                        "type": "PENJELASAN_LIST_ITEM",
+                        "id": "",
+                        "children": [
+                          {
+                            "type": "PENJELASAN_AYAT",
+                            "text": "Ayat (2)"
+                          },
+                          {
+                            "type": "PLAINTEXT",
+                            "text": "Cukup jelas."
+                          }
+                        ]
+                      },
+                      {
+                        "type": "PENJELASAN_LIST_ITEM",
+                        "id": "",
+                        "children": [
+                          {
+                            "type": "PENJELASAN_AYAT",
+                            "text": "Ayat (3)"
+                          },
+                          {
+                            "type": "PLAINTEXT",
+                            "text": "Cukup jelas."
+                          }
+                        ]
+                      },
+                      {
+                        "type": "PENJELASAN_LIST_ITEM",
+                        "id": "",
+                        "children": [
+                          {
+                            "type": "PENJELASAN_AYAT",
+                            "text": "Ayat (4)"
+                          },
+                          {
+                            "type": "PLAINTEXT",
+                            "text": "Cukup jelas."
+                          }
+                        ]
+                      },
+                      {
+                        "type": "PENJELASAN_LIST_ITEM",
+                        "id": "",
+                        "children": [
+                          {
+                            "type": "PENJELASAN_AYAT",
+                            "text": "Ayat (5)"
+                          },
+                          {
+                            "type": "PLAINTEXT",
+                            "text": "Cukup jelas."
+                          }
+                        ]
+                      },
+                      {
+                        "type": "PENJELASAN_LIST_ITEM",
+                        "id": "",
+                        "children": [
+                          {
+                            "type": "PENJELASAN_AYAT",
+                            "text": "Ayat (6)"
+                          },
+                          {
+                            "type": "PLAINTEXT",
+                            "text": "Guna pelaksanaan Undang-undang ini diperlukan pengawasan dan untuk ini diperlukan staf-staf tenaga tenaga pengawas yang kuantitatif cukup besar serta bermutu."
+                          },
+                          {
+                            "type": "PLAINTEXT",
+                            "text": "Tidak saja diperlukan keahlian dan penguasaan teoritis bidang-bidang spesialisasi yang beraneka ragam, tapi mereka harus pula mempunyai banyak pengalaman di bidangnya."
+                          },
+                          {
+                            "type": "PLAINTEXT",
+                            "text": "Staf demikian itu tidak didapatkan dan sukar dihasilkan di Departemen Tenaga Kerja saja."
+                          },
+                          {
+                            "type": "PLAINTEXT",
+                            "text": "Karena itu dengan ketentuan dalam ayat ini Menteri Tenaga Kerja dapat menunjuk tenaga-tenaga ahli dimaksud yang berada di Instansi-instansi Pemerintah dan atau Swasta untuk dapat memformeer Personalia operasional yang tepat."
+                          },
+                          {
+                            "type": "PLAINTEXT",
+                            "text": "Maka dengan demikian Menteri Tenaga Kerja dapat mendesentralisir pelaksanaan pengawasan atas ditaatinya Undang-undang ini secara meluas, sedangkan POLICY NASIONALNYA tetap menjadi TANGGUNG-JAWABNYA dan berada di tangannya, sehingga terjamin pelaksanaannya secara SERAGAM dan SERASI bagi seluruh Indonesia."
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "PENJELASAN_PASAL",
+                "id": "",
+                "children": [
+                  {
+                    "type": "PASAL_NUMBER",
+                    "text": "Pasal 2"
+                  },
+                  {
+                    "type": "LIST",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "PENJELASAN_LIST_ITEM",
+                        "id": "",
+                        "children": [
+                          {
+                            "type": "PENJELASAN_AYAT",
+                            "text": "Ayat (1)"
+                          },
+                          {
+                            "type": "PLAINTEXT",
+                            "text": "Materi yang diatur dalam Undang-undang ini mengikuti perkembangan masyarakat dan kemajuan teknik, teknologi serta senantiasa akan dapat sesuai dengan perkembangan proses industrialisasi Negara kita dalam rangka Pembangunan Nasional. Selanjutnya akan dikeluarkan peraturan-peraturan organiknya, terbagi baik atas dasar pembidangan teknis maupun atas dasar pembidangan industri secara sektoral. Setelah Undang-undang ini, diadakanlah Peraturan-peraturan perundangan Keselamatan Kerja bidang Listrik, Uap, Radiasi dan sebagainya, pula peraturan perundangan Keselamatan Kerja sektoral, baik di darat, di laut maupun di udara."
+                          }
+                        ]
+                      },
+                      {
+                        "type": "PENJELASAN_LIST_ITEM",
+                        "id": "",
+                        "children": [
+                          {
+                            "type": "PENJELASAN_AYAT",
+                            "text": "Ayat (2)"
+                          },
+                          {
+                            "type": "PLAINTEXT",
+                            "text": "Dalam ayat ini diperinci sumber-sumber bahaya yang dikenal dewasa ini yang bertalian dengan:"
+                          },
+                          {
+                            "type": "LIST",
+                            "id": "",
+                            "children": [
+                              {
+                                "type": "LIST_ITEM",
+                                "id": "",
+                                "children": [
+                                  {
+                                    "type": "NUMBER_WITH_DOT",
+                                    "text": "1."
+                                  },
+                                  {
+                                    "type": "PLAINTEXT",
+                                    "text": "Keadaan mesin-mesin, pesawat-pesawat, alat-alat kerja serta peralatan lainnya, bahan-bahan dan sebagainya."
+                                  }
+                                ]
+                              },
+                              {
+                                "type": "LIST_ITEM",
+                                "id": "",
+                                "children": [
+                                  {
+                                    "type": "NUMBER_WITH_DOT",
+                                    "text": "2."
+                                  },
+                                  {
+                                    "type": "PLAINTEXT",
+                                    "text": "Lingkungan,"
+                                  }
+                                ]
+                              },
+                              {
+                                "type": "LIST_ITEM",
+                                "id": "",
+                                "children": [
+                                  {
+                                    "type": "NUMBER_WITH_DOT",
+                                    "text": "3."
+                                  },
+                                  {
+                                    "type": "PLAINTEXT",
+                                    "text": "Sifat pekerjaan."
+                                  }
+                                ]
+                              },
+                              {
+                                "type": "LIST_ITEM",
+                                "id": "",
+                                "children": [
+                                  {
+                                    "type": "NUMBER_WITH_DOT",
+                                    "text": "4."
+                                  },
+                                  {
+                                    "type": "PLAINTEXT",
+                                    "text": "Cara kerja."
+                                  }
+                                ]
+                              },
+                              {
+                                "type": "LIST_ITEM",
+                                "id": "",
+                                "children": [
+                                  {
+                                    "type": "NUMBER_WITH_DOT",
+                                    "text": "5."
+                                  },
+                                  {
+                                    "type": "PLAINTEXT",
+                                    "text": "Proses produksi."
+                                  }
+                                ]
+                              }
+                            ]
+                          }
+                        ]
+                      },
+                      {
+                        "type": "PENJELASAN_LIST_ITEM",
+                        "id": "",
+                        "children": [
+                          {
+                            "type": "PENJELASAN_AYAT",
+                            "text": "Ayat (3)"
+                          },
+                          {
+                            "type": "PLAINTEXT",
+                            "text": "Dengan ketentuan dalam ayat ini dimungkinkan diadakan perubahan-perubahan atas perincian yang dimaksud sesuai dengan pendapatan-pendapatan baru kelak kemudian hari, sehingga Undang-undang ini, dalam pelaksanaannya tetap berkembang."
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "PENJELASAN_PASAL",
+                "id": "",
+                "children": [
+                  {
+                    "type": "PASAL_NUMBER",
+                    "text": "Pasal 3"
+                  },
+                  {
+                    "type": "LIST",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "PENJELASAN_LIST_ITEM",
+                        "id": "",
+                        "children": [
+                          {
+                            "type": "PENJELASAN_AYAT",
+                            "text": "Ayat (1)"
+                          },
+                          {
+                            "type": "PLAINTEXT",
+                            "text": "Dalam ayat ini dicantumkan arah dan sasaran-sasaran secara konkret yang harus dipenuhi oleh syarat syarat keselamatan kerja yang akan dikeluarkan."
+                          }
+                        ]
+                      },
+                      {
+                        "type": "PENJELASAN_LIST_ITEM",
+                        "id": "",
+                        "children": [
+                          {
+                            "type": "PENJELASAN_AYAT",
+                            "text": "Ayat (2)"
+                          },
+                          {
+                            "type": "PLAINTEXT",
+                            "text": "Cukup jelas."
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "PENJELASAN_PASAL",
+                "id": "",
+                "children": [
+                  {
+                    "type": "PASAL_NUMBER",
+                    "text": "Pasal 4"
+                  },
+                  {
+                    "type": "LIST",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "PENJELASAN_LIST_ITEM",
+                        "id": "",
+                        "children": [
+                          {
+                            "type": "PENJELASAN_AYAT",
+                            "text": "Ayat (1)"
+                          },
+                          {
+                            "type": "PLAINTEXT",
+                            "text": "Syarat-syarat keselamatan kerja yang menyangkut perencanaan dan pembuatan diberikan pertama-tama pada perusahaan pembuatan atau produsen dari barang-barang tersebut, sehingga kelak dalam pengangkutan dan sebagainya itu barang-barang itu sendiri tidak berbahaya bagi tenaga kerja yang bersangkutan dan bagi umum, kemudian pada perusahaan-perusahaan yang memperlakukannya selanjutnya yakni yang mengangkutnya, yang mengedarkannya, memperdagangkannya, memasangnya, memakainya atau mempergunakannya, memeliharanya dan menyimpannya."
+                          },
+                          {
+                            "type": "PLAINTEXT",
+                            "text": "Syarat-syarat tersebut di atas berlaku pula bagi barang-barang yang didatangkan dari luar negeri."
+                          }
+                        ]
+                      },
+                      {
+                        "type": "PENJELASAN_LIST_ITEM",
+                        "id": "",
+                        "children": [
+                          {
+                            "type": "PENJELASAN_AYAT",
+                            "text": "Ayat (2)"
+                          },
+                          {
+                            "type": "PLAINTEXT",
+                            "text": "Dalam ayat ini ditetapkan secara konkret ketentuan-ketentuan yang harus dipenuhi oleh syarat-syarat yang dimaksud."
+                          }
+                        ]
+                      },
+                      {
+                        "type": "PENJELASAN_LIST_ITEM",
+                        "id": "",
+                        "children": [
+                          {
+                            "type": "PENJELASAN_AYAT",
+                            "text": "Ayat (3)"
+                          },
+                          {
+                            "type": "PLAINTEXT",
+                            "text": "Cukup jelas."
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "PENJELASAN_PASAL",
+                "id": "",
+                "children": [
+                  {
+                    "type": "PASAL_NUMBER",
+                    "text": "Pasal 5"
+                  },
+                  {
+                    "type": "PLAINTEXT",
+                    "text": "Cukup jelas."
+                  }
+                ]
+              },
+              {
+                "type": "PENJELASAN_PASAL",
+                "id": "",
+                "children": [
+                  {
+                    "type": "PASAL_NUMBER",
+                    "text": "Pasal 6"
+                  },
+                  {
+                    "type": "PLAINTEXT",
+                    "text": "Cukup jelas."
+                  },
+                  {
+                    "type": "PLAINTEXT",
+                    "text": "Panitia Banding ialah Panitia Teknis, yang anggota-anggotanya terdiri dari ahli-ahli dalam bidang yang diperlukan."
+                  }
+                ]
+              },
+              {
+                "type": "PENJELASAN_PASAL",
+                "id": "",
+                "children": [
+                  {
+                    "type": "PASAL_NUMBER",
+                    "text": "Pasal 7"
+                  },
+                  {
+                    "type": "PLAINTEXT",
+                    "text": "Cukup jelas."
+                  }
+                ]
+              },
+              {
+                "type": "PENJELASAN_PASAL",
+                "id": "",
+                "children": [
+                  {
+                    "type": "PASAL_NUMBER",
+                    "text": "Pasal 8"
+                  },
+                  {
+                    "type": "PLAINTEXT",
+                    "text": "Cukup jelas."
+                  }
+                ]
+              },
+              {
+                "type": "PENJELASAN_PASAL",
+                "id": "",
+                "children": [
+                  {
+                    "type": "PASAL_NUMBER",
+                    "text": "Pasal 9"
+                  },
+                  {
+                    "type": "PLAINTEXT",
+                    "text": "Cukup jelas."
+                  }
+                ]
+              },
+              {
+                "type": "PENJELASAN_PASAL",
+                "id": "",
+                "children": [
+                  {
+                    "type": "PASAL_NUMBER",
+                    "text": "Pasal 10"
+                  },
+                  {
+                    "type": "LIST",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "PENJELASAN_LIST_ITEM",
+                        "id": "",
+                        "children": [
+                          {
+                            "type": "PENJELASAN_AYAT",
+                            "text": "Ayat (1)"
+                          },
+                          {
+                            "type": "PLAINTEXT",
+                            "text": "Panitia Pembina Keselamatan dan Kesehatan Kerja bertugas memberi pertimbangan dan dapat membantu pelaksanaan usaha pencegahan kecelakaan dalam,perusahaan yang bersangkutan serta dapat memberikan penjelasan dan penerangan efektif pada para pekerja yang bersangkutan."
+                          }
+                        ]
+                      },
+                      {
+                        "type": "PENJELASAN_LIST_ITEM",
+                        "id": "",
+                        "children": [
+                          {
+                            "type": "PENJELASAN_AYAT",
+                            "text": "Ayat (2)"
+                          },
+                          {
+                            "type": "PLAINTEXT",
+                            "text": "Panitia Pembina Keselamatan dan Kesehatan Kerja merupakan suatu Badan yang terdiri dari unsur-unsur penerima kerja, pemberi kerja dan pemerintah (tripartite)."
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "PENJELASAN_PASAL",
+                "id": "",
+                "children": [
+                  {
+                    "type": "PASAL_NUMBER",
+                    "text": "Pasal 11"
+                  },
+                  {
+                    "type": "PLAINTEXT",
+                    "text": "Cukup jelas."
+                  }
+                ]
+              },
+              {
+                "type": "PENJELASAN_PASAL",
+                "id": "",
+                "children": [
+                  {
+                    "type": "PASAL_NUMBER",
+                    "text": "Pasal 12"
+                  },
+                  {
+                    "type": "PLAINTEXT",
+                    "text": "Cukup jelas."
+                  }
+                ]
+              },
+              {
+                "type": "PENJELASAN_PASAL",
+                "id": "",
+                "children": [
+                  {
+                    "type": "PASAL_NUMBER",
+                    "text": "Pasal 13"
+                  },
+                  {
+                    "type": "PLAINTEXT",
+                    "text": "Yang dimaksud dengan barang siapa ialah setiap orang baik yang bersangkutan maupun tidak bersangkutan dengan pekerjaan di tempat kerja itu."
+                  }
+                ]
+              },
+              {
+                "type": "PENJELASAN_PASAL",
+                "id": "",
+                "children": [
+                  {
+                    "type": "PASAL_NUMBER",
+                    "text": "Pasal 14"
+                  },
+                  {
+                    "type": "PLAINTEXT",
+                    "text": "Cukup jelas."
+                  }
+                ]
+              },
+              {
+                "type": "PENJELASAN_PASAL",
+                "id": "",
+                "children": [
+                  {
+                    "type": "PASAL_NUMBER",
+                    "text": "Pasal 15"
+                  },
+                  {
+                    "type": "PLAINTEXT",
+                    "text": "Cukup jelas."
+                  }
+                ]
+              },
+              {
+                "type": "PENJELASAN_PASAL",
+                "id": "",
+                "children": [
+                  {
+                    "type": "PASAL_NUMBER",
+                    "text": "Pasal 16"
+                  },
+                  {
+                    "type": "PLAINTEXT",
+                    "text": "Cukup jelas."
+                  }
+                ]
+              },
+              {
+                "type": "PENJELASAN_PASAL",
+                "id": "",
+                "children": [
+                  {
+                    "type": "PASAL_NUMBER",
+                    "text": "Pasal 17"
+                  },
+                  {
+                    "type": "PLAINTEXT",
+                    "text": "Peraturan-peraturan Keselamatan Kerja yang ditetapkan berdasarkan veiligheidsreglement 1910 dianggap ditetapkan berdasarkan Undang-undang ini sepanjang tidak bertentangan dengannya."
+                  }
+                ]
+              },
+              {
+                "type": "PENJELASAN_PASAL",
+                "id": "",
+                "children": [
+                  {
+                    "type": "PASAL_NUMBER",
+                    "text": "Pasal 18"
+                  },
+                  {
+                    "type": "PLAINTEXT",
+                    "text": "Cukup jelas."
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

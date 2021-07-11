@@ -1,10 +1,11 @@
 import { useMemo } from "react";
-import { Complex, Primitive, renderChildren, Structure, NodeMap, penjelasanStructureMap } from "utils/grammar";
+import { Complex, Primitive, renderChildren, Structure, NodeMap, Metadata, penjelasanStructureMap } from "utils/grammar";
 import { fonts } from "utils/theme";
 import { LawContext, getPenjelasanMapKey } from "utils/context-provider";
+import Tooltip from "./Tooltip";
 
 // TODO(johnamadeo): Fix "Warning: Each child in a list should have a unique "key" prop." problem
-export default function Law(props: { law: Complex, colorScheme: any }): JSX.Element {
+export default function Law(props: { law: Complex, metadata: Metadata, colorScheme: any }): JSX.Element {
   // This method requires a brute force traversal of PENJELASAN_PASAL_DEMI_PASAL
   // so we want to run it once & memoize
   const penjelasanMap = useMemo(() => extractPenjelasanMap(props.law), [props.law]);
@@ -21,6 +22,7 @@ export default function Law(props: { law: Complex, colorScheme: any }): JSX.Elem
       `}</style>
         {renderChildren(props.law)}
       </div>
+      <Tooltip metadata={props.metadata}></Tooltip>
     </LawContext.Provider>
   );
 }

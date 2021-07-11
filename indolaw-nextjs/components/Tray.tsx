@@ -30,7 +30,7 @@ export default function Tray(props: {
 
   useEffect(() => {
     const listener = function (event: KeyboardEvent) {
-      if (event.key === 'f') {
+      if (event.key === 'g') {
         if (isExpanded) {
           onMinimize();
         } else {
@@ -70,7 +70,7 @@ export default function Tray(props: {
                 />
               )}
             />
-            <MetadataSection
+            {/* <MetadataSection
               title={'Status'}
               content={
                 <Status
@@ -87,7 +87,7 @@ export default function Tray(props: {
                   textColor={colorScheme.tray.textSecondary}
                 />
               )}
-            />
+            /> */}
             <MetadataSection
               title={'Theme'}
               content={
@@ -148,7 +148,7 @@ export default function Tray(props: {
                 <Tab
                   isActive={activeTab === Tabs.METADATA}
                   onClick={() => setActiveTab(Tabs.METADATA)}
-                  text={'Terkait'}
+                  text={'Settings'}
                 />
               </div>
               <div

@@ -4496,7 +4496,21 @@
                               },
                               {
                                 "type": "PLAINTEXT",
-                                "text": "adanya putusan pengadilan dan/atau putusan atau penetapan lembaga penyelesaian perselisihan hubungan industrial yang telah mempunyai kekuatan hukum tetap; atau d. adanya keadaan atau kejadian tertentu yang dicantumkan dalam perjanjian kerja, peraturan perusahaan, atau perjanjian kerja bersama yang dapat menyebabkan berakhirnya hubungan kerja."
+                                "text": "adanya putusan pengadilan dan/atau putusan atau penetapan lembaga penyelesaian perselisihan hubungan industrial yang telah mempunyai kekuatan hukum tetap; atau"
+                              }
+                            ]
+                          },
+                          {
+                            "type": "LIST_ITEM",
+                            "id": "",
+                            "children": [
+                              {
+                                "type": "LETTER_WITH_DOT",
+                                "text": "d."
+                              },
+                              {
+                                "type": "PLAINTEXT",
+                                "text": "adanya keadaan atau kejadian tertentu yang dicantumkan dalam perjanjian kerja, peraturan perusahaan, atau perjanjian kerja bersama yang dapat menyebabkan berakhirnya hubungan kerja."
                               }
                             ]
                           }
@@ -10924,7 +10938,21 @@
                       },
                       {
                         "type": "PLAINTEXT",
-                        "text": "pekerja/buruh mencapai usia pensiun sesuai dengan ketetapan dalam perjanjian kerja, peraturan perusahaan, perjanjian kerja bersama, atau peraturan perundang-undangan; atau d. pekerja/buruh meninggal dunia."
+                        "text": "pekerja/buruh mencapai usia pensiun sesuai dengan ketetapan dalam perjanjian kerja, peraturan perusahaan, perjanjian kerja bersama, atau peraturan perundang-undangan; atau"
+                      }
+                    ]
+                  },
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "LETTER_WITH_DOT",
+                        "text": "d."
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "pekerja/buruh meninggal dunia."
                       }
                     ]
                   }

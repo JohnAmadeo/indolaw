@@ -1,0 +1,2340 @@
+{
+  "metadata": {
+    "lembaranNegaraNumber": 134,
+    "lembaranNegaraYear": 2001,
+    "tambahanLembaranNumber": 4150,
+    "number": 20,
+    "topic": "Perubahan Atas Undang-undang Nomor 31 Tahun 1999 Tentang Pemberantasan Tindak Pidana Korupsi",
+    "year": 2001
+  },
+  "content": {
+    "type": "UNDANG_UNDANG",
+    "id": "",
+    "children": [
+      {
+        "type": "OPENING",
+        "id": "",
+        "children": [
+          {
+            "type": "UU_TITLE",
+            "id": "",
+            "children": [
+              {
+                "type": "PLAINTEXT",
+                "text": "UNDANG-UNDANG REPUBLIK INDONESIA"
+              },
+              {
+                "type": "UU_TITLE_YEAR_AND_NUMBER",
+                "text": "NOMOR 20 TAHUN 2001"
+              },
+              {
+                "type": "PLAINTEXT",
+                "text": "TENTANG"
+              },
+              {
+                "type": "UU_TITLE_TOPIC",
+                "text": "PERUBAHAN ATAS UNDANG-UNDANG NOMOR 31 TAHUN 1999 TENTANG PEMBERANTASAN TINDAK PIDANA KORUPSI"
+              }
+            ]
+          },
+          {
+            "type": "PREFACE",
+            "id": "",
+            "children": [
+              {
+                "type": "PLAINTEXT",
+                "text": "DENGAN RAHMAT TUHAN YANG MAHA ESA"
+              },
+              {
+                "type": "PLAINTEXT",
+                "text": "PRESIDEN REPUBLIK INDONESIA,"
+              }
+            ]
+          },
+          {
+            "type": "CONSIDERATIONS",
+            "id": "",
+            "children": [
+              {
+                "type": "PLAINTEXT",
+                "text": "Menimbang:"
+              },
+              {
+                "type": "LIST",
+                "id": "",
+                "children": [
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "LETTER_WITH_DOT",
+                        "text": "a."
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "bahwa tindak pidana korupsi yang selama ini terjadi secara meluas, tidak hanya merugikan keuangan negara, tetapi juga telah merupakan pelanggaran terhadap hak-hak sosial dan ekonomi masyarakat secara luas, sehingga tindak pidana korupsi perlu digolongkan sebagai kejahatan yang pemberantasannya harus dilakukan secara luar biasa;"
+                      }
+                    ]
+                  },
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "LETTER_WITH_DOT",
+                        "text": "b."
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "bahwa untuk lebih menjamin kepastian hukum, menghindari keragaman penafsiran hukum dan memberikan perlindungan terhadap hak-hak sosial dan ekonomi masyarakat, serta perlakuan secara adil dalam memberantas tindak pidana korupsi, perlu diadakan perubahan atas Undang-undang Nomor 31 Tahun 1999 tentang Pemberantasan Tindak Pidana Korupsi;"
+                      }
+                    ]
+                  },
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "LETTER_WITH_DOT",
+                        "text": "c."
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "bahwa berdasarkan pertimbangan sebagaimana dimaksud dalam huruf a dan huruf b, perlu membentuk Undang-undang tentang Perubahan Atas Undang-undang Nomor 31 Tahun 1999 tentang Pemberantasan Tindak Pidana Korupsi."
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "PRINCIPLES",
+            "id": "",
+            "children": [
+              {
+                "type": "PLAINTEXT",
+                "text": "Mengingat:"
+              },
+              {
+                "type": "LIST",
+                "id": "",
+                "children": [
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "NUMBER_WITH_DOT",
+                        "text": "1."
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "Pasal 5 ayat (1) dan Pasal 20 ayat (2) dan ayat (4) Undang-Undang Dasar 1945;"
+                      }
+                    ]
+                  },
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "NUMBER_WITH_DOT",
+                        "text": "2."
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "Undang-undang Nomor 8 Tahun 1981 tentang Hukum Acara Pidana (Lembaran Negara Republik Indonesia Tahun 1981 Nomor 76, Tambahan Lembaran Negara Nomor 3209);"
+                      }
+                    ]
+                  },
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "NUMBER_WITH_DOT",
+                        "text": "3."
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "Undang-undang Nomor 28 Tahun 1999 tentang Penyelenggara Negara yang Bebas dari Korupsi, Kolusi, dan Nepotisme (Lembaran Negara Republik Indonesia Tahun 1999 Nomor 75, Tambahan Lembaran Negara Nomor 3851);"
+                      }
+                    ]
+                  },
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "NUMBER_WITH_DOT",
+                        "text": "4."
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "Undang-undang Nomor 31 Tahun 1999 tentang Pemberantasan Tindak Pidana Korupsi (Lembaran Negara Republik Indonesia Tahun 1999 Nomor 140, Tambahan Lembaran Negara Nomor 3874)."
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "AGREEMENT",
+            "id": "",
+            "children": [
+              {
+                "type": "PLAINTEXT",
+                "text": "Dengan Persetujuan Bersama:"
+              },
+              {
+                "type": "PLAINTEXT",
+                "text": "DEWAN PERWAKILAN RAKYAT REPUBLIK INDONESIA"
+              },
+              {
+                "type": "PLAINTEXT",
+                "text": "DAN"
+              },
+              {
+                "type": "PLAINTEXT",
+                "text": "PRESIDEN REPUBLIK INDONESIA,"
+              },
+              {
+                "type": "PLAINTEXT",
+                "text": "MEMUTUSKAN:"
+              },
+              {
+                "type": "PLAINTEXT",
+                "text": "Menetapkan:"
+              },
+              {
+                "type": "PLAINTEXT",
+                "text": "UNDANG-UNDANG TENTANG PERUBAHAN ATAS UNDANG-UNDANG NOMOR 31 TAHUN 1999 TENTANG PEMBERANTASAN TINDAK PIDANA KORUPSI"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "PASAL",
+        "id": "pasal-I",
+        "children": [
+          {
+            "type": "PASAL_NUMBER",
+            "text": "Pasal I"
+          },
+          {
+            "type": "PLAINTEXT",
+            "text": "Beberapa ketentuan dan penjelasan pasal dalam Undang-undang Nomor 31 Tahun 1999 tentang Pemberantasan Tindak Pidana Korupsi diubah sebagai berikut:"
+          },
+          {
+            "type": "LIST",
+            "id": "",
+            "children": [
+              {
+                "type": "LIST_ITEM",
+                "id": "",
+                "children": [
+                  {
+                    "type": "NUMBER_WITH_DOT",
+                    "text": "1."
+                  },
+                  {
+                    "type": "PLAINTEXT",
+                    "text": "Pasal 2 ayat (2) substansi tetap, penjelasan pasal diubah sehingga rumusannya sebagaimana tercantum dalam penjelasan Pasal Demi Pasal angka 1 Undang-undang ini."
+                  }
+                ]
+              },
+              {
+                "type": "LIST_ITEM",
+                "id": "",
+                "children": [
+                  {
+                    "type": "NUMBER_WITH_DOT",
+                    "text": "2."
+                  },
+                  {
+                    "type": "PLAINTEXT",
+                    "text": "Ketentuan Pasal 5, Pasal 6, Pasal 7, Pasal 8, Pasal 9, Pasal 10, Pasal 11, dan Pasal 12, rumusannya diubah dengan tidak mengacu pasal-pasal dalam Kitab Undang-undang Hukum Pidana tetapi langsung menyebutkan unsur-unsur yang terdapat dalam masing-masing pasal Kitab Undang-undang Hukum Pidana yang diacu, sehingga berbunyi sebagai berikut:"
+                  },
+                  {
+                    "type": "PERUBAHAN_SECTION",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "PERUBAHAN_PASAL",
+                        "id": "perubahan-pasal-5",
+                        "children": [
+                          {
+                            "type": "PASAL_NUMBER",
+                            "text": "Pasal 5"
+                          },
+                          {
+                            "type": "LIST",
+                            "id": "",
+                            "children": [
+                              {
+                                "type": "LIST_ITEM",
+                                "id": "",
+                                "children": [
+                                  {
+                                    "type": "NUMBER_WITH_BRACKETS",
+                                    "text": "(1)"
+                                  },
+                                  {
+                                    "type": "PLAINTEXT",
+                                    "text": "Dipidana dengan pidana penjara paling singkat 1 (satu) tahun dan paling lama 5 (lima) tahun dan atau pidana denda paling sedikit Rp 50.000.000,00 (lima puluh juta rupiah) dan paling banyak Rp 250.000.000,00 (dua ratus lima puluh juta rupiah) setiap orang yang:"
+                                  },
+                                  {
+                                    "type": "LIST",
+                                    "id": "",
+                                    "children": [
+                                      {
+                                        "type": "LIST_ITEM",
+                                        "id": "",
+                                        "children": [
+                                          {
+                                            "type": "LETTER_WITH_DOT",
+                                            "text": "a."
+                                          },
+                                          {
+                                            "type": "PLAINTEXT",
+                                            "text": "memberi atau menjanjikan sesuatu kepada pegawai negeri atau penyelenggara negara dengan maksud supaya pegawai negeri atau penyelenggara negara tersebut berbuat atau tidak berbuat sesuatu dalam jabatannya, yang bertentangan dengan kewajibannya; atau"
+                                          }
+                                        ]
+                                      },
+                                      {
+                                        "type": "LIST_ITEM",
+                                        "id": "",
+                                        "children": [
+                                          {
+                                            "type": "LETTER_WITH_DOT",
+                                            "text": "b."
+                                          },
+                                          {
+                                            "type": "PLAINTEXT",
+                                            "text": "memberi sesuatu kepada pegawai negeri atau penyelenggara negara karena atau berhubungan dengan sesuatu yang bertentangan dengan kewajiban, dilakukan atau tidak dilakukan dalam jabatannya."
+                                          }
+                                        ]
+                                      }
+                                    ]
+                                  }
+                                ]
+                              },
+                              {
+                                "type": "LIST_ITEM",
+                                "id": "",
+                                "children": [
+                                  {
+                                    "type": "NUMBER_WITH_BRACKETS",
+                                    "text": "(2)"
+                                  },
+                                  {
+                                    "type": "PLAINTEXT",
+                                    "text": "Bagi pegawai negeri atau penyelenggara negara yang menerima pemberian atau janji sebagaimana dimaksud dalam ayat (1) huruf a atau huruf b, dipidana dengan pidana yang sama sebagaimana dimaksud dalam ayat (1)."
+                                  }
+                                ]
+                              }
+                            ]
+                          }
+                        ]
+                      },
+                      {
+                        "type": "PERUBAHAN_PASAL",
+                        "id": "perubahan-pasal-6",
+                        "children": [
+                          {
+                            "type": "PASAL_NUMBER",
+                            "text": "Pasal 6"
+                          },
+                          {
+                            "type": "LIST",
+                            "id": "",
+                            "children": [
+                              {
+                                "type": "LIST_ITEM",
+                                "id": "",
+                                "children": [
+                                  {
+                                    "type": "NUMBER_WITH_BRACKETS",
+                                    "text": "(1)"
+                                  },
+                                  {
+                                    "type": "PLAINTEXT",
+                                    "text": "Dipidana dengan pidana penjara paling singkat 3 (tiga) tahun dan paling lama 15 (lima belas) tahun dan pidana denda paling sedikit Rp 150.000.000,00 (seratus lima puluh juta rupiah) dan paling banyak Rp 750.000.000,00 (tujuh ratus lima puluh juta rupiah) setiap orang yang:"
+                                  },
+                                  {
+                                    "type": "LIST",
+                                    "id": "",
+                                    "children": [
+                                      {
+                                        "type": "LIST_ITEM",
+                                        "id": "",
+                                        "children": [
+                                          {
+                                            "type": "LETTER_WITH_DOT",
+                                            "text": "a."
+                                          },
+                                          {
+                                            "type": "PLAINTEXT",
+                                            "text": "memberi atau menjanjikan sesuatu kepada hakim dengan maksud untuk mempengaruhi putusan perkara yang diserahkan kepadanya untuk diadili; atau"
+                                          }
+                                        ]
+                                      },
+                                      {
+                                        "type": "LIST_ITEM",
+                                        "id": "",
+                                        "children": [
+                                          {
+                                            "type": "LETTER_WITH_DOT",
+                                            "text": "b."
+                                          },
+                                          {
+                                            "type": "PLAINTEXT",
+                                            "text": "memberi atau menjanjikan sesuatu kepada seseorang yang menurut ketentuan peraturan perundang-undangan ditentukan menjadi advokat untuk menghadiri sidang pengadilan dengan maksud untuk mempengaruhi nasihat atau pendapat yang akan diberikan berhubung dengan perkara yang diserahkan kepada pengadilan untuk diadili."
+                                          }
+                                        ]
+                                      }
+                                    ]
+                                  }
+                                ]
+                              },
+                              {
+                                "type": "LIST_ITEM",
+                                "id": "",
+                                "children": [
+                                  {
+                                    "type": "NUMBER_WITH_BRACKETS",
+                                    "text": "(2)"
+                                  },
+                                  {
+                                    "type": "PLAINTEXT",
+                                    "text": "Bagi hakim yang menerima pemberian atau janji sebagaimana dimaksud dalam ayat (1) huruf a atau advokat yang menerima pemberian atau janji sebagaimana dimaksud dalam ayat (1) huruf b, dipidana dengan pidana yang sama sebagaimana dimaksud dalam ayat (1)."
+                                  }
+                                ]
+                              }
+                            ]
+                          }
+                        ]
+                      },
+                      {
+                        "type": "PERUBAHAN_PASAL",
+                        "id": "perubahan-pasal-7",
+                        "children": [
+                          {
+                            "type": "PASAL_NUMBER",
+                            "text": "Pasal 7"
+                          },
+                          {
+                            "type": "LIST",
+                            "id": "",
+                            "children": [
+                              {
+                                "type": "LIST_ITEM",
+                                "id": "",
+                                "children": [
+                                  {
+                                    "type": "NUMBER_WITH_BRACKETS",
+                                    "text": "(1)"
+                                  },
+                                  {
+                                    "type": "PLAINTEXT",
+                                    "text": "Dipidana dengan pidana penjara paling singkat 2 (dua) tahun dan paling lama 7 (tujuh) tahun dan atau pidana denda paling sedikit Rp 100.000.000,00 (seratus juta rupiah) dan paling banyak Rp 350.000.000,00 (tiga ratus lima puluh juta rupiah):"
+                                  },
+                                  {
+                                    "type": "LIST",
+                                    "id": "",
+                                    "children": [
+                                      {
+                                        "type": "LIST_ITEM",
+                                        "id": "",
+                                        "children": [
+                                          {
+                                            "type": "LETTER_WITH_DOT",
+                                            "text": "a."
+                                          },
+                                          {
+                                            "type": "PLAINTEXT",
+                                            "text": "pemborong, ahli bangunan yang pada waktu membuat bangunan, atau penjual bahan bangunan yang pada waktu menyerahkan bahan bangunan, melakukan perbuatan curang yang dapat membahayakan keamanan orang atau barang, atau keselamatan negara dalam keadaan perang;"
+                                          }
+                                        ]
+                                      },
+                                      {
+                                        "type": "LIST_ITEM",
+                                        "id": "",
+                                        "children": [
+                                          {
+                                            "type": "LETTER_WITH_DOT",
+                                            "text": "b."
+                                          },
+                                          {
+                                            "type": "PLAINTEXT",
+                                            "text": "setiap orang yang bertugas mengawasi pembangunan atau penyerahan bahan bangunan, sengaja membiarkan perbuatan curang sebagaimana dimaksud dalam huruf a;"
+                                          }
+                                        ]
+                                      },
+                                      {
+                                        "type": "LIST_ITEM",
+                                        "id": "",
+                                        "children": [
+                                          {
+                                            "type": "LETTER_WITH_DOT",
+                                            "text": "c."
+                                          },
+                                          {
+                                            "type": "PLAINTEXT",
+                                            "text": "setiap orang yang pada waktu menyerahkan barang keperluan Tentara Nasional Indonesia dan atau Kepolisian Negara Republik Indonesia melakukan perbuatan curang yang dapat membahayakan keselamatan negara dalam keadaan perang; atau"
+                                          }
+                                        ]
+                                      },
+                                      {
+                                        "type": "LIST_ITEM",
+                                        "id": "",
+                                        "children": [
+                                          {
+                                            "type": "LETTER_WITH_DOT",
+                                            "text": "d."
+                                          },
+                                          {
+                                            "type": "PLAINTEXT",
+                                            "text": "setiap orang yang bertugas mengawasi penyerahan barang keperluan Tentara Nasional Indonesia dan atau Kepolisian Negara Republik Indonesia dengan sengaja membiarkan perbuatan curang sebagaimana dimaksud dalam huruf c."
+                                          }
+                                        ]
+                                      }
+                                    ]
+                                  }
+                                ]
+                              },
+                              {
+                                "type": "LIST_ITEM",
+                                "id": "",
+                                "children": [
+                                  {
+                                    "type": "NUMBER_WITH_BRACKETS",
+                                    "text": "(2)"
+                                  },
+                                  {
+                                    "type": "PLAINTEXT",
+                                    "text": "Bagi orang yang menerima penyerahan bahan bangunan atau orang yang menerima penyerahan barang keperluan Tentara Nasional Indonesia dan atau Kepolisian Negara Republik Indonesia dan membiarkan perbuatan curang sebagaimana dimaksud dalam ayat (1) huruf a atau huruf c, dipidana dengan pidana yang sama sebagaimana dimaksud dalam ayat (1)."
+                                  }
+                                ]
+                              }
+                            ]
+                          }
+                        ]
+                      },
+                      {
+                        "type": "PERUBAHAN_PASAL",
+                        "id": "perubahan-pasal-8",
+                        "children": [
+                          {
+                            "type": "PASAL_NUMBER",
+                            "text": "Pasal 8"
+                          },
+                          {
+                            "type": "PLAINTEXT",
+                            "text": "Dipidana dengan pidana penjara paling singkat 3 (tiga) tahun dan paling lama 15 (lima belas) tahun dan pidana denda paling sedikit Rp 150.000.000,00 (seratus lima puluh juta rupiah) dan paling banyak Rp 750.000.000,00 (tujuh ratus lima puluh juta rupiah), pegawai negeri atau orang selain pegawai negeri yang ditugaskan menjalankan suatu jabatan umum secara terus menerus atau untuk sementara waktu, dengan sengaja menggelapkan uang atau surat berharga yang disimpan karena jabatannya, atau membiarkan uang atau surat berharga tersebut diambil atau digelapkan oleh orang lain, atau membantu dalam melakukan perbuatan tersebut."
+                          }
+                        ]
+                      },
+                      {
+                        "type": "PERUBAHAN_PASAL",
+                        "id": "perubahan-pasal-9",
+                        "children": [
+                          {
+                            "type": "PASAL_NUMBER",
+                            "text": "Pasal 9"
+                          },
+                          {
+                            "type": "PLAINTEXT",
+                            "text": "Dipidana dengan pidana penjara paling singkat 1 (satu) tahun dan paling lama 5 (lima) tahun dan pidana denda paling sedikit Rp 50.000.000,00 (lima puluh juta rupiah) dan paling banyak Rp 250.000.000,00 (dua ratus lima puluh juta rupiah) pegawai negeri atau orang selain pegawai negeri yang diberi tugas menjalankan suatu jabatan umum secara terus menerus atau untuk sementara waktu, dengan sengaja memalsu buku-buku atau daftar-daftar yang khusus untuk pemeriksaan administrasi."
+                          }
+                        ]
+                      },
+                      {
+                        "type": "PERUBAHAN_PASAL",
+                        "id": "perubahan-pasal-10",
+                        "children": [
+                          {
+                            "type": "PASAL_NUMBER",
+                            "text": "Pasal 10"
+                          },
+                          {
+                            "type": "PLAINTEXT",
+                            "text": "Dipidana dengan pidana penjara paling singkat 2 (dua) tahun dan paling lama 7 (tujuh) tahun dan pidana denda paling sedikit Rp 100.000.000,00 (seratus juta rupiah) dan paling banyak Rp 350.000.000,00 (tiga ratus lima puluh juta rupiah) pegawai negeri atau orang selain pegawai negeri yang diberi tugas menjalankan suatu jabatan umum secara terus menerus atau untuk sementara waktu, dengan sengaja:"
+                          },
+                          {
+                            "type": "LIST",
+                            "id": "",
+                            "children": [
+                              {
+                                "type": "LIST_ITEM",
+                                "id": "",
+                                "children": [
+                                  {
+                                    "type": "LETTER_WITH_DOT",
+                                    "text": "a."
+                                  },
+                                  {
+                                    "type": "PLAINTEXT",
+                                    "text": "menggelapkan, menghancurkan, merusakkan, atau membuat tidak dapat dipakai barang, akta, surat, atau daftar yang digunakan untuk meyakinkan atau membuktikan di muka pejabat yang berwenang, yang dikuasai karena jabatannya; atau"
+                                  }
+                                ]
+                              },
+                              {
+                                "type": "LIST_ITEM",
+                                "id": "",
+                                "children": [
+                                  {
+                                    "type": "LETTER_WITH_DOT",
+                                    "text": "b."
+                                  },
+                                  {
+                                    "type": "PLAINTEXT",
+                                    "text": "membiarkan orang lain menghilangkan, menghancurkan, merusakkan, atau membuat tidak dapat dipakai barang, akta, surat, atau daftar tersebut; atau"
+                                  }
+                                ]
+                              },
+                              {
+                                "type": "LIST_ITEM",
+                                "id": "",
+                                "children": [
+                                  {
+                                    "type": "LETTER_WITH_DOT",
+                                    "text": "c."
+                                  },
+                                  {
+                                    "type": "PLAINTEXT",
+                                    "text": "membantu orang lain menghilangkan, menghancurkan, merusakkan, atau membuat tidak dapat dipakai barang, akta, surat, atau daftar tersebut."
+                                  }
+                                ]
+                              }
+                            ]
+                          }
+                        ]
+                      },
+                      {
+                        "type": "PERUBAHAN_PASAL",
+                        "id": "perubahan-pasal-11",
+                        "children": [
+                          {
+                            "type": "PASAL_NUMBER",
+                            "text": "Pasal 11"
+                          },
+                          {
+                            "type": "PLAINTEXT",
+                            "text": "Dipidana dengan pidana penjara paling singkat 1 (satu) tahun dan paling lama 5 (lima) tahun dan atau pidana denda paling sedikit Rp 50.000.000,00 (lima puluh juta rupiah) dan paling banyak Rp 250.000.000,00 (dua ratus lima puluh juta rupiah) pegawai negeri atau penyelenggara negara yang menerima hadiah atau janji padahal diketahui atau patut diduga, bahwa hadiah atau janji tersebut diberikan karena kekuasaan atau kewenangan yang berhubungan dengan jabatannya, atau yang menurut pikiran orang yang memberikan hadiah atau janji tersebut ada hubungan dengan jabatannya."
+                          }
+                        ]
+                      },
+                      {
+                        "type": "PERUBAHAN_PASAL",
+                        "id": "perubahan-pasal-12",
+                        "children": [
+                          {
+                            "type": "PASAL_NUMBER",
+                            "text": "Pasal 12"
+                          },
+                          {
+                            "type": "PLAINTEXT",
+                            "text": "Dipidana dengan pidana penjara seumur hidup atau pidana penjara paling singkat 4 (empat) tahun dan paling lama 20 (dua puluh) tahun dan pidana denda paling sedikit Rp 200.000.000,00 (dua ratus juta rupiah) dan paling banyak Rp 1.000.000.000,00 (satu miliar rupiah):"
+                          },
+                          {
+                            "type": "LIST",
+                            "id": "",
+                            "children": [
+                              {
+                                "type": "LIST_ITEM",
+                                "id": "",
+                                "children": [
+                                  {
+                                    "type": "LETTER_WITH_DOT",
+                                    "text": "a."
+                                  },
+                                  {
+                                    "type": "PLAINTEXT",
+                                    "text": "pegawai negeri atau penyelenggara negara yang menerima hadiah atau janji, padahal diketahui atau patut diduga bahwa hadiah atau janji tersebut diberikan untuk menggerakkan agar melakukan atau tidak melakukan sesuatu dalam jabatannya, yang bertentangan dengan kewajibannya;"
+                                  }
+                                ]
+                              },
+                              {
+                                "type": "LIST_ITEM",
+                                "id": "",
+                                "children": [
+                                  {
+                                    "type": "LETTER_WITH_DOT",
+                                    "text": "b."
+                                  },
+                                  {
+                                    "type": "PLAINTEXT",
+                                    "text": "pegawai negeri atau penyelenggara negara yang menerima hadiah, padahal diketahui atau patut diduga bahwa hadiah tersebut diberikan sebagai akibat atau disebabkan karena telah melakukan atau tidak melakukan sesuatu dalam jabatannya yang bertentangan dengan kewajibannya;"
+                                  }
+                                ]
+                              },
+                              {
+                                "type": "LIST_ITEM",
+                                "id": "",
+                                "children": [
+                                  {
+                                    "type": "LETTER_WITH_DOT",
+                                    "text": "c."
+                                  },
+                                  {
+                                    "type": "PLAINTEXT",
+                                    "text": "hakim yang menerima hadiah atau janji, padahal diketahui atau patut diduga bahwa hadiah atau janji tersebut diberikan untuk mempengaruhi putusan perkara yang diserahkan kepadanya untuk diadili;"
+                                  }
+                                ]
+                              },
+                              {
+                                "type": "LIST_ITEM",
+                                "id": "",
+                                "children": [
+                                  {
+                                    "type": "LETTER_WITH_DOT",
+                                    "text": "d."
+                                  },
+                                  {
+                                    "type": "PLAINTEXT",
+                                    "text": "seseorang yang menurut ketentuan peraturan perundang-undangan ditentukan menjadi advokat untuk menghadiri sidang pengadilan, menerima hadiah atau janji, padahal diketahui atau patut diduga bahwa hadiah atau janji tersebut untuk mempengaruhi nasihat atau pendapat yang akan diberikan, berhubung dengan perkara yang diserahkan kepada pengadilan untuk diadili;"
+                                  }
+                                ]
+                              },
+                              {
+                                "type": "LIST_ITEM",
+                                "id": "",
+                                "children": [
+                                  {
+                                    "type": "LETTER_WITH_DOT",
+                                    "text": "e."
+                                  },
+                                  {
+                                    "type": "PLAINTEXT",
+                                    "text": "pegawai negeri atau penyelenggara negara yang dengan maksud menguntungkan diri sendiri atau orang lain secara melawan hukum, atau dengan menyalahgunakan kekuasaannya memaksa seseorang memberikan sesuatu, membayar, atau menerima pembayaran dengan potongan, atau untuk mengerjakan sesuatu bagi dirinya sendiri;"
+                                  }
+                                ]
+                              },
+                              {
+                                "type": "LIST_ITEM",
+                                "id": "",
+                                "children": [
+                                  {
+                                    "type": "LETTER_WITH_DOT",
+                                    "text": "f."
+                                  },
+                                  {
+                                    "type": "PLAINTEXT",
+                                    "text": "pegawai negeri atau penyelenggara negara yang pada waktu menjalankan tugas, meminta, menerima, atau memotong pembayaran kepada pegawai negeri atau penyelenggara negara yang lain atau kepada kas umum, seolah-olah pegawai negeri atau penyelenggara negara yang lain atau kas umum tersebut mempunyai utang kepadanya, padahal diketahui bahwa hal tersebut bukan merupakan utang;"
+                                  }
+                                ]
+                              },
+                              {
+                                "type": "LIST_ITEM",
+                                "id": "",
+                                "children": [
+                                  {
+                                    "type": "LETTER_WITH_DOT",
+                                    "text": "g."
+                                  },
+                                  {
+                                    "type": "PLAINTEXT",
+                                    "text": "pegawai negeri atau penyelenggara negara yang pada waktu menjalankan tugas, meminta atau menerima pekerjaan, atau penyerahan barang, seolah-olah merupakan utang kepada dirinya, padahal diketahui bahwa hal tersebut bukan merupakan utang;"
+                                  }
+                                ]
+                              },
+                              {
+                                "type": "LIST_ITEM",
+                                "id": "",
+                                "children": [
+                                  {
+                                    "type": "LETTER_WITH_DOT",
+                                    "text": "h."
+                                  },
+                                  {
+                                    "type": "PLAINTEXT",
+                                    "text": "pegawai negeri atau penyelenggara negara yang pada waktu menjalankan tugas, telah menggunakan tanah negara yang di atasnya terdapat hak pakai, seolah-olah sesuai dengan peraturan perundang-undangan, telah merugikan orang yang berhak, padahal diketahuinya bahwa perbuatan tersebut bertentangan dengan peraturan perundang-undangan; atau"
+                                  }
+                                ]
+                              },
+                              {
+                                "type": "LIST_ITEM",
+                                "id": "",
+                                "children": [
+                                  {
+                                    "type": "LETTER_WITH_DOT",
+                                    "text": "i."
+                                  },
+                                  {
+                                    "type": "PLAINTEXT",
+                                    "text": "pegawai negeri atau penyelenggara negara baik langsung maupun tidak langsung dengan sengaja turut serta dalam pemborongan, pengadaan, atau persewaan, yang pada saat dilakukan perbuatan, untuk seluruh atau sebagian ditugaskan untuk mengurus atau mengawasinya."
+                                  }
+                                ]
+                              }
+                            ]
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "LIST_ITEM",
+                "id": "",
+                "children": [
+                  {
+                    "type": "NUMBER_WITH_DOT",
+                    "text": "3."
+                  },
+                  {
+                    "type": "PLAINTEXT",
+                    "text": "Di antara Pasal 12 dan Pasal 13 disisipkan 3 (tiga) pasal baru yakni Pasal 12 A, Pasal 12 B, dan Pasal 12 C, yang berbunyi sebagai berikut:"
+                  },
+                  {
+                    "type": "PERUBAHAN_SECTION",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "PERUBAHAN_PASAL",
+                        "id": "perubahan-pasal-12A",
+                        "children": [
+                          {
+                            "type": "PASAL_NUMBER",
+                            "text": "Pasal 12A"
+                          },
+                          {
+                            "type": "LIST",
+                            "id": "",
+                            "children": [
+                              {
+                                "type": "LIST_ITEM",
+                                "id": "",
+                                "children": [
+                                  {
+                                    "type": "NUMBER_WITH_BRACKETS",
+                                    "text": "(1)"
+                                  },
+                                  {
+                                    "type": "PLAINTEXT",
+                                    "text": "Ketentuan mengenai pidana penjara dan pidana denda sebagaimana dimaksud dalam Pasal 5, Pasal 6, Pasal 7, Pasal 8, Pasal 9, Pasal 10, Pasal 11 dan Pasal 12 tidak berlaku bagi tindak pidana korupsi yang nilainya kurang dari Rp 5.000.000,00 (lima juta rupiah)."
+                                  }
+                                ]
+                              },
+                              {
+                                "type": "LIST_ITEM",
+                                "id": "",
+                                "children": [
+                                  {
+                                    "type": "NUMBER_WITH_BRACKETS",
+                                    "text": "(2)"
+                                  },
+                                  {
+                                    "type": "PLAINTEXT",
+                                    "text": "Bagi pelaku tindak pidana korupsi yang nilainya kurang dari Rp 5.000.000,00 (lima juta rupiah) sebagaimana dimaksud dalam ayat (1) dipidana dengan pidana penjara paling lama 3 (tiga) tahun dan pidana denda paling banyak Rp 50.000.000,00 (lima puluh juta rupiah)."
+                                  }
+                                ]
+                              }
+                            ]
+                          }
+                        ]
+                      },
+                      {
+                        "type": "PERUBAHAN_PASAL",
+                        "id": "perubahan-pasal-12B",
+                        "children": [
+                          {
+                            "type": "PASAL_NUMBER",
+                            "text": "Pasal 12B"
+                          },
+                          {
+                            "type": "LIST",
+                            "id": "",
+                            "children": [
+                              {
+                                "type": "LIST_ITEM",
+                                "id": "",
+                                "children": [
+                                  {
+                                    "type": "NUMBER_WITH_BRACKETS",
+                                    "text": "(1)"
+                                  },
+                                  {
+                                    "type": "PLAINTEXT",
+                                    "text": "Setiap gratifikasi kepada pegawai negeri atau penyelenggara negara dianggap pemberian suap, apabila berhubungan dengan jabatannya dan yang berlawanan dengan kewajiban atau tugasnya, dengan ketentuan sebagai berikut:"
+                                  },
+                                  {
+                                    "type": "LIST",
+                                    "id": "",
+                                    "children": [
+                                      {
+                                        "type": "LIST_ITEM",
+                                        "id": "",
+                                        "children": [
+                                          {
+                                            "type": "LETTER_WITH_DOT",
+                                            "text": "a."
+                                          },
+                                          {
+                                            "type": "PLAINTEXT",
+                                            "text": "yang nilainya Rp 10.000.000,00 (sepuluh juta rupiah) atau lebih, pembuktian bahwa gratifikasi tersebut bukan merupakan suap dilakukan oleh penerima gratifikasi;"
+                                          }
+                                        ]
+                                      },
+                                      {
+                                        "type": "LIST_ITEM",
+                                        "id": "",
+                                        "children": [
+                                          {
+                                            "type": "LETTER_WITH_DOT",
+                                            "text": "b."
+                                          },
+                                          {
+                                            "type": "PLAINTEXT",
+                                            "text": "yang nilainya kurang dari Rp 10.000.000,00 (sepuluh juta rupiah), pembuktian bahwa gratifikasi tersebut suap dilakukan oleh penuntut umum."
+                                          }
+                                        ]
+                                      }
+                                    ]
+                                  }
+                                ]
+                              },
+                              {
+                                "type": "LIST_ITEM",
+                                "id": "",
+                                "children": [
+                                  {
+                                    "type": "NUMBER_WITH_BRACKETS",
+                                    "text": "(2)"
+                                  },
+                                  {
+                                    "type": "PLAINTEXT",
+                                    "text": "Pidana bagi pegawai negeri atau penyelenggara negara sebagaimana dimaksud dalam ayat (1) adalah pidana penjara seumur hidup atau pidana penjara paling singkat 4 (empat) tahun dan paling lama 20 (dua puluh) tahun, dan pidana denda paling sedikit Rp 200.000.000,00 (dua ratus juta rupiah) dan paling banyak Rp 1.000.000.000,00 (satu miliar rupiah)."
+                                  }
+                                ]
+                              }
+                            ]
+                          }
+                        ]
+                      },
+                      {
+                        "type": "PERUBAHAN_PASAL",
+                        "id": "perubahan-pasal-12C",
+                        "children": [
+                          {
+                            "type": "PASAL_NUMBER",
+                            "text": "Pasal 12C"
+                          },
+                          {
+                            "type": "LIST",
+                            "id": "",
+                            "children": [
+                              {
+                                "type": "LIST_ITEM",
+                                "id": "",
+                                "children": [
+                                  {
+                                    "type": "NUMBER_WITH_BRACKETS",
+                                    "text": "(1)"
+                                  },
+                                  {
+                                    "type": "PLAINTEXT",
+                                    "text": "Ketentuan sebagaimana dimaksud dalam Pasal 12 B ayat (1) tidak berlaku, jika penerima melaporkan gratifikasi yang diterimanya kepada Komisi Pemberantasan Tindak Pidana Korupsi."
+                                  }
+                                ]
+                              },
+                              {
+                                "type": "LIST_ITEM",
+                                "id": "",
+                                "children": [
+                                  {
+                                    "type": "NUMBER_WITH_BRACKETS",
+                                    "text": "(2)"
+                                  },
+                                  {
+                                    "type": "PLAINTEXT",
+                                    "text": "Penyampaian laporan sebagaimana dimaksud dalam ayat (1) wajib dilakukan oleh penerima gratifikasi paling lambat 30 (tiga puluh) hari kerja terhitung sejak tanggal gratifikasi tersebut diterima."
+                                  }
+                                ]
+                              },
+                              {
+                                "type": "LIST_ITEM",
+                                "id": "",
+                                "children": [
+                                  {
+                                    "type": "NUMBER_WITH_BRACKETS",
+                                    "text": "(3)"
+                                  },
+                                  {
+                                    "type": "PLAINTEXT",
+                                    "text": "Komisi Pemberantasan Tindak Pidana Korupsi dalam waktu paling lambat 30 (tiga puluh) hari kerja sejak tanggal menerima laporan wajib menetapkan gratifikasi dapat menjadi milik penerima atau milik negara."
+                                  }
+                                ]
+                              },
+                              {
+                                "type": "LIST_ITEM",
+                                "id": "",
+                                "children": [
+                                  {
+                                    "type": "NUMBER_WITH_BRACKETS",
+                                    "text": "(4)"
+                                  },
+                                  {
+                                    "type": "PLAINTEXT",
+                                    "text": "Ketentuan mengenai tata cara penyampaian laporan sebagaimana dimaksud dalam ayat (2) dan penentuan status gratifikasi sebagaimana dimaksud dalam ayat (3) diatur dalam Undang-undang tentang Komisi Pemberantasan Tindak Pidana Korupsi."
+                                  }
+                                ]
+                              }
+                            ]
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "LIST_ITEM",
+                "id": "",
+                "children": [
+                  {
+                    "type": "NUMBER_WITH_DOT",
+                    "text": "4."
+                  },
+                  {
+                    "type": "PLAINTEXT",
+                    "text": "Di antara Pasal 26 dan Pasal 27 disisipkan 1 (satu) pasal baru menjadi Pasal 26 A yang berbunyi sebagai berikut:"
+                  },
+                  {
+                    "type": "PERUBAHAN_SECTION",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "PERUBAHAN_PASAL",
+                        "id": "perubahan-pasal-26A",
+                        "children": [
+                          {
+                            "type": "PASAL_NUMBER",
+                            "text": "Pasal 26A"
+                          },
+                          {
+                            "type": "PLAINTEXT",
+                            "text": "Alat bukti yang sah dalam bentuk petunjuk sebagaimana dimaksud dalam Pasal 188 ayat (2) Undang undang Nomor 8 Tahun 1981 tentang Hukum Acara Pidana, khusus untuk tindak pidana korupsi juga dapat diperoleh dari:"
+                          },
+                          {
+                            "type": "LIST",
+                            "id": "",
+                            "children": [
+                              {
+                                "type": "LIST_ITEM",
+                                "id": "",
+                                "children": [
+                                  {
+                                    "type": "LETTER_WITH_DOT",
+                                    "text": "a."
+                                  },
+                                  {
+                                    "type": "PLAINTEXT",
+                                    "text": "alat bukti lain yang berupa informasi yang diucapkan, dikirim, diterima, atau disimpan secara elektronik dengan alat optik atau yang serupa dengan itu; dan"
+                                  }
+                                ]
+                              },
+                              {
+                                "type": "LIST_ITEM",
+                                "id": "",
+                                "children": [
+                                  {
+                                    "type": "LETTER_WITH_DOT",
+                                    "text": "b."
+                                  },
+                                  {
+                                    "type": "PLAINTEXT",
+                                    "text": "dokumen, yakni setiap rekaman data atau informasi yang dapat dilihat, dibaca, dan atau didengar yang dapat dikeluarkan dengan atau tanpa bantuan suatu sarana, baik yang tertuang di atas kertas, benda fisik apapun selain kertas, maupun yang terekam secara elektronik, yang berupa tulisan, suara, gambar, peta, rancangan, foto, huruf, tanda, angka, atau perforasi yang memiliki makna."
+                                  }
+                                ]
+                              }
+                            ]
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "LIST_ITEM",
+                "id": "",
+                "children": [
+                  {
+                    "type": "NUMBER_WITH_DOT",
+                    "text": "5."
+                  },
+                  {
+                    "type": "PLAINTEXT",
+                    "text": "Pasal 37 dipecah menjadi 2 (dua) pasal yakni menjadi Pasal 37 dan Pasal 37 A dengan ketentuan sebagai berikut:"
+                  },
+                  {
+                    "type": "LIST",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "LIST_ITEM",
+                        "id": "",
+                        "children": [
+                          {
+                            "type": "LETTER_WITH_DOT",
+                            "text": "a."
+                          },
+                          {
+                            "type": "PLAINTEXT",
+                            "text": "Pasal 37 dengan substansi yang berasal dari ayat (1) dan ayat (2) dengan penyempurnaan pada ayat (2) frase yang berbunyi \"keterangan tersebut dipergunakan sebagai hal yang menguntungkan baginya\" diubah menjadi \"pembuktian tersebut digunakan oleh pengadilan sebagai dasar untuk menyatakan bahwa dakwaan tidak terbukti\", sehingga bunyi keseluruhan Pasal 37 adalah sebagai berikut:"
+                          },
+                          {
+                            "type": "PERUBAHAN_SECTION",
+                            "id": "",
+                            "children": [
+                              {
+                                "type": "PERUBAHAN_PASAL",
+                                "id": "perubahan-pasal-37",
+                                "children": [
+                                  {
+                                    "type": "PASAL_NUMBER",
+                                    "text": "Pasal 37"
+                                  },
+                                  {
+                                    "type": "LIST",
+                                    "id": "",
+                                    "children": [
+                                      {
+                                        "type": "LIST_ITEM",
+                                        "id": "",
+                                        "children": [
+                                          {
+                                            "type": "NUMBER_WITH_BRACKETS",
+                                            "text": "(1)"
+                                          },
+                                          {
+                                            "type": "PLAINTEXT",
+                                            "text": "Terdakwa mempunyai hak untuk membuktikan bahwa ia tidak melakukan tindak pidana korupsi."
+                                          }
+                                        ]
+                                      },
+                                      {
+                                        "type": "LIST_ITEM",
+                                        "id": "",
+                                        "children": [
+                                          {
+                                            "type": "NUMBER_WITH_BRACKETS",
+                                            "text": "(2)"
+                                          },
+                                          {
+                                            "type": "PLAINTEXT",
+                                            "text": "Dalam hal terdakwa dapat membuktikan bahwa ia tidak melakukan tindak pidana korupsi, maka pembuktian tersebut dipergunakan oleh pengadilan sebagai dasar untuk menyatakan bahwa dakwaan tidak terbukti."
+                                          }
+                                        ]
+                                      }
+                                    ]
+                                  }
+                                ]
+                              }
+                            ]
+                          }
+                        ]
+                      },
+                      {
+                        "type": "LIST_ITEM",
+                        "id": "",
+                        "children": [
+                          {
+                            "type": "LETTER_WITH_DOT",
+                            "text": "b."
+                          },
+                          {
+                            "type": "PLAINTEXT",
+                            "text": "Pasal 37 A dengan substansi yang berasal dari ayat (3), ayat (4), dan ayat (5) dengan penyempurnaan kata \"dapat\" pada ayat (4) dihapus dan penunjukan ayat (1) dan ayat (2) pada ayat (5) dihapus, serta ayat (3), ayat (4), dan ayat (5) masing-masing berubah menjadi ayat (1), ayat (2), dan ayat (3), sehingga bunyi keseluruhan Pasal 37 A adalah sebagai berikut:"
+                          },
+                          {
+                            "type": "PERUBAHAN_SECTION",
+                            "id": "",
+                            "children": [
+                              {
+                                "type": "PERUBAHAN_PASAL",
+                                "id": "perubahan-pasal-37A",
+                                "children": [
+                                  {
+                                    "type": "PASAL_NUMBER",
+                                    "text": "Pasal 37A"
+                                  },
+                                  {
+                                    "type": "LIST",
+                                    "id": "",
+                                    "children": [
+                                      {
+                                        "type": "LIST_ITEM",
+                                        "id": "",
+                                        "children": [
+                                          {
+                                            "type": "NUMBER_WITH_BRACKETS",
+                                            "text": "(1)"
+                                          },
+                                          {
+                                            "type": "PLAINTEXT",
+                                            "text": "Terdakwa wajib memberikan keterangan tentang seluruh harta bendanya dan harta benda istri atau suami, anak, dan harta benda setiap orang atau korporasi yang diduga mempunyai hubungan dengan perkara yang didakwakan."
+                                          }
+                                        ]
+                                      },
+                                      {
+                                        "type": "LIST_ITEM",
+                                        "id": "",
+                                        "children": [
+                                          {
+                                            "type": "NUMBER_WITH_BRACKETS",
+                                            "text": "(2)"
+                                          },
+                                          {
+                                            "type": "PLAINTEXT",
+                                            "text": "Dalam hal terdakwa tidak dapat membuktikan tentang kekayaan yang tidak seimbang dengan penghasilannya atau sumber penambahan kekayaannya, maka keterangan sebagaimana dimaksud dalam ayat (1) digunakan untuk memperkuat alat bukti yang sudah ada bahwa terdakwa telah melakukan tindak pidana korupsi."
+                                          }
+                                        ]
+                                      },
+                                      {
+                                        "type": "LIST_ITEM",
+                                        "id": "",
+                                        "children": [
+                                          {
+                                            "type": "NUMBER_WITH_BRACKETS",
+                                            "text": "(3)"
+                                          },
+                                          {
+                                            "type": "PLAINTEXT",
+                                            "text": "Ketentuan sebagaimana dimaksud dalam ayat (1) dan ayat (2) merupakan tindak pidana atau perkara pokok sebagaimana dimaksud dalam Pasal 2, Pasal 3, Pasal 4, Pasal 13, Pasal 14, Pasal 15, dan Pasal 16 Undang-undang Nomor 31 Tahun 1999 tentang Pemberantasan Tindak Pidana Korupsi dan Pasal 5 sampai dengan Pasal 12 Undang-undang ini, sehingga penuntut umum tetap berkewajiban untuk membuktikan dakwaannya."
+                                          }
+                                        ]
+                                      }
+                                    ]
+                                  }
+                                ]
+                              }
+                            ]
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "LIST_ITEM",
+                "id": "",
+                "children": [
+                  {
+                    "type": "NUMBER_WITH_DOT",
+                    "text": "6."
+                  },
+                  {
+                    "type": "PLAINTEXT",
+                    "text": "Di antara Pasal 38 dan Pasal 39 ditambahkan 3 (tiga) pasal baru yakni Pasal 38 A, Pasal 38 B, dan Pasal 38 C yang seluruhnya berbunyi sebagai berikut:"
+                  },
+                  {
+                    "type": "PERUBAHAN_SECTION",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "PERUBAHAN_PASAL",
+                        "id": "perubahan-pasal-38A",
+                        "children": [
+                          {
+                            "type": "PASAL_NUMBER",
+                            "text": "Pasal 38A"
+                          },
+                          {
+                            "type": "PLAINTEXT",
+                            "text": "Pembuktian sebagaimana dimaksud dalam Pasal 12 B ayat (1) dilakukan pada saat pemeriksaan di sidang pengadilan."
+                          }
+                        ]
+                      },
+                      {
+                        "type": "PERUBAHAN_PASAL",
+                        "id": "perubahan-pasal-38B",
+                        "children": [
+                          {
+                            "type": "PASAL_NUMBER",
+                            "text": "Pasal 38B"
+                          },
+                          {
+                            "type": "LIST",
+                            "id": "",
+                            "children": [
+                              {
+                                "type": "LIST_ITEM",
+                                "id": "",
+                                "children": [
+                                  {
+                                    "type": "NUMBER_WITH_BRACKETS",
+                                    "text": "(1)"
+                                  },
+                                  {
+                                    "type": "PLAINTEXT",
+                                    "text": "Setiap orang yang didakwa melakukan salah satu tindak pidana korupsi sebagaimana dimaksud dalam Pasal 2, Pasal 3, Pasal 4, Pasal 13, Pasal 14, Pasal 15, dan Pasal 16 Undang-undang Nomor 31 Tahun 1999 tentang Pemberantasan Tindak Pidana Korupsi dan Pasal 5 sampai dengan Pasal 12 Undang-undang ini, wajib membuktikan sebaliknya terhadap harta benda miliknya yang belum didakwakan, tetapi juga diduga berasal dari tindak pidana korupsi."
+                                  }
+                                ]
+                              },
+                              {
+                                "type": "LIST_ITEM",
+                                "id": "",
+                                "children": [
+                                  {
+                                    "type": "NUMBER_WITH_BRACKETS",
+                                    "text": "(2)"
+                                  },
+                                  {
+                                    "type": "PLAINTEXT",
+                                    "text": "Dalam hal terdakwa tidak dapat membuktikan bahwa harta benda sebagaimana dimaksud dalam ayat (1) diperoleh bukan karena tindak pidana korupsi, harta benda tersebut dianggap diperoleh juga dari tindak pidana korupsi dan hakim berwenang memutuskan seluruh atau sebagian harta benda tersebut dirampas untuk negara."
+                                  }
+                                ]
+                              },
+                              {
+                                "type": "LIST_ITEM",
+                                "id": "",
+                                "children": [
+                                  {
+                                    "type": "NUMBER_WITH_BRACKETS",
+                                    "text": "(3)"
+                                  },
+                                  {
+                                    "type": "PLAINTEXT",
+                                    "text": "Tuntutan perampasan harta benda sebagaimana dimaksud dalam ayat (2) diajukan oleh penuntut umum pada saat membacakan tuntutannya pada perkara pokok."
+                                  }
+                                ]
+                              },
+                              {
+                                "type": "LIST_ITEM",
+                                "id": "",
+                                "children": [
+                                  {
+                                    "type": "NUMBER_WITH_BRACKETS",
+                                    "text": "(4)"
+                                  },
+                                  {
+                                    "type": "PLAINTEXT",
+                                    "text": "Pembuktian bahwa harta benda sebagaimana dimaksud dalam ayat (1) bukan berasal dari tindak pidana korupsi diajukan oleh terdakwa pada saat membacakan pembelaannya dalam perkara pokok dan dapat diulangi pada memori banding dan memori kasasi."
+                                  }
+                                ]
+                              },
+                              {
+                                "type": "LIST_ITEM",
+                                "id": "",
+                                "children": [
+                                  {
+                                    "type": "NUMBER_WITH_BRACKETS",
+                                    "text": "(5)"
+                                  },
+                                  {
+                                    "type": "PLAINTEXT",
+                                    "text": "Hakim wajib membuka persidangan yang khusus untuk memeriksa pembuktian yang diajukan terdakwa sebagaimana dimaksud dalam ayat (4)."
+                                  }
+                                ]
+                              },
+                              {
+                                "type": "LIST_ITEM",
+                                "id": "",
+                                "children": [
+                                  {
+                                    "type": "NUMBER_WITH_BRACKETS",
+                                    "text": "(6)"
+                                  },
+                                  {
+                                    "type": "PLAINTEXT",
+                                    "text": "Apabila terdakwa dibebaskan atau dinyatakan lepas dari segala tuntutan hukum dari perkara pokok, maka tuntutan perampasan harta benda sebagaimana dimaksud dalam ayat (1) dan ayat (2) harus ditolak oleh hakim."
+                                  }
+                                ]
+                              }
+                            ]
+                          }
+                        ]
+                      },
+                      {
+                        "type": "PERUBAHAN_PASAL",
+                        "id": "perubahan-pasal-38C",
+                        "children": [
+                          {
+                            "type": "PASAL_NUMBER",
+                            "text": "Pasal 38C"
+                          },
+                          {
+                            "type": "PLAINTEXT",
+                            "text": "Apabila setelah putusan pengadilan telah memperoleh kekuatan hukum tetap, diketahui masih terdapat harta benda milik terpidana yang diduga atau patut diduga juga berasal dari tindak pidana korupsi yang belum dikenakan perampasan untuk negara sebagaimana dimaksud dalam Pasal 38 B ayat (2), maka negara dapat melakukan gugatan perdata terhadap terpidana dan atau ahli warisnya."
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "LIST_ITEM",
+                "id": "",
+                "children": [
+                  {
+                    "type": "NUMBER_WITH_DOT",
+                    "text": "7."
+                  },
+                  {
+                    "type": "PLAINTEXT",
+                    "text": "Di antara Bab VI dan Bab VII ditambah bab baru yakni Bab VI A mengenai Ketentuan Peralihan yang berisi 1 (satu) pasal, yakni Pasal 43 A yang diletakkan di antara Pasal 43 dan Pasal 44 sehingga keseluruhannya berbunyi sebagai berikut:"
+                  },
+                  {
+                    "type": "PERUBAHAN_SECTION",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "PERUBAHAN_BAB",
+                        "id": "",
+                        "children": [
+                          {
+                            "type": "BAB_NUMBER",
+                            "text": "BAB VIA"
+                          },
+                          {
+                            "type": "BAB_TITLE",
+                            "text": "KETENTUAN PERALIHAN"
+                          },
+                          {
+                            "type": "PERUBAHAN_PASAL",
+                            "id": "perubahan-pasal-43A",
+                            "children": [
+                              {
+                                "type": "PASAL_NUMBER",
+                                "text": "Pasal 43A"
+                              },
+                              {
+                                "type": "LIST",
+                                "id": "",
+                                "children": [
+                                  {
+                                    "type": "LIST_ITEM",
+                                    "id": "",
+                                    "children": [
+                                      {
+                                        "type": "NUMBER_WITH_BRACKETS",
+                                        "text": "(1)"
+                                      },
+                                      {
+                                        "type": "PLAINTEXT",
+                                        "text": "Tindak pidana korupsi yang terjadi sebelum Undang-undang Nomor 31 Tahun 1999 tentang Pemberantasan Tindak Pidana Korupsi diundangkan, diperiksa dan diputus berdasarkan ketentuan Undang-undang Nomor 3 Tahun 1971 tentang Pemberantasan Tindak Pidana Korupsi, dengan ketentuan maksimum pidana penjara yang menguntungkan bagi terdakwa diberlakukan ketentuan dalam Pasal 5, Pasal 6, Pasal 7, Pasal 8, Pasal 9, dan Pasal 10 Undang-undang ini dan Pasal 13 Undang-undang Nomor 31 Tahun 1999 tentang Pemberantasan Tindak Pidana Korupsi."
+                                      }
+                                    ]
+                                  },
+                                  {
+                                    "type": "LIST_ITEM",
+                                    "id": "",
+                                    "children": [
+                                      {
+                                        "type": "NUMBER_WITH_BRACKETS",
+                                        "text": "(2)"
+                                      },
+                                      {
+                                        "type": "PLAINTEXT",
+                                        "text": "Ketentuan minimum pidana penjara dalam Pasal 5, Pasal 6, Pasal 7, Pasal 8, Pasal 9, dan Pasal 10 Undang-undang ini dan Pasal 13 Undang-undang Nomor 31 Tahun 1999 tentang Pemberantasan Tindak Pidana Korupsi tidak berlaku bagi tindak pidana korupsi yang terjadi sebelum berlakunya Undang-undang Nomor 31 Tahun 1999 tentang Pemberantasan Tindak Pidana Korupsi."
+                                      }
+                                    ]
+                                  },
+                                  {
+                                    "type": "LIST_ITEM",
+                                    "id": "",
+                                    "children": [
+                                      {
+                                        "type": "NUMBER_WITH_BRACKETS",
+                                        "text": "(3)"
+                                      },
+                                      {
+                                        "type": "PLAINTEXT",
+                                        "text": "Tindak pidana korupsi yang terjadi sebelum Undang-undang ini diundangkan, diperiksa dan diputus berdasarkan ketentuan Undang-undang Nomor 31 Tahun 1999 tentang Pemberantasan Tindak Pidana Korupsi, dengan ketentuan mengenai maksimum pidana penjara bagi tindak pidana korupsi yang nilainya kurang dari Rp 5.000.000,00 (lima juta rupiah) berlaku ketentuan sebagaimana dimaksud dalam Pasal 12 A ayat (2) Undang-undang ini."
+                                      }
+                                    ]
+                                  }
+                                ]
+                              }
+                            ]
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "LIST_ITEM",
+                "id": "",
+                "children": [
+                  {
+                    "type": "NUMBER_WITH_DOT",
+                    "text": "8."
+                  },
+                  {
+                    "type": "PLAINTEXT",
+                    "text": "Dalam BAB VII sebelum Pasal 44 ditambah 1 (satu) pasal baru yakni Pasal 43 B yang berbunyi sebagai berikut:"
+                  },
+                  {
+                    "type": "PERUBAHAN_SECTION",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "PERUBAHAN_PASAL",
+                        "id": "perubahan-pasal-43B",
+                        "children": [
+                          {
+                            "type": "PASAL_NUMBER",
+                            "text": "Pasal 43B"
+                          },
+                          {
+                            "type": "PLAINTEXT",
+                            "text": "Pada saat mulai berlakunya Undang-undang ini, Pasal 209, Pasal 210, Pasal 387, Pasal 388, Pasal 415, Pasal 416, Pasal 417, Pasal 418, Pasal 419, Pasal 420, Pasal 423, Pasal 425, dan Pasal 435 Kitab Undang-undang Hukum Pidana jis. Undang-undang Nomor 1 Tahun 1946 tentang Peraturan Hukum Pidana (Berita Republik Indonesia II Nomor 9), Undang-undang Nomor 73 Tahun 1958 tentang Menyatakan Berlakunya Undang-undang Nomor 1 Tahun 1946 tentang Peraturan Hukum Pidana untuk Seluruh Wilayah Republik Indonesia dan Mengubah Kitab Undang-undang Hukum Pidana (Lembaran Negara Tahun 1958 Nomor 127, Tambahan Lembaran Negara Nomor 1660) sebagaimana telah beberapa kali diubah terakhir dengan Undang-undang Nomor 27 Tahun 1999 tentang Perubahan Kitab Undang undang Hukum Pidana Yang Berkaitan Dengan Kejahatan Terhadap Keamanan Negara, dinyatakan tidak berlaku."
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "PASAL",
+        "id": "pasal-II",
+        "children": [
+          {
+            "type": "PASAL_NUMBER",
+            "text": "Pasal II"
+          },
+          {
+            "type": "PLAINTEXT",
+            "text": "Undang-undang ini mulai berlaku pada tanggal diundangkan."
+          },
+          {
+            "type": "PLAINTEXT",
+            "text": "Agar setiap orang mengetahuinya, memerintahkan pengundangan Undang-undang ini dengan penempatannya dalam Lembaran Negara Republik Indonesia."
+          }
+        ]
+      },
+      {
+        "type": "CLOSING",
+        "id": "",
+        "children": [
+          {
+            "type": "PLAINTEXT",
+            "text": "Disahkan Di Jakarta,"
+          },
+          {
+            "type": "PLAINTEXT",
+            "text": "Pada Tanggal 21 November 2001"
+          },
+          {
+            "type": "PLAINTEXT",
+            "text": "PRESIDEN REPUBLIK INDONESIA,"
+          },
+          {
+            "type": "PLAINTEXT",
+            "text": "Ttd."
+          },
+          {
+            "type": "PLAINTEXT",
+            "text": "MEGAWATI SOEKARNOPUTRI"
+          },
+          {
+            "type": "PLAINTEXT",
+            "text": "Diundangkan Di Jakarta,"
+          },
+          {
+            "type": "PLAINTEXT",
+            "text": "Pada Tanggal 21 November 2001"
+          },
+          {
+            "type": "PLAINTEXT",
+            "text": "SEKRETARIS NEGARA REPUBLIK INDONESIA,"
+          },
+          {
+            "type": "PLAINTEXT",
+            "text": "Ttd."
+          },
+          {
+            "type": "PLAINTEXT",
+            "text": "BAMBANG KESOWO"
+          },
+          {
+            "type": "LEMBARAN_NUMBER",
+            "text": "LEMBARAN NEGARA REPUBLIK INDONESIA TAHUN 2001 NOMOR 134"
+          }
+        ]
+      },
+      {
+        "type": "PENJELASAN",
+        "id": "penjelasan",
+        "children": [
+          {
+            "type": "PENJELASAN_TITLE",
+            "id": "",
+            "children": [
+              {
+                "type": "PLAINTEXT",
+                "text": "PENJELASAN"
+              },
+              {
+                "type": "PLAINTEXT",
+                "text": "UNDANG-UNDANG REPUBLIK INDONESIA"
+              },
+              {
+                "type": "UU_TITLE_YEAR_AND_NUMBER",
+                "text": "NOMOR 20 TAHUN 2001"
+              },
+              {
+                "type": "PLAINTEXT",
+                "text": "TENTANG"
+              },
+              {
+                "type": "UU_TITLE_TOPIC",
+                "text": "PERUBAHAN ATAS UNDANG-UNDANG NOMOR 31 TAHUN 1999 TENTANG PEMBERANTASAN TINDAK PIDANA KORUPSI"
+              }
+            ]
+          },
+          {
+            "type": "PENJELASAN_UMUM",
+            "id": "",
+            "children": [
+              {
+                "type": "PENJELASAN_UMUM_TITLE",
+                "text": "I. UMUM"
+              },
+              {
+                "type": "PLAINTEXT",
+                "text": "Sejak Undang-undang Nomor 31 Tahun 1999 tentang Pemberantasan Tindak Pidana Korupsi (Lembaran Negara Republik Indonesia Tahun 1999 Nomor 140, Tambahan Lembaran Negara Republik Indonesia Nomor 3874) diundangkan, terdapat berbagai interpretasi atau penafsiran yang berkembang di masyarakat khususnya mengenai penerapan Undang-undang tersebut terhadap tindak pidana korupsi yang terjadi sebelum Undang-undang Nomor 31 Tahun 1999 diundangkan. Hal ini disebabkan Pasal 44 Undang-undang tersebut menyatakan bahwa Undang-undang Nomor 3 Tahun 1971 tentang Pemberantasan Tindak Pidana Korupsi dinyatakan tidak berlaku sejak Undang-undang Nomor 31 Tahun 1999 diundangkan, sehingga timbul suatu anggapan adanya kekosongan hukum untuk memproses tindak pidana korupsi yang terjadi sebelum berlakunya Undang-undang Nomor 31 Tahun 1999."
+              },
+              {
+                "type": "PLAINTEXT",
+                "text": "Di samping hal tersebut, mengingat korupsi di Indonesia terjadi secara sistematik dan meluas sehingga tidak hanya merugikan keuangan negara, tetapi juga telah melanggar hak-hak sosial dan ekonomi masyarakat secara luas, maka pemberantasan korupsi perlu dilakukan dengan cara luar biasa. Dengan demikian, pemberantasan tindak pidana korupsi harus dilakukan dengan cara yang khusus, antara lain penerapan sistem pembuktian terbalik yakni pembuktian yang dibebankan kepada terdakwa."
+              },
+              {
+                "type": "PLAINTEXT",
+                "text": "Untuk mencapai kepastian hukum, menghilangkan keragaman penafsiran, dan perlakuan adil dalam memberantas tindak pidana korupsi, perlu diadakan perubahan atas Undang-undang Nomor 31 Tahun 1999 tentang Pemberantasan Tindak Pidana Korupsi."
+              },
+              {
+                "type": "PLAINTEXT",
+                "text": "Ketentuan perluasan mengenai sumber perolehan alat bukti yang sah yang berupa petunjuk, dirumuskan bahwa mengenai \"petunjuk\" selain diperoleh dari keterangan saksi, surat, dan keterangan terdakwa, juga diperoleh dari alat bukti lain yang berupa informasi yang diucapkan, dikirim, diterima, atau disimpan secara elektronik dengan alat optik atau yang serupa dengan itu tetapi tidak terbatas pada data penghubung elektronik (electronic data interchange), surat elektronik (e-mail), telegram, teleks, dan faksimili, dan dari dokumen, yakni setiap rekaman data atau informasi yang dapat dilihat, dibaca dan atau didengar yang dapat dikeluarkan dengan atau tanpa bantuan suatu sarana, baik yang tertuang di atas kertas, benda fisik apapun selain kertas, maupun yang terekam secara elektronik, yang berupa tulisan, suara, gambar, peta, rancangan, foto, huruf, tanda, angka, atau perforasi yang memiliki makna."
+              },
+              {
+                "type": "PLAINTEXT",
+                "text": "Ketentuan mengenai \"pembuktian terbalik\" perlu ditambahkan dalam Undang-undang Nomor 31 Tahun 1999 tentang Pemberantasan Tindak Pidana Korupsi sebagai ketentuan yang bersifat \"premium remidium\" dan sekaligus mengandung sifat prevensi khusus terhadap pegawai negeri sebagaimana dimaksud dalam Pasal 1 angka 2 atau terhadap penyelenggara negara sebagaimana dimaksud dalam Pasal 2 Undang-undang Nomor 28 Tahun 1999 tentang Penyelenggara Negara yang Bersih dan Bebas dari Korupsi, Kolusi, dan Nepotisme, untuk tidak melakukan tindak pidana korupsi."
+              },
+              {
+                "type": "PLAINTEXT",
+                "text": "Pembuktian terbalik ini diberlakukan pada tindak pidana baru tentang gratifikasi dan terhadap tuntutan perampasan harta benda terdakwa yang diduga berasal dari salah satu tindak pidana sebagaimana dimaksud dalam Pasal 2, Pasal 3, Pasal 4, Pasal 13, Pasal 14, Pasal 15, dan Pasal 16 Undang-undang Nomor 31 Tahun 1999 tentang Pemberantasan Tindak Pidana Korupsi dan Pasal 5 sampai dengan Pasal 12 Undang-undang ini."
+              },
+              {
+                "type": "PLAINTEXT",
+                "text": "Dalam Undang-undang ini diatur pula hak negara untuk mengajukan gugatan perdata terhadap harta benda terpidana yang disembunyikan atau tersembunyi dan baru diketahui setelah putusan pengadilan memperoleh kekuatan hukum tetap. Harta benda yang disembunyikan atau tersembunyi tersebut diduga atau patut diduga berasal dari tindak pidana korupsi. Gugatan perdata dilakukan terhadap terpidana dan atau ahli warisnya. Untuk melakukan gugatan tersebut, negara dapat menunjuk kuasanya untuk mewakili negara."
+              },
+              {
+                "type": "PLAINTEXT",
+                "text": "Selanjutnya dalam Undang-undang ini juga diatur ketentuan baru mengenai maksimum pidana penjara dan pidana denda bagi tindak pidana korupsi yang nilainya kurang dari Rp. 5.000.000,00 (lima juta rupiah). Ketentuan ini dimaksudkan untuk menghilangkan rasa kekurangadilan bagi pelaku tindak pidana korupsi, dalam hal nilai yang dikorup relatif kecil."
+              },
+              {
+                "type": "PLAINTEXT",
+                "text": "Di samping itu, dalam Undang-undang ini dicantumkan Ketentuan Peralihan. Substansi dalam Ketentuan Peralihan ini pada dasarnya sesuai dengan asas umum hukum pidana sebagaimana dimaksud dalam Pasal 1 ayat (2) Kitab Undang-undang Hukum Pidana."
+              }
+            ]
+          },
+          {
+            "type": "PENJELASAN_PASAL_DEMI_PASAL",
+            "id": "",
+            "children": [
+              {
+                "type": "PENJELASAN_PASAL_DEMI_PASAL_TITLE",
+                "text": "II. PASAL DEMI PASAL"
+              },
+              {
+                "type": "PENJELASAN_PASAL",
+                "id": "",
+                "children": [
+                  {
+                    "type": "PASAL_NUMBER",
+                    "text": "Pasal I"
+                  },
+                  {
+                    "type": "LIST",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "PENJELASAN_LIST_ITEM",
+                        "id": "",
+                        "children": [
+                          {
+                            "type": "PENJELASAN_ANGKA",
+                            "text": "Angka 1"
+                          },
+                          {
+                            "type": "PENJELASAN_PERUBAHAN_SECTION",
+                            "id": "",
+                            "children": [
+                              {
+                                "type": "PENJELASAN_PERUBAHAN_PASAL",
+                                "id": "",
+                                "children": [
+                                  {
+                                    "type": "PASAL_NUMBER",
+                                    "text": "Pasal 2"
+                                  },
+                                  {
+                                    "type": "PLAINTEXT",
+                                    "text": "ayat (2)"
+                                  },
+                                  {
+                                    "type": "PLAINTEXT",
+                                    "text": "Yang dimaksud dengan \"keadaan tertentu\" dalam ketentuan ini adalah keadaan yang dapat dijadikan alasan pemberatan pidana bagi pelaku tindak pidana korupsi yaitu apabila tindak pidana tersebut dilakukan terhadap dana-dana yang diperuntukkan bagi penanggulangan keadaan bahaya, bencana alam nasional, penanggulangan akibat kerusuhan sosial yang meluas, penanggulangan krisis ekonomi dan moneter, dan pengulangan tindak pidana korupsi."
+                                  }
+                                ]
+                              }
+                            ]
+                          }
+                        ]
+                      },
+                      {
+                        "type": "PENJELASAN_LIST_ITEM",
+                        "id": "",
+                        "children": [
+                          {
+                            "type": "PENJELASAN_ANGKA",
+                            "text": "Angka 2"
+                          },
+                          {
+                            "type": "PENJELASAN_PERUBAHAN_SECTION",
+                            "id": "",
+                            "children": [
+                              {
+                                "type": "PENJELASAN_PERUBAHAN_PASAL",
+                                "id": "",
+                                "children": [
+                                  {
+                                    "type": "PASAL_NUMBER",
+                                    "text": "Pasal 5"
+                                  },
+                                  {
+                                    "type": "LIST",
+                                    "id": "",
+                                    "children": [
+                                      {
+                                        "type": "PENJELASAN_LIST_ITEM",
+                                        "id": "",
+                                        "children": [
+                                          {
+                                            "type": "PENJELASAN_AYAT",
+                                            "text": "Ayat (1)"
+                                          },
+                                          {
+                                            "type": "PLAINTEXT",
+                                            "text": "Cukup jelas."
+                                          }
+                                        ]
+                                      },
+                                      {
+                                        "type": "PENJELASAN_LIST_ITEM",
+                                        "id": "",
+                                        "children": [
+                                          {
+                                            "type": "PENJELASAN_AYAT",
+                                            "text": "Ayat (2)"
+                                          },
+                                          {
+                                            "type": "PLAINTEXT",
+                                            "text": "Yang dimaksud dengan \"penyelenggara negara\" dalam Pasal ini adalah penyelenggara negara sebagaimana dimaksud dalam Pasal 2 Undang-undang Nomor 28 Tahun 1999 tentang Penyelenggara Negara yang Bersih dan Bebas dari Korupsi, Kolusi, dan Nepotisme. Pengertian \"penyelenggara negara\" tersebut berlaku pula untuk pasal-pasal berikutnya dalam Undang-undang ini."
+                                          }
+                                        ]
+                                      }
+                                    ]
+                                  }
+                                ]
+                              },
+                              {
+                                "type": "PENJELASAN_PERUBAHAN_PASAL",
+                                "id": "",
+                                "children": [
+                                  {
+                                    "type": "PASAL_NUMBER",
+                                    "text": "Pasal 6"
+                                  },
+                                  {
+                                    "type": "PLAINTEXT",
+                                    "text": "Cukup jelas."
+                                  }
+                                ]
+                              },
+                              {
+                                "type": "PENJELASAN_PERUBAHAN_PASAL",
+                                "id": "",
+                                "children": [
+                                  {
+                                    "type": "PASAL_NUMBER",
+                                    "text": "Pasal 7"
+                                  },
+                                  {
+                                    "type": "PLAINTEXT",
+                                    "text": "Cukup jelas."
+                                  }
+                                ]
+                              },
+                              {
+                                "type": "PENJELASAN_PERUBAHAN_PASAL",
+                                "id": "",
+                                "children": [
+                                  {
+                                    "type": "PASAL_NUMBER",
+                                    "text": "Pasal 8"
+                                  },
+                                  {
+                                    "type": "PLAINTEXT",
+                                    "text": "Cukup jelas."
+                                  }
+                                ]
+                              },
+                              {
+                                "type": "PENJELASAN_PERUBAHAN_PASAL",
+                                "id": "",
+                                "children": [
+                                  {
+                                    "type": "PASAL_NUMBER",
+                                    "text": "Pasal 9"
+                                  },
+                                  {
+                                    "type": "PLAINTEXT",
+                                    "text": "Cukup jelas."
+                                  }
+                                ]
+                              },
+                              {
+                                "type": "PENJELASAN_PERUBAHAN_PASAL",
+                                "id": "",
+                                "children": [
+                                  {
+                                    "type": "PASAL_NUMBER",
+                                    "text": "Pasal 10"
+                                  },
+                                  {
+                                    "type": "PLAINTEXT",
+                                    "text": "Cukup jelas."
+                                  }
+                                ]
+                              },
+                              {
+                                "type": "PENJELASAN_PERUBAHAN_PASAL",
+                                "id": "",
+                                "children": [
+                                  {
+                                    "type": "PASAL_NUMBER",
+                                    "text": "Pasal 11"
+                                  },
+                                  {
+                                    "type": "PLAINTEXT",
+                                    "text": "Cukup jelas."
+                                  }
+                                ]
+                              },
+                              {
+                                "type": "PENJELASAN_PERUBAHAN_PASAL",
+                                "id": "",
+                                "children": [
+                                  {
+                                    "type": "PASAL_NUMBER",
+                                    "text": "Pasal 12"
+                                  },
+                                  {
+                                    "type": "LIST",
+                                    "id": "",
+                                    "children": [
+                                      {
+                                        "type": "PENJELASAN_LIST_ITEM",
+                                        "id": "",
+                                        "children": [
+                                          {
+                                            "type": "PENJELASAN_HURUF",
+                                            "text": "Huruf a"
+                                          },
+                                          {
+                                            "type": "PLAINTEXT",
+                                            "text": "Cukup jelas."
+                                          }
+                                        ]
+                                      },
+                                      {
+                                        "type": "PENJELASAN_LIST_ITEM",
+                                        "id": "",
+                                        "children": [
+                                          {
+                                            "type": "PENJELASAN_HURUF",
+                                            "text": "Huruf b"
+                                          },
+                                          {
+                                            "type": "PLAINTEXT",
+                                            "text": "Cukup jelas."
+                                          }
+                                        ]
+                                      },
+                                      {
+                                        "type": "PENJELASAN_LIST_ITEM",
+                                        "id": "",
+                                        "children": [
+                                          {
+                                            "type": "PENJELASAN_HURUF",
+                                            "text": "Huruf c"
+                                          },
+                                          {
+                                            "type": "PLAINTEXT",
+                                            "text": "Cukup jelas."
+                                          }
+                                        ]
+                                      },
+                                      {
+                                        "type": "PENJELASAN_LIST_ITEM",
+                                        "id": "",
+                                        "children": [
+                                          {
+                                            "type": "PENJELASAN_HURUF",
+                                            "text": "Huruf d"
+                                          },
+                                          {
+                                            "type": "PLAINTEXT",
+                                            "text": "Yang dimaksud dengan \"advokat\" adalah orang yang berprofesi memberi jasa hukum baik di dalam maupun di luar pengadilan yang memenuhi persyaratan sesuai dengan ketentuan peraturan perundang undangan yang berlaku"
+                                          }
+                                        ]
+                                      },
+                                      {
+                                        "type": "PENJELASAN_LIST_ITEM",
+                                        "id": "",
+                                        "children": [
+                                          {
+                                            "type": "PENJELASAN_HURUF",
+                                            "text": "Huruf e"
+                                          },
+                                          {
+                                            "type": "PLAINTEXT",
+                                            "text": "Cukup jelas."
+                                          }
+                                        ]
+                                      },
+                                      {
+                                        "type": "PENJELASAN_LIST_ITEM",
+                                        "id": "",
+                                        "children": [
+                                          {
+                                            "type": "PENJELASAN_HURUF",
+                                            "text": "Huruf f"
+                                          },
+                                          {
+                                            "type": "PLAINTEXT",
+                                            "text": "Cukup jelas."
+                                          }
+                                        ]
+                                      },
+                                      {
+                                        "type": "PENJELASAN_LIST_ITEM",
+                                        "id": "",
+                                        "children": [
+                                          {
+                                            "type": "PENJELASAN_HURUF",
+                                            "text": "Huruf g"
+                                          },
+                                          {
+                                            "type": "PLAINTEXT",
+                                            "text": "Cukup jelas."
+                                          }
+                                        ]
+                                      },
+                                      {
+                                        "type": "PENJELASAN_LIST_ITEM",
+                                        "id": "",
+                                        "children": [
+                                          {
+                                            "type": "PENJELASAN_HURUF",
+                                            "text": "Huruf h"
+                                          },
+                                          {
+                                            "type": "PLAINTEXT",
+                                            "text": "Cukup jelas."
+                                          }
+                                        ]
+                                      },
+                                      {
+                                        "type": "PENJELASAN_LIST_ITEM",
+                                        "id": "",
+                                        "children": [
+                                          {
+                                            "type": "PENJELASAN_HURUF",
+                                            "text": "Huruf i"
+                                          },
+                                          {
+                                            "type": "PLAINTEXT",
+                                            "text": "Cukup jelas."
+                                          }
+                                        ]
+                                      }
+                                    ]
+                                  }
+                                ]
+                              }
+                            ]
+                          }
+                        ]
+                      },
+                      {
+                        "type": "PENJELASAN_LIST_ITEM",
+                        "id": "",
+                        "children": [
+                          {
+                            "type": "PENJELASAN_ANGKA",
+                            "text": "Angka 3"
+                          },
+                          {
+                            "type": "PENJELASAN_PERUBAHAN_SECTION",
+                            "id": "",
+                            "children": [
+                              {
+                                "type": "PENJELASAN_PERUBAHAN_PASAL",
+                                "id": "",
+                                "children": [
+                                  {
+                                    "type": "PASAL_NUMBER",
+                                    "text": "Pasal 12A"
+                                  },
+                                  {
+                                    "type": "PLAINTEXT",
+                                    "text": "Cukup jelas."
+                                  }
+                                ]
+                              },
+                              {
+                                "type": "PENJELASAN_PERUBAHAN_PASAL",
+                                "id": "",
+                                "children": [
+                                  {
+                                    "type": "PASAL_NUMBER",
+                                    "text": "Pasal 12B"
+                                  },
+                                  {
+                                    "type": "LIST",
+                                    "id": "",
+                                    "children": [
+                                      {
+                                        "type": "PENJELASAN_LIST_ITEM",
+                                        "id": "",
+                                        "children": [
+                                          {
+                                            "type": "PENJELASAN_AYAT",
+                                            "text": "Ayat (1)"
+                                          },
+                                          {
+                                            "type": "PLAINTEXT",
+                                            "text": "Yang dimaksud dengan \"gratifikasi\" dalam ayat ini adalah pemberian dalam arti luas, yakni meliputi pemberian uang, barang, rabat (discount), komisi, pinjaman tanpa bunga, tiket perjalanan, fasilitas penginapan, perjalanan wisata, pengobatan cuma-cuma, dan fasilitas lainnya. Gratifikasi tersebut baik yang diterima di dalam negeri maupun di luar negeri dan yang dilakukan dengan menggunakan sarana elektronik atau tanpa sarana elektronik."
+                                          }
+                                        ]
+                                      },
+                                      {
+                                        "type": "PENJELASAN_LIST_ITEM",
+                                        "id": "",
+                                        "children": [
+                                          {
+                                            "type": "PENJELASAN_AYAT",
+                                            "text": "Ayat (2)"
+                                          },
+                                          {
+                                            "type": "PLAINTEXT",
+                                            "text": "Cukup jelas."
+                                          }
+                                        ]
+                                      }
+                                    ]
+                                  }
+                                ]
+                              },
+                              {
+                                "type": "PENJELASAN_PERUBAHAN_PASAL",
+                                "id": "",
+                                "children": [
+                                  {
+                                    "type": "PASAL_NUMBER",
+                                    "text": "Pasal 12C"
+                                  },
+                                  {
+                                    "type": "PLAINTEXT",
+                                    "text": "Cukup jelas."
+                                  }
+                                ]
+                              }
+                            ]
+                          }
+                        ]
+                      },
+                      {
+                        "type": "PENJELASAN_LIST_ITEM",
+                        "id": "",
+                        "children": [
+                          {
+                            "type": "PENJELASAN_ANGKA",
+                            "text": "Angka 4"
+                          },
+                          {
+                            "type": "PENJELASAN_PERUBAHAN_SECTION",
+                            "id": "",
+                            "children": [
+                              {
+                                "type": "PENJELASAN_PERUBAHAN_PASAL",
+                                "id": "",
+                                "children": [
+                                  {
+                                    "type": "PASAL_NUMBER",
+                                    "text": "Pasal 26A"
+                                  },
+                                  {
+                                    "type": "LIST",
+                                    "id": "",
+                                    "children": [
+                                      {
+                                        "type": "PENJELASAN_LIST_ITEM",
+                                        "id": "",
+                                        "children": [
+                                          {
+                                            "type": "PENJELASAN_HURUF",
+                                            "text": "Huruf a"
+                                          },
+                                          {
+                                            "type": "PLAINTEXT",
+                                            "text": "Yang dimaksud dengan \"disimpan secara elektronik\" misalnya data yang disimpan dalam mikro film, Compact Disk Read Only Memory (CD-ROM) atau Write Once Read Many (WORM)."
+                                          },
+                                          {
+                                            "type": "PLAINTEXT",
+                                            "text": "Yang dimaksud dengan \"alat optik atau yang serupa dengan itu\" dalam ayat ini tidak terbatas pada data penghubung elektronik (electronic data interchange), surat elektronik (e-mail), telegram, teleks, dan faksimili."
+                                          }
+                                        ]
+                                      },
+                                      {
+                                        "type": "PENJELASAN_LIST_ITEM",
+                                        "id": "",
+                                        "children": [
+                                          {
+                                            "type": "PENJELASAN_HURUF",
+                                            "text": "Huruf b"
+                                          },
+                                          {
+                                            "type": "PLAINTEXT",
+                                            "text": "Cukup jelas."
+                                          }
+                                        ]
+                                      }
+                                    ]
+                                  }
+                                ]
+                              }
+                            ]
+                          }
+                        ]
+                      },
+                      {
+                        "type": "PENJELASAN_LIST_ITEM",
+                        "id": "",
+                        "children": [
+                          {
+                            "type": "PENJELASAN_ANGKA",
+                            "text": "Angka 5"
+                          },
+                          {
+                            "type": "PENJELASAN_PERUBAHAN_SECTION",
+                            "id": "",
+                            "children": [
+                              {
+                                "type": "PENJELASAN_PERUBAHAN_PASAL",
+                                "id": "",
+                                "children": [
+                                  {
+                                    "type": "PASAL_NUMBER",
+                                    "text": "Pasal 37"
+                                  },
+                                  {
+                                    "type": "LIST",
+                                    "id": "",
+                                    "children": [
+                                      {
+                                        "type": "PENJELASAN_LIST_ITEM",
+                                        "id": "",
+                                        "children": [
+                                          {
+                                            "type": "PENJELASAN_AYAT",
+                                            "text": "Ayat (1)"
+                                          },
+                                          {
+                                            "type": "PLAINTEXT",
+                                            "text": "Pasal ini sebagai konsekuensi berimbang atas penerapan pembuktian terbalik terhadap terdakwa. Terdakwa tetap memerlukan perlindungan hukum yang berimbang atas pelanggaran hak-hak yang mendasar yang berkaitan dengan asas praduga tak bersalah (presumption of innocence) dan menyalahkan diri sendiri (non self-incrimination)."
+                                          }
+                                        ]
+                                      },
+                                      {
+                                        "type": "PENJELASAN_LIST_ITEM",
+                                        "id": "",
+                                        "children": [
+                                          {
+                                            "type": "PENJELASAN_AYAT",
+                                            "text": "Ayat (2)"
+                                          },
+                                          {
+                                            "type": "PLAINTEXT",
+                                            "text": "Ketentuan ini tidak menganut sistem pembuktian secara negatif menurut undang-undang (negatief wettelijk)."
+                                          }
+                                        ]
+                                      }
+                                    ]
+                                  }
+                                ]
+                              },
+                              {
+                                "type": "PENJELASAN_PERUBAHAN_PASAL",
+                                "id": "",
+                                "children": [
+                                  {
+                                    "type": "PASAL_NUMBER",
+                                    "text": "Pasal 37A"
+                                  },
+                                  {
+                                    "type": "PLAINTEXT",
+                                    "text": "Cukup jelas."
+                                  }
+                                ]
+                              }
+                            ]
+                          }
+                        ]
+                      },
+                      {
+                        "type": "PENJELASAN_LIST_ITEM",
+                        "id": "",
+                        "children": [
+                          {
+                            "type": "PENJELASAN_ANGKA",
+                            "text": "Angka 6"
+                          },
+                          {
+                            "type": "PENJELASAN_PERUBAHAN_SECTION",
+                            "id": "",
+                            "children": [
+                              {
+                                "type": "PENJELASAN_PERUBAHAN_PASAL",
+                                "id": "",
+                                "children": [
+                                  {
+                                    "type": "PASAL_NUMBER",
+                                    "text": "Pasal 38A"
+                                  },
+                                  {
+                                    "type": "PLAINTEXT",
+                                    "text": "Cukup jelas."
+                                  }
+                                ]
+                              },
+                              {
+                                "type": "PENJELASAN_PERUBAHAN_PASAL",
+                                "id": "",
+                                "children": [
+                                  {
+                                    "type": "PASAL_NUMBER",
+                                    "text": "Pasal 38B"
+                                  },
+                                  {
+                                    "type": "PLAINTEXT",
+                                    "text": "Ketentuan dalam Pasal ini merupakan pembuktian terbalik yang dikhususkan pada perampasan harta benda yang diduga keras juga berasal dari tindak pidana korupsi berdasarkan salah satu dakwaan sebagaimana dimaksud dalam Pasal 2, Pasal 3, Pasal 4, Pasal 13, Pasal 14, Pasal 15, dan Pasal 16 Undang-undang Nomor 31 Tahun 1999 tentang Pemberantasan Tindak Pidana Korupsi dan Pasal 5 sampai dengan Pasal 12 Undang undang ini sebagai tindak pidana pokok."
+                                  },
+                                  {
+                                    "type": "PLAINTEXT",
+                                    "text": "Pertimbangan apakah seluruh atau sebagian harta benda tersebut dirampas untuk negara diserahkan kepada hakim dengan pertimbangan prikemanusiaan dan jaminan hidup bagi terdakwa."
+                                  },
+                                  {
+                                    "type": "PLAINTEXT",
+                                    "text": "Dasar pemikiran ketentuan sebagaimana dimaksud dalam ayat (6) ialah alasan logika hukum karena dibebaskannya atau dilepaskannya terdakwa dari segala tuntutan hukum dari perkara pokok, berarti terdakwa bukan pelaku tindak pidana korupsi dalam kasus tersebut."
+                                  }
+                                ]
+                              },
+                              {
+                                "type": "PENJELASAN_PERUBAHAN_PASAL",
+                                "id": "",
+                                "children": [
+                                  {
+                                    "type": "PASAL_NUMBER",
+                                    "text": "Pasal 38C"
+                                  },
+                                  {
+                                    "type": "PLAINTEXT",
+                                    "text": "Dasar pemikiran ketentuan dalam Pasal ini adalah untuk memenuhi rasa keadilan masyarakat terhadap pelaku tindak pidana korupsi yang menyembunyikan harta benda yang diduga atau patut diduga berasal dari tindak pidana korupsi."
+                                  },
+                                  {
+                                    "type": "PLAINTEXT",
+                                    "text": "Harta benda tersebut diketahui setelah putusan pengadilan memperoleh kekuatan hukum tetap. Dalam hal tersebut, negara memiliki hak untuk melakukan gugatan perdata kepada terpidana dan atau ahli warisnya terhadap harta benda yang diperoleh sebelum putusan pengadilan memperoleh kekuatan tetap, baik putusan tersebut didasarkan pada Undang-undang sebelum berlakunya Undang-undang Nomor 31 Tahun 1999 tentang Pemberantasan Tindak Pidana Korupsi atau setelah berlakunya Undang-undang tersebut."
+                                  },
+                                  {
+                                    "type": "PLAINTEXT",
+                                    "text": "Untuk melakukan gugatan tersebut negara dapat menunjuk kuasanya untuk mewakili negara."
+                                  }
+                                ]
+                              }
+                            ]
+                          }
+                        ]
+                      },
+                      {
+                        "type": "PENJELASAN_LIST_ITEM",
+                        "id": "",
+                        "children": [
+                          {
+                            "type": "PENJELASAN_ANGKA",
+                            "text": "Angka 7"
+                          },
+                          {
+                            "type": "PLAINTEXT",
+                            "text": "Cukup jelas"
+                          }
+                        ]
+                      },
+                      {
+                        "type": "PENJELASAN_LIST_ITEM",
+                        "id": "",
+                        "children": [
+                          {
+                            "type": "PENJELASAN_ANGKA",
+                            "text": "Angka 8"
+                          },
+                          {
+                            "type": "PLAINTEXT",
+                            "text": "Cukup jelas."
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "PENJELASAN_PASAL",
+                "id": "",
+                "children": [
+                  {
+                    "type": "PASAL_NUMBER",
+                    "text": "Pasal II"
+                  },
+                  {
+                    "type": "PLAINTEXT",
+                    "text": "Cukup jelas."
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

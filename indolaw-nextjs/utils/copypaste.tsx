@@ -70,6 +70,7 @@ const renderCopyListHtml = (listStructure: Complex): JSX.Element => {
     case Structure.PENJELASAN_HURUF:
     case Structure.PENJELASAN_AYAT:
     case Structure.PENJELASAN_ANGKA:
+    case Structure.PENJELASAN_ANGKA_WITH_RIGHT_BRACKET:
       return (
         <ul>
           {listStructure.children.map(listItem =>

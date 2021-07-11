@@ -2,6 +2,7 @@ import fs from "fs";
 import { GetStaticProps } from "next";
 import { LawData } from "utils/grammar";
 import LawPage from "components/LawPage";
+import { getDirectoryMetadata } from "utils/route-utils";
 
 export default function Number(props: {
   data: {
@@ -36,12 +37,21 @@ export const getStaticProps: GetStaticProps = async ({ params }) => {
     return { notFound: true };
   }
 
-  const file = fs.readFileSync(`./laws/uu-${params.yearOrNickname}-${params.number}.json`, 'utf8');
+  const year = params.yearOrNickname as string;
+  const number = params.number as string;
+
+  const law = JSON.parse(fs.readFileSync(`./laws/uu-${year}-${number}.json`, 'utf8'));
+  const metadata = getDirectoryMetadata(year, number);
+
+  law['metadata'] = {
+    ...law['metadata'],
+    ...metadata,
+  }
 
   return {
     props: {
       data: {
-        law: JSON.parse(file),
+        law,
       },
     },
   };

@@ -3049,7 +3049,21 @@
                                   },
                                   {
                                     "type": "PLAINTEXT",
-                                    "text": "penetapan Peraturan Pemerintah Pengganti Undang-Undang menjadi Undang-Undang; atau c. pencabutan Undang-Undang atau pencabutan Peraturan Pemerintah Pengganti Undang-Undang."
+                                    "text": "penetapan Peraturan Pemerintah Pengganti Undang-Undang menjadi Undang-Undang; atau"
+                                  }
+                                ]
+                              },
+                              {
+                                "type": "LIST_ITEM",
+                                "id": "",
+                                "children": [
+                                  {
+                                    "type": "LETTER_WITH_DOT",
+                                    "text": "c."
+                                  },
+                                  {
+                                    "type": "PLAINTEXT",
+                                    "text": "pencabutan Undang-Undang atau pencabutan Peraturan Pemerintah Pengganti Undang-Undang."
                                   }
                                 ]
                               }

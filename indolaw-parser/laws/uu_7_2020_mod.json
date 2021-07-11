@@ -1415,7 +1415,21 @@
                                           },
                                           {
                                             "type": "PLAINTEXT",
-                                            "text": "memasuki usia sebagaimana dimaksud dalam Pasal 23 ayat (1) huruf c; atau b. dihapus."
+                                            "text": "memasuki usia sebagaimana dimaksud dalam Pasal 23 ayat (1) huruf c; atau"
+                                          }
+                                        ]
+                                      },
+                                      {
+                                        "type": "LIST_ITEM",
+                                        "id": "",
+                                        "children": [
+                                          {
+                                            "type": "LETTER_WITH_DOT",
+                                            "text": "b."
+                                          },
+                                          {
+                                            "type": "PLAINTEXT",
+                                            "text": "dihapus."
                                           }
                                         ]
                                       }
