@@ -52,7 +52,6 @@ function extractPenjelasanMap(law: Complex): NodeMap {
           for (let child of structure.children) {
             traverse(child);
           }
-          return;
         }
 
         const pasalNumber = structure.children[0] as Primitive;

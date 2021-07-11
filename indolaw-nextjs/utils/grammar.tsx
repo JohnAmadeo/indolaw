@@ -272,7 +272,8 @@ export function renderStructure(
 
 export function renderPenjelasan(
   structure: Complex | Primitive,
-  key?: string | number
+  key?: string | number,
+  collapseOnDefault?: boolean
 ) {
   switch (structure.type) {
     case Structure.PENJELASAN_PERUBAHAN_PASAL:
@@ -283,6 +284,7 @@ export function renderPenjelasan(
             key={key}
             structure={structure as Complex}
             numOfHeadingLines={1}
+            collapseOnDefault={collapseOnDefault}
           />
         </>
       );

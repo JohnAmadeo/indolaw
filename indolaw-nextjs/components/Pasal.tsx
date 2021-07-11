@@ -1,8 +1,7 @@
 import { CSSProperties, useContext } from "react";
 import { Complex, Primitive, renderStructure } from "utils/grammar";
-import { useAppContext } from "utils/context-provider";
 import PrimitiveStructure from "./PrimitiveStructure";
-import { Structure, renderPenjelasan } from "utils/grammar";
+import { renderPenjelasan } from "utils/grammar";
 import ReactDOMServer from "react-dom/server";
 import { useMediaQuery } from "react-responsive";
 import * as clipboard from "clipboard-polyfill";
@@ -45,6 +44,9 @@ export default function Pasal(props: {
 
   const isPerubahanStructure = structure.type.includes('PERUBAHAN');
   const isPenjelasanStructure = structure.type.includes('PENJELASAN');
+  // Collapse penjelasan on default if it's a parent penjelasan node (comes from a Pasal mapping),
+  // otherwise, it shouldn't be collapsed (ex: if it's a penjelasan_pasal_perubahan as a part of penjelasan_pasal) 
+  const collapsePenjelasanOnDefault = !isPenjelasanStructure;
 
   const pasalNumber = structure.children[0] as Primitive;
   const key = getPenjelasanMapKey(structure.type, pasalNumber.text);
@@ -54,15 +56,12 @@ export default function Pasal(props: {
     <>
       <style jsx>{`
         .container {
-          margin: ${isPerubahanStructure ? '0' : '48px'} 0 0 0;
+          margin: ${isPerubahanStructure ? "0" : "48px"} 0 0 0;
           display: flex;
           justify-content: center;
         }
       `}</style>
-      <div
-        className="container"
-        id={structure.id}
-      >
+      <div className="container" id={structure.id}>
         <PrimitiveStructure
           structure={pasalNumber}
           customStyle={headingStyle}
@@ -72,11 +71,13 @@ export default function Pasal(props: {
       {structure.children
         .slice(numOfHeadingLines)
         .map((child, idx) => renderStructure(child, idx))}
-      {
-        !isPenjelasanStructure &&
+      {!isPenjelasanStructure &&
         penjelasanPasal != null &&
-        renderPenjelasan(penjelasanPasal, undefined)
-      }
+        renderPenjelasan(
+          penjelasanPasal,
+          undefined,
+          collapsePenjelasanOnDefault
+        )}
     </>
   );
 }
