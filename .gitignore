@@ -1,1 +1,6 @@
 .DS_Store
+*.pdf
+NOTES.md
+indolaw-parser/qx.py
+indolaw-parser/crash.json
+.vscode/*
