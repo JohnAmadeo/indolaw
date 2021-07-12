@@ -1358,10 +1358,6 @@
                     ]
                   }
                 ]
-              },
-              {
-                "type": "PLAINTEXT",
-                "text": "II."
               }
             ]
           },
@@ -1371,7 +1367,7 @@
             "children": [
               {
                 "type": "PENJELASAN_PASAL_DEMI_PASAL_TITLE",
-                "text": "PASAL DEMI PASAL"
+                "text": "II. PASAL DEMI PASAL"
               },
               {
                 "type": "PENJELASAN_PASAL",
