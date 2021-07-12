@@ -318,56 +318,146 @@ def clean_law(law: List[str]) -> List[str]:
     law = [line.strip() for line in law]
     law = [' '.join(line.split()) for line in law]
 
-    save_law_to_file(law, 'a.txt')
-
     '''
-    Remove semantically meaningless text e.g '. . .' or '1 / 23'
-
-    Mostly, they come in whole lines, but sometimes they get squashed
-    onto the end of real lines
-
-    e.g a real line ending in '2 / 43' in UU 18 2017
+    Preps for cleaning stages for potential save in a dict of stages
+    TODO(Mel):  1. Maybe change law_stages headers into enums?
+                2. Extend saving mechanism to catch and save during a crash
+                3. Add documentation on how saving mechanism works 
     '''
-    law = list(filterfalse(ignore_line, law))
-    law = clean_squashed_page_numbers(law)
+    law_stages = [['clean_squashed_page_numbers',[]], ['clean_maybe_list_items',[]],
+                    ['clean_maybe_squashed_headings',[]], ['clean_split_plaintext',[]],
+                    ['clean_split_pasal_number',[]], ['insert_perubahan_quotes',[]]]
+    cleaning_progress = {'started': False, 'finished': False}
+    
+    while cleaning_progress['finished'] == False:
+        
+        user_input_stage = '0'
 
-    save_law_to_file(law, 'b.txt')
+        if cleaning_progress['started'] == True:
 
-    '''
-    Deal with list indexes. See clean_maybe_list_item for more.
-    '''
-    law = clean_maybe_list_items(law)
+            print("---------------")
+            print("")
+            print(colored('SAVED STAGES: ', 'blue'))
+            for i, stage in enumerate(law_stages):
+                if len(stage[1]) == 0:
+                    break
+                print(f"{i}. {stage[0]}")
+            print("")
+            print("---------------")
+            
+            pick_number = colored('number', 'blue')
+            pick_n = colored('n', 'blue')
 
-    save_law_to_file(law, 'c.txt')
+            print(f"Pick a stage {pick_number} or")
+            user_input_stage = input(f"enter {pick_n} to go to the next stage: ")
+        
+        elif cleaning_progress['started'] == False:
+            cleaning_progress['started'] = True
+            print_section_header("STARTING CLEANING")
 
-    '''
-    Deal with heading structures (e.g PASAL_NUMBER) squashed onto the end of
-    the previous line. (In theory, this can be expanded to BAB_TITLE, BAGIAN_TITLE etc.)
-    '''
-    law = clean_maybe_squashed_headings(law)
+        #while int(user_input_stage) not in range(len(law_stages)) or user_input_stage != 'n':
 
-    save_law_to_file(law, 'd.txt')
+        '''Checks whether stage n - 1 has content (and thus can proceed to cleaning stage n)'''
+        if user_input_stage == 'n':
+            for i, stage in enumerate(law_stages):
+                if len(stage[1]) == 0:
+                    user_input_stage = i
+                    break
 
-    '''
-    Stitch together plaintext lines that get separated into 2 lines due to page breaks
-    '''
-    law = clean_split_plaintext(law)
+        elif user_input_stage.isnumeric() == False:
+            print("")
+            print(f"{colored('Invalid input. Choose n or a number', 'red')}")
+            continue
 
-    save_law_to_file(law, 'e.txt')
+        elif int(user_input_stage) >= len(law_stages):
+            print("")
+            print(f"{colored('Invalid number.', 'red')}")
+            continue
+        
+        int_user_input_stage = int(user_input_stage)
 
-    '''
-    TODO(johnamadeo): Fix "Pasal 38 B" REMOVE THE SPACE WITH REGEX
-    '''
-    law = clean_split_pasal_number(law)
+        if len(law_stages[int_user_input_stage - 1][1]) == 0 and int_user_input_stage != 0:
+            print("")
+            print(f"{colored('Invalid stage number. All former stages must be cleaned first.', 'red')}")
+            continue
+        
+        # On subsequent else-ifs, no need to check whether the previous stage
+        # of the chosen stage has content, because whichever stage is chosen by
+        # the user, the previous conditional statement has checked it
+        elif int_user_input_stage == 0:
+            '''
+            Remove semantically meaningless text e.g '. . .' or '1 / 23'
+            Mostly, they come in whole lines, but sometimes they get squashed
+            onto the end of real lines
+            e.g a real line ending in '2 / 43' in UU 18 2017
+            '''
+            law_stages[0][1] = list(filterfalse(ignore_line, law))
+            law_stages[0][1] = clean_squashed_page_numbers(law_stages[0][1])
 
-    save_law_to_file(law, 'f.txt')
+        elif int_user_input_stage == 1:
+            '''
+            Deal with list indexes. See clean_maybe_list_item for more.
+            '''
+            law_stages[1][1] = clean_maybe_list_items(law_stages[0][1])
 
-    '''
-    Add OPEN_QUOTE_CHAR and CLOSE_QUOTE_CHAR to PERUBAHAN_SECTION and PENJELASAN_PERUBAHAN_SECTION
-    '''
-    law = insert_perubahan_quotes(law)
-    return law
+        elif int_user_input_stage == 2:
+            '''
+            Deal with heading structures (e.g PASAL_NUMBER) squashed onto the end of
+            the previous line. (In theory, this can be expanded to BAB_TITLE, BAGIAN_TITLE etc.)
+            '''
+            law_stages[2][1] = clean_maybe_squashed_headings(law_stages[1][1])
 
+        elif int_user_input_stage == 3:
+            '''
+            Stitch together plaintext lines that get separated into 2 lines due to page breaks
+            '''
+            law_stages[3][1] = clean_split_plaintext(law_stages[2][1])
+
+        elif int_user_input_stage == 4:
+            '''
+            TODO(johnamadeo): Fix "Pasal 38 B" REMOVE THE SPACE WITH REGEX
+            '''
+            law_stages[4][1] = clean_split_pasal_number(law_stages[3][1])
+
+        elif int_user_input_stage == 5:
+            '''
+            Add OPEN_QUOTE_CHAR and CLOSE_QUOTE_CHAR to PERUBAHAN_SECTION and PENJELASAN_PERUBAHAN_SECTION
+            '''
+
+            law_stages[5][1] = insert_perubahan_quotes(law_stages[4][1])
+            print("Last cleaning stage finished. Proceed to parsing?")
+            print("Input y(es) to proceed to parsing.")
+            print("Input n(o) to revise specific cleaning stages.")
+            print_yes_no()
+
+            user_input_finish = 'z'
+
+            while input != 'y' or input != 'n':
+                user_input_finish = input()
+                if user_input_finish == 'y':
+                    print('Proceeding to parsing...', 'blue')
+                    cleaning_progress['finished'] == True
+                elif user_input_finish == 'n':
+                    print(colored('Proceeding to cleaning stages...', 'blue'))
+                else:
+                    print(colored('Invalid input.', 'red'))
+
+        else:
+            print(f"{colored('Invalid input.', 'red')}")
+
+        '''
+        Deleting stage n + 1 and subsequent stages to eliminate the chance of
+        double-cleaning/wrongful steps of cleaning
+        '''
+        for i in range(int_user_input_stage + 1, len(law_stages)):
+            law_stages[i][1].clear()
+
+    return law_stages[-1][1]
+
+#def delete_subsequent_law_stages(n_stage: int, law_stages: List[list[list]]) -> List[list[list]]:
+#    for i in range(n_stage, len(law_stages)):
+#        law_stages[i][1].clear()
+#    return law_stages
 
 def clean_split_pasal_number(law: List[str]) -> List[str]:
     new_law = []
