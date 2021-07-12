@@ -359,10 +359,16 @@ def clean_law(law: List[str]) -> List[str]:
 
         '''Checks whether stage n - 1 has content (and thus can proceed to cleaning stage n)'''
         if user_input_stage == 'n':
+            cleaned_stages = len(law_stages)
             for i, stage in enumerate(law_stages):
                 if len(stage[1]) == 0:
                     user_input_stage = i
                     break
+                else:
+                    cleaned_stages -= 1
+
+            if cleaned_stages == 0:
+                user_input_stage = -1
 
         elif user_input_stage.isnumeric() == False:
             print("")
@@ -423,22 +429,25 @@ def clean_law(law: List[str]) -> List[str]:
             '''
             Add OPEN_QUOTE_CHAR and CLOSE_QUOTE_CHAR to PERUBAHAN_SECTION and PENJELASAN_PERUBAHAN_SECTION
             '''
-
             law_stages[5][1] = insert_perubahan_quotes(law_stages[4][1])
-            print("Last cleaning stage finished. Proceed to parsing?")
-            print("Input y(es) to proceed to parsing.")
-            print("Input n(o) to revise specific cleaning stages.")
+
+        elif int_user_input_stage == -1:
+
+            print_section_header("Last cleaning stage finished")
+            print("Proceed to parsing?")
+            print("(y) to proceed to parsing.")
+            print("(n) to undo to specific cleaning stages.")
             print_yes_no()
 
-            user_input_finish = 'z'
+            user_input_finish = ''
 
-            while input != 'y' or input != 'n':
+            while user_input_finish != 'y' and user_input_finish != 'n':
                 user_input_finish = input()
                 if user_input_finish == 'y':
-                    print('Proceeding to parsing...', 'blue')
-                    cleaning_progress['finished'] == True
+                    print(colored('Proceeding to parsing...', 'blue'))
+                    cleaning_progress['finished'] = True
                 elif user_input_finish == 'n':
-                    print(colored('Proceeding to cleaning stages...', 'blue'))
+                    print(colored('Going back to cleaning stages...', 'blue'))
                 else:
                     print(colored('Invalid input.', 'red'))
 
@@ -449,8 +458,9 @@ def clean_law(law: List[str]) -> List[str]:
         Deleting stage n + 1 and subsequent stages to eliminate the chance of
         double-cleaning/wrongful steps of cleaning
         '''
-        for i in range(int_user_input_stage + 1, len(law_stages)):
-            law_stages[i][1].clear()
+        if cleaning_progress['finished'] == False:
+            for i in range(int_user_input_stage + 1, len(law_stages)):
+                law_stages[i][1].clear()
 
     return law_stages[-1][1]
 
