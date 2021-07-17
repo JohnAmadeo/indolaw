@@ -51,6 +51,7 @@ const renderCopyListHtml = (listStructure: Complex): JSX.Element => {
         </ol>
       );
     case Structure.LETTER_WITH_DOT:
+    case Structure.LETTER_WITH_RIGHT_BRACKET:
       return (
         <ol type="a">
           {listStructure.children.map(listItem =>
@@ -78,6 +79,7 @@ const renderCopyListHtml = (listStructure: Complex): JSX.Element => {
         </ul>
       );
     default:
+      console.log(listStructure.children[0]);
       throw Error('');
   }
 };
