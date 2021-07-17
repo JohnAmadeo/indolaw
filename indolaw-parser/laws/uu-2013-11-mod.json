@@ -1,0 +1,1398 @@
+{
+  "metadata": {
+    "lembaranNegaraNumber": 73,
+    "lembaranNegaraYear": 2013,
+    "tambahanLembaranNumber": 5412,
+    "number": 11,
+    "topic": "Pengesahan Nagoya Protocol On Access To Genetic Resources And The Fair And Equitable Sharing Of Benefits Arising From Their Utilization To The Convention On Biological Diversity (protokol Nagoya Tentang Akses Pada Sumber Daya Genetik Dan Pembagian Keuntungan Yang Adil Dan Seimbang Yang Timbul Dari Pemanfaatannya Atas Konvensi Keanekaragaman Hayati)",
+    "year": 2013
+  },
+  "content": {
+    "type": "UNDANG_UNDANG",
+    "id": "",
+    "children": [
+      {
+        "type": "OPENING",
+        "id": "",
+        "children": [
+          {
+            "type": "UU_TITLE",
+            "id": "",
+            "children": [
+              {
+                "type": "PLAINTEXT",
+                "text": "UNDANG-UNDANG REPUBLIK INDONESIA"
+              },
+              {
+                "type": "UU_TITLE_YEAR_AND_NUMBER",
+                "text": "NOMOR 11 TAHUN 2013"
+              },
+              {
+                "type": "PLAINTEXT",
+                "text": "TENTANG"
+              },
+              {
+                "type": "UU_TITLE_TOPIC",
+                "text": "PENGESAHAN NAGOYA PROTOCOL ON ACCESS TO GENETIC RESOURCES AND THE FAIR AND EQUITABLE SHARING OF BENEFITS ARISING FROM THEIR UTILIZATION TO THE CONVENTION ON BIOLOGICAL DIVERSITY (PROTOKOL NAGOYA TENTANG AKSES PADA SUMBER DAYA GENETIK DAN PEMBAGIAN KEUNTUNGAN YANG ADIL DAN SEIMBANG YANG TIMBUL DARI PEMANFAATANNYA ATAS KONVENSI KEANEKARAGAMAN HAYATI)"
+              }
+            ]
+          },
+          {
+            "type": "PREFACE",
+            "id": "",
+            "children": [
+              {
+                "type": "PLAINTEXT",
+                "text": "DENGAN RAHMAT TUHAN YANG MAHA ESA"
+              },
+              {
+                "type": "PLAINTEXT",
+                "text": "PRESIDEN REPUBLIK INDONESIA,"
+              }
+            ]
+          },
+          {
+            "type": "CONSIDERATIONS",
+            "id": "",
+            "children": [
+              {
+                "type": "PLAINTEXT",
+                "text": "Menimbang:"
+              },
+              {
+                "type": "LIST",
+                "id": "",
+                "children": [
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "LETTER_WITH_DOT",
+                        "text": "a."
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "bahwa Indonesia memiliki beragam sumber daya genetik dan pengetahuan tradisional yang berkaitan dengan sumber daya genetik yang melimpah dan bernilai ekonomis sehingga perlu dijaga kelestariannya dan dikembangkan agar dapat dimanfaatkan secara berkelanjutan sebagai sumber daya pembangunan untuk sebesar-besarnya kemakmuran rakyat sebagaimana diamanatkan dalam Pembukaan Undang Undang Dasar Negara Republik Indonesia Tahun 1945;"
+                      }
+                    ]
+                  },
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "LETTER_WITH_DOT",
+                        "text": "b."
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "bahwa akses terhadap sumber daya genetik dan pengetahuan tradisional yang berkaitan dengan sumber daya genetik harus diberikan berdasarkan persetujuan dari penyedia sumber daya genetik dan pengetahuan tradisional yang berkaitan dengan sumber daya genetik;"
+                      }
+                    ]
+                  },
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "LETTER_WITH_DOT",
+                        "text": "c."
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "bahwa pemanfaatan sumber daya genetik dan pengetahuan tradisional yang berkaitan dengan sumber daya genetik harus memberikan keuntungan yang adil dan seimbang kepada penyedia sumber daya genetik dan pengetahuan tradisional yang berkaitan dengan sumber daya genetik;"
+                      }
+                    ]
+                  },
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "LETTER_WITH_DOT",
+                        "text": "d."
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "bahwa Pemerintah Indonesia pada tanggal 11 Mei 2011 telah menandatangani Nagoya Protocol on Access to Genetic Resources and the Fair and Equitable Sharing of Benefits Arising from Their Utilization to the Convention on Biological Diversity (Protokol Nagoya tentang Akses pada Sumber Daya Genetik dan Pembagian Keuntungan yang Adil dan Seimbang yang Timbul dari Pemanfaatannya atas Konvensi Keanekaragaman Hayati) yang mengatur tentang prosedur akses dan pembagian keuntungan yang adil dan seimbang kepada penyedia sumber daya genetik dan pengetahuan tradisional yang berkaitan dengan sumber daya genetik;"
+                      }
+                    ]
+                  },
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "LETTER_WITH_DOT",
+                        "text": "e."
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "bahwa berdasarkan pertimbangan sebagaimana dimaksud dalam huruf a, huruf b, huruf c, dan huruf d perlu mengesahkan Nagoya Protocol on Access to Genetic Resources and the Fair and Equitable Sharing of Benefits Arising from Their Utilization to the Convention on Biological Diversity (Protokol Nagoya tentang Akses pada Sumber Daya Genetik dan Pembagian Keuntungan yang Adil dan Seimbang yang Timbul dari Pemanfaatannya atas Konvensi Keanekaragaman Hayati) dengan Undang-Undang."
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "PRINCIPLES",
+            "id": "",
+            "children": [
+              {
+                "type": "PLAINTEXT",
+                "text": "Mengingat:"
+              },
+              {
+                "type": "LIST",
+                "id": "",
+                "children": [
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "NUMBER_WITH_DOT",
+                        "text": "1."
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "Pasal 5 ayat (1), Pasal 11, dan Pasal 20 Undang-Undang Dasar Negara Republik Indonesia Tahun 1945;"
+                      }
+                    ]
+                  },
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "NUMBER_WITH_DOT",
+                        "text": "2."
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "Undang-Undang Nomor 37 Tahun 1999 tentang Hubungan Luar Negeri (Lembaran Negara Republik Indonesia Tahun 1999 Nomor 156, Tambahan Lembaran Negara Republik Indonesia Nomor 3882);"
+                      }
+                    ]
+                  },
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "NUMBER_WITH_DOT",
+                        "text": "3."
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "Undang-Undang Nomor 24 Tahun 2000 tentang Perjanjian Internasional (Lembaran Negara Republik Indonesia Tahun 2000 Nomor 185, Tambahan Lembaran Negara Republik Indonesia Nomor 4012)."
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "AGREEMENT",
+            "id": "",
+            "children": [
+              {
+                "type": "PLAINTEXT",
+                "text": "Dengan Persetujuan Bersama"
+              },
+              {
+                "type": "PLAINTEXT",
+                "text": "DEWAN PERWAKILAN RAKYAT REPUBLIK INDONESIA"
+              },
+              {
+                "type": "PLAINTEXT",
+                "text": "dan"
+              },
+              {
+                "type": "PLAINTEXT",
+                "text": "PRESIDEN REPUBLIK INDONESIA"
+              },
+              {
+                "type": "PLAINTEXT",
+                "text": "MEMUTUSKAN:"
+              },
+              {
+                "type": "PLAINTEXT",
+                "text": "Menetapkan:"
+              },
+              {
+                "type": "PLAINTEXT",
+                "text": "UNDANG-UNDANG TENTANG PENGESAHAN NAGOYA PROTOCOL ON ACCESS TO GENETIC RESOURCES AND THE FAIR AND EQUITABLE SHARING OF BENEFITS ARISING FROM THEIR UTILIZATION TO THE CONVENTION ON BIOLOGICAL DIVERSITY (PROTOKOL NAGOYA TENTANG AKSES PADA SUMBER DAYA GENETIK DAN PEMBAGIAN KEUNTUNGAN YANG ADIL DAN SEIMBANG YANG TIMBUL DARI PEMANFAATANNYA ATAS KONVENSI KEANEKARAGAMAN HAYATI)."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "PASAL",
+        "id": "pasal-1",
+        "children": [
+          {
+            "type": "PASAL_NUMBER",
+            "text": "Pasal 1"
+          },
+          {
+            "type": "LIST",
+            "id": "",
+            "children": [
+              {
+                "type": "LIST_ITEM",
+                "id": "",
+                "children": [
+                  {
+                    "type": "NUMBER_WITH_BRACKETS",
+                    "text": "(1)"
+                  },
+                  {
+                    "type": "PLAINTEXT",
+                    "text": "Mengesahkan Nagoya Protocol on Access to Genetic Resources and the Fair and Equitable Sharing of Benefits Arising from Their Utilization to the Convention on Biological Diversity (Protokol Nagoya tentang Akses pada Sumber Daya Genetik dan Pembagian Keuntungan yang Adil dan Seimbang yang Timbul dari Pemanfaatannya atas Konvensi Keanekaragaman Hayati)."
+                  }
+                ]
+              },
+              {
+                "type": "LIST_ITEM",
+                "id": "",
+                "children": [
+                  {
+                    "type": "NUMBER_WITH_BRACKETS",
+                    "text": "(2)"
+                  },
+                  {
+                    "type": "PLAINTEXT",
+                    "text": "Salinan naskah asli pengesahan Nagoya Protocol on Access to Genetic Resources and the Fair and Equitable Sharing of Benefits Arising from Their Utilization to the Convention on Biological Diversity (Protokol Nagoya tentang Akses pada Sumber Daya Genetik dan Pembagian Keuntungan yang Adil dan Seimbang yang Timbul dari Pemanfaatannya atas Konvensi Keanekaragaman Hayati) dalam bahasa Inggris dan terjemahannya dalam bahasa Indonesia sebagaimana terlampir dan merupakan bagian yang tidak terpisahkan dari Undang-Undang ini."
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "PASAL",
+        "id": "pasal-2",
+        "children": [
+          {
+            "type": "PASAL_NUMBER",
+            "text": "Pasal 2"
+          },
+          {
+            "type": "PLAINTEXT",
+            "text": "Undang-Undang ini mulai berlaku pada tanggal diundangkan."
+          },
+          {
+            "type": "PLAINTEXT",
+            "text": "Agar setiap orang mengetahuinya, memerintahkan pengundangan Undang-Undang ini dengan penempatannya dalam Lembaran Negara Republik Indonesia."
+          }
+        ]
+      },
+      {
+        "type": "CLOSING",
+        "id": "",
+        "children": [
+          {
+            "type": "PLAINTEXT",
+            "text": "Disahkan Di Jakarta,"
+          },
+          {
+            "type": "PLAINTEXT",
+            "text": "Pada Tanggal 8 Mei 2013"
+          },
+          {
+            "type": "PLAINTEXT",
+            "text": "PRESIDEN REPUBLIK INDONESIA,"
+          },
+          {
+            "type": "PLAINTEXT",
+            "text": "Ttd."
+          },
+          {
+            "type": "PLAINTEXT",
+            "text": "DR. H. SUSILO BAMBANG YUDHOYONO"
+          },
+          {
+            "type": "PLAINTEXT",
+            "text": "Diundangkan Di Jakarta,"
+          },
+          {
+            "type": "PLAINTEXT",
+            "text": "Pada Tanggal 8 Mei 2013"
+          },
+          {
+            "type": "PLAINTEXT",
+            "text": "MENTERI HUKUM DAN HAK ASASI MANUSIA REPUBLIK INDONESIA,"
+          },
+          {
+            "type": "PLAINTEXT",
+            "text": "Ttd."
+          },
+          {
+            "type": "PLAINTEXT",
+            "text": "AMIR SYAMSUDIN"
+          },
+          {
+            "type": "LEMBARAN_NUMBER",
+            "text": "LEMBARAN NEGARA REPUBLIK INDONESIA TAHUN 2013 NOMOR 73"
+          }
+        ]
+      },
+      {
+        "type": "PENJELASAN",
+        "id": "penjelasan",
+        "children": [
+          {
+            "type": "PENJELASAN_TITLE",
+            "id": "",
+            "children": [
+              {
+                "type": "PLAINTEXT",
+                "text": "PENJELASAN"
+              },
+              {
+                "type": "PLAINTEXT",
+                "text": "UNDANG-UNDANG REPUBLIK INDONESIA"
+              },
+              {
+                "type": "UU_TITLE_YEAR_AND_NUMBER",
+                "text": "NOMOR 11 TAHUN 2013"
+              },
+              {
+                "type": "PLAINTEXT",
+                "text": "TENTANG"
+              },
+              {
+                "type": "UU_TITLE_TOPIC",
+                "text": "PENGESAHAN NAGOYA PROTOCOL ON ACCESS TO GENETIC RESOURCES AND THE FAIR AND EQUITABLE SHARING OF BENEFITS ARISING FROM THEIR UTILIZATION TO THE CONVENTION ON BIOLOGICAL DIVERSITY (PROTOKOL NAGOYA TENTANG AKSES PADA SUMBER DAYA GENETIK DAN PEMBAGIAN KEUNTUNGAN YANG ADIL DAN SEIMBANG YANG TIMBUL DARI PEMANFAATANNYA ATAS KONVENSI KEANEKARAGAMAN HAYATI)"
+              }
+            ]
+          },
+          {
+            "type": "PENJELASAN_UMUM",
+            "id": "",
+            "children": [
+              {
+                "type": "PENJELASAN_UMUM_TITLE",
+                "text": "I. UMUM"
+              },
+              {
+                "type": "PLAINTEXT",
+                "text": "Indonesia memiliki beragam sumber daya genetik dan pengetahuan tradisional yang berkaitan dengan sumber daya genetik yang melimpah dan bernilai ekonomis sehingga perlu dijaga kelestariannya dan dikembangkan agar dapat dimanfaatkan secara berkelanjutan sebagai sumber daya pembangunan untuk sebesar-besarnya kemakmuran rakyat sebagaimana diamanatkan dalam Pembukaan Undang-Undang Dasar Negara Republik Indonesia Tahun 1945."
+              },
+              {
+                "type": "PLAINTEXT",
+                "text": "Untuk melaksanakan amanat tersebut, perlu dilakukan berbagai langkah, seperti melakukan inventarisasi terhadap berbagai potensi sumber daya yang dapat dijadikan modal pembangunan. Sumber daya dimaksud salah satunya adalah sumber daya genetik dan pengetahuan tradisional yang berkaitan dengan sumber daya genetik yang memiliki nilai ekonomis. Selanjutnya, sumber daya tersebut perlu dijaga kelestariannya dan dikembangkan agar dapat dimanfaatkan secara berkelanjutan."
+              },
+              {
+                "type": "PLAINTEXT",
+                "text": "Berdasarkan hasil toponimi atau inventarisasi dan penamaan pulau oleh Direktorat Jenderal Kelautan Pesisir dan Pulau-Pulau Kecil Kementerian Kelautan dan Perikanan, tahun 2010, Indonesia terdiri atas lebih dari 13.487 (tiga belas ribu empat ratus delapan puluh tujuh) pulau. Pulau yang satu dan yang lain dipisahkan oleh lautan sehingga membuahkan 47 (empat puluh tujuh) ekosistem yang sangat berbeda."
+              },
+              {
+                "type": "PLAINTEXT",
+                "text": "Sedangkan berdasarkan Status Keanekaragaman Hayati Indonesia yang diterbitkan Lembaga Ilmu Pengetahuan Indonesia tahun 2011, keragaman spesies yang dimiliki Indonesia, terdiri atas:"
+              },
+              {
+                "type": "LIST",
+                "id": "",
+                "children": [
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "LETTER_WITH_DOT",
+                        "text": "a."
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "707 (tujuh ratus tujuh) spesies mamalia;"
+                      }
+                    ]
+                  },
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "LETTER_WITH_DOT",
+                        "text": "b."
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "1.602 (seribu enam ratus dua) spesies burung;"
+                      }
+                    ]
+                  },
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "LETTER_WITH_DOT",
+                        "text": "c."
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "1.112 (seribu seratus dua belas) spesies amfibi dan reptil;"
+                      }
+                    ]
+                  },
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "LETTER_WITH_DOT",
+                        "text": "d."
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "2.800 (dua ribu delapan ratus) spesies invertebrata;"
+                      }
+                    ]
+                  },
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "LETTER_WITH_DOT",
+                        "text": "e."
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "1.400 (seribu empat ratus) spesies ikan;"
+                      }
+                    ]
+                  },
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "LETTER_WITH_DOT",
+                        "text": "f."
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "35 (tiga puluh lima) spesies primata; dan"
+                      }
+                    ]
+                  },
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "LETTER_WITH_DOT",
+                        "text": "g."
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "120 (seratus dua puluh) spesies kupu-kupu."
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "PLAINTEXT",
+                "text": "Berdasarkan data dari Kementerian Kelautan dan Perikanan, Indonesia memiliki 450 (empat ratus lima puluh) spesies terumbu karang dari 700 (tujuh ratus) spesies dunia."
+              },
+              {
+                "type": "PLAINTEXT",
+                "text": "Dari data tersebut menunjukkan bahwa Indonesia merupakan salah satu negara yang memiliki keanekaragaman hayati yang tinggi serta memiliki keanekaragaman sumber daya genetik dan ekosistem dengan karakteristik tertentu. Potensi tersebut dapat dimanfaatkan sebagai sumber daya untuk memenuhi kebutuhan hidup yang semakin beragam dan kompleks."
+              },
+              {
+                "type": "PLAINTEXT",
+                "text": "Upaya perlindungan terhadap sumber daya genetik telah dilakukan melalui alokasi sejumlah kawasan, baik di darat, di pesisir, maupun di laut untuk dijadikan kawasan konservasi dalam berbagai bentuk seperti taman nasional, kawasan konservasi daratan dan perairan, dan suaka margasatwa darat dan laut. Selain bertujuan untuk melindungi sumber daya genetik, kawasan konservasi juga dimaksudkan untuk menjamin keberadaan, ketersediaan, dan kesinambungan sumber daya pesisir dan lautan dengan meningkatkan kualitas nilai dan keanekaragamannya. Upaya lain yang telah dilakukan termasuk membangun peta ekologi wilayah Indonesia."
+              },
+              {
+                "type": "PLAINTEXT",
+                "text": "Selain itu, perlindungan tersebut dimaksudkan juga untuk menjaga kesinambungan pemanfaatan sumber daya genetik dan pengetahuan tradisional yang berkaitan dengan sumber daya genetik bagi generasi yang akan datang."
+              },
+              {
+                "type": "PLAINTEXT",
+                "text": "Pengetahuan tradisional yang berkaitan dengan sumber daya genetik merupakan bagian yang tidak terpisahkan dari sumber daya genetik dan secara berkelanjutan diwariskan oleh nenek moyang masyarakat hukum adat dan komunitas lokal kepada generasi berikutnya. Untuk itu, dalam melestarikan dan memanfaatkan sumber daya genetik dan pengetahuan tradisional yang berkaitan dengan sumber daya genetik, harus terpolakan dan tercermin dalam pengetahuan, inovasi, dan praktik yang terkait serta perlu dikembangkan pengaturan pengelolaannya sehingga dapat menampung dinamika dan aspirasi masyarakat hukum adat dan komunitas lokal."
+              },
+              {
+                "type": "PLAINTEXT",
+                "text": "Dengan memanfaatkan perkembangan ilmu pengetahuan dan teknologi, pada saat ini pemanfaatan sumber daya genetik tidak terbatas pada sumber daya genetiknya saja tetapi juga terhadap produk turunannya (derivatives) dari sumber daya genetik tersebut. Produk turunan merupakan suatu senyawa biokimia alami yang dihasilkan dari ekspresi genetik atau hasil metabolisme sumber daya hayati atau genetik. Produk turunannya tersebut dapat berupa:"
+              },
+              {
+                "type": "LIST",
+                "id": "",
+                "children": [
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "LETTER_WITH_DOT",
+                        "text": "a."
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "individu hasil persilangan/perkawinan/metode lainnya;"
+                      }
+                    ]
+                  },
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "LETTER_WITH_DOT",
+                        "text": "b."
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "bahan aktif dari hasil metabolisme sumber daya genetik;"
+                      }
+                    ]
+                  },
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "LETTER_WITH_DOT",
+                        "text": "c."
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "enzim; dan"
+                      }
+                    ]
+                  },
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "LETTER_WITH_DOT",
+                        "text": "d."
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "gen."
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "PLAINTEXT",
+                "text": "Protokol Nagoya tentang Akses pada Sumber Daya Genetik dan Pembagian Keuntungan yang Adil dan Seimbang yang Timbul dari Pemanfaatannya atas Konvensi Keanekaragaman Hayati (Nagoya Protocol on Access to Genetic Resources and the Fair and Equitable Sharing of Benefits Arising from Their Utilization to the Convention on Biological Diversity) yang selanjutnya disebut Protokol Nagoya merupakan perjanjian internasional di bidang lingkungan hidup dalam kerangka Konvensi Keanekaragaman Hayati yang mengatur akses terhadap sumber daya genetik dan pembagian keuntungan yang adil dan seimbang antara pemanfaat dan penyedia sumber daya genetik berdasarkan persetujuan atas dasar informasi awal dan kesepakatan bersama serta bertujuan untuk mencegah pencurian keanekaragaman hayati (biopiracy). Perjanjian Protokol Nagoya merupakan perjanjian yang sangat penting bagi Negara Indonesia dalam rangka mendapatkan keuntungan yang adil dan seimbang yang timbul dari pemanfaatannya atas Konvensi Keanekaragaman Hayati."
+              },
+              {
+                "type": "PLAINTEXT",
+                "text": "Adapun manfaat yang diperoleh Indonesia melalui pengesahan Protokol Nagoya, antara lain:"
+              },
+              {
+                "type": "LIST",
+                "id": "",
+                "children": [
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "NUMBER_WITH_DOT",
+                        "text": "1."
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "Melindungi dan melestarikan sumber daya genetik dan pengetahuan tradisional yang berkaitan dengan sumber daya genetik."
+                      }
+                    ]
+                  },
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "NUMBER_WITH_DOT",
+                        "text": "2."
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "Mencegah pencurian (biopiracy) dan pemanfaatan tidak sah (illegal utilization) terhadap keanekaragaman hayati."
+                      }
+                    ]
+                  },
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "NUMBER_WITH_DOT",
+                        "text": "3."
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "Menjamin pembagian keuntungan (finansial maupun non finansial) yang adil dan seimbang atas pemanfaatan sumber daya genetik dan pengetahuan tradisional yang berkaitan dengan sumber daya genetik kepada penyedia sumber daya genetik berdasarkan kesepakatan bersama (Mutually Agreed Terms)."
+                      }
+                    ]
+                  },
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "NUMBER_WITH_DOT",
+                        "text": "4."
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "Meletakkan dasar hukum untuk mengatur akses dan pembagian keuntungan yang adil dan seimbang atas pemanfaatan sumber daya genetik dan pengetahuan tradisional terkait sumber daya genetik berdasarkan kesepakatan bersama."
+                      }
+                    ]
+                  },
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "NUMBER_WITH_DOT",
+                        "text": "5."
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "Menguatkan penguasaan negara atas sumber daya alam sebagaimana diamanatkan Pasal 33 Undang-Undang Dasar Negara Republik Indonesia Tahun 1945 dan mengakui keberadaan masyarakat hukum adat dan hak-hak tradisional sesuai dengan Pasal 18 Undang-Undang Dasar Negara Republik Indonesia Tahun 1945."
+                      }
+                    ]
+                  },
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "NUMBER_WITH_DOT",
+                        "text": "6."
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "Menegaskan kedaulatan Negara atas pengaturan akses terhadap sumber daya genetik dan pengetahuan tradisional yang berkaitan dengan sumber daya genetik."
+                      }
+                    ]
+                  },
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "NUMBER_WITH_DOT",
+                        "text": "7."
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "Memberikan insentif dan dukungan pendanaan sesuai ketentuan peraturan perundang-undangan."
+                      }
+                    ]
+                  },
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "NUMBER_WITH_DOT",
+                        "text": "8."
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "Menciptakan peluang untuk akses alih teknologi pada kegiatan konservasi dan pemanfaatan keanekaragaman hayati secara berkelanjutan."
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "PLAINTEXT",
+                "text": "Protokol Nagoya disusun berdasarkan prinsip hukum internasional, yaitu negara mempunyai kedaulatan dan hak berdaulat untuk mengeksploitasi sumber daya alam sesuai dengan kebijakan lingkungan hidup dan pembangunannya serta mempunyai tanggung jawab untuk menjamin bahwa kegiatan di dalam yurisdiksi atau pengendaliannya tidak mengakibatkan kerugian bagi lingkungan hidup negara lain atau wilayah di luar batas yurisdiksi negara yang bersangkutan."
+              },
+              {
+                "type": "PLAINTEXT",
+                "text": "Peraturan perundang-undangan nasional yang berkaitan dengan Protokol Nagoya, antara lain:"
+              },
+              {
+                "type": "LIST",
+                "id": "",
+                "children": [
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "LETTER_WITH_DOT",
+                        "text": "a."
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "Undang-Undang Nomor 5 Tahun 1990 tentang Konservasi Sumber Daya Alam Hayati dan Ekosistemnya (Lembaran Negara Republik Indonesia Tahun 1990 Nomor 49, Tambahan Lembaran Negara Republik Indonesia Nomor 3419);"
+                      }
+                    ]
+                  },
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "LETTER_WITH_DOT",
+                        "text": "b."
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "Undang-Undang Nomor 12 Tahun 1992 tentang Sistem Budi Daya Tanaman (Lembaran Negara Republik Indonesia Tahun 1992 Nomor 46, Tambahan Lembaran Negara Republik Indonesia Nomor 3478);"
+                      }
+                    ]
+                  },
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "LETTER_WITH_DOT",
+                        "text": "c."
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "Undang-Undang Nomor 16 Tahun 1992 tentang Karantina Hewan, Ikan dan Tumbuhan (Lembaran Negara Republik Indonesia Tahun 1992 Nomor 56, Tambahan Lembaran Negara Republik Indonesia Nomor 3482);"
+                      }
+                    ]
+                  },
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "LETTER_WITH_DOT",
+                        "text": "d."
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "Undang-Undang Nomor 5 Tahun 1994 tentang Pengesahan Konvensi Perserikatan Bangsa-Bangsa mengenai Keanekaragaman Hayati (Lembaran Negara Republik Indonesia Tahun 1994 Nomor 41, Tambahan Lembaran Negara Republik Indonesia Nomor 3556);"
+                      }
+                    ]
+                  },
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "LETTER_WITH_DOT",
+                        "text": "e."
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "Undang-Undang Nomor 7 Tahun 1996 tentang Pangan (Lembaran Negara Republik Indonesia Tahun 1996 Nomor 99, Tambahan Lembaran Negara Republik Indonesia Nomor 3656);"
+                      }
+                    ]
+                  },
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "LETTER_WITH_DOT",
+                        "text": "f."
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "Undang-Undang Nomor 41 Tahun 1999 tentang Kehutanan (Lembaran Negara Republik Indonesia Tahun 1999 Nomor 167, Tambahan Lembaran Negara Republik Indonesia Nomor 3888);"
+                      }
+                    ]
+                  },
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "LETTER_WITH_DOT",
+                        "text": "g."
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "Undang-Undang Nomor 24 Tahun 2000 tentang Perjanjian Internasional (Lembaran Negara Republik Indonesia Tahun 2000 Nomor 185, Tambahan Lembaran Negara Republik Indonesia Nomor 4012);"
+                      }
+                    ]
+                  },
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "LETTER_WITH_DOT",
+                        "text": "h."
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "Undang-Undang Nomor 29 Tahun 2000 tentang Perlindungan Varietas Tanaman (Lembaran Negara Republik Indonesia Tahun 2000 Nomor 241, Tambahan Lembaran Negara Republik Indonesia Nomor 4043);"
+                      }
+                    ]
+                  },
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "LETTER_WITH_DOT",
+                        "text": "i."
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "Undang-Undang Nomor 18 Tahun 2002 tentang Sistem Nasional Penelitian Pengembangan dan Penerapan Ilmu Pengetahuan dan Teknologi (Lembaran Negara Republik Indonesia Tahun 2002 Nomor 84, Tambahan Lembaran Negara Republik Indonesia Nomor 4219);"
+                      }
+                    ]
+                  },
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "LETTER_WITH_DOT",
+                        "text": "j."
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "Undang-Undang Nomor 18 Tahun 2004 tentang Perkebunan (Lembaran Negara Republik Indonesia Tahun 2004 Nomor 84, Tambahan Lembaran Negara Republik Indonesia Nomor 4411);"
+                      }
+                    ]
+                  },
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "LETTER_WITH_DOT",
+                        "text": "k."
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "Undang-Undang Nomor 31 Tahun 2004 tentang Perikanan (Lembaran Negara Republik Indonesia Tahun 2004 Nomor 118, Tambahan Lembaran Negara Republik Indonesia Nomor 4433);"
+                      }
+                    ]
+                  },
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "LETTER_WITH_DOT",
+                        "text": "l."
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "Undang-Undang Nomor 32 Tahun 2004 tentang Pemerintahan Daerah (Lembaran Negara Republik Indonesia Tahun 2004 Nomor 125, Tambahan Lembaran Negara Republik Indonesia Nomor 4437);"
+                      }
+                    ]
+                  },
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "LETTER_WITH_DOT",
+                        "text": "m."
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "Undang-Undang Nomor 27 Tahun 2007 tentang Pengelolaan Wilayah Pesisir dan Pulau-Pulau Kecil (Lembaran Negara Republik Indonesia Tahun 2007 Nomor 84, Tambahan Lembaran Negara Republik Indonesia Nomor 4739);"
+                      }
+                    ]
+                  },
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "LETTER_WITH_DOT",
+                        "text": "n."
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "Undang-Undang Nomor 4 Tahun 2006 tentang Pengesahan International Treaty on Plant Genetic Resources for Food and Agriculture (Perjanjian mengenai Sumber Daya Genetik Tanaman untuk Pangan dan Pertanian) (Lembaran Negara Republik Indonesia Tahun 2006 Nomor 23, Tambahan Lembaran Negara Republik Indonesia Nomor 4612);"
+                      }
+                    ]
+                  },
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "LETTER_WITH_DOT",
+                        "text": "o."
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "Undang-Undang Nomor 18 Tahun 2009 tentang Peternakan dan Kesehatan Hewan (Lembaran Negara Republik Indonesia Tahun 2009 Nomor 84, Tambahan Lembaran Negara Republik Indonesia Nomor 5015);"
+                      }
+                    ]
+                  },
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "LETTER_WITH_DOT",
+                        "text": "p."
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "Undang-Undang Nomor 32 Tahun 2009 tentang Perlindungan dan Pengelolaan Lingkungan Hidup (Lembaran Negara Republik Indonesia Tahun 2009 Nomor 140, Tambahan Lembaran Negara Republik Indonesia Nomor 5059);"
+                      }
+                    ]
+                  },
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "LETTER_WITH_DOT",
+                        "text": "q."
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "Undang-Undang Nomor 36 Tahun 2009 tentang Kesehatan (Lembaran Negara Republik Indonesia Tahun 2009 Nomor 144, Tambahan Lembaran Negara Republik Indonesia Nomor 5063);"
+                      }
+                    ]
+                  },
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "LETTER_WITH_DOT",
+                        "text": "r."
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "Undang-Undang Nomor 41 Tahun 2009 tentang Perlindungan Lahan Pertanian Pangan Berkelanjutan (Lembaran Negara Republik Indonesia Tahun 2009 Nomor 149, Tambahan Lembaran Negara Republik Indonesia Nomor 5068);"
+                      }
+                    ]
+                  },
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "LETTER_WITH_DOT",
+                        "text": "s."
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "Undang-Undang Nomor 45 Tahun 2009 tentang Perubahan atas Undang-Undang Nomor 31 Tahun 2004 tentang Perikanan (Lembaran Negara Republik Indonesia Tahun 2009 Nomor 154, Tambahan Lembaran Negara Republik Indonesia Nomor 5073)."
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "PLAINTEXT",
+                "text": "Protokol Nagoya terdiri atas 36 (tiga puluh enam) pasal dan 1 (satu) lampiran. Materi pokok Protokol Nagoya mengatur hal-hal sebagai berikut:"
+              },
+              {
+                "type": "LIST",
+                "id": "",
+                "children": [
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "LETTER_WITH_DOT",
+                        "text": "a."
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "ruang lingkup Protokol Nagoya adalah pembagian keuntungan yang adil dan seimbang dari setiap pemanfaatan terhadap sumber daya genetik dan pengetahuan tradisional yang berkaitan dengan sumber daya genetik;"
+                      }
+                    ]
+                  },
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "LETTER_WITH_DOT",
+                        "text": "b."
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "pembagian keuntungan, finansial dan/atau non finansial, yang adil dan seimbang dari setiap pemanfaatan sumber daya genetik dan pengetahuan tradisional diberikan berdasarkan kesepakatan bersama (Mutually Agreed Terms);"
+                      }
+                    ]
+                  },
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "LETTER_WITH_DOT",
+                        "text": "c."
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "akses pada sumber daya genetik dan pengetahuan tradisional yang berkaitan dengan sumber daya genetik yang dilakukan melalui persetujuan atas dasar informasi awal (Prior Informed Consent/PIC) dari penyedia sumber daya genetik;"
+                      }
+                    ]
+                  },
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "LETTER_WITH_DOT",
+                        "text": "d."
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "penyederhanaan prosedur akses pada sumber daya genetik untuk penelitian nonkomersial dan pertimbangan khusus akses pada sumber daya genetik dalam situasi darurat kesehatan, lingkungan, dan pangan;"
+                      }
+                    ]
+                  },
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "LETTER_WITH_DOT",
+                        "text": "e."
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "mekanisme pembagian keuntungan multilateral global (global multilateral benefit sharing) terhadap pemanfaatan sumber daya genetik dan pengetahuan tradisional yang bersifat lintas negara;"
+                      }
+                    ]
+                  },
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "LETTER_WITH_DOT",
+                        "text": "f."
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "mekanisme kelembagaan diatur dengan:"
+                      },
+                      {
+                        "type": "LIST",
+                        "id": "",
+                        "children": [
+                          {
+                            "type": "LIST_ITEM",
+                            "id": "",
+                            "children": [
+                              {
+                                "type": "NUMBER_WITH_RIGHT_BRACKET",
+                                "text": "1)"
+                              },
+                              {
+                                "type": "PLAINTEXT",
+                                "text": "penunjukkan satu atau beberapa National Competent Authority (NCA) sebagai institusi yang berwenang memberikan izin akses, penentuan kebijakan prosedur akses, dan persyaratan dalam persetujuan atas dasar informasi awal serta kesepakatan bersama; dan"
+                              }
+                            ]
+                          },
+                          {
+                            "type": "LIST_ITEM",
+                            "id": "",
+                            "children": [
+                              {
+                                "type": "NUMBER_WITH_RIGHT_BRACKET",
+                                "text": "2)"
+                              },
+                              {
+                                "type": "PLAINTEXT",
+                                "text": "penunjukkan Pumpunan Kegiatan Nasional (National Focal Point) yang berfungsi sebagai penghubung Para Pihak dengan Sekretariat Konvensi Keanekaragaman Hayati. Pumpunan Kegiatan Nasional dapat juga berfungsi sebagai NCA;"
+                              }
+                            ]
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "LETTER_WITH_DOT",
+                        "text": "g."
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "pembentukan Balai Kliring Akses dan pembagian keuntungan yang merupakan sistem basis data yang berfungsi sebagai sarana pertukaran informasi terhadap akses sumber daya genetik dan pembagian keuntungan atas pemanfaatan sumber daya genetik;"
+                      }
+                    ]
+                  },
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "LETTER_WITH_DOT",
+                        "text": "h."
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "penaatan terhadap peraturan perundang-undangan nasional mengenai akses dan pembagian keuntungan terhadap pemanfaatan sumber daya genetik dan pengetahuan tradisional terkait dengan sumber daya genetik;"
+                      }
+                    ]
+                  },
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "LETTER_WITH_DOT",
+                        "text": "i."
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "pemantauan dilakukan melalui penunjukkan pos pemeriksaan (checkpoints) pada semua level, yaitu penelitian, pengembangan, inovasi, prekomersialisasi, atau komersialisasi serta adanya sistem sertifikasi yang diakui secara internasional;"
+                      }
+                    ]
+                  },
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "LETTER_WITH_DOT",
+                        "text": "j."
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "penaatan terhadap kesepakatan bersama"
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "Penyedia (provider) dan pemanfaat (user) sumber daya genetik harus menaati kesepakatan dalam kontrak atas pemanfaatan sumber daya genetik khususnya klausul penyelesaian sengketa, akses terhadap keadilan (access to justice), pilihan hukum dan pilihan forum penyelesaian sengketa;"
+                      }
+                    ]
+                  },
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "LETTER_WITH_DOT",
+                        "text": "k."
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "model klausul kontrak kesepakatan bersama"
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "Negara Pihak mendorong pengembangan, pemutakhiran, dan penggunaan model klausul kontrak dalam kesepakatan bersama;"
+                      }
+                    ]
+                  },
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "LETTER_WITH_DOT",
+                        "text": "l."
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "kode etik, pedoman dan praktik terbaik, dan/atau standar"
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "Negara Pihak mendorong pengembangan, pemutakhiran, dan penggunaan kode etik sukarela, pedoman dan praktik-praktik terbaik dalam kaitannya dengan akses dan pembagian keuntungan terhadap pemanfaatan sumber daya genetik;"
+                      }
+                    ]
+                  },
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "LETTER_WITH_DOT",
+                        "text": "m."
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "peningkatan kesadaran"
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "Negara Pihak melakukan upaya untuk meningkatkan kesadaran akan pentingnya sumber daya genetik dan pengetahuan tradisional yang berkaitan dengan sumber daya genetik, dan isu-isu terkait dengan akses dan pembagian keuntungan;"
+                      }
+                    ]
+                  },
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "LETTER_WITH_DOT",
+                        "text": "n."
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "peningkatan kapasitas"
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "Negara Pihak bekerja sama dalam pengembangan kapasitas sumber daya manusia dan kelembagaan, antara lain pengembangan:"
+                      },
+                      {
+                        "type": "LIST",
+                        "id": "",
+                        "children": [
+                          {
+                            "type": "LIST_ITEM",
+                            "id": "",
+                            "children": [
+                              {
+                                "type": "NUMBER_WITH_RIGHT_BRACKET",
+                                "text": "1)"
+                              },
+                              {
+                                "type": "PLAINTEXT",
+                                "text": "kapasitas untuk mengimplementasikan dan untuk mematuhi kewajiban-kewajiban dalam Protokol Nagoya;"
+                              }
+                            ]
+                          },
+                          {
+                            "type": "LIST_ITEM",
+                            "id": "",
+                            "children": [
+                              {
+                                "type": "NUMBER_WITH_RIGHT_BRACKET",
+                                "text": "2)"
+                              },
+                              {
+                                "type": "PLAINTEXT",
+                                "text": "kapasitas untuk menegosiasikan kesepakatan bersama;"
+                              }
+                            ]
+                          },
+                          {
+                            "type": "LIST_ITEM",
+                            "id": "",
+                            "children": [
+                              {
+                                "type": "NUMBER_WITH_RIGHT_BRACKET",
+                                "text": "3)"
+                              },
+                              {
+                                "type": "PLAINTEXT",
+                                "text": "kapasitas untuk mengembangkan, mengimplementasikan dan menegakkan langkah-langkah legislatif, administratif atau kebijakan nasional tentang akses dan pembagian keuntungan; dan"
+                              }
+                            ]
+                          },
+                          {
+                            "type": "LIST_ITEM",
+                            "id": "",
+                            "children": [
+                              {
+                                "type": "NUMBER_WITH_RIGHT_BRACKET",
+                                "text": "4)"
+                              },
+                              {
+                                "type": "PLAINTEXT",
+                                "text": "kapasitas untuk mengembangkan kemampuan penelitian endogen untuk menambahkan nilai pada sumber daya genetik."
+                              }
+                            ]
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "LETTER_WITH_DOT",
+                        "text": "o."
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "transfer teknologi, kolaborasi, dan kerja sama"
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "Negara Pihak meningkatkan dan mendorong akses terhadap teknologi dan transfer teknologi untuk pengembangan dan penguatan teknologi. Negara pemanfaat sumber daya genetik harus mengembangkan kegiatan kerja sama dengan negara asal sumber daya genetik;"
+                      }
+                    ]
+                  },
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "LETTER_WITH_DOT",
+                        "text": "p."
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "prosedur dan mekanisme untuk mempromosikan penaatan Protokol Nagoya"
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "Konferensi Para Pihak mempertimbangkan dan menyetujui prosedur kerja sama dan mekanisme kelembagaan untuk meningkatkan penaatan dan penanganan kasus ketidaktaatan terhadap substansi Protokol Nagoya."
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "PENJELASAN_PASAL_DEMI_PASAL",
+            "id": "",
+            "children": [
+              {
+                "type": "PENJELASAN_PASAL_DEMI_PASAL_TITLE",
+                "text": "II. PASAL DEMI PASAL"
+              },
+              {
+                "type": "PENJELASAN_PASAL",
+                "id": "",
+                "children": [
+                  {
+                    "type": "PASAL_NUMBER",
+                    "text": "Pasal 1"
+                  },
+                  {
+                    "type": "PLAINTEXT",
+                    "text": "Cukup jelas."
+                  }
+                ]
+              },
+              {
+                "type": "PENJELASAN_PASAL",
+                "id": "",
+                "children": [
+                  {
+                    "type": "PASAL_NUMBER",
+                    "text": "Pasal 2"
+                  },
+                  {
+                    "type": "PLAINTEXT",
+                    "text": "Cukup jelas."
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}
