@@ -70,6 +70,12 @@ LIST_INDEX_DEFINITIONS: Dict[Structure, ListIndexDefinition] = {
             'is_penjelasan_list_index': False,
             'first_list_index': '(a)',
         },
+    Structure.LETTER_WITH_RIGHT_BRACKET:
+        {
+            'regex': group(fr'{ALPHABET_NUMBER}\)', 'full'),
+            'is_penjelasan_list_index': False,
+            'first_list_index': 'a)',
+        },
     Structure.NUMBER_WITH_BRACKETS:
         {
             'regex': group(fr'\({ALPHANUMERIC_NUMBER}\)', 'full'),
