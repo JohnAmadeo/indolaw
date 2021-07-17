@@ -1003,7 +1003,8 @@ def convert_tree_to_json(node: Union[ComplexNode, PrimitiveNode], ketentuan_umum
                     "Ipsum dolor sit amet" -> "${Ipsum} dolor sit amet"
                     "Lorem ipsum ipsum lorem" -> "${Lorem ipsum} ${ipsum} lorem"
                     '''
-                    match = re.findall(r'\$\{[^\}]*' + text + '[^\$]*\}', node.text)
+                    match = re.findall(
+                        r'\$\{[^\}]*' + text + '[^\$]*\}', node.text)
                     is_part_of_other_definition = len(match) > 0
 
                     if not is_part_of_other_definition:
@@ -1020,14 +1021,16 @@ def convert_tree_to_json(node: Union[ComplexNode, PrimitiveNode], ketentuan_umum
             'children': [convert_tree_to_json(child, ketentuan_umum_list) for child in node.children],
         }
 
+
 def get_parent_node(node: Union[ComplexNode, PrimitiveNode], structure: Structure):
     if node.parent:
         if node.parent.type == structure:
             return node.parent
-        
+
         return get_parent_node(node.parent, structure)
 
     return None
+
 
 def is_word_part_of_text(string: str, substring: str, start_index) -> bool:
     '''
@@ -1043,10 +1046,11 @@ def is_word_part_of_text(string: str, substring: str, start_index) -> bool:
     '''
     if start_index >= 0:
         end_index = start_index + len(substring)
-        return ((start_index == 0 or not string[start_index-1].isalpha()) 
-            and (end_index == len(string) or not string[end_index].isalpha()))
-    
+        return ((start_index == 0 or not string[start_index-1].isalpha())
+                and (end_index == len(string) or not string[end_index].isalpha()))
+
     return False
+
 
 def extract_metadata_from_tree(undang_undang_node: ComplexNode) -> Dict[str, Any]:
     '''
@@ -1129,7 +1133,8 @@ def extract_metadata_from_tree(undang_undang_node: ComplexNode) -> Dict[str, Any
                     definition = definition_text[1].strip()
 
                     if 'yang selanjutnya disebut' in title:
-                        title = title.split(r' yang selanjutnya disebut ')[1].strip([' ', ','])
+                        title = title.split(r' yang selanjutnya disebut ')[
+                            1].strip([' ', ','])
 
                     ketentuan_umum[title.upper()] = definition
         else:
@@ -1141,18 +1146,19 @@ def extract_metadata_from_tree(undang_undang_node: ComplexNode) -> Dict[str, Any
                     title = child.text.split(r'adalah')[0].strip()
 
                     if 'yang selanjutnya disebut' in title:
-                        title = title.split(r' yang selanjutnya disebut ')[1].strip([' ', ','])
+                        title = title.split(r' yang selanjutnya disebut ')[
+                            1].strip([' ', ','])
 
                 elif child.type == Structure.LIST:
                     for list_item in child.children:
-                        definition = " ".join([node.text for node in list_item.children])
+                        definition = " ".join(
+                            [node.text for node in list_item.children])
                         definition_list.append(definition)
-                
+
             ketentuan_umum[title.upper()] = "\n".join(definition_list)
-        
+
         metadata['ketentuan_umum'] = ketentuan_umum
-        
-                                            
+
     def h(node: Union[ComplexNode, PrimitiveNode]):
         if isinstance(node, ComplexNode):
             if node.parent and get_id(node.parent) == 'pasal-1':
@@ -1161,7 +1167,7 @@ def extract_metadata_from_tree(undang_undang_node: ComplexNode) -> Dict[str, Any
             else:
                 for child in node.children:
                     h(child)
-    
+
     # TODO @willemchua: uncomment this after ketentuam umum parsing works on most edge cases
     # h(undang_undang_node)
 
