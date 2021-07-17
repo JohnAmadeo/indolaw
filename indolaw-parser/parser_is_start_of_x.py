@@ -47,7 +47,7 @@ START_OF_PERUBAHAN_SECTION_REGEXES = [
     BAGIAN_NUMBER_WITH_OPEN_QUOTE_CHAR_REGEX,
 ]
 
-ALPHANUMERIC_NUMBER_ALPHABET = group(fr'[a-z]?', 'alphabet')
+ALPHANUMERIC_NUMBER_ALPHABET = group(fr'[a-zA-Z]?', 'alphabet')
 ALPHANUMERIC_NUMBER = group(fr'[0-9]+{ALPHANUMERIC_NUMBER_ALPHABET}', 'number')
 ALPHABET_NUMBER = group(fr'[a-z]', 'number')
 
@@ -69,6 +69,12 @@ LIST_INDEX_DEFINITIONS: Dict[Structure, ListIndexDefinition] = {
             'regex': group(fr'\({ALPHABET_NUMBER}\)', 'full'),
             'is_penjelasan_list_index': False,
             'first_list_index': '(a)',
+        },
+    Structure.LETTER_WITH_RIGHT_BRACKET:
+        {
+            'regex': group(fr'{ALPHABET_NUMBER}\)', 'full'),
+            'is_penjelasan_list_index': False,
+            'first_list_index': 'a)',
         },
     Structure.NUMBER_WITH_BRACKETS:
         {
