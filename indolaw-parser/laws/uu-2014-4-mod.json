@@ -1,0 +1,372 @@
+{
+  "metadata": {
+    "lembaranNegaraNumber": 5,
+    "lembaranNegaraYear": 2014,
+    "tambahanLembaranNumber": 5493,
+    "number": 4,
+    "topic": "Penetapan Peraturan Pemerintah Pengganti Undang-undang Nomor 1 Tahun 2013 Tentang Perubahan Kedua Atas Undang- Undang Nomor 24 Tahun 2003 Tentang Mahkamah Konstitusi Menjadi Undang-undang",
+    "year": 2014
+  },
+  "content": {
+    "type": "UNDANG_UNDANG",
+    "id": "",
+    "children": [
+      {
+        "type": "OPENING",
+        "id": "",
+        "children": [
+          {
+            "type": "UU_TITLE",
+            "id": "",
+            "children": [
+              {
+                "type": "PLAINTEXT",
+                "text": "UNDANG-UNDANG REPUBLIK INDONESIA"
+              },
+              {
+                "type": "UU_TITLE_YEAR_AND_NUMBER",
+                "text": "NOMOR 4 TAHUN 2014"
+              },
+              {
+                "type": "PLAINTEXT",
+                "text": "TENTANG"
+              },
+              {
+                "type": "UU_TITLE_TOPIC",
+                "text": "PENETAPAN PERATURAN PEMERINTAH PENGGANTI UNDANG-UNDANG NOMOR 1 TAHUN 2013 TENTANG PERUBAHAN KEDUA ATAS UNDANG- UNDANG NOMOR 24 TAHUN 2003 TENTANG MAHKAMAH KONSTITUSI MENJADI UNDANG-UNDANG"
+              }
+            ]
+          },
+          {
+            "type": "PREFACE",
+            "id": "",
+            "children": [
+              {
+                "type": "PLAINTEXT",
+                "text": "DENGAN RAHMAT TUHAN YANG MAHA ESA"
+              },
+              {
+                "type": "PLAINTEXT",
+                "text": "PRESIDEN REPUBLIK INDONESIA,"
+              }
+            ]
+          },
+          {
+            "type": "CONSIDERATIONS",
+            "id": "",
+            "children": [
+              {
+                "type": "PLAINTEXT",
+                "text": "Menimbang:"
+              },
+              {
+                "type": "LIST",
+                "id": "",
+                "children": [
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "LETTER_WITH_DOT",
+                        "text": "a."
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "bahwa berdasarkan Pasal 24C ayat (5) Undang-Undang Dasar Negara Republik Indonesia Tahun 1945, hakim konstitusi harus memiliki integritas dan kepribadian yang tidak tercela, adil, dan negarawan yang menguasai konstitusi dan ketatanegaraan serta tidak merangkap jabatan sebagai pejabat negara;"
+                      }
+                    ]
+                  },
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "LETTER_WITH_DOT",
+                        "text": "b."
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "bahwa untuk menyelamatkan demokrasi dan negara hukum Indonesia serta untuk mengembalikan kewibawaan dan kepercayaan masyarakat terhadap Mahkamah Konstitusi sebagai lembaga negara yang menjalankan fungsi menegakkan Undang-Undang Dasar, Presiden telah menetapkan Peraturan Pemerintah Pengganti Undang-Undang Nomor 1 Tahun 2013 tentang Perubahan Kedua Atas Undang Undang Nomor 24 Tahun 2003 tentang Mahkamah Konstitusi, terutama terhadap ketentuan mengenai syarat dan tata cara seleksi, pemilihan, dan pengajuan calon hakim konstitusi serta pembentukan majelis kehormatan hakim konstitusi;"
+                      }
+                    ]
+                  },
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "LETTER_WITH_DOT",
+                        "text": "c."
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "bahwa berdasarkan pertimbangan sebagaimana dimaksud dalam huruf a dan huruf b, perlu membentuk Undang-Undang tentang Penetapan Peraturan Pemerintah Pengganti Undang-Undang Nomor 1 Tahun 2013 tentang Perubahan Kedua Atas Undang- Undang Nomor 24 Tahun 2003 tentang Mahkamah Konstitusi Menjadi Undang-Undang."
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "PRINCIPLES",
+            "id": "",
+            "children": [
+              {
+                "type": "PLAINTEXT",
+                "text": "Mengingat:"
+              },
+              {
+                "type": "LIST",
+                "id": "",
+                "children": [
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "NUMBER_WITH_DOT",
+                        "text": "1."
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "Pasal 5 ayat (1), Pasal 20, Pasal 22 ayat (2) Undang- Undang Dasar Negara Republik Indonesia Tahun 1945;"
+                      }
+                    ]
+                  },
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "NUMBER_WITH_DOT",
+                        "text": "2."
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "Undang-Undang Nomor 24 Tahun 2003 tentang Mahkamah Konstitusi (Lembaran Negara Republik Indonesia Tahun 2003 Nomor 98, Tambahan Lembaran Negara Republik Indonesia Nomor 4316) sebagaimana telah diubah dengan Undang-Undang Nomor 8 Tahun 2011 tentang Perubahan Atas Undang-Undang Nomor 24 Tahun 2003 tentang Mahkamah Konstitusi (Lembaran Negara Republik Indonesia Tahun 2011 Nomor 70, Tambahan Lembaran Negara Republik Indonesia Nomor 5226)."
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "AGREEMENT",
+            "id": "",
+            "children": [
+              {
+                "type": "PLAINTEXT",
+                "text": "Dengan Persetujuan Bersama"
+              },
+              {
+                "type": "PLAINTEXT",
+                "text": "DEWAN PERWAKILAN RAKYAT REPUBLIK INDONESIA"
+              },
+              {
+                "type": "PLAINTEXT",
+                "text": "dan"
+              },
+              {
+                "type": "PLAINTEXT",
+                "text": "PRESIDEN REPUBLIK INDONESIA"
+              },
+              {
+                "type": "PLAINTEXT",
+                "text": "MEMUTUSKAN:"
+              },
+              {
+                "type": "PLAINTEXT",
+                "text": "Menetapkan:"
+              },
+              {
+                "type": "PLAINTEXT",
+                "text": "UNDANG-UNDANG TENTANG PENETAPAN PERATURAN PEMERINTAH PENGGANTI UNDANG-UNDANG NOMOR 1 TAHUN 2013 TENTANG PERUBAHAN KEDUA ATAS UNDANG- UNDANG NOMOR 24 TAHUN 2003 TENTANG MAHKAMAH KONSTITUSI MENJADI UNDANG-UNDANG."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "PASAL",
+        "id": "pasal-1",
+        "children": [
+          {
+            "type": "PASAL_NUMBER",
+            "text": "Pasal 1"
+          },
+          {
+            "type": "PLAINTEXT",
+            "text": "Peraturan Pemerintah Pengganti Undang-Undang Nomor 1 Tahun 2013 tentang Perubahan Kedua Atas Undang-Undang Nomor 24 Tahun 2003 tentang Mahkamah Konstitusi (Lembaran Negara Republik Indonesia Tahun 2013 Nomor 167, Tambahan Lembaran Negara Republik Indonesia Nomor 5456) ditetapkan menjadi Undang-Undang dan melampirkannya sebagai bagian yang tidak terpisahkan dari Undang-Undang ini."
+          }
+        ]
+      },
+      {
+        "type": "PASAL",
+        "id": "pasal-2",
+        "children": [
+          {
+            "type": "PASAL_NUMBER",
+            "text": "Pasal 2"
+          },
+          {
+            "type": "PLAINTEXT",
+            "text": "Undang-Undang ini mulai berlaku pada tanggal diundangkan."
+          },
+          {
+            "type": "PLAINTEXT",
+            "text": "Agar setiap orang mengetahuinya, memerintahkan pengundangan Undang-Undang ini dengan penempatannya dalam Lembaran Negara Republik Indonesia."
+          }
+        ]
+      },
+      {
+        "type": "CLOSING",
+        "id": "",
+        "children": [
+          {
+            "type": "PLAINTEXT",
+            "text": "Disahkan Di Jakarta,"
+          },
+          {
+            "type": "PLAINTEXT",
+            "text": "Pada Tanggal 15 Januari 2014"
+          },
+          {
+            "type": "PLAINTEXT",
+            "text": "PRESIDEN REPUBLIK INDONESIA,"
+          },
+          {
+            "type": "PLAINTEXT",
+            "text": "Ttd."
+          },
+          {
+            "type": "PLAINTEXT",
+            "text": "DR. H. SUSILO BAMBANG YUDHOYONO"
+          },
+          {
+            "type": "PLAINTEXT",
+            "text": "Diundangkan Di Jakarta,"
+          },
+          {
+            "type": "PLAINTEXT",
+            "text": "Pada Tanggal 15 Januari 2014"
+          },
+          {
+            "type": "PLAINTEXT",
+            "text": "MENTERI HUKUM DAN HAK ASASI MANUSIA REPUBLIK INDONESIA,"
+          },
+          {
+            "type": "PLAINTEXT",
+            "text": "Ttd."
+          },
+          {
+            "type": "PLAINTEXT",
+            "text": "AMIR SYAMSUDIN"
+          },
+          {
+            "type": "LEMBARAN_NUMBER",
+            "text": "LEMBARAN NEGARA REPUBLIK INDONESIA TAHUN 2014 NOMOR 5"
+          }
+        ]
+      },
+      {
+        "type": "PENJELASAN",
+        "id": "penjelasan",
+        "children": [
+          {
+            "type": "PENJELASAN_TITLE",
+            "id": "",
+            "children": [
+              {
+                "type": "PLAINTEXT",
+                "text": "PENJELASAN"
+              },
+              {
+                "type": "PLAINTEXT",
+                "text": "UNDANG-UNDANG REPUBLIK INDONESIA"
+              },
+              {
+                "type": "UU_TITLE_YEAR_AND_NUMBER",
+                "text": "NOMOR 4 TAHUN 2014"
+              },
+              {
+                "type": "PLAINTEXT",
+                "text": "TENTANG"
+              },
+              {
+                "type": "UU_TITLE_TOPIC",
+                "text": "PENETAPAN PERATURAN PEMERINTAH PENGGANTI UNDANG-UNDANG NOMOR 1 TAHUN 2013 TENTANG PERUBAHAN KEDUA ATAS UNDANG- UNDANG NOMOR 24 TAHUN 2003 TENTANG MAHKAMAH KONSTITUSI MENJADI UNDANG-UNDANG"
+              }
+            ]
+          },
+          {
+            "type": "PENJELASAN_UMUM",
+            "id": "",
+            "children": [
+              {
+                "type": "PENJELASAN_UMUM_TITLE",
+                "text": "I. UMUM"
+              },
+              {
+                "type": "PLAINTEXT",
+                "text": "Berdasarkan Pasal 24C ayat (5) Undang-Undang Dasar Negara Republik Indonesia Tahun 1945, hakim konstitusi harus memiliki integritas dan kepribadian yang tidak tercela, adil, dan negarawan yang menguasai konstitusi dan ketatanegaraan serta tidak merangkap jabatan sebagai pejabat negara. Penegasan syarat hakim konstitusi yang sedemikian ketat dan berat dalam Undang-Undang Dasar karena hakim konstitusi mengemban amanah yang sangat mulia yaitu menegakkan kehidupan berbangsa melalui penjagaan konstitusi sesuai dengan prinsip negara hukum."
+              },
+              {
+                "type": "PLAINTEXT",
+                "text": "Pada saat ini kewibawaan dan kepercayaan masyarakat terhadap hakim konstitusi menurun, padahal hakim konstitusi mengemban amanah sangat penting untuk menjaga tegaknya demokrasi dan pilar negara hukum, sehingga perlu dilakukan upaya penyelamatan terhadap hakim konstitusi secara cepat, khususnya menjelang pelaksanaan pemilihan umum 2014 yang sangat strategis bagi keberlanjutan kehidupan demokrasi di tanah air. Jika ketidakpercayaan masyarakat terhadap hakim konstitusi tidak segera dipulihkan akan berimplikasi terhadap legitimasi hasil pemilihan umum 2014 yang sengketanya merupakan kewenangan hakim konstitusi untuk mengadili."
+              },
+              {
+                "type": "PLAINTEXT",
+                "text": "Mengingat pelaksanaan pemilihan umum 2014 sudah sangat dekat, diperlukan langkah-langkah cepat dan mendesak untuk memulihkan kewibawaan dan kepercayaan masyarakat terhadap hakim konstitusi dengan melakukan perubahan atas Undang-Undang Nomor 24 Tahun 2003 tentang Mahkamah Konstitusi terutama mengenai syarat dan tata cara seleksi, pemilihan, dan pengajuan calon hakim konstitusi serta pembentukan Majelis Kehormatan Hakim Konstitusi melalui Peraturan Pemerintah Pengganti Undang Undang tentang Perubahan Kedua Atas Undang-Undang Nomor 24 Tahun 2003 tentang Mahkamah Konstitusi."
+              },
+              {
+                "type": "PLAINTEXT",
+                "text": "Berdasarkan ketentuan Pasal 22 ayat (2) Undang-Undang Dasar Negara Republik Indonesia Tahun 1945 bahwa Peraturan Pemerintah Pengganti Undang-Undang harus mendapat persetujuan Dewan Perwakilan Rakyat Republik Indonesia maka Peraturan Pemerintah Pengganti Undang-Undang Nomor 1 Tahun 2013 tentang Perubahan Kedua Atas Undang-Undang Nomor 24 Tahun 2003 tentang Mahkamah Konstitusi, perlu ditetapkan menjadi Undang-Undang."
+              }
+            ]
+          },
+          {
+            "type": "PENJELASAN_PASAL_DEMI_PASAL",
+            "id": "",
+            "children": [
+              {
+                "type": "PENJELASAN_PASAL_DEMI_PASAL_TITLE",
+                "text": "II. PASAL DEMI PASAL"
+              },
+              {
+                "type": "PENJELASAN_PASAL",
+                "id": "",
+                "children": [
+                  {
+                    "type": "PASAL_NUMBER",
+                    "text": "Pasal 1"
+                  },
+                  {
+                    "type": "PLAINTEXT",
+                    "text": "Cukup jelas."
+                  }
+                ]
+              },
+              {
+                "type": "PENJELASAN_PASAL",
+                "id": "",
+                "children": [
+                  {
+                    "type": "PASAL_NUMBER",
+                    "text": "Pasal 2"
+                  },
+                  {
+                    "type": "PLAINTEXT",
+                    "text": "Cukup jelas."
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}
