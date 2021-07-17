@@ -1129,7 +1129,10 @@ def extract_metadata_from_tree(undang_undang_node: ComplexNode) -> Dict[str, Any
                     definition = definition_text[1].strip()
 
                     if 'yang selanjutnya disebut' in title:
-                        title = title.split(r' yang selanjutnya disebut ')[1].strip([' ', ','])
+                        title = title.split(r' yang selanjutnya disebut ')[1].strip(' ,')
+                    if 'yang selanjutnya disingkat' in title:
+                        title = title.split(r' yang selanjutnya disingkat ')[1].strip(' ,')
+
 
                     ketentuan_umum[title.upper()] = definition
         else:
@@ -1141,7 +1144,9 @@ def extract_metadata_from_tree(undang_undang_node: ComplexNode) -> Dict[str, Any
                     title = child.text.split(r'adalah')[0].strip()
 
                     if 'yang selanjutnya disebut' in title:
-                        title = title.split(r' yang selanjutnya disebut ')[1].strip([' ', ','])
+                        title = title.split(r' yang selanjutnya disebut ')[1].strip(' ,')
+                    if 'yang selanjutnya disingkat' in title:
+                        title = title.split(r' yang selanjutnya disingkat ')[1].strip(' ,')
 
                 elif child.type == Structure.LIST:
                     for list_item in child.children:
