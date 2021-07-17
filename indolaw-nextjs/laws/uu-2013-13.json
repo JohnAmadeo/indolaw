@@ -1,0 +1,3056 @@
+{
+  "metadata": {
+    "lembaranNegaraNumber": 84,
+    "lembaranNegaraYear": 2013,
+    "tambahanLembaranNumber": 5415,
+    "number": 13,
+    "topic": "Pembentukan Kabupaten Konawe Kepulauan Di Provinsi Sulawesi Tenggara",
+    "year": 2013
+  },
+  "content": {
+    "type": "UNDANG_UNDANG",
+    "id": "",
+    "children": [
+      {
+        "type": "OPENING",
+        "id": "",
+        "children": [
+          {
+            "type": "UU_TITLE",
+            "id": "",
+            "children": [
+              {
+                "type": "PLAINTEXT",
+                "text": "UNDANG-UNDANG REPUBLIK INDONESIA"
+              },
+              {
+                "type": "UU_TITLE_YEAR_AND_NUMBER",
+                "text": "NOMOR 13 TAHUN 2013"
+              },
+              {
+                "type": "PLAINTEXT",
+                "text": "TENTANG"
+              },
+              {
+                "type": "UU_TITLE_TOPIC",
+                "text": "PEMBENTUKAN KABUPATEN KONAWE KEPULAUAN DI PROVINSI SULAWESI TENGGARA"
+              }
+            ]
+          },
+          {
+            "type": "PREFACE",
+            "id": "",
+            "children": [
+              {
+                "type": "PLAINTEXT",
+                "text": "DENGAN RAHMAT TUHAN YANG MAHA ESA"
+              },
+              {
+                "type": "PLAINTEXT",
+                "text": "PRESIDEN REPUBLIK INDONESIA,"
+              }
+            ]
+          },
+          {
+            "type": "CONSIDERATIONS",
+            "id": "",
+            "children": [
+              {
+                "type": "PLAINTEXT",
+                "text": "Menimbang:"
+              },
+              {
+                "type": "LIST",
+                "id": "",
+                "children": [
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "LETTER_WITH_DOT",
+                        "text": "a."
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "bahwa untuk mendorong perkembangan dan kemajuan Provinsi Sulawesi Tenggara pada umumnya dan Kabupaten Konawe pada khususnya, serta adanya aspirasi yang berkembang dalam masyarakat, dipandang perlu meningkatkan penyelenggaraan pemerintahan, pembangunan dan pelayanan publik guna mempercepat terwujudnya kesejahteraan masyarakat;"
+                      }
+                    ]
+                  },
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "LETTER_WITH_DOT",
+                        "text": "b."
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "bahwa dengan memperhatikan kemampuan ekonomi, potensi daerah, sosial budaya, politik, jumlah penduduk, luas daerah, kemampuan keuangan, tingkat kesejahteraan masyarakat, rentang kendali penyelenggaraan"
+                      }
+                    ]
+                  },
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "LETTER_WITH_DOT",
+                        "text": "c."
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "pemerintahan, dan meningkatnya beban tugas dan volume kerja di bidang pemerintahan, pembangunan, dan kemasyarakatan di Kabupaten Konawe, perlu dilakukan pembentukan Kabupaten Konawe Kepulauan di Provinsi Sulawesi Tenggara;"
+                      }
+                    ]
+                  },
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "LETTER_WITH_DOT",
+                        "text": "d."
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "bahwa pembentukan Kabupaten Konawe Kepulauan dimaksudkan untuk mendorong peningkatan pelayanan di bidang pemerintahan, pembangunan, dan kemasyarakatan, serta kemampuan dalam pemanfaatan potensi daerah untuk penyelenggaraan otonomi daerah;"
+                      }
+                    ]
+                  },
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "LETTER_WITH_DOT",
+                        "text": "e."
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "bahwa berdasarkan pertimbangan sebagaimana dimaksud dalam huruf a, huruf b, dan huruf c, perlu membentuk Undang-Undang tentang Pembentukan Kabupaten Konawe Kepulauan di Provinsi Sulawesi Tenggara;"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "PRINCIPLES",
+            "id": "",
+            "children": [
+              {
+                "type": "PLAINTEXT",
+                "text": "Mengingat:"
+              },
+              {
+                "type": "LIST",
+                "id": "",
+                "children": [
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "NUMBER_WITH_DOT",
+                        "text": "1."
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "Pasal 18, Pasal 18A, Pasal 18B, Pasal 20, Pasal 21 dan Pasal 22D Undang-Undang Dasar Negara Republik Indonesia Tahun 1945;"
+                      }
+                    ]
+                  },
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "NUMBER_WITH_DOT",
+                        "text": "2."
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "Undang-Undang Nomor 29 Tahun 1959 tentang Pembentukan Daerah Tingkat II di Sulawesi (Lembaran Negara Republik Indonesia Tahun 1959 Nomor 74, Tambahan Lembaran Negara Republik Indonesia Nomor 1822);"
+                      }
+                    ]
+                  },
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "NUMBER_WITH_DOT",
+                        "text": "3."
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "Undang-Undang Nomor 13 Tahun 1964 tentang Penetapan Peraturan Pemerintah Pengganti Undang Undang Nomor 2 Tahun 1964 tentang Pembentukan Daerah Tingkat I Sulawesi Tengah dan Daerah Tingkat I Sulawesi Tenggara dengan mengubah Undang-Undang Nomor 47 Prp Tahun 1960 tentang Pembentukan Daerah Tingkat I Sulawesi Utara-Tengah dan Daerah Tingkat I Sulawesi Selatan-Tenggara (Lembaran Negara Republik Indonesia Tahun 1964 Nomor 7) menjadi Undang-Undang (Lembaran Negara Republik Indonesia Tahun 1964 Nomor 94, Tambahan Lembaran Negara Republik Indonesia Nomor 2687);"
+                      }
+                    ]
+                  },
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "NUMBER_WITH_DOT",
+                        "text": "4."
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "Undang-Undang Nomor 32 Tahun 2004 tentang Pemerintahan Daerah (Lembaran Negara Republik Indonesia Tahun 2004 Nomor 125, Tambahan Lembaran Negara Republik Indonesia Nomor 4437) sebagaimana telah beberapa kali diubah terakhir dengan Undang-Undang Nomor 12 Tahun 2008 tentang Perubahan Kedua atas Undang-Undang Nomor 32 Tahun 2004 tentang Pemerintahan Daerah (Lembaran Negara Republik Indonesia Tahun 2008 Nomor 59, Tambahan Lembaran Negara Republik Indonesia Nomor 4844);"
+                      }
+                    ]
+                  },
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "NUMBER_WITH_DOT",
+                        "text": "5."
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "Undang-Undang Nomor 33 Tahun 2004 tentang Perimbangan Keuangan antara Pemerintah Pusat dan Pemerintahan Daerah (Lembaran Negara Republik Indonesia Tahun 2004 Nomor 126, Tambahan Lembaran Negara Republik Indonesia Nomor 4438);"
+                      }
+                    ]
+                  },
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "NUMBER_WITH_DOT",
+                        "text": "6."
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "Undang-Undang Nomor 27 Tahun 2009 tentang Majelis Permusyawaratan Rakyat, Dewan Perwakilan Rakyat, Dewan Perwakilan Daerah, dan Dewan Perwakilan Rakyat Daerah (Lembaran Negara Republik Indonesia Tahun 2009 Nomor 123, Tambahan Lembaran Negara Republik Indonesia Nomor 5043);"
+                      }
+                    ]
+                  },
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "NUMBER_WITH_DOT",
+                        "text": "7."
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "Undang-Undang Nomor 12 Tahun 2011 tentang Pembentukan Peraturan Perundang-undangan (Lembaran Negara Republik Indonesia Tahun 2011 Nomor 82, Tambahan Lembaran Negara Republik Indonesia Nomor 5234);"
+                      }
+                    ]
+                  },
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "NUMBER_WITH_DOT",
+                        "text": "8."
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "Undang-Undang Nomor 15 Tahun 2011 tentang Penyelenggara Pemilihan Umum (Lembaran Negara Republik Indonesia Tahun 2011 Nomor 101, Tambahan Lembaran Negara Republik Indonesia Nomor 5246);"
+                      }
+                    ]
+                  },
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "NUMBER_WITH_DOT",
+                        "text": "9."
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "Undang-Undang Nomor 8 Tahun 2012 tentang Pemilihan Umum Anggota Dewan Perwakilan Rakyat, Dewan Perwakilan Daerah, dan Dewan Perwakilan Rakyat Daerah (Lembaran Negara Republik Indonesia Tahun 2012 Nomor 117, Tambahan Lembaran Negara Republik Indonesia Nomor 5316);"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "AGREEMENT",
+            "id": "",
+            "children": [
+              {
+                "type": "PLAINTEXT",
+                "text": "Dengan Persetujuan Bersama"
+              },
+              {
+                "type": "PLAINTEXT",
+                "text": "DEWAN PERWAKILAN RAKYAT REPUBLIK INDONESIA"
+              },
+              {
+                "type": "PLAINTEXT",
+                "text": "dan"
+              },
+              {
+                "type": "PLAINTEXT",
+                "text": "PRESIDEN REPUBLIK INDONESIA"
+              },
+              {
+                "type": "PLAINTEXT",
+                "text": "MEMUTUSKAN:"
+              },
+              {
+                "type": "PLAINTEXT",
+                "text": "Menetapkan:"
+              },
+              {
+                "type": "PLAINTEXT",
+                "text": "UNDANG-UNDANG TENTANG PEMBENTUKAN KABUPATEN KONAWE KEPULAUAN DI PROVINSI SULAWESI TENGGARA."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "BAB",
+        "id": "bab-1",
+        "children": [
+          {
+            "type": "BAB_NUMBER",
+            "text": "BAB I"
+          },
+          {
+            "type": "BAB_TITLE",
+            "text": "KETENTUAN UMUM"
+          },
+          {
+            "type": "PASAL",
+            "id": "pasal-1",
+            "children": [
+              {
+                "type": "PASAL_NUMBER",
+                "text": "Pasal 1"
+              },
+              {
+                "type": "PLAINTEXT",
+                "text": "Dalam Undang-Undang ini yang dimaksud dengan:"
+              },
+              {
+                "type": "LIST",
+                "id": "",
+                "children": [
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "NUMBER_WITH_DOT",
+                        "text": "1."
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "Pemerintah pusat, selanjutnya disebut Pemerintah, adalah Presiden Republik Indonesia yang memegang kekuasaan pemerintahan negara Republik Indonesia sebagaimana dimaksud dalam Undang-Undang Dasar Negara Republik Indonesia Tahun 1945."
+                      }
+                    ]
+                  },
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "NUMBER_WITH_DOT",
+                        "text": "2."
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "Daerah otonom, selanjutnya disebut daerah, adalah kesatuan masyarakat hukum yang mempunyai batas batas wilayah yang berwenang mengatur dan mengurus urusan pemerintahan dan kepentingan masyarakat setempat menurut prakarsa sendiri berdasarkan aspirasi masyarakat dalam sistem Negara Kesatuan Republik Indonesia."
+                      }
+                    ]
+                  },
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "NUMBER_WITH_DOT",
+                        "text": "3."
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "Provinsi Sulawesi Tenggara adalah provinsi sebagaimana dimaksud dalam Undang-Undang Nomor 13 Tahun 1964 tentang Penetapan Peraturan Pemerintah Pengganti Undang-Undang Nomor 2 Tahun 1964 tentang Pembentukan Daerah Tingkat I Sulawesi Tengah dan Daerah Tingkat I Sulawesi Tenggara dengan mengubah Undang-Undang Nomor 47 Prp 1960 tentang Pembentukan Daerah Tingkat I Sulawesi Utara-Tengah dan Daerah Tingkat I Sulawesi Selatan-Tenggara menjadi Undang-Undang."
+                      }
+                    ]
+                  },
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "NUMBER_WITH_DOT",
+                        "text": "4."
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "Kabupaten Konawe adalah kabupaten sebagaimana dimaksud dalam Undang-Undang Nomor 29 Tahun 1959 tentang Pembentukan Daerah Tingkat II di Sulawesi yang wilayahnya telah dikurangi dengan Kota Kendari berdasarkan Undang-Undang Nomor 6 Tahun 1995 tentang Pembentukan Kotamadya Tingkat II Kendari, Kabupaten Konawe Selatan berdasarkan Undang-Undang Nomor 4 Tahun 2003 tentang Pembentukan Kabupaten Konawe Selatan di Provinsi Sulawesi Tenggara dan Kabupaten Konawe Utara berdasarkan Undang-Undang Nomor 13 Tahun 2007 tentang Pembentukan Kabupaten Konawe Utara di Provinsi Sulawesi Tenggara, yang merupakan kabupaten asal Kabupaten Konawe Kepulauan."
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "BAB",
+        "id": "bab-2",
+        "children": [
+          {
+            "type": "BAB_NUMBER",
+            "text": "BAB II"
+          },
+          {
+            "type": "BAB_TITLE",
+            "text": "PEMBENTUKAN, CAKUPAN WILAYAH, BATAS WILAYAH, DAN IBUKOTA"
+          },
+          {
+            "type": "BAGIAN",
+            "id": "bab-2-bagian-1",
+            "children": [
+              {
+                "type": "BAGIAN_NUMBER",
+                "text": "Bagian Kesatu"
+              },
+              {
+                "type": "BAGIAN_TITLE",
+                "text": "Pembentukan"
+              },
+              {
+                "type": "PASAL",
+                "id": "pasal-2",
+                "children": [
+                  {
+                    "type": "PASAL_NUMBER",
+                    "text": "Pasal 2"
+                  },
+                  {
+                    "type": "PLAINTEXT",
+                    "text": "Dengan Undang-Undang ini dibentuk Kabupaten Konawe Kepulauan di wilayah Provinsi Sulawesi Tenggara dalam Negara Kesatuan Republik Indonesia."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "BAGIAN",
+            "id": "bab-2-bagian-2",
+            "children": [
+              {
+                "type": "BAGIAN_NUMBER",
+                "text": "Bagian Kedua"
+              },
+              {
+                "type": "BAGIAN_TITLE",
+                "text": "Cakupan Wilayah"
+              },
+              {
+                "type": "PASAL",
+                "id": "pasal-3",
+                "children": [
+                  {
+                    "type": "PASAL_NUMBER",
+                    "text": "Pasal 3"
+                  },
+                  {
+                    "type": "LIST",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "LIST_ITEM",
+                        "id": "",
+                        "children": [
+                          {
+                            "type": "NUMBER_WITH_BRACKETS",
+                            "text": "(1)"
+                          },
+                          {
+                            "type": "PLAINTEXT",
+                            "text": "Kabupaten Konawe Kepulauan berasal dari sebagian wilayah Kabupaten Konawe yang terdiri atas cakupan wilayah:"
+                          },
+                          {
+                            "type": "LIST",
+                            "id": "",
+                            "children": [
+                              {
+                                "type": "LIST_ITEM",
+                                "id": "",
+                                "children": [
+                                  {
+                                    "type": "LETTER_WITH_DOT",
+                                    "text": "a."
+                                  },
+                                  {
+                                    "type": "PLAINTEXT",
+                                    "text": "Kecamatan Wawonii Barat;"
+                                  }
+                                ]
+                              },
+                              {
+                                "type": "LIST_ITEM",
+                                "id": "",
+                                "children": [
+                                  {
+                                    "type": "LETTER_WITH_DOT",
+                                    "text": "b."
+                                  },
+                                  {
+                                    "type": "PLAINTEXT",
+                                    "text": "Kecamatan Wawonii Utara;"
+                                  }
+                                ]
+                              },
+                              {
+                                "type": "LIST_ITEM",
+                                "id": "",
+                                "children": [
+                                  {
+                                    "type": "LETTER_WITH_DOT",
+                                    "text": "c."
+                                  },
+                                  {
+                                    "type": "PLAINTEXT",
+                                    "text": "Kecamatan Wawonii Timur Laut;"
+                                  }
+                                ]
+                              },
+                              {
+                                "type": "LIST_ITEM",
+                                "id": "",
+                                "children": [
+                                  {
+                                    "type": "LETTER_WITH_DOT",
+                                    "text": "d."
+                                  },
+                                  {
+                                    "type": "PLAINTEXT",
+                                    "text": "Kecamatan Wawonii Timur;"
+                                  }
+                                ]
+                              },
+                              {
+                                "type": "LIST_ITEM",
+                                "id": "",
+                                "children": [
+                                  {
+                                    "type": "LETTER_WITH_DOT",
+                                    "text": "e."
+                                  },
+                                  {
+                                    "type": "PLAINTEXT",
+                                    "text": "Kecamatan Wawonii Tenggara;"
+                                  }
+                                ]
+                              },
+                              {
+                                "type": "LIST_ITEM",
+                                "id": "",
+                                "children": [
+                                  {
+                                    "type": "LETTER_WITH_DOT",
+                                    "text": "f."
+                                  },
+                                  {
+                                    "type": "PLAINTEXT",
+                                    "text": "Kecamatan Wawonii Selatan; dan"
+                                  }
+                                ]
+                              },
+                              {
+                                "type": "LIST_ITEM",
+                                "id": "",
+                                "children": [
+                                  {
+                                    "type": "LETTER_WITH_DOT",
+                                    "text": "g."
+                                  },
+                                  {
+                                    "type": "PLAINTEXT",
+                                    "text": "Kecamatan Wawonii Tengah."
+                                  }
+                                ]
+                              }
+                            ]
+                          }
+                        ]
+                      },
+                      {
+                        "type": "LIST_ITEM",
+                        "id": "",
+                        "children": [
+                          {
+                            "type": "NUMBER_WITH_BRACKETS",
+                            "text": "(2)"
+                          },
+                          {
+                            "type": "PLAINTEXT",
+                            "text": "Cakupan wilayah sebagaimana dimaksud pada ayat (1) digambarkan dalam peta wilayah yang tercantum dalam lampiran dan merupakan bagian yang tidak terpisahkan dari Undang-Undang ini."
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "PASAL",
+                "id": "pasal-4",
+                "children": [
+                  {
+                    "type": "PASAL_NUMBER",
+                    "text": "Pasal 4"
+                  },
+                  {
+                    "type": "PLAINTEXT",
+                    "text": "Dengan terbentuknya Kabupaten Konawe Kepulauan, sebagaimana dimaksud dalam Pasal 2, wilayah Kabupaten Konawe dikurangi dengan wilayah Kabupaten Konawe Kepulauan sebagaimana dimaksud dalam Pasal 3."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "BAGIAN",
+            "id": "bab-2-bagian-3",
+            "children": [
+              {
+                "type": "BAGIAN_NUMBER",
+                "text": "Bagian Ketiga"
+              },
+              {
+                "type": "BAGIAN_TITLE",
+                "text": "Batas Wilayah"
+              },
+              {
+                "type": "PASAL",
+                "id": "pasal-5",
+                "children": [
+                  {
+                    "type": "PASAL_NUMBER",
+                    "text": "Pasal 5"
+                  },
+                  {
+                    "type": "LIST",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "LIST_ITEM",
+                        "id": "",
+                        "children": [
+                          {
+                            "type": "NUMBER_WITH_BRACKETS",
+                            "text": "(1)"
+                          },
+                          {
+                            "type": "PLAINTEXT",
+                            "text": "Kabupaten Konawe Kepulauan mempunyai batas-batas wilayah:"
+                          },
+                          {
+                            "type": "LIST",
+                            "id": "",
+                            "children": [
+                              {
+                                "type": "LIST_ITEM",
+                                "id": "",
+                                "children": [
+                                  {
+                                    "type": "LETTER_WITH_DOT",
+                                    "text": "a."
+                                  },
+                                  {
+                                    "type": "PLAINTEXT",
+                                    "text": "sebelah utara berbatasan dengan Laut Banda;"
+                                  }
+                                ]
+                              },
+                              {
+                                "type": "LIST_ITEM",
+                                "id": "",
+                                "children": [
+                                  {
+                                    "type": "LETTER_WITH_DOT",
+                                    "text": "b."
+                                  },
+                                  {
+                                    "type": "PLAINTEXT",
+                                    "text": "sebelah timur berbatasan dengan Laut Banda;"
+                                  }
+                                ]
+                              },
+                              {
+                                "type": "LIST_ITEM",
+                                "id": "",
+                                "children": [
+                                  {
+                                    "type": "LETTER_WITH_DOT",
+                                    "text": "c."
+                                  },
+                                  {
+                                    "type": "PLAINTEXT",
+                                    "text": "sebelah selatan berbatasan dengan Selat Wawonii; dan"
+                                  }
+                                ]
+                              },
+                              {
+                                "type": "LIST_ITEM",
+                                "id": "",
+                                "children": [
+                                  {
+                                    "type": "LETTER_WITH_DOT",
+                                    "text": "d."
+                                  },
+                                  {
+                                    "type": "PLAINTEXT",
+                                    "text": "sebelah barat berbatasan dengan Selat Wawonii."
+                                  }
+                                ]
+                              }
+                            ]
+                          }
+                        ]
+                      },
+                      {
+                        "type": "LIST_ITEM",
+                        "id": "",
+                        "children": [
+                          {
+                            "type": "NUMBER_WITH_BRACKETS",
+                            "text": "(2)"
+                          },
+                          {
+                            "type": "PLAINTEXT",
+                            "text": "Batas wilayah sebagaimana dimaksud pada ayat (1) digambarkan dalam peta wilayah lengkap dengan titik-titik koordinat dan telah mendapatkan persetujuan dari pihak-pihak terkait yang tercantum dalam lampiran dan merupakan bagian yang tidak terpisahkan dari Undang-Undang ini."
+                          }
+                        ]
+                      },
+                      {
+                        "type": "LIST_ITEM",
+                        "id": "",
+                        "children": [
+                          {
+                            "type": "NUMBER_WITH_BRACKETS",
+                            "text": "(3)"
+                          },
+                          {
+                            "type": "PLAINTEXT",
+                            "text": "Penetapan batas wilayah Kabupaten Konawe Kepulauan secara pasti di lapangan sebagaimana dimaksud pada ayat (1) dan ayat (2), ditetapkan oleh Menteri Dalam Negeri paling lambat 5 (lima) tahun sejak peresmian Kabupaten Konawe Kepulauan."
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "PASAL",
+                "id": "pasal-6",
+                "children": [
+                  {
+                    "type": "PASAL_NUMBER",
+                    "text": "Pasal 6"
+                  },
+                  {
+                    "type": "LIST",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "LIST_ITEM",
+                        "id": "",
+                        "children": [
+                          {
+                            "type": "NUMBER_WITH_BRACKETS",
+                            "text": "(1)"
+                          },
+                          {
+                            "type": "PLAINTEXT",
+                            "text": "Dengan terbentuknya Kabupaten Konawe Kepulauan sebagaimana dimaksud dalam Pasal 2, Pemerintah Kabupaten Konawe Kepulauan menetapkan Rencana Tata Ruang Wilayah Kabupaten Konawe Kepulauan sesuai dengan peraturan perundang-undangan."
+                          }
+                        ]
+                      },
+                      {
+                        "type": "LIST_ITEM",
+                        "id": "",
+                        "children": [
+                          {
+                            "type": "NUMBER_WITH_BRACKETS",
+                            "text": "(2)"
+                          },
+                          {
+                            "type": "PLAINTEXT",
+                            "text": "Penetapan Rencana Tata Ruang Wilayah Kabupaten Konawe Kepulauan sebagaimana dimaksud pada ayat (1) dilakukan sesuai dengan Rencana Tata Ruang Wilayah Nasional dan Rencana Tata Ruang Wilayah Provinsi Sulawesi Tenggara serta memperhatikan Rencana Tata Ruang Wilayah kabupaten/kota di sekitarnya."
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "BAGIAN",
+            "id": "bab-2-bagian-4",
+            "children": [
+              {
+                "type": "BAGIAN_NUMBER",
+                "text": "Bagian Keempat"
+              },
+              {
+                "type": "BAGIAN_TITLE",
+                "text": "Ibu Kota"
+              },
+              {
+                "type": "PASAL",
+                "id": "pasal-7",
+                "children": [
+                  {
+                    "type": "PASAL_NUMBER",
+                    "text": "Pasal 7"
+                  },
+                  {
+                    "type": "PLAINTEXT",
+                    "text": "Ibu Kota Kabupaten Konawe Kepulauan berkedudukan di Langara Kecamatan Wawonii Barat."
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "BAB",
+        "id": "bab-3",
+        "children": [
+          {
+            "type": "BAB_NUMBER",
+            "text": "BAB III"
+          },
+          {
+            "type": "BAB_TITLE",
+            "text": "URUSAN PEMERINTAHAN DAERAH"
+          },
+          {
+            "type": "PASAL",
+            "id": "pasal-8",
+            "children": [
+              {
+                "type": "PASAL_NUMBER",
+                "text": "Pasal 8"
+              },
+              {
+                "type": "PLAINTEXT",
+                "text": "Urusan pemerintahan daerah yang menjadi kewenangan Kabupaten Konawe Kepulauan mencakup urusan sebagaimana diatur dalam peraturan perundang-undangan."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "BAB",
+        "id": "bab-4",
+        "children": [
+          {
+            "type": "BAB_NUMBER",
+            "text": "BAB IV"
+          },
+          {
+            "type": "BAB_TITLE",
+            "text": "PEMERINTAHAN DAERAH"
+          },
+          {
+            "type": "BAGIAN",
+            "id": "bab-4-bagian-1",
+            "children": [
+              {
+                "type": "BAGIAN_NUMBER",
+                "text": "Bagian Kesatu"
+              },
+              {
+                "type": "BAGIAN_TITLE",
+                "text": "Peresmian Daerah Otonom Baru dan Pelantikan Penjabat Kepala Daerah"
+              },
+              {
+                "type": "PASAL",
+                "id": "pasal-9",
+                "children": [
+                  {
+                    "type": "PASAL_NUMBER",
+                    "text": "Pasal 9"
+                  },
+                  {
+                    "type": "PLAINTEXT",
+                    "text": "Peresmian Kabupaten Konawe Kepulauan dan pelantikan Penjabat Bupati Konawe Kepulauan dilakukan oleh Menteri Dalam Negeri atas nama Presiden paling lambat 9 (sembilan) bulan setelah Undang-Undang ini diundangkan."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "BAGIAN",
+            "id": "bab-4-bagian-2",
+            "children": [
+              {
+                "type": "BAGIAN_NUMBER",
+                "text": "Bagian Kedua"
+              },
+              {
+                "type": "BAGIAN_TITLE",
+                "text": "Pemerintah Daerah"
+              },
+              {
+                "type": "PASAL",
+                "id": "pasal-10",
+                "children": [
+                  {
+                    "type": "PASAL_NUMBER",
+                    "text": "Pasal 10"
+                  },
+                  {
+                    "type": "LIST",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "LIST_ITEM",
+                        "id": "",
+                        "children": [
+                          {
+                            "type": "NUMBER_WITH_BRACKETS",
+                            "text": "(1)"
+                          },
+                          {
+                            "type": "PLAINTEXT",
+                            "text": "Untuk memimpin penyelenggaraan pemerintahan di Kabupaten Konawe Kepulauan, dipilih dan disahkan Bupati dan/atau Wakil Bupati sesuai dengan peraturan perundang-undangan yang dilaksanakan paling cepat 2 (dua) tahun sejak diresmikan Kabupaten Konawe Kepulauan."
+                          }
+                        ]
+                      },
+                      {
+                        "type": "LIST_ITEM",
+                        "id": "",
+                        "children": [
+                          {
+                            "type": "NUMBER_WITH_BRACKETS",
+                            "text": "(2)"
+                          },
+                          {
+                            "type": "PLAINTEXT",
+                            "text": "Sebelum Bupati dan Wakil Bupati definitif sebagaimana dimaksud pada ayat (1) terpilih sebagai pimpinan penyelenggaraan pemerintahan daerah, Menteri Dalam Negeri atas nama Presiden mengangkat Penjabat Bupati dari pegawai negeri sipil berdasarkan usul Gubernur Sulawesi Tenggara dengan masa jabatan paling lama 1 (satu) tahun."
+                          }
+                        ]
+                      },
+                      {
+                        "type": "LIST_ITEM",
+                        "id": "",
+                        "children": [
+                          {
+                            "type": "NUMBER_WITH_BRACKETS",
+                            "text": "(3)"
+                          },
+                          {
+                            "type": "PLAINTEXT",
+                            "text": "Pegawai negeri sipil sebagaimana dimaksud pada ayat (2) adalah pegawai yang memiliki kemampuan dan pengalaman jabatan dalam bidang pemerintahan serta memenuhi persyaratan untuk menduduki jabatan itu sesuai dengan peraturan perundang-undangan."
+                          }
+                        ]
+                      },
+                      {
+                        "type": "LIST_ITEM",
+                        "id": "",
+                        "children": [
+                          {
+                            "type": "NUMBER_WITH_BRACKETS",
+                            "text": "(4)"
+                          },
+                          {
+                            "type": "PLAINTEXT",
+                            "text": "Menteri Dalam Negeri dapat menunjuk Gubernur Sulawesi Tenggara untuk melantik Penjabat Bupati Konawe Kepulauan."
+                          }
+                        ]
+                      },
+                      {
+                        "type": "LIST_ITEM",
+                        "id": "",
+                        "children": [
+                          {
+                            "type": "NUMBER_WITH_BRACKETS",
+                            "text": "(5)"
+                          },
+                          {
+                            "type": "PLAINTEXT",
+                            "text": "Menteri Dalam Negeri atas nama Presiden dapat mengangkat kembali Penjabat Bupati untuk 1 (satu) kali masa jabatan berikutnya paling lama 1 (satu) tahun atau menggantinya dengan penjabat lain sesuai dengan peraturan perundang-undangan."
+                          }
+                        ]
+                      },
+                      {
+                        "type": "LIST_ITEM",
+                        "id": "",
+                        "children": [
+                          {
+                            "type": "NUMBER_WITH_BRACKETS",
+                            "text": "(6)"
+                          },
+                          {
+                            "type": "PLAINTEXT",
+                            "text": "Gubernur Sulawesi Tenggara melakukan pembinaan, pengawasan, evaluasi, dan fasilitasi terhadap kinerja Penjabat Bupati Konawe Kepulauan dalam penyelenggaraan pemerintahan daerah, pembentukan struktur organisasi dan pengisian perangkat daerah, pengisian keanggotaan Dewan Perwakilan Rakyat Daerah Kabupaten, dan fasilitasi pemilihan Bupati dan/atau Wakil Bupati sesuai ketentuan peraturan perundang-undangan."
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "PASAL",
+                "id": "pasal-11",
+                "children": [
+                  {
+                    "type": "PASAL_NUMBER",
+                    "text": "Pasal 11"
+                  },
+                  {
+                    "type": "PLAINTEXT",
+                    "text": "Pembiayaan pertama kali pelaksanaan pemilihan Bupati dan/atau Wakil Bupati Konawe Kepulauan sebagaimana dimaksud dalam Pasal 10 ayat (1) dibebankan kepada Anggaran Pendapatan dan Belanja Daerah Kabupaten Konawe dan Anggaran Pendapatan dan Belanja Daerah Provinsi Sulawesi Tenggara."
+                  }
+                ]
+              },
+              {
+                "type": "PASAL",
+                "id": "pasal-12",
+                "children": [
+                  {
+                    "type": "PASAL_NUMBER",
+                    "text": "Pasal 12"
+                  },
+                  {
+                    "type": "LIST",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "LIST_ITEM",
+                        "id": "",
+                        "children": [
+                          {
+                            "type": "NUMBER_WITH_BRACKETS",
+                            "text": "(1)"
+                          },
+                          {
+                            "type": "PLAINTEXT",
+                            "text": "Untuk menyelenggarakan pemerintahan di Kabupaten Konawe Kepulauan dibentuk perangkat daerah yang meliputi sekretariat daerah, sekretariat dewan perwakilan rakyat daerah, dinas daerah, lembaga teknis daerah, serta unsur perangkat daerah yang lain dengan mempertimbangkan kebutuhan dan kemampuan keuangan daerah sesuai dengan peraturan perundang-undangan."
+                          }
+                        ]
+                      },
+                      {
+                        "type": "LIST_ITEM",
+                        "id": "",
+                        "children": [
+                          {
+                            "type": "NUMBER_WITH_BRACKETS",
+                            "text": "(2)"
+                          },
+                          {
+                            "type": "PLAINTEXT",
+                            "text": "Perangkat daerah sebagaimana dimaksud pada ayat (1) telah dibentuk oleh Penjabat Bupati Konawe Kepulauan paling lambat 6 (enam) bulan sejak tanggal pelantikan."
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "BAGIAN",
+            "id": "bab-4-bagian-3",
+            "children": [
+              {
+                "type": "BAGIAN_NUMBER",
+                "text": "Bagian Ketiga"
+              },
+              {
+                "type": "BAGIAN_TITLE",
+                "text": "Dewan Perwakilan Rakyat Daerah"
+              },
+              {
+                "type": "PASAL",
+                "id": "pasal-13",
+                "children": [
+                  {
+                    "type": "PASAL_NUMBER",
+                    "text": "Pasal 13"
+                  },
+                  {
+                    "type": "LIST",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "LIST_ITEM",
+                        "id": "",
+                        "children": [
+                          {
+                            "type": "NUMBER_WITH_BRACKETS",
+                            "text": "(1)"
+                          },
+                          {
+                            "type": "PLAINTEXT",
+                            "text": "Dewan Perwakilan Rakyat Daerah Kabupaten Konawe Kepulauan dibentuk melalui hasil Pemilihan Umum Tahun 2014."
+                          }
+                        ]
+                      },
+                      {
+                        "type": "LIST_ITEM",
+                        "id": "",
+                        "children": [
+                          {
+                            "type": "NUMBER_WITH_BRACKETS",
+                            "text": "(2)"
+                          },
+                          {
+                            "type": "PLAINTEXT",
+                            "text": "Jumlah dan tata cara pengisian keanggotaan Dewan Perwakilan Rakyat Daerah Kabupaten Konawe Kepulauan sebagaimana dimaksud pada ayat (1), sesuai dengan peraturan perundang-undangan."
+                          }
+                        ]
+                      },
+                      {
+                        "type": "LIST_ITEM",
+                        "id": "",
+                        "children": [
+                          {
+                            "type": "NUMBER_WITH_BRACKETS",
+                            "text": "(3)"
+                          },
+                          {
+                            "type": "PLAINTEXT",
+                            "text": "Penetapan keanggotaan Dewan Perwakilan Rakyat Daerah Kabupaten Konawe Kepulauan sebagaimana dimaksud pada ayat (1) dan ayat (2) dilakukan Komisi Pemilihan Umum Kabupaten Konawe sesuai dengan peraturan perundang-undangan."
+                          }
+                        ]
+                      },
+                      {
+                        "type": "LIST_ITEM",
+                        "id": "",
+                        "children": [
+                          {
+                            "type": "NUMBER_WITH_BRACKETS",
+                            "text": "(4)"
+                          },
+                          {
+                            "type": "PLAINTEXT",
+                            "text": "Pengambilan sumpah/janji anggota Dewan Perwakilan Rakyat Daerah Kabupaten Konawe Kepulauan dilaksanakan paling lambat 4 (empat) bulan setelah sumpah/janji anggota Dewan Perwakilan Rakyat Daerah Kabupaten Konawe."
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "BAB",
+        "id": "bab-5",
+        "children": [
+          {
+            "type": "BAB_NUMBER",
+            "text": "BAB V"
+          },
+          {
+            "type": "BAB_TITLE",
+            "text": "PERSONEL, ASET, DAN DOKUMEN"
+          },
+          {
+            "type": "PASAL",
+            "id": "pasal-14",
+            "children": [
+              {
+                "type": "PASAL_NUMBER",
+                "text": "Pasal 14"
+              },
+              {
+                "type": "LIST",
+                "id": "",
+                "children": [
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "NUMBER_WITH_BRACKETS",
+                        "text": "(1)"
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "Bupati Konawe bersama Penjabat Bupati Konawe Kepulauan mengatur dan melaksanakan pemindahan personel, penyerahan aset, serta dokumen kepada Pemerintah Kabupaten Konawe Kepulauan sesuai dengan persetujuan Dewan Perwakilan Rakyat Daerah Kabupaten Konawe dan Bupati Konawe."
+                      }
+                    ]
+                  },
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "NUMBER_WITH_BRACKETS",
+                        "text": "(2)"
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "Pemindahan personel sebagaimana dimaksud pada ayat (1) dilakukan paling lambat 6 (enam) bulan sejak pelantikan Penjabat Bupati Konawe Kepulauan."
+                      }
+                    ]
+                  },
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "NUMBER_WITH_BRACKETS",
+                        "text": "(3)"
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "Penyerahan aset dan dokumen sebagaimana dimaksud pada ayat (1) dilakukan paling lambat 3 (tiga) tahun sejak pelantikan Penjabat Bupati Konawe Kepulauan."
+                      }
+                    ]
+                  },
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "NUMBER_WITH_BRACKETS",
+                        "text": "(4)"
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "Personel sebagaimana dimaksud pada ayat (1) dan ayat (2) meliputi pegawai negeri sipil yang karena tugas dan kemampuannya diperlukan oleh Kabupaten Konawe Kepulauan."
+                      }
+                    ]
+                  },
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "NUMBER_WITH_BRACKETS",
+                        "text": "(5)"
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "Gubernur Sulawesi Tenggara mengoordinasikan dan memfasilitasi pemindahan personel, penyerahan aset, dan dokumen kepada Kabupaten Konawe Kepulauan."
+                      }
+                    ]
+                  },
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "NUMBER_WITH_BRACKETS",
+                        "text": "(6)"
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "Gaji dan tunjangan pegawai negeri sipil sebagaimana dimaksud pada ayat (4), selama belum ditetapkannya Anggaran Pendapatan dan Belanja Daerah Kabupaten Konawe Kepulauan, dibebankan pada anggaran pendapatan dan belanja dari asal satuan kerja personel yang bersangkutan sesuai dengan peraturan perundang-undangan."
+                      }
+                    ]
+                  },
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "NUMBER_WITH_BRACKETS",
+                        "text": "(7)"
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "Aset dan dokumen sebagaimana dimaksud pada ayat (1) dan ayat (3) meliputi:"
+                      },
+                      {
+                        "type": "LIST",
+                        "id": "",
+                        "children": [
+                          {
+                            "type": "LIST_ITEM",
+                            "id": "",
+                            "children": [
+                              {
+                                "type": "LETTER_WITH_DOT",
+                                "text": "a."
+                              },
+                              {
+                                "type": "PLAINTEXT",
+                                "text": "barang milik Kabupaten Konawe yang bergerak dan tidak bergerak dan/atau yang dikuasai atau dimanfaatkan oleh Pemerintah Kabupaten Konawe Kepulauan yang berada dalam wilayah Kabupaten Konawe Kepulauan;"
+                              }
+                            ]
+                          },
+                          {
+                            "type": "LIST_ITEM",
+                            "id": "",
+                            "children": [
+                              {
+                                "type": "LETTER_WITH_DOT",
+                                "text": "b."
+                              },
+                              {
+                                "type": "PLAINTEXT",
+                                "text": "Badan Usaha Milik Daerah Kabupaten Konawe yang kedudukan, kegiatan, dan lokasinya berada di Kabupaten Konawe Kepulauan;"
+                              }
+                            ]
+                          },
+                          {
+                            "type": "LIST_ITEM",
+                            "id": "",
+                            "children": [
+                              {
+                                "type": "LETTER_WITH_DOT",
+                                "text": "c."
+                              },
+                              {
+                                "type": "PLAINTEXT",
+                                "text": "utang piutang Kabupaten Konawe yang kegunaannya untuk Kabupaten Konawe Kepulauan menjadi tanggung jawab Kabupaten Konawe Kepulauan; dan"
+                              }
+                            ]
+                          },
+                          {
+                            "type": "LIST_ITEM",
+                            "id": "",
+                            "children": [
+                              {
+                                "type": "LETTER_WITH_DOT",
+                                "text": "d."
+                              },
+                              {
+                                "type": "PLAINTEXT",
+                                "text": "dokumen dan arsip yang karena sifatnya diperlukan oleh Kabupaten Konawe Kepulauan."
+                              }
+                            ]
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "NUMBER_WITH_BRACKETS",
+                        "text": "(8)"
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "Dalam hal ketentuan sebagaimana dimaksud pada ayat (3) dan ayat (7) tidak dilaksanakan atau belum selesai dilaksanakan oleh Bupati Konawe, Gubernur Sulawesi Tenggara selaku wakil Pemerintah wajib menyelesaikannya dalam waktu paling lambat 1 (satu) tahun."
+                      }
+                    ]
+                  },
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "NUMBER_WITH_BRACKETS",
+                        "text": "(9)"
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "Pelaksanaan pemindahan personel dan penyerahan aset serta dokumen sebagaimana dimaksud pada ayat (1) dilaporkan oleh Gubernur Sulawesi Tenggara kepada Menteri Dalam Negeri."
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "BAB",
+        "id": "bab-6",
+        "children": [
+          {
+            "type": "BAB_NUMBER",
+            "text": "BAB VI"
+          },
+          {
+            "type": "BAB_TITLE",
+            "text": "PENDAPATAN, ALOKASI DANA PERIMBANGAN, HIBAH, DAN BANTUAN KEUANGAN"
+          },
+          {
+            "type": "PASAL",
+            "id": "pasal-15",
+            "children": [
+              {
+                "type": "PASAL_NUMBER",
+                "text": "Pasal 15"
+              },
+              {
+                "type": "LIST",
+                "id": "",
+                "children": [
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "NUMBER_WITH_BRACKETS",
+                        "text": "(1)"
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "Kabupaten Konawe Kepulauan berhak mendapatkan alokasi dana perimbangan dan dana transfer lainnya sesuai dengan peraturan perundang-undangan."
+                      }
+                    ]
+                  },
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "NUMBER_WITH_BRACKETS",
+                        "text": "(2)"
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "Dalam dana perimbangan sebagaimana dimaksud pada ayat (1), Pemerintah mengalokasikan dana alokasi khusus prasarana pemerintahan sesuai dengan peraturan perundang-undangan."
+                      }
+                    ]
+                  },
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "NUMBER_WITH_BRACKETS",
+                        "text": "(3)"
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "Dana perimbangan sebagaimana dimaksud pada ayat (1) yang berupa dana transfer ke daerah dialokasikan sesuai dengan kemampuan keuangan negara sesuai dengan peraturan perundang undangan."
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "PASAL",
+            "id": "pasal-16",
+            "children": [
+              {
+                "type": "PASAL_NUMBER",
+                "text": "Pasal 16"
+              },
+              {
+                "type": "LIST",
+                "id": "",
+                "children": [
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "NUMBER_WITH_BRACKETS",
+                        "text": "(1)"
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "Pemerintah Kabupaten Konawe sesuai kesanggupannya memberikan hibah berupa uang untuk menunjang kegiatan penyelenggaraan pemerintahan Kabupaten Konawe Kepulauan sebesar Rp5.000.000.000,00 (lima miliar rupiah) setiap tahun selama 2 (dua) tahun berturut-turut serta untuk pelaksanaan pemilihan Bupati dan/atau Wakil Bupati Konawe Kepulauan pertama kali sebesar Rp2.000.000.000,00 (dua miliar rupiah)."
+                      }
+                    ]
+                  },
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "NUMBER_WITH_BRACKETS",
+                        "text": "(2)"
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "Pemerintah Provinsi Sulawesi Tenggara memberikan bantuan dana untuk menunjang kegiatan penyelenggaraan pemerintahan Kabupaten Konawe Kepulauan sebesar Rp4.000.000.000,00 (empat miliar rupiah) setiap tahun selama 2 (dua) tahun berturut-turut serta untuk pelaksanaan pemilihan Bupati dan/atau Wakil Bupati Konawe Kepulauan pertama kali sebesar Rp2.000.000.000,00 (dua miliar rupiah)."
+                      }
+                    ]
+                  },
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "NUMBER_WITH_BRACKETS",
+                        "text": "(3)"
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "Pemberian hibah sebagaimana dimaksud pada ayat (1) dan pemberian bantuan dana sebagaimana dimaksud pada ayat (2) dimulai sejak pelantikan Penjabat Bupati Konawe Kepulauan."
+                      }
+                    ]
+                  },
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "NUMBER_WITH_BRACKETS",
+                        "text": "(4)"
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "Apabila KabupatenKonawe tidak memenuhi kesanggupannya memberikan hibah sesuai ketentuan sebagaimana dimaksud pada ayat (1), Pemerintah mengurangi penerimaan dana perimbangan dari Kabupaten Konawe untuk diberikan kepada Pemerintah Kabupaten Konawe Kepulauan."
+                      }
+                    ]
+                  },
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "NUMBER_WITH_BRACKETS",
+                        "text": "(5)"
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "Apabila Provinsi Sulawesi Tenggara tidak memenuhi kesanggupannya memberikan bantuan dana sesuai ketentuan sebagaimana dimaksud pada ayat (2), Pemerintah mengurangi penerimaan dana perimbangan dari Provinsi Sulawesi Tenggara untuk diberikan kepada Pemerintah Kabupaten Konawe Kepulauan."
+                      }
+                    ]
+                  },
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "NUMBER_WITH_BRACKETS",
+                        "text": "(6)"
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "Penjabat Bupati Konawe Kepulauan menyampaikan laporan pertanggungjawaban realisasi penggunaan hibah sebagaimana dimaksud pada ayat (1) kepada Bupati Konawe."
+                      }
+                    ]
+                  },
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "NUMBER_WITH_BRACKETS",
+                        "text": "(7)"
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "Penjabat Bupati Konawe Kepulauan menyampaikan laporan pertanggungjawaban realisasi penggunaan dana hibah dan dana bantuan sebagaimana dimaksud pada ayat (1) dan ayat (2) kepada Gubernur Sulawesi Tenggara."
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "PASAL",
+            "id": "pasal-17",
+            "children": [
+              {
+                "type": "PASAL_NUMBER",
+                "text": "Pasal 17"
+              },
+              {
+                "type": "PLAINTEXT",
+                "text": "Penjabat Bupati Konawe Kepulauan berkewajiban melakukan penatausahaan keuangan daerah sesuai dengan peraturan perundang-undangan."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "BAB",
+        "id": "bab-7",
+        "children": [
+          {
+            "type": "BAB_NUMBER",
+            "text": "BAB VII"
+          },
+          {
+            "type": "BAB_TITLE",
+            "text": "PEMBINAAN"
+          },
+          {
+            "type": "PASAL",
+            "id": "pasal-18",
+            "children": [
+              {
+                "type": "PASAL_NUMBER",
+                "text": "Pasal 18"
+              },
+              {
+                "type": "LIST",
+                "id": "",
+                "children": [
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "NUMBER_WITH_BRACKETS",
+                        "text": "(1)"
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "Untuk mengefektifkan penyelenggaraan pemerintahan daerah, Pemerintah dan Pemerintah Provinsi Sulawesi Tenggara melakukan pembinaan dan fasilitasi secara khusus terhadap Kabupaten Konawe Kepulauan dalam waktu 3 (tiga) tahun sejak diresmikan."
+                      }
+                    ]
+                  },
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "NUMBER_WITH_BRACKETS",
+                        "text": "(2)"
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "Pemerintah bersama Gubernur Sulawesi Tenggara melakukan evaluasi terhadap penyelenggaraan Pemerintahan Kabupaten Konawe Kepulauan sesuai peraturan perundang-undangan."
+                      }
+                    ]
+                  },
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "NUMBER_WITH_BRACKETS",
+                        "text": "(3)"
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "Hasil evaluasi sebagaimana dimaksud pada ayat (2) dijadikan acuan kebijakan lebih lanjut oleh Pemerintah dan/atau Gubernur Sulawesi Tenggara sesuai dengan peraturan perundang-undangan."
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "BAB",
+        "id": "bab-8",
+        "children": [
+          {
+            "type": "BAB_NUMBER",
+            "text": "BAB VIII"
+          },
+          {
+            "type": "BAB_TITLE",
+            "text": "KETENTUAN PERALIHAN"
+          },
+          {
+            "type": "PASAL",
+            "id": "pasal-19",
+            "children": [
+              {
+                "type": "PASAL_NUMBER",
+                "text": "Pasal 19"
+              },
+              {
+                "type": "LIST",
+                "id": "",
+                "children": [
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "NUMBER_WITH_BRACKETS",
+                        "text": "(1)"
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "Sebelum terbentuknya Dewan Perwakilan Rakyat Daerah Kabupaten Konawe Kepulauan berdasarkan hasil Pemilihan Umum Tahun 2014, Penjabat Bupati Konawe Kepulauan menyusun Rancangan Peraturan Bupati tentang Anggaran Pendapatan dan Belanja Daerah Kabupaten Konawe Kepulauan untuk tahun anggaran berikutnya."
+                      }
+                    ]
+                  },
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "NUMBER_WITH_BRACKETS",
+                        "text": "(2)"
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "Rancangan Peraturan Bupati Konawe Kepulauan sebagaimana dimaksud pada ayat (1) dilaksanakan setelah disahkan oleh Gubernur Sulawesi Tenggara."
+                      }
+                    ]
+                  },
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "NUMBER_WITH_BRACKETS",
+                        "text": "(3)"
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "Proses pengesahan dan penetapan Peraturan Bupati Konawe Kepulauan sebagaimana dimaksud pada ayat (2) dilaksanakan sesuai dengan peraturan perundang-undangan."
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "PASAL",
+            "id": "pasal-20",
+            "children": [
+              {
+                "type": "PASAL_NUMBER",
+                "text": "Pasal 20"
+              },
+              {
+                "type": "PLAINTEXT",
+                "text": "Sebelum Bupati Konawe Kepulauan bersama Dewan Perwakilan Rakyat Daerah Kabupaten Konawe Kepulauan menetapkan peraturan daerah, dan Bupati Konawe Kepulauan menetapkan peraturan bupati sebagai pelaksanaan Undang-Undang ini, semua peraturan daerah dan Peraturan Bupati Konawe sepanjang tidak bertentangan dengan Undang-Undang ini tetap berlaku di Kabupaten Konawe Kepulauan."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "BAB",
+        "id": "bab-9",
+        "children": [
+          {
+            "type": "BAB_NUMBER",
+            "text": "BAB IX"
+          },
+          {
+            "type": "BAB_TITLE",
+            "text": "KETENTUAN PENUTUP"
+          },
+          {
+            "type": "PASAL",
+            "id": "pasal-21",
+            "children": [
+              {
+                "type": "PASAL_NUMBER",
+                "text": "Pasal 21"
+              },
+              {
+                "type": "PLAINTEXT",
+                "text": "Pada saat Undang-Undang ini mulai berlaku, semua ketentuan dalam peraturan perundang-undangan yang berkaitan dengan Kabupaten Konawe Kepulauan harus disesuaikan dengan Undang-Undang ini."
+              }
+            ]
+          },
+          {
+            "type": "PASAL",
+            "id": "pasal-22",
+            "children": [
+              {
+                "type": "PASAL_NUMBER",
+                "text": "Pasal 22"
+              },
+              {
+                "type": "PLAINTEXT",
+                "text": "Undang-Undang ini mulai berlaku pada tanggal diundangkan."
+              },
+              {
+                "type": "PLAINTEXT",
+                "text": "Agar setiap orang mengetahuinya, memerintahkan pengundangan Undang-Undang ini dengan penempatannya dalam Lembaran Negara Republik Indonesia."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "CLOSING",
+        "id": "",
+        "children": [
+          {
+            "type": "PLAINTEXT",
+            "text": "Disahkan Di Jakarta,"
+          },
+          {
+            "type": "PLAINTEXT",
+            "text": "Pada Tanggal 11 Mei 2013"
+          },
+          {
+            "type": "PLAINTEXT",
+            "text": "PRESIDEN REPUBLIK INDONESIA,"
+          },
+          {
+            "type": "PLAINTEXT",
+            "text": "Ttd."
+          },
+          {
+            "type": "PLAINTEXT",
+            "text": "DR. H. SUSILO BAMBANG YUDHOYONO"
+          },
+          {
+            "type": "PLAINTEXT",
+            "text": "Diundangkan Di Jakarta,"
+          },
+          {
+            "type": "PLAINTEXT",
+            "text": "Pada Tanggal 15 Mei 2013"
+          },
+          {
+            "type": "PLAINTEXT",
+            "text": "MENTERI HUKUM DAN HAK ASASI MANUSIA REPUBLIK INDONESIA,"
+          },
+          {
+            "type": "PLAINTEXT",
+            "text": "Ttd."
+          },
+          {
+            "type": "PLAINTEXT",
+            "text": "AMIR SYAMSUDIN"
+          },
+          {
+            "type": "LEMBARAN_NUMBER",
+            "text": "LEMBARAN NEGARA REPUBLIK INDONESIA TAHUN 2013 NOMOR 84"
+          }
+        ]
+      },
+      {
+        "type": "PENJELASAN",
+        "id": "penjelasan",
+        "children": [
+          {
+            "type": "PENJELASAN_TITLE",
+            "id": "",
+            "children": [
+              {
+                "type": "PLAINTEXT",
+                "text": "PENJELASAN"
+              },
+              {
+                "type": "PLAINTEXT",
+                "text": "UNDANG-UNDANG REPUBLIK INDONESIA"
+              },
+              {
+                "type": "UU_TITLE_YEAR_AND_NUMBER",
+                "text": "NOMOR 13 TAHUN 2013"
+              },
+              {
+                "type": "PLAINTEXT",
+                "text": "TENTANG"
+              },
+              {
+                "type": "UU_TITLE_TOPIC",
+                "text": "PEMBENTUKAN KABUPATEN KONAWE KEPULAUAN DI PROVINSI SULAWESI TENGGARA"
+              }
+            ]
+          },
+          {
+            "type": "PENJELASAN_UMUM",
+            "id": "",
+            "children": [
+              {
+                "type": "PENJELASAN_UMUM_TITLE",
+                "text": "I. UMUM"
+              },
+              {
+                "type": "PLAINTEXT",
+                "text": "Provinsi Sulawesi Tenggara yang memiliki luas wilayah \u00b138.067,70 km2 dengan penduduk pada tahun 2012 berjumlah \u00b12.691.623 jiwa terdiri atas 11 (sebelas) kabupaten dan 2 (dua) kota, perlu memacu peningkatan penyelenggaraan pemerintahan dalam rangka memperkukuh Negara Kesatuan Republik Indonesia."
+              },
+              {
+                "type": "PLAINTEXT",
+                "text": "Kabupaten Konawe yang mempunyai luas wilayah \u00b15.302,86 km2 dengan penduduk pada tahun 2012 berjumlah \u00b1294.660 jiwa terdiri atas 30 (tiga puluh) kecamatan dan 402 (empat ratus dua) desa/kelurahan. Kabupaten ini memiliki potensi yang dapat dikembangkan untuk mendukung peningkatan penyelenggaraan pemerintahan."
+              },
+              {
+                "type": "PLAINTEXT",
+                "text": "Penyelenggaraan otonomi daerah harus menjamin keserasian hubungan antara daerah satu dengan daerah lainnya, artinya mampu membangun kerja sama antardaerah untuk meningkatkan kesejahteraan bersama dan mencegah ketimpangan antardaerah. Hal yang tidak kalah pentingnya bahwa otonomi daerah juga harus mampu menjamin hubungan yang serasi antara daerah dengan Pemerintah, artinya harus mampu memelihara dan menjaga keutuhan wilayah Negara dan tetap tegaknya Negara Kesatuan Republik Indonesia dalam rangka mewujudkan tujuan Negara."
+              },
+              {
+                "type": "PLAINTEXT",
+                "text": "Dari aspek hidrologis wilayah Kabupaten Konawe Kepulauan memiliki beberapa sungai yang relatif besar, antara lain adalah Sungai Lampeapi, Sungai Lansilowo, Sungai Ladianta dan Sungai Wungkolo serta beberapa sungai dan anak sungai lainnya. Kondisi sungai-sungai tersebut sangat memungkinkan untuk dapat dimanfaatkan dan dikembangkan potensinya."
+              },
+              {
+                "type": "PLAINTEXT",
+                "text": "Wilayah pesisir dan laut Pulau Wawonii ditumbuhi hutan mangrove yang lebat sehingga sangat mendukung habitat biota laut yang bernilai ekonomis seperti kepiting bakau dan udang. Selain itu, wilayah pesisir dan laut Pulau Wawonii banyak ditemukan padang lamun dan terumbu karang. Persentase keberadaan hutan mangrove di Pulau Wawonii rata-rata sebesar 33,35%, padang lamun sebesar 30,66% dan terumbu karang rata-rata sebesar 25,81%. Dengan demikian, maka wilayah ini sangat potensial untuk pengembangan komoditas udang lobster, rumput laut dan ikan kerapu."
+              },
+              {
+                "type": "PLAINTEXT",
+                "text": "Kecamatan yang terjauh dari ibu kota kabupaten induk adalah Kecamatan Wawonii Timur yaitu mencapai 179 mil laut. Dalam kondisi alam normal (musim teduh) dan menggunakan kapal motor milik masyarakat, maka waktu tempuh yang dibutuhkan untuk mencapai ibu kota provinsi (Kota Kendari) sebelum ke ibu kota kabupaten kurang lebih 12 (dua belas) jam."
+              },
+              {
+                "type": "PLAINTEXT",
+                "text": "Dengan asumsi waktu tempuh dari Kendari ke Unaaha yang secara rata-rata sekitar 1 jam (sekitar 75 km), maka total waktu yang digunakan sekitar 13 jam. Bahkan, Kecamatan Wawonii Barat yang merupakan kecamatan terdekat dari ibu kota provinsi, memerlukan waktu tempuh sekitar 3,5 jam untuk mencapai ibu kota provinsi dengan menggunakan kapal feri."
+              },
+              {
+                "type": "PLAINTEXT",
+                "text": "Selain sektor pertanian dan perkebunan yang menjadi potensi andalan wilayah pemekaran Kabupaten Konawe Kepulauan juga dari sektor peternakan dan kehutanan, sehingga diprediksi dapat memberikan kontribusi besar terhadap PAD Kabupaten Konawe Kepulauan. Dari sektor pertambangan dan energi terdapat nikel, pasir kuarsa, tanah liat (lempung), batu gamping bolomit, tambang emas, sumber daya energi listrik. Di samping hal-hal tersebut di atas juga terdapat pengembangan untuk pariwisata dan budaya."
+              },
+              {
+                "type": "PLAINTEXT",
+                "text": "Dengan luas wilayah dan besarnya jumlah penduduk seperti tersebut di atas, pelaksanaan pembangunan dan pelayanan kepada masyarakat belum sepenuhnya terjangkau. Kondisi demikian perlu diatasi dengan memperpendek rentang kendali pemerintahan melalui pembentukan daerah otonom baru sehingga pelayanan publik dapat ditingkatkan guna mempercepat terwujudnya kesejahteraan masyarakat."
+              },
+              {
+                "type": "PLAINTEXT",
+                "text": "Selanjutnya dengan memperhatikan aspirasi masyarakat yang dituangkan dalam:"
+              },
+              {
+                "type": "LIST",
+                "id": "",
+                "children": [
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "LETTER_WITH_DOT",
+                        "text": "a."
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "Keputusan Dewan Perwakilan Rakyat Daerah Kabupaten Konawe Nomor: 9/DPRD/2007 tanggal 4 Juli 2007 tentang Persetujuan Pembentukan Daerah Kabupaten Konawe Kepulauan dalam Wilayah Pemerintahan Kabupaten Konawe Provinsi Sulawesi Tenggara;"
+                      }
+                    ]
+                  },
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "LETTER_WITH_DOT",
+                        "text": "b."
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "Keputusan Bupati Konawe Nomor: 559 Tahun 2007 tanggal 1 Oktober 2007 tentang Persetujuan Pembentukan Daerah Kabupaten Konawe Kepulauan Dalam Wilayah Pemerintah Kabupaten Konawe Provinsi Sulawesi Tenggara;"
+                      }
+                    ]
+                  },
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "LETTER_WITH_DOT",
+                        "text": "c."
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "Keputusan Dewan Perwakilan Rakyat Daerah Kabupaten Konawe Nomor: 15A/DPRD/2007 tanggal 5 Oktober 2007 tentang Penetapan Batas Wilayah dan Ibukota Kabupaten Konawe Kepulauan, Pemekaran Kabupaten Konawe Provinsi Sulawesi Tenggara;"
+                      }
+                    ]
+                  },
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "LETTER_WITH_DOT",
+                        "text": "d."
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "Keputusan Dewan Perwakilan Rakyat Daerah Kabupaten Konawe Nomor: 15B/DPRD/2007 tanggal 5 Oktober 2007 tentang Dukungan Penyediaan Dana Awal untuk Dihibahkan kepada Pemerintah Kabupaten Konawe Kepulauan;"
+                      }
+                    ]
+                  },
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "LETTER_WITH_DOT",
+                        "text": "e."
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "Keputusan Dewan Perwakilan Rakyat Daerah Kabupaten Konawe Nomor: 3/DPRD/2010 tanggal 23 Maret 2010 tentang Persetujuan Pembentukan Daerah Kabupaten Konawe Kepulauan Dalam Wilayah Pemerintahan Kabupaten Konawe Provinsi Sulawesi Tenggara;"
+                      }
+                    ]
+                  },
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "LETTER_WITH_DOT",
+                        "text": "f."
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "Keputusan Dewan Perwakilan Rakyat Daerah Kabupaten Konawe Nomor: 6/DPRD/2010 tanggal 24 Mei 2010 tentang Persetujuan Pembentukan Daerah Kabupaten Konawe Kepulauan Dalam Wilayah Pemerintahan Kabupaten Konawe Provinsi Sulawesi Tenggara;"
+                      }
+                    ]
+                  },
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "LETTER_WITH_DOT",
+                        "text": "g."
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "Keputusan Bupati Konawe Nomor: 23/2008 tanggal 5 Februari 2008 tentang Dukungan Dana Rencana Pembentukan Daerah Kabupaten Konawe Kepulauan Dalam Wilayah Pemerintahan Kabupaten Konawe Provinsi Sulawesi Tenggara;"
+                      }
+                    ]
+                  },
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "LETTER_WITH_DOT",
+                        "text": "h."
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "Keputusan Bupati Konawe Nomor: 207 Tahun 2010 tanggal 5 April 2010 tentang Persetujuan Pembentukan Daerah Kabupaten Konawe Kepulauan Dalam Wilayah Pemerintah Kabupaten Konawe Provinsi Sulawesi Tenggara;"
+                      }
+                    ]
+                  },
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "LETTER_WITH_DOT",
+                        "text": "i."
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "Keputusan Bupati Konawe Nomor : 295 Tahun 2010 tanggal 1 Juni 2010 tentang Persetujuan Pembentukan Daerah Kabupaten Konawe Kepulauan Dalam Wilayah Pemerintahan Kabupaten Konawe Provinsi Sulawesi Tenggara;"
+                      }
+                    ]
+                  },
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "LETTER_WITH_DOT",
+                        "text": "j."
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "Keputusan Dewan Perwakilan Rakyat Daerah Provinsi Sulawesi Tenggara Nomor: 16 Tahun 2007 tanggal 15 Desember 2007 tentang Persetujuan Pembentukan Daerah Otonom Baru Kabupaten Konawe Kepulauan;"
+                      }
+                    ]
+                  },
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "LETTER_WITH_DOT",
+                        "text": "k."
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "Keputusan Dewan Perwakilan Rakyat Daerah Provinsi Sulawesi Tenggara Nomor: 3 Tahun 2010 tanggal 12 April 2010 tentang Persetujuan Pembentukan Daerah Otonom Baru Kabupaten Konawe Kepulauan;"
+                      }
+                    ]
+                  },
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "LETTER_WITH_DOT",
+                        "text": "l."
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "Keputusan Dewan Perwakilan Rakyat Daerah Provinsi Sulawesi Tenggara Nomor: 6 Tahun 2010 tanggal 16 Juni 2010 tentang Penyempurnaan Atas Keputusan Dewan Perwakilan Rakyat Daerah Provinsi Sulawesi Tenggara Nomor 3 Tahun 2010 tentang Persetujuan Pembentukan Daerah Otonom Baru Kabupaten Konawe Kepulauan;"
+                      }
+                    ]
+                  },
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "LETTER_WITH_DOT",
+                        "text": "m."
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "Keputusan Gubernur Sulawesi Tenggara Nomor: 565 Tahun 2007 tanggal 17 Desember 2007 tentang Pemberian Bantuan Dana Awal Kepada Pemerintah Kabupaten Baru Hasil Pemekaran Kabupaten Konawe;"
+                      }
+                    ]
+                  },
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "LETTER_WITH_DOT",
+                        "text": "n."
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "Keputusan Gubernur Sulawesi Tenggara Nomor: 273 Tahun 2010 tanggal 27 April 2010 tentang Persetujuan Pembentukan Daerah Otonom Baru Kabupaten Konawe Kepulauan; dan"
+                      }
+                    ]
+                  },
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "LETTER_WITH_DOT",
+                        "text": "o."
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "Keputusan Gubernur Sulawesi Tenggara Nomor: 358 Tahun 2010 tanggal 18 Juni 2010 tentang Perubahan Atas Keputusan Gubernur Sulawesi Tenggara Nomor 273 Tahun 2010 tentang Persetujuan Pembentukan Daerah Otonom Baru Kabupaten Konawe Kepulauan."
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "PLAINTEXT",
+                "text": "Berdasarkan hal tersebut, telah dilakukan kajian secara mendalam dan menyeluruh mengenai kelayakan pembentukan daerah dan berkesimpulan bahwa perlu dibentuk Kabupaten Konawe Kepulauan."
+              },
+              {
+                "type": "PLAINTEXT",
+                "text": "Pembentukan Kabupaten Konawe Kepulauan merupakan pemekaran dari Kabupaten Konawe yang terdiri atas 7 (tujuh) kecamatan, yaitu Kecamatan Wawonii Barat, Kecamatan Wawonii Utara, Kecamatan Wawonii Timur Laut, Kecamatan Wawonii Timur, Kecamatan Wawonii Tenggara, Kecamatan Wawonii Selatan, dan Kecamatan Wawonii Tengah. Kabupaten Konawe Kepulauan memiliki luas wilayah keseluruhan \u00b1867,58 km2 dengan jumlah penduduk \u00b136.247 jiwa pada tahun 2012 dan terdiri atas 78 (tujuh puluh delapan) desa/kelurahan."
+              },
+              {
+                "type": "PLAINTEXT",
+                "text": "Dengan terbentuknya Kabupaten Konawe Kepulauan sebagai daerah otonom, Pemerintah Provinsi Sulawesi Tenggara berkewajiban membantu dan memfasilitasi terbentuknya kelembagaan Dewan Perwakilan Rakyat Daerah dan Perangkat Daerah yang efisien dan efektif sesuai dengan kebutuhan dan kemampuan, serta membantu dan memfasilitasi pemindahan personel, pengalihan aset dan dokumen untuk kepentingan penyelenggaraan pemerintahan daerah dalam rangka meningkatkan pelayanan publik dan mempercepat terwujudnya kesejahteraan masyarakat di Kabupaten Konawe Kepulauan."
+              },
+              {
+                "type": "PLAINTEXT",
+                "text": "Dalam melaksanakan otonomi daerah, Kabupaten Konawe Kepulauan perlu melakukan berbagai upaya peningkatan kemampuan ekonomi, penyiapan sarana dan prasarana pemerintahan, pemberdayaan, dan peningkatan sumber daya manusia, serta pengelolaan sumber daya alam sesuai dengan peraturan perundang-undangan."
+              }
+            ]
+          },
+          {
+            "type": "PENJELASAN_PASAL_DEMI_PASAL",
+            "id": "",
+            "children": [
+              {
+                "type": "PENJELASAN_PASAL_DEMI_PASAL_TITLE",
+                "text": "II. PASAL DEMI PASAL"
+              },
+              {
+                "type": "PENJELASAN_PASAL",
+                "id": "",
+                "children": [
+                  {
+                    "type": "PASAL_NUMBER",
+                    "text": "Pasal 1"
+                  },
+                  {
+                    "type": "PLAINTEXT",
+                    "text": "Cukup jelas."
+                  }
+                ]
+              },
+              {
+                "type": "PENJELASAN_PASAL",
+                "id": "",
+                "children": [
+                  {
+                    "type": "PASAL_NUMBER",
+                    "text": "Pasal 2"
+                  },
+                  {
+                    "type": "PLAINTEXT",
+                    "text": "Cukup jelas."
+                  }
+                ]
+              },
+              {
+                "type": "PENJELASAN_PASAL",
+                "id": "",
+                "children": [
+                  {
+                    "type": "PASAL_NUMBER",
+                    "text": "Pasal 3"
+                  },
+                  {
+                    "type": "LIST",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "PENJELASAN_LIST_ITEM",
+                        "id": "",
+                        "children": [
+                          {
+                            "type": "PENJELASAN_AYAT",
+                            "text": "Ayat (1)"
+                          },
+                          {
+                            "type": "LIST",
+                            "id": "",
+                            "children": [
+                              {
+                                "type": "PENJELASAN_LIST_ITEM",
+                                "id": "",
+                                "children": [
+                                  {
+                                    "type": "PENJELASAN_HURUF",
+                                    "text": "Huruf a"
+                                  },
+                                  {
+                                    "type": "PLAINTEXT",
+                                    "text": "Desa/kelurahan yang masuk dalam cakupan Kecamatan Wawonii Barat adalah Kelurahan Langara Laut, Desa Langara Iwawo, Desa Lamoluo, Desa Wawola, Desa Mata Baho, Desa Mata Langara, Desa Langara Bajo, Desa Langara Indah, Desa Bukit Permai, dan Desa Wawobili."
+                                  }
+                                ]
+                              },
+                              {
+                                "type": "PENJELASAN_LIST_ITEM",
+                                "id": "",
+                                "children": [
+                                  {
+                                    "type": "PENJELASAN_HURUF",
+                                    "text": "Huruf b"
+                                  },
+                                  {
+                                    "type": "PLAINTEXT",
+                                    "text": "Desa/kelurahan yang masuk dalam cakupan Kecamatan Wawonii Utara adalah Kelurahan Lansilowo, Desa Tombaone Utama, Desa Labeau, Desa Tombaone, Desa Waworope, Desa Palingi, Desa Palingi Barat, Desa Wawoea, Desa Mata Buranga, Desa Mata Iwoi, Desa Labisa, Desa"
+                                  },
+                                  {
+                                    "type": "PLAINTEXT",
+                                    "text": "Wawo Beau, Desa Mawa, Desa Mata Bubu, Desa Tumburano, dan Desa Dongkalaea."
+                                  }
+                                ]
+                              },
+                              {
+                                "type": "PENJELASAN_LIST_ITEM",
+                                "id": "",
+                                "children": [
+                                  {
+                                    "type": "PENJELASAN_HURUF",
+                                    "text": "Huruf c"
+                                  },
+                                  {
+                                    "type": "PLAINTEXT",
+                                    "text": "Desa/kelurahan yang masuk dalam cakupan Kecamatan Wawonii Timur Laut adalah Kelurahan Ladianta, Desa Dimba, Desa Mata Dimba, Desa Tangkombuno, Desa Bangun Mekar, Desa Noko, Desa Puurau, Desa Baho Bubu, Desa Patande, dan Desa Watu Ondo."
+                                  }
+                                ]
+                              },
+                              {
+                                "type": "PENJELASAN_LIST_ITEM",
+                                "id": "",
+                                "children": [
+                                  {
+                                    "type": "PENJELASAN_HURUF",
+                                    "text": "Huruf d"
+                                  },
+                                  {
+                                    "type": "PLAINTEXT",
+                                    "text": "Desa/kelurahan yang masuk dalam cakupan Kecamatan Wawonii Timur adalah Kelurahan Munse, Desa Munse, Desa Wakadawu, Desa Tekonea, Desa Lebo, Desa Lapulu, Desa Nanga, Desa Butuea, Desa Lembono, dan Desa Laywo."
+                                  }
+                                ]
+                              },
+                              {
+                                "type": "PENJELASAN_LIST_ITEM",
+                                "id": "",
+                                "children": [
+                                  {
+                                    "type": "PENJELASAN_HURUF",
+                                    "text": "Huruf e"
+                                  },
+                                  {
+                                    "type": "PLAINTEXT",
+                                    "text": "Desa yang masuk dalam cakupan Kecamatan Wawonii Tenggara adalah Desa Polara, Desa Wunse Jaya, Desa Mosolo, Desa Nambo Jaya, Desa Tondonggito, Desa Roko Roko, Desa Dompo Dompo Jaya, Desa Sainoa Indah, Desa Sinaulu Jaya, Desa Teporoko, Desa Sinar Masolo, dan Desa Sukarela Jaya."
+                                  }
+                                ]
+                              },
+                              {
+                                "type": "PENJELASAN_LIST_ITEM",
+                                "id": "",
+                                "children": [
+                                  {
+                                    "type": "PENJELASAN_HURUF",
+                                    "text": "Huruf f"
+                                  },
+                                  {
+                                    "type": "PLAINTEXT",
+                                    "text": "Desa/kelurahan yang masuk dalam cakupan Kecamatan Wawonii Selatan adalah Kelurahan Sawaea, Desa Wungkolo, Desa Bobolio, Desa Baku Baku, Desa Wawouso, Desa Wawouso Baru, Desa Lawey, Desa Sawa Patani, dan Desa Wawo One, dan Desa Puuwatu."
+                                  }
+                                ]
+                              },
+                              {
+                                "type": "PENJELASAN_LIST_ITEM",
+                                "id": "",
+                                "children": [
+                                  {
+                                    "type": "PENJELASAN_HURUF",
+                                    "text": "Huruf g"
+                                  },
+                                  {
+                                    "type": "PLAINTEXT",
+                                    "text": "Desa/kelurahan yang masuk dalam cakupan Kecamatan Wawonii Tengah adalah Kelurahan Lampeapi, Desa Lampeapi Baru, Desa Lamongupa, Desa Wawo Indah, Desa Tumbu Tumbu Jaya, Desa Batumea, Desa Pesue, Desa Mekar Sari, Desa Rawa Indah, dan Desa Morobea."
+                                  }
+                                ]
+                              }
+                            ]
+                          }
+                        ]
+                      },
+                      {
+                        "type": "PENJELASAN_LIST_ITEM",
+                        "id": "",
+                        "children": [
+                          {
+                            "type": "PENJELASAN_AYAT",
+                            "text": "Ayat (2)"
+                          },
+                          {
+                            "type": "PLAINTEXT",
+                            "text": "Cukup jelas."
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "PENJELASAN_PASAL",
+                "id": "",
+                "children": [
+                  {
+                    "type": "PASAL_NUMBER",
+                    "text": "Pasal 4"
+                  },
+                  {
+                    "type": "PLAINTEXT",
+                    "text": "Yang dimaksud wilayah Kabupaten Konawe setelah terbentuknya Kabupaten Konawe Kepulauan adalah mencakup wilayah Kecamatan Lambuya, Kecamatan Unaaha, Kecamatan Wawotobi, Kecamatan Pondidaha, Kecamatan Sampara, Kecamatan Abuki, Kecamatan Soropia, Kecamatan Tongauna, Kecamatan Latoma, Kecamatan Puriala, Kecamatan Uepai, Kecamatan Wonggeduku, Kecamatan Besulutu, Kecamatan Bondoala, Kecamatan Routa, Kecamatan Anggaberi, Kecamatan Meluhu, Kecamatan Amonggedo, Kecamatan Asinua, Kecamatan Konawe, Kecamatan Kapoiala, Kecamatan Lalonggasumeeto, dan Kecamatan Onembute."
+                  }
+                ]
+              },
+              {
+                "type": "PENJELASAN_PASAL",
+                "id": "",
+                "children": [
+                  {
+                    "type": "PASAL_NUMBER",
+                    "text": "Pasal 5"
+                  },
+                  {
+                    "type": "LIST",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "PENJELASAN_LIST_ITEM",
+                        "id": "",
+                        "children": [
+                          {
+                            "type": "PENJELASAN_AYAT",
+                            "text": "Ayat (1)"
+                          },
+                          {
+                            "type": "PLAINTEXT",
+                            "text": "Cukup jelas."
+                          }
+                        ]
+                      },
+                      {
+                        "type": "PENJELASAN_LIST_ITEM",
+                        "id": "",
+                        "children": [
+                          {
+                            "type": "PENJELASAN_AYAT",
+                            "text": "Ayat (2)"
+                          },
+                          {
+                            "type": "PLAINTEXT",
+                            "text": "Lampiran peta cakupan wilayah yang digambarkan dengan skala 1:100.000."
+                          },
+                          {
+                            "type": "PLAINTEXT",
+                            "text": "Yang dimaksud dengan persetujuan pihak-pihak terkait adalah persetujuan berupa tanda tangan Bupati Konawe, Ketua Dewan Perwakilan Rakyat Daerah Kabupaten Konawe, Bupati Konawe Selatan, dan Ketua Dewan Perwakilan Rakyat Daerah Kabupaten Konawe Selatan yang wilayah cakupannya berbatasan dengan daerah otonom baru pada peta yang diterbitkan Badan Informasi Geospasial (BIG)."
+                          }
+                        ]
+                      },
+                      {
+                        "type": "PENJELASAN_LIST_ITEM",
+                        "id": "",
+                        "children": [
+                          {
+                            "type": "PENJELASAN_AYAT",
+                            "text": "Ayat (3)"
+                          },
+                          {
+                            "type": "PLAINTEXT",
+                            "text": "Cukup jelas."
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "PENJELASAN_PASAL",
+                "id": "",
+                "children": [
+                  {
+                    "type": "PASAL_NUMBER",
+                    "text": "Pasal 6"
+                  },
+                  {
+                    "type": "LIST",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "PENJELASAN_LIST_ITEM",
+                        "id": "",
+                        "children": [
+                          {
+                            "type": "PENJELASAN_AYAT",
+                            "text": "Ayat (1)"
+                          },
+                          {
+                            "type": "PLAINTEXT",
+                            "text": "Cukup jelas."
+                          }
+                        ]
+                      },
+                      {
+                        "type": "PENJELASAN_LIST_ITEM",
+                        "id": "",
+                        "children": [
+                          {
+                            "type": "PENJELASAN_AYAT",
+                            "text": "Ayat (2)"
+                          },
+                          {
+                            "type": "PLAINTEXT",
+                            "text": "Dalam rangka pengembangan Kabupaten Konawe Kepulauan khususnya guna perencanaan dan penyelenggaraan pemerintahan, pelaksanaan pembangunan dan pelayanan masyarakat pada masa yang akan datang, serta pengembangan sarana dan prasarana pemerintahan, pembangunan dan kemasyarakatan, diperlukan adanya kesatuan perencanaan pembangunan. Untuk itu Rencana Tata Ruang Wilayah Kabupaten Konawe Kepulauan harus disusun secara serasi dan terpadu dengan Rencana Tata Ruang Wilayah Nasional, Provinsi, dan Kabupaten/Kota."
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "PENJELASAN_PASAL",
+                "id": "",
+                "children": [
+                  {
+                    "type": "PASAL_NUMBER",
+                    "text": "Pasal 7"
+                  },
+                  {
+                    "type": "PLAINTEXT",
+                    "text": "Cukup jelas."
+                  }
+                ]
+              },
+              {
+                "type": "PENJELASAN_PASAL",
+                "id": "",
+                "children": [
+                  {
+                    "type": "PASAL_NUMBER",
+                    "text": "Pasal 8"
+                  },
+                  {
+                    "type": "PLAINTEXT",
+                    "text": "Cukup jelas."
+                  }
+                ]
+              },
+              {
+                "type": "PENJELASAN_PASAL",
+                "id": "",
+                "children": [
+                  {
+                    "type": "PASAL_NUMBER",
+                    "text": "Pasal 9"
+                  },
+                  {
+                    "type": "PLAINTEXT",
+                    "text": "Peresmian kabupaten dan pelantikan Penjabat Bupati Konawe Kepulauan dapat dilakukan secara bersamaan dan pelaksanaannya dapat dilakukan di ibu kota negara, ibu kota provinsi, atau ibu kota kabupaten."
+                  }
+                ]
+              },
+              {
+                "type": "PENJELASAN_PASAL",
+                "id": "",
+                "children": [
+                  {
+                    "type": "PASAL_NUMBER",
+                    "text": "Pasal 10"
+                  },
+                  {
+                    "type": "LIST",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "PENJELASAN_LIST_ITEM",
+                        "id": "",
+                        "children": [
+                          {
+                            "type": "PENJELASAN_AYAT",
+                            "text": "Ayat (1)"
+                          },
+                          {
+                            "type": "PLAINTEXT",
+                            "text": "Cukup jelas."
+                          }
+                        ]
+                      },
+                      {
+                        "type": "PENJELASAN_LIST_ITEM",
+                        "id": "",
+                        "children": [
+                          {
+                            "type": "PENJELASAN_AYAT",
+                            "text": "Ayat (2)"
+                          },
+                          {
+                            "type": "PLAINTEXT",
+                            "text": "Penjabat Bupati Konawe Kepulauan diusulkan oleh Gubernur Sulawesi Tenggara dengan pertimbangan Bupati Konawe."
+                          }
+                        ]
+                      },
+                      {
+                        "type": "PENJELASAN_LIST_ITEM",
+                        "id": "",
+                        "children": [
+                          {
+                            "type": "PENJELASAN_AYAT",
+                            "text": "Ayat (3)"
+                          },
+                          {
+                            "type": "PLAINTEXT",
+                            "text": "Cukup jelas."
+                          }
+                        ]
+                      },
+                      {
+                        "type": "PENJELASAN_LIST_ITEM",
+                        "id": "",
+                        "children": [
+                          {
+                            "type": "PENJELASAN_AYAT",
+                            "text": "Ayat (4)"
+                          },
+                          {
+                            "type": "PLAINTEXT",
+                            "text": "Cukup jelas."
+                          }
+                        ]
+                      },
+                      {
+                        "type": "PENJELASAN_LIST_ITEM",
+                        "id": "",
+                        "children": [
+                          {
+                            "type": "PENJELASAN_AYAT",
+                            "text": "Ayat (5)"
+                          },
+                          {
+                            "type": "PLAINTEXT",
+                            "text": "Cukup jelas."
+                          }
+                        ]
+                      },
+                      {
+                        "type": "PENJELASAN_LIST_ITEM",
+                        "id": "",
+                        "children": [
+                          {
+                            "type": "PENJELASAN_AYAT",
+                            "text": "Ayat (6)"
+                          },
+                          {
+                            "type": "PLAINTEXT",
+                            "text": "Cukup jelas."
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "PENJELASAN_PASAL",
+                "id": "",
+                "children": [
+                  {
+                    "type": "PASAL_NUMBER",
+                    "text": "Pasal 11"
+                  },
+                  {
+                    "type": "PLAINTEXT",
+                    "text": "Biaya pelaksanaan pemilihan Bupati dan/atau Wakil Bupati Konawe Kepulauan untuk pertama kali berasal dari hibah Anggaran Pendapatan dan Belanja Daerah Kabupaten Konawe dan bantuan dana Anggaran Pendapatan dan Belanja Daerah Provinsi Sulawesi Tenggara."
+                  }
+                ]
+              },
+              {
+                "type": "PENJELASAN_PASAL",
+                "id": "",
+                "children": [
+                  {
+                    "type": "PASAL_NUMBER",
+                    "text": "Pasal 12"
+                  },
+                  {
+                    "type": "PLAINTEXT",
+                    "text": "Cukup jelas."
+                  }
+                ]
+              },
+              {
+                "type": "PENJELASAN_PASAL",
+                "id": "",
+                "children": [
+                  {
+                    "type": "PASAL_NUMBER",
+                    "text": "Pasal 13"
+                  },
+                  {
+                    "type": "PLAINTEXT",
+                    "text": "Cukup jelas."
+                  }
+                ]
+              },
+              {
+                "type": "PENJELASAN_PASAL",
+                "id": "",
+                "children": [
+                  {
+                    "type": "PASAL_NUMBER",
+                    "text": "Pasal 14"
+                  },
+                  {
+                    "type": "LIST",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "PENJELASAN_LIST_ITEM",
+                        "id": "",
+                        "children": [
+                          {
+                            "type": "PENJELASAN_AYAT",
+                            "text": "Ayat (1)"
+                          },
+                          {
+                            "type": "PLAINTEXT",
+                            "text": "Cukup jelas."
+                          }
+                        ]
+                      },
+                      {
+                        "type": "PENJELASAN_LIST_ITEM",
+                        "id": "",
+                        "children": [
+                          {
+                            "type": "PENJELASAN_AYAT",
+                            "text": "Ayat (2)"
+                          },
+                          {
+                            "type": "PLAINTEXT",
+                            "text": "Cukup jelas."
+                          }
+                        ]
+                      },
+                      {
+                        "type": "PENJELASAN_LIST_ITEM",
+                        "id": "",
+                        "children": [
+                          {
+                            "type": "PENJELASAN_AYAT",
+                            "text": "Ayat (3)"
+                          },
+                          {
+                            "type": "PLAINTEXT",
+                            "text": "Cukup jelas."
+                          }
+                        ]
+                      },
+                      {
+                        "type": "PENJELASAN_LIST_ITEM",
+                        "id": "",
+                        "children": [
+                          {
+                            "type": "PENJELASAN_AYAT",
+                            "text": "Ayat (4)"
+                          },
+                          {
+                            "type": "PLAINTEXT",
+                            "text": "Cukup jelas."
+                          }
+                        ]
+                      },
+                      {
+                        "type": "PENJELASAN_LIST_ITEM",
+                        "id": "",
+                        "children": [
+                          {
+                            "type": "PENJELASAN_AYAT",
+                            "text": "Ayat (5)"
+                          },
+                          {
+                            "type": "PLAINTEXT",
+                            "text": "Untuk mencapai daya guna dan hasil guna penyelenggaraan pemerintahan, pelaksanaan pembangunan dan pelayanan kemasyarakatan, digunakan pegawai, tanah, gedung perkantoran dan perlengkapannya, serta fasilitas pelayanan umum yang telah ada selama ini dalam pelaksanaan tugas Pemerintah Kabupaten Konawe dalam wilayah Kabupaten Konawe Kepulauan."
+                          },
+                          {
+                            "type": "PLAINTEXT",
+                            "text": "Dalam rangka tertib administrasi, diperlukan tindakan hukum berupa penyerahan personel, aset, dan dokumen dari Pemerintah Kabupaten Konawe kepada Pemerintah Kabupaten Konawe Kepulauan."
+                          },
+                          {
+                            "type": "PLAINTEXT",
+                            "text": "Badan Usaha Milik Daerah (BUMD) Kabupaten Konawe yang berkedudukan, kegiatan, dan lokasinya berada di Kabupaten Konawe Kepulauan diserahkan oleh Pemerintah Kabupaten Konawe kepada Pemerintah Kabupaten Konawe Kepulauan."
+                          },
+                          {
+                            "type": "PLAINTEXT",
+                            "text": "Dalam hal Badan Usaha Milik Daerah (BUMD) yang pelayanan/kegiatan operasionalnya mencakup kabupaten induk dan kabupaten baru, pemerintah daerah yang bersangkutan melakukan kerja sama."
+                          },
+                          {
+                            "type": "PLAINTEXT",
+                            "text": "Utang piutang yang penggunaannya dimanfaatkan untuk Kabupaten Konawe Kepulauan diserahkan oleh Pemerintah Kabupaten Konawe kepada Pemerintah Kabupaten Konawe Kepulauan."
+                          },
+                          {
+                            "type": "PLAINTEXT",
+                            "text": "Berkenaan dengan pengaturan penyerahan tersebut, dibuatkan daftar inventaris."
+                          }
+                        ]
+                      },
+                      {
+                        "type": "PENJELASAN_LIST_ITEM",
+                        "id": "",
+                        "children": [
+                          {
+                            "type": "PENJELASAN_AYAT",
+                            "text": "Ayat (6)"
+                          },
+                          {
+                            "type": "PLAINTEXT",
+                            "text": "Cukup jelas."
+                          }
+                        ]
+                      },
+                      {
+                        "type": "PENJELASAN_LIST_ITEM",
+                        "id": "",
+                        "children": [
+                          {
+                            "type": "PENJELASAN_AYAT",
+                            "text": "Ayat (7)"
+                          },
+                          {
+                            "type": "PLAINTEXT",
+                            "text": "Penyerahan aset dan dokumen dilakukan sesuai dengan peraturan perundang-undangan."
+                          }
+                        ]
+                      },
+                      {
+                        "type": "PENJELASAN_LIST_ITEM",
+                        "id": "",
+                        "children": [
+                          {
+                            "type": "PENJELASAN_AYAT",
+                            "text": "Ayat (8)"
+                          },
+                          {
+                            "type": "PLAINTEXT",
+                            "text": "Cukup jelas."
+                          }
+                        ]
+                      },
+                      {
+                        "type": "PENJELASAN_LIST_ITEM",
+                        "id": "",
+                        "children": [
+                          {
+                            "type": "PENJELASAN_AYAT",
+                            "text": "Ayat (9)"
+                          },
+                          {
+                            "type": "PLAINTEXT",
+                            "text": "Cukup jelas."
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "PENJELASAN_PASAL",
+                "id": "",
+                "children": [
+                  {
+                    "type": "PASAL_NUMBER",
+                    "text": "Pasal 15"
+                  },
+                  {
+                    "type": "LIST",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "PENJELASAN_LIST_ITEM",
+                        "id": "",
+                        "children": [
+                          {
+                            "type": "PENJELASAN_AYAT",
+                            "text": "Ayat (1)"
+                          },
+                          {
+                            "type": "PLAINTEXT",
+                            "text": "Cukup jelas."
+                          }
+                        ]
+                      },
+                      {
+                        "type": "PENJELASAN_LIST_ITEM",
+                        "id": "",
+                        "children": [
+                          {
+                            "type": "PENJELASAN_AYAT",
+                            "text": "Ayat (2)"
+                          },
+                          {
+                            "type": "PLAINTEXT",
+                            "text": "Cukup jelas."
+                          }
+                        ]
+                      },
+                      {
+                        "type": "PENJELASAN_LIST_ITEM",
+                        "id": "",
+                        "children": [
+                          {
+                            "type": "PENJELASAN_AYAT",
+                            "text": "Ayat (3)"
+                          },
+                          {
+                            "type": "PLAINTEXT",
+                            "text": "Dana transfer ke daerah dilakukan untuk meningkatkan kesejahteraan rakyat dan mengoptimalkan pelayanan publik serta tidak digunakan hanya untuk pembangunan dan/atau pengadaan sarana prasarana di antaranya kantor pemerintahan, rumah dinas, dan kendaraan dinas."
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "PENJELASAN_PASAL",
+                "id": "",
+                "children": [
+                  {
+                    "type": "PASAL_NUMBER",
+                    "text": "Pasal 16"
+                  },
+                  {
+                    "type": "LIST",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "PENJELASAN_LIST_ITEM",
+                        "id": "",
+                        "children": [
+                          {
+                            "type": "PENJELASAN_AYAT",
+                            "text": "Ayat (1)"
+                          },
+                          {
+                            "type": "PLAINTEXT",
+                            "text": "Yang dimaksud dengan memberikan hibah dalam ketentuan ini adalah pemberian sejumlah dana yang didasarkan pada Keputusan Bupati Konawe Nomor 295 Tahun 2010 tanggal 1 Juni 2010 dan Keputusan Dewan Perwakilan Rakyat Daerah Kabupaten Konawe Nomor : 06/DPRD/2010 tanggal 24 Mei 2010, termasuk untuk pelaksanaan pemilihan Bupati dan Wakil Bupati Konawe Kepulauan pertama kali."
+                          }
+                        ]
+                      },
+                      {
+                        "type": "PENJELASAN_LIST_ITEM",
+                        "id": "",
+                        "children": [
+                          {
+                            "type": "PENJELASAN_AYAT",
+                            "text": "Ayat (2)"
+                          },
+                          {
+                            "type": "PLAINTEXT",
+                            "text": "Yang dimaksud dengan memberikan bantuan dana dalam ketentuan ini adalah pemberian sejumlah dana yang didasarkan pada Keputusan Gubernur Sulawesi Tenggara Nomor 358 Tahun 2010 tanggal 18 Juni 2010 dan Keputusan Dewan Perwakilan Rakyat Daerah Provinsi Sulawesi Tenggara Nomor 6 Tahun 2010 tanggal 6 Juni 2010, serta untuk pelaksanaan pemilihan Bupati dan Wakil Bupati Konawe Kepulauan pertama kali sesuai dengan Keputusan Gubernur Sulawesi Tenggara Nomor 273 Tahun 2010 tanggal 27 April 2010, dan Keputusan Dewan Perwakilan Rakyat Daerah Provinsi Sulawesi Tenggara Nomor 6 Tahun 2010 tanggal 6 Juni 2010."
+                          }
+                        ]
+                      },
+                      {
+                        "type": "PENJELASAN_LIST_ITEM",
+                        "id": "",
+                        "children": [
+                          {
+                            "type": "PENJELASAN_AYAT",
+                            "text": "Ayat (3)"
+                          },
+                          {
+                            "type": "PLAINTEXT",
+                            "text": "Cukup jelas."
+                          }
+                        ]
+                      },
+                      {
+                        "type": "PENJELASAN_LIST_ITEM",
+                        "id": "",
+                        "children": [
+                          {
+                            "type": "PENJELASAN_AYAT",
+                            "text": "Ayat (4)"
+                          },
+                          {
+                            "type": "PLAINTEXT",
+                            "text": "Pengurangan penerimaan dana perimbangan sesuai mekanisme yang diatur dalam Peraturan Menteri Keuangan mengenai tata cara pemotongan dana alokasi umum dan dana bagi hasil daerah induk/provinsi yang tidak memenuhi kewajiban hibah/bantuan pendanaan kepada daerah otonom baru."
+                          }
+                        ]
+                      },
+                      {
+                        "type": "PENJELASAN_LIST_ITEM",
+                        "id": "",
+                        "children": [
+                          {
+                            "type": "PENJELASAN_AYAT",
+                            "text": "Ayat (5)"
+                          },
+                          {
+                            "type": "PLAINTEXT",
+                            "text": "Pengurangan penerimaan dana perimbangan sesuai mekanisme yang diatur dalam Peraturan Menteri Keuangan mengenai tata cara pemotongan dana alokasi umum dan dana bagi hasil daerah induk/provinsi yang tidak memenuhi kewajiban hibah/bantuan pendanaan kepada daerah otonom baru."
+                          }
+                        ]
+                      },
+                      {
+                        "type": "PENJELASAN_LIST_ITEM",
+                        "id": "",
+                        "children": [
+                          {
+                            "type": "PENJELASAN_AYAT",
+                            "text": "Ayat (6)"
+                          },
+                          {
+                            "type": "PLAINTEXT",
+                            "text": "Cukup jelas."
+                          }
+                        ]
+                      },
+                      {
+                        "type": "PENJELASAN_LIST_ITEM",
+                        "id": "",
+                        "children": [
+                          {
+                            "type": "PENJELASAN_AYAT",
+                            "text": "Ayat (7)"
+                          },
+                          {
+                            "type": "PLAINTEXT",
+                            "text": "Cukup jelas."
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "PENJELASAN_PASAL",
+                "id": "",
+                "children": [
+                  {
+                    "type": "PASAL_NUMBER",
+                    "text": "Pasal 17"
+                  },
+                  {
+                    "type": "PLAINTEXT",
+                    "text": "Cukup jelas."
+                  }
+                ]
+              },
+              {
+                "type": "PENJELASAN_PASAL",
+                "id": "",
+                "children": [
+                  {
+                    "type": "PASAL_NUMBER",
+                    "text": "Pasal 18"
+                  },
+                  {
+                    "type": "PLAINTEXT",
+                    "text": "Cukup jelas."
+                  }
+                ]
+              },
+              {
+                "type": "PENJELASAN_PASAL",
+                "id": "",
+                "children": [
+                  {
+                    "type": "PASAL_NUMBER",
+                    "text": "Pasal 19"
+                  },
+                  {
+                    "type": "PLAINTEXT",
+                    "text": "Cukup jelas."
+                  }
+                ]
+              },
+              {
+                "type": "PENJELASAN_PASAL",
+                "id": "",
+                "children": [
+                  {
+                    "type": "PASAL_NUMBER",
+                    "text": "Pasal 20"
+                  },
+                  {
+                    "type": "PLAINTEXT",
+                    "text": "Cukup jelas."
+                  }
+                ]
+              },
+              {
+                "type": "PENJELASAN_PASAL",
+                "id": "",
+                "children": [
+                  {
+                    "type": "PASAL_NUMBER",
+                    "text": "Pasal 21"
+                  },
+                  {
+                    "type": "PLAINTEXT",
+                    "text": "Cukup jelas."
+                  }
+                ]
+              },
+              {
+                "type": "PENJELASAN_PASAL",
+                "id": "",
+                "children": [
+                  {
+                    "type": "PASAL_NUMBER",
+                    "text": "Pasal 22"
+                  },
+                  {
+                    "type": "PLAINTEXT",
+                    "text": "Cukup jelas."
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}
