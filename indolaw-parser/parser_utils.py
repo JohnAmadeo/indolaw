@@ -60,27 +60,27 @@ class CleaningStageOrder(IntEnum):
 CLEANING_STAGES: Dict[CleaningStageOrder, Dict[str, List[str]]] = {
     CleaningStageOrder.CLEAN_SQUASHED_PAGE_NUMBERS:
         {
-            'law_cleaned': []
+            'cleaned_law': []
         },
     CleaningStageOrder.CLEAN_MAYBE_LIST_ITEMS:
         {
-            'law_cleaned': []
+            'cleaned_law': []
         },
     CleaningStageOrder.CLEAN_MAYBE_SQUASHED_HEADINGS:
         {
-            'law_cleaned': []
+            'cleaned_law': []
         },
     CleaningStageOrder.CLEAN_SPLIT_PLAINTEXT:
         {
-            'law_cleaned': []
+            'cleaned_law': []
         },
     CleaningStageOrder.CLEAN_SPLIT_PASAL_NUMBER:
         {
-            'law_cleaned': []
+            'cleaned_law': []
         },
     CleaningStageOrder.INSERT_PERUBAHAN_QUOTES:
         {
-            'law_cleaned': []
+            'cleaned_law': []
         }
 }
 
@@ -420,8 +420,8 @@ def clean_law(law: List[str]) -> List[str]:
     law = list(filterfalse(ignore_line, law))
 
     next_cleaning_stage = 1
-    len_CleaningStageOrder = len(CleaningStageOrder)
-    input_stage = '1'
+    len_cleaning_stage_order = len(CleaningStageOrder)
+    pick_stage = '1'
 
     '''
     Saving mechanism is created to allow users to redo their inputs in
@@ -432,7 +432,7 @@ def clean_law(law: List[str]) -> List[str]:
     and saving each subsequent transformation on the previous law (ordered list of strings)
     into a dictionary in the stage order. With each stage passed, the user is prompted
     to say 'n' which would automatically choose the next stage, or to choose a number
-    (int_input_stage) based on stages that have passed.
+    (int_pick_stage) based on stages that have passed.
 
     When a user goes back to a certain stage by choosing a number (x), all 
     resulting laws from x + 1 onwards are deleted to ensure order and consistency
@@ -443,12 +443,12 @@ def clean_law(law: List[str]) -> List[str]:
 
     The terminal will continuously ask for user input
     and stay in the cleaning stage until the next_cleaning_stage
-    is bigger than the number of stages (len_CleaningStageOrder)
+    is bigger than the number of stages (len_cleaning_stage_order)
 
     This is to ensure that the user can go back to cleaning
     for possible revisions even if all cleaning stages have been completed.
     '''
-    while next_cleaning_stage <= len_CleaningStageOrder:
+    while next_cleaning_stage <= len_cleaning_stage_order:
         
         if next_cleaning_stage > 1:
 
@@ -456,42 +456,47 @@ def clean_law(law: List[str]) -> List[str]:
             print("")
             print(colored('SAVED STAGES: ', 'blue'))
             for stage in CleaningStageOrder:
-                if len(CLEANING_STAGES[stage]['law_cleaned']) == 0:
+                if len(CLEANING_STAGES[stage]['cleaned_law']) == 0:
                     break
                 print(f"{stage.value}. {stage.name}")
             print("")
             print_line()
             
             pick_number = colored('number', 'blue')
-            pick_n = colored('n', 'blue')
+            pick_d = colored('d', 'blue')
 
             print(f"Pick a stage {pick_number} or")
-            input_stage = input(f"enter {pick_n} to go to the next stage: ")
+            pick_stage = input(f"enter {pick_d} to go to the next stage: ")
 
-        if input_stage == 'n':
+        if pick_stage == 'd':
             '''Next cleaning stage depends on last cleaned stage'''
             print(f"next cleaning stage is {next_cleaning_stage}")
-            input_stage = next_cleaning_stage
+            pick_stage = next_cleaning_stage
 
-        elif not input_stage.isnumeric():
+        elif not pick_stage.isnumeric():
             print("")
-            print(f"{colored('Invalid input. Choose n or a number', 'red')}")
+            print(f"{colored('Invalid input. Choose {pick_d} or a {pick_number}', 'red')}")
             continue
 
-        int_input_stage = int(input_stage)
+        int_pick_stage = int(pick_stage)
+        current_stage = CLEANING_STAGES[CleaningStageOrder(int_pick_stage)]
 
-        if int_input_stage > len_CleaningStageOrder:
+        if int_pick_stage == 1:
+            previous_stage = {'cleaned_law': law}
+        else:
+            previous_stage = CLEANING_STAGES[CleaningStageOrder(int_pick_stage - 1)]
+
+        if int_pick_stage > len_cleaning_stage_order:
             print("")
             print(f"{colored('Invalid number. No stage with that number.', 'red')}")
             continue
 
-        elif (int_input_stage != 1 and len(CLEANING_STAGES[CleaningStageOrder(int_input_stage - 1)]['law_cleaned']) == 0):
+        elif (int_pick_stage != 1 and len(previous_stage['cleaned_law']) == 0):
             '''
-            Checks whether or not the previous stage from int_input_stage has a valid law list
-            If not, then the stage of int_input_stage should not be implemented
+            Checks whether or not the previous stage from int_pick_stage has a valid law list
+            If not, then the stage of int_pick_stage should not be implemented
             and the terminal should re-ask the user for input
             '''
-            
             print("")
             print(f"{colored('Invalid stage number. All former stages must be cleaned first.', 'red')}")
             continue
@@ -500,31 +505,24 @@ def clean_law(law: List[str]) -> List[str]:
         Uses clean_law_at_stage to find which function to implement
         Read documentation on clean_law_at_stage for more information
         '''
-        if int_input_stage == 1:
-            new_law = clean_law_at_stage(int_input_stage, law)
-            CLEANING_STAGES[CleaningStageOrder(int_input_stage)]['law_cleaned'] = new_law
-            
-            next_cleaning_stage += 1
-
-        elif int_input_stage in range(2, len_CleaningStageOrder + 1):
+        if int_pick_stage in range(1, len_cleaning_stage_order + 1):
             try:
-                new_law = clean_law_at_stage(int_input_stage, CLEANING_STAGES[CleaningStageOrder(int_input_stage - 1)]['law_cleaned'])
-                CLEANING_STAGES[CleaningStageOrder(int_input_stage)]['law_cleaned'] = new_law
+                current_stage['cleaned_law'] = clean_law_at_stage(int_pick_stage, previous_stage['cleaned_law'])
 
-                next_cleaning_stage = int_input_stage + 1
-            except ValueError:
-                raise(f'No logic for handling {CLEANING_STAGES[CleaningStageOrder(int_input_stage)]}')
+                next_cleaning_stage = int_pick_stage + 1
+            except:
+                raise(f'No logic for handling {current_stage}')
 
         else:
-            raise("Invalid input.")
+            raise ValueError("Invalid input.")
         
-        if next_cleaning_stage > len_CleaningStageOrder:
+        if next_cleaning_stage > len_cleaning_stage_order:
             '''
             At this point all cleaning stages have passed.
 
             Explicit permission from user is needed to proceed to parsing.
             If user permission is not given, user is given a chance to
-            redo any stage.
+            redo any cleaning stage.
             '''
             print_section_header("Last cleaning stage finished")
             print("Proceed to parsing?")
@@ -532,17 +530,16 @@ def clean_law(law: List[str]) -> List[str]:
             print("(n) to undo to specific cleaning stages.")
             print_yes_no()
 
-            input_finish = ''
+            finish_parsing = ''
 
-            while input_finish not in ('y', 'n'):
-                input_finish = input()
-                if input_finish == 'y':
+            while finish_parsing not in ('y', 'n'):
+                finish_parsing = input()
+                if finish_parsing == 'y':
                     print(colored('Proceeding to parsing...', 'blue'))
                     next_cleaning_stage += 1
-                elif input_finish == 'n':
-                    print(f"currently the next stage number is {next_cleaning_stage}")
+                elif finish_parsing == 'n':
                     print(colored('Going back to cleaning stages...', 'blue'))
-                    next_cleaning_stage = len_CleaningStageOrder
+                    next_cleaning_stage = len_cleaning_stage_order
                 else:
                     print(colored('Invalid input.', 'red'))
 
@@ -551,10 +548,10 @@ def clean_law(law: List[str]) -> List[str]:
             Deleting stage n + 1 and subsequent stages to eliminate the chance of
             double-cleaning/wrongful steps of cleaning
             '''
-            for i in range(int_input_stage + 1, len_CleaningStageOrder):
-                CLEANING_STAGES[CleaningStageOrder(i)]['law_cleaned'].clear()
+            for i in range(int_pick_stage + 1, len_cleaning_stage_order):
+                CLEANING_STAGES[CleaningStageOrder(i)]['cleaned_law'].clear()
 
-    return CLEANING_STAGES[CleaningStageOrder(len_CleaningStageOrder)]['law_cleaned']
+    return CLEANING_STAGES[CleaningStageOrder(len_cleaning_stage_order)]['cleaned_law']
 
 def clean_split_pasal_number(law: List[str]) -> List[str]:
     new_law = []
