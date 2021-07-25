@@ -1,0 +1,504 @@
+{
+  "metadata": {
+    "lembaranNegaraNumber": 103,
+    "lembaranNegaraYear": 2010,
+    "tambahanLembaranNumber": 5152,
+    "number": 6,
+    "topic": "Pengesahan Memorandum Saling Pengertian Antara Pemerintah Republik Indonesia Dan Kerajaan Kebawah Duli Yang Maha Mulia Paduka Seri Baginda Sultan Dan Yang Di Pertuan Negara Brunei Darussalam Tentang Kerjasama Di Bidang Pertahanan (memorandum Of Understanding Between The Government Of The Republic Of Indonesia And The Government Of His Majesty The Sultan And Yang Di-pertuan Of Brunei Darussalam On Defence Cooperation)",
+    "year": 2010
+  },
+  "content": {
+    "type": "UNDANG_UNDANG",
+    "id": "",
+    "children": [
+      {
+        "type": "OPENING",
+        "id": "",
+        "children": [
+          {
+            "type": "UU_TITLE",
+            "id": "",
+            "children": [
+              {
+                "type": "PLAINTEXT",
+                "text": "UNDANG-UNDANG REPUBLIK INDONESIA"
+              },
+              {
+                "type": "UU_TITLE_YEAR_AND_NUMBER",
+                "text": "NOMOR 6 TAHUN 2010"
+              },
+              {
+                "type": "PLAINTEXT",
+                "text": "TENTANG"
+              },
+              {
+                "type": "UU_TITLE_TOPIC",
+                "text": "PENGESAHAN MEMORANDUM SALING PENGERTIAN ANTARA PEMERINTAH REPUBLIK INDONESIA DAN KERAJAAN KEBAWAH DULI YANG MAHA MULIA PADUKA SERI BAGINDA SULTAN DAN YANG DI PERTUAN NEGARA BRUNEI DARUSSALAM TENTANG KERJASAMA DI BIDANG PERTAHANAN (MEMORANDUM OF UNDERSTANDING BETWEEN THE GOVERNMENT OF THE REPUBLIC OF INDONESIA AND THE GOVERNMENT OF HIS MAJESTY THE SULTAN AND YANG DI-PERTUAN OF BRUNEI DARUSSALAM ON DEFENCE COOPERATION)"
+              }
+            ]
+          },
+          {
+            "type": "PREFACE",
+            "id": "",
+            "children": [
+              {
+                "type": "PLAINTEXT",
+                "text": "DENGAN RAHMAT TUHAN YANG MAHA ESA"
+              },
+              {
+                "type": "PLAINTEXT",
+                "text": "PRESIDEN REPUBLIK INDONESIA,"
+              }
+            ]
+          },
+          {
+            "type": "CONSIDERATIONS",
+            "id": "",
+            "children": [
+              {
+                "type": "PLAINTEXT",
+                "text": "Menimbang:"
+              },
+              {
+                "type": "LIST",
+                "id": "",
+                "children": [
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "LETTER_WITH_DOT",
+                        "text": "a."
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "bahwa hubungan luar negeri yang dilandasi politik bebas aktif merupakan salah satu perwujudan dar i tujuan Pemerintah Negara Kesatuan Republik Indonesia sebagaimana tercantum dalam alinea keempat Pembukaan Undang-Undang Dasar Negara Republik Indonesia Tahun 1945, yaitu melindungi segenap bangsa Indonesia dan seluruh tumpah darah Indonesia dan untuk memajukan kesejahteraan umum, mencerdaskan kehidupan bangsa, dan ikut serta melaksanakan ketertiban dunia yang berdasarkan kemerdekaan, perdamaian abadi, dan keadilan sosial;"
+                      }
+                    ]
+                  },
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "LETTER_WITH_DOT",
+                        "text": "b."
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "bahwa perkembangan dunia yang ditandai dengan pesatnya kemajuan ilmu pengetahuan, teknologi, komunikasi, dan informasi mendorong bangsa-bangsa untuk saling meningkatkan hubungan di segala bidang, termasuk bidang pertahanan dengan menjalin kerja sama antarnegara, baik bilateral maupun multilateral;"
+                      }
+                    ]
+                  },
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "LETTER_WITH_DOT",
+                        "text": "c."
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "bahwa untuk meningkatkan hubungan persahabatan dan kerja sama di bidang pertahanan antara Pemerintah Republik Indonesia dan Kerajaan Kebawah Duli Yang Maha Mulia Paduka Seri Baginda Sultan dan Yang Di-Pertuan Negara Brunei Darussalam, maka pada tanggal 10 April 2003 di Jakarta telah ditandatangani Memorandum Saling Pengertian antara Pemerintah Republik Indonesia dan Kerajaan Kebawah Duli Yang Maha Mulia Paduka Seri Baginda Sultan dan Yang Di-Pertuan Negara Brunei Darussalam tentang Kerjasama di Bidang Pertahanan (Memorandum of Understanding between the Government of the Republic of Indonesia and the Government of His Majesty the Sultan and Yang Di Pertuan of Brunei Darussalam on Defence Cooperation);"
+                      }
+                    ]
+                  },
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "LETTER_WITH_DOT",
+                        "text": "d."
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "bahwa berdasarkan pertimbangan sebagaimana dimaksud dalam huruf a, huruf b, dan huruf c, perlu mengesahkan Memorandum Saling Pengertian antara Pemerintah Republik Indonesia dan Kerajaan Kebawah Duli Yang Maha Mulia Paduka Seri Baginda Sultan dan Yang Di-Pertuan Negara Brunei Darussalam tentang Kerjasama di Bidang Pertahanan (Memorandum of Understanding between the Government of the Republic of Indonesia and the Government of His Majesty the Sultan and Yang Di Pertuan of Brunei Darussalam on Defence Cooperation) dengan Undang-Undang;"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "PRINCIPLES",
+            "id": "",
+            "children": [
+              {
+                "type": "PLAINTEXT",
+                "text": "Mengingat:"
+              },
+              {
+                "type": "LIST",
+                "id": "",
+                "children": [
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "NUMBER_WITH_DOT",
+                        "text": "1."
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "Pasal 5 ayat (1), Pasal 11, Pasal 20, dan Pasal 30 Undang- Undang Dasar Negara Republik Indonesia Tahun 1945;"
+                      }
+                    ]
+                  },
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "NUMBER_WITH_DOT",
+                        "text": "2."
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "Undang-Undang Nomor 37 Tahun 1999 tentang Hubungan Luar Negeri (Lembaran Negara Republik Indonesia Tahun 1999 Nomor 156, Tambahan Lembaran Negara Republik Indonesia Nomor 3882);"
+                      }
+                    ]
+                  },
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "NUMBER_WITH_DOT",
+                        "text": "3."
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "Undang-Undang Nomor 24 Tahun 2000 tentang Perjanjian Internasional (Lembaran Negara Republik Indonesia Tahun 2000 Nomor 185, Tambahan Lembaran Negara Republik Indonesia Nomor 4012);"
+                      }
+                    ]
+                  },
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "NUMBER_WITH_DOT",
+                        "text": "4."
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "Undang-Undang Nomor 3 Tahun 2002 tentang Pertahanan Negara (Lembaran Negara Republik Indonesia Tahun 2002 Nomor 3, Tambahan Lembaran Negara Republik Indonesia Nomor 4169);"
+                      }
+                    ]
+                  },
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "NUMBER_WITH_DOT",
+                        "text": "5."
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "Undang-Undang Nomor 34 Tahun 2004 tentang Tentara Nasional Indonesia (Lembaran Negara Republik Indonesia Tahun 2004 Nomor 127, Tambahan Lembaran Negara Republik Indonesia Nomor 4439);"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "AGREEMENT",
+            "id": "",
+            "children": [
+              {
+                "type": "PLAINTEXT",
+                "text": "Dengan Persetujuan Bersama"
+              },
+              {
+                "type": "PLAINTEXT",
+                "text": "DEWAN PERWAKILAN RAKYAT REPUBLIK INDONESIA"
+              },
+              {
+                "type": "PLAINTEXT",
+                "text": "dan"
+              },
+              {
+                "type": "PLAINTEXT",
+                "text": "PRESIDEN REPUBLIK INDONESIA"
+              },
+              {
+                "type": "PLAINTEXT",
+                "text": "MEMUTUSKAN:"
+              },
+              {
+                "type": "PLAINTEXT",
+                "text": "Menetapkan:"
+              },
+              {
+                "type": "PLAINTEXT",
+                "text": "UNDANG-UNDANG TENTANG PENGESAHAN MEMORANDUM SALING PENGERTIAN ANTARA PEMERINTAH REPUBLIK INDONESIA DAN KERAJAAN KEBAWAH DULI YANG MAHA MULIA PADUKA SERI BAGINDA SULTAN DAN YANG DI-PERTUAN NEGARA BRUNEI DARUSSALAM TENTANG KERJASAMA DI BIDANG PERTAHANAN (MEMORANDUM OF UNDERSTANDING BETWEEN THE GOVERNMENT OF THE REPUBLIC OF INDONESIA AND THE GOVERNMENT OF HIS MAJESTY THE SULTAN AND YANG DI-PERTUAN OF BRUNEI DARUSSALAM ON DEFENCE COOPERATION)."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "PASAL",
+        "id": "pasal-1",
+        "children": [
+          {
+            "type": "PASAL_NUMBER",
+            "text": "Pasal 1"
+          },
+          {
+            "type": "PLAINTEXT",
+            "text": "Mengesahkan Memorandum Saling Pengertian antara Pemerintah Republik Indonesia dan Kerajaan Kebawah Duli Yang Maha Mulia Paduka Seri Baginda Sultan dan Yang Di-Pertuan Negara Brunei Darussalam tentang Kerjasama di Bidang Pertahanan (Memorandum of Understanding between the Government of the Republic of Indonesia and the Government of His Majesty the Sultan and Yang Di-Pertuan of Brunei Darussalam on Defence Cooperation) yang telah ditandatangani pada tanggal 10 April 2003 di Jakarta yang salinan naskah aslinya dalam bahasa Indonesia, bahasa Melayu, dan bahasa Inggris sebagaimana terlampir dan merupakan bagian yang tidak terpisahkan dari Undang- Undang ini."
+          }
+        ]
+      },
+      {
+        "type": "PASAL",
+        "id": "pasal-2",
+        "children": [
+          {
+            "type": "PASAL_NUMBER",
+            "text": "Pasal 2"
+          },
+          {
+            "type": "PLAINTEXT",
+            "text": "Undang-Undang ini mulai berlaku pada tanggal diundangkan."
+          },
+          {
+            "type": "PLAINTEXT",
+            "text": "Agar setiap 0rang mengetahuinya, memerintahkan pengundangan Undang-Undang ini dengan penempatannya dalam Lembaran Negara Republik Indonesia."
+          }
+        ]
+      },
+      {
+        "type": "CLOSING",
+        "id": "",
+        "children": [
+          {
+            "type": "PLAINTEXT",
+            "text": "Disahkan Di Jakarta,"
+          },
+          {
+            "type": "PLAINTEXT",
+            "text": "Pada Tanggal 27 Agustus 2010"
+          },
+          {
+            "type": "PLAINTEXT",
+            "text": "PRESIDEN REPUBLIK INDONESIA,"
+          },
+          {
+            "type": "PLAINTEXT",
+            "text": "Ttd."
+          },
+          {
+            "type": "PLAINTEXT",
+            "text": "DR. H. SUSILO BAMBANG YUDHOYONO"
+          },
+          {
+            "type": "PLAINTEXT",
+            "text": "Diundangkan Di Jakarta,"
+          },
+          {
+            "type": "PLAINTEXT",
+            "text": "Pada Tanggal 27 Agustus 2010"
+          },
+          {
+            "type": "PLAINTEXT",
+            "text": "MENTERI HUKUM DAN HAK ASASI MANUSIA REPUBLIK INDONESIA,"
+          },
+          {
+            "type": "PLAINTEXT",
+            "text": "Ttd."
+          },
+          {
+            "type": "PLAINTEXT",
+            "text": "PATRIALIS AKBAR"
+          },
+          {
+            "type": "LEMBARAN_NUMBER",
+            "text": "LEMBARAN NEGARA REPUBLIK INDONESIA TAHUN 2010 NOMOR 103"
+          }
+        ]
+      },
+      {
+        "type": "PENJELASAN",
+        "id": "penjelasan",
+        "children": [
+          {
+            "type": "PENJELASAN_TITLE",
+            "id": "",
+            "children": [
+              {
+                "type": "PLAINTEXT",
+                "text": "PENJELASAN"
+              },
+              {
+                "type": "PLAINTEXT",
+                "text": "UNDANG-UNDANG REPUBLIK INDONESIA"
+              },
+              {
+                "type": "UU_TITLE_YEAR_AND_NUMBER",
+                "text": "NOMOR 6 TAHUN 2010"
+              },
+              {
+                "type": "PLAINTEXT",
+                "text": "TENTANG"
+              },
+              {
+                "type": "UU_TITLE_TOPIC",
+                "text": "PENGESAHAN MEMORANDUM SALING PENGERTIAN ANTARA PEMERINTAH REPUBLIK INDONESIA DAN KERAJAAN KEBAWAH DULI YANG MAHA MULIA PADUKA SERI BAGINDA SULTAN DAN YANG DI PERTUAN NEGARA BRUNEI DARUSSALAM TENTANG KERJASAMA DI BIDANG PERTAHANAN (MEMORANDUM OF UNDERSTANDING BETWEEN THE GOVERNMENT OF THE REPUBLIC OF INDONESIA AND THE GOVERNMENT OF HIS MAJESTY THE SULTAN AND YANG DI-PERTUAN OF BRUNEI DARUSSALAM ON DEFENCE COOPERATION)"
+              }
+            ]
+          },
+          {
+            "type": "PENJELASAN_UMUM",
+            "id": "",
+            "children": [
+              {
+                "type": "PENJELASAN_UMUM_TITLE",
+                "text": "I. UMUM"
+              },
+              {
+                "type": "PLAINTEXT",
+                "text": "Dalam kehidupan bernegara, aspek pertahanan merupakan salah satu faktor yang sangat fundamental dalam menjamin kelangsungan hidup suatu negara. Kemampuan mempertahankan diri terhadap ancaman dar i luar negeri dan/atau dari dalam negeri memperkuat suatu negara dalam mempertahankan kedaulatannya."
+              },
+              {
+                "type": "PLAINTEXT",
+                "text": "Perkembangan dunia yang ditandai dengan pesatnya kemajuan ilmu pengetahuan, teknologi, komunikasi, dan informasi telah meningkatkan intensitas hubungan dan interdependensi antarnegara. Sejalan dengan peningkatan hubungan tersebut, kerja sama internasional di bidang pertahanan merupakan hal yang sangat diperlukan. Kerja sama tersebut didasarkan pada prinsip kesetaraan, saling menguntungkan, dan saling menghormati kedaulatan masing-masing negara."
+              },
+              {
+                "type": "PLAINTEXT",
+                "text": "Sebagai perwujudan kerja sama Pemerintah Republik Indonesia dan Kerajaan Kebawah Duli Yang Maha Mulia Paduka Seri Baginda Sultan dan Yang Di-Pertuan Negara Brunei Darussalam di bidang pertahanan, telah ditandatangani Memorandum Saling Pengertian kerja sama di bidang pertahanan pada tanggal 10 April 2003 di Jakarta dan selanjutnya perlu disahkan dengan undang-undang."
+              },
+              {
+                "type": "PLAINTEXT",
+                "text": "Undang-Undang ini bertujuan untuk mengesahkan Memorandum Saling Pengertian antara Pemerintah Republik Indonesia dan Kerajaan Kebawah Duli Yang Maha Mulia Paduka Seri Baginda Sultan dan Yang Di-Pertuan Negara Brunei Darussalam tentang Kerjasama di Bidang Pertahanan agar dapat dilaksanakan Beberapa bagian penting dalam Memorandum Saling Pengertian antara lain:"
+              },
+              {
+                "type": "LIST",
+                "id": "",
+                "children": [
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "NUMBER_WITH_DOT",
+                        "text": "1."
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "Penetapan kerangka kerja guna meningkatkan hubungan bilateral di antara badan pertahanan kedua pemerintah melalui kegiatan kerja sama di bidang pertahanan atas dasar rasa saling percaya dan untuk tujuan perdamaian."
+                      }
+                    ]
+                  },
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "NUMBER_WITH_DOT",
+                        "text": "2."
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "Lingkup kerja sama meliputi peningkatan kerja sama teknis, dukungan produksi dan pelayanan, industri pertahanan, pertukaran informasi intelijen, ilmu pengetahuan dan teknologi pertahanan, sumber daya manusia, serta kerja sama Angkatan Bersenjata dalam bidang Operasi, latihan bersama dan logistik."
+                      }
+                    ]
+                  },
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "NUMBER_WITH_DOT",
+                        "text": "3."
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "Pembentukan Komite Bersama dalam kerja sama pertahanan."
+                      }
+                    ]
+                  },
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "NUMBER_WITH_DOT",
+                        "text": "4."
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "Kedua belah pihak berkewajiban untuk melindungi informasi yang bersifat rahasia."
+                      }
+                    ]
+                  },
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "NUMBER_WITH_DOT",
+                        "text": "5."
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "Informasi rahasia dan peralatan hanya dapat diberikan melalui jalur resmi yang disetujui oleh para ketua komite bersama."
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "PENJELASAN_PASAL_DEMI_PASAL",
+            "id": "",
+            "children": [
+              {
+                "type": "PENJELASAN_PASAL_DEMI_PASAL_TITLE",
+                "text": "II. PASAL DEMI PASAL"
+              },
+              {
+                "type": "PENJELASAN_PASAL",
+                "id": "",
+                "children": [
+                  {
+                    "type": "PASAL_NUMBER",
+                    "text": "Pasal 1"
+                  },
+                  {
+                    "type": "PLAINTEXT",
+                    "text": "Cukup jelas."
+                  }
+                ]
+              },
+              {
+                "type": "PENJELASAN_PASAL",
+                "id": "",
+                "children": [
+                  {
+                    "type": "PASAL_NUMBER",
+                    "text": "Pasal 2"
+                  },
+                  {
+                    "type": "PLAINTEXT",
+                    "text": "Cukup jelas."
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}
