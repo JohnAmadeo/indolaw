@@ -1447,9 +1447,6 @@ def get_id(node: ComplexNode) -> str:
 
         pasal_number = pasal_number_node.text.split()[1]
 
-        is_in_penjelasan = is_x_an_ancestor(
-            node, Structure.PENJELASAN_PASAL_DEMI_PASAL)
-
         if node.type == Structure.PASAL:
             return f'pasal-{pasal_number}'
         elif node.type == Structure.PENJELASAN_PASAL:
