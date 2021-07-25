@@ -57,6 +57,7 @@ class CleaningStageOrder(IntEnum):
     CLEAN_SPLIT_PASAL_NUMBER = 5
     INSERT_PERUBAHAN_QUOTES = 6
 
+
 CLEANING_STAGES: Dict[CleaningStageOrder, Dict[str, List[str]]] = {
     CleaningStageOrder.CLEAN_SQUASHED_PAGE_NUMBERS:
         {
@@ -83,6 +84,7 @@ CLEANING_STAGES: Dict[CleaningStageOrder, Dict[str, List[str]]] = {
             'cleaned_law': []
         }
 }
+
 
 def ignore_line(line: str) -> bool:
     """Checks if a line should be ignored during parsing. These lines are usually
@@ -323,6 +325,7 @@ def load_clean_law(filename: str) -> List[str]:
 
     return law
 
+
 def clean_law_at_stage(stage: int, law: List[str]) -> List[str]:
     '''
     Picks which function to use on law - a list implementation of a law document -
@@ -344,7 +347,7 @@ def clean_law_at_stage(stage: int, law: List[str]) -> List[str]:
         onto the end of real lines
 
         e.g a real line ending in '2 / 43' in UU 18 2017
-        ''' 
+        '''
         return clean_squashed_page_numbers(law)
     elif stage == CleaningStageOrder.CLEAN_MAYBE_LIST_ITEMS.value:
         '''
@@ -372,6 +375,9 @@ def clean_law_at_stage(stage: int, law: List[str]) -> List[str]:
         Add OPEN_QUOTE_CHAR and CLOSE_QUOTE_CHAR to PERUBAHAN_SECTION and PENJELASAN_PERUBAHAN_SECTION
         '''
         return insert_perubahan_quotes(law)
+    else:
+        raise Exception(f'Unknown stage {stage}')
+
 
 def clean_law(law: List[str]) -> List[str]:
     """Takes in a law (in the form of an ordered list of strings) and performs transformations
@@ -449,7 +455,7 @@ def clean_law(law: List[str]) -> List[str]:
     for possible revisions even if all cleaning stages have been completed.
     '''
     while next_cleaning_stage <= len_cleaning_stage_order:
-        
+
         if next_cleaning_stage > 1:
 
             print_line()
@@ -461,7 +467,7 @@ def clean_law(law: List[str]) -> List[str]:
                 print(f"{stage.value}. {stage.name}")
             print("")
             print_line()
-            
+
             pick_number = colored('number', 'blue')
             pick_d = colored('d', 'blue')
 
@@ -471,11 +477,12 @@ def clean_law(law: List[str]) -> List[str]:
         if pick_stage == 'd':
             '''Next cleaning stage depends on last cleaned stage'''
             print(f"next cleaning stage is {next_cleaning_stage}")
-            pick_stage = next_cleaning_stage
+            pick_stage = str(next_cleaning_stage)
 
         elif not pick_stage.isnumeric():
             print("")
-            print(f"{colored('Invalid input. Choose {pick_d} or a {pick_number}', 'red')}")
+            print(
+                f"{colored('Invalid input. Choose {pick_d} or a {pick_number}', 'red')}")
             continue
 
         int_pick_stage = int(pick_stage)
@@ -484,7 +491,8 @@ def clean_law(law: List[str]) -> List[str]:
         if int_pick_stage == 1:
             previous_stage = {'cleaned_law': law}
         else:
-            previous_stage = CLEANING_STAGES[CleaningStageOrder(int_pick_stage - 1)]
+            previous_stage = CLEANING_STAGES[CleaningStageOrder(
+                int_pick_stage - 1)]
 
         if int_pick_stage > len_cleaning_stage_order:
             print("")
@@ -498,24 +506,26 @@ def clean_law(law: List[str]) -> List[str]:
             and the terminal should re-ask the user for input
             '''
             print("")
-            print(f"{colored('Invalid stage number. All former stages must be cleaned first.', 'red')}")
+            print(
+                f"{colored('Invalid stage number. All former stages must be cleaned first.', 'red')}")
             continue
-        
+
         '''
         Uses clean_law_at_stage to find which function to implement
         Read documentation on clean_law_at_stage for more information
         '''
         if int_pick_stage in range(1, len_cleaning_stage_order + 1):
             try:
-                current_stage['cleaned_law'] = clean_law_at_stage(int_pick_stage, previous_stage['cleaned_law'])
+                current_stage['cleaned_law'] = clean_law_at_stage(
+                    int_pick_stage, previous_stage['cleaned_law'])
 
                 next_cleaning_stage = int_pick_stage + 1
             except:
-                raise(f'No logic for handling {current_stage}')
+                raise Exception(f'No logic for handling {current_stage}')
 
         else:
             raise ValueError("Invalid input.")
-        
+
         if next_cleaning_stage > len_cleaning_stage_order:
             '''
             At this point all cleaning stages have passed.
@@ -552,6 +562,7 @@ def clean_law(law: List[str]) -> List[str]:
                 CLEANING_STAGES[CleaningStageOrder(i)]['cleaned_law'].clear()
 
     return CLEANING_STAGES[CleaningStageOrder(len_cleaning_stage_order)]['cleaned_law']
+
 
 def clean_split_pasal_number(law: List[str]) -> List[str]:
     new_law = []
@@ -1317,9 +1328,11 @@ def extract_metadata_from_tree(undang_undang_node: ComplexNode) -> Dict[str, Any
                     definition = definition_text[1].strip()
 
                     if 'yang selanjutnya disebut' in title:
-                        title = title.split(r' yang selanjutnya disebut ')[1].strip(' ,')
+                        title = title.split(r' yang selanjutnya disebut ')[
+                            1].strip(' ,')
                     if 'yang selanjutnya disingkat' in title:
-                        title = title.split(r' yang selanjutnya disingkat ')[1].strip(' ,')
+                        title = title.split(r' yang selanjutnya disingkat ')[
+                            1].strip(' ,')
 
                     ketentuan_umum[title.upper()] = definition
         else:
@@ -1331,9 +1344,11 @@ def extract_metadata_from_tree(undang_undang_node: ComplexNode) -> Dict[str, Any
                     title = child.text.split(r'adalah')[0].strip()
 
                     if 'yang selanjutnya disebut' in title:
-                        title = title.split(r' yang selanjutnya disebut ')[1].strip(' ,')
+                        title = title.split(r' yang selanjutnya disebut ')[
+                            1].strip(' ,')
                     if 'yang selanjutnya disingkat' in title:
-                        title = title.split(r' yang selanjutnya disingkat ')[1].strip(' ,')
+                        title = title.split(r' yang selanjutnya disingkat ')[
+                            1].strip(' ,')
 
                 elif child.type == Structure.LIST:
                     for list_item in child.children:
