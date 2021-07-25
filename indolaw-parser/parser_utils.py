@@ -406,8 +406,25 @@ def clean_law(law: List[str]) -> List[str]:
             'Informasi adalah keterangan',
         ]
     """
+    # TODO(johnamadeo): Make logic below a real stage?
+    def clean_whitespace(l):
+        return ' '.join(l.split())
+
     law = [line.strip() for line in law]
-    law = [' '.join(line.split()) for line in law]
+    law = [clean_whitespace(line) for line in law]
+
+    new_law = []
+    squashed_phrase = 'DENGAN RAHMAT TUHAN YANG MAHA ESA'
+    for line in law:
+        if line.endswith(squashed_phrase):
+            new_law.extend([
+                clean_whitespace(line.split(squashed_phrase)[0]),
+                squashed_phrase,
+            ])
+            pass
+        else:
+            new_law.append(line)
+    law = new_law
 
     '''
     Preps for cleaning stages saving mechanism
