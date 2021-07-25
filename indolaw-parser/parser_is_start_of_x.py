@@ -19,6 +19,7 @@ BAB_NUMBER_REGEX = r'(BAB [MDCLXVI]+[A-Z]*)'
 BAB_NUMBER_WITH_OPEN_QUOTE_CHAR_REGEX = r'(“BAB [MDCLXVI]+[A-Z]*)'
 BAGIAN_NUMBER_REGEX = r'(Bagian (Ke[a-z]+( (Belas|Puluh( [A-z][a-z]+)?))?|Pertama))'
 BAGIAN_NUMBER_WITH_OPEN_QUOTE_CHAR_REGEX = r'(“Bagian (Ke[a-z]+( (Belas|Puluh( [A-z][a-z]+)?))?|Pertama))'
+PARAGRAF_NUMBER_REGEX = r'(Paragraf[\s]+([0-9]+|Satu|Dua|Tiga|Empat|Lima|Enam|Tujuh|Delapan|Sembilan))'
 
 PAGE_NUMBER_REGEX = r'([0-9]+[\s]*\/[\s]*[0-9]+)'
 
@@ -778,7 +779,7 @@ def is_start_of_paragraf_number(law: List[str], start_index: int) -> bool:
         >>> is_start_of_paragraf_number(law, 1)
         True
     """
-    return is_heading(r'Paragraf[\s]+[0-9]+', law[start_index])
+    return is_heading(PARAGRAF_NUMBER_REGEX, law[start_index])
 
 
 def is_start_of_paragraf_title(law: List[str], start_index: int) -> bool:
