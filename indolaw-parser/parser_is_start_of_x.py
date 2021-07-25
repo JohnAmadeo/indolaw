@@ -1,7 +1,7 @@
 from typing import Dict, List, Union
 import re
 from parser_types import ListIndexDefinition, Structure
-from parser_ui import print_line, print_yes_no
+from parser_ui import print_line, print_yes_no_undo
 import pyperclip
 
 
@@ -1206,7 +1206,7 @@ def is_start_of_formatted_math_row(law: List[str], start_index: int) -> bool:
 
     pyperclip.copy(line)
     while True:
-        print_yes_no()
+        print_yes_no_undo()
         user_input = input()
         if user_input == 'y':
             return True
