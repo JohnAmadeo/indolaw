@@ -1,0 +1,714 @@
+{
+  "metadata": {
+    "lembaranNegaraNumber": 48,
+    "lembaranNegaraYear": 2015,
+    "tambahanLembaranNumber": 5673,
+    "number": 5,
+    "topic": "Pengesahan Perjanjian Ekstradisi Antara Republik Indonesia Dan Republik Sosialis Viet Nam (extradition Treaty Between The Republic Of Indonesia And The Socialist Republic Of Viet Nam)",
+    "year": 2015
+  },
+  "content": {
+    "type": "UNDANG_UNDANG",
+    "id": "",
+    "children": [
+      {
+        "type": "OPENING",
+        "id": "",
+        "children": [
+          {
+            "type": "UU_TITLE",
+            "id": "",
+            "children": [
+              {
+                "type": "PLAINTEXT",
+                "text": "UNDANG-UNDANG REPUBLIK INDONESIA"
+              },
+              {
+                "type": "UU_TITLE_YEAR_AND_NUMBER",
+                "text": "NOMOR 5 TAHUN 2015"
+              },
+              {
+                "type": "PLAINTEXT",
+                "text": "TENTANG"
+              },
+              {
+                "type": "UU_TITLE_TOPIC",
+                "text": "PENGESAHAN PERJANJIAN EKSTRADISI ANTARA REPUBLIK INDONESIA DAN REPUBLIK SOSIALIS VIET NAM (EXTRADITION TREATY BETWEEN THE REPUBLIC OF INDONESIA AND THE SOCIALIST REPUBLIC OF VIET NAM)"
+              }
+            ]
+          },
+          {
+            "type": "PREFACE",
+            "id": "",
+            "children": [
+              {
+                "type": "PLAINTEXT",
+                "text": "DENGAN RAHMAT TUHAN YANG MAHA ESA"
+              },
+              {
+                "type": "PLAINTEXT",
+                "text": "PRESIDEN REPUBLIK INDONESIA,"
+              }
+            ]
+          },
+          {
+            "type": "CONSIDERATIONS",
+            "id": "",
+            "children": [
+              {
+                "type": "PLAINTEXT",
+                "text": "Menimbang:"
+              },
+              {
+                "type": "LIST",
+                "id": "",
+                "children": [
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "LETTER_WITH_DOT",
+                        "text": "a."
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "bahwa dalam rangka mencapai tujuan Negara Republik Indonesia untuk melindungi segenap bangsa Indonesia dan seluruh tumpah darah Indonesia, dan untuk memajukan kesejahteraan umum, mencerdaskan kehidupan bangsa, dan ikut melaksanakan ketertiban dunia yang berdasarkan kemerdekaan, perdamaian abadi dan keadilan sosial, Pemerintah Republik Indonesia sebagai bagian dari masyarakat internasional melakukan hubungan dan kerja sama internasional yang diwujudkan dalam perjanjian internasional;"
+                      }
+                    ]
+                  },
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "LETTER_WITH_DOT",
+                        "text": "b."
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "bahwa kemajuan ilmu pengetahuan dan teknologi khususnya teknologi transportasi, komunikasi, dan informasi yang memudahkan lalu lintas manusia dari satu negara ke negara lain, selain mempunyai dampak positif juga mempunyai dampak negatif yang bersifat transnasional, yaitu memberikan peluang yang lebih besar bagi pelaku kejahatan untuk meloloskan diri dari penyidikan, penuntutan, dan pelaksanaan pidana dari negara tempat kejahatan dilakukan;"
+                      }
+                    ]
+                  },
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "LETTER_WITH_DOT",
+                        "text": "c."
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "bahwa untuk mencegah dampak negatif tersebut diperlukan kerja sama antarnegara yang efektif yang dilakukan melalui perjanjian, baik bilateral maupun multilateral, khususnya dalam pencegahan dan pemberantasan kejahatan;"
+                      }
+                    ]
+                  },
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "LETTER_WITH_DOT",
+                        "text": "d."
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "bahwa untuk meningkatkan hubungan dan kerja sama yang efektif tersebut, Pemerintah Republik Indonesia dan Pemerintah Republik Sosialis Viet Nam telah menandatangani Perjanjian Ekstradisi di Jakarta pada tanggal 27 Juni 2013;"
+                      }
+                    ]
+                  },
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "LETTER_WITH_DOT",
+                        "text": "e."
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "bahwa berdasarkan pertimbangan sebagaimana dimaksud dalam huruf a, huruf b, huruf c, dan huruf d, perlu membentuk Undang-Undang tentang Pengesahan Perjanjian Ekstradisi antara Republik Indonesia dan Republik Sosialis Viet Nam (Extradition Treaty between the Republic of Indonesia and the Socialist Republic of Viet Nam)."
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "PRINCIPLES",
+            "id": "",
+            "children": [
+              {
+                "type": "PLAINTEXT",
+                "text": "Mengingat:"
+              },
+              {
+                "type": "LIST",
+                "id": "",
+                "children": [
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "NUMBER_WITH_DOT",
+                        "text": "1."
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "Pasal 5 ayat (1), Pasal 11, dan Pasal 20 Undang-Undang Dasar Negara Republik Indonesia Tahun 1945;"
+                      }
+                    ]
+                  },
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "NUMBER_WITH_DOT",
+                        "text": "2."
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "Undang-Undang Nomor 1 Tahun 1979 tentang Ekstradisi (Lembaran Negara Republik Indonesia Tahun 1979 Nomor 2, Tambahan Lembaran Negara Republik Indonesia Nomor 3130);"
+                      }
+                    ]
+                  },
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "NUMBER_WITH_DOT",
+                        "text": "3."
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "Undang-Undang Nomor 24 Tahun 2000 tentang Perjanjian Internasional (Lembaran Negara Republik Indonesia Tahun 2000 Nomor 185, Tambahan Lembaran Negara Republik Indonesia Nomor 4012)."
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "AGREEMENT",
+            "id": "",
+            "children": [
+              {
+                "type": "PLAINTEXT",
+                "text": "Dengan Persetujuan Bersama"
+              },
+              {
+                "type": "PLAINTEXT",
+                "text": "DEWAN PERWAKILAN RAKYAT REPUBLIK INDONESIA"
+              },
+              {
+                "type": "PLAINTEXT",
+                "text": "dan"
+              },
+              {
+                "type": "PLAINTEXT",
+                "text": "PRESIDEN REPUBLIK INDONESIA"
+              },
+              {
+                "type": "PLAINTEXT",
+                "text": "MEMUTUSKAN:"
+              },
+              {
+                "type": "PLAINTEXT",
+                "text": "Menetapkan:"
+              },
+              {
+                "type": "PLAINTEXT",
+                "text": "UNDANG-UNDANG TENTANG PENGESAHAN PERJANJIAN EKSTRADISI ANTARA REPUBLIK INDONESIA DAN REPUBLIK SOSIALIS VIET NAM (EXTRADITION TREATY BETWEEN THE REPUBLIC OF INDONESIA AND THE SOCIALIST REPUBLIC OF VIET NAM)"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "PASAL",
+        "id": "pasal-1",
+        "children": [
+          {
+            "type": "PASAL_NUMBER",
+            "text": "Pasal 1"
+          },
+          {
+            "type": "PLAINTEXT",
+            "text": "Mengesahkan Perjanjian Ekstradisi antara Republik Indonesia dan Republik Sosialis Viet Nam (Extradition Treaty between the Republic of Indonesia and the Socialist Republic of Viet Nam) yang ditandatangani pada tanggal 27 Juni 2013 di Jakarta yang salinan naskah aslinya dalam bahasa Indonesia, bahasa Viet Nam, dan bahasa Inggris sebagaimana terlampir dan merupakan bagian yang tidak terpisahkan dari Undang-Undang ini."
+          }
+        ]
+      },
+      {
+        "type": "PASAL",
+        "id": "pasal-2",
+        "children": [
+          {
+            "type": "PASAL_NUMBER",
+            "text": "Pasal 2"
+          },
+          {
+            "type": "PLAINTEXT",
+            "text": "Undang-Undang ini mulai berlaku pada tanggal diundangkan."
+          },
+          {
+            "type": "PLAINTEXT",
+            "text": "Agar setiap orang mengetahuinya, memerintahkan pengundangan Undang-Undang ini dengan penempatannya dalam Lembaran Negara Republik Indonesia."
+          }
+        ]
+      },
+      {
+        "type": "CLOSING",
+        "id": "",
+        "children": [
+          {
+            "type": "PLAINTEXT",
+            "text": "Disahkan Di Jakarta,"
+          },
+          {
+            "type": "PLAINTEXT",
+            "text": "Pada Tanggal 10 Maret 2015"
+          },
+          {
+            "type": "PLAINTEXT",
+            "text": "PRESIDEN REPUBLIK INDONESIA,"
+          },
+          {
+            "type": "PLAINTEXT",
+            "text": "Ttd."
+          },
+          {
+            "type": "PLAINTEXT",
+            "text": "JOKO WIDODO"
+          },
+          {
+            "type": "PLAINTEXT",
+            "text": "Diundangkan Di Jakarta,"
+          },
+          {
+            "type": "PLAINTEXT",
+            "text": "Pada Tanggal 10 Maret 2015"
+          },
+          {
+            "type": "PLAINTEXT",
+            "text": "MENTERI HUKUM DAN HAK ASASI MANUSIA REPUBLIK INDONESIA,"
+          },
+          {
+            "type": "PLAINTEXT",
+            "text": "Ttd."
+          },
+          {
+            "type": "PLAINTEXT",
+            "text": "YASONNA H. LAOLY"
+          },
+          {
+            "type": "LEMBARAN_NUMBER",
+            "text": "LEMBARAN NEGARA REPUBLIK INDONESIA TAHUN 2015 NOMOR 48"
+          }
+        ]
+      },
+      {
+        "type": "PENJELASAN",
+        "id": "penjelasan",
+        "children": [
+          {
+            "type": "PENJELASAN_TITLE",
+            "id": "",
+            "children": [
+              {
+                "type": "PLAINTEXT",
+                "text": "PENJELASAN"
+              },
+              {
+                "type": "PLAINTEXT",
+                "text": "UNDANG-UNDANG REPUBLIK INDONESIA"
+              },
+              {
+                "type": "UU_TITLE_YEAR_AND_NUMBER",
+                "text": "NOMOR 5 TAHUN 2015"
+              },
+              {
+                "type": "PLAINTEXT",
+                "text": "TENTANG"
+              },
+              {
+                "type": "UU_TITLE_TOPIC",
+                "text": "PENGESAHAN PERJANJIAN EKSTRADISI ANTARA REPUBLIK INDONESIA DAN REPUBLIK SOSIALIS VIET NAM (EXTRADITION TREATY BETWEEN THE REPUBLIC OF INDONESIA AND THE SOCIALIST REPUBLIC OF VIET NAM)"
+              }
+            ]
+          },
+          {
+            "type": "PENJELASAN_UMUM",
+            "id": "",
+            "children": [
+              {
+                "type": "PENJELASAN_UMUM_TITLE",
+                "text": "I. UMUM"
+              },
+              {
+                "type": "PLAINTEXT",
+                "text": "Dalam rangka mencapai tujuan Negara Republik Indonesia sebagaimana tercantum dalam Pembukaan Undang-Undang Dasar Negara Republik Indonesia Tahun 1945, Pemerintah Republik Indonesia, sebagai bagian dari masyarakat internasional, melakukan hubungan dan kerja sama internasional yang diwujudkan dalam perjanjian internasional."
+              },
+              {
+                "type": "PLAINTEXT",
+                "text": "Perkembangan ilmu pengetahuan dan teknologi, khususnya teknologi transportasi, komunikasi, dan informasi yang semakin canggih, telah menyebabkan wilayah negara yang satu dengan wilayah negara yang lain seakan-akan tanpa batas (borderless), sehingga memudahkan lalu lintas dan perpindahan manusia dari satu negara ke negara lain."
+              },
+              {
+                "type": "PLAINTEXT",
+                "text": "Di samping mempunyai dampak positif bagi kehidupan manusia, kemajuan teknologi transportasi, komunikasi, dan informasi juga membawa dampak negatif yang bersifat transnasional yaitu memberikan peluang yang lebih besar bagi pelaku kejahatan untuk meloloskan diri dari penyidikan, penuntutan, dan pelaksanaan pidana dari negara tempat kejahatan dilakukan. Untuk mencegah hal tersebut, diperlukan hubungan dan kerja sama antarnegara yang dilakukan melalui berbagai perjanjian baik bilateral maupun multilateral."
+              },
+              {
+                "type": "PLAINTEXT",
+                "text": "Menyadari adanya pelaku kejahatan yang meloloskan diri dari penyidikan, penuntutan, dan pelaksanaan pidana dari negara tempat kejahatan dilakukan, Pemerintah Republik Indonesia dan Pemerintah Republik Sosialis Viet Nam telah sepakat mengadakan kerja sama Ekstradisi yang telah ditandatangani pada tanggal 27 Juni 2013 di Jakarta. Dengan adanya perjanjian tersebut, hubungan dan kerja sama antara kedua negara dalam bidang penegakan hukum dan pemberantasan kejahatan atas dasar kerja sama yang saling menguntungkan (mutual benefit), diharapkan semakin meningkat."
+              },
+              {
+                "type": "PLAINTEXT",
+                "text": "Saat ini Indonesia telah memiliki 6 (enam) Undang-Undang yang mengesahkan perjanjian bilateral mengenai Ekstradisi dan 1 (satu) Undang-Undang yang mengesahkan perjanjian bilateral mengenai perjanjian untuk penyerahan pelanggar hukum yang melarikan diri."
+              },
+              {
+                "type": "PLAINTEXT",
+                "text": "Ketujuh Undang-Undang tersebut, yaitu:"
+              },
+              {
+                "type": "LIST",
+                "id": "",
+                "children": [
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "NUMBER_WITH_DOT",
+                        "text": "1."
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "Undang-Undang Nomor 9 Tahun 1974 tentang Pengesahan Perjanjian antara Pemerintah Republik Indonesia dan Pemerintah Malaysia mengenai Ekstradisi;"
+                      }
+                    ]
+                  },
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "NUMBER_WITH_DOT",
+                        "text": "2."
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "Undang-Undang Nomor 10 Tahun 1976 tentang Pengesahan Perjanjian Ekstradisi antara Republik Indonesia dan Republik Philippina serta Protokol;"
+                      }
+                    ]
+                  },
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "NUMBER_WITH_DOT",
+                        "text": "3."
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "Undang-Undang Nomor 2 Tahun 1978 tentang Pengesahan Perjanjian antara Pemerintah Republik Indonesia dan Pemerintah Kerajaan Thailand tentang Ekstradisi;"
+                      }
+                    ]
+                  },
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "NUMBER_WITH_DOT",
+                        "text": "4."
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "Undang-Undang Nomor 8 Tahun 1994 tentang Pengesahan Perjanjian Ekstradisi antara Republik Indonesia dan Australia;"
+                      }
+                    ]
+                  },
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "NUMBER_WITH_DOT",
+                        "text": "5."
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "Undang-Undang Nomor 1 Tahun 2001 tentang Pengesahan Persetujuan antara Pemerintah Republik Indonesia dan Pemerintah Hongkong untuk Penyerahan Pelanggar Hukum yang Melarikan Diri (Agreement between the Government of the Republic of Indonesia and the Government of Hongkong for the Surrender of Fugitive Offenders);"
+                      }
+                    ]
+                  },
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "NUMBER_WITH_DOT",
+                        "text": "6."
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "Undang-Undang Nomor 42 Tahun 2007 tentang Pengesahan Perjanjian Ekstradisi antara Republik Indonesia dan Republik Korea (Treaty on Extradition between the Republic of Indonesia and the Republic of Korea); dan"
+                      }
+                    ]
+                  },
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "NUMBER_WITH_DOT",
+                        "text": "7."
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "Undang-Undang Nomor 13 Tahun 2014 tentang Pengesahan Perjanjian Ekstradisi antara Republik Indonesia dan Republik India (Extradition Treaty between the Republic of Indonesia and the Republic of India)."
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "PLAINTEXT",
+                "text": "Dengan disahkannya Undang-Undang tentang Pengesahan Perjanjian Ekstradisi antara Republik Indonesia dan Republik Sosialis Viet Nam akan mendukung penegakan hukum di Indonesia terutama yang berkaitan dengan kejahatan lintas negara (transnational crime)."
+              },
+              {
+                "type": "PLAINTEXT",
+                "text": "Perjanjian Ekstradisi antara Republik Indonesia dan Republik Sosialis Viet Nam memuat asas antara lain:"
+              },
+              {
+                "type": "LIST",
+                "id": "",
+                "children": [
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "LETTER_WITH_DOT",
+                        "text": "a."
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "Ekstradisi dilaksanakan terhadap setiap orang yang ditemukan berada di wilayah Pihak Diminta dan dicari oleh Pihak Peminta untuk penuntutan, persidangan, atau pelaksanaan hukuman untuk tindak pidana yang dapat diekstradisikan, meskipun tindak pidana tersebut dilakukan sebelum atau setelah berlakunya Perjanjian ini;"
+                      }
+                    ]
+                  },
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "LETTER_WITH_DOT",
+                        "text": "b."
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "suatu tindak pidana merupakan tindak pidana yang dapat diekstradisikan, apabila tindak pidana tersebut dapat dihukum menurut hukum kedua Pihak, dengan ancaman pidana penjara paling sedikit satu tahun atau dengan hukuman yang lebih berat;"
+                      }
+                    ]
+                  },
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "LETTER_WITH_DOT",
+                        "text": "c."
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "suatu tindak pidana dapat diekstradisikan, tanpa mempertimbangkan apakah perbuatan yang dituduhkan kepada orang yang diminta telah dilakukan secara keseluruhan atau sebagian di wilayah Pihak Diminta, apabila berdasarkan hukum Pihak Diminta, perbuatan dan akibat yang ditimbulkannya, atau akibat yang dikehendaki, secara keseluruhan dianggap sebagai tindak pidana yang terjadi di wilayah Pihak Peminta;"
+                      }
+                    ]
+                  },
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "LETTER_WITH_DOT",
+                        "text": "d."
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "Ekstradisi tidak dikabulkan apabila tindak pidana yang dimintakan Ekstradisi adalah tindak pidana politik;"
+                      }
+                    ]
+                  },
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "LETTER_WITH_DOT",
+                        "text": "e."
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "Ekstradisi tidak dikabulkan apabila tindak pidana yang dimintakan Ekstradisi adalah tindak pidana militer, yang bukan merupakan tindak pidana dalam hukum pidana umum;"
+                      }
+                    ]
+                  },
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "LETTER_WITH_DOT",
+                        "text": "f."
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "tidak satu Pihak pun terikat untuk mengekstradisikan warga negaranya menurut Perjanjian ini;"
+                      }
+                    ]
+                  },
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "LETTER_WITH_DOT",
+                        "text": "g."
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "Ekstradisi dapat tidak dikabulkan apabila Pihak Diminta memiliki yurisdiksi atas tindak pidana yang dimintakan Ekstradisi sesuai dengan hukum nasionalnya;"
+                      }
+                    ]
+                  },
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "LETTER_WITH_DOT",
+                        "text": "h."
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "orang yang diekstradisikan berdasarkan Perjanjian ini tidak boleh diproses hukum ataupun menjalani hukuman pidana pada Pihak Peminta atas tindak pidana yang dilakukan oleh orang tersebut sebelum penyerahannya selain tindak pidana yang permintaan Ekstradisinya dikabulkan, ataupun orang tersebut tidak boleh diekstradisi lagi ke negara ketiga, kecuali:"
+                      },
+                      {
+                        "type": "LIST",
+                        "id": "",
+                        "children": [
+                          {
+                            "type": "LIST_ITEM",
+                            "id": "",
+                            "children": [
+                              {
+                                "type": "NUMBER_WITH_DOT",
+                                "text": "1."
+                              },
+                              {
+                                "type": "PLAINTEXT",
+                                "text": "Pihak Diminta telah menyetujui sebelumnya;"
+                              }
+                            ]
+                          },
+                          {
+                            "type": "LIST_ITEM",
+                            "id": "",
+                            "children": [
+                              {
+                                "type": "NUMBER_WITH_DOT",
+                                "text": "2."
+                              },
+                              {
+                                "type": "PLAINTEXT",
+                                "text": "orang tersebut belum meninggalkan wilayah Pihak Peminta dalam waktu 30 (tiga puluh) hari setelah mendapatkan kebebasan untuk meninggalkan wilayah Pihak Peminta atau orang tersebut telah secara sukarela kembali ke wilayah Pihak Peminta setelah meninggalkan wilayah tersebut;"
+                              }
+                            ]
+                          },
+                          {
+                            "type": "LIST_ITEM",
+                            "id": "",
+                            "children": [
+                              {
+                                "type": "NUMBER_WITH_DOT",
+                                "text": "3."
+                              },
+                              {
+                                "type": "PLAINTEXT",
+                                "text": "setiap tindak pidana yang lebih ringan yang diungkapkan dengan fakta-fakta untuk tujuan memastikan kembalinya orang yang dimintakan Ekstradisinya, selain tindak pidana yang secara hukum tidak dapat dimintakan ekstradisinya."
+                              }
+                            ]
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "LETTER_WITH_DOT",
+                        "text": "i."
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "orang yang dimintakan Ekstradisi tidak dapat dituntut karena daluwarsa berdasarkan hukum Pihak Peminta atau hukumannya tidak dapat dilaksanakan karena adanya pengampunan."
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "PENJELASAN_PASAL_DEMI_PASAL",
+            "id": "",
+            "children": [
+              {
+                "type": "PENJELASAN_PASAL_DEMI_PASAL_TITLE",
+                "text": "II. PASAL DEMI PASAL"
+              },
+              {
+                "type": "PENJELASAN_PASAL",
+                "id": "",
+                "children": [
+                  {
+                    "type": "PASAL_NUMBER",
+                    "text": "Pasal 1"
+                  },
+                  {
+                    "type": "PLAINTEXT",
+                    "text": "Cukup jelas."
+                  }
+                ]
+              },
+              {
+                "type": "PENJELASAN_PASAL",
+                "id": "",
+                "children": [
+                  {
+                    "type": "PASAL_NUMBER",
+                    "text": "Pasal 2"
+                  },
+                  {
+                    "type": "PLAINTEXT",
+                    "text": "Cukup jelas."
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}
