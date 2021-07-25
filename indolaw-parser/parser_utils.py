@@ -1,10 +1,11 @@
-from typing import Any, Dict, List, Optional, Set, Union
+from typing import Any, Dict, List, Optional, Set, Union, Callable
 from itertools import filterfalse
 import re
 from os import system, name, path
 from colorama import init
 from termcolor import colored
 import pyperclip
+from enum import IntEnum
 
 from parser_types import (
     ComplexNode,
@@ -47,6 +48,41 @@ from parser_is_start_of_x import (
 )
 from parser_ui import print_dashed_line, print_line, print_section_header, print_yes_no
 
+
+class CleaningStageOrder(IntEnum):
+    CLEAN_SQUASHED_PAGE_NUMBERS = 1
+    CLEAN_MAYBE_LIST_ITEMS = 2
+    CLEAN_MAYBE_SQUASHED_HEADINGS = 3
+    CLEAN_SPLIT_PLAINTEXT = 4
+    CLEAN_SPLIT_PASAL_NUMBER = 5
+    INSERT_PERUBAHAN_QUOTES = 6
+
+CLEANING_STAGES: Dict[CleaningStageOrder, Dict[str, List[str]]] = {
+    CleaningStageOrder.CLEAN_SQUASHED_PAGE_NUMBERS:
+        {
+            'cleaned_law': []
+        },
+    CleaningStageOrder.CLEAN_MAYBE_LIST_ITEMS:
+        {
+            'cleaned_law': []
+        },
+    CleaningStageOrder.CLEAN_MAYBE_SQUASHED_HEADINGS:
+        {
+            'cleaned_law': []
+        },
+    CleaningStageOrder.CLEAN_SPLIT_PLAINTEXT:
+        {
+            'cleaned_law': []
+        },
+    CleaningStageOrder.CLEAN_SPLIT_PASAL_NUMBER:
+        {
+            'cleaned_law': []
+        },
+    CleaningStageOrder.INSERT_PERUBAHAN_QUOTES:
+        {
+            'cleaned_law': []
+        }
+}
 
 def ignore_line(line: str) -> bool:
     """Checks if a line should be ignored during parsing. These lines are usually
@@ -287,6 +323,55 @@ def load_clean_law(filename: str) -> List[str]:
 
     return law
 
+def clean_law_at_stage(stage: int, law: List[str]) -> List[str]:
+    '''
+    Picks which function to use on law - a list implementation of a law document -
+    based on user input on stage number (stage)
+
+    Args:
+        stage: user input on stage number which would determine the transformation on law
+                based on the order in enum CleaningStageOrder
+        law: ordered list of strings that contain the text of the law we want to parse
+
+    Returns:
+        List[str]: a modified list of strings from law based on which function was implemented
+    '''
+    if stage == CleaningStageOrder.CLEAN_SQUASHED_PAGE_NUMBERS.value:
+        '''
+        Remove _squashed_ semantically meaningless text e.g '. . .' or '1 / 23'
+
+        Mostly, they come in whole lines, but sometimes they get squashed
+        onto the end of real lines
+
+        e.g a real line ending in '2 / 43' in UU 18 2017
+        ''' 
+        return clean_squashed_page_numbers(law)
+    elif stage == CleaningStageOrder.CLEAN_MAYBE_LIST_ITEMS.value:
+        '''
+        Deal with list indexes. See clean_maybe_list_item for more.
+        '''
+        return clean_maybe_list_items(law)
+    elif stage == CleaningStageOrder.CLEAN_MAYBE_SQUASHED_HEADINGS.value:
+        '''
+        Deal with heading structures (e.g PASAL_NUMBER) squashed onto the end of
+        the previous line. (In theory, this can be expanded to BAB_TITLE, BAGIAN_TITLE etc.)
+        '''
+        return clean_maybe_squashed_headings(law)
+    elif stage == CleaningStageOrder.CLEAN_SPLIT_PLAINTEXT.value:
+        '''
+        Stitch together plaintext lines that get separated into 2 lines due to page breaks
+        '''
+        return clean_split_plaintext(law)
+    elif stage == CleaningStageOrder.CLEAN_SPLIT_PASAL_NUMBER.value:
+        '''
+        TODO(johnamadeo): Fix "Pasal 38 B" REMOVE THE SPACE WITH REGEX
+        '''
+        return clean_split_pasal_number(law)
+    elif stage == CleaningStageOrder.INSERT_PERUBAHAN_QUOTES.value:
+        '''
+        Add OPEN_QUOTE_CHAR and CLOSE_QUOTE_CHAR to PERUBAHAN_SECTION and PENJELASAN_PERUBAHAN_SECTION
+        '''
+        return insert_perubahan_quotes(law)
 
 def clean_law(law: List[str]) -> List[str]:
     """Takes in a law (in the form of an ordered list of strings) and performs transformations
@@ -318,56 +403,155 @@ def clean_law(law: List[str]) -> List[str]:
     law = [line.strip() for line in law]
     law = [' '.join(line.split()) for line in law]
 
-    save_law_to_file(law, 'a.txt')
-
+    '''
+    Preps for cleaning stages saving mechanism
+    TODO(Mel):  Extend saving mechanism to catch and save during a crash
+    '''
+    print_section_header("STARTING CLEANING")
     '''
     Remove semantically meaningless text e.g '. . .' or '1 / 23'
+    This part only removes meaningless text that are not squashed
+    onto the end of real lines.
 
-    Mostly, they come in whole lines, but sometimes they get squashed
-    onto the end of real lines
+    This is seperated from cleaning stages at it doesn't require user input.
 
-    e.g a real line ending in '2 / 43' in UU 18 2017
+    This work is continued on CleaningStageOrder.CLEAN_SQUASHED_PAGE_NUMBER
     '''
     law = list(filterfalse(ignore_line, law))
-    law = clean_squashed_page_numbers(law)
 
-    save_law_to_file(law, 'b.txt')
-
-    '''
-    Deal with list indexes. See clean_maybe_list_item for more.
-    '''
-    law = clean_maybe_list_items(law)
-
-    save_law_to_file(law, 'c.txt')
+    next_cleaning_stage = 1
+    len_cleaning_stage_order = len(CleaningStageOrder)
+    pick_stage = '1'
 
     '''
-    Deal with heading structures (e.g PASAL_NUMBER) squashed onto the end of
-    the previous line. (In theory, this can be expanded to BAB_TITLE, BAGIAN_TITLE etc.)
-    '''
-    law = clean_maybe_squashed_headings(law)
+    Saving mechanism is created to allow users to redo their inputs in
+    specific stages in case there are wrong inputs without needing to redo 
+    the entire cleaning stage from scratch.
 
-    save_law_to_file(law, 'd.txt')
+    It works by giving an order to each cleaning stages (CleaningStageOrder)
+    and saving each subsequent transformation on the previous law (ordered list of strings)
+    into a dictionary in the stage order. With each stage passed, the user is prompted
+    to say 'n' which would automatically choose the next stage, or to choose a number
+    (int_pick_stage) based on stages that have passed.
 
-    '''
-    Stitch together plaintext lines that get separated into 2 lines due to page breaks
-    '''
-    law = clean_split_plaintext(law)
+    When a user goes back to a certain stage by choosing a number (x), all 
+    resulting laws from x + 1 onwards are deleted to ensure order and consistency
+    in results.
 
-    save_law_to_file(law, 'e.txt')
+    These steps iterates until all stages are finished and the user explicitly
+    gives consent to end the cleaning stages.
 
-    '''
-    TODO(johnamadeo): Fix "Pasal 38 B" REMOVE THE SPACE WITH REGEX
-    '''
-    law = clean_split_pasal_number(law)
+    The terminal will continuously ask for user input
+    and stay in the cleaning stage until the next_cleaning_stage
+    is bigger than the number of stages (len_cleaning_stage_order)
 
-    save_law_to_file(law, 'f.txt')
-
+    This is to ensure that the user can go back to cleaning
+    for possible revisions even if all cleaning stages have been completed.
     '''
-    Add OPEN_QUOTE_CHAR and CLOSE_QUOTE_CHAR to PERUBAHAN_SECTION and PENJELASAN_PERUBAHAN_SECTION
-    '''
-    law = insert_perubahan_quotes(law)
-    return law
+    while next_cleaning_stage <= len_cleaning_stage_order:
+        
+        if next_cleaning_stage > 1:
 
+            print_line()
+            print("")
+            print(colored('SAVED STAGES: ', 'blue'))
+            for stage in CleaningStageOrder:
+                if len(CLEANING_STAGES[stage]['cleaned_law']) == 0:
+                    break
+                print(f"{stage.value}. {stage.name}")
+            print("")
+            print_line()
+            
+            pick_number = colored('number', 'blue')
+            pick_d = colored('d', 'blue')
+
+            print(f"Pick a stage {pick_number} or")
+            pick_stage = input(f"enter {pick_d} to go to the next stage: ")
+
+        if pick_stage == 'd':
+            '''Next cleaning stage depends on last cleaned stage'''
+            print(f"next cleaning stage is {next_cleaning_stage}")
+            pick_stage = next_cleaning_stage
+
+        elif not pick_stage.isnumeric():
+            print("")
+            print(f"{colored('Invalid input. Choose {pick_d} or a {pick_number}', 'red')}")
+            continue
+
+        int_pick_stage = int(pick_stage)
+        current_stage = CLEANING_STAGES[CleaningStageOrder(int_pick_stage)]
+
+        if int_pick_stage == 1:
+            previous_stage = {'cleaned_law': law}
+        else:
+            previous_stage = CLEANING_STAGES[CleaningStageOrder(int_pick_stage - 1)]
+
+        if int_pick_stage > len_cleaning_stage_order:
+            print("")
+            print(f"{colored('Invalid number. No stage with that number.', 'red')}")
+            continue
+
+        elif (int_pick_stage != 1 and len(previous_stage['cleaned_law']) == 0):
+            '''
+            Checks whether or not the previous stage from int_pick_stage has a valid law list
+            If not, then the stage of int_pick_stage should not be implemented
+            and the terminal should re-ask the user for input
+            '''
+            print("")
+            print(f"{colored('Invalid stage number. All former stages must be cleaned first.', 'red')}")
+            continue
+        
+        '''
+        Uses clean_law_at_stage to find which function to implement
+        Read documentation on clean_law_at_stage for more information
+        '''
+        if int_pick_stage in range(1, len_cleaning_stage_order + 1):
+            try:
+                current_stage['cleaned_law'] = clean_law_at_stage(int_pick_stage, previous_stage['cleaned_law'])
+
+                next_cleaning_stage = int_pick_stage + 1
+            except:
+                raise(f'No logic for handling {current_stage}')
+
+        else:
+            raise ValueError("Invalid input.")
+        
+        if next_cleaning_stage > len_cleaning_stage_order:
+            '''
+            At this point all cleaning stages have passed.
+
+            Explicit permission from user is needed to proceed to parsing.
+            If user permission is not given, user is given a chance to
+            redo any cleaning stage.
+            '''
+            print_section_header("Last cleaning stage finished")
+            print("Proceed to parsing?")
+            print("(y) to proceed to parsing.")
+            print("(n) to undo to specific cleaning stages.")
+            print_yes_no()
+
+            finish_parsing = ''
+
+            while finish_parsing not in ('y', 'n'):
+                finish_parsing = input()
+                if finish_parsing == 'y':
+                    print(colored('Proceeding to parsing...', 'blue'))
+                    next_cleaning_stage += 1
+                elif finish_parsing == 'n':
+                    print(colored('Going back to cleaning stages...', 'blue'))
+                    next_cleaning_stage = len_cleaning_stage_order
+                else:
+                    print(colored('Invalid input.', 'red'))
+
+        else:
+            '''
+            Deleting stage n + 1 and subsequent stages to eliminate the chance of
+            double-cleaning/wrongful steps of cleaning
+            '''
+            for i in range(int_pick_stage + 1, len_cleaning_stage_order):
+                CLEANING_STAGES[CleaningStageOrder(i)]['cleaned_law'].clear()
+
+    return CLEANING_STAGES[CleaningStageOrder(len_cleaning_stage_order)]['cleaned_law']
 
 def clean_split_pasal_number(law: List[str]) -> List[str]:
     new_law = []
