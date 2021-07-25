@@ -4754,30 +4754,30 @@
                           {
                             "type": "PLAINTEXT",
                             "text": "Sumpah atau janji sebagaimana dimaksud pada ayat (1) berbunyi sebagai berikut:"
+                          },
+                          {
+                            "type": "PLAINTEXT",
+                            "text": "\"Saya bersumpah/berjanji bahwa saya untuk menjadi Kepala/Wakil Kepala PPATK langsung atau tidak langsung dengan nama dan dalih apa pun tidak memberikan atau menjanjikan untuk memberikan sesuatu kepada siapa pun\"."
+                          },
+                          {
+                            "type": "PLAINTEXT",
+                            "text": "\"Saya bersumpah/berjanji bahwa saya, dalam melakukan atau tidak melakukan sesuatu dalam jabatan ini tidak akan menerima langsung atau tidak langsung dari siapa pun juga sesuatu janji atau pemberian dalam bentuk apa pun\"."
+                          },
+                          {
+                            "type": "PLAINTEXT",
+                            "text": "\"Saya bersumpah/berjanji bahwa saya akan merahasiakan kepada siapa pun hal-hal yang menurut peraturan perundang-undangan wajib dirahasiakan\"."
+                          },
+                          {
+                            "type": "PLAINTEXT",
+                            "text": "\"Saya bersumpah/ berjanji bahwa saya akan melaksanakan tugas dan kewenangan selaku Kepala/Wakil Kepala PPATK dengan sebaik-baiknya dan dengan penuh rasa tanggung jawab\"."
+                          },
+                          {
+                            "type": "PLAINTEXT",
+                            "text": "\"Saya bersumpah/berjanji bahwa saya akan setia terhadap negara, konstitusi, dan peraturan perundang undangan yang berlaku\"."
                           }
                         ]
                       }
                     ]
-                  },
-                  {
-                    "type": "PLAINTEXT",
-                    "text": "\"Saya bersumpah/berjanji bahwa saya untuk menjadi Kepala/Wakil Kepala PPATK langsung atau tidak langsung dengan nama dan dalih apa pun tidak memberikan atau menjanjikan untuk memberikan sesuatu kepada siapa pun\"."
-                  },
-                  {
-                    "type": "PLAINTEXT",
-                    "text": "\"Saya bersumpah/berjanji bahwa saya, dalam melakukan atau tidak melakukan sesuatu dalam jabatan ini tidak akan menerima langsung atau tidak langsung dari siapa pun juga sesuatu janji atau pemberian dalam bentuk apa pun\"."
-                  },
-                  {
-                    "type": "PLAINTEXT",
-                    "text": "\"Saya bersumpah/berjanji bahwa saya akan merahasiakan kepada siapa pun hal-hal yang menurut peraturan perundang-undangan wajib dirahasiakan\"."
-                  },
-                  {
-                    "type": "PLAINTEXT",
-                    "text": "\"Saya bersumpah/ berjanji bahwa saya akan melaksanakan tugas dan kewenangan selaku Kepala/Wakil Kepala PPATK dengan sebaik-baiknya dan dengan penuh rasa tanggung jawab\"."
-                  },
-                  {
-                    "type": "PLAINTEXT",
-                    "text": "\"Saya bersumpah/berjanji bahwa saya akan setia terhadap negara, konstitusi, dan peraturan perundang undangan yang berlaku\"."
                   }
                 ]
               },
@@ -5489,7 +5489,7 @@
                   },
                   {
                     "type": "PLAINTEXT",
-                    "text": "Penyidikan, penuntutan, dan pemeriksaan di sidang pengadilan serta pelaksanaan putusan yang telah memperoleh kekuatan hukum tetap terhadap tindak pidana sebagaimana dimaksud dalam Undang-Undang ini dilakukan sesuai dengan ketentuan peraturan perundang-undangan, kecuali ditentukan lain dalam Undang Undang mi."
+                    "text": "Penyidikan, penuntutan, dan pemeriksaan di sidang pengadilan serta pelaksanaan putusan yang telah memperoleh kekuatan hukum tetap terhadap tindak pidana sebagaimana dimaksud dalam Undang-Undang ini dilakukan sesuai dengan ketentuan peraturan perundang-undangan, kecuali ditentukan lain dalam Undang Undang ini."
                   }
                 ]
               },
