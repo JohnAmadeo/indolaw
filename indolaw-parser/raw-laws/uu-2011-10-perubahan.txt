@@ -1,0 +1,933 @@
+﻿www.hukumonline.com 
+UNDANG-UNDANG REPUBLIK INDONESIA 
+NOMOR 10 TAHUN 2011 
+TENTANG 
+PERUBAHAN ATAS UNDANG-UNDANG NOMOR 32 TAHUN 1997 TENTANG PERDAGANGAN BERJANGKA KOMODITI 
+DENGAN RAHMAT TUHAN YANG MAHA ESA 
+PRESIDEN REPUBLIK INDONESIA, 
+Menimbang: 
+a. bahwa Negara Kesatuan Republik Indonesia merupakan negara hukum yang berdasarkan Pancasila dan Undang-Undang Dasar Negara Republik Indonesia Tahun 1945 bertujuan untuk mewujudkan tata kehidupan bangsa yang aman, tertib, sejahtera, dan berkeadilan; 
+b. bahwa dalam upaya untuk lebih menjamin kepastian hukum, keadilan, transparansi dan akuntabilitas pelayanan publik, untuk mendukung upaya peningkatan dan pengembangan perekonomian nasional yang berkaitan dengan perdagangan global, serta agar Perdagangan Berjangka Komoditi yang bertujuan meningkatkan kegiatan usaha Komoditi dapat terselenggara secara teratur, wajar, efisien, efektif, dan terlindunginya masyarakat dari tindakan yang merugikan serta memberikan kepastian hukum kepada semua pihak yang melakukan kegiatan Perdagangan Berjangka Komoditi, perlu pengaturan yang lebih jelas dalam pelaksanaan Perdagangan Berjangka Komoditi; 
+c. bahwa beberapa ketentuan dalam Undang-Undang Nomor 32 Tahun 1997 tentang Perdagangan Berjangka Komoditi sudah tidak sesuai dengan penyelenggaraan perdagangan berjangka komoditi sehingga perlu dilakukan perubahan; 
+d. bahwa berdasarkan pertimbangan sebagaimana dimaksud dalam huruf a, huruf b, dan huruf c, perlu membentuk Undang-Undang tentang Perubahan atas Undang-Undang Nomor 32 Tahun 1997 tentang Perdagangan Berjangka Komoditi; 
+Mengingat: 
+1. Pasal 20 ayat (1), Pasal 21, dan Pasal 33 Undang-Undang Dasar Negara Republik Indonesia Tahun 1945; 
+2. Undang-Undang Nomor 32 Tahun 1997 tentang Perdagangan Berjangka Komoditi (Lembaran Negara Republik Indonesia Tahun 1997 Nomor 93, Tambahan Lembaran Negara Republik Indonesia Nomor 3720); 
+Dengan Persetujuan Bersama 
+DEWAN PERWAKILAN RAKYAT REPUBLIK INDONESIA 
+dan 
+PRESIDEN REPUBLIK INDONESIA 
+1 / 43
+www.hukumonline.com 
+MEMUTUSKAN: 
+Menetapkan: 
+UNDANG-UNDANG TENTANG PERUBAHAN ATAS UNDANGUNDANG NOMOR 32 TAHUN 1997 TENTANG PERDAGANGAN BERJANGKA KOMODITI. 
+Pasal I 
+Beberapa ketentuan dalam Undang-Undang Nomor 32 Tahun 1997 tentang Perdagangan Berjangka Komoditi (Lembaran Negara Republik Indonesia Tahun 1997 Nomor 93, Tambahan Lembaran Negara Republik Indonesia Nomor 3720) diubah sebagai berikut: 
+1. Ketentuan Pasal 1 diubah sehingga berbunyi sebagai berikut: 
+“Pasal 1 
+Dalam Undang-Undang ini yang dimaksud dengan: 
+1. Perdagangan Berjangka Komoditi yang selanjutnya disebut Perdagangan Berjangka adalah segala sesuatu yang berkaitan dengan jual beli Komoditi dengan penarikan Margin dan dengan penyelesaian kemudian berdasarkan Kontrak Berjangka, Kontrak Derivatif Syariah, dan/atau Kontrak Derivatif lainnya. 
+2. Komoditi adalah semua barang, jasa, hak dan kepentingan lainnya, dan setiap derivatif dari Komoditi, yang dapat diperdagangkan dan menjadi subjek Kontrak Berjangka, Kontrak Derivatif Syariah, dan/atau Kontrak Derivatif lainnya. 
+3. Badan Pengawas Perdagangan Berjangka Komoditi yang selanjutnya disebut Bappebti adalah lembaga pemerintah yang tugas pokoknya melakukan pembinaan, pengaturan, pengembangan, dan pengawasan Perdagangan Berjangka. 
+4. Bursa Berjangka adalah badan usaha yang menyelenggarakan dan menyediakan sistem dan/atau sarana untuk kegiatan jual beli Komoditi berdasarkan Kontrak Berjangka, Kontrak Derivatif Syariah, dan/atau Kontrak Derivatif lainnya. 
+5. Kontrak Berjangka adalah suatu bentuk kontrak standar untuk membeli atau menjual Komoditi dengan penyelesaian kemudian sebagaimana ditetapkan di dalam kontrak yang diperdagangkan di Bursa Berjangka. 
+6. Kontrak Derivatif adalah kontrak yang nilai dan harganya bergantung pada subjek Komoditi. 7. Kontrak Derivatif Syariah adalah kontrak derivatif yang sesuai dengan prinsip-prinsip syariah. 
+8. Opsi adalah kontrak yang memberikan hak kepada pembeli untuk membeli atau menjual Kontrak Berjangka atau Komoditi tertentu pada tingkat harga, jumlah, dan jangka waktu tertentu yang telah ditetapkan terlebih dahulu dengan membayar sejumlah premi. 
+9. Lembaga Kliring dan Penjaminan Berjangka yang selanjutnya disebut Lembaga Kliring Berjangka adalah badan usaha yang menyelenggarakan dan menyediakan sistem dan/atau sarana untuk pelaksanaan kliring dan penjaminan penyelesaian transaksi Perdagangan Berjangka. 
+10. Sistem Perdagangan Alternatif adalah sistem perdagangan yang berkaitan dengan jual beli Kontrak Derivatif selain Kontrak Berjangka dan Kontrak Derivatif Syariah, yang dilakukan di luar Bursa Berjangka, secara bilateral dengan penarikan Margin yang didaftarkan ke Lembaga Kliring Berjangka. 
+11. Penyelenggara Sistem Perdagangan Alternatif adalah Pedagang Berjangka yang merupakan 2 / 43
+www.hukumonline.com 
+Anggota Kliring Berjangka yang melakukan kegiatan jual beli Kontrak Derivatif selain Kontrak Berjangka dan Kontrak Derivatif Syariah, untuk dan atas nama sendiri dalam Sistem Perdagangan Alternatif. 
+12. Peserta Sistem Perdagangan Alternatif adalah Pialang Berjangka yang merupakan Anggota Kliring Berjangka yang melakukan kegiatan jual beli Kontrak Derivatif selain Kontrak Berjangka dan Kontrak Derivatif Syariah, atas amanat Nasabah dalam Sistem Perdagangan Alternatif. 
+13. Pihak adalah orang perseorangan, koperasi, badan usaha lain, badan usaha bersama, asosiasi, atau kelompok orang perseorangan, dan/atau perusahaan yang terorganisasi. 
+14. Afiliasi adalah: 
+a. hubungan keluarga karena perkawinan dan keturunan sampai dengan derajat kedua, baik secara horizontal maupun vertikal; 
+b. hubungan antara Pihak dan pegawai, direktur atau komisaris, dari Pihak tersebut; 
+c. hubungan antara dua perusahaan yang mempunyai satu anggota direksi atau lebih atau anggota dewan komisaris yang sama; 
+d. hubungan antara perusahaan dan Pihak, baik langsung maupun tidak langsung, yang mengendalikan atau dikendalikan oleh perusahaan tersebut; 
+e. hubungan antara dua perusahaan yang dikendalikan, baik langsung maupun tidak langsung, oleh Pihak yang sama; atau 
+f. hubungan antara perusahaan dan pemegang saham utama. 
+15. Anggota Bursa Berjangka adalah Pihak yang mempunyai hak untuk menggunakan sistem dan/atau sarana Bursa Berjangka dan hak untuk melakukan transaksi Kontrak Berjangka, Kontrak Derivatif Syariah, dan/atau Kontrak Derivatif lainnya sesuai dengan peraturan dan tata tertib Bursa Berjangka. 
+16. Anggota Lembaga Kliring dan Penjaminan Berjangka yang selanjutnya disebut Anggota Kliring Berjangka adalah Anggota Bursa Berjangka yang mendapat hak untuk menggunakan sistem dan/atau sarana Lembaga Kliring Berjangka dan mendapat hak dari Lembaga Kliring Berjangka untuk melakukan kliring dan mendapatkan penjaminan dalam rangka penyelesaian transaksi Kontrak Berjangka, Kontrak Derivatif Syariah, dan/atau Kontrak Derivatif lainnya. 
+17. Pialang Perdagangan Berjangka yang selanjutnya disebut Pialang Berjangka adalah badan usaha yang melakukan kegiatan jual beli Komoditi berdasarkan Kontrak Berjangka, Kontrak Derivatif Syariah, dan/atau Kontrak Derivatif lainnya atas amanat Nasabah dengan menarik sejumlah uang dan/atau surat berharga tertentu sebagai Margin untuk menjamin transaksi tersebut. 
+18. Penasihat Perdagangan Berjangka yang selanjutnya disebut Penasihat Berjangka adalah Pihak yang memberikan nasihat kepada pihak lain mengenai jual beli Komoditi berdasarkan Kontrak Berjangka, Kontrak Derivatif Syariah, dan/atau Kontrak Derivatif lainnya dengan menerima imbalan. 
+19. Sentra Dana Perdagangan Berjangka yang selanjutnya disebut Sentra Dana Berjangka adalah wadah yang digunakan untuk menghimpun dana secara kolektif dari masyarakat untuk diinvestasikan dalam Kontrak Berjangka dan/atau Komoditi yang menjadi subjek Kontrak Berjangka dan/atau instrumen lainnya yang diatur dengan Peraturan Kepala Bappebti. 
+20. Pengelola Sentra Dana Perdagangan Berjangka yang selanjutnya disebut Pengelola Sentra Dana Berjangka adalah Pihak yang melakukan usaha yang berkaitan dengan penghimpunan dan pengelolaan dana dari peserta Sentra Dana Berjangka untuk diinvestasikan dalam Kontrak Berjangka. 
+21. Pedagang Kontrak Berjangka, Kontrak Derivatif Syariah, dan/atau Kontrak Derivatif lainnya yang selanjutnya disebut Pedagang Berjangka adalah Anggota Bursa Berjangka yang hanya berhak 
+3 / 43
+www.hukumonline.com 
+melakukan transaksi Kontrak Berjangka, Kontrak Derivatif Syariah, dan/atau Kontrak Derivatif lainnya di Bursa Berjangka untuk diri sendiri atau kelompok usahanya. 
+22. Nasabah adalah Pihak yang melakukan transaksi Kontrak Berjangka, Kontrak Derivatif Syariah, dan/atau Kontrak Derivatif lainnya melalui rekening yang dikelola oleh Pialang Berjangka. 
+23. Dana Kompensasi adalah dana yang digunakan untuk membayar ganti rugi kepada Nasabah yang bukan Anggota Bursa Berjangka karena cedera janji dan/atau kesalahan yang dilakukan oleh Anggota Bursa Berjangka dalam kedudukannya sebagai Pialang Berjangka. 
+24. Margin adalah sejumlah uang atau surat berharga yang harus ditempatkan oleh Nasabah pada Pialang Berjangka, Pialang Berjangka pada Anggota Kliring Berjangka, atau Anggota Kliring Berjangka pada Lembaga Kliring Berjangka untuk menjamin pelaksanaan transaksi Kontrak Berjangka, Kontrak Derivatif Syariah, dan/atau Kontrak Derivatif lainnya. 
+25. Menteri adalah menteri yang menyelenggarakan urusan pemerintahan di bidang perdagangan.” 
+2. Ketentuan Pasal 2 diubah sehingga berbunyi sebagai berikut: 
+“Pasal 2 
+(1) Menteri menetapkan kebijakan umum di bidang Perdagangan Berjangka. 
+(2) Kebijakan umum sebagaimana dimaksud pada ayat (1) diatur dengan Peraturan Menteri.” 
+3. Ketentuan Pasal 3 diubah sehingga berbunyi sebagai berikut: 
+“Pasal 3 
+Komoditi yang dapat dijadikan subjek Kontrak Berjangka, Kontrak Derivatif Syariah, dan/atau Kontrak Derivatif lainnya diatur dengan Peraturan Kepala Bappebti.” 
+4. Ketentuan Pasal 4 ayat (1) dan ayat (3) diubah sehingga Pasal 4 berbunyi sebagai berikut: “Pasal 4 
+(1) Pengaturan, pengembangan, pembinaan, dan pengawasan sehari-hari kegiatan Perdagangan Berjangka dilakukan oleh Bappebti. 
+(2) Bappebti berada di bawah dan bertanggung jawab kepada Menteri. 
+(3) Susunan dan kedudukan organisasi Bappebti diatur dengan Peraturan Presiden.” 
+5. Ketentuan Pasal 5 diubah sehingga berbunyi sebagai berikut: 
+“Pasal 5 
+Pengaturan, pengembangan, pembinaan, dan pengawasan sebagaimana dimaksud dalam Pasal 4 ayat (1), dilakukan dengan tujuan: 
+a. mewujudkan kegiatan Perdagangan Berjangka yang teratur, wajar, efisien, efektif, dan transparan serta dalam suasana persaingan yang sehat; 
+b. melindungi kepentingan semua Pihak dalam Perdagangan Berjangka; dan 
+c. mewujudkan kegiatan Perdagangan Berjangka sebagai sarana pengelolaan risiko harga dan pembentukan harga yang transparan.” 
+4 / 43
+www.hukumonline.com 
+6. Ketentuan Pasal 6 diubah sehingga berbunyi sebagai berikut: 
+“Pasal 6 
+Untuk melaksanakan ketentuan sebagaimana dimaksud dalam Pasal 4 dan Pasal 5, Bappebti berwenang: a. membuat pedoman teknis mengenai mekanisme Perdagangan Berjangka; 
+b. memberikan: 
+1. izin usaha kepada Bursa Berjangka, Lembaga Kliring Berjangka, Pialang Berjangka, Penasihat Berjangka, dan Pengelola Sentra Dana Berjangka; 
+2. persetujuan pembukaan kantor cabang Pialang Berjangka; 
+3. izin kepada orang perseorangan untuk menjadi Wakil Pialang Berjangka, Wakil Penasihat Berjangka, dan Wakil Pengelola Sentra Dana Berjangka; 
+4. sertifikat pendaftaran kepada Pedagang Berjangka; 
+5. persetujuan kepada Pialang Berjangka dalam negeri untuk menyalurkan amanat Nasabah dalam negeri ke Bursa Berjangka luar negeri; 
+6. persetujuan kepada bank berdasarkan rekomendasi Bank Indonesia untuk menyimpan dana Nasabah, Dana Kompensasi, dan dana jaminan yang berkaitan dengan transaksi Kontrak Berjangka, Kontrak Derivatif Syariah, dan/atau Kontrak Derivatif lainnya serta untuk 
+pembentukan Sentra Dana Berjangka; 
+7. persetujuan kepada Bursa Berjangka untuk melakukan kegiatan penyelenggaraan pasar fisik komoditi terorganisasi; 
+8. persetujuan kepada Lembaga Kliring Berjangka untuk melakukan kegiatan kliring dan penjaminan penyelesaian transaksi di pasar fisik komoditi terorganisasi; dan 
+9. persetujuan kepada Pedagang Berjangka dan Pialang Berjangka untuk melakukan kegiatan jual beli Kontrak Derivatif selain Kontrak Berjangka dan Kontrak Derivatif Syariah dalam penyelenggaraan Sistem Perdagangan Alternatif. 
+c. menetapkan daftar surat berharga alas hak (document of title) yang dipergunakan dalam penyelesaian transaksi dalam Perdagangan Berjangka; 
+d. menetapkan daftar Bursa Berjangka luar negeri dan Kontrak Berjangka, Kontrak Derivatif Syariah, dan/atau Kontrak Derivatif lainnya; 
+e. melakukan pemeriksaan terhadap Pihak yang memiliki izin usaha, izin orang perseorangan, persetujuan, atau sertifikat pendaftaran; 
+f. menunjuk pihak lain untuk melakukan pemeriksaan tertentu dalam rangka pelaksanaan wewenang Bappebti sebagaimana dimaksud pada huruf e; 
+g. memerintahkan pemeriksaan dan penyidikan terhadap setiap Pihak yang diduga melakukan pelanggaran terhadap ketentuan Undang-Undang ini dan/atau peraturan pelaksanaannya; 
+h. menyetujui peraturan dan tata tertib Bursa Berjangka dan Lembaga Kliring Berjangka, termasuk perubahannya; 
+i. memberikan persetujuan terhadap Kontrak Berjangka, Kontrak Derivatif Syariah, dan/atau Kontrak Derivatif lainnya yang akan digunakan sebagai dasar jual beli Komoditi di Bursa Berjangka dan/atau Sistem Perdagangan Alternatif, sesuai dengan persyaratan yang telah ditentukan; 
+j. menetapkan persyaratan dan tata cara pencalonan dan memberhentikan untuk sementara waktu 5 / 43
+www.hukumonline.com 
+anggota dewan komisaris dan/atau direksi serta menunjuk manajemen sementara Bursa Berjangka dan Lembaga Kliring Berjangka, sampai dengan terpilihnya anggota dewan komisaris dan/atau anggota direksi yang baru oleh Rapat Umum Pemegang Saham; 
+k. menetapkan persyaratan keuangan minimum dan kewajiban pelaporan bagi Pihak yang memiliki izin usaha berdasarkan ketentuan Undang-Undang ini dan/atau peraturan pelaksanaannya; 
+l. menetapkan batas jumlah maksimum dan batas jumlah wajib lapor posisi terbuka Kontrak Berjangka, Kontrak Derivatif Syariah, dan/atau Kontrak Derivatif lainnya yang dapat dimiliki atau dikuasai oleh setiap Pihak; 
+m. mengarahkan Bursa Berjangka dan Lembaga Kliring Berjangka untuk mengambil langkah-langkah yang dianggap perlu, apabila diyakini akan terjadi keadaan yang mengakibatkan tidak wajarnya perkembangan harga di Bursa Berjangka dan/atau terhambatnya pelaksanaan Kontrak Berjangka, Kontrak Derivatif Syariah, dan/atau Kontrak Derivatif lainnya; 
+n. mewajibkan setiap Pihak untuk menghentikan dan/atau memperbaiki iklan atau kegiatan promosi yang menyesatkan dan/atau merugikan berkaitan dengan Perdagangan Berjangka dan mengganti kerugian sebagai akibat yang timbul dari iklan atau kegiatan promosi dimaksud baik secara langsung maupun tidak langsung; 
+o. menetapkan ketentuan tentang dana Nasabah yang berada pada Pialang Berjangka yang mengalami pailit; 
+p. memeriksa keberatan yang diajukan oleh suatu Pihak terhadap keputusan Bursa Berjangka atau Lembaga Kliring Berjangka serta memutuskan untuk menguatkan atau membatalkannya; 
+q. membentuk sarana penyelesaian permasalahan yang berkaitan dengan kegiatan Perdagangan Berjangka; 
+r. mengumumkan hasil pemeriksaan, apabila dianggap perlu, untuk menjamin terlaksananya mekanisme pasar dan ketaatan semua Pihak terhadap ketentuan Undang-Undang ini dan/atau peraturan pelaksanaannya; 
+s. melakukan tindakan yang diperlukan untuk mencegah kerugian masyarakat sebagai akibat pelanggaran terhadap ketentuan Undang-Undang ini dan/atau peraturan pelaksanaannya; dan 
+t. melakukan hal-hal lain yang diberikan berdasarkan ketentuan Undang-Undang ini dan/atau peraturan pelaksanaannya.” 
+7. Ketentuan Pasal 10 diubah sehingga berbunyi sebagai berikut: 
+“Pasal 10 
+Bursa Berjangka didirikan dengan tujuan menyelenggarakan transaksi Kontrak Berjangka, Kontrak Derivatif Syariah, dan/atau Kontrak Derivatif lainnya yang teratur, wajar, efisien, efektif, dan transparan.” 
+8. Ketentuan Pasal 12 diubah sehingga berbunyi sebagai berikut: 
+“Pasal 12 
+(1) Bursa Berjangka merupakan perseroan terbatas yang didirikan oleh sejumlah badan usaha berbentuk perseroan terbatas yang satu dengan lainnya tidak terafiliasi. 
+(2) Pendiri Bursa Berjangka sebagaimana dimaksud pada ayat (1) dapat menjadi Anggota Bursa Berjangka. 
+(3) Pemegang saham Bursa Berjangka sebagaimana dimaksud pada ayat (1) terdiri atas orang 6 / 43
+www.hukumonline.com 
+perseorangan dan/atau badan hukum Indonesia. 
+(4) Bursa Berjangka dikelola oleh tenaga ahli di bidang Perdagangan Berjangka secara profesional.” 
+9. Ketentuan Pasal 13 diubah sehingga berbunyi sebagai berikut: 
+“Pasal 13 
+Penyaluran amanat Nasabah ke Bursa Berjangka luar negeri hanya dapat dilakukan ke Bursa Berjangka dan Kontrak Berjangka, Kontrak Derivatif Syariah, dan/atau Kontrak Derivatif lainnya yang daftarnya ditetapkan oleh Bappebti.” 
+10. Ketentuan Pasal 15 diubah sehingga berbunyi sebagai berikut: 
+“Pasal 15 
+(1) Bursa Berjangka dapat menyelenggarakan transaksi fisik komoditi yang jenisnya diatur sebagaimana dimaksud dalam Pasal 3 setelah mendapatkan persetujuan Bappebti. 
+(2) Ketentuan mengenai tata cara persetujuan sebagaimana dimaksud pada ayat (1) diatur dengan Peraturan Kepala Bappebti.” 
+11. Ketentuan Pasal 16 diubah sehingga berbunyi sebagai berikut: 
+“Pasal 16 
+Bursa Berjangka bertugas: 
+a. menyediakan fasilitas yang cukup untuk dapat terselenggaranya transaksi Kontrak Berjangka, Kontrak Derivatif Syariah, dan/atau Kontrak Derivatif lainnya yang teratur, wajar, efisien, efektif, dan transparan; 
+b. menyusun rencana anggaran tahunan dan penggunaan laba Bursa Berjangka sesuai dengan ketentuan yang ditetapkan oleh dan dilaporkan kepada Bappebti; 
+c. melakukan pengawasan pasar atas setiap transaksi Kontrak Derivatif selain Kontrak Berjangka dan Kontrak Derivatif Syariah, dari Penyelenggara dan Peserta Sistem Perdagangan Alternatif; dan 
+d. menyusun peraturan dan tata tertib Bursa Berjangka.” 
+12. Ketentuan Pasal 17 diubah sehingga berbunyi sebagai berikut: 
+“Pasal 17 
+(1) Bursa Berjangka wajib: 
+a. memiliki modal yang cukup untuk menyelenggarakan kegiatan Bursa Berjangka dengan baik; 
+b. menyiapkan catatan dan laporan terperinci seluruh kegiatan Anggota Bursa Berjangka yang berkaitan dengan transaksi Kontrak Berjangka, Kontrak Derivatif Syariah, dan/atau Kontrak Derivatif lainnya dan penguasaan Komoditi yang menjadi subjek Kontrak Berjangka, Kontrak Derivatif Syariah, dan/atau Kontrak Derivatif lainnya tersebut; 
+c. menjamin kerahasiaan informasi posisi keuangan serta kegiatan usaha Anggota Bursa Berjangka, kecuali informasi tersebut diberikan dalam rangka pelaksanaan ketentuan Undang-Undang ini dan/atau peraturan pelaksanaannya; 
+7 / 43
+www.hukumonline.com 
+d. membentuk Dana Kompensasi; 
+e. mempunyai satuan pemeriksa; 
+f. mendokumentasikan dan menyimpan dengan baik semua data yang berkaitan dengan kegiatan Bursa Berjangka; 
+g. menyebarluaskan informasi harga Kontrak Berjangka, Kontrak Derivatif Syariah, dan/atau Kontrak Derivatif lainnya yang diperdagangkan; 
+h. memantau kegiatan dan kondisi keuangan Anggota Bursa Berjangka serta mengambil tindakan pembekuan atau pemberhentian Anggota Bursa Berjangka yang tidak memenuhi persyaratan keuangan dan pelaporan, sesuai dengan ketentuan Undang-Undang ini 
+dan/atau peraturan pelaksanaannya; dan 
+i. mengawasi transaksi Kontrak Berjangka, Kontrak Derivatif Syariah, dan/atau Kontrak Derivatif lainnya. 
+(2) Pimpinan satuan pemeriksa sebagaimana dimaksud pada ayat (1) huruf e, wajib melaporkan secara langsung kepada direksi, dewan komisaris Bursa Berjangka, dan Bappebti tentang masalah materiil yang ditemukan, yang dapat memengaruhi Anggota Bursa Berjangka dan/atau Bursa Berjangka yang bersangkutan. 
+(3) Bursa Berjangka wajib menyediakan semua laporan satuan pemeriksa setiap saat apabila diperlukan oleh Bappebti. 
+(4) Sebelum peraturan dan tata tertib Bursa Berjangka sebagaimana dimaksud dalam Pasal 16 huruf d termasuk perubahannya diberlakukan, wajib memperoleh persetujuan Bappebti.” 
+13. Ketentuan Pasal 18 diubah sehingga berbunyi sebagai berikut: 
+“Pasal 18 
+Bursa Berjangka berwenang: 
+a. mengevaluasi dan menguji kualifikasi calon anggota serta menerima atau menolak calon tersebut menjadi Anggota Bursa Berjangka; 
+b. mengatur dan menetapkan sistem penentuan harga penyelesaian bersama dengan Lembaga Kliring Berjangka; 
+c. menetapkan persyaratan keuangan minimum dan pelaporan bagi Anggota Bursa Berjangka; 
+d. melakukan pengawasan kegiatan serta pemeriksaan terhadap pembukuan dan catatan Anggota Bursa Berjangka secara berkala dan sewaktu-waktu diperlukan; 
+e. menetapkan biaya keanggotaan dan biaya lain; 
+f. melakukan tindakan yang dianggap perlu untuk mengamankan transaksi Kontrak Berjangka, Kontrak Derivatif Syariah, dan/atau Kontrak Derivatif lainnya, termasuk mencegah kemungkinan terjadinya manipulasi harga; 
+g. menetapkan mekanisme penyelesaian pengaduan dan perselisihan sehubungan dengan transaksi Kontrak Berjangka, Kontrak Derivatif Syariah, dan/atau Kontrak Derivatif lainnya; 
+h. mengambil langkah-langkah untuk menjamin terlaksananya mekanisme transaksi Kontrak Berjangka, Kontrak Derivatif Syariah, dan/atau Kontrak Derivatif lainnya dengan baik serta melaporkannya kepada Bappebti; dan 
+i. memperoleh informasi yang diperlukan dari Lembaga Kliring Berjangka yang berkaitan dengan transaksi yang dilakukan oleh Anggota Kliring Berjangka, termasuk transaksi Pedagang 
+8 / 43
+www.hukumonline.com 
+Penyelenggara dan Pialang Peserta Sistem Perdagangan Alternatif.” 
+14. Ketentuan Pasal 24 diubah sehingga berbunyi sebagai berikut: 
+“Pasal 24 
+Lembaga Kliring Berjangka didirikan dengan tujuan mendukung terciptanya transaksi Kontrak Berjangka, Kontrak Derivatif Syariah, dan/atau Kontrak Derivatif lainnya yang teratur, wajar, efisien, efektif, dan transparan.” 
+15. Ketentuan Pasal 25 ayat (3) diubah dan ditambahkan 1 (satu) ayat, yakni ayat (4) sehingga Pasal 25 berbunyi sebagai berikut: 
+“Pasal 25 
+(1) Penyelenggaraan Bursa Berjangka dilengkapi dengan Lembaga Kliring Berjangka. 
+(2) Lembaga Kliring Berjangka, sebagaimana dimaksud pada ayat (1), adalah badan usaha berbentuk perseroan terbatas yang telah memperoleh izin usaha sebagai Lembaga Kliring Berjangka dari Bappebti. 
+(3) Izin sebagaimana dimaksud pada ayat (2), diberikan kepada: 
+a. Badan usaha yang terpisah dari Bursa Berjangka dan bersifat mandiri; atau 
+b. Badan usaha yang merupakan bagian dari Bursa Berjangka. 
+(4) Badan usaha yang menyelenggarakan tugas penerimaan pendaftaran dan penjaminan penyelesaian transaksi Kontrak Derivatif lainnya dari Penyelenggara Sistem Perdagangan Alternatif dan Peserta Sistem Perdagangan Alternatif, izin usaha sebagaimana dimaksud pada ayat (2) dapat diberikan kepada satu badan usaha.” 
+16. Ketentuan Pasal 26 diubah sehingga berbunyi sebagai berikut: 
+“Pasal 26 
+Lembaga Kliring Berjangka bertugas: 
+a. menyediakan fasilitas yang cukup untuk terlaksananya penjaminan dan penyelesaian transaksi Kontrak Berjangka, Kontrak Derivatif Syariah, Kontrak Derivatif lainnya, dan/atau transaksi fisik komoditi sebagaimana dimaksud dalam Pasal 15; 
+b. menerima pendaftaran dan menjamin penyelesaian setiap transaksi Kontrak Derivatif selain Kontrak Berjangka dan Kontrak Derivatif Syariah dari Penyelenggara dan Pialang Peserta Sistem Perdagangan Alternatif; dan 
+c. menyusun peraturan dan tata tertib Lembaga Kliring Berjangka.” 
+17. Ketentuan Pasal 27 diubah sehingga berbunyi sebagai berikut: 
+“Pasal 27 
+(1) Lembaga Kliring Berjangka wajib: 
+a. memiliki modal yang cukup untuk menyelenggarakan kegiatan Lembaga Kliring Berjangka dengan baik; 
+9 / 43
+www.hukumonline.com 
+b. menyimpan dana yang diterima dari Anggota Kliring Berjangka dalam rekening yang terpisah dari rekening milik Lembaga Kliring Berjangka pada bank yang disetujui oleh Bappebti; 
+c. menjamin dan menyelesaikan transaksi Kontrak Berjangka, Kontrak Derivatif Syariah, dan/atau Kontrak Derivatif lainnya yang disebabkan kegagalan anggotanya dalam memenuhi kewajiban kepada Lembaga Kliring Berjangka; 
+d. menjamin kerahasiaan informasi posisi keuangan serta kegiatan usaha Anggota Kliring Berjangka, kecuali informasi tersebut diberikan dalam rangka pelaksanaan ketentuan Undang-Undang ini dan/atau peraturan pelaksanaannya; 
+e. mendokumentasikan dan menyimpan semua data yang berkaitan dengan kegiatan Lembaga Kliring Berjangka; dan 
+f. memantau kegiatan dan kondisi keuangan Anggota Kliring Berjangka serta mengambil tindakan pembekuan atau pemberhentian Anggota Kliring Berjangka yang tidak memenuhi persyaratan keuangan minimum dan pelaporan sesuai dengan ketentuan Undang-Undang ini dan/atau peraturan pelaksanaannya. 
+(2) Sebelum peraturan dan tata tertib Lembaga Kliring Berjangka sebagaimana dimaksud dalam Pasal 26 huruf c termasuk perubahannya diberlakukan, wajib memperoleh persetujuan Bappebti.” 
+18. Ketentuan Pasal 28 diubah sehingga berbunyi sebagai berikut: 
+“Pasal 28 
+Lembaga Kliring Berjangka berwenang: 
+a. mengevaluasi dan menguji kualifikasi calon anggota serta menerima atau menolak calon tersebut menjadi Anggota Kliring Berjangka; 
+b. menetapkan persyaratan keuangan minimum dan pelaporan bagi Anggota Kliring Berjangka; 
+c. melakukan pengawasan kegiatan serta pemeriksaan terhadap pembukuan dan catatan Anggota Kliring Berjangka secara berkala dan sewaktu-waktu diperlukan; 
+d. menetapkan besarnya Margin, membentuk dan mengelola dana kliring, serta menetapkan dana jaminan kliring, biaya keanggotaan dan biaya lain; 
+e. memperoleh informasi yang diperlukan dari Bursa Berjangka yang berhubungan dengan transaksi yang dilakukan oleh Anggota Kliring Berjangka; dan 
+f. mengambil langkah-langkah untuk menjamin terlaksananya mekanisme kliring dan penjaminan penyelesaian transaksi Kontrak Berjangka, Kontrak Derivatif Syariah, Kontrak Derivatif lainnya, dan/atau transaksi fisik Komoditi dengan baik serta melaporkannya kepada Bappebti.” 
+19. Di antara Bab III dan Bab IV disisipkan 1 (satu) bab, yakni Bab IIIA sehingga berbunyi sebagai berikut: “BAB IIIA 
+SISTEM PERDAGANGAN ALTERNATIF 
+Pasal 30A 
+(1) Sistem Perdagangan Alternatif hanya dapat dilakukan oleh Penyelenggara Sistem Perdagangan Alternatif dan Peserta Sistem Perdagangan Alternatif yang satu dan lainnya tidak berafiliasi serta telah memperoleh persetujuan Bappebti. 
+10 / 43
+www.hukumonline.com 
+(2) Sistem perdagangan elektronik yang digunakan dalam Sistem Perdagangan Alternatif wajib memenuhi persyaratan yang diatur lebih lanjut dengan Peraturan Kepala Bappebti. 
+(3) Ketentuan lebih lanjut mengenai persyaratan persetujuan, mekanisme transaksi, dan penghentian kegiatan sebagaimana dimaksud pada ayat (1) dan ayat (2) diatur dalam Peraturan Kepala Bappebti. 
+Pasal 30B 
+(1) Penyelenggara Sistem Perdagangan Alternatif dan Peserta Sistem Perdagangan Alternatif wajib melaporkan setiap transaksi Kontrak Derivatif lainnya ke Bursa Berjangka dalam rangka pengawasan pasar. 
+(2) Penyelenggara Sistem Perdagangan Alternatif dan Peserta Sistem Perdagangan Alternatif wajib mendaftarkan setiap transaksi Kontrak Derivatif lainnya ke Lembaga Kliring Berjangka untuk dijamin penyelesaiannya.” 
+20. Mengubah judul Bab IV sehingga judul Bab IV berbunyi sebagai berikut: 
+“BAB IV 
+PIALANG BERJANGKA, PENASIHAT BERJANGKA, DAN PEDAGANG BERJANGKA” 
+21. Menambah 1 (satu) bagian dalam Bab IV, yakni Bagian Ketiga sehingga berbunyi sebagai berikut: “Bagian Ketiga 
+Pedagang Berjangka 
+Pasal 35A 
+(1) Kegiatan usaha sebagai Pedagang Berjangka dapat dilakukan oleh Anggota Bursa Berjangka, baik oleh orang perseorangan maupun badan usaha yang berdomisili di dalam atau di luar negeri, yang telah memperoleh sertifikat pendaftaran dari Bappebti. 
+(2) Sertifikat pendaftaran sebagaimana dimaksud pada ayat (1), diberikan kepada Anggota Bursa Berjangka yang memiliki integritas keuangan, reputasi bisnis yang baik, dan kecakapan profesi. 
+Pasal 35B 
+Ketentuan lebih lanjut mengenai persyaratan dan tata cara pemberian sertifikat pendaftaran Pedagang Berjangka sebagaimana dimaksud dalam Pasal 35A diatur dengan Peraturan Kepala Bappebti.” 
+22. Di antara Bab V dan Bab VI disisipkan 1 (satu) Bab, yakni Bab VA sehingga berbunyi sebagai berikut: “BAB VA 
+ASOSIASI INDUSTRI PERDAGANGAN BERJANGKA 
+Pasal 44A 
+(1) Asosiasi Industri Perdagangan Berjangka merupakan wadah berbadan hukum yang didirikan 11 / 43
+www.hukumonline.com 
+dengan tujuan untuk memperjuangkan kepentingan para anggotanya dan pengembangan industri Perdagangan Berjangka. 
+(2) Setiap Pihak yang telah memperoleh izin usaha, izin, persetujuan, atau sertifikat pendaftaran wajib menjadi anggota Asosiasi Industri Perdagangan Berjangka. 
+Pasal 44B 
+(1) Ketentuan lebih lanjut mengenai Asosiasi Industri Perdagangan Berjangka sebagaimana dimaksud dalam Pasal 44A ayat (2) diatur dengan Peraturan Kepala Bappebti. 
+(2) Pendirian, pengurusan, dan/atau pembubaran Asosiasi Industri Perdagangan Berjangka dilakukan sesuai dengan ketentuan di dalam Anggaran Dasar/Anggaran Rumah Tangga asosiasi dan Peraturan Perundang-undangan.” 
+23. Di antara ayat (1) dan ayat (2) Pasal 49 disisipkan 1 (satu) ayat, yakni ayat (1a), dan ayat (2) diubah sehingga Pasal 49 berbunyi sebagai berikut: 
+“Pasal 49 
+(1) Setiap Pihak dilarang melakukan kegiatan Perdagangan Berjangka, kecuali kegiatan tersebut dilakukan berdasarkan ketentuan Undang-Undang ini dan/atau peraturan pelaksanaannya. 
+(1a) Setiap Pihak dilarang melakukan penawaran Kontrak Berjangka, Kontrak Derivatif Syariah, dan/atau Kontrak Derivatif lainnya dengan atau tanpa kegiatan promosi, rekrutmen, pelatihan, seminar, dan/atau menghimpun dana Margin, dana jaminan, dan/atau yang dipersamakan dengan itu untuk tujuan transaksi yang berkaitan dengan Perdagangan Berjangka kecuali memiliki izin dari Bappebti. 
+(2) Setiap Pihak dilarang menyalurkan amanat untuk melakukan transaksi Kontrak Berjangka, Kontrak Derivatif Syariah, dan/atau Kontrak Derivatif lainnya dari pihak ketiga, kecuali transaksi tersebut dilakukan berdasarkan ketentuan Undang-Undang ini dan/atau peraturan pelaksanaannya.” 
+24. Di antara ketentuan Pasal 50 ayat (1) dan ayat (2) disisipkan 1 (satu) ayat yakni ayat (1a), ketentuan ayat (2) dan ayat (4) diubah, dan ditambahkan 2 (dua) ayat yakni ayat (5) dan ayat (6) sehingga Pasal 50 berbunyi sebagai berikut: 
+“Pasal 50 
+(1) Pialang Berjangka wajib mengetahui latar belakang, keadaan keuangan, dan pengetahuan mengenai Perdagangan Berjangka dari Nasabahnya. 
+(1a) Ketentuan mengenai keadaan keuangan dari Nasabah sebagaimana dimaksud pada ayat (1) diatur dengan Peraturan Kepala Bappebti. 
+(2) Pialang Berjangka wajib menyampaikan Dokumen Keterangan Perusahaan dan Dokumen Pemberitahuan Adanya Risiko serta membuat perjanjian dengan Nasabah sebelum Pialang Berjangka yang bersangkutan dapat menerima dana milik Nasabah untuk perdagangan Kontrak Berjangka, Kontrak Derivatif Syariah, dan/atau Kontrak Derivatif lainnya. 
+(3) Pialang Berjangka dilarang menerima amanat Nasabah apabila mengetahui Nasabah yang bersangkutan: 
+a. telah dinyatakan pailit oleh pengadilan; 
+b. telah dinyatakan melanggar ketentuan Undang-Undang ini dan/atau peraturan 
+12 / 43
+www.hukumonline.com 
+pelaksanaannya oleh badan peradilan atau Bappebti; 
+c. pejabat atau pegawai: 
+1. Bappebti, Bursa Berjangka, Lembaga Kliring Berjangka; atau 
+2. bendaharawan lembaga yang melayani kepentingan umum, kecuali yang 
+bersangkutan mendapat kuasa dari lembaga tersebut. 
+(4) Pialang Berjangka dalam memberikan rekomendasi kepada Nasabah untuk membeli atau menjual Kontrak Berjangka, Kontrak Derivatif Syariah, dan/atau Kontrak Derivatif lainnya wajib terlebih dahulu memberitahukan apabila ada kepentingan Pialang Berjangka yang bersangkutan. 
+(5) Nasabah dapat melakukan pengisian, penandatanganan, dan penyampaian dokumen berkaitan dalam kegiatan Perdagangan Berjangka pada sistem elektronik Pialang Berjangka, sesuai dengan ketentuan Peraturan Perundang-undangan yang mengatur mengenai informasi dan transaksi elektronik. 
+(6) Ketentuan lebih lanjut mengenai pengisian, penandatanganan, dan penyampaian dokumen berkaitan dengan Perdagangan Berjangka pada sistem elektronik sebagaimana dimaksud pada ayat (2), ayat (4), dan ayat (5) diatur dengan Peraturan Kepala Bappebti.” 
+25. Ketentuan Pasal 51 ayat (1) dan ayat (5) diubah sehingga Pasal 51 berbunyi sebagai berikut: “Pasal 51 
+(1) Pialang Berjangka, sebelum melaksanakan transaksi Kontrak Berjangka, Kontrak Derivatif Syariah, dan/atau Kontrak Derivatif lainnya untuk Nasabah, wajib menarik Margin dari Nasabah untuk jaminan transaksi tersebut. 
+(2) Margin sebagaimana dimaksud pada ayat (1), dapat berupa uang dan/atau surat berharga tertentu. 
+(3) Pialang Berjangka wajib memperlakukan Margin milik Nasabah, termasuk tambahan dana hasil transaksi Nasabah yang bersangkutan, sebagai dana milik Nasabah. 
+(4) Dana milik Nasabah sebagaimana dimaksud pada ayat (3), wajib disimpan dalam rekening yang terpisah dari rekening Pialang Berjangka pada bank yang disetujui oleh Bappebti. 
+(5) Dana milik Nasabah hanya dapat ditarik dari rekening terpisah, sebagaimana dimaksud pada ayat (4), untuk pembayaran komisi dan biaya lain dan/atau untuk keperluan lain atas perintah tertulis dari Nasabah yang bersangkutan, sehubungan dengan transaksi Kontrak Berjangka, Kontrak Derivatif Syariah, dan/atau Kontrak Derivatif lainnya. 
+(6) Apabila Pialang Berjangka dinyatakan pailit, dana milik Nasabah yang berada dalam penguasaan Pialang Berjangka tidak dapat digunakan untuk memenuhi kewajiban Pialang Berjangka terhadap pihak ketiga atau kreditornya.” 
+26. Ketentuan Pasal 52 diubah sehingga berbunyi sebagai berikut: 
+“Pasal 52 
+(1) Pialang Berjangka dilarang melakukan transaksi Kontrak Berjangka, Kontrak Derivatif Syariah, dan/atau Kontrak Derivatif lainnya untuk rekening Nasabah, kecuali telah menerima perintah untuk setiap kali transaksi dari Nasabah atau kuasanya yang ditunjuk secara tertulis untuk mewakili kepentingan Nasabah yang bersangkutan. 
+(2) Pelaksanaan Perdagangan Berjangka melalui sarana sistem perdagangan elektronik yang diselenggarakan oleh Bursa Berjangka dan/atau Pedagang Penyelenggara Sistem Perdagangan 
+13 / 43
+www.hukumonline.com 
+Alternatif dilakukan secara langsung oleh Nasabah. 
+(3) Dalam hal pelaksanaan Perdagangan Berjangka secara elektronik sebagaimana dimaksud pada ayat (2) tidak dapat dilaksanakan secara langsung oleh Nasabah, Pialang Berjangka wajib melaksanakan transaksi Perdagangan Berjangka setelah adanya perintah dari Nasabah atau kuasanya yang ditunjuk secara tertulis untuk mewakili kepentingan Nasabah yang bersangkutan. 
+(4) Perintah sebagaimana dimaksud pada ayat (3) wajib dicatat dan direkam serta disimpan oleh Pialang Berjangka. 
+(5) Dalam hal tertentu Bappebti dapat menetapkan bahwa Pialang Berjangka dapat pula melakukan transaksi atas Kontrak Berjangka, Kontrak Derivatif Syariah, dan/atau Kontrak Derivatif lainnya untuk rekeningnya sendiri. 
+(6) Pialang Berjangka wajib mendahulukan transaksi Kontrak Berjangka, Kontrak Derivatif Syariah, dan/atau Kontrak Derivatif lainnya atas amanat Nasabahnya.” 
+27. Ketentuan Pasal 53 ayat (4) diubah sehingga Pasal 53 berbunyi sebagai berikut: “Pasal 53 
+(1) Penasihat Berjangka berkewajiban mengetahui latar belakang, keadaan keuangan, dan pengetahuan mengenai Perdagangan Berjangka dari kliennya. 
+(2) Penasihat Berjangka wajib menyampaikan Dokumen Keterangan Perusahaan dan Dokumen Pemberitahuan Adanya Risiko kepada klien sebelum kedua pihak mengikatkan diri dalam suatu perjanjian pemberian jasa. 
+(3) Penasihat Berjangka dilarang menarik atau menerima uang dan/atau surat berharga tertentu dari kliennya, kecuali untuk pembayaran jasa atas nasihat yang diberikan kepada klien yang bersangkutan. 
+(4) Penasihat Berjangka dalam memberikan rekomendasi kepada klien untuk membeli atau menjual Kontrak Berjangka, Kontrak Derivatif Syariah, dan/atau Kontrak Derivatif lainnya wajib terlebih dahulu memberitahukan apabila ada kepentingan Penasihat Berjangka yang bersangkutan.” 
+28. Ketentuan Pasal 57 diubah sehingga berbunyi sebagai berikut: 
+“Pasal 57 
+(1) Dalam Perdagangan Kontrak Berjangka, Kontrak Derivatif Syariah, dan/atau Kontrak Derivatif lainnya setiap Pihak dilarang melakukan atau berusaha melakukan manipulasi melalui tindakan: 
+a. menguasai sebagian besar sediaan Komoditi secara fisik dan Kontrak Berjangka, Kontrak Derivatif Syariah, dan/atau Kontrak Derivatif lainnya dengan posisi beli baik secara langsung maupun tidak langsung dalam waktu bersamaan; 
+b. membeli atau menjual Kontrak Berjangka, Kontrak Derivatif Syariah, dan/atau Kontrak Derivatif lainnya baik secara langsung maupun tidak langsung yang dapat menyebabkan seolah-olah terjadi perdagangan yang aktif atau yang mengakibatkan terciptanya informasi yang menyesatkan mengenai keadaan pasar atau harga Kontrak Berjangka, Kontrak Derivatif Syariah, dan/atau Kontrak Derivatif lainnya di Bursa Berjangka; dan/atau 
+c. membuat, menyebarkan, dan/atau menyuruh orang lain membuat dan/atau 
+menyebarluaskan pernyataan atau informasi yang tidak benar atau menyesatkan yang berkaitan dengan transaksi Kontrak Berjangka, Kontrak Derivatif Syariah, dan/atau Kontrak Derivatif lainnya dengan maksud mengambil keuntungan dari timbulnya gejolak harga di Bursa Berjangka akibat tersebarluasnya pernyataan atau informasi tersebut. 
+14 / 43
+www.hukumonline.com 
+(2) Setiap Pihak dilarang: 
+a. melakukan transaksi Kontrak Berjangka, Kontrak Derivatif Syariah, dan/atau Kontrak Derivatif lainnya yang telah diatur sebelumnya secara tidak wajar; 
+b. menyelesaikan dua amanat Nasabah atau lebih yang berlawanan untuk Kontrak Berjangka, Kontrak Derivatif Syariah, dan/atau Kontrak Derivatif lainnya yang diperdagangkan di Bursa Berjangka yang dilakukan di luar Bursa Berjangka; 
+c. secara langsung atau tidak langsung menjadi lawan transaksi Nasabahnya, kecuali: 1. amanat Nasabah telah ditawarkan di Bursa Berjangka secara terbuka; dan 
+2. transaksi yang terjadi dilaporkan, dicatat, dan dikliringkan dengan cara yang sama sebagaimana amanat lain yang ditransaksikan di Bursa Berjangka; atau 
+d. secara langsung atau tidak langsung memengaruhi pihak lain untuk melakukan transaksi Kontrak Berjangka, Kontrak Derivatif Syariah, dan/atau Kontrak Derivatif lainnya dengan cara membujuk atau memberi harapan keuntungan di luar kewajaran.” 
+29. Ketentuan Pasal 58 ayat (1) diubah sehingga Pasal 58 berbunyi sebagai berikut: “Pasal 58 
+(1) Setiap Pihak dilarang memiliki, baik secara langsung maupun tidak langsung, posisi terbuka atas Kontrak Berjangka, Kontrak Derivatif Syariah, dan/atau Kontrak Derivatif lainnya yang melebihi batas maksimum. 
+(2) Batas maksimum sebagaimana dimaksud pada ayat (1), ditetapkan oleh Bappebti.” 
+30. Ketentuan Pasal 63 ayat (2) diubah sehingga Pasal 63 berbunyi sebagai berikut: “Pasal 63 
+(1) Bursa Berjangka, Lembaga Kliring Berjangka, Pialang Berjangka, Penasihat Berjangka, dan Pengelola Sentra Dana Berjangka wajib: 
+a. menyampaikan laporan secara berkala dan/atau sewaktu-waktu kepada Bappebti; 
+b. membuat dan menyimpan pembukuan, catatan, dan/atau rekaman atas segala sesuatu yang berhubungan dengan kegiatannya; dan 
+c. menyiapkan pembukuan, catatan, dan/atau rekaman sebagaimana dimaksud pada huruf b untuk setiap saat dapat diperiksa oleh Bappebti. 
+(2) Pihak yang memperoleh izin sebagai Wakil Pialang Berjangka, Wakil Penasihat Berjangka, dan Wakil Pengelola Sentra Dana Berjangka serta Pihak yang telah memperoleh persetujuan, dan/atau sertifikat pendaftaran wajib menyampaikan laporan yang terkait dengan Perdagangan Berjangka apabila diminta oleh Bappebti.” 
+31. Ketentuan Pasal 68 ayat (2), ayat (3), dan ayat (4) diubah sehingga Pasal 68 berbunyi sebagai berikut: “Pasal 68 
+(1) Pejabat Pegawai Negeri Sipil tertentu di lingkungan Bappebti diberi wewenang khusus sebagai penyidik untuk melakukan penyidikan tindak pidana di bidang Perdagangan Berjangka berdasarkan ketentuan dalam Kitab Undang-Undang Hukum Acara Pidana. 
+15 / 43
+www.hukumonline.com 
+(2) Penyidik Pejabat Pegawai Negeri Sipil sebagaimana dimaksud pada ayat (1), berwenang: 
+a. menerima laporan atau pengaduan tentang terjadinya suatu perbuatan yang diduga merupakan tindak pidana di bidang Perdagangan Berjangka; 
+b. melakukan penelitian atas kebenaran laporan atau pengaduan; 
+c. meneliti, memanggil, memeriksa, dan meminta keterangan serta barang bukti dari setiap Pihak yang diduga melakukan atau sebagai saksi dalam tindak pidana di bidang 
+Perdagangan Berjangka; 
+d. melakukan pemeriksaan terhadap pembukuan, catatan, dan/atau dokumen lain yang berhubungan dengan tindak pidana di bidang Perdagangan Berjangka; 
+e. melakukan penggeledahan terhadap perusahaan yang diduga melakukan tindak pidana di bidang Perdagangan Berjangka; 
+f. melakukan pemeriksaan di tempat tertentu yang diduga menjadi tempat penyimpanan atau tempat diperolehnya barang bukti, pembukuan, catatan, dan/atau dokumen lain serta menyita benda yang dapat digunakan sebagai barang bukti dalam tindak pidana di bidang Perdagangan Berjangka; 
+g. meminta kepada bank atau lembaga keuangan lain untuk membekukan rekening Pihak yang disangka melakukan atau terlibat tindak pidana di bidang Perdagangan Berjangka; 
+h. meminta bantuan tenaga ahli dalam melakukan penyidikan tindak pidana di bidang Perdagangan Berjangka; dan 
+i. menyatakan saat dimulai dan dihentikannya penyidikan. 
+(3) Dalam melaksanakan tugas penyidikan sebagaimana dimaksud pada ayat (2), Bappebti mengajukan permohonan izin kepada lembaga yang berwenang untuk memperoleh keterangan dari bank mengenai keadaan keuangan tersangka pada bank sesuai dengan ketentuan Peraturan Perundang-undangan di bidang perbankan. 
+(4) Penyidik Pejabat Pegawai Negeri Sipil sebagaimana dimaksud pada ayat (1) memberitahukan Surat Perintah Dimulainya Penyidikan (SPDP) kepada Penuntut Umum. 
+(5) Penyidik Pejabat Pegawai Negeri Sipil sebagaimana dimaksud pada ayat (1), menyampaikan hasil penyidikannya kepada penuntut umum melalui Penyidik Pejabat Polisi Negara Republik Indonesia dengan mengingat ketentuan Pasal 6, Pasal 7, dan Pasal 107 Undang-Undang Nomor 8 Tahun 1981 tentang Hukum Acara Pidana. 
+(6) Dalam melaksanakan penyidikan sebagaimana dimaksud pada ayat (1), Bappebti dapat meminta bantuan kepada aparat penegak hukum.” 
+32. Ketentuan Pasal 71 diubah sehingga berbunyi sebagai berikut: 
+“Pasal 71 
+(1) Setiap Pihak yang melakukan kegiatan Perdagangan Berjangka tanpa memiliki izin usaha sebagaimana dimaksud dalam Pasal 14 ayat (1), Pasal 25 ayat (2), Pasal 31 ayat (1), Pasal 34 ayat (1), atau Pasal 39 ayat (1), dipidana dengan pidana penjara paling singkat 5 (lima) tahun dan paling lama 10 (sepuluh) tahun, dan denda paling sedikit Rp10.000.000.000,00 (sepuluh miliar rupiah) dan paling banyak Rp20.000.000.000,00 (dua puluh miliar rupiah). 
+(2) Setiap Pihak yang melakukan kegiatan tanpa memiliki persyaratan, persetujuan, atau penetapan sebagaimana dimaksud dalam Pasal 13, Pasal 14 ayat (2), Pasal 14 ayat (3), Pasal 30A ayat (1), Pasal 30A ayat (2), Pasal 32, atau Pasal 36 ayat (2) dipidana dengan pidana penjara paling singkat 5 (lima) tahun dan paling lama 10 (sepuluh) tahun, dan denda paling sedikit Rp10.000.000.000,00 
+16 / 43
+www.hukumonline.com 
+(sepuluh miliar rupiah) dan paling banyak Rp20.000.000.000,00 (dua puluh miliar rupiah). 
+(3) Setiap Pihak yang melakukan kegiatan tanpa memiliki izin sebagaimana dimaksud dalam Pasal 31 ayat (3), pasal 34 ayat (3), atau Pasal 39 ayat (3) atau tanpa memiliki sertifikat pendaftaran sebagaimana dimaksud dalam Pasal 35A ayat (1) dipidana dengan pidana penjara paling singkat 1 (satu) tahun dan paling lama 3 (tiga) tahun, dan/atau denda paling sedikit Rp500.000.000,00 (lima ratus juta rupiah) dan paling banyak Rp1.500.000.000,00 (satu miliar lima ratus juta rupiah).” 
+33. Ketentuan Pasal 73 diubah sehingga berbunyi sebagai berikut: 
+“Pasal 73 
+Setiap Pihak yang memanfaatkan setiap informasi yang diperoleh untuk kepentingan pribadi atau mengungkapkan kepada pihak lain sebagaimana dimaksud dalam Pasal 8, dipidana dengan pidana penjara paling singkat 1 (satu) tahun dan paling lama 3 (tiga) tahun, dan/atau denda paling sedikit Rp500.000.000,00 (lima ratus juta rupiah) dan paling banyak Rp1.500.000.000,00 (satu miliar lima ratus juta rupiah).” 
+34. Di antara Pasal 73 dan Pasal 74 disisipkan 7 (tujuh) pasal, yakni Pasal 73A, Pasal 73B, Pasal 73C, Pasal 73D, Pasal 73E, Pasal 73F, dan Pasal 73G sehingga berbunyi sebagai berikut: 
+“Pasal 73A 
+(1) Setiap Pihak yang tidak menjamin kerahasiaan informasi posisi keuangan serta kegiatan usaha Anggota Bursa Berjangka sebagaimana dimaksud dalam Pasal 17 ayat (1) huruf c, dipidana dengan pidana penjara paling singkat 1 (satu) tahun dan paling lama 4 (empat) tahun, dan denda paling sedikit Rp1.000.000.000,00 (satu miliar rupiah) dan paling banyak Rp4.000.000.000,00 (empat miliar rupiah). 
+(2) Setiap Pihak yang tidak menjamin kerahasiaan data dan informasi mengenai Nasabah, klien, atau peserta Sentra Dana Berjangka, dan mengungkapkan data dan informasi sebagaimana dimaksud dalam Pasal 55, dipidana dengan pidana penjara paling singkat 1 (satu) tahun dan paling lama 4 (empat) tahun, dan denda paling sedikit Rp1.000.000.000,00 (satu miliar rupiah) dan paling banyak Rp4.000.000.000,00 (empat miliar rupiah). 
+Pasal 73B 
+(1) Setiap Pihak yang tidak menyimpan dana yang diterima dari Anggota Kliring Berjangka dalam rekening yang terpisah dari rekening milik Lembaga Kliring Berjangka pada bank yang disetujui oleh Bappebti sebagaimana dimaksud dalam Pasal 27 ayat (1) huruf b, atau tidak menjamin kerahasiaan informasi posisi keuangan serta kegiatan usaha Anggota Kliring Berjangka sebagaimana dimaksud dalam Pasal 27 ayat (1) huruf d, dipidana dengan pidana penjara paling singkat 1 (satu) tahun dan paling lama 4 (empat) tahun, dan denda paling sedikit 
+Rp1.000.000.000,00 (satu miliar rupiah) dan paling banyak Rp4.000.000.000,00 (empat miliar rupiah). 
+(2) Setiap Pihak yang tidak menyimpan semua kekayaan Sentra Dana Berjangka pada bank sebagaimana dimaksud dalam Pasal 36 ayat (3), dipidana dengan pidana penjara paling singkat 1 (satu) tahun dan paling lama 4 (empat) tahun, dan denda paling sedikit Rp1.000.000.000,00 (satu miliar rupiah) dan paling banyak Rp4.000.000.000,00 (empat miliar rupiah). 
+(3) Setiap Pihak yang tidak menyimpan Dana Kompensasi dalam rekening yang terpisah dari rekening Bursa Berjangka pada bank yang disetujui oleh Bappebti sebagaimana dimaksud dalam Pasal 45 ayat (3), dipidana dengan pidana penjara paling singkat 1 (satu) tahun dan paling lama 4 (empat) 
+17 / 43
+www.hukumonline.com 
+tahun, dan denda paling sedikit Rp1.000.000.000,00 (satu miliar rupiah) dan paling banyak Rp4.000.000.000,00 (empat miliar rupiah). 
+Pasal 73C 
+(1) Setiap Pihak yang menerima dan/atau memberikan pinjaman serta menggunakan dana Sentra Dana Berjangka untuk membeli Sertifikat Penyertaan dari Sentra Dana Berjangka lain sebagaimana dimaksud dalam Pasal 37, dipidana dengan pidana penjara paling singkat 1 (satu) tahun dan paling lama 4 (empat) tahun, dan denda paling sedikit Rp1.000.000.000,00 (satu miliar rupiah) dan paling banyak Rp4.000.000.000,00 (empat miliar rupiah). 
+(2) Setiap Pihak yang menyimpan kekayaan Sentra Dana Berjangka pada bank yang berafiliasi dengannya dan/atau menggunakan jasa Pialang Berjangka yang berafiliasi dengannya sebagaimana dimaksud dalam Pasal 43, dipidana dengan pidana penjara paling singkat 1 (satu) tahun dan paling lama 4 (empat) tahun, dan denda paling sedikit Rp1.000.000.000,00 (satu miliar rupiah) dan paling banyak Rp4.000.000.000,00 (empat miliar rupiah). 
+(3) Setiap Pihak yang menarik atau menerima uang dan/atau surat berharga tertentu dari kliennya, kecuali untuk pembayaran jasa atas nasihat yang diberikan kepada klien yang bersangkutan sebagaimana dimaksud dalam Pasal 53 ayat (3), dipidana dengan pidana penjara paling singkat 1 (satu) tahun dan paling lama 4 (empat) tahun, dan denda paling sedikit Rp1.000.000.000,00 (satu miliar rupiah) dan paling banyak Rp4.000.000.000,00 (empat miliar rupiah). 
+Pasal 73D 
+(1) Setiap Pihak yang melakukan kegiatan Perdagangan Berjangka sebagaimana dimaksud dalam Pasal 49 ayat (1a), dipidana dengan pidana penjara paling singkat 5 (lima) tahun dan paling lama 10 (sepuluh) tahun, dan denda paling sedikit Rp10.000.000.000,00 (sepuluh miliar rupiah) dan paling banyak Rp20.000.000.000,00 (dua puluh miliar rupiah). 
+(2) Setiap Pihak yang menyalurkan amanat untuk melakukan transaksi Kontrak Berjangka, Kontrak Derivatif Syariah, dan/atau Kontrak Derivatif lainnya dari pihak ketiga yang dilakukan tidak sesuai dengan ketentuan Undang-Undang ini dan/atau peraturan pelaksanaannya sebagaimana dimaksud dalam Pasal 49 ayat (2), dipidana dengan pidana penjara paling singkat 1 (satu) tahun dan paling lama 4 (empat) tahun, dan denda paling sedikit Rp1.000.000.000,00 (satu miliar rupiah) dan paling banyak Rp4.000.000.000,00 (empat miliar rupiah). 
+(3) Setiap Pihak yang menerima amanat Nasabah sebagaimana dimaksud dalam Pasal 50 ayat (3), dipidana dengan pidana penjara paling singkat 1 (satu) tahun dan paling lama 3 (tiga) tahun, dan/atau denda paling sedikit Rp500.000.000,00 (lima ratus juta rupiah) dan paling banyak Rp1.500.000.000,00 (satu miliar lima ratus juta rupiah). 
+(4) Setiap Pihak yang melakukan transaksi Kontrak Berjangka, Kontrak Derivatif Syariah, dan/atau Kontrak Derivatif lainnya untuk rekening Nasabah tanpa menerima perintah untuk setiap kali transaksi dari Nasabah atau kuasanya yang ditunjuk secara tertulis untuk mewakili kepentingan Nasabah yang bersangkutan sebagaimana dimaksud dalam Pasal 52 ayat (1), dipidana dengan pidana penjara paling singkat 1 (satu) tahun dan paling lama 3 (tiga) tahun, dan/atau denda paling sedikit Rp500.000.000,00 (lima ratus juta rupiah) dan paling banyak Rp1.500.000.000,00 (satu miliar lima ratus juta rupiah). 
+(5) Setiap Pihak yang memiliki, baik secara langsung maupun tidak langsung, posisi terbuka atas Kontrak Berjangka, Kontrak Derivatif Syariah, dan/atau Kontrak Derivatif lainnya yang melebihi batas maksimum sebagaimana dimaksud dalam Pasal 58 ayat (1), dipidana dengan pidana penjara paling singkat 1 (satu) tahun dan paling lama 4 (empat) tahun, dan denda paling sedikit Rp1.000.000.000,00 (satu miliar rupiah) dan paling banyak Rp4.000.000.000,00 (empat miliar 
+18 / 43
+www.hukumonline.com 
+rupiah). 
+Pasal 73E 
+(1) Setiap Pihak yang tidak menyampaikan Dokumen Keterangan Perusahaan dan Dokumen Pemberitahuan Adanya Risiko serta membuat perjanjian dengan Nasabah sebelum Pialang Berjangka yang bersangkutan dapat menerima dana milik Nasabah untuk Perdagangan Kontrak Berjangka, Kontrak Derivatif Syariah, dan/atau Kontrak Derivatif lainnya sebagaimana dimaksud dalam Pasal 50 ayat (2), atau tidak memberitahukan kepentingan Pialang Berjangka yang bersangkutan sebagaimana dimaksud dalam Pasal 50 ayat (4), dipidana dengan pidana penjara paling singkat 1 (satu) tahun dan paling lama 4 (empat) tahun, dan denda paling sedikit Rp1.000.000.000,00 (satu miliar rupiah) dan paling banyak Rp4.000.000.000,00 (empat miliar rupiah). 
+(2) Setiap Pihak yang tidak menyampaikan Dokumen Keterangan Perusahaan dan Dokumen Pemberitahuan Adanya Risiko kepada klien sebelum kedua pihak mengikatkan diri dalam suatu perjanjian pemberian jasa sebagaimana dimaksud dalam Pasal 53 ayat (2), atau tidak memberitahukan kepentingan Penasihat Berjangka yang bersangkutan sebagaimana dimaksud dalam Pasal 53 ayat (4), dipidana dengan pidana penjara paling singkat 1 (satu) tahun dan paling lama 4 (empat) tahun, dan denda paling sedikit Rp1.000.000.000,00 (satu miliar rupiah) dan paling banyak Rp4.000.000.000,00 (empat miliar rupiah). 
+(3) Setiap Pihak yang tidak menyampaikan Dokumen Keterangan Perusahaan dan Dokumen Pemberitahuan Adanya Risiko kepada calon peserta Sentra Dana Berjangka sebelum kedua pihak mengikatkan diri dalam suatu perjanjian pengelolaan Sentra Dana Berjangka sebagaimana dimaksud dalam Pasal 54 ayat (2), dipidana dengan pidana penjara paling singkat 1 (satu) tahun dan paling lama 4 (empat) tahun, dan denda paling sedikit Rp1.000.000.000,00 (satu miliar rupiah) dan paling banyak Rp4.000.000.000,00 (empat miliar rupiah). 
+(4) Setiap Pihak yang tidak melaporkan kepada Bappebti melalui Bursa Berjangka posisi terbuka Kontrak Berjangka yang dimilikinya apabila mencapai batas tertentu yang ditetapkan oleh Bappebti sebagaimana dimaksud dalam Pasal 59, dipidana dengan pidana penjara paling singkat 1 (satu) tahun dan paling lama 4 (empat) tahun, dan denda paling sedikit Rp1.000.000.000,00 (satu miliar rupiah) dan paling banyak Rp4.000.000.000,00 (empat miliar rupiah). 
+(5) Setiap Pihak yang tidak menyampaikan laporan sebagaimana dimaksud dalam Pasal 63 ayat (2), dipidana dengan pidana penjara paling singkat 1 (satu) tahun dan paling lama 4 (empat) tahun, dan denda paling sedikit Rp1.000.000.000,00 (satu miliar rupiah) dan paling banyak 
+Rp4.000.000.000,00 (empat miliar rupiah). 
+Pasal 73F 
+(1) Setiap Pihak yang tidak memperlakukan Margin milik Nasabah, termasuk tambahan dana hasil transaksi Nasabah yang bersangkutan, sebagai dana milik Nasabah sebagaimana dimaksud dalam Pasal 51 ayat (3), atau tidak menyimpan Dana milik Nasabah dalam rekening yang terpisah dari rekening Pialang Berjangka pada bank yang disetujui oleh Bappebti sebagaimana dimaksud dalam Pasal 51 ayat (4), atau menarik dana milik Nasabah dari rekening terpisah, untuk pembayaran komisi dan biaya lain dan/atau untuk keperluan lain tanpa perintah tertulis dari Nasabah yang bersangkutan, sehubungan dengan transaksi Kontrak Berjangka, Kontrak Derivatif Syariah, dan/atau Kontrak Derivatif lainnya sebagaimana dimaksud dalam Pasal 51 ayat (5), dipidana dengan pidana penjara paling singkat 1 (satu) tahun dan paling lama 5 (lima) tahun, dan denda paling sedikit Rp1.000.000.000,00 (satu miliar rupiah) dan paling banyak Rp5.000.000.000,00 (lima miliar rupiah). 
+19 / 43
+www.hukumonline.com 
+(2) Setiap Pihak yang tidak mengelola setiap Sentra Dana Berjangka dalam suatu lembaga yang terpisah dari Pengelola Sentra Dana Berjangka yang bersangkutan sebagaimana dimaksud dalam Pasal 54 ayat (3), atau tidak menempatkan dana bersama yang dihimpun dari calon peserta Sentra Dana Berjangka dalam rekening yang terpisah dari rekening Pengelola Sentra Dana Berjangka yang bersangkutan pada bank yang disetujui oleh Bappebti sebagaimana dimaksud dalam Pasal 54 ayat (4), dipidana dengan pidana penjara paling singkat 1 (satu) tahun dan paling lama 5 (lima) tahun, dan denda paling sedikit Rp1.000.000.000,00 (satu miliar rupiah) dan paling banyak Rp5.000.000.000,00 (lima miliar rupiah). 
+Pasal 73G 
+Setiap Pihak yang tidak melaporkan setiap transaksi Kontrak Derivatif lainnya ke Bursa Berjangka dan/atau tidak mendaftarkan setiap transaksi Kontrak Derivatif lainnya ke Lembaga Kliring Berjangka sebagaimana dimaksud dalam Pasal 30B ayat (1) dan ayat (2), dipidana dengan pidana penjara paling singkat 1 (satu) tahun dan paling lama 4 (empat) tahun, dan denda paling sedikit Rp1.000.000.000,00 (satu miliar rupiah) dan paling banyak Rp4.000.000.000,00 (empat miliar rupiah).” 
+35. Ketentuan Pasal 76 dihapus. 
+36. Ketentuan Pasal 77 diubah sehingga berbunyi sebagai berikut: 
+“Pasal 77 
+Bappebti, Bank Indonesia, badan yang mengawasi pasar modal dan lembaga keuangan, dan lembaga yang menangani pelaporan dan analisis transaksi keuangan wajib mengadakan konsultasi dan/atau koordinasi sesuai dengan fungsi masing-masing dalam mengawasi kegiatan lembaga di bawah ruang lingkup kewenangannya, yang berkaitan dengan kegiatan di bidang Perdagangan Berjangka.” 
+37. Di antara Pasal 80 dan Pasal 81 disisipkan 1 (satu) pasal, yakni Pasal 80A sehingga berbunyi sebagai berikut: 
+“Pasal 80A 
+(1) Urusan Perdagangan Berjangka Komoditi yang pada saat berlakunya Undang-Undang ini belum dapat diselesaikan, penyelesaiannya dilakukan berdasarkan ketentuan Peraturan Perundang undangan di bidang Perdagangan Berjangka Komoditi yang meringankan setiap Pihak. 
+(2) Semua bentuk perizinan yang telah diberikan oleh Bappebti sebelum berlakunya Undang-Undang ini dan/atau hanya diatur berdasarkan Peraturan Kepala Bappebti tetap berlaku serta tunduk pada ketentuan Undang-Undang ini.” 
+Pasal II 
+1. Pada saat Undang-Undang ini mulai berlaku: 
+a. sebelum dibentuknya Peraturan Perundang-undangan yang mengatur tentang perdagangan berjangka komoditi syariah, maka penyelenggaraan Kontrak Derivatif Syariah ditetapkan berdasarkan Fatwa Dewan Syariah Nasional - Majelis Ulama Indonesia; dan 
+b. semua Peraturan Perundang-undangan yang diperlukan untuk melaksanakan Undang-Undang ini harus diselesaikan paling lambat 2 (dua) tahun sejak diundangkan. 
+20 / 43
+www.hukumonline.com 
+2. Undang-Undang ini mulai berlaku pada tanggal diundangkan. 
+Agar setiap orang mengetahuinya, memerintahkan pengundangan Undang-Undang ini dengan penempatannya dalam Lembaran Negara Republik Indonesia. 
+Disahkan Di Jakarta, 
+Pada Tanggal 8 Agustus 2011 
+PRESIDEN REPUBLIK INDONESIA, 
+Ttd. 
+DR. H. SUSILO BAMBANG YUDHOYONO 
+Diundangkan Di Jakarta, 
+Pada Tanggal 8 Agustus 2011 
+MENTERI HUKUM DAN HAK ASASI MANUSIA REPUBLIK INDONESIA, 
+Ttd. 
+PATRIALIS AKBAR 
+LEMBARAN NEGARA REPUBLIK INDONESIA TAHUN 2011 NOMOR 79 
+21 / 43
+www.hukumonline.com 
+PENJELASAN 
+UNDANG-UNDANG REPUBLIK INDONESIA 
+NOMOR 10 TAHUN 2011 
+TENTANG 
+PERUBAHAN ATAS UNDANG-UNDANG NOMOR 32 TAHUN 1997 TENTANG PERDAGANGAN BERJANGKA KOMODITI 
+I. UMUM 
+Salah satu tugas utama pemerintah adalah meningkatkan kesejahteraan rakyat melalui peningkatan dan pemberdayaan ekonomi nasional. 
+Kesejahteraan masyarakat akan meningkat apabila tingkat pendapatan mereka meningkat. Hal itu secara tegas dan inheren dinyatakan dalam Pembukaan Undang-Undang Dasar Negara Republik Indonesia Tahun 1945 (UUD 1945) dan Pasal 33 UUD 1945, bahwa bumi dan air dan segala isinya harus diupayakan sedemikian rupa untuk kemakmuran rakyat Indonesia. 
+Salah satu upaya untuk mewujudkan cita-cita tersebut adalah dengan meningkatkan kegiatan di sektor perdagangan. Perdagangan internasional yang dalam hal ini kegiatan ekspor ditujukan untuk mendapatkan devisa yang akan dimanfaatkan sebesar-besarnya untuk menunjang pembangunan suatu negara. Peningkatan di bidang perdagangan sebagai sarana untuk meningkatkan kesejahteraan rakyat merupakan tolok ukur utama untuk kemajuan suatu negara. Dewasa ini perdagangan tidak hanya dilakukan dengan cara perdagangan biasa, seperti ekspor, impor, dan perdagangan dalam negeri, tetapi jauh lebih luas daripada itu, yaitu dengan Perdagangan Berjangka Komoditi. 
+Dalam era globalisasi dan liberalisasi yang saat ini berlangsung sangat cepat telah mengakibatkan terjadinya persaingan yang makin tajam di dunia diiringi dengan terjadinya risiko yang sering sangat merugikan pihak pelaku usaha. Risiko yang terjadi yang sering dialami oleh para pelaku usaha adalah risiko pada mata rantai pemasaran, seperti harga, produksi, distribusi, dan pengolahan. Dari semua risiko tersebut, yang paling sulit diperkirakan adalah risiko akibat terjadinya fluktuasi harga, khususnya harga di bidang komoditi. 
+Indonesia sangat beruntung sebagai salah satu negara penghasil komoditi dunia yang memiliki manfaat ekonomi yang tinggi karena sebagian besar hasilnya dijual ke pasar internasional (ekspor). Sebagai ilustrasi, komoditi utama dunia yang dihasilkan oleh Indonesia seperti kopi, karet, minyak kelapa sawit, olein, timah, batubara, emas, rumput laut, hasil hutan, dan alumunium. Sebagai negara penghasil komoditi, risiko yang mungkin terjadi sebagaimana dijelaskan di atas perlu diatasi dengan instrumen yang disebut sebagai Perdagangan Berjangka. Fungsi ekonomi Perdagangan Berjangka adalah sebagai sarana lindung nilai (hedging) serta sarana penciptaan harga (price discovery) sebagai harga rujukan (reference of price) yang transparan yang menjadi acuan harga dunia. Dengan Perdagangan Berjangka tersebut, risiko yang merugikan para pelaku usaha khususnya petani kecil dapat terlindungi. 
+Undang-Undang tentang Perubahan atas Undang-Undang Nomor 32 Tahun 1997 tentang Perdagangan Berjangka Komoditi antara lain mengatur pengertian Komoditi, Perdagangan Berjangka Komoditi, dan Kontrak Berjangka, Kontrak Derivatif Syariah, dan/atau Kontrak Derivatif lainnya, praktik Perdagangan Berjangka di luar bursa, sanksi pidana terhadap praktik kegiatan promosi, rekrutmen, pelatihan, seminar oleh pihak-pihak yang tidak memiliki izin dari Bappebti (Ilegal), demutualisasi Bursa Berjangka, Asosiasi Industri Perdagangan Berjangka, dan transaksi Perdagangan Berjangka melalui elektronik. 
+Dengan dibentuknya Undang-Undang ini, dapat mengakomodasi kebutuhan terhadap praktik di bidang Perdagangan Berjangka Komoditi secara global. 
+22 / 43
+www.hukumonline.com 
+II. PASAL DEMI PASAL 
+Pasal I 
+Angka 1 
+Pasal 1 
+Cukup jelas. 
+Angka 2 
+Pasal 2 
+Ayat (1) 
+Yang dimaksud dengan “kebijakan umum” adalah kebijakan di bidang Perdagangan Berjangka yang secara langsung atau tidak langsung berkaitan dengan kebijakan perdagangan luar negeri, seperti ekspor dan impor dan kebijakan perdagangan dalam negeri seperti distribusi, stabilisasi harga, dan pelindungan konsumen. 
+Ayat (2) 
+Cukup jelas. 
+Angka 3 
+Pasal 3 
+Komoditi yang diperdagangkan, dalam hal ini biasanya berciri harganya fluktuatif, memiliki standar mutu tertentu, dan tersedia dalam jumlah cukup besar serta diperdagangkan secara bebas di pasar. 
+Penetapan Komoditi subjek Kontrak Berjangka, Kontrak Derivatif Syariah, dan/atau Kontrak Derivatif lainnya merupakan kewenangan Bappebti, hal itu dimaksudkan untuk memudahkan penetapan kontrak sehingga dapat dengan cepat merespons perkembangan Perdagangan Berjangka yang bersifat global. 
+Angka 4 
+Pasal 4 
+Ayat (1) 
+Yang dimaksud dengan “pengaturan” adalah pengaturan teknis yang dilakukan oleh Bappebti dalam membuat peraturan pelaksanaan teknis sebagai penjabaran lebih lanjut dari Undang-Undang, Peraturan Pemerintah, Peraturan Presiden, dan Peraturan Menteri. Selain itu, Bappebti memberikan petunjuk sesuai dengan perkembangan kegiatan sehari-hari di pasar agar kegiatan jual beli Komoditi berdasarkan Kontrak Berjangka, Kontrak Derivatif Syariah, dan/atau Kontrak Derivatif lainnya di Bursa Berjangka ataupun Kontrak Derivatif lainnya dalam Sistem Perdagangan Alternatif dapat terlaksana secara teratur, wajar, efisien, efektif, dan transparan. Di samping itu, para pelakunya perlu dibina melalui berbagai pelatihan untuk meningkatkan pengetahuan dan keahlian yang cukup, baik yang dilaksanakan sendiri maupun bekerja sama dengan berbagai institusi lain. Semua pelaku di pasar diharapkan telah lulus tes pengetahuan tentang Komoditi dan Perdagangan Berjangka. 
+Untuk menjamin bahwa semua kegiatan dilaksanakan sesuai dengan Peraturan Perundang-undangan 23 / 43
+www.hukumonline.com 
+yang berlaku, diperlukan pengawasan yang dilakukan setiap hari terhadap kegiatan di Bursa Berjangka ataupun dalam Sistem Perdagangan Alternatif. Pengawasan sehari-hari dapat dilakukan secara langsung di lapangan dan/atau melalui berbagai laporan yang wajib disampaikan kepada Bappebti. Kegiatan pengawasan itu dapat pula dilakukan secara preventif, seperti pembuatan tata tertib, pedoman pelaksanaan, arahan, dan bimbingan serta secara represif seperti pemeriksaan, penyidikan, dan pengenaan sanksi. 
+Ayat (2) 
+Cukup jelas. 
+Ayat (3) 
+Cukup jelas. 
+Angka 5 
+Pasal 5 
+Huruf a 
+Untuk mewujudkan kegiatan Perdagangan Berjangka yang teratur, wajar, efisien, efektif, dan transparan, semua pelaku harus memiliki pengetahuan tentang Komoditi, berbagai peraturan dan tata cara perdagangan yang berlaku di Bursa Berjangka dan/atau Sistem Perdagangan Alternatif, memiliki modal yang cukup, bebas untuk masuk dan keluar pasar, dan tidak melakukan kegiatan persekongkolan. Dengan demikian, mekanisme pasar dapat berjalan berdasarkan kekuatan permintaan dan penawaran, dengan kata lain dapat terlaksana secara wajar. 
+Huruf b 
+Yang dimaksud dengan “melindungi kepentingan semua Pihak” adalah terhindarnya masyarakat dari praktik perdagangan yang merugikan, antara lain, membujuk dengan menjanjikan keuntungan, memberikan informasi yang menyesatkan, tidak menyalurkan amanat Nasabah sesuai dengan perintah, melaksanakan transaksi tanpa sepengetahuan atau tanpa perintah Nasabah, tidak menjelaskan risiko yang dihadapi kepada calon Nasabah, dan tidak menempatkan dana Nasabah pada rekening yang terpisah. 
+Huruf c 
+Tingkat harga yang selalu berubah merupakan ciri yang melekat pada Komoditi, khususnya Komoditi primer. 
+Risiko ini tidak dapat dihilangkan, tetapi dapat dipindahkan kepada investor yang bersedia mengambil risiko tersebut melalui Bursa Berjangka. Banyaknya pembeli dan penjual yang melakukan transaksi secara terbuka memungkinkan terbentuknya harga berdasarkan kekuatan pasar. Informasi harga yang diumumkan secara luas segera setelah terjadinya transaksi, sangat bermanfaat bagi dunia usaha di dalam negeri dan di luar negeri serta bagi petani sebagai dasar dalam pengambilan keputusan yang sekaligus memperkuat daya tawar-menawar. 
+Angka 6 
+Pasal 6 
+Huruf a 
+Untuk memberi kejelasan bagi masyarakat terhadap ketentuan dari Undang-Undang ini dan/atau peraturan pelaksanaannya, Bappebti diberi kewenangan untuk membuat pedoman dan penjelasan teknis, baik peraturan tertulis maupun lisan. Penjelasan tertulis dapat berupa surat keputusan ataupun edaran. 
+24 / 43
+www.hukumonline.com 
+Selain itu, karena Perdagangan Berjangka merupakan kegiatan yang cukup kompleks, Bappebti membuat penjelasan yang seluas-luasnya sehingga tujuan ekonomi Perdagangan Berjangka dapat terwujud sebagai sarana lindung nilai dan tempat pembentukan harga yang efektif dan transparan. 
+Huruf b 
+Angka 1 
+Cukup jelas. 
+Angka 2 
+Cukup jelas. 
+Angka 3 
+Cukup jelas. 
+Angka 4 
+Cukup jelas. 
+Angka 5 
+Pialang Berjangka dalam negeri yang dapat menyalurkan amanat Nasabah ke Bursa Berjangka luar negeri adalah Pialang Berjangka yang dapat menunjukkan bukti kerja sama dengan Pialang Berjangka luar negeri yang bersangkutan, menyerahkan uang jaminan (guarantee fund), dan memenuhi persyaratan modal yang besarnya ditentukan oleh Bappebti. 
+Angka 6 
+Persetujuan yang diberikan tersebut dilakukan dengan cara koordinasi dan konsultasi antara Bappebti dan Bank Indonesia. 
+Angka 7 
+Cukup jelas. 
+Angka 8 
+Cukup jelas. 
+Angka 9 
+Cukup jelas. 
+Huruf c 
+Penggunaan surat berharga alas hak (document of title) dalam rangka penyelesaian transaksi Kontrak Berjangka, Kontrak Derivatif Syariah, dan/atau Kontrak Derivatif lainnya merupakan unsur yang sangat penting dalam mempermudah proses penyelesaian apabila terjadi serah fisik. Oleh karena itu, sebelum surat berharga alas hak (document of title) tersebut digunakan dalam penyelesaian transaksi, Bappebti 
+perlu memastikan bahwa surat berharga tersebut diterbitkan oleh Pihak yang berhak dan memiliki kredibilitas yang baik dan penerbitan surat berharga tersebut dilakukan berdasarkan Undang-Undang. 
+Huruf d 
+Penyaluran amanat Nasabah ke luar negeri hanya dapat dilakukan ke Bursa Berjangka luar negeri dan Kontrak Berjangka, Kontrak Derivatif Syariah, dan/atau Kontrak Derivatif lainnya berdasarkan daftar yang telah ditetapkan oleh Bappebti. 
+Daftar Bursa Berjangka dan Kontrak Berjangka, Kontrak Derivatif Syariah, dan/atau Kontrak Derivatif lainnya yang ditetapkan Bappebti berdasarkan kriteria, antara lain: 
+1) memiliki keuangan yang cukup; 
+25 / 43
+www.hukumonline.com 
+2) mempunyai ketentuan dan peraturan mengenai perlindungan terhadap Nasabah, kliring, penyelesaian transaksi, dan mekanisme penyerahan barang; 
+3) memiliki ketentuan mengenai proses pemantauan, pemeriksaan, dan penyidikan terhadap pengaduan; 
+4) mempunyai manfaat bagi perekonomian Indonesia dan pasar Kontrak Berjangka, Kontrak Derivatif Syariah, dan/atau Kontrak Derivatif lainnya tersebut likuid. 
+Huruf e 
+Pemeriksaan sebagaimana dimaksud dalam huruf ini adalah pemeriksaan secara berkala dan sewaktu waktu diperlukan terhadap Pihak yang memiliki izin usaha, izin orang perseorangan, persetujuan, atau sertifikat pendaftaran dari Bappebti. Pemeriksaan tersebut dapat dilakukan oleh Bappebti dengan mewajibkan Pihak dimaksud untuk menyampaikan laporan tertentu atau memeriksa kantor dan catatan seperti rekening, pembukuan, dokumen, atau kertas kerja yang disusun secara manual, mekanis, elektronik, atau dengan cara lain. 
+Huruf f 
+Pihak lain yang dapat ditunjuk Bappebti untuk melakukan pemeriksaan, misalnya Bursa Berjangka dan Lembaga Kliring Berjangka untuk memeriksa Pialang Berjangka yang menjadi anggotanya, akuntan publik, konsultan hukum, ahli komoditi, dan ahli pemasaran untuk memeriksa kasus-kasus tertentu dari pemegang izin usaha, izin orang perseorangan, persetujuan, atau sertifikat pendaftaran. 
+Huruf g 
+Pemeriksaan sebagaimana dimaksud pada huruf ini adalah pemeriksaan secara berkala atau sewaktu waktu diperlukan. Pemeriksaan tersebut dapat dilakukan oleh Bappebti atau pihak lain yang ditunjuk untuk memeriksa laporan dan catatan seperti rekening, pembukuan, dokumen, atau kertas kerja yang disusun secara manual, mekanis, elektronik, atau dengan cara lain. 
+Apabila dalam pemeriksaan tersebut ditemukan unsur-unsur tindak pidana, akan dilakukan penyidikan oleh pejabat yang berwenang sesuai dengan ketentuan Peraturan Perundang-undangan yang berlaku. 
+Huruf h 
+Semua peraturan dan tata tertib yang dikeluarkan oleh Bursa Berjangka dan Lembaga Kliring Berjangka harus sesuai dengan ketentuan Undang-Undang ini dan/atau peraturan pelaksanaannya untuk menciptakan kelancaran dan perlindungan kepada semua pihak yang melakukan transaksi di Bursa Berjangka. 
+Huruf i 
+Kontrak Berjangka, Kontrak Derivatif Syariah, dan/atau Kontrak Derivatif lainnya merupakan unsur yang sangat penting dan menentukan untuk dapat terselenggaranya kegiatan Perdagangan Berjangka secara baik dan dapat dipercaya integritas pasarnya oleh masyarakat. Oleh karena itu, sebelum Kontrak Berjangka, Kontrak Derivatif Syariah, dan/atau Kontrak Derivatif lainnya atas suatu Komoditi tertentu digunakan, perlu diteliti kebutuhan, manfaat, dan kemungkinan likuiditas kontrak tersebut. Di samping itu, diteliti juga rancangan kontrak tersebut, khususnya persyaratan standar yang tercantum di dalamnya, seperti waktu transaksi, proses kliring, biaya, tempat penyerahan, pemberitahuan penyerahan, pergudangan, pengujian mutu, penerimaan tender, serta tanggung jawab membayar deposit dan Margin. 
+Huruf j 
+Persyaratan calon pengurus Bursa Berjangka dan Lembaga Kliring Berjangka, antara lain: 1) memiliki akhlak dan moral yang baik; 
+2) memiliki keahlian di bidang Perdagangan Berjangka; 
+3) tidak pernah dihukum karena melakukan tindak pidana; 
+26 / 43
+www.hukumonline.com 
+4) tidak pernah melakukan perbuatan tercela di bidang Perdagangan Berjangka; dan/atau 
+5) tidak pernah melakukan pelanggaran yang materiil terhadap ketentuan Undang-Undang ini dan/atau peraturan pelaksanaannya. 
+Tata cara pencalonan anggota dewan komisaris dan/atau direksi Bursa Berjangka dan Lembaga Kliring Berjangka adalah sebagai berikut: 
+1) Calon anggota dewan komisaris dan/atau direksi diajukan kepada Bappebti untuk diteliti sesuai dengan persyaratan yang telah ditetapkan oleh Bappebti. 
+2) Apabila calon anggota dewan komisaris dan/atau direksi dimaksud telah memenuhi persyaratan, Bappebti wajib memberikan persetujuannya. Apabila berdasarkan hasil penelitian Bappebti bahwa calon dimaksud tidak memenuhi persyaratan, Bappebti menolak pencalonan tersebut. 
+3) Calon anggota dewan komisaris dan/atau direksi yang telah disetujui oleh Bappebti dipilih dan diangkat oleh rapat umum pemegang saham. 
+Bappebti dapat memberhentikan sementara waktu anggota dewan komisaris dan/atau direksi Bursa Berjangka, antara lain, apabila anggota tersebut: 
+1) tidak memiliki akhlak dan moral yang baik; 
+2) melakukan perbuatan tercela di bidang Perdagangan Berjangka; 
+3) kehilangan kewarganegaraan Indonesia atau tidak cakap melakukan perbuatan hukum; 4) dihukum karena melakukan tindak pidana; atau 
+5) melakukan pelanggaran yang materiil terhadap ketentuan Undang-Undang ini dan/atau peraturan pelaksanaannya. 
+Apabila Bappebti memberhentikan sementara waktu seluruh anggota dewan komisaris dan/atau direksi, Bappebti dapat menunjuk pihak yang berasal, dari dalam ataupun dari luar Bursa Berjangka dan Lembaga Kliring Berjangka, sebagai manajemen sementara. Selanjutnya, Bursa Berjangka dan Lembaga Kliring Berjangka wajib menyelenggarakan rapat umum pemegang saham untuk mengangkat anggota dewan komisaris dan/atau direksi yang baru. 
+Huruf k 
+Persyaratan keuangan minimum terdiri atas persyaratan modal yang disetor dan kekayaan bersih yang harus dipertahankan setiap saat oleh para Pihak. Kekayaan bersih yang harus dipertahankan ditetapkan dalam bentuk absolut dan persentase tertentu dari dana Nasabah yang dikelola oleh Pihak yang bersangkutan. 
+Apabila jumlah absolut berbeda dengan jumlah persentase dana Nasabah yang dikelolanya, yang diambil adalah jumlah yang terbesar. 
+Huruf l 
+Penetapan batas maksimum posisi terbuka tersebut dimaksudkan untuk mencegah penguasaan kontrak dalam jumlah besar oleh satu Pihak yang mengarah pada manipulasi harga. Selain itu, Bappebti menetapkan pula batas wajib lapor atas posisi terbuka tersebut yang berguna sebagai alat pengendalian bagi Bappebti. Pihak yang telah mencapai batas wajib lapor, wajib melaporkan jumlah kontrak terbuka yang dikuasainya dan Bappebti akan terus memantau posisi Pihak yang bersangkutan sampai dengan posisinya kembali berada pada jumlah di bawah batas wajib lapor. Batas posisi dimaksud ditetapkan berdasarkan usul Bursa Berjangka yang bersangkutan dengan memperhatikan, antara lain, faktor fundamental dan teknis, likuiditas kontrak yang bersangkutan, dan jangka waktu penyerahan. Selain berwenang menetapkan batas posisi kontrak terbuka, Bappebti juga berwenang mengubah batas posisi tersebut sesuai dengan perkembangan kondisi yang terjadi. 
+Huruf m 
+27 / 43
+www.hukumonline.com 
+Perkembangan harga yang tidak wajar dapat terjadi karena pengaruh eksternal dan internal, antara lain kebijakan di bidang ekonomi, moneter, dan politik, atau bencana alam, gangguan produksi karena faktor iklim, atau upaya manipulasi oleh Anggota Bursa Berjangka. 
+Tanpa mengurangi wewenang dan tanggung jawab yang ada pada Bursa Berjangka dan Lembaga Kliring Berjangka untuk mengamankan keadaan tersebut, Bappebti berwenang mengarahkan Bursa Berjangka dan/atau Lembaga Kliring Berjangka untuk mengambil langkah-langkah yang bersifat darurat seperti menghentikan kegiatan transaksi untuk sementara waktu atau menetapkan likuidasi Kontrak Berjangka, Kontrak Derivatif Syariah, dan/atau Kontrak Derivatif lainnya tertentu atau semua Kontrak Berjangka, Kontrak Derivatif Syariah, dan/atau Kontrak Derivatif lainnya terbuka pada tingkat harga terakhir sebelum keadaan tersebut berkembang menjadi keadaan yang lebih buruk lagi. 
+Huruf n 
+Yang dimaksud dengan “promosi yang menyesatkan” adalah pernyataan yang berkaitan dengan kegiatan Perdagangan Berjangka yang meskipun benar, Perdagangan Berjangka dapat menimbulkan gambaran yang menyesatkan pemahamannya, antara lain: 
+1) memberikan informasi yang tidak sesuai dengan fakta; 
+2) menjanjikan keuntungan tanpa memberitahukan risiko yang dihadapi; atau 
+3) mengajak atau menganjurkan untuk membeli dan/atau menjual Komoditi berdasarkan Kontrak Berjangka, Kontrak Derivatif Syariah, dan/atau Kontrak Derivatif lainnya tertentu tanpa analisis yang kuat. 
+Langkah-langkah yang harus dilakukan oleh Pihak yang melakukan kesalahan, antara lain: 1) menghentikan atau memperbaiki pernyataan yang telah disebarluaskan; 
+2) membuat pernyataan pengakuan dan permohonan maaf atas kesalahan tersebut; dan/atau 
+3) membayar ganti rugi yang ditetapkan, baik dengan penyelesaian melalui musyawarah untuk mencapai mufakat, arbitrase, maupun melalui putusan pengadilan. 
+Huruf o 
+Dana Nasabah yang ada pada Pialang Berjangka adalah milik Nasabah yang bersangkutan. Apabila pengadilan menetapkan bahwa Pialang Berjangka tersebut pailit, dana tersebut tidak termasuk aset Pialang Berjangka yang bersangkutan. Karena banyaknya Nasabah yang rekeningnya dikelola oleh Pialang Berjangka tersebut, ketentuan pendistribusian dana Nasabah ditetapkan oleh Bappebti. 
+Dana Nasabah yang ada pada rekening terpisah pada bank tertentu didistribusikan kepada semua Nasabah sesuai dengan haknya, dengan memperhatikan posisi masing-masing dalam transaksi Kontrak Berjangka, Kontrak Derivatif Syariah, dan/atau Kontrak Derivatif lainnya. Apabila dana yang ada di dalam rekening terpisah kurang dari jumlah yang diperlukan untuk melunasi utangnya kepada Nasabah, dana yang ada didistribusikan secara proporsional. 
+Huruf p 
+Apabila suatu Pihak tidak dapat menerima sanksi yang dikenakan atau merasa dirugikan oleh keputusan Bursa Berjangka dan/atau Lembaga Kliring Berjangka, Pihak tersebut dapat mengajukan keberatan atas pengenaan sanksi itu kepada Bappebti. Bappebti meneliti pengaduan tersebut dan berdasarkan hasil temuannya, memutuskan untuk menguatkan, mengubah, atau membatalkan keputusan itu. 
+Huruf q 
+Selain penyelesaian permasalahan melalui pengadilan dan/atau lembaga lain, Bappebti membentuk alternatif sarana penyelesaian permasalahan yang cepat, mudah, dan profesional. 
+Huruf r 
+28 / 43
+www.hukumonline.com 
+Cukup jelas. 
+Huruf s 
+Yang dimaksud dengan “tindakan yang diperlukan untuk mencegah kerugian masyarakat” adalah tindakan yang bersifat penting dan segera harus diambil untuk melindungi masyarakat dari pelanggaran terhadap ketentuan Undang-Undang ini dan/atau peraturan pelaksanaannya, antara lain: 
+1) memutuskan cara penyelesaian transaksi apabila Lembaga Kliring Berjangka tidak mampu menyelesaikan transaksi tertentu; 
+2) membekukan transaksi Kontrak Berjangka, Kontrak Derivatif Syariah, dan/atau Kontrak Derivatif lainnya tertentu; dan/atau 
+3) meminta Bursa Berjangka dan/atau Lembaga Kliring Berjangka menindak anggotanya yang melakukan pelanggaran dan apabila perlu, mengambil tindakan hukum sesuai dengan ketentuan Peraturan Perundang-undangan. 
+Huruf t 
+Yang dimaksud dengan “melakukan hal-hal lain” pada huruf ini adalah kewenangan selain yang ditetapkan pada huruf a sampai dengan huruf s, antara lain: 
+1) melakukan evaluasi dan inovasi terhadap peraturan pelaksanaan yang dibuat oleh Bappebti sebagai penjabaran ketentuan Undang-Undang ini dan/atau peraturan pelaksanaannya; 
+2) menyebarluaskan informasi Perdagangan Berjangka; 
+3) mengatur dan menetapkan kode etik kegiatan Perdagangan Berjangka; dan 
+4) mencegah pengaruh negatif kegiatan Perdagangan Berjangka bagi perekonomian nasional dan masyarakat. 
+Angka 7 
+Pasal 10 
+Bursa Berjangka didirikan untuk menyelenggarakan dan menyediakan sistem dan sarana Perdagangan Berjangka. 
+Dengan tersedianya sistem dan sarana yang baik, Anggota Bursa Berjangka yang bersangkutan dapat melakukan penawaran transaksi Kontrak Berjangka, Kontrak Derivatif Syariah, dan/atau Kontrak Derivatif lainnya secara teratur, wajar, efisien, dan transparan. Selain itu, tersedianya sistem dan sarana dimaksud memungkinkan Bursa Berjangka melakukan pengawasan terhadap anggotanya dengan lebih efektif. 
+Angka 8 
+Pasal 12 
+Ayat (1) 
+Yang dimaksud dengan “sejumlah badan usaha” adalah jumlah minimum badan usaha yang dibutuhkan agar kegiatan transaksi Kontrak Berjangka, Kontrak Derivatif Syariah, dan/atau Kontrak Derivatif lainnya dapat terlaksana dalam suasana persaingan yang sehat. 
+Pendiri Bursa Berjangka tidak boleh berafiliasi antara satu dan lainnya serta terbuka seluas-luasnya bagi badan usaha yang memenuhi persyaratan untuk menghindari terjadinya persekongkolan dan penguasaan pasar oleh sekelompok perusahaan tertentu. 
+Ayat (2) 
+29 / 43
+www.hukumonline.com 
+Pendiri Bursa Berjangka dinyatakan dapat menjadi anggota pertama Bursa Berjangka setelah memenuhi persyaratan yang ditetapkan oleh Bappebti. 
+Ayat (3) 
+Ketentuan ini mencerminkan sifat Bursa Berjangka yang bukan berdasarkan keanggotaan (mutual), melainkan bersifat demutual dan bersifat profit oriented. Hal ini dimaksudkan agar Bursa Berjangka dapat bergerak cepat sesuai dengan perkembangan globalisasi yang bergerak cepat. Dengan sifat demutual, maka Bursa Berjangka dapat menarik minat para investor besar yang memiliki peran besar untuk memajukan Bursa Berjangka. Selama ini Bursa Berjangka tidak dapat berkembang karena sifat bursa yang masih bersifat mutual nonprofit oriented. 
+Dengan sifat demutual profit oriented, Bursa Berjangka dimungkinkan menjadi perusahaan terbuka untuk umum. 
+Peralihan atau proses dari Bursa Berjangka yang bersifat mutual non profit oriented menjadi demutual profit oriented dilakukan sesuai dengan ketentuan Peraturan Perundang-undangan di bidang Perdagangan Berjangka. 
+Ayat (4) 
+Yang dimaksud dengan ”tenaga ahli” dalam Undang-Undang ini adalah orang perseorangan yang mempunyai keahlian di bidang Perdagangan Berjangka, baik warga negara Indonesia maupun warga negara asing. 
+Angka 9 
+Pasal 13 
+Cukup jelas. 
+Angka 10 
+Pasal 15 
+Cukup jelas. 
+Angka 11 
+Pasal 16 
+Huruf a 
+Cukup jelas. 
+Huruf b 
+Dalam menyusun anggaran tahunan dan penggunaan laba, Bursa Berjangka wajib berpedoman pada prinsip efisiensi Perdagangan Berjangka dan memperhatikan ketentuan: 
+1) peningkatan sistem atau sarana transaksi Kontrak Berjangka, Kontrak Derivatif Syariah, dan/atau Kontrak Derivatif lainnya; 
+2) peningkatan sistem pembinaan dan pengawasan terhadap Bursa Berjangka; 
+3) peningkatan sistem pelayanan informasi; 
+4) pengembangan Perdagangan Berjangka melalui kegiatan promosi atau penelitian; dan 30 / 43
+www.hukumonline.com 
+5) peningkatan kemampuan sumber daya manusia. 
+Rencana anggaran tahunan dan penggunaan laba Bursa Berjangka diputuskan oleh Rapat Umum Pemegang Saham dan dilaporkan kepada Bappebti. 
+Huruf c 
+Cukup jelas. 
+Huruf d 
+Cukup jelas. 
+Angka 12 
+Pasal 17 
+Ayat (1) 
+Huruf a 
+Yang dimaksud dengan “modal yang cukup” adalah sejumlah dana yang antara lain, dapat membiayai studi kelayakan, pendirian Bursa Berjangka, penyediaan gedung dan perlengkapannya, penyusunan perangkat peraturan pelaksanaan transaksi dan tata tertib Bursa Berjangka serta sumber daya manusia yang cukup. 
+Huruf b 
+Catatan dan laporan yang perlu disiapkan berkaitan dengan kegiatan Anggota Bursa Berjangka, antara lain: 
+1) amanat Nasabah yang diterima dan disalurkan; 
+2) rekaman kegiatan transaksi di lantai Bursa Berjangka; 
+3) hasil transaksi, meliputi penjual, pembeli, jumlah, dan harga yang terjadi; 
+4) posisi Kontrak Berjangka, Kontrak Derivatif Syariah, dan/atau Kontrak Derivatif lainnya yang dimiliki setiap Anggota Bursa Berjangka; 
+5) konduite Anggota Bursa Berjangka; dan 
+6) perkembangan perdagangan Komoditi yang menjadi subjek Kontrak Berjangka, Kontrak Derivatif Syariah, dan/atau Kontrak Derivatif lainnya. 
+Huruf c 
+Informasi posisi keuangan dan kegiatan usaha Anggota Bursa Berjangka wajib dijamin kerahasiaannya agar tidak dimanfaatkan oleh pihak tertentu untuk mendapatkan keuntungan pribadi dan/atau kelompoknya dengan merugikan pihak lain. Misalnya: 
+1) Anggota Bursa Berjangka yang sedang memperbaiki likuiditas keuangan perusahaannya dengan menjual Kontrak Berjangka, Kontrak Derivatif Syariah, dan/atau Kontrak Derivatif lainnya yang dimilikinya dapat ditekan harganya oleh pihak lain yang mengetahui informasi tersebut; atau 
+2) pemilikan Kontrak Berjangka, Kontrak Derivatif Syariah, dan/atau Kontrak Derivatif lainnya dalam posisi jual dalam jumlah besar oleh suatu pihak dapat dimanfaatkan oleh pihak lain yang mengetahui informasi tersebut untuk menekan harga pada saat kontrak tersebut hampir jatuh tempo. 
+Informasi tersebut hanya dapat diberikan dalam rangka pemeriksaan dan penyidikan berdasarkan 31 / 43
+www.hukumonline.com 
+ketentuan Undang-Undang ini dan/atau peraturan pelaksanaannya. 
+Huruf d 
+Cukup jelas. 
+Huruf e 
+Pembentukan satuan pemeriksa pada setiap Bursa Berjangka dimaksudkan agar pengawasan terhadap Bursa Berjangka dan Anggota Bursa Berjangka dapat dilakukan secara berkala dan/atau sewaktu-waktu untuk memastikan bahwa setiap Bursa Berjangka dan Anggota Bursa Berjangka melakukan kegiatannya, sesuai dengan ketentuan Undang-Undang ini dan/atau peraturan pelaksanaannya. 
+Huruf f 
+Jangka waktu penyimpanan dokumentasi sesuai dengan ketentuan Peraturan Perundang undangan. 
+Huruf g 
+Harga yang terjadi di Bursa Berjangka harus segera diumumkan secara jelas dan luas, antara lain, melalui media tulis, media cetak, atau media elektronik agar dapat dimanfaatkan sebagai rujukan harga bagi yang memerlukannya. 
+Huruf h 
+Kegiatan dan kondisi keuangan yang perlu dipantau, antara lain, adalah: 
+1) kewajiban Anggota Bursa Berjangka untuk mempertahankan jumlah minimum kekayaan bersih yang ditetapkan; dan 
+2) pelaporan posisi Kontrak Berjangka, Kontrak Derivatif Syariah, dan/atau Kontrak Derivatif lainnya yang dimilikinya apabila telah mencapai jumlah batas wajib lapor yang telah 
+ditetapkan. 
+Huruf i 
+Cukup jelas. 
+Ayat (2) 
+Pelaporan pada ayat ini dimaksudkan agar direksi, dewan komisaris Bursa Berjangka, dan Bappebti dapat mengambil tindakan atau langkah-langkah yang diperlukan untuk mengatasi masalah yang ditemukan, baik pada Anggota Bursa Berjangka maupun pada Bursa Berjangka yang bersangkutan. 
+Ayat (3) 
+Ketentuan ini dimaksudkan agar Bursa Berjangka mengadministrasikan semua laporan satuan pemeriksa secara baik sehingga selalu tersedia apabila sewaktu-waktu diperlukan oleh Bappebti. 
+Ayat (4) 
+Cukup jelas. 
+Angka 13 
+Pasal 18 
+Huruf a 
+Bursa Berjangka mengevaluasi kelengkapan dan kebenaran isian formulir serta dokumen yang diserahkan calon Anggota Bursa Berjangka. Bursa Berjangka juga menguji kualifikasi yang bersangkutan, 
+32 / 43
+www.hukumonline.com 
+terutama menyangkut kemampuan keuangan, pengetahuan tentang Peraturan Perundang-undangan di bidang Perdagangan Berjangka, dan pengetahuan tentang Perdagangan Berjangka, serta etika bisnis yang bersangkutan. 
+Huruf b 
+Bursa Berjangka bersama dengan Lembaga Kliring Berjangka menetapkan sistem atau formula penentuan harga penyelesaian (settlement price) yang akan digunakan sebagai dasar perhitungan oleh Lembaga Kliring Berjangka dalam menentukan besarnya selisih harga yang harus diterima atau dibayar oleh setiap Anggota Kliring Berjangka. 
+Huruf c 
+Persyaratan keuangan minimum yang ditetapkan Bursa Berjangka tidak boleh lebih rendah daripada jumlah yang ditetapkan oleh Bappebti. 
+Huruf d 
+Yang dimaksud dengan pengawasan atau pemeriksaan sewaktu-waktu adalah pengawasan atau pemeriksaan yang dilakukan apabila ditemukan adanya indikasi atau adanya laporan pihak tertentu bahwa telah terjadi penyimpangan terhadap ketentuan Undang-Undang ini dan/atau peraturan pelaksanaannya. 
+Huruf e 
+Yang termasuk biaya lain, antara lain, biaya transaksi, biaya penggunaan sarana fisik, biaya telekomunikasi, dan biaya informasi harga yang terjadi saat itu. 
+Huruf f 
+Untuk mengamankan transaksi Kontrak Berjangka, Kontrak Derivatif Syariah, dan/atau Kontrak Derivatif lainnya dan menghindari kemungkinan terjadinya manipulasi harga, perlu dicegah, antara lain: 
+1) terjadinya persekongkolan; 
+2) penguasaan Kontrak Berjangka, Kontrak Derivatif Syariah, dan/atau Kontrak Derivatif lainnya dalam posisi beli dan Komoditi yang menjadi subjek Kontrak Berjangka, Kontrak Derivatif Syariah, dan/atau Kontrak Derivatif lainnya tersebut dalam jumlah besar secara bersamaan; 
+3) penetapan persyaratan Kontrak Berjangka, Kontrak Derivatif Syariah, dan/atau Kontrak Derivatif lainnya yang tidak jelas dan tidak lengkap; dan 
+4) perkembangan harga yang tidak wajar. 
+Huruf g 
+Mekanisme penyelesaian pengaduan dan perselisihan yang perlu ditetapkan, antara lain: 1) tata cara penyelesaian secara musyawarah untuk mencapai mufakat; dan 
+2) tata cara penyelesaian melalui arbitrase yang disediakan oleh Bursa Berjangka. Huruf h 
+Mekanisme transaksi Kontrak Berjangka, Kontrak Derivatif Syariah, dan/atau Kontrak Derivatif lainnya yang perlu dijamin kelancaran pelaksanaannya oleh Bursa Berjangka adalah mulai dari penerimaan amanat dan pelaksanaan transaksi di lantai Bursa Berjangka sampai dengan penyelesaian keuangan dan penyerahan Komoditi. 
+Langkah-langkah yang dilakukan untuk menjamin dapat terlaksananya mekanisme tersebut secara baik antara lain perbaikan tata cara transaksi, penyelesaian keuangan, dan penyerahan Komoditi. 
+Huruf i 
+33 / 43
+www.hukumonline.com 
+Cukup jelas. 
+Angka 14 
+Pasal 24 
+Lembaga Kliring Berjangka menyediakan sistem pelaksanaan kliring atas transaksi yang terjadi di Bursa Berjangka untuk menjamin penyelesaian keuangan yang berkaitan dengan Kontrak Berjangka, Kontrak Derivatif Syariah, dan/atau Kontrak Derivatif lainnya yang masih dimiliki oleh Anggota Kliring Berjangka sampai dengan jatuh tempo dan menyelesaikan penyerahan Komoditi pada saat Kontrak Berjangka, Kontrak Derivatif Syariah, dan/atau Kontrak Derivatif lainnya tertentu jatuh tempo. 
+Angka 15 
+Pasal 25 
+Ayat (1) 
+Lembaga Kliring Berjangka merupakan institusi yang harus ada di dalam sistem Perdagangan Berjangka, sebagai kelengkapan Bursa Berjangka, yang melaksanakan kliring dan penjaminan atas semua transaksi yang terjadi di Bursa Berjangka. Lembaga Kliring Berjangka menjalankan fungsi substitusi, yaitu bertindak selaku pembeli bagi penjual dan selaku penjual bagi pembeli. 
+Ayat (2) 
+Cukup jelas. 
+Ayat (3) 
+Huruf a 
+Cukup jelas. 
+Huruf b 
+Cukup jelas. 
+Ayat (4) 
+Yang dimaksud dengan ”dapat diberikan kepada satu badan usaha”, memungkinkan untuk memberikan izin usaha kepada satu atau lebih badan usaha. 
+Angka 16 
+Pasal 26 
+Huruf a 
+Lembaga Kliring Berjangka menyediakan fasilitas yang cukup, antara lain: 
+1) tempat dan perlengkapannya; 
+2) sumber daya manusia yang profesional; dan 
+3) berbagai formulir yang diperlukan. 
+Huruf b 
+Cukup jelas. 
+Huruf c 
+34 / 43
+www.hukumonline.com 
+Lembaga Kliring Berjangka membuat peraturan dan tata tertib yang berisi, antara lain, manajemen Lembaga Kliring Berjangka, komite kliring, keanggotaan, persyaratan keuangan minimum, pengawasan posisi keuangan, dana jaminan, dan pelaksanaan penyerahan Komoditi. 
+Angka 17 
+Pasal 27 
+Ayat (1) 
+Huruf a 
+Modal awal yang diperlukan untuk pendirian Lembaga Kliring Berjangka adalah modal yang cukup untuk membiayai, antara lain, pendirian perusahaan, penyediaan gedung dan perlengkapannya, penyiapan perangkat peraturan penyelesaian transaksi dan tata tertib Lembaga Kliring Berjangka serta sumber daya manusia yang cukup agar dapat terlaksana kegiatan kliring dan penjaminan secara cepat dan akurat. 
+Huruf b 
+Cukup jelas. 
+Huruf c 
+Cukup jelas. 
+Huruf d 
+Cukup jelas. 
+Huruf e 
+Jangka waktu penyimpanan dokumen sesuai dengan Peraturan Perundang-undangan yang berlaku. 
+Huruf f 
+Kegiatan dan kondisi keuangan yang perlu dipantau, antara lain: 
+1) kewajiban Anggota Kliring Berjangka untuk mempertahankan jumlah minimum kekayaan bersih yang ditetapkan; dan 
+2) laporan posisi Kontrak Berjangka, Kontrak Derivatif Syariah, dan/atau Kontrak Derivatif lainnya yang dimiliki apabila telah mencapai jumlah batas wajib lapor yang telah ditetapkan. 
+Ayat (2) 
+Cukup jelas. 
+Angka 18 
+Pasal 28 
+Huruf a 
+Lembaga Kliring Berjangka mengevaluasi kelengkapan dan kebenaran isian formulir dalam dokumen yang diserahkan oleh calon Anggota Kliring Berjangka. 
+Lembaga Kliring Berjangka juga menguji kualifikasi yang bersangkutan, terutama menyangkut kemampuan keuangan, kepemilikan sit di Bursa Berjangka, dan dukungan Anggota Kliring Berjangka yang lain. 
+35 / 43
+www.hukumonline.com 
+Huruf b 
+Persyaratan keuangan minimum yang ditetapkan Lembaga Kliring Berjangka tidak boleh lebih rendah daripada jumlah yang ditetapkan oleh Bappebti. 
+Huruf c 
+Lembaga Kliring Berjangka melakukan pengawasan atau pemeriksaan sewaktu-waktu apabila ditemukan adanya indikasi atau adanya laporan pihak tertentu bahwa telah terjadi penyimpangan terhadap ketentuan Undang-Undang ini dan/atau peraturan pelaksanaannya. 
+Huruf d 
+Yang termasuk biaya lain, antara lain, adalah dana jaminan, biaya kliring, biaya penyelesaian Kontrak Berjangka, Kontrak Derivatif Syariah, dan/atau Kontrak Derivatif lainnya, biaya keterlambatan penyampaian dokumen penyerahan, dan biaya kelalaian dalam melakukan pemberitahuan penyerahan serta pembayaran penyerahan. 
+Huruf e 
+Cukup jelas. 
+Huruf f 
+Cukup jelas. 
+Angka 19 
+Pasal 30A 
+Cukup jelas. 
+Pasal 30B 
+Cukup jelas. 
+Angka 20 
+Cukup jelas. 
+Angka 21 
+Pasal 35A 
+Ayat (1) 
+Sebagai Anggota Bursa Berjangka, Pedagang Berjangka hanya berhak bertransaksi untuk rekeningnya sendiri dan/atau untuk kelompok usahanya. Pedagang Berjangka terbuka bagi berbagai bentuk badan usaha dan orang perseorangan yang berkegiatan sebagai produsen, petani perseorangan, koperasi, organisasi petani, pedagang, eksportir, dan prosesor yang ingin berperan langsung atau tidak langsung dalam Perdagangan Berjangka. 
+Untuk mencegah Pedagang Berjangka melakukan penyimpangan dan/atau melakukan manipulasi yang dapat mengganggu mekanisme dan dinamisasi pasar di Bursa Berjangka, Pedagang Berjangka wajib terdaftar pada Bappebti. 
+Sertifikat pendaftaran diberikan oleh Bappebti setelah yang bersangkutan melampirkan: 36 / 43
+www.hukumonline.com 
+1) keanggotaan Bursa Berjangka; 
+2) sertifikat pelatihan dalam bidang Perdagangan Berjangka yang dikelola oleh Bursa Berjangka atau pihak lain yang diakui oleh Bappebti; dan 
+3) data pribadi dan/atau perusahaan yang bersangkutan. 
+Ayat (2) 
+Cukup jelas. 
+Pasal 35B 
+Cukup jelas. 
+Angka 22 
+Pasal 44A 
+Cukup jelas. 
+Pasal 44B 
+Cukup jelas. 
+Angka 23 
+Pasal 49 
+Cukup jelas. 
+Angka 24 
+Pasal 50 
+Ayat (1) 
+Cukup jelas. 
+Ayat (1a) 
+Cukup jelas. 
+Ayat (2) 
+Dalam rangka pelindungan Nasabah, Pialang Berjangka wajib terlebih dahulu menyampaikan Dokumen Keterangan Perusahaan kepada Nasabahnya, yang antara lain memuat keterangan mengenai organisasi dan kepengurusan perusahaan tersebut. Pialang Berjangka juga wajib menjelaskan segala risiko yang mungkin dihadapi Nasabahnya, sebagaimana tercantum dalam Dokumen Pemberitahuan Adanya Risiko. Apabila Nasabahnya memahami dan dapat menerima risiko tersebut, Nasabah tersebut harus menandatangani dan memberi tanggal pada dokumen tersebut, yang menunjukkan bahwa yang bersangkutan telah memahami risiko yang akan dihadapi dan menyetujuinya. 
+Ayat (3) 
+Huruf a 
+37 / 43
+www.hukumonline.com 
+Cukup jelas. 
+Huruf b 
+Cukup jelas. 
+Huruf c 
+Yang dimaksud dengan “pejabat atau pegawai” adalah pejabat struktural dan fungsional, seluruh karyawan Bappebti, anggota direksi, anggota dewan komisaris, seluruh staf dan karyawan Bursa Berjangka dan Lembaga Kliring Berjangka. 
+Yang dimaksud dengan “lembaga yang melayani kepentingan umum” adalah lembaga yang tidak bersifat komersial seperti sekolah, rumah sakit, dan yayasan. Ketentuan ini dimaksudkan untuk melindungi kepentingan umum serta menghindari penyalahgunaan jabatan dan benturan kepentingan. 
+Ayat (4) 
+Pialang Berjangka dalam memberikan rekomendasi kepada seorang Nasabah untuk melakukan transaksi tertentu harus berdasarkan pertimbangan yang objektif. 
+Apabila dalam memberikan rekomendasi tersebut ada kaitannya dengan kepentingan pribadi atau kelompoknya, Pialang Berjangka wajib terlebih dahulu memberitahukannya kepada Nasabah secara jelas. 
+Ayat (5) 
+Cukup jelas. 
+Ayat (6) 
+Cukup jelas. 
+Angka 25 
+Pasal 51 
+Ayat (1) 
+Cukup jelas. 
+Ayat (2) 
+Cukup jelas. 
+Ayat (3) 
+Cukup jelas. 
+Ayat (4) 
+Cukup jelas. 
+Ayat (5) 
+Yang dimaksud dengan “biaya lain”, antara lain, adalah biaya untuk transaksi, kliring, dan keterlambatan dalam memenuhi kewajibannya. 
+Ayat (6) 
+Cukup jelas. 
+Angka 26 
+38 / 43
+www.hukumonline.com 
+Pasal 52 
+Ayat (1) 
+Pelaksanaan amanat transaksi Kontrak Berjangka, Kontrak Derivatif Syariah, dan/atau Kontrak Derivatif lainnya dari Nasabah harus didasarkan atas perintah tertulis dari Nasabah yang bersangkutan atau kuasanya. 
+Perintah tersebut berisikan sekurang-kurangnya jenis dan jumlah kontrak yang akan dibeli atau dijual oleh Nasabah yang bersangkutan. Pialang Berjangka atau pegawainya dilarang bertindak sebagai kuasa dari Nasabah yang bersangkutan. Dengan kata lain, Nasabah dilarang memberikan kewenangan kepada Pialang Berjangka untuk melakukan transaksi bagi Nasabah tanpa perintah tertulis. 
+Ayat (2) 
+Cukup jelas. 
+Ayat (3) 
+Cukup jelas. 
+Ayat (4) 
+Cukup jelas. 
+Ayat (5) 
+Yang dimaksud dengan “hal tertentu” adalah suatu keadaan pasar berjangka yang tidak ramai sehingga menyebabkan pasar tidak likuid. 
+Ayat (6) 
+Cukup jelas. 
+Angka 27 
+Pasal 53 
+Ayat (1) 
+Cukup jelas. 
+Ayat (2) 
+Dalam rangka perlindungan klien, Penasihat Berjangka wajib terlebih dahulu menyampaikan Dokumen Keterangan Perusahaan kepada kliennya, yang antara lain memuat keterangan mengenai organisasi dan kepengurusan perusahaan tersebut. Penasihat Berjangka juga wajib menjelaskan segala risiko yang mungkin dihadapi kliennya, sebagaimana tercantum dalam Dokumen Pemberitahuan Adanya Risiko. Apabila kliennya mengerti dan dapat menerima risiko tersebut, klien harus menandatangani dan memberi tanggal pada dokumen tersebut, yang menunjukkan bahwa yang bersangkutan telah mengerti risiko yang akan dihadapi dan menyetujuinya. 
+Ayat (3) 
+Cukup jelas. 
+Ayat (4) 
+Cukup jelas. 
+Angka 28 
+39 / 43
+www.hukumonline.com 
+Pasal 57 
+Ayat (1) 
+Huruf a 
+Tindakan sebagaimana dimaksud dalam ketentuan ini akan menyebabkan situasi pasar dengan jumlah pasokan Komoditi secara fisik menjadi langka dan harga Komoditi tersebut melonjak sehingga harga yang terjadi di Bursa Berjangka juga akan meningkat di atas harga normal. Manipulasi harga di Bursa Berjangka tersebut mengakibatkan Pihak yang memiliki posisi jual yang masih terbuka terpaksa menutup kontraknya dengan harga yang tinggi pada saat jatuh tempo. 
+Huruf b 
+Yang dimaksud dengan “seolah-olah terjadi perdagangan yang aktif atau yang mengakibatkan terciptanya informasi yang menyesatkan” adalah transaksi fiktif yang dapat memengaruhi perkembangan situasi di Bursa Berjangka sehingga perkembangan harga Kontrak Berjangka, Kontrak Derivatif Syariah, dan/atau Kontrak Derivatif lainnya tidak mencerminkan kekuatan permintaan dan penawaran pasar pada saat itu. Pihak yang terlibat dalam transaksi fiktif ini pada dasarnya tidak mempunyai posisi di Bursa Berjangka, tetapi bermaksud mengambil keuntungan dari perkembangan harga yang diharapkan. Meskipun terlihat besar, volume transaksi tidak menambah jumlah keseluruhan posisi terbuka dari Kontrak Berjangka, Kontrak Derivatif Syariah, dan/atau Kontrak Derivatif lainnya karena transaksi tersebut umumnya saling menghapuskan posisi yang ada. 
+Dampak negatif yang dapat timbul dari keadaan semu atau informasi yang menyesatkan ini dapat memengaruhi Pihak lain untuk membeli, menjual, menahan Kontrak Berjangka, Kontrak Derivatif Syariah, dan/atau Kontrak Derivatif lainnya, dan/atau menggunakannya sebagai patokan harga. 
+Huruf c 
+Informasi merupakan hal yang sangat penting bagi calon Nasabah dalam memutuskan keikutsertaannya dalam Perdagangan Berjangka. Sehubungan dengan itu, ketentuan ini melarang adanya tindakan membuat dan/atau menyebarluaskan informasi yang tidak benar yang dapat menciptakan gambaran yang menyesatkan (misleading statement/information) tentang keadaan pasokan dan permintaan Komoditi yang Kontrak Berjangka, Kontrak Derivatif Syariah, dan/atau Kontrak Derivatif lainnya diperdagangkan di Bursa Berjangka. Tindakan ini dilakukan untuk memengaruhi harga di Bursa Berjangka agar bergerak ke arah yang diinginkan Pihak yang menyebarluaskan pernyataan atau informasi palsu. 
+Sebagai contoh, penyebarluasan pernyataan atau informasi tentang terjadinya bencana alam di negara penghasil utama Komoditi yang Kontrak Berjangka, Kontrak Derivatif Syariah, dan/atau Kontrak Derivatif lainnya diperdagangkan di Bursa Berjangka, yang sesungguhnya informasi tersebut tidak benar. 
+Ayat (2) 
+Huruf a 
+Transaksi yang diatur terlebih dahulu secara tidak wajar (persekongkolan) merupakan hal yang terlarang. Transaksi seperti ini dikenal dengan prearranged atau accomodation trade. 
+Huruf b 
+Semua amanat Kontrak Berjangka, Kontrak Derivatif Syariah, dan/atau Kontrak Derivatif lainnya dari Nasabah harus disalurkan untuk ditransaksikan di Bursa Berjangka. Transaksi yang diselesaikan sendiri (dibandari) oleh Pialang Berjangka di luar Bursa Berjangka (bucketing) dilarang. 
+Huruf c 
+40 / 43
+www.hukumonline.com 
+Angka 1 
+Semua amanat yang diterima oleh Anggota Bursa Berjangka yang berstatus sebagai Pialang Berjangka wajib ditransaksikan di Bursa Berjangka. Anggota Bursa Berjangka tersebut dilarang mengambil posisi secara langsung sebagai lawan transaksi dari amanat 
+Nasabahnya tanpa menempuh prosedur sebagaimana ditetapkan. 
+Angka 2 
+Cukup jelas. 
+Huruf d 
+Keikutsertaan seorang Nasabah dalam transaksi Kontrak Berjangka, Kontrak Derivatif Syariah, dan/atau Kontrak Derivatif lainnya hendaknya dilakukan atas kesadaran dan pengertian yang penuh dari Nasabah yang bersangkutan. Hal penting lain adalah tidak adanya unsur bujukan atau pemaksaan (high-pressure sales tactics) kepada Nasabah dalam penyaluran amanat Kontrak Berjangka, Kontrak Derivatif Syariah, dan/atau Kontrak Derivatif lainnya. 
+Angka 29 
+Pasal 58 
+Cukup jelas. 
+Angka 30 
+Pasal 63 
+Ayat (1) 
+Cukup jelas. 
+Ayat (2) 
+Apabila diperlukan laporan sewaktu-waktu untuk kelengkapan data dan informasi mengenai kegiatan para Pihak dalam transaksi Kontrak Berjangka, Kontrak Derivatif Syariah, dan/atau Kontrak Derivatif lainnya dan/atau ditemukan indikasi atau laporan penyimpangan terhadap ketentuan Undang-undang ini dan/atau peraturan pelaksanaannya, Bappebti dapat mewajibkan pemegang izin, persetujuan, dan sertifikat pendaftaran untuk menyampaikan laporan. 
+Angka 31 
+Pasal 68 
+Ayat (1) 
+Pejabat Pegawai Negeri Sipil tertentu di Bappebti yang diberi wewenang khusus sebagai penyidik adalah Pegawai Negeri Sipil di lingkungan kementerian yang mempunyai tugas dan tanggung jawab di bidang perdagangan. 
+Ayat (2) 
+Cukup jelas. 
+Ayat (3) 
+Penyidikan perlu dilaksanakan dengan cepat agar masalah yang timbul segera dapat diatasi untuk menghilangkan keragu-raguan peserta Bursa Berjangka. 
+41 / 43
+www.hukumonline.com 
+Untuk keperluan tersebut, Bappebti diberikan hak mengajukan permohonan izin secara langsung kepada lembaga yang berwenang dalam rangka mendapatkan keterangan tentang keadaan keuangan tersangka yang disimpan di bank. 
+Ayat (4) 
+Sejak dimulai penyidikan dan selama penyidikan berlangsung, Penyidik Pejabat Pegawai Negeri Sipil perlu berkonsultasi dengan Penyidik Pejabat Polisi Negara Republik Indonesia. 
+Ayat (5) 
+Sesuai dengan ketentuan Undang-Undang Nomor 8 Tahun 1981 tentang Hukum Acara Pidana, Penyidik Pejabat Pegawai Negeri Sipil menyerahkan hasil penyidikannya kepada Penyidik Pejabat Polisi Negara Republik Indonesia, yang selanjutnya wajib segera menyampaikannya kepada penuntut umum. Dalam hal ini, kata melalui pada ayat ini tidak berarti bahwa Penyidik Pejabat Polisi Negara Republik Indonesia dapat atau perlu melakukan penyidikan ulang karena sejak awal sampai dengan berlangsungnya penyidikan, 
+Penyidik Pejabat Polisi Negara Republik Indonesia telah memberikan bimbingan teknis penyidikan, termasuk pemberkasan hasil penyidikan. 
+Ayat (6) 
+Cukup jelas. 
+Angka 32 
+Pasal 71 
+Cukup jelas. 
+Angka 33 
+Pasal 73 
+Cukup jelas. 
+Angka 34 
+Pasal 73A 
+Cukup jelas. 
+Pasal 73B 
+Cukup jelas. 
+Pasal 73C 
+Cukup jelas. 
+Pasal 73D 
+Cukup jelas. 
+42 / 43
+www.hukumonline.com 
+Pasal 73E 
+Cukup jelas. 
+Pasal 73F 
+Cukup jelas. 
+Pasal 73G 
+Cukup jelas. 
+Angka 35 
+Pasal 76 
+Dihapus. 
+Angka 36 
+Pasal 77 
+Konsultasi atau koordinasi dilakukan sepanjang masalah atau kegiatan tersebut berkaitan dengan bidang tugas dan fungsi Bank Indonesia dan/atau badan yang mengawasi pasar modal dan lembaga keuangan, dan lembaga yang menangani pelaporan dan analisis transaksi keuangan. Untuk itu, Bappebti berkewajiban mengambil inisiatif untuk mengadakan konsultasi dan/atau koordinasi dengan Bank Indonesia dan/atau badan yang mengawasi pasar modal dan lembaga keuangan, dan lembaga yang menangani pelaporan dan analisis transaksi keuangan. 
+Angka 37 
+Pasal 80A 
+Cukup jelas. 
+Pasal II 
+Cukup jelas. 
+TAMBAHAN LEMBARAN NEGARA REPUBLIK INDONESIA NOMOR 5232 
+43 / 43
