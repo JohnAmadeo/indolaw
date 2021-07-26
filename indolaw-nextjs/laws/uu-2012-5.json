@@ -1,0 +1,452 @@
+{
+  "metadata": {
+    "lembaranNegaraNumber": 93,
+    "lembaranNegaraYear": 2012,
+    "tambahanLembaranNumber": 5306,
+    "number": 5,
+    "topic": "Pengesahan Asean Convention On Counter Terrorism (konvensi Asean Mengenai Pemberantasan Terorisme)",
+    "year": 2012
+  },
+  "content": {
+    "type": "UNDANG_UNDANG",
+    "id": "",
+    "children": [
+      {
+        "type": "OPENING",
+        "id": "",
+        "children": [
+          {
+            "type": "UU_TITLE",
+            "id": "",
+            "children": [
+              {
+                "type": "PLAINTEXT",
+                "text": "UNDANG-UNDANG REPUBLIK INDONESIA"
+              },
+              {
+                "type": "UU_TITLE_YEAR_AND_NUMBER",
+                "text": "NOMOR 5 TAHUN 2012"
+              },
+              {
+                "type": "PLAINTEXT",
+                "text": "TENTANG"
+              },
+              {
+                "type": "UU_TITLE_TOPIC",
+                "text": "PENGESAHAN ASEAN CONVENTION ON COUNTER TERRORISM (KONVENSI ASEAN MENGENAI PEMBERANTASAN TERORISME)"
+              }
+            ]
+          },
+          {
+            "type": "PREFACE",
+            "id": "",
+            "children": [
+              {
+                "type": "PLAINTEXT",
+                "text": "DENGAN RAHMAT TUHAN YANG MAHA ESA"
+              },
+              {
+                "type": "PLAINTEXT",
+                "text": "PRESIDEN REPUBLIK INDONESIA,"
+              }
+            ]
+          },
+          {
+            "type": "CONSIDERATIONS",
+            "id": "",
+            "children": [
+              {
+                "type": "PLAINTEXT",
+                "text": "Menimbang:"
+              },
+              {
+                "type": "LIST",
+                "id": "",
+                "children": [
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "LETTER_WITH_DOT",
+                        "text": "a."
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "bahwa pelaksanaan hubungan luar negeri bebas aktif yang didasarkan atas asas persamaan derajat, saling menguntungkan, dan saling menghormati, merupakan salah satu perwujudan dari tujuan Pemerintah Republik Indonesia, yaitu ikut serta melaksanakan ketertiban dunia yang berdasarkan kemerdekaan, perdamaian abadi, dan keadilan sosial;"
+                      }
+                    ]
+                  },
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "LETTER_WITH_DOT",
+                        "text": "b."
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "bahwa tindakan terorisme merupakan kejahatan yang bersifat lintas batas negara dan telah mengakibatkan hilangnya nyawa tanpa memandang korban, menimbulkan ketakutan masyarakat secara luas, hilangnya kemerdekaan, serta kerugian harta benda, oleh karena itu perlu dilaksanakan langkah langkah pemberantasan melalui kerja sama regional;"
+                      }
+                    ]
+                  },
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "LETTER_WITH_DOT",
+                        "text": "c."
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "bahwa pada Konferensi Tingkat Tinggi ASEAN ke-12, di Cebu, Filipina, tanggal 13 Januari 2007, Pemerintah Indonesia telah menandatangani ASEAN Convention on Counter Terrorism (Konvensi ASEAN mengenai Pemberantasan Terorisme);"
+                      }
+                    ]
+                  },
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "LETTER_WITH_DOT",
+                        "text": "d."
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "bahwa berdasarkan pertimbangan sebagaimana dimaksud dalam huruf a, huruf b, dan huruf c, perlu mengesahkan ASEAN Convention on Counter Terrorism (Konvensi ASEAN mengenai Pemberantasan Terorisme) dengan Undang-Undang."
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "PRINCIPLES",
+            "id": "",
+            "children": [
+              {
+                "type": "PLAINTEXT",
+                "text": "Mengingat:"
+              },
+              {
+                "type": "LIST",
+                "id": "",
+                "children": [
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "NUMBER_WITH_DOT",
+                        "text": "1."
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "Pasal 5 ayat (1), Pasal 11, dan Pasal 20 Undang-Undang Dasar Negara Republik Indonesia Tahun 1945;"
+                      }
+                    ]
+                  },
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "NUMBER_WITH_DOT",
+                        "text": "2."
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "Undang-Undang Nomor 37 Tahun 1999 tentang Hubungan Luar Negeri (Lembaran Negara Republik Indonesia Tahun 1999 Nomor 156, Tambahan Lembaran Negara Republik Indonesia Nomor 3882);"
+                      }
+                    ]
+                  },
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "NUMBER_WITH_DOT",
+                        "text": "3."
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "Undang-Undang Nomor 24 Tahun 2000 tentang Perjanjian Internasional (Lembaran Negara Republik Indonesia Tahun 2000 Nomor 185, Tambahan Lembaran Negara Republik Indonesia Nomor 4012);"
+                      }
+                    ]
+                  },
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "NUMBER_WITH_DOT",
+                        "text": "4."
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "Undang-Undang Nomor 38 Tahun 2008 tentang Pengesahan Charter of the Association of Southeast Asian Nations (Piagam Perhimpunan Bangsa-Bangsa Asia Tenggara) (Lembaran Negara Republik Indonesia Tahun 2008 Nomor 165, Tambahan Lembaran Negara Republik Indonesia Nomor 4915);"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "AGREEMENT",
+            "id": "",
+            "children": [
+              {
+                "type": "PLAINTEXT",
+                "text": "Dengan Persetujuan Bersama"
+              },
+              {
+                "type": "PLAINTEXT",
+                "text": "DEWAN PERWAKILAN RAKYAT REPUBLIK INDONESIA"
+              },
+              {
+                "type": "PLAINTEXT",
+                "text": "dan"
+              },
+              {
+                "type": "PLAINTEXT",
+                "text": "PRESIDEN REPUBLIK INDONESIA"
+              },
+              {
+                "type": "PLAINTEXT",
+                "text": "MEMUTUSKAN:"
+              },
+              {
+                "type": "PLAINTEXT",
+                "text": "Menetapkan:"
+              },
+              {
+                "type": "PLAINTEXT",
+                "text": "UNDANG-UNDANG TENTANG PENGESAHAN ASEAN CONVENTION ON COUNTER TERRORISM (KONVENSI ASEAN MENGENAI PEMBERANTASAN TERORISME)."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "PASAL",
+        "id": "pasal-1",
+        "children": [
+          {
+            "type": "PASAL_NUMBER",
+            "text": "Pasal 1"
+          },
+          {
+            "type": "LIST",
+            "id": "",
+            "children": [
+              {
+                "type": "LIST_ITEM",
+                "id": "",
+                "children": [
+                  {
+                    "type": "NUMBER_WITH_BRACKETS",
+                    "text": "(1)"
+                  },
+                  {
+                    "type": "PLAINTEXT",
+                    "text": "Mengesahkan ASEAN Convention on Counter Terrorism (Konvensi ASEAN mengenai Pemberantasan Terorisme)."
+                  }
+                ]
+              },
+              {
+                "type": "LIST_ITEM",
+                "id": "",
+                "children": [
+                  {
+                    "type": "NUMBER_WITH_BRACKETS",
+                    "text": "(2)"
+                  },
+                  {
+                    "type": "PLAINTEXT",
+                    "text": "Salinan naskah asli ASEAN Convention on Counter Terrorism (Konvensi ASEAN mengenai Pemberantasan Terorisme) dalam bahasa Inggris dan terjemahannya dalam bahasa Indonesia sebagaimana terlampir dan merupakan bagian yang tidak terpisahkan dari Undang-Undang ini."
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "PASAL",
+        "id": "pasal-2",
+        "children": [
+          {
+            "type": "PASAL_NUMBER",
+            "text": "Pasal 2"
+          },
+          {
+            "type": "PLAINTEXT",
+            "text": "Undang-Undang ini mulai berlaku pada tanggal diundangkan."
+          },
+          {
+            "type": "PLAINTEXT",
+            "text": "Agar setiap orang mengetahuinya, memerintahkan pengundangan Undang-Undang ini dengan penempatannya dalam Lembaran Negara Republik Indonesia."
+          }
+        ]
+      },
+      {
+        "type": "CLOSING",
+        "id": "",
+        "children": [
+          {
+            "type": "PLAINTEXT",
+            "text": "Disahkan Di Jakarta,"
+          },
+          {
+            "type": "PLAINTEXT",
+            "text": "Pada Tanggal 9 April 2012"
+          },
+          {
+            "type": "PLAINTEXT",
+            "text": "PRESIDEN REPUBLIK INDONESIA,"
+          },
+          {
+            "type": "PLAINTEXT",
+            "text": "Ttd."
+          },
+          {
+            "type": "PLAINTEXT",
+            "text": "DR. H. SUSILO BAMBANG YUDHOYONO"
+          },
+          {
+            "type": "PLAINTEXT",
+            "text": "Diundangkan Di Jakarta,"
+          },
+          {
+            "type": "PLAINTEXT",
+            "text": "Pada Tanggal 9 April 2012"
+          },
+          {
+            "type": "PLAINTEXT",
+            "text": "MENTERI HUKUM DAN HAK ASASI MANUSIA REPUBLIK INDONESIA,"
+          },
+          {
+            "type": "PLAINTEXT",
+            "text": "Ttd."
+          },
+          {
+            "type": "PLAINTEXT",
+            "text": "AMIR SYAMSUDIN"
+          },
+          {
+            "type": "LEMBARAN_NUMBER",
+            "text": "LEMBARAN NEGARA REPUBLIK INDONESIA TAHUN 2012 NOMOR 93"
+          }
+        ]
+      },
+      {
+        "type": "PENJELASAN",
+        "id": "penjelasan",
+        "children": [
+          {
+            "type": "PENJELASAN_TITLE",
+            "id": "",
+            "children": [
+              {
+                "type": "PLAINTEXT",
+                "text": "PENJELASAN"
+              },
+              {
+                "type": "PLAINTEXT",
+                "text": "UNDANG-UNDANG REPUBLIK INDONESIA"
+              },
+              {
+                "type": "UU_TITLE_YEAR_AND_NUMBER",
+                "text": "NOMOR 5 TAHUN 2012"
+              },
+              {
+                "type": "PLAINTEXT",
+                "text": "TENTANG"
+              },
+              {
+                "type": "UU_TITLE_TOPIC",
+                "text": "PENGESAHAN ASEAN CONVENTION ON COUNTER TERRORISM (KONVENSI ASEAN MENGENAI PEMBERANTASAN TERORISME)"
+              }
+            ]
+          },
+          {
+            "type": "PENJELASAN_UMUM",
+            "id": "",
+            "children": [
+              {
+                "type": "PENJELASAN_UMUM_TITLE",
+                "text": "I. UMUM"
+              },
+              {
+                "type": "PLAINTEXT",
+                "text": "Sesuai dengan Pembukaan Undang-Undang Dasar Negara Republik Indonesia Tahun 1945, tujuan pembentukan Pemerintah Negara Republik Indonesia yaitu melindungi segenap bangsa Indonesia dan seluruh tumpah darah Indonesia, memajukan kesejahteraan umum, mencerdaskan kehidupan bangsa, dan ikut melaksanakan ketertiban dunia yang berdasarkan kemerdekaan, perdamaian abadi, dan keadilan sosial. Hal ini tercermin melalui pelaksanaan hubungan luar negeri bebas aktif yang didasarkan atas asas persamaan derajat, saling menguntungkan, dan saling menghormati."
+              },
+              {
+                "type": "PLAINTEXT",
+                "text": "Tindakan terorisme merupakan kejahatan yang bersifat lintas batas negara dan telah mengakibatkan hilangnya nyawa tanpa memandang korban, menimbulkan ketakutan masyarakat secara luas, hilangnya kemerdekaan, serta kerugian harta benda. Oleh karena itu, perlu dilaksanakan berbagai langkah pemberantasan melalui kerja sama regional. Berkaitan dengan hal tersebut, bangsa Indonesia perlu mempersiapkan diri agar dapat berperan secara optimal dalam pengembangan kerja sama di kawasan, khususnya yang terkait dengan kejahatan terorisme dan kejahatan lintas batas lainnya."
+              },
+              {
+                "type": "PLAINTEXT",
+                "text": "Kerja sama keamanan dalam penanganan terorisme di ASEAN diperlukan untuk mewujudkan perdamaian dan stabilitas yang dinamis di kawasan, dengan tetap mengedepankan Kepentingan Nasional Indonesia yang pada akhirnya akan turut menyokong terwujudnya suatu Komunitas ASEAN pada tahun 2015 yang ditopang oleh tiga pilar yang saling memperkuat, yaitu Komunitas Politik Keamanan, Komunitas Ekonomi, dan Komunitas Sosial-Budaya."
+              },
+              {
+                "type": "PLAINTEXT",
+                "text": "Dalam upaya memberantas kejahatan terorisme, Indonesia telah memiliki perangkat hukum nasional, yaitu Undang-Undang Nomor 15 Tahun 2003 tentang Terorisme, yang memuat berbagai ketentuan dan aturan yang jelas mengenai pemberantasan terorisme."
+              },
+              {
+                "type": "PLAINTEXT",
+                "text": "Dalam kehidupan berbangsa dan bernegara, kerja sama keamanan dengan negara sahabat tidak dapat dihindari dan perlu terus dipupuk dan ditingkatkan berdasarkan prinsip-prinsip saling menguntungkan, kesetaraan dan penghormatan penuh atas kedaulatan setiap negara. Oleh karena itu, Pemerintah Republik Indonesia memandang perlu meningkatkan kerja sama keamanan dengan negara yang tergabung dalam ASEAN dalam menanggulangi kejahatan terorisme di bawah payung Konvensi ASEAN mengenai Pemberantasan Terorisme yang telah ditandatangani pada Konferensi Tingkat Tinggi ASEAN ke-12 di Cebu, Filipina, tanggal 13 Januari 2007."
+              },
+              {
+                "type": "PLAINTEXT",
+                "text": "Seluruh prinsip yang terkandung dalam Konvensi ASEAN mengenai Pemberantasan Terorisme antara lain memuat pandangan bahwa terorisme tidak dapat dan tidak boleh dihubungkan dengan agama, kewarganegaraan, peradaban, atau kelompok etnis apa pun, menghormati kedaulatan, kesetaraan, integritas wilayah dan identitas nasional, tidak campur tangan urusan dalam negeri, menghormati yurisdiksi kewilayahan, adanya bantuan hukum timbal balik, ekstradisi, serta mengedepankan penyelesaian perselisihan secara damai. Selain itu, di dalam Konvensi ASEAN ini secara khusus terdapat prinsip yang merupakan nilai tambah yang tidak dimiliki oleh Konvensi serupa yang memuat ketentuan mengenai program rehabilitasi bagi tersangka terorisme, perlakuan yang adil dan manusiawi serta penghormatan terhadap hak asasi manusia dalam proses penanganannya."
+              }
+            ]
+          },
+          {
+            "type": "PENJELASAN_PASAL_DEMI_PASAL",
+            "id": "",
+            "children": [
+              {
+                "type": "PENJELASAN_PASAL_DEMI_PASAL_TITLE",
+                "text": "II. PASAL DEMI PASAL"
+              },
+              {
+                "type": "PENJELASAN_PASAL",
+                "id": "",
+                "children": [
+                  {
+                    "type": "PASAL_NUMBER",
+                    "text": "Pasal 1"
+                  },
+                  {
+                    "type": "PLAINTEXT",
+                    "text": "Cukup jelas."
+                  }
+                ]
+              },
+              {
+                "type": "PENJELASAN_PASAL",
+                "id": "",
+                "children": [
+                  {
+                    "type": "PASAL_NUMBER",
+                    "text": "Pasal 2"
+                  },
+                  {
+                    "type": "PLAINTEXT",
+                    "text": "Cukup jelas."
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

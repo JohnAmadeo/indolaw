@@ -1,0 +1,4320 @@
+{
+  "metadata": {
+    "lembaranNegaraNumber": 115,
+    "lembaranNegaraYear": 2011,
+    "tambahanLembaranNumber": 5255,
+    "number": 23,
+    "topic": "Pengelolaan Zakat",
+    "year": 2011
+  },
+  "content": {
+    "type": "UNDANG_UNDANG",
+    "id": "",
+    "children": [
+      {
+        "type": "OPENING",
+        "id": "",
+        "children": [
+          {
+            "type": "UU_TITLE",
+            "id": "",
+            "children": [
+              {
+                "type": "PLAINTEXT",
+                "text": "UNDANG-UNDANG REPUBLIK INDONESIA"
+              },
+              {
+                "type": "UU_TITLE_YEAR_AND_NUMBER",
+                "text": "NOMOR 23 TAHUN 2011"
+              },
+              {
+                "type": "PLAINTEXT",
+                "text": "TENTANG"
+              },
+              {
+                "type": "UU_TITLE_TOPIC",
+                "text": "PENGELOLAAN ZAKAT"
+              }
+            ]
+          },
+          {
+            "type": "PREFACE",
+            "id": "",
+            "children": [
+              {
+                "type": "PLAINTEXT",
+                "text": "DENGAN RAHMAT TUHAN YANG MAHA ESA"
+              },
+              {
+                "type": "PLAINTEXT",
+                "text": "PRESIDEN REPUBLIK INDONESIA,"
+              }
+            ]
+          },
+          {
+            "type": "CONSIDERATIONS",
+            "id": "",
+            "children": [
+              {
+                "type": "PLAINTEXT",
+                "text": "Menimbang:"
+              },
+              {
+                "type": "LIST",
+                "id": "",
+                "children": [
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "LETTER_WITH_DOT",
+                        "text": "a."
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "bahwa negara menjamin kemerdekaan tiap-tiap penduduk untuk memeluk agamanya masing-masing dan untuk beribadat menurut agamanya dan kepercayaannya itu;"
+                      }
+                    ]
+                  },
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "LETTER_WITH_DOT",
+                        "text": "b."
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "bahwa menunaikan zakat merupakan kewajiban bagi umat Islam yang mampu sesuai dengan syariat Islam;"
+                      }
+                    ]
+                  },
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "LETTER_WITH_DOT",
+                        "text": "c."
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "bahwa zakat merupakan pranata keagamaan yang bertujuan untuk meningkatkan keadilan dan kesejahteraan masyarakat;"
+                      }
+                    ]
+                  },
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "LETTER_WITH_DOT",
+                        "text": "d."
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "bahwa dalam rangka meningkatkan daya guna dan hasil guna, zakat harus dikelola secara melembaga sesuai dengan syariat Islam;"
+                      }
+                    ]
+                  },
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "LETTER_WITH_DOT",
+                        "text": "e."
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "bahwa Undang-Undang Nomor 38 Tahun 1999 tentang Pengelolaan Zakat sudah tidak sesuai dengan perkembangan kebutuhan hukum dalam masyarakat sehingga perlu diganti;"
+                      }
+                    ]
+                  },
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "LETTER_WITH_DOT",
+                        "text": "f."
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "bahwa berdasarkan pertimbangan sebagaimana dimaksud dalam huruf a, huruf b, huruf c, huruf d, dan huruf e perlu membentuk Undang-Undang tentang Pengelolaan Zakat."
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "PRINCIPLES",
+            "id": "",
+            "children": [
+              {
+                "type": "PLAINTEXT",
+                "text": "Mengingat:"
+              },
+              {
+                "type": "PLAINTEXT",
+                "text": "Pasal 20, Pasal 21, Pasal 29, dan Pasal 34 ayat (1) Undang-Undang Dasar Negara Republik Indonesia Tahun 1945."
+              }
+            ]
+          },
+          {
+            "type": "AGREEMENT",
+            "id": "",
+            "children": [
+              {
+                "type": "PLAINTEXT",
+                "text": "Dengan Persetujuan Bersama"
+              },
+              {
+                "type": "PLAINTEXT",
+                "text": "DEWAN PERWAKILAN RAKYAT REPUBLIK INDONESIA"
+              },
+              {
+                "type": "PLAINTEXT",
+                "text": "dan"
+              },
+              {
+                "type": "PLAINTEXT",
+                "text": "PRESIDEN REPUBLIK INDONESIA"
+              },
+              {
+                "type": "PLAINTEXT",
+                "text": "MEMUTUSKAN:"
+              },
+              {
+                "type": "PLAINTEXT",
+                "text": "Menetapkan:"
+              },
+              {
+                "type": "PLAINTEXT",
+                "text": "UNDANG-UNDANG TENTANG PENGELOLAAN ZAKAT."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "BAB",
+        "id": "bab-1",
+        "children": [
+          {
+            "type": "BAB_NUMBER",
+            "text": "BAB I"
+          },
+          {
+            "type": "BAB_TITLE",
+            "text": "KETENTUAN UMUM"
+          },
+          {
+            "type": "PASAL",
+            "id": "pasal-1",
+            "children": [
+              {
+                "type": "PASAL_NUMBER",
+                "text": "Pasal 1"
+              },
+              {
+                "type": "PLAINTEXT",
+                "text": "Dalam Undang-Undang ini yang dimaksud dengan:"
+              },
+              {
+                "type": "LIST",
+                "id": "",
+                "children": [
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "NUMBER_WITH_DOT",
+                        "text": "1."
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "Pengelolaan zakat adalah kegiatan perencanaan, pelaksanaan, dan pengoordinasian dalam pengumpulan, pendistribusian, dan pendayagunaan zakat."
+                      }
+                    ]
+                  },
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "NUMBER_WITH_DOT",
+                        "text": "2."
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "Zakat adalah harta yang wajib dikeluarkan oleh seorang muslim atau badan usaha untuk diberikan kepada yang berhak menerimanya sesuai dengan syariat Islam."
+                      }
+                    ]
+                  },
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "NUMBER_WITH_DOT",
+                        "text": "3."
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "Infak adalah harta yang dikeluarkan oleh seseorang atau badan usaha di luar zakat untuk kemaslahatan umum."
+                      }
+                    ]
+                  },
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "NUMBER_WITH_DOT",
+                        "text": "4."
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "Sedekah adalah harta atau nonharta yang dikeluarkan oleh seseorang atau badan usaha di luar zakat untuk kemaslahatan umum."
+                      }
+                    ]
+                  },
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "NUMBER_WITH_DOT",
+                        "text": "5."
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "Muzaki adalah seorang muslim atau badan usaha yang berkewajiban menunaikan zakat."
+                      }
+                    ]
+                  },
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "NUMBER_WITH_DOT",
+                        "text": "6."
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "Mustahik adalah orang yang berhak menerima zakat."
+                      }
+                    ]
+                  },
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "NUMBER_WITH_DOT",
+                        "text": "7."
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "Badan Amil Zakat Nasional yang selanjutnya disebut BAZNAS adalah lembaga yang melakukan pengelolaan zakat secara nasional."
+                      }
+                    ]
+                  },
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "NUMBER_WITH_DOT",
+                        "text": "8."
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "Lembaga Amil Zakat yang selanjutnya disingkat LAZ adalah lembaga yang dibentuk masyarakat yang memiliki tugas membantu pengumpulan, pendistribusian, dan pendayagunaan zakat."
+                      }
+                    ]
+                  },
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "NUMBER_WITH_DOT",
+                        "text": "9."
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "Unit Pengumpul Zakat yang selanjutnya disingkat UPZ adalah satuan organisasi yang dibentuk oleh BAZNAS untuk membantu pengumpulan zakat."
+                      }
+                    ]
+                  },
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "NUMBER_WITH_DOT",
+                        "text": "10."
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "Setiap orang adalah orang perseorangan atau badan hukum."
+                      }
+                    ]
+                  },
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "NUMBER_WITH_DOT",
+                        "text": "11."
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "Hak Amil adalah bagian tertentu dari zakat yang dapat dimanfaatkan untuk biaya operasional dalam pengelolaan zakat sesuai syariat Islam."
+                      }
+                    ]
+                  },
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "NUMBER_WITH_DOT",
+                        "text": "12."
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "Menteri adalah menteri yang menyelenggarakan urusan pemerintahan di bidang agama."
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "PASAL",
+            "id": "pasal-2",
+            "children": [
+              {
+                "type": "PASAL_NUMBER",
+                "text": "Pasal 2"
+              },
+              {
+                "type": "PLAINTEXT",
+                "text": "Pengelolaan zakat berasaskan:"
+              },
+              {
+                "type": "LIST",
+                "id": "",
+                "children": [
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "LETTER_WITH_DOT",
+                        "text": "a."
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "syariat Islam;"
+                      }
+                    ]
+                  },
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "LETTER_WITH_DOT",
+                        "text": "b."
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "amanah;"
+                      }
+                    ]
+                  },
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "LETTER_WITH_DOT",
+                        "text": "c."
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "kemanfaatan;"
+                      }
+                    ]
+                  },
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "LETTER_WITH_DOT",
+                        "text": "d."
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "keadilan;"
+                      }
+                    ]
+                  },
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "LETTER_WITH_DOT",
+                        "text": "e."
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "kepastian hukum;"
+                      }
+                    ]
+                  },
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "LETTER_WITH_DOT",
+                        "text": "f."
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "terintegrasi; dan"
+                      }
+                    ]
+                  },
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "LETTER_WITH_DOT",
+                        "text": "g."
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "akuntabilitas."
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "PASAL",
+            "id": "pasal-3",
+            "children": [
+              {
+                "type": "PASAL_NUMBER",
+                "text": "Pasal 3"
+              },
+              {
+                "type": "PLAINTEXT",
+                "text": "Pengelolaan zakat bertujuan:"
+              },
+              {
+                "type": "LIST",
+                "id": "",
+                "children": [
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "LETTER_WITH_DOT",
+                        "text": "a."
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "meningkatkan efektivitas dan efisiensi pelayanan dalam pengelolaan zakat; dan"
+                      }
+                    ]
+                  },
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "LETTER_WITH_DOT",
+                        "text": "b."
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "meningkatkan manfaat zakat untuk mewujudkan kesejahteraan masyarakat dan penanggulangan kemiskinan."
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "PASAL",
+            "id": "pasal-4",
+            "children": [
+              {
+                "type": "PASAL_NUMBER",
+                "text": "Pasal 4"
+              },
+              {
+                "type": "LIST",
+                "id": "",
+                "children": [
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "NUMBER_WITH_BRACKETS",
+                        "text": "(1)"
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "Zakat meliputi zakat mal dan zakat fitrah."
+                      }
+                    ]
+                  },
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "NUMBER_WITH_BRACKETS",
+                        "text": "(2)"
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "Zakat mal sebagaimana dimaksud pada ayat (1) meliputi:"
+                      },
+                      {
+                        "type": "LIST",
+                        "id": "",
+                        "children": [
+                          {
+                            "type": "LIST_ITEM",
+                            "id": "",
+                            "children": [
+                              {
+                                "type": "LETTER_WITH_DOT",
+                                "text": "a."
+                              },
+                              {
+                                "type": "PLAINTEXT",
+                                "text": "emas, perak, dan logam mulia lainnya;"
+                              }
+                            ]
+                          },
+                          {
+                            "type": "LIST_ITEM",
+                            "id": "",
+                            "children": [
+                              {
+                                "type": "LETTER_WITH_DOT",
+                                "text": "b."
+                              },
+                              {
+                                "type": "PLAINTEXT",
+                                "text": "uang dan surat berharga lainnya;"
+                              }
+                            ]
+                          },
+                          {
+                            "type": "LIST_ITEM",
+                            "id": "",
+                            "children": [
+                              {
+                                "type": "LETTER_WITH_DOT",
+                                "text": "c."
+                              },
+                              {
+                                "type": "PLAINTEXT",
+                                "text": "perniagaan;"
+                              }
+                            ]
+                          },
+                          {
+                            "type": "LIST_ITEM",
+                            "id": "",
+                            "children": [
+                              {
+                                "type": "LETTER_WITH_DOT",
+                                "text": "d."
+                              },
+                              {
+                                "type": "PLAINTEXT",
+                                "text": "pertanian, perkebunan, dan kehutanan;"
+                              }
+                            ]
+                          },
+                          {
+                            "type": "LIST_ITEM",
+                            "id": "",
+                            "children": [
+                              {
+                                "type": "LETTER_WITH_DOT",
+                                "text": "e."
+                              },
+                              {
+                                "type": "PLAINTEXT",
+                                "text": "peternakan dan perikanan;"
+                              }
+                            ]
+                          },
+                          {
+                            "type": "LIST_ITEM",
+                            "id": "",
+                            "children": [
+                              {
+                                "type": "LETTER_WITH_DOT",
+                                "text": "f."
+                              },
+                              {
+                                "type": "PLAINTEXT",
+                                "text": "pertambangan;"
+                              }
+                            ]
+                          },
+                          {
+                            "type": "LIST_ITEM",
+                            "id": "",
+                            "children": [
+                              {
+                                "type": "LETTER_WITH_DOT",
+                                "text": "g."
+                              },
+                              {
+                                "type": "PLAINTEXT",
+                                "text": "perindustrian;"
+                              }
+                            ]
+                          },
+                          {
+                            "type": "LIST_ITEM",
+                            "id": "",
+                            "children": [
+                              {
+                                "type": "LETTER_WITH_DOT",
+                                "text": "h."
+                              },
+                              {
+                                "type": "PLAINTEXT",
+                                "text": "pendapatan dan jasa; dan"
+                              }
+                            ]
+                          },
+                          {
+                            "type": "LIST_ITEM",
+                            "id": "",
+                            "children": [
+                              {
+                                "type": "LETTER_WITH_DOT",
+                                "text": "i."
+                              },
+                              {
+                                "type": "PLAINTEXT",
+                                "text": "rikaz."
+                              }
+                            ]
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "NUMBER_WITH_BRACKETS",
+                        "text": "(3)"
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "Zakat mal sebagaimana dimaksud pada ayat (2) merupakan harta yang dimiliki oleh muzaki perseorangan atau badan usaha."
+                      }
+                    ]
+                  },
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "NUMBER_WITH_BRACKETS",
+                        "text": "(4)"
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "Syarat dan tata cara penghitungan zakat mal dan zakat fitrah dilaksanakan sesuai dengan syariat Islam."
+                      }
+                    ]
+                  },
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "NUMBER_WITH_BRACKETS",
+                        "text": "(5)"
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "Ketentuan lebih lanjut mengenai syarat dan tata cara penghitungan zakat mal dan zakat fitrah sebagaimana dimaksud pada ayat (4) diatur dengan Peraturan Menteri."
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "BAB",
+        "id": "bab-2",
+        "children": [
+          {
+            "type": "BAB_NUMBER",
+            "text": "BAB II"
+          },
+          {
+            "type": "BAB_TITLE",
+            "text": "BADAN AMIL ZAKAT NASIONAL"
+          },
+          {
+            "type": "BAGIAN",
+            "id": "bab-2-bagian-1",
+            "children": [
+              {
+                "type": "BAGIAN_NUMBER",
+                "text": "Bagian Kesatu"
+              },
+              {
+                "type": "BAGIAN_TITLE",
+                "text": "Umum"
+              },
+              {
+                "type": "PASAL",
+                "id": "pasal-5",
+                "children": [
+                  {
+                    "type": "PASAL_NUMBER",
+                    "text": "Pasal 5"
+                  },
+                  {
+                    "type": "LIST",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "LIST_ITEM",
+                        "id": "",
+                        "children": [
+                          {
+                            "type": "NUMBER_WITH_BRACKETS",
+                            "text": "(1)"
+                          },
+                          {
+                            "type": "PLAINTEXT",
+                            "text": "Untuk melaksanakan pengelolaan zakat, Pemerintah membentuk BAZNAS."
+                          }
+                        ]
+                      },
+                      {
+                        "type": "LIST_ITEM",
+                        "id": "",
+                        "children": [
+                          {
+                            "type": "NUMBER_WITH_BRACKETS",
+                            "text": "(2)"
+                          },
+                          {
+                            "type": "PLAINTEXT",
+                            "text": "BAZNAS sebagaimana dimaksud pada ayat (1) berkedudukan di ibu kota negara."
+                          }
+                        ]
+                      },
+                      {
+                        "type": "LIST_ITEM",
+                        "id": "",
+                        "children": [
+                          {
+                            "type": "NUMBER_WITH_BRACKETS",
+                            "text": "(3)"
+                          },
+                          {
+                            "type": "PLAINTEXT",
+                            "text": "BAZNAS sebagaimana dimaksud pada ayat (1) merupakan lembaga pemerintah non struktural yang bersifat mandiri dan bertanggung jawab kepada Presiden melalui Menteri."
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "PASAL",
+                "id": "pasal-6",
+                "children": [
+                  {
+                    "type": "PASAL_NUMBER",
+                    "text": "Pasal 6"
+                  },
+                  {
+                    "type": "PLAINTEXT",
+                    "text": "BAZNAS merupakan lembaga yang berwenang melakukan tugas pengelolaan zakat secara nasional."
+                  }
+                ]
+              },
+              {
+                "type": "PASAL",
+                "id": "pasal-7",
+                "children": [
+                  {
+                    "type": "PASAL_NUMBER",
+                    "text": "Pasal 7"
+                  },
+                  {
+                    "type": "LIST",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "LIST_ITEM",
+                        "id": "",
+                        "children": [
+                          {
+                            "type": "NUMBER_WITH_BRACKETS",
+                            "text": "(1)"
+                          },
+                          {
+                            "type": "PLAINTEXT",
+                            "text": "Dalam melaksanakan tugas sebagaimana dimaksud dalam Pasal 6, BAZNAS menyelenggarakan fungsi:"
+                          },
+                          {
+                            "type": "LIST",
+                            "id": "",
+                            "children": [
+                              {
+                                "type": "LIST_ITEM",
+                                "id": "",
+                                "children": [
+                                  {
+                                    "type": "LETTER_WITH_DOT",
+                                    "text": "a."
+                                  },
+                                  {
+                                    "type": "PLAINTEXT",
+                                    "text": "perencanaan pengumpulan, pendistribusian, dan pendayagunaan zakat;"
+                                  }
+                                ]
+                              },
+                              {
+                                "type": "LIST_ITEM",
+                                "id": "",
+                                "children": [
+                                  {
+                                    "type": "LETTER_WITH_DOT",
+                                    "text": "b."
+                                  },
+                                  {
+                                    "type": "PLAINTEXT",
+                                    "text": "pelaksanaan pengumpulan, pendistribusian, dan pendayagunaan zakat;"
+                                  }
+                                ]
+                              },
+                              {
+                                "type": "LIST_ITEM",
+                                "id": "",
+                                "children": [
+                                  {
+                                    "type": "LETTER_WITH_DOT",
+                                    "text": "c."
+                                  },
+                                  {
+                                    "type": "PLAINTEXT",
+                                    "text": "pengendalian pengumpulan, pendistribusian, dan pendayagunaan zakat; dan"
+                                  }
+                                ]
+                              },
+                              {
+                                "type": "LIST_ITEM",
+                                "id": "",
+                                "children": [
+                                  {
+                                    "type": "LETTER_WITH_DOT",
+                                    "text": "d."
+                                  },
+                                  {
+                                    "type": "PLAINTEXT",
+                                    "text": "pelaporan dan pertanggungjawaban pelaksanaan pengelolaan zakat."
+                                  }
+                                ]
+                              }
+                            ]
+                          }
+                        ]
+                      },
+                      {
+                        "type": "LIST_ITEM",
+                        "id": "",
+                        "children": [
+                          {
+                            "type": "NUMBER_WITH_BRACKETS",
+                            "text": "(2)"
+                          },
+                          {
+                            "type": "PLAINTEXT",
+                            "text": "Dalam melaksanakan tugas dan fungsinya, BAZNAS dapat bekerja sama dengan pihak terkait sesuai dengan ketentuan peraturan perundang-undangan."
+                          }
+                        ]
+                      },
+                      {
+                        "type": "LIST_ITEM",
+                        "id": "",
+                        "children": [
+                          {
+                            "type": "NUMBER_WITH_BRACKETS",
+                            "text": "(3)"
+                          },
+                          {
+                            "type": "PLAINTEXT",
+                            "text": "BAZNAS melaporkan hasil pelaksanaan tugasnya secara tertulis kepada Presiden melalui Menteri dan kepada Dewan Perwakilan Rakyat Republik Indonesia paling sedikit 1 (satu) kali dalam 1 (satu) tahun."
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "BAGIAN",
+            "id": "bab-2-bagian-2",
+            "children": [
+              {
+                "type": "BAGIAN_NUMBER",
+                "text": "Bagian Kedua"
+              },
+              {
+                "type": "BAGIAN_TITLE",
+                "text": "Keanggotaan"
+              },
+              {
+                "type": "PASAL",
+                "id": "pasal-8",
+                "children": [
+                  {
+                    "type": "PASAL_NUMBER",
+                    "text": "Pasal 8"
+                  },
+                  {
+                    "type": "LIST",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "LIST_ITEM",
+                        "id": "",
+                        "children": [
+                          {
+                            "type": "NUMBER_WITH_BRACKETS",
+                            "text": "(1)"
+                          },
+                          {
+                            "type": "PLAINTEXT",
+                            "text": "BAZNAS terdiri atas 11 (sebelas) orang anggota."
+                          }
+                        ]
+                      },
+                      {
+                        "type": "LIST_ITEM",
+                        "id": "",
+                        "children": [
+                          {
+                            "type": "NUMBER_WITH_BRACKETS",
+                            "text": "(2)"
+                          },
+                          {
+                            "type": "PLAINTEXT",
+                            "text": "Keanggotaan BAZNAS sebagaimana dimaksud pada ayat (1) terdiri atas 8 (delapan) orang dari unsur masyarakat dan 3 (tiga) orang dari unsur pemerintah."
+                          }
+                        ]
+                      },
+                      {
+                        "type": "LIST_ITEM",
+                        "id": "",
+                        "children": [
+                          {
+                            "type": "NUMBER_WITH_BRACKETS",
+                            "text": "(3)"
+                          },
+                          {
+                            "type": "PLAINTEXT",
+                            "text": "Unsur masyarakat sebagaimana dimaksud pada ayat (2) terdiri atas unsur ulama, tenaga profesional, dan tokoh masyarakat Islam."
+                          }
+                        ]
+                      },
+                      {
+                        "type": "LIST_ITEM",
+                        "id": "",
+                        "children": [
+                          {
+                            "type": "NUMBER_WITH_BRACKETS",
+                            "text": "(4)"
+                          },
+                          {
+                            "type": "PLAINTEXT",
+                            "text": "Unsur pemerintah sebagaimana dimaksud pada ayat (2) ditunjuk dari kementerian/instansi yang berkaitan dengan pengelolaan zakat."
+                          }
+                        ]
+                      },
+                      {
+                        "type": "LIST_ITEM",
+                        "id": "",
+                        "children": [
+                          {
+                            "type": "NUMBER_WITH_BRACKETS",
+                            "text": "(5)"
+                          },
+                          {
+                            "type": "PLAINTEXT",
+                            "text": "BAZNAS dipimpin oleh seorang ketua dan seorang wakil ketua."
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "PASAL",
+                "id": "pasal-9",
+                "children": [
+                  {
+                    "type": "PASAL_NUMBER",
+                    "text": "Pasal 9"
+                  },
+                  {
+                    "type": "PLAINTEXT",
+                    "text": "Masa kerja anggota BAZNAS dijabat selama 5 (lima) tahun dan dapat dipilih kembali untuk 1 (satu) kali masa jabatan."
+                  }
+                ]
+              },
+              {
+                "type": "PASAL",
+                "id": "pasal-10",
+                "children": [
+                  {
+                    "type": "PASAL_NUMBER",
+                    "text": "Pasal 10"
+                  },
+                  {
+                    "type": "LIST",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "LIST_ITEM",
+                        "id": "",
+                        "children": [
+                          {
+                            "type": "NUMBER_WITH_BRACKETS",
+                            "text": "(1)"
+                          },
+                          {
+                            "type": "PLAINTEXT",
+                            "text": "Anggota BAZNAS diangkat dan diberhentikan oleh Presiden atas usul Menteri."
+                          }
+                        ]
+                      },
+                      {
+                        "type": "LIST_ITEM",
+                        "id": "",
+                        "children": [
+                          {
+                            "type": "NUMBER_WITH_BRACKETS",
+                            "text": "(2)"
+                          },
+                          {
+                            "type": "PLAINTEXT",
+                            "text": "Anggota BAZNAS dari unsur masyarakat diangkat oleh Presiden atas usul Menteri setelah mendapat pertimbangan Dewan Perwakilan Rakyat Republik Indonesia."
+                          }
+                        ]
+                      },
+                      {
+                        "type": "LIST_ITEM",
+                        "id": "",
+                        "children": [
+                          {
+                            "type": "NUMBER_WITH_BRACKETS",
+                            "text": "(3)"
+                          },
+                          {
+                            "type": "PLAINTEXT",
+                            "text": "Ketua dan wakil ketua BAZNAS dipilih oleh anggota."
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "PASAL",
+                "id": "pasal-11",
+                "children": [
+                  {
+                    "type": "PASAL_NUMBER",
+                    "text": "Pasal 11"
+                  },
+                  {
+                    "type": "PLAINTEXT",
+                    "text": "Persyaratan untuk dapat diangkat sebagai anggota BAZNAS sebagaimana dimaksud dalam Pasal 10 paling sedikit harus:"
+                  },
+                  {
+                    "type": "LIST",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "LIST_ITEM",
+                        "id": "",
+                        "children": [
+                          {
+                            "type": "LETTER_WITH_DOT",
+                            "text": "a."
+                          },
+                          {
+                            "type": "PLAINTEXT",
+                            "text": "warga negara Indonesia;"
+                          }
+                        ]
+                      },
+                      {
+                        "type": "LIST_ITEM",
+                        "id": "",
+                        "children": [
+                          {
+                            "type": "LETTER_WITH_DOT",
+                            "text": "b."
+                          },
+                          {
+                            "type": "PLAINTEXT",
+                            "text": "beragama Islam;"
+                          }
+                        ]
+                      },
+                      {
+                        "type": "LIST_ITEM",
+                        "id": "",
+                        "children": [
+                          {
+                            "type": "LETTER_WITH_DOT",
+                            "text": "c."
+                          },
+                          {
+                            "type": "PLAINTEXT",
+                            "text": "bertakwa kepada Allah SWT;"
+                          }
+                        ]
+                      },
+                      {
+                        "type": "LIST_ITEM",
+                        "id": "",
+                        "children": [
+                          {
+                            "type": "LETTER_WITH_DOT",
+                            "text": "d."
+                          },
+                          {
+                            "type": "PLAINTEXT",
+                            "text": "berakhlak mulia;"
+                          }
+                        ]
+                      },
+                      {
+                        "type": "LIST_ITEM",
+                        "id": "",
+                        "children": [
+                          {
+                            "type": "LETTER_WITH_DOT",
+                            "text": "e."
+                          },
+                          {
+                            "type": "PLAINTEXT",
+                            "text": "berusia minimal 40 (empat puluh) tahun;"
+                          }
+                        ]
+                      },
+                      {
+                        "type": "LIST_ITEM",
+                        "id": "",
+                        "children": [
+                          {
+                            "type": "LETTER_WITH_DOT",
+                            "text": "f."
+                          },
+                          {
+                            "type": "PLAINTEXT",
+                            "text": "sehat jasmani dan rohani;"
+                          }
+                        ]
+                      },
+                      {
+                        "type": "LIST_ITEM",
+                        "id": "",
+                        "children": [
+                          {
+                            "type": "LETTER_WITH_DOT",
+                            "text": "g."
+                          },
+                          {
+                            "type": "PLAINTEXT",
+                            "text": "tidak menjadi anggota partai politik;"
+                          }
+                        ]
+                      },
+                      {
+                        "type": "LIST_ITEM",
+                        "id": "",
+                        "children": [
+                          {
+                            "type": "LETTER_WITH_DOT",
+                            "text": "h."
+                          },
+                          {
+                            "type": "PLAINTEXT",
+                            "text": "memiliki kompetensi di bidang pengelolaan zakat; dan"
+                          }
+                        ]
+                      },
+                      {
+                        "type": "LIST_ITEM",
+                        "id": "",
+                        "children": [
+                          {
+                            "type": "LETTER_WITH_DOT",
+                            "text": "i."
+                          },
+                          {
+                            "type": "PLAINTEXT",
+                            "text": "tidak pernah dihukum karena melakukan tindak pidana kejahatan yang diancam dengan pidana penjara paling singkat 5 (lima) tahun."
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "PASAL",
+                "id": "pasal-12",
+                "children": [
+                  {
+                    "type": "PASAL_NUMBER",
+                    "text": "Pasal 12"
+                  },
+                  {
+                    "type": "PLAINTEXT",
+                    "text": "Anggota BAZNAS diberhentikan apabila:"
+                  },
+                  {
+                    "type": "LIST",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "LIST_ITEM",
+                        "id": "",
+                        "children": [
+                          {
+                            "type": "LETTER_WITH_DOT",
+                            "text": "a."
+                          },
+                          {
+                            "type": "PLAINTEXT",
+                            "text": "meninggal dunia;"
+                          }
+                        ]
+                      },
+                      {
+                        "type": "LIST_ITEM",
+                        "id": "",
+                        "children": [
+                          {
+                            "type": "LETTER_WITH_DOT",
+                            "text": "b."
+                          },
+                          {
+                            "type": "PLAINTEXT",
+                            "text": "habis masa jabatan;"
+                          }
+                        ]
+                      },
+                      {
+                        "type": "LIST_ITEM",
+                        "id": "",
+                        "children": [
+                          {
+                            "type": "LETTER_WITH_DOT",
+                            "text": "c."
+                          },
+                          {
+                            "type": "PLAINTEXT",
+                            "text": "mengundurkan diri;"
+                          }
+                        ]
+                      },
+                      {
+                        "type": "LIST_ITEM",
+                        "id": "",
+                        "children": [
+                          {
+                            "type": "LETTER_WITH_DOT",
+                            "text": "d."
+                          },
+                          {
+                            "type": "PLAINTEXT",
+                            "text": "tidak dapat melaksanakan tugas selama 3 (tiga) bulan secara terus menerus; atau"
+                          }
+                        ]
+                      },
+                      {
+                        "type": "LIST_ITEM",
+                        "id": "",
+                        "children": [
+                          {
+                            "type": "LETTER_WITH_DOT",
+                            "text": "e."
+                          },
+                          {
+                            "type": "PLAINTEXT",
+                            "text": "tidak memenuhi syarat lagi sebagai anggota."
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "PASAL",
+                "id": "pasal-13",
+                "children": [
+                  {
+                    "type": "PASAL_NUMBER",
+                    "text": "Pasal 13"
+                  },
+                  {
+                    "type": "PLAINTEXT",
+                    "text": "Ketentuan lebih lanjut mengenai, tata cara pengangkatan dan pemberhentian anggota BAZNAS sebagaimana dimaksud dalam Pasal 10 diatur dalam Peraturan Pemerintah."
+                  }
+                ]
+              },
+              {
+                "type": "PASAL",
+                "id": "pasal-14",
+                "children": [
+                  {
+                    "type": "PASAL_NUMBER",
+                    "text": "Pasal 14"
+                  },
+                  {
+                    "type": "LIST",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "LIST_ITEM",
+                        "id": "",
+                        "children": [
+                          {
+                            "type": "NUMBER_WITH_BRACKETS",
+                            "text": "(1)"
+                          },
+                          {
+                            "type": "PLAINTEXT",
+                            "text": "Dalam melaksanakan tugasnya, BAZNAS dibantu oleh sekretariat."
+                          }
+                        ]
+                      },
+                      {
+                        "type": "LIST_ITEM",
+                        "id": "",
+                        "children": [
+                          {
+                            "type": "NUMBER_WITH_BRACKETS",
+                            "text": "(2)"
+                          },
+                          {
+                            "type": "PLAINTEXT",
+                            "text": "Ketentuan lebih lanjut mengenai organisasi dan tata kerja sekretariat BAZNAS sebagaimana dimaksud pada ayat (1) diatur dalam Peraturan Pemerintah."
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "BAGIAN",
+            "id": "bab-2-bagian-3",
+            "children": [
+              {
+                "type": "BAGIAN_NUMBER",
+                "text": "Bagian Ketiga"
+              },
+              {
+                "type": "BAGIAN_TITLE",
+                "text": "BAZNAS Provinsi dan BAZNAS Kabupaten/Kota"
+              },
+              {
+                "type": "PASAL",
+                "id": "pasal-15",
+                "children": [
+                  {
+                    "type": "PASAL_NUMBER",
+                    "text": "Pasal 15"
+                  },
+                  {
+                    "type": "LIST",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "LIST_ITEM",
+                        "id": "",
+                        "children": [
+                          {
+                            "type": "NUMBER_WITH_BRACKETS",
+                            "text": "(1)"
+                          },
+                          {
+                            "type": "PLAINTEXT",
+                            "text": "Dalam rangka pelaksanaan pengelolaan zakat pada tingkat provinsi dan kabupaten/kota dibentuk BAZNAS provinsi dan BAZNAS kabupaten/kota."
+                          }
+                        ]
+                      },
+                      {
+                        "type": "LIST_ITEM",
+                        "id": "",
+                        "children": [
+                          {
+                            "type": "NUMBER_WITH_BRACKETS",
+                            "text": "(2)"
+                          },
+                          {
+                            "type": "PLAINTEXT",
+                            "text": "BAZNAS provinsi dibentuk oleh Menteri atas usul gubernur setelah mendapat pertimbangan BAZNAS."
+                          }
+                        ]
+                      },
+                      {
+                        "type": "LIST_ITEM",
+                        "id": "",
+                        "children": [
+                          {
+                            "type": "NUMBER_WITH_BRACKETS",
+                            "text": "(3)"
+                          },
+                          {
+                            "type": "PLAINTEXT",
+                            "text": "BAZNAS kabupaten/kota dibentuk oleh Menteri atau pejabat yang ditunjuk atas usul bupati/walikota setelah mendapat pertimbangan BAZNAS."
+                          }
+                        ]
+                      },
+                      {
+                        "type": "LIST_ITEM",
+                        "id": "",
+                        "children": [
+                          {
+                            "type": "NUMBER_WITH_BRACKETS",
+                            "text": "(4)"
+                          },
+                          {
+                            "type": "PLAINTEXT",
+                            "text": "Dalam hal gubernur atau bupati/walikota tidak mengusulkan pembentukan BAZNAS provinsi atau BAZNAS kabupaten/kota, Menteri atau pejabat yang ditunjuk dapat membentuk BAZNAS provinsi atau BAZNAS kabupaten/kota setelah mendapat pertimbangan BAZNAS."
+                          }
+                        ]
+                      },
+                      {
+                        "type": "LIST_ITEM",
+                        "id": "",
+                        "children": [
+                          {
+                            "type": "NUMBER_WITH_BRACKETS",
+                            "text": "(5)"
+                          },
+                          {
+                            "type": "PLAINTEXT",
+                            "text": "BAZNAS provinsi dan BAZNAS kabupaten/kota melaksanakan tugas dan fungsi BAZNAS di provinsi atau kabupaten/kota masing-masing."
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "PASAL",
+                "id": "pasal-16",
+                "children": [
+                  {
+                    "type": "PASAL_NUMBER",
+                    "text": "Pasal 16"
+                  },
+                  {
+                    "type": "LIST",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "LIST_ITEM",
+                        "id": "",
+                        "children": [
+                          {
+                            "type": "NUMBER_WITH_BRACKETS",
+                            "text": "(1)"
+                          },
+                          {
+                            "type": "PLAINTEXT",
+                            "text": "Dalam melaksanakan tugas dan fungsinya, BAZNAS, BAZNAS provinsi, dan BAZNAS kabupaten/kota dapat membentuk UPZ pada instansi pemerintah, badan usaha milik negara, badan usaha milik daerah, perusahaan swasta, dan perwakilan Republik Indonesia di luar negeri serta dapat membentuk UPZ pada tingkat kecamatan, kelurahan atau nama lainnya, dan tempat lainnya."
+                          }
+                        ]
+                      },
+                      {
+                        "type": "LIST_ITEM",
+                        "id": "",
+                        "children": [
+                          {
+                            "type": "NUMBER_WITH_BRACKETS",
+                            "text": "(2)"
+                          },
+                          {
+                            "type": "PLAINTEXT",
+                            "text": "Ketentuan lebih lanjut mengenai organisasi dan tata kerja BAZNAS provinsi dan BAZNAS kabupaten/kota diatur dalam Peraturan Pemerintah."
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "BAGIAN",
+            "id": "bab-2-bagian-4",
+            "children": [
+              {
+                "type": "BAGIAN_NUMBER",
+                "text": "Bagian Keempat"
+              },
+              {
+                "type": "BAGIAN_TITLE",
+                "text": "Lembaga Amil Zakat"
+              },
+              {
+                "type": "PASAL",
+                "id": "pasal-17",
+                "children": [
+                  {
+                    "type": "PASAL_NUMBER",
+                    "text": "Pasal 17"
+                  },
+                  {
+                    "type": "PLAINTEXT",
+                    "text": "Untuk membantu BAZNAS dalam pelaksanaan pengumpulan, pendistribusian, dan pendayagunaan zakat, masyarakat dapat membentuk LAZ."
+                  }
+                ]
+              },
+              {
+                "type": "PASAL",
+                "id": "pasal-18",
+                "children": [
+                  {
+                    "type": "PASAL_NUMBER",
+                    "text": "Pasal 18"
+                  },
+                  {
+                    "type": "LIST",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "LIST_ITEM",
+                        "id": "",
+                        "children": [
+                          {
+                            "type": "NUMBER_WITH_BRACKETS",
+                            "text": "(1)"
+                          },
+                          {
+                            "type": "PLAINTEXT",
+                            "text": "Pembentukan LAZ wajib mendapat izin Menteri atau pejabat yang ditunjuk oleh Menteri."
+                          }
+                        ]
+                      },
+                      {
+                        "type": "LIST_ITEM",
+                        "id": "",
+                        "children": [
+                          {
+                            "type": "NUMBER_WITH_BRACKETS",
+                            "text": "(2)"
+                          },
+                          {
+                            "type": "PLAINTEXT",
+                            "text": "Izin sebagaimana dimaksud pada ayat (1) hanya diberikan apabila memenuhi persyaratan paling sedikit:"
+                          },
+                          {
+                            "type": "LIST",
+                            "id": "",
+                            "children": [
+                              {
+                                "type": "LIST_ITEM",
+                                "id": "",
+                                "children": [
+                                  {
+                                    "type": "LETTER_WITH_DOT",
+                                    "text": "a."
+                                  },
+                                  {
+                                    "type": "PLAINTEXT",
+                                    "text": "terdaftar sebagai organisasi kemasyarakatan Islam yang mengelola bidang pendidikan, dakwah, dan sosial;"
+                                  }
+                                ]
+                              },
+                              {
+                                "type": "LIST_ITEM",
+                                "id": "",
+                                "children": [
+                                  {
+                                    "type": "LETTER_WITH_DOT",
+                                    "text": "b."
+                                  },
+                                  {
+                                    "type": "PLAINTEXT",
+                                    "text": "berbentuk lembaga berbadan hukum;"
+                                  }
+                                ]
+                              },
+                              {
+                                "type": "LIST_ITEM",
+                                "id": "",
+                                "children": [
+                                  {
+                                    "type": "LETTER_WITH_DOT",
+                                    "text": "c."
+                                  },
+                                  {
+                                    "type": "PLAINTEXT",
+                                    "text": "mendapat rekomendasi dari BAZNAS;"
+                                  }
+                                ]
+                              },
+                              {
+                                "type": "LIST_ITEM",
+                                "id": "",
+                                "children": [
+                                  {
+                                    "type": "LETTER_WITH_DOT",
+                                    "text": "d."
+                                  },
+                                  {
+                                    "type": "PLAINTEXT",
+                                    "text": "memiliki pengawas syariat;"
+                                  }
+                                ]
+                              },
+                              {
+                                "type": "LIST_ITEM",
+                                "id": "",
+                                "children": [
+                                  {
+                                    "type": "LETTER_WITH_DOT",
+                                    "text": "e."
+                                  },
+                                  {
+                                    "type": "PLAINTEXT",
+                                    "text": "memiliki kemampuan teknis, administratif, dan keuangan untuk melaksanakan kegiatannya;"
+                                  }
+                                ]
+                              },
+                              {
+                                "type": "LIST_ITEM",
+                                "id": "",
+                                "children": [
+                                  {
+                                    "type": "LETTER_WITH_DOT",
+                                    "text": "f."
+                                  },
+                                  {
+                                    "type": "PLAINTEXT",
+                                    "text": "bersifat nirlaba;"
+                                  }
+                                ]
+                              },
+                              {
+                                "type": "LIST_ITEM",
+                                "id": "",
+                                "children": [
+                                  {
+                                    "type": "LETTER_WITH_DOT",
+                                    "text": "g."
+                                  },
+                                  {
+                                    "type": "PLAINTEXT",
+                                    "text": "memiliki program untuk mendayagunakan zakat bagi kesejahteraan umat; dan"
+                                  }
+                                ]
+                              },
+                              {
+                                "type": "LIST_ITEM",
+                                "id": "",
+                                "children": [
+                                  {
+                                    "type": "LETTER_WITH_DOT",
+                                    "text": "h."
+                                  },
+                                  {
+                                    "type": "PLAINTEXT",
+                                    "text": "bersedia diaudit syariat dan keuangan secara berkala."
+                                  }
+                                ]
+                              }
+                            ]
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "PASAL",
+                "id": "pasal-19",
+                "children": [
+                  {
+                    "type": "PASAL_NUMBER",
+                    "text": "Pasal 19"
+                  },
+                  {
+                    "type": "PLAINTEXT",
+                    "text": "LAZ wajib melaporkan pelaksanaan pengumpulan, pendistribusian, dan pendayagunaan zakat yang telah diaudit kepada BAZNAS secara berkala."
+                  }
+                ]
+              },
+              {
+                "type": "PASAL",
+                "id": "pasal-20",
+                "children": [
+                  {
+                    "type": "PASAL_NUMBER",
+                    "text": "Pasal 20"
+                  },
+                  {
+                    "type": "PLAINTEXT",
+                    "text": "Ketentuan lebih lanjut mengenai persyaratan organisasi, mekanisme perizinan, pembentukan perwakilan, pelaporan, dan pertanggungjawaban LAZ diatur dalam Peraturan Pemerintah."
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "BAB",
+        "id": "bab-3",
+        "children": [
+          {
+            "type": "BAB_NUMBER",
+            "text": "BAB III"
+          },
+          {
+            "type": "BAB_TITLE",
+            "text": "PENGUMPULAN, PENDISTRIBUSIAN, PENDAYAGUNAAN, DAN PELAPORAN"
+          },
+          {
+            "type": "BAGIAN",
+            "id": "bab-3-bagian-1",
+            "children": [
+              {
+                "type": "BAGIAN_NUMBER",
+                "text": "Bagian Kesatu"
+              },
+              {
+                "type": "BAGIAN_TITLE",
+                "text": "Pengumpulan"
+              },
+              {
+                "type": "PASAL",
+                "id": "pasal-21",
+                "children": [
+                  {
+                    "type": "PASAL_NUMBER",
+                    "text": "Pasal 21"
+                  },
+                  {
+                    "type": "LIST",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "LIST_ITEM",
+                        "id": "",
+                        "children": [
+                          {
+                            "type": "NUMBER_WITH_BRACKETS",
+                            "text": "(1)"
+                          },
+                          {
+                            "type": "PLAINTEXT",
+                            "text": "Dalam rangka pengumpulan zakat, muzaki melakukan penghitungan sendiri atas kewajiban zakatnya."
+                          }
+                        ]
+                      },
+                      {
+                        "type": "LIST_ITEM",
+                        "id": "",
+                        "children": [
+                          {
+                            "type": "NUMBER_WITH_BRACKETS",
+                            "text": "(2)"
+                          },
+                          {
+                            "type": "PLAINTEXT",
+                            "text": "Dalam hal tidak dapat menghitung sendiri kewajiban zakatnya, muzaki dapat meminta bantuan BAZNAS."
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "PASAL",
+                "id": "pasal-22",
+                "children": [
+                  {
+                    "type": "PASAL_NUMBER",
+                    "text": "Pasal 22"
+                  },
+                  {
+                    "type": "PLAINTEXT",
+                    "text": "Zakat yang dibayarkan oleh muzaki kepada BAZNAS atau LAZ dikurangkan dari penghasilan kena pajak."
+                  }
+                ]
+              },
+              {
+                "type": "PASAL",
+                "id": "pasal-23",
+                "children": [
+                  {
+                    "type": "PASAL_NUMBER",
+                    "text": "Pasal 23"
+                  },
+                  {
+                    "type": "LIST",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "LIST_ITEM",
+                        "id": "",
+                        "children": [
+                          {
+                            "type": "NUMBER_WITH_BRACKETS",
+                            "text": "(1)"
+                          },
+                          {
+                            "type": "PLAINTEXT",
+                            "text": "BAZNAS atau LAZ wajib memberikan bukti setoran zakat kepada setiap muzaki."
+                          }
+                        ]
+                      },
+                      {
+                        "type": "LIST_ITEM",
+                        "id": "",
+                        "children": [
+                          {
+                            "type": "NUMBER_WITH_BRACKETS",
+                            "text": "(2)"
+                          },
+                          {
+                            "type": "PLAINTEXT",
+                            "text": "Bukti setoran zakat sebagaimana dimaksud pada ayat (1) digunakan sebagai pengurang penghasilan kena pajak."
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "PASAL",
+                "id": "pasal-24",
+                "children": [
+                  {
+                    "type": "PASAL_NUMBER",
+                    "text": "Pasal 24"
+                  },
+                  {
+                    "type": "PLAINTEXT",
+                    "text": "Lingkup kewenangan pengumpulan zakat oleh BAZNAS, BAZNAS provinsi, dan BAZNAS kabupaten/kota diatur dalam Peraturan Pemerintah."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "BAGIAN",
+            "id": "bab-3-bagian-2",
+            "children": [
+              {
+                "type": "BAGIAN_NUMBER",
+                "text": "Bagian Kedua"
+              },
+              {
+                "type": "BAGIAN_TITLE",
+                "text": "Pendistribusian"
+              },
+              {
+                "type": "PASAL",
+                "id": "pasal-25",
+                "children": [
+                  {
+                    "type": "PASAL_NUMBER",
+                    "text": "Pasal 25"
+                  },
+                  {
+                    "type": "PLAINTEXT",
+                    "text": "Zakat wajib didistribusikan kepada mustahik sesuai dengan syariat Islam."
+                  }
+                ]
+              },
+              {
+                "type": "PASAL",
+                "id": "pasal-26",
+                "children": [
+                  {
+                    "type": "PASAL_NUMBER",
+                    "text": "Pasal 26"
+                  },
+                  {
+                    "type": "PLAINTEXT",
+                    "text": "Pendistribusian zakat, sebagaimana dimaksud dalam Pasal 25, dilakukan berdasarkan skala prioritas dengan memperhatikan prinsip pemerataan, keadilan, dan kewilayahan."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "BAGIAN",
+            "id": "bab-3-bagian-3",
+            "children": [
+              {
+                "type": "BAGIAN_NUMBER",
+                "text": "Bagian Ketiga"
+              },
+              {
+                "type": "BAGIAN_TITLE",
+                "text": "Pendayagunaan"
+              },
+              {
+                "type": "PASAL",
+                "id": "pasal-27",
+                "children": [
+                  {
+                    "type": "PASAL_NUMBER",
+                    "text": "Pasal 27"
+                  },
+                  {
+                    "type": "LIST",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "LIST_ITEM",
+                        "id": "",
+                        "children": [
+                          {
+                            "type": "NUMBER_WITH_BRACKETS",
+                            "text": "(1)"
+                          },
+                          {
+                            "type": "PLAINTEXT",
+                            "text": "Zakat dapat didayagunakan untuk usaha produktif dalam rangka penanganan fakir miskin dan peningkatan kualitas umat."
+                          }
+                        ]
+                      },
+                      {
+                        "type": "LIST_ITEM",
+                        "id": "",
+                        "children": [
+                          {
+                            "type": "NUMBER_WITH_BRACKETS",
+                            "text": "(2)"
+                          },
+                          {
+                            "type": "PLAINTEXT",
+                            "text": "Pendayagunaan zakat untuk usaha produktif sebagaimana dimaksud pada ayat (1) dilakukan apabila kebutuhan dasar mustahik telah terpenuhi."
+                          }
+                        ]
+                      },
+                      {
+                        "type": "LIST_ITEM",
+                        "id": "",
+                        "children": [
+                          {
+                            "type": "NUMBER_WITH_BRACKETS",
+                            "text": "(3)"
+                          },
+                          {
+                            "type": "PLAINTEXT",
+                            "text": "Ketentuan lebih lanjut mengenai pendayagunaan zakat untuk usaha produktif sebagaimana dimaksud pada ayat (1) diatur dengan Peraturan Menteri."
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "BAGIAN",
+            "id": "bab-3-bagian-4",
+            "children": [
+              {
+                "type": "BAGIAN_NUMBER",
+                "text": "Bagian Keempat"
+              },
+              {
+                "type": "BAGIAN_TITLE",
+                "text": "Pengelolaan Infak, Sedekah, dan Dana Sosial Keagamaan Lainnya"
+              },
+              {
+                "type": "PASAL",
+                "id": "pasal-28",
+                "children": [
+                  {
+                    "type": "PASAL_NUMBER",
+                    "text": "Pasal 28"
+                  },
+                  {
+                    "type": "LIST",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "LIST_ITEM",
+                        "id": "",
+                        "children": [
+                          {
+                            "type": "NUMBER_WITH_BRACKETS",
+                            "text": "(1)"
+                          },
+                          {
+                            "type": "PLAINTEXT",
+                            "text": "Selain menerima zakat, BAZNAS atau LAZ juga dapat menerima infak, sedekah, dan dana sosial keagamaan lainnya."
+                          }
+                        ]
+                      },
+                      {
+                        "type": "LIST_ITEM",
+                        "id": "",
+                        "children": [
+                          {
+                            "type": "NUMBER_WITH_BRACKETS",
+                            "text": "(2)"
+                          },
+                          {
+                            "type": "PLAINTEXT",
+                            "text": "Pendistribusian dan pendayagunaan infak, sedekah, dan dana sosial keagamaan lainnya sebagaimana dimaksud pada ayat (1) dilakukan sesuai dengan syariat Islam dan dilakukan sesuai dengan peruntukkan yang diikrarkan oleh pemberi."
+                          }
+                        ]
+                      },
+                      {
+                        "type": "LIST_ITEM",
+                        "id": "",
+                        "children": [
+                          {
+                            "type": "NUMBER_WITH_BRACKETS",
+                            "text": "(3)"
+                          },
+                          {
+                            "type": "PLAINTEXT",
+                            "text": "Pengelolaan infak, sedekah, dan dana sosial keagamaan lainnya harus dicatat dalam pembukuan tersendiri."
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "BAGIAN",
+            "id": "bab-3-bagian-5",
+            "children": [
+              {
+                "type": "BAGIAN_NUMBER",
+                "text": "Bagian Kelima"
+              },
+              {
+                "type": "BAGIAN_TITLE",
+                "text": "Pelaporan"
+              },
+              {
+                "type": "PASAL",
+                "id": "pasal-29",
+                "children": [
+                  {
+                    "type": "PASAL_NUMBER",
+                    "text": "Pasal 29"
+                  },
+                  {
+                    "type": "LIST",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "LIST_ITEM",
+                        "id": "",
+                        "children": [
+                          {
+                            "type": "NUMBER_WITH_BRACKETS",
+                            "text": "(1)"
+                          },
+                          {
+                            "type": "PLAINTEXT",
+                            "text": "BAZNAS kabupaten/kota wajib menyampaikan laporan pelaksanaan pengelolaan zakat, infak, sedekah, dan dana sosial keagamaan lainnya kepada BAZNAS provinsi dan pemerintah daerah secara berkala."
+                          }
+                        ]
+                      },
+                      {
+                        "type": "LIST_ITEM",
+                        "id": "",
+                        "children": [
+                          {
+                            "type": "NUMBER_WITH_BRACKETS",
+                            "text": "(2)"
+                          },
+                          {
+                            "type": "PLAINTEXT",
+                            "text": "BAZNAS provinsi wajib menyampaikan laporan pelaksanaan pengelolaan zakat, infak, sedekah, dan dana sosial keagamaan lainnya kepada BAZNAS dan pemerintah daerah secara berkala."
+                          }
+                        ]
+                      },
+                      {
+                        "type": "LIST_ITEM",
+                        "id": "",
+                        "children": [
+                          {
+                            "type": "NUMBER_WITH_BRACKETS",
+                            "text": "(3)"
+                          },
+                          {
+                            "type": "PLAINTEXT",
+                            "text": "LAZ wajib menyampaikan laporan pelaksanaan pengelolaan zakat, infak, sedekah, dan dana sosial keagamaan lainnya kepada BAZNAS dan pemerintah daerah secara berkala."
+                          }
+                        ]
+                      },
+                      {
+                        "type": "LIST_ITEM",
+                        "id": "",
+                        "children": [
+                          {
+                            "type": "NUMBER_WITH_BRACKETS",
+                            "text": "(4)"
+                          },
+                          {
+                            "type": "PLAINTEXT",
+                            "text": "BAZNAS wajib menyampaikan laporan pelaksanaan pengelolaan zakat, infak, sedekah, dan dana sosial keagamaan lainnya kepada Menteri secara berkala."
+                          }
+                        ]
+                      },
+                      {
+                        "type": "LIST_ITEM",
+                        "id": "",
+                        "children": [
+                          {
+                            "type": "NUMBER_WITH_BRACKETS",
+                            "text": "(5)"
+                          },
+                          {
+                            "type": "PLAINTEXT",
+                            "text": "Laporan neraca tahunan BAZNAS diumumkan melalui media cetak atau media elektronik."
+                          }
+                        ]
+                      },
+                      {
+                        "type": "LIST_ITEM",
+                        "id": "",
+                        "children": [
+                          {
+                            "type": "NUMBER_WITH_BRACKETS",
+                            "text": "(6)"
+                          },
+                          {
+                            "type": "PLAINTEXT",
+                            "text": "Ketentuan lebih lanjut mengenai pelaporan BAZNAS kabupaten/kota, BAZNAS provinsi, LAZ, dan BAZNAS diatur dalam Peraturan Pemerintah."
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "BAB",
+        "id": "bab-4",
+        "children": [
+          {
+            "type": "BAB_NUMBER",
+            "text": "BAB IV"
+          },
+          {
+            "type": "BAB_TITLE",
+            "text": "PEMBIAYAAN"
+          },
+          {
+            "type": "PASAL",
+            "id": "pasal-30",
+            "children": [
+              {
+                "type": "PASAL_NUMBER",
+                "text": "Pasal 30"
+              },
+              {
+                "type": "PLAINTEXT",
+                "text": "Untuk melaksanakan tugasnya, BAZNAS dibiayai dengan Anggaran Pendapatan dan Belanja Negara dan Hak Amil."
+              }
+            ]
+          },
+          {
+            "type": "PASAL",
+            "id": "pasal-31",
+            "children": [
+              {
+                "type": "PASAL_NUMBER",
+                "text": "Pasal 31"
+              },
+              {
+                "type": "LIST",
+                "id": "",
+                "children": [
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "NUMBER_WITH_BRACKETS",
+                        "text": "(1)"
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "Dalam melaksanakan tugasnya, BAZNAS provinsi dan BAZNAS kabupaten/kota sebagaimana dimaksud dalam Pasal 16 ayat (1) dibiayai dengan Anggaran Pendapatan dan Belanja Daerah dan Hak Amil."
+                      }
+                    ]
+                  },
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "NUMBER_WITH_BRACKETS",
+                        "text": "(2)"
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "Selain pembiayaan sebagaimana dimaksud pada ayat (1) BAZNAS provinsi dan BAZNAS kabupaten/kota dapat dibiayai dengan Anggaran Pendapatan dan Belanja Negara."
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "PASAL",
+            "id": "pasal-32",
+            "children": [
+              {
+                "type": "PASAL_NUMBER",
+                "text": "Pasal 32"
+              },
+              {
+                "type": "PLAINTEXT",
+                "text": "LAZ dapat menggunakan Hak Amil untuk membiayai kegiatan operasional."
+              }
+            ]
+          },
+          {
+            "type": "PASAL",
+            "id": "pasal-33",
+            "children": [
+              {
+                "type": "PASAL_NUMBER",
+                "text": "Pasal 33"
+              },
+              {
+                "type": "LIST",
+                "id": "",
+                "children": [
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "NUMBER_WITH_BRACKETS",
+                        "text": "(1)"
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "Pembiayaan BAZNAS dan penggunaan Hak Amil sebagaimana dimaksud dalam Pasal 30, Pasal 31 ayat (1), dan Pasal 32 diatur lebih lanjut dalam Peraturan Pemerintah."
+                      }
+                    ]
+                  },
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "NUMBER_WITH_BRACKETS",
+                        "text": "(2)"
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "Pelaporan sebagaimana dimaksud dalam Pasal 7 ayat (3) dan pembiayaan sebagaimana dimaksud dalam Pasal 30 dan Pasal 31 dilaksanakan sesuai dengan ketentuan peraturan perundang-undangan."
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "BAB",
+        "id": "bab-5",
+        "children": [
+          {
+            "type": "BAB_NUMBER",
+            "text": "BAB V"
+          },
+          {
+            "type": "BAB_TITLE",
+            "text": "PEMBINAAN DAN PENGAWASAN"
+          },
+          {
+            "type": "PASAL",
+            "id": "pasal-34",
+            "children": [
+              {
+                "type": "PASAL_NUMBER",
+                "text": "Pasal 34"
+              },
+              {
+                "type": "LIST",
+                "id": "",
+                "children": [
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "NUMBER_WITH_BRACKETS",
+                        "text": "(1)"
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "Menteri melaksanakan pembinaan dan pengawasan terhadap BAZNAS, BAZNAS provinsi, BAZNAS kabupaten/kota, dan LAZ."
+                      }
+                    ]
+                  },
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "NUMBER_WITH_BRACKETS",
+                        "text": "(2)"
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "Gubernur dan bupati/walikota melaksanakan pembinaan dan pengawasan terhadap BAZNAS provinsi, BAZNAS kabupaten/kota, dan LAZ sesuai dengan kewenangannya."
+                      }
+                    ]
+                  },
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "NUMBER_WITH_BRACKETS",
+                        "text": "(3)"
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "Pembinaan sebagaimana dimaksud pada ayat (1) dan ayat (2) meliputi fasilitasi, sosialisasi, dan edukasi."
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "BAB",
+        "id": "bab-6",
+        "children": [
+          {
+            "type": "BAB_NUMBER",
+            "text": "BAB VI"
+          },
+          {
+            "type": "BAB_TITLE",
+            "text": "PERAN SERTA MASYARAKAT"
+          },
+          {
+            "type": "PASAL",
+            "id": "pasal-35",
+            "children": [
+              {
+                "type": "PASAL_NUMBER",
+                "text": "Pasal 35"
+              },
+              {
+                "type": "LIST",
+                "id": "",
+                "children": [
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "NUMBER_WITH_BRACKETS",
+                        "text": "(1)"
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "Masyarakat dapat berperan serta dalam pembinaan dan pengawasan terhadap BAZNAS dan LAZ."
+                      }
+                    ]
+                  },
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "NUMBER_WITH_BRACKETS",
+                        "text": "(2)"
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "Pembinaan sebagaimana dimaksud pada ayat (1) dilakukan dalam rangka:"
+                      },
+                      {
+                        "type": "LIST",
+                        "id": "",
+                        "children": [
+                          {
+                            "type": "LIST_ITEM",
+                            "id": "",
+                            "children": [
+                              {
+                                "type": "LETTER_WITH_DOT",
+                                "text": "a."
+                              },
+                              {
+                                "type": "PLAINTEXT",
+                                "text": "meningkatkan kesadaran masyarakat untuk menunaikan zakat melalui BAZNAS dan LAZ; dan"
+                              }
+                            ]
+                          },
+                          {
+                            "type": "LIST_ITEM",
+                            "id": "",
+                            "children": [
+                              {
+                                "type": "LETTER_WITH_DOT",
+                                "text": "b."
+                              },
+                              {
+                                "type": "PLAINTEXT",
+                                "text": "memberikan saran untuk peningkatan kinerja BAZNAS dan LAZ."
+                              }
+                            ]
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "NUMBER_WITH_BRACKETS",
+                        "text": "(3)"
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "Pengawasan sebagaimana dimaksud pada ayat (1) dilakukan dalam bentuk:"
+                      },
+                      {
+                        "type": "LIST",
+                        "id": "",
+                        "children": [
+                          {
+                            "type": "LIST_ITEM",
+                            "id": "",
+                            "children": [
+                              {
+                                "type": "LETTER_WITH_DOT",
+                                "text": "a."
+                              },
+                              {
+                                "type": "PLAINTEXT",
+                                "text": "akses terhadap informasi tentang pengelolaan zakat yang dilakukan oleh BAZNAS dan LAZ; dan"
+                              }
+                            ]
+                          },
+                          {
+                            "type": "LIST_ITEM",
+                            "id": "",
+                            "children": [
+                              {
+                                "type": "LETTER_WITH_DOT",
+                                "text": "b."
+                              },
+                              {
+                                "type": "PLAINTEXT",
+                                "text": "penyampaian informasi apabila terjadi penyimpangan dalam pengelolaan zakat yang dilakukan oleh BAZNAS dan LAZ."
+                              }
+                            ]
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "BAB",
+        "id": "bab-7",
+        "children": [
+          {
+            "type": "BAB_NUMBER",
+            "text": "BAB VII"
+          },
+          {
+            "type": "BAB_TITLE",
+            "text": "SANKSI ADMINISTRATIF"
+          },
+          {
+            "type": "PASAL",
+            "id": "pasal-36",
+            "children": [
+              {
+                "type": "PASAL_NUMBER",
+                "text": "Pasal 36"
+              },
+              {
+                "type": "LIST",
+                "id": "",
+                "children": [
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "NUMBER_WITH_BRACKETS",
+                        "text": "(1)"
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "Pelanggaran terhadap ketentuan sebagaimana dimaksud dalam Pasal 19, Pasal 23 ayat (1), Pasal 28 ayat (2) dan ayat (3), serta Pasal 29 ayat (3) dikenai sanksi administratif berupa:"
+                      },
+                      {
+                        "type": "LIST",
+                        "id": "",
+                        "children": [
+                          {
+                            "type": "LIST_ITEM",
+                            "id": "",
+                            "children": [
+                              {
+                                "type": "LETTER_WITH_DOT",
+                                "text": "a."
+                              },
+                              {
+                                "type": "PLAINTEXT",
+                                "text": "peringatan tertulis;"
+                              }
+                            ]
+                          },
+                          {
+                            "type": "LIST_ITEM",
+                            "id": "",
+                            "children": [
+                              {
+                                "type": "LETTER_WITH_DOT",
+                                "text": "b."
+                              },
+                              {
+                                "type": "PLAINTEXT",
+                                "text": "penghentian sementara dari kegiatan; dan/atau"
+                              }
+                            ]
+                          },
+                          {
+                            "type": "LIST_ITEM",
+                            "id": "",
+                            "children": [
+                              {
+                                "type": "LETTER_WITH_DOT",
+                                "text": "c."
+                              },
+                              {
+                                "type": "PLAINTEXT",
+                                "text": "pencabutan izin."
+                              }
+                            ]
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "NUMBER_WITH_BRACKETS",
+                        "text": "(2)"
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "Ketentuan lebih lanjut mengenai sanksi administratif sebagaimana dimaksud pada ayat (1) diatur dalam Peraturan Pemerintah."
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "BAB",
+        "id": "bab-8",
+        "children": [
+          {
+            "type": "BAB_NUMBER",
+            "text": "BAB VIII"
+          },
+          {
+            "type": "BAB_TITLE",
+            "text": "LARANGAN"
+          },
+          {
+            "type": "PASAL",
+            "id": "pasal-37",
+            "children": [
+              {
+                "type": "PASAL_NUMBER",
+                "text": "Pasal 37"
+              },
+              {
+                "type": "PLAINTEXT",
+                "text": "Setiap orang dilarang melakukan tindakan memiliki, menjaminkan, menghibahkan, menjual, dan/atau mengalihkan zakat, infak, sedekah, dan/atau dana sosial keagamaan lainnya yang ada dalam pengelolaannya."
+              }
+            ]
+          },
+          {
+            "type": "PASAL",
+            "id": "pasal-38",
+            "children": [
+              {
+                "type": "PASAL_NUMBER",
+                "text": "Pasal 38"
+              },
+              {
+                "type": "PLAINTEXT",
+                "text": "Setiap orang dilarang dengan sengaja bertindak selaku amil zakat melakukan pengumpulan, pendistribusian, atau pendayagunaan zakat tanpa izin pejabat yang berwenang."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "BAB",
+        "id": "bab-9",
+        "children": [
+          {
+            "type": "BAB_NUMBER",
+            "text": "BAB IX"
+          },
+          {
+            "type": "BAB_TITLE",
+            "text": "KETENTUAN PIDANA"
+          },
+          {
+            "type": "PASAL",
+            "id": "pasal-39",
+            "children": [
+              {
+                "type": "PASAL_NUMBER",
+                "text": "Pasal 39"
+              },
+              {
+                "type": "PLAINTEXT",
+                "text": "Setiap orang yang dengan sengaja melawan hukum tidak melakukan pendistribusian zakat sesuai dengan ketentuan Pasal 25 dipidana dengan pidana penjara paling lama 5 (lima) tahun dan/atau pidana denda paling banyak Rp500.000.000,00 (lima ratus juta rupiah)."
+              }
+            ]
+          },
+          {
+            "type": "PASAL",
+            "id": "pasal-40",
+            "children": [
+              {
+                "type": "PASAL_NUMBER",
+                "text": "Pasal 40"
+              },
+              {
+                "type": "PLAINTEXT",
+                "text": "Setiap orang yang dengan sengaja dan melawan hukum melanggar ketentuan sebagaimana dimaksud dalam Pasal 37 dipidana dengan pidana penjara paling lama 5 (lima) tahun dan/atau pidana denda paling banyak Rp500.000.000,00 (lima ratus juta rupiah)."
+              }
+            ]
+          },
+          {
+            "type": "PASAL",
+            "id": "pasal-41",
+            "children": [
+              {
+                "type": "PASAL_NUMBER",
+                "text": "Pasal 41"
+              },
+              {
+                "type": "PLAINTEXT",
+                "text": "Setiap orang yang dengan sengaja dan melawan hukum melanggar ketentuan sebagaimana dimaksud dalam Pasal 38 dipidana dengan pidana kurungan paling lama 1 (satu) tahun dan/atau pidana denda paling banyak Rp50.000.000,00 (lima puluh juta rupiah)."
+              }
+            ]
+          },
+          {
+            "type": "PASAL",
+            "id": "pasal-42",
+            "children": [
+              {
+                "type": "PASAL_NUMBER",
+                "text": "Pasal 42"
+              },
+              {
+                "type": "LIST",
+                "id": "",
+                "children": [
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "NUMBER_WITH_BRACKETS",
+                        "text": "(1)"
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "Tindak pidana sebagaimana dimaksud dalam Pasal 39 dan Pasal 40 merupakan kejahatan."
+                      }
+                    ]
+                  },
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "NUMBER_WITH_BRACKETS",
+                        "text": "(2)"
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "Tindak pidana sebagaimana dimaksud dalam Pasal 41 merupakan pelanggaran."
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "BAB",
+        "id": "bab-10",
+        "children": [
+          {
+            "type": "BAB_NUMBER",
+            "text": "BAB X"
+          },
+          {
+            "type": "BAB_TITLE",
+            "text": "KETENTUAN PERALIHAN"
+          },
+          {
+            "type": "PASAL",
+            "id": "pasal-43",
+            "children": [
+              {
+                "type": "PASAL_NUMBER",
+                "text": "Pasal 43"
+              },
+              {
+                "type": "LIST",
+                "id": "",
+                "children": [
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "NUMBER_WITH_BRACKETS",
+                        "text": "(1)"
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "Badan Amil Zakat Nasional yang telah ada sebelum Undang-Undang ini berlaku tetap menjalankan tugas dan fungsi sebagai BAZNAS berdasarkan Undang-Undang ini sampai terbentuknya BAZNAS yang baru sesuai dengan Undang-Undang ini."
+                      }
+                    ]
+                  },
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "NUMBER_WITH_BRACKETS",
+                        "text": "(2)"
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "Badan Amil Zakat Daerah Provinsi dan Badan Amil Zakat Daerah kabupaten/kota yang telah ada sebelum Undang-Undang ini berlaku tetap menjalankan tugas dan fungsi sebagai BAZNAS provinsi dan BAZNAS kabupaten/kota sampai terbentuknya kepengurusan baru berdasarkan Undang-Undang ini."
+                      }
+                    ]
+                  },
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "NUMBER_WITH_BRACKETS",
+                        "text": "(3)"
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "LAZ yang telah dikukuhkan oleh Menteri sebelum Undang-Undang ini berlaku dinyatakan sebagai LAZ berdasarkan Undang-Undang ini."
+                      }
+                    ]
+                  },
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "NUMBER_WITH_BRACKETS",
+                        "text": "(4)"
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "LAZ sebagaimana dimaksud pada ayat (3) wajib menyesuaikan diri paling lambat 5 (lima) tahun terhitung sejak Undang-Undang ini diundangkan."
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "BAB",
+        "id": "bab-11",
+        "children": [
+          {
+            "type": "BAB_NUMBER",
+            "text": "BAB XI"
+          },
+          {
+            "type": "BAB_TITLE",
+            "text": "KETENTUAN PENUTUP"
+          },
+          {
+            "type": "PASAL",
+            "id": "pasal-44",
+            "children": [
+              {
+                "type": "PASAL_NUMBER",
+                "text": "Pasal 44"
+              },
+              {
+                "type": "PLAINTEXT",
+                "text": "Pada saat Undang-Undang ini mulai berlaku, semua Peraturan Perundang-undangan tentang Pengelolaan Zakat dan peraturan pelaksanaan Undang-Undang Nomor 38 Tahun 1999 tentang Pengelolaan Zakat (Lembaran Negara Republik Indonesia Tahun 1999 Nomor 164; Tambahan Lembaran Negara Republik Indonesia Nomor 3885) dinyatakan masih tetap berlaku sepanjang tidak bertentangan dengan ketentuan dalam Undang-Undang ini."
+              }
+            ]
+          },
+          {
+            "type": "PASAL",
+            "id": "pasal-45",
+            "children": [
+              {
+                "type": "PASAL_NUMBER",
+                "text": "Pasal 45"
+              },
+              {
+                "type": "PLAINTEXT",
+                "text": "Pada saat Undang-Undang ini mulai berlaku, Undang-Undang Nomor 38 Tahun 1999 tentang Pengelolaan Zakat (Lembaran Negara Republik Indonesia Tahun 1999 Nomor 164; Tambahan Lembaran Negara Republik Indonesia Nomor 3885) dicabut dan dinyatakan tidak berlaku."
+              }
+            ]
+          },
+          {
+            "type": "PASAL",
+            "id": "pasal-46",
+            "children": [
+              {
+                "type": "PASAL_NUMBER",
+                "text": "Pasal 46"
+              },
+              {
+                "type": "PLAINTEXT",
+                "text": "Peraturan pelaksanaan dari Undang-Undang ini harus ditetapkan paling lama 1 (satu) tahun terhitung sejak Undang-Undang ini diundangkan."
+              }
+            ]
+          },
+          {
+            "type": "PASAL",
+            "id": "pasal-47",
+            "children": [
+              {
+                "type": "PASAL_NUMBER",
+                "text": "Pasal 47"
+              },
+              {
+                "type": "PLAINTEXT",
+                "text": "Undang-Undang ini mulai berlaku pada tanggal diundangkan."
+              },
+              {
+                "type": "PLAINTEXT",
+                "text": "Agar setiap orang mengetahuinya, memerintahkan pengundangan Undang-Undang ini dengan penempatannya dalam Lembaran Negara Republik Indonesia."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "CLOSING",
+        "id": "",
+        "children": [
+          {
+            "type": "PLAINTEXT",
+            "text": "Disahkan Di Jakarta,"
+          },
+          {
+            "type": "PLAINTEXT",
+            "text": "Pada Tanggal 25 November 2011"
+          },
+          {
+            "type": "PLAINTEXT",
+            "text": "PRESIDEN REPUBLIK INDONESIA,"
+          },
+          {
+            "type": "PLAINTEXT",
+            "text": "Ttd."
+          },
+          {
+            "type": "PLAINTEXT",
+            "text": "DR. H. SUSILO BAMBANG YUDHOYONO"
+          },
+          {
+            "type": "PLAINTEXT",
+            "text": "Diundangkan Di Jakarta,"
+          },
+          {
+            "type": "PLAINTEXT",
+            "text": "Pada Tanggal 25 November 2011"
+          },
+          {
+            "type": "PLAINTEXT",
+            "text": "MENTERI HUKUM DAN HAK ASASI MANUSIA REPUBLIK INDONESIA,"
+          },
+          {
+            "type": "PLAINTEXT",
+            "text": "Ttd."
+          },
+          {
+            "type": "PLAINTEXT",
+            "text": "AMIR SYAMSUDIN"
+          },
+          {
+            "type": "LEMBARAN_NUMBER",
+            "text": "LEMBARAN NEGARA REPUBLIK INDONESIA TAHUN 2011 NOMOR 115"
+          }
+        ]
+      },
+      {
+        "type": "PENJELASAN",
+        "id": "penjelasan",
+        "children": [
+          {
+            "type": "PENJELASAN_TITLE",
+            "id": "",
+            "children": [
+              {
+                "type": "PLAINTEXT",
+                "text": "PENJELASAN"
+              },
+              {
+                "type": "PLAINTEXT",
+                "text": "UNDANG-UNDANG REPUBLIK INDONESIA"
+              },
+              {
+                "type": "UU_TITLE_YEAR_AND_NUMBER",
+                "text": "NOMOR 23 TAHUN 2011"
+              },
+              {
+                "type": "PLAINTEXT",
+                "text": "TENTANG"
+              },
+              {
+                "type": "UU_TITLE_TOPIC",
+                "text": "PENGELOLAAN ZAKAT"
+              }
+            ]
+          },
+          {
+            "type": "PENJELASAN_UMUM",
+            "id": "",
+            "children": [
+              {
+                "type": "PENJELASAN_UMUM_TITLE",
+                "text": "I. UMUM"
+              },
+              {
+                "type": "PLAINTEXT",
+                "text": "Negara menjamin kemerdekaan tiap-tiap penduduk untuk memeluk agamanya masing-masing dan untuk beribadat menurut agamanya dan kepercayaannya itu. Penunaian zakat merupakan kewajiban bagi umat Islam yang mampu sesuai dengan syariat Islam. Zakat merupakan pranata keagamaan yang bertujuan untuk meningkatkan keadilan, kesejahteraan masyarakat, dan penanggulangan kemiskinan."
+              },
+              {
+                "type": "PLAINTEXT",
+                "text": "Dalam rangka meningkatkan daya guna dan hasil guna, zakat harus dikelola secara melembaga sesuai dengan syariat Islam, amanah, kemanfaatan, keadilan, kepastian hukum, terintegrasi, dan akuntabilitas sehingga dapat meningkatkan efektivitas dan efisiensi pelayanan dalam pengelolaan zakat."
+              },
+              {
+                "type": "PLAINTEXT",
+                "text": "Selama ini pengelolaan zakat berdasarkan Undang-Undang Nomor 38 Tahun 1999 tentang Pengelolaan Zakat dinilai sudah tidak sesuai lagi dengan perkembangan kebutuhan hukum dalam masyarakat sehingga perlu diganti. Pengelolaan zakat yang diatur dalam Undang-Undang ini meliputi kegiatan perencanaan, pengumpulan, pendistribusian, dan pendayagunaan."
+              },
+              {
+                "type": "PLAINTEXT",
+                "text": "Dalam upaya mencapai tujuan pengelolaan zakat, dibentuk Badan Amil Zakat Nasional (BAZNAS) yang berkedudukan di ibu kota negara, BAZNAS provinsi, dan BAZNAS kabupaten/kota. BAZNAS merupakan lembaga pemerintah non struktural yang bersifat mandiri dan bertanggung jawab kepada Presiden melalui Menteri. BAZNAS merupakan lembaga yang berwenang melakukan tugas pengelolaan zakat secara nasional."
+              },
+              {
+                "type": "PLAINTEXT",
+                "text": "Untuk membantu BAZNAS dalam pelaksanaan pengumpulan, pendistribusian, dan pendayagunaan zakat, masyarakat dapat membentuk Lembaga Amil Zakat (LAZ). Pembentukan LAZ wajib mendapat izin Menteri atau pejabat yang ditunjuk oleh Menteri. LAZ wajib melaporkan secara berkala kepada BAZNAS atas pelaksanaan pengumpulan, pendistribusian, dan pendayagunaan zakat yang telah diaudit syariat dan keuangan."
+              },
+              {
+                "type": "PLAINTEXT",
+                "text": "Zakat wajib didistribusikan kepada mustahik sesuai dengan syariat Islam. Pendistribusian dilakukan berdasarkan skala prioritas dengan memperhatikan prinsip pemerataan, keadilan, dan kewilayahan. Zakat dapat didayagunakan untuk usaha produktif dalam rangka penanganan fakir miskin dan peningkatan kualitas umat apabila kebutuhan dasar mustahik telah terpenuhi."
+              },
+              {
+                "type": "PLAINTEXT",
+                "text": "Selain menerima zakat, BAZNAS atau LAZ juga dapat menerima infak, sedekah, dan dana sosial keagamaan lainnya. Pendistribusian dan pendayagunaan infak, sedekah, dan dana sosial keagamaan lainnya dilakukan sesuai dengan syariat Islam dan dilakukan sesuai dengan peruntukkan yang diikrarkan oleh pemberi dan harus dilakukan pencatatan dalam pembukuan tersendiri."
+              },
+              {
+                "type": "PLAINTEXT",
+                "text": "Untuk melaksanakan tugasnya, BAZNAS dibiayai dengan Anggaran Pendapatan dan Belanja Negara dan Hak Amil. Sedangkan BAZNAS provinsi dan BAZNAS kabupaten/kota dibiayai dengan Anggaran Pendapatan dan Belanja Daerah dan Hak Amil, serta juga dapat dibiayai dengan Anggaran Pendapatan dan Belanja Negara."
+              }
+            ]
+          },
+          {
+            "type": "PENJELASAN_PASAL_DEMI_PASAL",
+            "id": "",
+            "children": [
+              {
+                "type": "PENJELASAN_PASAL_DEMI_PASAL_TITLE",
+                "text": "II. PASAL DEMI PASAL"
+              },
+              {
+                "type": "PENJELASAN_PASAL",
+                "id": "",
+                "children": [
+                  {
+                    "type": "PASAL_NUMBER",
+                    "text": "Pasal 1"
+                  },
+                  {
+                    "type": "PLAINTEXT",
+                    "text": "Cukup jelas."
+                  }
+                ]
+              },
+              {
+                "type": "PENJELASAN_PASAL",
+                "id": "",
+                "children": [
+                  {
+                    "type": "PASAL_NUMBER",
+                    "text": "Pasal 2"
+                  },
+                  {
+                    "type": "LIST",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "PENJELASAN_LIST_ITEM",
+                        "id": "",
+                        "children": [
+                          {
+                            "type": "PENJELASAN_HURUF",
+                            "text": "Huruf a"
+                          },
+                          {
+                            "type": "PLAINTEXT",
+                            "text": "Cukup jelas."
+                          }
+                        ]
+                      },
+                      {
+                        "type": "PENJELASAN_LIST_ITEM",
+                        "id": "",
+                        "children": [
+                          {
+                            "type": "PENJELASAN_HURUF",
+                            "text": "Huruf b"
+                          },
+                          {
+                            "type": "PLAINTEXT",
+                            "text": "Yang dimaksud dengan asas \u201camanah\u201d adalah pengelola zakat harus dapat dipercaya."
+                          }
+                        ]
+                      },
+                      {
+                        "type": "PENJELASAN_LIST_ITEM",
+                        "id": "",
+                        "children": [
+                          {
+                            "type": "PENJELASAN_HURUF",
+                            "text": "Huruf c"
+                          },
+                          {
+                            "type": "PLAINTEXT",
+                            "text": "Yang dimaksud dengan asas \u201ckemanfaatan\u201d adalah pengelolaan zakat dilakukan untuk memberikan manfaat yang sebesar-besarnya bagi mustahik."
+                          }
+                        ]
+                      },
+                      {
+                        "type": "PENJELASAN_LIST_ITEM",
+                        "id": "",
+                        "children": [
+                          {
+                            "type": "PENJELASAN_HURUF",
+                            "text": "Huruf d"
+                          },
+                          {
+                            "type": "PLAINTEXT",
+                            "text": "Yang dimaksud dengan asas \u201ckeadilan\u201d adalah pengelolaan zakat dalam pendistribusiannya dilakukan secara adil."
+                          }
+                        ]
+                      },
+                      {
+                        "type": "PENJELASAN_LIST_ITEM",
+                        "id": "",
+                        "children": [
+                          {
+                            "type": "PENJELASAN_HURUF",
+                            "text": "Huruf e"
+                          },
+                          {
+                            "type": "PLAINTEXT",
+                            "text": "Yang dimaksud dengan asas \u201ckepastian hukum\u201d adalah dalam pengelolaan zakat terdapat jaminan kepastian hukum bagi mustahik dan muzaki."
+                          }
+                        ]
+                      },
+                      {
+                        "type": "PENJELASAN_LIST_ITEM",
+                        "id": "",
+                        "children": [
+                          {
+                            "type": "PENJELASAN_HURUF",
+                            "text": "Huruf f"
+                          },
+                          {
+                            "type": "PLAINTEXT",
+                            "text": "Yang dimaksud dengan asas \u201cterintegrasi\u201d adalah pengelolaan zakat dilaksanakan secara hierarkis dalam upaya meningkatkan pengumpulan, pendistribusian, dan pendayagunaan zakat."
+                          }
+                        ]
+                      },
+                      {
+                        "type": "PENJELASAN_LIST_ITEM",
+                        "id": "",
+                        "children": [
+                          {
+                            "type": "PENJELASAN_HURUF",
+                            "text": "Huruf g"
+                          },
+                          {
+                            "type": "PLAINTEXT",
+                            "text": "Yang dimaksud dengan asas \u201cakuntabilitas\u201d adalah pengelolaan zakat dapat dipertanggungjawabkan dan diakses oleh masyarakat."
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "PENJELASAN_PASAL",
+                "id": "",
+                "children": [
+                  {
+                    "type": "PASAL_NUMBER",
+                    "text": "Pasal 3"
+                  },
+                  {
+                    "type": "PLAINTEXT",
+                    "text": "Cukup jelas."
+                  }
+                ]
+              },
+              {
+                "type": "PENJELASAN_PASAL",
+                "id": "",
+                "children": [
+                  {
+                    "type": "PASAL_NUMBER",
+                    "text": "Pasal 4"
+                  },
+                  {
+                    "type": "LIST",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "PENJELASAN_LIST_ITEM",
+                        "id": "",
+                        "children": [
+                          {
+                            "type": "PENJELASAN_AYAT",
+                            "text": "Ayat (1)"
+                          },
+                          {
+                            "type": "PLAINTEXT",
+                            "text": "Cukup jelas."
+                          }
+                        ]
+                      },
+                      {
+                        "type": "PENJELASAN_LIST_ITEM",
+                        "id": "",
+                        "children": [
+                          {
+                            "type": "PENJELASAN_AYAT",
+                            "text": "Ayat (2)"
+                          },
+                          {
+                            "type": "LIST",
+                            "id": "",
+                            "children": [
+                              {
+                                "type": "PENJELASAN_LIST_ITEM",
+                                "id": "",
+                                "children": [
+                                  {
+                                    "type": "PENJELASAN_HURUF",
+                                    "text": "Huruf a"
+                                  },
+                                  {
+                                    "type": "PLAINTEXT",
+                                    "text": "Cukup jelas."
+                                  }
+                                ]
+                              },
+                              {
+                                "type": "PENJELASAN_LIST_ITEM",
+                                "id": "",
+                                "children": [
+                                  {
+                                    "type": "PENJELASAN_HURUF",
+                                    "text": "Huruf b"
+                                  },
+                                  {
+                                    "type": "PLAINTEXT",
+                                    "text": "Cukup jelas"
+                                  }
+                                ]
+                              },
+                              {
+                                "type": "PENJELASAN_LIST_ITEM",
+                                "id": "",
+                                "children": [
+                                  {
+                                    "type": "PENJELASAN_HURUF",
+                                    "text": "Huruf c"
+                                  },
+                                  {
+                                    "type": "PLAINTEXT",
+                                    "text": "Cukup jelas."
+                                  }
+                                ]
+                              },
+                              {
+                                "type": "PENJELASAN_LIST_ITEM",
+                                "id": "",
+                                "children": [
+                                  {
+                                    "type": "PENJELASAN_HURUF",
+                                    "text": "Huruf d"
+                                  },
+                                  {
+                                    "type": "PLAINTEXT",
+                                    "text": "Cukup jelas."
+                                  }
+                                ]
+                              },
+                              {
+                                "type": "PENJELASAN_LIST_ITEM",
+                                "id": "",
+                                "children": [
+                                  {
+                                    "type": "PENJELASAN_HURUF",
+                                    "text": "Huruf e"
+                                  },
+                                  {
+                                    "type": "PLAINTEXT",
+                                    "text": "Cukup jelas."
+                                  }
+                                ]
+                              },
+                              {
+                                "type": "PENJELASAN_LIST_ITEM",
+                                "id": "",
+                                "children": [
+                                  {
+                                    "type": "PENJELASAN_HURUF",
+                                    "text": "Huruf f"
+                                  },
+                                  {
+                                    "type": "PLAINTEXT",
+                                    "text": "Cukup jelas."
+                                  }
+                                ]
+                              },
+                              {
+                                "type": "PENJELASAN_LIST_ITEM",
+                                "id": "",
+                                "children": [
+                                  {
+                                    "type": "PENJELASAN_HURUF",
+                                    "text": "Huruf g"
+                                  },
+                                  {
+                                    "type": "PLAINTEXT",
+                                    "text": "Cukup jelas."
+                                  }
+                                ]
+                              },
+                              {
+                                "type": "PENJELASAN_LIST_ITEM",
+                                "id": "",
+                                "children": [
+                                  {
+                                    "type": "PENJELASAN_HURUF",
+                                    "text": "Huruf h"
+                                  },
+                                  {
+                                    "type": "PLAINTEXT",
+                                    "text": "Cukup jelas."
+                                  }
+                                ]
+                              },
+                              {
+                                "type": "PENJELASAN_LIST_ITEM",
+                                "id": "",
+                                "children": [
+                                  {
+                                    "type": "PENJELASAN_HURUF",
+                                    "text": "Huruf i"
+                                  },
+                                  {
+                                    "type": "PLAINTEXT",
+                                    "text": "Yang dimaksud dengan \u201crikaz\u201d adalah harta temuan."
+                                  }
+                                ]
+                              }
+                            ]
+                          }
+                        ]
+                      },
+                      {
+                        "type": "PENJELASAN_LIST_ITEM",
+                        "id": "",
+                        "children": [
+                          {
+                            "type": "PENJELASAN_AYAT",
+                            "text": "Ayat (3)"
+                          },
+                          {
+                            "type": "PLAINTEXT",
+                            "text": "Yang dimaksud dengan \u201cbadan usaha\u201d adalah badan usaha yang dimiliki umat Islam yang meliputi badan usaha yang tidak berbadan hukum seperti firma dan yang berbadan hukum seperti perseroan terbatas."
+                          }
+                        ]
+                      },
+                      {
+                        "type": "PENJELASAN_LIST_ITEM",
+                        "id": "",
+                        "children": [
+                          {
+                            "type": "PENJELASAN_AYAT",
+                            "text": "Ayat (4)"
+                          },
+                          {
+                            "type": "PLAINTEXT",
+                            "text": "Cukup jelas."
+                          }
+                        ]
+                      },
+                      {
+                        "type": "PENJELASAN_LIST_ITEM",
+                        "id": "",
+                        "children": [
+                          {
+                            "type": "PENJELASAN_AYAT",
+                            "text": "Ayat (5)"
+                          },
+                          {
+                            "type": "PLAINTEXT",
+                            "text": "Cukup jelas."
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "PENJELASAN_PASAL",
+                "id": "",
+                "children": [
+                  {
+                    "type": "PASAL_NUMBER",
+                    "text": "Pasal 5"
+                  },
+                  {
+                    "type": "PLAINTEXT",
+                    "text": "Cukup jelas."
+                  }
+                ]
+              },
+              {
+                "type": "PENJELASAN_PASAL",
+                "id": "",
+                "children": [
+                  {
+                    "type": "PASAL_NUMBER",
+                    "text": "Pasal 6"
+                  },
+                  {
+                    "type": "PLAINTEXT",
+                    "text": "Cukup jelas."
+                  }
+                ]
+              },
+              {
+                "type": "PENJELASAN_PASAL",
+                "id": "",
+                "children": [
+                  {
+                    "type": "PASAL_NUMBER",
+                    "text": "Pasal 7"
+                  },
+                  {
+                    "type": "LIST",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "PENJELASAN_LIST_ITEM",
+                        "id": "",
+                        "children": [
+                          {
+                            "type": "PENJELASAN_AYAT",
+                            "text": "Ayat (1)"
+                          },
+                          {
+                            "type": "PLAINTEXT",
+                            "text": "Cukup jelas."
+                          }
+                        ]
+                      },
+                      {
+                        "type": "PENJELASAN_LIST_ITEM",
+                        "id": "",
+                        "children": [
+                          {
+                            "type": "PENJELASAN_AYAT",
+                            "text": "Ayat (2)"
+                          },
+                          {
+                            "type": "PLAINTEXT",
+                            "text": "Yang dimaksud dengan \u201cpihak terkait\u201d antara lain kementerian, Badan Usaha Milik Negara (BUMN), atau lembaga luar negeri."
+                          }
+                        ]
+                      },
+                      {
+                        "type": "PENJELASAN_LIST_ITEM",
+                        "id": "",
+                        "children": [
+                          {
+                            "type": "PENJELASAN_AYAT",
+                            "text": "Ayat (3)"
+                          },
+                          {
+                            "type": "PLAINTEXT",
+                            "text": "Cukup jelas."
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "PENJELASAN_PASAL",
+                "id": "",
+                "children": [
+                  {
+                    "type": "PASAL_NUMBER",
+                    "text": "Pasal 8"
+                  },
+                  {
+                    "type": "PLAINTEXT",
+                    "text": "Cukup jelas."
+                  }
+                ]
+              },
+              {
+                "type": "PENJELASAN_PASAL",
+                "id": "",
+                "children": [
+                  {
+                    "type": "PASAL_NUMBER",
+                    "text": "Pasal 9"
+                  },
+                  {
+                    "type": "PLAINTEXT",
+                    "text": "Cukup jelas."
+                  }
+                ]
+              },
+              {
+                "type": "PENJELASAN_PASAL",
+                "id": "",
+                "children": [
+                  {
+                    "type": "PASAL_NUMBER",
+                    "text": "Pasal 10"
+                  },
+                  {
+                    "type": "PLAINTEXT",
+                    "text": "Cukup jelas."
+                  }
+                ]
+              },
+              {
+                "type": "PENJELASAN_PASAL",
+                "id": "",
+                "children": [
+                  {
+                    "type": "PASAL_NUMBER",
+                    "text": "Pasal 11"
+                  },
+                  {
+                    "type": "PLAINTEXT",
+                    "text": "Cukup jelas."
+                  }
+                ]
+              },
+              {
+                "type": "PENJELASAN_PASAL",
+                "id": "",
+                "children": [
+                  {
+                    "type": "PASAL_NUMBER",
+                    "text": "Pasal 12"
+                  },
+                  {
+                    "type": "PLAINTEXT",
+                    "text": "Cukup jelas."
+                  }
+                ]
+              },
+              {
+                "type": "PENJELASAN_PASAL",
+                "id": "",
+                "children": [
+                  {
+                    "type": "PASAL_NUMBER",
+                    "text": "Pasal 13"
+                  },
+                  {
+                    "type": "PLAINTEXT",
+                    "text": "Cukup jelas."
+                  }
+                ]
+              },
+              {
+                "type": "PENJELASAN_PASAL",
+                "id": "",
+                "children": [
+                  {
+                    "type": "PASAL_NUMBER",
+                    "text": "Pasal 14"
+                  },
+                  {
+                    "type": "PLAINTEXT",
+                    "text": "Cukup jelas."
+                  }
+                ]
+              },
+              {
+                "type": "PENJELASAN_PASAL",
+                "id": "",
+                "children": [
+                  {
+                    "type": "PASAL_NUMBER",
+                    "text": "Pasal 15"
+                  },
+                  {
+                    "type": "LIST",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "PENJELASAN_LIST_ITEM",
+                        "id": "",
+                        "children": [
+                          {
+                            "type": "PENJELASAN_AYAT",
+                            "text": "Ayat (1)"
+                          },
+                          {
+                            "type": "PLAINTEXT",
+                            "text": "Di Provinsi Aceh, penyebutan BAZNAS provinsi atau BAZNAS kabupaten/kota dapat menggunakan istilah baitul mal."
+                          }
+                        ]
+                      },
+                      {
+                        "type": "PENJELASAN_LIST_ITEM",
+                        "id": "",
+                        "children": [
+                          {
+                            "type": "PENJELASAN_AYAT",
+                            "text": "Ayat (2)"
+                          },
+                          {
+                            "type": "PLAINTEXT",
+                            "text": "Cukup jelas."
+                          }
+                        ]
+                      },
+                      {
+                        "type": "PENJELASAN_LIST_ITEM",
+                        "id": "",
+                        "children": [
+                          {
+                            "type": "PENJELASAN_AYAT",
+                            "text": "Ayat (3)"
+                          },
+                          {
+                            "type": "PLAINTEXT",
+                            "text": "Cukup jelas."
+                          }
+                        ]
+                      },
+                      {
+                        "type": "PENJELASAN_LIST_ITEM",
+                        "id": "",
+                        "children": [
+                          {
+                            "type": "PENJELASAN_AYAT",
+                            "text": "Ayat (4)"
+                          },
+                          {
+                            "type": "PLAINTEXT",
+                            "text": "Cukup jelas."
+                          }
+                        ]
+                      },
+                      {
+                        "type": "PENJELASAN_LIST_ITEM",
+                        "id": "",
+                        "children": [
+                          {
+                            "type": "PENJELASAN_AYAT",
+                            "text": "Ayat (5)"
+                          },
+                          {
+                            "type": "PLAINTEXT",
+                            "text": "Cukup jelas."
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "PENJELASAN_PASAL",
+                "id": "",
+                "children": [
+                  {
+                    "type": "PASAL_NUMBER",
+                    "text": "Pasal 16"
+                  },
+                  {
+                    "type": "LIST",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "PENJELASAN_LIST_ITEM",
+                        "id": "",
+                        "children": [
+                          {
+                            "type": "PENJELASAN_AYAT",
+                            "text": "Ayat (1)"
+                          },
+                          {
+                            "type": "PLAINTEXT",
+                            "text": "Yang dimaksud \u201ctempat lainnya\u201d antara lain masjid dan majelis taklim."
+                          }
+                        ]
+                      },
+                      {
+                        "type": "PENJELASAN_LIST_ITEM",
+                        "id": "",
+                        "children": [
+                          {
+                            "type": "PENJELASAN_AYAT",
+                            "text": "Ayat (2)"
+                          },
+                          {
+                            "type": "PLAINTEXT",
+                            "text": "Cukup jelas."
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "PENJELASAN_PASAL",
+                "id": "",
+                "children": [
+                  {
+                    "type": "PASAL_NUMBER",
+                    "text": "Pasal 17"
+                  },
+                  {
+                    "type": "PLAINTEXT",
+                    "text": "Cukup jelas."
+                  }
+                ]
+              },
+              {
+                "type": "PENJELASAN_PASAL",
+                "id": "",
+                "children": [
+                  {
+                    "type": "PASAL_NUMBER",
+                    "text": "Pasal 18"
+                  },
+                  {
+                    "type": "PLAINTEXT",
+                    "text": "Cukup jelas."
+                  }
+                ]
+              },
+              {
+                "type": "PENJELASAN_PASAL",
+                "id": "",
+                "children": [
+                  {
+                    "type": "PASAL_NUMBER",
+                    "text": "Pasal 19"
+                  },
+                  {
+                    "type": "PLAINTEXT",
+                    "text": "Cukup jelas."
+                  }
+                ]
+              },
+              {
+                "type": "PENJELASAN_PASAL",
+                "id": "",
+                "children": [
+                  {
+                    "type": "PASAL_NUMBER",
+                    "text": "Pasal 20"
+                  },
+                  {
+                    "type": "PLAINTEXT",
+                    "text": "Cukup jelas."
+                  }
+                ]
+              },
+              {
+                "type": "PENJELASAN_PASAL",
+                "id": "",
+                "children": [
+                  {
+                    "type": "PASAL_NUMBER",
+                    "text": "Pasal 21"
+                  },
+                  {
+                    "type": "PLAINTEXT",
+                    "text": "Cukup jelas."
+                  }
+                ]
+              },
+              {
+                "type": "PENJELASAN_PASAL",
+                "id": "",
+                "children": [
+                  {
+                    "type": "PASAL_NUMBER",
+                    "text": "Pasal 22"
+                  },
+                  {
+                    "type": "PLAINTEXT",
+                    "text": "Cukup jelas."
+                  }
+                ]
+              },
+              {
+                "type": "PENJELASAN_PASAL",
+                "id": "",
+                "children": [
+                  {
+                    "type": "PASAL_NUMBER",
+                    "text": "Pasal 23"
+                  },
+                  {
+                    "type": "PLAINTEXT",
+                    "text": "Cukup jelas."
+                  }
+                ]
+              },
+              {
+                "type": "PENJELASAN_PASAL",
+                "id": "",
+                "children": [
+                  {
+                    "type": "PASAL_NUMBER",
+                    "text": "Pasal 24"
+                  },
+                  {
+                    "type": "PLAINTEXT",
+                    "text": "Cukup jelas."
+                  }
+                ]
+              },
+              {
+                "type": "PENJELASAN_PASAL",
+                "id": "",
+                "children": [
+                  {
+                    "type": "PASAL_NUMBER",
+                    "text": "Pasal 25"
+                  },
+                  {
+                    "type": "PLAINTEXT",
+                    "text": "Cukup jelas."
+                  }
+                ]
+              },
+              {
+                "type": "PENJELASAN_PASAL",
+                "id": "",
+                "children": [
+                  {
+                    "type": "PASAL_NUMBER",
+                    "text": "Pasal 26"
+                  },
+                  {
+                    "type": "PLAINTEXT",
+                    "text": "Cukup jelas."
+                  }
+                ]
+              },
+              {
+                "type": "PENJELASAN_PASAL",
+                "id": "",
+                "children": [
+                  {
+                    "type": "PASAL_NUMBER",
+                    "text": "Pasal 27"
+                  },
+                  {
+                    "type": "LIST",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "PENJELASAN_LIST_ITEM",
+                        "id": "",
+                        "children": [
+                          {
+                            "type": "PENJELASAN_AYAT",
+                            "text": "Ayat (1)"
+                          },
+                          {
+                            "type": "PLAINTEXT",
+                            "text": "Yang dimaksud dengan \u201cusaha produktif\u201d adalah usaha yang mampu meningkatkan pendapatan, taraf hidup, dan kesejahteraan masyarakat."
+                          },
+                          {
+                            "type": "PLAINTEXT",
+                            "text": "Yang dimaksud dengan \u201cpeningkatan kualitas umat\u201d adalah peningkatan sumber daya manusia."
+                          }
+                        ]
+                      },
+                      {
+                        "type": "PENJELASAN_LIST_ITEM",
+                        "id": "",
+                        "children": [
+                          {
+                            "type": "PENJELASAN_AYAT",
+                            "text": "Ayat (2)"
+                          },
+                          {
+                            "type": "PLAINTEXT",
+                            "text": "Kebutuhan dasar mustahik meliputi kebutuhan pangan, sandang, perumahan, pendidikan, dan kesehatan."
+                          }
+                        ]
+                      },
+                      {
+                        "type": "PENJELASAN_LIST_ITEM",
+                        "id": "",
+                        "children": [
+                          {
+                            "type": "PENJELASAN_AYAT",
+                            "text": "Ayat (3)"
+                          },
+                          {
+                            "type": "PLAINTEXT",
+                            "text": "Cukup jelas."
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "PENJELASAN_PASAL",
+                "id": "",
+                "children": [
+                  {
+                    "type": "PASAL_NUMBER",
+                    "text": "Pasal 28"
+                  },
+                  {
+                    "type": "PLAINTEXT",
+                    "text": "Cukup jelas."
+                  }
+                ]
+              },
+              {
+                "type": "PENJELASAN_PASAL",
+                "id": "",
+                "children": [
+                  {
+                    "type": "PASAL_NUMBER",
+                    "text": "Pasal 29"
+                  },
+                  {
+                    "type": "PLAINTEXT",
+                    "text": "Cukup jelas."
+                  }
+                ]
+              },
+              {
+                "type": "PENJELASAN_PASAL",
+                "id": "",
+                "children": [
+                  {
+                    "type": "PASAL_NUMBER",
+                    "text": "Pasal 30"
+                  },
+                  {
+                    "type": "PLAINTEXT",
+                    "text": "Cukup jelas."
+                  }
+                ]
+              },
+              {
+                "type": "PENJELASAN_PASAL",
+                "id": "",
+                "children": [
+                  {
+                    "type": "PASAL_NUMBER",
+                    "text": "Pasal 31"
+                  },
+                  {
+                    "type": "PLAINTEXT",
+                    "text": "Cukup jelas."
+                  }
+                ]
+              },
+              {
+                "type": "PENJELASAN_PASAL",
+                "id": "",
+                "children": [
+                  {
+                    "type": "PASAL_NUMBER",
+                    "text": "Pasal 32"
+                  },
+                  {
+                    "type": "PLAINTEXT",
+                    "text": "Cukup jelas."
+                  }
+                ]
+              },
+              {
+                "type": "PENJELASAN_PASAL",
+                "id": "",
+                "children": [
+                  {
+                    "type": "PASAL_NUMBER",
+                    "text": "Pasal 33"
+                  },
+                  {
+                    "type": "PLAINTEXT",
+                    "text": "Cukup jelas."
+                  }
+                ]
+              },
+              {
+                "type": "PENJELASAN_PASAL",
+                "id": "",
+                "children": [
+                  {
+                    "type": "PASAL_NUMBER",
+                    "text": "Pasal 34"
+                  },
+                  {
+                    "type": "PLAINTEXT",
+                    "text": "Cukup jelas."
+                  }
+                ]
+              },
+              {
+                "type": "PENJELASAN_PASAL",
+                "id": "",
+                "children": [
+                  {
+                    "type": "PASAL_NUMBER",
+                    "text": "Pasal 35"
+                  },
+                  {
+                    "type": "PLAINTEXT",
+                    "text": "Cukup jelas."
+                  }
+                ]
+              },
+              {
+                "type": "PENJELASAN_PASAL",
+                "id": "",
+                "children": [
+                  {
+                    "type": "PASAL_NUMBER",
+                    "text": "Pasal 36"
+                  },
+                  {
+                    "type": "PLAINTEXT",
+                    "text": "Cukup jelas."
+                  }
+                ]
+              },
+              {
+                "type": "PENJELASAN_PASAL",
+                "id": "",
+                "children": [
+                  {
+                    "type": "PASAL_NUMBER",
+                    "text": "Pasal 37"
+                  },
+                  {
+                    "type": "PLAINTEXT",
+                    "text": "Cukup jelas."
+                  }
+                ]
+              },
+              {
+                "type": "PENJELASAN_PASAL",
+                "id": "",
+                "children": [
+                  {
+                    "type": "PASAL_NUMBER",
+                    "text": "Pasal 38"
+                  },
+                  {
+                    "type": "PLAINTEXT",
+                    "text": "Cukup jelas."
+                  }
+                ]
+              },
+              {
+                "type": "PENJELASAN_PASAL",
+                "id": "",
+                "children": [
+                  {
+                    "type": "PASAL_NUMBER",
+                    "text": "Pasal 39"
+                  },
+                  {
+                    "type": "PLAINTEXT",
+                    "text": "Cukup jelas."
+                  }
+                ]
+              },
+              {
+                "type": "PENJELASAN_PASAL",
+                "id": "",
+                "children": [
+                  {
+                    "type": "PASAL_NUMBER",
+                    "text": "Pasal 40"
+                  },
+                  {
+                    "type": "PLAINTEXT",
+                    "text": "Cukup jelas."
+                  }
+                ]
+              },
+              {
+                "type": "PENJELASAN_PASAL",
+                "id": "",
+                "children": [
+                  {
+                    "type": "PASAL_NUMBER",
+                    "text": "Pasal 41"
+                  },
+                  {
+                    "type": "PLAINTEXT",
+                    "text": "Cukup jelas."
+                  }
+                ]
+              },
+              {
+                "type": "PENJELASAN_PASAL",
+                "id": "",
+                "children": [
+                  {
+                    "type": "PASAL_NUMBER",
+                    "text": "Pasal 42"
+                  },
+                  {
+                    "type": "PLAINTEXT",
+                    "text": "Cukup jelas."
+                  }
+                ]
+              },
+              {
+                "type": "PENJELASAN_PASAL",
+                "id": "",
+                "children": [
+                  {
+                    "type": "PASAL_NUMBER",
+                    "text": "Pasal 43"
+                  },
+                  {
+                    "type": "PLAINTEXT",
+                    "text": "Cukup jelas."
+                  }
+                ]
+              },
+              {
+                "type": "PENJELASAN_PASAL",
+                "id": "",
+                "children": [
+                  {
+                    "type": "PASAL_NUMBER",
+                    "text": "Pasal 44"
+                  },
+                  {
+                    "type": "PLAINTEXT",
+                    "text": "Cukup jelas."
+                  }
+                ]
+              },
+              {
+                "type": "PENJELASAN_PASAL",
+                "id": "",
+                "children": [
+                  {
+                    "type": "PASAL_NUMBER",
+                    "text": "Pasal 45"
+                  },
+                  {
+                    "type": "PLAINTEXT",
+                    "text": "Cukup jelas."
+                  }
+                ]
+              },
+              {
+                "type": "PENJELASAN_PASAL",
+                "id": "",
+                "children": [
+                  {
+                    "type": "PASAL_NUMBER",
+                    "text": "Pasal 46"
+                  },
+                  {
+                    "type": "PLAINTEXT",
+                    "text": "Cukup jelas."
+                  }
+                ]
+              },
+              {
+                "type": "PENJELASAN_PASAL",
+                "id": "",
+                "children": [
+                  {
+                    "type": "PASAL_NUMBER",
+                    "text": "Pasal 47"
+                  },
+                  {
+                    "type": "PLAINTEXT",
+                    "text": "Cukup jelas."
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,3148 @@
+{
+  "metadata": {
+    "lembaranNegaraNumber": 21,
+    "lembaranNegaraYear": 2013,
+    "tambahanLembaranNumber": 5399,
+    "number": 6,
+    "topic": "Pembentukan Kabupaten Pulau Taliabu Di Provinsi Maluku Utara",
+    "year": 2013
+  },
+  "content": {
+    "type": "UNDANG_UNDANG",
+    "id": "",
+    "children": [
+      {
+        "type": "OPENING",
+        "id": "",
+        "children": [
+          {
+            "type": "UU_TITLE",
+            "id": "",
+            "children": [
+              {
+                "type": "PLAINTEXT",
+                "text": "UNDANG-UNDANG REPUBLIK INDONESIA"
+              },
+              {
+                "type": "UU_TITLE_YEAR_AND_NUMBER",
+                "text": "NOMOR 6 TAHUN 2013"
+              },
+              {
+                "type": "PLAINTEXT",
+                "text": "TENTANG"
+              },
+              {
+                "type": "UU_TITLE_TOPIC",
+                "text": "PEMBENTUKAN KABUPATEN PULAU TALIABU DI PROVINSI MALUKU UTARA"
+              }
+            ]
+          },
+          {
+            "type": "PREFACE",
+            "id": "",
+            "children": [
+              {
+                "type": "PLAINTEXT",
+                "text": "DENGAN RAHMAT TUHAN YANG MAHA ESA"
+              },
+              {
+                "type": "PLAINTEXT",
+                "text": "PRESIDEN REPUBLIK INDONESIA,"
+              }
+            ]
+          },
+          {
+            "type": "CONSIDERATIONS",
+            "id": "",
+            "children": [
+              {
+                "type": "PLAINTEXT",
+                "text": "Menimbang:"
+              },
+              {
+                "type": "LIST",
+                "id": "",
+                "children": [
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "LETTER_WITH_DOT",
+                        "text": "a."
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "bahwa untuk mendorong perkembangan dan kemajuan Provinsi Maluku Utara pada umumnya dan Kabupaten Kepulauan Sula pada khususnya, serta adanya aspirasi yang berkembang dalam masyarakat di wilayah kepulauan, dipandang perlu meningkatkan penyelenggaraan pemerintahan, pembangunan dan pelayanan publik guna mempercepat terwujudnya kesejahteraan masyarakat;"
+                      }
+                    ]
+                  },
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "LETTER_WITH_DOT",
+                        "text": "b."
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "bahwa dengan memperhatikan kemampuan ekonomi, potensi daerah, sosial budaya, politik, jumlah penduduk, luas daerah, kemampuan keuangan, tingkat kesejahteran masyarakat, rentang kendali penyelenggaraan pemerintahan, dan meningkatnya beban tugas dan volume kerja di bidang pemerintahan, pembangunan, dan kemasyarakatan di Kabupaten Kepulauan Sula, perlu dilakukan pembentukan Kabupaten Pulau Taliabu di Provinsi Maluku Utara;"
+                      }
+                    ]
+                  },
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "LETTER_WITH_DOT",
+                        "text": "c."
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "bahwa pembentukan Kabupaten Pulau Taliabu dimaksudkan untuk mendorong peningkatan pelayanan di bidang pemerintahan, pembangunan dan kemasyarakatan, serta kemampuan dalam pemanfaatan potensi daerah untuk penyelenggaraan otonomi daerah;"
+                      }
+                    ]
+                  },
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "LETTER_WITH_DOT",
+                        "text": "d."
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "bahwa berdasarkan pertimbangan sebagaimana dimaksud dalam huruf a, huruf b, dan huruf c, perlu membentuk Undang-Undang tentang Pembentukan Kabupaten Pulau Taliabu di Provinsi Maluku Utara."
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "PRINCIPLES",
+            "id": "",
+            "children": [
+              {
+                "type": "PLAINTEXT",
+                "text": "Mengingat:"
+              },
+              {
+                "type": "LIST",
+                "id": "",
+                "children": [
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "NUMBER_WITH_DOT",
+                        "text": "1."
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "Pasal 18, Pasal 18A, Pasal 18B, Pasal 20 dan Pasal 21 Undang-Undang Dasar Negara Republik Indonesia Tahun 1945;"
+                      }
+                    ]
+                  },
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "NUMBER_WITH_DOT",
+                        "text": "2."
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "Undang-Undang Nomor 46 Tahun 1999 tentang Pembentukan Propinsi Maluku Utara, Kabupaten Buru, dan Kabupaten Maluku Tenggara Barat (Lembaran Negara Tahun 1999 Nomor 174, Tambahan Lembaran Negara Nomor 3895);"
+                      }
+                    ]
+                  },
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "NUMBER_WITH_DOT",
+                        "text": "3."
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "Undang-Undang Nomor 1 Tahun 2003 tentang Pembentukan Kabupaten Halmahera Utara, Kabupaten Halmahera Selatan, Kabupaten Kepulauan Sula, Kabupaten Halmahera Timur dan Kota Tidore Kepulauan di Provinsi Maluku Utara (Lembaran Negara Tahun 2003 Nomor 21, Tambahan Lembaran Negara Nomor 1261);"
+                      }
+                    ]
+                  },
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "NUMBER_WITH_DOT",
+                        "text": "4."
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "Undang-Undang Nomor 32 Tahun 2004 tentang Pemerintahan Daerah (Lembaran Negara Republik Indonesia Tahun 2004 Nomor 125, Tambahan Lembaran Negara Republik Indonesia Nomor 4437) sebagaimana telah diubah terakhir dengan Undang-Undang Nomor 12 Tahun 2008 tentang Perubahan Kedua atas Undang-Undang Nomor 32 Tahun 2004 tentang Pemerintahan Daerah (Lembaran Negara Republik Indonesia Tahun 2008 Nomor 59, Tambahan Lembaran Negara Republik Indonesia Nomor 4844);"
+                      }
+                    ]
+                  },
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "NUMBER_WITH_DOT",
+                        "text": "5."
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "Undang-Undang Nomor 33 Tahun 2004 tentang Perimbangan Keuangan antara Pemerintah Pusat dan Pemerintahan Daerah (Lembaran Negara Republik Indonesia Tahun 2004 Nomor 126, Tambahan Lembaran Negara Republik Indonesia Nomor 4438);"
+                      }
+                    ]
+                  },
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "NUMBER_WITH_DOT",
+                        "text": "6."
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "Undang-Undang Nomor 27 Tahun 2009 tentang Majelis Permusyawaratan Rakyat, Dewan Perwakilan Rakyat, Dewan Perwakilan Daerah, dan Dewan Perwakilan Rakyat Daerah (Lembaran Negara Republik Indonesia Tahun 2009 Nomor 123, Tambahan Lembaran Negara Republik Indonesia Nomor 5043);"
+                      }
+                    ]
+                  },
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "NUMBER_WITH_DOT",
+                        "text": "7."
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "Undang-Undang Nomor 12 Tahun 2011 tentang Pembentukan Peraturan Perundang-undangan (Lembaran Negara Republik Indonesia Tahun 2009 Nomor 82, Tambahan Lembaran Negara Republik Indonesia Nomor 5234);"
+                      }
+                    ]
+                  },
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "NUMBER_WITH_DOT",
+                        "text": "8."
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "Undang-Undang Nomor 15 Tahun 2011 tentang Penyelenggara Pemilihan Umum (Lembaran Negara Republik Indonesia Tahun 2011 Nomor 101, Tambahan Lembaran Negara Republik Indonesia Nomor 5246);"
+                      }
+                    ]
+                  },
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "NUMBER_WITH_DOT",
+                        "text": "9."
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "Undang-Undang Nomor 8 Tahun 2012 tentang Pemilihan Umum Anggota Dewan Perwakilan Rakyat, Dewan Perwakilan Daerah, dan Perwakilan Rakyat Daerah (Lembaran Negara Republik Indonesia Tahun 2012 Nomor 117, Tambahan Lembaran Negara Republik Indonesia Nomor 5316)."
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "AGREEMENT",
+            "id": "",
+            "children": [
+              {
+                "type": "PLAINTEXT",
+                "text": "Dengan Persetujuan Bersama"
+              },
+              {
+                "type": "PLAINTEXT",
+                "text": "DEWAN PERWAKILAN RAKYAT REPUBLIK INDONESIA"
+              },
+              {
+                "type": "PLAINTEXT",
+                "text": "dan"
+              },
+              {
+                "type": "PLAINTEXT",
+                "text": "PRESIDEN REPUBLIK INDONESIA"
+              },
+              {
+                "type": "PLAINTEXT",
+                "text": "MEMUTUSKAN:"
+              },
+              {
+                "type": "PLAINTEXT",
+                "text": "Menetapkan:"
+              },
+              {
+                "type": "PLAINTEXT",
+                "text": "UNDANG-UNDANG TENTANG PEMBENTUKAN KABUPATEN PULAU TALIABU DI PROVINSI MALUKU UTARA."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "BAB",
+        "id": "bab-1",
+        "children": [
+          {
+            "type": "BAB_NUMBER",
+            "text": "BAB I"
+          },
+          {
+            "type": "BAB_TITLE",
+            "text": "KETENTUAN UMUM"
+          },
+          {
+            "type": "PASAL",
+            "id": "pasal-1",
+            "children": [
+              {
+                "type": "PASAL_NUMBER",
+                "text": "Pasal 1"
+              },
+              {
+                "type": "PLAINTEXT",
+                "text": "Dalam Undang-Undang ini yang dimaksud dengan:"
+              },
+              {
+                "type": "LIST",
+                "id": "",
+                "children": [
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "NUMBER_WITH_DOT",
+                        "text": "1."
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "Pemerintah pusat, selanjutnya disebut Pemerintah, adalah Presiden Republik Indonesia yang memegang kekuasaan pemerintahan negara Republik Indonesia sebagaimana dimaksud dalam Undang-Undang Dasar Negara Republik Indonesia Tahun 1945."
+                      }
+                    ]
+                  },
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "NUMBER_WITH_DOT",
+                        "text": "2."
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "Daerah otonom, selanjutnya disebut daerah, adalah kesatuan masyarakat hukum yang mempunyai batas batas wilayah yang berwenang mengatur dan mengurus urusan pemerintahan dan kepentingan masyarakat setempat menurut prakarsa sendiri berdasarkan aspirasi masyarakat dalam sistem Negara Kesatuan Republik Indonesia."
+                      }
+                    ]
+                  },
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "NUMBER_WITH_DOT",
+                        "text": "3."
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "Provinsi Maluku Utara adalah provinsi sebagaimana dimaksud dalam Undang-Undang Nomor 46 Tahun 1999 tentang Pembentukan Propinsi Maluku Utara, Kabupaten Buru, dan Kabupaten Maluku Tenggara Barat;"
+                      }
+                    ]
+                  },
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "NUMBER_WITH_DOT",
+                        "text": "4."
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "Kabupaten Kepulauan Sula adalah kabupaten sebagaimana dimaksud dalam Undang-Undang Nomor 1 Tahun 2003 tentang Pembentukan Kabupaten Halmahera Utara, Kabupaten Halmahera Selatan, Kabupaten Kepulauan Sula, Kabupaten Halmahera Timur dan Kota Tidore Kepulauan di Provinsi Maluku Utara yang merupakan kabupaten asal Kabupaten Pulau Taliabu."
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "BAB",
+        "id": "bab-2",
+        "children": [
+          {
+            "type": "BAB_NUMBER",
+            "text": "BAB II"
+          },
+          {
+            "type": "BAB_TITLE",
+            "text": "PEMBENTUKAN, CAKUPAN WILAYAH, BATAS WILAYAH, DAN IBU KOTA"
+          },
+          {
+            "type": "BAGIAN",
+            "id": "bab-2-bagian-1",
+            "children": [
+              {
+                "type": "BAGIAN_NUMBER",
+                "text": "Bagian Kesatu"
+              },
+              {
+                "type": "BAGIAN_TITLE",
+                "text": "Pembentukan"
+              },
+              {
+                "type": "PASAL",
+                "id": "pasal-2",
+                "children": [
+                  {
+                    "type": "PASAL_NUMBER",
+                    "text": "Pasal 2"
+                  },
+                  {
+                    "type": "PLAINTEXT",
+                    "text": "Dengan Undang-Undang ini dibentuk Kabupaten Pulau Taliabu di wilayah Provinsi Maluku Utara dalam Negara Kesatuan Republik Indonesia."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "BAGIAN",
+            "id": "bab-2-bagian-2",
+            "children": [
+              {
+                "type": "BAGIAN_NUMBER",
+                "text": "Bagian Kedua"
+              },
+              {
+                "type": "BAGIAN_TITLE",
+                "text": "Cakupan Wilayah"
+              },
+              {
+                "type": "PASAL",
+                "id": "pasal-3",
+                "children": [
+                  {
+                    "type": "PASAL_NUMBER",
+                    "text": "Pasal 3"
+                  },
+                  {
+                    "type": "LIST",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "LIST_ITEM",
+                        "id": "",
+                        "children": [
+                          {
+                            "type": "NUMBER_WITH_BRACKETS",
+                            "text": "(1)"
+                          },
+                          {
+                            "type": "PLAINTEXT",
+                            "text": "Kabupaten Pulau Taliabu berasal dari sebagian wilayah Kabupaten Kepulauan Sula yang terdiri atas cakupan wilayah:"
+                          },
+                          {
+                            "type": "LIST",
+                            "id": "",
+                            "children": [
+                              {
+                                "type": "LIST_ITEM",
+                                "id": "",
+                                "children": [
+                                  {
+                                    "type": "LETTER_WITH_DOT",
+                                    "text": "a."
+                                  },
+                                  {
+                                    "type": "PLAINTEXT",
+                                    "text": "Kecamatan Taliabu Barat;"
+                                  }
+                                ]
+                              },
+                              {
+                                "type": "LIST_ITEM",
+                                "id": "",
+                                "children": [
+                                  {
+                                    "type": "LETTER_WITH_DOT",
+                                    "text": "b."
+                                  },
+                                  {
+                                    "type": "PLAINTEXT",
+                                    "text": "Kecamatan Taliabu Barat Laut;"
+                                  }
+                                ]
+                              },
+                              {
+                                "type": "LIST_ITEM",
+                                "id": "",
+                                "children": [
+                                  {
+                                    "type": "LETTER_WITH_DOT",
+                                    "text": "c."
+                                  },
+                                  {
+                                    "type": "PLAINTEXT",
+                                    "text": "Kecamatan Lede;"
+                                  }
+                                ]
+                              },
+                              {
+                                "type": "LIST_ITEM",
+                                "id": "",
+                                "children": [
+                                  {
+                                    "type": "LETTER_WITH_DOT",
+                                    "text": "d."
+                                  },
+                                  {
+                                    "type": "PLAINTEXT",
+                                    "text": "Kecamatan Taliabu Utara;"
+                                  }
+                                ]
+                              },
+                              {
+                                "type": "LIST_ITEM",
+                                "id": "",
+                                "children": [
+                                  {
+                                    "type": "LETTER_WITH_DOT",
+                                    "text": "e."
+                                  },
+                                  {
+                                    "type": "PLAINTEXT",
+                                    "text": "Kecamatan Taliabu Timur;"
+                                  }
+                                ]
+                              },
+                              {
+                                "type": "LIST_ITEM",
+                                "id": "",
+                                "children": [
+                                  {
+                                    "type": "LETTER_WITH_DOT",
+                                    "text": "f."
+                                  },
+                                  {
+                                    "type": "PLAINTEXT",
+                                    "text": "Kecamatan Taliabu Timur Selatan;"
+                                  }
+                                ]
+                              },
+                              {
+                                "type": "LIST_ITEM",
+                                "id": "",
+                                "children": [
+                                  {
+                                    "type": "LETTER_WITH_DOT",
+                                    "text": "g."
+                                  },
+                                  {
+                                    "type": "PLAINTEXT",
+                                    "text": "Kecamatan Taliabu Selatan; dan"
+                                  }
+                                ]
+                              },
+                              {
+                                "type": "LIST_ITEM",
+                                "id": "",
+                                "children": [
+                                  {
+                                    "type": "LETTER_WITH_DOT",
+                                    "text": "h."
+                                  },
+                                  {
+                                    "type": "PLAINTEXT",
+                                    "text": "Kecamatan Tabona."
+                                  }
+                                ]
+                              }
+                            ]
+                          }
+                        ]
+                      },
+                      {
+                        "type": "LIST_ITEM",
+                        "id": "",
+                        "children": [
+                          {
+                            "type": "NUMBER_WITH_BRACKETS",
+                            "text": "(2)"
+                          },
+                          {
+                            "type": "PLAINTEXT",
+                            "text": "Cakupan wilayah sebagaimana dimaksud pada ayat (1) digambarkan dalam peta wilayah yang tercantum dalam lampiran dan merupakan bagian yang tidak terpisahkan dari Undang-Undang ini."
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "PASAL",
+                "id": "pasal-4",
+                "children": [
+                  {
+                    "type": "PASAL_NUMBER",
+                    "text": "Pasal 4"
+                  },
+                  {
+                    "type": "PLAINTEXT",
+                    "text": "Dengan terbentuknya Kabupaten Pulau Taliabu, sebagaimana dimaksud dalam Pasal 2, wilayah Kabupaten Kepulauan Sula dikurangi dengan wilayah Kabupaten Pulau Taliabu sebagaimana dimaksud dalam Pasal 3."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "BAGIAN",
+            "id": "bab-2-bagian-3",
+            "children": [
+              {
+                "type": "BAGIAN_NUMBER",
+                "text": "Bagian Ketiga"
+              },
+              {
+                "type": "BAGIAN_TITLE",
+                "text": "Batas Wilayah"
+              },
+              {
+                "type": "PASAL",
+                "id": "pasal-5",
+                "children": [
+                  {
+                    "type": "PASAL_NUMBER",
+                    "text": "Pasal 5"
+                  },
+                  {
+                    "type": "LIST",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "LIST_ITEM",
+                        "id": "",
+                        "children": [
+                          {
+                            "type": "NUMBER_WITH_BRACKETS",
+                            "text": "(1)"
+                          },
+                          {
+                            "type": "PLAINTEXT",
+                            "text": "Kabupaten Pulau Taliabu mempunyai batas-batas wilayah:"
+                          },
+                          {
+                            "type": "LIST",
+                            "id": "",
+                            "children": [
+                              {
+                                "type": "LIST_ITEM",
+                                "id": "",
+                                "children": [
+                                  {
+                                    "type": "LETTER_WITH_DOT",
+                                    "text": "a."
+                                  },
+                                  {
+                                    "type": "PLAINTEXT",
+                                    "text": "sebelah utara berbatasan dengan Laut Maluku;"
+                                  }
+                                ]
+                              },
+                              {
+                                "type": "LIST_ITEM",
+                                "id": "",
+                                "children": [
+                                  {
+                                    "type": "LETTER_WITH_DOT",
+                                    "text": "b."
+                                  },
+                                  {
+                                    "type": "PLAINTEXT",
+                                    "text": "sebelah timur berbatasan dengan Selat Capalulu;"
+                                  }
+                                ]
+                              },
+                              {
+                                "type": "LIST_ITEM",
+                                "id": "",
+                                "children": [
+                                  {
+                                    "type": "LETTER_WITH_DOT",
+                                    "text": "c."
+                                  },
+                                  {
+                                    "type": "PLAINTEXT",
+                                    "text": "sebelah selatan berbatasan dengan Laut Banda; dan"
+                                  }
+                                ]
+                              },
+                              {
+                                "type": "LIST_ITEM",
+                                "id": "",
+                                "children": [
+                                  {
+                                    "type": "LETTER_WITH_DOT",
+                                    "text": "d."
+                                  },
+                                  {
+                                    "type": "PLAINTEXT",
+                                    "text": "sebelah barat berbatasan dengan Laut Maluku."
+                                  }
+                                ]
+                              }
+                            ]
+                          }
+                        ]
+                      },
+                      {
+                        "type": "LIST_ITEM",
+                        "id": "",
+                        "children": [
+                          {
+                            "type": "NUMBER_WITH_BRACKETS",
+                            "text": "(2)"
+                          },
+                          {
+                            "type": "PLAINTEXT",
+                            "text": "Batas wilayah sebagaimana dimaksud pada ayat (1) digambarkan dalam peta wilayah lengkap dengan titik-titik koordinat dan telah mendapatkan persetujuan dari pihak-pihak terkait yang tercantum dalam lampiran dan merupakan bagian yang tidak terpisahkan dari Undang-Undang ini."
+                          }
+                        ]
+                      },
+                      {
+                        "type": "LIST_ITEM",
+                        "id": "",
+                        "children": [
+                          {
+                            "type": "NUMBER_WITH_BRACKETS",
+                            "text": "(3)"
+                          },
+                          {
+                            "type": "PLAINTEXT",
+                            "text": "Penetapan batas wilayah Kabupaten Pulau Taliabu secara pasti di lapangan sebagaimana dimaksud pada ayat (1) dan ayat (2), ditetapkan oleh Menteri Dalam Negeri paling lambat 5 (lima) tahun sejak peresmian Kabupaten Pulau Taliabu."
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "PASAL",
+                "id": "pasal-6",
+                "children": [
+                  {
+                    "type": "PASAL_NUMBER",
+                    "text": "Pasal 6"
+                  },
+                  {
+                    "type": "LIST",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "LIST_ITEM",
+                        "id": "",
+                        "children": [
+                          {
+                            "type": "NUMBER_WITH_BRACKETS",
+                            "text": "(1)"
+                          },
+                          {
+                            "type": "PLAINTEXT",
+                            "text": "Dengan terbentuknya Kabupaten Pulau Taliabu sebagaimana dimaksud dalam Pasal 2, Pemerintah Kabupaten Pulau Taliabu menetapkan Rencana Tata Ruang Wilayah Kabupaten Pulau Taliabu sesuai dengan peraturan perundang-undangan."
+                          }
+                        ]
+                      },
+                      {
+                        "type": "LIST_ITEM",
+                        "id": "",
+                        "children": [
+                          {
+                            "type": "NUMBER_WITH_BRACKETS",
+                            "text": "(2)"
+                          },
+                          {
+                            "type": "PLAINTEXT",
+                            "text": "Penetapan Rencana Tata Ruang Wilayah Kabupaten Pulau Taliabu sebagaimana dimaksud pada ayat (1) dilakukan sesuai dengan Rencana Tata Ruang Wilayah Nasional dan Rencana Tata Ruang Wilayah Provinsi Maluku Utara serta memperhatikan Rencana Tata Ruang Wilayah kabupaten/kota di sekitarnya."
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "BAGIAN",
+            "id": "bab-2-bagian-4",
+            "children": [
+              {
+                "type": "BAGIAN_NUMBER",
+                "text": "Bagian Keempat"
+              },
+              {
+                "type": "BAGIAN_TITLE",
+                "text": "Ibu Kota"
+              },
+              {
+                "type": "PASAL",
+                "id": "pasal-7",
+                "children": [
+                  {
+                    "type": "PASAL_NUMBER",
+                    "text": "Pasal 7"
+                  },
+                  {
+                    "type": "PLAINTEXT",
+                    "text": "Ibu Kota Kabupaten Pulau Taliabu berkedudukan di Bobong, Kecamatan Taliabu Barat."
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "BAB",
+        "id": "bab-3",
+        "children": [
+          {
+            "type": "BAB_NUMBER",
+            "text": "BAB III"
+          },
+          {
+            "type": "BAB_TITLE",
+            "text": "URUSAN PEMERINTAHAN DAERAH"
+          },
+          {
+            "type": "PASAL",
+            "id": "pasal-8",
+            "children": [
+              {
+                "type": "PASAL_NUMBER",
+                "text": "Pasal 8"
+              },
+              {
+                "type": "PLAINTEXT",
+                "text": "Urusan pemerintahan daerah yang menjadi kewenangan Kabupaten Pulau Taliabu mencakup urusan sebagaimana diatur dalam peraturan perundang-undangan."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "BAB",
+        "id": "bab-4",
+        "children": [
+          {
+            "type": "BAB_NUMBER",
+            "text": "BAB IV"
+          },
+          {
+            "type": "BAB_TITLE",
+            "text": "PEMERINTAHAN DAERAH"
+          },
+          {
+            "type": "BAGIAN",
+            "id": "bab-4-bagian-1",
+            "children": [
+              {
+                "type": "BAGIAN_NUMBER",
+                "text": "Bagian Kesatu"
+              },
+              {
+                "type": "BAGIAN_TITLE",
+                "text": "Peresmian Daerah Otonom Baru dan Pelantikan Penjabat Kepala Daerah"
+              },
+              {
+                "type": "PASAL",
+                "id": "pasal-9",
+                "children": [
+                  {
+                    "type": "PASAL_NUMBER",
+                    "text": "Pasal 9"
+                  },
+                  {
+                    "type": "PLAINTEXT",
+                    "text": "Peresmian Kabupaten Pulau Taliabu dan pelantikan Penjabat Bupati Pulau Taliabu dilakukan oleh Menteri Dalam Negeri atas nama Presiden paling lambat 9 (sembilan) bulan setelah Undang-Undang ini diundangkan."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "BAGIAN",
+            "id": "bab-4-bagian-2",
+            "children": [
+              {
+                "type": "BAGIAN_NUMBER",
+                "text": "Bagian Kedua"
+              },
+              {
+                "type": "BAGIAN_TITLE",
+                "text": "Pemerintah Daerah"
+              },
+              {
+                "type": "PASAL",
+                "id": "pasal-10",
+                "children": [
+                  {
+                    "type": "PASAL_NUMBER",
+                    "text": "Pasal 10"
+                  },
+                  {
+                    "type": "LIST",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "LIST_ITEM",
+                        "id": "",
+                        "children": [
+                          {
+                            "type": "NUMBER_WITH_BRACKETS",
+                            "text": "(1)"
+                          },
+                          {
+                            "type": "PLAINTEXT",
+                            "text": "Untuk memimpin penyelenggaraan pemerintahan di Kabupaten Pulau Taliabu, dipilih dan disahkan Bupati dan/atau Wakil Bupati sesuai dengan peraturan perundang-undangan yang dilaksanakan paling cepat 2 (dua) tahun sejak diresmikan Kabupaten Pulau Taliabu."
+                          }
+                        ]
+                      },
+                      {
+                        "type": "LIST_ITEM",
+                        "id": "",
+                        "children": [
+                          {
+                            "type": "NUMBER_WITH_BRACKETS",
+                            "text": "(2)"
+                          },
+                          {
+                            "type": "PLAINTEXT",
+                            "text": "Sebelum Bupati dan Wakil Bupati definitif sebagaimana dimaksud pada ayat (1) terpilih sebagai pimpinan penyelenggaraan pemerintahan daerah, Menteri Dalam Negeri atas nama Presiden mengangkat Penjabat Bupati dari pegawai negeri sipil berdasarkan usul Gubernur Maluku Utara dengan masa jabatan paling lama 1 (satu) tahun."
+                          }
+                        ]
+                      },
+                      {
+                        "type": "LIST_ITEM",
+                        "id": "",
+                        "children": [
+                          {
+                            "type": "NUMBER_WITH_BRACKETS",
+                            "text": "(3)"
+                          },
+                          {
+                            "type": "PLAINTEXT",
+                            "text": "Pegawai negeri sipil sebagaimana dimaksud pada ayat (2) adalah pegawai yang memiliki kemampuan dan pengalaman jabatan dalam bidang pemerintahan serta memenuhi persyaratan untuk menduduki jabatan itu sesuai dengan peraturan perundang-undangan."
+                          }
+                        ]
+                      },
+                      {
+                        "type": "LIST_ITEM",
+                        "id": "",
+                        "children": [
+                          {
+                            "type": "NUMBER_WITH_BRACKETS",
+                            "text": "(4)"
+                          },
+                          {
+                            "type": "PLAINTEXT",
+                            "text": "Menteri Dalam Negeri dapat menunjuk Gubernur Maluku Utara untuk melantik Penjabat Bupati Pulau Taliabu."
+                          }
+                        ]
+                      },
+                      {
+                        "type": "LIST_ITEM",
+                        "id": "",
+                        "children": [
+                          {
+                            "type": "NUMBER_WITH_BRACKETS",
+                            "text": "(5)"
+                          },
+                          {
+                            "type": "PLAINTEXT",
+                            "text": "Menteri Dalam Negeri atas nama Presiden dapat mengangkat kembali Penjabat Bupati untuk 1 (satu) kali masa jabatan berikutnya paling lama 1 (satu) tahun atau menggantinya dengan penjabat lain sesuai dengan peraturan perundang-undangan."
+                          }
+                        ]
+                      },
+                      {
+                        "type": "LIST_ITEM",
+                        "id": "",
+                        "children": [
+                          {
+                            "type": "NUMBER_WITH_BRACKETS",
+                            "text": "(6)"
+                          },
+                          {
+                            "type": "PLAINTEXT",
+                            "text": "Gubernur Maluku Utara melakukan pembinaan, pengawasan, evaluasi, dan fasilitasi terhadap kinerja Penjabat Bupati Pulau Taliabu dalam penyelenggaraan pemerintahan daerah, pembentukan struktur organisasi dan pengisian perangkat daerah, pengisian keanggotaan Dewan Perwakilan Rakyat Daerah Kabupaten, dan fasilitasi pemilihan Bupati dan/atau Wakil Bupati sesuai ketentuan peraturan perundang undangan."
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "PASAL",
+                "id": "pasal-11",
+                "children": [
+                  {
+                    "type": "PASAL_NUMBER",
+                    "text": "Pasal 11"
+                  },
+                  {
+                    "type": "PLAINTEXT",
+                    "text": "Pembiayaan pertama kali pelaksanaan pemilihan Bupati dan/atau Wakil Bupati Pulau Taliabu sebagaimana dimaksud dalam Pasal 10 ayat (1) dibebankan kepada Anggaran Pendapatan dan Belanja Daerah Kabupaten Kepulauan Sula dan Anggaran Pendapatan dan Belanja Daerah Provinsi Maluku Utara."
+                  }
+                ]
+              },
+              {
+                "type": "PASAL",
+                "id": "pasal-12",
+                "children": [
+                  {
+                    "type": "PASAL_NUMBER",
+                    "text": "Pasal 12"
+                  },
+                  {
+                    "type": "LIST",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "LIST_ITEM",
+                        "id": "",
+                        "children": [
+                          {
+                            "type": "NUMBER_WITH_BRACKETS",
+                            "text": "(1)"
+                          },
+                          {
+                            "type": "PLAINTEXT",
+                            "text": "Untuk menyelenggarakan pemerintahan di Kabupaten Pulau Taliabu dibentuk perangkat daerah yang meliputi sekretariat daerah, sekretariat dewan perwakilan rakyat daerah, dinas daerah, lembaga teknis daerah, serta unsur perangkat daerah lainnya dengan mempertimbangkan kebutuhan dan kemampuan keuangan daerah sesuai dengan peraturan perundang-undangan."
+                          }
+                        ]
+                      },
+                      {
+                        "type": "LIST_ITEM",
+                        "id": "",
+                        "children": [
+                          {
+                            "type": "NUMBER_WITH_BRACKETS",
+                            "text": "(2)"
+                          },
+                          {
+                            "type": "PLAINTEXT",
+                            "text": "Perangkat daerah sebagaimana dimaksud pada ayat (1) telah dibentuk oleh Penjabat Bupati Pulau Taliabu paling lambat 6 (enam) bulan sejak tanggal pelantikan."
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "BAGIAN",
+            "id": "bab-4-bagian-3",
+            "children": [
+              {
+                "type": "BAGIAN_NUMBER",
+                "text": "Bagian Ketiga"
+              },
+              {
+                "type": "BAGIAN_TITLE",
+                "text": "Dewan Perwakilan Rakyat Daerah"
+              },
+              {
+                "type": "PASAL",
+                "id": "pasal-13",
+                "children": [
+                  {
+                    "type": "PASAL_NUMBER",
+                    "text": "Pasal 13"
+                  },
+                  {
+                    "type": "LIST",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "LIST_ITEM",
+                        "id": "",
+                        "children": [
+                          {
+                            "type": "NUMBER_WITH_BRACKETS",
+                            "text": "(1)"
+                          },
+                          {
+                            "type": "PLAINTEXT",
+                            "text": "Dewan Perwakilan Rakyat Daerah Kabupaten Pulau Taliabu dibentuk melalui hasil Pemilihan Umum Tahun 2014."
+                          }
+                        ]
+                      },
+                      {
+                        "type": "LIST_ITEM",
+                        "id": "",
+                        "children": [
+                          {
+                            "type": "NUMBER_WITH_BRACKETS",
+                            "text": "(2)"
+                          },
+                          {
+                            "type": "PLAINTEXT",
+                            "text": "Jumlah dan tata cara pengisian keanggotaan Dewan Perwakilan Rakyat Daerah Kabupaten Pulau Taliabu sebagaimana dimaksud pada ayat (1), sesuai dengan peraturan perundang-undangan."
+                          }
+                        ]
+                      },
+                      {
+                        "type": "LIST_ITEM",
+                        "id": "",
+                        "children": [
+                          {
+                            "type": "NUMBER_WITH_BRACKETS",
+                            "text": "(3)"
+                          },
+                          {
+                            "type": "PLAINTEXT",
+                            "text": "Penetapan keanggotaan Dewan Perwakilan Rakyat Daerah Kabupaten Pulau Taliabu sebagaimana dimaksud pada ayat (1) dan ayat (2) dilakukan Komisi Pemilihan Umum Kabupaten Kepulauan Sula sesuai dengan peraturan perundang-undangan."
+                          }
+                        ]
+                      },
+                      {
+                        "type": "LIST_ITEM",
+                        "id": "",
+                        "children": [
+                          {
+                            "type": "NUMBER_WITH_BRACKETS",
+                            "text": "(4)"
+                          },
+                          {
+                            "type": "PLAINTEXT",
+                            "text": "Pengambilan sumpah/janji anggota Dewan Perwakilan Rakyat Daerah Kabupaten Pulau Taliabu dilaksanakan paling lambat 4 (empat) bulan setelah sumpah/janji anggota Dewan Perwakilan Rakyat Daerah Kabupaten Kepulauan Sula."
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "BAB",
+        "id": "bab-5",
+        "children": [
+          {
+            "type": "BAB_NUMBER",
+            "text": "BAB V"
+          },
+          {
+            "type": "BAB_TITLE",
+            "text": "PERSONEL, ASET, DAN DOKUMEN"
+          },
+          {
+            "type": "PASAL",
+            "id": "pasal-14",
+            "children": [
+              {
+                "type": "PASAL_NUMBER",
+                "text": "Pasal 14"
+              },
+              {
+                "type": "LIST",
+                "id": "",
+                "children": [
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "NUMBER_WITH_BRACKETS",
+                        "text": "(1)"
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "Bupati Kepulauan Sula bersama Penjabat Bupati Pulau Taliabu mengatur dan melaksanakan pemindahan personel, penyerahan aset, serta dokumen kepada Pemerintah Kabupaten Pulau Taliabu sesuai dengan persetujuan Dewan Perwakilan Rakyat Daerah Kabupaten Kepulauan Sula dan Bupati Kepulauan Sula."
+                      }
+                    ]
+                  },
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "NUMBER_WITH_BRACKETS",
+                        "text": "(2)"
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "Pemindahan personel sebagaimana dimaksud pada ayat (1) dilakukan paling lambat 6 (enam) bulan sejak pelantikan Penjabat Bupati Pulau Taliabu."
+                      }
+                    ]
+                  },
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "NUMBER_WITH_BRACKETS",
+                        "text": "(3)"
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "Penyerahan aset dan dokumen sebagaimana dimaksud pada ayat (1) dilakukan paling lambat 3 (tiga) tahun sejak pelantikan Penjabat Bupati Pulau Taliabu."
+                      }
+                    ]
+                  },
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "NUMBER_WITH_BRACKETS",
+                        "text": "(4)"
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "Personel sebagaimana dimaksud pada ayat (1) dan ayat (2) meliputi pegawai negeri sipil yang karena tugas dan kemampuannya diperlukan oleh Kabupaten Pulau Taliabu."
+                      }
+                    ]
+                  },
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "NUMBER_WITH_BRACKETS",
+                        "text": "(5)"
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "Gubernur Maluku Utara mengoordinasikan dan memfasilitasi pemindahan personel, penyerahan aset, dan dokumen kepada Kabupaten Pulau Taliabu."
+                      }
+                    ]
+                  },
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "NUMBER_WITH_BRACKETS",
+                        "text": "(6)"
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "Gaji dan tunjangan pegawai negeri sipil sebagaimana dimaksud pada ayat (4), selama belum ditetapkannya Anggaran Pendapatan dan Belanja Daerah Kabupaten Pulau Taliabu, dibebankan pada anggaran pendapatan dan belanja dari asal satuan kerja personel yang bersangkutan sesuai dengan peraturan perundang-undangan."
+                      }
+                    ]
+                  },
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "NUMBER_WITH_BRACKETS",
+                        "text": "(7)"
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "Aset dan dokumen sebagaimana dimaksud pada ayat (1) dan ayat (3) meliputi:"
+                      },
+                      {
+                        "type": "LIST",
+                        "id": "",
+                        "children": [
+                          {
+                            "type": "LIST_ITEM",
+                            "id": "",
+                            "children": [
+                              {
+                                "type": "LETTER_WITH_DOT",
+                                "text": "a."
+                              },
+                              {
+                                "type": "PLAINTEXT",
+                                "text": "barang milik Kabupaten Kepulauan Sula yang bergerak dan tidak bergerak dan/atau yang dikuasai atau dimanfaatkan oleh Pemerintah Kabupaten Pulau Taliabu yang berada dalam wilayah Kabupaten Pulau Taliabu;"
+                              }
+                            ]
+                          },
+                          {
+                            "type": "LIST_ITEM",
+                            "id": "",
+                            "children": [
+                              {
+                                "type": "LETTER_WITH_DOT",
+                                "text": "b."
+                              },
+                              {
+                                "type": "PLAINTEXT",
+                                "text": "Badan Usaha Milik Daerah Kabupaten Kepulauan Sula yang kedudukan, kegiatan, dan lokasinya berada di Kabupaten Pulau Taliabu;"
+                              }
+                            ]
+                          },
+                          {
+                            "type": "LIST_ITEM",
+                            "id": "",
+                            "children": [
+                              {
+                                "type": "LETTER_WITH_DOT",
+                                "text": "c."
+                              },
+                              {
+                                "type": "PLAINTEXT",
+                                "text": "utang piutang Kabupaten Kepulauan Sula yang kegunaannya untuk Kabupaten Pulau Taliabu menjadi tanggung jawab Kabupaten Pulau Taliabu; dan"
+                              }
+                            ]
+                          },
+                          {
+                            "type": "LIST_ITEM",
+                            "id": "",
+                            "children": [
+                              {
+                                "type": "LETTER_WITH_DOT",
+                                "text": "d."
+                              },
+                              {
+                                "type": "PLAINTEXT",
+                                "text": "dokumen dan arsip yang karena sifatnya diperlukan oleh Kabupaten Pulau Taliabu."
+                              }
+                            ]
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "NUMBER_WITH_BRACKETS",
+                        "text": "(8)"
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "Dalam hal ketentuan sebagaimana dimaksud pada ayat (3) dan ayat (7) tidak dilaksanakan atau belum selesai dilaksanakan oleh Bupati Kepulauan Sula, Gubernur Maluku Utara selaku wakil Pemerintah wajib menyelesaikannya dalam waktu paling lambat 1 (satu) tahun."
+                      }
+                    ]
+                  },
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "NUMBER_WITH_BRACKETS",
+                        "text": "(9)"
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "Pelaksanaan pemindahan personel dan penyerahan aset serta dokumen sebagaimana dimaksud pada ayat (1) dilaporkan oleh Gubernur Maluku Utara kepada Menteri Dalam Negeri."
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "BAB",
+        "id": "bab-6",
+        "children": [
+          {
+            "type": "BAB_NUMBER",
+            "text": "BAB VI"
+          },
+          {
+            "type": "BAB_TITLE",
+            "text": "PENDAPATAN, ALOKASI DANA PERIMBANGAN, HIBAH, DAN BANTUAN KEUANGAN"
+          },
+          {
+            "type": "PASAL",
+            "id": "pasal-15",
+            "children": [
+              {
+                "type": "PASAL_NUMBER",
+                "text": "Pasal 15"
+              },
+              {
+                "type": "LIST",
+                "id": "",
+                "children": [
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "NUMBER_WITH_BRACKETS",
+                        "text": "(1)"
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "Kabupaten Pulau Taliabu berhak mendapatkan alokasi dana perimbangan dan dana transfer lainnya sesuai dengan peraturan perundang-undangan."
+                      }
+                    ]
+                  },
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "NUMBER_WITH_BRACKETS",
+                        "text": "(2)"
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "Dalam dana perimbangan sebagaimana dimaksud pada ayat (1), Pemerintah mengalokasikan dana alokasi khusus prasarana pemerintahan sesuai dengan peraturan perundang-undangan."
+                      }
+                    ]
+                  },
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "NUMBER_WITH_BRACKETS",
+                        "text": "(3)"
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "Dana perimbangan sebagaimana dimaksud pada ayat (1) yang berupa dana transfer ke daerah dialokasikan sesuai dengan kemampuan keuangan negara sesuai dengan peraturan perundang undangan."
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "PASAL",
+            "id": "pasal-16",
+            "children": [
+              {
+                "type": "PASAL_NUMBER",
+                "text": "Pasal 16"
+              },
+              {
+                "type": "LIST",
+                "id": "",
+                "children": [
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "NUMBER_WITH_BRACKETS",
+                        "text": "(1)"
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "Pemerintah Kabupaten Kepulauan Sula sesuai dengan kesanggupannya memberikan hibah berupa uang untuk menunjang kegiatan penyelenggaraan pemerintahan Kabupaten Pulau Taliabu sebesar Rp. 20.000.000.000,00 (dua puluh miliar rupiah) setiap tahun selama 2 (dua) tahun berturut-turut serta untuk pelaksanaan pemilihan Bupati dan/atau Wakil Bupati Pulau Taliabu pertama kali sebesar Rp. 5.000.000.000,00 (lima miliar rupiah)."
+                      }
+                    ]
+                  },
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "NUMBER_WITH_BRACKETS",
+                        "text": "(2)"
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "Pemerintah Provinsi Maluku Utara memberikan bantuan dana untuk menunjang kegiatan penyelenggaraan pemerintahan Kabupaten Pulau Taliabu sebesar Rp. 5.000.000.000,00 (lima miliar rupiah) setiap tahun selama 3 (tiga) tahun berturut-turut serta untuk pelaksanaan pemilihan Bupati dan/atau Wakil Bupati Pulau Taliabu pertama kali sebesar Rp. 5.000.000.000,00 (lima miliar rupiah)."
+                      }
+                    ]
+                  },
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "NUMBER_WITH_BRACKETS",
+                        "text": "(3)"
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "Pemberian hibah sebagaimana dimaksud pada ayat (1) dan pemberian bantuan dana sebagaimana dimaksud pada ayat (2) dimulai sejak pelantikan Penjabat Bupati Pulau Taliabu."
+                      }
+                    ]
+                  },
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "NUMBER_WITH_BRACKETS",
+                        "text": "(4)"
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "Apabila Kabupaten Kepulauan Sula tidak memenuhi kesanggupannya memberikan hibah sesuai ketentuan sebagaimana dimaksud pada ayat (1), Pemerintah mengurangi penerimaan dana perimbangan dari Kabupaten Kepulauan Sula untuk diberikan kepada Pemerintah Kabupaten Pulau Taliabu."
+                      }
+                    ]
+                  },
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "NUMBER_WITH_BRACKETS",
+                        "text": "(5)"
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "Apabila Provinsi Maluku Utara tidak memenuhi kesanggupannya memberikan bantuan dana sesuai ketentuan sebagaimana dimaksud pada ayat (2), Pemerintah mengurangi penerimaan dana perimbangan dari Provinsi Maluku Utara untuk diberikan kepada Pemerintah Kabupaten Pulau Taliabu."
+                      }
+                    ]
+                  },
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "NUMBER_WITH_BRACKETS",
+                        "text": "(6)"
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "Penjabat Bupati Pulau Taliabu menyampaikan laporan pertanggungjawaban realisasi penggunaan hibah sebagaimana dimaksud pada ayat (1) kepada Bupati Kepulauan Sula."
+                      }
+                    ]
+                  },
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "NUMBER_WITH_BRACKETS",
+                        "text": "(7)"
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "Penjabat Bupati Pulau Taliabu menyampaikan laporan pertanggungjawaban realisasi penggunaan dana hibah dan dana bantuan sebagaimana dimaksud pada ayat (1) dan ayat (2) kepada Gubernur Maluku Utara."
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "PASAL",
+            "id": "pasal-17",
+            "children": [
+              {
+                "type": "PASAL_NUMBER",
+                "text": "Pasal 17"
+              },
+              {
+                "type": "PLAINTEXT",
+                "text": "Penjabat Bupati Pulau Taliabu berkewajiban melakukan penatausahaan keuangan daerah sesuai dengan peraturan perundang-undangan."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "BAB",
+        "id": "bab-7",
+        "children": [
+          {
+            "type": "BAB_NUMBER",
+            "text": "BAB VII"
+          },
+          {
+            "type": "BAB_TITLE",
+            "text": "PEMBINAAN"
+          },
+          {
+            "type": "PASAL",
+            "id": "pasal-18",
+            "children": [
+              {
+                "type": "PASAL_NUMBER",
+                "text": "Pasal 18"
+              },
+              {
+                "type": "LIST",
+                "id": "",
+                "children": [
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "NUMBER_WITH_BRACKETS",
+                        "text": "(1)"
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "Untuk mengefektifkan penyelenggaraan pemerintahan daerah, Pemerintah dan Pemerintah Provinsi Maluku Utara melakukan pembinaan dan fasilitasi secara khusus terhadap Kabupaten Pulau Taliabu dalam waktu 3 (tiga) tahun sejak diresmikan."
+                      }
+                    ]
+                  },
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "NUMBER_WITH_BRACKETS",
+                        "text": "(2)"
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "Pemerintah bersama Gubernur Maluku Utara melakukan evaluasi terhadap penyelenggaraan Pemerintahan Kabupaten Pulau Taliabu sesuai peraturan perundang-undangan."
+                      }
+                    ]
+                  },
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "NUMBER_WITH_BRACKETS",
+                        "text": "(3)"
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "Hasil evaluasi sebagaimana dimaksud pada ayat (2) dijadikan acuan kebijakan lebih lanjut oleh Pemerintah dan/atau Gubernur Maluku Utara sesuai dengan peraturan perundang-undangan."
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "BAB",
+        "id": "bab-8",
+        "children": [
+          {
+            "type": "BAB_NUMBER",
+            "text": "BAB VIII"
+          },
+          {
+            "type": "BAB_TITLE",
+            "text": "KETENTUAN PERALIHAN"
+          },
+          {
+            "type": "PASAL",
+            "id": "pasal-19",
+            "children": [
+              {
+                "type": "PASAL_NUMBER",
+                "text": "Pasal 19"
+              },
+              {
+                "type": "LIST",
+                "id": "",
+                "children": [
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "NUMBER_WITH_BRACKETS",
+                        "text": "(1)"
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "Sebelum terbentuknya Dewan Perwakilan Rakyat Daerah Kabupaten Pulau Taliabu berdasarkan hasil Pemilihan Umum Tahun 2014, Penjabat Bupati Pulau Taliabu menyusun Rancangan Peraturan Bupati tentang Anggaran Pendapatan dan Belanja Daerah Kabupaten Pulau Taliabu untuk tahun anggaran berikutnya."
+                      }
+                    ]
+                  },
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "NUMBER_WITH_BRACKETS",
+                        "text": "(2)"
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "Rancangan Peraturan Bupati Pulau Taliabu sebagaimana dimaksud pada ayat (1) dilaksanakan setelah disahkan oleh Gubernur Maluku Utara."
+                      }
+                    ]
+                  },
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "NUMBER_WITH_BRACKETS",
+                        "text": "(3)"
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "Proses pengesahan dan penetapan Peraturan Bupati Pulau Taliabu sebagaimana dimaksud pada ayat (2) dilaksanakan sesuai dengan peraturan perundang-undangan."
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "PASAL",
+            "id": "pasal-20",
+            "children": [
+              {
+                "type": "PASAL_NUMBER",
+                "text": "Pasal 20"
+              },
+              {
+                "type": "PLAINTEXT",
+                "text": "Sebelum Bupati Pulau Taliabu bersama Dewan Perwakilan Rakyat Daerah Kabupaten Pulau Taliabu menetapkan peraturan daerah, dan Bupati Pulau Taliabu menetapkan peraturan bupati sebagai pelaksanaan Undang-Undang ini, semua peraturan daerah dan Peraturan Bupati Kepulauan Sula sepanjang tidak bertentangan dengan Undang-Undang ini tetap berlaku di Kabupaten Pulau Taliabu."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "BAB",
+        "id": "bab-9",
+        "children": [
+          {
+            "type": "BAB_NUMBER",
+            "text": "BAB IX"
+          },
+          {
+            "type": "BAB_TITLE",
+            "text": "KETENTUAN PENUTUP"
+          },
+          {
+            "type": "PASAL",
+            "id": "pasal-21",
+            "children": [
+              {
+                "type": "PASAL_NUMBER",
+                "text": "Pasal 21"
+              },
+              {
+                "type": "PLAINTEXT",
+                "text": "Pada saat berlakunya Undang-Undang ini, semua ketentuan dalam peraturan perundang-undangan yang berkaitan dengan Kabupaten Pulau Taliabu harus disesuaikan dengan Undang-Undang ini."
+              }
+            ]
+          },
+          {
+            "type": "PASAL",
+            "id": "pasal-22",
+            "children": [
+              {
+                "type": "PASAL_NUMBER",
+                "text": "Pasal 22"
+              },
+              {
+                "type": "PLAINTEXT",
+                "text": "Undang-Undang ini mulai berlaku pada tanggal diundangkan."
+              },
+              {
+                "type": "PLAINTEXT",
+                "text": "Agar setiap orang mengetahuinya, memerintahkan pengundangan Undang-Undang ini dengan penempatannya dalam Lembaran Negara Republik Indonesia."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "CLOSING",
+        "id": "",
+        "children": [
+          {
+            "type": "PLAINTEXT",
+            "text": "Disahkan Di Jakarta,"
+          },
+          {
+            "type": "PLAINTEXT",
+            "text": "Pada Tanggal 11 Januari 2013"
+          },
+          {
+            "type": "PLAINTEXT",
+            "text": "PRESIDEN REPUBLIK INDONESIA,"
+          },
+          {
+            "type": "PLAINTEXT",
+            "text": "Ttd."
+          },
+          {
+            "type": "PLAINTEXT",
+            "text": "DR. H. SUSILO BAMBANG YUDHOYONO"
+          },
+          {
+            "type": "PLAINTEXT",
+            "text": "Diundangkan Di Jakarta,"
+          },
+          {
+            "type": "PLAINTEXT",
+            "text": "Pada Tanggal 11 Januari 2013"
+          },
+          {
+            "type": "PLAINTEXT",
+            "text": "MENTERI HUKUM DAN HAK ASASI MANUSIA REPUBLIK INDONESIA,"
+          },
+          {
+            "type": "PLAINTEXT",
+            "text": "Ttd."
+          },
+          {
+            "type": "PLAINTEXT",
+            "text": "AMIR SYAMSUDIN"
+          },
+          {
+            "type": "LEMBARAN_NUMBER",
+            "text": "LEMBARAN NEGARA REPUBLIK INDONESIA TAHUN 2013 NOMOR 21"
+          }
+        ]
+      },
+      {
+        "type": "PENJELASAN",
+        "id": "penjelasan",
+        "children": [
+          {
+            "type": "PENJELASAN_TITLE",
+            "id": "",
+            "children": [
+              {
+                "type": "PLAINTEXT",
+                "text": "PENJELASAN"
+              },
+              {
+                "type": "PLAINTEXT",
+                "text": "UNDANG-UNDANG REPUBLIK INDONESIA"
+              },
+              {
+                "type": "UU_TITLE_YEAR_AND_NUMBER",
+                "text": "NOMOR 6 TAHUN 2013"
+              },
+              {
+                "type": "PLAINTEXT",
+                "text": "TENTANG"
+              },
+              {
+                "type": "UU_TITLE_TOPIC",
+                "text": "PEMBENTUKAN KABUPATEN PULAU TALIABU DI PROVINSI MALUKU UTARA"
+              }
+            ]
+          },
+          {
+            "type": "PENJELASAN_UMUM",
+            "id": "",
+            "children": [
+              {
+                "type": "PENJELASAN_UMUM_TITLE",
+                "text": "I. UMUM"
+              },
+              {
+                "type": "PLAINTEXT",
+                "text": "Provinsi Maluku Utara yang memiliki luas wilayah \u00b131.982,50 km2 dengan penduduk pada tahun 2011 berjumlah \u00b11.180.893 jiwa terdiri atas 7 (tujuh) kabupaten dan 2 (dua) kota, perlu memacu peningkatan penyelenggaraan pemerintahan dalam rangka memperkukuh Negara Kesatuan Republik Indonesia."
+              },
+              {
+                "type": "PLAINTEXT",
+                "text": "Kabupaten Kepulauan Sula yang mempunyai luas wilayah \u00b14.774,25 km2 dengan penduduk pada tahun 2012 berjumlah \u00b1189.381 jiwa terdiri atas 20 (dua puluh) kecamatan dan 149 (seratus empat puluh sembilan) desa/kelurahan. Kabupaten ini memiliki potensi yang dapat dikembangkan untuk mendukung peningkatan penyelenggaraan pemerintahan."
+              },
+              {
+                "type": "PLAINTEXT",
+                "text": "Dari aspek geografis Pulau Taliabu memiliki karakteristik sebagai daerah kepulauan. Dari perspektif geopolitik, wilayah Pulau Talibu merupakan salah satu kawasan perbatasan terluar dan jalur pelayaran internasional dengan negara lain seperti negara Philipina sehingga memerlukan perhatian dan kebijakan khusus untuk lebih mendorong pengembangan wilayah kepulauan agar memiliki tingkat ketahanan wilayah dan ketahanan masyarakat yang baik dalam kerangka penguatan NKRI. Sebagai daerah yang memiliki karakteristik kepulauan membutuhkan dukungan kebijakan pengembangan wilayah yang berbasis pada potensi dan kekhasan wilayah yang dimiliki. Dengan dibentuknya Kabupaten Pulau Taliabu maka fokus pengembangan wilayah lebih optimal dan menjangkau wilayah kepulauan sehingga peningkatan kesejahteraan masyarakat lebih terjamin."
+              },
+              {
+                "type": "PLAINTEXT",
+                "text": "Sarana dan prasarana pemerintahan terus dikembangkan dan sudah memiliki kelengkapan termasuk memiliki Bandar Udara Taliabu yang dapat digunakan untuk memperlancar transportasi antarwilayah dan dapat dipastikan pengembangan Kabupaten Pulau Taliabu akan mempercepat pengembangan ekonomi masyarakat dan meningkatkan pelayanan pada masyarakat. Potensi sumber kekayaan alam yang besar di Pulau Taliabu sangat besar dan mencakup sejumlah komoditas strategis seperti batubara di wilayah Taliabu Timur, minyak dan gas bumi yang berada di wilayah Cekungan Sula (memanjang dari perbatasan Kab. Banggai hingga sebelah Utara Pulau Taliabu dan Mangoli) dan Cekungan Sula Selatan di sebelah Selatan Pulau Taliabu. Bahan galian nonlogam, pasir dan batu (sirtu) terdapat di Kecamatan Taliabu Barat (Desa Nunca, Gela, Bappenu dan Pancado), Pasir Kwarsa di Kecamatan Taliabu Barat (Desa Jorjoga dan Gela), dan Andesit di Pulau Taliabu, Skist di Pulau Taliabu, dan Koalin di Pulau Mangole dan Taliabu. Dengan potensi yang begitu besar dan melimpah maka pengembangan wilayah ini akan berpotensi memberikan kontribusi berupa pendapatan yang besar bagi daerah dan untuk pembiayaan pembangunan di Pulau Taliabu."
+              },
+              {
+                "type": "PLAINTEXT",
+                "text": "Dengan luas wilayah dan besarnya jumlah penduduk seperti tersebut di atas, pelaksanaan pembangunan dan pelayanan kepada masyarakat belum sepenuhnya terjangkau. Kondisi demikian perlu diatasi dengan memperpendek rentang kendali pemerintahan melalui pembentukan daerah otonom baru sehingga pelayanan publik dapat ditingkatkan guna mempercepat terwujudnya kesejahteraan masyarakat."
+              },
+              {
+                "type": "PLAINTEXT",
+                "text": "Selanjutnya dengan memperhatikan aspirasi masyarakat yang dituangkan dalam:"
+              },
+              {
+                "type": "LIST",
+                "id": "",
+                "children": [
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "LETTER_WITH_DOT",
+                        "text": "a."
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "Keputusan DPRD Kabupaten Kepulauan Sula Nomor 172.3/12/DPRD-KS/2007, tanggal 24 Desember 2007, tentang Persetujuan Dewan Perwakilan Rakyat Daerah Kabupaten Kepulauan Sula Terhadap Pembentukan Kabupaten Pulau Taliabu;"
+                      }
+                    ]
+                  },
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "LETTER_WITH_DOT",
+                        "text": "b."
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "Keputusan DPRD Kabupaten Kepulauan Sula Nomor 172.3/09/DPRD-S/2009, tanggal 27 Maret 2009, tentang Persetujuan Dana Hibah dari Pemerintah Kabupaten Kepulauan Sula kepada Pemerintah Calon Kabupaten Pulau Taliabu dan Pemerintah Calon Kabupaten Mangoli;"
+                      }
+                    ]
+                  },
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "LETTER_WITH_DOT",
+                        "text": "c."
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "Keputusan DPRD Kabupaten Kepulauan Sula Nomor 172.3/10/DPRD-KS/2009, tanggal 27 Maret 2009, tentang Persetujuan Penyerahan Sarana dan Prasarana Perkantoran Dari Pemerintah Kabupaten Kepulauan Sula kepada Pemerintah Calon Kabupaten Pulau Taliabu dan Pemerintah Calon Kabupaten Mangoli;"
+                      }
+                    ]
+                  },
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "LETTER_WITH_DOT",
+                        "text": "d."
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "Keputusan Pimpinan DPRD Kabupaten Kepulauan Sula Nomor 12/176.3/2010, tanggal 08 Juni 2010, tentang Cakupan, Luas dan Batas-Batas Wilayah Calon Kabupaten Pulau Taliabu;"
+                      }
+                    ]
+                  },
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "LETTER_WITH_DOT",
+                        "text": "e."
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "Keputusan Pimpinan DPRD Kabupaten Kepulauan Sula Nomor 14/176.3/2010, tanggal 08 Juni 2010, tentang Rincian Kekayaan Daerah Yang Diserahkan Kepada Calon Kabupaten Pulau Taliabu;"
+                      }
+                    ]
+                  },
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "LETTER_WITH_DOT",
+                        "text": "f."
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "Keputusan Pimpinan DPRD Kabupaten Kepulauan Sula Nomor 13/176.3/2010, tanggal 08 Juni 2010, tentang Rincian Sarana dan Prasarana Perkantoran Yang Diserahkan Kepada Calon Kabupaten Pulau Taliabu;"
+                      }
+                    ]
+                  },
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "LETTER_WITH_DOT",
+                        "text": "g."
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "Keputusan Bupati Kepulauan Sula Nomor 173/KPTS.08/KS/2007, tanggal 27 Desember 2007, tentang Persetujuan Pemerintah Kabupaten Kepulauan Sula Terhadap Pembentukan Kabupaten Pulau Taliabu;"
+                      }
+                    ]
+                  },
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "LETTER_WITH_DOT",
+                        "text": "h."
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "Keputusan Bupati Kepulauan Sula Nomor 51.1/KPTS.03/KS/2009, tanggal 24 Maret 2009, tentang Besaran Dana Hibah Yang Dialokasikan Untuk Mendukung Penyelenggaraan Pemerintah dan Penyelenggaraan Pemilihan Kepala Daerah Untuk Pertama Kali Di Calon Kabupaten Pulau Taliabu dan Calon Kabupaten Pulau Mangoli;"
+                      }
+                    ]
+                  },
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "LETTER_WITH_DOT",
+                        "text": "i."
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "Keputusan Bupati Kepulauan Sula Nomor 73.2/KPTS.05/KS/2009, tanggal 25 Mei 2009, tentang Persetujuan Penyerahan Sarana dan Prasarana Perkantoran Yang Digunakan Oleh Calon Kabupaten Pulau Taliabu dan Calon Kabupaten Pulau Mangoli Untuk Penyelenggaraan Pemerintahan;"
+                      }
+                    ]
+                  },
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "LETTER_WITH_DOT",
+                        "text": "j."
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "Keputusan Bupati Kepulauan Sula Nomor 91/KPTS.06/KS/2010, tanggal 8 Juni 2010, tentang Cakupan, Luas dan Batas-Batas Wilayah Calon Kabupaten Pulau Taliabu;"
+                      }
+                    ]
+                  },
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "LETTER_WITH_DOT",
+                        "text": "k."
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "Keputusan Bupati Kepulauan Sula Nomor 92/KPTS.06/KS/2010, tanggal 8 Juni 2010, tentang Rincian Penyerahan Kekayaan Daerah Kepada Calon Kabupaten Pulau Taliabu;"
+                      }
+                    ]
+                  },
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "LETTER_WITH_DOT",
+                        "text": "l."
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "Keputusan Bupati Kepulauan Sula Nomor 93/KPTS.06/KS/2010, tanggal 8 Juni 2010, tentang Rincian Sarana dan Prasarana Perkantoran Yang Diserahkan Kepada Calon Kabupaten Pulau Taliabu;"
+                      }
+                    ]
+                  },
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "LETTER_WITH_DOT",
+                        "text": "m."
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "Keputusan DPRD Provinsi Maluku Utara Nomor 21/KPTS/DPRD/MU/VIII/2009, tanggal 31 Agustus 2009, tentang Persetujuan Terhadap Usulan Pembentukan Kabupaten Pulau Taliabu;"
+                      }
+                    ]
+                  },
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "LETTER_WITH_DOT",
+                        "text": "n."
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "Keputusan Pimpinan DPRD Provinsi Maluku Utara Nomor 07/KPTS/P.DPRD/MU/IV/2009, tanggal 15 April 2009, tentang Persetujuan Nama, Cakupan Wilayah dan Ibukota Calon Kabupaten Pulau Taliabu;"
+                      }
+                    ]
+                  },
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "LETTER_WITH_DOT",
+                        "text": "o."
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "Keputusan Pimpinan DPRD Provinsi Maluku Utara Nomor 08/KPTS/P.DPRD/MU/VI/2009, tanggal 15 April 2009, tentang Persetujuan Pemberian Bantuan Dana Anggaran Pendapatan Dan Belanja Daerah (APBD) Provinsi Maluku Utara Untuk Mendukung Penyelenggaraan Pemerintahan Kepada Calon Kabupaten Pulau Taliabu;"
+                      }
+                    ]
+                  },
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "LETTER_WITH_DOT",
+                        "text": "p."
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "Keputusan Pimpinan DPRD Provinsi Maluku Utara Nomor 09/KPTS/P.DPRD/MU/IV/2009, tanggal 15 April 2009, tentang Persetujuan Pemberian Dukungan Dana Anggaran Pendapatan dan Belanja Daerah (APBD) Provinsi Maluku Utara Dalam Rangka Membiayai Penyelenggaraan Pemilihan Kepala Daerah Untuk Pertama Kali di Calon Kabupaten Pulau Taliabu;"
+                      }
+                    ]
+                  },
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "LETTER_WITH_DOT",
+                        "text": "q."
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "Keputusan Pimpinan DPRD Provinsi Maluku Utara Nomor 10/KPTS/P.DPRD/MU/IV/2009, tanggal 15 April 2009, tentang Persetujuan Pelepasan Aset/Kekayaan Daerah Milik Pemerintah Provinsi Maluku Utara Kepada Calon Kabupaten Pulau Taliabu;"
+                      }
+                    ]
+                  },
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "LETTER_WITH_DOT",
+                        "text": "r."
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "Keputusan DPRD Provinsi Maluku Utara Nomor 21/KPTS/DPRD/MU/VIII/2009, tanggal 31 Agustus 2009, tentang Persetujuan Terhadap Usulan Pembentukan Kabupaten Pulau Taliabu;"
+                      }
+                    ]
+                  },
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "LETTER_WITH_DOT",
+                        "text": "s."
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "Keputusan Pimpinan DPRD Provinsi Maluku Utara Nomor 171.1/KPTS/DPRD/MU/VI/2010, tanggal 14 Juni 2010, tentang Penjelasan Atas Keputusan DPRD Provinsi Maluku Utara Nomor 21/KPTS/DPRD/MU/VIII/2009 tentang Persetujuan Terhadap Usulan Pembentukan Kabupaten Pulau Taliabu;"
+                      }
+                    ]
+                  },
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "LETTER_WITH_DOT",
+                        "text": "t."
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "Keputusan Gubernur Maluku Utara Nomor 126/KPTS/MU/2009, tanggal 1 September 2009, tentang Persetujuan Terhadap Usul Pembentukan Kabupaten Pulau Taliabu Provinsi Maluku Utara;"
+                      }
+                    ]
+                  },
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "LETTER_WITH_DOT",
+                        "text": "u."
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "Keputusan Gubernur Maluku Utara Nomor 95.1/KPTS/MU/2010, tanggal 10 Juni 2010, tentang Penjelasan atas Keputusan Gubernur Maluku Utara Nomor 126/KPTS/MU/2009, tentang Persetujuan Terhadap Usul Pembentukan Kabupaten Pulau Taliabu;"
+                      }
+                    ]
+                  },
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "LETTER_WITH_DOT",
+                        "text": "v."
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "Keputusan Bupati Kepulauan Sula Nomor 200.1/KPTS.11/KS/2012 tanggal 16 November 2012 tentang Perubahan Keputusan Bupati Kepulauan Sula Nomor 51.1/KPTS.03/KS/2009 tentang Besaran Dana Hibah Yang Dialokasikan Untuk Mendukung Penyelenggaraan Pemerintahan dan Penyelenggaraan Pemilihan Kepala Daerah Untuk Pertama Kali di Calon Kabupaten Pulau Taliabu; dan"
+                      }
+                    ]
+                  },
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "LETTER_WITH_DOT",
+                        "text": "w."
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "Keputusan Dewan Perwakilan Rakyat Daerah Kabupaten Kepulauan Sula Nomor 172.3/06/DPRD KS/2012 tanggal 19 November 2012 tentang Perubahan Atas Keputusan Dewan Perwakilan Rakyat Daerah Kabupaten Kepulauan Sula Nomor 172.3/09/DPRD-KS/2009 tentang Persetujuan Dewan Perwakilan Rakyat Daerah Kabupaten Kepulauan Sula terhadap Hibah dan Dana Pemerintah Kabupaten Kepulauan Sula kepada Pemerintah Kabupaten Pulau Taliabu."
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "PLAINTEXT",
+                "text": "Berdasarkan hal tersebut, telah dilakukan kajian secara mendalam dan menyeluruh mengenai kelayakan pembentukan daerah dan berkesimpulan bahwa perlu dibentuk Kabupaten Pulau Taliabu."
+              },
+              {
+                "type": "PLAINTEXT",
+                "text": "Pembentukan Kabupaten Pulau Taliabu yang merupakan pemekaran dari Kabupaten Kepulauan Sula terdiri atas 8 (delapan) kecamatan, yaitu Kecamatan Taliabu Barat, Kecamatan Taliabu Barat Laut, Kecamatan Lede, Kecamatan Taliabu Utara, Kecamatan Taliabu Timur, Kecamatan Taliabu Timur Selatan, Kecamatan Taliabu Selatan, dan Kecamatan Tabona. Kabupaten Pulau Taliabu memiliki luas wilayah keseluruhan \u00b11.469,93 km2 dengan jumlah penduduk \u00b156.135 jiwa pada tahun 2012 dan 71 (tujuh puluh satu) desa/kelurahan."
+              },
+              {
+                "type": "PLAINTEXT",
+                "text": "Dengan terbentuknya Kabupaten Pulau Taliabu sebagai daerah otonom, Pemerintah Provinsi Maluku Utara berkewajiban membantu dan memfasilitasi terbentuknya kelembagaan Dewan Perwakilan Rakyat Daerah dan Perangkat Daerah yang efisien dan efektif sesuai dengan kebutuhan dan kemampuan, serta membantu dan memfasilitasi pemindahan personel, pengalihan aset dan dokumen untuk kepentingan penyelenggaraan pemerintahan daerah dalam rangka meningkatkan pelayanan publik dan mempercepat terwujudnya kesejahteraan masyarakat di Kabupaten Pulau Taliabu."
+              },
+              {
+                "type": "PLAINTEXT",
+                "text": "Dalam melaksanakan otonomi daerah, Kabupaten Pulau Taliabu perlu melakukan berbagai upaya peningkatan kemampuan ekonomi, penyiapan sarana dan prasarana pemerintahan, pemberdayaan, dan peningkatan sumber daya manusia, serta pengelolaan sumber daya alam sesuai dengan peraturan perundang-undangan."
+              }
+            ]
+          },
+          {
+            "type": "PENJELASAN_PASAL_DEMI_PASAL",
+            "id": "",
+            "children": [
+              {
+                "type": "PENJELASAN_PASAL_DEMI_PASAL_TITLE",
+                "text": "II. PASAL DEMI PASAL"
+              },
+              {
+                "type": "PENJELASAN_PASAL",
+                "id": "",
+                "children": [
+                  {
+                    "type": "PASAL_NUMBER",
+                    "text": "Pasal 1"
+                  },
+                  {
+                    "type": "PLAINTEXT",
+                    "text": "Cukup jelas."
+                  }
+                ]
+              },
+              {
+                "type": "PENJELASAN_PASAL",
+                "id": "",
+                "children": [
+                  {
+                    "type": "PASAL_NUMBER",
+                    "text": "Pasal 2"
+                  },
+                  {
+                    "type": "PLAINTEXT",
+                    "text": "Cukup jelas."
+                  }
+                ]
+              },
+              {
+                "type": "PENJELASAN_PASAL",
+                "id": "",
+                "children": [
+                  {
+                    "type": "PASAL_NUMBER",
+                    "text": "Pasal 3"
+                  },
+                  {
+                    "type": "LIST",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "PENJELASAN_LIST_ITEM",
+                        "id": "",
+                        "children": [
+                          {
+                            "type": "PENJELASAN_AYAT",
+                            "text": "Ayat (1)"
+                          },
+                          {
+                            "type": "LIST",
+                            "id": "",
+                            "children": [
+                              {
+                                "type": "PENJELASAN_LIST_ITEM",
+                                "id": "",
+                                "children": [
+                                  {
+                                    "type": "PENJELASAN_HURUF",
+                                    "text": "Huruf a"
+                                  },
+                                  {
+                                    "type": "PLAINTEXT",
+                                    "text": "Desa/Kelurahan yang masuk dalam cakupan Kecamatan Taliabu Barat adalah Desa Bobong, Desa Talo, Desa Kawalo, Desa Limbo, Desa Maranti Jaya, Desa Karamat, Desa Holbota, Desa Pancoran, Desa Wayo, Desa Kilong, Desa Ratahaya, Desa Loho Bubba, dan Desa Woyo."
+                                  }
+                                ]
+                              },
+                              {
+                                "type": "PENJELASAN_LIST_ITEM",
+                                "id": "",
+                                "children": [
+                                  {
+                                    "type": "PENJELASAN_HURUF",
+                                    "text": "Huruf b"
+                                  },
+                                  {
+                                    "type": "PLAINTEXT",
+                                    "text": "Desa/Kelurahan yang masuk dalam cakupan Kecamatan Taliabu Barat Laut adalah Desa Nggele, Desa Salati, Desa Beringin Jaya, Desa Kasango, dan Desa Oneway."
+                                  }
+                                ]
+                              },
+                              {
+                                "type": "PENJELASAN_LIST_ITEM",
+                                "id": "",
+                                "children": [
+                                  {
+                                    "type": "PENJELASAN_HURUF",
+                                    "text": "Huruf c"
+                                  },
+                                  {
+                                    "type": "PLAINTEXT",
+                                    "text": "Desa/Kelurahan yang masuk dalam cakupan Kecamatan Lede adalah Desa Lede, Desa Todoli, Desa Tolong, Desa Langganu, dan Desa Balahong."
+                                  }
+                                ]
+                              },
+                              {
+                                "type": "PENJELASAN_LIST_ITEM",
+                                "id": "",
+                                "children": [
+                                  {
+                                    "type": "PENJELASAN_HURUF",
+                                    "text": "Huruf d"
+                                  },
+                                  {
+                                    "type": "PLAINTEXT",
+                                    "text": "Desa/Kelurahan yang masuk dalam cakupan Kecamatan Taliabu Utara adalah Desa Mananga, Desa Tanjung Una, Desa Jorjoga, Desa Gela, Desa Minton, Desa Nunca, Desa Sahu, Desa Mbono, Desa Hai, Desa Tikong, Desa Dege, Desa Air Bulan, Desa Air Kalimat, Desa Ufung, Desa Padang, Desa Natang Kuning, Desa Nunu, Desa London, dan Desa Wahe."
+                                  }
+                                ]
+                              },
+                              {
+                                "type": "PENJELASAN_LIST_ITEM",
+                                "id": "",
+                                "children": [
+                                  {
+                                    "type": "PENJELASAN_HURUF",
+                                    "text": "Huruf e"
+                                  },
+                                  {
+                                    "type": "PLAINTEXT",
+                                    "text": "Desa/Kelurahan yang masuk dalam cakupan Kecamatan Taliabu Timur adalah Desa Penu, Desa Parigi, Desa Samuya, dan Desa Tubang."
+                                  }
+                                ]
+                              },
+                              {
+                                "type": "PENJELASAN_LIST_ITEM",
+                                "id": "",
+                                "children": [
+                                  {
+                                    "type": "PENJELASAN_HURUF",
+                                    "text": "Huruf f"
+                                  },
+                                  {
+                                    "type": "PLAINTEXT",
+                                    "text": "Desa/Kelurahan yang masuk dalam cakupan Kecamatan Taliabu Timur Selatan adalah Desa Waikadai, Desa Losseng, Desa Kawadang, Desa Sofan, Desa Mantarara, Desa Belo, Desa Kamaya, Desa Waikoka, dan Desa Waikadai Sula."
+                                  }
+                                ]
+                              },
+                              {
+                                "type": "PENJELASAN_LIST_ITEM",
+                                "id": "",
+                                "children": [
+                                  {
+                                    "type": "PENJELASAN_HURUF",
+                                    "text": "Huruf g"
+                                  },
+                                  {
+                                    "type": "PLAINTEXT",
+                                    "text": "Desa/Kelurahan yang masuk dalam cakupan Kecamatan Taliabu Selatan adalah Desa Bahu, Desa Bapenu, Desa Kilo, Desa Pancado, Desa Maluli, Desa Nggaki, Desa Sumbong, Desa Galebo, dan Desa Nggoli."
+                                  }
+                                ]
+                              },
+                              {
+                                "type": "PENJELASAN_LIST_ITEM",
+                                "id": "",
+                                "children": [
+                                  {
+                                    "type": "PENJELASAN_HURUF",
+                                    "text": "Huruf h"
+                                  },
+                                  {
+                                    "type": "PLAINTEXT",
+                                    "text": "Desa/Kelurahan yang masuk dalam cakupan Kecamatan Tabona adalah Desa Tabona, Desa Kabunu, Desa Peleng, Desa Fayaunana, Desa Habunuha, Desa Kataga, dan Desa Wolio."
+                                  }
+                                ]
+                              }
+                            ]
+                          }
+                        ]
+                      },
+                      {
+                        "type": "PENJELASAN_LIST_ITEM",
+                        "id": "",
+                        "children": [
+                          {
+                            "type": "PENJELASAN_AYAT",
+                            "text": "Ayat (2)"
+                          },
+                          {
+                            "type": "PLAINTEXT",
+                            "text": "Cukup jelas."
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "PENJELASAN_PASAL",
+                "id": "",
+                "children": [
+                  {
+                    "type": "PASAL_NUMBER",
+                    "text": "Pasal 4"
+                  },
+                  {
+                    "type": "PLAINTEXT",
+                    "text": "Yang dimaksud wilayah Kabupaten Kepulauan Sula setelah terbentuknya Kabupaten Pulau Taliabu adalah mencakup wilayah Kecamatan Mangoli Timur, Kecamatan Sanana, Kecamatan Sulabesi Barat, Kecamatan Mangoli Barat, Kecamatan Sulabesi Tengah, Kecamatan Sulabesi Timur, Kecamatan Sulabesi Selatan, Kecamatan Mangoli Utara Timur, Kecamatan Mangoli Tengah, Kecamatan Mangoli Selatan, Kecamatan Mangoli Utara, dan Kecamatan Sanana Utara."
+                  }
+                ]
+              },
+              {
+                "type": "PENJELASAN_PASAL",
+                "id": "",
+                "children": [
+                  {
+                    "type": "PASAL_NUMBER",
+                    "text": "Pasal 5"
+                  },
+                  {
+                    "type": "LIST",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "PENJELASAN_LIST_ITEM",
+                        "id": "",
+                        "children": [
+                          {
+                            "type": "PENJELASAN_AYAT",
+                            "text": "Ayat (1)"
+                          },
+                          {
+                            "type": "PLAINTEXT",
+                            "text": "Cukup jelas."
+                          }
+                        ]
+                      },
+                      {
+                        "type": "PENJELASAN_LIST_ITEM",
+                        "id": "",
+                        "children": [
+                          {
+                            "type": "PENJELASAN_AYAT",
+                            "text": "Ayat (2)"
+                          },
+                          {
+                            "type": "PLAINTEXT",
+                            "text": "Lampiran peta cakupan wilayah yang digambarkan dengan skala 1:100.000."
+                          },
+                          {
+                            "type": "PLAINTEXT",
+                            "text": "Yang dimaksud dengan persetujuan pihak-pihak terkait adalah persetujuan berupa tanda tangan Bupati Kepulauan Sula, Pimpinan Dewan Perwakilan Rakyat Daerah Kabupaten Kepulauan Sula, Gubernur Maluku Utara, dan Pimpinan Dewan Perwakilan Rakyat Daerah Provinsi Maluku Utara yang wilayah cakupannya berbatasan dengan daerah otonom baru pada peta yang diterbitkan Badan Informasi Geospasial (BIG)."
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "PENJELASAN_PASAL",
+                "id": "",
+                "children": [
+                  {
+                    "type": "PASAL_NUMBER",
+                    "text": "Pasal 6"
+                  },
+                  {
+                    "type": "LIST",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "PENJELASAN_LIST_ITEM",
+                        "id": "",
+                        "children": [
+                          {
+                            "type": "PENJELASAN_AYAT",
+                            "text": "Ayat (1)"
+                          },
+                          {
+                            "type": "PLAINTEXT",
+                            "text": "Cukup jelas."
+                          }
+                        ]
+                      },
+                      {
+                        "type": "PENJELASAN_LIST_ITEM",
+                        "id": "",
+                        "children": [
+                          {
+                            "type": "PENJELASAN_AYAT",
+                            "text": "Ayat (2)"
+                          },
+                          {
+                            "type": "PLAINTEXT",
+                            "text": "Dalam rangka pengembangan Kabupaten Pulau Taliabu khususnya guna perencanaan dan penyelenggaraan pemerintahan, pelaksanaan pembangunan dan pelayanan masyarakat pada masa yang akan datang, serta pengembangan sarana dan prasarana pemerintahan, pembangunan dan kemasyarakatan, diperlukan adanya kesatuan perencanaan pembangunan. Untuk itu Rencana Tata Ruang Wilayah Kabupaten Pulau Taliabu harus disusun secara serasi dan terpadu dengan Rencana Tata Ruang Wilayah Nasional, Provinsi, dan Kabupaten/Kota."
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "PENJELASAN_PASAL",
+                "id": "",
+                "children": [
+                  {
+                    "type": "PASAL_NUMBER",
+                    "text": "Pasal 7"
+                  },
+                  {
+                    "type": "PLAINTEXT",
+                    "text": "Cukup jelas."
+                  }
+                ]
+              },
+              {
+                "type": "PENJELASAN_PASAL",
+                "id": "",
+                "children": [
+                  {
+                    "type": "PASAL_NUMBER",
+                    "text": "Pasal 8"
+                  },
+                  {
+                    "type": "PLAINTEXT",
+                    "text": "Cukup jelas."
+                  }
+                ]
+              },
+              {
+                "type": "PENJELASAN_PASAL",
+                "id": "",
+                "children": [
+                  {
+                    "type": "PASAL_NUMBER",
+                    "text": "Pasal 9"
+                  },
+                  {
+                    "type": "PLAINTEXT",
+                    "text": "Peresmian kabupaten dan pelantikan Penjabat Bupati Pulau Taliabu dapat dilakukan secara bersamaan dan pelaksanaannya dapat dilakukan di ibu kota negara, ibu kota provinsi, atau ibu kota kabupaten."
+                  }
+                ]
+              },
+              {
+                "type": "PENJELASAN_PASAL",
+                "id": "",
+                "children": [
+                  {
+                    "type": "PASAL_NUMBER",
+                    "text": "Pasal 10"
+                  },
+                  {
+                    "type": "LIST",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "PENJELASAN_LIST_ITEM",
+                        "id": "",
+                        "children": [
+                          {
+                            "type": "PENJELASAN_AYAT",
+                            "text": "Ayat (1)"
+                          },
+                          {
+                            "type": "PLAINTEXT",
+                            "text": "Cukup jelas."
+                          }
+                        ]
+                      },
+                      {
+                        "type": "PENJELASAN_LIST_ITEM",
+                        "id": "",
+                        "children": [
+                          {
+                            "type": "PENJELASAN_AYAT",
+                            "text": "Ayat (2)"
+                          },
+                          {
+                            "type": "PLAINTEXT",
+                            "text": "Penjabat Bupati Pulau Taliabu diusulkan oleh Gubernur Maluku Utara dengan pertimbangan Bupati Kepulauan Sula."
+                          }
+                        ]
+                      },
+                      {
+                        "type": "PENJELASAN_LIST_ITEM",
+                        "id": "",
+                        "children": [
+                          {
+                            "type": "PENJELASAN_AYAT",
+                            "text": "Ayat (3)"
+                          },
+                          {
+                            "type": "PLAINTEXT",
+                            "text": "Cukup jelas."
+                          }
+                        ]
+                      },
+                      {
+                        "type": "PENJELASAN_LIST_ITEM",
+                        "id": "",
+                        "children": [
+                          {
+                            "type": "PENJELASAN_AYAT",
+                            "text": "Ayat (4)"
+                          },
+                          {
+                            "type": "PLAINTEXT",
+                            "text": "Cukup jelas."
+                          }
+                        ]
+                      },
+                      {
+                        "type": "PENJELASAN_LIST_ITEM",
+                        "id": "",
+                        "children": [
+                          {
+                            "type": "PENJELASAN_AYAT",
+                            "text": "Ayat (5)"
+                          },
+                          {
+                            "type": "PLAINTEXT",
+                            "text": "Cukup jelas."
+                          }
+                        ]
+                      },
+                      {
+                        "type": "PENJELASAN_LIST_ITEM",
+                        "id": "",
+                        "children": [
+                          {
+                            "type": "PENJELASAN_AYAT",
+                            "text": "Ayat (6)"
+                          },
+                          {
+                            "type": "PLAINTEXT",
+                            "text": "Cukup jelas."
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "PENJELASAN_PASAL",
+                "id": "",
+                "children": [
+                  {
+                    "type": "PASAL_NUMBER",
+                    "text": "Pasal 11"
+                  },
+                  {
+                    "type": "PLAINTEXT",
+                    "text": "Biaya pelaksanaan pemilihan Bupati dan/atau Wakil Bupati Pulau Taliabu untuk pertama kali berasal dari hibah Anggaran Pendapatan dan Belanja Daerah Pemerintah Kabupaten Kepulauan Sula dan bantuan dana Anggaran Pendapatan dan Belanja Daerah Provinsi Maluku Utara."
+                  }
+                ]
+              },
+              {
+                "type": "PENJELASAN_PASAL",
+                "id": "",
+                "children": [
+                  {
+                    "type": "PASAL_NUMBER",
+                    "text": "Pasal 12"
+                  },
+                  {
+                    "type": "PLAINTEXT",
+                    "text": "Cukup jelas."
+                  }
+                ]
+              },
+              {
+                "type": "PENJELASAN_PASAL",
+                "id": "",
+                "children": [
+                  {
+                    "type": "PASAL_NUMBER",
+                    "text": "Pasal 13"
+                  },
+                  {
+                    "type": "PLAINTEXT",
+                    "text": "Cukup jelas."
+                  }
+                ]
+              },
+              {
+                "type": "PENJELASAN_PASAL",
+                "id": "",
+                "children": [
+                  {
+                    "type": "PASAL_NUMBER",
+                    "text": "Pasal 14"
+                  },
+                  {
+                    "type": "LIST",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "PENJELASAN_LIST_ITEM",
+                        "id": "",
+                        "children": [
+                          {
+                            "type": "PENJELASAN_AYAT",
+                            "text": "Ayat (1)"
+                          },
+                          {
+                            "type": "PLAINTEXT",
+                            "text": "Cukup jelas."
+                          }
+                        ]
+                      },
+                      {
+                        "type": "PENJELASAN_LIST_ITEM",
+                        "id": "",
+                        "children": [
+                          {
+                            "type": "PENJELASAN_AYAT",
+                            "text": "Ayat (2)"
+                          },
+                          {
+                            "type": "PLAINTEXT",
+                            "text": "Cukup jelas."
+                          }
+                        ]
+                      },
+                      {
+                        "type": "PENJELASAN_LIST_ITEM",
+                        "id": "",
+                        "children": [
+                          {
+                            "type": "PENJELASAN_AYAT",
+                            "text": "Ayat (3)"
+                          },
+                          {
+                            "type": "PLAINTEXT",
+                            "text": "Cukup jelas."
+                          }
+                        ]
+                      },
+                      {
+                        "type": "PENJELASAN_LIST_ITEM",
+                        "id": "",
+                        "children": [
+                          {
+                            "type": "PENJELASAN_AYAT",
+                            "text": "Ayat (4)"
+                          },
+                          {
+                            "type": "PLAINTEXT",
+                            "text": "Cukup jelas."
+                          }
+                        ]
+                      },
+                      {
+                        "type": "PENJELASAN_LIST_ITEM",
+                        "id": "",
+                        "children": [
+                          {
+                            "type": "PENJELASAN_AYAT",
+                            "text": "Ayat (5)"
+                          },
+                          {
+                            "type": "PLAINTEXT",
+                            "text": "Untuk mencapai daya guna dan hasil guna penyelenggaraan pemerintahan, pelaksanaan pembangunan dan pelayanan kemasyarakatan, digunakan pegawai, tanah, gedung perkantoran dan perlengkapannya, serta fasilitas pelayanan umum yang telah ada selama ini dalam pelaksanaan tugas Pemerintah Kabupaten Kepulauan Sula dalam wilayah Kabupaten Pulau Taliabu."
+                          },
+                          {
+                            "type": "PLAINTEXT",
+                            "text": "Dalam rangka tertib administrasi, diperlukan tindakan hukum berupa penyerahan personel, aset, dan dokumen dari Pemerintah Kabupaten Kepulauan Sula kepada Pemerintah Kabupaten Pulau Taliabu."
+                          },
+                          {
+                            "type": "PLAINTEXT",
+                            "text": "Badan Usaha Milik Daerah (BUMD) Kabupaten Kepulauan Sula yang berkedudukan, kegiatan, dan lokasinya berada di Kabupaten Pulau Taliabu diserahkan oleh Pemerintah Kabupaten Kepulauan Sula kepada Pemerintah Kabupaten Pulau Taliabu."
+                          },
+                          {
+                            "type": "PLAINTEXT",
+                            "text": "Dalam hal Badan Usaha Milik Daerah (BUMD) yang pelayanan/kegiatan operasionalnya mencakup kabupaten induk dan kabupaten baru, pemerintah daerah yang bersangkutan melakukan kerja sama."
+                          },
+                          {
+                            "type": "PLAINTEXT",
+                            "text": "Utang piutang yang penggunaannya dimanfaatkan untuk Kabupaten Pulau Taliabu diserahkan oleh Pemerintah Kabupaten Kepulauan Sula kepada Pemerintah Kabupaten Pulau Taliabu."
+                          },
+                          {
+                            "type": "PLAINTEXT",
+                            "text": "Berkenaan dengan pengaturan penyerahan tersebut, dibuatkan daftar inventaris."
+                          }
+                        ]
+                      },
+                      {
+                        "type": "PENJELASAN_LIST_ITEM",
+                        "id": "",
+                        "children": [
+                          {
+                            "type": "PENJELASAN_AYAT",
+                            "text": "Ayat (6)"
+                          },
+                          {
+                            "type": "PLAINTEXT",
+                            "text": "Cukup jelas."
+                          }
+                        ]
+                      },
+                      {
+                        "type": "PENJELASAN_LIST_ITEM",
+                        "id": "",
+                        "children": [
+                          {
+                            "type": "PENJELASAN_AYAT",
+                            "text": "Ayat (7)"
+                          },
+                          {
+                            "type": "PLAINTEXT",
+                            "text": "Penyerahan aset dan dokumen dilakukan sesuai dengan peraturan perundang-undangan."
+                          }
+                        ]
+                      },
+                      {
+                        "type": "PENJELASAN_LIST_ITEM",
+                        "id": "",
+                        "children": [
+                          {
+                            "type": "PENJELASAN_AYAT",
+                            "text": "Ayat (8)"
+                          },
+                          {
+                            "type": "PLAINTEXT",
+                            "text": "Cukup jelas."
+                          }
+                        ]
+                      },
+                      {
+                        "type": "PENJELASAN_LIST_ITEM",
+                        "id": "",
+                        "children": [
+                          {
+                            "type": "PENJELASAN_AYAT",
+                            "text": "Ayat (9)"
+                          },
+                          {
+                            "type": "PLAINTEXT",
+                            "text": "Cukup jelas."
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "PENJELASAN_PASAL",
+                "id": "",
+                "children": [
+                  {
+                    "type": "PASAL_NUMBER",
+                    "text": "Pasal 15"
+                  },
+                  {
+                    "type": "LIST",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "PENJELASAN_LIST_ITEM",
+                        "id": "",
+                        "children": [
+                          {
+                            "type": "PENJELASAN_AYAT",
+                            "text": "Ayat (1)"
+                          },
+                          {
+                            "type": "PLAINTEXT",
+                            "text": "Cukup jelas."
+                          }
+                        ]
+                      },
+                      {
+                        "type": "PENJELASAN_LIST_ITEM",
+                        "id": "",
+                        "children": [
+                          {
+                            "type": "PENJELASAN_AYAT",
+                            "text": "Ayat (2)"
+                          },
+                          {
+                            "type": "PLAINTEXT",
+                            "text": "Cukup jelas."
+                          }
+                        ]
+                      },
+                      {
+                        "type": "PENJELASAN_LIST_ITEM",
+                        "id": "",
+                        "children": [
+                          {
+                            "type": "PENJELASAN_AYAT",
+                            "text": "Ayat (3)"
+                          },
+                          {
+                            "type": "PLAINTEXT",
+                            "text": "Dana transfer ke daerah dilakukan untuk meningkatkan kesejahteraan rakyat dan mengoptimalkan pelayanan publik serta tidak digunakan hanya untuk pembangunan dan/atau pengadaan sarana prasarana di antaranya kantor pemerintahan, rumah dinas, dan kendaraan dinas."
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "PENJELASAN_PASAL",
+                "id": "",
+                "children": [
+                  {
+                    "type": "PASAL_NUMBER",
+                    "text": "Pasal 16"
+                  },
+                  {
+                    "type": "LIST",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "PENJELASAN_LIST_ITEM",
+                        "id": "",
+                        "children": [
+                          {
+                            "type": "PENJELASAN_AYAT",
+                            "text": "Ayat (1)"
+                          },
+                          {
+                            "type": "PLAINTEXT",
+                            "text": "Yang dimaksud dengan hibah dalam ketentuan ini adalah pemberian sejumlah uang yang besarnya didasarkan pada Keputusan Bupati Kepulauan Sula Nomor 200.1/KPTS.11/KS/2012 tanggal 16 November 2012 dan Keputusan Dewan Perwakilan Rakyat Daerah Kabupaten Kepulauan Sula Nomor 172.3/06/DPRD-KS/2012 tanggal 19 November 2012."
+                          }
+                        ]
+                      },
+                      {
+                        "type": "PENJELASAN_LIST_ITEM",
+                        "id": "",
+                        "children": [
+                          {
+                            "type": "PENJELASAN_AYAT",
+                            "text": "Ayat (2)"
+                          },
+                          {
+                            "type": "PLAINTEXT",
+                            "text": "Yang dimaksud dengan memberikan bantuan dana dalam ketentuan ini adalah pemberian sejumlah dana yang didasarkan pada Keputusan Gubernur Maluku Utara Nomor 95.1/KPTS/MU/2010 tanggal 10 Juni 2010 dan Keputusan Pimpinan Dewan Perwakilan Rakyat Daerah Provinsi Maluku Utara Nomor 171.1/KPTS/DPRD/MU/VI/2010 tanggal 14 Juni 2010."
+                          }
+                        ]
+                      },
+                      {
+                        "type": "PENJELASAN_LIST_ITEM",
+                        "id": "",
+                        "children": [
+                          {
+                            "type": "PENJELASAN_AYAT",
+                            "text": "Ayat (3)"
+                          },
+                          {
+                            "type": "PLAINTEXT",
+                            "text": "Cukup jelas."
+                          }
+                        ]
+                      },
+                      {
+                        "type": "PENJELASAN_LIST_ITEM",
+                        "id": "",
+                        "children": [
+                          {
+                            "type": "PENJELASAN_AYAT",
+                            "text": "Ayat (4)"
+                          },
+                          {
+                            "type": "PLAINTEXT",
+                            "text": "Pengurangan penerimaan dana perimbangan sesuai dengan mekanisme yang diatur dalam Peraturan Menteri Keuangan mengenai tata cara pemotongan dana alokasi umum dan dana bagi hasil daerah induk/provinsi yang tidak memenuhi kewajiban hibah/bantuan pendanaan kepada daerah otonom baru."
+                          }
+                        ]
+                      },
+                      {
+                        "type": "PENJELASAN_LIST_ITEM",
+                        "id": "",
+                        "children": [
+                          {
+                            "type": "PENJELASAN_AYAT",
+                            "text": "Ayat (5)"
+                          },
+                          {
+                            "type": "PLAINTEXT",
+                            "text": "Pengurangan penerimaan dana perimbangan sesuai mekanisme yang diatur dalam Peraturan Menteri Keuangan mengenai tata cara pemotongan dana alokasi umum dan dana bagi hasil daerah induk/provinsi yang tidak memenuhi kewajiban hibah/bantuan pendanaan kepada daerah otonom baru."
+                          }
+                        ]
+                      },
+                      {
+                        "type": "PENJELASAN_LIST_ITEM",
+                        "id": "",
+                        "children": [
+                          {
+                            "type": "PENJELASAN_AYAT",
+                            "text": "Ayat (6)"
+                          },
+                          {
+                            "type": "PLAINTEXT",
+                            "text": "Cukup jelas."
+                          }
+                        ]
+                      },
+                      {
+                        "type": "PENJELASAN_LIST_ITEM",
+                        "id": "",
+                        "children": [
+                          {
+                            "type": "PENJELASAN_AYAT",
+                            "text": "Ayat (7)"
+                          },
+                          {
+                            "type": "PLAINTEXT",
+                            "text": "Cukup jelas."
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "PENJELASAN_PASAL",
+                "id": "",
+                "children": [
+                  {
+                    "type": "PASAL_NUMBER",
+                    "text": "Pasal 17"
+                  },
+                  {
+                    "type": "PLAINTEXT",
+                    "text": "Cukup jelas."
+                  }
+                ]
+              },
+              {
+                "type": "PENJELASAN_PASAL",
+                "id": "",
+                "children": [
+                  {
+                    "type": "PASAL_NUMBER",
+                    "text": "Pasal 18"
+                  },
+                  {
+                    "type": "PLAINTEXT",
+                    "text": "Cukup jelas."
+                  }
+                ]
+              },
+              {
+                "type": "PENJELASAN_PASAL",
+                "id": "",
+                "children": [
+                  {
+                    "type": "PASAL_NUMBER",
+                    "text": "Pasal 19"
+                  },
+                  {
+                    "type": "PLAINTEXT",
+                    "text": "Cukup jelas."
+                  }
+                ]
+              },
+              {
+                "type": "PENJELASAN_PASAL",
+                "id": "",
+                "children": [
+                  {
+                    "type": "PASAL_NUMBER",
+                    "text": "Pasal 20"
+                  },
+                  {
+                    "type": "PLAINTEXT",
+                    "text": "Cukup jelas."
+                  }
+                ]
+              },
+              {
+                "type": "PENJELASAN_PASAL",
+                "id": "",
+                "children": [
+                  {
+                    "type": "PASAL_NUMBER",
+                    "text": "Pasal 21"
+                  },
+                  {
+                    "type": "PLAINTEXT",
+                    "text": "Cukup jelas."
+                  }
+                ]
+              },
+              {
+                "type": "PENJELASAN_PASAL",
+                "id": "",
+                "children": [
+                  {
+                    "type": "PASAL_NUMBER",
+                    "text": "Pasal 22"
+                  },
+                  {
+                    "type": "PLAINTEXT",
+                    "text": "Cukup jelas."
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

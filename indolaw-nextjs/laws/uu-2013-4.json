@@ -1,0 +1,3114 @@
+{
+  "metadata": {
+    "lembaranNegaraNumber": 19,
+    "lembaranNegaraYear": 2013,
+    "tambahanLembaranNumber": 5397,
+    "number": 4,
+    "topic": "Pembentukan Kabupaten Mamuju Tengah Di Provinsi Sulawesi Barat",
+    "year": 2013
+  },
+  "content": {
+    "type": "UNDANG_UNDANG",
+    "id": "",
+    "children": [
+      {
+        "type": "OPENING",
+        "id": "",
+        "children": [
+          {
+            "type": "UU_TITLE",
+            "id": "",
+            "children": [
+              {
+                "type": "PLAINTEXT",
+                "text": "UNDANG-UNDANG REPUBLIK INDONESIA"
+              },
+              {
+                "type": "UU_TITLE_YEAR_AND_NUMBER",
+                "text": "NOMOR 4 TAHUN 2013"
+              },
+              {
+                "type": "PLAINTEXT",
+                "text": "TENTANG"
+              },
+              {
+                "type": "UU_TITLE_TOPIC",
+                "text": "PEMBENTUKAN KABUPATEN MAMUJU TENGAH DI PROVINSI SULAWESI BARAT"
+              }
+            ]
+          },
+          {
+            "type": "PREFACE",
+            "id": "",
+            "children": [
+              {
+                "type": "PLAINTEXT",
+                "text": "DENGAN RAHMAT TUHAN YANG MAHA ESA"
+              },
+              {
+                "type": "PLAINTEXT",
+                "text": "PRESIDEN REPUBLIK INDONESIA,"
+              }
+            ]
+          },
+          {
+            "type": "CONSIDERATIONS",
+            "id": "",
+            "children": [
+              {
+                "type": "PLAINTEXT",
+                "text": "Menimbang:"
+              },
+              {
+                "type": "LIST",
+                "id": "",
+                "children": [
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "LETTER_WITH_DOT",
+                        "text": "a."
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "bahwa untuk mendorong perkembangan dan kemajuan Provinsi Sulawesi Barat pada umumnya dan Kabupaten Mamuju pada khususnya, serta adanya aspirasi yang berkembang dalam masyarakat, dipandang perlu meningkatkan penyelenggaraan pemerintahan, pembangunan, dan pelayanan publik guna mempercepat terwujudnya kesejahteraan masyarakat;"
+                      }
+                    ]
+                  },
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "LETTER_WITH_DOT",
+                        "text": "b."
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "bahwa dengan memperhatikan kemampuan ekonomi, potensi daerah, sosial budaya, politik, jumlah penduduk, luas daerah, kemampuan keuangan, tingkat kesejahteraan masyarakat, rentang kendali penyelenggaraan pemerintahan, dan meningkatnya beban tugas dan volume kerja di bidang pemerintahan, pembangunan, dan kemasyarakatan di Kabupaten Mamuju, perlu dilakukan pembentukan Kabupaten Mamuju Tengah di Provinsi Sulawesi Barat;"
+                      }
+                    ]
+                  },
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "LETTER_WITH_DOT",
+                        "text": "c."
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "bahwa pembentukan Kabupaten Mamuju Tengah dimaksudkan untuk mendorong peningkatan pelayanan di bidang pemerintahan, pembangunan, dan kemasyarakatan, serta kemampuan dalam pemanfaatan potensi daerah untuk penyelenggaraan otonomi daerah;"
+                      }
+                    ]
+                  },
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "LETTER_WITH_DOT",
+                        "text": "d."
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "bahwa berdasarkan pertimbangan sebagaimana dimaksud dalam huruf a, huruf b, dan huruf c, perlu membentuk Undang-Undang tentang Pembentukan Kabupaten Mamuju Tengah di Provinsi Sulawesi Barat."
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "PRINCIPLES",
+            "id": "",
+            "children": [
+              {
+                "type": "PLAINTEXT",
+                "text": "Mengingat:"
+              },
+              {
+                "type": "LIST",
+                "id": "",
+                "children": [
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "NUMBER_WITH_DOT",
+                        "text": "1."
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "Pasal 18, Pasal 18A, Pasal 18B, Pasal 20, dan Pasal 21 Undang-Undang Dasar Negara Republik Indonesia Tahun 1945;"
+                      }
+                    ]
+                  },
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "NUMBER_WITH_DOT",
+                        "text": "2."
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "Undang-Undang Nomor 29 Tahun 1959 tentang Pembentukan Daerah-Daerah Tingkat II di Sulawesi (Lembaran Negara Republik Indonesia Tahun 1959 Nomor 74, Tambahan Lembaran Negara Republik Indonesia Nomor 1822);"
+                      }
+                    ]
+                  },
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "NUMBER_WITH_DOT",
+                        "text": "3."
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "Undang-Undang Nomor 26 Tahun 2004 tentang Pembentukan Provinsi Sulawesi Barat (Lembaran Negara Republik Indonesia Tahun 2004 Nomor 105, Tambahan Lembaran Negara Republik Indonesia Nomor 4422);"
+                      }
+                    ]
+                  },
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "NUMBER_WITH_DOT",
+                        "text": "4."
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "Undang-Undang Nomor 32 Tahun 2004 tentang Pemerintahan Daerah (Lembaran Negara Republik Indonesia Tahun 2004 Nomor 125, Tambahan Lembaran Negara Republik Indonesia Nomor 4437) sebagaimana telah beberapa kali diubah terakhir dengan Undang-Undang Nomor 12 Tahun 2008 tentang Perubahan Kedua atas Undang-Undang Nomor 32 Tahun 2004 tentang Pemerintahan Daerah (Lembaran Negara Republik Indonesia Tahun 2008 Nomor 59, Tambahan Lembaran Negara Republik Indonesia Nomor 4844);"
+                      }
+                    ]
+                  },
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "NUMBER_WITH_DOT",
+                        "text": "5."
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "Undang-Undang Nomor 33 Tahun 2004 tentang Perimbangan Keuangan antara Pemerintah Pusat dan Pemerintahan Daerah (Lembaran Negara Republik Indonesia Tahun 2004 Nomor 126, Tambahan Lembaran Negara Republik Indonesia Nomor 4438);"
+                      }
+                    ]
+                  },
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "NUMBER_WITH_DOT",
+                        "text": "6."
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "Undang-Undang Nomor 27 Tahun 2009 tentang Majelis Permusyawaratan Rakyat, Dewan Perwakilan Rakyat, Dewan Perwakilan Daerah, dan Dewan Perwakilan Rakyat Daerah (Lembaran Negara Republik Indonesia Tahun 2009 Nomor 123, Tambahan Lembaran Negara Republik Indonesia Nomor 5043);"
+                      }
+                    ]
+                  },
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "NUMBER_WITH_DOT",
+                        "text": "7."
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "Undang-Undang Nomor 12 Tahun 2011 tentang Pembentukan Peraturan Perundang-undangan (Lembaran Negara Republik Indonesia Tahun 2011 Nomor 82, Tambahan Lembaran Negara Republik Indonesia Nomor 5234);"
+                      }
+                    ]
+                  },
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "NUMBER_WITH_DOT",
+                        "text": "8."
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "Undang-Undang Nomor 15 Tahun 2011 tentang Penyelenggara Pemilihan Umum (Lembaran Negara Republik Indonesia Tahun 2011 Nomor 101, Tambahan Lembaran Negara Republik Indonesia Nomor 5246);"
+                      }
+                    ]
+                  },
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "NUMBER_WITH_DOT",
+                        "text": "9."
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "Undang-Undang Nomor 8 Tahun 2012 tentang Pemilihan Umum Anggota Dewan Perwakilan Rakyat, Dewan Perwakilan Daerah, dan Dewan Perwakilan Rakyat Daerah (Lembaran Negara Republik Indonesia Tahun 2012 Nomor 117, Tambahan Lembaran Negara Republik Indonesia Nomor 5316)."
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "AGREEMENT",
+            "id": "",
+            "children": [
+              {
+                "type": "PLAINTEXT",
+                "text": "Dengan Persetujuan Bersama:"
+              },
+              {
+                "type": "PLAINTEXT",
+                "text": "DEWAN PERWAKILAN RAKYAT REPUBLIK INDONESIA"
+              },
+              {
+                "type": "PLAINTEXT",
+                "text": "dan"
+              },
+              {
+                "type": "PLAINTEXT",
+                "text": "PRESIDEN REPUBLIK INDONESIA"
+              },
+              {
+                "type": "PLAINTEXT",
+                "text": "MEMUTUSKAN:"
+              },
+              {
+                "type": "PLAINTEXT",
+                "text": "Menetapkan:"
+              },
+              {
+                "type": "PLAINTEXT",
+                "text": "UNDANG-UNDANG TENTANG PEMBENTUKAN KABUPATEN MAMUJU TENGAH DI PROVINSI SULAWESI BARAT."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "BAB",
+        "id": "bab-1",
+        "children": [
+          {
+            "type": "BAB_NUMBER",
+            "text": "BAB I"
+          },
+          {
+            "type": "BAB_TITLE",
+            "text": "KETENTUAN UMUM"
+          },
+          {
+            "type": "PASAL",
+            "id": "pasal-1",
+            "children": [
+              {
+                "type": "PASAL_NUMBER",
+                "text": "Pasal 1"
+              },
+              {
+                "type": "PLAINTEXT",
+                "text": "Dalam Undang-Undang ini yang dimaksud dengan:"
+              },
+              {
+                "type": "LIST",
+                "id": "",
+                "children": [
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "NUMBER_WITH_DOT",
+                        "text": "1."
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "Pemerintah pusat, selanjutnya disebut Pemerintah, adalah Presiden Republik Indonesia yang memegang kekuasaan pemerintahan negara Republik Indonesia sebagaimana dimaksud dalam Undang-Undang Dasar Negara Republik Indonesia Tahun 1945."
+                      }
+                    ]
+                  },
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "NUMBER_WITH_DOT",
+                        "text": "2."
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "Daerah otonom, selanjutnya disebut daerah, adalah kesatuan masyarakat hukum yang mempunyai batas batas wilayah yang berwenang mengatur dan mengurus urusan pemerintahan dan kepentingan masyarakat setempat menurut prakarsa sendiri berdasarkan aspirasi masyarakat dalam sistem Negara Kesatuan Republik Indonesia."
+                      }
+                    ]
+                  },
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "NUMBER_WITH_DOT",
+                        "text": "3."
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "Provinsi Sulawesi Barat adalah provinsi sebagaimana dimaksud dalam Undang-Undang Nomor 26 Tahun 2004 tentang Pembentukan Provinsi Sulawesi Barat."
+                      }
+                    ]
+                  },
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "NUMBER_WITH_DOT",
+                        "text": "4."
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "Kabupaten Mamuju adalah kabupaten sebagaimana dimaksud dalam Undang-Undang Nomor 29 Tahun 1959 tentang Pembentukan Daerah-Daerah Tingkat II di Sulawesi, yang wilayahnya telah dikurangi dengan Kabupaten Mamuju Utara berdasarkan Undang-Undang Nomor 7 Tahun 2003 tentang Pembentukan Kabupaten Luwu Timur dan Kabupaten Mamuju Utara di Provinsi Sulawesi Selatan, yang merupakan kabupaten asal Kabupaten Mamuju Tengah."
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "BAB",
+        "id": "bab-2",
+        "children": [
+          {
+            "type": "BAB_NUMBER",
+            "text": "BAB II"
+          },
+          {
+            "type": "BAB_TITLE",
+            "text": "PEMBENTUKAN, CAKUPAN WILAYAH, BATAS WILAYAH, DAN IBU KOTA"
+          },
+          {
+            "type": "BAGIAN",
+            "id": "bab-2-bagian-1",
+            "children": [
+              {
+                "type": "BAGIAN_NUMBER",
+                "text": "Bagian Kesatu"
+              },
+              {
+                "type": "BAGIAN_TITLE",
+                "text": "Pembentukan"
+              },
+              {
+                "type": "PASAL",
+                "id": "pasal-2",
+                "children": [
+                  {
+                    "type": "PASAL_NUMBER",
+                    "text": "Pasal 2"
+                  },
+                  {
+                    "type": "PLAINTEXT",
+                    "text": "Dengan Undang-Undang ini dibentuk Kabupaten Mamuju Tengah di wilayah Provinsi Sulawesi Barat dalam Negara Kesatuan Republik Indonesia."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "BAGIAN",
+            "id": "bab-2-bagian-2",
+            "children": [
+              {
+                "type": "BAGIAN_NUMBER",
+                "text": "Bagian Kedua"
+              },
+              {
+                "type": "BAGIAN_TITLE",
+                "text": "Cakupan Wilayah"
+              },
+              {
+                "type": "PASAL",
+                "id": "pasal-3",
+                "children": [
+                  {
+                    "type": "PASAL_NUMBER",
+                    "text": "Pasal 3"
+                  },
+                  {
+                    "type": "LIST",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "LIST_ITEM",
+                        "id": "",
+                        "children": [
+                          {
+                            "type": "NUMBER_WITH_BRACKETS",
+                            "text": "(1)"
+                          },
+                          {
+                            "type": "PLAINTEXT",
+                            "text": "Kabupaten Mamuju Tengah berasal dari sebagian wilayah Kabupaten Mamuju yang terdiri atas cakupan wilayah:"
+                          },
+                          {
+                            "type": "LIST",
+                            "id": "",
+                            "children": [
+                              {
+                                "type": "LIST_ITEM",
+                                "id": "",
+                                "children": [
+                                  {
+                                    "type": "LETTER_WITH_DOT",
+                                    "text": "a."
+                                  },
+                                  {
+                                    "type": "PLAINTEXT",
+                                    "text": "Kecamatan Tobadak;"
+                                  }
+                                ]
+                              },
+                              {
+                                "type": "LIST_ITEM",
+                                "id": "",
+                                "children": [
+                                  {
+                                    "type": "LETTER_WITH_DOT",
+                                    "text": "b."
+                                  },
+                                  {
+                                    "type": "PLAINTEXT",
+                                    "text": "Kecamatan Pangale;"
+                                  }
+                                ]
+                              },
+                              {
+                                "type": "LIST_ITEM",
+                                "id": "",
+                                "children": [
+                                  {
+                                    "type": "LETTER_WITH_DOT",
+                                    "text": "c."
+                                  },
+                                  {
+                                    "type": "PLAINTEXT",
+                                    "text": "Kecamatan Budong Budong;"
+                                  }
+                                ]
+                              },
+                              {
+                                "type": "LIST_ITEM",
+                                "id": "",
+                                "children": [
+                                  {
+                                    "type": "LETTER_WITH_DOT",
+                                    "text": "d."
+                                  },
+                                  {
+                                    "type": "PLAINTEXT",
+                                    "text": "Kecamatan Topoyo; dan"
+                                  }
+                                ]
+                              },
+                              {
+                                "type": "LIST_ITEM",
+                                "id": "",
+                                "children": [
+                                  {
+                                    "type": "LETTER_WITH_DOT",
+                                    "text": "e."
+                                  },
+                                  {
+                                    "type": "PLAINTEXT",
+                                    "text": "Kecamatan Karossa."
+                                  }
+                                ]
+                              }
+                            ]
+                          }
+                        ]
+                      },
+                      {
+                        "type": "LIST_ITEM",
+                        "id": "",
+                        "children": [
+                          {
+                            "type": "NUMBER_WITH_BRACKETS",
+                            "text": "(2)"
+                          },
+                          {
+                            "type": "PLAINTEXT",
+                            "text": "Cakupan wilayah sebagaimana dimaksud pada ayat (1) digambarkan dalam peta wilayah yang tercantum dalam lampiran dan merupakan bagian yang tidak terpisahkan dari Undang-Undang ini."
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "PASAL",
+                "id": "pasal-4",
+                "children": [
+                  {
+                    "type": "PASAL_NUMBER",
+                    "text": "Pasal 4"
+                  },
+                  {
+                    "type": "PLAINTEXT",
+                    "text": "Dengan terbentuknya Kabupaten Mamuju Tengah, sebagaimana dimaksud dalam Pasal 2, wilayah Kabupaten Mamuju dikurangi dengan wilayah Kabupaten Mamuju Tengah sebagaimana dimaksud dalam Pasal 3."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "BAGIAN",
+            "id": "bab-2-bagian-3",
+            "children": [
+              {
+                "type": "BAGIAN_NUMBER",
+                "text": "Bagian Ketiga"
+              },
+              {
+                "type": "BAGIAN_TITLE",
+                "text": "Batas Wilayah"
+              },
+              {
+                "type": "PASAL",
+                "id": "pasal-5",
+                "children": [
+                  {
+                    "type": "PASAL_NUMBER",
+                    "text": "Pasal 5"
+                  },
+                  {
+                    "type": "LIST",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "LIST_ITEM",
+                        "id": "",
+                        "children": [
+                          {
+                            "type": "NUMBER_WITH_BRACKETS",
+                            "text": "(1)"
+                          },
+                          {
+                            "type": "PLAINTEXT",
+                            "text": "Kabupaten Mamuju Tengah mempunyai batas-batas wilayah:"
+                          },
+                          {
+                            "type": "LIST",
+                            "id": "",
+                            "children": [
+                              {
+                                "type": "LIST_ITEM",
+                                "id": "",
+                                "children": [
+                                  {
+                                    "type": "LETTER_WITH_DOT",
+                                    "text": "a."
+                                  },
+                                  {
+                                    "type": "PLAINTEXT",
+                                    "text": "sebelah utara berbatasan dengan Sungai Benggaulu Desa Benggaulu Kecamatan Dapurang Kabupaten Mamuju Utara;"
+                                  }
+                                ]
+                              },
+                              {
+                                "type": "LIST_ITEM",
+                                "id": "",
+                                "children": [
+                                  {
+                                    "type": "LETTER_WITH_DOT",
+                                    "text": "b."
+                                  },
+                                  {
+                                    "type": "PLAINTEXT",
+                                    "text": "sebelah timur berbatasan dengan Desa Batu Bicara, Kecamatan Seko Kabupaten Luwu Utara Provinsi Sulawesi Selatan;"
+                                  }
+                                ]
+                              },
+                              {
+                                "type": "LIST_ITEM",
+                                "id": "",
+                                "children": [
+                                  {
+                                    "type": "LETTER_WITH_DOT",
+                                    "text": "c."
+                                  },
+                                  {
+                                    "type": "PLAINTEXT",
+                                    "text": "sebelah selatan berbatasan dengan Sungai Karama dan Desa Tarailu Kecamatan Sampaga, Kecamatan Tommo Kabupaten Mamuju; dan"
+                                  }
+                                ]
+                              },
+                              {
+                                "type": "LIST_ITEM",
+                                "id": "",
+                                "children": [
+                                  {
+                                    "type": "LETTER_WITH_DOT",
+                                    "text": "d."
+                                  },
+                                  {
+                                    "type": "PLAINTEXT",
+                                    "text": "sebelah barat berbatasan dengan Selat Makassar."
+                                  }
+                                ]
+                              }
+                            ]
+                          }
+                        ]
+                      },
+                      {
+                        "type": "LIST_ITEM",
+                        "id": "",
+                        "children": [
+                          {
+                            "type": "NUMBER_WITH_BRACKETS",
+                            "text": "(2)"
+                          },
+                          {
+                            "type": "PLAINTEXT",
+                            "text": "Batas wilayah sebagaimana dimaksud pada ayat (1) digambarkan dalam peta wilayah lengkap dengan titik-titik koordinat dan telah mendapatkan persetujuan dari pihak-pihak terkait yang tercantum dalam lampiran dan merupakan bagian yang tidak terpisahkan dari Undang-Undang ini."
+                          }
+                        ]
+                      },
+                      {
+                        "type": "LIST_ITEM",
+                        "id": "",
+                        "children": [
+                          {
+                            "type": "NUMBER_WITH_BRACKETS",
+                            "text": "(3)"
+                          },
+                          {
+                            "type": "PLAINTEXT",
+                            "text": "Penetapan batas wilayah Kabupaten Mamuju Tengah secara pasti di lapangan sebagaimana dimaksud pada ayat (1) dan ayat (2), ditetapkan oleh Menteri Dalam Negeri paling lambat 5 (lima) tahun sejak peresmian Kabupaten Mamuju Tengah."
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "PASAL",
+                "id": "pasal-6",
+                "children": [
+                  {
+                    "type": "PASAL_NUMBER",
+                    "text": "Pasal 6"
+                  },
+                  {
+                    "type": "LIST",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "LIST_ITEM",
+                        "id": "",
+                        "children": [
+                          {
+                            "type": "NUMBER_WITH_BRACKETS",
+                            "text": "(1)"
+                          },
+                          {
+                            "type": "PLAINTEXT",
+                            "text": "Dengan terbentuknya Kabupaten Mamuju Tengah sebagaimana dimaksud dalam Pasal 2, Pemerintah Kabupaten Mamuju Tengah menetapkan Rencana Tata Ruang Wilayah Kabupaten Mamuju Tengah sesuai dengan peraturan perundang-undangan."
+                          }
+                        ]
+                      },
+                      {
+                        "type": "LIST_ITEM",
+                        "id": "",
+                        "children": [
+                          {
+                            "type": "NUMBER_WITH_BRACKETS",
+                            "text": "(2)"
+                          },
+                          {
+                            "type": "PLAINTEXT",
+                            "text": "Penetapan Rencana Tata Ruang Wilayah Kabupaten Mamuju Tengah sebagaimana dimaksud pada ayat (1) dilakukan sesuai dengan Rencana Tata Ruang Wilayah Nasional dan Rencana Tata Ruang Wilayah Provinsi Sulawesi Barat serta memperhatikan Rencana Tata Ruang Wilayah kabupaten/kota di sekitarnya."
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "BAGIAN",
+            "id": "bab-2-bagian-4",
+            "children": [
+              {
+                "type": "BAGIAN_NUMBER",
+                "text": "Bagian Keempat"
+              },
+              {
+                "type": "BAGIAN_TITLE",
+                "text": "Ibu Kota"
+              },
+              {
+                "type": "PASAL",
+                "id": "pasal-7",
+                "children": [
+                  {
+                    "type": "PASAL_NUMBER",
+                    "text": "Pasal 7"
+                  },
+                  {
+                    "type": "PLAINTEXT",
+                    "text": "Ibu Kota Kabupaten Mamuju Tengah berkedudukan di Wilayah Benteng Kayu Mangiwang Kecamatan Tobadak."
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "BAB",
+        "id": "bab-3",
+        "children": [
+          {
+            "type": "BAB_NUMBER",
+            "text": "BAB III"
+          },
+          {
+            "type": "BAB_TITLE",
+            "text": "URUSAN PEMERINTAHAN DAERAH"
+          },
+          {
+            "type": "PASAL",
+            "id": "pasal-8",
+            "children": [
+              {
+                "type": "PASAL_NUMBER",
+                "text": "Pasal 8"
+              },
+              {
+                "type": "PLAINTEXT",
+                "text": "Urusan pemerintahan daerah yang menjadi kewenangan Kabupaten Mamuju Tengah mencakup urusan sebagaimana diatur dalam peraturan perundang-undangan."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "BAB",
+        "id": "bab-4",
+        "children": [
+          {
+            "type": "BAB_NUMBER",
+            "text": "BAB IV"
+          },
+          {
+            "type": "BAB_TITLE",
+            "text": "PEMERINTAHAN DAERAH"
+          },
+          {
+            "type": "BAGIAN",
+            "id": "bab-4-bagian-1",
+            "children": [
+              {
+                "type": "BAGIAN_NUMBER",
+                "text": "Bagian Kesatu"
+              },
+              {
+                "type": "BAGIAN_TITLE",
+                "text": "Peresmian Daerah Otonom Baru dan Pelantikan Penjabat Kepala Daerah"
+              },
+              {
+                "type": "PASAL",
+                "id": "pasal-9",
+                "children": [
+                  {
+                    "type": "PASAL_NUMBER",
+                    "text": "Pasal 9"
+                  },
+                  {
+                    "type": "PLAINTEXT",
+                    "text": "Peresmian Kabupaten Mamuju Tengah dan pelantikan Penjabat Bupati Mamuju Tengah dilakukan oleh Menteri Dalam Negeri atas nama Presiden paling lambat 9 (sembilan) bulan sejak Undang-Undang ini diundangkan."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "BAGIAN",
+            "id": "bab-4-bagian-2",
+            "children": [
+              {
+                "type": "BAGIAN_NUMBER",
+                "text": "Bagian Kedua"
+              },
+              {
+                "type": "BAGIAN_TITLE",
+                "text": "Pemerintah Daerah"
+              },
+              {
+                "type": "PASAL",
+                "id": "pasal-10",
+                "children": [
+                  {
+                    "type": "PASAL_NUMBER",
+                    "text": "Pasal 10"
+                  },
+                  {
+                    "type": "LIST",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "LIST_ITEM",
+                        "id": "",
+                        "children": [
+                          {
+                            "type": "NUMBER_WITH_BRACKETS",
+                            "text": "(1)"
+                          },
+                          {
+                            "type": "PLAINTEXT",
+                            "text": "Untuk memimpin penyelenggaraan pemerintahan di Kabupaten Mamuju Tengah, dipilih dan disahkan Bupati dan/atau Wakil Bupati sesuai dengan peraturan perundang-undangan yang dilaksanakan paling cepat 2 (dua) tahun sejak diresmikan Kabupaten Mamuju Tengah."
+                          }
+                        ]
+                      },
+                      {
+                        "type": "LIST_ITEM",
+                        "id": "",
+                        "children": [
+                          {
+                            "type": "NUMBER_WITH_BRACKETS",
+                            "text": "(2)"
+                          },
+                          {
+                            "type": "PLAINTEXT",
+                            "text": "Sebelum Bupati dan Wakil Bupati definitif sebagaimana dimaksud pada ayat (1) terpilih sebagai pimpinan penyelenggaraan pemerintahan daerah, Menteri Dalam Negeri atas nama Presiden mengangkat Penjabat Bupati dari pegawai negeri sipil berdasarkan usul Gubernur Sulawesi Barat dengan masa jabatan paling lama 1 (satu) tahun."
+                          }
+                        ]
+                      },
+                      {
+                        "type": "LIST_ITEM",
+                        "id": "",
+                        "children": [
+                          {
+                            "type": "NUMBER_WITH_BRACKETS",
+                            "text": "(3)"
+                          },
+                          {
+                            "type": "PLAINTEXT",
+                            "text": "Pegawai negeri sipil sebagaimana dimaksud pada ayat (2) adalah pegawai yang memiliki kemampuan dan pengalaman jabatan dalam bidang pemerintahan serta memenuhi persyaratan untuk menduduki jabatan itu sesuai dengan peraturan perundang-undangan."
+                          }
+                        ]
+                      },
+                      {
+                        "type": "LIST_ITEM",
+                        "id": "",
+                        "children": [
+                          {
+                            "type": "NUMBER_WITH_BRACKETS",
+                            "text": "(4)"
+                          },
+                          {
+                            "type": "PLAINTEXT",
+                            "text": "Menteri Dalam Negeri dapat menunjuk Gubernur Sulawesi Barat untuk melantik Penjabat Bupati Mamuju Tengah sebagaimana dimaksud pada ayat (2)."
+                          }
+                        ]
+                      },
+                      {
+                        "type": "LIST_ITEM",
+                        "id": "",
+                        "children": [
+                          {
+                            "type": "NUMBER_WITH_BRACKETS",
+                            "text": "(5)"
+                          },
+                          {
+                            "type": "PLAINTEXT",
+                            "text": "Menteri Dalam Negeri atas nama Presiden dapat mengangkat kembali Penjabat Bupati untuk 1 (satu) kali masa jabatan berikutnya paling lama 1 (satu) tahun atau menggantinya dengan penjabat lain sesuai dengan peraturan perundang-undangan."
+                          }
+                        ]
+                      },
+                      {
+                        "type": "LIST_ITEM",
+                        "id": "",
+                        "children": [
+                          {
+                            "type": "NUMBER_WITH_BRACKETS",
+                            "text": "(6)"
+                          },
+                          {
+                            "type": "PLAINTEXT",
+                            "text": "Gubernur Sulawesi Barat melakukan pembinaan, pengawasan, evaluasi, dan fasilitasi terhadap kinerja Penjabat Bupati Mamuju Tengah dalam penyelenggaraan pemerintahan daerah, pembentukan struktur organisasi dan pengisian perangkat daerah, pengisian keanggotaan Dewan Perwakilan Rakyat Daerah Kabupaten, dan fasilitasi pemilihan Bupati dan/atau Wakil Bupati sesuai ketentuan peraturan perundang undangan."
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "PASAL",
+                "id": "pasal-11",
+                "children": [
+                  {
+                    "type": "PASAL_NUMBER",
+                    "text": "Pasal 11"
+                  },
+                  {
+                    "type": "PLAINTEXT",
+                    "text": "Pembiayaan pertama kali pelaksanaan pemilihan Bupati dan/atau Wakil Bupati Mamuju Tengah sebagaimana dimaksud dalam Pasal 10 ayat (1) dibebankan kepada Anggaran Pendapatan dan Belanja Daerah Kabupaten Mamuju dan Anggaran Pendapatan dan Belanja Daerah Provinsi Sulawesi Barat."
+                  }
+                ]
+              },
+              {
+                "type": "PASAL",
+                "id": "pasal-12",
+                "children": [
+                  {
+                    "type": "PASAL_NUMBER",
+                    "text": "Pasal 12"
+                  },
+                  {
+                    "type": "LIST",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "LIST_ITEM",
+                        "id": "",
+                        "children": [
+                          {
+                            "type": "NUMBER_WITH_BRACKETS",
+                            "text": "(1)"
+                          },
+                          {
+                            "type": "PLAINTEXT",
+                            "text": "Untuk menyelenggarakan pemerintahan di Kabupaten Mamuju Tengah dibentuk perangkat daerah yang meliputi sekretariat daerah, sekretariat dewan perwakilan rakyat daerah, dinas daerah, lembaga teknis daerah, serta unsur perangkat daerah lainnya dengan mempertimbangkan kebutuhan dan kemampuan keuangan daerah sesuai dengan peraturan perundang-undangan."
+                          }
+                        ]
+                      },
+                      {
+                        "type": "LIST_ITEM",
+                        "id": "",
+                        "children": [
+                          {
+                            "type": "NUMBER_WITH_BRACKETS",
+                            "text": "(2)"
+                          },
+                          {
+                            "type": "PLAINTEXT",
+                            "text": "Perangkat daerah sebagaimana dimaksud pada ayat (1) telah dibentuk oleh Penjabat Bupati Mamuju Tengah paling lambat 6 (enam) bulan sejak tanggal pelantikan."
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "BAGIAN",
+            "id": "bab-4-bagian-3",
+            "children": [
+              {
+                "type": "BAGIAN_NUMBER",
+                "text": "Bagian Ketiga"
+              },
+              {
+                "type": "BAGIAN_TITLE",
+                "text": "Dewan Perwakilan Rakyat Daerah"
+              },
+              {
+                "type": "PASAL",
+                "id": "pasal-13",
+                "children": [
+                  {
+                    "type": "PASAL_NUMBER",
+                    "text": "Pasal 13"
+                  },
+                  {
+                    "type": "LIST",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "LIST_ITEM",
+                        "id": "",
+                        "children": [
+                          {
+                            "type": "NUMBER_WITH_BRACKETS",
+                            "text": "(1)"
+                          },
+                          {
+                            "type": "PLAINTEXT",
+                            "text": "Dewan Perwakilan Rakyat Daerah Kabupaten Mamuju Tengah dibentuk melalui hasil Pemilihan Umum Tahun 2014."
+                          }
+                        ]
+                      },
+                      {
+                        "type": "LIST_ITEM",
+                        "id": "",
+                        "children": [
+                          {
+                            "type": "NUMBER_WITH_BRACKETS",
+                            "text": "(2)"
+                          },
+                          {
+                            "type": "PLAINTEXT",
+                            "text": "Jumlah dan tata cara pengisian keanggotaan Dewan Perwakilan Rakyat Daerah Kabupaten Mamuju Tengah sebagaimana dimaksud pada ayat (1), ditetapkan sesuai dengan peraturan perundang-undangan."
+                          }
+                        ]
+                      },
+                      {
+                        "type": "LIST_ITEM",
+                        "id": "",
+                        "children": [
+                          {
+                            "type": "NUMBER_WITH_BRACKETS",
+                            "text": "(3)"
+                          },
+                          {
+                            "type": "PLAINTEXT",
+                            "text": "Penetapan keanggotaan Dewan Perwakilan Rakyat Daerah Kabupaten Mamuju Tengah sebagaimana dimaksud pada ayat (1) dan ayat (2) dilakukan oleh Komisi Pemilihan Umum Kabupaten Mamuju sesuai dengan peraturan perundang-undangan."
+                          }
+                        ]
+                      },
+                      {
+                        "type": "LIST_ITEM",
+                        "id": "",
+                        "children": [
+                          {
+                            "type": "NUMBER_WITH_BRACKETS",
+                            "text": "(4)"
+                          },
+                          {
+                            "type": "PLAINTEXT",
+                            "text": "Pengambilan sumpah/janji anggota Dewan Perwakilan Rakyat Daerah Kabupaten Mamuju Tengah dilaksanakan paling lambat 4 (empat) bulan setelah pengambilan sumpah/janji anggota Dewan Perwakilan Rakyat Daerah Kabupaten Mamuju."
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "BAB",
+        "id": "bab-5",
+        "children": [
+          {
+            "type": "BAB_NUMBER",
+            "text": "BAB V"
+          },
+          {
+            "type": "BAB_TITLE",
+            "text": "PERSONEL, ASET, DAN DOKUMEN"
+          },
+          {
+            "type": "PASAL",
+            "id": "pasal-14",
+            "children": [
+              {
+                "type": "PASAL_NUMBER",
+                "text": "Pasal 14"
+              },
+              {
+                "type": "LIST",
+                "id": "",
+                "children": [
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "NUMBER_WITH_BRACKETS",
+                        "text": "(1)"
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "Bupati Mamuju bersama Penjabat Bupati Mamuju Tengah mengatur dan melaksanakan pemindahan personel, penyerahan aset, serta dokumen kepada Pemerintah Kabupaten Mamuju Tengah sesuai dengan persetujuan Dewan Perwakilan Rakyat Daerah Kabupaten Mamuju dan Bupati Mamuju."
+                      }
+                    ]
+                  },
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "NUMBER_WITH_BRACKETS",
+                        "text": "(2)"
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "Pemindahan personel sebagaimana dimaksud pada ayat (1) dilakukan paling lambat 6 (enam) bulan sejak pelantikan Penjabat Bupati Mamuju Tengah."
+                      }
+                    ]
+                  },
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "NUMBER_WITH_BRACKETS",
+                        "text": "(3)"
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "Penyerahan aset dan dokumen sebagaimana dimaksud pada ayat (1) dilakukan paling lambat 3 (tiga) tahun sejak pelantikan Penjabat Bupati Mamuju Tengah."
+                      }
+                    ]
+                  },
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "NUMBER_WITH_BRACKETS",
+                        "text": "(4)"
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "Personel sebagaimana dimaksud pada ayat (1) dan ayat (2) meliputi pegawai negeri sipil yang karena tugas dan kemampuannya diperlukan oleh Kabupaten Mamuju Tengah."
+                      }
+                    ]
+                  },
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "NUMBER_WITH_BRACKETS",
+                        "text": "(5)"
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "Gubernur Sulawesi Barat mengoordinasikan dan memfasilitasi pemindahan personel, penyerahan aset, dan dokumen kepada Kabupaten Mamuju Tengah."
+                      }
+                    ]
+                  },
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "NUMBER_WITH_BRACKETS",
+                        "text": "(6)"
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "Gaji dan tunjangan pegawai negeri sipil sebagaimana dimaksud pada ayat (4), selama belum ditetapkannya Anggaran Pendapatan dan Belanja Daerah Kabupaten Mamuju Tengah, dibebankan pada anggaran pendapatan dan belanja dari asal satuan kerja personel yang bersangkutan sesuai dengan peraturan perundang-undangan."
+                      }
+                    ]
+                  },
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "NUMBER_WITH_BRACKETS",
+                        "text": "(7)"
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "Aset dan dokumen sebagaimana dimaksud pada ayat (1) dan ayat (3) meliputi:"
+                      },
+                      {
+                        "type": "LIST",
+                        "id": "",
+                        "children": [
+                          {
+                            "type": "LIST_ITEM",
+                            "id": "",
+                            "children": [
+                              {
+                                "type": "LETTER_WITH_DOT",
+                                "text": "a."
+                              },
+                              {
+                                "type": "PLAINTEXT",
+                                "text": "barang milik Kabupaten Mamuju yang bergerak dan tidak bergerak dan/atau yang dikuasai atau dimanfaatkan oleh Pemerintah Kabupaten Mamuju Tengah yang berada dalam wilayah Kabupaten Mamuju Tengah;"
+                              }
+                            ]
+                          },
+                          {
+                            "type": "LIST_ITEM",
+                            "id": "",
+                            "children": [
+                              {
+                                "type": "LETTER_WITH_DOT",
+                                "text": "b."
+                              },
+                              {
+                                "type": "PLAINTEXT",
+                                "text": "Badan Usaha Milik Daerah Kabupaten Mamuju yang kedudukan, kegiatan, dan lokasinya berada di Kabupaten Mamuju Tengah;"
+                              }
+                            ]
+                          },
+                          {
+                            "type": "LIST_ITEM",
+                            "id": "",
+                            "children": [
+                              {
+                                "type": "LETTER_WITH_DOT",
+                                "text": "c."
+                              },
+                              {
+                                "type": "PLAINTEXT",
+                                "text": "utang piutang Kabupaten Mamuju yang kegunaannya untuk Kabupaten Mamuju Tengah menjadi tanggung jawab Kabupaten Mamuju Tengah; dan"
+                              }
+                            ]
+                          },
+                          {
+                            "type": "LIST_ITEM",
+                            "id": "",
+                            "children": [
+                              {
+                                "type": "LETTER_WITH_DOT",
+                                "text": "d."
+                              },
+                              {
+                                "type": "PLAINTEXT",
+                                "text": "dokumen dan arsip yang karena sifatnya diperlukan oleh Kabupaten Mamuju Tengah."
+                              }
+                            ]
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "NUMBER_WITH_BRACKETS",
+                        "text": "(8)"
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "Dalam hal ketentuan sebagaimana dimaksud pada ayat (3) dan ayat (7) tidak dilaksanakan atau belum selesai dilaksanakan oleh Bupati Mamuju, Gubernur Sulawesi Barat selaku wakil Pemerintah wajib menyelesaikannya dalam waktu paling lambat 1 (satu) tahun."
+                      }
+                    ]
+                  },
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "NUMBER_WITH_BRACKETS",
+                        "text": "(9)"
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "Pelaksanaan pemindahan personel dan penyerahan aset serta dokumen sebagaimana dimaksud pada ayat (1) dilaporkan oleh Gubernur Sulawesi Barat kepada Menteri Dalam Negeri."
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "BAB",
+        "id": "bab-6",
+        "children": [
+          {
+            "type": "BAB_NUMBER",
+            "text": "BAB VI"
+          },
+          {
+            "type": "BAB_TITLE",
+            "text": "PENDAPATAN, ALOKASI DANA PERIMBANGAN, HIBAH, DAN BANTUAN KEUANGAN"
+          },
+          {
+            "type": "PASAL",
+            "id": "pasal-15",
+            "children": [
+              {
+                "type": "PASAL_NUMBER",
+                "text": "Pasal 15"
+              },
+              {
+                "type": "LIST",
+                "id": "",
+                "children": [
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "NUMBER_WITH_BRACKETS",
+                        "text": "(1)"
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "Kabupaten Mamuju Tengah berhak mendapatkan alokasi dana perimbangan dan dana transfer lainnya sesuai dengan peraturan perundang-undangan."
+                      }
+                    ]
+                  },
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "NUMBER_WITH_BRACKETS",
+                        "text": "(2)"
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "Dalam dana perimbangan sebagaimana dimaksud pada ayat (1), Pemerintah mengalokasikan dana alokasi khusus prasarana pemerintahan sesuai dengan peraturan perundang-undangan."
+                      }
+                    ]
+                  },
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "NUMBER_WITH_BRACKETS",
+                        "text": "(3)"
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "Dana perimbangan sebagaimana dimaksud pada ayat (1) yang berupa dana transfer ke daerah dialokasikan sesuai dengan kemampuan keuangan negara sesuai dengan peraturan perundang undangan."
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "PASAL",
+            "id": "pasal-16",
+            "children": [
+              {
+                "type": "PASAL_NUMBER",
+                "text": "Pasal 16"
+              },
+              {
+                "type": "LIST",
+                "id": "",
+                "children": [
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "NUMBER_WITH_BRACKETS",
+                        "text": "(1)"
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "Pemerintah Kabupaten Mamuju sesuai dengan kesanggupannya memberikan hibah berupa uang untuk menunjang kegiatan penyelenggaraan pemerintahan Kabupaten Mamuju Tengah sebesar Rp8.000.000.000,00 (delapan miliar rupiah) dengan rincian tahun pertama sebesar Rp3.000.000.000,00 (tiga miliar rupiah), tahun kedua sebesar Rp2.500.000.000,00 (dua miliar lima ratus juta rupiah), dan tahun ketiga sebesar Rp2.500.000.000,00 (dua miliar lima ratus juta rupiah), serta untuk pelaksanaan pemilihan Bupati dan/atau Wakil Bupati Mamuju Tengah pertama kali sebesar Rp7.485.176.823 (tujuh miliar empat ratus delapan puluh lima juta seratus tujuh puluh enam ribu delapan ratus dua puluh tiga rupiah)."
+                      }
+                    ]
+                  },
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "NUMBER_WITH_BRACKETS",
+                        "text": "(2)"
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "Pemerintah Provinsi Sulawesi Barat memberikan bantuan dana untuk menunjang kegiatan penyelenggaraan pemerintahan Kabupaten Mamuju Tengah sebesar Rp3.000.000.000,00 (tiga miliar rupiah) dengan rincian tahun pertama sebesar Rp 1.000.000.000,00 (satu miliar rupiah), tahun kedua sebesar Rp1.000.000.000,00 (satu miliar rupiah), dan tahun ketiga sebesar Rp 1.000.000.000,00 (satu miliar rupiah), serta untuk pelaksanaan pemilihan Bupati dan/atau Wakil Bupati Mamuju Tengah pertama kali sebesar Rp2.000.000.000,00 (dua miliar rupiah)."
+                      }
+                    ]
+                  },
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "NUMBER_WITH_BRACKETS",
+                        "text": "(3)"
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "Pemberian hibah sebagaimana dimaksud pada ayat (1) dan pemberian bantuan dana sebagaimana dimaksud pada ayat (2) dimulai sejak pelantikan Penjabat Bupati Mamuju Tengah."
+                      }
+                    ]
+                  },
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "NUMBER_WITH_BRACKETS",
+                        "text": "(4)"
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "Apabila Kabupaten Mamuju tidak memenuhi kesanggupannya memberikan hibah sesuai ketentuan sebagaimana dimaksud pada ayat (1), Pemerintah mengurangi penerimaan dana perimbangan dari Kabupaten Mamuju untuk diberikan kepada Pemerintah Kabupaten Mamuju Tengah."
+                      }
+                    ]
+                  },
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "NUMBER_WITH_BRACKETS",
+                        "text": "(5)"
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "Apabila Provinsi Sulawesi Barat tidak memenuhi kesanggupannya memberikan bantuan dana sesuai ketentuan sebagaimana dimaksud pada ayat (2), Pemerintah mengurangi penerimaan dana perimbangan dari Provinsi Sulawesi Barat untuk diberikan kepada Pemerintah Kabupaten Mamuju Tengah."
+                      }
+                    ]
+                  },
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "NUMBER_WITH_BRACKETS",
+                        "text": "(6)"
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "Penjabat Bupati Mamuju Tengah menyampaikan laporan pertanggungjawaban realisasi penggunaan hibah sebagaimana dimaksud pada ayat (1) kepada Bupati Mamuju."
+                      }
+                    ]
+                  },
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "NUMBER_WITH_BRACKETS",
+                        "text": "(7)"
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "Penjabat Bupati Mamuju Tengah menyampaikan laporan pertanggungjawaban realisasi penggunaan dana hibah dan dana bantuan sebagaimana dimaksud pada ayat (1) dan ayat (2) kepada Gubernur Sulawesi Barat."
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "PASAL",
+            "id": "pasal-17",
+            "children": [
+              {
+                "type": "PASAL_NUMBER",
+                "text": "Pasal 17"
+              },
+              {
+                "type": "PLAINTEXT",
+                "text": "Penjabat Bupati Mamuju Tengah berkewajiban melakukan penatausahaan keuangan daerah sesuai dengan peraturan perundang-undangan."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "BAB",
+        "id": "bab-7",
+        "children": [
+          {
+            "type": "BAB_NUMBER",
+            "text": "BAB VII"
+          },
+          {
+            "type": "BAB_TITLE",
+            "text": "PEMBINAAN"
+          },
+          {
+            "type": "PASAL",
+            "id": "pasal-18",
+            "children": [
+              {
+                "type": "PASAL_NUMBER",
+                "text": "Pasal 18"
+              },
+              {
+                "type": "LIST",
+                "id": "",
+                "children": [
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "NUMBER_WITH_BRACKETS",
+                        "text": "(1)"
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "Untuk mengefektifkan penyelenggaraan pemerintahan daerah, Pemerintah dan Pemerintah Provinsi Sulawesi Barat melakukan pembinaan dan fasilitasi secara khusus terhadap Kabupaten Mamuju Tengah dalam waktu 3 (tiga) tahun sejak diresmikan."
+                      }
+                    ]
+                  },
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "NUMBER_WITH_BRACKETS",
+                        "text": "(2)"
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "Pemerintah bersama Gubernur Sulawesi Barat melakukan evaluasi terhadap penyelenggaraan Pemerintahan Kabupaten Mamuju Tengah sesuai peraturan perundang-undangan."
+                      }
+                    ]
+                  },
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "NUMBER_WITH_BRACKETS",
+                        "text": "(3)"
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "Hasil evaluasi sebagaimana dimaksud pada ayat (2) dijadikan acuan kebijakan lebih lanjut oleh Pemerintah dan/atau Gubernur Sulawesi Barat sesuai dengan peraturan perundang-undangan."
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "BAB",
+        "id": "bab-8",
+        "children": [
+          {
+            "type": "BAB_NUMBER",
+            "text": "BAB VIII"
+          },
+          {
+            "type": "BAB_TITLE",
+            "text": "KETENTUAN PERALIHAN"
+          },
+          {
+            "type": "PASAL",
+            "id": "pasal-19",
+            "children": [
+              {
+                "type": "PASAL_NUMBER",
+                "text": "Pasal 19"
+              },
+              {
+                "type": "LIST",
+                "id": "",
+                "children": [
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "NUMBER_WITH_BRACKETS",
+                        "text": "(1)"
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "Sebelum terbentuknya Dewan Perwakilan Rakyat Daerah Kabupaten Mamuju Tengah berdasarkan hasil Pemilihan Umum Tahun 2014, Penjabat Bupati Mamuju Tengah menyusun Rancangan Peraturan Bupati tentang Anggaran Pendapatan dan Belanja Daerah Kabupaten Mamuju Tengah untuk tahun anggaran berikutnya."
+                      }
+                    ]
+                  },
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "NUMBER_WITH_BRACKETS",
+                        "text": "(2)"
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "Rancangan Peraturan Bupati Mamuju Tengah sebagaimana dimaksud pada ayat (1) dilaksanakan setelah disahkan oleh Gubernur Sulawesi Barat."
+                      }
+                    ]
+                  },
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "NUMBER_WITH_BRACKETS",
+                        "text": "(3)"
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "Proses pengesahan dan penetapan Peraturan Bupati Mamuju Tengah sebagaimana dimaksud pada ayat (2) dilaksanakan sesuai dengan peraturan perundang-undangan."
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "PASAL",
+            "id": "pasal-20",
+            "children": [
+              {
+                "type": "PASAL_NUMBER",
+                "text": "Pasal 20"
+              },
+              {
+                "type": "PLAINTEXT",
+                "text": "Sebelum Bupati Mamuju Tengah bersama Dewan Perwakilan Rakyat Daerah Kabupaten Mamuju Tengah menetapkan peraturan daerah, dan Bupati Mamuju Tengah menetapkan peraturan bupati sebagai pelaksanaan Undang-Undang ini, semua peraturan daerah dan Peraturan Bupati Mamuju sepanjang tidak bertentangan dengan Undang-Undang ini tetap berlaku di Kabupaten Mamuju Tengah."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "BAB",
+        "id": "bab-9",
+        "children": [
+          {
+            "type": "BAB_NUMBER",
+            "text": "BAB IX"
+          },
+          {
+            "type": "BAB_TITLE",
+            "text": "KETENTUAN PENUTUP"
+          },
+          {
+            "type": "PASAL",
+            "id": "pasal-21",
+            "children": [
+              {
+                "type": "PASAL_NUMBER",
+                "text": "Pasal 21"
+              },
+              {
+                "type": "PLAINTEXT",
+                "text": "Pada saat Undang-Undang ini mulai berlaku, semua ketentuan dalam peraturan perundang-undangan yang berkaitan dengan Kabupaten Mamuju Tengah harus disesuaikan dengan Undang-Undang ini."
+              }
+            ]
+          },
+          {
+            "type": "PASAL",
+            "id": "pasal-22",
+            "children": [
+              {
+                "type": "PASAL_NUMBER",
+                "text": "Pasal 22"
+              },
+              {
+                "type": "PLAINTEXT",
+                "text": "Undang-Undang ini mulai berlaku pada tanggal diundangkan."
+              },
+              {
+                "type": "PLAINTEXT",
+                "text": "Agar setiap orang mengetahuinya, memerintahkan pengundangan Undang-Undang ini dengan penempatannya dalam Lembaran Negara Republik Indonesia."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "CLOSING",
+        "id": "",
+        "children": [
+          {
+            "type": "PLAINTEXT",
+            "text": "Disahkan Di Jakarta,"
+          },
+          {
+            "type": "PLAINTEXT",
+            "text": "Pada Tanggal 11 Januari 2013"
+          },
+          {
+            "type": "PLAINTEXT",
+            "text": "PRESIDEN REPUBLIK INDONESIA,"
+          },
+          {
+            "type": "PLAINTEXT",
+            "text": "Ttd."
+          },
+          {
+            "type": "PLAINTEXT",
+            "text": "DR. H. SUSILO BAMBANG YUDHOYONO"
+          },
+          {
+            "type": "PLAINTEXT",
+            "text": "Diundangkan Di Jakarta,"
+          },
+          {
+            "type": "PLAINTEXT",
+            "text": "Pada Tanggal 11 Januari 2013"
+          },
+          {
+            "type": "PLAINTEXT",
+            "text": "MENTERI HUKUM DAN HAK ASASI MANUSIA REPUBLIK INDONESIA,"
+          },
+          {
+            "type": "PLAINTEXT",
+            "text": "Ttd."
+          },
+          {
+            "type": "PLAINTEXT",
+            "text": "AMIR SYAMSUDIN"
+          },
+          {
+            "type": "LEMBARAN_NUMBER",
+            "text": "LEMBARAN NEGARA REPUBLIK INDONESIA TAHUN 2013 NOMOR 19"
+          }
+        ]
+      },
+      {
+        "type": "PENJELASAN",
+        "id": "penjelasan",
+        "children": [
+          {
+            "type": "PENJELASAN_TITLE",
+            "id": "",
+            "children": [
+              {
+                "type": "PLAINTEXT",
+                "text": "PENJELASAN"
+              },
+              {
+                "type": "PLAINTEXT",
+                "text": "UNDANG-UNDANG REPUBLIK INDONESIA"
+              },
+              {
+                "type": "UU_TITLE_YEAR_AND_NUMBER",
+                "text": "NOMOR 4 TAHUN 2013"
+              },
+              {
+                "type": "PLAINTEXT",
+                "text": "TENTANG"
+              },
+              {
+                "type": "UU_TITLE_TOPIC",
+                "text": "PEMBENTUKAN KABUPATEN MAMUJU TENGAH DI PROVINSI SULAWESI BARAT"
+              }
+            ]
+          },
+          {
+            "type": "PENJELASAN_UMUM",
+            "id": "",
+            "children": [
+              {
+                "type": "PENJELASAN_UMUM_TITLE",
+                "text": "I. UMUM"
+              },
+              {
+                "type": "PLAINTEXT",
+                "text": "Provinsi Sulawesi Barat yang memiliki luas wilayah \u00b116.787,18 km2 dengan penduduk pada tahun 2011 berjumlah \u00b11.444.947 jiwa terdiri atas 5 (lima) kabupaten, perlu memacu peningkatan penyelenggaraan pemerintahan dalam rangka memperkukuh Negara Kesatuan Republik Indonesia."
+              },
+              {
+                "type": "PLAINTEXT",
+                "text": "Kabupaten Mamuju yang mempunyai luas wilayah \u00b18.014,06 km2 dengan jumlah penduduk pada tahun 2012 berjumlah \u00b1468.783 jiwa terdiri atas 16 (enam belas) kecamatan dan 154 (seratus lima puluh empat) desa/kelurahan. Kabupaten ini memiliki potensi yang dapat dikembangkan untuk mendukung peningkatan penyelenggaraan pemerintahan."
+              },
+              {
+                "type": "PLAINTEXT",
+                "text": "Penyelenggaraan otonomi daerah harus menjamin keserasian hubungan antara daerah satu dengan daerah lainnya, artinya mampu membangun kerja sama antardaerah untuk meningkatkan kesejahteraan bersama dan mencegah ketimpangan antardaerah. Hal yang tidak kalah pentingnya bahwa otonomi daerah juga harus mampu menjamin hubungan yang serasi antara daerah dengan Pemerintah, artinya harus mampu memelihara dan menjaga keutuhan wilayah Negara dan tetap tegaknya Negara Kesatuan Republik Indonesia dalam rangka mewujudkan tujuan Negara."
+              },
+              {
+                "type": "PLAINTEXT",
+                "text": "Dilihat dari aspek historis, sejarah perjuangan pembentukan Mamuju Tengah sudah dimulai sejak tahun 1963 dengan nama Kabupaten Bupas (Budong-Budong Pasangkayu) yang merupakan gabungan dari dua wilayah yakni wilayah Budong-Budong dan wilayah Pasang Kayu. Namun dalam perjalanannya, wilayah Pasang Kayu sudah menjadi Kabupaten sendiri terlebih dahulu yakni Kabupaten Mamuju Utara. Sehingga dengan demikian keinginan membentuk wilayah Budong-Budong menjadi kabupaten sendiri menjadi aspirasi masyarakat yang kuat dari masyarakat setempat."
+              },
+              {
+                "type": "PLAINTEXT",
+                "text": "Luasnya Kabupaten Mamuju menjadikan rentang kendali antarwilayah menjadi lebih panjang. Oleh karenanya pembentukan Kabupaten Mamuju Tengah diharapkan memperpendek rentang kendali pelayanan terhadap masyarakat. Calon daerah otonom Kabupaten Mamuju Tengah ini juga akan menghubungkan antara Kabupaten Mamuju Utara dengan Kabupaten Mamuju yang kemudian akan meningkatkan mobilitas penduduk, arus barang maupun jasa."
+              },
+              {
+                "type": "PLAINTEXT",
+                "text": "Kabupaten Mamuju Tengah memiliki potensial untuk berbagai jenis komoditi pertanian dan perkebunan. Hasil komoditi pertanian yang menjadi unggulan selain padi adalah buah jeruk, rambutan, durian, mangga, dan pisang, sedangkan untuk perkebunan, komoditi unggulan adalah kelapa sawit, kakao (coklat) dan kelapa hibrida. Disamping itu juga terdapat jenis bahan tambang seperti tembaga, tanah liat dan pasir besi."
+              },
+              {
+                "type": "PLAINTEXT",
+                "text": "Dengan luas wilayah dan besarnya jumlah penduduk seperti tersebut di atas, pelaksanaan pembangunan dan pelayanan kepada masyarakat belum sepenuhnya terjangkau. Kondisi demikian perlu diatasi dengan memperpendek rentang kendali pemerintahan melalui pembentukan daerah otonom baru sehingga pelayanan publik dapat ditingkatkan guna mempercepat terwujudnya kesejahteraan masyarakat."
+              },
+              {
+                "type": "PLAINTEXT",
+                "text": "Selanjutnya dengan memperhatikan aspirasi masyarakat yang dituangkan dalam:"
+              },
+              {
+                "type": "LIST",
+                "id": "",
+                "children": [
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "LETTER_WITH_DOT",
+                        "text": "a."
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "Keputusan Dewan Perwakilan Rakyat Daerah Kabupaten Mamuju Nomor 17 Tahun 2007 tanggal 31 Agustus 2007 tentang Persetujuan Pemekaran/Pembentukan Kabupaten Mamuju Tengah;"
+                      }
+                    ]
+                  },
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "LETTER_WITH_DOT",
+                        "text": "b."
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "Keputusan Dewan Perwakilan Rakyat Daerah Kabupaten Mamuju Nomor 17A Tahun 2007 tanggal 31 Agustus 2007 tentang Persetujuan Penetapan Ibukota Kabupaten Mamuju Tengah;"
+                      }
+                    ]
+                  },
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "LETTER_WITH_DOT",
+                        "text": "c."
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "Keputusan Dewan Perwakilan Rakyat Daerah Kabupaten Mamuju Nomor 19 Tahun 2007 tanggal 4 Oktober 2007 tentang Persetujuan Terhadap Pemberian Dukungan Dana Kepada Kabupaten Mamuju Tengah;"
+                      }
+                    ]
+                  },
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "LETTER_WITH_DOT",
+                        "text": "d."
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "Keputusan Dewan Perwakilan Rakyat Daerah Kabupaten Mamuju Nomor 13 Tahun 2008 tanggal 12 Desember 2008 tentang Persetujuan Pembentukan Calon Kabupaten Mamuju Tengah;"
+                      }
+                    ]
+                  },
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "LETTER_WITH_DOT",
+                        "text": "e."
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "Keputusan Dewan Perwakilan Rakyat Daerah Kabupaten Mamuju Nomor 4 Tahun 2010 tanggal 18 Januari 2010 tentang Persetujuan Hibah Tanah untuk mempersiapkan Kantor Bupati Mamuju Tengah;"
+                      }
+                    ]
+                  },
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "LETTER_WITH_DOT",
+                        "text": "f."
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "Keputusan Dewan Perwakilan Rakyat Daerah Kabupaten Mamuju Nomor 12 Tahun 2010 tanggal 23 Juni 2010 tentang Persetujuan Pembentukan Calon Daerah Otonom Baru Kabupaten Mamuju Tengah;"
+                      }
+                    ]
+                  },
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "LETTER_WITH_DOT",
+                        "text": "g."
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "Keputusan Dewan Perwakilan Rakyat Daerah Kabupaten Mamuju Nomor 13 Tahun 2010 tanggal 23 Juni 2010 tentang Persetujuan Penyerahan Aset dan Personil Kabupaten Mamuju Kepada Calon Daerah Otonom Baru Kabupaten Mamuju Tengah;"
+                      }
+                    ]
+                  },
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "LETTER_WITH_DOT",
+                        "text": "h."
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "Keputusan Dewan Perwakilan Rakyat Daerah Kabupaten Mamuju Nomor 14 Tahun 2010 tanggal 23 Juni 2010 tentang Persetujuan Pemberian Bantuan Keuangan Kepada Calon Daerah Otonom Baru Kabupaten Mamuju Tengah;"
+                      }
+                    ]
+                  },
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "LETTER_WITH_DOT",
+                        "text": "i."
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "Keputusan Bupati Mamuju Nomor 454 Tahun 2007 tanggal 22 Oktober 2007 tentang Pemberian Bantuan Keuangan Pada Pemerintah Kabupaten Mamuju Tengah;"
+                      }
+                    ]
+                  },
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "LETTER_WITH_DOT",
+                        "text": "j."
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "Keputusan Bupati Mamuju Nomor 34 Tahun 2009 tanggal 9 Februari 2009 tentang Persetujuan Pembentukan Calon Kabupaten Mamuju Tengah;"
+                      }
+                    ]
+                  },
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "LETTER_WITH_DOT",
+                        "text": "k."
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "Keputusan Bupati Mamuju Nomor 527 Tahun 2008 tanggal 10 Desember 2008 tentang Persetujuan Pembentukan Calon Kabupaten Mamuju Tengah;"
+                      }
+                    ]
+                  },
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "LETTER_WITH_DOT",
+                        "text": "l."
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "Keputusan Bupati Mamuju Nomor 197 Tahun 2010 tanggal 24 Juni 2010 tentang Persetujuan Pembentukan Calon Daerah Otonom Baru Kabupaten Mamuju Tengah;"
+                      }
+                    ]
+                  },
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "LETTER_WITH_DOT",
+                        "text": "m."
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "Keputusan Bupati Mamuju Nomor 198 Tahun 2010 tanggal 24 Juni 2010 tentang Persetujuan Pemberian Bantuan Keuangan Kepada Calon Kabupaten Mamuju Tengah;"
+                      }
+                    ]
+                  },
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "LETTER_WITH_DOT",
+                        "text": "n."
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "Keputusan Bupati Mamuju Nomor 199 Tahun 2010 tanggal 24 Juni 2010 tentang Persetujuan Penyerahan Kekayaan Daerah Kabupaten Mamuju Berupa Barang Bergerak dan Barang Tidak Bergerak Untuk Persiapan Pembentukan Daerah Otonom Baru Kabupaten Mamuju Tengah;"
+                      }
+                    ]
+                  },
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "LETTER_WITH_DOT",
+                        "text": "o."
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "Keputusan Bupati Mamuju Nomor 200 Tahun 2010 tanggal 24 Juni 2010 tentang Persetujuan Penyerahan Personil Kepada Calon Daerah Otonom Baru Kabupaten Mamuju Tengah;"
+                      }
+                    ]
+                  },
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "LETTER_WITH_DOT",
+                        "text": "p."
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "Keputusan Dewan Perwakilan Rakyat Daerah Provinsi Sulawesi Barat Nomor 19 Tahun 2007 tanggal 3 Oktober 2007 tentang Persetujuan Pembentukan Kabupaten Mamuju Tengah;"
+                      }
+                    ]
+                  },
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "LETTER_WITH_DOT",
+                        "text": "q."
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "Keputusan Dewan Perwakilan Rakyat Daerah Provinsi Sulawesi Barat Nomor 13 Tahun 2008 tanggal 12 Desember 2008 tentang Persetujuan Pembentukan Calon Kabupaten Mamuju Tengah;"
+                      }
+                    ]
+                  },
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "LETTER_WITH_DOT",
+                        "text": "r."
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "Keputusan Dewan Perwakilan Rakyat Daerah Provinsi Sulawesi Barat Nomor 06 Tahun 2009 tanggal 11 Februari 2009 tentang Persetujuan Pembentukan Calon Kabupaten Mamuju Tengah;"
+                      }
+                    ]
+                  },
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "LETTER_WITH_DOT",
+                        "text": "s."
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "Keputusan Dewan Perwakilan Rakyat Daerah Provinsi Sulawesi Barat Nomor 02 Tahun 2010 tanggal 24 Juni 2010 tentang Penyempurnaan Keputusan DPRD Provinsi Sulawesi Barat Nomor 19 Tahun 2009 Tentang Persetujuan Pembentukan Calon Daerah Otonomi Baru Kabupaten Mamuju Tengah;"
+                      }
+                    ]
+                  },
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "LETTER_WITH_DOT",
+                        "text": "t."
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "Keputusan Gubernur Sulawesi Barat Nomor 501 Tahun 2008 tanggal 19 Desember 2008 tentang Persetujuan Pembentukan Calon Kabupaten Mamuju Tengah Provinsi Sulawesi Barat;"
+                      }
+                    ]
+                  },
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "LETTER_WITH_DOT",
+                        "text": "u."
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "Keputusan Gubernur Sulawesi Barat Nomor 328 Tahun 2010 tanggal 24 Juni 2010 tentang Persetujuan Pembentukan Calon Kabupaten Mamuju Tengah;"
+                      }
+                    ]
+                  },
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "LETTER_WITH_DOT",
+                        "text": "v."
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "Keputusan Bupati Mamuju Nomor 188.45/534/KPTS/X/2012 tanggal 10 Oktober 2012 tentang Penyempurnaan Keputusan Bupati Nomor 197 tentang Persetujuan Pembentukan Calon Daerah Otonom Baru Kabupaten Mamuju Tengah;"
+                      }
+                    ]
+                  },
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "LETTER_WITH_DOT",
+                        "text": "w."
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "Keputusan Dewan Perwakilan Rakyat Daerah Kabupaten Mamuju Nomor 162 Tahun 2012 tanggal 16 Oktober 2012 tentang Penyempurnaan Keputusan DPRD Kabupaten Mamuju Nomor 12 Tahun 2010 tentang Persetujuan Pembentukan Calon Daerah Otonom Baru Kabupaten Mamuju Tengah;"
+                      }
+                    ]
+                  },
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "LETTER_WITH_DOT",
+                        "text": "x."
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "Keputusan Gubernur Sulawesi Barat Nomor 448 Tahun 2012 tanggal 22 Oktober 2012 tentang Penyempurnaan Keputusan Gubernur Sulawesi Barat Nomor 328 Tahun 2010 tentang Persetujuan Pembentukan Calon Kabupaten Mamuju Tengah; dan"
+                      }
+                    ]
+                  },
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "LETTER_WITH_DOT",
+                        "text": "y."
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "Keputusan Dewan Perwakilan Rakyat Daerah Provinsi Sulawesi Barat Nomor 17 Tahun 2012 tentang Penyempurnaan Keputusan DPRD Provinsi Sulawesi Barat Nomor 02 Tahun 2010 tentang Persetujuan Pembentukan Calon Daerah Otonom Baru Kabupaten Mamuju Tengah."
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "PLAINTEXT",
+                "text": "Berdasarkan hal tersebut, telah dilakukan kajian secara mendalam dan menyeluruh mengenai kelayakan pembentukan daerah dan berkesimpulan bahwa perlu dibentuk Kabupaten Mamuju Tengah."
+              },
+              {
+                "type": "PLAINTEXT",
+                "text": "Pembentukan Kabupaten Mamuju Tengah yang merupakan pemekaran dari Kabupaten Mamuju terdiri atas 5 (lima) kecamatan, yaitu Kecamatan Tobadak, Kecamatan Pangale, Kecamatan Budong Budong, Kecamatan Topoyo, dan Kecamatan Karossa. Kabupaten Mamuju Tengah memiliki luas wilayah keseluruhan \u00b13.014,37 km2 dengan jumlah penduduk \u00b1154.606 jiwa pada tahun 2012 dan 56 (lima puluh enam) desa/kelurahan."
+              },
+              {
+                "type": "PLAINTEXT",
+                "text": "Dengan terbentuknya Kabupaten Mamuju Tengah sebagai daerah otonom, Pemerintah Provinsi Sulawesi Barat berkewajiban membantu dan memfasilitasi terbentuknya kelembagaan Dewan Perwakilan Rakyat Daerah dan Perangkat Daerah yang efisien dan efektif sesuai dengan kebutuhan dan kemampuan, serta membantu dan memfasilitasi pemindahan personel, pengalihan aset dan dokumen untuk kepentingan penyelenggaraan pemerintahan daerah dalam rangka meningkatkan pelayanan publik dan mempercepat terwujudnya kesejahteraan masyarakat di Kabupaten Mamuju Tengah."
+              },
+              {
+                "type": "PLAINTEXT",
+                "text": "Dalam melaksanakan otonomi daerah, Kabupaten Mamuju Tengah perlu melakukan berbagai upaya peningkatan kemampuan ekonomi, penyiapan sarana dan prasarana pemerintahan, pemberdayaan, dan peningkatan sumber daya manusia, serta pengelolaan sumber daya alam sesuai dengan peraturan perundang-undangan."
+              }
+            ]
+          },
+          {
+            "type": "PENJELASAN_PASAL_DEMI_PASAL",
+            "id": "",
+            "children": [
+              {
+                "type": "PENJELASAN_PASAL_DEMI_PASAL_TITLE",
+                "text": "II. PASAL DEMI PASAL"
+              },
+              {
+                "type": "PENJELASAN_PASAL",
+                "id": "",
+                "children": [
+                  {
+                    "type": "PASAL_NUMBER",
+                    "text": "Pasal 1"
+                  },
+                  {
+                    "type": "PLAINTEXT",
+                    "text": "Cukup jelas."
+                  }
+                ]
+              },
+              {
+                "type": "PENJELASAN_PASAL",
+                "id": "",
+                "children": [
+                  {
+                    "type": "PASAL_NUMBER",
+                    "text": "Pasal 2"
+                  },
+                  {
+                    "type": "PLAINTEXT",
+                    "text": "Cukup jelas."
+                  }
+                ]
+              },
+              {
+                "type": "PENJELASAN_PASAL",
+                "id": "",
+                "children": [
+                  {
+                    "type": "PASAL_NUMBER",
+                    "text": "Pasal 3"
+                  },
+                  {
+                    "type": "LIST",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "PENJELASAN_LIST_ITEM",
+                        "id": "",
+                        "children": [
+                          {
+                            "type": "PENJELASAN_AYAT",
+                            "text": "Ayat (1)"
+                          },
+                          {
+                            "type": "LIST",
+                            "id": "",
+                            "children": [
+                              {
+                                "type": "PENJELASAN_LIST_ITEM",
+                                "id": "",
+                                "children": [
+                                  {
+                                    "type": "PENJELASAN_HURUF",
+                                    "text": "Huruf a"
+                                  },
+                                  {
+                                    "type": "PLAINTEXT",
+                                    "text": "Desa yang masuk dalam cakupan Kecamatan Tobadak adalah Desa Tobadak, Desa Mahahe, Desa Polongaan, Desa Batu Parigi, Desa Sulobaja, Desa Bambadaru, Desa Saloadak, dan Desa Sejati."
+                                  }
+                                ]
+                              },
+                              {
+                                "type": "PENJELASAN_LIST_ITEM",
+                                "id": "",
+                                "children": [
+                                  {
+                                    "type": "PENJELASAN_HURUF",
+                                    "text": "Huruf b"
+                                  },
+                                  {
+                                    "type": "PLAINTEXT",
+                                    "text": "Desa yang masuk dalam cakupan Kecamatan Pangale adalah Desa Polo Lereng, Desa Polo Pangale, Desa Pangale, Desa Kuo, Desa Polo Camba, Desa Sartana Maju, Desa Lamba Lamba, Desa Kombiling, dan Desa Lemo-Lemo."
+                                  }
+                                ]
+                              },
+                              {
+                                "type": "PENJELASAN_LIST_ITEM",
+                                "id": "",
+                                "children": [
+                                  {
+                                    "type": "PENJELASAN_HURUF",
+                                    "text": "Huruf c"
+                                  },
+                                  {
+                                    "type": "PLAINTEXT",
+                                    "text": "Desa yang masuk dalam cakupan Kecamatan Budong Budong adalah Desa Babana, Desa Kire, Desa Salumanurung, Desa Tinali, Desa Salugatta, Desa Pontanakayang, Desa Bojo, Desa Pasapa, Desa Barakkang, Desa Lumu, dan Desa Lembah Hada."
+                                  }
+                                ]
+                              },
+                              {
+                                "type": "PENJELASAN_LIST_ITEM",
+                                "id": "",
+                                "children": [
+                                  {
+                                    "type": "PENJELASAN_HURUF",
+                                    "text": "Huruf d"
+                                  },
+                                  {
+                                    "type": "PLAINTEXT",
+                                    "text": "Desa yang masuk dalam cakupan Kecamatan Topoyo adalah Desa Topoyo, Desa Tabolang, Desa Tangkau, Desa Pangalloang, Desa Tumbu, Desa Salupangkang, Desa Salupangkang IV, Desa Paraili, Desa Wae Puteh, Desa Tappilina, Desa Salule\u2019bo, Desa Kabubu, Desa Budong-Budong, Desa Bambamanurung, dan Desa Sinabatta."
+                                  }
+                                ]
+                              },
+                              {
+                                "type": "PENJELASAN_LIST_ITEM",
+                                "id": "",
+                                "children": [
+                                  {
+                                    "type": "PENJELASAN_HURUF",
+                                    "text": "Huruf e"
+                                  },
+                                  {
+                                    "type": "PLAINTEXT",
+                                    "text": "Desa yang masuk dalam cakupan Kecamatan Karossa adalah Desa Karossa, Desa Kayu Calla, Desa Kadaila, Desa Benggaulu, Desa Lemba Hopo, Desa Sanjango, Desa Lara, Desa Salubiro, Desa Tasokko, Desa Kambunong, Desa Suka Maju, UPTD Mora IV, dan UPTD Lara III."
+                                  }
+                                ]
+                              }
+                            ]
+                          }
+                        ]
+                      },
+                      {
+                        "type": "PENJELASAN_LIST_ITEM",
+                        "id": "",
+                        "children": [
+                          {
+                            "type": "PENJELASAN_AYAT",
+                            "text": "Ayat (2)"
+                          },
+                          {
+                            "type": "PLAINTEXT",
+                            "text": "Cukup jelas."
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "PENJELASAN_PASAL",
+                "id": "",
+                "children": [
+                  {
+                    "type": "PASAL_NUMBER",
+                    "text": "Pasal 4"
+                  },
+                  {
+                    "type": "PLAINTEXT",
+                    "text": "Yang dimaksud wilayah Kabupaten Mamuju setelah terbentuknya Kabupaten Mamuju Tengah adalah mencakup wilayah Kecamatan Mamuju, Kecamatan Tapalang, Kecamatan Kalukku, Kecamatan Kalumpang, Kecamatan Papalang, Kecamatan Sampaga, Kecamatan Tommo, Kecamatan Simboro dan Kepulauan, Kecamatan Tapalang Barat, Kecamatan Bonehau, dan Kecamatan Kepulauan Bala Balakang."
+                  }
+                ]
+              },
+              {
+                "type": "PENJELASAN_PASAL",
+                "id": "",
+                "children": [
+                  {
+                    "type": "PASAL_NUMBER",
+                    "text": "Pasal 5"
+                  },
+                  {
+                    "type": "LIST",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "PENJELASAN_LIST_ITEM",
+                        "id": "",
+                        "children": [
+                          {
+                            "type": "PENJELASAN_AYAT",
+                            "text": "Ayat (1)"
+                          },
+                          {
+                            "type": "PLAINTEXT",
+                            "text": "Cukup jelas."
+                          }
+                        ]
+                      },
+                      {
+                        "type": "PENJELASAN_LIST_ITEM",
+                        "id": "",
+                        "children": [
+                          {
+                            "type": "PENJELASAN_AYAT",
+                            "text": "Ayat (2)"
+                          },
+                          {
+                            "type": "PLAINTEXT",
+                            "text": "Lampiran peta cakupan wilayah yang digambarkan dengan skala 1:100.000."
+                          },
+                          {
+                            "type": "PLAINTEXT",
+                            "text": "Yang dimaksud dengan persetujuan pihak-pihak terkait adalah persetujuan berupa tanda tangan Bupati Mamuju, Pimpinan Dewan Perwakilan Rakyat Daerah Kabupaten Mamuju, Gubernur Sulawesi Barat, Bupati Mamuju Utara, dan Bupati Luwu Utara Provinsi Sulawesi Selatan yang wilayah cakupannya berbatasan dengan daerah otonom baru pada peta yang diterbitkan Badan Informasi Geospasial (BIG)."
+                          }
+                        ]
+                      },
+                      {
+                        "type": "PENJELASAN_LIST_ITEM",
+                        "id": "",
+                        "children": [
+                          {
+                            "type": "PENJELASAN_AYAT",
+                            "text": "Ayat (3)"
+                          },
+                          {
+                            "type": "PLAINTEXT",
+                            "text": "Cukup jelas."
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "PENJELASAN_PASAL",
+                "id": "",
+                "children": [
+                  {
+                    "type": "PASAL_NUMBER",
+                    "text": "Pasal 6"
+                  },
+                  {
+                    "type": "LIST",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "PENJELASAN_LIST_ITEM",
+                        "id": "",
+                        "children": [
+                          {
+                            "type": "PENJELASAN_AYAT",
+                            "text": "Ayat (1)"
+                          },
+                          {
+                            "type": "PLAINTEXT",
+                            "text": "Cukup jelas."
+                          }
+                        ]
+                      },
+                      {
+                        "type": "PENJELASAN_LIST_ITEM",
+                        "id": "",
+                        "children": [
+                          {
+                            "type": "PENJELASAN_AYAT",
+                            "text": "Ayat (2)"
+                          },
+                          {
+                            "type": "PLAINTEXT",
+                            "text": "Dalam rangka pengembangan Kabupaten Mamuju Tengah khususnya guna perencanaan dan penyelenggaraan pemerintahan, pelaksanaan pembangunan dan pelayanan masyarakat pada masa yang akan datang, serta pengembangan sarana dan prasarana pemerintahan, pembangunan dan kemasyarakatan, diperlukan adanya kesatuan perencanaan pembangunan. Untuk itu Rencana Tata Ruang Wilayah Kabupaten Mamuju Tengah harus disusun secara serasi dan terpadu dengan Rencana Tata Ruang Wilayah Nasional, Provinsi, dan Kabupaten/Kota."
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "PENJELASAN_PASAL",
+                "id": "",
+                "children": [
+                  {
+                    "type": "PASAL_NUMBER",
+                    "text": "Pasal 7"
+                  },
+                  {
+                    "type": "PLAINTEXT",
+                    "text": "Cukup jelas."
+                  }
+                ]
+              },
+              {
+                "type": "PENJELASAN_PASAL",
+                "id": "",
+                "children": [
+                  {
+                    "type": "PASAL_NUMBER",
+                    "text": "Pasal 8"
+                  },
+                  {
+                    "type": "PLAINTEXT",
+                    "text": "Cukup jelas."
+                  }
+                ]
+              },
+              {
+                "type": "PENJELASAN_PASAL",
+                "id": "",
+                "children": [
+                  {
+                    "type": "PASAL_NUMBER",
+                    "text": "Pasal 9"
+                  },
+                  {
+                    "type": "PLAINTEXT",
+                    "text": "Peresmian kabupaten dan pelantikan Penjabat Bupati Mamuju Tengah dapat dilakukan secara bersamaan dan pelaksanaannya dapat dilakukan di ibu kota negara, ibu kota provinsi, atau ibu kota kabupaten."
+                  }
+                ]
+              },
+              {
+                "type": "PENJELASAN_PASAL",
+                "id": "",
+                "children": [
+                  {
+                    "type": "PASAL_NUMBER",
+                    "text": "Pasal 10"
+                  },
+                  {
+                    "type": "LIST",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "PENJELASAN_LIST_ITEM",
+                        "id": "",
+                        "children": [
+                          {
+                            "type": "PENJELASAN_AYAT",
+                            "text": "Ayat (1)"
+                          },
+                          {
+                            "type": "PLAINTEXT",
+                            "text": "Cukup jelas."
+                          }
+                        ]
+                      },
+                      {
+                        "type": "PENJELASAN_LIST_ITEM",
+                        "id": "",
+                        "children": [
+                          {
+                            "type": "PENJELASAN_AYAT",
+                            "text": "Ayat (2)"
+                          },
+                          {
+                            "type": "PLAINTEXT",
+                            "text": "Penjabat Bupati Mamuju Tengah diusulkan oleh Gubernur Sulawesi Barat dengan pertimbangan Bupati Mamuju."
+                          }
+                        ]
+                      },
+                      {
+                        "type": "PENJELASAN_LIST_ITEM",
+                        "id": "",
+                        "children": [
+                          {
+                            "type": "PENJELASAN_AYAT",
+                            "text": "Ayat (3)"
+                          },
+                          {
+                            "type": "PLAINTEXT",
+                            "text": "Cukup jelas."
+                          }
+                        ]
+                      },
+                      {
+                        "type": "PENJELASAN_LIST_ITEM",
+                        "id": "",
+                        "children": [
+                          {
+                            "type": "PENJELASAN_AYAT",
+                            "text": "Ayat (4)"
+                          },
+                          {
+                            "type": "PLAINTEXT",
+                            "text": "Cukup jelas."
+                          }
+                        ]
+                      },
+                      {
+                        "type": "PENJELASAN_LIST_ITEM",
+                        "id": "",
+                        "children": [
+                          {
+                            "type": "PENJELASAN_AYAT",
+                            "text": "Ayat (5)"
+                          },
+                          {
+                            "type": "PLAINTEXT",
+                            "text": "Cukup jelas."
+                          }
+                        ]
+                      },
+                      {
+                        "type": "PENJELASAN_LIST_ITEM",
+                        "id": "",
+                        "children": [
+                          {
+                            "type": "PENJELASAN_AYAT",
+                            "text": "Ayat (6)"
+                          },
+                          {
+                            "type": "PLAINTEXT",
+                            "text": "Cukup jelas."
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "PENJELASAN_PASAL",
+                "id": "",
+                "children": [
+                  {
+                    "type": "PASAL_NUMBER",
+                    "text": "Pasal 11"
+                  },
+                  {
+                    "type": "PLAINTEXT",
+                    "text": "Biaya pelaksanaan pemilihan Bupati dan/atau Wakil Bupati Mamuju Tengah untuk pertama kali berasal dari hibah Anggaran Pendapatan dan Belanja Daerah Pemerintah Kabupaten Mamuju dan bantuan dana Anggaran Pendapatan dan Belanja Daerah Provinsi Sulawesi Barat."
+                  }
+                ]
+              },
+              {
+                "type": "PENJELASAN_PASAL",
+                "id": "",
+                "children": [
+                  {
+                    "type": "PASAL_NUMBER",
+                    "text": "Pasal 12"
+                  },
+                  {
+                    "type": "PLAINTEXT",
+                    "text": "Cukup jelas."
+                  }
+                ]
+              },
+              {
+                "type": "PENJELASAN_PASAL",
+                "id": "",
+                "children": [
+                  {
+                    "type": "PASAL_NUMBER",
+                    "text": "Pasal 13"
+                  },
+                  {
+                    "type": "PLAINTEXT",
+                    "text": "Cukup jelas."
+                  }
+                ]
+              },
+              {
+                "type": "PENJELASAN_PASAL",
+                "id": "",
+                "children": [
+                  {
+                    "type": "PASAL_NUMBER",
+                    "text": "Pasal 14"
+                  },
+                  {
+                    "type": "LIST",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "PENJELASAN_LIST_ITEM",
+                        "id": "",
+                        "children": [
+                          {
+                            "type": "PENJELASAN_AYAT",
+                            "text": "Ayat (1)"
+                          },
+                          {
+                            "type": "PLAINTEXT",
+                            "text": "Cukup jelas."
+                          }
+                        ]
+                      },
+                      {
+                        "type": "PENJELASAN_LIST_ITEM",
+                        "id": "",
+                        "children": [
+                          {
+                            "type": "PENJELASAN_AYAT",
+                            "text": "Ayat (2)"
+                          },
+                          {
+                            "type": "PLAINTEXT",
+                            "text": "Cukup jelas."
+                          }
+                        ]
+                      },
+                      {
+                        "type": "PENJELASAN_LIST_ITEM",
+                        "id": "",
+                        "children": [
+                          {
+                            "type": "PENJELASAN_AYAT",
+                            "text": "Ayat (3)"
+                          },
+                          {
+                            "type": "PLAINTEXT",
+                            "text": "Cukup jelas."
+                          }
+                        ]
+                      },
+                      {
+                        "type": "PENJELASAN_LIST_ITEM",
+                        "id": "",
+                        "children": [
+                          {
+                            "type": "PENJELASAN_AYAT",
+                            "text": "Ayat (4)"
+                          },
+                          {
+                            "type": "PLAINTEXT",
+                            "text": "Cukup jelas."
+                          }
+                        ]
+                      },
+                      {
+                        "type": "PENJELASAN_LIST_ITEM",
+                        "id": "",
+                        "children": [
+                          {
+                            "type": "PENJELASAN_AYAT",
+                            "text": "Ayat (5)"
+                          },
+                          {
+                            "type": "PLAINTEXT",
+                            "text": "Untuk mencapai daya guna dan hasil guna penyelenggaraan pemerintahan, pelaksanaan pembangunan dan pelayanan kemasyarakatan, digunakan pegawai, tanah, gedung perkantoran dan perlengkapannya, serta fasilitas pelayanan umum yang telah ada selama ini dalam pelaksanaan tugas Pemerintah Kabupaten Mamuju dalam wilayah Kabupaten Mamuju Tengah."
+                          },
+                          {
+                            "type": "PLAINTEXT",
+                            "text": "Dalam rangka tertib administrasi, diperlukan tindakan hukum berupa penyerahan personel, aset, dan dokumen dari Pemerintah Kabupaten Mamuju kepada Pemerintah Kabupaten Mamuju Tengah."
+                          },
+                          {
+                            "type": "PLAINTEXT",
+                            "text": "Badan Usaha Milik Daerah (BUMD) Kabupaten Mamuju yang berkedudukan, kegiatan, dan lokasinya berada di Kabupaten Mamuju Tengah diserahkan oleh Pemerintah Kabupaten Mamuju kepada Pemerintah Kabupaten Mamuju Tengah."
+                          },
+                          {
+                            "type": "PLAINTEXT",
+                            "text": "Dalam hal Badan Usaha Milik Daerah (BUMD) yang pelayanan/kegiatan operasionalnya mencakup kabupaten induk dan kabupaten baru, pemerintah daerah yang bersangkutan melakukan kerja sama."
+                          },
+                          {
+                            "type": "PLAINTEXT",
+                            "text": "Utang piutang yang penggunaannya dimanfaatkan untuk Kabupaten Mamuju Tengah diserahkan oleh Pemerintah Kabupaten Mamuju kepada Pemerintah Kabupaten Mamuju Tengah."
+                          },
+                          {
+                            "type": "PLAINTEXT",
+                            "text": "Berkenaan dengan pengaturan penyerahan tersebut, dibuatkan daftar inventaris."
+                          }
+                        ]
+                      },
+                      {
+                        "type": "PENJELASAN_LIST_ITEM",
+                        "id": "",
+                        "children": [
+                          {
+                            "type": "PENJELASAN_AYAT",
+                            "text": "Ayat (6)"
+                          },
+                          {
+                            "type": "PLAINTEXT",
+                            "text": "Cukup jelas."
+                          }
+                        ]
+                      },
+                      {
+                        "type": "PENJELASAN_LIST_ITEM",
+                        "id": "",
+                        "children": [
+                          {
+                            "type": "PENJELASAN_AYAT",
+                            "text": "Ayat (7)"
+                          },
+                          {
+                            "type": "PLAINTEXT",
+                            "text": "Penyerahan aset dan dokumen dilakukan sesuai dengan peraturan perundang-undangan."
+                          }
+                        ]
+                      },
+                      {
+                        "type": "PENJELASAN_LIST_ITEM",
+                        "id": "",
+                        "children": [
+                          {
+                            "type": "PENJELASAN_AYAT",
+                            "text": "Ayat (8)"
+                          },
+                          {
+                            "type": "PLAINTEXT",
+                            "text": "Cukup jelas."
+                          }
+                        ]
+                      },
+                      {
+                        "type": "PENJELASAN_LIST_ITEM",
+                        "id": "",
+                        "children": [
+                          {
+                            "type": "PENJELASAN_AYAT",
+                            "text": "Ayat (9)"
+                          },
+                          {
+                            "type": "PLAINTEXT",
+                            "text": "Cukup jelas."
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "PENJELASAN_PASAL",
+                "id": "",
+                "children": [
+                  {
+                    "type": "PASAL_NUMBER",
+                    "text": "Pasal 15"
+                  },
+                  {
+                    "type": "LIST",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "PENJELASAN_LIST_ITEM",
+                        "id": "",
+                        "children": [
+                          {
+                            "type": "PENJELASAN_AYAT",
+                            "text": "Ayat (1)"
+                          },
+                          {
+                            "type": "PLAINTEXT",
+                            "text": "Cukup jelas."
+                          }
+                        ]
+                      },
+                      {
+                        "type": "PENJELASAN_LIST_ITEM",
+                        "id": "",
+                        "children": [
+                          {
+                            "type": "PENJELASAN_AYAT",
+                            "text": "Ayat (2)"
+                          },
+                          {
+                            "type": "PLAINTEXT",
+                            "text": "Cukup jelas."
+                          }
+                        ]
+                      },
+                      {
+                        "type": "PENJELASAN_LIST_ITEM",
+                        "id": "",
+                        "children": [
+                          {
+                            "type": "PENJELASAN_AYAT",
+                            "text": "Ayat (3)"
+                          },
+                          {
+                            "type": "PLAINTEXT",
+                            "text": "Dana transfer ke daerah dilakukan untuk meningkatkan kesejahteraan rakyat dan mengoptimalkan pelayanan publik serta tidak digunakan hanya untuk pembangunan dan/atau pengadaan sarana prasarana di antaranya kantor pemerintahan, rumah dinas, dan kendaraan dinas."
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "PENJELASAN_PASAL",
+                "id": "",
+                "children": [
+                  {
+                    "type": "PASAL_NUMBER",
+                    "text": "Pasal 16"
+                  },
+                  {
+                    "type": "LIST",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "PENJELASAN_LIST_ITEM",
+                        "id": "",
+                        "children": [
+                          {
+                            "type": "PENJELASAN_AYAT",
+                            "text": "Ayat (1)"
+                          },
+                          {
+                            "type": "PLAINTEXT",
+                            "text": "Yang dimaksud dengan hibah dalam ketentuan ini adalah pemberian sejumlah uang yang besarnya didasarkan pada Keputusan Dewan Perwakilan Rakyat Daerah Kabupaten Mamuju Nomor 14 Tahun 2010 tanggal 23 Juni 2010 dan Keputusan Bupati Mamuju Nomor 198 Tahun 2010 tanggal 24 Juni 2010, termasuk untuk pelaksanaan pemilihan Bupati dan Wakil Bupati Mamuju Tengah pertama kali."
+                          }
+                        ]
+                      },
+                      {
+                        "type": "PENJELASAN_LIST_ITEM",
+                        "id": "",
+                        "children": [
+                          {
+                            "type": "PENJELASAN_AYAT",
+                            "text": "Ayat (2)"
+                          },
+                          {
+                            "type": "PLAINTEXT",
+                            "text": "Yang dimaksud dengan memberikan bantuan dana dalam ketentuan ini adalah pemberian sejumlah dana yang didasarkan pada Keputusan Dewan Perwakilan Rakyat Daerah Provinsi Sulawesi Barat Nomor 02 Tahun 2010 tanggal 24 Juni 2010, Keputusan Dewan Perwakilan Rakyat Daerah Provinsi Sulawesi Barat Nomor 17 Tahun 2012 tentang Penyempurnaan Keputusan DPRD Provinsi Sulawesi Barat Nomor 02 Tahun 2010 tentang Persetujuan Pembentukan Calon Daerah Otonom Baru Kabupaten Mamuju Tengah, dan Keputusan Gubernur Sulawesi Barat Nomor 448 Tahun 2012 tanggal 22 Oktober 2012, termasuk untuk pelaksanaan pemilihan Bupati dan Wakil Bupati Mamuju Tengah pertama kali."
+                          }
+                        ]
+                      },
+                      {
+                        "type": "PENJELASAN_LIST_ITEM",
+                        "id": "",
+                        "children": [
+                          {
+                            "type": "PENJELASAN_AYAT",
+                            "text": "Ayat (3)"
+                          },
+                          {
+                            "type": "PLAINTEXT",
+                            "text": "Cukup jelas."
+                          }
+                        ]
+                      },
+                      {
+                        "type": "PENJELASAN_LIST_ITEM",
+                        "id": "",
+                        "children": [
+                          {
+                            "type": "PENJELASAN_AYAT",
+                            "text": "Ayat (4)"
+                          },
+                          {
+                            "type": "PLAINTEXT",
+                            "text": "Pengurangan penerimaan dana perimbangan sesuai mekanisme yang diatur dalam Peraturan Menteri Keuangan mengenai tata cara pemotongan dana alokasi umum dan dana bagi hasil daerah induk/provinsi yang tidak memenuhi kewajiban hibah/bantuan pendanaan kepada daerah otonom baru."
+                          }
+                        ]
+                      },
+                      {
+                        "type": "PENJELASAN_LIST_ITEM",
+                        "id": "",
+                        "children": [
+                          {
+                            "type": "PENJELASAN_AYAT",
+                            "text": "Ayat (5)"
+                          },
+                          {
+                            "type": "PLAINTEXT",
+                            "text": "Pengurangan penerimaan dana perimbangan sesuai mekanisme yang diatur dalam Peraturan Menteri Keuangan mengenai tata cara pemotongan dana alokasi umum dan dana bagi hasil daerah induk/provinsi yang tidak memenuhi kewajiban hibah/bantuan pendanaan kepada daerah otonom baru."
+                          }
+                        ]
+                      },
+                      {
+                        "type": "PENJELASAN_LIST_ITEM",
+                        "id": "",
+                        "children": [
+                          {
+                            "type": "PENJELASAN_AYAT",
+                            "text": "Ayat (6)"
+                          },
+                          {
+                            "type": "PLAINTEXT",
+                            "text": "Cukup jelas."
+                          }
+                        ]
+                      },
+                      {
+                        "type": "PENJELASAN_LIST_ITEM",
+                        "id": "",
+                        "children": [
+                          {
+                            "type": "PENJELASAN_AYAT",
+                            "text": "Ayat (7)"
+                          },
+                          {
+                            "type": "PLAINTEXT",
+                            "text": "Cukup jelas."
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "PENJELASAN_PASAL",
+                "id": "",
+                "children": [
+                  {
+                    "type": "PASAL_NUMBER",
+                    "text": "Pasal 17"
+                  },
+                  {
+                    "type": "PLAINTEXT",
+                    "text": "Cukup jelas."
+                  }
+                ]
+              },
+              {
+                "type": "PENJELASAN_PASAL",
+                "id": "",
+                "children": [
+                  {
+                    "type": "PASAL_NUMBER",
+                    "text": "Pasal 18"
+                  },
+                  {
+                    "type": "PLAINTEXT",
+                    "text": "Cukup jelas."
+                  }
+                ]
+              },
+              {
+                "type": "PENJELASAN_PASAL",
+                "id": "",
+                "children": [
+                  {
+                    "type": "PASAL_NUMBER",
+                    "text": "Pasal 19"
+                  },
+                  {
+                    "type": "PLAINTEXT",
+                    "text": "Cukup jelas."
+                  }
+                ]
+              },
+              {
+                "type": "PENJELASAN_PASAL",
+                "id": "",
+                "children": [
+                  {
+                    "type": "PASAL_NUMBER",
+                    "text": "Pasal 20"
+                  },
+                  {
+                    "type": "PLAINTEXT",
+                    "text": "Cukup jelas."
+                  }
+                ]
+              },
+              {
+                "type": "PENJELASAN_PASAL",
+                "id": "",
+                "children": [
+                  {
+                    "type": "PASAL_NUMBER",
+                    "text": "Pasal 21"
+                  },
+                  {
+                    "type": "PLAINTEXT",
+                    "text": "Cukup jelas."
+                  }
+                ]
+              },
+              {
+                "type": "PENJELASAN_PASAL",
+                "id": "",
+                "children": [
+                  {
+                    "type": "PASAL_NUMBER",
+                    "text": "Pasal 22"
+                  },
+                  {
+                    "type": "PLAINTEXT",
+                    "text": "Cukup jelas."
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

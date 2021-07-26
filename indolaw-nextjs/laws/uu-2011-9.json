@@ -1,0 +1,3396 @@
+{
+  "metadata": {
+    "lembaranNegaraNumber": 78,
+    "lembaranNegaraYear": 2011,
+    "tambahanLembaranNumber": 5231,
+    "number": 9,
+    "topic": "Perubahan Atas Undang-undang Nomor 9 Tahun 2006 Tentang Sistem Resi Gudang",
+    "year": 2011
+  },
+  "content": {
+    "type": "UNDANG_UNDANG",
+    "id": "",
+    "children": [
+      {
+        "type": "OPENING",
+        "id": "",
+        "children": [
+          {
+            "type": "UU_TITLE",
+            "id": "",
+            "children": [
+              {
+                "type": "PLAINTEXT",
+                "text": "UNDANG-UNDANG REPUBLIK INDONESIA"
+              },
+              {
+                "type": "UU_TITLE_YEAR_AND_NUMBER",
+                "text": "NOMOR 9 TAHUN 2011"
+              },
+              {
+                "type": "PLAINTEXT",
+                "text": "TENTANG"
+              },
+              {
+                "type": "UU_TITLE_TOPIC",
+                "text": "PERUBAHAN ATAS UNDANG-UNDANG NOMOR 9 TAHUN 2006 TENTANG SISTEM RESI GUDANG"
+              }
+            ]
+          },
+          {
+            "type": "PREFACE",
+            "id": "",
+            "children": [
+              {
+                "type": "PLAINTEXT",
+                "text": "DENGAN RAHMAT TUHAN YANG MAHA ESA"
+              },
+              {
+                "type": "PLAINTEXT",
+                "text": "PRESIDEN REPUBLIK INDONESIA,"
+              }
+            ]
+          },
+          {
+            "type": "CONSIDERATIONS",
+            "id": "",
+            "children": [
+              {
+                "type": "PLAINTEXT",
+                "text": "Menimbang:"
+              },
+              {
+                "type": "LIST",
+                "id": "",
+                "children": [
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "LETTER_WITH_DOT",
+                        "text": "a."
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "bahwa Sistem Resi Gudang bertujuan untuk meningkatkan kesejahteraan masyarakat yang berkeadilan sosial berdasarkan Pancasila dan Undang-Undang Dasar Negara Republik Indonesia Tahun 1945;"
+                      }
+                    ]
+                  },
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "LETTER_WITH_DOT",
+                        "text": "b."
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "bahwa untuk memenuhi kebutuhan pelaku usaha di bidang Sistem Resi Gudang perlu adanya pengaturan mengenai Lembaga Jaminan Resi Gudang;"
+                      }
+                    ]
+                  },
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "LETTER_WITH_DOT",
+                        "text": "c."
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "bahwa berdasarkan pertimbangan sebagaimana dimaksud dalam huruf a dan huruf b, perlu membentuk Undang-Undang tentang Perubahan atas Undang-Undang Nomor 9 Tahun 2006 tentang Sistem Resi Gudang;"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "PRINCIPLES",
+            "id": "",
+            "children": [
+              {
+                "type": "PLAINTEXT",
+                "text": "Mengingat:"
+              },
+              {
+                "type": "PLAINTEXT",
+                "text": "Pasal 20, Pasal 21, dan Pasal 33 ayat (1) dan ayat (4) Undang-Undang Dasar Negara Republik Indonesia Tahun 1945;"
+              }
+            ]
+          },
+          {
+            "type": "AGREEMENT",
+            "id": "",
+            "children": [
+              {
+                "type": "PLAINTEXT",
+                "text": "Dengan Persetujuan Bersama:"
+              },
+              {
+                "type": "PLAINTEXT",
+                "text": "DEWAN PERWAKILAN RAKYAT REPUBLIK INDONESIA"
+              },
+              {
+                "type": "PLAINTEXT",
+                "text": "dan"
+              },
+              {
+                "type": "PLAINTEXT",
+                "text": "PRESIDEN REPUBLIK INDONESIA"
+              },
+              {
+                "type": "PLAINTEXT",
+                "text": "MEMUTUSKAN:"
+              },
+              {
+                "type": "PLAINTEXT",
+                "text": "Menetapkan:"
+              },
+              {
+                "type": "PLAINTEXT",
+                "text": "UNDANG-UNDANG TENTANG PERUBAHAN ATAS UNDANG-UNDANG NOMOR 9 TAHUN 2006 TENTANG SISTEM RESI GUDANG"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "PASAL",
+        "id": "pasal-I",
+        "children": [
+          {
+            "type": "PASAL_NUMBER",
+            "text": "Pasal I"
+          },
+          {
+            "type": "PLAINTEXT",
+            "text": "Beberapa ketentuan dalam Undang-Undang Nomor 9 Tahun 2006 tentang Sistem Resi Gudang (Lembaran Negara Republik Indonesia Tahun 2006 Nomor 59, Tambahan Lembaran Negara Republik Indonesia Nomor 4630) diubah sebagai berikut:"
+          },
+          {
+            "type": "LIST",
+            "id": "",
+            "children": [
+              {
+                "type": "LIST_ITEM",
+                "id": "",
+                "children": [
+                  {
+                    "type": "NUMBER_WITH_DOT",
+                    "text": "1."
+                  },
+                  {
+                    "type": "PLAINTEXT",
+                    "text": "Ketentuan Pasal 1 angka 12 diubah dan ditambahkan 2 (dua) angka, yakni angka 14 dan angka 15 sehingga Pasal 1 berbunyi sebagai berikut:"
+                  },
+                  {
+                    "type": "PERUBAHAN_SECTION",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "PERUBAHAN_PASAL",
+                        "id": "perubahan-pasal-1",
+                        "children": [
+                          {
+                            "type": "PASAL_NUMBER",
+                            "text": "Pasal 1"
+                          },
+                          {
+                            "type": "PLAINTEXT",
+                            "text": "Dalam Undang-Undang ini yang dimaksud dengan:"
+                          },
+                          {
+                            "type": "LIST",
+                            "id": "",
+                            "children": [
+                              {
+                                "type": "LIST_ITEM",
+                                "id": "",
+                                "children": [
+                                  {
+                                    "type": "NUMBER_WITH_DOT",
+                                    "text": "1."
+                                  },
+                                  {
+                                    "type": "PLAINTEXT",
+                                    "text": "Sistem Resi Gudang adalah kegiatan yang berkaitan dengan penerbitan, pengalihan, penjaminan, dan penyelesaian transaksi Resi Gudang."
+                                  }
+                                ]
+                              },
+                              {
+                                "type": "LIST_ITEM",
+                                "id": "",
+                                "children": [
+                                  {
+                                    "type": "NUMBER_WITH_DOT",
+                                    "text": "2."
+                                  },
+                                  {
+                                    "type": "PLAINTEXT",
+                                    "text": "Resi Gudang adalah dokumen bukti kepemilikan atas barang yang disimpan di Gudang yang diterbitkan oleh Pengelola Gudang."
+                                  }
+                                ]
+                              },
+                              {
+                                "type": "LIST_ITEM",
+                                "id": "",
+                                "children": [
+                                  {
+                                    "type": "NUMBER_WITH_DOT",
+                                    "text": "3."
+                                  },
+                                  {
+                                    "type": "PLAINTEXT",
+                                    "text": "Derivatif Resi Gudang adalah turunan Resi Gudang yang dapat berupa kontrak berjangka Resi Gudang, Opsi atas Resi Gudang, indeks atas Resi Gudang, surat berharga diskonto Resi Gudang, unit Resi Gudang, atau derivatif lainnya dari Resi Gudang sebagai instrumen keuangan."
+                                  }
+                                ]
+                              },
+                              {
+                                "type": "LIST_ITEM",
+                                "id": "",
+                                "children": [
+                                  {
+                                    "type": "NUMBER_WITH_DOT",
+                                    "text": "4."
+                                  },
+                                  {
+                                    "type": "PLAINTEXT",
+                                    "text": "Gudang adalah semua ruangan yang tidak bergerak dan tidak dapat dipindah-pindahkan dengan tujuan tidak dikunjungi oleh umum, tetapi untuk dipakai khusus sebagai tempat penyimpanan barang yang dapat diperdagangkan secara umum dan memenuhi syarat-syarat lain yang ditetapkan oleh Menteri."
+                                  }
+                                ]
+                              },
+                              {
+                                "type": "LIST_ITEM",
+                                "id": "",
+                                "children": [
+                                  {
+                                    "type": "NUMBER_WITH_DOT",
+                                    "text": "5."
+                                  },
+                                  {
+                                    "type": "PLAINTEXT",
+                                    "text": "Barang adalah setiap benda bergerak yang dapat disimpan dalam jangka waktu tertentu dan diperdagangkan secara umum."
+                                  }
+                                ]
+                              },
+                              {
+                                "type": "LIST_ITEM",
+                                "id": "",
+                                "children": [
+                                  {
+                                    "type": "NUMBER_WITH_DOT",
+                                    "text": "6."
+                                  },
+                                  {
+                                    "type": "PLAINTEXT",
+                                    "text": "Barang Bercampur adalah barang-barang yang secara alami atau kebiasaan dalam praktik perdagangan dianggap setara serta sama satuan unitnya dan dapat disimpan secara bercampur."
+                                  }
+                                ]
+                              },
+                              {
+                                "type": "LIST_ITEM",
+                                "id": "",
+                                "children": [
+                                  {
+                                    "type": "NUMBER_WITH_DOT",
+                                    "text": "7."
+                                  },
+                                  {
+                                    "type": "PLAINTEXT",
+                                    "text": "Pemegang Resi Gudang adalah pemilik barang atau pihak yang menerima pengalihan dari pemilik barang atau pihak lain yang menerima pengalihan lebih lanjut."
+                                  }
+                                ]
+                              },
+                              {
+                                "type": "LIST_ITEM",
+                                "id": "",
+                                "children": [
+                                  {
+                                    "type": "NUMBER_WITH_DOT",
+                                    "text": "8."
+                                  },
+                                  {
+                                    "type": "PLAINTEXT",
+                                    "text": "Pengelola Gudang adalah pihak yang melakukan usaha pergudangan, baik Gudang milik sendiri maupun milik orang lain, yang melakukan penyimpanan, pemeliharaan, dan pengawasan barang yang disimpan oleh pemilik barang serta berhak menerbitkan Resi Gudang."
+                                  }
+                                ]
+                              },
+                              {
+                                "type": "LIST_ITEM",
+                                "id": "",
+                                "children": [
+                                  {
+                                    "type": "NUMBER_WITH_DOT",
+                                    "text": "9."
+                                  },
+                                  {
+                                    "type": "PLAINTEXT",
+                                    "text": "Hak Jaminan atas Resi Gudang, yang selanjutnya disebut Hak Jaminan, adalah hak jaminan yang dibebankan pada Resi Gudang untuk pelunasan utang, yang memberikan kedudukan untuk diutamakan bagi penerima hak jaminan terhadap kreditor yang lain."
+                                  }
+                                ]
+                              },
+                              {
+                                "type": "LIST_ITEM",
+                                "id": "",
+                                "children": [
+                                  {
+                                    "type": "NUMBER_WITH_DOT",
+                                    "text": "10."
+                                  },
+                                  {
+                                    "type": "PLAINTEXT",
+                                    "text": "Menteri adalah Menteri yang melaksanakan urusan pemerintahan di bidang perdagangan."
+                                  }
+                                ]
+                              },
+                              {
+                                "type": "LIST_ITEM",
+                                "id": "",
+                                "children": [
+                                  {
+                                    "type": "NUMBER_WITH_DOT",
+                                    "text": "11."
+                                  },
+                                  {
+                                    "type": "PLAINTEXT",
+                                    "text": "Badan Pengawas Sistem Resi Gudang yang selanjutnya disebut Badan Pengawas adalah unit organisasi di bawah Menteri yang diberi wewenang untuk melakukan pembinaan, pengaturan, dan pengawasan pelaksanaan Sistem Resi Gudang."
+                                  }
+                                ]
+                              },
+                              {
+                                "type": "LIST_ITEM",
+                                "id": "",
+                                "children": [
+                                  {
+                                    "type": "NUMBER_WITH_DOT",
+                                    "text": "12."
+                                  },
+                                  {
+                                    "type": "PLAINTEXT",
+                                    "text": "Lembaga Penilaian Kesesuaian adalah lembaga yang telah mendapat persetujuan Badan Pengawas untuk melakukan serangkaian kegiatan untuk menilai atau membuktikan bahwa persyaratan tertentu yang berkaitan dengan produk, proses, sistem, dan/atau personel terpenuhi."
+                                  }
+                                ]
+                              },
+                              {
+                                "type": "LIST_ITEM",
+                                "id": "",
+                                "children": [
+                                  {
+                                    "type": "NUMBER_WITH_DOT",
+                                    "text": "13."
+                                  },
+                                  {
+                                    "type": "PLAINTEXT",
+                                    "text": "Pusat Registrasi Resi Gudang yang selanjutnya disebut Pusat Registrasi adalah badan usaha berbadan hukum yang mendapat persetujuan Badan Pengawas untuk melakukan penatausahaan Resi Gudang dan Derivatif Resi Gudang yang meliputi pencatatan, penyimpanan, pemindahbukuan kepemilikan, pembebanan hak jaminan, pelaporan, serta penyediaan sistem dan jaringan informasi."
+                                  }
+                                ]
+                              },
+                              {
+                                "type": "LIST_ITEM",
+                                "id": "",
+                                "children": [
+                                  {
+                                    "type": "NUMBER_WITH_DOT",
+                                    "text": "14."
+                                  },
+                                  {
+                                    "type": "PLAINTEXT",
+                                    "text": "Lembaga Jaminan Resi Gudang yang selanjutnya disebut Lembaga Jaminan adalah badan hukum Indonesia yang menjamin hak dan kepentingan pemegang Resi Gudang atau Penerima Hak Jaminan terhadap kegagalan, kelalaian, atau ketidakmampuan Pengelola Gudang dalam melaksanakan kewajibannya dalam menyimpan dan menyerahkan barang."
+                                  }
+                                ]
+                              },
+                              {
+                                "type": "LIST_ITEM",
+                                "id": "",
+                                "children": [
+                                  {
+                                    "type": "NUMBER_WITH_DOT",
+                                    "text": "15."
+                                  },
+                                  {
+                                    "type": "PLAINTEXT",
+                                    "text": "Penerima Hak Jaminan adalah pihak yang memegang atau berhak atas Hak Jaminan atas Resi Gudang sesuai dengan Akta Pembebanan Hak Jaminan."
+                                  }
+                                ]
+                              }
+                            ]
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "LIST_ITEM",
+                "id": "",
+                "children": [
+                  {
+                    "type": "NUMBER_WITH_DOT",
+                    "text": "2."
+                  },
+                  {
+                    "type": "PLAINTEXT",
+                    "text": "Ketentuan Pasal 5 huruf b dan huruf g diubah serta huruf k dihapus sehingga Pasal 5 berbunyi sebagai berikut:"
+                  },
+                  {
+                    "type": "PERUBAHAN_SECTION",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "PERUBAHAN_PASAL",
+                        "id": "perubahan-pasal-5",
+                        "children": [
+                          {
+                            "type": "PASAL_NUMBER",
+                            "text": "Pasal 5"
+                          },
+                          {
+                            "type": "PLAINTEXT",
+                            "text": "Resi Gudang harus memuat sekurang-kurangnya:"
+                          },
+                          {
+                            "type": "LIST",
+                            "id": "",
+                            "children": [
+                              {
+                                "type": "LIST_ITEM",
+                                "id": "",
+                                "children": [
+                                  {
+                                    "type": "LETTER_WITH_DOT",
+                                    "text": "a."
+                                  },
+                                  {
+                                    "type": "PLAINTEXT",
+                                    "text": "judul Resi Gudang;"
+                                  }
+                                ]
+                              },
+                              {
+                                "type": "LIST_ITEM",
+                                "id": "",
+                                "children": [
+                                  {
+                                    "type": "LETTER_WITH_DOT",
+                                    "text": "b."
+                                  },
+                                  {
+                                    "type": "PLAINTEXT",
+                                    "text": "jenis Resi Gudang;"
+                                  }
+                                ]
+                              },
+                              {
+                                "type": "LIST_ITEM",
+                                "id": "",
+                                "children": [
+                                  {
+                                    "type": "LETTER_WITH_DOT",
+                                    "text": "c."
+                                  },
+                                  {
+                                    "type": "PLAINTEXT",
+                                    "text": "nama dan alamat pihak pemilik barang;"
+                                  }
+                                ]
+                              },
+                              {
+                                "type": "LIST_ITEM",
+                                "id": "",
+                                "children": [
+                                  {
+                                    "type": "LETTER_WITH_DOT",
+                                    "text": "d."
+                                  },
+                                  {
+                                    "type": "PLAINTEXT",
+                                    "text": "lokasi gudang tempat penyimpanan barang;"
+                                  }
+                                ]
+                              },
+                              {
+                                "type": "LIST_ITEM",
+                                "id": "",
+                                "children": [
+                                  {
+                                    "type": "LETTER_WITH_DOT",
+                                    "text": "e."
+                                  },
+                                  {
+                                    "type": "PLAINTEXT",
+                                    "text": "tanggal penerbitan;"
+                                  }
+                                ]
+                              },
+                              {
+                                "type": "LIST_ITEM",
+                                "id": "",
+                                "children": [
+                                  {
+                                    "type": "LETTER_WITH_DOT",
+                                    "text": "f."
+                                  },
+                                  {
+                                    "type": "PLAINTEXT",
+                                    "text": "nomor penerbitan;"
+                                  }
+                                ]
+                              },
+                              {
+                                "type": "LIST_ITEM",
+                                "id": "",
+                                "children": [
+                                  {
+                                    "type": "LETTER_WITH_DOT",
+                                    "text": "g."
+                                  },
+                                  {
+                                    "type": "PLAINTEXT",
+                                    "text": "waktu jatuh tempo simpan barang;"
+                                  }
+                                ]
+                              },
+                              {
+                                "type": "LIST_ITEM",
+                                "id": "",
+                                "children": [
+                                  {
+                                    "type": "LETTER_WITH_DOT",
+                                    "text": "h."
+                                  },
+                                  {
+                                    "type": "PLAINTEXT",
+                                    "text": "deskripsi barang;"
+                                  }
+                                ]
+                              },
+                              {
+                                "type": "LIST_ITEM",
+                                "id": "",
+                                "children": [
+                                  {
+                                    "type": "LETTER_WITH_DOT",
+                                    "text": "i."
+                                  },
+                                  {
+                                    "type": "PLAINTEXT",
+                                    "text": "biaya penyimpanan;"
+                                  }
+                                ]
+                              },
+                              {
+                                "type": "LIST_ITEM",
+                                "id": "",
+                                "children": [
+                                  {
+                                    "type": "LETTER_WITH_DOT",
+                                    "text": "j."
+                                  },
+                                  {
+                                    "type": "PLAINTEXT",
+                                    "text": "tanda tangan pemilik barang dan Pengelola Gudang; dan"
+                                  }
+                                ]
+                              },
+                              {
+                                "type": "LIST_ITEM",
+                                "id": "",
+                                "children": [
+                                  {
+                                    "type": "LETTER_WITH_DOT",
+                                    "text": "k."
+                                  },
+                                  {
+                                    "type": "PLAINTEXT",
+                                    "text": "dihapus."
+                                  }
+                                ]
+                              }
+                            ]
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "LIST_ITEM",
+                "id": "",
+                "children": [
+                  {
+                    "type": "NUMBER_WITH_DOT",
+                    "text": "3."
+                  },
+                  {
+                    "type": "PLAINTEXT",
+                    "text": "Ketentuan Pasal 21 huruf b diubah sehingga Pasal 21 berbunyi sebagai berikut:"
+                  },
+                  {
+                    "type": "PERUBAHAN_SECTION",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "PERUBAHAN_PASAL",
+                        "id": "perubahan-pasal-21",
+                        "children": [
+                          {
+                            "type": "PASAL_NUMBER",
+                            "text": "Pasal 21"
+                          },
+                          {
+                            "type": "PLAINTEXT",
+                            "text": "Dalam melaksanakan tugas dan tanggung jawab sebagaimana dimaksud dalam Pasal 20 ayat (1), Badan Pengawas berwenang:"
+                          },
+                          {
+                            "type": "LIST",
+                            "id": "",
+                            "children": [
+                              {
+                                "type": "LIST_ITEM",
+                                "id": "",
+                                "children": [
+                                  {
+                                    "type": "LETTER_WITH_DOT",
+                                    "text": "a."
+                                  },
+                                  {
+                                    "type": "PLAINTEXT",
+                                    "text": "memberikan persetujuan sebagai Pengelola Gudang, Lembaga Penilaian Kesesuaian, dan Pusat Registrasi serta bank, lembaga keuangan non-bank, dan pedagang berjangka sebagai penerbit Derivatif Resi Gudang;"
+                                  }
+                                ]
+                              },
+                              {
+                                "type": "LIST_ITEM",
+                                "id": "",
+                                "children": [
+                                  {
+                                    "type": "LETTER_WITH_DOT",
+                                    "text": "b."
+                                  },
+                                  {
+                                    "type": "PLAINTEXT",
+                                    "text": "melakukan pemeriksaan teknis terhadap Pengelola Gudang, Lembaga Penilaian Kesesuaian, Pusat Registrasi, dan pedagang berjangka;"
+                                  }
+                                ]
+                              },
+                              {
+                                "type": "LIST_ITEM",
+                                "id": "",
+                                "children": [
+                                  {
+                                    "type": "LETTER_WITH_DOT",
+                                    "text": "c."
+                                  },
+                                  {
+                                    "type": "PLAINTEXT",
+                                    "text": "memerintahkan pemeriksaan dan penyidikan terhadap setiap pihak yang diduga melakukan pelanggaran terhadap ketentuan Undang-Undang ini dan/atau peraturan pelaksanaannya;"
+                                  }
+                                ]
+                              },
+                              {
+                                "type": "LIST_ITEM",
+                                "id": "",
+                                "children": [
+                                  {
+                                    "type": "LETTER_WITH_DOT",
+                                    "text": "d."
+                                  },
+                                  {
+                                    "type": "PLAINTEXT",
+                                    "text": "menunjuk pihak lain untuk melakukan pemeriksaan tertentu;"
+                                  }
+                                ]
+                              },
+                              {
+                                "type": "LIST_ITEM",
+                                "id": "",
+                                "children": [
+                                  {
+                                    "type": "LETTER_WITH_DOT",
+                                    "text": "e."
+                                  },
+                                  {
+                                    "type": "PLAINTEXT",
+                                    "text": "melakukan tindakan yang diperlukan untuk mencegah kerugian masyarakat sebagai akibat pelanggaran ketentuan Undang-Undang ini dan/atau peraturan pelaksanaannya; dan"
+                                  }
+                                ]
+                              },
+                              {
+                                "type": "LIST_ITEM",
+                                "id": "",
+                                "children": [
+                                  {
+                                    "type": "LETTER_WITH_DOT",
+                                    "text": "f."
+                                  },
+                                  {
+                                    "type": "PLAINTEXT",
+                                    "text": "membuat penjelasan lebih lanjut yang bersifat teknis berdasarkan Undang-Undang ini dan/atau peraturan pelaksanaannya."
+                                  }
+                                ]
+                              }
+                            ]
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "LIST_ITEM",
+                "id": "",
+                "children": [
+                  {
+                    "type": "NUMBER_WITH_DOT",
+                    "text": "4."
+                  },
+                  {
+                    "type": "PLAINTEXT",
+                    "text": "Ketentuan Pasal 29 huruf d dihapus dan huruf g diubah sehingga Pasal 29 berbunyi sebagai berikut:"
+                  },
+                  {
+                    "type": "PERUBAHAN_SECTION",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "PERUBAHAN_PASAL",
+                        "id": "perubahan-pasal-29",
+                        "children": [
+                          {
+                            "type": "PASAL_NUMBER",
+                            "text": "Pasal 29"
+                          },
+                          {
+                            "type": "PLAINTEXT",
+                            "text": "Lembaga Penilaian Kesesuaian mengeluarkan sertifikat untuk barang yang sekurang-kurangnya memuat:"
+                          },
+                          {
+                            "type": "LIST",
+                            "id": "",
+                            "children": [
+                              {
+                                "type": "LIST_ITEM",
+                                "id": "",
+                                "children": [
+                                  {
+                                    "type": "LETTER_WITH_DOT",
+                                    "text": "a."
+                                  },
+                                  {
+                                    "type": "PLAINTEXT",
+                                    "text": "nomor dan tanggal penerbitan;"
+                                  }
+                                ]
+                              },
+                              {
+                                "type": "LIST_ITEM",
+                                "id": "",
+                                "children": [
+                                  {
+                                    "type": "LETTER_WITH_DOT",
+                                    "text": "b."
+                                  },
+                                  {
+                                    "type": "PLAINTEXT",
+                                    "text": "identitas pemilik barang;"
+                                  }
+                                ]
+                              },
+                              {
+                                "type": "LIST_ITEM",
+                                "id": "",
+                                "children": [
+                                  {
+                                    "type": "LETTER_WITH_DOT",
+                                    "text": "c."
+                                  },
+                                  {
+                                    "type": "PLAINTEXT",
+                                    "text": "jenis dan jumlah barang;"
+                                  }
+                                ]
+                              },
+                              {
+                                "type": "LIST_ITEM",
+                                "id": "",
+                                "children": [
+                                  {
+                                    "type": "LETTER_WITH_DOT",
+                                    "text": "d."
+                                  },
+                                  {
+                                    "type": "PLAINTEXT",
+                                    "text": "dihapus;"
+                                  }
+                                ]
+                              },
+                              {
+                                "type": "LIST_ITEM",
+                                "id": "",
+                                "children": [
+                                  {
+                                    "type": "LETTER_WITH_DOT",
+                                    "text": "e."
+                                  },
+                                  {
+                                    "type": "PLAINTEXT",
+                                    "text": "metode pengujian mutu barang;"
+                                  }
+                                ]
+                              },
+                              {
+                                "type": "LIST_ITEM",
+                                "id": "",
+                                "children": [
+                                  {
+                                    "type": "LETTER_WITH_DOT",
+                                    "text": "f."
+                                  },
+                                  {
+                                    "type": "PLAINTEXT",
+                                    "text": "tingkat mutu dan kelas barang;"
+                                  }
+                                ]
+                              },
+                              {
+                                "type": "LIST_ITEM",
+                                "id": "",
+                                "children": [
+                                  {
+                                    "type": "LETTER_WITH_DOT",
+                                    "text": "g."
+                                  },
+                                  {
+                                    "type": "PLAINTEXT",
+                                    "text": "jangka waktu sertifikat untuk barang; dan"
+                                  }
+                                ]
+                              },
+                              {
+                                "type": "LIST_ITEM",
+                                "id": "",
+                                "children": [
+                                  {
+                                    "type": "LETTER_WITH_DOT",
+                                    "text": "h."
+                                  },
+                                  {
+                                    "type": "PLAINTEXT",
+                                    "text": "tanda tangan pihak yang berwenang mewakili lembaga."
+                                  }
+                                ]
+                              }
+                            ]
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "LIST_ITEM",
+                "id": "",
+                "children": [
+                  {
+                    "type": "NUMBER_WITH_DOT",
+                    "text": "5."
+                  },
+                  {
+                    "type": "PLAINTEXT",
+                    "text": "Ketentuan Pasal 32 huruf e diubah dan ditambahkan 1 (satu) ayat, yakni ayat (2) sehingga Pasal 32 berbunyi sebagai berikut:"
+                  },
+                  {
+                    "type": "PERUBAHAN_SECTION",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "PERUBAHAN_PASAL",
+                        "id": "perubahan-pasal-32",
+                        "children": [
+                          {
+                            "type": "PASAL_NUMBER",
+                            "text": "Pasal 32"
+                          },
+                          {
+                            "type": "LIST",
+                            "id": "",
+                            "children": [
+                              {
+                                "type": "LIST_ITEM",
+                                "id": "",
+                                "children": [
+                                  {
+                                    "type": "NUMBER_WITH_BRACKETS",
+                                    "text": "(1)"
+                                  },
+                                  {
+                                    "type": "PLAINTEXT",
+                                    "text": "Urusan Pemerintah Pusat di bidang pembinaan Sistem Resi Gudang meliputi:"
+                                  },
+                                  {
+                                    "type": "LIST",
+                                    "id": "",
+                                    "children": [
+                                      {
+                                        "type": "LIST_ITEM",
+                                        "id": "",
+                                        "children": [
+                                          {
+                                            "type": "LETTER_WITH_DOT",
+                                            "text": "a."
+                                          },
+                                          {
+                                            "type": "PLAINTEXT",
+                                            "text": "penyusunan kebijakan nasional untuk mempercepat pengembangan Sistem Resi Gudang;"
+                                          }
+                                        ]
+                                      },
+                                      {
+                                        "type": "LIST_ITEM",
+                                        "id": "",
+                                        "children": [
+                                          {
+                                            "type": "LETTER_WITH_DOT",
+                                            "text": "b."
+                                          },
+                                          {
+                                            "type": "PLAINTEXT",
+                                            "text": "pengoordinasian antarsektor pertanian, keuangan, perbankan, dan sektor terkait lainnya untuk pengembangan Sistem Resi Gudang;"
+                                          }
+                                        ]
+                                      },
+                                      {
+                                        "type": "LIST_ITEM",
+                                        "id": "",
+                                        "children": [
+                                          {
+                                            "type": "LETTER_WITH_DOT",
+                                            "text": "c."
+                                          },
+                                          {
+                                            "type": "PLAINTEXT",
+                                            "text": "pengoordinasian antara Sistem Resi Gudang dan Perdagangan Berjangka Komoditi;"
+                                          }
+                                        ]
+                                      },
+                                      {
+                                        "type": "LIST_ITEM",
+                                        "id": "",
+                                        "children": [
+                                          {
+                                            "type": "LETTER_WITH_DOT",
+                                            "text": "d."
+                                          },
+                                          {
+                                            "type": "PLAINTEXT",
+                                            "text": "pengembangan standardisasi komoditas dan pengembangan infrastruktur teknologi informasi;"
+                                          }
+                                        ]
+                                      },
+                                      {
+                                        "type": "LIST_ITEM",
+                                        "id": "",
+                                        "children": [
+                                          {
+                                            "type": "LETTER_WITH_DOT",
+                                            "text": "e."
+                                          },
+                                          {
+                                            "type": "PLAINTEXT",
+                                            "text": "pemberian kemudahan bagi sektor koperasi, usaha kecil dan menengah, serta kelompok tani di bidang Sistem Resi Gudang; dan"
+                                          }
+                                        ]
+                                      },
+                                      {
+                                        "type": "LIST_ITEM",
+                                        "id": "",
+                                        "children": [
+                                          {
+                                            "type": "LETTER_WITH_DOT",
+                                            "text": "f."
+                                          },
+                                          {
+                                            "type": "PLAINTEXT",
+                                            "text": "penguatan kelembagaan Sistem Resi Gudang dan infrastruktur pendukungnya, khususnya sektor keuangan dan pasar lelang komoditas."
+                                          }
+                                        ]
+                                      }
+                                    ]
+                                  }
+                                ]
+                              },
+                              {
+                                "type": "LIST_ITEM",
+                                "id": "",
+                                "children": [
+                                  {
+                                    "type": "NUMBER_WITH_BRACKETS",
+                                    "text": "(2)"
+                                  },
+                                  {
+                                    "type": "PLAINTEXT",
+                                    "text": "Urusan Pemerintah Pusat di bidang pembinaan Sistem Resi Gudang sebagaimana dimaksud pada ayat (1) dilaksanakan dan dikoordinasikan oleh Menteri."
+                                  }
+                                ]
+                              }
+                            ]
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "LIST_ITEM",
+                "id": "",
+                "children": [
+                  {
+                    "type": "NUMBER_WITH_DOT",
+                    "text": "6."
+                  },
+                  {
+                    "type": "PLAINTEXT",
+                    "text": "Ketentuan Pasal 33 ditambahkan 1 (satu) ayat, yakni ayat (2) sehingga Pasal 33 berbunyi sebagai berikut:"
+                  },
+                  {
+                    "type": "PERUBAHAN_SECTION",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "PERUBAHAN_PASAL",
+                        "id": "perubahan-pasal-33",
+                        "children": [
+                          {
+                            "type": "PASAL_NUMBER",
+                            "text": "Pasal 33"
+                          },
+                          {
+                            "type": "LIST",
+                            "id": "",
+                            "children": [
+                              {
+                                "type": "LIST_ITEM",
+                                "id": "",
+                                "children": [
+                                  {
+                                    "type": "NUMBER_WITH_BRACKETS",
+                                    "text": "(1)"
+                                  },
+                                  {
+                                    "type": "PLAINTEXT",
+                                    "text": "Urusan Pemerintah Daerah di bidang pembinaan Sistem Resi Gudang meliputi:"
+                                  },
+                                  {
+                                    "type": "LIST",
+                                    "id": "",
+                                    "children": [
+                                      {
+                                        "type": "LIST_ITEM",
+                                        "id": "",
+                                        "children": [
+                                          {
+                                            "type": "LETTER_WITH_DOT",
+                                            "text": "a."
+                                          },
+                                          {
+                                            "type": "PLAINTEXT",
+                                            "text": "pembuatan kebijakan daerah untuk mempercepat pelaksanaan Sistem Resi Gudang;"
+                                          }
+                                        ]
+                                      },
+                                      {
+                                        "type": "LIST_ITEM",
+                                        "id": "",
+                                        "children": [
+                                          {
+                                            "type": "LETTER_WITH_DOT",
+                                            "text": "b."
+                                          },
+                                          {
+                                            "type": "PLAINTEXT",
+                                            "text": "pengembangan komoditas unggulan di daerah;"
+                                          }
+                                        ]
+                                      },
+                                      {
+                                        "type": "LIST_ITEM",
+                                        "id": "",
+                                        "children": [
+                                          {
+                                            "type": "LETTER_WITH_DOT",
+                                            "text": "c."
+                                          },
+                                          {
+                                            "type": "PLAINTEXT",
+                                            "text": "penguatan peran pelaku usaha ekonomi kerakyatan untuk mengembangkan pelaksanaan Sistem Resi Gudang; dan"
+                                          }
+                                        ]
+                                      },
+                                      {
+                                        "type": "LIST_ITEM",
+                                        "id": "",
+                                        "children": [
+                                          {
+                                            "type": "LETTER_WITH_DOT",
+                                            "text": "d."
+                                          },
+                                          {
+                                            "type": "PLAINTEXT",
+                                            "text": "pemfasilitasian pengembangan pasar lelang komoditas."
+                                          }
+                                        ]
+                                      }
+                                    ]
+                                  }
+                                ]
+                              },
+                              {
+                                "type": "LIST_ITEM",
+                                "id": "",
+                                "children": [
+                                  {
+                                    "type": "NUMBER_WITH_BRACKETS",
+                                    "text": "(2)"
+                                  },
+                                  {
+                                    "type": "PLAINTEXT",
+                                    "text": "Urusan Pemerintah Daerah di bidang pembinaan Sistem Resi Gudang sebagaimana dimaksud pada ayat (1) dikoordinasikan dengan Badan Pengawas."
+                                  }
+                                ]
+                              }
+                            ]
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "LIST_ITEM",
+                "id": "",
+                "children": [
+                  {
+                    "type": "NUMBER_WITH_DOT",
+                    "text": "7."
+                  },
+                  {
+                    "type": "PLAINTEXT",
+                    "text": "Di antara BAB IV dan BAB V disisipkan 1 (satu) bab, yakni BAB IVA sehingga berbunyi sebagai berikut:"
+                  },
+                  {
+                    "type": "PERUBAHAN_SECTION",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "PERUBAHAN_BAB",
+                        "id": "",
+                        "children": [
+                          {
+                            "type": "BAB_NUMBER",
+                            "text": "BAB IVA"
+                          },
+                          {
+                            "type": "BAB_TITLE",
+                            "text": "LEMBAGA JAMINAN RESI GUDANG"
+                          },
+                          {
+                            "type": "PERUBAHAN_PASAL",
+                            "id": "perubahan-pasal-37A",
+                            "children": [
+                              {
+                                "type": "PASAL_NUMBER",
+                                "text": "Pasal 37A"
+                              },
+                              {
+                                "type": "LIST",
+                                "id": "",
+                                "children": [
+                                  {
+                                    "type": "LIST_ITEM",
+                                    "id": "",
+                                    "children": [
+                                      {
+                                        "type": "NUMBER_WITH_BRACKETS",
+                                        "text": "(1)"
+                                      },
+                                      {
+                                        "type": "PLAINTEXT",
+                                        "text": "Berdasarkan Undang-Undang ini dibentuk Lembaga Jaminan."
+                                      }
+                                    ]
+                                  },
+                                  {
+                                    "type": "LIST_ITEM",
+                                    "id": "",
+                                    "children": [
+                                      {
+                                        "type": "NUMBER_WITH_BRACKETS",
+                                        "text": "(2)"
+                                      },
+                                      {
+                                        "type": "PLAINTEXT",
+                                        "text": "Lembaga Jaminan melaksanakan tugas dan wewenangnya secara independen, transparan, dan akuntabel."
+                                      }
+                                    ]
+                                  },
+                                  {
+                                    "type": "LIST_ITEM",
+                                    "id": "",
+                                    "children": [
+                                      {
+                                        "type": "NUMBER_WITH_BRACKETS",
+                                        "text": "(3)"
+                                      },
+                                      {
+                                        "type": "PLAINTEXT",
+                                        "text": "Lembaga Jaminan bertanggung jawab kepada Menteri."
+                                      }
+                                    ]
+                                  }
+                                ]
+                              }
+                            ]
+                          },
+                          {
+                            "type": "PERUBAHAN_PASAL",
+                            "id": "perubahan-pasal-37B",
+                            "children": [
+                              {
+                                "type": "PASAL_NUMBER",
+                                "text": "Pasal 37B"
+                              },
+                              {
+                                "type": "LIST",
+                                "id": "",
+                                "children": [
+                                  {
+                                    "type": "LIST_ITEM",
+                                    "id": "",
+                                    "children": [
+                                      {
+                                        "type": "NUMBER_WITH_BRACKETS",
+                                        "text": "(1)"
+                                      },
+                                      {
+                                        "type": "PLAINTEXT",
+                                        "text": "Lembaga Jaminan berkedudukan di ibu kota Negara Republik Indonesia."
+                                      }
+                                    ]
+                                  },
+                                  {
+                                    "type": "LIST_ITEM",
+                                    "id": "",
+                                    "children": [
+                                      {
+                                        "type": "NUMBER_WITH_BRACKETS",
+                                        "text": "(2)"
+                                      },
+                                      {
+                                        "type": "PLAINTEXT",
+                                        "text": "Lembaga Jaminan dapat memiliki kantor perwakilan di wilayah Negara Republik Indonesia."
+                                      }
+                                    ]
+                                  },
+                                  {
+                                    "type": "LIST_ITEM",
+                                    "id": "",
+                                    "children": [
+                                      {
+                                        "type": "NUMBER_WITH_BRACKETS",
+                                        "text": "(3)"
+                                      },
+                                      {
+                                        "type": "PLAINTEXT",
+                                        "text": "Ketentuan mengenai persyaratan dan tata cara pembentukan kantor perwakilan diatur dalam Peraturan Pemerintah."
+                                      }
+                                    ]
+                                  }
+                                ]
+                              }
+                            ]
+                          },
+                          {
+                            "type": "PERUBAHAN_PASAL",
+                            "id": "perubahan-pasal-37C",
+                            "children": [
+                              {
+                                "type": "PASAL_NUMBER",
+                                "text": "Pasal 37C"
+                              },
+                              {
+                                "type": "PLAINTEXT",
+                                "text": "Modal awal Lembaga Jaminan diatur dalam Peraturan Pemerintah."
+                              }
+                            ]
+                          },
+                          {
+                            "type": "PERUBAHAN_PASAL",
+                            "id": "perubahan-pasal-37D",
+                            "children": [
+                              {
+                                "type": "PASAL_NUMBER",
+                                "text": "Pasal 37D"
+                              },
+                              {
+                                "type": "PLAINTEXT",
+                                "text": "Lembaga Jaminan memiliki fungsi:"
+                              },
+                              {
+                                "type": "LIST",
+                                "id": "",
+                                "children": [
+                                  {
+                                    "type": "LIST_ITEM",
+                                    "id": "",
+                                    "children": [
+                                      {
+                                        "type": "LETTER_WITH_DOT",
+                                        "text": "a."
+                                      },
+                                      {
+                                        "type": "PLAINTEXT",
+                                        "text": "melindungi hak Pemegang Resi Gudang dan/atau Penerima Hak Jaminan apabila terjadi kegagalan, ketidakmampuan, dan/atau kebangkrutan Pengelola Gudang dalam menjalankan kewajibannya; dan"
+                                      }
+                                    ]
+                                  },
+                                  {
+                                    "type": "LIST_ITEM",
+                                    "id": "",
+                                    "children": [
+                                      {
+                                        "type": "LETTER_WITH_DOT",
+                                        "text": "b."
+                                      },
+                                      {
+                                        "type": "PLAINTEXT",
+                                        "text": "memelihara stabilitas dan integritas Sistem Resi Gudang sesuai dengan kewenangannya."
+                                      }
+                                    ]
+                                  }
+                                ]
+                              }
+                            ]
+                          },
+                          {
+                            "type": "PERUBAHAN_PASAL",
+                            "id": "perubahan-pasal-37E",
+                            "children": [
+                              {
+                                "type": "PASAL_NUMBER",
+                                "text": "Pasal 37E"
+                              },
+                              {
+                                "type": "LIST",
+                                "id": "",
+                                "children": [
+                                  {
+                                    "type": "LIST_ITEM",
+                                    "id": "",
+                                    "children": [
+                                      {
+                                        "type": "NUMBER_WITH_BRACKETS",
+                                        "text": "(1)"
+                                      },
+                                      {
+                                        "type": "PLAINTEXT",
+                                        "text": "Dalam menjalankan fungsi sebagaimana dimaksud dalam Pasal 37D huruf a, Lembaga Jaminan mempunyai tugas:"
+                                      },
+                                      {
+                                        "type": "LIST",
+                                        "id": "",
+                                        "children": [
+                                          {
+                                            "type": "LIST_ITEM",
+                                            "id": "",
+                                            "children": [
+                                              {
+                                                "type": "LETTER_WITH_DOT",
+                                                "text": "a."
+                                              },
+                                              {
+                                                "type": "PLAINTEXT",
+                                                "text": "merumuskan dan menetapkan kebijakan pelaksanaan penjaminan pengelolaan barang oleh Pengelola Gudang; dan"
+                                              }
+                                            ]
+                                          },
+                                          {
+                                            "type": "LIST_ITEM",
+                                            "id": "",
+                                            "children": [
+                                              {
+                                                "type": "LETTER_WITH_DOT",
+                                                "text": "b."
+                                              },
+                                              {
+                                                "type": "PLAINTEXT",
+                                                "text": "melaksanakan penjaminan pengelolaan barang oleh Pengelola Gudang."
+                                              }
+                                            ]
+                                          }
+                                        ]
+                                      }
+                                    ]
+                                  },
+                                  {
+                                    "type": "LIST_ITEM",
+                                    "id": "",
+                                    "children": [
+                                      {
+                                        "type": "NUMBER_WITH_BRACKETS",
+                                        "text": "(2)"
+                                      },
+                                      {
+                                        "type": "PLAINTEXT",
+                                        "text": "Dalam menjalankan fungsi sebagaimana dimaksud dalam Pasal 37D huruf b, Lembaga Jaminan mempunyai tugas sebagai berikut:"
+                                      },
+                                      {
+                                        "type": "LIST",
+                                        "id": "",
+                                        "children": [
+                                          {
+                                            "type": "LIST_ITEM",
+                                            "id": "",
+                                            "children": [
+                                              {
+                                                "type": "LETTER_WITH_DOT",
+                                                "text": "a."
+                                              },
+                                              {
+                                                "type": "PLAINTEXT",
+                                                "text": "merumuskan dan menetapkan kebijakan dalam rangka memelihara stabilitas dan integritas Sistem Resi Gudang;"
+                                              }
+                                            ]
+                                          },
+                                          {
+                                            "type": "LIST_ITEM",
+                                            "id": "",
+                                            "children": [
+                                              {
+                                                "type": "LETTER_WITH_DOT",
+                                                "text": "b."
+                                              },
+                                              {
+                                                "type": "PLAINTEXT",
+                                                "text": "merumuskan, menetapkan, dan melaksanakan kebijakan penyelesaian Pengelola Gudang gagal yang tidak berdampak luas (sistemik); dan"
+                                              }
+                                            ]
+                                          },
+                                          {
+                                            "type": "LIST_ITEM",
+                                            "id": "",
+                                            "children": [
+                                              {
+                                                "type": "LETTER_WITH_DOT",
+                                                "text": "c."
+                                              },
+                                              {
+                                                "type": "PLAINTEXT",
+                                                "text": "melaksanakan penanganan Pengelola Gudang gagal yang berdampak luas (sistemik)."
+                                              }
+                                            ]
+                                          }
+                                        ]
+                                      }
+                                    ]
+                                  }
+                                ]
+                              }
+                            ]
+                          },
+                          {
+                            "type": "PERUBAHAN_PASAL",
+                            "id": "perubahan-pasal-37F",
+                            "children": [
+                              {
+                                "type": "PASAL_NUMBER",
+                                "text": "Pasal 37F"
+                              },
+                              {
+                                "type": "LIST",
+                                "id": "",
+                                "children": [
+                                  {
+                                    "type": "LIST_ITEM",
+                                    "id": "",
+                                    "children": [
+                                      {
+                                        "type": "NUMBER_WITH_BRACKETS",
+                                        "text": "(1)"
+                                      },
+                                      {
+                                        "type": "PLAINTEXT",
+                                        "text": "Dalam rangka melaksanakan tugas sebagaimana dimaksud dalam Pasal 37E, Lembaga Jaminan mempunyai wewenang sebagai berikut:"
+                                      },
+                                      {
+                                        "type": "LIST",
+                                        "id": "",
+                                        "children": [
+                                          {
+                                            "type": "LIST_ITEM",
+                                            "id": "",
+                                            "children": [
+                                              {
+                                                "type": "LETTER_WITH_DOT",
+                                                "text": "a."
+                                              },
+                                              {
+                                                "type": "PLAINTEXT",
+                                                "text": "menetapkan dan memungut kontribusi pada saat Pengelola Gudang pertama kali menjadi peserta;"
+                                              }
+                                            ]
+                                          },
+                                          {
+                                            "type": "LIST_ITEM",
+                                            "id": "",
+                                            "children": [
+                                              {
+                                                "type": "LETTER_WITH_DOT",
+                                                "text": "b."
+                                              },
+                                              {
+                                                "type": "PLAINTEXT",
+                                                "text": "menetapkan dan memungut uang jaminan atas setiap barang yang disimpan;"
+                                              }
+                                            ]
+                                          },
+                                          {
+                                            "type": "LIST_ITEM",
+                                            "id": "",
+                                            "children": [
+                                              {
+                                                "type": "LETTER_WITH_DOT",
+                                                "text": "c."
+                                              },
+                                              {
+                                                "type": "PLAINTEXT",
+                                                "text": "melakukan pengelolaan kekayaan dan kewajiban Lembaga Jaminan;"
+                                              }
+                                            ]
+                                          },
+                                          {
+                                            "type": "LIST_ITEM",
+                                            "id": "",
+                                            "children": [
+                                              {
+                                                "type": "LETTER_WITH_DOT",
+                                                "text": "d."
+                                              },
+                                              {
+                                                "type": "PLAINTEXT",
+                                                "text": "mendapatkan dan memastikan data barang yang disimpan pemilik barang pada Pengelola Gudang sesuai dengan data dalam Resi Gudang, data dan laporan keadaan keuangan Pengelola Gudang;"
+                                              }
+                                            ]
+                                          },
+                                          {
+                                            "type": "LIST_ITEM",
+                                            "id": "",
+                                            "children": [
+                                              {
+                                                "type": "LETTER_WITH_DOT",
+                                                "text": "e."
+                                              },
+                                              {
+                                                "type": "PLAINTEXT",
+                                                "text": "melakukan pencocokan (rekonsiliasi), verifikasi, dan/atau konfirmasi atas data sebagaimana dimaksud pada huruf d;"
+                                              }
+                                            ]
+                                          },
+                                          {
+                                            "type": "LIST_ITEM",
+                                            "id": "",
+                                            "children": [
+                                              {
+                                                "type": "LETTER_WITH_DOT",
+                                                "text": "f."
+                                              },
+                                              {
+                                                "type": "PLAINTEXT",
+                                                "text": "menetapkan syarat, tata cara, dan ketentuan pembayaran klaim;"
+                                              }
+                                            ]
+                                          },
+                                          {
+                                            "type": "LIST_ITEM",
+                                            "id": "",
+                                            "children": [
+                                              {
+                                                "type": "LETTER_WITH_DOT",
+                                                "text": "g."
+                                              },
+                                              {
+                                                "type": "PLAINTEXT",
+                                                "text": "menunjuk, menguasakan, dan/atau menugaskan pihak lain untuk bertindak bagi kepentingan dan/atau atas nama Lembaga Jaminan, guna melaksanakan sebagian tugas tertentu; dan"
+                                              }
+                                            ]
+                                          },
+                                          {
+                                            "type": "LIST_ITEM",
+                                            "id": "",
+                                            "children": [
+                                              {
+                                                "type": "LETTER_WITH_DOT",
+                                                "text": "h."
+                                              },
+                                              {
+                                                "type": "PLAINTEXT",
+                                                "text": "menjatuhkan sanksi administratif."
+                                              }
+                                            ]
+                                          }
+                                        ]
+                                      }
+                                    ]
+                                  },
+                                  {
+                                    "type": "LIST_ITEM",
+                                    "id": "",
+                                    "children": [
+                                      {
+                                        "type": "NUMBER_WITH_BRACKETS",
+                                        "text": "(2)"
+                                      },
+                                      {
+                                        "type": "PLAINTEXT",
+                                        "text": "Lembaga Jaminan dapat melakukan penyelesaian dan penanganan Pengelola Gudang gagal."
+                                      }
+                                    ]
+                                  },
+                                  {
+                                    "type": "LIST_ITEM",
+                                    "id": "",
+                                    "children": [
+                                      {
+                                        "type": "NUMBER_WITH_BRACKETS",
+                                        "text": "(3)"
+                                      },
+                                      {
+                                        "type": "PLAINTEXT",
+                                        "text": "Dalam melakukan penyelesaian dan penanganan Pengelola Gudang gagal sebagaimana dimaksud pada ayat (2), Lembaga Jaminan dapat bertindak sebagai kreditur terhadap Pengelola Gudang berdasarkan hak subrogasi dari pemegang Resi Gudang dan/atau pemegang Hak Jaminan yang dapat mengajukan permohonan pailit kepada Pengadilan Niaga."
+                                      }
+                                    ]
+                                  }
+                                ]
+                              }
+                            ]
+                          },
+                          {
+                            "type": "PERUBAHAN_PASAL",
+                            "id": "perubahan-pasal-37G",
+                            "children": [
+                              {
+                                "type": "PASAL_NUMBER",
+                                "text": "Pasal 37G"
+                              },
+                              {
+                                "type": "LIST",
+                                "id": "",
+                                "children": [
+                                  {
+                                    "type": "LIST_ITEM",
+                                    "id": "",
+                                    "children": [
+                                      {
+                                        "type": "NUMBER_WITH_BRACKETS",
+                                        "text": "(1)"
+                                      },
+                                      {
+                                        "type": "PLAINTEXT",
+                                        "text": "Dalam menjalankan tugas dan wewenangnya, Lembaga Jaminan dapat meminta data, informasi, dan/atau dokumen kepada pihak lain."
+                                      }
+                                    ]
+                                  },
+                                  {
+                                    "type": "LIST_ITEM",
+                                    "id": "",
+                                    "children": [
+                                      {
+                                        "type": "NUMBER_WITH_BRACKETS",
+                                        "text": "(2)"
+                                      },
+                                      {
+                                        "type": "PLAINTEXT",
+                                        "text": "Setiap pihak yang dimintai data, informasi, dan/atau dokumen sebagaimana dimaksud pada ayat (1), wajib memberikannya kepada Lembaga Jaminan, sepanjang tidak bertentangan dengan peraturan perundang-undangan."
+                                      }
+                                    ]
+                                  },
+                                  {
+                                    "type": "LIST_ITEM",
+                                    "id": "",
+                                    "children": [
+                                      {
+                                        "type": "NUMBER_WITH_BRACKETS",
+                                        "text": "(3)"
+                                      },
+                                      {
+                                        "type": "PLAINTEXT",
+                                        "text": "Setiap pihak yang karena jabatannya dilarang untuk memberitahukan data, informasi, dan/atau dokumen sebagaimana dimaksud pada ayat (2) dapat memberikan data, informasi, atau dokumen tersebut setelah mendapat izin dari pihak yang berwenang sesuai dengan ketentuan peraturan perundang-undangan."
+                                      }
+                                    ]
+                                  }
+                                ]
+                              }
+                            ]
+                          },
+                          {
+                            "type": "PERUBAHAN_PASAL",
+                            "id": "perubahan-pasal-37H",
+                            "children": [
+                              {
+                                "type": "PASAL_NUMBER",
+                                "text": "Pasal 37H"
+                              },
+                              {
+                                "type": "PLAINTEXT",
+                                "text": "Setiap Pengelola Gudang yang melakukan kegiatan usaha di wilayah Republik Indonesia wajib menjadi peserta penjaminan yang dilaksanakan Lembaga Jaminan."
+                              }
+                            ]
+                          },
+                          {
+                            "type": "PERUBAHAN_PASAL",
+                            "id": "perubahan-pasal-37I",
+                            "children": [
+                              {
+                                "type": "PASAL_NUMBER",
+                                "text": "Pasal 37I"
+                              },
+                              {
+                                "type": "LIST",
+                                "id": "",
+                                "children": [
+                                  {
+                                    "type": "LIST_ITEM",
+                                    "id": "",
+                                    "children": [
+                                      {
+                                        "type": "NUMBER_WITH_BRACKETS",
+                                        "text": "(1)"
+                                      },
+                                      {
+                                        "type": "PLAINTEXT",
+                                        "text": "Ketentuan mengenai pembinaan, pengawasan, persyaratan dan kepesertaan penjaminan, pengumpulan dana, pengelolaan dana, serta struktur organisasi dan fungsi administrasi Lembaga Jaminan serta hal-hal yang terkait dengan pelaksanaan penjaminan Lembaga Jaminan akan diatur dengan Peraturan Pemerintah."
+                                      }
+                                    ]
+                                  },
+                                  {
+                                    "type": "LIST_ITEM",
+                                    "id": "",
+                                    "children": [
+                                      {
+                                        "type": "NUMBER_WITH_BRACKETS",
+                                        "text": "(2)"
+                                      },
+                                      {
+                                        "type": "PLAINTEXT",
+                                        "text": "Dana yang terkumpul dalam Lembaga Jaminan hanya dapat digunakan untuk melindungi kepentingan pemegang Resi Gudang dan keamanan Penerima Hak Jaminan terhadap kegagalan atau ketidakmampuan dari Pengelola Gudang untuk melaksanakan kewajiban dengan baik terkait dengan diterbitkannya Resi Gudang."
+                                      }
+                                    ]
+                                  },
+                                  {
+                                    "type": "LIST_ITEM",
+                                    "id": "",
+                                    "children": [
+                                      {
+                                        "type": "NUMBER_WITH_BRACKETS",
+                                        "text": "(3)"
+                                      },
+                                      {
+                                        "type": "PLAINTEXT",
+                                        "text": "Ketentuan mengenai penatausahaan rekening dalam kaitannya dengan jenis barang yang dijamin oleh Lembaga Jaminan diatur dengan Peraturan Pemerintah."
+                                      }
+                                    ]
+                                  }
+                                ]
+                              }
+                            ]
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "LIST_ITEM",
+                "id": "",
+                "children": [
+                  {
+                    "type": "NUMBER_WITH_DOT",
+                    "text": "8."
+                  },
+                  {
+                    "type": "PLAINTEXT",
+                    "text": "Ketentuan Pasal 40 diubah sehingga berbunyi sebagai berikut:"
+                  },
+                  {
+                    "type": "PERUBAHAN_SECTION",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "PERUBAHAN_PASAL",
+                        "id": "perubahan-pasal-40",
+                        "children": [
+                          {
+                            "type": "PASAL_NUMBER",
+                            "text": "Pasal 40"
+                          },
+                          {
+                            "type": "LIST",
+                            "id": "",
+                            "children": [
+                              {
+                                "type": "LIST_ITEM",
+                                "id": "",
+                                "children": [
+                                  {
+                                    "type": "NUMBER_WITH_BRACKETS",
+                                    "text": "(1)"
+                                  },
+                                  {
+                                    "type": "PLAINTEXT",
+                                    "text": "Badan Pengawas berwenang mengenakan sanksi administratif atas pelanggaran terhadap ketentuan Undang-Undang ini dan peraturan pelaksanaannya oleh setiap pihak yang memperoleh persetujuan dari Badan Pengawas."
+                                  }
+                                ]
+                              },
+                              {
+                                "type": "LIST_ITEM",
+                                "id": "",
+                                "children": [
+                                  {
+                                    "type": "NUMBER_WITH_BRACKETS",
+                                    "text": "(2)"
+                                  },
+                                  {
+                                    "type": "PLAINTEXT",
+                                    "text": "Sanksi administratif sebagaimana dimaksud pada ayat (1) dapat berupa:"
+                                  },
+                                  {
+                                    "type": "LIST",
+                                    "id": "",
+                                    "children": [
+                                      {
+                                        "type": "LIST_ITEM",
+                                        "id": "",
+                                        "children": [
+                                          {
+                                            "type": "LETTER_WITH_DOT",
+                                            "text": "a."
+                                          },
+                                          {
+                                            "type": "PLAINTEXT",
+                                            "text": "peringatan tertulis;"
+                                          }
+                                        ]
+                                      },
+                                      {
+                                        "type": "LIST_ITEM",
+                                        "id": "",
+                                        "children": [
+                                          {
+                                            "type": "LETTER_WITH_DOT",
+                                            "text": "b."
+                                          },
+                                          {
+                                            "type": "PLAINTEXT",
+                                            "text": "denda administratif;"
+                                          }
+                                        ]
+                                      },
+                                      {
+                                        "type": "LIST_ITEM",
+                                        "id": "",
+                                        "children": [
+                                          {
+                                            "type": "LETTER_WITH_DOT",
+                                            "text": "c."
+                                          },
+                                          {
+                                            "type": "PLAINTEXT",
+                                            "text": "pembatasan kegiatan usaha;"
+                                          }
+                                        ]
+                                      },
+                                      {
+                                        "type": "LIST_ITEM",
+                                        "id": "",
+                                        "children": [
+                                          {
+                                            "type": "LETTER_WITH_DOT",
+                                            "text": "d."
+                                          },
+                                          {
+                                            "type": "PLAINTEXT",
+                                            "text": "perintah penggantian barang yang rusak dan/atau hilang dengan barang dengan mutu dan jumlah yang sama sesuai dengan yang tercantum dalam dokumen Resi Gudang;"
+                                          }
+                                        ]
+                                      },
+                                      {
+                                        "type": "LIST_ITEM",
+                                        "id": "",
+                                        "children": [
+                                          {
+                                            "type": "LETTER_WITH_DOT",
+                                            "text": "e."
+                                          },
+                                          {
+                                            "type": "PLAINTEXT",
+                                            "text": "pembekuan kegiatan usaha; dan/atau"
+                                          }
+                                        ]
+                                      },
+                                      {
+                                        "type": "LIST_ITEM",
+                                        "id": "",
+                                        "children": [
+                                          {
+                                            "type": "LETTER_WITH_DOT",
+                                            "text": "f."
+                                          },
+                                          {
+                                            "type": "PLAINTEXT",
+                                            "text": "pembatalan persetujuan."
+                                          }
+                                        ]
+                                      }
+                                    ]
+                                  }
+                                ]
+                              }
+                            ]
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "LIST_ITEM",
+                "id": "",
+                "children": [
+                  {
+                    "type": "NUMBER_WITH_DOT",
+                    "text": "9."
+                  },
+                  {
+                    "type": "PLAINTEXT",
+                    "text": "Di antara Pasal 40 dan Pasal 41 disisipkan 1 (satu) pasal, yakni Pasal 40A sehingga berbunyi sebagai berikut:"
+                  },
+                  {
+                    "type": "PERUBAHAN_SECTION",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "PERUBAHAN_PASAL",
+                        "id": "perubahan-pasal-40A",
+                        "children": [
+                          {
+                            "type": "PASAL_NUMBER",
+                            "text": "Pasal 40A"
+                          },
+                          {
+                            "type": "LIST",
+                            "id": "",
+                            "children": [
+                              {
+                                "type": "LIST_ITEM",
+                                "id": "",
+                                "children": [
+                                  {
+                                    "type": "NUMBER_WITH_BRACKETS",
+                                    "text": "(1)"
+                                  },
+                                  {
+                                    "type": "PLAINTEXT",
+                                    "text": "Lembaga Jaminan menjatuhkan sanksi administratif kepada Pengelola Gudang yang melanggar ketentuan sebagaimana dimaksud dalam Pasal 37H."
+                                  }
+                                ]
+                              },
+                              {
+                                "type": "LIST_ITEM",
+                                "id": "",
+                                "children": [
+                                  {
+                                    "type": "NUMBER_WITH_BRACKETS",
+                                    "text": "(2)"
+                                  },
+                                  {
+                                    "type": "PLAINTEXT",
+                                    "text": "Sanksi administratif sebagaimana dimaksud pada ayat (1) berupa denda administratif dan/atau bunga."
+                                  }
+                                ]
+                              },
+                              {
+                                "type": "LIST_ITEM",
+                                "id": "",
+                                "children": [
+                                  {
+                                    "type": "NUMBER_WITH_BRACKETS",
+                                    "text": "(3)"
+                                  },
+                                  {
+                                    "type": "PLAINTEXT",
+                                    "text": "Ketentuan lebih lanjut mengenai tata cara pengenaan sanksi administratif diatur dengan peraturan Lembaga Jaminan."
+                                  }
+                                ]
+                              }
+                            ]
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "LIST_ITEM",
+                "id": "",
+                "children": [
+                  {
+                    "type": "NUMBER_WITH_DOT",
+                    "text": "10."
+                  },
+                  {
+                    "type": "PLAINTEXT",
+                    "text": "Di antara Pasal 42 dan Pasal 43 disisipkan 1 (satu) pasal, yakni Pasal 42A sehingga berbunyi sebagai berikut:"
+                  },
+                  {
+                    "type": "PERUBAHAN_SECTION",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "PERUBAHAN_PASAL",
+                        "id": "perubahan-pasal-42A",
+                        "children": [
+                          {
+                            "type": "PASAL_NUMBER",
+                            "text": "Pasal 42A"
+                          },
+                          {
+                            "type": "PLAINTEXT",
+                            "text": "Setiap orang yang menolak memberikan data, informasi, dan/atau dokumen sebagaimana dimaksud dalam Pasal 37G ayat (2) dipidana dengan pidana kurungan paling lama 1 (satu) tahun dan denda paling banyak Rp. 250.000.000,00 (dua ratus lima puluh juta rupiah)."
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "LIST_ITEM",
+                "id": "",
+                "children": [
+                  {
+                    "type": "NUMBER_WITH_DOT",
+                    "text": "11."
+                  },
+                  {
+                    "type": "PLAINTEXT",
+                    "text": "Di antara Pasal 44 dan Pasal 45 disisipkan 1 (satu) pasal, yakni Pasal 44A sehingga berbunyi sebagai berikut:"
+                  },
+                  {
+                    "type": "PERUBAHAN_SECTION",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "PERUBAHAN_PASAL",
+                        "id": "perubahan-pasal-44A",
+                        "children": [
+                          {
+                            "type": "PASAL_NUMBER",
+                            "text": "Pasal 44A"
+                          },
+                          {
+                            "type": "LIST",
+                            "id": "",
+                            "children": [
+                              {
+                                "type": "LIST_ITEM",
+                                "id": "",
+                                "children": [
+                                  {
+                                    "type": "NUMBER_WITH_BRACKETS",
+                                    "text": "(1)"
+                                  },
+                                  {
+                                    "type": "PLAINTEXT",
+                                    "text": "Urusan Sistem Resi Gudang yang pada saat berlakunya Undang-Undang ini belum dapat diselesaikan, penyelesaiannya dilakukan berdasarkan ketentuan perundang-undangan di bidang Sistem Resi Gudang yang meringankan setiap orang."
+                                  }
+                                ]
+                              },
+                              {
+                                "type": "LIST_ITEM",
+                                "id": "",
+                                "children": [
+                                  {
+                                    "type": "NUMBER_WITH_BRACKETS",
+                                    "text": "(2)"
+                                  },
+                                  {
+                                    "type": "PLAINTEXT",
+                                    "text": "Sebelum Lembaga Jaminan dibentuk berdasarkan Undang-Undang ini dan/atau peraturan pelaksanaannya, fungsi, tugas, kewajiban, dan wewenang Lembaga Jaminan dilaksanakan oleh lembaga yang melaksanakan kegiatan penjaminan."
+                                  }
+                                ]
+                              },
+                              {
+                                "type": "LIST_ITEM",
+                                "id": "",
+                                "children": [
+                                  {
+                                    "type": "NUMBER_WITH_BRACKETS",
+                                    "text": "(3)"
+                                  },
+                                  {
+                                    "type": "PLAINTEXT",
+                                    "text": "Persyaratan dan tata cara penetapan lembaga yang melaksanakan fungsi, tugas, kewajiban, dan wewenang Lembaga Jaminan sebagaimana dimaksud pada ayat (2) diatur lebih lanjut dengan Peraturan Pemerintah."
+                                  }
+                                ]
+                              },
+                              {
+                                "type": "LIST_ITEM",
+                                "id": "",
+                                "children": [
+                                  {
+                                    "type": "NUMBER_WITH_BRACKETS",
+                                    "text": "(4)"
+                                  },
+                                  {
+                                    "type": "PLAINTEXT",
+                                    "text": "Dengan berlakunya Undang-Undang ini, segala bentuk dan jenis Resi Gudang dan/atau sejenisnya wajib menyesuaikan dengan Undang-Undang dan/atau peraturan pelaksanaannya dalam jangka waktu paling lama 1 (satu) tahun setelah diundangkannya Undang-Undang ini."
+                                  }
+                                ]
+                              }
+                            ]
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "PASAL",
+        "id": "pasal-II",
+        "children": [
+          {
+            "type": "PASAL_NUMBER",
+            "text": "Pasal II"
+          },
+          {
+            "type": "LIST",
+            "id": "",
+            "children": [
+              {
+                "type": "LIST_ITEM",
+                "id": "",
+                "children": [
+                  {
+                    "type": "NUMBER_WITH_DOT",
+                    "text": "1."
+                  },
+                  {
+                    "type": "PLAINTEXT",
+                    "text": "Pada saat Undang-Undang ini mulai berlaku, semua peraturan pelaksanaan dalam Sistem Resi Gudang yang telah ada tetap berlaku sepanjang tidak bertentangan dan/atau belum diatur dengan peraturan pelaksanaan yang baru berdasarkan Undang-Undang ini."
+                  }
+                ]
+              },
+              {
+                "type": "LIST_ITEM",
+                "id": "",
+                "children": [
+                  {
+                    "type": "NUMBER_WITH_DOT",
+                    "text": "2."
+                  },
+                  {
+                    "type": "PLAINTEXT",
+                    "text": "Semua peraturan perundang-undangan yang diperlukan untuk melaksanakan Undang-Undang ini harus diselesaikan paling lambat 1 (satu) tahun sejak diundangkannya Undang-Undang ini."
+                  }
+                ]
+              },
+              {
+                "type": "LIST_ITEM",
+                "id": "",
+                "children": [
+                  {
+                    "type": "NUMBER_WITH_DOT",
+                    "text": "3."
+                  },
+                  {
+                    "type": "PLAINTEXT",
+                    "text": "Undang-Undang ini mulai berlaku pada tanggal diundangkan."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "PLAINTEXT",
+            "text": "Agar setiap orang mengetahuinya, memerintahkan pengundangan Undang-Undang ini dengan penempatannya dalam Lembaran Negara Republik Indonesia."
+          }
+        ]
+      },
+      {
+        "type": "CLOSING",
+        "id": "",
+        "children": [
+          {
+            "type": "PLAINTEXT",
+            "text": "Disahkan Di Jakarta,"
+          },
+          {
+            "type": "PLAINTEXT",
+            "text": "Pada Tanggal 8 Agustus 2911"
+          },
+          {
+            "type": "PLAINTEXT",
+            "text": "PRESIDEN REPUBLIK INDONESIA,"
+          },
+          {
+            "type": "PLAINTEXT",
+            "text": "Ttd"
+          },
+          {
+            "type": "PLAINTEXT",
+            "text": "DR. H. SUSILO BAMBANG YUDHOYONO"
+          },
+          {
+            "type": "PLAINTEXT",
+            "text": "Diundangkan Di Jakarta,"
+          },
+          {
+            "type": "PLAINTEXT",
+            "text": "Pada Tanggal 8 Agustus 2011"
+          },
+          {
+            "type": "PLAINTEXT",
+            "text": "MENTERI HUKUM DAN HAK ASASI MANUSIA REPUBLIK INDONESIA,"
+          },
+          {
+            "type": "PLAINTEXT",
+            "text": "Ttd."
+          },
+          {
+            "type": "PLAINTEXT",
+            "text": "PATRIALIS AKBAR"
+          },
+          {
+            "type": "LEMBARAN_NUMBER",
+            "text": "LEMBARAN NEGARA REPUBLIK INDONESIA TAHUN 2011 NOMOR 78"
+          }
+        ]
+      },
+      {
+        "type": "PENJELASAN",
+        "id": "penjelasan",
+        "children": [
+          {
+            "type": "PENJELASAN_TITLE",
+            "id": "",
+            "children": [
+              {
+                "type": "PLAINTEXT",
+                "text": "PENJELASAN"
+              },
+              {
+                "type": "PLAINTEXT",
+                "text": "UNDANG-UNDANG REPUBLIK INDONESIA"
+              },
+              {
+                "type": "UU_TITLE_YEAR_AND_NUMBER",
+                "text": "NOMOR 9 TAHUN 2011"
+              },
+              {
+                "type": "PLAINTEXT",
+                "text": "TENTANG"
+              },
+              {
+                "type": "UU_TITLE_TOPIC",
+                "text": "PERUBAHAN ATAS UNDANG-UNDANG NOMOR 9 TAHUN 2006 TENTANG SISTEM RESI GUDANG"
+              }
+            ]
+          },
+          {
+            "type": "PENJELASAN_UMUM",
+            "id": "",
+            "children": [
+              {
+                "type": "PENJELASAN_UMUM_TITLE",
+                "text": "I. UMUM"
+              },
+              {
+                "type": "PLAINTEXT",
+                "text": "Salah satu tujuan pembangunan nasional adalah mewujudkan masyarakat adil dan makmur berdasarkan Pancasila dan Undang-Undang Dasar Negara Republik Indonesia Tahun 1945 dalam wadah Negara Kesatuan Republik Indonesia yang merdeka, bersatu, dan berkedaulatan rakyat dalam suasana perikehidupan bangsa yang aman, tenteram, tertib, dan dinamis. Pembangunan nasional sebagai pengamalan Pancasila yang mencakup seluruh aspek kehidupan bangsa diselenggarakan bersama oleh masyarakat dan pemerintah. Masyarakat sebagai pelaku utama pembangunan bersama pemerintah berkewajiban mengarahkan, membimbing, melindungi, serta menumbuhkan suasana yang kondusif."
+              },
+              {
+                "type": "PLAINTEXT",
+                "text": "Dalam menghadapi persaingan yang semakin ketat pada era globalisasi diperlukan kesiapan dunia usaha untuk menghadapi perubahan yang sangat cepat di bidang ekonomi khususnya perdagangan. Salah satu upaya untuk menghadapi persaingan tersebut diperlukan instrumen dalam penataan sistem perdagangan yang efektif dan efisien sehingga harga barang yang ditawarkan dapat bersaing di pasar global."
+              },
+              {
+                "type": "PLAINTEXT",
+                "text": "Efisiensi perdagangan dapat tercapai apabila didukung oleh iklim usaha yang kondusif dengan tersedianya dan tertatanya sistem pembiayaan perdagangan yang dapat diakses oleh setiap pelaku usaha secara tepat waktu. Sistem pembiayaan perdagangan sangat diperlukan bagi dunia usaha untuk menjamin kelancaran usahanya, terutama bagi petani serta usaha kecil dan menengah yang berbasis pertanian yang umumnya menghadapi masalah pembiayaan karena keterbatasan akses dan jaminan kredit. Dalam konteks pemberdayaan dan pembinaan kepada petani serta usaha kecil dan menengah yang berbasis pertanian tersebut, Resi Gudang merupakan salah satu solusi untuk memperoleh pembiayaan dengan jaminan komoditi yang tersimpan di gudang."
+              },
+              {
+                "type": "PLAINTEXT",
+                "text": "Melalui Resi Gudang, akses untuk memperoleh pembiayaan dengan mekanisme yang sederhana dapat diperoleh petani serta usaha kecil dan menengah yang berbasis pertanian. Kata kunci dari Sistem Resi Gudang adalah kelaikan gudang (warehouse ability). Diharapkan dengan Sistem Resi Gudang ini dapat meningkatkan produktivitas dan kualitas produk yang dihasilkan para petani, serta menetapkan strategi jadwal tanam dan pemasarannya."
+              },
+              {
+                "type": "PLAINTEXT",
+                "text": "Setelah diundangkannya Undang-Undang Nomor 9 Tahun 2006 tentang Sistem Resi Gudang pada tanggal 14 Juli 2006 dan Peraturan Pemerintah Nomor 36 Tahun 2007 tentang Pelaksanaan Undang Undang Nomor 9 Tahun 2006 tentang Sistem Resi Gudang pada tanggal 22 Juni 2007, Sistem Resi Gudang di Indonesia diharapkan dapat berjalan dengan baik dan meningkat dengan cepat. Namun, dalam perkembangannya terdapat beberapa kelemahan di lapangan yang sangat menghambat perkembangan Resi Gudang, di antaranya adalah dengan tidak tersedianya mekanisme jaminan yang relatif terjangkau bagi pelaku usaha apabila Pengelola Gudang mengalami pailit atau melakukan kelalaian dalam pengelolaan (mishandling) sehingga tidak dapat melaksanakan kewajibannya mengembalikan barang yang disimpan di gudang sesuai dengan kualitas dan kuantitas yang tertera dalam Resi Gudang."
+              },
+              {
+                "type": "PLAINTEXT",
+                "text": "Mekanisme jaminan yang relatif terjangkau bagi pelaku usaha dapat diatasi dengan membentuk Lembaga Jaminan Resi Gudang. Pembentukan Lembaga Jaminan Resi Gudang (Guarantee Fund) ini memerlukan dasar hukum yang kuat berupa Undang-Undang karena mewajibkan Pengelola Gudang untuk menjadi anggota Lembaga Jaminan Resi Gudang dan membayar sejumlah uang (iuran) ke Lembaga Jaminan Resi Gudang. Lembaga Jaminan Resi Gudang inilah yang akan bertindak sebagai penjamin apabila terdapat Pengelola Gudang yang mengalami kegagalan (wanprestasi) terhadap pemegang Resi Gudang dan pemegang Hak Jaminan atas Resi Gudang."
+              },
+              {
+                "type": "PLAINTEXT",
+                "text": "Dengan dibentuknya Lembaga Jaminan Resi Gudang diharapkan kepercayaan pelaku usaha (pemegang Resi Gudang, bank, dan Pengelola Gudang) terhadap integritas Sistem Resi Gudang akan makin meningkat. Dengan demikian, seluruh pelaku usaha dari skala besar (pedagang, prosesor, eksportir, dan perusahaan perkebunan) sampai skala kecil (petani, kelompok tani, gabungan kelompok tani, dan koperasi) merasa terlindungi dengan mempergunakan Sistem Resi Gudang sehingga dalam waktu singkat diharapkan jumlah pelaku usaha yang terlibat, volume barang yang disimpan di gudang, jumlah kredit yang dikucurkan oleh bank dapat meningkat dengan cepat."
+              }
+            ]
+          },
+          {
+            "type": "PENJELASAN_PASAL_DEMI_PASAL",
+            "id": "",
+            "children": [
+              {
+                "type": "PENJELASAN_PASAL_DEMI_PASAL_TITLE",
+                "text": "II. PASAL DEMI PASAL"
+              },
+              {
+                "type": "PENJELASAN_PASAL",
+                "id": "",
+                "children": [
+                  {
+                    "type": "PASAL_NUMBER",
+                    "text": "Pasal I"
+                  },
+                  {
+                    "type": "LIST",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "PENJELASAN_LIST_ITEM",
+                        "id": "",
+                        "children": [
+                          {
+                            "type": "PENJELASAN_ANGKA",
+                            "text": "Angka 1"
+                          },
+                          {
+                            "type": "PENJELASAN_PERUBAHAN_SECTION",
+                            "id": "",
+                            "children": [
+                              {
+                                "type": "PENJELASAN_PERUBAHAN_PASAL",
+                                "id": "",
+                                "children": [
+                                  {
+                                    "type": "PASAL_NUMBER",
+                                    "text": "Pasal 1"
+                                  },
+                                  {
+                                    "type": "PLAINTEXT",
+                                    "text": "Cukup jelas."
+                                  }
+                                ]
+                              }
+                            ]
+                          }
+                        ]
+                      },
+                      {
+                        "type": "PENJELASAN_LIST_ITEM",
+                        "id": "",
+                        "children": [
+                          {
+                            "type": "PENJELASAN_ANGKA",
+                            "text": "Angka 2"
+                          },
+                          {
+                            "type": "PENJELASAN_PERUBAHAN_SECTION",
+                            "id": "",
+                            "children": [
+                              {
+                                "type": "PENJELASAN_PERUBAHAN_PASAL",
+                                "id": "",
+                                "children": [
+                                  {
+                                    "type": "PASAL_NUMBER",
+                                    "text": "Pasal 5"
+                                  },
+                                  {
+                                    "type": "LIST",
+                                    "id": "",
+                                    "children": [
+                                      {
+                                        "type": "PENJELASAN_LIST_ITEM",
+                                        "id": "",
+                                        "children": [
+                                          {
+                                            "type": "PENJELASAN_HURUF",
+                                            "text": "Huruf a"
+                                          },
+                                          {
+                                            "type": "PLAINTEXT",
+                                            "text": "Cukup jelas."
+                                          }
+                                        ]
+                                      },
+                                      {
+                                        "type": "PENJELASAN_LIST_ITEM",
+                                        "id": "",
+                                        "children": [
+                                          {
+                                            "type": "PENJELASAN_HURUF",
+                                            "text": "Huruf b"
+                                          },
+                                          {
+                                            "type": "PLAINTEXT",
+                                            "text": "Yang dimaksud dengan \u201cjenis Resi Gudang\u201d adalah Resi Gudang Atas Nama atau Resi Gudang Atas Perintah."
+                                          }
+                                        ]
+                                      },
+                                      {
+                                        "type": "PENJELASAN_LIST_ITEM",
+                                        "id": "",
+                                        "children": [
+                                          {
+                                            "type": "PENJELASAN_HURUF",
+                                            "text": "Huruf c"
+                                          },
+                                          {
+                                            "type": "PLAINTEXT",
+                                            "text": "Cukup jelas."
+                                          }
+                                        ]
+                                      },
+                                      {
+                                        "type": "PENJELASAN_LIST_ITEM",
+                                        "id": "",
+                                        "children": [
+                                          {
+                                            "type": "PENJELASAN_HURUF",
+                                            "text": "Huruf d"
+                                          },
+                                          {
+                                            "type": "PLAINTEXT",
+                                            "text": "Cukup jelas."
+                                          }
+                                        ]
+                                      },
+                                      {
+                                        "type": "PENJELASAN_LIST_ITEM",
+                                        "id": "",
+                                        "children": [
+                                          {
+                                            "type": "PENJELASAN_HURUF",
+                                            "text": "Huruf e"
+                                          },
+                                          {
+                                            "type": "PLAINTEXT",
+                                            "text": "Cukup jelas."
+                                          }
+                                        ]
+                                      },
+                                      {
+                                        "type": "PENJELASAN_LIST_ITEM",
+                                        "id": "",
+                                        "children": [
+                                          {
+                                            "type": "PENJELASAN_HURUF",
+                                            "text": "Huruf f"
+                                          },
+                                          {
+                                            "type": "PLAINTEXT",
+                                            "text": "Cukup jelas."
+                                          }
+                                        ]
+                                      },
+                                      {
+                                        "type": "PENJELASAN_LIST_ITEM",
+                                        "id": "",
+                                        "children": [
+                                          {
+                                            "type": "PENJELASAN_HURUF",
+                                            "text": "Huruf g"
+                                          },
+                                          {
+                                            "type": "PLAINTEXT",
+                                            "text": "Yang dimaksud dengan \u201cwaktu jatuh tempo simpan barang\u201d adalah masa jatuh tempo penyimpanan barang. Berakhirnya masa jatuh tempo tidak bisa dianggap sebagai berakhirnya hak atas Resi Gudang oleh Pemegang Resi Gudang untuk menuntut hak atas barang."
+                                          },
+                                          {
+                                            "type": "PLAINTEXT",
+                                            "text": "Ada 2 metode penyimpanan barang:"
+                                          },
+                                          {
+                                            "type": "LIST",
+                                            "id": "",
+                                            "children": [
+                                              {
+                                                "type": "LIST_ITEM",
+                                                "id": "",
+                                                "children": [
+                                                  {
+                                                    "type": "LETTER_WITH_DOT",
+                                                    "text": "a."
+                                                  },
+                                                  {
+                                                    "type": "PLAINTEXT",
+                                                    "text": "metode pencampuran (co-mingled); dan"
+                                                  }
+                                                ]
+                                              },
+                                              {
+                                                "type": "LIST_ITEM",
+                                                "id": "",
+                                                "children": [
+                                                  {
+                                                    "type": "LETTER_WITH_DOT",
+                                                    "text": "b."
+                                                  },
+                                                  {
+                                                    "type": "PLAINTEXT",
+                                                    "text": "metode menjaga identitas barang (identity preserve)."
+                                                  }
+                                                ]
+                                              }
+                                            ]
+                                          },
+                                          {
+                                            "type": "PLAINTEXT",
+                                            "text": "Metode tersebut harus dinyatakan oleh Pengelola Gudang. Jika barang disimpan dengan metode menjaga identitas barang, tanggal kadaluarsa dari tanggal jatuh tempo akan menyebabkan Resi Gudang tidak berlaku untuk dikuasakan, ditransfer, atau diperjualbelikan."
+                                          }
+                                        ]
+                                      },
+                                      {
+                                        "type": "PENJELASAN_LIST_ITEM",
+                                        "id": "",
+                                        "children": [
+                                          {
+                                            "type": "PENJELASAN_HURUF",
+                                            "text": "Huruf h"
+                                          },
+                                          {
+                                            "type": "PLAINTEXT",
+                                            "text": "Cukup jelas."
+                                          }
+                                        ]
+                                      },
+                                      {
+                                        "type": "PENJELASAN_LIST_ITEM",
+                                        "id": "",
+                                        "children": [
+                                          {
+                                            "type": "PENJELASAN_HURUF",
+                                            "text": "Huruf i"
+                                          },
+                                          {
+                                            "type": "PLAINTEXT",
+                                            "text": "Cukup jelas."
+                                          }
+                                        ]
+                                      },
+                                      {
+                                        "type": "PENJELASAN_LIST_ITEM",
+                                        "id": "",
+                                        "children": [
+                                          {
+                                            "type": "PENJELASAN_HURUF",
+                                            "text": "Huruf j"
+                                          },
+                                          {
+                                            "type": "PLAINTEXT",
+                                            "text": "Cukup jelas."
+                                          }
+                                        ]
+                                      }
+                                    ]
+                                  }
+                                ]
+                              }
+                            ]
+                          }
+                        ]
+                      },
+                      {
+                        "type": "PENJELASAN_LIST_ITEM",
+                        "id": "",
+                        "children": [
+                          {
+                            "type": "PENJELASAN_ANGKA",
+                            "text": "Angka 3"
+                          },
+                          {
+                            "type": "PENJELASAN_PERUBAHAN_SECTION",
+                            "id": "",
+                            "children": [
+                              {
+                                "type": "PENJELASAN_PERUBAHAN_PASAL",
+                                "id": "",
+                                "children": [
+                                  {
+                                    "type": "PASAL_NUMBER",
+                                    "text": "Pasal 21"
+                                  },
+                                  {
+                                    "type": "LIST",
+                                    "id": "",
+                                    "children": [
+                                      {
+                                        "type": "PENJELASAN_LIST_ITEM",
+                                        "id": "",
+                                        "children": [
+                                          {
+                                            "type": "PENJELASAN_HURUF",
+                                            "text": "Huruf a"
+                                          },
+                                          {
+                                            "type": "PLAINTEXT",
+                                            "text": "Cukup jelas."
+                                          }
+                                        ]
+                                      },
+                                      {
+                                        "type": "PENJELASAN_LIST_ITEM",
+                                        "id": "",
+                                        "children": [
+                                          {
+                                            "type": "PENJELASAN_HURUF",
+                                            "text": "Huruf b"
+                                          },
+                                          {
+                                            "type": "PLAINTEXT",
+                                            "text": "Yang dimaksud dengan \u201cpemeriksaan teknis\u201d adalah rangkaian kegiatan mencari, mengumpulkan, dan mengolah data dan/atau keterangan lain yang dilakukan oleh pemeriksa untuk menentukan ada atau tidaknya pelanggaran terhadap ketentuan peraturan perundang-undangan dalam Sistem Resi Gudang."
+                                          }
+                                        ]
+                                      },
+                                      {
+                                        "type": "PENJELASAN_LIST_ITEM",
+                                        "id": "",
+                                        "children": [
+                                          {
+                                            "type": "PENJELASAN_HURUF",
+                                            "text": "Huruf c"
+                                          },
+                                          {
+                                            "type": "PLAINTEXT",
+                                            "text": "Cukup jelas."
+                                          }
+                                        ]
+                                      },
+                                      {
+                                        "type": "PENJELASAN_LIST_ITEM",
+                                        "id": "",
+                                        "children": [
+                                          {
+                                            "type": "PENJELASAN_HURUF",
+                                            "text": "Huruf d"
+                                          },
+                                          {
+                                            "type": "PLAINTEXT",
+                                            "text": "Cukup jelas."
+                                          }
+                                        ]
+                                      },
+                                      {
+                                        "type": "PENJELASAN_LIST_ITEM",
+                                        "id": "",
+                                        "children": [
+                                          {
+                                            "type": "PENJELASAN_HURUF",
+                                            "text": "Huruf e"
+                                          },
+                                          {
+                                            "type": "PLAINTEXT",
+                                            "text": "Cukup jelas."
+                                          }
+                                        ]
+                                      },
+                                      {
+                                        "type": "PENJELASAN_LIST_ITEM",
+                                        "id": "",
+                                        "children": [
+                                          {
+                                            "type": "PENJELASAN_HURUF",
+                                            "text": "Huruf f"
+                                          },
+                                          {
+                                            "type": "PLAINTEXT",
+                                            "text": "Cukup jelas."
+                                          }
+                                        ]
+                                      }
+                                    ]
+                                  }
+                                ]
+                              }
+                            ]
+                          }
+                        ]
+                      },
+                      {
+                        "type": "PENJELASAN_LIST_ITEM",
+                        "id": "",
+                        "children": [
+                          {
+                            "type": "PENJELASAN_ANGKA",
+                            "text": "Angka 4"
+                          },
+                          {
+                            "type": "PENJELASAN_PERUBAHAN_SECTION",
+                            "id": "",
+                            "children": [
+                              {
+                                "type": "PENJELASAN_PERUBAHAN_PASAL",
+                                "id": "",
+                                "children": [
+                                  {
+                                    "type": "PASAL_NUMBER",
+                                    "text": "Pasal 29"
+                                  },
+                                  {
+                                    "type": "PLAINTEXT",
+                                    "text": "Cukup jelas."
+                                  }
+                                ]
+                              }
+                            ]
+                          }
+                        ]
+                      },
+                      {
+                        "type": "PENJELASAN_LIST_ITEM",
+                        "id": "",
+                        "children": [
+                          {
+                            "type": "PENJELASAN_ANGKA",
+                            "text": "Angka 5"
+                          },
+                          {
+                            "type": "PENJELASAN_PERUBAHAN_SECTION",
+                            "id": "",
+                            "children": [
+                              {
+                                "type": "PENJELASAN_PERUBAHAN_PASAL",
+                                "id": "",
+                                "children": [
+                                  {
+                                    "type": "PASAL_NUMBER",
+                                    "text": "Pasal 32"
+                                  },
+                                  {
+                                    "type": "PLAINTEXT",
+                                    "text": "Cukup jelas."
+                                  }
+                                ]
+                              }
+                            ]
+                          }
+                        ]
+                      },
+                      {
+                        "type": "PENJELASAN_LIST_ITEM",
+                        "id": "",
+                        "children": [
+                          {
+                            "type": "PENJELASAN_ANGKA",
+                            "text": "Angka 6"
+                          },
+                          {
+                            "type": "PENJELASAN_PERUBAHAN_SECTION",
+                            "id": "",
+                            "children": [
+                              {
+                                "type": "PENJELASAN_PERUBAHAN_PASAL",
+                                "id": "",
+                                "children": [
+                                  {
+                                    "type": "PASAL_NUMBER",
+                                    "text": "Pasal 33"
+                                  },
+                                  {
+                                    "type": "PLAINTEXT",
+                                    "text": "Cukup jelas."
+                                  }
+                                ]
+                              }
+                            ]
+                          }
+                        ]
+                      },
+                      {
+                        "type": "PENJELASAN_LIST_ITEM",
+                        "id": "",
+                        "children": [
+                          {
+                            "type": "PENJELASAN_ANGKA",
+                            "text": "Angka 7"
+                          },
+                          {
+                            "type": "PENJELASAN_PERUBAHAN_SECTION",
+                            "id": "",
+                            "children": [
+                              {
+                                "type": "PENJELASAN_PERUBAHAN_PASAL",
+                                "id": "",
+                                "children": [
+                                  {
+                                    "type": "PASAL_NUMBER",
+                                    "text": "Pasal 37A"
+                                  },
+                                  {
+                                    "type": "PLAINTEXT",
+                                    "text": "Cukup jelas."
+                                  }
+                                ]
+                              },
+                              {
+                                "type": "PENJELASAN_PERUBAHAN_PASAL",
+                                "id": "",
+                                "children": [
+                                  {
+                                    "type": "PASAL_NUMBER",
+                                    "text": "Pasal 37B"
+                                  },
+                                  {
+                                    "type": "PLAINTEXT",
+                                    "text": "Cukup jelas."
+                                  }
+                                ]
+                              },
+                              {
+                                "type": "PENJELASAN_PERUBAHAN_PASAL",
+                                "id": "",
+                                "children": [
+                                  {
+                                    "type": "PASAL_NUMBER",
+                                    "text": "Pasal 37C"
+                                  },
+                                  {
+                                    "type": "PLAINTEXT",
+                                    "text": "Cukup jelas."
+                                  }
+                                ]
+                              },
+                              {
+                                "type": "PENJELASAN_PERUBAHAN_PASAL",
+                                "id": "",
+                                "children": [
+                                  {
+                                    "type": "PASAL_NUMBER",
+                                    "text": "Pasal 37D"
+                                  },
+                                  {
+                                    "type": "PLAINTEXT",
+                                    "text": "Cukup jelas."
+                                  }
+                                ]
+                              },
+                              {
+                                "type": "PENJELASAN_PERUBAHAN_PASAL",
+                                "id": "",
+                                "children": [
+                                  {
+                                    "type": "PASAL_NUMBER",
+                                    "text": "Pasal 37E"
+                                  },
+                                  {
+                                    "type": "LIST",
+                                    "id": "",
+                                    "children": [
+                                      {
+                                        "type": "PENJELASAN_LIST_ITEM",
+                                        "id": "",
+                                        "children": [
+                                          {
+                                            "type": "PENJELASAN_AYAT",
+                                            "text": "Ayat (1)"
+                                          },
+                                          {
+                                            "type": "PLAINTEXT",
+                                            "text": "Cukup jelas."
+                                          }
+                                        ]
+                                      },
+                                      {
+                                        "type": "PENJELASAN_LIST_ITEM",
+                                        "id": "",
+                                        "children": [
+                                          {
+                                            "type": "PENJELASAN_AYAT",
+                                            "text": "Ayat (2)"
+                                          },
+                                          {
+                                            "type": "LIST",
+                                            "id": "",
+                                            "children": [
+                                              {
+                                                "type": "PENJELASAN_LIST_ITEM",
+                                                "id": "",
+                                                "children": [
+                                                  {
+                                                    "type": "PENJELASAN_HURUF",
+                                                    "text": "Huruf a"
+                                                  },
+                                                  {
+                                                    "type": "PLAINTEXT",
+                                                    "text": "Cukup jelas."
+                                                  }
+                                                ]
+                                              },
+                                              {
+                                                "type": "PENJELASAN_LIST_ITEM",
+                                                "id": "",
+                                                "children": [
+                                                  {
+                                                    "type": "PENJELASAN_HURUF",
+                                                    "text": "Huruf b"
+                                                  },
+                                                  {
+                                                    "type": "PLAINTEXT",
+                                                    "text": "Yang dimaksud dengan \u201ctidak berdampak luas\u201d adalah suatu kondisi sulit yang ditimbulkan oleh pengelolaan Gudang yang tidak menyebabkan hilangnya kepercayaan terhadap Sistem Resi Gudang."
+                                                  }
+                                                ]
+                                              },
+                                              {
+                                                "type": "PENJELASAN_LIST_ITEM",
+                                                "id": "",
+                                                "children": [
+                                                  {
+                                                    "type": "PENJELASAN_HURUF",
+                                                    "text": "Huruf c"
+                                                  },
+                                                  {
+                                                    "type": "PLAINTEXT",
+                                                    "text": "Yang dimaksud dengan \u201cberdampak luas\u201d adalah suatu kondisi sulit yang ditimbulkan oleh pengelolaan Gudang yang menyebabkan hilangnya kepercayaan terhadap Sistem Resi Gudang."
+                                                  }
+                                                ]
+                                              }
+                                            ]
+                                          }
+                                        ]
+                                      }
+                                    ]
+                                  }
+                                ]
+                              },
+                              {
+                                "type": "PENJELASAN_PERUBAHAN_PASAL",
+                                "id": "",
+                                "children": [
+                                  {
+                                    "type": "PASAL_NUMBER",
+                                    "text": "Pasal 37F"
+                                  },
+                                  {
+                                    "type": "LIST",
+                                    "id": "",
+                                    "children": [
+                                      {
+                                        "type": "PENJELASAN_LIST_ITEM",
+                                        "id": "",
+                                        "children": [
+                                          {
+                                            "type": "PENJELASAN_AYAT",
+                                            "text": "Ayat (1)"
+                                          },
+                                          {
+                                            "type": "LIST",
+                                            "id": "",
+                                            "children": [
+                                              {
+                                                "type": "PENJELASAN_LIST_ITEM",
+                                                "id": "",
+                                                "children": [
+                                                  {
+                                                    "type": "PENJELASAN_HURUF",
+                                                    "text": "Huruf a"
+                                                  },
+                                                  {
+                                                    "type": "PLAINTEXT",
+                                                    "text": "Cukup jelas."
+                                                  }
+                                                ]
+                                              },
+                                              {
+                                                "type": "PENJELASAN_LIST_ITEM",
+                                                "id": "",
+                                                "children": [
+                                                  {
+                                                    "type": "PENJELASAN_HURUF",
+                                                    "text": "Huruf b"
+                                                  },
+                                                  {
+                                                    "type": "PLAINTEXT",
+                                                    "text": "Cukup jelas."
+                                                  }
+                                                ]
+                                              },
+                                              {
+                                                "type": "PENJELASAN_LIST_ITEM",
+                                                "id": "",
+                                                "children": [
+                                                  {
+                                                    "type": "PENJELASAN_HURUF",
+                                                    "text": "Huruf c"
+                                                  },
+                                                  {
+                                                    "type": "PLAINTEXT",
+                                                    "text": "Cukup jelas."
+                                                  }
+                                                ]
+                                              },
+                                              {
+                                                "type": "PENJELASAN_LIST_ITEM",
+                                                "id": "",
+                                                "children": [
+                                                  {
+                                                    "type": "PENJELASAN_HURUF",
+                                                    "text": "Huruf d"
+                                                  },
+                                                  {
+                                                    "type": "PLAINTEXT",
+                                                    "text": "Cukup jelas."
+                                                  }
+                                                ]
+                                              },
+                                              {
+                                                "type": "PENJELASAN_LIST_ITEM",
+                                                "id": "",
+                                                "children": [
+                                                  {
+                                                    "type": "PENJELASAN_HURUF",
+                                                    "text": "Huruf e"
+                                                  },
+                                                  {
+                                                    "type": "PLAINTEXT",
+                                                    "text": "Cukup jelas."
+                                                  }
+                                                ]
+                                              },
+                                              {
+                                                "type": "PENJELASAN_LIST_ITEM",
+                                                "id": "",
+                                                "children": [
+                                                  {
+                                                    "type": "PENJELASAN_HURUF",
+                                                    "text": "Huruf f"
+                                                  },
+                                                  {
+                                                    "type": "PLAINTEXT",
+                                                    "text": "Cukup jelas."
+                                                  }
+                                                ]
+                                              },
+                                              {
+                                                "type": "PENJELASAN_LIST_ITEM",
+                                                "id": "",
+                                                "children": [
+                                                  {
+                                                    "type": "PENJELASAN_HURUF",
+                                                    "text": "Huruf g"
+                                                  },
+                                                  {
+                                                    "type": "PLAINTEXT",
+                                                    "text": "Yang dimaksud dengan \u201cpihak lain\u201d adalah pihak-pihak yang berkaitan dengan tugas dan kewenangan Lembaga Jaminan."
+                                                  }
+                                                ]
+                                              },
+                                              {
+                                                "type": "PENJELASAN_LIST_ITEM",
+                                                "id": "",
+                                                "children": [
+                                                  {
+                                                    "type": "PENJELASAN_HURUF",
+                                                    "text": "Huruf h"
+                                                  },
+                                                  {
+                                                    "type": "PLAINTEXT",
+                                                    "text": "Cukup jelas."
+                                                  }
+                                                ]
+                                              }
+                                            ]
+                                          }
+                                        ]
+                                      },
+                                      {
+                                        "type": "PENJELASAN_LIST_ITEM",
+                                        "id": "",
+                                        "children": [
+                                          {
+                                            "type": "PENJELASAN_AYAT",
+                                            "text": "Ayat (2)"
+                                          },
+                                          {
+                                            "type": "PLAINTEXT",
+                                            "text": "Cukup jelas."
+                                          }
+                                        ]
+                                      },
+                                      {
+                                        "type": "PENJELASAN_LIST_ITEM",
+                                        "id": "",
+                                        "children": [
+                                          {
+                                            "type": "PENJELASAN_AYAT",
+                                            "text": "Ayat (3)"
+                                          },
+                                          {
+                                            "type": "PLAINTEXT",
+                                            "text": "Cukup jelas."
+                                          }
+                                        ]
+                                      }
+                                    ]
+                                  }
+                                ]
+                              },
+                              {
+                                "type": "PENJELASAN_PERUBAHAN_PASAL",
+                                "id": "",
+                                "children": [
+                                  {
+                                    "type": "PASAL_NUMBER",
+                                    "text": "Pasal 37G"
+                                  },
+                                  {
+                                    "type": "LIST",
+                                    "id": "",
+                                    "children": [
+                                      {
+                                        "type": "PENJELASAN_LIST_ITEM",
+                                        "id": "",
+                                        "children": [
+                                          {
+                                            "type": "PENJELASAN_AYAT",
+                                            "text": "Ayat (1)"
+                                          },
+                                          {
+                                            "type": "PLAINTEXT",
+                                            "text": "Yang dimaksud dengan \u201cpihak lain\u201d adalah pihak-pihak yang berkaitan dengan tugas dan kewenangan Lembaga Jaminan."
+                                          }
+                                        ]
+                                      },
+                                      {
+                                        "type": "PENJELASAN_LIST_ITEM",
+                                        "id": "",
+                                        "children": [
+                                          {
+                                            "type": "PENJELASAN_AYAT",
+                                            "text": "Ayat (2)"
+                                          },
+                                          {
+                                            "type": "PLAINTEXT",
+                                            "text": "Cukup jelas."
+                                          }
+                                        ]
+                                      },
+                                      {
+                                        "type": "PENJELASAN_LIST_ITEM",
+                                        "id": "",
+                                        "children": [
+                                          {
+                                            "type": "PENJELASAN_AYAT",
+                                            "text": "Ayat (3)"
+                                          },
+                                          {
+                                            "type": "PLAINTEXT",
+                                            "text": "Cukup jelas."
+                                          }
+                                        ]
+                                      }
+                                    ]
+                                  }
+                                ]
+                              },
+                              {
+                                "type": "PENJELASAN_PERUBAHAN_PASAL",
+                                "id": "",
+                                "children": [
+                                  {
+                                    "type": "PASAL_NUMBER",
+                                    "text": "Pasal 37H"
+                                  },
+                                  {
+                                    "type": "PLAINTEXT",
+                                    "text": "Cukup jelas."
+                                  }
+                                ]
+                              },
+                              {
+                                "type": "PENJELASAN_PERUBAHAN_PASAL",
+                                "id": "",
+                                "children": [
+                                  {
+                                    "type": "PASAL_NUMBER",
+                                    "text": "Pasal 37I"
+                                  },
+                                  {
+                                    "type": "PLAINTEXT",
+                                    "text": "Cukup jelas."
+                                  }
+                                ]
+                              }
+                            ]
+                          }
+                        ]
+                      },
+                      {
+                        "type": "PENJELASAN_LIST_ITEM",
+                        "id": "",
+                        "children": [
+                          {
+                            "type": "PENJELASAN_ANGKA",
+                            "text": "Angka 8"
+                          },
+                          {
+                            "type": "PENJELASAN_PERUBAHAN_SECTION",
+                            "id": "",
+                            "children": [
+                              {
+                                "type": "PENJELASAN_PERUBAHAN_PASAL",
+                                "id": "",
+                                "children": [
+                                  {
+                                    "type": "PASAL_NUMBER",
+                                    "text": "Pasal 40"
+                                  },
+                                  {
+                                    "type": "PLAINTEXT",
+                                    "text": "Cukup jelas."
+                                  }
+                                ]
+                              }
+                            ]
+                          }
+                        ]
+                      },
+                      {
+                        "type": "PENJELASAN_LIST_ITEM",
+                        "id": "",
+                        "children": [
+                          {
+                            "type": "PENJELASAN_ANGKA",
+                            "text": "Angka 9"
+                          },
+                          {
+                            "type": "PENJELASAN_PERUBAHAN_SECTION",
+                            "id": "",
+                            "children": [
+                              {
+                                "type": "PENJELASAN_PERUBAHAN_PASAL",
+                                "id": "",
+                                "children": [
+                                  {
+                                    "type": "PASAL_NUMBER",
+                                    "text": "Pasal 40A"
+                                  },
+                                  {
+                                    "type": "PLAINTEXT",
+                                    "text": "Cukup jelas."
+                                  }
+                                ]
+                              }
+                            ]
+                          }
+                        ]
+                      },
+                      {
+                        "type": "PENJELASAN_LIST_ITEM",
+                        "id": "",
+                        "children": [
+                          {
+                            "type": "PENJELASAN_ANGKA",
+                            "text": "Angka 10"
+                          },
+                          {
+                            "type": "PENJELASAN_PERUBAHAN_SECTION",
+                            "id": "",
+                            "children": [
+                              {
+                                "type": "PENJELASAN_PERUBAHAN_PASAL",
+                                "id": "",
+                                "children": [
+                                  {
+                                    "type": "PASAL_NUMBER",
+                                    "text": "Pasal 42A"
+                                  },
+                                  {
+                                    "type": "PLAINTEXT",
+                                    "text": "Cukup jelas."
+                                  }
+                                ]
+                              }
+                            ]
+                          }
+                        ]
+                      },
+                      {
+                        "type": "PENJELASAN_LIST_ITEM",
+                        "id": "",
+                        "children": [
+                          {
+                            "type": "PENJELASAN_ANGKA",
+                            "text": "Angka 11"
+                          },
+                          {
+                            "type": "PENJELASAN_PERUBAHAN_SECTION",
+                            "id": "",
+                            "children": [
+                              {
+                                "type": "PENJELASAN_PERUBAHAN_PASAL",
+                                "id": "",
+                                "children": [
+                                  {
+                                    "type": "PASAL_NUMBER",
+                                    "text": "Pasal 44A"
+                                  },
+                                  {
+                                    "type": "PLAINTEXT",
+                                    "text": "Cukup jelas."
+                                  }
+                                ]
+                              }
+                            ]
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "PENJELASAN_PASAL",
+                "id": "",
+                "children": [
+                  {
+                    "type": "PASAL_NUMBER",
+                    "text": "Pasal II"
+                  },
+                  {
+                    "type": "PLAINTEXT",
+                    "text": "Cukup jelas."
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}
