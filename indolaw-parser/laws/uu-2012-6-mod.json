@@ -1,0 +1,760 @@
+{
+  "metadata": {
+    "lembaranNegaraNumber": 115,
+    "lembaranNegaraYear": 2012,
+    "tambahanLembaranNumber": 5314,
+    "number": 6,
+    "topic": "Pengesahan International Convention On The Protection Of The Rights Of All Migrant Workers And Members Of Their Families (konvensi Internasional Mengenai Perlindungan Hak-hak Seluruh Pekerja Migran Dan Anggota Keluarganya)",
+    "year": 2012
+  },
+  "content": {
+    "type": "UNDANG_UNDANG",
+    "id": "",
+    "children": [
+      {
+        "type": "OPENING",
+        "id": "",
+        "children": [
+          {
+            "type": "UU_TITLE",
+            "id": "",
+            "children": [
+              {
+                "type": "PLAINTEXT",
+                "text": "UNDANG-UNDANG REPUBLIK INDONESIA"
+              },
+              {
+                "type": "UU_TITLE_YEAR_AND_NUMBER",
+                "text": "NOMOR 6 TAHUN 2012"
+              },
+              {
+                "type": "PLAINTEXT",
+                "text": "TENTANG"
+              },
+              {
+                "type": "UU_TITLE_TOPIC",
+                "text": "PENGESAHAN INTERNATIONAL CONVENTION ON THE PROTECTION OF THE RIGHTS OF ALL MIGRANT WORKERS AND MEMBERS OF THEIR FAMILIES (KONVENSI INTERNASIONAL MENGENAI PERLINDUNGAN HAK-HAK SELURUH PEKERJA MIGRAN DAN ANGGOTA KELUARGANYA)"
+              }
+            ]
+          },
+          {
+            "type": "PREFACE",
+            "id": "",
+            "children": [
+              {
+                "type": "PLAINTEXT",
+                "text": "DENGAN RAHMAT TUHAN YANG MAHA ESA"
+              },
+              {
+                "type": "PLAINTEXT",
+                "text": "PRESIDEN REPUBLIK INDONESIA,"
+              }
+            ]
+          },
+          {
+            "type": "CONSIDERATIONS",
+            "id": "",
+            "children": [
+              {
+                "type": "PLAINTEXT",
+                "text": "Menimbang:"
+              },
+              {
+                "type": "LIST",
+                "id": "",
+                "children": [
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "LETTER_WITH_DOT",
+                        "text": "a."
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "bahwa Negara Republik Indonesia adalah negara yang berdasarkan Pancasila dan Undang-Undang Dasar Negara Republik Indonesia Tahun 1945 yang menghormati dan menjunjung tinggi harkat dan martabat manusia, sehingga hak asasi manusia, termasuk hak-hak seluruh pekerja migran dan anggota keluarganya harus dilindungi, dihormati, dipertahankan dan tidak boleh diabaikan, dikurangi atau dirampas oleh siapa pun;"
+                      }
+                    ]
+                  },
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "LETTER_WITH_DOT",
+                        "text": "b."
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "bahwa bangsa Indonesia sebagai bagian dari masyarakat internasional menghormati, menghargai, dan menjunjung tinggi prinsip dan tujuan Piagam Perserikatan Bangsa-Bangsa dan Deklarasi Universal Hak Asasi Manusia;"
+                      }
+                    ]
+                  },
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "LETTER_WITH_DOT",
+                        "text": "c."
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "bahwa Pemerintah Republik Indonesia telah menandatangani International Convention on the Protection of the Rights of All Migrant Workers and Members of Their Families (Konvensi Internasional mengenai Perlindungan Hak-Hak Seluruh Pekerja Migran dan Anggota Keluarganya) pada tanggal 22 September 2004 di New York;"
+                      }
+                    ]
+                  },
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "LETTER_WITH_DOT",
+                        "text": "d."
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "bahwa berdasarkan pertimbangan sebagaimana dimaksud dalam huruf a, huruf b, dan huruf c, perlu mengesahkan International Convention on the Protection of the Rights of All Migrant Workers and Members of Their Families (Konvensi Internasional mengenai Perlindungan Hak-Hak Seluruh Pekerja Migran dan Anggota Keluarganya) dengan Undang-Undang;"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "PRINCIPLES",
+            "id": "",
+            "children": [
+              {
+                "type": "PLAINTEXT",
+                "text": "Mengingat:"
+              },
+              {
+                "type": "LIST",
+                "id": "",
+                "children": [
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "NUMBER_WITH_DOT",
+                        "text": "1."
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "Pasal 5 ayat (1), Pasal 11, dan Pasal 20 Undang-Undang Dasar Negara Republik Indonesia Tahun 1945;"
+                      }
+                    ]
+                  },
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "NUMBER_WITH_DOT",
+                        "text": "2."
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "Undang-Undang Nomor 37 Tahun 1999 tentang Hubungan Luar Negeri (Lembaran Negara Republik Indonesia Tahun 1999 Nomor 156, Tambahan Lembaran Negara Republik Indonesia Nomor 3882);"
+                      }
+                    ]
+                  },
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "NUMBER_WITH_DOT",
+                        "text": "3."
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "Undang-Undang Nomor 24 Tahun 2000 tentang Perjanjian Internasional (Lembaran Negara Republik Indonesia Tahun 2000 Nomor 185, Tambahan Lembaran Negara Republik Indonesia Nomor 4012);"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "AGREEMENT",
+            "id": "",
+            "children": [
+              {
+                "type": "PLAINTEXT",
+                "text": "Dengan Persetujuan Bersama:"
+              },
+              {
+                "type": "PLAINTEXT",
+                "text": "DEWAN PERWAKILAN RAKYAT REPUBLIK INDONESIA"
+              },
+              {
+                "type": "PLAINTEXT",
+                "text": "dan"
+              },
+              {
+                "type": "PLAINTEXT",
+                "text": "PRESIDEN REPUBLIK INDONESIA"
+              },
+              {
+                "type": "PLAINTEXT",
+                "text": "MEMUTUSKAN:"
+              },
+              {
+                "type": "PLAINTEXT",
+                "text": "Menetapkan:"
+              },
+              {
+                "type": "PLAINTEXT",
+                "text": "UNDANG-UNDANG TENTANG PENGESAHAN INTERNATIONAL CONVENTION ON THE PROTECTION OF THE RIGHTS OF ALL MIGRANT WORKERS AND MEMBERS OF THEIR FAMILIES (KONVENSI INTERNASIONAL MENGENAI PERLINDUNGAN HAK-HAK SELURUH PEKERJA MIGRAN DAN ANGGOTA KELUARGANYA)."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "PASAL",
+        "id": "pasal-1",
+        "children": [
+          {
+            "type": "PASAL_NUMBER",
+            "text": "Pasal 1"
+          },
+          {
+            "type": "LIST",
+            "id": "",
+            "children": [
+              {
+                "type": "LIST_ITEM",
+                "id": "",
+                "children": [
+                  {
+                    "type": "NUMBER_WITH_BRACKETS",
+                    "text": "(1)"
+                  },
+                  {
+                    "type": "PLAINTEXT",
+                    "text": "Mengesahkan International Convention on the Protection of the Rights of All Migrant Workers and Members of Their Families (Konvensi Internasional mengenai Perlindungan Hak-Hak Seluruh Pekerja Migran dan Anggota Keluarganya)."
+                  }
+                ]
+              },
+              {
+                "type": "LIST_ITEM",
+                "id": "",
+                "children": [
+                  {
+                    "type": "NUMBER_WITH_BRACKETS",
+                    "text": "(2)"
+                  },
+                  {
+                    "type": "PLAINTEXT",
+                    "text": "Salinan naskah asli International Convention on the Protection of the Rights of All Migrant Workers and Members of Their Families (Konvensi Internasional mengenai Perlindungan Hak-Hak Seluruh Pekerja Migran dan Anggota Keluarganya) dalam bahasa Inggris dan terjemahannya dalam bahasa Indonesia sebagaimana terlampir merupakan bagian yang tidak terpisahkan dari Undang-Undang ini."
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "PASAL",
+        "id": "pasal-2",
+        "children": [
+          {
+            "type": "PASAL_NUMBER",
+            "text": "Pasal 2"
+          },
+          {
+            "type": "PLAINTEXT",
+            "text": "Undang-Undang ini mulai berlaku pada tanggal diundangkan."
+          },
+          {
+            "type": "PLAINTEXT",
+            "text": "Agar setiap orang mengetahuinya, memerintahkan pengundangan Undang-Undang ini dengan penempatannya dalam Lembaran Negara Republik Indonesia."
+          }
+        ]
+      },
+      {
+        "type": "CLOSING",
+        "id": "",
+        "children": [
+          {
+            "type": "PLAINTEXT",
+            "text": "Disahkan Di Jakarta,"
+          },
+          {
+            "type": "PLAINTEXT",
+            "text": "Pada Tanggal 2 Mei 2012"
+          },
+          {
+            "type": "PLAINTEXT",
+            "text": "PRESIDEN REPUBLIK INDONESIA,"
+          },
+          {
+            "type": "PLAINTEXT",
+            "text": "Ttd."
+          },
+          {
+            "type": "PLAINTEXT",
+            "text": "DR. H. SUSILO BAMBANG YUDHOYONO"
+          },
+          {
+            "type": "PLAINTEXT",
+            "text": "Diundangkan Di Jakarta,"
+          },
+          {
+            "type": "PLAINTEXT",
+            "text": "Pada Tanggal 2 Mei 2012"
+          },
+          {
+            "type": "PLAINTEXT",
+            "text": "MENTERI HUKUM DAN HAK ASASI MANUSIA REPUBLIK INDONESIA,"
+          },
+          {
+            "type": "PLAINTEXT",
+            "text": "Ttd."
+          },
+          {
+            "type": "PLAINTEXT",
+            "text": "AMIR SYAMSUDIN"
+          },
+          {
+            "type": "LEMBARAN_NUMBER",
+            "text": "LEMBARAN NEGARA REPUBLIK INDONESIA TAHUN 2012 NOMOR 115"
+          }
+        ]
+      },
+      {
+        "type": "PENJELASAN",
+        "id": "penjelasan",
+        "children": [
+          {
+            "type": "PENJELASAN_TITLE",
+            "id": "",
+            "children": [
+              {
+                "type": "PLAINTEXT",
+                "text": "PENJELASAN"
+              },
+              {
+                "type": "PLAINTEXT",
+                "text": "UNDANG-UNDANG REPUBLIK INDONESIA"
+              },
+              {
+                "type": "UU_TITLE_YEAR_AND_NUMBER",
+                "text": "NOMOR 6 TAHUN 2012"
+              },
+              {
+                "type": "PLAINTEXT",
+                "text": "TENTANG"
+              },
+              {
+                "type": "UU_TITLE_TOPIC",
+                "text": "PENGESAHAN INTERNATIONAL CONVENTION ON THE PROTECTION OF THE RIGHTS OF ALL MIGRANT WORKERS AND MEMBERS OF THEIR FAMILIES (KONVENSI INTERNASIONAL MENGENAI PERLINDUNGAN HAK-HAK SELURUH PEKERJA MIGRAN DAN ANGGOTA KELUARGANYA)"
+              }
+            ]
+          },
+          {
+            "type": "PENJELASAN_UMUM",
+            "id": "",
+            "children": [
+              {
+                "type": "PENJELASAN_UMUM_TITLE",
+                "text": "I. UMUM"
+              },
+              {
+                "type": "PLAINTEXT",
+                "text": "Negara Republik Indonesia yang berdasarkan Pancasila dan Undang-Undang Dasar Negara Republik Indonesia Tahun 1945 menghormati dan menjunjung tinggi harkat dan martabat manusia. Hak asasi manusia sebagai hak dasar yang secara kodrati melekat pada diri manusia, bersifat universal dan langgeng, juga dilindungi, dihormati, dan dipertahankan oleh Negara Republik Indonesia, sehingga perlindungan dan pemajuan hak asasi manusia, termasuk hak-hak seluruh pekerja migran dan anggota keluarganya perlu ditingkatkan."
+              },
+              {
+                "type": "PLAINTEXT",
+                "text": "Pada tanggal 18 Desember 1990 Majelis Umum Perserikatan Bangsa-Bangsa telah mengeluarkan Resolusi Nomor A/RES/45/158 mengenai International Convention on the Protection of the Rights of All Migrant Workers and Members of Their Families (Konvensi Internasional mengenai Perlindungan Hak Hak Seluruh Pekerja Migran dan Anggota Keluarganya). Resolusi tersebut memuat seluruh hak-hak pekerja migran dan anggota keluarganya dan menyatakan akan mengambil langkah-langkah untuk menjamin pelaksanaan Konvensi ini."
+              },
+              {
+                "type": "PLAINTEXT",
+                "text": "Pada tanggal 22 September 2004 di New York, Pemerintah Indonesia telah menandatangani International Convention on the Protection of the Rights of All Migrant Workers and Members of Their Families (Konvensi Internasional mengenai Perlindungan Hak-Hak Seluruh Pekerja Migran dan Anggota Keluarganya) tanpa reservasi. Penandatanganan tersebut menunjukkan kesungguhan Negara Indonesia untuk melindungi, menghormati, memajukan dan memenuhi hak-hak seluruh pekerja migran dan anggota keluarganya, yang pada akhirnya diharapkan dapat memenuhi kesejahteraan para pekerja migran dan anggota keluarganya."
+              },
+              {
+                "type": "PLAINTEXT",
+                "text": "Sebagai salah satu negara yang telah menandatangani International Convention on the Protection of the Rights of All Migrant Workers and Members of Their Families (Konvensi Internasional mengenai Perlindungan Hak-Hak Seluruh Pekerja Migran dan Anggota Keluarganya), Indonesia memiliki komitmen untuk meratifikasi Konvensi ini. Ratifikasi Konvensi ini diharapkan dapat mendorong terciptanya ratifikasi universal dan penerapan prinsip serta norma standar internasional bagi perlindungan hak-hak seluruh pekerja migran dan anggota keluarganya secara global."
+              },
+              {
+                "type": "PLAINTEXT",
+                "text": "Dalam upaya melindungi, menghormati, memajukan dan memenuhi hak-hak pekerja migran dan anggota keluarganya, Pemerintah Indonesia telah membentuk berbagai peraturan perundang-undangan yang terkait dengan perlindungan terhadap tenaga kerja, antara lain:"
+              },
+              {
+                "type": "LIST",
+                "id": "",
+                "children": [
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "NUMBER_WITH_DOT",
+                        "text": "1."
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "Undang-Undang Nomor 4 Tahun 1979 tentang Kesejahteraan Anak;"
+                      }
+                    ]
+                  },
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "NUMBER_WITH_DOT",
+                        "text": "2."
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "Undang-Undang Nomor 39 Tahun 1999 tentang Hak Asasi Manusia;"
+                      }
+                    ]
+                  },
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "NUMBER_WITH_DOT",
+                        "text": "3."
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "Undang-Undang Nomor 23 Tahun 2002 tentang Perlindungan Anak;"
+                      }
+                    ]
+                  },
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "NUMBER_WITH_DOT",
+                        "text": "4."
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "Undang-Undang Nomor 13 Tahun 2003 tentang Ketenagakerjaan;"
+                      }
+                    ]
+                  },
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "NUMBER_WITH_DOT",
+                        "text": "5."
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "Undang-Undang Nomor 20 Tahun 2003 tentang Sistem Pendidikan Nasional;"
+                      }
+                    ]
+                  },
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "NUMBER_WITH_DOT",
+                        "text": "6."
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "Undang-Undang Nomor 39 Tahun 2004 tentang Penempatan dan Perlindungan Tenaga Kerja Indonesia di Luar Negeri;"
+                      }
+                    ]
+                  },
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "NUMBER_WITH_DOT",
+                        "text": "7."
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "Undang-Undang Nomor 40 Tahun 2004 tentang Sistem Jaminan Sosial Nasional;"
+                      }
+                    ]
+                  },
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "NUMBER_WITH_DOT",
+                        "text": "8."
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "Undang-Undang Nomor 12 Tahun 2006 tentang Kewarganegaraan Republik Indonesia;"
+                      }
+                    ]
+                  },
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "NUMBER_WITH_DOT",
+                        "text": "9."
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "Undang-Undang Nomor 21 Tahun 2007 tentang Pemberantasan Tindak Pidana Perdagangan Orang;"
+                      }
+                    ]
+                  },
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "NUMBER_WITH_DOT",
+                        "text": "10."
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "Undang-Undang Nomor 11 Tahun 2009 tentang Kesejahteraan Sosial;"
+                      }
+                    ]
+                  },
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "NUMBER_WITH_DOT",
+                        "text": "11."
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "Undang-Undang Nomor 36 Tahun 2009 tentang Kesehatan;"
+                      }
+                    ]
+                  },
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "NUMBER_WITH_DOT",
+                        "text": "12."
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "Undang-Undang Nomor 6 Tahun 2011 tentang Keimigrasian."
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "PLAINTEXT",
+                "text": "Pokok-Pokok Isi Konvensi:"
+              },
+              {
+                "type": "LIST",
+                "id": "",
+                "children": [
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "NUMBER_WITH_DOT",
+                        "text": "1."
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "Pembukaan"
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "Pembukaan berisi definisi umum mengenai istilah dan konsep yang digunakan dalam Konvensi."
+                      }
+                    ]
+                  },
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "NUMBER_WITH_DOT",
+                        "text": "2."
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "Tujuan"
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "Tujuan Konvensi ini adalah untuk menetapkan standar-standar yang menciptakan suatu model bagi hukum serta prosedur administrasi dan peradilan masing-masing negara pihak. Terobosan utama Konvensi ini adalah bahwa orang-orang yang memenuhi kualifikasi sebagai pekerja migran dan anggota keluarganya, sesuai ketentuan-ketentuan Konvensi, berhak untuk menikmati hak asasi manusia, apapun status hukumnya."
+                      }
+                    ]
+                  },
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "NUMBER_WITH_DOT",
+                        "text": "3."
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "Kewajiban Negara"
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "Kewajiban negara merealisasikan hak-hak yang tercantum dalam Konvensi diberikan kepada seluruh pekerja migran dan anggota keluarganya tanpa diskriminasi."
+                      }
+                    ]
+                  },
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "NUMBER_WITH_DOT",
+                        "text": "4."
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "Substansi/Materi Pokok Konvensi Pekerja Migran"
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "Setiap pekerja migran dan anggota keluarganya memiliki hak atas kebebasan untuk meninggalkan, masuk dan menetap di negara manapun, hak hidup, hak untuk bebas dari penyiksaan, hak untuk bebas dari perbudakan, hak atas kebebasan berpikir, berkeyakinan dan beragama, hak atas kebebasan berekspresi, hak atas privasi, hak untuk bebas dari penangkapan yang sewenang wenang, hak diperlakukan sama di muka hukum, hak untuk mendapatkan perlakuan yang sama dalam hak terkait kontrak/hubungan kerja, hak untuk berserikat dan berkumpul, hak mendapatkan perawatan kesehatan, hak atas akses pendidikan bagi anak pekerja migran, hak untuk dihormati identitas budayanya, hak atas kebebasan bergerak, hak membentuk perkumpulan, hak berpartisipasi dalam urusan pemerintahan di negara asalnya, hak untuk transfer pendapatan. Termasuk hak-hak tambahan bagi para pekerja migran yang tercakup dalam kategori-kategori pekerjaan tertentu (pekerja lintas batas, pekerja musiman, pekerja keliling, pekerja proyek, dan pekerja mandiri)."
+                      }
+                    ]
+                  },
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "NUMBER_WITH_DOT",
+                        "text": "5."
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "Kerja Sama Internasional"
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "Konvensi ini mengatur ketentuan-ketentuan terkait kerja sama dan koordinasi internasional dalam pengelolaan migrasi legal dan pencegahan atau pengurangan migrasi ilegal (tak-reguler)."
+                      }
+                    ]
+                  },
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "NUMBER_WITH_DOT",
+                        "text": "6."
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "Laporan Negara Pihak dan Peran Komite Perlindungan Hak-Hak Seluruh Pekerja Migran dan Anggota Keluarganya"
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "Negara Pihak wajib membuat laporan pelaksanaan Konvensi ini selambat-lambatnya 1 (satu) tahun setelah Konvensi ini berlaku, dan laporan selanjutnya setiap 5 (lima) tahun dan jika Komite Perlindungan Hak-Hak Seluruh Pekerja Migran dan Anggota Keluarganya memintanya melalui Sekretaris Jenderal Perserikatan Bangsa-Bangsa."
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "Komite Perlindungan Hak-Hak Seluruh Pekerja Migran dan Anggota Keluarganya membahas laporan yang disampaikan oleh Negara Pihak dan memberikan pertimbangan mengenai cara dan sarana meningkatkan kapasitas nasional untuk melaksanakan Konvensi ini. Komite juga melakukan kerja sama internasional dan koordinasi dengan Organisasi Buruh Internasional, badan dan organ khusus Perserikatan Bangsa-Bangsa, organisasi antarnegara, serta badan terkait lain."
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "PENJELASAN_PASAL_DEMI_PASAL",
+            "id": "",
+            "children": [
+              {
+                "type": "PENJELASAN_PASAL_DEMI_PASAL_TITLE",
+                "text": "II. PASAL DEMI PASAL"
+              },
+              {
+                "type": "PENJELASAN_PASAL",
+                "id": "",
+                "children": [
+                  {
+                    "type": "PASAL_NUMBER",
+                    "text": "Pasal 1"
+                  },
+                  {
+                    "type": "LIST",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "PENJELASAN_LIST_ITEM",
+                        "id": "",
+                        "children": [
+                          {
+                            "type": "PENJELASAN_AYAT",
+                            "text": "Ayat (1)"
+                          },
+                          {
+                            "type": "PLAINTEXT",
+                            "text": "Cukup jelas."
+                          }
+                        ]
+                      },
+                      {
+                        "type": "PENJELASAN_LIST_ITEM",
+                        "id": "",
+                        "children": [
+                          {
+                            "type": "PENJELASAN_AYAT",
+                            "text": "Ayat (2)"
+                          },
+                          {
+                            "type": "PLAINTEXT",
+                            "text": "Apabila terjadi perbedaan penafsiran terhadap terjemahannya dalam bahasa Indonesia, maka digunakan salinan naskah aslinya dalam bahasa Inggris."
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "PENJELASAN_PASAL",
+                "id": "",
+                "children": [
+                  {
+                    "type": "PASAL_NUMBER",
+                    "text": "Pasal 2"
+                  },
+                  {
+                    "type": "PLAINTEXT",
+                    "text": "Cukup jelas."
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,2656 @@
+{
+  "metadata": {
+    "lembaranNegaraNumber": 182,
+    "lembaranNegaraYear": 2012,
+    "tambahanLembaranNumber": 5342,
+    "number": 15,
+    "topic": "Veteran Republik Indonesia",
+    "year": 2012
+  },
+  "content": {
+    "type": "UNDANG_UNDANG",
+    "id": "",
+    "children": [
+      {
+        "type": "OPENING",
+        "id": "",
+        "children": [
+          {
+            "type": "UU_TITLE",
+            "id": "",
+            "children": [
+              {
+                "type": "PLAINTEXT",
+                "text": "UNDANG-UNDANG REPUBLIK INDONESIA"
+              },
+              {
+                "type": "UU_TITLE_YEAR_AND_NUMBER",
+                "text": "NOMOR 15 TAHUN 2012"
+              },
+              {
+                "type": "PLAINTEXT",
+                "text": "TENTANG"
+              },
+              {
+                "type": "UU_TITLE_TOPIC",
+                "text": "VETERAN REPUBLIK INDONESIA"
+              }
+            ]
+          },
+          {
+            "type": "PREFACE",
+            "id": "",
+            "children": [
+              {
+                "type": "PLAINTEXT",
+                "text": "DENGAN RAHMAT TUHAN YANG MAHA ESA"
+              },
+              {
+                "type": "PLAINTEXT",
+                "text": "PRESIDEN REPUBLIK INDONESIA,"
+              }
+            ]
+          },
+          {
+            "type": "CONSIDERATIONS",
+            "id": "",
+            "children": [
+              {
+                "type": "PLAINTEXT",
+                "text": "Menimbang:"
+              },
+              {
+                "type": "LIST",
+                "id": "",
+                "children": [
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "LETTER_WITH_DOT",
+                        "text": "a."
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "bahwa setiap warga negara Indonesia mempunyai hak dan kewajiban membela, mempertahankan kemerdekaan, dan kedaulatan Negara Kesatuan Republik Indonesia, dan/atau ikut melaksanakan ketertiban dunia yang berdasarkan kemerdekaan, perdamaian abadi, dan keadilan sosial;"
+                      }
+                    ]
+                  },
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "LETTER_WITH_DOT",
+                        "text": "b."
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "bahwa atas jasa dan pengorbanan warga negara Indonesia yang telah berjuang, membela, dan mempertahankan kedaulatan Negara Kesatuan Republik Indonesia dan/atau ikut melaksanakan perdamaian dunia, negara perlu memberikan penghargaan dan penghormatan berupa Tanda Kehormatan Veteran Republik Indonesia;"
+                      }
+                    ]
+                  },
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "LETTER_WITH_DOT",
+                        "text": "c."
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "bahwa Undang-Undang Nomor 7 Tahun 1967 tentang Veteran Republik Indonesia belum sepenuhnya mencerminkan pemberian penghargaan secara tepat terhadap jasa dan pengorbanan Veteran Republik Indonesia dalam memperjuangkan, membela, dan mempertahankan Negara Kesatuan Republik Indonesia dan/atau dalam melaksanakan perdamaian dunia sehingga perlu diganti;"
+                      }
+                    ]
+                  },
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "LETTER_WITH_DOT",
+                        "text": "d."
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "bahwa berdasarkan pertimbangan sebagaimana dimaksud dalam huruf a, huruf b, dan huruf c, perlu membentuk Undang-Undang tentang Veteran Republik Indonesia;"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "PRINCIPLES",
+            "id": "",
+            "children": [
+              {
+                "type": "PLAINTEXT",
+                "text": "Mengingat:"
+              },
+              {
+                "type": "LIST",
+                "id": "",
+                "children": [
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "NUMBER_WITH_DOT",
+                        "text": "1."
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "Pasal 5 ayat (1), Pasal 15, dan Pasal 30 Undang-Undang Dasar Negara Republik Indonesia Tahun 1945;"
+                      }
+                    ]
+                  },
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "NUMBER_WITH_DOT",
+                        "text": "2."
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "Undang-Undang Nomor 20 Tahun 2009 tentang Gelar, Tanda Jasa, dan Tanda Kehormatan (Lembaran Negara Republik Indonesia Tahun 2009 Nomor 94, Tambahan Lembaran Negara Republik Indonesia Nomor 5023);"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "AGREEMENT",
+            "id": "",
+            "children": [
+              {
+                "type": "PLAINTEXT",
+                "text": "Dengan Persetujuan Bersama:"
+              },
+              {
+                "type": "PLAINTEXT",
+                "text": "DEWAN PERWAKILAN RAKYAT REPUBLIK INDONESIA"
+              },
+              {
+                "type": "PLAINTEXT",
+                "text": "dan"
+              },
+              {
+                "type": "PLAINTEXT",
+                "text": "PRESIDEN REPUBLIK INDONESIA"
+              },
+              {
+                "type": "PLAINTEXT",
+                "text": "MEMUTUSKAN:"
+              },
+              {
+                "type": "PLAINTEXT",
+                "text": "Menetapkan:"
+              },
+              {
+                "type": "PLAINTEXT",
+                "text": "UNDANG-UNDANG TENTANG VETERAN REPUBLIK INDONESIA."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "BAB",
+        "id": "bab-1",
+        "children": [
+          {
+            "type": "BAB_NUMBER",
+            "text": "BAB I"
+          },
+          {
+            "type": "BAB_TITLE",
+            "text": "KETENTUAN UMUM"
+          },
+          {
+            "type": "PASAL",
+            "id": "pasal-1",
+            "children": [
+              {
+                "type": "PASAL_NUMBER",
+                "text": "Pasal 1"
+              },
+              {
+                "type": "PLAINTEXT",
+                "text": "Dalam Undang-Undang ini yang dimaksud dengan:"
+              },
+              {
+                "type": "LIST",
+                "id": "",
+                "children": [
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "NUMBER_WITH_DOT",
+                        "text": "1."
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "Veteran Republik Indonesia adalah warga negara Indonesia yang bergabung dalam kesatuan bersenjata resmi yang diakui oleh pemerintah yang berperan secara aktif dalam suatu peperangan menghadapi negara lain dan/atau gugur dalam pertempuran untuk membela dan mempertahankan kedaulatan Negara Kesatuan Republik Indonesia, atau warga negara Indonesia yang ikut serta secara aktif dalam pasukan internasional di bawah mandat Perserikatan Bangsa-Bangsa untuk melaksanakan misi perdamaian dunia, yang telah ditetapkan sebagai penerima Tanda Kehormatan Veteran Republik Indonesia."
+                      }
+                    ]
+                  },
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "NUMBER_WITH_DOT",
+                        "text": "2."
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "Veteran Pejuang Kemerdekaan Republik Indonesia adalah warga negara Indonesia yang dalam masa revolusi fisik antara tanggal 17 Agustus 1945 sampai dengan tanggal 27 Desember 1949 yang berperan secara aktif berjuang untuk mempertahankan Negara Kesatuan Republik Indonesia di dalam kesatuan bersenjata resmi dan/atau kelaskaran yang diakui oleh pemerintah pada masa perjuangan, termasuk di dalamnya anggota satuan yang bertugas di bidang Palang Merah Indonesia (PMI)/tenaga kesehatan yang melaksanakan fungsi kesehatan lapangan, dapur umum/juru masak, persenjataan, dan amunisi yang melaksanakan fungsi perbekalan, caraka/kurir/penghubung yang melaksanakan fungsi komunikasi, penjaga kampung/keamanan/mata-mata yang melaksanakan fungsi intelijen dalam rangka pengawasan wilayah, yang telah ditetapkan sebagai penerima Tanda Kehormatan Veteran Republik Indonesia."
+                      }
+                    ]
+                  },
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "NUMBER_WITH_DOT",
+                        "text": "3."
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "Veteran Pembela Kemerdekaan Republik Indonesia adalah warga negara Indonesia yang bergabung dalam kesatuan bersenjata resmi yang diakui oleh pemerintah yang berperan secara aktif dalam suatu peperangan menghadapi negara lain dalam rangka membela dan mempertahankan kedaulatan Negara Kesatuan Republik Indonesia, yang terjadi setelah tanggal 27 Desember 1949, yang telah ditetapkan sebagai penerima Tanda Kehormatan Veteran Republik Indonesia."
+                      }
+                    ]
+                  },
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "NUMBER_WITH_DOT",
+                        "text": "4."
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "Veteran Perdamaian Republik Indonesia adalah warga negara Indonesia yang berperan secara aktif dalam pasukan internasional di bawah mandat Perserikatan Bangsa-Bangsa dalam rangka melaksanakan misi perdamaian dunia, yang telah ditetapkan sebagai penerima Tanda Kehormatan Veteran Republik Indonesia."
+                      }
+                    ]
+                  },
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "NUMBER_WITH_DOT",
+                        "text": "5."
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "Veteran Anumerta Pejuang Kemerdekaan Republik Indonesia adalah warga negara Indonesia yang gugur dalam masa revolusi fisik antara tanggal 17 Agustus 1945 sampai dengan tanggal 27 Desember 1949 yang berperan secara aktif berjuang untuk mempertahankan Negara Kesatuan Republik Indonesia di dalam kesatuan bersenjata resmi dan/atau kelaskaran yang diakui oleh pemerintah pada masa perjuangan, termasuk di dalamnya adalah anggota satuan yang bertugas di bidang Palang Merah Indonesia (PMI)/tenaga kesehatan yang melaksanakan fungsi kesehatan lapangan, dapur umum/juru masak, persenjataan, dan amunisi yang melaksanakan fungsi perbekalan, caraka/kurir/penghubung yang melaksanakan fungsi komunikasi, penjaga kampung/keamanan/mata-mata yang melaksanakan fungsi intelijen dalam rangka pengawasan wilayah, yang telah ditetapkan sebagai penerima Tanda Kehormatan Veteran Republik Indonesia."
+                      }
+                    ]
+                  },
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "NUMBER_WITH_DOT",
+                        "text": "6."
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "Veteran Anumerta Pembela Kemerdekaan Republik Indonesia adalah warga negara Indonesia yang bergabung dalam kesatuan bersenjata resmi yang diakui oleh pemerintah yang berperan secara aktif dalam suatu peperangan menghadapi negara lain yang gugur dalam rangka membela dan mempertahankan kedaulatan Negara Kesatuan Republik Indonesia, yang terjadi setelah tanggal 27 Desember 1949, yang telah ditetapkan sebagai penerima Tanda Kehormatan Veteran Republik Indonesia."
+                      }
+                    ]
+                  },
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "NUMBER_WITH_DOT",
+                        "text": "7."
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "Veteran Anumerta Perdamaian Republik Indonesia adalah warga negara Indonesia yang berperan secara aktif dalam pasukan internasional di bawah mandat Perserikatan Bangsa-Bangsa yang gugur dalam rangka melaksanakan misi perdamaian dunia, yang telah ditetapkan sebagai penerima Tanda Kehormatan Veteran Republik Indonesia."
+                      }
+                    ]
+                  },
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "NUMBER_WITH_DOT",
+                        "text": "8."
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "Tanda Kehormatan Veteran Republik Indonesia adalah penghargaan dan penghormatan negara yang diberikan oleh Presiden kepada warga negara Indonesia yang telah berjuang, membela, dan mempertahankan kedaulatan Negara Kesatuan Republik Indonesia dan/atau ikut melaksanakan perdamaian dunia."
+                      }
+                    ]
+                  },
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "NUMBER_WITH_DOT",
+                        "text": "9."
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "Tunjangan Veteran Republik Indonesia yang selanjutnya disebut Tunjangan Veteran adalah tunjangan yang merupakan penghargaan dan penghormatan negara."
+                      }
+                    ]
+                  },
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "NUMBER_WITH_DOT",
+                        "text": "10."
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "Dana Kehormatan Veteran Republik Indonesia yang selanjutnya disebut Dana Kehormatan adalah sejumlah uang yang diberikan setiap bulan yang merupakan penghargaan dan penghormatan dari negara."
+                      }
+                    ]
+                  },
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "NUMBER_WITH_DOT",
+                        "text": "11."
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "Warga Negara Indonesia yang selanjutnya disebut Warga Negara adalah orang-orang bangsa Indonesia asli dan orang-orang bangsa lain yang disahkan sesuai dengan ketentuan peraturan perundang undangan."
+                      }
+                    ]
+                  },
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "NUMBER_WITH_DOT",
+                        "text": "12."
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "Setiap orang adalah orang perseorangan dan/atau Badan Hukum."
+                      }
+                    ]
+                  },
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "NUMBER_WITH_DOT",
+                        "text": "13."
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "Menteri adalah menteri yang menyelenggarakan urusan pemerintahan di bidang pertahanan."
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "PASAL",
+            "id": "pasal-2",
+            "children": [
+              {
+                "type": "PASAL_NUMBER",
+                "text": "Pasal 2"
+              },
+              {
+                "type": "PLAINTEXT",
+                "text": "Pemberian Tanda Kehormatan Veteran Republik Indonesia dilaksanakan berdasarkan asas:"
+              },
+              {
+                "type": "LIST",
+                "id": "",
+                "children": [
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "LETTER_WITH_DOT",
+                        "text": "a."
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "kejuangan;"
+                      }
+                    ]
+                  },
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "LETTER_WITH_DOT",
+                        "text": "b."
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "kebangsaan; dan"
+                      }
+                    ]
+                  },
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "LETTER_WITH_DOT",
+                        "text": "c."
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "kesejahteraan."
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "BAB",
+        "id": "bab-2",
+        "children": [
+          {
+            "type": "BAB_NUMBER",
+            "text": "BAB II"
+          },
+          {
+            "type": "BAB_TITLE",
+            "text": "JENIS VETERAN REPUBLIK INDONESIA"
+          },
+          {
+            "type": "PASAL",
+            "id": "pasal-3",
+            "children": [
+              {
+                "type": "PASAL_NUMBER",
+                "text": "Pasal 3"
+              },
+              {
+                "type": "LIST",
+                "id": "",
+                "children": [
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "NUMBER_WITH_BRACKETS",
+                        "text": "(1)"
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "Jenis Veteran Republik Indonesia ditentukan berdasarkan peristiwa keveteranan."
+                      }
+                    ]
+                  },
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "NUMBER_WITH_BRACKETS",
+                        "text": "(2)"
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "Jenis Veteran Republik Indonesia sebagaimana dimaksud pada ayat (1) terdiri atas:"
+                      },
+                      {
+                        "type": "LIST",
+                        "id": "",
+                        "children": [
+                          {
+                            "type": "LIST_ITEM",
+                            "id": "",
+                            "children": [
+                              {
+                                "type": "LETTER_WITH_DOT",
+                                "text": "a."
+                              },
+                              {
+                                "type": "PLAINTEXT",
+                                "text": "Veteran Pejuang Kemerdekaan Republik Indonesia;"
+                              }
+                            ]
+                          },
+                          {
+                            "type": "LIST_ITEM",
+                            "id": "",
+                            "children": [
+                              {
+                                "type": "LETTER_WITH_DOT",
+                                "text": "b."
+                              },
+                              {
+                                "type": "PLAINTEXT",
+                                "text": "Veteran Pembela Kemerdekaan Republik Indonesia;"
+                              }
+                            ]
+                          },
+                          {
+                            "type": "LIST_ITEM",
+                            "id": "",
+                            "children": [
+                              {
+                                "type": "LETTER_WITH_DOT",
+                                "text": "c."
+                              },
+                              {
+                                "type": "PLAINTEXT",
+                                "text": "Veteran Perdamaian Republik Indonesia; dan"
+                              }
+                            ]
+                          },
+                          {
+                            "type": "LIST_ITEM",
+                            "id": "",
+                            "children": [
+                              {
+                                "type": "LETTER_WITH_DOT",
+                                "text": "d."
+                              },
+                              {
+                                "type": "PLAINTEXT",
+                                "text": "Veteran Anumerta Republik Indonesia."
+                              }
+                            ]
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "PASAL",
+            "id": "pasal-4",
+            "children": [
+              {
+                "type": "PASAL_NUMBER",
+                "text": "Pasal 4"
+              },
+              {
+                "type": "PLAINTEXT",
+                "text": "Veteran Pembela Kemerdekaan Republik Indonesia sebagaimana dimaksud dalam Pasal 3 ayat (2) huruf b terdiri atas:"
+              },
+              {
+                "type": "LIST",
+                "id": "",
+                "children": [
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "LETTER_WITH_DOT",
+                        "text": "a."
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "Veteran Pembela Trikora;"
+                      }
+                    ]
+                  },
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "LETTER_WITH_DOT",
+                        "text": "b."
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "Veteran Pembela Dwikora;"
+                      }
+                    ]
+                  },
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "LETTER_WITH_DOT",
+                        "text": "c."
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "Veteran Pembela Seroja; dan"
+                      }
+                    ]
+                  },
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "LETTER_WITH_DOT",
+                        "text": "d."
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "Veteran Pembela lainnya yang ditetapkan dengan Keputusan Presiden."
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "PASAL",
+            "id": "pasal-5",
+            "children": [
+              {
+                "type": "PASAL_NUMBER",
+                "text": "Pasal 5"
+              },
+              {
+                "type": "PLAINTEXT",
+                "text": "Veteran Anumerta Republik Indonesia sebagaimana dimaksud dalam Pasal 3 ayat (2) huruf d terdiri atas:"
+              },
+              {
+                "type": "LIST",
+                "id": "",
+                "children": [
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "LETTER_WITH_DOT",
+                        "text": "a."
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "Veteran Anumerta Pejuang Kemerdekaan Republik Indonesia;"
+                      }
+                    ]
+                  },
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "LETTER_WITH_DOT",
+                        "text": "b."
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "Veteran Anumerta Pembela Kemerdekaan Republik Indonesia; dan"
+                      }
+                    ]
+                  },
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "LETTER_WITH_DOT",
+                        "text": "c."
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "Veteran Anumerta Perdamaian Republik Indonesia."
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "BAB",
+        "id": "bab-3",
+        "children": [
+          {
+            "type": "BAB_NUMBER",
+            "text": "BAB III"
+          },
+          {
+            "type": "BAB_TITLE",
+            "text": "PEMBERIAN TANDA KEHORMATAN VETERAN REPUBLIK INDONESIA"
+          },
+          {
+            "type": "PASAL",
+            "id": "pasal-6",
+            "children": [
+              {
+                "type": "PASAL_NUMBER",
+                "text": "Pasal 6"
+              },
+              {
+                "type": "PLAINTEXT",
+                "text": "Tanda Kehormatan Veteran Republik Indonesia dapat diberikan kepada Warga Negara yang bergabung dalam kesatuan bersenjata resmi yang diakui oleh pemerintah yang berperan secara aktif dalam suatu peperangan menghadapi negara lain dan/atau gugur dalam pertempuran untuk membela dan mempertahankan kedaulatan Negara Kesatuan Republik Indonesia, atau Warga Negara yang berperan secara aktif dalam pasukan internasional di bawah mandat Perserikatan Bangsa-Bangsa untuk melaksanakan misi perdamaian dunia."
+              }
+            ]
+          },
+          {
+            "type": "PASAL",
+            "id": "pasal-7",
+            "children": [
+              {
+                "type": "PASAL_NUMBER",
+                "text": "Pasal 7"
+              },
+              {
+                "type": "LIST",
+                "id": "",
+                "children": [
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "NUMBER_WITH_BRACKETS",
+                        "text": "(1)"
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "Tanda Kehormatan Veteran Republik Indonesia diberikan berdasarkan peristiwa keveteranan."
+                      }
+                    ]
+                  },
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "NUMBER_WITH_BRACKETS",
+                        "text": "(2)"
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "Ketentuan mengenai peristiwa keveteranan sebagaimana dimaksud pada ayat (1) diatur dengan Peraturan Presiden."
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "PASAL",
+            "id": "pasal-8",
+            "children": [
+              {
+                "type": "PASAL_NUMBER",
+                "text": "Pasal 8"
+              },
+              {
+                "type": "LIST",
+                "id": "",
+                "children": [
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "NUMBER_WITH_BRACKETS",
+                        "text": "(1)"
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "Tanda Kehormatan Veteran Republik Indonesia diberikan oleh Presiden."
+                      }
+                    ]
+                  },
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "NUMBER_WITH_BRACKETS",
+                        "text": "(2)"
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "Pemberian Tanda Kehormatan Veteran Republik Indonesia sebagaimana dimaksud pada ayat (1) didelegasikan kepada Menteri dan/atau pejabat lain yang ditunjuk oleh Presiden."
+                      }
+                    ]
+                  },
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "NUMBER_WITH_BRACKETS",
+                        "text": "(3)"
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "Ketentuan lebih lanjut mengenai pemberian Tanda Kehormatan Veteran Republik Indonesia sebagaimana dimaksud pada ayat (1) dan ayat (2) diatur dengan Peraturan Pemerintah."
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "PASAL",
+            "id": "pasal-9",
+            "children": [
+              {
+                "type": "PASAL_NUMBER",
+                "text": "Pasal 9"
+              },
+              {
+                "type": "LIST",
+                "id": "",
+                "children": [
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "NUMBER_WITH_BRACKETS",
+                        "text": "(1)"
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "Tanda Kehormatan Veteran Republik Indonesia dapat diberikan lebih dari 1 (satu) kali."
+                      }
+                    ]
+                  },
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "NUMBER_WITH_BRACKETS",
+                        "text": "(2)"
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "Tanda Kehormatan Veteran Republik Indonesia sebagaimana dimaksud pada ayat (1) diberikan kepada Warga Negara yang berperan secara aktif dalam peristiwa keveteranan lainnya."
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "PASAL",
+            "id": "pasal-10",
+            "children": [
+              {
+                "type": "PASAL_NUMBER",
+                "text": "Pasal 10"
+              },
+              {
+                "type": "PLAINTEXT",
+                "text": "Veteran Republik Indonesia yang berjasa dalam suatu peristiwa yang luar biasa dapat diberi bintang kehormatan dan/atau bintang jasa sesuai dengan ketentuan peraturan perundang-undangan."
+              }
+            ]
+          },
+          {
+            "type": "PASAL",
+            "id": "pasal-11",
+            "children": [
+              {
+                "type": "PASAL_NUMBER",
+                "text": "Pasal 11"
+              },
+              {
+                "type": "PLAINTEXT",
+                "text": "Pemberian Tanda Kehormatan Veteran Republik Indonesia sebagaimana dimaksud dalam Pasal 6 tidak berlaku bagi Warga Negara yang:"
+              },
+              {
+                "type": "LIST",
+                "id": "",
+                "children": [
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "LETTER_WITH_DOT",
+                        "text": "a."
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "membantu musuh Negara Kesatuan Republik Indonesia;"
+                      }
+                    ]
+                  },
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "LETTER_WITH_DOT",
+                        "text": "b."
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "tidak setia dan mengkhianati dasar negara Pancasila;"
+                      }
+                    ]
+                  },
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "LETTER_WITH_DOT",
+                        "text": "c."
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "dipidana penjara atau kurungan 6 (enam) bulan atau lebih berdasarkan putusan pengadilan yang berkekuatan hukum tetap; dan/atau"
+                      }
+                    ]
+                  },
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "LETTER_WITH_DOT",
+                        "text": "d."
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "melakukan perbuatan tercela."
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "BAB",
+        "id": "bab-4",
+        "children": [
+          {
+            "type": "BAB_NUMBER",
+            "text": "BAB IV"
+          },
+          {
+            "type": "BAB_TITLE",
+            "text": "HAK VETERAN REPUBLIK INDONESIA"
+          },
+          {
+            "type": "PASAL",
+            "id": "pasal-12",
+            "children": [
+              {
+                "type": "PASAL_NUMBER",
+                "text": "Pasal 12"
+              },
+              {
+                "type": "LIST",
+                "id": "",
+                "children": [
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "NUMBER_WITH_BRACKETS",
+                        "text": "(1)"
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "Veteran Pejuang Kemerdekaan Republik Indonesia dan Veteran Pembela Kemerdekaan Republik Indonesia berhak mendapatkan:"
+                      },
+                      {
+                        "type": "LIST",
+                        "id": "",
+                        "children": [
+                          {
+                            "type": "LIST_ITEM",
+                            "id": "",
+                            "children": [
+                              {
+                                "type": "LETTER_WITH_DOT",
+                                "text": "a."
+                              },
+                              {
+                                "type": "PLAINTEXT",
+                                "text": "Tunjangan Veteran;"
+                              }
+                            ]
+                          },
+                          {
+                            "type": "LIST_ITEM",
+                            "id": "",
+                            "children": [
+                              {
+                                "type": "LETTER_WITH_DOT",
+                                "text": "b."
+                              },
+                              {
+                                "type": "PLAINTEXT",
+                                "text": "Dana Kehormatan;"
+                              }
+                            ]
+                          },
+                          {
+                            "type": "LIST_ITEM",
+                            "id": "",
+                            "children": [
+                              {
+                                "type": "LETTER_WITH_DOT",
+                                "text": "c."
+                              },
+                              {
+                                "type": "PLAINTEXT",
+                                "text": "pemakaman di taman makam pahlawan; dan"
+                              }
+                            ]
+                          },
+                          {
+                            "type": "LIST_ITEM",
+                            "id": "",
+                            "children": [
+                              {
+                                "type": "LETTER_WITH_DOT",
+                                "text": "d."
+                              },
+                              {
+                                "type": "PLAINTEXT",
+                                "text": "hak-hak tertentu dari negara yang ditetapkan dengan Peraturan Presiden."
+                              }
+                            ]
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "NUMBER_WITH_BRACKETS",
+                        "text": "(2)"
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "Veteran Perdamaian Republik Indonesia berhak mendapatkan:"
+                      },
+                      {
+                        "type": "LIST",
+                        "id": "",
+                        "children": [
+                          {
+                            "type": "LIST_ITEM",
+                            "id": "",
+                            "children": [
+                              {
+                                "type": "LETTER_WITH_DOT",
+                                "text": "a."
+                              },
+                              {
+                                "type": "PLAINTEXT",
+                                "text": "pemakaman di taman makam pahlawan; dan"
+                              }
+                            ]
+                          },
+                          {
+                            "type": "LIST_ITEM",
+                            "id": "",
+                            "children": [
+                              {
+                                "type": "LETTER_WITH_DOT",
+                                "text": "b."
+                              },
+                              {
+                                "type": "PLAINTEXT",
+                                "text": "hak-hak tertentu dari negara yang ditetapkan dengan Peraturan Presiden."
+                              }
+                            ]
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "NUMBER_WITH_BRACKETS",
+                        "text": "(3)"
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "Veteran Anumerta Republik Indonesia berhak mendapatkan pemakaman di taman makam pahlawan."
+                      }
+                    ]
+                  },
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "NUMBER_WITH_BRACKETS",
+                        "text": "(4)"
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "Veteran sebagaimana dimaksud pada ayat (1) dan ayat (2) berhak mendapatkan hak protokoler."
+                      }
+                    ]
+                  },
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "NUMBER_WITH_BRACKETS",
+                        "text": "(5)"
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "Ketentuan mengenai Tunjangan Veteran dan Dana Kehormatan sebagaimana dimaksud pada ayat (1) huruf a dan huruf b diatur dengan Peraturan Pemerintah."
+                      }
+                    ]
+                  },
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "NUMBER_WITH_BRACKETS",
+                        "text": "(6)"
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "Ketentuan mengenai pemakaman sebagaimana dimaksud pada ayat (1) huruf c diatur dengan Peraturan Presiden."
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "PASAL",
+            "id": "pasal-13",
+            "children": [
+              {
+                "type": "PASAL_NUMBER",
+                "text": "Pasal 13"
+              },
+              {
+                "type": "LIST",
+                "id": "",
+                "children": [
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "NUMBER_WITH_BRACKETS",
+                        "text": "(1)"
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "Janda, duda, atau yatim-piatu dari Veteran Anumerta Pejuang Kemerdekaan Republik Indonesia, Veteran Anumerta Pembela Kemerdekaan Republik Indonesia, Veteran Pejuang Kemerdekaan Republik Indonesia, dan Veteran Pembela Kemerdekaan Republik Indonesia diberi tunjangan janda, duda, atau yatim-piatu."
+                      }
+                    ]
+                  },
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "NUMBER_WITH_BRACKETS",
+                        "text": "(2)"
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "Janda, duda, atau yatim-piatu dari Veteran Anumerta Pejuang Kemerdekaan Republik Indonesia dan Veteran Anumerta Pembela Kemerdekaan Republik Indonesia diberi Dana Kehormatan."
+                      }
+                    ]
+                  },
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "NUMBER_WITH_BRACKETS",
+                        "text": "(3)"
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "Ketentuan lebih lanjut mengenai tunjangan janda, duda, atau yatim-piatu dan Dana Kehormatan sebagaimana dimaksud pada ayat (1) dan ayat (2) diatur dengan Peraturan Pemerintah."
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "PASAL",
+            "id": "pasal-14",
+            "children": [
+              {
+                "type": "PASAL_NUMBER",
+                "text": "Pasal 14"
+              },
+              {
+                "type": "LIST",
+                "id": "",
+                "children": [
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "NUMBER_WITH_BRACKETS",
+                        "text": "(1)"
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "Veteran Republik Indonesia yang menderita cacat dalam peristiwa keveteranan diberi santunan dan tunjangan cacat serta alat bantu tubuh sesuai dengan ketentuan peraturan perundang-undangan."
+                      }
+                    ]
+                  },
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "NUMBER_WITH_BRACKETS",
+                        "text": "(2)"
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "Veteran Pejuang Kemerdekaan Republik Indonesia dan Veteran Pembela Kemerdekaan Republik Indonesia yang menderita cacat dalam peristiwa keveteranan, selain diberi Tunjangan Veteran dan Dana Kehormatan, juga diberikan santunan dan tunjangan cacat."
+                      }
+                    ]
+                  },
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "NUMBER_WITH_BRACKETS",
+                        "text": "(3)"
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "Ketentuan lebih lanjut mengenai santunan dan tunjangan cacat serta alat bantu tubuh, sebagaimana dimaksud pada ayat (1) dan ayat (2) diatur dengan Peraturan Pemerintah."
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "PASAL",
+            "id": "pasal-15",
+            "children": [
+              {
+                "type": "PASAL_NUMBER",
+                "text": "Pasal 15"
+              },
+              {
+                "type": "LIST",
+                "id": "",
+                "children": [
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "NUMBER_WITH_BRACKETS",
+                        "text": "(1)"
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "Veteran Pejuang Kemerdekaan Republik Indonesia yang meninggal dunia dan mempunyai bintang gerilya berhak dimakamkan di Taman Makam Pahlawan Nasional Utama."
+                      }
+                    ]
+                  },
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "NUMBER_WITH_BRACKETS",
+                        "text": "(2)"
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "Veteran Pejuang Kemerdekaan Republik Indonesia, Veteran Pembela Kemerdekaan Republik Indonesia, dan Veteran Perdamaian Republik Indonesia yang meninggal dunia serta Veteran Anumerta Republik Indonesia berhak dimakamkan di taman makam pahlawan."
+                      }
+                    ]
+                  },
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "NUMBER_WITH_BRACKETS",
+                        "text": "(3)"
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "Ketentuan lebih lanjut mengenai pemakaman Veteran Republik Indonesia sebagaimana dimaksud pada ayat (1) dan ayat (2) diatur dengan Peraturan Presiden."
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "BAB",
+        "id": "bab-5",
+        "children": [
+          {
+            "type": "BAB_NUMBER",
+            "text": "BAB V"
+          },
+          {
+            "type": "BAB_TITLE",
+            "text": "KEWAJIBAN VETERAN REPUBLIK INDONESIA"
+          },
+          {
+            "type": "PASAL",
+            "id": "pasal-16",
+            "children": [
+              {
+                "type": "PASAL_NUMBER",
+                "text": "Pasal 16"
+              },
+              {
+                "type": "PLAINTEXT",
+                "text": "Veteran Republik Indonesia wajib:"
+              },
+              {
+                "type": "LIST",
+                "id": "",
+                "children": [
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "LETTER_WITH_DOT",
+                        "text": "a."
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "setia kepada Pancasila dan Undang-Undang Dasar Negara Republik Indonesia Tahun 1945;"
+                      }
+                    ]
+                  },
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "LETTER_WITH_DOT",
+                        "text": "b."
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "memegang rahasia negara dan menjunjung tinggi kehormatan negara;"
+                      }
+                    ]
+                  },
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "LETTER_WITH_DOT",
+                        "text": "c."
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "menjunjung tinggi nama baik dan Kode Etik Kehormatan Veteran Republik Indonesia; dan"
+                      }
+                    ]
+                  },
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "LETTER_WITH_DOT",
+                        "text": "d."
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "berusaha menjadi unsur masyarakat yang aktif dalam melaksanakan program pembangunan untuk ketahanan nasional."
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "PASAL",
+            "id": "pasal-17",
+            "children": [
+              {
+                "type": "PASAL_NUMBER",
+                "text": "Pasal 17"
+              },
+              {
+                "type": "PLAINTEXT",
+                "text": "Veteran Republik Indonesia yang melanggar ketentuan sebagaimana dimaksud dalam Pasal 16 dapat dicabut keveteranannya sesuai dengan ketentuan peraturan perundang-undangan."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "BAB",
+        "id": "bab-6",
+        "children": [
+          {
+            "type": "BAB_NUMBER",
+            "text": "BAB VI"
+          },
+          {
+            "type": "BAB_TITLE",
+            "text": "LEGIUN VETERAN REPUBLIK INDONESIA"
+          },
+          {
+            "type": "PASAL",
+            "id": "pasal-18",
+            "children": [
+              {
+                "type": "PASAL_NUMBER",
+                "text": "Pasal 18"
+              },
+              {
+                "type": "LIST",
+                "id": "",
+                "children": [
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "NUMBER_WITH_BRACKETS",
+                        "text": "(1)"
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "Veteran Republik Indonesia tergabung dalam suatu organisasi Legiun Veteran Republik Indonesia."
+                      }
+                    ]
+                  },
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "NUMBER_WITH_BRACKETS",
+                        "text": "(2)"
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "Legiun Veteran Republik Indonesia merupakan satu-satunya wadah dan sarana perjuangan bagi segenap Veteran Republik Indonesia."
+                      }
+                    ]
+                  },
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "NUMBER_WITH_BRACKETS",
+                        "text": "(3)"
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "Veteran Republik Indonesia secara otomatis menjadi anggota Legiun Veteran Republik Indonesia."
+                      }
+                    ]
+                  },
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "NUMBER_WITH_BRACKETS",
+                        "text": "(4)"
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "Anggaran Dasar serta Anggaran Rumah Tangga dari Legiun Veteran Republik Indonesia diusulkan oleh Kongres dan ditetapkan dengan Keputusan Presiden."
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "PASAL",
+            "id": "pasal-19",
+            "children": [
+              {
+                "type": "PASAL_NUMBER",
+                "text": "Pasal 19"
+              },
+              {
+                "type": "PLAINTEXT",
+                "text": "Pemerintah memberikan dorongan dan bantuan kepada Legiun Veteran Republik Indonesia untuk melaksanakan tugasnya."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "BAB",
+        "id": "bab-7",
+        "children": [
+          {
+            "type": "BAB_NUMBER",
+            "text": "BAB VII"
+          },
+          {
+            "type": "BAB_TITLE",
+            "text": "LARANGAN"
+          },
+          {
+            "type": "PASAL",
+            "id": "pasal-20",
+            "children": [
+              {
+                "type": "PASAL_NUMBER",
+                "text": "Pasal 20"
+              },
+              {
+                "type": "PLAINTEXT",
+                "text": "Setiap orang dilarang memberikan keterangan yang tidak benar mengenai dirinya atau diri orang lain yang mengakibatkan diberikannya Tanda Kehormatan Veteran Republik Indonesia."
+              }
+            ]
+          },
+          {
+            "type": "PASAL",
+            "id": "pasal-21",
+            "children": [
+              {
+                "type": "PASAL_NUMBER",
+                "text": "Pasal 21"
+              },
+              {
+                "type": "PLAINTEXT",
+                "text": "Setiap orang dilarang menamakan dirinya sebagai Veteran Republik Indonesia, sedangkan ia tidak berhak atas sebutan Veteran Republik Indonesia sehingga mengakibatkan kerugian pihak lain."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "BAB",
+        "id": "bab-8",
+        "children": [
+          {
+            "type": "BAB_NUMBER",
+            "text": "BAB VIII"
+          },
+          {
+            "type": "BAB_TITLE",
+            "text": "KETENTUAN PIDANA"
+          },
+          {
+            "type": "PASAL",
+            "id": "pasal-22",
+            "children": [
+              {
+                "type": "PASAL_NUMBER",
+                "text": "Pasal 22"
+              },
+              {
+                "type": "PLAINTEXT",
+                "text": "Setiap orang yang dengan sengaja memberikan keterangan yang tidak benar mengenai dirinya atau diri orang lain yang mengakibatkan diberikannya Tanda Kehormatan Veteran Republik Indonesia sebagaimana dimaksud dalam Pasal 20 dipidana dengan pidana penjara paling lama 4 (empat) tahun dan/atau denda paling banyak Rp180.000.000,00 (seratus delapan puluh juta rupiah), serta dicabut keveteranannya."
+              }
+            ]
+          },
+          {
+            "type": "PASAL",
+            "id": "pasal-23",
+            "children": [
+              {
+                "type": "PASAL_NUMBER",
+                "text": "Pasal 23"
+              },
+              {
+                "type": "PLAINTEXT",
+                "text": "Setiap orang yang dengan sengaja menamakan dirinya sebagai Veteran Republik Indonesia sedangkan ia tidak berhak atas sebutan Veteran Republik Indonesia sehingga mengakibatkan kerugian pihak lain sebagaimana dimaksud dalam Pasal 21 dipidana dengan pidana penjara paling lama 5 (lima) tahun dan/atau denda paling banyak Rp225.000.000,00 (dua ratus dua puluh lima juta rupiah)."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "BAB",
+        "id": "bab-9",
+        "children": [
+          {
+            "type": "BAB_NUMBER",
+            "text": "BAB IX"
+          },
+          {
+            "type": "BAB_TITLE",
+            "text": "KETENTUAN PERALIHAN"
+          },
+          {
+            "type": "PASAL",
+            "id": "pasal-24",
+            "children": [
+              {
+                "type": "PASAL_NUMBER",
+                "text": "Pasal 24"
+              },
+              {
+                "type": "PLAINTEXT",
+                "text": "Pada saat Undang-Undang ini mulai berlaku, pengajuan pemberian Tanda Kehormatan Veteran Republik Indonesia yang sedang dalam proses tetap dilanjutkan berdasarkan Undang-Undang Nomor 7 Tahun 1967 tentang Veteran Republik Indonesia (Lembaran Negara Republik Indonesia Tahun 1967 Nomor 17, Tambahan Lembaran Negara Republik Indonesia Nomor 2826)."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "BAB",
+        "id": "bab-10",
+        "children": [
+          {
+            "type": "BAB_NUMBER",
+            "text": "BAB X"
+          },
+          {
+            "type": "BAB_TITLE",
+            "text": "KETENTUAN PENUTUP"
+          },
+          {
+            "type": "PASAL",
+            "id": "pasal-25",
+            "children": [
+              {
+                "type": "PASAL_NUMBER",
+                "text": "Pasal 25"
+              },
+              {
+                "type": "PLAINTEXT",
+                "text": "Pada saat Undang-Undang ini mulai berlaku, semua peraturan perundang-undangan yang merupakan peraturan pelaksanaan dari Undang-Undang Nomor 7 Tahun 1967 tentang Veteran Republik Indonesia (Lembaran Negara Republik Indonesia Tahun 1967 Nomor 17, Tambahan Lembaran Negara Republik Indonesia Nomor 2826) dinyatakan masih tetap berlaku sepanjang tidak bertentangan atau belum diganti berdasarkan Undang-Undang ini."
+              }
+            ]
+          },
+          {
+            "type": "PASAL",
+            "id": "pasal-26",
+            "children": [
+              {
+                "type": "PASAL_NUMBER",
+                "text": "Pasal 26"
+              },
+              {
+                "type": "PLAINTEXT",
+                "text": "Pada saat Undang-Undang ini mulai berlaku, Undang-Undang Nomor 7 Tahun 1967 tentang Veteran Republik Indonesia (Lembaran Negara Republik Indonesia Tahun 1967 Nomor 17, Tambahan Lembaran Negara Republik Indonesia Nomor 2826) dicabut dan dinyatakan tidak berlaku."
+              }
+            ]
+          },
+          {
+            "type": "PASAL",
+            "id": "pasal-27",
+            "children": [
+              {
+                "type": "PASAL_NUMBER",
+                "text": "Pasal 27"
+              },
+              {
+                "type": "PLAINTEXT",
+                "text": "Undang-Undang ini mulai berlaku pada tanggal diundangkan."
+              },
+              {
+                "type": "PLAINTEXT",
+                "text": "Agar setiap orang mengetahuinya, memerintahkan pengundangan Undang-Undang ini dengan penempatannya dalam Lembaran Negara Republik Indonesia."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "CLOSING",
+        "id": "",
+        "children": [
+          {
+            "type": "PLAINTEXT",
+            "text": "Disahkan Di Jakarta,"
+          },
+          {
+            "type": "PLAINTEXT",
+            "text": "Pada Tanggal 5 Oktober 2012"
+          },
+          {
+            "type": "PLAINTEXT",
+            "text": "PRESIDEN REPUBLIK INDONESIA,"
+          },
+          {
+            "type": "PLAINTEXT",
+            "text": "Ttd."
+          },
+          {
+            "type": "PLAINTEXT",
+            "text": "DR. H. SUSILO BAMBANG YUDHOYONO"
+          },
+          {
+            "type": "PLAINTEXT",
+            "text": "Diundangkan Di Jakarta,"
+          },
+          {
+            "type": "PLAINTEXT",
+            "text": "Pada Tanggal 5 Oktober 2012"
+          },
+          {
+            "type": "PLAINTEXT",
+            "text": "MENTERI HUKUM DAN HAK ASASI MANUSIA REPUBLIK INDONESIA,"
+          },
+          {
+            "type": "PLAINTEXT",
+            "text": "Ttd."
+          },
+          {
+            "type": "PLAINTEXT",
+            "text": "AMIR SYAMSUDIN"
+          },
+          {
+            "type": "LEMBARAN_NUMBER",
+            "text": "LEMBARAN NEGARA REPUBLIK INDONESIA TAHUN 2012 NOMOR 182"
+          }
+        ]
+      },
+      {
+        "type": "PENJELASAN",
+        "id": "penjelasan",
+        "children": [
+          {
+            "type": "PENJELASAN_TITLE",
+            "id": "",
+            "children": [
+              {
+                "type": "PLAINTEXT",
+                "text": "PENJELASAN"
+              },
+              {
+                "type": "PLAINTEXT",
+                "text": "UNDANG-UNDANG REPUBLIK INDONESIA"
+              },
+              {
+                "type": "UU_TITLE_YEAR_AND_NUMBER",
+                "text": "NOMOR 15 TAHUN 2012"
+              },
+              {
+                "type": "PLAINTEXT",
+                "text": "TENTANG"
+              },
+              {
+                "type": "UU_TITLE_TOPIC",
+                "text": "VETERAN REPUBLIK INDONESIA"
+              }
+            ]
+          },
+          {
+            "type": "PENJELASAN_UMUM",
+            "id": "",
+            "children": [
+              {
+                "type": "PENJELASAN_UMUM_TITLE",
+                "text": "I. UMUM"
+              },
+              {
+                "type": "PLAINTEXT",
+                "text": "Perjuangan bangsa Indonesia untuk memperoleh kemerdekaan dilakukan melalui kebangkitan nasional, pertumbuhan wawasan kebangsaan, pemantapan patriotisme, dan nilai-nilai perjuangan, sampai pada puncaknya, yaitu terwujudnya Negara Kesatuan Republik Indonesia dengan proklamasi kemerdekaan pada tanggal 17 Agustus 1945. Kemerdekaan dan kedaulatan bangsa dan negara Indonesia merupakan nilai-nilai luhur yang telah diperjuangkan oleh seluruh rakyat dengan pengorbanan jiwa, raga, dan harta benda telah mengantarkan bangsa Indonesia untuk dapat mewujudkan cita-cita perjuangan yaitu Negara Kesatuan Republik Indonesia yang merdeka, bersatu, berdaulat, adil, dan makmur serta ikut melaksanakan ketertiban dunia yang berdasarkan kemerdekaan, perdamaian abadi, dan keadilan sosial berdasarkan Pancasila dan Undang-Undang Dasar Negara Republik Indonesia Tahun 1945."
+              },
+              {
+                "type": "PLAINTEXT",
+                "text": "Atas jasa dan pengorbanan Warga Negara yang telah berjuang, membela, dan mempertahankan kedaulatan Negara Kesatuan Republik Indonesia, negara perlu memberikan penghargaan dan penghormatan berupa Tanda Kehormatan Veteran Republik Indonesia."
+              },
+              {
+                "type": "PLAINTEXT",
+                "text": "Pada saat ini masih terdapat perbedaan penafsiran tentang pengertian Veteran Republik Indonesia antara Kementerian Pertahanan dan Kementerian Keuangan, khususnya terhadap pengertian Veteran Pejuang Kemerdekaan Republik Indonesia. Perbedaan penafsiran tersebut menyebabkan terjadinya persoalan dalam pemberian Tunjangan Veteran."
+              },
+              {
+                "type": "PLAINTEXT",
+                "text": "Dalam Undang-Undang ini yang dimaksud dengan Veteran Pejuang Kemerdekaan Republik Indonesia adalah warga negara Indonesia yang dalam masa revolusi fisik antara tanggal 17 Agustus 1945 sampai dengan tanggal 27 Desember 1949 yang berperan secara aktif berjuang untuk mempertahankan Negara Kesatuan Republik Indonesia di dalam kesatuan bersenjata resmi dan/atau kelaskaran yang diakui oleh pemerintah pada masa perjuangan, termasuk di dalamnya anggota satuan yang bertugas di bidang Palang Merah Indonesia (PMI)/tenaga kesehatan yang melaksanakan fungsi kesehatan lapangan, dapur umum/juru masak, persenjataan dan amunisi yang melaksanakan fungsi perbekalan, caraka/kurir/penghubung yang melaksanakan fungsi komunikasi, penjaga kampung/keamanan/mata-mata yang melaksanakan fungsi intelijen dalam rangka pengawasan wilayah, yang telah ditetapkan sebagai penerima Tanda Kehormatan Veteran Republik Indonesia."
+              },
+              {
+                "type": "PLAINTEXT",
+                "text": "Dalam forum organisasi veteran internasional, khususnya pada pertemuan World Veteran Federation (WVF) selalu diimbau agar pemerintah Republik Indonesia dapat mengklasifikasikan mantan pasukan yang bergabung dalam penugasan perdamaian internasional di bawah mandat Perserikatan Bangsa Bangsa untuk diberikan Tanda Kehormatan Veteran Republik Indonesia. Berkaitan dengan desakan WVF tersebut, Negara Indonesia perlu memberikan Tanda Kehormatan Veteran Republik Indonesia kepada mantan pasukan yang bergabung dalam penugasan perdamaian internasional di bawah mandat Perserikatan Bangsa-Bangsa sebagai Veteran Perdamaian Republik Indonesia."
+              },
+              {
+                "type": "PLAINTEXT",
+                "text": "Terhadap Veteran Republik Indonesia khususnya Veteran Pejuang Kemerdekaan Republik Indonesia, Veteran Pembela Kemerdekaan Republik Indonesia, dan Veteran Anumerta Republik Indonesia selain diberikan Tanda Kehormatan Veteran Republik Indonesia, diberikan pula Tunjangan Veteran."
+              },
+              {
+                "type": "PLAINTEXT",
+                "text": "Pemberian bantuan berupa Tunjangan Veteran dari negara pada saat ini didasarkan pada prinsip pemberian bantuan atas dasar ketidakmampuan. Prinsip tersebut sudah tidak sesuai lagi karena pemberian Tunjangan Veteran pada hakikatnya adalah penghargaan dan penghormatan dari negara."
+              },
+              {
+                "type": "PLAINTEXT",
+                "text": "Dengan demikian, Tunjangan Veteran harus atau wajib diberikan negara."
+              },
+              {
+                "type": "PLAINTEXT",
+                "text": "Saat ini pemberian bantuan terhadap Veteran Republik Indonesia berupa pemberian Tunjangan Veteran sebagaimana diatur dalam Peraturan Pemerintah Nomor 34 Tahun 1985 tentang Pemberian Tunjangan Veteran kepada Veteran Republik Indonesia (Lembaran Negara Republik Indonesia Tahun 1985 Nomor 49) sebagaimana telah delapan kali diubah terakhir dengan Peraturan Pemerintah Nomor 23 Tahun 2012 (Lembaran Negara Republik Indonesia Tahun 2012 Nomor 40) dan pemberian Dana Kehormatan Veteran Republik Indonesia berdasarkan Peraturan Presiden Nomor 24 Tahun 2008 tentang Dana Kehormatan Veteran Republik Indonesia. Dalam Undang-Undang ini pemberian bantuan tersebut akan disatukan pengaturannya dalam satu Peraturan Pemerintah."
+              },
+              {
+                "type": "PLAINTEXT",
+                "text": "Sanksi dalam ketentuan pidana pada Undang-Undang Nomor 7 Tahun 1967 tentang Veteran Republik Indonesia (Lembaran Negara Republik Indonesia Tahun 1967 Nomor 17, Tambahan Lembaran Negara Republik Indonesia Nomor 2826) perlu diubah agar sesuai dengan keadaan sekarang, khususnya ketentuan pidana mengenai denda terhadap setiap orang yang memberikan keterangan yang tidak benar dan terhadap setiap orang yang menyalahgunakan Tanda Kehormatan Veteran Republik Indonesia, mengingat jumlah denda yang dibebankan pada tahun 1967 sudah tidak relevan lagi untuk diberlakukan pada saat ini."
+              },
+              {
+                "type": "PLAINTEXT",
+                "text": "Sehubungan dengan hal tersebut, Undang-Undang Nomor 7 Tahun 1967 tentang Veteran Republik Indonesia (Lembaran Negara Republik Indonesia Tahun 1967 Nomor 17, Tambahan Lembaran Negara Republik Indonesia Nomor 2826) sudah tidak sesuai lagi dengan perkembangan situasi saat ini dan perlu diganti."
+              }
+            ]
+          },
+          {
+            "type": "PENJELASAN_PASAL_DEMI_PASAL",
+            "id": "",
+            "children": [
+              {
+                "type": "PENJELASAN_PASAL_DEMI_PASAL_TITLE",
+                "text": "II. PASAL DEMI PASAL"
+              },
+              {
+                "type": "PENJELASAN_PASAL",
+                "id": "",
+                "children": [
+                  {
+                    "type": "PASAL_NUMBER",
+                    "text": "Pasal 1"
+                  },
+                  {
+                    "type": "PLAINTEXT",
+                    "text": "Cukup jelas."
+                  }
+                ]
+              },
+              {
+                "type": "PENJELASAN_PASAL",
+                "id": "",
+                "children": [
+                  {
+                    "type": "PASAL_NUMBER",
+                    "text": "Pasal 2"
+                  },
+                  {
+                    "type": "LIST",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "PENJELASAN_LIST_ITEM",
+                        "id": "",
+                        "children": [
+                          {
+                            "type": "PENJELASAN_HURUF",
+                            "text": "Huruf a"
+                          },
+                          {
+                            "type": "PLAINTEXT",
+                            "text": "Yang dimaksud dengan \u201casas kejuangan\u201d adalah pemberian Tanda Kehormatan Veteran Republik Indonesia kepada mereka yang sudah menyelesaikan tugas harus mencerminkan jiwa dan semangat juang, tanpa pamrih, dan tidak kenal menyerah serta tetap mempertahankan keutuhan Negara Kesatuan Republik Indonesia."
+                          }
+                        ]
+                      },
+                      {
+                        "type": "PENJELASAN_LIST_ITEM",
+                        "id": "",
+                        "children": [
+                          {
+                            "type": "PENJELASAN_HURUF",
+                            "text": "Huruf b"
+                          },
+                          {
+                            "type": "PLAINTEXT",
+                            "text": "Yang dimaksud dengan \u201casas kebangsaan\u201d adalah pemberian Tanda Kehormatan Veteran Republik Indonesia harus mencerminkan sifat dan watak bangsa Indonesia."
+                          }
+                        ]
+                      },
+                      {
+                        "type": "PENJELASAN_LIST_ITEM",
+                        "id": "",
+                        "children": [
+                          {
+                            "type": "PENJELASAN_HURUF",
+                            "text": "Huruf c"
+                          },
+                          {
+                            "type": "PLAINTEXT",
+                            "text": "Yang dimaksud dengan \u201casas kesejahteraan\u201d adalah pemberian Tanda Kehormatan Veteran Republik Indonesia harus mencerminkan penghargaan yang membanggakan serta bermakna dari bangsa dan negara."
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "PENJELASAN_PASAL",
+                "id": "",
+                "children": [
+                  {
+                    "type": "PASAL_NUMBER",
+                    "text": "Pasal 3"
+                  },
+                  {
+                    "type": "LIST",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "PENJELASAN_LIST_ITEM",
+                        "id": "",
+                        "children": [
+                          {
+                            "type": "PENJELASAN_AYAT",
+                            "text": "Ayat (1)"
+                          },
+                          {
+                            "type": "PLAINTEXT",
+                            "text": "Yang dimaksud dengan \u201cperistiwa keveteranan\u201d adalah kurun waktu pelaksanaan perjuangan."
+                          }
+                        ]
+                      },
+                      {
+                        "type": "PENJELASAN_LIST_ITEM",
+                        "id": "",
+                        "children": [
+                          {
+                            "type": "PENJELASAN_AYAT",
+                            "text": "Ayat (2)"
+                          },
+                          {
+                            "type": "PLAINTEXT",
+                            "text": "Cukup jelas."
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "PENJELASAN_PASAL",
+                "id": "",
+                "children": [
+                  {
+                    "type": "PASAL_NUMBER",
+                    "text": "Pasal 4"
+                  },
+                  {
+                    "type": "LIST",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "PENJELASAN_LIST_ITEM",
+                        "id": "",
+                        "children": [
+                          {
+                            "type": "PENJELASAN_HURUF",
+                            "text": "Huruf a"
+                          },
+                          {
+                            "type": "PLAINTEXT",
+                            "text": "Yang dimaksud dengan \u201cVeteran Pembela Trikora\u201d adalah Warga Negara yang dalam pembebasan Irian Barat melakukan perjuangan Trikora dalam kurun waktu tanggal 19 Desember 1961 sampai dengan tanggal 1 Mei 1963 yang berperan secara aktif berjuang/bertempur dalam kesatuan bersenjata."
+                          }
+                        ]
+                      },
+                      {
+                        "type": "PENJELASAN_LIST_ITEM",
+                        "id": "",
+                        "children": [
+                          {
+                            "type": "PENJELASAN_HURUF",
+                            "text": "Huruf b"
+                          },
+                          {
+                            "type": "PLAINTEXT",
+                            "text": "Yang dimaksud dengan \u201cVeteran Pembela Dwikora\u201d adalah Warga Negara yang melakukan perjuangan Dwikora dalam kurun waktu tanggal 3 Mei 1964 sampai dengan tanggal 11 Agustus 1966 yang berperan secara aktif dalam operasi/pertempuran dalam kesatuan bersenjata."
+                          }
+                        ]
+                      },
+                      {
+                        "type": "PENJELASAN_LIST_ITEM",
+                        "id": "",
+                        "children": [
+                          {
+                            "type": "PENJELASAN_HURUF",
+                            "text": "Huruf c"
+                          },
+                          {
+                            "type": "PLAINTEXT",
+                            "text": "Yang dimaksud dengan \u201cVeteran Pembela Seroja\u201d adalah Warga Negara yang melakukan perjuangan Seroja dalam kurun waktu tanggal 21 Mei 1975 sampai dengan tanggal 17 Juli 1976 yang berperan secara aktif dalam operasi/pertempuran dalam kesatuan bersenjata."
+                          }
+                        ]
+                      },
+                      {
+                        "type": "PENJELASAN_LIST_ITEM",
+                        "id": "",
+                        "children": [
+                          {
+                            "type": "PENJELASAN_HURUF",
+                            "text": "Huruf d"
+                          },
+                          {
+                            "type": "PLAINTEXT",
+                            "text": "Yang dimaksud dengan \u201cVeteran Pembela lainnya\u201d adalah Warga Negara yang bergabung dalam kesatuan bersenjata resmi atau kelaskaran yang diakui oleh pemerintah yang berperan serta secara aktif dalam suatu peperangan menghadapi negara lain dalam rangka membela dan mempertahankan kedaulatan Negara Kesatuan Republik Indonesia yang terjadi di masa yang akan datang."
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "PENJELASAN_PASAL",
+                "id": "",
+                "children": [
+                  {
+                    "type": "PASAL_NUMBER",
+                    "text": "Pasal 5"
+                  },
+                  {
+                    "type": "PLAINTEXT",
+                    "text": "Cukup jelas."
+                  }
+                ]
+              },
+              {
+                "type": "PENJELASAN_PASAL",
+                "id": "",
+                "children": [
+                  {
+                    "type": "PASAL_NUMBER",
+                    "text": "Pasal 6"
+                  },
+                  {
+                    "type": "PLAINTEXT",
+                    "text": "Cukup jelas."
+                  }
+                ]
+              },
+              {
+                "type": "PENJELASAN_PASAL",
+                "id": "",
+                "children": [
+                  {
+                    "type": "PASAL_NUMBER",
+                    "text": "Pasal 7"
+                  },
+                  {
+                    "type": "LIST",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "PENJELASAN_LIST_ITEM",
+                        "id": "",
+                        "children": [
+                          {
+                            "type": "PENJELASAN_AYAT",
+                            "text": "Ayat (1)"
+                          },
+                          {
+                            "type": "PLAINTEXT",
+                            "text": "Cukup jelas."
+                          }
+                        ]
+                      },
+                      {
+                        "type": "PENJELASAN_LIST_ITEM",
+                        "id": "",
+                        "children": [
+                          {
+                            "type": "PENJELASAN_AYAT",
+                            "text": "Ayat (2)"
+                          },
+                          {
+                            "type": "PLAINTEXT",
+                            "text": "Dalam Peraturan Presiden tersebut selain untuk menetapkan peristiwa keveteranan juga menyebutkan mengenai penamaan peristiwa keveteranan tersebut."
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "PENJELASAN_PASAL",
+                "id": "",
+                "children": [
+                  {
+                    "type": "PASAL_NUMBER",
+                    "text": "Pasal 8"
+                  },
+                  {
+                    "type": "PLAINTEXT",
+                    "text": "Cukup jelas."
+                  }
+                ]
+              },
+              {
+                "type": "PENJELASAN_PASAL",
+                "id": "",
+                "children": [
+                  {
+                    "type": "PASAL_NUMBER",
+                    "text": "Pasal 9"
+                  },
+                  {
+                    "type": "PLAINTEXT",
+                    "text": "Cukup jelas."
+                  }
+                ]
+              },
+              {
+                "type": "PENJELASAN_PASAL",
+                "id": "",
+                "children": [
+                  {
+                    "type": "PASAL_NUMBER",
+                    "text": "Pasal 10"
+                  },
+                  {
+                    "type": "PLAINTEXT",
+                    "text": "Cukup jelas."
+                  }
+                ]
+              },
+              {
+                "type": "PENJELASAN_PASAL",
+                "id": "",
+                "children": [
+                  {
+                    "type": "PASAL_NUMBER",
+                    "text": "Pasal 11"
+                  },
+                  {
+                    "type": "LIST",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "PENJELASAN_LIST_ITEM",
+                        "id": "",
+                        "children": [
+                          {
+                            "type": "PENJELASAN_HURUF",
+                            "text": "Huruf a"
+                          },
+                          {
+                            "type": "PLAINTEXT",
+                            "text": "Cukup jelas."
+                          }
+                        ]
+                      },
+                      {
+                        "type": "PENJELASAN_LIST_ITEM",
+                        "id": "",
+                        "children": [
+                          {
+                            "type": "PENJELASAN_HURUF",
+                            "text": "Huruf b"
+                          },
+                          {
+                            "type": "PLAINTEXT",
+                            "text": "Yang dimaksud dengan \u201ctidak setia dan mengkhianati dasar negara Pancasila\u201d adalah pernah terlibat gerakan separatis, gerakan makar, dan pernah melakukan gerakan lainnya untuk mengubah dasar negara Pancasila."
+                          }
+                        ]
+                      },
+                      {
+                        "type": "PENJELASAN_LIST_ITEM",
+                        "id": "",
+                        "children": [
+                          {
+                            "type": "PENJELASAN_HURUF",
+                            "text": "Huruf c"
+                          },
+                          {
+                            "type": "PLAINTEXT",
+                            "text": "Cukup jelas."
+                          }
+                        ]
+                      },
+                      {
+                        "type": "PENJELASAN_LIST_ITEM",
+                        "id": "",
+                        "children": [
+                          {
+                            "type": "PENJELASAN_HURUF",
+                            "text": "Huruf d"
+                          },
+                          {
+                            "type": "PLAINTEXT",
+                            "text": "Yang dimaksud dengan \u201cperbuatan tercela\u201d adalah sikap dan perbuatan yang merendahkan kehormatan, keluhuran martabat serta perilaku Warga Negara."
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "PENJELASAN_PASAL",
+                "id": "",
+                "children": [
+                  {
+                    "type": "PASAL_NUMBER",
+                    "text": "Pasal 12"
+                  },
+                  {
+                    "type": "LIST",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "PENJELASAN_LIST_ITEM",
+                        "id": "",
+                        "children": [
+                          {
+                            "type": "PENJELASAN_AYAT",
+                            "text": "Ayat (1)"
+                          },
+                          {
+                            "type": "LIST",
+                            "id": "",
+                            "children": [
+                              {
+                                "type": "PENJELASAN_LIST_ITEM",
+                                "id": "",
+                                "children": [
+                                  {
+                                    "type": "PENJELASAN_HURUF",
+                                    "text": "Huruf a"
+                                  },
+                                  {
+                                    "type": "PLAINTEXT",
+                                    "text": "Cukup jelas."
+                                  }
+                                ]
+                              },
+                              {
+                                "type": "PENJELASAN_LIST_ITEM",
+                                "id": "",
+                                "children": [
+                                  {
+                                    "type": "PENJELASAN_HURUF",
+                                    "text": "Huruf b"
+                                  },
+                                  {
+                                    "type": "PLAINTEXT",
+                                    "text": "Cukup jelas."
+                                  }
+                                ]
+                              },
+                              {
+                                "type": "PENJELASAN_LIST_ITEM",
+                                "id": "",
+                                "children": [
+                                  {
+                                    "type": "PENJELASAN_HURUF",
+                                    "text": "Huruf c"
+                                  },
+                                  {
+                                    "type": "PLAINTEXT",
+                                    "text": "Cukup jelas."
+                                  }
+                                ]
+                              },
+                              {
+                                "type": "PENJELASAN_LIST_ITEM",
+                                "id": "",
+                                "children": [
+                                  {
+                                    "type": "PENJELASAN_HURUF",
+                                    "text": "Huruf d"
+                                  },
+                                  {
+                                    "type": "PLAINTEXT",
+                                    "text": "Yang dimaksud dengan \u201chak-hak tertentu\u201d antara lain keringanan kewajiban pembayaran Pajak Bumi dan Bangunan, keringanan pembayaran biaya dalam penggunaan jasa angkutan milik negara, jaminan pemeliharaan kesehatan, pendidikan dan pelatihan, bimbingan usaha dan bantuan teknis serta pemberdayaan Veteran Republik Indonesia."
+                                  }
+                                ]
+                              }
+                            ]
+                          }
+                        ]
+                      },
+                      {
+                        "type": "PENJELASAN_LIST_ITEM",
+                        "id": "",
+                        "children": [
+                          {
+                            "type": "PENJELASAN_AYAT",
+                            "text": "Ayat (2)"
+                          },
+                          {
+                            "type": "PLAINTEXT",
+                            "text": "Cukup jelas."
+                          }
+                        ]
+                      },
+                      {
+                        "type": "PENJELASAN_LIST_ITEM",
+                        "id": "",
+                        "children": [
+                          {
+                            "type": "PENJELASAN_AYAT",
+                            "text": "Ayat (3)"
+                          },
+                          {
+                            "type": "PLAINTEXT",
+                            "text": "Cukup jelas."
+                          }
+                        ]
+                      },
+                      {
+                        "type": "PENJELASAN_LIST_ITEM",
+                        "id": "",
+                        "children": [
+                          {
+                            "type": "PENJELASAN_AYAT",
+                            "text": "Ayat (4)"
+                          },
+                          {
+                            "type": "PLAINTEXT",
+                            "text": "Hak protokoler termasuk memakai seragam dalam upacara nasional dan hari nasional serta memakai tanda-tanda kehormatan sesuai dengan ketentuan peraturan perundang-undangan."
+                          }
+                        ]
+                      },
+                      {
+                        "type": "PENJELASAN_LIST_ITEM",
+                        "id": "",
+                        "children": [
+                          {
+                            "type": "PENJELASAN_AYAT",
+                            "text": "Ayat (5)"
+                          },
+                          {
+                            "type": "PLAINTEXT",
+                            "text": "Cukup jelas."
+                          }
+                        ]
+                      },
+                      {
+                        "type": "PENJELASAN_LIST_ITEM",
+                        "id": "",
+                        "children": [
+                          {
+                            "type": "PENJELASAN_AYAT",
+                            "text": "Ayat (6)"
+                          },
+                          {
+                            "type": "PLAINTEXT",
+                            "text": "Cukup jelas."
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "PENJELASAN_PASAL",
+                "id": "",
+                "children": [
+                  {
+                    "type": "PASAL_NUMBER",
+                    "text": "Pasal 13"
+                  },
+                  {
+                    "type": "PLAINTEXT",
+                    "text": "Cukup jelas."
+                  }
+                ]
+              },
+              {
+                "type": "PENJELASAN_PASAL",
+                "id": "",
+                "children": [
+                  {
+                    "type": "PASAL_NUMBER",
+                    "text": "Pasal 14"
+                  },
+                  {
+                    "type": "PLAINTEXT",
+                    "text": "Cukup jelas."
+                  }
+                ]
+              },
+              {
+                "type": "PENJELASAN_PASAL",
+                "id": "",
+                "children": [
+                  {
+                    "type": "PASAL_NUMBER",
+                    "text": "Pasal 15"
+                  },
+                  {
+                    "type": "PLAINTEXT",
+                    "text": "Cukup jelas."
+                  }
+                ]
+              },
+              {
+                "type": "PENJELASAN_PASAL",
+                "id": "",
+                "children": [
+                  {
+                    "type": "PASAL_NUMBER",
+                    "text": "Pasal 16"
+                  },
+                  {
+                    "type": "PLAINTEXT",
+                    "text": "Cukup jelas."
+                  }
+                ]
+              },
+              {
+                "type": "PENJELASAN_PASAL",
+                "id": "",
+                "children": [
+                  {
+                    "type": "PASAL_NUMBER",
+                    "text": "Pasal 17"
+                  },
+                  {
+                    "type": "PLAINTEXT",
+                    "text": "Cukup jelas."
+                  }
+                ]
+              },
+              {
+                "type": "PENJELASAN_PASAL",
+                "id": "",
+                "children": [
+                  {
+                    "type": "PASAL_NUMBER",
+                    "text": "Pasal 18"
+                  },
+                  {
+                    "type": "PLAINTEXT",
+                    "text": "Cukup jelas."
+                  }
+                ]
+              },
+              {
+                "type": "PENJELASAN_PASAL",
+                "id": "",
+                "children": [
+                  {
+                    "type": "PASAL_NUMBER",
+                    "text": "Pasal 19"
+                  },
+                  {
+                    "type": "PLAINTEXT",
+                    "text": "Cukup jelas."
+                  }
+                ]
+              },
+              {
+                "type": "PENJELASAN_PASAL",
+                "id": "",
+                "children": [
+                  {
+                    "type": "PASAL_NUMBER",
+                    "text": "Pasal 20"
+                  },
+                  {
+                    "type": "PLAINTEXT",
+                    "text": "Cukup jelas."
+                  }
+                ]
+              },
+              {
+                "type": "PENJELASAN_PASAL",
+                "id": "",
+                "children": [
+                  {
+                    "type": "PASAL_NUMBER",
+                    "text": "Pasal 21"
+                  },
+                  {
+                    "type": "PLAINTEXT",
+                    "text": "Cukup jelas."
+                  }
+                ]
+              },
+              {
+                "type": "PENJELASAN_PASAL",
+                "id": "",
+                "children": [
+                  {
+                    "type": "PASAL_NUMBER",
+                    "text": "Pasal 22"
+                  },
+                  {
+                    "type": "PLAINTEXT",
+                    "text": "Cukup jelas."
+                  }
+                ]
+              },
+              {
+                "type": "PENJELASAN_PASAL",
+                "id": "",
+                "children": [
+                  {
+                    "type": "PASAL_NUMBER",
+                    "text": "Pasal 23"
+                  },
+                  {
+                    "type": "PLAINTEXT",
+                    "text": "Cukup jelas."
+                  }
+                ]
+              },
+              {
+                "type": "PENJELASAN_PASAL",
+                "id": "",
+                "children": [
+                  {
+                    "type": "PASAL_NUMBER",
+                    "text": "Pasal 24"
+                  },
+                  {
+                    "type": "PLAINTEXT",
+                    "text": "Cukup jelas."
+                  }
+                ]
+              },
+              {
+                "type": "PENJELASAN_PASAL",
+                "id": "",
+                "children": [
+                  {
+                    "type": "PASAL_NUMBER",
+                    "text": "Pasal 25"
+                  },
+                  {
+                    "type": "PLAINTEXT",
+                    "text": "Cukup jelas."
+                  }
+                ]
+              },
+              {
+                "type": "PENJELASAN_PASAL",
+                "id": "",
+                "children": [
+                  {
+                    "type": "PASAL_NUMBER",
+                    "text": "Pasal 26"
+                  },
+                  {
+                    "type": "PLAINTEXT",
+                    "text": "Cukup jelas."
+                  }
+                ]
+              },
+              {
+                "type": "PENJELASAN_PASAL",
+                "id": "",
+                "children": [
+                  {
+                    "type": "PASAL_NUMBER",
+                    "text": "Pasal 27"
+                  },
+                  {
+                    "type": "PLAINTEXT",
+                    "text": "Cukup jelas."
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

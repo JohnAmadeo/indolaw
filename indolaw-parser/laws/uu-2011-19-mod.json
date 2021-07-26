@@ -1,0 +1,780 @@
+{
+  "metadata": {
+    "lembaranNegaraNumber": 107,
+    "lembaranNegaraYear": 2011,
+    "tambahanLembaranNumber": 5251,
+    "number": 19,
+    "topic": "Pengesahan Convention On The Rights Of Persons With Disabilities (konvensi Mengenai Hak-hak Penyandang Disabilitas)",
+    "year": 2011
+  },
+  "content": {
+    "type": "UNDANG_UNDANG",
+    "id": "",
+    "children": [
+      {
+        "type": "OPENING",
+        "id": "",
+        "children": [
+          {
+            "type": "UU_TITLE",
+            "id": "",
+            "children": [
+              {
+                "type": "PLAINTEXT",
+                "text": "UNDANG-UNDANG REPUBLIK INDONESIA"
+              },
+              {
+                "type": "UU_TITLE_YEAR_AND_NUMBER",
+                "text": "NOMOR 19 TAHUN 2011"
+              },
+              {
+                "type": "PLAINTEXT",
+                "text": "TENTANG"
+              },
+              {
+                "type": "UU_TITLE_TOPIC",
+                "text": "PENGESAHAN CONVENTION ON THE RIGHTS OF PERSONS WITH DISABILITIES (KONVENSI MENGENAI HAK-HAK PENYANDANG DISABILITAS)"
+              }
+            ]
+          },
+          {
+            "type": "PREFACE",
+            "id": "",
+            "children": [
+              {
+                "type": "PLAINTEXT",
+                "text": "DENGAN RAHMAT TUHAN YANG MAHA ESA"
+              },
+              {
+                "type": "PLAINTEXT",
+                "text": "PRESIDEN REPUBLIK INDONESIA,"
+              }
+            ]
+          },
+          {
+            "type": "CONSIDERATIONS",
+            "id": "",
+            "children": [
+              {
+                "type": "PLAINTEXT",
+                "text": "Menimbang:"
+              },
+              {
+                "type": "LIST",
+                "id": "",
+                "children": [
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "LETTER_WITH_DOT",
+                        "text": "a."
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "bahwa hak asasi manusia merupakan hak dasar yang secara kodrati melekat pada diri manusia, bersifat universal dan langgeng sehingga itu harus dilindungi, dihormati, dan dipertahankan;"
+                      }
+                    ]
+                  },
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "LETTER_WITH_DOT",
+                        "text": "b."
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "bahwa negara Republik Indonesia adalah negara yang berdasarkan Pancasila dan Undang-Undang Dasar Negara Republik Indonesia Tahun 1945 yang menghormati dan menjunjung tinggi harkat dan martabat manusia sehingga perlindungan dan pemajuan hak asasi manusia terhadap kelompok rentan khususnya penyandang disabilitas perlu ditingkatkan;"
+                      }
+                    ]
+                  },
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "LETTER_WITH_DOT",
+                        "text": "c."
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "bahwa dalam upaya melindungi, menghormati, memajukan, dan memenuhi hak-hak penyandang disabilitas Pemerintah Republik Indonesia telah membentuk berbagai peraturan perundang-undangan yang mengatur mengenai perlindungan terhadap penyandang disabilitas;"
+                      }
+                    ]
+                  },
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "LETTER_WITH_DOT",
+                        "text": "d."
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "bahwa Pemerintah Republik Indonesia telah menandatangani Convention on the Rights of Persons with Disabilities (Konvensi mengenai Hak-Hak Penyandang Disabilitas) pada tanggal 30 Maret 2007 di New York;"
+                      }
+                    ]
+                  },
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "LETTER_WITH_DOT",
+                        "text": "e."
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "bahwa berdasarkan pertimbangan sebagaimana dimaksud dalam huruf a, huruf b, huruf c, dan huruf d perlu mengesahkan Convention on the Rights of Persons with Disabilities (Konvensi mengenai Hak-Hak Penyandang Disabilitas) dengan Undang-Undang."
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "PRINCIPLES",
+            "id": "",
+            "children": [
+              {
+                "type": "PLAINTEXT",
+                "text": "Mengingat:"
+              },
+              {
+                "type": "LIST",
+                "id": "",
+                "children": [
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "NUMBER_WITH_DOT",
+                        "text": "1."
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "Pasal 5 ayat (1), Pasal 11, Pasal 20, dan Pasal 28 I ayat (2) Undang-Undang Dasar Negara Republik Indonesia Tahun 1945;"
+                      }
+                    ]
+                  },
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "NUMBER_WITH_DOT",
+                        "text": "2."
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "Undang-Undang Nomor 37 Tahun 1999 tentang Hubungan Luar Negeri (Lembaran Negara Republik Indonesia Tahun 1999 Nomor 156, Tambahan Lembaran Negara Republik Indonesia Nomor 3882);"
+                      }
+                    ]
+                  },
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "NUMBER_WITH_DOT",
+                        "text": "3."
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "Undang-Undang Nomor 24 Tahun 2000 tentang Perjanjian Internasional (Lembaran Negara Republik Indonesia Tahun 2000 Nomor 185, Tambahan Lembaran Negara Republik Indonesia Nomor 4012);"
+                      }
+                    ]
+                  },
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "NUMBER_WITH_DOT",
+                        "text": "4."
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "Undang-Undang Nomor 17 Tahun 2003 tentang Keuangan Negara (Lembaran Negara Republik Indonesia Tahun 2003 Nomor 47, Tambahan Lembaran Negara Republik Indonesia Nomor 4286)."
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "AGREEMENT",
+            "id": "",
+            "children": [
+              {
+                "type": "PLAINTEXT",
+                "text": "Dengan Persetujuan Bersama:"
+              },
+              {
+                "type": "PLAINTEXT",
+                "text": "DEWAN PERWAKILAN RAKYAT REPUBLIK INDONESIA"
+              },
+              {
+                "type": "PLAINTEXT",
+                "text": "dan"
+              },
+              {
+                "type": "PLAINTEXT",
+                "text": "PRESIDEN REPUBLIK INDONESIA"
+              },
+              {
+                "type": "PLAINTEXT",
+                "text": "MEMUTUSKAN:"
+              },
+              {
+                "type": "PLAINTEXT",
+                "text": "Menetapkan:"
+              },
+              {
+                "type": "PLAINTEXT",
+                "text": "UNDANG-UNDANG TENTANG PENGESAHAN CONVENTION ON THE RIGHTS OF PERSONS WITH DISABILITIES (KONVENSI MENGENAI HAK-HAK PENYANDANG DISABILITAS)."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "PASAL",
+        "id": "pasal-1",
+        "children": [
+          {
+            "type": "PASAL_NUMBER",
+            "text": "Pasal 1"
+          },
+          {
+            "type": "PLAINTEXT",
+            "text": "Mengesahkan Convention on the Rights of Persons with Disabilities (Konvensi mengenai Hak-Hak Penyandang Disabilitas) yang salinan naskah asli dalam bahasa Inggris dan terjemahannya dalam bahasa Indonesia sebagaimana terlampir dan merupakan bagian yang tidak terpisahkan dari Undang-Undang ini."
+          }
+        ]
+      },
+      {
+        "type": "PASAL",
+        "id": "pasal-2",
+        "children": [
+          {
+            "type": "PASAL_NUMBER",
+            "text": "Pasal 2"
+          },
+          {
+            "type": "PLAINTEXT",
+            "text": "Undang-Undang ini mulai berlaku pada tanggal diundangkan."
+          },
+          {
+            "type": "PLAINTEXT",
+            "text": "Agar setiap orang mengetahuinya, memerintahkan pengundangan Undang-Undang ini dengan penempatannya dalam Lembaran Negara Republik Indonesia."
+          }
+        ]
+      },
+      {
+        "type": "CLOSING",
+        "id": "",
+        "children": [
+          {
+            "type": "PLAINTEXT",
+            "text": "Disahkan Di Jakarta,"
+          },
+          {
+            "type": "PLAINTEXT",
+            "text": "Pada Tanggal 10 November 2011"
+          },
+          {
+            "type": "PLAINTEXT",
+            "text": "PRESIDEN REPUBLIK INDONESIA,"
+          },
+          {
+            "type": "PLAINTEXT",
+            "text": "Ttd."
+          },
+          {
+            "type": "PLAINTEXT",
+            "text": "DR. H. SUSILO BAMBANG YUDHOYONO"
+          },
+          {
+            "type": "PLAINTEXT",
+            "text": "Diundangkan Di Jakarta,"
+          },
+          {
+            "type": "PLAINTEXT",
+            "text": "Pada Tanggal 10 November 2011"
+          },
+          {
+            "type": "PLAINTEXT",
+            "text": "MENTERI HUKUM DAN HAK ASASI MANUSIA REPUBLIK INDONESIA,"
+          },
+          {
+            "type": "PLAINTEXT",
+            "text": "Ttd."
+          },
+          {
+            "type": "PLAINTEXT",
+            "text": "AMIR SYAMSUDIN"
+          },
+          {
+            "type": "LEMBARAN_NUMBER",
+            "text": "LEMBARAN NEGARA REPUBLIK INDONESIA TAHUN 2011 NOMOR 107"
+          }
+        ]
+      },
+      {
+        "type": "PENJELASAN",
+        "id": "penjelasan",
+        "children": [
+          {
+            "type": "PENJELASAN_TITLE",
+            "id": "",
+            "children": [
+              {
+                "type": "PLAINTEXT",
+                "text": "PENJELASAN"
+              },
+              {
+                "type": "PLAINTEXT",
+                "text": "UNDANG-UNDANG REPUBLIK INDONESIA"
+              },
+              {
+                "type": "UU_TITLE_YEAR_AND_NUMBER",
+                "text": "NOMOR 19 TAHUN 2011"
+              },
+              {
+                "type": "PLAINTEXT",
+                "text": "TENTANG"
+              },
+              {
+                "type": "UU_TITLE_TOPIC",
+                "text": "PENGESAHAN CONVENTION ON THE RIGHTS OF PERSONS WITH DISABILITIES (KONVENSI MENGENAI HAK-HAK PENYANDANG DISABILITAS)"
+              }
+            ]
+          },
+          {
+            "type": "PENJELASAN_UMUM",
+            "id": "",
+            "children": [
+              {
+                "type": "PENJELASAN_UMUM_TITLE",
+                "text": "I. UMUM"
+              },
+              {
+                "type": "PLAINTEXT",
+                "text": "Negara Republik Indonesia yang berdasarkan Pancasila dan Undang-Undang Dasar Negara Republik Indonesia Tahun 1945 menghormati dan menjunjung tinggi harkat dan martabat manusia. Hak asasi manusia sebagai hak dasar yang secara kodrati melekat pada diri manusia, bersifat universal dan langgeng, juga dilindungi, dihormati, dan dipertahankan oleh Negara Republik Indonesia, sehingga perlindungan dan pemajuan hak asasi manusia terhadap kelompok rentan khususnya penyandang disabilitas perlu ditingkatkan."
+              },
+              {
+                "type": "PLAINTEXT",
+                "text": "Pada tanggal 13 Desember 2006 Majelis Umum Perserikatan Bangsa-Bangsa telah mengeluarkan Resolusi Nomor A/61/106 mengenai Convention on the Rights of Persons with Disabilities (Konvensi tentang Hak-Hak Penyandang Disabilitas). Resolusi tersebut memuat hak-hak penyandang disabilitas dan menyatakan akan diambil langkah-langkah untuk menjamin pelaksanaan konvensi ini."
+              },
+              {
+                "type": "PLAINTEXT",
+                "text": "Pemerintah Indonesia telah menandatangani Convention on the Rights of Persons with Disabilities (Konvensi mengenai Hak-Hak Penyandang Disabilitas) pada tanggal 30 Maret 2007 di New York. Penandatanganan tersebut menunjukkan kesungguhan Negara Indonesia untuk menghormati, melindungi, memenuhi, dan memajukan hak-hak penyandang disabilitas, yang pada akhirnya diharapkan dapat memenuhi kesejahteraan para penyandang disabilitas."
+              },
+              {
+                "type": "PLAINTEXT",
+                "text": "Pada waktu menandatangani Konvensi mengenai Hak-Hak Penyandang Disabilitas, Indonesia menandatangani Konvensi tanpa reservasi. Akan tetapi, tidak menandatangani Optional Protocol Konvensi Hak-Hak Penyandang Disabilitas. Sebagai negara penandatangan konvensi, Indonesia memiliki komitmen untuk meratifikasi Konvensi ini."
+              },
+              {
+                "type": "PLAINTEXT",
+                "text": "Dalam upaya melindungi, menghormati, memajukan, dan memenuhi hak-hak penyandang disabilitas, Pemerintah Indonesia telah membentuk berbagai peraturan perundang-undangan yang mengatur perlindungan terhadap penyandang disabilitas. Berbagai peraturan perundang-undangan tersebut antara lain:"
+              },
+              {
+                "type": "LIST",
+                "id": "",
+                "children": [
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "NUMBER_WITH_DOT",
+                        "text": "1."
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "Undang-Undang Nomor 4 Tahun 1979 tentang Kesejahteraan Anak;"
+                      }
+                    ]
+                  },
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "NUMBER_WITH_DOT",
+                        "text": "2."
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "Undang-Undang Nomor 4 Tahun 1997 tentang Penyandang Cacat;"
+                      }
+                    ]
+                  },
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "NUMBER_WITH_DOT",
+                        "text": "3."
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "Undang-Undang Nomor 39 Tahun 1999 tentang Hak Asasi Manusia;"
+                      }
+                    ]
+                  },
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "NUMBER_WITH_DOT",
+                        "text": "4."
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "Undang-Undang Nomor 23 Tahun 2002 tentang Perlindungan Anak;"
+                      }
+                    ]
+                  },
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "NUMBER_WITH_DOT",
+                        "text": "5."
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "Undang-Undang Nomor 28 Tahun 2002 tentang Bangunan Gedung;"
+                      }
+                    ]
+                  },
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "NUMBER_WITH_DOT",
+                        "text": "6."
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "Undang-Undang Nomor 13 Tahun 2003 tentang Ketenagakerjaan;"
+                      }
+                    ]
+                  },
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "NUMBER_WITH_DOT",
+                        "text": "7."
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "Undang-Undang Nomor 20 Tahun 2003 tentang Sistem Pendidikan Nasional;"
+                      }
+                    ]
+                  },
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "NUMBER_WITH_DOT",
+                        "text": "8."
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "Undang-Undang Nomor 3 Tahun 2005 tentang Sistem Keolahragaan Nasional;"
+                      }
+                    ]
+                  },
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "NUMBER_WITH_DOT",
+                        "text": "9."
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "Undang-Undang Nomor 23 Tahun 2007 tentang Perkeretaapian;"
+                      }
+                    ]
+                  },
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "NUMBER_WITH_DOT",
+                        "text": "10."
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "Undang-Undang Nomor 17 Tahun 2008 tentang Pelayaran;"
+                      }
+                    ]
+                  },
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "NUMBER_WITH_DOT",
+                        "text": "11."
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "Undang-Undang Nomor 1 Tahun 2009 tentang Penerbangan;"
+                      }
+                    ]
+                  },
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "NUMBER_WITH_DOT",
+                        "text": "12."
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "Undang-Undang Nomor 11 Tahun 2009 tentang Kesejahteraan Sosial;"
+                      }
+                    ]
+                  },
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "NUMBER_WITH_DOT",
+                        "text": "13."
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "Undang-Undang Nomor 22 Tahun 2009 tentang Lalu Lintas dan Angkutan Jalan;"
+                      }
+                    ]
+                  },
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "NUMBER_WITH_DOT",
+                        "text": "14."
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "Undang-Undang Nomor 25 Tahun 2009 tentang Pelayanan Publik;"
+                      }
+                    ]
+                  },
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "NUMBER_WITH_DOT",
+                        "text": "15."
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "Undang-Undang Nomor 36 Tahun 2009 tentang Kesehatan; dan"
+                      }
+                    ]
+                  },
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "NUMBER_WITH_DOT",
+                        "text": "16."
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "Undang-Undang Nomor 13 Tahun 2011 tentang Penanganan Fakir Miskin."
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "PLAINTEXT",
+                "text": "Pokok-Pokok Isi Konvensi"
+              },
+              {
+                "type": "LIST",
+                "id": "",
+                "children": [
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "NUMBER_WITH_DOT",
+                        "text": "1."
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "Pembukaan"
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "Pembukaan berisi pengakuan harga diri dan nilai serta hak yang sama bagi penyandang disabilitas, yaitu orang yang memiliki keterbatasan fisik, mental, intelektual, atau sensorik dalam jangka waktu lama yang dalam berinteraksi dengan lingkungan dan sikap masyarakatnya dapat menemui hambatan yang menyulitkan untuk berpartisipasi penuh dan efektif berdasarkan kesamaan hak. Oleh karena itu, pengakuan bahwa diskriminasi berdasarkan disabilitas merupakan pelanggaran terhadap martabat dan nilai yang melekat pada setiap orang."
+                      }
+                    ]
+                  },
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "NUMBER_WITH_DOT",
+                        "text": "2."
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "Tujuan"
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "Tujuan konvensi ini adalah untuk memajukan, melindungi, dan menjamin kesamaan hak dan kebebasan yang mendasar bagi semua penyandang disabilitas, serta penghormatan terhadap martabat penyandang disabilitas sebagai bagian yang tidak terpisahkan (inherent dignity)."
+                      }
+                    ]
+                  },
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "NUMBER_WITH_DOT",
+                        "text": "3."
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "Kewajiban Negara"
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "Kewajiban negara merealisasikan hak yang termuat dalam Konvensi, melalui penyesuaian peraturan perundang-undangan, hukum dan administrasi dari setiap negara, termasuk mengubah peraturan perundang-undangan, kebiasaan dan praktik-praktik yang diskriminatif terhadap penyandang disabilitas, baik perempuan maupun anak, menjamin partisipasi penyandang disabilitas dalam segala aspek kehidupan seperti pendidikan, kesehatan, pekerjaan, politik, olah raga, seni dan budaya, serta pemanfaatan teknologi, informasi dan komunikasi."
+                      }
+                    ]
+                  },
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "NUMBER_WITH_DOT",
+                        "text": "4."
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "Hak-hak Penyandang Disabilitas"
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "Setiap penyandang disabilitas harus bebas dari penyiksaan atau perlakuan yang kejam, tidak manusiawi, merendahkan martabat manusia, bebas dari eksploitasi, kekerasan dan perlakuan semena-mena, serta memiliki hak untuk mendapatkan penghormatan atas integritas mental dan fisiknya berdasarkan kesamaan dengan orang lain. Termasuk didalamnya hak untuk mendapatkan perlindungan dan pelayanan sosial dalam rangka kemandirian, serta dalam keadaan darurat."
+                      }
+                    ]
+                  },
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "NUMBER_WITH_DOT",
+                        "text": "5."
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "Implementasi dan Pengawasan Nasional"
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "Negara Pihak harus menunjuk lembaga pemerintah yang menangani masalah penyandang disabilitas yang bertanggungjawab terkait pelaksanaan Konvensi ini, dan membangun mekanisme koordinasi di tingkat pemerintah untuk memfasilitasi tindakan tersebut."
+                      }
+                    ]
+                  },
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "NUMBER_WITH_DOT",
+                        "text": "6."
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "Laporan Negara Pihak dan Peran Komite Pemantau Konvensi Hak-Hak Penyandang Disabilitas"
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "Negara Pihak wajib membuat laporan pelaksanaan Konvensi ini 2 (dua) tahun setelah konvensi berlaku, dan laporan selanjutnya paling lambat setiap 4 (empat) tahun atau kapan pun jika diminta Komite Pemantau Konvensi Hak-Hak Penyandang Disabilitas melalui Sekretaris Jenderal Perserikatan Bangsa-Bangsa. Komite Pemantau Konvensi Hak-Hak Penyandang Disabilitas membahas laporan yang disampaikan oleh Negara Pihak dan memberikan pertimbangan mengenai cara dan sarana meningkatkan kapasitas nasional untuk pelaksanaan Konvensi ini. Komite juga melakukan kerja sama internasional dan koordinasi dengan Komite Pemantau Instrumen Hak Asasi Manusia Internasional dan badan-badan Perserikatan Bangsa-Bangsa lainnya."
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "PENJELASAN_PASAL_DEMI_PASAL",
+            "id": "",
+            "children": [
+              {
+                "type": "PENJELASAN_PASAL_DEMI_PASAL_TITLE",
+                "text": "II. PASAL DEMI PASAL"
+              },
+              {
+                "type": "PENJELASAN_PASAL",
+                "id": "",
+                "children": [
+                  {
+                    "type": "PASAL_NUMBER",
+                    "text": "Pasal 1"
+                  },
+                  {
+                    "type": "PLAINTEXT",
+                    "text": "Apabila terjadi perbedaan penafsiran terhadap terjemahannya dalam bahasa Indonesia, maka digunakan salinan naskah aslinya dalam bahasa Inggris."
+                  }
+                ]
+              },
+              {
+                "type": "PENJELASAN_PASAL",
+                "id": "",
+                "children": [
+                  {
+                    "type": "PASAL_NUMBER",
+                    "text": "Pasal 2"
+                  },
+                  {
+                    "type": "PLAINTEXT",
+                    "text": "Cukup jelas."
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}
