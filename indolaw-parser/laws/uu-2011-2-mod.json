@@ -1,0 +1,3466 @@
+{
+  "metadata": {
+    "lembaranNegaraNumber": 8,
+    "lembaranNegaraYear": 2011,
+    "tambahanLembaranNumber": 5189,
+    "number": 2,
+    "topic": "Perubahan Atas Undang-undang Nomor 2 Tahun 2008 Tentang Partai Politik",
+    "year": 2011
+  },
+  "content": {
+    "type": "UNDANG_UNDANG",
+    "id": "",
+    "children": [
+      {
+        "type": "OPENING",
+        "id": "",
+        "children": [
+          {
+            "type": "UU_TITLE",
+            "id": "",
+            "children": [
+              {
+                "type": "PLAINTEXT",
+                "text": "UNDANG-UNDANG REPUBLIK INDONESIA"
+              },
+              {
+                "type": "UU_TITLE_YEAR_AND_NUMBER",
+                "text": "NOMOR 2 TAHUN 2011"
+              },
+              {
+                "type": "PLAINTEXT",
+                "text": "TENTANG"
+              },
+              {
+                "type": "UU_TITLE_TOPIC",
+                "text": "PERUBAHAN ATAS UNDANG-UNDANG NOMOR 2 TAHUN 2008 TENTANG PARTAI POLITIK"
+              }
+            ]
+          },
+          {
+            "type": "PREFACE",
+            "id": "",
+            "children": [
+              {
+                "type": "PLAINTEXT",
+                "text": "DENGAN RAHMAT TUHAN YANG MAHA ESA"
+              },
+              {
+                "type": "PLAINTEXT",
+                "text": "PRESIDEN REPUBLIK INDONESIA,"
+              }
+            ]
+          },
+          {
+            "type": "CONSIDERATIONS",
+            "id": "",
+            "children": [
+              {
+                "type": "PLAINTEXT",
+                "text": "Menimbang:"
+              },
+              {
+                "type": "LIST",
+                "id": "",
+                "children": [
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "LETTER_WITH_DOT",
+                        "text": "a."
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "bahwa dalam rangka menguatkan pelaksanaan demokrasi dan sistem kepartaian yang efektif sesuai dengan amanat Undang-Undang Dasar Negara Republik Indonesia Tahun 1945, diperlukan penguatan kelembagaan serta peningkatan fungsi dan peran Partai Politik;"
+                      }
+                    ]
+                  },
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "LETTER_WITH_DOT",
+                        "text": "b."
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "bahwa Undang-Undang Nomor 2 Tahun 2008 tentang Partai Politik perlu diubah sesuai dengan tuntutan dan dinamika perkembangan masyarakat;"
+                      }
+                    ]
+                  },
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "LETTER_WITH_DOT",
+                        "text": "c."
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "bahwa berdasarkan pertimbangan sebagaimana dimaksud dalam huruf a dan huruf b, perlu membentuk Undang- Undang tentang Perubahan atas Undang-Undang Nomor 2 Tahun 2008 tentang Partai Politik."
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "PRINCIPLES",
+            "id": "",
+            "children": [
+              {
+                "type": "PLAINTEXT",
+                "text": "Mengingat:"
+              },
+              {
+                "type": "LIST",
+                "id": "",
+                "children": [
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "NUMBER_WITH_DOT",
+                        "text": "1."
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "Pasal 20, Pasal 21, Pasal 22E ayat (3), Pasal 24C ayat (1), Pasal 28, Pasal 28C ayat (2), dan Pasal 28J Undang-Undang Dasar Negara Republik Indonesia Tahun 1945;"
+                      }
+                    ]
+                  },
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "NUMBER_WITH_DOT",
+                        "text": "2."
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "Undang-Undang Nomor 2 Tahun 2008 tentang Partai Politik (Lembaran Negara Republik Indonesia Tahun 2008 Nomor 2, Tambahan Lembaran Negara Republik Indonesia Nomor 4801)."
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "AGREEMENT",
+            "id": "",
+            "children": [
+              {
+                "type": "PLAINTEXT",
+                "text": "Dengan Persetujuan Bersama"
+              },
+              {
+                "type": "PLAINTEXT",
+                "text": "DEWAN PERWAKILAN RAKYAT REPUBLIK INDONESIA"
+              },
+              {
+                "type": "PLAINTEXT",
+                "text": "dan"
+              },
+              {
+                "type": "PLAINTEXT",
+                "text": "PRESIDEN REPUBLIK INDONESIA"
+              },
+              {
+                "type": "PLAINTEXT",
+                "text": "MEMUTUSKAN:"
+              },
+              {
+                "type": "PLAINTEXT",
+                "text": "Menetapkan:"
+              },
+              {
+                "type": "PLAINTEXT",
+                "text": "UNDANG-UNDANG TENTANG PERUBAHAN ATAS UNDANGUNDANG NOMOR 2 TAHUN 2008 TENTANG PARTAI POLITIK."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "PASAL",
+        "id": "pasal-I",
+        "children": [
+          {
+            "type": "PASAL_NUMBER",
+            "text": "Pasal I"
+          },
+          {
+            "type": "PLAINTEXT",
+            "text": "Beberapa ketentuan dalam Undang-Undang Nomor 2 Tahun 2008 tentang Partai Politik (Lembaran Negara Republik Indonesia Tahun 2008 Nomor 2, Tambahan Lembaran Negara Republik Indonesia Nomor 4801) diubah sebagai berikut:"
+          },
+          {
+            "type": "LIST",
+            "id": "",
+            "children": [
+              {
+                "type": "LIST_ITEM",
+                "id": "",
+                "children": [
+                  {
+                    "type": "NUMBER_WITH_DOT",
+                    "text": "1."
+                  },
+                  {
+                    "type": "PLAINTEXT",
+                    "text": "Ketentuan Pasal 1 angka 7 diubah sehingga Pasal 1 berbunyi sebagai berikut:"
+                  },
+                  {
+                    "type": "PERUBAHAN_SECTION",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "PERUBAHAN_PASAL",
+                        "id": "perubahan-pasal-1",
+                        "children": [
+                          {
+                            "type": "PASAL_NUMBER",
+                            "text": "Pasal 1"
+                          },
+                          {
+                            "type": "PLAINTEXT",
+                            "text": "Dalam Undang-Undang ini yang dimaksud dengan:"
+                          },
+                          {
+                            "type": "LIST",
+                            "id": "",
+                            "children": [
+                              {
+                                "type": "LIST_ITEM",
+                                "id": "",
+                                "children": [
+                                  {
+                                    "type": "NUMBER_WITH_DOT",
+                                    "text": "1."
+                                  },
+                                  {
+                                    "type": "PLAINTEXT",
+                                    "text": "Partai Politik adalah organisasi yang bersifat nasional dan dibentuk oleh sekelompok warga negara Indonesia secara sukarela atas dasar kesamaan kehendak dan cita-cita untuk memperjuangkan dan membela kepentingan politik anggota, masyarakat, bangsa dan negara, serta memelihara keutuhan Negara Kesatuan Republik Indonesia berdasarkan Pancasila dan Undang-Undang Dasar Negara Republik Indonesia Tahun 1945."
+                                  }
+                                ]
+                              },
+                              {
+                                "type": "LIST_ITEM",
+                                "id": "",
+                                "children": [
+                                  {
+                                    "type": "NUMBER_WITH_DOT",
+                                    "text": "2."
+                                  },
+                                  {
+                                    "type": "PLAINTEXT",
+                                    "text": "Anggaran Dasar Partai Politik, selanjutnya disingkat AD, adalah peraturan dasar Partai Politik."
+                                  }
+                                ]
+                              },
+                              {
+                                "type": "LIST_ITEM",
+                                "id": "",
+                                "children": [
+                                  {
+                                    "type": "NUMBER_WITH_DOT",
+                                    "text": "3."
+                                  },
+                                  {
+                                    "type": "PLAINTEXT",
+                                    "text": "Anggaran Rumah Tangga Partai Politik, selanjutnya disingkat ART, adalah peraturan yang dibentuk sebagai penjabaran AD."
+                                  }
+                                ]
+                              },
+                              {
+                                "type": "LIST_ITEM",
+                                "id": "",
+                                "children": [
+                                  {
+                                    "type": "NUMBER_WITH_DOT",
+                                    "text": "4."
+                                  },
+                                  {
+                                    "type": "PLAINTEXT",
+                                    "text": "Pendidikan Politik adalah proses pembelajaran dan pemahaman tentang hak, kewajiban, dan tanggung jawab setiap warga negara dalam kehidupan berbangsa dan bernegara."
+                                  }
+                                ]
+                              },
+                              {
+                                "type": "LIST_ITEM",
+                                "id": "",
+                                "children": [
+                                  {
+                                    "type": "NUMBER_WITH_DOT",
+                                    "text": "5."
+                                  },
+                                  {
+                                    "type": "PLAINTEXT",
+                                    "text": "Keuangan Partai Politik adalah semua hak dan kewajiban Partai Politik yang dapat dinilai dengan uang, berupa uang, atau barang serta segala bentuk kekayaan yang dimiliki dan menjadi tanggung jawab Partai Politik."
+                                  }
+                                ]
+                              },
+                              {
+                                "type": "LIST_ITEM",
+                                "id": "",
+                                "children": [
+                                  {
+                                    "type": "NUMBER_WITH_DOT",
+                                    "text": "6."
+                                  },
+                                  {
+                                    "type": "PLAINTEXT",
+                                    "text": "Menteri adalah Menteri yang membidangi urusan hukum dan hak asasi manusia."
+                                  }
+                                ]
+                              },
+                              {
+                                "type": "LIST_ITEM",
+                                "id": "",
+                                "children": [
+                                  {
+                                    "type": "NUMBER_WITH_DOT",
+                                    "text": "7."
+                                  },
+                                  {
+                                    "type": "PLAINTEXT",
+                                    "text": "Kementerian adalah Kementerian yang membidangi urusan hukum dan hak asasi manusia."
+                                  }
+                                ]
+                              }
+                            ]
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "LIST_ITEM",
+                "id": "",
+                "children": [
+                  {
+                    "type": "NUMBER_WITH_DOT",
+                    "text": "2."
+                  },
+                  {
+                    "type": "PLAINTEXT",
+                    "text": "Ketentuan Pasal 2 ayat (1) dan ayat (5) diubah, di antara ayat (1) dan ayat (2) disisipkan 2 (dua) ayat yakni ayat (1a) dan ayat (1b) serta pada ayat (4) ditambahkan 4 (empat) huruf yakni huruf g, huruf h, huruf i, dan huruf m, sehingga Pasal 2 berbunyi sebagai berikut:"
+                  },
+                  {
+                    "type": "PERUBAHAN_SECTION",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "PERUBAHAN_PASAL",
+                        "id": "perubahan-pasal-2",
+                        "children": [
+                          {
+                            "type": "PASAL_NUMBER",
+                            "text": "Pasal 2"
+                          },
+                          {
+                            "type": "LIST",
+                            "id": "",
+                            "children": [
+                              {
+                                "type": "LIST_ITEM",
+                                "id": "",
+                                "children": [
+                                  {
+                                    "type": "NUMBER_WITH_BRACKETS",
+                                    "text": "(1)"
+                                  },
+                                  {
+                                    "type": "PLAINTEXT",
+                                    "text": "Partai Politik didirikan dan dibentuk oleh paling sedikit 30 (tiga puluh) orang warga negara Indonesia yang telah berusia 21 (dua puluh satu) tahun atau sudah menikah dari setiap provinsi."
+                                  }
+                                ]
+                              },
+                              {
+                                "type": "LIST_ITEM",
+                                "id": "",
+                                "children": [
+                                  {
+                                    "type": "NUMBER_WITH_BRACKETS",
+                                    "text": "(1a)"
+                                  },
+                                  {
+                                    "type": "PLAINTEXT",
+                                    "text": "Partai Politik sebagaimana dimaksud pada ayat (1) didaftarkan oleh paling sedikit 50 (lima puluh) orang pendiri yang mewakili seluruh pendiri Partai Politik dengan akta notaris."
+                                  }
+                                ]
+                              },
+                              {
+                                "type": "LIST_ITEM",
+                                "id": "",
+                                "children": [
+                                  {
+                                    "type": "NUMBER_WITH_BRACKETS",
+                                    "text": "(1b)"
+                                  },
+                                  {
+                                    "type": "PLAINTEXT",
+                                    "text": "Pendiri dan pengurus Partai Politik dilarang merangkap sebagai anggota Partai Politik lain."
+                                  }
+                                ]
+                              },
+                              {
+                                "type": "LIST_ITEM",
+                                "id": "",
+                                "children": [
+                                  {
+                                    "type": "NUMBER_WITH_BRACKETS",
+                                    "text": "(2)"
+                                  },
+                                  {
+                                    "type": "PLAINTEXT",
+                                    "text": "Pendirian dan pembentukan Partai Politik sebagaimana dimaksud pada ayat (1) menyertakan 30% (tiga puluh per seratus) keterwakilan perempuan."
+                                  }
+                                ]
+                              },
+                              {
+                                "type": "LIST_ITEM",
+                                "id": "",
+                                "children": [
+                                  {
+                                    "type": "NUMBER_WITH_BRACKETS",
+                                    "text": "(3)"
+                                  },
+                                  {
+                                    "type": "PLAINTEXT",
+                                    "text": "Akta notaris sebagaimana dimaksud pada ayat (1a) harus memuat AD dan ART serta kepengurusan Partai Politik tingkat pusat."
+                                  }
+                                ]
+                              },
+                              {
+                                "type": "LIST_ITEM",
+                                "id": "",
+                                "children": [
+                                  {
+                                    "type": "NUMBER_WITH_BRACKETS",
+                                    "text": "(4)"
+                                  },
+                                  {
+                                    "type": "PLAINTEXT",
+                                    "text": "AD sebagaimana dimaksud pada ayat (3) memuat paling sedikit:"
+                                  },
+                                  {
+                                    "type": "LIST",
+                                    "id": "",
+                                    "children": [
+                                      {
+                                        "type": "LIST_ITEM",
+                                        "id": "",
+                                        "children": [
+                                          {
+                                            "type": "LETTER_WITH_DOT",
+                                            "text": "a."
+                                          },
+                                          {
+                                            "type": "PLAINTEXT",
+                                            "text": "asas dan ciri Partai Politik;"
+                                          }
+                                        ]
+                                      },
+                                      {
+                                        "type": "LIST_ITEM",
+                                        "id": "",
+                                        "children": [
+                                          {
+                                            "type": "LETTER_WITH_DOT",
+                                            "text": "b."
+                                          },
+                                          {
+                                            "type": "PLAINTEXT",
+                                            "text": "visi dan misi Partai Politik;"
+                                          }
+                                        ]
+                                      },
+                                      {
+                                        "type": "LIST_ITEM",
+                                        "id": "",
+                                        "children": [
+                                          {
+                                            "type": "LETTER_WITH_DOT",
+                                            "text": "c."
+                                          },
+                                          {
+                                            "type": "PLAINTEXT",
+                                            "text": "nama, lambang, dan tanda gambar Partai Politik;"
+                                          }
+                                        ]
+                                      },
+                                      {
+                                        "type": "LIST_ITEM",
+                                        "id": "",
+                                        "children": [
+                                          {
+                                            "type": "LETTER_WITH_DOT",
+                                            "text": "d."
+                                          },
+                                          {
+                                            "type": "PLAINTEXT",
+                                            "text": "tujuan dan fungsi Partai Politik;"
+                                          }
+                                        ]
+                                      },
+                                      {
+                                        "type": "LIST_ITEM",
+                                        "id": "",
+                                        "children": [
+                                          {
+                                            "type": "LETTER_WITH_DOT",
+                                            "text": "e."
+                                          },
+                                          {
+                                            "type": "PLAINTEXT",
+                                            "text": "organisasi, tempat kedudukan, dan pengambilan keputusan;"
+                                          }
+                                        ]
+                                      },
+                                      {
+                                        "type": "LIST_ITEM",
+                                        "id": "",
+                                        "children": [
+                                          {
+                                            "type": "LETTER_WITH_DOT",
+                                            "text": "f."
+                                          },
+                                          {
+                                            "type": "PLAINTEXT",
+                                            "text": "kepengurusan Partai Politik;"
+                                          }
+                                        ]
+                                      },
+                                      {
+                                        "type": "LIST_ITEM",
+                                        "id": "",
+                                        "children": [
+                                          {
+                                            "type": "LETTER_WITH_DOT",
+                                            "text": "g."
+                                          },
+                                          {
+                                            "type": "PLAINTEXT",
+                                            "text": "mekanisme rekrutmen keanggotaan Partai Politik dan jabatan politik;"
+                                          }
+                                        ]
+                                      },
+                                      {
+                                        "type": "LIST_ITEM",
+                                        "id": "",
+                                        "children": [
+                                          {
+                                            "type": "LETTER_WITH_DOT",
+                                            "text": "h."
+                                          },
+                                          {
+                                            "type": "PLAINTEXT",
+                                            "text": "sistem kaderisasi;"
+                                          }
+                                        ]
+                                      },
+                                      {
+                                        "type": "LIST_ITEM",
+                                        "id": "",
+                                        "children": [
+                                          {
+                                            "type": "LETTER_WITH_DOT",
+                                            "text": "i."
+                                          },
+                                          {
+                                            "type": "PLAINTEXT",
+                                            "text": "mekanisme pemberhentian anggota Partai Politik;"
+                                          }
+                                        ]
+                                      },
+                                      {
+                                        "type": "LIST_ITEM",
+                                        "id": "",
+                                        "children": [
+                                          {
+                                            "type": "LETTER_WITH_DOT",
+                                            "text": "j."
+                                          },
+                                          {
+                                            "type": "PLAINTEXT",
+                                            "text": "peraturan dan keputusan Partai Politik;"
+                                          }
+                                        ]
+                                      },
+                                      {
+                                        "type": "LIST_ITEM",
+                                        "id": "",
+                                        "children": [
+                                          {
+                                            "type": "LETTER_WITH_DOT",
+                                            "text": "k."
+                                          },
+                                          {
+                                            "type": "PLAINTEXT",
+                                            "text": "pendidikan politik;"
+                                          }
+                                        ]
+                                      },
+                                      {
+                                        "type": "LIST_ITEM",
+                                        "id": "",
+                                        "children": [
+                                          {
+                                            "type": "LETTER_WITH_DOT",
+                                            "text": "l."
+                                          },
+                                          {
+                                            "type": "PLAINTEXT",
+                                            "text": "keuangan Partai Politik; dan"
+                                          }
+                                        ]
+                                      },
+                                      {
+                                        "type": "LIST_ITEM",
+                                        "id": "",
+                                        "children": [
+                                          {
+                                            "type": "LETTER_WITH_DOT",
+                                            "text": "m."
+                                          },
+                                          {
+                                            "type": "PLAINTEXT",
+                                            "text": "mekanisme penyelesaian perselisihan internal Partai Politik."
+                                          }
+                                        ]
+                                      }
+                                    ]
+                                  }
+                                ]
+                              },
+                              {
+                                "type": "LIST_ITEM",
+                                "id": "",
+                                "children": [
+                                  {
+                                    "type": "NUMBER_WITH_BRACKETS",
+                                    "text": "(5)"
+                                  },
+                                  {
+                                    "type": "PLAINTEXT",
+                                    "text": "Kepengurusan Partai Politik tingkat pusat sebagaimana dimaksud pada ayat (2) disusun dengan menyertakan paling sedikit 30% (tiga puluh per seratus) keterwakilan perempuan."
+                                  }
+                                ]
+                              }
+                            ]
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "LIST_ITEM",
+                "id": "",
+                "children": [
+                  {
+                    "type": "NUMBER_WITH_DOT",
+                    "text": "3."
+                  },
+                  {
+                    "type": "PLAINTEXT",
+                    "text": "Ketentuan Pasal 3 ayat (1) dan ayat (2) huruf c, huruf d, dan huruf e diubah, sehingga Pasal 3 berbunyi sebagai berikut:"
+                  },
+                  {
+                    "type": "PERUBAHAN_SECTION",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "PERUBAHAN_PASAL",
+                        "id": "perubahan-pasal-3",
+                        "children": [
+                          {
+                            "type": "PASAL_NUMBER",
+                            "text": "Pasal 3"
+                          },
+                          {
+                            "type": "LIST",
+                            "id": "",
+                            "children": [
+                              {
+                                "type": "LIST_ITEM",
+                                "id": "",
+                                "children": [
+                                  {
+                                    "type": "NUMBER_WITH_BRACKETS",
+                                    "text": "(1)"
+                                  },
+                                  {
+                                    "type": "PLAINTEXT",
+                                    "text": "Partai Politik harus didaftarkan ke Kementerian untuk menjadi badan hukum."
+                                  }
+                                ]
+                              },
+                              {
+                                "type": "LIST_ITEM",
+                                "id": "",
+                                "children": [
+                                  {
+                                    "type": "NUMBER_WITH_BRACKETS",
+                                    "text": "(2)"
+                                  },
+                                  {
+                                    "type": "PLAINTEXT",
+                                    "text": "Untuk menjadi badan hukum sebagaimana dimaksud pada ayat (1), Partai Politik harus mempunyai:"
+                                  },
+                                  {
+                                    "type": "LIST",
+                                    "id": "",
+                                    "children": [
+                                      {
+                                        "type": "LIST_ITEM",
+                                        "id": "",
+                                        "children": [
+                                          {
+                                            "type": "LETTER_WITH_DOT",
+                                            "text": "a."
+                                          },
+                                          {
+                                            "type": "PLAINTEXT",
+                                            "text": "akta notaris pendirian Partai Politik;"
+                                          }
+                                        ]
+                                      },
+                                      {
+                                        "type": "LIST_ITEM",
+                                        "id": "",
+                                        "children": [
+                                          {
+                                            "type": "LETTER_WITH_DOT",
+                                            "text": "b."
+                                          },
+                                          {
+                                            "type": "PLAINTEXT",
+                                            "text": "nama, lambang, atau tanda gambar yang tidak mempunyai persamaan pada pokoknya atau keseluruhannya dengan nama, lambang, atau tanda gambar yang telah dipakai secara sah oleh Partai Politik lain sesuai dengan peraturan perundang-undangan;"
+                                          }
+                                        ]
+                                      },
+                                      {
+                                        "type": "LIST_ITEM",
+                                        "id": "",
+                                        "children": [
+                                          {
+                                            "type": "LETTER_WITH_DOT",
+                                            "text": "c."
+                                          },
+                                          {
+                                            "type": "PLAINTEXT",
+                                            "text": "kepengurusan pada setiap provinsi dan paling sedikit 75% (tujuh puluh lima per seratus) dari jumlah kabupaten/kota pada provinsi yang bersangkutan dan paling sedikit 50% (lima puluh per seratus) dari jumlah kecamatan pada kabupaten/kota yang bersangkutan;"
+                                          }
+                                        ]
+                                      },
+                                      {
+                                        "type": "LIST_ITEM",
+                                        "id": "",
+                                        "children": [
+                                          {
+                                            "type": "LETTER_WITH_DOT",
+                                            "text": "d."
+                                          },
+                                          {
+                                            "type": "PLAINTEXT",
+                                            "text": "kantor tetap pada tingkatan pusat, provinsi, dan kabupaten/kota sampai tahapan terakhir pemilihan umum; dan"
+                                          }
+                                        ]
+                                      },
+                                      {
+                                        "type": "LIST_ITEM",
+                                        "id": "",
+                                        "children": [
+                                          {
+                                            "type": "LETTER_WITH_DOT",
+                                            "text": "e."
+                                          },
+                                          {
+                                            "type": "PLAINTEXT",
+                                            "text": "rekening atas nama Partai Politik."
+                                          }
+                                        ]
+                                      }
+                                    ]
+                                  }
+                                ]
+                              }
+                            ]
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "LIST_ITEM",
+                "id": "",
+                "children": [
+                  {
+                    "type": "NUMBER_WITH_DOT",
+                    "text": "4."
+                  },
+                  {
+                    "type": "PLAINTEXT",
+                    "text": "Ketentuan Pasal 4 ayat (1) diubah sehingga Pasal 4 berbunyi sebagai berikut:"
+                  },
+                  {
+                    "type": "PERUBAHAN_SECTION",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "PERUBAHAN_PASAL",
+                        "id": "perubahan-pasal-4",
+                        "children": [
+                          {
+                            "type": "PASAL_NUMBER",
+                            "text": "Pasal 4"
+                          },
+                          {
+                            "type": "LIST",
+                            "id": "",
+                            "children": [
+                              {
+                                "type": "LIST_ITEM",
+                                "id": "",
+                                "children": [
+                                  {
+                                    "type": "NUMBER_WITH_BRACKETS",
+                                    "text": "(1)"
+                                  },
+                                  {
+                                    "type": "PLAINTEXT",
+                                    "text": "Kementerian menerima pendaftaran dan melakukan penelitian dan/atau verifikasi kelengkapan dan kebenaran sebagaimana dimaksud dalam Pasal 2 dan Pasal 3 ayat (2)."
+                                  }
+                                ]
+                              },
+                              {
+                                "type": "LIST_ITEM",
+                                "id": "",
+                                "children": [
+                                  {
+                                    "type": "NUMBER_WITH_BRACKETS",
+                                    "text": "(2)"
+                                  },
+                                  {
+                                    "type": "PLAINTEXT",
+                                    "text": "Penelitian dan/atau verifikasi sebagaimana dimaksud pada ayat (1) dilakukan paling lama 45 (empat puluh lima) hari sejak diterimanya dokumen persyaratan secara lengkap."
+                                  }
+                                ]
+                              },
+                              {
+                                "type": "LIST_ITEM",
+                                "id": "",
+                                "children": [
+                                  {
+                                    "type": "NUMBER_WITH_BRACKETS",
+                                    "text": "(3)"
+                                  },
+                                  {
+                                    "type": "PLAINTEXT",
+                                    "text": "Pengesahan Partai Politik menjadi badan hukum dilakukan dengan Keputusan Menteri paling lama 15 (lima belas) hari sejak berakhirnya proses penelitian dan/atau verifikasi."
+                                  }
+                                ]
+                              },
+                              {
+                                "type": "LIST_ITEM",
+                                "id": "",
+                                "children": [
+                                  {
+                                    "type": "NUMBER_WITH_BRACKETS",
+                                    "text": "(4)"
+                                  },
+                                  {
+                                    "type": "PLAINTEXT",
+                                    "text": "Keputusan Menteri mengenai pengesahan Partai Politik sebagaimana dimaksud pada ayat (3) diumumkan dalam Berita Negara Republik Indonesia."
+                                  }
+                                ]
+                              }
+                            ]
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "LIST_ITEM",
+                "id": "",
+                "children": [
+                  {
+                    "type": "NUMBER_WITH_DOT",
+                    "text": "5."
+                  },
+                  {
+                    "type": "PLAINTEXT",
+                    "text": "Ketentuan Pasal 5 diubah sehingga Pasal 5 berbunyi sebagai berikut:"
+                  },
+                  {
+                    "type": "PERUBAHAN_SECTION",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "PERUBAHAN_PASAL",
+                        "id": "perubahan-pasal-5",
+                        "children": [
+                          {
+                            "type": "PASAL_NUMBER",
+                            "text": "Pasal 5"
+                          },
+                          {
+                            "type": "LIST",
+                            "id": "",
+                            "children": [
+                              {
+                                "type": "LIST_ITEM",
+                                "id": "",
+                                "children": [
+                                  {
+                                    "type": "NUMBER_WITH_BRACKETS",
+                                    "text": "(1)"
+                                  },
+                                  {
+                                    "type": "PLAINTEXT",
+                                    "text": "AD dan ART dapat diubah sesuai dengan dinamika dan kebutuhan Partai Politik."
+                                  }
+                                ]
+                              },
+                              {
+                                "type": "LIST_ITEM",
+                                "id": "",
+                                "children": [
+                                  {
+                                    "type": "NUMBER_WITH_BRACKETS",
+                                    "text": "(2)"
+                                  },
+                                  {
+                                    "type": "PLAINTEXT",
+                                    "text": "Perubahan AD dan ART sebagaimana dimaksud pada ayat (1) dilakukan berdasarkan hasil forum tertinggi pengambilan keputusan Partai Politik."
+                                  }
+                                ]
+                              },
+                              {
+                                "type": "LIST_ITEM",
+                                "id": "",
+                                "children": [
+                                  {
+                                    "type": "NUMBER_WITH_BRACKETS",
+                                    "text": "(3)"
+                                  },
+                                  {
+                                    "type": "PLAINTEXT",
+                                    "text": "Perubahan AD dan ART sebagaimana dimaksud pada ayat (1) harus didaftarkan ke Kementerian paling lama 30 (tiga puluh) hari terhitung sejak terjadinya perubahan tersebut."
+                                  }
+                                ]
+                              },
+                              {
+                                "type": "LIST_ITEM",
+                                "id": "",
+                                "children": [
+                                  {
+                                    "type": "NUMBER_WITH_BRACKETS",
+                                    "text": "(4)"
+                                  },
+                                  {
+                                    "type": "PLAINTEXT",
+                                    "text": "Pendaftaran perubahan sebagaimana dimaksud pada ayat (3) menyertakan akta notaris mengenai perubahan AD dan ART."
+                                  }
+                                ]
+                              }
+                            ]
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "LIST_ITEM",
+                "id": "",
+                "children": [
+                  {
+                    "type": "NUMBER_WITH_DOT",
+                    "text": "6."
+                  },
+                  {
+                    "type": "PLAINTEXT",
+                    "text": "Ketentuan Pasal 16 ayat (2) diubah sehingga Pasal 16 berbunyi sebagai berikut:"
+                  },
+                  {
+                    "type": "PERUBAHAN_SECTION",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "PERUBAHAN_PASAL",
+                        "id": "perubahan-pasal-16",
+                        "children": [
+                          {
+                            "type": "PASAL_NUMBER",
+                            "text": "Pasal 16"
+                          },
+                          {
+                            "type": "LIST",
+                            "id": "",
+                            "children": [
+                              {
+                                "type": "LIST_ITEM",
+                                "id": "",
+                                "children": [
+                                  {
+                                    "type": "NUMBER_WITH_BRACKETS",
+                                    "text": "(1)"
+                                  },
+                                  {
+                                    "type": "PLAINTEXT",
+                                    "text": "Anggota Partai Politik diberhentikan keanggotaannya dari Partai Politik apabila:"
+                                  },
+                                  {
+                                    "type": "LIST",
+                                    "id": "",
+                                    "children": [
+                                      {
+                                        "type": "LIST_ITEM",
+                                        "id": "",
+                                        "children": [
+                                          {
+                                            "type": "LETTER_WITH_DOT",
+                                            "text": "a."
+                                          },
+                                          {
+                                            "type": "PLAINTEXT",
+                                            "text": "meninggal dunia;"
+                                          }
+                                        ]
+                                      },
+                                      {
+                                        "type": "LIST_ITEM",
+                                        "id": "",
+                                        "children": [
+                                          {
+                                            "type": "LETTER_WITH_DOT",
+                                            "text": "b."
+                                          },
+                                          {
+                                            "type": "PLAINTEXT",
+                                            "text": "mengundurkan diri secara tertulis;"
+                                          }
+                                        ]
+                                      },
+                                      {
+                                        "type": "LIST_ITEM",
+                                        "id": "",
+                                        "children": [
+                                          {
+                                            "type": "LETTER_WITH_DOT",
+                                            "text": "c."
+                                          },
+                                          {
+                                            "type": "PLAINTEXT",
+                                            "text": "menjadi anggota Partai Politik lain; atau"
+                                          }
+                                        ]
+                                      },
+                                      {
+                                        "type": "LIST_ITEM",
+                                        "id": "",
+                                        "children": [
+                                          {
+                                            "type": "LETTER_WITH_DOT",
+                                            "text": "d."
+                                          },
+                                          {
+                                            "type": "PLAINTEXT",
+                                            "text": "melanggar AD dan ART."
+                                          }
+                                        ]
+                                      }
+                                    ]
+                                  }
+                                ]
+                              },
+                              {
+                                "type": "LIST_ITEM",
+                                "id": "",
+                                "children": [
+                                  {
+                                    "type": "NUMBER_WITH_BRACKETS",
+                                    "text": "(2)"
+                                  },
+                                  {
+                                    "type": "PLAINTEXT",
+                                    "text": "Tata cara pemberhentian keanggotaan Partai Politik sebagaimana dimaksud pada ayat (1) diatur di dalam AD dan ART."
+                                  }
+                                ]
+                              },
+                              {
+                                "type": "LIST_ITEM",
+                                "id": "",
+                                "children": [
+                                  {
+                                    "type": "NUMBER_WITH_BRACKETS",
+                                    "text": "(3)"
+                                  },
+                                  {
+                                    "type": "PLAINTEXT",
+                                    "text": "Dalam hal anggota Partai Politik yang diberhentikan adalah anggota lembaga perwakilan rakyat, pemberhentian dari keanggotaan Partai Politik diikuti dengan pemberhentian dari keanggotaan di lembaga perwakilan rakyat sesuai dengan peraturan perundang-undangan."
+                                  }
+                                ]
+                              }
+                            ]
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "LIST_ITEM",
+                "id": "",
+                "children": [
+                  {
+                    "type": "NUMBER_WITH_DOT",
+                    "text": "7."
+                  },
+                  {
+                    "type": "PLAINTEXT",
+                    "text": "Di antara ayat (3) dan ayat (4) Pasal 19 disisipkan 1 (satu) ayat yakni ayat (3a), sehingga Pasal 19 berbunyi sebagai berikut:"
+                  },
+                  {
+                    "type": "PERUBAHAN_SECTION",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "PERUBAHAN_PASAL",
+                        "id": "perubahan-pasal-19",
+                        "children": [
+                          {
+                            "type": "PASAL_NUMBER",
+                            "text": "Pasal 19"
+                          },
+                          {
+                            "type": "LIST",
+                            "id": "",
+                            "children": [
+                              {
+                                "type": "LIST_ITEM",
+                                "id": "",
+                                "children": [
+                                  {
+                                    "type": "NUMBER_WITH_BRACKETS",
+                                    "text": "(1)"
+                                  },
+                                  {
+                                    "type": "PLAINTEXT",
+                                    "text": "Kepengurusan Partai Politik tingkat pusat berkedudukan di ibu kota negara."
+                                  }
+                                ]
+                              },
+                              {
+                                "type": "LIST_ITEM",
+                                "id": "",
+                                "children": [
+                                  {
+                                    "type": "NUMBER_WITH_BRACKETS",
+                                    "text": "(2)"
+                                  },
+                                  {
+                                    "type": "PLAINTEXT",
+                                    "text": "Kepengurusan Partai Politik tingkat provinsi berkedudukan di ibu kota provinsi."
+                                  }
+                                ]
+                              },
+                              {
+                                "type": "LIST_ITEM",
+                                "id": "",
+                                "children": [
+                                  {
+                                    "type": "NUMBER_WITH_BRACKETS",
+                                    "text": "(3)"
+                                  },
+                                  {
+                                    "type": "PLAINTEXT",
+                                    "text": "Kepengurusan Partai Politik tingkat kabupaten/kota berkedudukan di ibu kota kabupaten/kota."
+                                  }
+                                ]
+                              },
+                              {
+                                "type": "LIST_ITEM",
+                                "id": "",
+                                "children": [
+                                  {
+                                    "type": "NUMBER_WITH_BRACKETS",
+                                    "text": "(3a)"
+                                  },
+                                  {
+                                    "type": "PLAINTEXT",
+                                    "text": "Kepengurusan Partai Politik tingkat kecamatan berkedudukan di ibu kota kecamatan."
+                                  }
+                                ]
+                              },
+                              {
+                                "type": "LIST_ITEM",
+                                "id": "",
+                                "children": [
+                                  {
+                                    "type": "NUMBER_WITH_BRACKETS",
+                                    "text": "(4)"
+                                  },
+                                  {
+                                    "type": "PLAINTEXT",
+                                    "text": "Dalam hal kepengurusan Partai Politik dibentuk sampai tingkat kelurahan/desa atau sebutan lain, kedudukan kepengurusannya disesuaikan dengan wilayah yang bersangkutan."
+                                  }
+                                ]
+                              }
+                            ]
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "LIST_ITEM",
+                "id": "",
+                "children": [
+                  {
+                    "type": "NUMBER_WITH_DOT",
+                    "text": "8."
+                  },
+                  {
+                    "type": "PLAINTEXT",
+                    "text": "Ketentuan Pasal 23 ayat (2) diubah sehingga Pasal 23 berbunyi sebagai berikut:"
+                  },
+                  {
+                    "type": "PERUBAHAN_SECTION",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "PERUBAHAN_PASAL",
+                        "id": "perubahan-pasal-23",
+                        "children": [
+                          {
+                            "type": "PASAL_NUMBER",
+                            "text": "Pasal 23"
+                          },
+                          {
+                            "type": "LIST",
+                            "id": "",
+                            "children": [
+                              {
+                                "type": "LIST_ITEM",
+                                "id": "",
+                                "children": [
+                                  {
+                                    "type": "NUMBER_WITH_BRACKETS",
+                                    "text": "(1)"
+                                  },
+                                  {
+                                    "type": "PLAINTEXT",
+                                    "text": "Pergantian kepengurusan Partai Politik di setiap tingkatan dilakukan sesuai dengan AD dan ART."
+                                  }
+                                ]
+                              },
+                              {
+                                "type": "LIST_ITEM",
+                                "id": "",
+                                "children": [
+                                  {
+                                    "type": "NUMBER_WITH_BRACKETS",
+                                    "text": "(2)"
+                                  },
+                                  {
+                                    "type": "PLAINTEXT",
+                                    "text": "Susunan kepengurusan hasil pergantian kepengurusan Partai Politik tingkat pusat didaftarkan ke Kementerian paling lama 30 (tiga puluh) hari terhitung sejak terbentuknya kepengurusan yang baru."
+                                  }
+                                ]
+                              },
+                              {
+                                "type": "LIST_ITEM",
+                                "id": "",
+                                "children": [
+                                  {
+                                    "type": "NUMBER_WITH_BRACKETS",
+                                    "text": "(3)"
+                                  },
+                                  {
+                                    "type": "PLAINTEXT",
+                                    "text": "Susunan kepengurusan baru Partai Politik sebagaimana dimaksud pada ayat (2) ditetapkan dengan Keputusan Menteri paling lama 7 (tujuh) hari terhitung sejak diterimanya persyaratan."
+                                  }
+                                ]
+                              }
+                            ]
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "LIST_ITEM",
+                "id": "",
+                "children": [
+                  {
+                    "type": "NUMBER_WITH_DOT",
+                    "text": "9."
+                  },
+                  {
+                    "type": "PLAINTEXT",
+                    "text": "Ketentuan Pasal 29 ayat (1) huruf c dan huruf d serta ayat (2) diubah, dan di antara ayat (1) dan ayat (2) disisipkan 1 (satu) ayat yakni ayat (1a), sehingga Pasal 29 berbunyi sebagai berikut:"
+                  },
+                  {
+                    "type": "PERUBAHAN_SECTION",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "PERUBAHAN_PASAL",
+                        "id": "perubahan-pasal-29",
+                        "children": [
+                          {
+                            "type": "PASAL_NUMBER",
+                            "text": "Pasal 29"
+                          },
+                          {
+                            "type": "LIST",
+                            "id": "",
+                            "children": [
+                              {
+                                "type": "LIST_ITEM",
+                                "id": "",
+                                "children": [
+                                  {
+                                    "type": "NUMBER_WITH_BRACKETS",
+                                    "text": "(1)"
+                                  },
+                                  {
+                                    "type": "PLAINTEXT",
+                                    "text": "Partai Politik melakukan rekrutmen terhadap warga negara Indonesia untuk menjadi:"
+                                  },
+                                  {
+                                    "type": "LIST",
+                                    "id": "",
+                                    "children": [
+                                      {
+                                        "type": "LIST_ITEM",
+                                        "id": "",
+                                        "children": [
+                                          {
+                                            "type": "LETTER_WITH_DOT",
+                                            "text": "a."
+                                          },
+                                          {
+                                            "type": "PLAINTEXT",
+                                            "text": "anggota Partai Politik;"
+                                          }
+                                        ]
+                                      },
+                                      {
+                                        "type": "LIST_ITEM",
+                                        "id": "",
+                                        "children": [
+                                          {
+                                            "type": "LETTER_WITH_DOT",
+                                            "text": "b."
+                                          },
+                                          {
+                                            "type": "PLAINTEXT",
+                                            "text": "bakal calon anggota Dewan Perwakilan Rakyat dan Dewan Perwakilan Rakyat Daerah;"
+                                          }
+                                        ]
+                                      },
+                                      {
+                                        "type": "LIST_ITEM",
+                                        "id": "",
+                                        "children": [
+                                          {
+                                            "type": "LETTER_WITH_DOT",
+                                            "text": "c."
+                                          },
+                                          {
+                                            "type": "PLAINTEXT",
+                                            "text": "bakal calon kepala daerah dan wakil kepala daerah; dan"
+                                          }
+                                        ]
+                                      },
+                                      {
+                                        "type": "LIST_ITEM",
+                                        "id": "",
+                                        "children": [
+                                          {
+                                            "type": "LETTER_WITH_DOT",
+                                            "text": "d."
+                                          },
+                                          {
+                                            "type": "PLAINTEXT",
+                                            "text": "bakal calon Presiden dan Wakil Presiden."
+                                          }
+                                        ]
+                                      }
+                                    ]
+                                  }
+                                ]
+                              },
+                              {
+                                "type": "LIST_ITEM",
+                                "id": "",
+                                "children": [
+                                  {
+                                    "type": "NUMBER_WITH_BRACKETS",
+                                    "text": "(1a)"
+                                  },
+                                  {
+                                    "type": "PLAINTEXT",
+                                    "text": "Rekrutmen sebagaimana dimaksud pada ayat (1) huruf b dilaksanakan melalui seleksi kaderisasi secara demokratis sesuai dengan AD dan ART dengan mempertimbangkan paling sedikit 30% (tiga puluh per seratus) keterwakilan perempuan."
+                                  }
+                                ]
+                              },
+                              {
+                                "type": "LIST_ITEM",
+                                "id": "",
+                                "children": [
+                                  {
+                                    "type": "NUMBER_WITH_BRACKETS",
+                                    "text": "(2)"
+                                  },
+                                  {
+                                    "type": "PLAINTEXT",
+                                    "text": "Rekrutmen sebagaimana dimaksud pada ayat (1) huruf c dan huruf d dilakukan secara demokratis dan terbuka sesuai dengan AD dan ART serta peraturan perundang-undangan."
+                                  }
+                                ]
+                              },
+                              {
+                                "type": "LIST_ITEM",
+                                "id": "",
+                                "children": [
+                                  {
+                                    "type": "NUMBER_WITH_BRACKETS",
+                                    "text": "(3)"
+                                  },
+                                  {
+                                    "type": "PLAINTEXT",
+                                    "text": "Penetapan atas rekrutmen sebagaimana dimaksud pada ayat (1), ayat (1a), dan ayat (2) dilakukan dengan keputusan pengurus Partai Politik sesuai dengan AD dan ART."
+                                  }
+                                ]
+                              }
+                            ]
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "LIST_ITEM",
+                "id": "",
+                "children": [
+                  {
+                    "type": "NUMBER_WITH_DOT",
+                    "text": "10."
+                  },
+                  {
+                    "type": "PLAINTEXT",
+                    "text": "Ketentuan Pasal 32 diubah sehingga Pasal 32 berbunyi sebagai berikut:"
+                  },
+                  {
+                    "type": "PERUBAHAN_SECTION",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "PERUBAHAN_PASAL",
+                        "id": "perubahan-pasal-32",
+                        "children": [
+                          {
+                            "type": "PASAL_NUMBER",
+                            "text": "Pasal 32"
+                          },
+                          {
+                            "type": "LIST",
+                            "id": "",
+                            "children": [
+                              {
+                                "type": "LIST_ITEM",
+                                "id": "",
+                                "children": [
+                                  {
+                                    "type": "NUMBER_WITH_BRACKETS",
+                                    "text": "(1)"
+                                  },
+                                  {
+                                    "type": "PLAINTEXT",
+                                    "text": "Perselisihan Partai Politik diselesaikan oleh internal Partai Politik sebagaimana diatur di dalam AD dan ART."
+                                  }
+                                ]
+                              },
+                              {
+                                "type": "LIST_ITEM",
+                                "id": "",
+                                "children": [
+                                  {
+                                    "type": "NUMBER_WITH_BRACKETS",
+                                    "text": "(2)"
+                                  },
+                                  {
+                                    "type": "PLAINTEXT",
+                                    "text": "Penyelesaian perselisihan internal Partai Politik sebagaimana dimaksud pada ayat (1) dilakukan oleh suatu mahkamah Partai Politik atau sebutan lain yang dibentuk oleh Partai Politik."
+                                  }
+                                ]
+                              },
+                              {
+                                "type": "LIST_ITEM",
+                                "id": "",
+                                "children": [
+                                  {
+                                    "type": "NUMBER_WITH_BRACKETS",
+                                    "text": "(3)"
+                                  },
+                                  {
+                                    "type": "PLAINTEXT",
+                                    "text": "Susunan mahkamah Partai Politik atau sebutan lain sebagaimana dimaksud pada ayat (2) disampaikan oleh Pimpinan Partai Politik kepada Kementerian."
+                                  }
+                                ]
+                              },
+                              {
+                                "type": "LIST_ITEM",
+                                "id": "",
+                                "children": [
+                                  {
+                                    "type": "NUMBER_WITH_BRACKETS",
+                                    "text": "(4)"
+                                  },
+                                  {
+                                    "type": "PLAINTEXT",
+                                    "text": "Penyelesaian perselisihan internal Partai Politik sebagaimana dimaksud pada ayat (2) harus diselesaikan paling lambat 60 (enam puluh) hari."
+                                  }
+                                ]
+                              },
+                              {
+                                "type": "LIST_ITEM",
+                                "id": "",
+                                "children": [
+                                  {
+                                    "type": "NUMBER_WITH_BRACKETS",
+                                    "text": "(5)"
+                                  },
+                                  {
+                                    "type": "PLAINTEXT",
+                                    "text": "Putusan mahkamah Partai Politik atau sebutan lain bersifat final dan mengikat secara internal dalam hal perselisihan yang berkenaan dengan kepengurusan."
+                                  }
+                                ]
+                              }
+                            ]
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "LIST_ITEM",
+                "id": "",
+                "children": [
+                  {
+                    "type": "NUMBER_WITH_DOT",
+                    "text": "11."
+                  },
+                  {
+                    "type": "PLAINTEXT",
+                    "text": "Ketentuan Pasal 33 ayat (1) diubah sehingga Pasal 33 berbunyi sebagai berikut:"
+                  },
+                  {
+                    "type": "PERUBAHAN_SECTION",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "PERUBAHAN_PASAL",
+                        "id": "perubahan-pasal-33",
+                        "children": [
+                          {
+                            "type": "PASAL_NUMBER",
+                            "text": "Pasal 33"
+                          },
+                          {
+                            "type": "LIST",
+                            "id": "",
+                            "children": [
+                              {
+                                "type": "LIST_ITEM",
+                                "id": "",
+                                "children": [
+                                  {
+                                    "type": "NUMBER_WITH_BRACKETS",
+                                    "text": "(1)"
+                                  },
+                                  {
+                                    "type": "PLAINTEXT",
+                                    "text": "Dalam hal penyelesaian perselisihan sebagaimana dimaksud dalam Pasal 32 tidak tercapai, penyelesaian perselisihan dilakukan melalui pengadilan negeri."
+                                  }
+                                ]
+                              },
+                              {
+                                "type": "LIST_ITEM",
+                                "id": "",
+                                "children": [
+                                  {
+                                    "type": "NUMBER_WITH_BRACKETS",
+                                    "text": "(2)"
+                                  },
+                                  {
+                                    "type": "PLAINTEXT",
+                                    "text": "Putusan pengadilan negeri adalah putusan tingkat pertama dan terakhir, dan hanya dapat diajukan kasasi kepada Mahkamah Agung."
+                                  }
+                                ]
+                              },
+                              {
+                                "type": "LIST_ITEM",
+                                "id": "",
+                                "children": [
+                                  {
+                                    "type": "NUMBER_WITH_BRACKETS",
+                                    "text": "(3)"
+                                  },
+                                  {
+                                    "type": "PLAINTEXT",
+                                    "text": "Perkara sebagaimana dimaksud pada ayat (1) diselesaikan oleh pengadilan negeri paling lama 60 (enam puluh) hari sejak gugatan perkara terdaftar di kepaniteraan pengadilan negeri dan oleh Mahkamah Agung paling lama 30 (tiga puluh) hari sejak memori kasasi terdaftar di kepaniteraan Mahkamah Agung."
+                                  }
+                                ]
+                              }
+                            ]
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "LIST_ITEM",
+                "id": "",
+                "children": [
+                  {
+                    "type": "NUMBER_WITH_DOT",
+                    "text": "12."
+                  },
+                  {
+                    "type": "PLAINTEXT",
+                    "text": "Di antara ayat (3) dan ayat (4) Pasal 34 disisipkan 2 (dua) ayat yakni ayat (3a) dan ayat (3b) serta ayat (4) diubah, sehingga Pasal 34 berbunyi sebagai berikut:"
+                  },
+                  {
+                    "type": "PERUBAHAN_SECTION",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "PERUBAHAN_PASAL",
+                        "id": "perubahan-pasal-34",
+                        "children": [
+                          {
+                            "type": "PASAL_NUMBER",
+                            "text": "Pasal 34"
+                          },
+                          {
+                            "type": "LIST",
+                            "id": "",
+                            "children": [
+                              {
+                                "type": "LIST_ITEM",
+                                "id": "",
+                                "children": [
+                                  {
+                                    "type": "NUMBER_WITH_BRACKETS",
+                                    "text": "(1)"
+                                  },
+                                  {
+                                    "type": "PLAINTEXT",
+                                    "text": "Keuangan Partai Politik bersumber dari:"
+                                  },
+                                  {
+                                    "type": "LIST",
+                                    "id": "",
+                                    "children": [
+                                      {
+                                        "type": "LIST_ITEM",
+                                        "id": "",
+                                        "children": [
+                                          {
+                                            "type": "LETTER_WITH_DOT",
+                                            "text": "a."
+                                          },
+                                          {
+                                            "type": "PLAINTEXT",
+                                            "text": "iuran anggota;"
+                                          }
+                                        ]
+                                      },
+                                      {
+                                        "type": "LIST_ITEM",
+                                        "id": "",
+                                        "children": [
+                                          {
+                                            "type": "LETTER_WITH_DOT",
+                                            "text": "b."
+                                          },
+                                          {
+                                            "type": "PLAINTEXT",
+                                            "text": "sumbangan yang sah menurut hukum; dan"
+                                          }
+                                        ]
+                                      },
+                                      {
+                                        "type": "LIST_ITEM",
+                                        "id": "",
+                                        "children": [
+                                          {
+                                            "type": "LETTER_WITH_DOT",
+                                            "text": "c."
+                                          },
+                                          {
+                                            "type": "PLAINTEXT",
+                                            "text": "bantuan keuangan dari Anggaran Pendapatan dan Belanja Negara/Anggaran Pendapatan dan Belanja Daerah."
+                                          }
+                                        ]
+                                      }
+                                    ]
+                                  }
+                                ]
+                              },
+                              {
+                                "type": "LIST_ITEM",
+                                "id": "",
+                                "children": [
+                                  {
+                                    "type": "NUMBER_WITH_BRACKETS",
+                                    "text": "(2)"
+                                  },
+                                  {
+                                    "type": "PLAINTEXT",
+                                    "text": "Sumbangan sebagaimana dimaksud pada ayat (1) huruf b, dapat berupa uang, barang, dan/atau jasa."
+                                  }
+                                ]
+                              },
+                              {
+                                "type": "LIST_ITEM",
+                                "id": "",
+                                "children": [
+                                  {
+                                    "type": "NUMBER_WITH_BRACKETS",
+                                    "text": "(3)"
+                                  },
+                                  {
+                                    "type": "PLAINTEXT",
+                                    "text": "Bantuan keuangan dari Anggaran Pendapatan dan Belanja Negara/Anggaran Pendapatan dan Belanja Daerah sebagaimana dimaksud pada ayat (1) huruf c diberikan secara proporsional kepada Partai Politik yang mendapatkan kursi di Dewan Perwakilan Rakyat, Dewan Perwakilan Rakyat Daerah provinsi, dan Dewan Perwakilan Rakyat Daerah kabupaten/kota yang penghitungannya berdasarkan jumlah perolehan suara."
+                                  }
+                                ]
+                              },
+                              {
+                                "type": "LIST_ITEM",
+                                "id": "",
+                                "children": [
+                                  {
+                                    "type": "NUMBER_WITH_BRACKETS",
+                                    "text": "(3a)"
+                                  },
+                                  {
+                                    "type": "PLAINTEXT",
+                                    "text": "Bantuan keuangan dari Anggaran Pendapatan dan Belanja Negara/Anggaran Pendapatan dan Belanja Daerah sebagaimana dimaksud pada ayat (3) diprioritaskan untuk melaksanakan pendidikan politik bagi anggota Partai Politik dan masyarakat."
+                                  }
+                                ]
+                              },
+                              {
+                                "type": "LIST_ITEM",
+                                "id": "",
+                                "children": [
+                                  {
+                                    "type": "NUMBER_WITH_BRACKETS",
+                                    "text": "(3b)"
+                                  },
+                                  {
+                                    "type": "PLAINTEXT",
+                                    "text": "Pendidikan Politik sebagaimana dimaksud pada ayat (3a) berkaitan dengan kegiatan:"
+                                  },
+                                  {
+                                    "type": "LIST",
+                                    "id": "",
+                                    "children": [
+                                      {
+                                        "type": "LIST_ITEM",
+                                        "id": "",
+                                        "children": [
+                                          {
+                                            "type": "LETTER_WITH_DOT",
+                                            "text": "a."
+                                          },
+                                          {
+                                            "type": "PLAINTEXT",
+                                            "text": "pendalaman mengenai empat pilar berbangsa dan bernegara yaitu Pancasila, UUD 1945, Bhinneka Tunggal Ika dan Negara Kesatuan Republik Indonesia;"
+                                          }
+                                        ]
+                                      },
+                                      {
+                                        "type": "LIST_ITEM",
+                                        "id": "",
+                                        "children": [
+                                          {
+                                            "type": "LETTER_WITH_DOT",
+                                            "text": "b."
+                                          },
+                                          {
+                                            "type": "PLAINTEXT",
+                                            "text": "pemahaman mengenai hak dan kewajiban warga negara Indonesia dalam membangun etika dan budaya politik; dan"
+                                          }
+                                        ]
+                                      },
+                                      {
+                                        "type": "LIST_ITEM",
+                                        "id": "",
+                                        "children": [
+                                          {
+                                            "type": "LETTER_WITH_DOT",
+                                            "text": "c."
+                                          },
+                                          {
+                                            "type": "PLAINTEXT",
+                                            "text": "pengkaderan anggota Partai Politik secara berjenjang dan berkelanjutan."
+                                          }
+                                        ]
+                                      }
+                                    ]
+                                  }
+                                ]
+                              },
+                              {
+                                "type": "LIST_ITEM",
+                                "id": "",
+                                "children": [
+                                  {
+                                    "type": "NUMBER_WITH_BRACKETS",
+                                    "text": "(4)"
+                                  },
+                                  {
+                                    "type": "PLAINTEXT",
+                                    "text": "Bantuan keuangan dan laporan penggunaan bantuan keuangan kepada Partai Politik sebagaimana dimaksud pada ayat (3) dan (3a) diatur lebih lanjut dengan Peraturan Pemerintah."
+                                  }
+                                ]
+                              }
+                            ]
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "LIST_ITEM",
+                "id": "",
+                "children": [
+                  {
+                    "type": "NUMBER_WITH_DOT",
+                    "text": "13."
+                  },
+                  {
+                    "type": "PLAINTEXT",
+                    "text": "Di antara Pasal 34 dan Pasal 35 disisipkan 1 (satu) pasal, yakni Pasal 34A yang berbunyi sebagai berikut:"
+                  },
+                  {
+                    "type": "PERUBAHAN_SECTION",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "PERUBAHAN_PASAL",
+                        "id": "perubahan-pasal-34A",
+                        "children": [
+                          {
+                            "type": "PASAL_NUMBER",
+                            "text": "Pasal 34A"
+                          },
+                          {
+                            "type": "LIST",
+                            "id": "",
+                            "children": [
+                              {
+                                "type": "LIST_ITEM",
+                                "id": "",
+                                "children": [
+                                  {
+                                    "type": "NUMBER_WITH_BRACKETS",
+                                    "text": "(1)"
+                                  },
+                                  {
+                                    "type": "PLAINTEXT",
+                                    "text": "Partai Politik wajib menyampaikan laporan pertanggungjawaban penerimaan dan pengeluaran yang bersumber dari dana bantuan Anggaran Pendapatan dan Belanja Negara dan Anggaran Pendapatan dan Belanja Daerah sebagaimana dimaksud dalam Pasal 34 ayat (1) huruf c kepada Badan Pemeriksa Keuangan secara berkala 1 (satu) tahun sekali untuk diaudit paling lambat 1 (satu) bulan setelah tahun anggaran berakhir."
+                                  }
+                                ]
+                              },
+                              {
+                                "type": "LIST_ITEM",
+                                "id": "",
+                                "children": [
+                                  {
+                                    "type": "NUMBER_WITH_BRACKETS",
+                                    "text": "(2)"
+                                  },
+                                  {
+                                    "type": "PLAINTEXT",
+                                    "text": "Audit laporan sebagaimana dimaksud pada ayat (1) dilakukan 3 (tiga) bulan setelah tahun anggaran berakhir."
+                                  }
+                                ]
+                              },
+                              {
+                                "type": "LIST_ITEM",
+                                "id": "",
+                                "children": [
+                                  {
+                                    "type": "NUMBER_WITH_BRACKETS",
+                                    "text": "(3)"
+                                  },
+                                  {
+                                    "type": "PLAINTEXT",
+                                    "text": "Hasil audit atas laporan pertanggungjawaban penerimaan dan pengeluaran sebagaimana dimaksud pada ayat (2) disampaikan kepada Partai Politik paling lambat 1 (satu) bulan setelah diaudit."
+                                  }
+                                ]
+                              }
+                            ]
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "LIST_ITEM",
+                "id": "",
+                "children": [
+                  {
+                    "type": "NUMBER_WITH_DOT",
+                    "text": "14."
+                  },
+                  {
+                    "type": "PLAINTEXT",
+                    "text": "Ketentuan Pasal 35 ayat (1) huruf c diubah sehingga Pasal 35 berbunyi sebagai berikut:"
+                  },
+                  {
+                    "type": "PERUBAHAN_SECTION",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "PERUBAHAN_PASAL",
+                        "id": "perubahan-pasal-35",
+                        "children": [
+                          {
+                            "type": "PASAL_NUMBER",
+                            "text": "Pasal 35"
+                          },
+                          {
+                            "type": "LIST",
+                            "id": "",
+                            "children": [
+                              {
+                                "type": "LIST_ITEM",
+                                "id": "",
+                                "children": [
+                                  {
+                                    "type": "NUMBER_WITH_BRACKETS",
+                                    "text": "(1)"
+                                  },
+                                  {
+                                    "type": "PLAINTEXT",
+                                    "text": "Sumbangan sebagaimana dimaksud dalam Pasal 34 ayat (1) huruf b yang diterima Partai Politik berasal dari:"
+                                  },
+                                  {
+                                    "type": "LIST",
+                                    "id": "",
+                                    "children": [
+                                      {
+                                        "type": "LIST_ITEM",
+                                        "id": "",
+                                        "children": [
+                                          {
+                                            "type": "LETTER_WITH_DOT",
+                                            "text": "a."
+                                          },
+                                          {
+                                            "type": "PLAINTEXT",
+                                            "text": "perseorangan anggota Partai Politik yang pelaksanaannya diatur dalam AD dan ART;"
+                                          }
+                                        ]
+                                      },
+                                      {
+                                        "type": "LIST_ITEM",
+                                        "id": "",
+                                        "children": [
+                                          {
+                                            "type": "LETTER_WITH_DOT",
+                                            "text": "b."
+                                          },
+                                          {
+                                            "type": "PLAINTEXT",
+                                            "text": "perseorangan bukan anggota Partai Politik, paling banyak senilai Rp 1.000.000.000,00 (satu miliar rupiah) per orang dalam waktu 1 (satu) tahun anggaran; dan"
+                                          }
+                                        ]
+                                      },
+                                      {
+                                        "type": "LIST_ITEM",
+                                        "id": "",
+                                        "children": [
+                                          {
+                                            "type": "LETTER_WITH_DOT",
+                                            "text": "c."
+                                          },
+                                          {
+                                            "type": "PLAINTEXT",
+                                            "text": "perusahaan dan/atau badan usaha, paling banyak senilai Rp 7.500.000.000,00 (tujuh miliar lima ratus juta rupiah) per perusahaan dan/atau badan usaha dalam waktu 1 (satu) tahun anggaran."
+                                          }
+                                        ]
+                                      }
+                                    ]
+                                  }
+                                ]
+                              },
+                              {
+                                "type": "LIST_ITEM",
+                                "id": "",
+                                "children": [
+                                  {
+                                    "type": "NUMBER_WITH_BRACKETS",
+                                    "text": "(2)"
+                                  },
+                                  {
+                                    "type": "PLAINTEXT",
+                                    "text": "Sumbangan sebagaimana dimaksud pada ayat (1) didasarkan pada prinsip kejujuran, sukarela, keadilan, terbuka, tanggung jawab, serta kedaulatan dan kemandirian Partai Politik."
+                                  }
+                                ]
+                              }
+                            ]
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "LIST_ITEM",
+                "id": "",
+                "children": [
+                  {
+                    "type": "NUMBER_WITH_DOT",
+                    "text": "15."
+                  },
+                  {
+                    "type": "PLAINTEXT",
+                    "text": "Ketentuan Pasal 39 diubah sehingga Pasal 39 berbunyi sebagai berikut:"
+                  },
+                  {
+                    "type": "PERUBAHAN_SECTION",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "PERUBAHAN_PASAL",
+                        "id": "perubahan-pasal-39",
+                        "children": [
+                          {
+                            "type": "PASAL_NUMBER",
+                            "text": "Pasal 39"
+                          },
+                          {
+                            "type": "LIST",
+                            "id": "",
+                            "children": [
+                              {
+                                "type": "LIST_ITEM",
+                                "id": "",
+                                "children": [
+                                  {
+                                    "type": "NUMBER_WITH_BRACKETS",
+                                    "text": "(1)"
+                                  },
+                                  {
+                                    "type": "PLAINTEXT",
+                                    "text": "Pengelolaan keuangan Partai Politik dilakukan secara transparan dan akuntabel."
+                                  }
+                                ]
+                              },
+                              {
+                                "type": "LIST_ITEM",
+                                "id": "",
+                                "children": [
+                                  {
+                                    "type": "NUMBER_WITH_BRACKETS",
+                                    "text": "(2)"
+                                  },
+                                  {
+                                    "type": "PLAINTEXT",
+                                    "text": "Pengelolaan keuangan Partai Politik sebagaimana dimaksud pada ayat (1) diaudit oleh akuntan publik setiap 1 (satu) tahun dan diumumkan secara periodik."
+                                  }
+                                ]
+                              },
+                              {
+                                "type": "LIST_ITEM",
+                                "id": "",
+                                "children": [
+                                  {
+                                    "type": "NUMBER_WITH_BRACKETS",
+                                    "text": "(3)"
+                                  },
+                                  {
+                                    "type": "PLAINTEXT",
+                                    "text": "Partai Politik wajib membuat laporan keuangan untuk keperluan audit dana yang meliputi:"
+                                  },
+                                  {
+                                    "type": "LIST",
+                                    "id": "",
+                                    "children": [
+                                      {
+                                        "type": "LIST_ITEM",
+                                        "id": "",
+                                        "children": [
+                                          {
+                                            "type": "LETTER_WITH_DOT",
+                                            "text": "a."
+                                          },
+                                          {
+                                            "type": "PLAINTEXT",
+                                            "text": "laporan realisasi anggaran Partai Politik;"
+                                          }
+                                        ]
+                                      },
+                                      {
+                                        "type": "LIST_ITEM",
+                                        "id": "",
+                                        "children": [
+                                          {
+                                            "type": "LETTER_WITH_DOT",
+                                            "text": "b."
+                                          },
+                                          {
+                                            "type": "PLAINTEXT",
+                                            "text": "laporan neraca; dan"
+                                          }
+                                        ]
+                                      },
+                                      {
+                                        "type": "LIST_ITEM",
+                                        "id": "",
+                                        "children": [
+                                          {
+                                            "type": "LETTER_WITH_DOT",
+                                            "text": "c."
+                                          },
+                                          {
+                                            "type": "PLAINTEXT",
+                                            "text": "laporan arus kas."
+                                          }
+                                        ]
+                                      }
+                                    ]
+                                  }
+                                ]
+                              }
+                            ]
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "LIST_ITEM",
+                "id": "",
+                "children": [
+                  {
+                    "type": "NUMBER_WITH_DOT",
+                    "text": "16."
+                  },
+                  {
+                    "type": "PLAINTEXT",
+                    "text": "Ketentuan Pasal 45 diubah sehingga Pasal 45 berbunyi sebagai berikut:"
+                  },
+                  {
+                    "type": "PERUBAHAN_SECTION",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "PERUBAHAN_PASAL",
+                        "id": "perubahan-pasal-45",
+                        "children": [
+                          {
+                            "type": "PASAL_NUMBER",
+                            "text": "Pasal 45"
+                          },
+                          {
+                            "type": "PLAINTEXT",
+                            "text": "Pembubaran Partai Politik sebagaimana dimaksud dalam Pasal 41 diumumkan dalam Berita Negara Republik Indonesia oleh Kementerian."
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "LIST_ITEM",
+                "id": "",
+                "children": [
+                  {
+                    "type": "NUMBER_WITH_DOT",
+                    "text": "17."
+                  },
+                  {
+                    "type": "PLAINTEXT",
+                    "text": "Ketentuan Pasal 47 ayat (1) diubah sehingga Pasal 47 berbunyi sebagai berikut:"
+                  },
+                  {
+                    "type": "PERUBAHAN_SECTION",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "PERUBAHAN_PASAL",
+                        "id": "perubahan-pasal-47",
+                        "children": [
+                          {
+                            "type": "PASAL_NUMBER",
+                            "text": "Pasal 47"
+                          },
+                          {
+                            "type": "LIST",
+                            "id": "",
+                            "children": [
+                              {
+                                "type": "LIST_ITEM",
+                                "id": "",
+                                "children": [
+                                  {
+                                    "type": "NUMBER_WITH_BRACKETS",
+                                    "text": "(1)"
+                                  },
+                                  {
+                                    "type": "PLAINTEXT",
+                                    "text": "Pelanggaran terhadap ketentuan sebagaimana dimaksud dalam Pasal 2, Pasal 3, Pasal 9 ayat (1), dan Pasal 40 ayat (1) dikenai sanksi administratif berupa penolakan pendaftaran Partai Politik sebagai badan hukum oleh Kementerian."
+                                  }
+                                ]
+                              },
+                              {
+                                "type": "LIST_ITEM",
+                                "id": "",
+                                "children": [
+                                  {
+                                    "type": "NUMBER_WITH_BRACKETS",
+                                    "text": "(2)"
+                                  },
+                                  {
+                                    "type": "PLAINTEXT",
+                                    "text": "Pelanggaran terhadap ketentuan sebagaimana dimaksud dalam Pasal 13 huruf h dikenai sanksi administratif berupa teguran oleh Pemerintah."
+                                  }
+                                ]
+                              },
+                              {
+                                "type": "LIST_ITEM",
+                                "id": "",
+                                "children": [
+                                  {
+                                    "type": "NUMBER_WITH_BRACKETS",
+                                    "text": "(3)"
+                                  },
+                                  {
+                                    "type": "PLAINTEXT",
+                                    "text": "Pelanggaran terhadap ketentuan sebagaimana dimaksud dalam Pasal 13 huruf i dikenai sanksi administratif berupa penghentian bantuan Anggaran Pendapatan dan Belanja Negara/Anggaran Pendapatan dan Belanja Daerah sampai laporan diterima oleh Pemerintah dalam tahun anggaran berkenaan."
+                                  }
+                                ]
+                              },
+                              {
+                                "type": "LIST_ITEM",
+                                "id": "",
+                                "children": [
+                                  {
+                                    "type": "NUMBER_WITH_BRACKETS",
+                                    "text": "(4)"
+                                  },
+                                  {
+                                    "type": "PLAINTEXT",
+                                    "text": "Pelanggaran terhadap ketentuan sebagaimana dimaksud dalam Pasal 13 huruf j dikenai sanksi administratif berupa teguran oleh Komisi Pemilihan Umum."
+                                  }
+                                ]
+                              },
+                              {
+                                "type": "LIST_ITEM",
+                                "id": "",
+                                "children": [
+                                  {
+                                    "type": "NUMBER_WITH_BRACKETS",
+                                    "text": "(5)"
+                                  },
+                                  {
+                                    "type": "PLAINTEXT",
+                                    "text": "Pelanggaran terhadap ketentuan sebagaimana dimaksud dalam Pasal 40 ayat (3) huruf e dikenai sanksi administratif yang ditetapkan oleh badan/lembaga yang bertugas untuk menjaga kehormatan dan martabat Partai Politik beserta anggotanya."
+                                  }
+                                ]
+                              }
+                            ]
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "LIST_ITEM",
+                "id": "",
+                "children": [
+                  {
+                    "type": "NUMBER_WITH_DOT",
+                    "text": "18."
+                  },
+                  {
+                    "type": "PLAINTEXT",
+                    "text": "Ketentuan Pasal 51 ayat (1), ayat (2), dan ayat (4) diubah, ayat (3) dihapus, di antara ayat (1) dan ayat (2) disisipkan 3 (tiga) ayat yakni ayat (1a), ayat (1b), dan ayat (1c), sehingga Pasal 51 berbunyi sebagai berikut:"
+                  },
+                  {
+                    "type": "PERUBAHAN_SECTION",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "PERUBAHAN_PASAL",
+                        "id": "perubahan-pasal-51",
+                        "children": [
+                          {
+                            "type": "PASAL_NUMBER",
+                            "text": "Pasal 51"
+                          },
+                          {
+                            "type": "LIST",
+                            "id": "",
+                            "children": [
+                              {
+                                "type": "LIST_ITEM",
+                                "id": "",
+                                "children": [
+                                  {
+                                    "type": "NUMBER_WITH_BRACKETS",
+                                    "text": "(1)"
+                                  },
+                                  {
+                                    "type": "PLAINTEXT",
+                                    "text": "Partai Politik yang telah disahkan sebagai badan hukum berdasarkan Undang-Undang Nomor 2 Tahun 2008 tentang Partai Politik tetap diakui keberadaannya dengan kewajiban melakukan penyesuaian menurut Undang-Undang ini dengan mengikuti verifikasi."
+                                  }
+                                ]
+                              },
+                              {
+                                "type": "LIST_ITEM",
+                                "id": "",
+                                "children": [
+                                  {
+                                    "type": "NUMBER_WITH_BRACKETS",
+                                    "text": "(1a)"
+                                  },
+                                  {
+                                    "type": "PLAINTEXT",
+                                    "text": "Verifikasi Partai Politik sebagaimana dimaksud pada ayat (1) dan Partai Politik yang dibentuk setelah Undang-Undang ini diundangkan, selesai paling lambat 2 \u00bd (dua setengah) tahun sebelum hari pemungutan suara pemilihan umum."
+                                  }
+                                ]
+                              },
+                              {
+                                "type": "LIST_ITEM",
+                                "id": "",
+                                "children": [
+                                  {
+                                    "type": "NUMBER_WITH_BRACKETS",
+                                    "text": "(1b)"
+                                  },
+                                  {
+                                    "type": "PLAINTEXT",
+                                    "text": "Dalam hal Partai Politik sebagaimana dimaksud pada ayat (1) tidak memenuhi syarat verifikasi, keberadaan Partai Politik tersebut tetap diakui sampai dilantiknya anggota DPR, DPRD provinsi, dan DPRD kabupaten/kota hasil Pemilihan Umum tahun 2014."
+                                  }
+                                ]
+                              },
+                              {
+                                "type": "LIST_ITEM",
+                                "id": "",
+                                "children": [
+                                  {
+                                    "type": "NUMBER_WITH_BRACKETS",
+                                    "text": "(1c)"
+                                  },
+                                  {
+                                    "type": "PLAINTEXT",
+                                    "text": "Anggota DPR, DPRD provinsi, dan DPRD kabupaten/kota dari Partai Politik sebagaimana dimaksud pada ayat (1b) tetap diakui keberadaannya sebagai anggota DPR, DPRD provinsi, dan DPRD kabupaten/kota sampai akhir periode keanggotaannya."
+                                  }
+                                ]
+                              },
+                              {
+                                "type": "LIST_ITEM",
+                                "id": "",
+                                "children": [
+                                  {
+                                    "type": "NUMBER_WITH_BRACKETS",
+                                    "text": "(2)"
+                                  },
+                                  {
+                                    "type": "PLAINTEXT",
+                                    "text": "Perubahan AD sebagaimana dimaksud dalam Pasal 2 ayat (4) huruf g, huruf h, huruf i, dan huruf m wajib dipenuhi pada kesempatan pertama diselenggarakan forum tertinggi pengambilan keputusan Partai Politik sesuai dengan AD dan ART setelah Undang-Undang ini diundangkan."
+                                  }
+                                ]
+                              },
+                              {
+                                "type": "LIST_ITEM",
+                                "id": "",
+                                "children": [
+                                  {
+                                    "type": "NUMBER_WITH_BRACKETS",
+                                    "text": "(3)"
+                                  },
+                                  {
+                                    "type": "PLAINTEXT",
+                                    "text": "Dihapus."
+                                  }
+                                ]
+                              },
+                              {
+                                "type": "LIST_ITEM",
+                                "id": "",
+                                "children": [
+                                  {
+                                    "type": "NUMBER_WITH_BRACKETS",
+                                    "text": "(4)"
+                                  },
+                                  {
+                                    "type": "PLAINTEXT",
+                                    "text": "Penyelesaian perkara Partai Politik yang sedang dalam proses pemeriksaan di pengadilan dan belum diputus sebelum Undang-Undang ini diundangkan, penyelesaiannya diputus berdasarkan Undang-Undang Nomor 2 Tahun 2008 tentang Partai Politik."
+                                  }
+                                ]
+                              },
+                              {
+                                "type": "LIST_ITEM",
+                                "id": "",
+                                "children": [
+                                  {
+                                    "type": "NUMBER_WITH_BRACKETS",
+                                    "text": "(5)"
+                                  },
+                                  {
+                                    "type": "PLAINTEXT",
+                                    "text": "Perkara Partai Politik yang telah didaftarkan ke pengadilan sebelum Undang-Undang ini diundangkan dan belum diproses, perkara dimaksud diperiksa dan diputus berdasarkan Undang Undang ini."
+                                  }
+                                ]
+                              }
+                            ]
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "PASAL",
+        "id": "pasal-II",
+        "children": [
+          {
+            "type": "PASAL_NUMBER",
+            "text": "Pasal II"
+          },
+          {
+            "type": "PLAINTEXT",
+            "text": "Undang-Undang ini mulai berlaku pada tanggal diundangkan."
+          },
+          {
+            "type": "PLAINTEXT",
+            "text": "Agar setiap orang mengetahuinya, memerintahkan pengundangan Undang-Undang ini dengan penempatannya dalam Lembaran Negara Republik Indonesia."
+          }
+        ]
+      },
+      {
+        "type": "CLOSING",
+        "id": "",
+        "children": [
+          {
+            "type": "PLAINTEXT",
+            "text": "Disahkan Di Jakarta,"
+          },
+          {
+            "type": "PLAINTEXT",
+            "text": "Pada Tanggal 15 Januari 2011"
+          },
+          {
+            "type": "PLAINTEXT",
+            "text": "PRESIDEN REPUBLIK INDONESIA,"
+          },
+          {
+            "type": "PLAINTEXT",
+            "text": "Ttd."
+          },
+          {
+            "type": "PLAINTEXT",
+            "text": "DR. H. SUSILO BAMBANG YUDHOYONO"
+          },
+          {
+            "type": "PLAINTEXT",
+            "text": "Diundangkan Di Jakarta,"
+          },
+          {
+            "type": "PLAINTEXT",
+            "text": "Pada Tanggal 15 Januari 2011"
+          },
+          {
+            "type": "PLAINTEXT",
+            "text": "MENTERI HUKUM DAN HAK ASASI MANUSIA REPUBLIK INDONESIA,"
+          },
+          {
+            "type": "PLAINTEXT",
+            "text": "Ttd."
+          },
+          {
+            "type": "PLAINTEXT",
+            "text": "PATRIALIS AKBAR"
+          },
+          {
+            "type": "LEMBARAN_NUMBER",
+            "text": "LEMBARAN NEGARA REPUBLIK INDONESIA TAHUN 2011 NOMOR 8"
+          }
+        ]
+      },
+      {
+        "type": "PENJELASAN",
+        "id": "penjelasan",
+        "children": [
+          {
+            "type": "PENJELASAN_TITLE",
+            "id": "",
+            "children": [
+              {
+                "type": "PLAINTEXT",
+                "text": "PENJELASAN"
+              },
+              {
+                "type": "PLAINTEXT",
+                "text": "UNDANG-UNDANG REPUBLIK INDONESIA"
+              },
+              {
+                "type": "UU_TITLE_YEAR_AND_NUMBER",
+                "text": "NOMOR 2 TAHUN 2011"
+              },
+              {
+                "type": "PLAINTEXT",
+                "text": "TENTANG"
+              },
+              {
+                "type": "UU_TITLE_TOPIC",
+                "text": "PERUBAHAN ATAS UNDANG-UNDANG NOMOR 2 TAHUN 2008 TENTANG PARTAI POLITIK"
+              }
+            ]
+          },
+          {
+            "type": "PENJELASAN_UMUM",
+            "id": "",
+            "children": [
+              {
+                "type": "PENJELASAN_UMUM_TITLE",
+                "text": "I. UMUM"
+              },
+              {
+                "type": "PLAINTEXT",
+                "text": "Sebagaimana diamanatkan Undang-Undang Dasar Negara Republik Indonesia Tahun 1945, kemerdekaan berserikat, berkumpul dan mengeluarkan pendapat merupakan hak asasi manusia yang harus dilaksanakan untuk memperkuat semangat kebangsaan dalam Negara Kesatuan Republik Indonesia yang demokratis. Hak untuk berserikat dan berkumpul ini kemudian diwujudkan dalam pembentukan Partai Politik sebagai salah satu pilar demokrasi dalam sistem politik Indonesia."
+              },
+              {
+                "type": "PLAINTEXT",
+                "text": "Partai Politik sebagai pilar demokrasi perlu ditata dan disempurnakan untuk mewujudkan sistem politik yang demokratis guna mendukung sistem presidensiil yang efektif. Penataan dan penyempurnaan Partai Politik diarahkan pada dua hal utama, yaitu, pertama, membentuk sikap dan perilaku Partai Politik yang terpola atau sistemik sehingga terbentuk budaya politik yang mendukung prinsip-prinsip dasar sistem demokrasi. Hal ini ditunjukkan dengan sikap dan perilaku Partai Politik yang memiliki sistem seleksi dan rekrutmen keanggotaan yang memadai serta mengembangkan sistem pengkaderan dan kepemimpinan politik yang kuat. Kedua, memaksimalkan fungsi Partai Politik baik fungsi Partai Politik terhadap negara maupun fungsi Partai Politik terhadap rakyat melalui pendidikan politik dan pengkaderan serta rekrutmen politik yang efektif untuk menghasilkan kader-kader calon pemimpin yang memiliki kemampuan di bidang politik."
+              },
+              {
+                "type": "PLAINTEXT",
+                "text": "Upaya untuk memperkuat dan mengefektifkan sistem presidensiil, paling tidak dilakukan pada empat hal yaitu pertama, mengkondisikan terbentuknya sistem multipartai sederhana, kedua, mendorong terciptanya pelembagaan partai yang demokratis dan akuntabel, ketiga, mengkondisikan terbentuknya kepemimpinan partai yang demokratis dan akuntabel dan keempat mendorong penguatan basis dan struktur kepartaian pada tingkat masyarakat."
+              },
+              {
+                "type": "PLAINTEXT",
+                "text": "Adapun hal-hal pokok yang diatur dalam penataan dan penyempurnaan Partai Politik di Indonesia adalah persyaratan pembentukan Partai Politik, persyaratan kepengurusan Partai Politik, perubahan AD dan ART, rekrutmen dan pendidikan politik, pengelolaan keuangan Partai Politik dan kemandirian Partai Politik."
+              }
+            ]
+          },
+          {
+            "type": "PENJELASAN_PASAL_DEMI_PASAL",
+            "id": "",
+            "children": [
+              {
+                "type": "PENJELASAN_PASAL_DEMI_PASAL_TITLE",
+                "text": "II. PASAL DEMI PASAL"
+              },
+              {
+                "type": "PENJELASAN_PASAL",
+                "id": "",
+                "children": [
+                  {
+                    "type": "PASAL_NUMBER",
+                    "text": "Pasal I"
+                  },
+                  {
+                    "type": "LIST",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "PENJELASAN_LIST_ITEM",
+                        "id": "",
+                        "children": [
+                          {
+                            "type": "PENJELASAN_ANGKA",
+                            "text": "Angka 1"
+                          },
+                          {
+                            "type": "PENJELASAN_PERUBAHAN_SECTION",
+                            "id": "",
+                            "children": [
+                              {
+                                "type": "PENJELASAN_PERUBAHAN_PASAL",
+                                "id": "",
+                                "children": [
+                                  {
+                                    "type": "PASAL_NUMBER",
+                                    "text": "Pasal 1"
+                                  },
+                                  {
+                                    "type": "PLAINTEXT",
+                                    "text": "Cukup jelas."
+                                  }
+                                ]
+                              }
+                            ]
+                          }
+                        ]
+                      },
+                      {
+                        "type": "PENJELASAN_LIST_ITEM",
+                        "id": "",
+                        "children": [
+                          {
+                            "type": "PENJELASAN_ANGKA",
+                            "text": "Angka 2"
+                          },
+                          {
+                            "type": "PENJELASAN_PERUBAHAN_SECTION",
+                            "id": "",
+                            "children": [
+                              {
+                                "type": "PENJELASAN_PERUBAHAN_PASAL",
+                                "id": "",
+                                "children": [
+                                  {
+                                    "type": "PASAL_NUMBER",
+                                    "text": "Pasal 2"
+                                  },
+                                  {
+                                    "type": "PLAINTEXT",
+                                    "text": "Cukup jelas."
+                                  }
+                                ]
+                              }
+                            ]
+                          }
+                        ]
+                      },
+                      {
+                        "type": "PENJELASAN_LIST_ITEM",
+                        "id": "",
+                        "children": [
+                          {
+                            "type": "PENJELASAN_ANGKA",
+                            "text": "Angka 3"
+                          },
+                          {
+                            "type": "PENJELASAN_PERUBAHAN_SECTION",
+                            "id": "",
+                            "children": [
+                              {
+                                "type": "PENJELASAN_PERUBAHAN_PASAL",
+                                "id": "",
+                                "children": [
+                                  {
+                                    "type": "PASAL_NUMBER",
+                                    "text": "Pasal 3"
+                                  },
+                                  {
+                                    "type": "LIST",
+                                    "id": "",
+                                    "children": [
+                                      {
+                                        "type": "PENJELASAN_LIST_ITEM",
+                                        "id": "",
+                                        "children": [
+                                          {
+                                            "type": "PENJELASAN_AYAT",
+                                            "text": "Ayat (1)"
+                                          },
+                                          {
+                                            "type": "PLAINTEXT",
+                                            "text": "Cukup jelas."
+                                          }
+                                        ]
+                                      },
+                                      {
+                                        "type": "PENJELASAN_LIST_ITEM",
+                                        "id": "",
+                                        "children": [
+                                          {
+                                            "type": "PENJELASAN_AYAT",
+                                            "text": "Ayat (2)"
+                                          },
+                                          {
+                                            "type": "LIST",
+                                            "id": "",
+                                            "children": [
+                                              {
+                                                "type": "PENJELASAN_LIST_ITEM",
+                                                "id": "",
+                                                "children": [
+                                                  {
+                                                    "type": "PENJELASAN_HURUF",
+                                                    "text": "Huruf a"
+                                                  },
+                                                  {
+                                                    "type": "PLAINTEXT",
+                                                    "text": "Cukup jelas."
+                                                  }
+                                                ]
+                                              },
+                                              {
+                                                "type": "PENJELASAN_LIST_ITEM",
+                                                "id": "",
+                                                "children": [
+                                                  {
+                                                    "type": "PENJELASAN_HURUF",
+                                                    "text": "Huruf b"
+                                                  },
+                                                  {
+                                                    "type": "PLAINTEXT",
+                                                    "text": "Yang dimaksud dengan \u201dmempunyai persamaan pada pokoknya atau keseluruhannya dengan nama, lambang, dan tanda gambar Partai Politik lain\u201d adalah memiliki kemiripan yang menonjol dan menimbulkan kesan adanya persamaan, baik mengenai bentuk, cara penempatan, cara penulisan maupun kombinasi antara unsur-unsur yang terdapat dalam nama, lambang, dan tanda gambar Partai Politik lain."
+                                                  }
+                                                ]
+                                              },
+                                              {
+                                                "type": "PENJELASAN_LIST_ITEM",
+                                                "id": "",
+                                                "children": [
+                                                  {
+                                                    "type": "PENJELASAN_HURUF",
+                                                    "text": "Huruf c"
+                                                  },
+                                                  {
+                                                    "type": "PLAINTEXT",
+                                                    "text": "Kota/kabupaten administratif di wilayah Daerah Khusus Ibu Kota Jakarta kedudukannya setara dengan kota/kabupaten di provinsi lain."
+                                                  }
+                                                ]
+                                              },
+                                              {
+                                                "type": "PENJELASAN_LIST_ITEM",
+                                                "id": "",
+                                                "children": [
+                                                  {
+                                                    "type": "PENJELASAN_HURUF",
+                                                    "text": "Huruf d"
+                                                  },
+                                                  {
+                                                    "type": "PLAINTEXT",
+                                                    "text": "Yang dimaksud dengan \u201ckantor tetap\u201d adalah kantor yang layak, milik sendiri, sewa, pinjam pakai, serta mempunyai alamat tetap."
+                                                  }
+                                                ]
+                                              },
+                                              {
+                                                "type": "PENJELASAN_LIST_ITEM",
+                                                "id": "",
+                                                "children": [
+                                                  {
+                                                    "type": "PENJELASAN_HURUF",
+                                                    "text": "Huruf e"
+                                                  },
+                                                  {
+                                                    "type": "PLAINTEXT",
+                                                    "text": "Cukup jelas."
+                                                  }
+                                                ]
+                                              }
+                                            ]
+                                          }
+                                        ]
+                                      }
+                                    ]
+                                  }
+                                ]
+                              }
+                            ]
+                          }
+                        ]
+                      },
+                      {
+                        "type": "PENJELASAN_LIST_ITEM",
+                        "id": "",
+                        "children": [
+                          {
+                            "type": "PENJELASAN_ANGKA",
+                            "text": "Angka 4"
+                          },
+                          {
+                            "type": "PENJELASAN_PERUBAHAN_SECTION",
+                            "id": "",
+                            "children": [
+                              {
+                                "type": "PENJELASAN_PERUBAHAN_PASAL",
+                                "id": "",
+                                "children": [
+                                  {
+                                    "type": "PASAL_NUMBER",
+                                    "text": "Pasal 4"
+                                  },
+                                  {
+                                    "type": "LIST",
+                                    "id": "",
+                                    "children": [
+                                      {
+                                        "type": "PENJELASAN_LIST_ITEM",
+                                        "id": "",
+                                        "children": [
+                                          {
+                                            "type": "PENJELASAN_AYAT",
+                                            "text": "Ayat (1)"
+                                          },
+                                          {
+                                            "type": "PLAINTEXT",
+                                            "text": "Penelitian dan/atau verifikasi Partai Politik dilakukan secara administratif dan periodik oleh Kementerian bekerja sama dengan instansi terkait."
+                                          }
+                                        ]
+                                      },
+                                      {
+                                        "type": "PENJELASAN_LIST_ITEM",
+                                        "id": "",
+                                        "children": [
+                                          {
+                                            "type": "PENJELASAN_AYAT",
+                                            "text": "Ayat (2)"
+                                          },
+                                          {
+                                            "type": "PLAINTEXT",
+                                            "text": "Cukup jelas."
+                                          }
+                                        ]
+                                      },
+                                      {
+                                        "type": "PENJELASAN_LIST_ITEM",
+                                        "id": "",
+                                        "children": [
+                                          {
+                                            "type": "PENJELASAN_AYAT",
+                                            "text": "Ayat (3)"
+                                          },
+                                          {
+                                            "type": "PLAINTEXT",
+                                            "text": "Cukup jelas."
+                                          }
+                                        ]
+                                      },
+                                      {
+                                        "type": "PENJELASAN_LIST_ITEM",
+                                        "id": "",
+                                        "children": [
+                                          {
+                                            "type": "PENJELASAN_AYAT",
+                                            "text": "Ayat (4)"
+                                          },
+                                          {
+                                            "type": "PLAINTEXT",
+                                            "text": "Cukup jelas."
+                                          }
+                                        ]
+                                      }
+                                    ]
+                                  }
+                                ]
+                              }
+                            ]
+                          }
+                        ]
+                      },
+                      {
+                        "type": "PENJELASAN_LIST_ITEM",
+                        "id": "",
+                        "children": [
+                          {
+                            "type": "PENJELASAN_ANGKA",
+                            "text": "Angka 5"
+                          },
+                          {
+                            "type": "PENJELASAN_PERUBAHAN_SECTION",
+                            "id": "",
+                            "children": [
+                              {
+                                "type": "PENJELASAN_PERUBAHAN_PASAL",
+                                "id": "",
+                                "children": [
+                                  {
+                                    "type": "PASAL_NUMBER",
+                                    "text": "Pasal 5"
+                                  },
+                                  {
+                                    "type": "PLAINTEXT",
+                                    "text": "Cukup jelas."
+                                  }
+                                ]
+                              }
+                            ]
+                          }
+                        ]
+                      },
+                      {
+                        "type": "PENJELASAN_LIST_ITEM",
+                        "id": "",
+                        "children": [
+                          {
+                            "type": "PENJELASAN_ANGKA",
+                            "text": "Angka 6"
+                          },
+                          {
+                            "type": "PENJELASAN_PERUBAHAN_SECTION",
+                            "id": "",
+                            "children": [
+                              {
+                                "type": "PENJELASAN_PERUBAHAN_PASAL",
+                                "id": "",
+                                "children": [
+                                  {
+                                    "type": "PASAL_NUMBER",
+                                    "text": "Pasal 16"
+                                  },
+                                  {
+                                    "type": "PLAINTEXT",
+                                    "text": "Cukup jelas."
+                                  }
+                                ]
+                              }
+                            ]
+                          }
+                        ]
+                      },
+                      {
+                        "type": "PENJELASAN_LIST_ITEM",
+                        "id": "",
+                        "children": [
+                          {
+                            "type": "PENJELASAN_ANGKA",
+                            "text": "Angka 7"
+                          },
+                          {
+                            "type": "PENJELASAN_PERUBAHAN_SECTION",
+                            "id": "",
+                            "children": [
+                              {
+                                "type": "PENJELASAN_PERUBAHAN_PASAL",
+                                "id": "",
+                                "children": [
+                                  {
+                                    "type": "PASAL_NUMBER",
+                                    "text": "Pasal 19"
+                                  },
+                                  {
+                                    "type": "PLAINTEXT",
+                                    "text": "Cukup jelas."
+                                  }
+                                ]
+                              }
+                            ]
+                          }
+                        ]
+                      },
+                      {
+                        "type": "PENJELASAN_LIST_ITEM",
+                        "id": "",
+                        "children": [
+                          {
+                            "type": "PENJELASAN_ANGKA",
+                            "text": "Angka 8"
+                          },
+                          {
+                            "type": "PENJELASAN_PERUBAHAN_SECTION",
+                            "id": "",
+                            "children": [
+                              {
+                                "type": "PENJELASAN_PERUBAHAN_PASAL",
+                                "id": "",
+                                "children": [
+                                  {
+                                    "type": "PASAL_NUMBER",
+                                    "text": "Pasal 23"
+                                  },
+                                  {
+                                    "type": "PLAINTEXT",
+                                    "text": "Cukup jelas."
+                                  }
+                                ]
+                              }
+                            ]
+                          }
+                        ]
+                      },
+                      {
+                        "type": "PENJELASAN_LIST_ITEM",
+                        "id": "",
+                        "children": [
+                          {
+                            "type": "PENJELASAN_ANGKA",
+                            "text": "Angka 9"
+                          },
+                          {
+                            "type": "PENJELASAN_PERUBAHAN_SECTION",
+                            "id": "",
+                            "children": [
+                              {
+                                "type": "PENJELASAN_PERUBAHAN_PASAL",
+                                "id": "",
+                                "children": [
+                                  {
+                                    "type": "PASAL_NUMBER",
+                                    "text": "Pasal 29"
+                                  },
+                                  {
+                                    "type": "PLAINTEXT",
+                                    "text": "Cukup jelas."
+                                  }
+                                ]
+                              }
+                            ]
+                          }
+                        ]
+                      },
+                      {
+                        "type": "PENJELASAN_LIST_ITEM",
+                        "id": "",
+                        "children": [
+                          {
+                            "type": "PENJELASAN_ANGKA",
+                            "text": "Angka 10"
+                          },
+                          {
+                            "type": "PENJELASAN_PERUBAHAN_SECTION",
+                            "id": "",
+                            "children": [
+                              {
+                                "type": "PENJELASAN_PERUBAHAN_PASAL",
+                                "id": "",
+                                "children": [
+                                  {
+                                    "type": "PASAL_NUMBER",
+                                    "text": "Pasal 32"
+                                  },
+                                  {
+                                    "type": "LIST",
+                                    "id": "",
+                                    "children": [
+                                      {
+                                        "type": "PENJELASAN_LIST_ITEM",
+                                        "id": "",
+                                        "children": [
+                                          {
+                                            "type": "PENJELASAN_AYAT",
+                                            "text": "Ayat (1)"
+                                          },
+                                          {
+                                            "type": "PLAINTEXT",
+                                            "text": "Yang dimaksud dengan \u201cperselisihan Partai Politik\u201d meliputi antara lain: (1) perselisihan yang berkenaan dengan kepengurusan; (2) pelanggaran terhadap hak anggota Partai Politik; (3) pemecatan tanpa alasan yang jelas; (4) penyalahgunaan kewenangan; (5) pertanggungjawaban keuangan; dan/atau (6) keberatan terhadap keputusan Partai Politik."
+                                          }
+                                        ]
+                                      },
+                                      {
+                                        "type": "PENJELASAN_LIST_ITEM",
+                                        "id": "",
+                                        "children": [
+                                          {
+                                            "type": "PENJELASAN_AYAT",
+                                            "text": "Ayat (2)"
+                                          },
+                                          {
+                                            "type": "PLAINTEXT",
+                                            "text": "Cukup jelas."
+                                          }
+                                        ]
+                                      },
+                                      {
+                                        "type": "PENJELASAN_LIST_ITEM",
+                                        "id": "",
+                                        "children": [
+                                          {
+                                            "type": "PENJELASAN_AYAT",
+                                            "text": "Ayat (3)"
+                                          },
+                                          {
+                                            "type": "PLAINTEXT",
+                                            "text": "Cukup jelas."
+                                          }
+                                        ]
+                                      },
+                                      {
+                                        "type": "PENJELASAN_LIST_ITEM",
+                                        "id": "",
+                                        "children": [
+                                          {
+                                            "type": "PENJELASAN_AYAT",
+                                            "text": "Ayat (4)"
+                                          },
+                                          {
+                                            "type": "PLAINTEXT",
+                                            "text": "Cukup jelas."
+                                          }
+                                        ]
+                                      },
+                                      {
+                                        "type": "PENJELASAN_LIST_ITEM",
+                                        "id": "",
+                                        "children": [
+                                          {
+                                            "type": "PENJELASAN_AYAT",
+                                            "text": "Ayat (5)"
+                                          },
+                                          {
+                                            "type": "PLAINTEXT",
+                                            "text": "Cukup jelas."
+                                          }
+                                        ]
+                                      }
+                                    ]
+                                  }
+                                ]
+                              }
+                            ]
+                          }
+                        ]
+                      },
+                      {
+                        "type": "PENJELASAN_LIST_ITEM",
+                        "id": "",
+                        "children": [
+                          {
+                            "type": "PENJELASAN_ANGKA",
+                            "text": "Angka 11"
+                          },
+                          {
+                            "type": "PENJELASAN_PERUBAHAN_SECTION",
+                            "id": "",
+                            "children": [
+                              {
+                                "type": "PENJELASAN_PERUBAHAN_PASAL",
+                                "id": "",
+                                "children": [
+                                  {
+                                    "type": "PASAL_NUMBER",
+                                    "text": "Pasal 33"
+                                  },
+                                  {
+                                    "type": "PLAINTEXT",
+                                    "text": "Cukup jelas."
+                                  }
+                                ]
+                              }
+                            ]
+                          }
+                        ]
+                      },
+                      {
+                        "type": "PENJELASAN_LIST_ITEM",
+                        "id": "",
+                        "children": [
+                          {
+                            "type": "PENJELASAN_ANGKA",
+                            "text": "Angka 12"
+                          },
+                          {
+                            "type": "PENJELASAN_PERUBAHAN_SECTION",
+                            "id": "",
+                            "children": [
+                              {
+                                "type": "PENJELASAN_PERUBAHAN_PASAL",
+                                "id": "",
+                                "children": [
+                                  {
+                                    "type": "PASAL_NUMBER",
+                                    "text": "Pasal 34"
+                                  },
+                                  {
+                                    "type": "PLAINTEXT",
+                                    "text": "Cukup jelas."
+                                  }
+                                ]
+                              }
+                            ]
+                          }
+                        ]
+                      },
+                      {
+                        "type": "PENJELASAN_LIST_ITEM",
+                        "id": "",
+                        "children": [
+                          {
+                            "type": "PENJELASAN_ANGKA",
+                            "text": "Angka 13"
+                          },
+                          {
+                            "type": "PENJELASAN_PERUBAHAN_SECTION",
+                            "id": "",
+                            "children": [
+                              {
+                                "type": "PENJELASAN_PERUBAHAN_PASAL",
+                                "id": "",
+                                "children": [
+                                  {
+                                    "type": "PASAL_NUMBER",
+                                    "text": "Pasal 34A"
+                                  },
+                                  {
+                                    "type": "PLAINTEXT",
+                                    "text": "Cukup jelas."
+                                  }
+                                ]
+                              }
+                            ]
+                          }
+                        ]
+                      },
+                      {
+                        "type": "PENJELASAN_LIST_ITEM",
+                        "id": "",
+                        "children": [
+                          {
+                            "type": "PENJELASAN_ANGKA",
+                            "text": "Angka 14"
+                          },
+                          {
+                            "type": "PENJELASAN_PERUBAHAN_SECTION",
+                            "id": "",
+                            "children": [
+                              {
+                                "type": "PENJELASAN_PERUBAHAN_PASAL",
+                                "id": "",
+                                "children": [
+                                  {
+                                    "type": "PASAL_NUMBER",
+                                    "text": "Pasal 35"
+                                  },
+                                  {
+                                    "type": "PLAINTEXT",
+                                    "text": "Cukup jelas."
+                                  }
+                                ]
+                              }
+                            ]
+                          }
+                        ]
+                      },
+                      {
+                        "type": "PENJELASAN_LIST_ITEM",
+                        "id": "",
+                        "children": [
+                          {
+                            "type": "PENJELASAN_ANGKA",
+                            "text": "Angka 15"
+                          },
+                          {
+                            "type": "PENJELASAN_PERUBAHAN_SECTION",
+                            "id": "",
+                            "children": [
+                              {
+                                "type": "PENJELASAN_PERUBAHAN_PASAL",
+                                "id": "",
+                                "children": [
+                                  {
+                                    "type": "PASAL_NUMBER",
+                                    "text": "Pasal 39"
+                                  },
+                                  {
+                                    "type": "LIST",
+                                    "id": "",
+                                    "children": [
+                                      {
+                                        "type": "PENJELASAN_LIST_ITEM",
+                                        "id": "",
+                                        "children": [
+                                          {
+                                            "type": "PENJELASAN_AYAT",
+                                            "text": "Ayat (1)"
+                                          },
+                                          {
+                                            "type": "PLAINTEXT",
+                                            "text": "Cukup jelas."
+                                          }
+                                        ]
+                                      },
+                                      {
+                                        "type": "PENJELASAN_LIST_ITEM",
+                                        "id": "",
+                                        "children": [
+                                          {
+                                            "type": "PENJELASAN_AYAT",
+                                            "text": "Ayat (2)"
+                                          },
+                                          {
+                                            "type": "PLAINTEXT",
+                                            "text": "Yang dimaksud dengan \u201cakuntan publik\u201d adalah akuntan yang terdaftar dalam organisasi profesi Ikatan Akuntan Indonesia."
+                                          },
+                                          {
+                                            "type": "PLAINTEXT",
+                                            "text": "Yang dimaksud dengan \u201cdiumumkan secara periodik\u201d adalah dipublikasikan setiap setahun sekali melalui media massa."
+                                          }
+                                        ]
+                                      },
+                                      {
+                                        "type": "PENJELASAN_LIST_ITEM",
+                                        "id": "",
+                                        "children": [
+                                          {
+                                            "type": "PENJELASAN_AYAT",
+                                            "text": "Ayat (3)"
+                                          },
+                                          {
+                                            "type": "PLAINTEXT",
+                                            "text": "Cukup jelas."
+                                          }
+                                        ]
+                                      }
+                                    ]
+                                  }
+                                ]
+                              }
+                            ]
+                          }
+                        ]
+                      },
+                      {
+                        "type": "PENJELASAN_LIST_ITEM",
+                        "id": "",
+                        "children": [
+                          {
+                            "type": "PENJELASAN_ANGKA",
+                            "text": "Angka 16"
+                          },
+                          {
+                            "type": "PENJELASAN_PERUBAHAN_SECTION",
+                            "id": "",
+                            "children": [
+                              {
+                                "type": "PENJELASAN_PERUBAHAN_PASAL",
+                                "id": "",
+                                "children": [
+                                  {
+                                    "type": "PASAL_NUMBER",
+                                    "text": "Pasal 45"
+                                  },
+                                  {
+                                    "type": "PLAINTEXT",
+                                    "text": "Cukup jelas."
+                                  }
+                                ]
+                              }
+                            ]
+                          }
+                        ]
+                      },
+                      {
+                        "type": "PENJELASAN_LIST_ITEM",
+                        "id": "",
+                        "children": [
+                          {
+                            "type": "PENJELASAN_ANGKA",
+                            "text": "Angka 17"
+                          },
+                          {
+                            "type": "PENJELASAN_PERUBAHAN_SECTION",
+                            "id": "",
+                            "children": [
+                              {
+                                "type": "PENJELASAN_PERUBAHAN_PASAL",
+                                "id": "",
+                                "children": [
+                                  {
+                                    "type": "PASAL_NUMBER",
+                                    "text": "Pasal 47"
+                                  },
+                                  {
+                                    "type": "PLAINTEXT",
+                                    "text": "Cukup jelas."
+                                  }
+                                ]
+                              }
+                            ]
+                          }
+                        ]
+                      },
+                      {
+                        "type": "PENJELASAN_LIST_ITEM",
+                        "id": "",
+                        "children": [
+                          {
+                            "type": "PENJELASAN_ANGKA",
+                            "text": "Angka 18"
+                          },
+                          {
+                            "type": "PENJELASAN_PERUBAHAN_SECTION",
+                            "id": "",
+                            "children": [
+                              {
+                                "type": "PENJELASAN_PERUBAHAN_PASAL",
+                                "id": "",
+                                "children": [
+                                  {
+                                    "type": "PASAL_NUMBER",
+                                    "text": "Pasal 51"
+                                  },
+                                  {
+                                    "type": "PLAINTEXT",
+                                    "text": "Cukup jelas."
+                                  }
+                                ]
+                              }
+                            ]
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "PENJELASAN_PASAL",
+                "id": "",
+                "children": [
+                  {
+                    "type": "PASAL_NUMBER",
+                    "text": "Pasal II"
+                  },
+                  {
+                    "type": "PLAINTEXT",
+                    "text": "Cukup jelas."
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

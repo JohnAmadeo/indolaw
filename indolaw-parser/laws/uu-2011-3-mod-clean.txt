@@ -1,0 +1,1274 @@
+UNDANG-UNDANG REPUBLIK INDONESIA
+NOMOR 3 TAHUN 2011
+TENTANG
+TRANSFER DANA
+DENGAN RAHMAT TUHAN YANG MAHA ESA
+PRESIDEN REPUBLIK INDONESIA,
+Menimbang:
+a.
+bahwa kegiatan transfer dana di Indonesia telah menunjukkan peningkatan, baik dari jumlah transaksi, jumlah nilai nominal transaksi, maupun jenis media yang digunakan;
+b.
+bahwa seiring dengan peningkatan transaksi perkembangan media transfer dana dan permasalahan yang terjadi, diperlukan pengaturan yang menjamin keamanan dan kelancaran transaksi transfer dana serta memberikan kepastian bagi pihak yang terkait dalam penyelenggaraan kegiatan transfer dana;
+c.
+bahwa penyelenggaraan transfer dana yang aman, lancar, dan memberikan kepastian bagi pihak terkait diharapkan dapat mewujudkan kelancaran sistem pembayaran nasional;
+d.
+bahwa berdasarkan pertimbangan sebagaimana dimaksud dalam huruf a, huruf b, dan huruf c, perlu membentuk Undang-Undang tentang Transfer Dana.
+Mengingat:
+1.
+Pasal 5 ayat (1), Pasal 20, dan Pasal 23D Undang-Undang Dasar Negara Republik Indonesia Tahun 1945;
+2.
+Undang-Undang Nomor 7 Tahun 1992 tentang Perbankan (Lembaran Negara Republik Indonesia Tahun 1992 Nomor 31, Tambahan Lembaran Negara Republik Indonesia Nomor 3472) sebagaimana telah diubah dengan Undang– Undang Nomor 10 Tahun 1998 tentang Perubahan atas Undang-Undang Nomor 7 Tahun 1992 tentang Perbankan (Lembaran Negara Republik Indonesia Tahun 1998 Nomor 182, Tambahan Lembaran Negara Republik Indonesia Nomor 3790);
+3.
+Undang-Undang Nomor 23 Tahun 1999 tentang Bank Indonesia (Lembaran Negara Republik Indonesia Tahun 1999 Nomor 66, Tambahan Lembaran Negara Republik Indonesia Nomor 3843) sebagaimana telah diubah terakhir dengan Undang-Undang Nomor 6 Tahun 2009 tentang Penetapan Peraturan Pemerintah Pengganti Undang-Undang Nomor 2 Tahun 2008 tentang Perubahan Kedua atas Undang Undang Nomor 23 Tahun 1999 tentang Bank Indonesia Menjadi Undang-Undang (Lembaran Negara Republik Indonesia Tahun 2009 Nomor 7, Tambahan Lembaran Negara Republik Indonesia Nomor 4962);
+4.
+Undang-Undang Nomor 11 Tahun 2008 tentang Informasi dan Transaksi Elektronik (Lembaran Negara Republik Indonesia Tahun 2008 Nomor 58, Tambahan Lembaran Negara Republik Indonesia Nomor 4843);
+5.
+Undang-Undang Nomor 8 Tahun 2010 tentang Pencegahan dan Pemberantasan Tindak Pidana Pencucian Uang (Lembaran Negara Republik Indonesia Tahun 2010 Nomor 122, Tambahan Lembaran Negara Republik Indonesia Nomor 5164).
+Dengan Persetujuan Bersama
+DEWAN PERWAKILAN RAKYAT REPUBLIK INDONESIA
+dan
+PRESIDEN REPUBLIK INDONESIA
+MEMUTUSKAN:
+Menetapkan:
+UNDANG-UNDANG TENTANG TRANSFER DANA.
+BAB I
+KETENTUAN UMUM
+Bagian Kesatu
+Definisi
+Pasal 1
+Dalam Undang-Undang ini yang dimaksud dengan:
+1.
+Transfer Dana adalah rangkaian kegiatan yang dimulai dengan perintah dari Pengirim Asal yang bertujuan memindahkan sejumlah Dana kepada Penerima yang disebutkan dalam Perintah Transfer Dana sampai dengan diterimanya Dana oleh Penerima.
+2.
+Penyelenggara Transfer Dana, yang selanjutnya disebut Penyelenggara, adalah Bank dan badan usaha berbadan hukum Indonesia bukan Bank yang menyelenggarakan kegiatan Transfer Dana.
+3.
+Bank adalah bank sebagaimana dimaksud dalam undang-undang yang mengatur mengenai perbankan.
+4.
+Dana adalah:
+a.
+uang tunai yang diserahkan oleh Pengirim kepada Penyelenggara Penerima;
+b.
+uang yang tersimpan dalam Rekening Pengirim pada Penyelenggara Penerima;
+c.
+uang yang tersimpan dalam Rekening Penyelenggara Penerima pada Penyelenggara Penerima lain;
+d.
+uang yang tersimpan dalam Rekening Penerima pada Penyelenggara Penerima Akhir;
+e.
+uang yang tersimpan dalam Rekening Penyelenggara Penerima yang dialokasikan untuk kepentingan Penerima yang tidak mempunyai Rekening pada Penyelenggara tersebut; dan/atau
+f.
+fasilitas cerukan (overdraft) atau fasilitas kredit yang diberikan Penyelenggara kepada Pengirim.
+5.
+Perintah Transfer Dana adalah perintah tidak bersyarat dari Pengirim kepada Penyelenggara Penerima untuk membayarkan sejumlah Dana tertentu kepada Penerima.
+6.
+Pengirim (Sender) adalah Pengirim Asal, Penyelenggara Pengirim Asal, dan semua Penyelenggara Penerus yang menerbitkan Perintah Transfer Dana.
+7.
+Pengirim Asal (Originator) adalah pihak yang pertama kali mengeluarkan Perintah Transfer Dana.
+8.
+Penyelenggara Pengirim adalah Penyelenggara Pengirim Asal dan/atau Penyelenggara Penerus yang mengirimkan Perintah Transfer Dana.
+9.
+Penyelenggara Pengirim Asal adalah Penyelenggara yang menerima Perintah Transfer Dana dari Pengirim Asal untuk membayarkan atau memerintahkan kepada Penyelenggara lain untuk membayar sejumlah Dana tertentu kepada Penerima.
+10.
+Penyelenggara Penerima adalah Penyelenggara Pengirim Asal, Penyelenggara Penerus, dan/atau Penyelenggara Penerima Akhir yang menerima Perintah Transfer Dana, termasuk bank sentral dan Penyelenggara lain yang menyelenggarakan kegiatan penyelesaian pembayaran antar-Penyelenggara.
+11.
+Penyelenggara Penerus adalah Penyelenggara Penerima selain Penyelenggara Pengirim Asal dan Penyelenggara Penerima Akhir.
+12.
+Penyelenggara Penerima Akhir adalah Penyelenggara yang melakukan pembayaran atau menyampaikan Dana hasil transfer kepada Penerima.
+13.
+Penerima (Beneficiary) adalah pihak yang disebut dalam Perintah Transfer Dana untuk menerima Dana hasil transfer.
+14.
+Autentikasi (Authentication) adalah prosedur yang dilakukan oleh Penyelenggara Penerima untuk memastikan bahwa penerbitan suatu Perintah Transfer Dana, perubahan, atau pembatalannya benar benar dilakukan oleh pihak yang dalam Perintah Transfer Dana dimaksudkan sebagai Pengirim yang berhak.
+15.
+Pengaksepan (Acceptance) adalah kegiatan Penyelenggara Penerima yang menunjukkan persetujuan untuk melaksanakan atau memenuhi isi Perintah Transfer Dana yang diterima.
+16.
+Tanggal Pelaksanaan (Execution Date) adalah tanggal tertentu Penyelenggara Penerima wajib melaksanakan Perintah Transfer Dana dari Pengirim Asal.
+17.
+Tanggal Pembayaran (Payment Date) adalah tanggal saat Penyelenggara Penerima Akhir wajib menyediakan Dana yang dapat digunakan untuk kepentingan Penerima.
+18.
+Rekening adalah rekening giro, rekening tabungan, rekening lain, atau bentuk pencatatan lain, baik yang dimiliki oleh perseorangan, institusi, maupun bersama, yang dapat didebit dan/atau dikredit dalam rangka pelaksanaan Transfer Dana, termasuk Rekening antar kantor Penyelenggara yang sama.
+19.
+Sistem Transfer Dana adalah sistem terpadu untuk memproses perintah Transfer Dana dengan menggunakan sarana elektronik atau sarana lain sesuai dengan peraturan.
+20.
+Perintah Transfer Debit adalah perintah tidak bersyarat dari Pengirim Transfer Debit kepada Penyelenggara Pengirim Transfer Debit untuk menagih sejumlah Dana tertentu kepada Penyelenggara Pembayar Transfer Debit agar dibayarkan kepada Penerima Akhir Transfer Debit.
+21.
+Pengirim Transfer Debit adalah Pengirim Asal Transfer Debit, Penyelenggara Pengirim Asal Transfer Debit, dan semua Penyelenggara Penerus Transfer Debit yang menerbitkan Perintah Transfer Debit.
+22.
+Pengirim Asal Transfer Debit atau Penerima Akhir Transfer Debit adalah pihak yang pertama kali menyerahkan Perintah Transfer Debit kepada Penyelenggara Pengirim Asal Transfer Debit yang sekaligus merupakan pihak yang berhak menerima Dana.
+23.
+Pembayar Transfer Debit adalah pihak yang mempunyai kewajiban untuk membayar sejumlah Dana tertentu kepada Penerima Akhir Transfer Debit melalui Penyelenggara Pembayar Transfer Debit.
+24.
+Penyelenggara Pengirim Asal Transfer Debit atau Penyelenggara Penerima Akhir Transfer Debit adalah Penyelenggara yang menerima Perintah Transfer Debit dari Penerima Akhir Transfer Debit atau pihak yang menerbitkan Perintah Transfer Debit untuk kepentingannya sendiri, kemudian memerintahkan Penyelenggara Pembayar Transfer Debit untuk membayarkan sejumlah Dana tertentu kepada Penyelenggara Penerima Akhir Transfer Debit untuk dibayarkan kepada Penerima Akhir Transfer Debit.
+25.
+Penyelenggara Pengirim Transfer Debit adalah Penyelenggara Penerima Akhir Transfer Debit dan/atau Penyelenggara Penerus Transfer Debit yang mengirimkan Perintah Transfer Debit.
+26.
+Penyelenggara Penerima Transfer Debit adalah Penyelenggara Penerima Akhir Transfer Debit, Penyelenggara Penerus Transfer Debit, dan/atau Penyelenggara Pembayar Transfer Debit yang menerima Perintah Transfer Debit, termasuk bank sentral dan Penyelenggara lain yang menyelenggarakan kegiatan penyelesaian akhir (settlement) pembayaran antar- Penyelenggara.
+27.
+Penyelenggara Penerus Transfer Debit adalah Penyelenggara Penerima Transfer Debit selain Penyelenggara Pembayar Transfer Debit yang meneruskan Perintah Transfer Debit.
+28.
+Penyelenggara Pembayar Transfer Debit adalah Penyelenggara yang melakukan pembayaran atau menyampaikan Dana hasil transfer kepada Penerima Akhir Transfer Debit.
+29.
+Hari Kerja adalah hari Penyelenggara Penerima membuka kantor untuk melaksanakan kegiatan Transfer Dana.
+Bagian Kedua
+Ruang Lingkup
+Pasal 2
+Ketentuan dalam Undang-Undang ini berlaku untuk:
+a.
+Transfer Dana antar-Penyelenggara atau intra- Penyelenggara dalam rupiah atau valuta asing yang Penyelenggara Pengirim dan Penyelenggara Penerima seluruhnya berada di wilayah Negara Kesatuan Republik Indonesia; dan/atau
+b.
+Transfer Dana antar-Penyelenggara atau intra- Penyelenggara ke luar wilayah Negara Kesatuan Republik Indonesia atau dari luar wilayah Negara Kesatuan Republik Indonesia yang melibatkan Penyelenggara di Indonesia, baik sebagai Penyelenggara Pengirim Asal, Penyelenggara Penerus, maupun Penyelenggara Penerima Akhir, sepanjang Perintah Transfer Dana telah atau masih berada di wilayah Negara Kesatuan Republik Indonesia.
+Bagian Ketiga
+Prinsip Umum
+Pasal 3
+Undang-Undang ini menganut prinsip umum sebagai berikut:
+a.
+setiap kantor Penyelenggara, baik Penyelenggara yang sama maupun Penyelenggara yang berbeda, dianggap sebagai pihak yang berbeda dalam proses Transfer Dana;
+b.
+tidak diberlakukannya prinsip berlaku surut sejak pukul 00.00 (zero hour rules);
+c.
+prinsip pembayaran atau penyelesaian pembayaran yang telah memenuhi persyaratan bersifat final (finality of payment/finality of settlement);
+d.
+diberlakukannya prinsip penyerahan terhadap pembayaran (delivery versus payment); dan
+e.
+diakuinya mekanisme netting dalam suatu Sistem Transfer Dana yang efisien.
+Pasal 4
+Ketentuan intern Penyelenggara yang berkaitan dengan pelaksanaan Transfer Dana, baik untuk keperluan Penyelenggara yang bersangkutan maupun dalam hubungannya dengan nasabah, tidak boleh bertentangan dengan Undang-Undang ini.
+Pasal 5
+(1)
+Perintah Transfer Dana yang telah memperoleh Pengaksepan berlaku sebagai perjanjian.
+(2)
+Perjanjian yang menyebabkan timbulnya Transfer Dana antara Pengirim Asal dan Penerima, perjanjian antara Pengirim Asal dan Penyelenggara Pengirim Asal, perjanjian antara Penyelenggara Pengirim Asal dan Penyelenggara Penerus atau Penyelenggara Penerima Akhir, serta perjanjian antara Penyelenggara Penerus dan Penyelenggara Penerus atau Penyelenggara Penerima Akhir masing-masing merupakan perjanjian yang terpisah dan berdiri sendiri.
+(3)
+Dalam hal perjanjian antara Pengirim Asal dan Penyelenggara Pengirim Asal, perjanjian antara Penyelenggara Pengirim Asal dan Penyelenggara Penerus atau Penyelenggara Penerima Akhir, serta perjanjian antara Penyelenggara Penerus dan Penyelenggara Penerus atau Penyelenggara Penerima Akhir dibuat secara baku, klausul dalam perjanjian tersebut tunduk pada peraturan perundang-undangan.
+(4)
+Dalam melaksanakan Perintah Transfer Dana, Penyelenggara dapat meneliti perjanjian atau melakukan verifikasi dokumen perjanjian antara Pengirim dan Penerima yang menyebabkan timbulnya Transfer Dana, kecuali ditetapkan lain oleh peraturan perundang-undangan.
+Pasal 6
+Untuk keperluan konfirmasi dalam transaksi Transfer Dana yang dilakukan secara elektronik, pemberitahuan nomor Rekening dan/atau nama Penerima dapat dikecualikan dari ketentuan rahasia Bank.
+Bagian Keempat
+Bentuk Perintah Transfer Dana
+Pasal 7
+(1)
+Perintah Transfer Dana dapat disampaikan secara tertulis atau elektronik.
+(2)
+Perintah Transfer Dana sebagaimana dimaksud pada ayat (1) dapat diberikan untuk satu kali pembayaran atau lebih.
+BAB II
+PELAKSANAAN TRANSFER DANA
+Bagian Kesatu
+Penerbitan Perintah Transfer Dana oleh Pengirim Asal
+Pasal 8
+(1)
+Perintah Transfer Dana sebagaimana dimaksud dalam Pasal 7 ayat (1) harus memuat sekurang kurangnya informasi:
+a.
+identitas Pengirim Asal;
+b.
+identitas Penerima;
+c.
+identitas Penyelenggara Penerima Akhir;
+d.
+jumlah Dana dan jenis mata uang yang ditransfer;
+e.
+tanggal Perintah Transfer Dana; dan
+f.
+informasi lain yang menurut peraturan perundang-undangan yang terkait dengan Transfer Dana wajib dicantumkan dalam Perintah Transfer Dana.
+(2)
+Identitas Pengirim Asal sebagaimana dimaksud pada ayat (1) huruf a meliputi sekurang-kurangnya nama dan nomor Rekening atau apabila Pengirim Asal tidak memiliki Rekening pada Penyelenggara Pengirim Asal, identitas tersebut meliputi sekurang-kurangnya nama dan alamat sesuai dengan ketentuan peraturan perundang-undangan.
+(3)
+Identitas Penerima sebagaimana dimaksud pada ayat (1) huruf b meliputi sekurang-kurangnya nama dan nomor Rekening atau apabila Penerima tidak memiliki Rekening pada Penyelenggara Penerima Akhir, identitas tersebut meliputi sekurang-kurangnya nama dan alamat sesuai dengan ketentuan peraturan perundang-undangan.
+(4)
+Informasi identitas Penyelenggara Penerima Akhir sebagaimana dimaksud pada ayat (1) huruf c dapat dicantumkan dalam Perintah Transfer Dana yang dananya dimaksudkan untuk diterima secara tunai oleh Penerima.
+(5)
+Informasi identitas Pengirim Asal sebagaimana dimaksud pada ayat (2) dapat diteruskan kepada Penerima jika terdapat permintaan dari Pengirim Asal kepada Penyelenggara Pengirim Asal untuk meneruskan informasi tersebut kepada Penerima.
+(6)
+Pengirim Asal dapat mencantumkan berita atau pesan dalam Perintah Transfer Dana.
+(7)
+Dalam hal Pengirim Asal mencantumkan berita atau pesan dalam Perintah Transfer Dana, Penyelenggara Pengirim Asal harus menginformasikan berita atau pesan sebagaimana dimaksud pada ayat (6) kepada Penyelenggara Penerima untuk diinformasikan kepada Penerima.
+(8)
+Tata cara Transfer Dana dari dan ke luar negeri sebagaimana dimaksud pada ayat (1) diatur dengan Peraturan Bank Indonesia.
+Pasal 9
+(1)
+Pengirim Asal wajib mengisi informasi secara lengkap sebagaimana dimaksud dalam Pasal 8 ayat (1), kecuali untuk Perintah Transfer Dana yang dananya dimaksudkan untuk diterima secara tunai oleh Penerima yang pengisiannya dilakukan sebagaimana dimaksud dalam Pasal 8 ayat (4).
+(2)
+Dalam hal Pengirim Asal tidak melaksanakan kewajiban sebagaimana dimaksud pada ayat (1), Penyelenggara Pengirim Asal berhak untuk tidak melaksanakan Perintah Transfer Dana.
+(3)
+Dalam hal Penyelenggara Pengirim Asal tidak melaksanakan Perintah Transfer Dana karena alasan sebagaimana dimaksud pada ayat (2), Penyelenggara Pengirim Asal wajib memberitahukannya kepada Pengirim Asal mengenai tidak dapat dilaksanakannya Perintah Transfer Dana beserta alasannya paling lambat pada Hari Kerja berikutnya setelah tanggal diterimanya Perintah Transfer Dana dari Pengirim Asal.
+(4)
+Jangka waktu pemberitahuan sebagaimana dimaksud pada ayat (3) dapat dikecualikan berdasarkan kesepakatan antara Penyelenggara Pengirim Asal dan Pengirim Asal.
+Pasal 10
+Pengirim Asal dapat mencantumkan Tanggal Pelaksanaan dalam Perintah Transfer Dana berdasarkan kesepakatan dengan Penyelenggara Pengirim Asal.
+Pasal 11
+Pengirim Asal berhak mendapatkan informasi dari Penyelenggara Pengirim Asal mengenai perkiraan jangka waktu pelaksanaan Transfer Dana.
+Pasal 12
+(1)
+Pengirim Asal dapat mencantumkan Tanggal Pembayaran dalam Perintah Transfer Dana sepanjang tidak ditentukan lebih awal dari tanggal diterimanya Perintah Transfer Dana oleh Penyelenggara Penerima Akhir.
+(2)
+Dalam hal Penyelenggara Pengirim Asal menyetujui pencantuman Tanggal Pembayaran sebagaimana dimaksud pada ayat (1), Penyelenggara Pengirim Asal menjamin Dana dapat dibayarkan kepada Penerima sesuai dengan Tanggal Pembayaran yang tercantum dalam Perintah Transfer Dana.
+(3)
+Dalam hal Tanggal Pembayaran Perintah Transfer Dana sebagaimana dimaksud pada ayat (1) merupakan tanggal hari libur, Tanggal Pembayaran Perintah Transfer Dana menjadi tanggal Hari Kerja berikutnya.
+Pasal 13
+Perintah Transfer Dana dianggap telah diterbitkan oleh Pengirim Asal apabila Perintah Transfer Dana telah dikirim oleh Pengirim Asal dan diterima oleh Penyelenggara Pengirim Asal.
+Bagian Kedua
+Pelaksanaan Perintah Transfer Dana oleh Penyelenggara Pengirim
+Paragraf 1
+Pelaksanaan Perintah Transfer Dana oleh Bank Pengirim Asal
+Pasal 14
+(1)
+Penyelenggara Pengirim Asal melaksanakan Perintah Transfer Dana sesuai dengan isi Perintah Transfer Dana yang diterima dari Pengirim Asal dengan memperhatikan Undang-Undang ini dan peraturan perundang-undangan lain.
+(2)
+Dalam melaksanakan Perintah Transfer Dana dari Pengirim Asal, Penyelenggara Pengirim Asal wajib memperhatikan perjanjian antara Pengirim Asal dan Penyelenggara Pengirim Asal.
+(3)
+Dalam hal Dana yang akan ditransfer berasal dari setoran tunai, Penyelenggara Pengirim Asal dapat meneliti kewenangan Pengirim Asal atas Dana yang akan ditransfer, kecuali diwajibkan dalam peraturan perundang-undangan.
+Pasal 15
+(1)
+Penyelenggara Pengirim Asal dapat melakukan Pengaksepan terhadap Perintah Transfer Dana apabila memenuhi persyaratan:
+a.
+Perintah Transfer Dana memuat informasi sebagaimana dimaksud dalam Pasal 8 ayat (1), kecuali informasi identitas Penyelenggara Penerima Akhir bagi Transfer Dana yang diserahkan secara tunai;
+b.
+tersedia Dana yang cukup dari Pengirim Asal;
+c.
+Penyelenggara Pengirim Asal telah melakukan Autentikasi; dan
+d.
+Perintah Transfer Dana telah memenuhi peraturan perundang-undangan yang terkait dengan Transfer Dana.
+(2)
+Penyelenggara Pengirim Asal hanya dapat menolak melakukan Pengaksepan Perintah Transfer Dana atas dasar alasan yang wajar.
+Pasal 16
+(1)
+Dalam hal Penyelenggara Pengirim Asal melakukan Pengaksepan, Pengaksepan tersebut wajib dilakukan dengan segera pada tanggal yang sama dengan tanggal diterimanya Perintah Transfer Dana dari Pengirim Asal.
+(2)
+Penyimpangan terhadap waktu Pengaksepan sebagaimana dimaksud pada ayat (1) hanya dapat dilakukan apabila terdapat:
+a.
+alasan yang wajar dan paling lambat dilakukan pada Hari Kerja berikutnya setelah diterimanya Perintah Transfer Dana; atau
+b.
+kesepakatan tentang waktu Pengaksepan antara Penyelenggara Pengirim Asal dan Pengirim Asal yang terekam dan/atau tercatat dalam administrasi Penyelenggara Pengirim Asal.
+Pasal 17
+(1)
+Dalam hal persyaratan Pengaksepan sebagaimana dimaksud dalam Pasal 15 ayat (1) terpenuhi, Penyelenggara Pengirim Asal dianggap telah melakukan Pengaksepan jika melakukan kegiatan sebagai berikut:
+a.
+melakukan pendebitan Rekening Pengirim Asal;
+b.
+menerbitkan Perintah Transfer Dana yang dimaksudkan untuk melaksanakan Perintah Transfer Dana yang diterima dari Pengirim Asal; atau
+c.
+menyampaikan pemberitahuan Pengaksepan kepada Pengirim Asal melalui media yang disepakati antara Pengirim Asal dan Penyelenggara Pengirim Asal.
+(2)
+Penyelenggara Pengirim Asal dianggap telah melakukan Pengaksepan apabila telah menerima Perintah Transfer Dana dan tidak memberikan penolakan dalam waktu 1 (satu) Hari Kerja berikutnya setelah tanggal Perintah Transfer Dana diterima.
+(3)
+Dalam hal Penyelenggara Pengirim Asal melakukan lebih dari satu kegiatan sebagaimana dimaksud pada ayat (1) dan ayat (2), saat Pengaksepan terhitung sejak kegiatan Pengaksepan yang dilakukan lebih dahulu.
+(4)
+Pelaksanaan pendebitan Rekening sebagaimana dimaksud pada ayat (1) huruf a wajib dilakukan pada tanggal yang sama dengan tanggal penerbitan Perintah Transfer Dana oleh Penyelenggara Pengirim Asal.
+(5)
+Apabila pelaksanaan pendebitan Rekening Pengirim Asal oleh Penyelenggara Pengirim Asal dilakukan lebih awal dari tanggal penerbitan Perintah Transfer Dana, Penyelenggara Pengirim Asal wajib membayar jasa, bunga, atau kompensasi kepada Pengirim Asal terhitung sejak tanggal pendebitan Rekening Pengirim Asal sampai dengan tanggal penerbitan Perintah Transfer Dana.
+Pasal 18
+Perintah Transfer Dana sebagaimana dimaksud dalam Pasal 17 ayat (1) huruf b telah diterbitkan apabila Perintah Transfer Dana telah dikirim oleh Penyelenggara Pengirim Asal kepada Penyelenggara Penerima dan telah diterima oleh Penyelenggara Penerima, baik secara langsung maupun melalui Sistem Transfer Dana.
+Pasal 19
+(1)
+Penyelenggara Pengirim Asal dapat menolak melakukan Pengaksepan berdasarkan alasan yang wajar dan dilakukan paling lambat pada Hari Kerja berikutnya setelah tanggal diterimanya Perintah Transfer Dana dari Pengirim Asal, kecuali diperjanjikan lain.
+(2)
+Dalam hal Penyelenggara Pengirim Asal menolak melakukan Pengaksepan sebagaimana dimaksud pada ayat (1), Penyelenggara Pengirim Asal wajib memberitahukan penolakan tersebut beserta alasannya kepada Pengirim Asal pada tanggal yang sama dengan tanggal penolakan Pengaksepan.
+(3)
+Apabila Penyelenggara Pengirim Asal tidak melaksanakan Perintah Transfer Dana setelah melakukan Pengaksepan, Penyelenggara Pengirim Asal wajib membayar jasa, bunga, atau kompensasi kepada Pengirim Asal yang dihitung sejak tanggal Pengaksepan sampai dengan tanggal pengembalian Dana.
+Pasal 20
+Penyelenggara Pengirim Asal yang telah melakukan Pengaksepan Perintah Transfer Dana bertanggung jawab kepada Pengirim Asal atas terlaksananya Perintah Transfer Dana sampai dengan Pengaksepan oleh Penyelenggara Penerima Akhir sesuai dengan ketentuan dalam Undang- Undang ini dan peraturan pelaksanaannya.
+Pasal 21
+(1)
+Penyelenggara Pengirim Asal yang telah melakukan Pengaksepan Perintah Transfer Dana tetap bertanggung jawab untuk melaksanakan Perintah Transfer Dana walaupun terjadi keadaan sebagai berikut:
+a.
+bencana alam, keadaan bahaya, huru-hara, konflik bersenjata, dan/atau keadaan darurat lain yang ditetapkan oleh pemerintah yang terjadi di daerah atau lokasi Penyelenggara Pengirim Asal yang sedang melaksanakan Perintah Transfer Dana;
+b.
+kerusakan pada sistem infrastruktur elektronik atau non elektronik yang berpengaruh langsung terhadap pelaksanaan Perintah Transfer Dana yang tidak dapat dikontrol oleh Penyelenggara Pengirim Asal;
+c.
+kegagalan sistem kliring atau Sistem Transfer Dana; atau
+d.
+hal lain yang ditetapkan oleh Bank Indonesia.
+(2)
+Dalam hal terjadi keadaan sebagaimana dimaksud pada ayat (1), Penyelenggara Pengirim Asal yang tidak melakukan Perintah Transfer Dana setelah melakukan Pengaksepan tetap berkewajiban membayar jasa, bunga, atau kompensasi kepada Pengirim Asal atas Dana yang seharusnya ditransfer.
+Pasal 22
+Dalam hal terjadi keadaan sebagaimana dimaksud dalam Pasal 21, Penyelenggara Pengirim Asal harus memberitahukan dan melakukan tindak lanjut penanganan Perintah Transfer Dana kepada Pengirim Asal.
+Pasal 23
+(1)
+Pelaksanaan Perintah Transfer Dana tidak dilanjutkan oleh Penyelenggara Pengirim Asal jika terdapat perintah, penetapan, putusan, atau keputusan dari pihak yang berwenang dari negara asal atau negara tertuju yang melarang pelaksanaan Perintah Transfer Dana.
+(2)
+Dalam hal Transfer Dana tidak dapat diselesaikan oleh Penyelenggara Pengirim Asal karena keadaan sebagaimana dimaksud pada ayat (1), Dana transfer diperlakukan sesuai dengan perintah, penetapan, putusan, atau keputusan dari pihak yang berwenang.
+Pasal 24
+Dalam hal terjadi keadaan sebagaimana dimaksud dalam Pasal 23, Penyelenggara Pengirim Asal harus memberitahukan keadaan tersebut kepada Pengirim Asal pada hari yang sama atau paling lambat pada Hari Kerja berikutnya.
+Pasal 25
+Dalam melaksanakan Perintah Transfer Dana, Penyelenggara Pengirim Asal dapat menggunakan jasa Penyelenggara Penerus.
+Pasal 26
+Dalam hal penggunaan Penyelenggara Penerus ditetapkan oleh Penyelenggara Pengirim Asal dan Penyelenggara Penerus tidak dapat melaksanakan Perintah Transfer Dana karena dibekukan kegiatan usaha atau dicabut izin usaha atau dinyatakan pailit, Penyelenggara Pengirim Asal wajib menerbitkan Perintah Transfer Dana baru atas beban Penyelenggara Pengirim Asal tanpa menunggu pengembalian Dana dari Penyelenggara Penerus yang dibekukan kegiatan usaha atau dicabut izin usaha atau dinyatakan pailit.
+Pasal 27
+Ketentuan mengenai tata cara pembayaran, penghitungan jangka waktu, dan besarnya jasa, bunga, atau kompensasi sebagaimana dimaksud dalam Pasal 17 ayat (5), Pasal 19 ayat (3), dan Pasal 21 ayat (2) serta tata cara pemberitahuan dan penanganan Perintah Transfer Dana sebagaimana dimaksud dalam Pasal 22 dan Pasal 24 diatur dalam Peraturan Bank Indonesia.
+Paragraf 2
+Pelaksanaan Perintah Transfer Dana oleh Penyelenggara Penerus
+Pasal 28
+Kecuali diatur secara khusus dalam Paragraf ini, ketentuan sebagaimana dimaksud dalam Pasal 14 sampai dengan Pasal 27 berlaku juga terhadap pelaksanaan Perintah Transfer Dana dan pelaksanaan atau penolakan Pengaksepan Perintah Transfer Dana oleh Penyelenggara Penerus dengan penyesuaian penyebutan Pengirim Asal menjadi Penyelenggara Pengirim Asal atau Penyelenggara Penerus sebelumnya.
+Pasal 29
+Penyelenggara Penerus melaksanakan Perintah Transfer Dana jika telah tersedia Dana yang cukup pada salah satu Rekening sebagai berikut:
+a.
+Rekening Penyelenggara Penerus di Penyelenggara Pengirim;
+b.
+Rekening Penyelenggara Pengirim di Penyelenggara Penerus;
+c.
+Rekening Penyelenggara Penerus di Penyelenggara lain; atau
+d.
+Rekening Penyelenggara Penerus di bank sentral.
+Pasal 30
+Dalam hal Penyelenggara Penerus menerima Perintah Transfer Dana tidak pada tanggal yang sama dengan tanggal diterimanya Dana pada Rekening sebagaimana dimaksud dalam Pasal 29, dengan memperhatikan ketentuan sebagaimana dimaksud Pasal 16 dan Pasal 17, Pengaksepan Perintah Transfer Dana dilaksanakan oleh Penyelenggara Penerus pada tanggal yang lebih akhir di antara kedua tanggal tersebut.
+Pasal 31
+Penyelenggara Penerus yang telah melakukan Pengaksepan Perintah Transfer Dana bertanggung jawab kepada Penyelenggara Pengirim sebelumnya atas terlaksananya Perintah Transfer Dana sampai dengan Pengaksepan oleh Penyelenggara Penerima Akhir sesuai dengan ketentuan dalam Undang-Undang ini dan peraturan pelaksanaannya.
+Bagian Ketiga
+Pelaksanaan Perintah Transfer Dana oleh Penyelenggara Penerima Akhir
+Pasal 32
+Kecuali diatur secara khusus dalam Bagian ini, pelaksanaan Perintah Transfer Dana dan pelaksanaan atau penolakan Pengaksepan Perintah Transfer Dana oleh Penyelenggara Penerima Akhir dilakukan sesuai dengan pelaksanaan Perintah Transfer Dana dan pelaksanaan atau penolakan Pengaksepan Perintah Transfer Dana oleh Penyelenggara Pengirim Asal sebagaimana dimaksud dalam Pasal 14 sampai dengan Pasal 27 dengan penyesuaian penyebutan Pengirim Asal menjadi Penyelenggara Pengirim Asal atau Penyelenggara Penerus.
+Pasal 33
+Penyelenggara Penerima Akhir melaksanakan perintah Transfer Dana jika telah tersedia Dana yang cukup pada salah satu Rekening sebagai berikut:
+a.
+Rekening Penyelenggara Penerima Akhir di Penyelenggara Pengirim;
+b.
+Rekening Penyelenggara Pengirim di Penyelenggara Penerima Akhir;
+c.
+Rekening Penyelenggara Penerima Akhir di Penyelenggara lain; atau
+d.
+Rekening Penyelenggara Penerima Akhir di bank sentral.
+Pasal 34
+(1)
+Dalam hal Penyelenggara Penerima Akhir menerima Perintah Transfer Dana tidak pada tanggal yang sama dengan tanggal diterimanya Dana pada Rekening sebagaimana dimaksud dalam Pasal 33, dengan memperhatikan ketentuan Pasal 16 dan Pasal 17, Pengaksepan Perintah Transfer Dana dilaksanakan oleh Penyelenggara Penerima Akhir pada tanggal yang lebih akhir di antara kedua tanggal tersebut.
+(2)
+Dalam hal Perintah Transfer Dana mencantumkan Tanggal Pembayaran dan Tanggal Pembayaran tersebut lebih akhir dari tanggal Pengaksepan, nilai Dana yang dibayarkan dihitung sesuai dengan tanggal valuta pada saat Pengaksepan.
+Pasal 35
+Penyelenggara Penerima Akhir yang telah melakukan Pengaksepan Perintah Transfer Dana bertanggung jawab kepada Penyelenggara Pengirim sebelumnya atas terlaksananya Perintah Transfer Dana untuk kepentingan Penerima sesuai dengan ketentuan dalam Undang-Undang ini dan peraturan pelaksanaannya.
+Pasal 36
+(1)
+Dalam hal Penyelenggara Penerima Akhir melakukan Pengaksepan, Pengaksepan tersebut wajib dilakukan dengan segera pada tanggal yang sama dengan tanggal diterimanya Perintah Transfer Dana dari Penyelenggara Pengirim sebelumnya.
+(2)
+Penyelenggara Penerima Akhir telah melakukan Pengaksepan Perintah Transfer Dana dari Penyelenggara Pengirim sebelumnya apabila telah melakukan kegiatan sebagai berikut:
+a.
+menyampaikan pemberitahuan Pengaksepan kepada Penyelenggara Pengirim sebelumnya;
+b.
+melakukan pendebitan Rekening Penyelenggara Pengirim sebelumnya pada Penyelenggara Penerima Akhir;
+c.
+mengalokasikan Dana untuk kepentingan Penerima;
+d.
+menerima Perintah Transfer Dana dari Penyelenggara Pengirim sebelumnya dan antara Penyelenggara Penerima Akhir dan Penyelenggara Pengirim tersebut telah terdapat perjanjian bahwa setiap Perintah Transfer Dana yang diterima dari Penyelenggara Pengirim akan dilaksanakan oleh Penyelenggara Penerima Akhir;
+e.
+mengkredit Rekening Penerima pada Penyelenggara Penerima Akhir; atau
+f.
+mengirimkan pemberitahuan kepada Penerima bahwa Penerima mempunyai hak untuk mengambil Dana hasil transfer.
+(3)
+Dalam hal Penyelenggara Penerima Akhir melakukan lebih dari satu kegiatan sebagaimana dimaksud pada ayat (2), saat Pengaksepan terhitung sejak dilakukan Pengaksepan yang lebih dahulu terjadi.
+(4)
+Penyelenggara Penerima Akhir dianggap telah melakukan Pengaksepan apabila Penyelenggara Penerima Akhir tidak melakukan salah satu kegiatan sebagaimana dimaksud pada ayat (2) pada Hari Kerja berikutnya setelah tanggal diterimanya Perintah Transfer Dana dan Dana dari Penyelenggara Pengirim sebelumnya.
+(5)
+Ketentuan sebagaimana dimaksud pada ayat (4) dapat dikecualikan jika terdapat kesepakatan antara Penyelenggara Penerima Akhir dan Penyelenggara Pengirim Asal atau Penyelenggara Penerus tentang waktu Pengaksepan yang terekam dan/atau tercatat dalam administrasi Penyelenggara Penerima Akhir.
+(6)
+Dalam hal Penyelenggara Penerima Akhir dibekukan kegiatan usaha atau dicabut izin usaha atau dinyatakan pailit sebelum melakukan salah satu kegiatan Pengaksepan sebagaimana dimaksud pada ayat (2), tetapi Perintah Transfer Dana dan dananya telah diterima oleh Penyelenggara Penerima Akhir dan tidak terdapat kekeliruan transfer dari Penyelenggara Pengirim, Penyelenggara Penerima Akhir dianggap telah melakukan Pengaksepan atas Perintah Transfer Dana.
+Pasal 37
+(1)
+Dana hasil transfer yang harus diambil secara tunai oleh Penerima, tetapi belum diambil dalam jangka waktu tertentu setelah pemberitahuan sebagaimana dimaksud dalam Pasal 36 ayat (2) huruf f, Penyelenggara Penerima Akhir memberitahukan kembali sebanyak 2 (dua) kali kepada Penerima dalam jangka waktu yang wajar.
+(2)
+Dalam hal Dana hasil transfer setelah diberitahukan sebanyak 3 (tiga) kali sebagaimana dimaksud pada ayat (1) tidak diambil oleh Penerima, Dana tersebut dikembalikan kepada Penyelenggara Pengirim Asal untuk diserahkan kembali kepada Pengirim Asal.
+(3)
+Dalam hal Pengirim Asal sebagaimana dimaksud pada ayat (2) tidak diketahui keberadaannya dalam waktu 90 (sembilan puluh) hari, Dana hasil transfer tersebut diserahkan oleh Penyelenggara Pengirim Asal kepada Balai Harta Peninggalan sesuai dengan peraturan perundang-undangan.
+Pasal 38
+(1)
+Penyelenggara Penerima Akhir dapat menolak melakukan Pengaksepan berdasarkan alasan yang wajar dan dilakukan paling lambat pada Hari Kerja berikutnya setelah tanggal diterimanya Perintah Transfer Dana dari Penyelenggara Pengirim sebelumnya, kecuali diperjanjikan lain.
+(2)
+Penolakan beserta alasan sebagaimana dimaksud pada ayat (1) diberitahukan kepada Penyelenggara Pengirim sebelumnya pada tanggal yang sama dengan tanggal penolakan Pengaksepan.
+(3)
+Pemberitahuan pada tanggal yang sama sebagaimana dimaksud pada ayat (2) tidak berlaku jika tidak terdapat informasi yang cukup mengenai identitas Penyelenggara Pengirim sebelumnya.
+(4)
+Apabila Penyelenggara Penerima Akhir tidak melaksanakan Perintah Transfer Dana setelah melakukan Pengaksepan, Penyelenggara Penerima Akhir wajib membayar jasa, bunga, atau kompensasi kepada Penyelenggara Pengirim sebelumnya untuk diteruskan kepada Pengirim Asal.
+(5)
+Kewajiban pembayaran jasa, bunga, atau kompensasi oleh Penyelenggara Penerima Akhir kepada Penyelenggara Pengirim sebelumnya sebagaimana dimaksud pada ayat (4) dikecualikan jika Penyelenggara Penerima Akhir tidak melaksanakan Perintah Transfer Dana karena perintah undang undang.
+Pasal 39
+Ketentuan mengenai tata cara Pengaksepan dan penetapan jangka waktu pengambilan sebagaimana dimaksud dalam Pasal 36 dan Pasal 37 serta tata cara pembayaran, penghitungan jangka waktu, dan besarnya jasa, bunga, atau kompensasi sebagaimana dimaksud dalam Pasal 38 ayat (4) diatur dalam Peraturan Bank Indonesia.
+Bagian Keempat
+Berakhirnya Proses Transfer Dana
+Pasal 40
+Proses Transfer Dana berakhir pada saat Dana hasil transfer diterima oleh Penerima atau Penyelenggara Penerima Akhir telah melakukan hal-hal sebagaimana dimaksud dalam Pasal 36 ayat (2).
+Bagian Kelima
+Penundaan Pelaksanaan Transfer Dana
+Pasal 41
+Dalam hal Penyelenggara Penerima telah melakukan Pengaksepan, Penyelenggara Penerima wajib segera melaksanakan Perintah Transfer Dana, kecuali Penyelenggara Penerima melakukan penundaan sesuai dengan peraturan perundang-undangan atau adanya permintaan dari pihak yang berwenang.
+BAB III
+PEMBATALAN DAN PERUBAHAN TRANSFER DANA
+Bagian Kesatu
+Pembatalan Perintah Transfer Dana oleh Pengirim
+Pasal 42
+(1)
+Pembatalan Perintah Transfer Dana oleh Pengirim hanya dapat dilakukan sepanjang permintaan pembatalan tersebut telah diterima oleh Penyelenggara Penerima dan Penyelenggara Penerima mempunyai waktu yang cukup untuk melaksanakan pembatalan dan/atau Penyelenggara Penerima Akhir belum melakukan langkah-langkah Pengaksepan sebagaimana dimaksud dalam Pasal 36 ayat (2).
+(2)
+Selain memenuhi ketentuan sebagaimana dimaksud pada ayat (1), pembatalan oleh Pengirim Asal hanya dapat dilakukan dengan alasan:
+a.
+terdapat perjanjian antara Pengirim Asal dan Penyelenggara Pengirim Asal untuk melakukan pembatalan tersebut; atau
+b.
+Penyelenggara Penerima tidak melaksanakan Perintah Transfer Dana.
+(3)
+Dalam hal Penyelenggara Penerima Akhir telah melakukan langkah-langkah Pengaksepan sebagaimana dimaksud dalam Pasal 36 ayat (2), permohonan pembatalan Perintah Transfer Dana diproses sesuai dengan ketentuan mengenai permintaan pengembalian Dana.
+(4)
+Segala biaya yang timbul sehubungan dengan pembatalan Perintah Transfer Dana sebagaimana dimaksud pada ayat (1), ayat (2), dan ayat (3) merupakan beban Pengirim yang meminta pembatalan.
+(5)
+Penyelenggara Pengirim Asal dibebaskan dari segala akibat hukum yang timbul sehubungan dengan pembatalan Perintah Transfer Dana oleh Pengirim Asal sebagaimana dimaksud pada ayat (2) huruf a.
+(6)
+Dalam hal terjadi pembatalan sebagaimana dimaksud pada ayat (2) huruf b, Penyelenggara Pengirim Asal wajib membayar jasa, bunga, atau kompensasi dan mengembalikan biaya transfer kepada Pengirim Asal.
+(7)
+Ketentuan mengenai tata cara pembayaran, penghitungan jangka waktu, dan besarnya jasa, bunga, atau kompensasi sebagaimana dimaksud pada ayat (6) diatur dalam Peraturan Bank Indonesia.
+Pasal 43
+Pembatalan atas Perintah Transfer Dana sebagaimana dimaksud dalam Pasal 42 ayat (1) dilakukan secara tertulis atau dengan sarana lain yang ditetapkan oleh Penyelenggara dengan memperhatikan prinsip kehati hatian.
+Pasal 44
+(1)
+Pembatalan sebagaimana dimaksud dalam Pasal 42 dan Pasal 43 dilakukan menurut tata cara yang berlaku dalam setiap Sistem Transfer Dana.
+(2)
+Dalam hal Sistem Transfer Dana tidak mengatur mengenai ketentuan pembatalan sebagaimana dimaksud pada ayat (1), pembatalan dilakukan dengan tata cara sesuai dengan kesepakatan antar-Penyelenggara yang terkait dalam proses pembatalan.
+Bagian Kedua
+Pembatalan Perintah Transfer Dana Berdasarkan Penetapan atau Putusan Pengadilan
+Pasal 45
+(1)
+Pembatalan Perintah Transfer Dana dapat dilakukan berdasarkan penetapan atau putusan Pengadilan.
+(2)
+Penyelenggara Penerima dibebaskan dari segala akibat hukum yang timbul sehubungan dengan pembatalan Perintah Transfer Dana berdasarkan penetapan atau putusan pengadilan sebagaimana dimaksud pada ayat (1).
+Bagian Ketiga
+Perubahan Perintah Transfer Dana oleh Penyelenggara Pengirim
+Pasal 46
+(1)
+Perubahan Perintah Transfer Dana hanya dapat dilakukan oleh Penyelenggara Pengirim jika terjadi kekeliruan yang diatur dalam BAB V Bagian Kedua dengan memperhatikan prinsip kehati-hatian.
+(2)
+Perubahan Perintah Transfer Dana sebagaimana dimaksud pada ayat (1) dilakukan oleh Penyelenggara Penerima jika Penyelenggara Penerima mempunyai waktu yang cukup untuk melaksanakan perubahan dan/atau Penyelenggara Penerima Akhir belum melakukan langkah-langkah Pengaksepan sebagaimana dimaksud dalam Pasal 36 ayat (2).
+BAB IV
+PENGEMBALIAN DANA
+Bagian Kesatu
+Pengembalian Dana dalam Keadaan Memaksa
+Pasal 47
+(1)
+Dalam hal Perintah Transfer Dana tidak terlaksana karena keadaan sebagaimana dimaksud dalam Pasal 21 ayat (1) serta Pengirim Asal meminta pembatalan Perintah Transfer Dana dan pengembalian Dana transfer dari Penyelenggara Pengirim Asal, Penyelenggara Pengirim Asal wajib mengembalikan Dana kepada Pengirim Asal.
+(2)
+Dalam hal Penyelenggara Pengirim Asal terlambat mengembalikan Dana sebagaimana dimaksud pada ayat (1), Penyelenggara Pengirim Asal wajib membayar jasa, bunga, atau kompensasi.
+Pasal 48
+Dalam hal Penyelenggara Penerus tidak dapat melaksanakan Perintah Transfer Dana, pengembalian Dana sebagaimana dimaksud dalam Pasal 47 dilakukan dengan ketentuan sebagai berikut:
+a.
+jika penggunaan Penyelenggara Penerus terbukti ditentukan oleh Pengirim Asal, Penyelenggara Pengirim Asal wajib mengembalikan Dana kepada Pengirim Asal setelah memperoleh pengembalian Dana dari Penyelenggara Penerus; atau
+b.
+jika penggunaan Penyelenggara Penerus terbukti ditentukan oleh Penyelenggara Pengirim Asal, Penyelenggara Pengirim Asal wajib mengembalikan Dana kepada Pengirim Asal tanpa menunggu pengembalian Dana dari Penyelenggara Penerus.
+Pasal 49
+Ketentuan mengenai tata cara pembayaran, penghitungan jangka waktu, dan besarnya jasa, bunga, atau kompensasi sebagaimana dimaksud dalam Pasal 47 ayat (2) serta tata cara pengembalian Dana sebagaimana dimaksud dalam Pasal 48 diatur dalam Peraturan Bank Indonesia.
+Bagian Kedua
+Pengembalian Dana oleh Penyelenggara yang Dibekukan Kegiatan Usaha atau Dicabut Izin Usaha atau Dinyatakan Pailit
+Pasal 50
+Dalam hal Penyelenggara Pengirim dibekukan kegiatan usaha atau dicabut izin usaha atau dinyatakan pailit, Perintah Transfer Dana wajib diselesaikan apabila Perintah Transfer Dana tersebut:
+a.
+telah dilaksanakan oleh Penyelenggara Pengirim mulai pukul 00.00 sampai dengan saat dilakukan penutupan sistem operasional Penyelenggara Pengirim yang dibekukan kegiatan usaha atau dicabut izin usaha;
+b.
+telah dilaksanakan oleh Penyelenggara Pengirim mulai pukul 00.00 sampai dengan saat diucapkan putusan pernyataan pailit Penyelenggara Pengirim; atau
+c.
+telah diterima oleh penyelenggara Sistem Transfer Dana tertentu.
+Pasal 51
+(1)
+Dalam hal Penyelenggara dibekukan kegiatan usaha atau dicabut izin usaha atau dinyatakan pailit, Dana yang sedang dalam proses Transfer Dana wajib dikembalikan kepada:
+a.
+Pengirim Asal, jika yang dibekukan kegiatan usaha atau dicabut izin usaha atau dinyatakan pailit merupakan Penyelenggara Pengirim Asal dan Perintah Transfer Dana belum dilaksanakan; atau
+b.
+Pengirim Asal, Penyelenggara Pengirim Asal, atau Penyelenggara Penerus sebelumnya, jika yang dibekukan kegiatan usaha atau dicabut izin usaha atau dinyatakan pailit merupakan Penyelenggara Penerus dan Perintah Transfer Dana belum dilaksanakan.
+(2)
+Pelaksanaan pengembalian Dana sebagaimana dimaksud pada ayat (1) huruf b dilakukan sesuai dengan ketentuan mengenai pengembalian Dana dengan tidak mengurangi ketentuan mengenai kewajiban Penyelenggara Pengirim untuk mengirim Perintah Transfer Dana baru atas beban sendiri.
+(3)
+Dalam hal Penyelenggara yang dibekukan kegiatan usaha atau dicabut izin usaha atau dinyatakan pailit merupakan Penyelenggara Penerima Akhir, hak atas Dana yang telah diterima oleh Penyelenggara Penerima Akhir diatur sebagai berikut:
+a.
+merupakan hak Penerima jika tidak terdapat kekeliruan dalam pengiriman Perintah Transfer Dana; atau
+b.
+merupakan hak Pengirim yang pertama kali melakukan kekeliruan.
+(4)
+Mekanisme pengembalian Dana sebagaimana dimaksud pada ayat (1), ayat (2), dan ayat (3) dilakukan sesuai dengan ketentuan peraturan perundang-undangan mengenai pembekuan kegiatan usaha, pencabutan izin usaha, atau kepailitan.
+Pasal 52
+Ketentuan mengenai kewajiban penyelesaian Perintah Transfer Dana sebagaimana dimaksud dalam Pasal 50 dan kriteria Perintah Transfer Dana yang belum dilaksanakan sebagaimana dimaksud dalam Pasal 51 ayat (1) diatur dalam Peraturan Bank Indonesia.
+Bagian Ketiga
+Pengembalian Dana Berdasarkan Penetapan atau Putusan Pengadilan
+Pasal 53
+(1)
+Dalam hal terjadi pembatalan Perintah Transfer Dana berdasarkan penetapan atau putusan Pengadilan sebagaimana dimaksud dalam Pasal 45 ayat (1), Penyelenggara Penerima Akhir wajib menahan atau menarik kembali Dana hasil transfer sepanjang masih terdapat Dana dalam Rekening Penerima atau Dana tersebut belum dibayarkan secara tunai kepada Penerima.
+(2)
+Dana yang ditahan atau ditarik kembali oleh Penyelenggara Penerima Akhir sebagaimana dimaksud pada ayat (1) dikembalikan kepada pihak yang berhak sesuai dengan penetapan atau putusan Pengadilan.
+BAB V
+KETERLAMBATAN DAN KEKELIRUAN TRANSFER DANA SERTA TANGGUNG JAWAB PENYELENGGARA PENERIMA
+Bagian Kesatu
+Keterlambatan Transfer Dana
+Pasal 54
+(1)
+Setiap Penyelenggara yang terlambat melaksanakan Perintah Transfer Dana bertanggung jawab dengan membayar jasa, bunga, atau kompensasi atas keterlambatan tersebut kepada Penerima.
+(2)
+Ketentuan mengenai tata cara pembayaran, penghitungan jangka waktu, dan besarnya jasa, bunga, atau kompensasi sebagaimana dimaksud pada ayat (1) diatur dalam Peraturan Bank Indonesia.
+Pasal 55
+Dalam hal keterlambatan pelaksanaan Perintah Transfer Dana disebabkan oleh keterlambatan Penyelenggara Penerus atau Penyelenggara Penerima Akhir, kewajiban pembayaran jasa, bunga, atau kompensasi keterlambatan kepada Penerima sebagaimana dimaksud dalam Pasal 54 ayat (1) tetap merupakan kewajiban Penyelenggara Pengirim Asal dengan tidak mengurangi haknya untuk mengajukan penggantian kepada Penyelenggara Penerus atau Penyelenggara Penerima Akhir yang melakukan keterlambatan dalam meneruskan Perintah Transfer Dana.
+Bagian Kedua
+Kekeliruan dalam Pelaksanaan Transfer Dana
+Pasal 56
+(1)
+Dalam hal Penyelenggara Pengirim melakukan kekeliruan dalam pelaksanaan Transfer Dana, Penyelenggara Pengirim harus segera memperbaiki kekeliruan tersebut dengan melakukan pembatalan atau perubahan.
+(2)
+Penyelenggara Pengirim yang terlambat melakukan perbaikan atas kekeliruan sebagaimana dimaksud pada ayat (1) wajib membayar jasa, bunga, atau kompensasi kepada Penerima.
+Pasal 57
+(1)
+Dalam hal Penyelenggara Penerima Akhir melakukan kekeliruan Pengaksepan Perintah Transfer Dana sehingga Pengaksepan dilakukan untuk kepentingan penerima yang tidak berhak, Penyelenggara Penerima Akhir wajib melakukan koreksi atas kekeliruan Pengaksepan dan melakukan tindakan Pengaksepan untuk kepentingan Penerima yang berhak.
+(2)
+Penyelenggara Penerima Akhir yang terlambat melakukan perbaikan atas kekeliruan Pengaksepan sebagaimana dimaksud pada ayat (1) wajib membayar jasa, bunga, atau kompensasi kepada Penerima.
+Pasal 58
+Ketentuan mengenai jenis kekeliruan, tata cara untuk memperbaiki kekeliruan, serta tata cara penghitungan dan pembayaran jasa, bunga, atau kompensasi sebagaimana dimaksud dalam Pasal 56 dan Pasal 57 diatur dalam Peraturan Bank Indonesia.
+Bagian Ketiga
+Tanggung Jawab Penyelenggara Penerima Dalam Membantu Pelaksanaan Transfer Dana
+Pasal 59
+Penyelenggara Penerima bertanggung jawab membantu Pengirim Asal dan setiap Penyelenggara Pengirim sebelumnya atau Penyelenggara Penerus mengenai penyelesaian pelaksanaan Perintah Transfer Dana sampai dengan selesainya pelaksanaan Transfer Dana, termasuk jika terjadi pembatalan atau koreksi Perintah Transfer Dana.
+BAB VI
+PELAKSANAAN TRANSFER DEBIT
+Pasal 60
+Transfer debit merupakan rangkaian 2 (dua) kegiatan yang tidak terpisahkan, yang meliputi:
+a.
+permintaan pembayaran, yaitu kegiatan Penyelenggara Pengirim Transfer Debit, baik untuk kepentingannya sendiri maupun atas permintaan Pengirim Transfer Debit dengan menggunakan sarana transfer debit yang diterbitkan sendiri atau dengan menggunakan sarana transfer debit tertentu yang diterbitkan oleh Penyelenggara Pembayar Transfer Debit, untuk menagih Penyelenggara Pembayar Transfer Debit dan melakukan Transfer Dana atas beban Penyelenggara Pembayar Transfer Debit sendiri atau atas perintah dan beban Pembayar Transfer Debit; dan
+b.
+pelaksanaan pembayaran, yaitu kegiatan Penyelenggara Pembayar Transfer Debit, baik atas beban dirinya sendiri maupun atas perintah dan beban Pembayar Transfer Debit melaksanakan Transfer Dana kepada Penyelenggara Penerima Akhir Transfer Debit, untuk kepentingan Penyelenggara Penerima Akhir Transfer Debit sendiri atau untuk diteruskan kepada Penerima Akhir Transfer Debit.
+Pasal 61
+Sarana transfer debit sebagaimana dimaksud dalam Pasal 60 berfungsi sebagai Perintah Transfer Debit.
+Pasal 62
+(1)
+Penyelenggara Pengirim Asal Transfer Debit hanya dapat melakukan Pengaksepan terhadap Perintah Transfer Debit jika seluruh persyaratan sebagai berikut telah terpenuhi:
+a.
+Perintah Transfer Debit memuat informasi sebagaimana dimaksud dalam Pasal 8, kecuali informasi mengenai identitas Pengirim Asal Transfer Debit;
+b.
+Penyelenggara Pengirim Asal Transfer Debit telah melakukan Autentikasi jika diperlukan;
+c.
+Perintah Transfer Debit telah memenuhi ketentuan internal yang berlaku pada Penyelenggara Pengirim Asal Transfer Debit; dan
+d.
+Perintah Transfer Debit telah memenuhi ketentuan peraturan perundang-undangan lain yang terkait dengan Transfer Dana.
+(2)
+Penyelenggara Pengirim Asal Transfer Debit telah melakukan Pengaksepan Perintah Transfer Debit dari Pengirim Asal Transfer Debit jika telah melakukan salah satu kegiatan sebagai berikut:
+a.
+menerbitkan sarana Perintah Transfer Debit untuk kepentingan Pengirim Asal Transfer Debit;
+b.
+meneruskan sarana transfer debit tertentu kepada Penyelenggara Pembayar Transfer Debit; atau
+c.
+menyampaikan pemberitahuan Pengaksepan kepada Pengirim Asal Transfer Debit melalui media yang disepakati Pengirim Asal Transfer Debit.
+(3)
+Pengaksepan bagi Penyelenggara Pengirim Asal Transfer Debit dalam Bab ini dilakukan sesuai dengan ketentuan Pasal 17 sampai dengan Pasal 20.
+(4)
+Dalam hal pelaksanaan transfer debit didasarkan pada perintah dari Pengirim Asal Transfer Debit untuk melakukan pendebitan langsung atas Rekening Pembayar Transfer Debit, Pengaksepan oleh Penyelenggara Pengirim Asal Transfer Debit hanya dilakukan jika terdapat kesepakatan tertulis di antara pihak terkait dalam pelaksanaan transfer debit.
+Pasal 63
+(1)
+Penyelenggara Pembayar Transfer Debit hanya dapat melakukan Pengaksepan terhadap Perintah Transfer Debit jika seluruh persyaratan sebagai berikut telah terpenuhi:
+a.
+Perintah Transfer Debit memuat informasi sebagaimana dimaksud dalam Pasal 8, kecuali informasi mengenai identitas Pengirim Asal Transfer Debit;
+b.
+Penyelenggara Pembayar Transfer Debit telah melakukan Autentikasi jika diperlukan;
+c.
+Perintah Transfer Debit memenuhi ketentuan internal yang berlaku pada Penyelenggara Pembayar Transfer Debit;
+d.
+Perintah Transfer Debit telah memenuhi peraturan perundang-undangan lain yang terkait dengan Transfer Dana; dan
+e.
+dalam hal pelaksanaan transfer debit didasarkan pada perintah dari Penerima Akhir Transfer Debit untuk mendebit Rekening Penyelenggara Pembayar Transfer Debit atau Rekening Pembayar Transfer Debit, Pengaksepan oleh Penyelenggara Pembayar Transfer Debit hanya dilakukan jika Perintah Transfer Debit sesuai dengan kesepakatan tertulis di antara para pihak.
+(2)
+Penyelenggara Pembayar Transfer Debit dianggap telah melakukan Pengaksepan jika telah melakukan pendebitan Rekening Pembayar Transfer Debit.
+(3)
+Dalam hal Penyelenggara Pembayar Transfer Debit melakukan Pengaksepan, Penyelenggara Pembayar Transfer Debit wajib membayarkan Dana kepada Penyelenggara Pengirim Asal Transfer Debit sesuai dengan Perintah Transfer Debit yang diterimanya dari Penyelenggara Pengirim Asal Transfer Debit pada tanggal yang sama dengan tanggal pendebitan Rekening Pembayar Transfer Debit.
+(4)
+Penyimpangan terhadap waktu Pengaksepan sebagaimana dimaksud pada ayat (1) hanya dapat dilakukan jika terdapat alasan dan jangka waktu yang wajar.
+Pasal 64
+(1)
+Dalam hal Penyelenggara Penerima Akhir Transfer Debit menerima Perintah Transfer Debit dari Pengirim Asal Transfer Debit yang memuat permintaan pendebitan:
+a.
+lebih dari satu Pembayar Transfer Debit untuk untung satu Rekening Pengirim Asal Transfer Debit; dan/atau
+b.
+satu Pembayar Transfer Debit untuk untung lebih dari satu Rekening Pengirim Asal Transfer Debit yang sama, setiap permintaan pendebitan tersebut dianggap sebagai satu Perintah Transfer Debit.
+(2)
+Dalam hal terdapat perbedaan antara jumlah nominal yang tercantum dalam Perintah Transfer Debit yang diserahkan oleh Penyelenggara Pengirim Asal Transfer Debit dan jumlah nominal yang dibayar oleh Penyelenggara Pembayar Transfer Debit, Penyelenggara Pengirim Asal Transfer Debit wajib menolak dan mengembalikan Dana kepada Penyelenggara Pembayar Transfer Debit.
+(3)
+Penyimpangan terhadap kewajiban pengembalian Dana dan pemberitahuan penolakan sebagaimana dimaksud pada ayat (2) hanya dapat dilakukan berdasarkan alasan yang wajar dan jangka waktu yang ditentukan.
+(4)
+Dalam hal Penyelenggara Penerima Akhir Transfer Debit menolak dan mengembalikan Dana sebagaimana dimaksud pada ayat (2), Penyelenggara Pembayar Transfer Debit wajib menyampaikan kembali Dana kepada Penyelenggara Penerima Akhir Transfer Debit sesuai dengan jumlah yang tercantum dalam Perintah Transfer Debit.
+(5)
+Penyimpangan terhadap kewajiban menyampaikan kembali Dana sebagaimana dimaksud pada ayat (4) hanya dilakukan berdasarkan alasan yang wajar dan dalam jangka waktu yang ditentukan.
+(6)
+Dalam hal terjadi kekeliruan penyampaian Dana yang jumlahnya tidak sesuai dengan Perintah Transfer Debit, Penyelenggara Pembayar Transfer Debit membayar jasa, bunga, atau kompensasi.
+(7)
+Ketentuan mengenai jangka waktu, tata cara perhitungan, dan pengenaan besarnya jasa, bunga, atau kompensasi sebagaimana dimaksud pada ayat (6) diatur dalam Peraturan Bank Indonesia.
+Pasal 65
+(1)
+Dalam hal terdapat perbedaan antara jumlah uang yang ditulis dalam huruf dan yang ditulis dalam angka pada Perintah Transfer Debit:
+a.
+Penyelenggara Penerima Transfer Debit dapat menolak untuk melakukan Pengaksepan Perintah Transfer Debit; atau
+b.
+Penyelenggara Penerima Transfer Debit dapat melakukan Pengaksepan dengan ketentuan:
+1.
+jumlah uang yang berlaku sesuai dengan yang tertulis dalam huruf; dan
+2.
+jika jumlah uang yang dicantumkan dalam huruf dan/atau angka ditulis berulang-ulang, dalam hal terdapat perbedaan, berlaku jumlah uang yang terkecil.
+(2)
+Dalam hal Penyelenggara Penerima Transfer Debit menolak melakukan Pengaksepan Perintah Transfer Debit sebagaimana dimaksud pada ayat (1) huruf a, Penyelenggara Penerima Transfer Debit wajib mengembalikan Perintah Transfer Debit sesegera mungkin dan paling lambat 3 (tiga) Hari Kerja kepada Pengirim Transfer Debit disertai dengan alasan penolakan.
+Pasal 66
+Kegiatan pelaksanaan pembayaran dalam transfer debit sebagaimana dimaksud dalam Pasal 60 huruf b dilaksanakan sesuai dengan ketentuan Transfer Dana, kecuali ditentukan lain dalam Bab ini, dengan penyesuaian penyebutan sebagai berikut:
+a.
+Pengirim Asal menjadi Pembayar Transfer Debit;
+b.
+Penyelenggara Pengirim Asal menjadi Penyelenggara Pembayar Transfer Debit;
+c.
+Penyelenggara Penerima Akhir menjadi Penyelenggara Pengirim Asal Transfer Debit; dan
+d.
+Penerima menjadi Pengirim Asal Transfer Debit.
+Pasal 67
+Dalam hal terdapat ketentuan peraturan perundang-undangan yang mengatur mengenai sarana transfer debit yang digunakan sebagai Perintah Transfer Debit, penggunaan sarana transfer debit tersebut tunduk pada setiap ketentuan tersebut sepanjang tidak bertentangan dengan Undang- Undang ini.
+BAB VII
+BIAYA TRANSFER DANA
+Pasal 68
+(1)
+Setiap Penyelenggara Penerima berhak mengenakan biaya Transfer Dana.
+(2)
+Penyelenggara Pengirim Asal wajib memberikan informasi mengenai besarnya biaya Transfer Dana sebagaimana dimaksud pada ayat (1) kepada Pengirim Asal.
+(3)
+Ketentuan mengenai tata cara pengenaan biaya dan kewajiban pemberian informasi sebagaimana dimaksud pada ayat (1) dan ayat (2) diatur dalam Peraturan Bank Indonesia.
+BAB VIII
+PERIZINAN PENYELENGGARA TRANSFER DANA
+Pasal 69
+(1)
+Badan usaha bukan Bank yang melakukan kegiatan penyelenggaraan Transfer Dana wajib berbadan hukum Indonesia dan memperoleh izin dari Bank Indonesia.
+(2)
+Syarat dan tata cara perizinan Penyelenggara Transfer Dana sebagaimana dimaksud pada ayat (1) diatur dalam Peraturan Bank Indonesia.
+Pasal 70
+Badan Usaha bukan Bank yang melakukan kegiatan penyelenggaraan Transfer Dana sebagaimana dimaksud dalam Pasal 69 tunduk pada ketentuan dalam Undang-Undang ini.
+BAB IX
+PENGATURAN KOMPENSASI BERDASARKAN PRINSIP SYARIAH
+Pasal 71
+(1)
+Segala kewajiban yang berkaitan dengan pembayaran jasa dan bunga yang diatur dalam Undang Undang ini bagi kegiatan Transfer Dana yang dilakukan oleh Penyelenggara yang melakukan kegiatan usaha berdasarkan prinsip syariah berlaku ketentuan kompensasi berdasarkan prinsip syariah.
+(2)
+Ketentuan lebih lanjut mengenai kompensasi sebagaimana dimaksud pada ayat (1) diatur dalam Peraturan Bank Indonesia.
+BAB X
+PEMANTAUAN
+Pasal 72
+(1)
+Pemantauan terhadap penyelenggaraan Transfer Dana oleh Penyelenggara dilakukan oleh Bank Indonesia.
+(2)
+Dalam melakukan kegiatan pemantauan sebagaimana dimaksud pada ayat (1), Bank Indonesia berkoordinasi dengan otoritas pengawas terkait.
+(3)
+Pemantauan oleh Bank Indonesia sebagaimana dimaksud pada ayat (1) merupakan pemantauan langsung dan/atau pemantauan tidak langsung.
+(4)
+Pemantauan langsung sebagaimana dimaksud pada ayat (3) dilakukan oleh Bank Indonesia melalui pemeriksaan berkala dan/atau setiap waktu apabila diperlukan.
+(5)
+Pemantauan tidak langsung sebagaimana dimaksud pada ayat (3) dilakukan melalui penelitian terhadap laporan, keterangan, dan penjelasan penyelenggaraan Transfer Dana.
+(6)
+Bank Indonesia dapat menugasi pihak lain untuk dan atas nama Bank Indonesia dalam melaksanakan pemantauan sebagaimana dimaksud pada ayat (3).
+(7)
+Pihak lain yang melaksanakan pemantauan sebagaimana dimaksud pada ayat (6) wajib merahasiakan keterangan dan data yang diperoleh dalam pemantauan.
+Pasal 73
+Penyelenggara wajib menyampaikan laporan, keterangan, dan penjelasan penyelenggaraan Transfer Dana kepada Bank Indonesia.
+Pasal 74
+Dalam hal Penyelenggara tidak memenuhi kewajiban dalam rangka pemantauan sebagaimana dimaksud dalam Pasal 72, dan/atau penyampaian laporan, keterangan, dan penjelasan sebagaimana dimaksud Pasal 73, Bank Indonesia berwenang mengenakan sanksi administratif berupa:
+a.
+teguran tertulis;
+b.
+denda administratif;
+c.
+pembekuan sementara kegiatan usaha Transfer Dana; atau
+d.
+pencabutan izin kegiatan usaha Transfer Dana.
+Pasal 75
+Ketentuan mengenai ruang lingkup dan tata cara pemantauan sebagaimana dimaksud dalam Pasal 72, tata cara penyampaian laporan, keterangan, dan penjelasan penyelenggaraan Transfer Dana sebagaimana dimaksud dalam Pasal 73, serta tata cara pengenaan sanksi administratif sebagaimana dimaksud dalam Pasal 74 diatur dalam Peraturan Bank Indonesia.
+BAB XI
+ALAT BUKTI DAN BEBAN PEMBUKTIAN
+Pasal 76
+(1)
+Informasi elektronik, dokumen elektronik, dan/atau hasil cetaknya dalam kegiatan Transfer Dana merupakan alat bukti hukum yang sah.
+(2)
+Informasi elektronik, dokumen elektronik, dan/atau hasil cetaknya sebagaimana dimaksud pada ayat (1) merupakan perluasan dari alat bukti yang sah sesuai dengan hukum acara yang berlaku.
+Pasal 77
+Tanda tangan elektronik dalam kegiatan Transfer Dana memiliki kekuatan hukum yang sah.
+Pasal 78
+Dalam hal terjadi keterlambatan atau kesalahan Transfer Dana yang menimbulkan kerugian pada Pengirim Asal atau Penerima, Penyelenggara dan/atau pihak lain yang mengendalikan Sistem Transfer Dana dibebani kewajiban untuk membuktikan ada atau tidaknya keterlambatan atau kesalahan Transfer Dana tersebut.
+BAB XII
+KETENTUAN PIDANA
+Pasal 79
+(1)
+Setiap orang yang melakukan kegiatan penyelenggaraan Transfer Dana tanpa izin sebagaimana dimaksud dalam Pasal 69 ayat (1) dipidana dengan pidana penjara paling lama 3 (tiga) tahun atau denda paling banyak Rp3.000.000.000,00 (tiga miliar rupiah).
+(2)
+Selain sanksi pidana sebagaimana dimaksud pada ayat (1), setiap orang yang melakukan kegiatan penyelenggaraan Transfer Dana tanpa izin wajib menghentikan seluruh kegiatan penyelenggaraan Transfer Dananya.
+Pasal 80
+(1)
+Setiap orang yang secara melawan hukum membuat atau menyimpan sarana Perintah Transfer Dana dengan maksud untuk menggunakannya atau menyuruh orang lain untuk menggunakannya dipidana dengan pidana penjara paling lama 2 (dua) tahun atau denda paling banyak Rp2.000.000.000,00 (dua miliar rupiah).
+(2)
+Setiap orang yang menggunakan dan/atau menyerahkan sarana Perintah Transfer Dana sebagaimana dimaksud pada ayat (1) dipidana dengan pidana penjara paling lama 4 (empat) tahun atau denda paling banyak Rp4.000.000.000,00 (empat miliar rupiah).
+Pasal 81
+Setiap orang yang secara melawan hukum mengambil atau memindahkan sebagian atau seluruh Dana milik orang lain melalui Perintah Transfer Dana palsu dipidana dengan pidana penjara paling lama 5 (lima) tahun atau denda paling banyak Rp5.000.000.000,00 (lima miliar rupiah).
+Pasal 82
+Penerima yang dengan sengaja menerima atau menampung, baik untuk diri sendiri maupun untuk orang lain, suatu Dana yang diketahui atau patut diduga berasal dari Perintah Transfer Dana yang dibuat secara melawan hukum dipidana dengan pidana penjara paling lama 4 (empat) tahun dan/atau denda paling banyak Rp1.000.000.000,00 (satu miliar rupiah).
+Pasal 83
+(1)
+Setiap orang yang secara melawan hukum mengubah, menghilangkan, atau menghapus sebagian atau seluruh informasi yang tercantum dalam Perintah Transfer Dana dengan maksud menguntungkan diri sendiri atau orang lain dipidana dengan pidana penjara paling lama 2 (dua) tahun atau denda paling banyak Rp1.000.000.000,00 (satu miliar rupiah).
+(2)
+Dalam hal tindak pidana sebagaimana dimaksud pada ayat (1) mengakibatkan kerugian Pengirim dan/atau Penerima yang berhak dan/atau pihak lain, pelaku dipidana dengan pidana penjara paling lama 4 (empat) tahun atau denda paling banyak Rp2.000.000.000,00 (dua miliar rupiah).
+Pasal 84
+Setiap orang yang secara melawan hukum merusak Sistem Transfer Dana dipidana dengan pidana penjara paling lama 20 (dua puluh) tahun dan denda paling banyak Rp20.000.000.000,00 (dua puluh miliar rupiah).
+Pasal 85
+Setiap orang yang dengan sengaja menguasai dan mengakui sebagai miliknya Dana hasil transfer yang diketahui atau patut diketahui bukan haknya dipidana dengan pidana penjara paling lama 5 (lima) tahun atau denda paling banyak Rp5.000.000.000,00 (lima miliar rupiah).
+Pasal 86
+Dalam hal tindak pidana sebagaimana dimaksud dalam Pasal 80, Pasal 81, atau Pasal 83 dilakukan oleh pengurus, pejabat, dan/atau pegawai Penyelenggara, dipidana dengan pidana pokok maksimum ditambah 1/3 (satu pertiga).
+Pasal 87
+(1)
+Jika tindak pidana sebagaimana dimaksud dalam Pasal 80 sampai dengan Pasal 85 dilakukan oleh korporasi, pertanggungjawaban pidana dikenakan terhadap korporasi dan/atau pengurusnya.
+(2)
+Korporasi dikenai pertanggungjawaban secara pidana terhadap suatu perbuatan yang dilakukan untuk dan/atau atas nama korporasi jika perbuatan tersebut termasuk dalam lingkup usahanya sebagaimana ditentukan dalam anggaran dasar atau ketentuan lain yang berlaku bagi korporasi yang bersangkutan.
+(3)
+Pidana dijatuhkan terhadap korporasi jika tindak pidana:
+a.
+dilakukan atau diperintahkan oleh personel pengendali korporasi;
+b.
+dilakukan dalam rangka pemenuhan maksud dan tujuan korporasi;
+c.
+dilakukan sesuai dengan tugas dan fungsi pelaku atau pemberi perintah; dan
+d.
+dilakukan dengan maksud memberikan manfaat bagi korporasi.
+(4)
+Pidana pokok yang dijatuhkan terhadap korporasi adalah pidana denda maksimum ditambah 2/3 (dua pertiga).
+Pasal 88
+Di samping pidana pokok, tindak pidana sebagaimana dimaksud dalam Pasal 80 ayat (2), Pasal 81, Pasal 83 ayat (2), atau Pasal 85 juga dapat dikenai kewajiban pengembalian Dana hasil tindak pidana beserta jasa, bunga, atau kompensasi kepada pihak yang dirugikan.
+BAB XIII
+KETENTUAN PERALIHAN
+Pasal 89
+Pada saat Undang-Undang ini mulai berlaku:
+a.
+orang perseorangan atau badan usaha bukan badan hukum yang telah memperoleh izin dari Bank Indonesia sebagai penyelenggara Transfer Dana wajib berbadan hukum Indonesia dalam waktu paling lambat 2 (dua) tahun;
+b.
+badan usaha yang telah melakukan penyelenggaraan Transfer Dana dan telah memperoleh izin dari institusi lain di luar Bank Indonesia izinnya tetap berlaku dan diakui sebagai Penyelenggara setelah melaporkan kegiatannya kepada Bank Indonesia dalam waktu paling lambat 6 (enam) bulan; dan
+c.
+badan usaha yang telah melaporkan kegiatannya kepada Bank Indonesia sebagaimana dimaksud dalam huruf b wajib menyesuaikan kegiatannya sesuai dengan Undang- Undang ini dalam waktu paling lambat 1 (satu) tahun.
+BAB XIV
+KETENTUAN PENUTUP
+Pasal 90
+Dengan berlakunya Undang-Undang ini, ketentuan mengenai Transfer Dana yang diatur dalam peraturan perundang-undangan lain dinyatakan tetap berlaku sepanjang tidak bertentangan dengan Undang-Undang ini.
+Pasal 91
+Undang-Undang ini mulai berlaku pada tanggal diundangkan.
+Agar setiap orang mengetahuinya, memerintahkan pengundangan Undang-Undang ini dengan penempatannya dalam Lembaran Negara Republik Indonesia.
+Disahkan Di Jakarta,
+Pada Tanggal 23 Maret 2011
+PRESIDEN REPUBLIK INDONESIA,
+Ttd.
+DR. H. SUSILO BAMBANG YUDHOYONO
+Diundangkan Di Jakarta,
+Pada Tanggal 23 Maret 2011
+MENTERI HUKUM DAN HAK ASASI MANUSIA REPUBLIK INDONESIA,
+Ttd.
+PATRIALIS AKBAR
+LEMBARAN NEGARA REPUBLIK INDONESIA TAHUN 2011 NOMOR 39
+PENJELASAN
+UNDANG-UNDANG REPUBLIK INDONESIA
+NOMOR 3 TAHUN 2011
+TENTANG
+TRANSFER DANA
+I. UMUM
+Meningkatnya kegiatan perekonomian nasional merupakan salah satu faktor utama dalam upaya meningkatkan kepercayaan masyarakat terhadap iklim usaha di Indonesia. Meningkatnya kepercayaan masyarakat tersebut antara lain tercermin dari arus transaksi perpindahan Dana yang terus menunjukkan peningkatan tidak saja dari sisi jumlah transaksi, tetapi juga dari sisi nilai nominal transaksinya. Selain faktor kelancaran dan kenyamanan dalam pelaksanaan Transfer Dana, faktor kepastian dan pelindungan hukum bagi para pihak terkait juga merupakan faktor utama dalam Transfer Dana. Untuk mewujudkan upaya tersebut dan dalam rangka mencapai tujuan akhir untuk menjaga keamanan dan kelancaran sistem pembayaran, perlu adanya peraturan yang komprehensif tentang kegiatan Transfer Dana. Belum adanya peraturan yang komprehensif dalam bentuk undang-undang yang mengatur kegiatan Transfer Dana mengakibatkan permasalahan yang timbul dalam kegiatan Transfer Dana pada saat ini terkendala dalam penyelesaiannya. Di sisi lain, perkembangan perekonomian internasional sudah semakin terintegrasi dengan pasar keuangan global. Pergerakan Dana secara lintas batas (cross border) telah menjadi kebutuhan para pelaku ekonomi dunia dan menuntut adanya pemanfaatan yang optimal atas kondisi tersebut dari pemerintah dan otoritas yang berwenang sebagai salah satu upaya dalam memajukan perekonomian nasional. Sebagai suatu transaksi yang bersifat universal, kegiatan Transfer Dana semakin melibatkan banyak pihak, baik pihak dalam negeri maupun luar negeri. Pihak luar negeri sebagai mitra pelaku usaha dalam negeri perlu mendapat keyakinan terkait dengan kelancaran dan keamanan pelaksanaan Transfer Dana di Indonesia. Jaminan tersedianya peraturan perundang-undangan yang memadai tentang kegiatan Transfer Dana sangat diperlukan tidak hanya untuk pihak di dalam negeri, tetapi juga di luar negeri.
+Jika melihat kompleksitas permasalahan dan luasnya materi yang diatur, pengaturan kegiatan Transfer Dana tidak cukup hanya dituangkan dalam ketentuan yang lebih rendah dari undang-undang. Selain itu, pengaturan tentang alat bukti dan aspek pemidanaan dalam kegiatan Transfer Dana menuntut kepastian agar hal tersebut dapat diterapkan secara tegas oleh seluruh pihak dan otoritas terkait, baik dalam penyelesaian perselisihan maupun tindak pidana dalam kegiatan Transfer Dana.
+Sebagai salah satu upaya untuk memberikan kepastian dalam pelaksanaan Transfer Dana, dalam Undang-Undang ini diatur beberapa prinsip pengaturan, seperti pengecualian terhadap prinsip berlaku surut sejak pukul 00.00 (zero hour rules), prinsip pembayaran atau penyelesaian pembayaran yang telah memenuhi persyaratan bersifat final (finality of payment/finality of settlement), dan prinsip penyerahan terhadap pembayaran (delivery versus payment). Dengan tidak dianutnya prinsip zero hour rules, Transfer Dana yang telah dilaksanakan setelah pukul 00.00 pada hari itu sampai dengan saat ditutupnya sistem operasional Penyelenggara yang berupa Bank atau diucapkannya putusan pailit Penyelenggara berupa badan usaha berbadan hukum Indonesia bukan Bank wajib diselesaikan. Dengan demikian, Dana yang telah ditransfer kepada Penyelenggara Penerima tidak dapat ditarik kembali. Untuk memperkuat pengaturan tersebut, dalam Undang-Undang ini juga dianut prinsip finality of payment/finality of settlement yang merupakan penjabaran dari pengecualian prinsip zero hour rules, yaitu Dana yang telah berpindah dari satu lembaga ke lembaga lain pada prinsipnya bersifat final dan tidak dapat ditarik kembali. Apabila proses tersebut dikaitkan dengan kewajiban Penerima sebagai penjual untuk menyerahkan suatu barang setelah diterimanya Dana dari Pengirim Asal selaku pembeli, sejak saat itu pula Penerima berkewajiban untuk menyerahkan barang yang dibeli kepada Pengirim Asal (prinsip delivery versus payment).
+Untuk memberikan pengaturan yang sama kepada seluruh Penyelenggara dalam melakukan kegiatan Transfer Dana, pengaturan dalam Undang- Undang ini tidak saja berlaku bagi Bank yang menjalankan kegiatan usaha secara konvensional, tetapi juga berlaku bagi Bank yang melakukan kegiatan usaha berdasarkan prinsip syariah dan badan usaha berbadan hukum Indonesia bukan Bank yang melakukan kegiatan usaha secara konvensional atau berdasarkan prinsip syariah. Untuk Bank dan badan usaha berbadan hukum Indonesia bukan Bank yang melakukan kegiatan usaha berdasarkan prinsip syariah, ketentuan yang terkait dengan jasa bunga, atau kompensasi dan kewajiban lain disesuaikan berdasarkan prinsip syariah.
+Untuk menjamin pemenuhan seluruh aspek tersebut, termasuk aspek pelindungan konsumen, pemenuhan prinsip pengenalan nasabah, serta pencegahan terhadap tindak pidana pencucian uang dalam Transfer Dana, baik yang dilakukan oleh Bank maupun badan usaha berbadan hukum Indonesia bukan Bank, diperlukan adanya pengaturan mengenai perizinan dan bentuk pemantauan kegiatan Transfer Dana. Untuk badan usaha berbadan hukum Indonesia bukan Bank, kegiatan Transfer Dana pada prinsipnya dapat dilaksanakan setelah memperoleh persetujuan dari otoritas yang berwenang. Selain itu, kegiatan Transfer Dana tersebut wajib dilaporkan secara periodik kepada otoritas yang berwenang sebagai bentuk pemantauan dalam kegiatan Transfer Dana. Khusus untuk Bank, mengingat kegiatan Transfer Dana merupakan salah satu kegiatan usaha Bank, maka penyelenggaraan kegiatan Transfer Dana oleh Bank tidak memerlukan persetujuan dari otoritas yang berwenang. Namun, pelaksanaan kegiatan Transfer Dana oleh Bank tetap harus memenuhi segala aspek yang ditentukan dalam Undang Undang ini, termasuk kewajiban pelaporan atas kegiatan tersebut.
+Berkaitan dengan alat bukti, mengingat hampir seluruh kegiatan Transfer Dana melibatkan penggunaan media elektronik, dalam Undang-Undang ini diatur secara tegas cakupan alat bukti yang meliputi pula informasi, dokumen elektronik, dan/atau hasil cetaknya merupakan alat bukti yang sah. Pengaturan tersebut dimaksudkan untuk mengakomodasi perkembangan alat bukti dalam transaksi elektronik sehingga dapat meningkatkan kepastian hukum bagi para pihak dalam melakukan kegiatan Transfer Dana. Mengingat tindak pidana dalam berbagai transaksi saat ini tidak saja dilakukan oleh individu, tetapi juga melibatkan korporasi, dalam Undang-Undang ini juga diatur aspek pemidanaan terhadap korporasi yang melakukan tindak pidana dalam kegiatan Transfer Dana.
+Dengan diaturnya segala aspek terkait dengan kegiatan Transfer Dana, diharapkan para pihak, baik pihak dalam negeri maupun luar negeri, semakin yakin dan merasa aman melakukan kegiatan Transfer Dana tidak hanya dalam wilayah Negara Kesatuan Republik Indonesia, tetapi juga dari dalam ke luar wilayah Negara Kesatuan Republik Indonesia dan dari luar ke dalam wilayah Negara Kesatuan Republik Indonesia. Kondisi tersebut secara langsung berdampak pada meningkatnya transaksi Transfer Dana yang pada akhirnya juga akan mendorong kelancaran perkembangan ekonomi tanah air.
+II. PASAL DEMI PASAL
+Pasal 1
+Cukup jelas.
+Pasal 2
+Huruf a
+Yang dimaksud dengan ”Transfer Dana intra-Penyelenggara” adalah Transfer Dana yang dilakukan oleh satu Penyelenggara yang sama, baik dilakukan antarkantor Penyelenggara yang sama maupun dalam satu kantor Penyelenggara yang sama.
+Contoh: Pelaksanaan transfer dari nasabah A ke nasabah B melalui Bank yang sama atau dari nasabah A ke nasabah B melalui badan usaha bukan Bank yang sama.
+Yang dimaksud dengan ”Transfer Dana antar-Penyelenggara” adalah Transfer Dana yang dilakukan oleh Penyelenggara yang berbeda, baik dilakukan antar-Bank, antarbadan usaha bukan Bank, maupun antara Bank dan badan usaha bukan Bank.
+Contoh: Pelaksanaan transfer dari nasabah A melalui Bank X ke nasabah B melalui Bank Y atau dari nasabah A pada badan usaha bukan Bank X ke nasabah B melalui badan usaha bukan Bank Y.
+Termasuk dalam pengertian ”Penyelenggara Pengirim dan Penyelenggara Penerima yang berada di wilayah Negara Kesatuan Republik Indonesia” adalah kantor Bank asing yang berada di wilayah Negara Kesatuan Republik Indonesia.
+Huruf b
+Cukup jelas.
+Pasal 3
+Huruf a
+Dalam proses Transfer Dana, prinsip setiap kantor Penyelenggara, baik Penyelenggara yang sama maupun Penyelenggara yang berbeda, dianggap sebagai pihak yang berbeda dimaksudkan untuk menegaskan pelaksanaan kewajiban dari setiap kantor Penyelenggara dalam melaksanakan Perintah Transfer Dana. Namun, prinsip tersebut tidak berlaku dalam kaitannya dengan tanggung jawab Penyelenggara sebagai korporasi.
+Huruf b
+Prinsip berlaku surut sejak pukul 00.00 yang disebut zero hour rules merupakan suatu prinsip dalam hukum kepailitan yang menetapkan bahwa semua transaksi yang dilakukan oleh Penyelenggara setelah pukul 00.00 pada tanggal ditetapkannya keputusan pembekuan kegiatan usaha atau pencabutan izin usaha Bank, atau diucapkannya pernyataan pailit badan usaha berbadan hukum Indonesia bukan Bank tersebut dianggap batal atau tidak berlaku.
+Dengan tidak berlakunya prinsip zero hour rules, seluruh Transfer Dana yang telah dilaksanakan setelah pukul 00.00 pada hari itu sampai dengan saat ditutupnya sistem operasional Bank atau diucapkannya putusan pernyataan pailit badan usaha berbadan hukum Indonesia bukan Bank tidak menjadi batal dan wajib diselesaikan. Dengan demikian, Dana yang telah ditransfer kepada Penyelenggara Penerima tidak dapat ditarik kembali. Hal itu dimaksudkan untuk memberikan kepastian dalam kelancaran sistem pembayaran dan untuk menjaga stabilitas sistem keuangan secara keseluruhan.
+Dengan tidak berlakunya prinsip zero hour rules, dalam hal terjadi kondisi:
+1)
+Pengirim Asal dibekukan kegiatan usaha atau dicabut izin usaha atau dinyatakan pailit, Dana tetap diteruskan kepada Penerima.
+Dengan adanya kondisi tersebut, tim likuidasi atau kurator dari Pengirim Asal berhak menilai transaksi atau motif yang mendasari pelaksanaan Transfer Dana. Dalam hal terdapat ketidakbenaran atau ketidakabsahan transaksi atau motif tersebut, tim likuidasi atau kurator dapat mengajukan permintaan pembatalan transaksi dan meminta Dana yang telah ditransfer oleh Pengirim Asal untuk dikembalikan sebagai budel likuidasi atau budel pailit.
+Dalam hal Penyelenggara berupa Bank, tim likuidasi berhak menilai motif pelaksanaan transfer dan meminta pembatalan Transfer Dana jika terbukti pelaksanaan transfer dilakukan dengan maksud untuk merugikan Bank.
+2)
+Penyelenggara Pengirim dibekukan kegiatan usaha atau dicabut izin usaha atau dinyatakan pailit, Perintah Transfer Dana yang telah dilaksanakan mulai pukul 00.00 sampai dengan:
+a.
+saat dilakukannya penutupan sistem operasional Penyelenggara Pengirim yang dibekukan kegiatan usaha atau dicabut izin usaha; atau
+b.
+saat diucapkannya putusan pernyataan pailit Penyelenggara Pengirim, wajib diselesaikan.
+3)
+Penyelenggara Penerima dibekukan kegiatan usaha atau dicabut izin usaha atau dinyatakan pailit, Dana dari Perintah Transfer Dana yang telah diterima oleh Penyelenggara Penerima menjadi hak Penerima yang penyelesaiannya dilakukan oleh tim likuidasi atau kurator Penyelenggara Penerima sesuai dengan ketentuan peraturan perundang-undangan.
+Huruf c
+Prinsip pembayaran atau penyelesaian pembayaran yang telah memenuhi persyaratan bersifat final (finality of payment/finality of settlement) merupakan sebuah prinsip bahwa Dana yang telah berpindah dari satu Penyelenggara ke Penyelenggara lain bersifat final dan tidak dapat ditarik kembali secara sepihak oleh Penyelenggara Pengirim, kecuali terdapat permintaan pembatalan dari Penyelenggara Pengirim dengan mekanisme pembatalan sebagaimana diatur dalam Undang-Undang ini.
+Huruf d
+Yang dimaksud dengan “prinsip penyerahan terhadap pembayaran (delivery versus payment)” adalah suatu prinsip bahwa jika Transfer Dana merupakan suatu kewajiban yang timbul dari perjanjian lain antara Pengirim dan Penerima pada saat Penyelenggara Penerima Akhir telah melakukan Pengaksepan Perintah Transfer Dana, kewajiban Pengirim untuk melakukan pembayaran kepada Penerima telah selesai dan Pengirim berhak atas objek yang diperjanjikan.
+Huruf e
+Yang dimaksud dengan “mekanisme netting” adalah suatu proses perhitungan hak dan kewajiban antara 2 (dua) pihak atau lebih yang dilakukan oleh penyelenggara Sistem Transfer Dana dengan memperhitungkan secara langsung hasil akhir hak dan kewajiban yang dimiliki para pihak tersebut (offsetting).
+Penyelenggara Sistem Transfer Dana yang menggunakan mekanisme perhitungan secara netting harus melaksanakan setiap Perintah Transfer Dana yang telah diterima oleh penyelenggara Sistem Transfer Dana tersebut dan Perintah Transfer Dana tersebut tidak dapat ditarik kembali secara sepihak oleh pihak Pengirim.
+Dalam hal terdapat keputusan pembekuan kegiatan usaha atau pencabutan izin usaha Bank atau keputusan pernyataan pailit badan usaha bukan Bank berbadan hukum merupakan peserta suatu Sistem Transfer Dana yang menggunakan mekanisme netting, penyelenggara Sistem Transfer Dana tersebut tetap melaksanakan proses perhitungan atas Perintah Transfer Dana yang telah diterima untuk atau dari peserta yang bersangkutan pada tanggal diberlakukannya keputusan likuidasi atau pailit tersebut.
+Dengan demikian, seluruh transaksi yang telah dilakukan oleh peserta yang dikenai pembekuan kegiatan usaha atau pencabutan izin usaha atau pailit pada tanggal diterbitkannya keputusan pembekuan kegiatan usaha atau pencabutan izin usaha atau diucapkannya putusan pernyataan pailit tetap diperhitungkan dan dilakukan penyelesaian akhirnya sesuai dengan ketentuan yang mengatur mengenai Sistem Transfer Dana tersebut.
+Contoh: Putusan pailit diucapkan di Jakarta pada tanggal 30 November 2010 pukul 13.00 WIB maka seluruh Perintah Transfer Dana yang telah diterima oleh penyelenggara Sistem Transfer Dana pada tanggal 30 November 2010 pukul 00.00 WIB sampai dengan sebelum pukul 13.00 WIB tetap diperhitungkan dan dilakukan penyelesaian akhirnya.
+Dalam hal hasil netting menunjukkan bahwa peserta yang dibekukan kegiatan usaha atau dicabut izin usaha atau dinyatakan pailit memiliki kewajiban kepada penyelenggara atau peserta lain, peserta yang dibekukan kegiatan usaha atau dicabut izin usaha atau dinyatakan pailit harus memenuhi kewajiban pembayaran tersebut sesuai dengan mekanisme yang diatur dalam ketentuan mengenai Sistem Transfer Dana dimaksud.
+Dalam hal hasil netting menunjukkan bahwa peserta yang dibekukan kegiatan usaha atau dicabut izin usaha atau dinyatakan pailit memiliki hak untuk memperoleh pembayaran dari penyelenggara atau peserta lain, peserta yang dibekukan kegiatan usaha atau dicabut izin usaha atau dinyatakan pailit harus memperoleh pembayaran tersebut sesuai dengan mekanisme yang diatur dalam ketentuan mengenai Sistem Transfer Dana dimaksud.
+Pasal 4
+Cukup jelas.
+Pasal 5
+Ayat (1)
+Dengan adanya Pengaksepan dari Penyelenggara Penerima atas Perintah Transfer Dana dari Pengirim, hal itu berarti telah ada kesepakatan dari Penyelenggara Penerima untuk melaksanakan Perintah Transfer Dana dari Pengirim.
+Ayat (2)
+Pengaturan sebagai perjanjian yang terpisah dan berdiri sendiri pada ayat ini dimaksudkan untuk memberikan penegasan bahwa walaupun Transfer Dana merupakan suatu rangkaian kegiatan, hubungan hukum di antara setiap pihak dalam proses Transfer Dana diatur berdasarkan kesepakatan di antara setiap pihak yang terlibat dalam setiap perjanjian Transfer Dana. Dengan demikian, batalnya salah satu perjanjian tidak dengan sendirinya membatalkan perjanjian lain.
+Ayat (3)
+Yang dimaksud dengan ”dibuat secara baku” adalah perjanjian yang dibuat secara sepihak oleh Penyelenggara Pengirim atau Penyelenggara Penerima Akhir.
+Yang dimaksud dengan ”peraturan perundang-undangan” antara lain undang-undang yang mengatur mengenai pelindungan konsumen.
+Ayat (4)
+Cukup jelas.
+Pasal 6
+Yang dimaksud dengan “ketentuan rahasia Bank” adalah ketentuan rahasia Bank sebagaimana diatur dalam undang-undang yang mengatur mengenai perbankan.
+Pasal 7
+Ayat (1)
+Yang dimaksud dengan ”Perintah Transfer Dana dapat disampaikan secara elektronik” adalah Perintah Transfer Dana yang dibuat dengan media elektronik yang digunakan dalam proses pelaksanaan Perintah Transfer Dana.
+Sistem elektronik yang digunakan untuk memproses Perintah Transfer Dana yang disampaikan secara elektronik tunduk pada peraturan perundang-undangan yang mengatur mengenai transaksi elektronik, seperti sertifikasi terhadap sistem penyelenggaraan Transfer Dana secara elektronik tersebut.
+Ayat (2)
+Perintah Transfer Dana yang dapat diberikan untuk lebih dari satu kali pembayaran dalam ketentuan ini antara lain standing instruction, yaitu Pengirim cukup menerbitkan Perintah Transfer Dana satu kali untuk dilaksanakan lebih dari satu kali oleh Penyelenggara Pengirim.
+Pasal 8
+Ayat (1)
+Huruf a
+Cukup jelas.
+Huruf b
+Cukup jelas.
+Huruf c
+Cukup jelas.
+Huruf d
+Cukup jelas.
+Huruf e
+Dalam Perintah Transfer Dana yang disampaikan secara elektronik melalui sistem elektronik yang disepakati untuk digunakan oleh Pengirim Asal dan Penyelenggara Pengirim Asal, pencantuman tanggal Perintah Transfer Dana dilakukan secara otomatis oleh sistem komputer.
+Huruf f
+Yang dimaksud dengan ”peraturan perundang-undangan yang terkait dengan Transfer Dana” antara lain ketentuan yang mengatur mengenai tindak pidana pencucian uang dan prinsip mengenal nasabah.
+Ayat (2)
+Cukup jelas.
+Ayat (3)
+Cukup jelas.
+Ayat (4)
+Cukup jelas.
+Ayat (5)
+Cukup jelas.
+Ayat (6)
+Yang dimaksud dengan ”berita atau pesan” antara lain keterangan mengenai peruntukan Dana yang ditransfer.
+Ayat (7)
+Cukup jelas.
+Ayat (8)
+Cukup jelas.
+Pasal 9
+Ayat (1)
+Cukup jelas.
+Ayat (2)
+Cukup jelas.
+Ayat (3)
+Kewajiban pemberitahuan kepada Pengirim Asal dilakukan dengan menggunakan sarana komunikasi yang lazim digunakan oleh Penyelenggara, baik elektronik maupun nonelektronik.
+Ayat (4)
+Cukup jelas.
+Pasal 10
+Penyelenggara Pengirim Asal dapat menyepakati adanya Tanggal Pelaksanaan hanya apabila Penyelenggara Pengirim Asal menyediakan fasilitas Perintah Transfer Dana titipan yang pelaksanaannya dilakukan kemudian. Dalam hal Tanggal Pelaksanaan telah disepakati, Penyelenggara Pengirim Asal melaksanakan Perintah Transfer Dana pada Tanggal Pelaksanaan.
+Pasal 11
+Penyelenggara memberikan perkiraan lamanya waktu sesuai dengan praktik yang umum berlaku di dalam kegiatan Transfer Dana dan perkiraan lamanya waktu tersebut tidak mengikat Penyelenggara Pengirim Asal..
+Pasal 12
+Ayat (1)
+Cukup jelas.
+Ayat (2)
+Yang dimaksud dengan “dapat dibayarkan” adalah sesuai dengan pengertian Pengaksepan oleh Penyelenggara Penerima Akhir.
+Ayat (3)
+Cukup jelas.
+Pasal 13
+Cukup jelas.
+Pasal 14
+Ayat (1)
+Yang dimaksud dengan ”peraturan perundang-undangan lain” antara lain peraturan yang mengatur mengenai tindak pidana pencucian uang.
+Ayat (2)
+Yang dimaksud dengan ”perjanjian antara Pengirim Asal dan Penyelenggara Pengirim Asal” antara lain berupa perjanjian pembukaan Rekening dan perjanjian pengiriman uang.
+Ayat (3)
+Yang dimaksud dengan “peraturan perundang-undangan” misalnya peraturan mengenai tindak pidana pencucian uang.
+Pasal 15
+Ayat (1)
+Huruf a
+Cukup jelas.
+Huruf b
+Yang dimaksud dengan “tersedia Dana yang cukup” adalah Dana dalam jumlah yang cukup untuk melaksanakan Perintah Transfer Dana yang telah disetorkan secara tunai oleh Pengirim Asal atau telah tersedia dalam Rekening Pengirim Asal di Penyelenggara Pengirim Asal, termasuk fasilitas cerukan atau kredit lain.
+Huruf c
+Cukup jelas.
+Huruf d
+Yang dimaksud dengan ”peraturan perundang-undangan yang terkait dengan Transfer Dana” antara lain peraturan mengenai pembatasan transaksi rupiah dan valuta asing.
+Ayat (2)
+Dalam ketentuan ini alasan yang wajar untuk menolak melakukan Pengaksepan Perintah Transfer Dana antara lain Penyelenggara Pengirim Asal tidak sanggup melaksanakan Perintah Transfer Dana sesuai dengan Tanggal Pembayaran atau Penyelenggara Pengirim Asal tidak dapat menggunakan jasa Penyelenggara Penerus yang telah ditunjuk oleh Pengirim Asal.
+Pasal 16
+Ayat (1)
+Cukup Jelas.
+Ayat (2)
+Huruf a
+Dalam ketentuan ini alasan yang wajar antara lain penyerahan Perintah Transfer Dana oleh Pengirim Asal kepada Penyelenggara Pengirim Asal telah mendekati berakhirnya jam operasional Penyelenggara Pengirim Asal sehingga Penyelenggara Pengirim Asal tidak memungkinkan memproses Perintah Transfer Dana pada hari yang sama.
+Huruf b
+Kesepakatan tentang waktu Pengaksepan tidak harus dalam bentuk kontrak, tetapi dapat juga dalam bentuk kesepakatan secara lisan yang dituangkan dalam catatan resmi pejabat Penyelenggara yang berwenang.
+Pasal 17
+Ayat (1)
+Huruf a
+Cukup jelas.
+Huruf b
+Perintah Transfer Dana yang diterbitkan oleh Penyelenggara Pengirim Asal dapat berbentuk, antara lain:
+a.
+warkat transfer;
+b.
+data elektronik yang berisi Perintah Transfer Dana untuk diproses dalam Sistem Transfer Dana; atau
+c.
+pemrograman dalam aplikasi komputer untuk melaksanakan Perintah Transfer Dana.
+Huruf c
+Cukup jelas.
+Ayat (2)
+Cukup jelas.
+Ayat (3)
+Cukup jelas.
+Ayat (4)
+Cukup jelas.
+Ayat (5)
+Dalam ketentuan ini kewajiban pembayaran jasa, bunga, atau kompensasi dimaksudkan untuk menegaskan hak Pengirim Asal yang rekeningnya telah didebit oleh Penyelenggara Pengirim Asal, sementara Penyelenggara Pengirim Asal belum menerbitkan Perintah Transfer Dana kepada Penyelenggara Penerima.
+Pasal 18
+Cukup jelas.
+Pasal 19
+Cukup jelas.
+Pasal 20
+Ketentuan ini dimaksudkan untuk membatasi tanggung jawab Penyelenggara Pengirim Asal sehingga Penyelenggara Pengirim Asal tidak dibebani tanggung jawab di luar ketentuan yang telah diatur dalam Undang Undang ini dan peraturan pelaksanaannya.
+Pasal 21
+Ayat (1)
+Huruf a
+Yang dimaksud dengan ”keadaan bahaya” adalah keadaan bahaya yang diumumkan secara resmi oleh pemerintah.
+Yang dimaksud dengan ”huru-hara” termasuk pertikaian antarkelompok masyarakat yang mengakibatkan terhentinya kegiatan operasional Penyelenggara.
+Yang dimaksud dengan ”Penyelenggara Pengirim Asal yang sedang melaksanakan Perintah Transfer Dana” adalah kantor Penyelenggara yang menerbitkan Perintah Transfer Dana. Dalam hal Penyelenggara tersebut memiliki sistem komputerisasi yang mengintegrasikan seluruh sistem akuntansi dan/atau Sistem Transfer Dana Penyelenggara tersebut, pengertian Penyelenggara Pengirim Asal yang sedang melaksanakan Perintah Transfer Dana termasuk kantor Penyelenggara tempat pusat kendali komputer dioperasikan.
+Huruf b
+Yang dimaksud dengan ”kerusakan pada sistem infrastruktur elektronik atau nonelektronik yang berpengaruh langsung terhadap pelaksanaan Perintah Transfer Dana yang tidak dapat dikontrol oleh Penyelenggara Pengirim Asal” antara lain kerusakan yang disebabkan oleh kebakaran dan sambaran petir.
+Huruf c
+Yang dimaksud dengan ”kegagalan sistem kliring atau Sistem Transfer Dana” adalah kegagalan yang mengakibatkan sistem kliring atau Sistem Transfer Dana secara keseluruhan tidak dapat dijalankan atau dioperasikan dengan baik, termasuk seluruh sistem pendukung dan sistem cadangan atau sistem pengganti.
+Kegagalan sistem yang hanya terjadi di Penyelenggara Pengirim Asal tidak tergolong pengertian kegagalan sistem kliring atau Sistem Transfer Dana.
+Huruf d
+Yang dimaksud dengan “hal lain yang ditetapkan oleh Bank Indonesia” antara lain keputusan Bank Indonesia mengenai penghentian sementara Penyelenggara Pengirim Asal dari kegiatan kliring atau kegiatan Sistem Transfer Dana lain.
+Ayat (2)
+Cukup jelas.
+Pasal 22
+Pemberitahuan dapat dilakukan melalui surat atau sarana tertulis lain kepada Pengirim Asal atau melalui media cetak. Dalam hal pemberitahuan tersebut dilakukan melalui media cetak, pemberitahuan tersebut sekurang kurangnya harus dimuat dalam satu media cetak yang mempunyai oplah terbesar di setiap wilayah tempat Penyelenggara dan/atau kantor Penyelenggara yang tidak dapat beroperasi tersebut berada.
+Pasal 23
+Ayat (1)
+Perintah, penetapan, putusan, atau keputusan dari pihak yang berwenang dari suatu negara yang melarang pelaksanaan Perintah Transfer Dana antara lain dalam kaitannya dengan tindak pidana pencucian uang.
+Yang dimaksud dengan “negara asal atau negara tertuju” adalah negara asal Pengirim atau negara tempat Dana akan diterima.
+Ayat (2)
+Cukup jelas.
+Pasal 24
+Cukup jelas.
+Pasal 25
+Cukup jelas.
+Pasal 26
+Kewajiban penerbitan Perintah Transfer Dana baru merupakan konsekuensi dari tanggung jawab yang timbul dari hubungan hukum antara Penyelenggara Pengirim Asal dan Pengirim Asal untuk mengirimkan Dana kepada Penerima sesuai dengan Perintah Transfer Dana dari Pengirim Asal.
+Pasal 27
+Cukup jelas.
+Pasal 28
+Penyesuaian penyebutan Pengirim Asal menjadi Penyelenggara Penerus sebelumnya diperlukan apabila Penyelenggara Pengirim Asal menggunakan lebih dari satu Penyelenggara Penerus.
+Pasal 29
+Huruf a
+Cukup jelas.
+Huruf b
+Cukup jelas.
+Huruf c
+Yang dimaksud dengan “Penyelenggara lain” adalah Penyelenggara selain bank sentral yang memelihara Rekening Penyelenggara Penerus.
+Huruf d
+Cukup jelas.
+Pasal 30
+Penggunaan tanggal yang lebih akhir dimaksudkan agar Penyelenggara Penerus telah memiliki informasi yang cukup untuk meneruskan Perintah Transfer Dana dan telah menerima Dana untuk ditransfer.
+Pasal 31
+Pembatasan tanggung jawab Penyelenggara Penerus dimaksudkan agar Penyelenggara Penerus tidak dibebani tanggung jawab di luar ketentuan yang telah diatur dalam Undang-Undang ini dan peraturan pelaksanaannya.
+Pasal 32
+Yang dimaksud dengan “penyesuaian penyebutan Pengirim Asal menjadi Penyelenggara Pengirim Asal atau Penyelenggara Penerus” adalah perubahan posisi para pihak, yaitu Penyelenggara Pengirim Asal atau Penyelenggara Penerus berposisi sebagai Pengirim Asal.
+Pasal 33
+Huruf a
+Cukup jelas.
+Huruf b
+Cukup Jelas.
+Huruf c
+Yang dimaksud dengan “Penyelenggara lain” adalah Penyelenggara selain bank sentral yang memelihara Rekening Penyelenggara Penerima Akhir.
+Huruf d
+Cukup jelas.
+Pasal 34
+Ayat (1)
+Penggunaan tanggal yang lebih akhir dimaksudkan agar Penyelenggara Penerima Akhir telah memiliki informasi untuk meneruskan Perintah Transfer Dana dan telah menerima Dana untuk dibayarkan.
+Ayat (2)
+Penggunaan tanggal valuta sesuai dengan tanggal Pengaksepan disebabkan kewajiban Penyelenggara muncul pada saat Penyelenggara melakukan Pengaksepan.
+Pasal 35
+Terlaksananya Perintah Transfer Dana untuk kepentingan Penerima ditandai dengan dilakukannya salah satu kegiatan Pengaksepan oleh Penyelenggara Penerima Akhir sebagaimana diatur dalam Undang- Undang ini dan peraturan pelaksanaannya.
+Ketentuan ini dimaksudkan untuk membatasi tanggung jawab Penyelenggara Penerima Akhir sehingga Penyelenggara Penerima Akhir tidak dibebani tanggung jawab di luar ketentuan yang telah diatur dalam Undang-Undang ini dan peraturan pelaksanaannya.
+Pasal 36
+Ayat (1)
+Cukup jelas.
+Ayat (2)
+Huruf a
+Cukup jelas.
+Huruf b
+Cukup jelas.
+Huruf c
+Yang dimaksud dengan ”mengalokasikan Dana untuk kepentingan Penerima” adalah menyediakan Dana pada Rekening tertentu di Penyelenggara Penerima Akhir untuk dibayarkan secara tunai kepada Penerima.
+Huruf d
+Cukup jelas.
+Huruf e
+Cukup jelas.
+Huruf f
+Cukup jelas.
+Ayat (3)
+Cukup jelas.
+Ayat (4)
+Cukup jelas.
+Ayat (5)
+Yang dimaksud dengan “kesepakatan“ adalah tidak harus dalam bentuk kontrak, tetapi dapat juga dalam bentuk lain, antara lain kesepakatan secara lisan yang dituangkan dalam catatan resmi pejabat Penyelenggara yang berwenang.
+Ayat (6)
+Cukup jelas.
+Pasal 37
+Cukup jelas.
+Pasal 38
+Ayat (1)
+Dalam ketentuan ini alasan yang wajar untuk menolak melakukan Pengaksepan Perintah Transfer Dana antara lain:
+a.
+Perintah Transfer Dana bertentangan dengan peraturan perundang-undangan;
+b.
+Penyelenggara Penerima Akhir tidak dapat melaksanakan Perintah Transfer Dana sesuai dengan Tanggal Pembayaran;
+c.
+terdapat perbedaan nomor Rekening dan nama Rekening Penerima; dan
+d.
+Perintah Transfer Dana diterima oleh Penyelenggara Penerima Akhir mendekati berakhirnya jam operasional Penyelenggara Penerima Akhir sehingga tidak memungkinkan Penyelenggara Penerima Akhir untuk melaksanakan Perintah Transfer Dana pada hari yang sama.
+Ayat (2)
+Cukup jelas.
+Ayat (3)
+Cukup jelas.
+Ayat (4)
+Cukup jelas.
+Ayat (5)
+Yang dimaksud dengan “undang-undang” antara lain undang-undang yang mengatur mengenai tindak pidana pencucian uang.
+Pasal 39
+Cukup jelas.
+Pasal 40
+Cukup jelas.
+Pasal 41
+Yang dimaksud dengan “pihak yang berwenang” antara lain kepolisian, kejaksaan, Pusat Pelaporan dan Analisis Transaksi Keuangan (PPATK), dan pengadilan.
+Yang dimaksud dengan “peraturan perundang-undangan” antara lain peraturan mengenai tindak pidana pencucian uang.
+Pasal 42
+Ayat (1)
+Dalam ketentuan ini, waktu yang cukup bersifat kasuistik dan situasional, antara lain terkait dengan Sistem Transfer Dana yang digunakan untuk melaksanakan Perintah Transfer Dana.
+Ayat (2)
+Cukup jelas.
+Ayat (3)
+Cukup jelas.
+Ayat (4)
+Cukup jelas.
+Ayat (5)
+Cukup jelas.
+Ayat (6)
+Cukup jelas.
+Ayat (7)
+Cukup jelas.
+Pasal 43
+Pelaksanaan prinsip kehati-hatian dalam ketentuan ini antara lain melalui proses Autentikasi.
+Pasal 44
+Ayat (1)
+Contoh Sistem Transfer Dana antara lain Sistem Kliring Nasional Bank Indonesia (SKNBI) dan Sistem Bank Indonesia Real Time Gross Settlement (Sistem BI RTGS).
+Ayat (2)
+Cukup jelas.
+Pasal 45
+Cukup jelas.
+Pasal 46
+Ayat (1)
+Cukup jelas.
+Ayat (2)
+Dalam ketentuan ini, waktu yang cukup bersifat kasuistik dan situasional antara lain terkait dengan Sistem Transfer Dana yang digunakan untuk melaksanakan Perintah Transfer Dana.
+Pasal 47
+Cukup jelas.
+Pasal 48
+Cukup jelas.
+Pasal 49
+Cukup jelas.
+Pasal 50
+Cukup jelas.
+Pasal 51
+Ayat (1)
+Yang dimaksud dengan ”Perintah Transfer Dana belum dilaksanakan” adalah Dana masih berada di dalam Sistem Transfer Dana pada Penyelenggara Pengirim dan belum berpindah kepada Penyelenggara Penerima.
+Ayat (2)
+Cukup jelas.
+Ayat (3)
+Cukup jelas.
+Ayat (4)
+Cukup jelas.
+Pasal 52
+Cukup jelas.
+Pasal 53
+Ayat (1)
+Yang dimaksud dengan ”Rekening Penerima” termasuk Rekening antara milik Penyelenggara untuk menampung kewajiban segera kepada Penerima.
+Dalam hal Dana dalam Rekening Penerima tidak mencukupi, pendebitan dilakukan sebesar Dana yang tersedia setelah dikurangi saldo minimum yang wajib dipelihara pemegang Rekening di Penyelenggara.
+Ayat (2)
+Cukup jelas.
+Pasal 54
+Ayat (1)
+Pada prinsipnya pihak yang berhak menerima jasa, bunga, atau kompensasi keterlambatan adalah Penerima.
+Ayat (2)
+Cukup jelas.
+Pasal 55
+Cukup jelas.
+Pasal 56
+Cukup jelas.
+Pasal 57
+Cukup jelas.
+Pasal 58
+Cukup jelas.
+Pasal 59
+Cukup jelas.
+Pasal 60
+Huruf a
+Sarana transfer debit yang diterbitkan sendiri oleh Penyelenggara Pengirim Asal Transfer Debit antara lain nota debit antar-Bank.
+Sarana transfer debit tertentu yang diterbitkan oleh Penyelenggara Pembayar Transfer Debit antara lain cek, bilyet giro, dan wesel.
+Huruf b
+Cukup jelas.
+Pasal 61
+Dengan penerimaan sarana transfer debit tertentu sebagai Perintah Transfer Debit, Penyelenggara Penerima Transfer Debit tidak memerlukan penerbitan Perintah Transfer Debit baru.
+Pasal 62
+Ayat (1)
+Huruf a
+Cukup jelas.
+Huruf b
+Autentikasi diperlukan antara lain untuk mengecek kewenangan Penerima Akhir Transfer Debit dalam penerbitan Perintah Transfer Debit.
+Huruf c
+Cukup jelas.
+Huruf d
+Cukup jelas.
+Ayat (2)
+Huruf a
+Yang dimaksud dengan ”menerbitkan sarana Perintah Transfer Debit untuk kepentingan Pengirim Asal Transfer Debit” adalah penerbitan Perintah Transfer Debit untuk melaksanakan perintah penagihan yang diberikan oleh Penerima Akhir Transfer Debit.
+Huruf b
+Cukup jelas.
+Huruf c
+Cukup jelas.
+Ayat (3)
+Cukup jelas.
+Ayat (4)
+Yang dimaksud dengan “pihak terkait dalam pelaksanaan transfer debit” antara lain Pembayar Transfer Debit, Penyelenggara Pembayar Transfer Debit, dan Pengirim Asal Transfer Debit untuk melakukan pembayaran kepada Pengirim Asal Transfer Debit atas beban Rekening Pembayar Transfer Debit.
+Yang dimaksud dengan “kesepakatan tertulis” adalah kesepakatan antara Pembayar Transfer Debit dan Penerima Akhir Transfer Debit mengenai cara Penerima Akhir Transfer Debit untuk memperoleh pembayaran dari Pembayar Transfer Debit atas prestasi yang dilakukan oleh Penerima Akhir Transfer Debit, yaitu dengan cara Penerima Akhir Transfer Debit menerbitkan suatu permintaan pembayaran, antara lain berupa nota debit antar-Bank untuk ditagihkan oleh Penyelenggara Penerima Akhir Transfer Debit kepada Penyelenggara Pembayar Transfer Debit.
+Pasal 63
+Ayat (1)
+Huruf a
+Cukup jelas.
+Huruf b
+Autentikasi diperlukan antara lain untuk mengecek kewenangan Pembayar Transfer Debit dalam melakukan pembayaran.
+Huruf c
+Cukup jelas.
+Huruf d
+Cukup jelas.
+Huruf e
+Yang dimaksud dengan ”para pihak” antara lain Pembayar Transfer Debit, Penyelenggara Pembayar Transfer Debit, Penyelenggara Penerima Akhir Transfer Debit, dan/atau Penerima Akhir Transfer Debit.
+Ayat (2)
+Cukup jelas.
+Ayat (3)
+Cukup jelas.
+Ayat (4)
+Yang dimaksud dengan ”alasan dan jangka waktu yang wajar” antara lain penyerahan Perintah Transfer Debit oleh Penerima Akhir Transfer Debit kepada Penyelenggara Penerima Akhir Transfer Debit telah mendekati berakhirnya jam operasional Penyelenggara Penerima Akhir Transfer Debit sehingga Penyelenggara Penerima Akhir Transfer Debit tidak memungkinkan memproses Perintah Transfer Debit pada hari yang sama.
+Pasal 64
+Ayat (1)
+Cukup jelas.
+Ayat (2)
+Cukup jelas.
+Ayat (3)
+Yang dimaksud dengan “alasan yang wajar” antara lain pembayaran diterima oleh Penyelenggara Penerima Akhir Transfer Debit mendekati berakhirnya jam operasional sehingga Penyelenggara Penerima Akhir Transfer Debit tidak memungkinkan melakukan penolakan dan pengembalian Dana.
+Ayat (4)
+Cukup jelas.
+Ayat (5)
+Cukup jelas.
+Ayat (6)
+Cukup jelas.
+Ayat (7)
+Cukup jelas.
+Pasal 65
+Ayat (1)
+Perintah Transfer Debit dapat dilakukan dengan sarana transfer debit, seperti cek, bilyet giro, wesel, atau bentuk lain, yang diterima dari Penerima Akhir Transfer Debit atau nota debit kliring yang diterbitkan sendiri oleh Penyelenggara Penerima Akhir Transfer Debit.
+Ayat (2)
+Cukup jelas.
+Pasal 66
+Cukup jelas.
+Pasal 67
+Seluruh ketentuan yang terkait dengan tanggal penarikan, tanggal efektif, tenggang waktu penawaran, dan kedaluwarsa tunduk pada ketentuan yang mengatur setiap dokumen.
+Pasal 68
+Cukup jelas.
+Pasal 69
+Ayat (1)
+Kewajiban memperoleh izin dilakukan mengingat kegiatan Transfer Dana pada dasarnya merupakan kegiatan yang perlu diawasi karena terkait dengan kepentingan masyarakat yang dananya diamanatkan untuk ditransfer. Kewajiban untuk memperoleh izin tidak berlaku bagi Penyelenggara berupa Bank karena izin untuk melakukan kegiatan Transfer Dana sudah menjadi bagian kegiatan usaha Bank sebagaimana diatur dalam undang-undang yang mengatur mengenai perbankan.
+Badan hukum dari badan usaha bukan Bank yang dapat melakukan kegiatan Transfer Dana adalah badan hukum Indonesia, seperti perseroan terbatas dan koperasi.
+Ayat (2)
+Cukup jelas.
+Pasal 70
+Cukup jelas.
+Pasal 71
+Cukup jelas.
+Pasal 72
+Ayat (1)
+Pemantauan (oversight) terdiri atas kegiatan pengamatan (monitoring), penilaian (assessment), dan kegiatan upaya mendorong perubahan (inducing change).
+Pengamatan merupakan kegiatan yang bertujuan untuk memperoleh informasi mengenai penyelenggaraan kegiatan Transfer Dana.
+Penilaian (assessment) merupakan kegiatan yang bertujuan untuk memahami dan menilai penyelenggaraan kegiatan Transfer Dana.
+Kegiatan upaya mendorong perubahan (inducing change) merupakan upaya untuk mendorong perubahan industri dalam penyelenggaraan Transfer Dana yang dilakukan antara lain dengan kegiatan imbauan moral, pertemuan konsultatif, penegakan sanksi, kerja sama dengan institusi lain, dan penyusunan pedoman atau panduan bagi industri.
+Ayat (2)
+Yang dimaksud dengan “otoritas pengawas terkait” antara lain lembaga pengawas jasa keuangan dan kementerian yang membidangi kegiatan perposan, telekomunikasi, dan informatika.
+Ayat (3)
+Cukup jelas.
+Ayat (4)
+Cukup jelas.
+Ayat (5)
+Cukup jelas.
+Ayat (6)
+Yang dimaksud “pihak lain” adalah pihak yang menurut Bank Indonesia memiliki kemampuan untuk melaksanakan kegiatan pemantauan dan penilaian. Pelaksanaan kegiatan pemantauan dan/atau penilaian oleh pihak lain dapat dilakukan sendiri atau bersama-sama dengan Bank Indonesia.
+Ayat (7)
+Cukup jelas.
+Pasal 73
+Cukup jelas.
+Pasal 74
+Cukup jelas.
+Pasal 75
+Cukup jelas.
+Pasal 76
+Dalam ketentuan ini, informasi elektronik dalam kegiatan Transfer Dana adalah satu atau sekumpulan data elektronik dalam kegiatan Transfer Dana, antara lain dalam bentuk tulisan, suara, gambar, electronic data interchange (EDI), surat elektronik (electronic mail), telegram, teleks, telekopi atau sejenisnya, huruf, tanda, angka, kode akses, simbol, atau perforasi yang telah diolah yang memiliki arti atau dapat dipahami oleh orang yang mampu memahaminya.
+Dalam ketentuan ini, dokumen elektronik dalam kegiatan Transfer Dana adalah setiap informasi elektronik yang dibuat, diteruskan, dikirimkan, diterima, atau disimpan dalam bentuk analog, digital, elektromagnetik, optikal, atau sejenisnya yang dapat dilihat, ditampilkan dan/atau didengar melalui komputer atau sistem elektronik, antara lain tulisan, suara, gambar, atau sejenisnya, huruf, tanda, angka, kode akses, simbol, atau perforasi yang memiliki makna atau arti atau dapat dipahami oleh orang yang mampu memahaminya.
+Pasal 77
+Yang dimaksud dengan “tanda tangan elektronik” adalah informasi elektronik yang dilekatkan yang memiliki hubungan langsung atau terkait pada suatu informasi elektronik lain yang dibuat oleh penandatangan untuk menunjukkan identitas subjek hukum, misalnya kode akses (password), infrastruktur kunci publik (tanda tangan digital), biometrik, dan kriptografi simetrik.
+Dalam menilai keabsahan suatu tanda tangan elektronik dilakukan sesuai dengan ketentuan peraturan perundang-undangan yang mengatur mengenai informasi dan transaksi elektronik.
+Pasal 78
+Yang dimaksud dengan “pihak lain yang mengendalikan sistem” adalah pihak yang mengoperasikan Sistem Transfer Dana.
+Pasal 79
+Cukup jelas.
+Pasal 80
+Cukup jelas.
+Pasal 81
+Yang dimaksud dengan “Dana milik orang lain” termasuk Dana milik Penyelenggara Pengirim.
+Pasal 82
+Cukup jelas.
+Pasal 83
+Cukup jelas.
+Pasal 84
+Cukup jelas.
+Pasal 85
+Cukup jelas.
+Pasal 86
+Cukup jelas.
+Pasal 87
+Ayat (1)
+Yang dimaksud dengan “korporasi” dalam ketentuan ini adalah kumpulan orang dan/atau kekayaan yang terorganisasi, baik merupakan badan hukum maupun bukan badan hukum.
+Ayat (2)
+Cukup jelas.
+Ayat (3)
+Huruf a
+Personel pengendali korporasi terdiri atas setiap orang yang memiliki kekuasaan atau wewenang sebagai penentu kebijakan korporasi atau memiliki kewenangan untuk melakukan kebijakan korporasi tersebut tanpa harus mendapat otorisasi dari atasannya.
+Huruf b
+Cukup jelas.
+Huruf c
+Cukup jelas.
+Huruf d
+Cukup jelas.
+Ayat (4)
+Cukup jelas.
+Pasal 88
+Cukup jelas.
+Pasal 89
+Cukup jelas.
+Pasal 90
+Cukup jelas.
+Pasal 91
+Cukup jelas.
+TAMBAHAN LEMBARAN NEGARA REPUBLIK INDONESIA NOMOR 5204

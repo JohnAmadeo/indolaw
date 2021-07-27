@@ -1,0 +1,828 @@
+﻿www.hukumonline.com 
+UNDANG-UNDANG REPUBLIK INDONESIA 
+NOMOR 4 TAHUN 2011 
+TENTANG 
+INFORMASI GEOSPASIAL 
+DENGAN RAHMAT TUHAN YANG MAHA ESA 
+PRESIDEN REPUBLIK INDONESIA, 
+Menimbang :  
+a. bahwa Negara Kesatuan Republik Indonesia adalah sebuah negara kepulauan yang berciri nusantara dengan segala kekayaan sumber daya alam dan sumber daya lainnya sebagai anugerah Tuhan Yang Maha Esa yang harus dikelola dengan baik dan penuh rasa tanggung jawab untuk menjadi sumber kemakmuran bagi seluruh rakyat Indonesia, baik di masa kini maupun di masa mendatang; 
+b. bahwa dalam mengelola sumber daya alam dan sumber daya lainnya serta penanggulangan bencana dalam wilayah Negara Kesatuan Republik Indonesia dan wilayah yurisdiksinya diperlukan informasi geospasial; 
+c. bahwa agar informasi geospasial dapat terselenggara dengan tertib, terpadu, berhasil guna, dan berdaya guna sehingga terjamin keakuratan, kemutakhiran, dan kepastian hukum, maka perlu pengaturan mengenai penyelenggaraan informasi geospasial; 
+d. bahwa berdasarkan pertimbangan sebagaimana dimaksud dalam huruf a, huruf b, dan huruf c perlu membentuk Undang-Undang tentang Informasi Geospasial; 
+Mengingat :  
+Pasal 5 ayat (1), Pasal 20, Pasal 25A, Pasal 28F, dan Pasal 33 ayat (3) dan ayat (4) Undang-Undang Dasar Negara Republik Indonesia Tahun 1945; 
+Dengan Persetujuan Bersama: 
+DEWAN PERWAKILAN RAKYAT REPUBLIK INDONESIA 
+dan 
+PRESIDEN REPUBLIK INDONESIA 
+MEMUTUSKAN: 
+Menetapkan :  
+UNDANG-UNDANG TENTANG INFORMASI GEOSPASIAL. 
+1 / 34
+www.hukumonline.com 
+BAB I 
+KETENTUAN UMUM 
+Pasal 1 
+Dalam Undang-Undang ini yang dimaksud dengan: 
+1. Spasial adalah aspek keruangan suatu objek atau kejadian yang mencakup lokasi, letak, dan posisinya. 
+2. Geospasial atau ruang kebumian adalah aspek keruangan yang menunjukkan lokasi, letak, dan posisi suatu objek atau kejadian yang berada di bawah, pada, atau di atas permukaan bumi yang dinyatakan dalam sistem koordinat tertentu. 
+3. Data Geospasial yang selanjutnya disingkat DG adalah data tentang lokasi geografis, dimensi atau ukuran, dan/atau karakteristik objek alam dan/atau buatan manusia yang berada di bawah, pada, atau di atas permukaan bumi. 
+4. Informasi Geospasial yang selanjutnya disingkat IG adalah DG yang sudah diolah sehingga dapat digunakan sebagai alat bantu dalam perumusan kebijakan, pengambilan keputusan, dan/atau pelaksanaan kegiatan yang berhubungan dengan ruang kebumian. 
+5. Informasi Geospasial Dasar yang selanjutnya disingkat IGD adalah IG yang berisi tentang objek yang dapat dilihat secara langsung atau diukur dari kenampakan fisik di muka bumi dan yang tidak berubah dalam waktu yang relatif lama. 
+6. Informasi Geospasial Tematik yang selanjutnya disingkat IGT adalah IG yang menggambarkan satu atau lebih tema tertentu yang dibuat mengacu pada IGD. 
+7. Skala adalah angka perbandingan antara jarak dalam suatu IG dengan jarak sebenarnya di muka bumi. 
+8. Titik Kontrol Geodesi adalah posisi di muka bumi yang ditandai dengan bentuk fisik tertentu yang dijadikan sebagai kerangka acuan posisi untuk IG. 
+9. Jaring Kontrol Horizontal Nasional yang selanjutnya disingkat JKHN adalah sebaran titik kontrol geodesi horizontal yang terhubung satu sama lain dalam satu kerangka referensi. 
+10. Jaring Kontrol Vertikal Nasional yang selanjutnya disingkat JKVN adalah sebaran titik kontrol geodesi vertikal yang terhubung satu sama lain dalam satu kerangka referensi. 
+11. Jaring Kontrol Gayaberat Nasional yang selanjutnya disingkat JKGN adalah sebaran titik kontrol geodesi gayaberat yang terhubung satu sama lain dalam satu kerangka referensi. 
+12. Peta Rupabumi Indonesia adalah peta dasar yang memberikan informasi secara khusus untuk wilayah darat. 
+13. Peta Lingkungan Pantai Indonesia adalah peta dasar yang memberikan informasi secara khusus untuk wilayah pesisir. 
+14. Peta Lingkungan Laut Nasional adalah peta dasar yang memberikan informasi secara khusus untuk wilayah laut. 
+15. Pemerintah adalah Presiden Republik Indonesia yang memegang kekuasaan pemerintahan negara Republik Indonesia sebagaimana dimaksud dalam Undang-Undang Dasar Negara Republik Indonesia Tahun 1945. 
+16. Pemerintah daerah adalah gubernur, bupati atau walikota, dan perangkat daerah sebagai unsur penyelenggara pemerintahan daerah. 
+17. Badan adalah lembaga pemerintah nonkementerian yang mempunyai tugas, fungsi, dan kewenangan yang membidangi urusan tertentu dalam hal ini bidang penyelenggaraan IGD. 
+2 / 34
+www.hukumonline.com 
+18. Instansi Pemerintah adalah kementerian dan lembaga pemerintah nonkementerian. 19. Setiap orang adalah orang perseorangan, kelompok orang, atau badan usaha. 
+20. Badan Usaha adalah badan usaha milik negara, badan usaha milik daerah, atau badan usaha yang berbadan hukum. 
+BAB II 
+ASAS DAN TUJUAN 
+Pasal 2 
+IG diselenggarakan berdasarkan asas: 
+a. kepastian hukum; 
+b. keterpaduan; 
+c. keterbukaan; 
+d. kemutakhiran; 
+e. keakuratan; 
+f. kemanfaatan; dan 
+g. demokratis. 
+Pasal 3 
+Undang-Undang ini bertujuan untuk: 
+a. menjamin ketersediaan dan akses terhadap IG yang dapat dipertanggungjawabkan; 
+b. mewujudkan penyelenggaraan IG yang berdaya guna dan berhasil guna melalui kerja sama, koordinasi, integrasi, dan sinkronisasi; dan 
+c. mendorong penggunaan IG dalam penyelenggaraan pemerintahan dan dalam berbagai aspek kehidupan masyarakat. 
+BAB III 
+JENIS INFORMASI GEOSPASIAL  
+Bagian Kesatu 
+Umum 
+Pasal 4 
+Jenis IG terdiri atas: 
+a. IGD; dan 
+b. IGT. 
+3 / 34
+www.hukumonline.com 
+Bagian Kedua 
+Informasi Geospasial Dasar 
+Pasal 5 
+IGD sebagaimana dimaksud dalam Pasal 4 huruf a meliputi: 
+a. jaring kontrol geodesi; dan 
+b. peta dasar. 
+Pasal 6 
+Jaring kontrol geodesi sebagaimana dimaksud dalam Pasal 5 huruf a meliputi: 
+a. JKHN; 
+b. JKVN; dan 
+c. JKGN. 
+Pasal 7 
+Peta dasar sebagaimana dimaksud dalam Pasal 5 huruf b berupa: 
+a. Peta Rupabumi Indonesia; 
+b. Peta Lingkungan Pantai Indonesia; dan 
+c. Peta Lingkungan Laut Nasional. 
+Pasal 8 
+(1) JKHN sebagaimana dimaksud dalam Pasal 6 huruf a digunakan sebagai kerangka acuan posisi horizontal untuk IG. 
+(2) Koordinat JKHN ditentukan dengan metode pengukuran geodetik tertentu, dinyatakan dalam sistem referensi koordinat tertentu, dan diwujudkan dalam bentuk tanda fisik. 
+(3) JKHN diklasifikasikan berdasarkan tingkat ketelitian koordinat horizontal. 
+Pasal 9 
+(1) JKVN sebagaimana dimaksud dalam Pasal 6 huruf b digunakan sebagai kerangka acuan posisi vertikal untuk IG. 
+(2) Tinggi JKVN ditentukan dengan metode pengukuran geodetik tertentu, dinyatakan dalam datum vertikal tertentu, sistem tinggi tertentu, dan diwujudkan dalam bentuk tanda fisik. 
+(3) JKVN diklasifikasikan berdasarkan tingkat ketelitian vertikal. 
+Pasal 10 
+(1) JKGN sebagaimana dimaksud dalam Pasal 6 huruf c digunakan sebagai kerangka acuan gayaberat untuk IG. 
+4 / 34
+www.hukumonline.com 
+(2) JKGN ditetapkan dengan metode pengukuran geodetik tertentu, mengacu pada titik acuan gayaberat absolut, dan diwujudkan dalam bentuk tanda fisik. 
+(3) JKGN diklasifikasikan berdasarkan tingkat ketelitian gayaberat. 
+Pasal 11 
+Setiap orang wajib menjaga tanda fisik jaring kontrol geodesi sebagaimana dimaksud dalam Pasal 8 ayat (2), Pasal 9 ayat (2), dan Pasal 10 ayat (2). 
+Pasal 12 
+Peta dasar sebagaimana dimaksud dalam Pasal 5 huruf b terdiri atas: 
+a. garis pantai; 
+b. hipsografi; 
+c. perairan; 
+d. nama rupabumi; 
+e. batas wilayah; 
+f. transportasi dan utilitas; 
+g. bangunan dan fasilitas umum; dan 
+h. penutup lahan. 
+Pasal 13 
+(1) Garis pantai sebagaimana dimaksud dalam Pasal 12 huruf a merupakan garis pertemuan antara daratan dengan lautan yang dipengaruhi oleh pasang surut air laut. 
+(2) Garis pantai sebagaimana dimaksud pada ayat (1) terdiri atas: 
+a. garis pantai surut terendah; 
+b. garis pantai pasang tertinggi; dan 
+c. garis pantai tinggi muka air laut rata-rata. 
+(3) Pada Peta Rupabumi Indonesia, garis pantai ditetapkan berdasarkan garis kedudukan muka air laut rata rata. 
+(4) Pada Peta Lingkungan Pantai Indonesia dan Peta Lingkungan Laut Nasional, garis pantai ditetapkan berdasarkan kedudukan muka air laut surut terendah. 
+(5) Garis pantai sebagaimana dimaksud pada ayat (2) ditentukan dengan mengacu pada JKVN. 
+Pasal 14 
+(1) Hipsografi sebagaimana dimaksud dalam Pasal 12 huruf b merupakan garis khayal untuk menggambarkan semua titik yang mempunyai ketinggian yang sama di permukaan bumi atau kedalaman yang sama di dasar laut. 
+(2) Pada Peta Rupabumi Indonesia, hipsografi digambarkan dalam bentuk garis kontur mukabumi dan titik ketinggian di darat. 
+5 / 34
+www.hukumonline.com 
+(3) Pada Peta Lingkungan Pantai Indonesia dan Peta Lingkungan Laut Nasional, hipsografi digambarkan dalam bentuk garis kontur mukabumi, titik ketinggian di darat, batimetri, dan titik kedalaman di laut. 
+Pasal 15 
+Nama rupabumi sebagaimana dimaksud dalam Pasal 12 huruf d dikumpulkan dengan menggunakan tata cara pengumpulan nama rupabumi sesuai dengan ketentuan peraturan perundang-undangan. 
+Pasal 16 
+(1) Batas wilayah sebagaimana dimaksud dalam Pasal 12 huruf e digambarkan berdasarkan dokumen penetapan penentuan batas wilayah secara pasti di lapangan oleh Instansi Pemerintah yang berwenang. 
+(2) Dalam hal terdapat batas wilayah yang belum ditetapkan secara pasti di lapangan oleh Instansi Pemerintah yang berwenang sebagaimana dimaksud pada ayat (1), digunakan batas wilayah sementara yang penggambarannya dibedakan dengan menggunakan simbol dan/atau warna khusus. 
+Pasal 17 
+(1) IGD diselenggarakan secara bertahap dan sistematis untuk seluruh wilayah Negara Kesatuan Republik Indonesia dan wilayah yurisdiksinya. 
+(2) IGD sebagaimana dimaksud pada ayat (1) dimutakhirkan secara periodik dalam jangka waktu tertentu. 
+(3) Dalam hal terjadi bencana alam, perang, pemekaran atau perubahan wilayah administratif, atau kejadian lainnya yang berakibat berubahnya unsur IGD sebagaimana dimaksud dalam Pasal 5 sehingga mempengaruhi pola dan struktur kehidupan masyarakat, pemutakhiran IGD harus dilakukan tanpa menunggu pemutakhiran secara periodik sebagaimana dimaksud pada ayat (2). 
+(4) Ketentuan lebih lanjut mengenai norma, standar, prosedur, dan kriteria pemutakhiran IGD diatur dengan Peraturan Kepala Badan. 
+(5) Ketentuan lebih lanjut mengenai jangka waktu pemutakhiran IGD diatur dalam Peraturan Pemerintah. 
+Pasal 18 
+(1) Peta Rupabumi Indonesia sebagaimana dimaksud dalam Pasal 7 huruf a diselenggarakan pada skala 1:1.000.000, 1:500.000, 1:250.000, 1:100.000, 1:50.000, 1:25.000, 1:10.000, 1:5.000, 1:2.500, dan 1:1.000. 
+(2) Peta Lingkungan Pantai Indonesia sebagaimana dimaksud dalam Pasal 7 huruf b diselenggarakan pada skala 1:250.000, 1:50.000, 1:25.000, dan 1:10.000. 
+(3) Peta Lingkungan Laut Nasional sebagaimana dimaksud dalam Pasal 7 huruf c diselenggarakan pada skala 1:500.000, 1:250.000, dan 1:50.000. 
+Bagian Ketiga 
+Informasi Geospasial Tematik 
+Pasal 19 
+IGT sebagaimana dimaksud dalam Pasal 4 huruf b wajib mengacu pada IGD. 
+6 / 34
+www.hukumonline.com 
+Pasal 20 
+Dalam membuat IGT dilarang: 
+a. mengubah posisi dan tingkat ketelitian geometris bagian IGD; dan/atau 
+b. membuat skala IGT lebih besar daripada skala IGD yang diacunya. 
+Pasal 21 
+(1) IGT yang menggambarkan suatu batas yang mempunyai kekuatan hukum dibuat berdasarkan dokumen penetapan batas secara pasti oleh Instansi Pemerintah yang berwenang. 
+(2) Penetapan batas yang dibuat oleh Instansi Pemerintah dan/atau Pemerintah daerah yang berwenang dilampiri dengan dokumen IGT yang akurat dan dapat dipertanggungjawabkan. 
+(3) Dalam hal terdapat batas yang belum ditetapkan secara pasti oleh Instansi Pemerintah yang berwenang sebagaimana dimaksud pada ayat (1), digunakan batas sementara yang penggambarannya dibedakan dengan menggunakan simbol dan/atau warna khusus. 
+BAB IV 
+PENYELENGGARA INFORMASI GEOSPASIAL 
+Pasal 22 
+(1) IG yang berjenis IGD sebagaimana dimaksud dalam Pasal 4 huruf a hanya diselenggarakan oleh Pemerintah. 
+(2) Penyelenggaraan IGD sebagaimana dimaksud pada ayat (1) dilakukan oleh Badan yang disebut Badan Informasi Geospasial sebagai pengganti Badan Koordinasi Survei dan Pemetaan Nasional sesuai dengan amanat Undang- Undang ini. 
+(3) Badan sebagaimana dimaksud pada ayat (2) berkedudukan di bawah dan bertanggung jawab kepada Presiden. 
+(4) Ketentuan lebih lanjut mengenai tugas, fungsi, susunan organisasi, dan tata kerja Badan diatur dengan Peraturan Presiden. 
+Pasal 23 
+(1) IG yang berjenis IGT sebagaimana dimaksud dalam Pasal 4 huruf b dapat diselenggarakan oleh Instansi Pemerintah, Pemerintah daerah, dan/atau setiap orang. 
+(2) Instansi Pemerintah atau Pemerintah daerah dalam menyelenggarakan IGT berdasarkan tugas, fungsi, dan kewenangannya sesuai dengan ketentuan peraturan perundang-undangan. 
+(3) Instansi Pemerintah atau Pemerintah daerah sebagaimana dimaksud pada ayat (2) dalam menyelenggarakan IGT dapat bekerja sama dengan Badan. 
+(4) Setiap orang dapat menyelenggarakan IGT hanya untuk kepentingan sendiri dan selain yang diselenggarakan oleh Instansi Pemerintah atau Pemerintah daerah. 
+Pasal 24 
+(1) Badan dapat mengintegrasikan: 
+7 / 34
+www.hukumonline.com 
+a. lebih dari satu IGT yang diselenggarakan oleh Instansi Pemerintah atau Pemerintah daerah menjadi satu IGT baru; dan 
+b. IGT yang diselenggarakan oleh lebih dari satu Instansi Pemerintah dan/atau Pemerintah daerah menjadi satu IGT baru. 
+(2) Badan dapat menyelenggarakan IGT dalam hal IGT yang belum diselenggarakan oleh Instansi Pemerintah selain Badan atau yang belum diselenggarakan oleh Pemerintah daerah. 
+BAB V 
+PENYELENGGARAAN INFORMASI GEOSPASIAL  
+Bagian Kesatu 
+Umum 
+Pasal 25 
+Penyelenggaraan IG dilakukan melalui kegiatan: 
+a. pengumpulan DG; 
+b. pengolahan DG dan IG; 
+c. penyimpanan dan pengamanan DG dan IG; 
+d. penyebarluasan DG dan IG; dan 
+e. penggunaan IG. 
+Bagian Kedua 
+Pengumpulan Data Geospasial 
+Pasal 26 
+(1) Pengumpulan DG sebagaimana dimaksud dalam Pasal 25 huruf a merupakan proses atau cara untuk mendapatkan DG yang dilakukan dengan menggunakan metode dan instrumen pengumpulan DG. 
+(2) DG sebagaimana dimaksud pada ayat (1) terdiri atas: 
+a. DG Dasar; dan 
+b. DG Tematik. 
+Pasal 27 
+(1) Pengumpulan DG dilakukan dengan: 
+a. survei dengan menggunakan instrumentasi ukur dan/atau rekam, yang dilakukan di darat, pada wahana air, pada wahana udara, dan/atau pada wahana angkasa; 
+b. pencacahan; dan/atau 
+c. cara lain sesuai dengan perkembangan ilmu pengetahuan dan teknologi. 
+8 / 34
+www.hukumonline.com 
+(2) Pengumpulan DG sebagaimana dimaksud pada ayat (1) harus dilakukan sesuai dengan standar yang meliputi: 
+a. sistem referensi geospasial; dan 
+b. jenis, definisi, kriteria, dan format data. 
+(3) Ketentuan lebih lanjut mengenai tata cara dan standar pengumpulan DG sebagaimana dimaksud pada ayat (1) dan ayat (2) diatur dengan Peraturan Kepala Badan. 
+Pasal 28 
+(1) Pengumpulan DG harus memperoleh izin apabila: 
+a. dilakukan di daerah terlarang; 
+b. berpotensi menimbulkan bahaya; atau 
+c. menggunakan wahana milik asing selain satelit. 
+(2) Izin sebagaimana dimaksud pada ayat (1) dimaksudkan untuk menjamin keselamatan dan keamanan bagi pengumpul data dan bagi masyarakat. 
+(3) Ketentuan lebih lanjut mengenai tata cara memperoleh izin sebagaimana dimaksud pada ayat (1) diatur dengan Peraturan Pemerintah. 
+Pasal 29 
+(1) Instansi Pemerintah atau Pemerintah daerah dalam pengumpulan DG pada suatu kawasan harus memberitahukan kepada pemilik, penguasa, atau penerima manfaat dari kawasan tersebut. 
+(2) Pemilik, penguasa, atau penerima manfaat dari kawasan sebagaimana dimaksud pada ayat (1) dapat menolak dan/atau menyarankan agar kegiatan pengumpulan data dilaksanakan pada waktu lain hanya apabila di kawasan tersebut ada hal yang dapat membahayakan pengumpul data. 
+(3) Penolakan dan/atau saran sebagaimana dimaksud pada ayat (2) harus disampaikan paling lambat 7 (tujuh) hari setelah pemberitahuan disampaikan oleh pengumpul data. 
+(4) Pengumpul data dapat melanjutkan kegiatan pada kawasan tersebut apabila pemilik, penguasa, atau penerima manfaat dari kawasan tidak memberi jawaban dalam jangka waktu 7 (tujuh) hari sebagaimana dimaksud pada ayat (3). 
+Bagian Ketiga 
+Pengolahan Data dan Informasi Geospasial 
+Pasal 30 
+Pengolahan DG dan IG sebagaimana dimaksud dalam Pasal 25 huruf b merupakan proses atau cara mengolah data dan informasi geospasial. 
+Pasal 31 
+(1) Pengolahan DG dan IG dilakukan dengan menggunakan perangkat lunak yang: a. berlisensi; dan/atau 
+9 / 34
+www.hukumonline.com 
+b. bersifat bebas dan terbuka. 
+(2) Pemerintah memberikan insentif bagi setiap orang yang dapat membangun, mengembangkan, dan/atau menggunakan perangkat lunak pengolah DG dan IG yang bersifat bebas dan terbuka. 
+(3) Ketentuan lebih lanjut mengenai bentuk dan tata cara pemberian insentif sebagaimana dimaksud pada ayat (2) diatur dengan Peraturan Pemerintah. 
+Pasal 32 
+(1) Pengolahan DG dan IG harus dilakukan di dalam negeri. 
+(2) Dalam hal sumber daya manusia dan/atau peralatan yang dibutuhkan belum tersedia di dalam negeri, pengolahan DG dan IG dapat dilakukan di luar negeri. 
+(3) Pengolahan DG dan IG di luar negeri sebagaimana dimaksud pada ayat (2) dilakukan setelah mendapat izin dari Badan sesuai dengan ketentuan peraturan perundang-undangan. 
+Pasal 33 
+Pengolahan DG dan IG meliputi pemrosesan DG dan penyajian IG. 
+Pasal 34 
+(1) Pemrosesan DG sebagaimana dimaksud dalam Pasal 33 harus dilakukan sesuai dengan standar yang meliputi: 
+a. sistem proyeksi dan sistem koordinat yang dengan jelas dan pasti dapat ditransformasikan ke dalam sistem koordinat standar nasional; dan 
+b. format, basisdata, dan metadata yang dapat dengan mudah diintegrasikan dengan IG lain. (2) Standar sebagaimana dimaksud pada ayat (1) ditetapkan oleh Kepala Badan. 
+Pasal 35 
+Penyajian IG sebagaimana dimaksud dalam Pasal 33 dilakukan dalam bentuk: 
+a. tabel informasi berkoordinat; 
+b. peta cetak, baik dalam bentuk lembaran maupun buku atlas; 
+c. peta digital; 
+d. peta interaktif, termasuk yang dapat diakses melalui teknologi informasi dan komunikasi; e. peta multimedia; 
+f. bola dunia; atau 
+g. model tiga dimensi. 
+Pasal 36 
+Penyajian IG dalam bentuk sebagaimana dimaksud dalam Pasal 35 huruf b sampai dengan huruf g wajib menggunakan skala yang ditentukan berdasarkan tingkat ketelitian sumber data dan tujuan penggunaan IG. 
+10 / 34
+www.hukumonline.com 
+Bagian Keempat 
+Penyimpanan dan Pengamanan Data dan Informasi Geospasial 
+Pasal 37 
+Penyimpanan dan pengamanan DG dan IG sebagaimana dimaksud dalam Pasal 25 huruf c merupakan cara menempatkan DG dan IG pada tempat yang aman dan tidak rusak atau hilang untuk menjamin ketersediaan IG. 
+Pasal 38 
+(1) Penyimpanan dan pengamanan sebagaimana dimaksud dalam Pasal 37 dilakukan sesuai dengan standar prosedur penyimpanan dan mekanisme penyimpanan untuk pengarsipan DG dan IG. 
+(2) Penyimpanan dan pengamanan sebagaimana dimaksud pada ayat (1) dilakukan dengan menggunakan media penyimpanan elektronik atau cetak. 
+(3) Ketentuan lebih lanjut mengenai standar prosedur penyimpanan dan mekanisme penyimpanan untuk pengarsipan DG dan IG sebagaimana dimaksud pada ayat (1) diatur dengan Peraturan Kepala Badan. 
+Pasal 39 
+(1) Instansi Pemerintah menyerahkan duplikat IGT yang diselenggarakannya kepada Instansi Pemerintah yang bertanggung jawab di bidang perpustakaan nasional dan di bidang arsip nasional dan dapat mengaksesnya kembali. 
+(2) Pemerintah daerah menyerahkan duplikat IGT yang diselenggarakannya kepada instansi yang bertanggung jawab di bidang perpustakaan daerah dan di bidang arsip daerah dan dapat mengaksesnya kembali. 
+(3) Ketentuan lebih lanjut mengenai tata cara penyerahan IGT sebagaimana dimaksud pada ayat (1) dan ayat (2) diatur dengan Peraturan Pemerintah. 
+Pasal 40 
+(1) Pengamanan DG dan IG juga dilakukan terhadap tanda fisik sebagaimana dimaksud dalam Pasal 8 ayat (2), Pasal 9 ayat (2), dan Pasal 10 ayat (2). 
+(2) Pengamanan DG dan IG sebagaimana dimaksud pada ayat (1) dilakukan untuk menjamin agar IG: a. tetap tersedia dan terjaga keutuhannya; dan 
+b. terjaga kerahasiaannya untuk IG yang bersifat tertutup. 
+Bagian Kelima 
+Penyebarluasan Data dan Informasi Geospasial 
+Pasal 41 
+Penyebarluasan DG dan IG sebagaimana dimaksud dalam Pasal 25 huruf d merupakan kegiatan pemberian akses, pendistribusian, dan pertukaran DG dan IG yang dapat dilakukan dengan menggunakan media elektronik dan media cetak. 
+11 / 34
+www.hukumonline.com 
+Pasal 42 
+IGD sebagaimana dimaksud dalam Pasal 4 huruf a bersifat terbuka. 
+Pasal 43 
+(1) IGT yang dibuat oleh Instansi Pemerintah dan/atau Pemerintah daerah bersifat terbuka. 
+(2) IGT tertentu yang dibuat oleh Instansi Pemerintah dan/atau Pemerintah daerah dapat bersifat tertutup sesuai dengan ketentuan peraturan perundang-undangan. 
+Pasal 44 
+(1) Penyelenggara IG yang bersifat terbuka menyebarluaskan IG sebagaimana dimaksud dalam Pasal 41 dengan cara yang berdaya guna dan berhasil guna. 
+(2) Penyelenggara IG sebagaimana dimaksud pada ayat (1) membuat dan mengumumkan standar pelayanan minimal untuk penyebarluasan IG yang diselenggarakan. 
+(3) Pemerintah dapat memberikan penghargaan bagi setiap orang yang membantu menyebarluaskan IG yang bersifat terbuka. 
+Pasal 45 
+(1) Pemerintah membangun jaringan IG untuk penyebarluasan IG secara elektronik. 
+(2) Jaringan IG sebagaimana dimaksud pada ayat (1) dibangun secara bertingkat dan terintegrasi pada jaringan IG pusat dan jaringan IG daerah. 
+(3) Jaringan IG pusat dilaksanakan oleh Badan. 
+(4) Jaringan IG daerah dilaksanakan oleh Pemerintah daerah dan diintegrasikan dengan jaringan IG pusat oleh Badan. 
+(5) Ketentuan mengenai jaringan IG dilaksanakan sesuai dengan ketentuan peraturan perundang-undangan. 
+Pasal 46 
+Dalam hal IG memiliki kekuatan hukum, IG tersebut wajib disahkan oleh pejabat yang berwenang sebelum diumumkan dan disebarluaskan. 
+Bagian Keenam 
+Penggunaan Informasi Geospasial 
+Pasal 47 
+(1) Penggunaan IG sebagaimana dimaksud dalam Pasal 25 huruf e merupakan kegiatan untuk memperoleh manfaat, baik langsung maupun tidak langsung. 
+(2) Ketentuan lebih lanjut mengenai tata cara memperoleh manfaat sebagaimana dimaksud pada ayat (1) diatur oleh penyelenggara IG. 
+12 / 34
+www.hukumonline.com 
+Pasal 48 
+Untuk memperoleh dan menggunakan IG yang diselenggarakan oleh Instansi Pemerintah dan Pemerintah daerah dapat dikenakan biaya tertentu yang besarnya sesuai dengan ketentuan peraturan perundang undangan. 
+Pasal 49 
+(1) Pengguna IG berhak mengetahui kualitas IG yang diperolehnya. 
+(2) Penyelenggara IG wajib memberitahukan kualitas setiap IG yang diselenggarakannya dalam bentuk metadata dan/atau riwayat data. 
+(3) Pengguna IG berhak menolak hasil IG yang tidak berkualitas. 
+(4) Metadata dan/atau riwayat data sebagaimana dimaksud pada ayat (2) dibuat dalam format tertentu yang ditetapkan oleh Kepala Badan. 
+Pasal 50 
+Instansi Pemerintah, Pemerintah daerah, dan setiap orang yang membuat produk turunan suatu IG dengan maksud untuk diperjualbelikan wajib mendapat izin dari pemilik IG. 
+Pasal 51 
+Instansi Pemerintah dan Pemerintah daerah harus menggunakan IG yang akurat dalam pengambilan keputusan dan/atau penentuan kebijakan yang berhubungan dengan ruang kebumian. 
+Pasal 52 
+Untuk keperluan penanggulangan bencana, setiap orang harus memberikan IGT yang dimilikinya apabila diminta oleh Instansi Pemerintah atau Pemerintah daerah yang diberi tugas dalam urusan penanggulangan bencana. 
+Bagian Ketujuh 
+Infrastruktur Penyelenggaraan Informasi Geospasial 
+Pasal 53 
+(1) Pemerintah wajib memfasilitasi pembangunan infrastruktur IG untuk memperlancar penyelenggaraan IG. 
+(2) Infrastruktur IG sebagaimana dimaksud pada ayat (1) terdiri atas kebijakan, kelembagaan, teknologi, standar, dan sumber daya manusia. 
+(3) Ketentuan lebih lanjut mengenai kebijakan, kelembagaan, teknologi, standar, dan sumber daya manusia sebagaimana dimaksud pada ayat (2) diatur dengan Peraturan Pemerintah. 
+13 / 34
+www.hukumonline.com 
+BAB VI 
+PELAKSANA INFORMASI GEOSPASIAL 
+Pasal 54 
+Kegiatan penyelenggaraan IG oleh Instansi Pemerintah atau Pemerintah daerah dapat dilaksanakan oleh setiap orang. 
+Pasal 55 
+(1) Pelaksanaan IG sebagaimana dimaksud dalam Pasal 54 yang dilakukan oleh orang perseorangan wajib memenuhi kualifikasi kompetensi yang dikeluarkan oleh lembaga yang berwenang sesuai dengan ketentuan peraturan perundang-undangan. 
+(2) Pelaksanaan IG yang dilakukan oleh kelompok orang wajib memenuhi kualifikasi sebagai kelompok yang bergerak di bidang IG sesuai dengan ketentuan peraturan perundang-undangan. 
+Pasal 56 
+(1) Pelaksanaan IG yang dilakukan oleh badan usaha wajib memenuhi: 
+a. persyaratan administratif; dan 
+b. persyaratan teknis. 
+(2) Persyaratan administratif sebagaimana dimaksud pada ayat (1) huruf a paling sedikit meliputi: a. akte pendirian badan hukum Indonesia; dan 
+b. izin usaha sesuai dengan ketentuan peraturan perundang-undangan. 
+(3) Persyaratan teknis sebagaimana dimaksud pada ayat (1) huruf b meliputi: 
+a. memiliki sertifikat yang memenuhi klasifikasi dan kualifikasi sebagai penyedia jasa di bidang IG; dan 
+b. memiliki tenaga profesional yang tersertifikasi di bidang IG. 
+(4) Sertifikasi sebagaimana dimaksud pada ayat (3) huruf a dilakukan oleh lembaga independen yang telah mendapat akreditasi dari Badan. 
+(5) Sertifikat tenaga profesional sebagaimana dimaksud pada ayat (3) huruf b diterbitkan oleh lembaga yang berwenang sesuai dengan ketentuan Peraturan Kepala Badan. 
+(6) Ketentuan lebih lanjut mengenai tata cara sertifikasi sebagaimana dimaksud pada ayat (4) diatur dengan Peraturan Kepala Badan. 
+BAB VII 
+PEMBINAAN 
+Pasal 57 
+(1) Badan melakukan pembinaan mengenai pemaknaan, pengarahan, perencanaan, dan evaluasi terhadap penyelenggaraan IGT. 
+14 / 34
+www.hukumonline.com 
+(2) Pembinaan penyelenggaraan IGT sebagaimana dimaksud pada ayat (1) dilakukan kepada: a. penyelenggara IGT; dan 
+b. pengguna IG. 
+(3) Pembinaan kepada penyelenggara IGT sebagaimana dimaksud pada ayat (2) huruf a dilakukan melalui: 
+a. pengaturan dalam bentuk penerbitan peraturan perundang-undangan, pedoman, standar, dan spesifikasi teknis serta sosialisasinya; 
+b. pemberian bimbingan, supervisi, pendidikan, dan pelatihan; 
+c. perencanaan, penelitian, pengembangan, pemantauan, dan evaluasi; dan/atau 
+d. penyelenggaraan jabatan fungsional secara nasional untuk sumber daya manusia di Instansi Pemerintah dan Pemerintah daerah. 
+(4) Pembinaan kepada pengguna IG sebagaimana dimaksud pada ayat (2) huruf b dilakukan melalui: a. sosialisasi keberadaan IG beserta kemungkinan pemanfaatannya; dan/atau 
+b. pendidikan dan pelatihan teknis penggunaan IG. 
+(5) Ketentuan lebih lanjut mengenai pembinaan sebagaimana dimaksud pada ayat (1) sampai dengan ayat (4) diatur dengan Peraturan Pemerintah. 
+BAB VIII 
+LARANGAN 
+Pasal 58 
+Setiap orang yang tanpa hak dan melawan hukum dilarang menghilangkan, merusak, mengambil, memindahkan, atau mengubah tanda fisik yang merupakan bagian dari JKHN, JKVN, dan JKGN serta instrumen survei yang sedang digunakan. 
+Pasal 59 
+(1) Setiap orang dilarang mengubah IGD tanpa izin dari Badan dan menyebarluaskan hasilnya. 
+(2) Setiap orang dilarang menyebarluaskan IGD yang diubah-tanpa izin sebagaimana dimaksud pada ayat (1). 
+Pasal 60 
+(1) Setiap orang dilarang mengubah IGT tanpa izin dari penyelenggara IGT dan menyebarluaskan hasilnya. 
+(2) Setiap orang dilarang menyebarluaskan IGT yang diubah tanpa izin sebagaimana dimaksud pada ayat (1). 
+Pasal 61 
+Setiap orang dilarang membuat IG yang penyajiannya tidak sesuai dengan tingkat ketelitian sumber data yang mengakibatkan timbulnya kerugian orang dan/atau barang. 
+15 / 34
+www.hukumonline.com 
+Pasal 62 
+Setiap orang dilarang menyebarluaskan IG yang belum disahkan sebagaimana dimaksud dalam Pasal 46. 
+BAB IX 
+SANKSI ADMINISTRATIF 
+Pasal 63 
+(1) Setiap orang yang melanggar ketentuan Pasal 20, Pasal 36, Pasal 46, Pasal 49 ayat (2), Pasal 50, atau Pasal 55 dapat dikenai sanksi administratif. 
+(2) Sanksi administratif sebagaimana dimaksud pada ayat (1) berupa: 
+a. peringatan tertulis; 
+b. penghentian sementara sebagian atau seluruh kegiatan; 
+c. denda administratif; dan/atau 
+d. pencabutan izin. 
+(3) Ketentuan lebih lanjut mengenai tata cara pelaksanaan sanksi administratif sebagaimana dimaksud pada ayat (2) diatur dengan Peraturan Pemerintah. 
+BAB X 
+KETENTUAN PIDANA 
+Pasal 64 
+(1) Setiap orang yang memenuhi unsur Pasal 58 dipidana dengan pidana penjara paling lama 2 (dua) tahun atau denda paling banyak Rp500.000.000,00 (lima ratus juta rupiah). 
+(2) Jika perbuatan sebagaimana dimaksud pada ayat (1) mengakibatkan timbulnya bahaya atau kerugian bagi orang atau barang, pelaku dipidana dengan pidana penjara paling lama 5 (lima) tahun atau denda paling banyak Rp1.250.000.000,00 (satu miliar dua ratus lima puluh juta rupiah). 
+Pasal 65 
+(1) Setiap orang yang memenuhi unsur Pasal 59 ayat (1) dipidana dengan pidana penjara paling lama 1 (satu) tahun atau denda paling banyak Rp250.000.000,00 (dua ratus lima puluh juta rupiah). 
+(2) Setiap orang yang memenuhi unsur Pasal 59 ayat (2) dipidana dengan pidana penjara paling lama 1 (satu) tahun atau denda paling banyak Rp250.000.000,00 (dua ratus lima puluh juta rupiah). 
+(3) Jika perbuatan sebagaimana dimaksud pada ayat (1) mengakibatkan timbulnya bahaya atau kerugian bagi orang atau barang, pelaku dipidana dengan pidana penjara paling lama 3 (tiga) tahun atau denda paling banyak Rp750.000.000,00 (tujuh ratus lima puluh juta rupiah). 
+Pasal 66 
+(1) Setiap orang yang memenuhi unsur Pasal 60 ayat (1) dipidana dengan pidana penjara paling lama 6 (enam) bulan atau denda paling banyak Rp125.000.000,00 (seratus dua puluh lima juta rupiah). 
+16 / 34
+www.hukumonline.com 
+(2) Setiap orang yang memenuhi unsur Pasal 60 ayat (2) dipidana dengan pidana penjara paling lama 6 (enam) bulan atau denda paling banyak Rp125.000.000,00 (seratus dua puluh lima juta rupiah). 
+(3) Jika perbuatan sebagaimana dimaksud pada ayat (1) mengakibatkan timbulnya bahaya atau kerugian bagi orang atau barang, pelaku dipidana dengan pidana penjara paling lama 3 (tiga) tahun atau denda paling banyak Rp750.000.000,00 (tujuh ratus lima puluh juta rupiah). 
+Pasal 67 
+Setiap orang yang memenuhi unsur Pasal 61 dipidana dengan pidana penjara paling lama 3 (tiga) tahun atau denda paling banyak Rp750.000.000,00 (tujuh ratus lima puluh juta rupiah). 
+Pasal 68 
+(1) Setiap orang yang memenuhi unsur Pasal 62 dipidana dengan pidana penjara paling lama 2 (dua) tahun atau denda paling banyak Rp500.000.000,00 (lima ratus juta rupiah). 
+(2) Jika perbuatan sebagaimana dimaksud pada ayat (1) mengakibatkan timbulnya bahaya atau kerugian bagi orang atau barang, pelaku dipidana dengan pidana penjara paling lama 3 (tiga) tahun atau denda paling banyak Rp750.000.000,00 (tujuh ratus lima puluh juta rupiah). 
+BAB XI 
+KETENTUAN PERALIHAN 
+Pasal 69 
+(1) Pada saat Undang-Undang ini berlaku, penyelenggara IG tetap dapat menjalankan kegiatannya dengan ketentuan dalam waktu paling lama 3 (tiga) tahun wajib menyesuaikan berdasarkan Undang-Undang ini. 
+(2) Sebelum Badan yang dimaksudkan Undang-Undang ini ditetapkan, penyelenggaraan IGD dilakukan oleh Badan Koordinasi Survei dan Pemetaan Nasional. 
+BAB XII 
+KETENTUAN PENUTUP 
+Pasal 70 
+(1) Peraturan Pemerintah dan peraturan pelaksanaan lainnya dari Undang-Undang ini ditetapkan paling lambat 2 (dua) tahun sejak Undang-Undang ini berlaku. 
+(2) Pada saat berlakunya Undang-Undang ini, maka segala peraturan perundang-undangan yang mengatur dan/atau berkaitan dengan penyelenggaraan IG dinyatakan tetap berlaku sepanjang tidak bertentangan dengan Undang-Undang ini. 
+Pasal 71 
+Undang-Undang ini mulai berlaku pada tanggal diundangkan. 
+Agar setiap orang mengetahuinya, memerintahkan pengundangan Undang-Undang ini dengan penempatannya dalam Lembaran Negara Republik Indonesia. 
+17 / 34
+www.hukumonline.com 
+Disahkan Di Jakarta, 
+Pada Tanggal 21 April 2011 
+PRESIDEN REPUBLIK INDONESIA, 
+Ttd. 
+DR. H. SUSILO BAMBANG YUDHOYONO 
+Diundangkan Di Jakarta, 
+Pada Tanggal 21 April 2011 
+MENTERI HUKUM DAN HAK ASASI MANUSIA REPUBLIK INDONESIA, 
+Ttd. 
+PATRIALIS AKBAR 
+LEMBARAN NEGARA REPUBLIK INDONESIA TAHUN 2011 NOMOR 49 
+18 / 34
+www.hukumonline.com 
+PENJELASAN 
+UNDANG-UNDANG REPUBLIK INDONESIA 
+NOMOR 4 TAHUN 2011 
+TENTANG 
+INFORMASI GEOSPASIAL 
+I. UMUM 
+Undang-Undang Dasar Negara Republik Indonesia Tahun 1945 Pasal 28F mengamanatkan bahwa setiap orang berhak untuk berkomunikasi dan memperoleh informasi untuk mengembangkan pribadi dan lingkungan sosialnya, serta berhak untuk mencari, memperoleh, memiliki, menyimpan, mengolah dan menyampaikan informasi dengan menggunakan segala jenis saluran yang tersedia. Informasi dalam arti luas sebagaimana diamanatkan dalam pasal tersebut adalah termasuk Informasi Geospasial. 
+Informasi Geospasial (IG) merupakan alat bantu dalam perumusan kebijakan, pengambilan keputusan, dan/atau pelaksanaan kegiatan yang berhubungan dengan ruang kebumian. IG sangat berguna sebagai sistem pendukung pengambilan kebijakan dalam rangka mengoptimalkan pembangunan di bidang ekonomi, sosial, budaya, dan ketahanan nasional, khususnya dalam pengelolaan sumber daya alam, penyusunan rencana tata ruang, perencanaan lokasi investasi dan bisnis perekonomian, penentuan garis batas wilayah, pertanahan, dan kepariwisataan. IG juga merupakan informasi yang amat diperlukan dalam penanggulangan bencana, pelestarian lingkungan hidup, dan pertahanan keamanan. 
+Dengan menyadari pentingnya IG dalam pembangunan di berbagai sektor, IG harus dijamin kemutakhiran dan keakuratannya serta diselenggarakan secara terpadu. Hal ini untuk menghindari adanya kekeliruan, kesalahan, dan tumpang tindih informasi yang berakibat pada ketidakpastian hukum, inefisiensi anggaran pembangunan, dan inefektivitas informasi. 
+IG secara umum bersifat terbuka dan harus mudah diakses oleh para pengguna sehingga secara optimal dapat dimanfaatkan. Keterbukaan IG juga menjadi jaminan adanya pelayanan publik yang baik oleh aparat pemerintah dalam menyediakan IG bagi kepentingan masyarakat. 
+Untuk mewujudkan keterpaduan dan kepastian hukum dalam penyelenggaraan IG, perlu diatur kategorisasi secara pasti. Secara umum IG terbagi menjadi Informasi Geospasial Dasar (IGD) dan Informasi Geospasial Tematik (IGT). IGD mencakup acuan posisi dan peta dasar, adapun IGT mencakup berbagai ragam tema, seperti kehutanan, pertanian, perikanan, dan pertambangan. IGD menjadi acuan pembuatan berbagai IGT. Oleh karena itu, salah satu ciri penting IGD adalah unsur-unsurnya tidak berubah dalam waktu yang lama sesuai dengan karakteristik dari unsur-unsur tersebut. 
+Selain kategorisasi IG, perlu diatur pula masalah kelembagaan dalam penyelenggaraan IG. Pengaturan ini dimaksudkan untuk menjamin kepastian siapa yang bertanggung jawab atas data dan informasi tertentu. 
+Selanjutnya diperlukan pengaturan tentang sumber daya manusia dan badan usaha di bidang IG, sehingga industri IG dapat tumbuh dan berkembang dengan baik. Kemajuan industri IG akan menjamin ketersediaan, aksesibilitas, dan pemanfaatan IG di tengah masyarakat dan dalam proses pembangunan. 
+II. PASAL DEMI PASAL 
+Pasal 1 
+Cukup jelas. 
+19 / 34
+www.hukumonline.com 
+Pasal 2 
+Huruf a 
+Yang dimaksud dengan “kepastian hukum” adalah bahwa penyelenggaraan IG berlandaskan hukum dan peraturan perundang-undangan yang memberikan kepastian hak dan kewajiban bagi para pemangku kepentingan. 
+Huruf b 
+Yang dimaksud dengan "keterpaduan" adalah bahwa penyelenggaraan IG dilakukan bersama-sama oleh Pemerintah, Pemerintah daerah dan setiap orang, yang harus saling mengisi dan saling memperkuat dalam memenuhi kebutuhan IG, menghindari terjadinya duplikasi, dan mendorong pemanfaatan IG bersama. 
+Huruf c 
+Yang dimaksud dengan “keterbukaan” adalah bahwa penyelenggaraan IG dimaksudkan untuk dapat dipergunakan oleh banyak pihak dengan memberikan akses yang mudah kepada masyarakat untuk mendapatkan IG. 
+Huruf d 
+Yang dimaksud dengan "kemutakhiran" adalah bahwa IG yang disajikan dan/atau tersedia harus dapat menggambarkan fenomena dan/atau perubahannya menurut keadaan yang terbaru. 
+Huruf e 
+Yang dimaksud dengan "keakuratan" adalah bahwa penyelenggaraan IG harus diupayakan untuk menghasilkan DG dan IG yang teliti, tepat, benar, dan berkualitas sesuai dengan kebutuhan. 
+Huruf f 
+Yang dimaksud dengan "kemanfaatan” adalah bahwa IG harus dapat memberikan manfaat yang sebesar besarnya bagi masyarakat. 
+Huruf g 
+Yang dimaksud dengan “demokratis” adalah bahwa penyelenggaraan IG dilaksanakan secara luas dengan melibatkan peran serta masyarakat. 
+Pasal 3 
+Cukup jelas. 
+Pasal 4 
+Cukup jelas. 
+Pasal 5 
+Cukup jelas. 
+Pasal 6 
+Cukup jelas. 
+20 / 34
+www.hukumonline.com 
+Pasal 7 
+Cukup jelas. 
+Pasal 8 
+Ayat (1) 
+Yang dimaksud dengan “acuan posisi horizontal” adalah bahwa JKHN dijadikan sebagai referensi geometris posisi horizontal. 
+Ayat (2) 
+Yang dimaksud dengan “metode pengukuran geodetik tertentu” adalah cara pengukuran untuk memperoleh posisi horizontal dengan ketelitian yang diperlukan, memanfaatkan teknologi penentuan posisi geodetik horizontal, baik secara diam (statis) maupun bergerak (kinematis/dinamis), secara sporadis maupun terus menerus (kontinyu), dan secara pasif maupun aktif. 
+Yang dimaksud dengan “sistem referensi koordinat tertentu” adalah sistem untuk menggambarkan koordinat dari titik kontrol geodetik horizontal. 
+Yang dimaksud dengan “tanda fisik” adalah suatu objek alam atau buatan yang bersifat permanen dan stabil yang digunakan sebagai titik kontrol geodetik horizontal. 
+Ayat (3) 
+Yang dimaksud dengan “tingkat ketelitian koordinat horizontal” adalah ukuran kedekatan nilai koordinat horizontal hasil pengukuran terhadap nilai sebenarnya. 
+Pasal 9 
+Ayat (1) 
+Yang dimaksud dengan “acuan posisi vertikal” adalah bahwa JKVN dijadikan sebagai referensi posisi tinggi. 
+Ayat (2) 
+Yang dimaksud dengan “metode pengukuran geodetik tertentu” adalah cara pengukuran untuk memperoleh posisi vertikal dengan ketelitian yang diperlukan, memanfaatkan teknologi penentuan posisi geodetik vertikal. 
+Yang dimaksud dengan “datum vertikal tertentu” adalah bidang yang menjadi acuan tinggi yang ditetapkan untuk menggambarkan posisi tinggi. 
+Yang dimaksud dengan “sistem tinggi tertentu” adalah sistem yang dipilih untuk mengubah data tinggi dari satuan potensial gayaberat menjadi satuan metrik. 
+Yang dimaksud dengan “tanda fisik” adalah suatu objek alam atau buatan yang bersifat permanen dan stabil yang digunakan sebagai titik kontrol geodetik vertikal. 
+Ayat (3) 
+Yang dimaksud dengan “tingkat ketelitian vertikal” adalah ukuran kedekatan nilai tinggi hasil pengukuran terhadap nilai tinggi sebenarnya. 
+Pasal 10 
+Ayat (1) 
+21 / 34
+www.hukumonline.com 
+Yang dimaksud dengan “kerangka acuan gayaberat” adalah bahwa JKGN dijadikan sebagai referensi penentuan nilai gayaberat. 
+Ayat (2) 
+Yang dimaksud dengan “metode pengukuran geodetik tertentu” adalah cara pengukuran untuk memperoleh nilai gayaberat dengan ketelitian yang diperlukan, memanfaatkan teknologi penentuan gayaberat. 
+Yang dimaksud dengan “acuan gayaberat absolut” adalah nilai gayaberat yang ditentukan dengan pengukuran gayaberat secara mandiri. 
+Yang dimaksud dengan “tanda fisik” adalah suatu objek alam atau buatan yang bersifat permanen dan stabil yang digunakan sebagai titik kontrol geodetik gayaberat. 
+Ayat (3) 
+Yang dimaksud dengan “tingkat ketelitian gayaberat” adalah ukuran kedekatan nilai gayaberat hasil pengukuran terhadap nilai gayaberat sebenarnya. 
+Pasal 11 
+Yang dimaksud dengan “tanda fisik jaring kontrol geodesi” adalah satu kesatuan antara tanda titik kontrol geodetik dan objek permanen-dan-stabil yang ditempatinya yang digunakan untuk JKHN, JKVN, dan JKGN. 
+Pasal 12 
+Huruf a 
+Cukup jelas. 
+Huruf b 
+Yang dimaksud dengan “hipsografi” adalah data ketinggian yang bisa digambarkan dengan berbagai cara, seperti titik-titik tinggi, matriks tinggi (model elevasi digital), garis khayal yang menghubungkan titik-titik dengan ketinggian yang sama (garis kontur), atau warna yang mencerminkan ketinggian. 
+Huruf c 
+Yang dimaksud dengan “perairan” adalah garis yang menunjukkan pertemuan daratan dengan permukaan tubuh air (massa air) pada suatu wilayah tertentu, seperti laut, sungai, danau, dan rawa. 
+Huruf d 
+Yang dimaksud dengan “nama rupabumi” adalah nama yang diberikan kepada unsur rupabumi, baik berupa unsur alam maupun buatan manusia. Istilah “nama rupabumi” juga dikenal dengan “toponim”. 
+Huruf e 
+Yang dimaksud dengan “batas wilayah” adalah garis khayal yang menggambarkan batas wilayah antarkelurahan/desa, antarkecamatan, antarkabupaten/kota, antarprovinsi, dan antarnegara. 
+Huruf f 
+Yang dimaksud dengan “transportasi dan utilitas” adalah titik atau garis yang menggambarkan prasarana fisik untuk perpindahan manusia dan/atau barang dari satu tempat ke tempat lain. 
+Huruf g 
+Yang dimaksud dengan “bangunan dan fasilitas umum” adalah titik atau garis yang menggambarkan objek buatan manusia dan berbagai fasilitas umum yang berwujud bangunan. 
+22 / 34
+www.hukumonline.com 
+Huruf h 
+Yang dimaksud dengan “penutup lahan” adalah garis yang menggambarkan batas penampakan area tutupan di atas permukaan bumi yang terdiri dari bentang alam dan/atau bentang buatan. 
+Pasal 13 
+Ayat (1) 
+Yang dimaksud dengan “pasang surut air laut” adalah naik turunnya posisi muka air laut yang disebabkan pengaruh gaya gravitasi bulan dan matahari. 
+Ayat (2) 
+Huruf a 
+Yang dimaksud dengan “surut terendah” adalah saat ketika muka air laut pada kedudukan air paling rendah dalam suatu periode tertentu yang ditetapkan berdasarkan ketentuan International Hydrographic Organization (IHO). 
+Huruf b 
+Yang dimaksud dengan “pasang tertinggi” adalah saat ketika muka air laut pada kedudukan paling tinggi dalam suatu periode tertentu yang ditetapkan berdasarkan ketentuan International Hydrographic Organization (IHO). 
+Huruf c 
+Yang dimaksud dengan “tinggi muka air laut rata-rata” adalah tinggi muka air laut dari hasil rata-rata pengukuran pasang surut laut dalam suatu periode tertentu yang ditetapkan berdasarkan ketentuan International Hydrographic Organization (IHO). 
+Ayat (3) 
+Cukup jelas. 
+Ayat (4) 
+Cukup jelas. 
+Ayat (5) 
+Yang dimaksud dengan “garis pantai ditentukan dengan mengacu pada JKVN” adalah garis pantai dan JKVN membentuk suatu kesatuan, karena pengamatan pasang surut diperlukan dalam membangun JKVN dan JKVN diperlukan dalam menentukan garis pantai. 
+Pasal 14 
+Ayat (1) 
+Cukup jelas. 
+Ayat (2) 
+Yang dimaksud dengan “garis kontur” adalah garis khayal yang menghubungkan titik-titik yang memiliki ketinggian yang sama. 
+Ayat (3) 
+Yang dimaksud dengan “batimetri” adalah garis khayal yang menghubungkan titik-titik yang memiliki kedalaman yang sama. 
+23 / 34
+www.hukumonline.com 
+Pasal 15 
+Cukup jelas. 
+Pasal 16 
+Ayat (1) 
+Cukup jelas. 
+Ayat (2) 
+Yang dimaksud dengan “simbol” adalah penggambaran batas dengan menggunakan tanda-tanda khusus sesuai dengan kaidah kartografi. 
+Pasal 17 
+Ayat (1) 
+Yang dimaksud dengan “bertahap” adalah diselenggarakan secara berjenjang, wilayah demi wilayah, skala demi skala, atau berselang waktu sesuai dengan prioritas kepentingan. 
+Yang dimaksud dengan “sistematis” adalah diselenggarakan secara teratur sesuai dengan sistem dan teknis pemetaan. 
+Yang dimaksud dengan “wilayah yurisdiksi” adalah wilayah di luar wilayah Negara Kesatuan Republik Indonesia yang terdiri atas Zona Ekonomi Eksklusif, Landas Kontinen, dan Zona Tambahan dimana negara memiliki hak-hak berdaulat dan kewenangan tertentu lainnya sebagaimana diatur dalam peraturan perundang-undangan dan hukum internasional. 
+Ayat (2) 
+Yang dimaksud dengan “jangka waktu tertentu” adalah jangka waktu untuk memutakhirkan IG yang ditentukan berdasarkan kondisi, teknologi, kebutuhan, prioritas, dan anggaran yang tersedia. 
+Yang dimaksud dengan “periodik” adalah kurun waktu tertentu, misalnya setiap 3 (tiga) tahun, 5 (lima) tahun, atau 10 (sepuluh) tahun. 
+Ayat (3) 
+Cukup jelas. 
+Ayat (4) 
+Cukup jelas. 
+Ayat (5) 
+Cukup jelas. 
+Pasal 18 
+Cukup jelas. 
+Pasal 19 
+Yang dimaksud dengan “mengacu” adalah IGD dijadikan sebagai referensi geometris untuk pembuatan IGT. 24 / 34
+www.hukumonline.com 
+Pasal 20 
+Huruf a 
+Yang dimaksud dengan “tingkat ketelitian geometris” adalah ukuran kedekatan yang terkait dengan posisi, bentuk, panjang, luas, dan/atau tinggi. 
+Huruf b 
+Cukup jelas. 
+Pasal 21 
+Ayat (1) 
+Yang dimaksud dengan “batas” adalah garis batas hak atas tanah dan batas kawasan pengelolaan sebagaimana dimaksud dalam Undang-Undang tentang Penataan Ruang, Undang- Undang tentang Penanggulangan Bencana atau undang-undang sejenisnya yang menyebut tentang kawasan. 
+Ayat (2) 
+Yang dimaksud dengan “dokumen IGT” adalah dokumen yang berisi IG sebagai penunjang dalam penetapan batas. 
+Ayat (3) 
+Cukup jelas. 
+Pasal 22 
+Cukup jelas. 
+Pasal 23 
+Ayat (1) 
+Cukup jelas. 
+Ayat (2) 
+Cukup jelas. 
+Ayat (3) 
+Cukup jelas. 
+Ayat (4) 
+Yang dimaksud dengan “untuk kepentingan sendiri” adalah untuk kepentingan pribadi dan tidak untuk disebarluaskan. 
+Pasal 24 
+Cukup jelas. 
+Pasal 25 
+Cukup jelas. 
+25 / 34
+www.hukumonline.com 
+Pasal 26 
+Ayat (1) 
+Cukup jelas. 
+Ayat (2) 
+Huruf a 
+Yang dimaksud dengan “DG dasar” adalah DG yang berisi tentang objek yang dapat dilihat secara langsung atau diukur dari penampakan fisik di muka bumi dan yang tidak berubah dalam waktu yang relatif lama. 
+Huruf b 
+Yang dimaksud dengan “DG tematik” adalah DG yang menggambarkan satu atau lebih tema tertentu. 
+Pasal 27 
+Ayat (1) 
+Huruf a 
+Yang dimaksud dengan “instrumentasi ukur dan/atau rekam yang dilakukan di darat” adalah peralatan yang dioperasikan di permukaan bumi atau di bawah permukaan bumi, misalnya alat meteran, teodolit, total station, Global Positioning System (GPS), lasercanner, gravimeter, dan alat lainnya yang digunakan untuk mengumpulkan data. 
+Yang dimaksud dengan “instrumentasi ukur dan/atau rekam pada wahana air” adalah peralatan yang dipasang pada wahana air, misalnya alat echo-sounder, secchi-disc, dan water-checker. 
+Yang dimaksud dengan “instrumentasi ukur dan/atau rekam pada wahana udara” adalah peralatan yang dipasang pada wahana terbang seperti kamera, sensor radar, dan sensor lidar. 
+Yang dimaksud dengan “instrumentasi ukur dan/atau rekam wahana angkasa” adalah peralatan yang dipasang pada satelit seperti sensor optik, sensor radar, dan sensor lidar. 
+Huruf b 
+Yang dimaksud dengan “pencacahan” adalah pengumpulan data tidak dengan alat, melainkan dengan penghitungan di suatu lokasi, misalnya menghitung jumlah rumah, wawancara, atau penyebaran kuesioner. 
+Huruf c 
+Cukup jelas. 
+Ayat (2) 
+Huruf a 
+Yang dimaksud dengan “sistem referensi geospasial” adalah datum geodesi, sistem referensi koordinat, dan sistem proyeksi. 
+Huruf b 
+Cukup jelas. 
+Ayat (3) 
+Cukup jelas. 
+26 / 34
+www.hukumonline.com 
+Pasal 28 
+Ayat (1) 
+Huruf a 
+Yang dimaksud dengan “daerah terlarang” adalah daerah yang oleh instansi yang berwenang dinyatakan terlarang pada kurun waktu tertentu. 
+Huruf b 
+Cukup jelas. 
+Huruf c 
+Cukup jelas. 
+Ayat (2) 
+Cukup jelas. 
+Ayat (3) 
+Cukup jelas. 
+Pasal 29 
+Ayat (1) 
+Yang dimaksud dengan “kawasan” adalah kawasan milik Instansi Pemerintah, Pemerintah daerah, atau setiap orang. 
+Yang dimaksud dengan “penguasa” adalah Instansi Pemerintah, Pemerintah daerah, atau setiap orang yang menguasai kawasan tersebut. 
+Ayat (2) 
+Yang dimaksud dengan “membahayakan” adalah suatu kondisi bahaya yang disepakati antara pemilik, penguasa, atau penerima manfaat dari kawasan dengan pengumpul data. 
+Ayat (3) 
+Cukup jelas. 
+Ayat (4) 
+Cukup jelas. 
+Pasal 30 
+Cukup jelas. 
+Pasal 31 
+Ayat (1) 
+Huruf a 
+Cukup jelas. 
+Huruf b 
+27 / 34
+www.hukumonline.com 
+Yang dimaksud dengan “bersifat bebas dan terbuka” adalah bahwa perangkat lunak yang gratis atau tidak perlu membayar untuk mendapatkannya, dan pengguna dapat melakukan modifikasi perangkat lunak tersebut. 
+Ayat (2) 
+Cukup jelas. 
+Ayat (3) 
+Cukup jelas. 
+Pasal 32 
+Cukup jelas. 
+Pasal 33 
+Cukup jelas. 
+Pasal 34 
+Ayat (1) 
+Huruf a 
+Yang dimaksud dengan “sistem proyeksi” adalah sistem penggambaran muka bumi yang tidak beraturan secara matematis pada bidang datar. 
+Yang dimaksud dengan “sistem koordinat standar nasional” adalah suatu sistem yang menjadi standar nasional dalam menentukan posisi suatu objek secara unik di muka bumi. 
+Huruf b 
+Yang dimaksud dengan “format” adalah cara penyimpanan data secara digital, misalnya dalam format SHP, DXF, dan JPEG. 
+Yang dimaksud dengan “basis data” adalah sistem penyimpanan data yang terstruktur pada media digital. 
+Yang dimaksud dengan “metadata” adalah data yang menjelaskan riwayat dan karakteristik DG dan IG. 
+Ayat (2) 
+Cukup jelas. 
+Pasal 35 
+Huruf a 
+Yang dimaksud dengan “tabel informasi berkoordinat” adalah kumpulan satu atau lebih koordinat beserta informasi yang melekat pada koordinat tersebut. 
+Huruf b 
+Yang dimaksud dengan “peta cetak” adalah informasi geospasial yang disajikan pada sebuah lembaran kertas dengan ukuran dan skala tertentu yang disajikan menurut kaidah kartografis. 
+28 / 34
+www.hukumonline.com 
+Huruf c 
+Yang dimaksud dengan “peta digital” adalah peta dalam format digital tertentu yang dapat diakses dengan menggunakan perangkat keras dan perangkat lunak tertentu. 
+Huruf d 
+Yang dimaksud dengan “peta interaktif” adalah peta digital yang memberikan fasilitas interaksi antara pengguna dan peta tersebut. 
+Huruf e 
+Yang dimaksud dengan “peta multimedia” adalah peta digital yang dilengkapi dengan fasilitas media rupa rungu (audio visual). 
+Huruf f 
+Yang dimaksud dengan “bola dunia” adalah penyajian informasi geospasial pada sebuah objek berbentuk bola. Istilah “bola dunia” juga dikenal dengan globe. 
+Huruf g 
+Yang dimaksud dengan “model tiga dimensi” adalah penyajian informasi geospasial yang menampilkan relief atau ketinggian dari permukaan bumi. 
+Pasal 36 
+Yang dimaksud dengan “tingkat ketelitian sumber data” adalah tingkat kedetailan sumber data yang masih dapat dibaca dengan jelas dan ukuran kedekatan nilai dalam data tersebut terhadap nilai sebenarnya. 
+Pasal 37 
+Yang dimaksud dengan “penyimpanan” adalah cara menyimpan, sehingga mudah dicari, diambil, dan digunakan. 
+Yang dimaksud dengan “pengamanan” adalah cara menyimpan, sehingga tidak mudah rusak, tidak mudah hilang, dan tidak mudah diambil dengan cara tidak sah. 
+Pasal 38 
+Ayat (1) 
+Cukup jelas. 
+Ayat (2) 
+Yang dimaksud dengan “media penyimpanan elektronik” adalah media yang hanya dapat digunakan dengan perangkat elektronik, baik media lepas, contoh kaset, disket, dan DVD, maupun dalam jaringan komputer. 
+Yang dimaksud dengan “media penyimpanan cetak” adalah media yang dapat digunakan langsung oleh manusia secara visual, contoh pada kertas atau media transparan. 
+Ayat (3) 
+Cukup jelas. 
+29 / 34
+www.hukumonline.com 
+Pasal 39 
+Cukup jelas. 
+Pasal 40 
+Cukup jelas. 
+Pasal 41 
+Cukup jelas. 
+Pasal 42 
+Yang dimaksud dengan “bersifat terbuka” adalah bahwa IGD dapat diakses dan dapat diperoleh oleh setiap orang. 
+Pasal 43 
+Ayat (1) 
+Cukup jelas. 
+Ayat (2) 
+Yang dimaksud dengan “bersifat tertutup” adalah IGT tertentu yang dikecualikan berdasarkan peraturan perundang-undangan yang mengatur mengenai keterbukaan informasi publik. 
+Pasal 44 
+Cukup jelas. 
+Pasal 45 
+Ayat (1) 
+Yang dimaksud dengan “jaringan IG“ adalah suatu sistem penyelenggaraan pengelolaan IG secara bersama, tertib, terukur, terintegrasi, dan berkesinambungan serta berdaya guna. 
+Yang dimaksud dengan “penyebarluasan IG secara elektronik” adalah IG disebarluaskan secara digital melalui jaringan internet atau berupa data pada media penyimpanan elektronik seperti kaset, disket, dan DVD. 
+Ayat (2) 
+Cukup jelas. 
+Ayat (3) 
+Cukup jelas. 
+Ayat (4) 
+Cukup jelas. 
+Ayat (5) 
+30 / 34
+www.hukumonline.com 
+Cukup jelas. 
+Pasal 46 
+Yang dimaksud dengan “memiliki kekuatan hukum” adalah berlaku sah dan mengikat. 
+Yang dimaksud dengan “pejabat yang berwenang” adalah pejabat yang terkait dengan IG sesuai dengan tugas dan kewenangannya, misalnya IGT kawasan hutan produksi disahkan oleh Menteri Kehutanan atau pejabat yang dikuasakannya. 
+Pasal 47 
+Cukup jelas. 
+Pasal 48 
+Cukup jelas. 
+Pasal 49 
+Ayat (1) 
+Yang dimaksud dengan “kualitas” adalah tingkat ketepatan, kerincian, kemutakhiran, dan kelengkapan informasi. 
+Ayat (2) 
+Yang dimaksud dengan “riwayat data” adalah informasi mengenai proses pengumpulan dan pengolahan data. 
+Ayat (3) 
+Yang dimaksud dengan “IG yang tidak berkualitas” adalah tidak tepat, tidak rinci, tidak mutakhir, dan/atau tidak lengkapnya IG sehingga tidak memenuhi kebutuhan pengguna IG tertentu. 
+Ayat (4) 
+Cukup jelas. 
+Pasal 50 
+Cukup jelas. 
+Pasal 51 
+Cukup jelas. 
+Pasal 52 
+Cukup jelas. 
+31 / 34
+www.hukumonline.com 
+Pasal 53 
+Cukup jelas. 
+Pasal 54 
+Cukup jelas. 
+Pasal 55 
+Ayat (1) 
+Yang dimaksud dengan “kualifikasi kompetensi” adalah keahlian atau kemampuan yang diperlukan sebagai pelaksana IG. 
+Ayat (2) 
+Cukup jelas. 
+Pasal 56 
+Ayat (1) 
+Cukup jelas. 
+Ayat (2) 
+Cukup jelas. 
+Ayat (3) 
+Cukup jelas. 
+Ayat (4) 
+Yang dimaksud dengan “sertifikasi dilakukan oleh lembaga independen” adalah adanya suatu lembaga yang bertindak secara mandiri dalam menilai pihak yang akan disertifikasi. 
+Yang dimaksud dengan “akreditasi dari Badan” adalah pengakuan Badan atas kemampuan dan independensi dari lembaga sertifikasi itu. 
+Ayat (5) 
+Cukup jelas. 
+Ayat (6) 
+Cukup jelas. 
+Pasal 57 
+Cukup jelas. 
+Pasal 58 
+Cukup jelas. 
+32 / 34
+www.hukumonline.com 
+Pasal 59 
+Cukup jelas. 
+Pasal 60 
+Cukup jelas. 
+Pasal 61 
+Cukup jelas. 
+Pasal 62 
+Cukup jelas. 
+Pasal 63 
+Cukup jelas. 
+Pasal 64 
+Cukup jelas. 
+Pasal 65 
+Cukup jelas. 
+Pasal 66 
+Cukup jelas. 
+Pasal 67 
+Cukup jelas. 
+Pasal 68 
+Cukup jelas. 
+Pasal 69 
+Cukup jelas. 
+Pasal 70 
+Cukup jelas. 
+33 / 34
+www.hukumonline.com 
+Pasal 71 
+Cukup jelas. 
+TAMBAHAN LEMBARAN NEGARA REPUBLIK INDONESIA NOMOR 5214 
+34 / 34

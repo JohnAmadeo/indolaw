@@ -1,0 +1,4096 @@
+{
+  "metadata": {
+    "lembaranNegaraNumber": 155,
+    "lembaranNegaraYear": 2009,
+    "tambahanLembaranNumber": 5074,
+    "number": 46,
+    "topic": "Pengadilan Tindak Pidana Korupsi",
+    "year": 2009
+  },
+  "content": {
+    "type": "UNDANG_UNDANG",
+    "id": "",
+    "children": [
+      {
+        "type": "OPENING",
+        "id": "",
+        "children": [
+          {
+            "type": "UU_TITLE",
+            "id": "",
+            "children": [
+              {
+                "type": "PLAINTEXT",
+                "text": "UNDANG-UNDANG REPUBLIK INDONESIA"
+              },
+              {
+                "type": "UU_TITLE_YEAR_AND_NUMBER",
+                "text": "NOMOR 46 TAHUN 2009"
+              },
+              {
+                "type": "PLAINTEXT",
+                "text": "TENTANG"
+              },
+              {
+                "type": "UU_TITLE_TOPIC",
+                "text": "PENGADILAN TINDAK PIDANA KORUPSI"
+              }
+            ]
+          },
+          {
+            "type": "PREFACE",
+            "id": "",
+            "children": [
+              {
+                "type": "PLAINTEXT",
+                "text": "DENGAN RAHMAT TUHAN YANG MAHA ESA"
+              },
+              {
+                "type": "PLAINTEXT",
+                "text": "PRESIDEN REPUBLIK INDONESIA,"
+              }
+            ]
+          },
+          {
+            "type": "CONSIDERATIONS",
+            "id": "",
+            "children": [
+              {
+                "type": "PLAINTEXT",
+                "text": "Menimbang:"
+              },
+              {
+                "type": "LIST",
+                "id": "",
+                "children": [
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "LETTER_WITH_DOT",
+                        "text": "a."
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "bahwa negara Republik Indonesia adalah negara hukum yang bertujuan mewujudkan kehidupan masyarakat, bangsa, dan negara yang tertib, sejahtera, dan berkeadilan dalam rangka mencapai tujuan negara sebagaimana diamanatkan dalam Pembukaan Undang-Undang Dasar Negara Republik Indonesia Tahun 1945;"
+                      }
+                    ]
+                  },
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "LETTER_WITH_DOT",
+                        "text": "b."
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "bahwa tindak pidana korupsi telah menimbulkan kerusakan dalam berbagai sendi kehidupan masyarakat, bangsa, dan negara sehingga upaya pencegahan dan pemberantasan tindak pidana korupsi perlu dilakukan secara terus-menerus dan berkesinambungan yang menuntut peningkatan kapasitas sumber daya, baik kelembagaan, sumber daya manusia, maupun sumber daya lain, serta mengembangkan kesadaran, sikap, dan perilaku masyarakat antikorupsi agar terlembaga dalam sistem hukum nasional;"
+                      }
+                    ]
+                  },
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "LETTER_WITH_DOT",
+                        "text": "c."
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "bahwa Pengadilan Tindak Pidana Korupsi yang dasar pembentukannya ditentukan dalam Pasal 53 Undang-Undang Nomor 30 Tahun 2002 tentang Komisi Pemberantasan Tindak Pidana Korupsi, berdasarkan putusan Mahkamah Konstitusi dinyatakan bertentangan dengan Undang Undang Dasar Negara Republik Indonesia Tahun 1945, sehingga perlu diatur kembali Pengadilan Tindak Pidana Korupsi dengan undang-undang yang baru;"
+                      }
+                    ]
+                  },
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "LETTER_WITH_DOT",
+                        "text": "d."
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "bahwa berdasarkan pertimbangan sebagaimana dimaksud dalam huruf a, huruf b, dan huruf c, perlu membentuk Undang-Undang tentang Pengadilan Tindak Pidana Korupsi;"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "PRINCIPLES",
+            "id": "",
+            "children": [
+              {
+                "type": "PLAINTEXT",
+                "text": "Mengingat:"
+              },
+              {
+                "type": "LIST",
+                "id": "",
+                "children": [
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "NUMBER_WITH_DOT",
+                        "text": "1."
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "Pasal 5 ayat (1), Pasal 20, Pasal 24A ayat (1) dan ayat (2), Pasal 25, dan Pasal 28D ayat (1) Undang-Undang Dasar Negara Republik Indonesia Tahun 1945;"
+                      }
+                    ]
+                  },
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "NUMBER_WITH_DOT",
+                        "text": "2."
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "Undang-Undang Nomor 8 Tahun 1981 tentang Hukum Acara Pidana (Lembaran Negara Republik Indonesia Tahun 1981 Nomor 76, Tambahan Lembaran Negara Republik Indonesia Nomor 3209);"
+                      }
+                    ]
+                  },
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "NUMBER_WITH_DOT",
+                        "text": "3."
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "Undang-Undang Nomor 14 Tahun 1985 tentang Mahkamah Agung (Lembaran Negara Republik Indonesia Tahun 1985 Nomor 73, Tambahan Lembaran Negara Republik Indonesia Nomor 3316) sebagaimana telah beberapa kali diubah, terakhir dengan Undang-Undang Nomor 3 Tahun 2009 tentang Perubahan Kedua Atas Undang-Undang Nomor 14 Tahun 1985 tentang Mahkamah Agung (Lembaran Negara Republik Indonesia Tahun 2009 Nomor 3, Tambahan Lembaran Negara Republik Indonesia Nomor 4958);"
+                      }
+                    ]
+                  },
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "NUMBER_WITH_DOT",
+                        "text": "4."
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "Undang-Undang Nomor 2 Tahun 1986 tentang Peradilan Umum (Lembaran Negara Republik Indonesia Tahun 1986 Nomor 20, Tambahan Lembaran Negara Republik Indonesia Nomor 3327) sebagaimana telah diubah dengan Undang-Undang Nomor 8 Tahun 2004 tentang Perubahan Atas Undang-Undang Nomor 2 Tahun 1986 tentang Peradilan Umum (Lembaran Negara Republik Indonesia Tahun 2004 Nomor 34, Tambahan Lembaran Negara Republik Indonesia Nomor 4379);"
+                      }
+                    ]
+                  },
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "NUMBER_WITH_DOT",
+                        "text": "5."
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "Undang-Undang Nomor 31 Tahun 1999 tentang Pemberantasan Tindak Pidana Korupsi (Lembaran Negara Republik Indonesia Tahun 1999 Nomor 140, Tambahan Lembaran Negara Republik Indonesia Nomor 3874) sebagaimana telah diubah dengan Undang-Undang Nomor 20 Tahun 2001 tentang Perubahan Atas Undang-Undang Nomor 31 Tahun 1999 tentang Pemberantasan Tindak Pidana Korupsi (Lembaran Negara Republik Indonesia Tahun 2001 Nomor 134, Tambahan Lembaran Negara Republik Indonesia Nomor 4150);"
+                      }
+                    ]
+                  },
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "NUMBER_WITH_DOT",
+                        "text": "6."
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "Undang-Undang Nomor 30 Tahun 2002 tentang Komisi Pemberantasan Tindak Pidana Korupsi (Lembaran Negara Republik Indonesia Tahun 2002 Nomor 137, Tambahan Lembaran Negara Republik Indonesia Nomor 4250);"
+                      }
+                    ]
+                  },
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "NUMBER_WITH_DOT",
+                        "text": "7."
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "Undang-Undang Nomor 4 Tahun 2004 tentang Kekuasaan Kehakiman (Lembaran Negara Republik Indonesia Tahun 2004 Nomor 8, Tambahan Lembaran Negara Republik Indonesia Nomor 4358);"
+                      }
+                    ]
+                  },
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "NUMBER_WITH_DOT",
+                        "text": "8."
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "Undang-Undang Nomor 16 Tahun 2004 tentang Kejaksaan Republik Indonesia (Lembaran Negara Republik Indonesia Tahun 2004 Nomor 67, Tambahan Lembaran Negara Republik Indonesia Nomor 4401);"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "AGREEMENT",
+            "id": "",
+            "children": [
+              {
+                "type": "PLAINTEXT",
+                "text": "Dengan Persetujuan Bersama"
+              },
+              {
+                "type": "PLAINTEXT",
+                "text": "DEWAN PERWAKILAN RAKYAT REPUBLIK INDONESIA"
+              },
+              {
+                "type": "PLAINTEXT",
+                "text": "dan"
+              },
+              {
+                "type": "PLAINTEXT",
+                "text": "PRESIDEN REPUBLIK INDONESIA"
+              },
+              {
+                "type": "PLAINTEXT",
+                "text": "MEMUTUSKAN:"
+              },
+              {
+                "type": "PLAINTEXT",
+                "text": "Menetapkan:"
+              },
+              {
+                "type": "PLAINTEXT",
+                "text": "UNDANG-UNDANG TENTANG PENGADILAN TINDAK PIDANA KORUPSI."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "BAB",
+        "id": "bab-1",
+        "children": [
+          {
+            "type": "BAB_NUMBER",
+            "text": "BAB I"
+          },
+          {
+            "type": "BAB_TITLE",
+            "text": "KETENTUAN UMUM"
+          },
+          {
+            "type": "PASAL",
+            "id": "pasal-1",
+            "children": [
+              {
+                "type": "PASAL_NUMBER",
+                "text": "Pasal 1"
+              },
+              {
+                "type": "PLAINTEXT",
+                "text": "Dalam Undang-Undang ini yang dimaksud dengan:"
+              },
+              {
+                "type": "LIST",
+                "id": "",
+                "children": [
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "NUMBER_WITH_DOT",
+                        "text": "1."
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "Hakim adalah Hakim Karier dan Hakim ad hoc."
+                      }
+                    ]
+                  },
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "NUMBER_WITH_DOT",
+                        "text": "2."
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "Hakim Karier adalah hakim pada pengadilan negeri, pengadilan tinggi, dan Mahkamah Agung yang ditetapkan sebagai hakim tindak pidana korupsi."
+                      }
+                    ]
+                  },
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "NUMBER_WITH_DOT",
+                        "text": "3."
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "Hakim ad hoc adalah seseorang yang diangkat berdasarkan persyaratan yang ditentukan dalam Undang-Undang ini sebagai hakim tindak pidana korupsi."
+                      }
+                    ]
+                  },
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "NUMBER_WITH_DOT",
+                        "text": "4."
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "Penuntut Umum adalah penuntut umum sebagaimana diatur dalam peraturan perundang undangan."
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "BAB",
+        "id": "bab-2",
+        "children": [
+          {
+            "type": "BAB_NUMBER",
+            "text": "BAB II"
+          },
+          {
+            "type": "BAB_TITLE",
+            "text": "KEDUDUKAN DAN TEMPAT KEDUDUKAN"
+          },
+          {
+            "type": "BAGIAN",
+            "id": "bab-2-bagian-1",
+            "children": [
+              {
+                "type": "BAGIAN_NUMBER",
+                "text": "Bagian Kesatu"
+              },
+              {
+                "type": "BAGIAN_TITLE",
+                "text": "Kedudukan"
+              },
+              {
+                "type": "PASAL",
+                "id": "pasal-2",
+                "children": [
+                  {
+                    "type": "PASAL_NUMBER",
+                    "text": "Pasal 2"
+                  },
+                  {
+                    "type": "PLAINTEXT",
+                    "text": "Pengadilan Tindak Pidana Korupsi merupakan pengadilan khusus yang berada di lingkungan Peradilan Umum."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "BAGIAN",
+            "id": "bab-2-bagian-2",
+            "children": [
+              {
+                "type": "BAGIAN_NUMBER",
+                "text": "Bagian Kedua"
+              },
+              {
+                "type": "BAGIAN_TITLE",
+                "text": "Tempat Kedudukan"
+              },
+              {
+                "type": "PASAL",
+                "id": "pasal-3",
+                "children": [
+                  {
+                    "type": "PASAL_NUMBER",
+                    "text": "Pasal 3"
+                  },
+                  {
+                    "type": "PLAINTEXT",
+                    "text": "Pengadilan Tindak Pidana Korupsi berkedudukan di setiap ibukota kabupaten/kota yang daerah hukumnya meliputi daerah hukum pengadilan negeri yang bersangkutan."
+                  }
+                ]
+              },
+              {
+                "type": "PASAL",
+                "id": "pasal-4",
+                "children": [
+                  {
+                    "type": "PASAL_NUMBER",
+                    "text": "Pasal 4"
+                  },
+                  {
+                    "type": "PLAINTEXT",
+                    "text": "Khusus untuk Daerah Khusus Ibukota Jakarta, Pengadilan Tindak Pidana Korupsi berkedudukan di setiap kotamadya yang daerah hukumnya meliputi daerah hukum pengadilan negeri yang bersangkutan."
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "BAB",
+        "id": "bab-3",
+        "children": [
+          {
+            "type": "BAB_NUMBER",
+            "text": "BAB III"
+          },
+          {
+            "type": "BAB_TITLE",
+            "text": "KEWENANGAN"
+          },
+          {
+            "type": "PASAL",
+            "id": "pasal-5",
+            "children": [
+              {
+                "type": "PASAL_NUMBER",
+                "text": "Pasal 5"
+              },
+              {
+                "type": "PLAINTEXT",
+                "text": "Pengadilan Tindak Pidana Korupsi merupakan satu-satunya pengadilan yang berwenang memeriksa, mengadili, dan memutus perkara tindak pidana korupsi."
+              }
+            ]
+          },
+          {
+            "type": "PASAL",
+            "id": "pasal-6",
+            "children": [
+              {
+                "type": "PASAL_NUMBER",
+                "text": "Pasal 6"
+              },
+              {
+                "type": "PLAINTEXT",
+                "text": "Pengadilan Tindak Pidana Korupsi sebagaimana dimaksud dalam Pasal 5 berwenang memeriksa, mengadili, dan memutus perkara:"
+              },
+              {
+                "type": "LIST",
+                "id": "",
+                "children": [
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "LETTER_WITH_DOT",
+                        "text": "a."
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "tindak pidana korupsi;"
+                      }
+                    ]
+                  },
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "LETTER_WITH_DOT",
+                        "text": "b."
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "tindak pidana pencucian uang yang tindak pidana asalnya adalah tindak pidana korupsi; dan/atau"
+                      }
+                    ]
+                  },
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "LETTER_WITH_DOT",
+                        "text": "c."
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "tindak pidana yang secara tegas dalam undang-undang lain ditentukan sebagai tindak pidana korupsi."
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "PASAL",
+            "id": "pasal-7",
+            "children": [
+              {
+                "type": "PASAL_NUMBER",
+                "text": "Pasal 7"
+              },
+              {
+                "type": "PLAINTEXT",
+                "text": "Pengadilan Tindak Pidana Korupsi pada Pengadilan Negeri Jakarta Pusat juga berwenang memeriksa, mengadili, dan memutus perkara tindak pidana korupsi sebagaimana dimaksud dalam Pasal 6 yang dilakukan oleh warga negara Indonesia di luar wilayah negara Republik Indonesia."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "BAB",
+        "id": "bab-4",
+        "children": [
+          {
+            "type": "BAB_NUMBER",
+            "text": "BAB IV"
+          },
+          {
+            "type": "BAB_TITLE",
+            "text": "SUSUNAN PENGADILAN"
+          },
+          {
+            "type": "BAGIAN",
+            "id": "bab-4-bagian-1",
+            "children": [
+              {
+                "type": "BAGIAN_NUMBER",
+                "text": "Bagian Kesatu"
+              },
+              {
+                "type": "BAGIAN_TITLE",
+                "text": "Umum"
+              },
+              {
+                "type": "PASAL",
+                "id": "pasal-8",
+                "children": [
+                  {
+                    "type": "PASAL_NUMBER",
+                    "text": "Pasal 8"
+                  },
+                  {
+                    "type": "PLAINTEXT",
+                    "text": "Susunan Pengadilan Tindak Pidana Korupsi terdiri atas:"
+                  },
+                  {
+                    "type": "LIST",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "LIST_ITEM",
+                        "id": "",
+                        "children": [
+                          {
+                            "type": "LETTER_WITH_DOT",
+                            "text": "a."
+                          },
+                          {
+                            "type": "PLAINTEXT",
+                            "text": "pimpinan;"
+                          }
+                        ]
+                      },
+                      {
+                        "type": "LIST_ITEM",
+                        "id": "",
+                        "children": [
+                          {
+                            "type": "LETTER_WITH_DOT",
+                            "text": "b."
+                          },
+                          {
+                            "type": "PLAINTEXT",
+                            "text": "Hakim; dan"
+                          }
+                        ]
+                      },
+                      {
+                        "type": "LIST_ITEM",
+                        "id": "",
+                        "children": [
+                          {
+                            "type": "LETTER_WITH_DOT",
+                            "text": "c."
+                          },
+                          {
+                            "type": "PLAINTEXT",
+                            "text": "panitera."
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "BAGIAN",
+            "id": "bab-4-bagian-2",
+            "children": [
+              {
+                "type": "BAGIAN_NUMBER",
+                "text": "Bagian Kedua"
+              },
+              {
+                "type": "BAGIAN_TITLE",
+                "text": "Pimpinan"
+              },
+              {
+                "type": "PASAL",
+                "id": "pasal-9",
+                "children": [
+                  {
+                    "type": "PASAL_NUMBER",
+                    "text": "Pasal 9"
+                  },
+                  {
+                    "type": "LIST",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "LIST_ITEM",
+                        "id": "",
+                        "children": [
+                          {
+                            "type": "NUMBER_WITH_BRACKETS",
+                            "text": "(1)"
+                          },
+                          {
+                            "type": "PLAINTEXT",
+                            "text": "Pimpinan Pengadilan Tindak Pidana Korupsi terdiri atas seorang ketua dan seorang wakil ketua."
+                          }
+                        ]
+                      },
+                      {
+                        "type": "LIST_ITEM",
+                        "id": "",
+                        "children": [
+                          {
+                            "type": "NUMBER_WITH_BRACKETS",
+                            "text": "(2)"
+                          },
+                          {
+                            "type": "PLAINTEXT",
+                            "text": "Ketua dan wakil ketua pengadilan negeri karena jabatannya menjadi ketua dan wakil ketua Pengadilan Tindak Pidana Korupsi sebagaimana dimaksud pada ayat (1)."
+                          }
+                        ]
+                      },
+                      {
+                        "type": "LIST_ITEM",
+                        "id": "",
+                        "children": [
+                          {
+                            "type": "NUMBER_WITH_BRACKETS",
+                            "text": "(3)"
+                          },
+                          {
+                            "type": "PLAINTEXT",
+                            "text": "Ketua sebagaimana dimaksud pada ayat (2) bertanggung jawab atas administrasi dan pelaksanaan Pengadilan Tindak Pidana Korupsi."
+                          }
+                        ]
+                      },
+                      {
+                        "type": "LIST_ITEM",
+                        "id": "",
+                        "children": [
+                          {
+                            "type": "NUMBER_WITH_BRACKETS",
+                            "text": "(4)"
+                          },
+                          {
+                            "type": "PLAINTEXT",
+                            "text": "Dalam hal tertentu ketua dapat mendelegasikan penyelenggaraan administrasi sebagaimana dimaksud pada ayat (3) kepada wakil ketua."
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "BAGIAN",
+            "id": "bab-4-bagian-3",
+            "children": [
+              {
+                "type": "BAGIAN_NUMBER",
+                "text": "Bagian Ketiga"
+              },
+              {
+                "type": "BAGIAN_TITLE",
+                "text": "Hakim"
+              },
+              {
+                "type": "PASAL",
+                "id": "pasal-10",
+                "children": [
+                  {
+                    "type": "PASAL_NUMBER",
+                    "text": "Pasal 10"
+                  },
+                  {
+                    "type": "LIST",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "LIST_ITEM",
+                        "id": "",
+                        "children": [
+                          {
+                            "type": "NUMBER_WITH_BRACKETS",
+                            "text": "(1)"
+                          },
+                          {
+                            "type": "PLAINTEXT",
+                            "text": "Dalam memeriksa, mengadili, dan memutus perkara tindak pidana korupsi, Pengadilan Tindak Pidana Korupsi, pengadilan tinggi, dan Mahkamah Agung terdiri atas Hakim Karier dan Hakim ad hoc."
+                          }
+                        ]
+                      },
+                      {
+                        "type": "LIST_ITEM",
+                        "id": "",
+                        "children": [
+                          {
+                            "type": "NUMBER_WITH_BRACKETS",
+                            "text": "(2)"
+                          },
+                          {
+                            "type": "PLAINTEXT",
+                            "text": "Hakim Karier sebagaimana dimaksud pada ayat (1) ditetapkan berdasarkan keputusan Ketua Mahkamah Agung."
+                          }
+                        ]
+                      },
+                      {
+                        "type": "LIST_ITEM",
+                        "id": "",
+                        "children": [
+                          {
+                            "type": "NUMBER_WITH_BRACKETS",
+                            "text": "(3)"
+                          },
+                          {
+                            "type": "PLAINTEXT",
+                            "text": "Hakim Karier yang ditetapkan sebagaimana dimaksud pada ayat (1) selama menangani perkara tindak pidana korupsi dibebaskan dari tugasnya untuk memeriksa, mengadili, dan memutus perkara lain."
+                          }
+                        ]
+                      },
+                      {
+                        "type": "LIST_ITEM",
+                        "id": "",
+                        "children": [
+                          {
+                            "type": "NUMBER_WITH_BRACKETS",
+                            "text": "(4)"
+                          },
+                          {
+                            "type": "PLAINTEXT",
+                            "text": "Hakim ad hoc pada Pengadilan Tindak Pidana Korupsi, pengadilan tinggi, dan pada Mahkamah Agung sebagaimana dimaksud pada ayat (1) diangkat dan diberhentikan oleh Presiden atas usul Ketua Mahkamah Agung."
+                          }
+                        ]
+                      },
+                      {
+                        "type": "LIST_ITEM",
+                        "id": "",
+                        "children": [
+                          {
+                            "type": "NUMBER_WITH_BRACKETS",
+                            "text": "(5)"
+                          },
+                          {
+                            "type": "PLAINTEXT",
+                            "text": "Hakim ad hoc sebagaimana dimaksud pada ayat (4) diangkat untuk masa jabatan selama 5 (lima) tahun dan dapat diangkat kembali untuk 1 (satu) kali masa jabatan."
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "PASAL",
+                "id": "pasal-11",
+                "children": [
+                  {
+                    "type": "PASAL_NUMBER",
+                    "text": "Pasal 11"
+                  },
+                  {
+                    "type": "PLAINTEXT",
+                    "text": "Untuk dapat ditetapkan sebagai Hakim Karier, calon harus memenuhi persyaratan sebagai berikut:"
+                  },
+                  {
+                    "type": "LIST",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "LIST_ITEM",
+                        "id": "",
+                        "children": [
+                          {
+                            "type": "LETTER_WITH_DOT",
+                            "text": "a."
+                          },
+                          {
+                            "type": "PLAINTEXT",
+                            "text": "berpengalaman menjadi Hakim sekurang-kurangnya selama 10 (sepuluh) tahun;"
+                          }
+                        ]
+                      },
+                      {
+                        "type": "LIST_ITEM",
+                        "id": "",
+                        "children": [
+                          {
+                            "type": "LETTER_WITH_DOT",
+                            "text": "b."
+                          },
+                          {
+                            "type": "PLAINTEXT",
+                            "text": "berpengalaman menangani perkara pidana;"
+                          }
+                        ]
+                      },
+                      {
+                        "type": "LIST_ITEM",
+                        "id": "",
+                        "children": [
+                          {
+                            "type": "LETTER_WITH_DOT",
+                            "text": "c."
+                          },
+                          {
+                            "type": "PLAINTEXT",
+                            "text": "jujur, adil, cakap, dan memiliki integritas moral yang tinggi serta reputasi yang baik selama menjalankan tugas;"
+                          }
+                        ]
+                      },
+                      {
+                        "type": "LIST_ITEM",
+                        "id": "",
+                        "children": [
+                          {
+                            "type": "LETTER_WITH_DOT",
+                            "text": "d."
+                          },
+                          {
+                            "type": "PLAINTEXT",
+                            "text": "tidak pernah dijatuhi hukuman disiplin dan/atau terlibat dalam perkara pidana;"
+                          }
+                        ]
+                      },
+                      {
+                        "type": "LIST_ITEM",
+                        "id": "",
+                        "children": [
+                          {
+                            "type": "LETTER_WITH_DOT",
+                            "text": "e."
+                          },
+                          {
+                            "type": "PLAINTEXT",
+                            "text": "memiliki sertifikasi khusus sebagai Hakim tindak pidana korupsi yang dikeluarkan oleh Mahkamah Agung; dan"
+                          }
+                        ]
+                      },
+                      {
+                        "type": "LIST_ITEM",
+                        "id": "",
+                        "children": [
+                          {
+                            "type": "LETTER_WITH_DOT",
+                            "text": "f."
+                          },
+                          {
+                            "type": "PLAINTEXT",
+                            "text": "telah melaporkan harta kekayaannya sesuai dengan ketentuan peraturan perundang-undangan."
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "PASAL",
+                "id": "pasal-12",
+                "children": [
+                  {
+                    "type": "PASAL_NUMBER",
+                    "text": "Pasal 12"
+                  },
+                  {
+                    "type": "PLAINTEXT",
+                    "text": "Untuk dapat diangkat sebagai Hakim ad hoc, calon harus memenuhi persyaratan sebagai berikut:"
+                  },
+                  {
+                    "type": "LIST",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "LIST_ITEM",
+                        "id": "",
+                        "children": [
+                          {
+                            "type": "LETTER_WITH_DOT",
+                            "text": "a."
+                          },
+                          {
+                            "type": "PLAINTEXT",
+                            "text": "warga negara Republik Indonesia;"
+                          }
+                        ]
+                      },
+                      {
+                        "type": "LIST_ITEM",
+                        "id": "",
+                        "children": [
+                          {
+                            "type": "LETTER_WITH_DOT",
+                            "text": "b."
+                          },
+                          {
+                            "type": "PLAINTEXT",
+                            "text": "bertakwa kepada Tuhan Yang Maha Esa;"
+                          }
+                        ]
+                      },
+                      {
+                        "type": "LIST_ITEM",
+                        "id": "",
+                        "children": [
+                          {
+                            "type": "LETTER_WITH_DOT",
+                            "text": "c."
+                          },
+                          {
+                            "type": "PLAINTEXT",
+                            "text": "sehat jasmani dan rohani;"
+                          }
+                        ]
+                      },
+                      {
+                        "type": "LIST_ITEM",
+                        "id": "",
+                        "children": [
+                          {
+                            "type": "LETTER_WITH_DOT",
+                            "text": "d."
+                          },
+                          {
+                            "type": "PLAINTEXT",
+                            "text": "berpendidikan sarjana hukum atau sarjana lain dan berpengalaman di bidang hukum sekurang kurangnya selama 15 (lima belas) tahun untuk Hakim ad hoc pada Pengadilan Tindak Pidana Korupsi dan pengadilan tinggi, dan 20 (dua puluh) tahun untuk Hakim ad hoc pada Mahkamah Agung;"
+                          }
+                        ]
+                      },
+                      {
+                        "type": "LIST_ITEM",
+                        "id": "",
+                        "children": [
+                          {
+                            "type": "LETTER_WITH_DOT",
+                            "text": "e."
+                          },
+                          {
+                            "type": "PLAINTEXT",
+                            "text": "berumur sekurang-kurangnya 40 (empat puluh) tahun pada saat proses pemilihan untuk Hakim ad hoc pada Pengadilan Tindak Pidana Korupsi dan pengadilan tinggi, dan 50 (lima puluh) tahun untuk Hakim ad hoc pada Mahkamah Agung;"
+                          }
+                        ]
+                      },
+                      {
+                        "type": "LIST_ITEM",
+                        "id": "",
+                        "children": [
+                          {
+                            "type": "LETTER_WITH_DOT",
+                            "text": "f."
+                          },
+                          {
+                            "type": "PLAINTEXT",
+                            "text": "tidak pernah dipidana karena melakukan kejahatan berdasarkan putusan pengadilan yang telah memperoleh kekuatan hukum tetap;"
+                          }
+                        ]
+                      },
+                      {
+                        "type": "LIST_ITEM",
+                        "id": "",
+                        "children": [
+                          {
+                            "type": "LETTER_WITH_DOT",
+                            "text": "g."
+                          },
+                          {
+                            "type": "PLAINTEXT",
+                            "text": "jujur, adil, cakap, dan memiliki integritas moral yang tinggi serta reputasi yang baik;"
+                          }
+                        ]
+                      },
+                      {
+                        "type": "LIST_ITEM",
+                        "id": "",
+                        "children": [
+                          {
+                            "type": "LETTER_WITH_DOT",
+                            "text": "h."
+                          },
+                          {
+                            "type": "PLAINTEXT",
+                            "text": "tidak menjadi pengurus dan anggota partai politik;"
+                          }
+                        ]
+                      },
+                      {
+                        "type": "LIST_ITEM",
+                        "id": "",
+                        "children": [
+                          {
+                            "type": "LETTER_WITH_DOT",
+                            "text": "i."
+                          },
+                          {
+                            "type": "PLAINTEXT",
+                            "text": "melaporkan harta kekayaannya;"
+                          }
+                        ]
+                      },
+                      {
+                        "type": "LIST_ITEM",
+                        "id": "",
+                        "children": [
+                          {
+                            "type": "LETTER_WITH_DOT",
+                            "text": "j."
+                          },
+                          {
+                            "type": "PLAINTEXT",
+                            "text": "bersedia mengikuti pelatihan sebagai Hakim tindak pidana korupsi; dan"
+                          }
+                        ]
+                      },
+                      {
+                        "type": "LIST_ITEM",
+                        "id": "",
+                        "children": [
+                          {
+                            "type": "LETTER_WITH_DOT",
+                            "text": "k."
+                          },
+                          {
+                            "type": "PLAINTEXT",
+                            "text": "bersedia melepaskan jabatan struktural dan/atau jabatan lain selama menjadi Hakim ad hoc tindak pidana korupsi."
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "PASAL",
+                "id": "pasal-13",
+                "children": [
+                  {
+                    "type": "PASAL_NUMBER",
+                    "text": "Pasal 13"
+                  },
+                  {
+                    "type": "LIST",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "LIST_ITEM",
+                        "id": "",
+                        "children": [
+                          {
+                            "type": "NUMBER_WITH_BRACKETS",
+                            "text": "(1)"
+                          },
+                          {
+                            "type": "PLAINTEXT",
+                            "text": "Untuk memilih dan mengusulkan calon Hakim ad hoc pada Pengadilan Tindak Pidana Korupsi dan pengadilan tinggi, Ketua Mahkamah Agung membentuk panitia seleksi yang terdiri dari unsur Mahkamah Agung dan masyarakat yang dalam menjalankan tugasnya bersifat mandiri dan transparan."
+                          }
+                        ]
+                      },
+                      {
+                        "type": "LIST_ITEM",
+                        "id": "",
+                        "children": [
+                          {
+                            "type": "NUMBER_WITH_BRACKETS",
+                            "text": "(2)"
+                          },
+                          {
+                            "type": "PLAINTEXT",
+                            "text": "Ketentuan mengenai tata cara pemilihan untuk diusulkan sebagai Hakim ad hoc sebagaimana dimaksud dalam Pasal 10 ayat (4) diatur dengan Peraturan Mahkamah Agung."
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "PASAL",
+                "id": "pasal-14",
+                "children": [
+                  {
+                    "type": "PASAL_NUMBER",
+                    "text": "Pasal 14"
+                  },
+                  {
+                    "type": "LIST",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "LIST_ITEM",
+                        "id": "",
+                        "children": [
+                          {
+                            "type": "NUMBER_WITH_BRACKETS",
+                            "text": "(1)"
+                          },
+                          {
+                            "type": "PLAINTEXT",
+                            "text": "Sebelum memangku jabatan, Hakim ad hoc diambil sumpah atau janji menurut agamanya oleh:"
+                          },
+                          {
+                            "type": "LIST",
+                            "id": "",
+                            "children": [
+                              {
+                                "type": "LIST_ITEM",
+                                "id": "",
+                                "children": [
+                                  {
+                                    "type": "LETTER_WITH_DOT",
+                                    "text": "a."
+                                  },
+                                  {
+                                    "type": "PLAINTEXT",
+                                    "text": "Ketua Mahkamah Agung untuk Hakim ad hoc pada Mahkamah Agung;"
+                                  }
+                                ]
+                              },
+                              {
+                                "type": "LIST_ITEM",
+                                "id": "",
+                                "children": [
+                                  {
+                                    "type": "LETTER_WITH_DOT",
+                                    "text": "b."
+                                  },
+                                  {
+                                    "type": "PLAINTEXT",
+                                    "text": "Ketua pengadilan tinggi untuk Hakim ad hoc pada pengadilan tinggi;"
+                                  }
+                                ]
+                              },
+                              {
+                                "type": "LIST_ITEM",
+                                "id": "",
+                                "children": [
+                                  {
+                                    "type": "LETTER_WITH_DOT",
+                                    "text": "c."
+                                  },
+                                  {
+                                    "type": "PLAINTEXT",
+                                    "text": "Ketua pengadilan negeri untuk Hakim ad hoc pada Pengadilan Tindak Pidana Korupsi."
+                                  }
+                                ]
+                              }
+                            ]
+                          }
+                        ]
+                      },
+                      {
+                        "type": "LIST_ITEM",
+                        "id": "",
+                        "children": [
+                          {
+                            "type": "NUMBER_WITH_BRACKETS",
+                            "text": "(2)"
+                          },
+                          {
+                            "type": "PLAINTEXT",
+                            "text": "Sumpah atau janji sebagaimana dimaksud pada ayat (1) berbunyi sebagai berikut: Sumpah:"
+                          },
+                          {
+                            "type": "PLAINTEXT",
+                            "text": "\u201dDemi Allah saya bersumpah bahwa saya akan memenuhi kewajiban Hakim dengan sebaik baiknya dan seadil-adilnya, memegang teguh Undang-Undang Dasar Negara Republik Indonesia Tahun 1945, dan menjalankan segala peraturan perundang-undangan dengan selurus-lurusnya menurut Undang-Undang Dasar Negara Republik Indonesia Tahun 1945, serta berbakti kepada nusa dan bangsa.\u201d"
+                          },
+                          {
+                            "type": "PLAINTEXT",
+                            "text": "Janji:"
+                          },
+                          {
+                            "type": "PLAINTEXT",
+                            "text": "\u201cSaya berjanji bahwa saya dengan sungguh-sungguh akan memenuhi kewajiban Hakim dengan sebaik-baiknya dan seadil-adilnya, memegang teguh Undang-Undang Dasar Negara Republik Indonesia Tahun 1945, dan menjalankan segala peraturan perundang-undangan dengan selurus-lurusnya menurut Undang-Undang Dasar Negara Republik Indonesia Tahun 1945, serta berbakti kepada nusa dan bangsa.\u201d"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "PASAL",
+                "id": "pasal-15",
+                "children": [
+                  {
+                    "type": "PASAL_NUMBER",
+                    "text": "Pasal 15"
+                  },
+                  {
+                    "type": "PLAINTEXT",
+                    "text": "Hakim ad hoc dilarang merangkap menjadi:"
+                  },
+                  {
+                    "type": "LIST",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "LIST_ITEM",
+                        "id": "",
+                        "children": [
+                          {
+                            "type": "LETTER_WITH_DOT",
+                            "text": "a."
+                          },
+                          {
+                            "type": "PLAINTEXT",
+                            "text": "pelaksana putusan pengadilan;"
+                          }
+                        ]
+                      },
+                      {
+                        "type": "LIST_ITEM",
+                        "id": "",
+                        "children": [
+                          {
+                            "type": "LETTER_WITH_DOT",
+                            "text": "b."
+                          },
+                          {
+                            "type": "PLAINTEXT",
+                            "text": "wali, pengampu, dan pejabat yang berkaitan dengan suatu perkara yang diperiksa olehnya;"
+                          }
+                        ]
+                      },
+                      {
+                        "type": "LIST_ITEM",
+                        "id": "",
+                        "children": [
+                          {
+                            "type": "LETTER_WITH_DOT",
+                            "text": "c."
+                          },
+                          {
+                            "type": "PLAINTEXT",
+                            "text": "pimpinan atau anggota lembaga negara;"
+                          }
+                        ]
+                      },
+                      {
+                        "type": "LIST_ITEM",
+                        "id": "",
+                        "children": [
+                          {
+                            "type": "LETTER_WITH_DOT",
+                            "text": "d."
+                          },
+                          {
+                            "type": "PLAINTEXT",
+                            "text": "kepala daerah;"
+                          }
+                        ]
+                      },
+                      {
+                        "type": "LIST_ITEM",
+                        "id": "",
+                        "children": [
+                          {
+                            "type": "LETTER_WITH_DOT",
+                            "text": "e."
+                          },
+                          {
+                            "type": "PLAINTEXT",
+                            "text": "advokat;"
+                          }
+                        ]
+                      },
+                      {
+                        "type": "LIST_ITEM",
+                        "id": "",
+                        "children": [
+                          {
+                            "type": "LETTER_WITH_DOT",
+                            "text": "f."
+                          },
+                          {
+                            "type": "PLAINTEXT",
+                            "text": "notaris/Pejabat Pembuat Akta Tanah;"
+                          }
+                        ]
+                      },
+                      {
+                        "type": "LIST_ITEM",
+                        "id": "",
+                        "children": [
+                          {
+                            "type": "LETTER_WITH_DOT",
+                            "text": "g."
+                          },
+                          {
+                            "type": "PLAINTEXT",
+                            "text": "jabatan lain yang dilarang dirangkap sesuai dengan peraturan perundang-undangan; atau"
+                          }
+                        ]
+                      },
+                      {
+                        "type": "LIST_ITEM",
+                        "id": "",
+                        "children": [
+                          {
+                            "type": "LETTER_WITH_DOT",
+                            "text": "h."
+                          },
+                          {
+                            "type": "PLAINTEXT",
+                            "text": "pengusaha."
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "PASAL",
+                "id": "pasal-16",
+                "children": [
+                  {
+                    "type": "PASAL_NUMBER",
+                    "text": "Pasal 16"
+                  },
+                  {
+                    "type": "PLAINTEXT",
+                    "text": "Selain larangan sebagaimana dimaksud dalam Pasal 15, Hakim ad hoc yang memangku jabatan struktural dan/atau fungsional harus melepaskan jabatannya."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "BAGIAN",
+            "id": "bab-4-bagian-4",
+            "children": [
+              {
+                "type": "BAGIAN_NUMBER",
+                "text": "Bagian Keempat"
+              },
+              {
+                "type": "BAGIAN_TITLE",
+                "text": "Pemberhentian Hakim"
+              },
+              {
+                "type": "PASAL",
+                "id": "pasal-17",
+                "children": [
+                  {
+                    "type": "PASAL_NUMBER",
+                    "text": "Pasal 17"
+                  },
+                  {
+                    "type": "PLAINTEXT",
+                    "text": "Hakim diberhentikan dengan hormat dari jabatannya karena:"
+                  },
+                  {
+                    "type": "LIST",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "LIST_ITEM",
+                        "id": "",
+                        "children": [
+                          {
+                            "type": "LETTER_WITH_DOT",
+                            "text": "a."
+                          },
+                          {
+                            "type": "PLAINTEXT",
+                            "text": "permintaan sendiri;"
+                          }
+                        ]
+                      },
+                      {
+                        "type": "LIST_ITEM",
+                        "id": "",
+                        "children": [
+                          {
+                            "type": "LETTER_WITH_DOT",
+                            "text": "b."
+                          },
+                          {
+                            "type": "PLAINTEXT",
+                            "text": "sakit jasmani atau rohani selama 3 (tiga) bulan berturut-turut yang dibuktikan dengan surat keterangan dokter;"
+                          }
+                        ]
+                      },
+                      {
+                        "type": "LIST_ITEM",
+                        "id": "",
+                        "children": [
+                          {
+                            "type": "LETTER_WITH_DOT",
+                            "text": "c."
+                          },
+                          {
+                            "type": "PLAINTEXT",
+                            "text": "terbukti tidak cakap dalam menjalankan tugas;"
+                          }
+                        ]
+                      },
+                      {
+                        "type": "LIST_ITEM",
+                        "id": "",
+                        "children": [
+                          {
+                            "type": "LETTER_WITH_DOT",
+                            "text": "d."
+                          },
+                          {
+                            "type": "PLAINTEXT",
+                            "text": "telah memasuki masa pensiun, bagi Hakim Karier; atau"
+                          }
+                        ]
+                      },
+                      {
+                        "type": "LIST_ITEM",
+                        "id": "",
+                        "children": [
+                          {
+                            "type": "LETTER_WITH_DOT",
+                            "text": "e."
+                          },
+                          {
+                            "type": "PLAINTEXT",
+                            "text": "telah selesai masa tugasnya, bagi Hakim ad hoc."
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "PASAL",
+                "id": "pasal-18",
+                "children": [
+                  {
+                    "type": "PASAL_NUMBER",
+                    "text": "Pasal 18"
+                  },
+                  {
+                    "type": "PLAINTEXT",
+                    "text": "Hakim diberhentikan tidak dengan hormat karena:"
+                  },
+                  {
+                    "type": "LIST",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "LIST_ITEM",
+                        "id": "",
+                        "children": [
+                          {
+                            "type": "LETTER_WITH_DOT",
+                            "text": "a."
+                          },
+                          {
+                            "type": "PLAINTEXT",
+                            "text": "dipidana karena bersalah melakukan tindak pidana kejahatan;"
+                          }
+                        ]
+                      },
+                      {
+                        "type": "LIST_ITEM",
+                        "id": "",
+                        "children": [
+                          {
+                            "type": "LETTER_WITH_DOT",
+                            "text": "b."
+                          },
+                          {
+                            "type": "PLAINTEXT",
+                            "text": "melakukan perbuatan tercela;"
+                          }
+                        ]
+                      },
+                      {
+                        "type": "LIST_ITEM",
+                        "id": "",
+                        "children": [
+                          {
+                            "type": "LETTER_WITH_DOT",
+                            "text": "c."
+                          },
+                          {
+                            "type": "PLAINTEXT",
+                            "text": "melalaikan kewajiban dalam menjalankan tugas pekerjaannya sesuai dengan ketentuan yang berlaku;"
+                          }
+                        ]
+                      },
+                      {
+                        "type": "LIST_ITEM",
+                        "id": "",
+                        "children": [
+                          {
+                            "type": "LETTER_WITH_DOT",
+                            "text": "d."
+                          },
+                          {
+                            "type": "PLAINTEXT",
+                            "text": "melanggar sumpah atau janji jabatan; atau"
+                          }
+                        ]
+                      },
+                      {
+                        "type": "LIST_ITEM",
+                        "id": "",
+                        "children": [
+                          {
+                            "type": "LETTER_WITH_DOT",
+                            "text": "e."
+                          },
+                          {
+                            "type": "PLAINTEXT",
+                            "text": "melanggar ketentuan sebagaimana dimaksud dalam Pasal 15."
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "PASAL",
+                "id": "pasal-19",
+                "children": [
+                  {
+                    "type": "PASAL_NUMBER",
+                    "text": "Pasal 19"
+                  },
+                  {
+                    "type": "LIST",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "LIST_ITEM",
+                        "id": "",
+                        "children": [
+                          {
+                            "type": "NUMBER_WITH_BRACKETS",
+                            "text": "(1)"
+                          },
+                          {
+                            "type": "PLAINTEXT",
+                            "text": "Hakim sebelum diberhentikan tidak dengan hormat berdasarkan alasan sebagaimana dimaksud dalam Pasal 18, diberhentikan sementara dari jabatannya oleh:"
+                          },
+                          {
+                            "type": "LIST",
+                            "id": "",
+                            "children": [
+                              {
+                                "type": "LIST_ITEM",
+                                "id": "",
+                                "children": [
+                                  {
+                                    "type": "LETTER_WITH_DOT",
+                                    "text": "a."
+                                  },
+                                  {
+                                    "type": "PLAINTEXT",
+                                    "text": "Ketua Mahkamah Agung untuk Hakim ad hoc pada Pengadilan Tindak Pidana Korupsi dan pengadilan tinggi;"
+                                  }
+                                ]
+                              },
+                              {
+                                "type": "LIST_ITEM",
+                                "id": "",
+                                "children": [
+                                  {
+                                    "type": "LETTER_WITH_DOT",
+                                    "text": "b."
+                                  },
+                                  {
+                                    "type": "PLAINTEXT",
+                                    "text": "Presiden atas usul Mahkamah Agung untuk Hakim ad hoc pada Mahkamah Agung."
+                                  }
+                                ]
+                              }
+                            ]
+                          }
+                        ]
+                      },
+                      {
+                        "type": "LIST_ITEM",
+                        "id": "",
+                        "children": [
+                          {
+                            "type": "NUMBER_WITH_BRACKETS",
+                            "text": "(2)"
+                          },
+                          {
+                            "type": "PLAINTEXT",
+                            "text": "Pemberhentian sementara karena alasan sebagaimana dimaksud dalam Pasal 18 huruf a, dilakukan apabila Hakim yang bersangkutan telah ditetapkan sebagai tersangka."
+                          }
+                        ]
+                      },
+                      {
+                        "type": "LIST_ITEM",
+                        "id": "",
+                        "children": [
+                          {
+                            "type": "NUMBER_WITH_BRACKETS",
+                            "text": "(3)"
+                          },
+                          {
+                            "type": "PLAINTEXT",
+                            "text": "Pemberhentian sementara karena alasan sebagaimana dimaksud dalam Pasal 18 huruf b, huruf c, huruf d, dan huruf e, berlaku paling lama 6 (enam) bulan."
+                          }
+                        ]
+                      },
+                      {
+                        "type": "LIST_ITEM",
+                        "id": "",
+                        "children": [
+                          {
+                            "type": "NUMBER_WITH_BRACKETS",
+                            "text": "(4)"
+                          },
+                          {
+                            "type": "PLAINTEXT",
+                            "text": "Dalam hal jangka waktu sebagaimana dimaksud pada ayat (3) telah berakhir tanpa dilanjutkan dengan pemberhentian maka pemberhentian sementara harus dicabut."
+                          }
+                        ]
+                      },
+                      {
+                        "type": "LIST_ITEM",
+                        "id": "",
+                        "children": [
+                          {
+                            "type": "NUMBER_WITH_BRACKETS",
+                            "text": "(5)"
+                          },
+                          {
+                            "type": "PLAINTEXT",
+                            "text": "Hakim yang diberhentikan sementara dilarang menangani perkara."
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "PASAL",
+                "id": "pasal-20",
+                "children": [
+                  {
+                    "type": "PASAL_NUMBER",
+                    "text": "Pasal 20"
+                  },
+                  {
+                    "type": "PLAINTEXT",
+                    "text": "Tata cara pemberhentian dengan hormat, pemberhentian tidak dengan hormat, dan pemberhentian sementara, serta hak-hak Hakim yang dikenakan pemberhentian dilaksanakan sesuai dengan ketentuan peraturan perundang-undangan."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "BAGIAN",
+            "id": "bab-4-bagian-5",
+            "children": [
+              {
+                "type": "BAGIAN_NUMBER",
+                "text": "Bagian Kelima"
+              },
+              {
+                "type": "BAGIAN_TITLE",
+                "text": "Hak Keuangan dan Administratif Hakim"
+              },
+              {
+                "type": "PASAL",
+                "id": "pasal-21",
+                "children": [
+                  {
+                    "type": "PASAL_NUMBER",
+                    "text": "Pasal 21"
+                  },
+                  {
+                    "type": "LIST",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "LIST_ITEM",
+                        "id": "",
+                        "children": [
+                          {
+                            "type": "NUMBER_WITH_BRACKETS",
+                            "text": "(1)"
+                          },
+                          {
+                            "type": "PLAINTEXT",
+                            "text": "Hakim mempunyai hak keuangan dan administratif."
+                          }
+                        ]
+                      },
+                      {
+                        "type": "LIST_ITEM",
+                        "id": "",
+                        "children": [
+                          {
+                            "type": "NUMBER_WITH_BRACKETS",
+                            "text": "(2)"
+                          },
+                          {
+                            "type": "PLAINTEXT",
+                            "text": "Hak keuangan dan administratif sebagaimana dimaksud pada ayat (1) diberikan tanpa membedakan kedudukan Hakim."
+                          }
+                        ]
+                      },
+                      {
+                        "type": "LIST_ITEM",
+                        "id": "",
+                        "children": [
+                          {
+                            "type": "NUMBER_WITH_BRACKETS",
+                            "text": "(3)"
+                          },
+                          {
+                            "type": "PLAINTEXT",
+                            "text": "Ketentuan lebih lanjut mengenai hak sebagaimana dimaksud pada ayat (1) diatur dengan Peraturan Presiden."
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "BAGIAN",
+            "id": "bab-4-bagian-6",
+            "children": [
+              {
+                "type": "BAGIAN_NUMBER",
+                "text": "Bagian Keenam"
+              },
+              {
+                "type": "BAGIAN_TITLE",
+                "text": "Panitera"
+              },
+              {
+                "type": "PASAL",
+                "id": "pasal-22",
+                "children": [
+                  {
+                    "type": "PASAL_NUMBER",
+                    "text": "Pasal 22"
+                  },
+                  {
+                    "type": "LIST",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "LIST_ITEM",
+                        "id": "",
+                        "children": [
+                          {
+                            "type": "NUMBER_WITH_BRACKETS",
+                            "text": "(1)"
+                          },
+                          {
+                            "type": "PLAINTEXT",
+                            "text": "Pada Pengadilan Tindak Pidana Korupsi dapat ditetapkan adanya kepaniteraan khusus yang dipimpin oleh seorang panitera."
+                          }
+                        ]
+                      },
+                      {
+                        "type": "LIST_ITEM",
+                        "id": "",
+                        "children": [
+                          {
+                            "type": "NUMBER_WITH_BRACKETS",
+                            "text": "(2)"
+                          },
+                          {
+                            "type": "PLAINTEXT",
+                            "text": "Ketentuan mengenai susunan kepaniteraan, persyaratan pengangkatan, dan pemberhentian pada jabatan kepaniteraan sebagaimana dimaksud pada ayat (1) berlaku sesuai dengan ketentuan peraturan perundang-undangan."
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "PASAL",
+                "id": "pasal-23",
+                "children": [
+                  {
+                    "type": "PASAL_NUMBER",
+                    "text": "Pasal 23"
+                  },
+                  {
+                    "type": "PLAINTEXT",
+                    "text": "Ketentuan lebih lanjut mengenai tugas, tanggung jawab, susunan organisasi, dan tata kerja kepaniteraan khusus Pengadilan Tindak Pidana Korupsi diatur dengan Peraturan Mahkamah Agung."
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "BAB",
+        "id": "bab-5",
+        "children": [
+          {
+            "type": "BAB_NUMBER",
+            "text": "BAB V"
+          },
+          {
+            "type": "BAB_TITLE",
+            "text": "TRANSPARANSI DAN AKUNTABILITAS"
+          },
+          {
+            "type": "PASAL",
+            "id": "pasal-24",
+            "children": [
+              {
+                "type": "PASAL_NUMBER",
+                "text": "Pasal 24"
+              },
+              {
+                "type": "LIST",
+                "id": "",
+                "children": [
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "NUMBER_WITH_BRACKETS",
+                        "text": "(1)"
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "Setiap orang berhak memperoleh informasi dari Pengadilan Tindak Pidana Korupsi sesuai dengan ketentuan peraturan perundang-undangan."
+                      }
+                    ]
+                  },
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "NUMBER_WITH_BRACKETS",
+                        "text": "(2)"
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "Pengadilan Tindak Pidana Korupsi menyediakan informasi yang bersifat terbuka dan dapat diakses oleh publik mengenai penyelenggaraan Pengadilan Tindak Pidana Korupsi."
+                      }
+                    ]
+                  },
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "NUMBER_WITH_BRACKETS",
+                        "text": "(3)"
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "Ketentuan lebih lanjut mengenai hak dan informasi yang bersifat terbuka sebagaimana dimaksud pada ayat (1) dan ayat (2) diatur dengan Peraturan Mahkamah Agung."
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "BAB",
+        "id": "bab-6",
+        "children": [
+          {
+            "type": "BAB_NUMBER",
+            "text": "BAB VI"
+          },
+          {
+            "type": "BAB_TITLE",
+            "text": "HUKUM ACARA"
+          },
+          {
+            "type": "BAGIAN",
+            "id": "bab-6-bagian-1",
+            "children": [
+              {
+                "type": "BAGIAN_NUMBER",
+                "text": "Bagian Kesatu"
+              },
+              {
+                "type": "BAGIAN_TITLE",
+                "text": "Umum"
+              },
+              {
+                "type": "PASAL",
+                "id": "pasal-25",
+                "children": [
+                  {
+                    "type": "PASAL_NUMBER",
+                    "text": "Pasal 25"
+                  },
+                  {
+                    "type": "PLAINTEXT",
+                    "text": "Pemeriksaan di sidang Pengadilan Tindak Pidana Korupsi dilakukan berdasarkan hukum acara pidana yang berlaku, kecuali ditentukan lain dalam Undang-Undang ini."
+                  }
+                ]
+              },
+              {
+                "type": "PASAL",
+                "id": "pasal-26",
+                "children": [
+                  {
+                    "type": "PASAL_NUMBER",
+                    "text": "Pasal 26"
+                  },
+                  {
+                    "type": "LIST",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "LIST_ITEM",
+                        "id": "",
+                        "children": [
+                          {
+                            "type": "NUMBER_WITH_BRACKETS",
+                            "text": "(1)"
+                          },
+                          {
+                            "type": "PLAINTEXT",
+                            "text": "Dalam memeriksa, mengadili, dan memutus perkara tindak pidana korupsi dilakukan dengan majelis hakim berjumlah ganjil sekurang-kurangnya 3 (tiga) orang hakim dan sebanyak banyaknya 5 (lima) orang hakim, terdiri dari Hakim Karier dan Hakim ad hoc."
+                          }
+                        ]
+                      },
+                      {
+                        "type": "LIST_ITEM",
+                        "id": "",
+                        "children": [
+                          {
+                            "type": "NUMBER_WITH_BRACKETS",
+                            "text": "(2)"
+                          },
+                          {
+                            "type": "PLAINTEXT",
+                            "text": "Dalam hal majelis hakim sebagaimana dimaksud pada ayat (1) berjumlah 5 (lima) orang hakim, maka komposisi majelis hakim adalah 3 (tiga) banding 2 (dua) dan dalam hal majelis hakim berjumlah 3 (tiga) orang hakim, maka komposisi majelis hakim adalah 2 (dua) banding 1 (satu)."
+                          }
+                        ]
+                      },
+                      {
+                        "type": "LIST_ITEM",
+                        "id": "",
+                        "children": [
+                          {
+                            "type": "NUMBER_WITH_BRACKETS",
+                            "text": "(3)"
+                          },
+                          {
+                            "type": "PLAINTEXT",
+                            "text": "Penentuan mengenai jumlah dan komposisi majelis hakim sebagaimana dimaksud pada ayat (1) dan ayat (2) ditetapkan oleh ketua pengadilan masing-masing atau Ketua Mahkamah Agung sesuai dengan tingkatan dan kepentingan pemeriksaan perkara kasus demi kasus."
+                          }
+                        ]
+                      },
+                      {
+                        "type": "LIST_ITEM",
+                        "id": "",
+                        "children": [
+                          {
+                            "type": "NUMBER_WITH_BRACKETS",
+                            "text": "(4)"
+                          },
+                          {
+                            "type": "PLAINTEXT",
+                            "text": "Ketentuan mengenai kriteria dalam penentuan jumlah dan komposisi majelis hakim dalam memeriksa, mengadili, dan memutus perkara tindak pidana korupsi sebagaimana dimaksud pada ayat (3) diatur dengan Peraturan Mahkamah Agung."
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "BAGIAN",
+            "id": "bab-6-bagian-2",
+            "children": [
+              {
+                "type": "BAGIAN_NUMBER",
+                "text": "Bagian Kedua"
+              },
+              {
+                "type": "BAGIAN_TITLE",
+                "text": "Penetapan Hari Sidang"
+              },
+              {
+                "type": "PASAL",
+                "id": "pasal-27",
+                "children": [
+                  {
+                    "type": "PASAL_NUMBER",
+                    "text": "Pasal 27"
+                  },
+                  {
+                    "type": "LIST",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "LIST_ITEM",
+                        "id": "",
+                        "children": [
+                          {
+                            "type": "NUMBER_WITH_BRACKETS",
+                            "text": "(1)"
+                          },
+                          {
+                            "type": "PLAINTEXT",
+                            "text": "Ketua Pengadilan Tindak Pidana Korupsi menetapkan susunan majelis Hakim sebagaimana dimaksud dalam Pasal 26 ayat (3) dalam waktu paling lambat 3 (tiga) hari kerja terhitung sejak tanggal penerimaan penyerahan berkas perkara."
+                          }
+                        ]
+                      },
+                      {
+                        "type": "LIST_ITEM",
+                        "id": "",
+                        "children": [
+                          {
+                            "type": "NUMBER_WITH_BRACKETS",
+                            "text": "(2)"
+                          },
+                          {
+                            "type": "PLAINTEXT",
+                            "text": "Sidang pertama perkara Tindak Pidana Korupsi wajib dilaksanakan dalam waktu paling lambat 7 (tujuh) hari kerja terhitung sejak penetapan majelis Hakim."
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "BAGIAN",
+            "id": "bab-6-bagian-3",
+            "children": [
+              {
+                "type": "BAGIAN_NUMBER",
+                "text": "Bagian Ketiga"
+              },
+              {
+                "type": "BAGIAN_TITLE",
+                "text": "Pemeriksaan di Sidang Pengadilan"
+              },
+              {
+                "type": "PASAL",
+                "id": "pasal-28",
+                "children": [
+                  {
+                    "type": "PASAL_NUMBER",
+                    "text": "Pasal 28"
+                  },
+                  {
+                    "type": "LIST",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "LIST_ITEM",
+                        "id": "",
+                        "children": [
+                          {
+                            "type": "NUMBER_WITH_BRACKETS",
+                            "text": "(1)"
+                          },
+                          {
+                            "type": "PLAINTEXT",
+                            "text": "Semua alat bukti yang diajukan di dalam persidangan, termasuk alat bukti yang diperoleh dari hasil penyadapan, harus diperoleh secara sah berdasarkan ketentuan peraturan perundang undangan."
+                          }
+                        ]
+                      },
+                      {
+                        "type": "LIST_ITEM",
+                        "id": "",
+                        "children": [
+                          {
+                            "type": "NUMBER_WITH_BRACKETS",
+                            "text": "(2)"
+                          },
+                          {
+                            "type": "PLAINTEXT",
+                            "text": "Hakim menentukan sah tidaknya alat bukti yang diajukan di muka persidangan baik yang diajukan oleh penuntut umum maupun oleh terdakwa."
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "PASAL",
+                "id": "pasal-29",
+                "children": [
+                  {
+                    "type": "PASAL_NUMBER",
+                    "text": "Pasal 29"
+                  },
+                  {
+                    "type": "PLAINTEXT",
+                    "text": "Perkara tindak pidana korupsi diperiksa, diadili, dan diputus oleh Pengadilan Tindak Pidana Korupsi tingkat pertama dalam waktu paling lama 120 (seratus dua puluh) hari kerja terhitung sejak tanggal perkara dilimpahkan ke Pengadilan Tindak Pidana Korupsi."
+                  }
+                ]
+              },
+              {
+                "type": "PASAL",
+                "id": "pasal-30",
+                "children": [
+                  {
+                    "type": "PASAL_NUMBER",
+                    "text": "Pasal 30"
+                  },
+                  {
+                    "type": "PLAINTEXT",
+                    "text": "Pemeriksaan tingkat banding Tindak Pidana Korupsi diperiksa dan diputus dalam waktu paling lama 60 (enam puluh) hari kerja terhitung sejak tanggal berkas perkara diterima oleh Pengadilan Tinggi."
+                  }
+                ]
+              },
+              {
+                "type": "PASAL",
+                "id": "pasal-31",
+                "children": [
+                  {
+                    "type": "PASAL_NUMBER",
+                    "text": "Pasal 31"
+                  },
+                  {
+                    "type": "PLAINTEXT",
+                    "text": "Pemeriksaan tingkat kasasi Tindak Pidana Korupsi diperiksa dan diputus dalam waktu paling lama 120 (seratus dua puluh) hari kerja terhitung sejak tanggal berkas perkara diterima oleh Mahkamah Agung."
+                  }
+                ]
+              },
+              {
+                "type": "PASAL",
+                "id": "pasal-32",
+                "children": [
+                  {
+                    "type": "PASAL_NUMBER",
+                    "text": "Pasal 32"
+                  },
+                  {
+                    "type": "PLAINTEXT",
+                    "text": "Dalam hal putusan pengadilan dimintakan peninjauan kembali, pemeriksaan perkara tindak pidana korupsi diperiksa dan diputus dalam waktu paling lama 60 (enam puluh) hari kerja terhitung sejak tanggal berkas perkara diterima oleh Mahkamah Agung."
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "BAB",
+        "id": "bab-7",
+        "children": [
+          {
+            "type": "BAB_NUMBER",
+            "text": "BAB VII"
+          },
+          {
+            "type": "BAB_TITLE",
+            "text": "PEMBIAYAAN"
+          },
+          {
+            "type": "PASAL",
+            "id": "pasal-33",
+            "children": [
+              {
+                "type": "PASAL_NUMBER",
+                "text": "Pasal 33"
+              },
+              {
+                "type": "LIST",
+                "id": "",
+                "children": [
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "NUMBER_WITH_BRACKETS",
+                        "text": "(1)"
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "Biaya yang diperlukan dalam rangka pelaksanaan Undang-Undang ini dibebankan pada anggaran Mahkamah Agung yang berasal dari Anggaran Pendapatan dan Belanja Negara."
+                      }
+                    ]
+                  },
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "NUMBER_WITH_BRACKETS",
+                        "text": "(2)"
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "Mahkamah Agung setiap tahun wajib menyusun rencana kerja dan anggaran Pengadilan Tindak Pidana Korupsi."
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "BAB",
+        "id": "bab-8",
+        "children": [
+          {
+            "type": "BAB_NUMBER",
+            "text": "BAB VIII"
+          },
+          {
+            "type": "BAB_TITLE",
+            "text": "KETENTUAN PERALIHAN"
+          },
+          {
+            "type": "PASAL",
+            "id": "pasal-34",
+            "children": [
+              {
+                "type": "PASAL_NUMBER",
+                "text": "Pasal 34"
+              },
+              {
+                "type": "PLAINTEXT",
+                "text": "Pada saat Undang-Undang ini mulai berlaku:"
+              },
+              {
+                "type": "LIST",
+                "id": "",
+                "children": [
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "LETTER_WITH_DOT",
+                        "text": "a."
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "perkara tindak pidana korupsi yang sedang diperiksa oleh Pengadilan Tindak Pidana Korupsi pada Pengadilan Negeri Jakarta Pusat yang dibentuk berdasarkan Undang-Undang Nomor 30 Tahun 2002 tentang Komisi Pemberantasan Tindak Pidana Korupsi atau yang sedang diperiksa pada setiap tingkat pemeriksaan, tetap diperiksa dan diadili sampai perkara tindak pidana korupsi tersebut diputus sesuai dengan peraturan perundang-undangan;"
+                      }
+                    ]
+                  },
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "LETTER_WITH_DOT",
+                        "text": "b."
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "perkara tindak pidana korupsi yang sedang diperiksa oleh pengadilan negeri atau yang sedang diperiksa pada setiap tingkat pemeriksaan, tetap diperiksa dan diadili sampai perkara tindak pidana korupsi tersebut diputus sesuai dengan peraturan perundang-undangan."
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "PASAL",
+            "id": "pasal-35",
+            "children": [
+              {
+                "type": "PASAL_NUMBER",
+                "text": "Pasal 35"
+              },
+              {
+                "type": "LIST",
+                "id": "",
+                "children": [
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "NUMBER_WITH_BRACKETS",
+                        "text": "(1)"
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "Dengan Undang-Undang ini untuk pertama kali Pengadilan Tindak Pidana Korupsi dibentuk pada setiap pengadilan negeri di ibu kota provinsi."
+                      }
+                    ]
+                  },
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "NUMBER_WITH_BRACKETS",
+                        "text": "(2)"
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "Daerah hukum Pengadilan Tindak Pidana Korupsi sebagaimana dimaksud pada ayat (1) meliputi daerah hukum provinsi yang bersangkutan."
+                      }
+                    ]
+                  },
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "NUMBER_WITH_BRACKETS",
+                        "text": "(3)"
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "Khusus untuk Daerah Khusus Ibu kota Jakarta, Pengadilan Tindak Pidana Korupsi dibentuk pada Pengadilan Negeri Jakarta Pusat yang daerah hukumnya meliputi daerah hukum provinsi Daerah Khusus Ibu Kota Jakarta."
+                      }
+                    ]
+                  },
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "NUMBER_WITH_BRACKETS",
+                        "text": "(4)"
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "Pengadilan Tindak Pidana Korupsi sebagaimana dimaksud pada ayat (1) dan ayat (3) dibentuk paling lama 2 (dua) tahun terhitung sejak Undang-Undang ini diundangkan."
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "PASAL",
+            "id": "pasal-36",
+            "children": [
+              {
+                "type": "PASAL_NUMBER",
+                "text": "Pasal 36"
+              },
+              {
+                "type": "PLAINTEXT",
+                "text": "Sebelum terbentuknya Pengadilan Tindak Pidana Korupsi sebagaimana dimaksud dalam Pasal 35, tindak pidana korupsi yang penuntutannya diajukan oleh penuntut umum, diperiksa, diadili, dan diputus oleh pengadilan negeri sesuai dengan peraturan perundang-undangan."
+              }
+            ]
+          },
+          {
+            "type": "PASAL",
+            "id": "pasal-37",
+            "children": [
+              {
+                "type": "PASAL_NUMBER",
+                "text": "Pasal 37"
+              },
+              {
+                "type": "PLAINTEXT",
+                "text": "Pada saat Undang-Undang ini mulai berlaku, Hakim ad hoc yang diangkat berdasarkan Undang Undang Nomor 30 Tahun 2002 tentang Komisi Pemberantasan Tindak Pidana Korupsi, tetap bertugas sampai dengan berakhirnya masa jabatan Hakim ad hoc yang diangkat berdasarkan Undang-Undang ini."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "BAB",
+        "id": "bab-9",
+        "children": [
+          {
+            "type": "BAB_NUMBER",
+            "text": "BAB IX"
+          },
+          {
+            "type": "BAB_TITLE",
+            "text": "KETENTUAN PENUTUP"
+          },
+          {
+            "type": "PASAL",
+            "id": "pasal-38",
+            "children": [
+              {
+                "type": "PASAL_NUMBER",
+                "text": "Pasal 38"
+              },
+              {
+                "type": "PLAINTEXT",
+                "text": "Dalam hal Pengadilan Tindak Pidana Korupsi sebagaimana dimaksud dalam Pasal 3, Pasal 4, atau Pasal 35 tidak tersedia Hakim ad hoc yang mempunyai keahlian yang diperlukan dalam pemeriksaan perkara, ketua pengadilan negeri dapat meminta Hakim ad hoc pada ketua pengadilan negeri dalam daerah hukum pengadilan tinggi lainnya."
+              }
+            ]
+          },
+          {
+            "type": "PASAL",
+            "id": "pasal-39",
+            "children": [
+              {
+                "type": "PASAL_NUMBER",
+                "text": "Pasal 39"
+              },
+              {
+                "type": "PLAINTEXT",
+                "text": "Pada saat Undang-Undang ini mulai berlaku, ketentuan Pasal 53 sampai dengan Pasal 62 dari Bab VII mengenai pemeriksaan di sidang pengadilan yang diatur dalam Undang-Undang Nomor 30 Tahun 2002 tentang Komisi Pemberantasan Tindak Pidana Korupsi (Lembaran Negara Republik Indonesia Tahun 2002 Nomor 137, Tambahan Lembaran Negara Republik Indonesia Nomor 4250) dicabut dan dinyatakan tidak berlaku."
+              }
+            ]
+          },
+          {
+            "type": "PASAL",
+            "id": "pasal-40",
+            "children": [
+              {
+                "type": "PASAL_NUMBER",
+                "text": "Pasal 40"
+              },
+              {
+                "type": "PLAINTEXT",
+                "text": "Undang-Undang ini mulai berlaku pada tanggal diundangkan."
+              },
+              {
+                "type": "PLAINTEXT",
+                "text": "Agar setiap orang mengetahuinya, memerintahkan pengundangan Undang-Undang ini dengan penempatannya dalam Lembaran Negara Republik Indonesia."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "CLOSING",
+        "id": "",
+        "children": [
+          {
+            "type": "PLAINTEXT",
+            "text": "Disahkan Di Jakarta,"
+          },
+          {
+            "type": "PLAINTEXT",
+            "text": "Pada Tanggal 29 Oktober 2009"
+          },
+          {
+            "type": "PLAINTEXT",
+            "text": "PRESIDEN REPUBLIK INDONESIA,"
+          },
+          {
+            "type": "PLAINTEXT",
+            "text": "Ttd."
+          },
+          {
+            "type": "PLAINTEXT",
+            "text": "DR. H. SUSILO BAMBANG YUDHOYONO"
+          },
+          {
+            "type": "PLAINTEXT",
+            "text": "Diundangkan Di Jakarta,"
+          },
+          {
+            "type": "PLAINTEXT",
+            "text": "Pada Tanggal 29 Oktober 2009"
+          },
+          {
+            "type": "PLAINTEXT",
+            "text": "MENTERI HUKUM DAN HAK ASASI MANUSIA REPUBLIK INDONESIA,"
+          },
+          {
+            "type": "PLAINTEXT",
+            "text": "Ttd."
+          },
+          {
+            "type": "PLAINTEXT",
+            "text": "PATRIALIS AKBAR"
+          },
+          {
+            "type": "LEMBARAN_NUMBER",
+            "text": "LEMBARAN NEGARA REPUBLIK INDONESIA TAHUN 2009 NOMOR 155"
+          }
+        ]
+      },
+      {
+        "type": "PENJELASAN",
+        "id": "penjelasan",
+        "children": [
+          {
+            "type": "PENJELASAN_TITLE",
+            "id": "",
+            "children": [
+              {
+                "type": "PLAINTEXT",
+                "text": "PENJELASAN"
+              },
+              {
+                "type": "PLAINTEXT",
+                "text": "UNDANG-UNDANG REPUBLIK INDONESIA"
+              },
+              {
+                "type": "UU_TITLE_YEAR_AND_NUMBER",
+                "text": "NOMOR 46 TAHUN 2009"
+              },
+              {
+                "type": "PLAINTEXT",
+                "text": "TENTANG"
+              },
+              {
+                "type": "UU_TITLE_TOPIC",
+                "text": "PENGADILAN TINDAK PIDANA KORUPSI"
+              }
+            ]
+          },
+          {
+            "type": "PENJELASAN_UMUM",
+            "id": "",
+            "children": [
+              {
+                "type": "PENJELASAN_UMUM_TITLE",
+                "text": "I. UMUM"
+              },
+              {
+                "type": "PLAINTEXT",
+                "text": "Tindak pidana korupsi telah menimbulkan kerusakan dalam berbagai sendi kehidupan masyarakat, bangsa, dan negara sehingga memerlukan penanganan yang luar biasa. Selain itu, upaya pencegahan dan pemberantasan tindak pidana korupsi perlu dilakukan secara terus menerus dan berkesinambungan serta perlu didukung oleh berbagai sumber daya, baik sumber daya manusia maupun sumber daya lainnya seperti peningkatan kapasitas kelembagaan serta peningkatan penegakan hukum guna menumbuh kesadaran dan sikap tindak masyarakat yang anti korupsi."
+              },
+              {
+                "type": "PLAINTEXT",
+                "text": "Pengadilan Tindak Pidana Korupsi yang dibentuk berdasarkan ketentuan Pasal 53 Undang Undang Nomor 30 Tahun 2002 tentang Komisi Pemberantasan Tindak Pidana Korupsi berdasarkan putusan Mahkamah Konstitusi Nomor: 012-016-019/PUU-IV/2006 tanggal 19 Desember 2006 dinyatakan bertentangan dengan Undang-Undang Dasar Negara Republik Indonesia Tahun 1945. Putusan Mahkamah Konstitusi tersebut pada dasarnya sejalan dengan Undang-Undang Nomor 4 Tahun 2004 tentang Kekuasaan Kehakiman, yang menentukan bahwa pengadilan khusus hanya dapat dibentuk dalam salah satu lingkungan peradilan umum yang dibentuk dengan undang-undang tersendiri."
+              },
+              {
+                "type": "PLAINTEXT",
+                "text": "Berdasarkan hal tersebut perlu pengaturan mengenai Pengadilan Tindak Pidana Korupsi dalam suatu undang-undang tersendiri."
+              },
+              {
+                "type": "PLAINTEXT",
+                "text": "Pengadilan Tindak Pidana Korupsi ini merupakan pengadilan khusus yang berada di lingkungan Peradilan Umum dan pengadilan satu-satunya yang memiliki kewenangan mengadili perkara tindak pidana korupsi yang penuntutannya dilakukan oleh penuntut umum. Pengadilan Tindak Pidana Korupsi akan dibentuk di setiap ibu kota kabupaten/kota yang akan dilaksanakan secara bertahap mengingat ketersediaan sarana dan prasarana. Namun untuk pertama kali berdasarkan Undang-Undang ini, pembentukan Pengadilan Tindak Pidana Korupsi dilakukan pada setiap ibukota provinsi."
+              },
+              {
+                "type": "PLAINTEXT",
+                "text": "Dalam Undang-Undang ini diatur pula mengenai Hakim Pengadilan Tindak Pidana Korupsi yang terdiri dari Hakim Karier dan Hakim ad hoc yang persyaratan pemilihan dan pengangkatannya berbeda dengan Hakim pada umumnya. Keberadaan Hakim ad hoc diperlukan karena keahliannya sejalan dengan kompleksitas perkara tindak pidana korupsi, baik yang menyangkut modus operandi, pembuktian, maupun luasnya cakupan tindak pidana korupsi antara lain di bidang keuangan dan perbankan, perpajakan, pasar modal, pengadaan barang dan jasa pemerintah."
+              },
+              {
+                "type": "PLAINTEXT",
+                "text": "Hukum acara yang digunakan dalam pemeriksaan di sidang Pengadilan Tindak Pidana Korupsi pada dasarnya dilakukan sesuai dengan hukum acara pidana yang berlaku, kecuali ditentukan lain dalam Undang-Undang ini. Kekhususan hukum acara tersebut antara lain mengatur:"
+              },
+              {
+                "type": "LIST",
+                "id": "",
+                "children": [
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "LETTER_WITH_DOT",
+                        "text": "a."
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "penegasan pembagian tugas dan wewenang antara ketua dan wakil ketua Pengadilan Tindak Pidana Korupsi;"
+                      }
+                    ]
+                  },
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "LETTER_WITH_DOT",
+                        "text": "b."
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "mengenai komposisi majelis Hakim dalam pemeriksaan di sidang pengadilan baik pada tingkat pertama, banding maupun kasasi;"
+                      }
+                    ]
+                  },
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "LETTER_WITH_DOT",
+                        "text": "c."
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "jangka waktu penyelesaian pemeriksaan perkara tindak pidana korupsi pada setiap tingkatan pemeriksaan;"
+                      }
+                    ]
+                  },
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "LETTER_WITH_DOT",
+                        "text": "d."
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "alat bukti yang diajukan di dalam persidangan, termasuk alat bukti yang diperoleh dari hasil penyadapan harus diperoleh secara sah berdasarkan ketentuan peraturan perundang-undangan; dan"
+                      }
+                    ]
+                  },
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "LETTER_WITH_DOT",
+                        "text": "e."
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "adanya kepaniteraan khusus untuk Pengadilan Tindak Pidana Korupsi."
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "PLAINTEXT",
+                "text": "Agar tidak terjadi kekosongan hukum pada saat Undang-Undang berlaku, diatur mengenai masa transisi atau peralihan terhadap Pengadilan Tindak Pidana Korupsi yang dibentuk berdasarkan Undang-Undang Nomor 30 Tahun 2002 tentang Komisi Pemberantasan Tindak Pidana Korupsi dan Pengadilan Tindak Pidana Korupsi yang dibentuk berdasarkan Undang-Undang ini, antara lain mengenai keberadaan Hakim ad hoc. Hakim ad hoc yang telah diangkat berdasarkan undang-undang sebelum Undang-Undang ini berlaku, tidak perlu diangkat kembali, tetapi langsung bertugas untuk masa jabatan 5 (lima) tahun bersamaan dengan masa jabatan Hakim ad hoc yang diangkat berdasarkan Undang-Undang ini."
+              }
+            ]
+          },
+          {
+            "type": "PENJELASAN_PASAL_DEMI_PASAL",
+            "id": "",
+            "children": [
+              {
+                "type": "PENJELASAN_PASAL_DEMI_PASAL_TITLE",
+                "text": "II. PASAL DEMI PASAL"
+              },
+              {
+                "type": "PENJELASAN_PASAL",
+                "id": "",
+                "children": [
+                  {
+                    "type": "PASAL_NUMBER",
+                    "text": "Pasal 1"
+                  },
+                  {
+                    "type": "PLAINTEXT",
+                    "text": "Cukup jelas."
+                  }
+                ]
+              },
+              {
+                "type": "PENJELASAN_PASAL",
+                "id": "",
+                "children": [
+                  {
+                    "type": "PASAL_NUMBER",
+                    "text": "Pasal 2"
+                  },
+                  {
+                    "type": "PLAINTEXT",
+                    "text": "Ketentuan ini mengingat ketentuan Pasal 24A ayat (5) Undang-Undang Dasar Negara Republik Indonesia Tahun 1945 dan Pasal 15 Undang-Undang Nomor 4 Tahun 2004 tentang Kekuasaan Kehakiman, yang menghendaki pembentukan pengadilan khusus diatur dengan Undang-Undang."
+                  }
+                ]
+              },
+              {
+                "type": "PENJELASAN_PASAL",
+                "id": "",
+                "children": [
+                  {
+                    "type": "PASAL_NUMBER",
+                    "text": "Pasal 3"
+                  },
+                  {
+                    "type": "PLAINTEXT",
+                    "text": "Cukup jelas."
+                  }
+                ]
+              },
+              {
+                "type": "PENJELASAN_PASAL",
+                "id": "",
+                "children": [
+                  {
+                    "type": "PASAL_NUMBER",
+                    "text": "Pasal 4"
+                  },
+                  {
+                    "type": "PLAINTEXT",
+                    "text": "Cukup jelas."
+                  }
+                ]
+              },
+              {
+                "type": "PENJELASAN_PASAL",
+                "id": "",
+                "children": [
+                  {
+                    "type": "PASAL_NUMBER",
+                    "text": "Pasal 5"
+                  },
+                  {
+                    "type": "PLAINTEXT",
+                    "text": "Yang dimaksud dengan \u201dsatu-satunya pengadilan\u201d adalah pengadilan yang memeriksa, mengadili, dan memutus perkara yang penuntutannya diajukan oleh penuntut umum."
+                  }
+                ]
+              },
+              {
+                "type": "PENJELASAN_PASAL",
+                "id": "",
+                "children": [
+                  {
+                    "type": "PASAL_NUMBER",
+                    "text": "Pasal 6"
+                  },
+                  {
+                    "type": "LIST",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "PENJELASAN_LIST_ITEM",
+                        "id": "",
+                        "children": [
+                          {
+                            "type": "PENJELASAN_HURUF",
+                            "text": "Huruf a"
+                          },
+                          {
+                            "type": "PLAINTEXT",
+                            "text": "Yang dimaksud dengan \u201dtindak pidana korupsi\u201d adalah tindak pidana sebagaimana dimaksud dalam Undang-Undang Nomor 31 Tahun 1999 tentang Pemberantasan Tindak Pidana Korupsi sebagaimana telah diubah dengan Undang-Undang Nomor 20 Tahun 2001 tentang Perubahan Atas Undang-Undang Nomor 31 Tahun 1999 tentang Pemberantasan Tindak Pidana Korupsi."
+                          }
+                        ]
+                      },
+                      {
+                        "type": "PENJELASAN_LIST_ITEM",
+                        "id": "",
+                        "children": [
+                          {
+                            "type": "PENJELASAN_HURUF",
+                            "text": "Huruf b"
+                          },
+                          {
+                            "type": "PLAINTEXT",
+                            "text": "Yang dimaksud dengan \u201ctindak pidana pencucian uang\u201d adalah tindak pidana sebagaimana dimaksud dalam Undang-Undang tentang Tindak Pidana Pencucian Uang."
+                          },
+                          {
+                            "type": "PLAINTEXT",
+                            "text": "Yang dimaksud dengan \u201ctindak pidana asalnya\u201d adalah yang lazim dikenal dengan predicate crime."
+                          }
+                        ]
+                      },
+                      {
+                        "type": "PENJELASAN_LIST_ITEM",
+                        "id": "",
+                        "children": [
+                          {
+                            "type": "PENJELASAN_HURUF",
+                            "text": "Huruf c"
+                          },
+                          {
+                            "type": "PLAINTEXT",
+                            "text": "Cukup jelas."
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "PENJELASAN_PASAL",
+                "id": "",
+                "children": [
+                  {
+                    "type": "PASAL_NUMBER",
+                    "text": "Pasal 7"
+                  },
+                  {
+                    "type": "PLAINTEXT",
+                    "text": "Cukup jelas."
+                  }
+                ]
+              },
+              {
+                "type": "PENJELASAN_PASAL",
+                "id": "",
+                "children": [
+                  {
+                    "type": "PASAL_NUMBER",
+                    "text": "Pasal 8"
+                  },
+                  {
+                    "type": "PLAINTEXT",
+                    "text": "Cukup jelas."
+                  }
+                ]
+              },
+              {
+                "type": "PENJELASAN_PASAL",
+                "id": "",
+                "children": [
+                  {
+                    "type": "PASAL_NUMBER",
+                    "text": "Pasal 9"
+                  },
+                  {
+                    "type": "LIST",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "PENJELASAN_LIST_ITEM",
+                        "id": "",
+                        "children": [
+                          {
+                            "type": "PENJELASAN_AYAT",
+                            "text": "Ayat (1)"
+                          },
+                          {
+                            "type": "PLAINTEXT",
+                            "text": "Cukup jelas."
+                          }
+                        ]
+                      },
+                      {
+                        "type": "PENJELASAN_LIST_ITEM",
+                        "id": "",
+                        "children": [
+                          {
+                            "type": "PENJELASAN_AYAT",
+                            "text": "Ayat (2)"
+                          },
+                          {
+                            "type": "PLAINTEXT",
+                            "text": "Cukup jelas."
+                          }
+                        ]
+                      },
+                      {
+                        "type": "PENJELASAN_LIST_ITEM",
+                        "id": "",
+                        "children": [
+                          {
+                            "type": "PENJELASAN_AYAT",
+                            "text": "Ayat (3)"
+                          },
+                          {
+                            "type": "PLAINTEXT",
+                            "text": "Cukup jelas."
+                          }
+                        ]
+                      },
+                      {
+                        "type": "PENJELASAN_LIST_ITEM",
+                        "id": "",
+                        "children": [
+                          {
+                            "type": "PENJELASAN_AYAT",
+                            "text": "Ayat (4)"
+                          },
+                          {
+                            "type": "PLAINTEXT",
+                            "text": "Yang dimaksud dengan \u201chal tertentu\u201d misalnya antara lain masalah yang berkaitan dengan beban perkara atau beban tugas."
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "PENJELASAN_PASAL",
+                "id": "",
+                "children": [
+                  {
+                    "type": "PASAL_NUMBER",
+                    "text": "Pasal 10"
+                  },
+                  {
+                    "type": "LIST",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "PENJELASAN_LIST_ITEM",
+                        "id": "",
+                        "children": [
+                          {
+                            "type": "PENJELASAN_AYAT",
+                            "text": "Ayat (1)"
+                          },
+                          {
+                            "type": "PLAINTEXT",
+                            "text": "Cukup jelas."
+                          }
+                        ]
+                      },
+                      {
+                        "type": "PENJELASAN_LIST_ITEM",
+                        "id": "",
+                        "children": [
+                          {
+                            "type": "PENJELASAN_AYAT",
+                            "text": "Ayat (2)"
+                          },
+                          {
+                            "type": "PLAINTEXT",
+                            "text": "Cukup jelas."
+                          }
+                        ]
+                      },
+                      {
+                        "type": "PENJELASAN_LIST_ITEM",
+                        "id": "",
+                        "children": [
+                          {
+                            "type": "PENJELASAN_AYAT",
+                            "text": "Ayat (3)"
+                          },
+                          {
+                            "type": "PLAINTEXT",
+                            "text": "Cukup jelas."
+                          }
+                        ]
+                      },
+                      {
+                        "type": "PENJELASAN_LIST_ITEM",
+                        "id": "",
+                        "children": [
+                          {
+                            "type": "PENJELASAN_AYAT",
+                            "text": "Ayat (4)"
+                          },
+                          {
+                            "type": "PLAINTEXT",
+                            "text": "Berdasarkan ketentuan ini pengangkatan dan pemberhentian Hakim ad hoc oleh Presiden bersifat meresmikan calon yang diusulkan oleh Ketua Mahkamah Agung."
+                          }
+                        ]
+                      },
+                      {
+                        "type": "PENJELASAN_LIST_ITEM",
+                        "id": "",
+                        "children": [
+                          {
+                            "type": "PENJELASAN_AYAT",
+                            "text": "Ayat (5)"
+                          },
+                          {
+                            "type": "PLAINTEXT",
+                            "text": "Cukup jelas."
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "PENJELASAN_PASAL",
+                "id": "",
+                "children": [
+                  {
+                    "type": "PASAL_NUMBER",
+                    "text": "Pasal 11"
+                  },
+                  {
+                    "type": "LIST",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "PENJELASAN_LIST_ITEM",
+                        "id": "",
+                        "children": [
+                          {
+                            "type": "PENJELASAN_HURUF",
+                            "text": "Huruf a"
+                          },
+                          {
+                            "type": "PLAINTEXT",
+                            "text": "Cukup jelas."
+                          }
+                        ]
+                      },
+                      {
+                        "type": "PENJELASAN_LIST_ITEM",
+                        "id": "",
+                        "children": [
+                          {
+                            "type": "PENJELASAN_HURUF",
+                            "text": "Huruf b"
+                          },
+                          {
+                            "type": "PLAINTEXT",
+                            "text": "Cukup jelas."
+                          }
+                        ]
+                      },
+                      {
+                        "type": "PENJELASAN_LIST_ITEM",
+                        "id": "",
+                        "children": [
+                          {
+                            "type": "PENJELASAN_HURUF",
+                            "text": "Huruf c"
+                          },
+                          {
+                            "type": "PLAINTEXT",
+                            "text": "Cukup jelas."
+                          }
+                        ]
+                      },
+                      {
+                        "type": "PENJELASAN_LIST_ITEM",
+                        "id": "",
+                        "children": [
+                          {
+                            "type": "PENJELASAN_HURUF",
+                            "text": "Huruf d"
+                          },
+                          {
+                            "type": "PLAINTEXT",
+                            "text": "Cukup jelas."
+                          }
+                        ]
+                      },
+                      {
+                        "type": "PENJELASAN_LIST_ITEM",
+                        "id": "",
+                        "children": [
+                          {
+                            "type": "PENJELASAN_HURUF",
+                            "text": "Huruf e"
+                          },
+                          {
+                            "type": "PLAINTEXT",
+                            "text": "Dalam proses pelatihan untuk memperoleh sertifikasi khusus sebagai hakim tindak pidana korupsi, Mahkamah Agung mengikutsertakan Komisi Yudisial untuk memberikan materi ajar khususnya mengenai Kode Etik dan Pedoman Perilaku Hakim."
+                          }
+                        ]
+                      },
+                      {
+                        "type": "PENJELASAN_LIST_ITEM",
+                        "id": "",
+                        "children": [
+                          {
+                            "type": "PENJELASAN_HURUF",
+                            "text": "Huruf f"
+                          },
+                          {
+                            "type": "PLAINTEXT",
+                            "text": "Cukup jelas."
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "PENJELASAN_PASAL",
+                "id": "",
+                "children": [
+                  {
+                    "type": "PASAL_NUMBER",
+                    "text": "Pasal 12"
+                  },
+                  {
+                    "type": "LIST",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "PENJELASAN_LIST_ITEM",
+                        "id": "",
+                        "children": [
+                          {
+                            "type": "PENJELASAN_HURUF",
+                            "text": "Huruf a"
+                          },
+                          {
+                            "type": "PLAINTEXT",
+                            "text": "Cukup jelas."
+                          }
+                        ]
+                      },
+                      {
+                        "type": "PENJELASAN_LIST_ITEM",
+                        "id": "",
+                        "children": [
+                          {
+                            "type": "PENJELASAN_HURUF",
+                            "text": "Huruf b"
+                          },
+                          {
+                            "type": "PLAINTEXT",
+                            "text": "Cukup jelas."
+                          }
+                        ]
+                      },
+                      {
+                        "type": "PENJELASAN_LIST_ITEM",
+                        "id": "",
+                        "children": [
+                          {
+                            "type": "PENJELASAN_HURUF",
+                            "text": "Huruf c"
+                          },
+                          {
+                            "type": "PLAINTEXT",
+                            "text": "Sehat jasmani dan rohani dalam ketentuan ini dibuktikan dengan surat keterangan dokter dari rumah sakit pemerintah."
+                          }
+                        ]
+                      },
+                      {
+                        "type": "PENJELASAN_LIST_ITEM",
+                        "id": "",
+                        "children": [
+                          {
+                            "type": "PENJELASAN_HURUF",
+                            "text": "Huruf d"
+                          },
+                          {
+                            "type": "PLAINTEXT",
+                            "text": "Yang dimaksud dengan \u201cberpengalaman di bidang hukum\u201d antara lain hukum keuangan dan perbankan, hukum administrasi, hukum pertanahan, hukum pasar modal, dan hukum pajak."
+                          }
+                        ]
+                      },
+                      {
+                        "type": "PENJELASAN_LIST_ITEM",
+                        "id": "",
+                        "children": [
+                          {
+                            "type": "PENJELASAN_HURUF",
+                            "text": "Huruf e"
+                          },
+                          {
+                            "type": "PLAINTEXT",
+                            "text": "Cukup jelas."
+                          }
+                        ]
+                      },
+                      {
+                        "type": "PENJELASAN_LIST_ITEM",
+                        "id": "",
+                        "children": [
+                          {
+                            "type": "PENJELASAN_HURUF",
+                            "text": "Huruf f"
+                          },
+                          {
+                            "type": "PLAINTEXT",
+                            "text": "Cukup jelas."
+                          }
+                        ]
+                      },
+                      {
+                        "type": "PENJELASAN_LIST_ITEM",
+                        "id": "",
+                        "children": [
+                          {
+                            "type": "PENJELASAN_HURUF",
+                            "text": "Huruf g"
+                          },
+                          {
+                            "type": "PLAINTEXT",
+                            "text": "Cukup jelas."
+                          }
+                        ]
+                      },
+                      {
+                        "type": "PENJELASAN_LIST_ITEM",
+                        "id": "",
+                        "children": [
+                          {
+                            "type": "PENJELASAN_HURUF",
+                            "text": "Huruf h"
+                          },
+                          {
+                            "type": "PLAINTEXT",
+                            "text": "Yang dimaksud dengan \u201dpengurus partai politik\u201d termasuk sayap partai politik."
+                          }
+                        ]
+                      },
+                      {
+                        "type": "PENJELASAN_LIST_ITEM",
+                        "id": "",
+                        "children": [
+                          {
+                            "type": "PENJELASAN_HURUF",
+                            "text": "Huruf i"
+                          },
+                          {
+                            "type": "PLAINTEXT",
+                            "text": "Cukup jelas."
+                          }
+                        ]
+                      },
+                      {
+                        "type": "PENJELASAN_LIST_ITEM",
+                        "id": "",
+                        "children": [
+                          {
+                            "type": "PENJELASAN_HURUF",
+                            "text": "Huruf j"
+                          },
+                          {
+                            "type": "PLAINTEXT",
+                            "text": "Cukup jelas."
+                          }
+                        ]
+                      },
+                      {
+                        "type": "PENJELASAN_LIST_ITEM",
+                        "id": "",
+                        "children": [
+                          {
+                            "type": "PENJELASAN_HURUF",
+                            "text": "Huruf k"
+                          },
+                          {
+                            "type": "PLAINTEXT",
+                            "text": "Cukup jelas."
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "PENJELASAN_PASAL",
+                "id": "",
+                "children": [
+                  {
+                    "type": "PASAL_NUMBER",
+                    "text": "Pasal 13"
+                  },
+                  {
+                    "type": "LIST",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "PENJELASAN_LIST_ITEM",
+                        "id": "",
+                        "children": [
+                          {
+                            "type": "PENJELASAN_AYAT",
+                            "text": "Ayat (1)"
+                          },
+                          {
+                            "type": "PLAINTEXT",
+                            "text": "Yang dimaksud dengan \u201cmasyarakat\u201d antara lain tokoh masyarakat, akademisi, dan praktisi hukum."
+                          }
+                        ]
+                      },
+                      {
+                        "type": "PENJELASAN_LIST_ITEM",
+                        "id": "",
+                        "children": [
+                          {
+                            "type": "PENJELASAN_AYAT",
+                            "text": "Ayat (2)"
+                          },
+                          {
+                            "type": "PLAINTEXT",
+                            "text": "Cukup jelas."
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "PENJELASAN_PASAL",
+                "id": "",
+                "children": [
+                  {
+                    "type": "PASAL_NUMBER",
+                    "text": "Pasal 14"
+                  },
+                  {
+                    "type": "PLAINTEXT",
+                    "text": "Cukup jelas."
+                  }
+                ]
+              },
+              {
+                "type": "PENJELASAN_PASAL",
+                "id": "",
+                "children": [
+                  {
+                    "type": "PASAL_NUMBER",
+                    "text": "Pasal 15"
+                  },
+                  {
+                    "type": "PLAINTEXT",
+                    "text": "Cukup jelas."
+                  }
+                ]
+              },
+              {
+                "type": "PENJELASAN_PASAL",
+                "id": "",
+                "children": [
+                  {
+                    "type": "PASAL_NUMBER",
+                    "text": "Pasal 16"
+                  },
+                  {
+                    "type": "PLAINTEXT",
+                    "text": "Pelepasan jabatan dalam ketentuan ini bersifat sementara selama menjadi Hakim ad hoc."
+                  },
+                  {
+                    "type": "PLAINTEXT",
+                    "text": "Dalam hal Hakim ad hoc memegang jabatan fungsional sebagai dosen pada perguruan tinggi dan berstatus pegawai negeri, yang bersangkutan menjalani cuti di luar tanggungan negara."
+                  }
+                ]
+              },
+              {
+                "type": "PENJELASAN_PASAL",
+                "id": "",
+                "children": [
+                  {
+                    "type": "PASAL_NUMBER",
+                    "text": "Pasal 17"
+                  },
+                  {
+                    "type": "LIST",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "PENJELASAN_LIST_ITEM",
+                        "id": "",
+                        "children": [
+                          {
+                            "type": "PENJELASAN_HURUF",
+                            "text": "Huruf a"
+                          },
+                          {
+                            "type": "PLAINTEXT",
+                            "text": "Cukup jelas."
+                          }
+                        ]
+                      },
+                      {
+                        "type": "PENJELASAN_LIST_ITEM",
+                        "id": "",
+                        "children": [
+                          {
+                            "type": "PENJELASAN_HURUF",
+                            "text": "Huruf b"
+                          },
+                          {
+                            "type": "PLAINTEXT",
+                            "text": "Yang dimaksud dengan \u201csakit jasmani atau rohani secara terus menerus\u201d adalah sakit yang menyebabkan yang bersangkutan tidak mampu lagi melakukan tugas dan kewajibannya dengan baik yang dibuktikan dengan surat keterangan dari dokter."
+                          }
+                        ]
+                      },
+                      {
+                        "type": "PENJELASAN_LIST_ITEM",
+                        "id": "",
+                        "children": [
+                          {
+                            "type": "PENJELASAN_HURUF",
+                            "text": "Huruf c"
+                          },
+                          {
+                            "type": "PLAINTEXT",
+                            "text": "Cukup jelas."
+                          }
+                        ]
+                      },
+                      {
+                        "type": "PENJELASAN_LIST_ITEM",
+                        "id": "",
+                        "children": [
+                          {
+                            "type": "PENJELASAN_HURUF",
+                            "text": "Huruf d"
+                          },
+                          {
+                            "type": "PLAINTEXT",
+                            "text": "Cukup jelas."
+                          }
+                        ]
+                      },
+                      {
+                        "type": "PENJELASAN_LIST_ITEM",
+                        "id": "",
+                        "children": [
+                          {
+                            "type": "PENJELASAN_HURUF",
+                            "text": "Huruf e"
+                          },
+                          {
+                            "type": "PLAINTEXT",
+                            "text": "Cukup jelas."
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "PENJELASAN_PASAL",
+                "id": "",
+                "children": [
+                  {
+                    "type": "PASAL_NUMBER",
+                    "text": "Pasal 18"
+                  },
+                  {
+                    "type": "LIST",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "PENJELASAN_LIST_ITEM",
+                        "id": "",
+                        "children": [
+                          {
+                            "type": "PENJELASAN_HURUF",
+                            "text": "Huruf a"
+                          },
+                          {
+                            "type": "PLAINTEXT",
+                            "text": "Hakim yang dapat dikenakan ketentuan ini apabila pidana yang dijatuhkan sekurang-kurangnya 1 (satu) tahun."
+                          }
+                        ]
+                      },
+                      {
+                        "type": "PENJELASAN_LIST_ITEM",
+                        "id": "",
+                        "children": [
+                          {
+                            "type": "PENJELASAN_HURUF",
+                            "text": "Huruf b"
+                          },
+                          {
+                            "type": "PLAINTEXT",
+                            "text": "Yang dimaksud dengan \u201cmelakukan perbuatan tercela\u201d adalah apabila Hakim yang bersangkutan karena sikap, perbuatan, dan tindakannya baik di dalam maupun di luar pengadilan merendahkan martabat Hakim."
+                          }
+                        ]
+                      },
+                      {
+                        "type": "PENJELASAN_LIST_ITEM",
+                        "id": "",
+                        "children": [
+                          {
+                            "type": "PENJELASAN_HURUF",
+                            "text": "Huruf c"
+                          },
+                          {
+                            "type": "PLAINTEXT",
+                            "text": "Cukup jelas."
+                          }
+                        ]
+                      },
+                      {
+                        "type": "PENJELASAN_LIST_ITEM",
+                        "id": "",
+                        "children": [
+                          {
+                            "type": "PENJELASAN_HURUF",
+                            "text": "Huruf d"
+                          },
+                          {
+                            "type": "PLAINTEXT",
+                            "text": "Cukup jelas."
+                          }
+                        ]
+                      },
+                      {
+                        "type": "PENJELASAN_LIST_ITEM",
+                        "id": "",
+                        "children": [
+                          {
+                            "type": "PENJELASAN_HURUF",
+                            "text": "Huruf e"
+                          },
+                          {
+                            "type": "PLAINTEXT",
+                            "text": "Cukup jelas."
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "PENJELASAN_PASAL",
+                "id": "",
+                "children": [
+                  {
+                    "type": "PASAL_NUMBER",
+                    "text": "Pasal 19"
+                  },
+                  {
+                    "type": "LIST",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "PENJELASAN_LIST_ITEM",
+                        "id": "",
+                        "children": [
+                          {
+                            "type": "PENJELASAN_AYAT",
+                            "text": "Ayat (1)"
+                          },
+                          {
+                            "type": "PLAINTEXT",
+                            "text": "Mengenai pemberhentian Hakim Karier dilakukan berdasarkan peraturan perundang-undangan."
+                          }
+                        ]
+                      },
+                      {
+                        "type": "PENJELASAN_LIST_ITEM",
+                        "id": "",
+                        "children": [
+                          {
+                            "type": "PENJELASAN_AYAT",
+                            "text": "Ayat (2)"
+                          },
+                          {
+                            "type": "PLAINTEXT",
+                            "text": "Cukup jelas."
+                          }
+                        ]
+                      },
+                      {
+                        "type": "PENJELASAN_LIST_ITEM",
+                        "id": "",
+                        "children": [
+                          {
+                            "type": "PENJELASAN_AYAT",
+                            "text": "Ayat (3)"
+                          },
+                          {
+                            "type": "PLAINTEXT",
+                            "text": "Ketentuan jangka waktu 6 (enam) bulan yang ditentukan pada ayat ini dimaksudkan untuk menunggu hasil pemeriksaan terhadap pelanggaran tersebut."
+                          }
+                        ]
+                      },
+                      {
+                        "type": "PENJELASAN_LIST_ITEM",
+                        "id": "",
+                        "children": [
+                          {
+                            "type": "PENJELASAN_AYAT",
+                            "text": "Ayat (4)"
+                          },
+                          {
+                            "type": "PLAINTEXT",
+                            "text": "Cukup jelas."
+                          }
+                        ]
+                      },
+                      {
+                        "type": "PENJELASAN_LIST_ITEM",
+                        "id": "",
+                        "children": [
+                          {
+                            "type": "PENJELASAN_AYAT",
+                            "text": "Ayat (5)"
+                          },
+                          {
+                            "type": "PLAINTEXT",
+                            "text": "Cukup jelas."
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "PENJELASAN_PASAL",
+                "id": "",
+                "children": [
+                  {
+                    "type": "PASAL_NUMBER",
+                    "text": "Pasal 20"
+                  },
+                  {
+                    "type": "PLAINTEXT",
+                    "text": "Cukup jelas."
+                  }
+                ]
+              },
+              {
+                "type": "PENJELASAN_PASAL",
+                "id": "",
+                "children": [
+                  {
+                    "type": "PASAL_NUMBER",
+                    "text": "Pasal 21"
+                  },
+                  {
+                    "type": "PLAINTEXT",
+                    "text": "Cukup jelas."
+                  }
+                ]
+              },
+              {
+                "type": "PENJELASAN_PASAL",
+                "id": "",
+                "children": [
+                  {
+                    "type": "PASAL_NUMBER",
+                    "text": "Pasal 22"
+                  },
+                  {
+                    "type": "PLAINTEXT",
+                    "text": "Cukup jelas."
+                  }
+                ]
+              },
+              {
+                "type": "PENJELASAN_PASAL",
+                "id": "",
+                "children": [
+                  {
+                    "type": "PASAL_NUMBER",
+                    "text": "Pasal 23"
+                  },
+                  {
+                    "type": "PLAINTEXT",
+                    "text": "Cukup jelas."
+                  }
+                ]
+              },
+              {
+                "type": "PENJELASAN_PASAL",
+                "id": "",
+                "children": [
+                  {
+                    "type": "PASAL_NUMBER",
+                    "text": "Pasal 24"
+                  },
+                  {
+                    "type": "LIST",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "PENJELASAN_LIST_ITEM",
+                        "id": "",
+                        "children": [
+                          {
+                            "type": "PENJELASAN_AYAT",
+                            "text": "Ayat (1)"
+                          },
+                          {
+                            "type": "PLAINTEXT",
+                            "text": "Cukup jelas."
+                          }
+                        ]
+                      },
+                      {
+                        "type": "PENJELASAN_LIST_ITEM",
+                        "id": "",
+                        "children": [
+                          {
+                            "type": "PENJELASAN_AYAT",
+                            "text": "Ayat (2)"
+                          },
+                          {
+                            "type": "PLAINTEXT",
+                            "text": "Ketentuan ini sebagai wujud akuntabilitas Pengadilan Tindak Pidana Korupsi melalui keterbukaan informasi mengenai penyelenggaraan pengadilan."
+                          }
+                        ]
+                      },
+                      {
+                        "type": "PENJELASAN_LIST_ITEM",
+                        "id": "",
+                        "children": [
+                          {
+                            "type": "PENJELASAN_AYAT",
+                            "text": "Ayat (3)"
+                          },
+                          {
+                            "type": "PLAINTEXT",
+                            "text": "Cukup jelas."
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "PENJELASAN_PASAL",
+                "id": "",
+                "children": [
+                  {
+                    "type": "PASAL_NUMBER",
+                    "text": "Pasal 25"
+                  },
+                  {
+                    "type": "PLAINTEXT",
+                    "text": "Yang dimaksud dengan \u201chukum acara pidana yang berlaku\u201d adalah Undang-Undang Nomor 8 Tahun 1981 tentang Hukum Acara Pidana, Undang-Undang Nomor 31 Tahun 1999 tentang Pemberantasan Tindak Pidana Korupsi sebagaimana telah diubah dengan Undang-Undang Nomor 20 Tahun 2001 tentang Perubahan Atas Undang-Undang Nomor 31 Tahun 1999 tentang Pemberantasan Tindak Pidana Korupsi, Undang-Undang Nomor 14 Tahun 1985 tentang Mahkamah Agung sebagaimana telah diubah terakhir dengan Undang-Undang Nomor 3 Tahun 2009 tentang Perubahan Kedua Atas Undang-Undang Nomor 14 Tahun 1985 tentang Mahkamah Agung."
+                  }
+                ]
+              },
+              {
+                "type": "PENJELASAN_PASAL",
+                "id": "",
+                "children": [
+                  {
+                    "type": "PASAL_NUMBER",
+                    "text": "Pasal 26"
+                  },
+                  {
+                    "type": "LIST",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "PENJELASAN_LIST_ITEM",
+                        "id": "",
+                        "children": [
+                          {
+                            "type": "PENJELASAN_AYAT",
+                            "text": "Ayat (1)"
+                          },
+                          {
+                            "type": "PLAINTEXT",
+                            "text": "Cukup jelas."
+                          }
+                        ]
+                      },
+                      {
+                        "type": "PENJELASAN_LIST_ITEM",
+                        "id": "",
+                        "children": [
+                          {
+                            "type": "PENJELASAN_AYAT",
+                            "text": "Ayat (2)"
+                          },
+                          {
+                            "type": "PLAINTEXT",
+                            "text": "Cukup jelas."
+                          }
+                        ]
+                      },
+                      {
+                        "type": "PENJELASAN_LIST_ITEM",
+                        "id": "",
+                        "children": [
+                          {
+                            "type": "PENJELASAN_AYAT",
+                            "text": "Ayat (3)"
+                          },
+                          {
+                            "type": "PLAINTEXT",
+                            "text": "Yang dimaksud dengan \u201cketua pengadilan\u201d adalah Ketua Pengadilan Negeri untuk pemeriksaan perkara tindak pidana korupsi pada tingkat pertama dan ketua pengadilan tinggi untuk pemeriksaan perkara tindak pidana korupsi pada tingkat banding."
+                          }
+                        ]
+                      },
+                      {
+                        "type": "PENJELASAN_LIST_ITEM",
+                        "id": "",
+                        "children": [
+                          {
+                            "type": "PENJELASAN_AYAT",
+                            "text": "Ayat (4)"
+                          },
+                          {
+                            "type": "PLAINTEXT",
+                            "text": "Cukup jelas."
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "PENJELASAN_PASAL",
+                "id": "",
+                "children": [
+                  {
+                    "type": "PASAL_NUMBER",
+                    "text": "Pasal 27"
+                  },
+                  {
+                    "type": "PLAINTEXT",
+                    "text": "Cukup jelas."
+                  }
+                ]
+              },
+              {
+                "type": "PENJELASAN_PASAL",
+                "id": "",
+                "children": [
+                  {
+                    "type": "PASAL_NUMBER",
+                    "text": "Pasal 28"
+                  },
+                  {
+                    "type": "LIST",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "PENJELASAN_LIST_ITEM",
+                        "id": "",
+                        "children": [
+                          {
+                            "type": "PENJELASAN_AYAT",
+                            "text": "Ayat (1)"
+                          },
+                          {
+                            "type": "PLAINTEXT",
+                            "text": "Penyadapan sebagai alat bukti hanya dapat dilakukan terhadap seseorang apabila ada dugaan berdasarkan laporan telah dan/atau akan terjadi tindak pidana korupsi."
+                          }
+                        ]
+                      },
+                      {
+                        "type": "PENJELASAN_LIST_ITEM",
+                        "id": "",
+                        "children": [
+                          {
+                            "type": "PENJELASAN_AYAT",
+                            "text": "Ayat (2)"
+                          },
+                          {
+                            "type": "PLAINTEXT",
+                            "text": "Cukup jelas."
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "PENJELASAN_PASAL",
+                "id": "",
+                "children": [
+                  {
+                    "type": "PASAL_NUMBER",
+                    "text": "Pasal 29"
+                  },
+                  {
+                    "type": "PLAINTEXT",
+                    "text": "Cukup jelas."
+                  }
+                ]
+              },
+              {
+                "type": "PENJELASAN_PASAL",
+                "id": "",
+                "children": [
+                  {
+                    "type": "PASAL_NUMBER",
+                    "text": "Pasal 30"
+                  },
+                  {
+                    "type": "PLAINTEXT",
+                    "text": "Cukup jelas."
+                  }
+                ]
+              },
+              {
+                "type": "PENJELASAN_PASAL",
+                "id": "",
+                "children": [
+                  {
+                    "type": "PASAL_NUMBER",
+                    "text": "Pasal 31"
+                  },
+                  {
+                    "type": "PLAINTEXT",
+                    "text": "Cukup jelas."
+                  }
+                ]
+              },
+              {
+                "type": "PENJELASAN_PASAL",
+                "id": "",
+                "children": [
+                  {
+                    "type": "PASAL_NUMBER",
+                    "text": "Pasal 32"
+                  },
+                  {
+                    "type": "PLAINTEXT",
+                    "text": "Cukup jelas."
+                  }
+                ]
+              },
+              {
+                "type": "PENJELASAN_PASAL",
+                "id": "",
+                "children": [
+                  {
+                    "type": "PASAL_NUMBER",
+                    "text": "Pasal 33"
+                  },
+                  {
+                    "type": "PLAINTEXT",
+                    "text": "Cukup jelas."
+                  }
+                ]
+              },
+              {
+                "type": "PENJELASAN_PASAL",
+                "id": "",
+                "children": [
+                  {
+                    "type": "PASAL_NUMBER",
+                    "text": "Pasal 34"
+                  },
+                  {
+                    "type": "PLAINTEXT",
+                    "text": "Cukup jelas."
+                  }
+                ]
+              },
+              {
+                "type": "PENJELASAN_PASAL",
+                "id": "",
+                "children": [
+                  {
+                    "type": "PASAL_NUMBER",
+                    "text": "Pasal 35"
+                  },
+                  {
+                    "type": "PLAINTEXT",
+                    "text": "Cukup jelas."
+                  }
+                ]
+              },
+              {
+                "type": "PENJELASAN_PASAL",
+                "id": "",
+                "children": [
+                  {
+                    "type": "PASAL_NUMBER",
+                    "text": "Pasal 36"
+                  },
+                  {
+                    "type": "PLAINTEXT",
+                    "text": "Cukup jelas."
+                  }
+                ]
+              },
+              {
+                "type": "PENJELASAN_PASAL",
+                "id": "",
+                "children": [
+                  {
+                    "type": "PASAL_NUMBER",
+                    "text": "Pasal 37"
+                  },
+                  {
+                    "type": "PLAINTEXT",
+                    "text": "Dalam ketentuan ini, Hakim ad hoc yang telah diangkat berdasarkan undang-undang sebelum Undang-Undang ini berlaku, tidak perlu diangkat kembali, dan langsung bertugas untuk masa 5 (lima) tahun bersamaan dengan masa jabatan Hakim ad hoc yang diangkat berdasarkan Undang-Undang ini."
+                  }
+                ]
+              },
+              {
+                "type": "PENJELASAN_PASAL",
+                "id": "",
+                "children": [
+                  {
+                    "type": "PASAL_NUMBER",
+                    "text": "Pasal 38"
+                  },
+                  {
+                    "type": "PLAINTEXT",
+                    "text": "Cukup jelas."
+                  }
+                ]
+              },
+              {
+                "type": "PENJELASAN_PASAL",
+                "id": "",
+                "children": [
+                  {
+                    "type": "PASAL_NUMBER",
+                    "text": "Pasal 39"
+                  },
+                  {
+                    "type": "PLAINTEXT",
+                    "text": "Cukup jelas."
+                  }
+                ]
+              },
+              {
+                "type": "PENJELASAN_PASAL",
+                "id": "",
+                "children": [
+                  {
+                    "type": "PASAL_NUMBER",
+                    "text": "Pasal 40"
+                  },
+                  {
+                    "type": "PLAINTEXT",
+                    "text": "Cukup jelas."
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}
