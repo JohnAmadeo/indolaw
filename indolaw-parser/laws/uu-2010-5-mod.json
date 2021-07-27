@@ -1,0 +1,1024 @@
+{
+  "metadata": {
+    "lembaranNegaraNumber": 100,
+    "lembaranNegaraYear": 2010,
+    "tambahanLembaranNumber": 5150,
+    "number": 5,
+    "topic": "Perubahan Atas Undang-undang Nomor 22 Tahun 2002 Tentang Grasi",
+    "year": 2010
+  },
+  "content": {
+    "type": "UNDANG_UNDANG",
+    "id": "",
+    "children": [
+      {
+        "type": "OPENING",
+        "id": "",
+        "children": [
+          {
+            "type": "UU_TITLE",
+            "id": "",
+            "children": [
+              {
+                "type": "PLAINTEXT",
+                "text": "UNDANG-UNDANG REPUBLIK INDONESIA"
+              },
+              {
+                "type": "UU_TITLE_YEAR_AND_NUMBER",
+                "text": "NOMOR 5 TAHUN 2010"
+              },
+              {
+                "type": "PLAINTEXT",
+                "text": "TENTANG"
+              },
+              {
+                "type": "UU_TITLE_TOPIC",
+                "text": "PERUBAHAN ATAS UNDANG-UNDANG NOMOR 22 TAHUN 2002 TENTANG GRASI"
+              }
+            ]
+          },
+          {
+            "type": "PREFACE",
+            "id": "",
+            "children": [
+              {
+                "type": "PLAINTEXT",
+                "text": "DENGAN RAHMAT TUHAN YANG MAHA ESA"
+              },
+              {
+                "type": "PLAINTEXT",
+                "text": "PRESIDEN REPUBLIK INDONESIA,"
+              }
+            ]
+          },
+          {
+            "type": "CONSIDERATIONS",
+            "id": "",
+            "children": [
+              {
+                "type": "PLAINTEXT",
+                "text": "Menimbang:"
+              },
+              {
+                "type": "LIST",
+                "id": "",
+                "children": [
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "LETTER_WITH_DOT",
+                        "text": "a."
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "bahwa untuk mendapatkan pengampunan yang berupa perubahan, peringanan, pengurangan, atau penghapusan pelaksanaan pidana yang telah dijatuhkan kepada terpidana berdasarkan putusan pengadilan yang telah memperoleh kekuatan hukum tetap dapat diajukan grasi kepada Presiden;"
+                      }
+                    ]
+                  },
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "LETTER_WITH_DOT",
+                        "text": "b."
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "bahwa grasi dapat diberikan oleh Presiden untuk mendapatkan pengampunan dan/atau untuk menegakkan keadilan hakiki dan penegakan hak asasi manusia terhadap putusan pengadilan yang telah memperoleh kekuatan hukum tetap;"
+                      }
+                    ]
+                  },
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "LETTER_WITH_DOT",
+                        "text": "c."
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "bahwa grasi yang diberikan kepada terpidana sebagaimana dimaksud dalam huruf a harus mencerminkan keadilan, perlindungan hak asasi manusia, dan kepastian hukum berdasarkan Pancasila dan Undang Undang Dasar Negara Republik Indonesia Tahun 1945;"
+                      }
+                    ]
+                  },
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "LETTER_WITH_DOT",
+                        "text": "d."
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "bahwa permohonan grasi berdasarkan Undang-Undang Nomor 3 Tahun 1950 tentang Permohonan Grasi belum dapat diselesaikan dalam batas waktu 2 (dua) tahun sebagaimana dimaksud dalam Undang Undang Nomor 22 Tahun 2002 tentang Grasi, sehingga terdapat kekosongan hukum untuk penyelesaian permohonan tersebut;"
+                      }
+                    ]
+                  },
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "LETTER_WITH_DOT",
+                        "text": "e."
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "bahwa pemberian grasi harus dilakukan secara tepat dalam waktu tertentu dan sesegera mungkin untuk tercapainya kepastian hukum, keadilan, dan perlindungan hak asasi manusia berdasarkan Pancasila dan Undang-Undang Dasar Negara Republik Indonesia Tahun 1945;"
+                      }
+                    ]
+                  },
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "LETTER_WITH_DOT",
+                        "text": "f."
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "bahwa berdasarkan pertimbangan sebagaimana dimaksud dalam huruf a, huruf b, huruf c, huruf d, dan huruf e perlu membentuk Undang-Undang tentang Perubahan atas Undang-Undang Nomor 22 Tahun 2002 tentang Grasi."
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "PRINCIPLES",
+            "id": "",
+            "children": [
+              {
+                "type": "PLAINTEXT",
+                "text": "Mengingat:"
+              },
+              {
+                "type": "LIST",
+                "id": "",
+                "children": [
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "NUMBER_WITH_DOT",
+                        "text": "1."
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "Pasal 5 ayat (1), Pasal 14, dan Pasal 20 Undang-Undang Dasar Negara Republik Indonesia Tahun 1945;"
+                      }
+                    ]
+                  },
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "NUMBER_WITH_DOT",
+                        "text": "2."
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "Undang-Undang Nomor 22 Tahun 2002 tentang Grasi (Lembaran Negara Republik Indonesia Tahun 2002 Nomor 108, Tambahan Lembaran Negara Republik Indonesia Nomor 4234);"
+                      }
+                    ]
+                  },
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "NUMBER_WITH_DOT",
+                        "text": "3."
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "Undang-Undang Nomor 14 Tahun 1985 tentang Mahkamah Agung (Lembaran Negara Republik Indonesia Tahun 1985 Nomor 73, Tambahan Lembaran Negara Republik Indonesia Nomor 3316) sebagaimana telah diubah beberapa kali terakhir dengan Undang-Undang Nomor 3 Tahun 2009 tentang Perubahan Kedua Atas Undang-Undang Nomor 14 Tahun 1985 tentang Mahkamah Agung (Lembaran Negara Republik Indonesia Tahun 2009 Nomor 3, Tambahan Lembaran Negara Republik Indonesia Nomor 4958)."
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "AGREEMENT",
+            "id": "",
+            "children": [
+              {
+                "type": "PLAINTEXT",
+                "text": "Dengan Persetujuan Bersama:"
+              },
+              {
+                "type": "PLAINTEXT",
+                "text": "DEWAN PERWAKILAN RAKYAT REPUBLIK INDONESIA"
+              },
+              {
+                "type": "PLAINTEXT",
+                "text": "dan"
+              },
+              {
+                "type": "PLAINTEXT",
+                "text": "PRESIDEN REPUBLIK INDONESIA,"
+              },
+              {
+                "type": "PLAINTEXT",
+                "text": "MEMUTUSKAN:"
+              },
+              {
+                "type": "PLAINTEXT",
+                "text": "Menetapkan:"
+              },
+              {
+                "type": "PLAINTEXT",
+                "text": "UNDANG-UNDANG TENTANG PERUBAHAN ATAS UNDANG-UNDANG NOMOR 22 TAHUN 2002 TENTANG GRASI."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "PASAL",
+        "id": "pasal-I",
+        "children": [
+          {
+            "type": "PASAL_NUMBER",
+            "text": "Pasal I"
+          },
+          {
+            "type": "PLAINTEXT",
+            "text": "Beberapa ketentuan dalam Undang-Undang Nomor 22 Tahun 2002 tentang Grasi (Lembaran Negara Republik Indonesia Tahun 2002 Nomor 108, Tambahan Lembaran Negara Republik Indonesia Nomor 4234) diubah sebagai berikut:"
+          },
+          {
+            "type": "LIST",
+            "id": "",
+            "children": [
+              {
+                "type": "LIST_ITEM",
+                "id": "",
+                "children": [
+                  {
+                    "type": "NUMBER_WITH_DOT",
+                    "text": "1."
+                  },
+                  {
+                    "type": "PLAINTEXT",
+                    "text": "Ketentuan Pasal 2 ayat (2) dan ayat (3) diubah, sehingga seluruhnya berbunyi sebagai berikut:"
+                  },
+                  {
+                    "type": "PERUBAHAN_SECTION",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "PERUBAHAN_PASAL",
+                        "id": "perubahan-pasal-2",
+                        "children": [
+                          {
+                            "type": "PASAL_NUMBER",
+                            "text": "Pasal 2"
+                          },
+                          {
+                            "type": "LIST",
+                            "id": "",
+                            "children": [
+                              {
+                                "type": "LIST_ITEM",
+                                "id": "",
+                                "children": [
+                                  {
+                                    "type": "NUMBER_WITH_BRACKETS",
+                                    "text": "(1)"
+                                  },
+                                  {
+                                    "type": "PLAINTEXT",
+                                    "text": "Terhadap putusan pengadilan yang telah memperoleh kekuatan hukum tetap, terpidana dapat mengajukan permohonan grasi kepada Presiden."
+                                  }
+                                ]
+                              },
+                              {
+                                "type": "LIST_ITEM",
+                                "id": "",
+                                "children": [
+                                  {
+                                    "type": "NUMBER_WITH_BRACKETS",
+                                    "text": "(2)"
+                                  },
+                                  {
+                                    "type": "PLAINTEXT",
+                                    "text": "Putusan pemidanaan yang dapat dimohonkan grasi sebagaimana dimaksud pada ayat (1) adalah pidana mati, pidana penjara seumur hidup, atau pidana penjara paling rendah 2 (dua) tahun."
+                                  }
+                                ]
+                              },
+                              {
+                                "type": "LIST_ITEM",
+                                "id": "",
+                                "children": [
+                                  {
+                                    "type": "NUMBER_WITH_BRACKETS",
+                                    "text": "(3)"
+                                  },
+                                  {
+                                    "type": "PLAINTEXT",
+                                    "text": "Permohonan grasi sebagaimana dimaksud pada ayat (1) hanya dapat diajukan 1 (satu) kali."
+                                  }
+                                ]
+                              }
+                            ]
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "LIST_ITEM",
+                "id": "",
+                "children": [
+                  {
+                    "type": "NUMBER_WITH_DOT",
+                    "text": "2."
+                  },
+                  {
+                    "type": "PLAINTEXT",
+                    "text": "Di antara Pasal 6 dan Pasal 7 disisipkan 1 (satu) pasal, yakni Pasal 6A, yang berbunyi sebagai berikut:"
+                  },
+                  {
+                    "type": "PERUBAHAN_SECTION",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "PERUBAHAN_PASAL",
+                        "id": "perubahan-pasal-6A",
+                        "children": [
+                          {
+                            "type": "PASAL_NUMBER",
+                            "text": "Pasal 6A"
+                          },
+                          {
+                            "type": "LIST",
+                            "id": "",
+                            "children": [
+                              {
+                                "type": "LIST_ITEM",
+                                "id": "",
+                                "children": [
+                                  {
+                                    "type": "NUMBER_WITH_BRACKETS",
+                                    "text": "(1)"
+                                  },
+                                  {
+                                    "type": "PLAINTEXT",
+                                    "text": "Demi kepentingan kemanusiaan dan keadilan, menteri yang membidangi urusan pemerintahan di bidang hukum dan hak asasi manusia dapat meminta para pihak sebagaimana dimaksud dalam Pasal 6 untuk mengajukan permohonan grasi."
+                                  }
+                                ]
+                              },
+                              {
+                                "type": "LIST_ITEM",
+                                "id": "",
+                                "children": [
+                                  {
+                                    "type": "NUMBER_WITH_BRACKETS",
+                                    "text": "(2)"
+                                  },
+                                  {
+                                    "type": "PLAINTEXT",
+                                    "text": "Menteri sebagaimana dimaksud pada ayat (1) berwenang meneliti dan melaksanakan proses pengajuan Grasi sebagaimana dimaksud dalam Pasal 6 dan Pasal 6A ayat (1) dan menyampaikan permohonan dimaksud kepada Presiden."
+                                  }
+                                ]
+                              }
+                            ]
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "LIST_ITEM",
+                "id": "",
+                "children": [
+                  {
+                    "type": "NUMBER_WITH_DOT",
+                    "text": "3."
+                  },
+                  {
+                    "type": "PLAINTEXT",
+                    "text": "Ketentuan Pasal 7 ayat (2) diubah, sehingga seluruhnya berbunyi sebagai berikut:"
+                  },
+                  {
+                    "type": "PERUBAHAN_SECTION",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "PERUBAHAN_PASAL",
+                        "id": "perubahan-pasal-7",
+                        "children": [
+                          {
+                            "type": "PASAL_NUMBER",
+                            "text": "Pasal 7"
+                          },
+                          {
+                            "type": "LIST",
+                            "id": "",
+                            "children": [
+                              {
+                                "type": "LIST_ITEM",
+                                "id": "",
+                                "children": [
+                                  {
+                                    "type": "NUMBER_WITH_BRACKETS",
+                                    "text": "(1)"
+                                  },
+                                  {
+                                    "type": "PLAINTEXT",
+                                    "text": "Permohonan grasi dapat diajukan sejak putusan pengadilan memperoleh kekuatan hukum tetap."
+                                  }
+                                ]
+                              },
+                              {
+                                "type": "LIST_ITEM",
+                                "id": "",
+                                "children": [
+                                  {
+                                    "type": "NUMBER_WITH_BRACKETS",
+                                    "text": "(2)"
+                                  },
+                                  {
+                                    "type": "PLAINTEXT",
+                                    "text": "Permohonan grasi sebagaimana dimaksud pada ayat (1) diajukan paling lama dalam jangka waktu 1 (satu) tahun sejak putusan memperoleh kekuatan hukum tetap."
+                                  }
+                                ]
+                              }
+                            ]
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "LIST_ITEM",
+                "id": "",
+                "children": [
+                  {
+                    "type": "NUMBER_WITH_DOT",
+                    "text": "4."
+                  },
+                  {
+                    "type": "PLAINTEXT",
+                    "text": "Ketentuan Pasal 10 diubah sehingga berbunyi sebagai berikut:"
+                  },
+                  {
+                    "type": "PERUBAHAN_SECTION",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "PERUBAHAN_PASAL",
+                        "id": "perubahan-pasal-10",
+                        "children": [
+                          {
+                            "type": "PASAL_NUMBER",
+                            "text": "Pasal 10"
+                          },
+                          {
+                            "type": "PLAINTEXT",
+                            "text": "Dalam jangka waktu paling lambat 30 (tiga puluh) hari terhitung sejak tanggal diterimanya salinan permohonan dan berkas perkara sebagaimana dimaksud dalam Pasal 9, Mahkamah Agung mengirimkan pertimbangan tertulis kepada Presiden."
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "LIST_ITEM",
+                "id": "",
+                "children": [
+                  {
+                    "type": "NUMBER_WITH_DOT",
+                    "text": "5."
+                  },
+                  {
+                    "type": "PLAINTEXT",
+                    "text": "Di antara Pasal 15 dan Bab VI disisipkan 1 (satu) pasal yakni Pasal 15A yang berbunyi sebagai berikut:"
+                  },
+                  {
+                    "type": "PERUBAHAN_SECTION",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "PERUBAHAN_PASAL",
+                        "id": "perubahan-pasal-15A",
+                        "children": [
+                          {
+                            "type": "PASAL_NUMBER",
+                            "text": "Pasal 15A"
+                          },
+                          {
+                            "type": "LIST",
+                            "id": "",
+                            "children": [
+                              {
+                                "type": "LIST_ITEM",
+                                "id": "",
+                                "children": [
+                                  {
+                                    "type": "NUMBER_WITH_BRACKETS",
+                                    "text": "(1)"
+                                  },
+                                  {
+                                    "type": "PLAINTEXT",
+                                    "text": "Permohonan grasi yang belum diselesaikan berdasarkan Pasal 15 Undang-Undang Nomor 22 Tahun 2002 tentang Grasi diselesaikan paling lambat tanggal 22 Oktober 2012."
+                                  }
+                                ]
+                              },
+                              {
+                                "type": "LIST_ITEM",
+                                "id": "",
+                                "children": [
+                                  {
+                                    "type": "NUMBER_WITH_BRACKETS",
+                                    "text": "(2)"
+                                  },
+                                  {
+                                    "type": "PLAINTEXT",
+                                    "text": "Terhadap terpidana mati yang belum mengajukan permohonan grasi berdasarkan Undang-Undang Nomor 22 Tahun 2002 tentang Grasi, jangka waktu 1 (satu) tahun sebagaimana dimaksud dalam Pasal 7 ayat (2) dihitung sejak Undang-Undang ini berlaku."
+                                  }
+                                ]
+                              }
+                            ]
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "PASAL",
+        "id": "pasal-II",
+        "children": [
+          {
+            "type": "PASAL_NUMBER",
+            "text": "Pasal II"
+          },
+          {
+            "type": "PLAINTEXT",
+            "text": "Undang-Undang ini mulai berlaku pada tanggal diundangkan."
+          },
+          {
+            "type": "PLAINTEXT",
+            "text": "Agar setiap orang mengetahuinya, memerintahkan pengundangan Undang-Undang ini dengan penempatannya dalam Lembaran Negara Republik Indonesia."
+          }
+        ]
+      },
+      {
+        "type": "CLOSING",
+        "id": "",
+        "children": [
+          {
+            "type": "PLAINTEXT",
+            "text": "Disahkan Di Jakarta,"
+          },
+          {
+            "type": "PLAINTEXT",
+            "text": "Pada Tanggal 20 Agustus 2010"
+          },
+          {
+            "type": "PLAINTEXT",
+            "text": "PRESIDEN REPUBLIK INDONESIA,"
+          },
+          {
+            "type": "PLAINTEXT",
+            "text": "Ttd."
+          },
+          {
+            "type": "PLAINTEXT",
+            "text": "DR. H. SUSILO BAMBANG YUDHOYONO"
+          },
+          {
+            "type": "PLAINTEXT",
+            "text": "Diundangkan Di Jakarta,"
+          },
+          {
+            "type": "PLAINTEXT",
+            "text": "Pada Tanggal 23 Agustus 2010"
+          },
+          {
+            "type": "PLAINTEXT",
+            "text": "MENTERI HUKUM DAN HAK ASASI MANUSIA REPUBLIK INDONESIA,"
+          },
+          {
+            "type": "PLAINTEXT",
+            "text": "Ttd."
+          },
+          {
+            "type": "PLAINTEXT",
+            "text": "PATRIALIS AKBAR"
+          },
+          {
+            "type": "LEMBARAN_NUMBER",
+            "text": "LEMBARAN NEGARA REPUBLIK INDONESIA TAHUN 2010 NOMOR 100"
+          }
+        ]
+      },
+      {
+        "type": "PENJELASAN",
+        "id": "penjelasan",
+        "children": [
+          {
+            "type": "PENJELASAN_TITLE",
+            "id": "",
+            "children": [
+              {
+                "type": "PLAINTEXT",
+                "text": "PENJELASAN"
+              },
+              {
+                "type": "PLAINTEXT",
+                "text": "UNDANG-UNDANG REPUBLIK INDONESIA"
+              },
+              {
+                "type": "UU_TITLE_YEAR_AND_NUMBER",
+                "text": "NOMOR 5 TAHUN 2010"
+              },
+              {
+                "type": "PLAINTEXT",
+                "text": "TENTANG"
+              },
+              {
+                "type": "UU_TITLE_TOPIC",
+                "text": "PERUBAHAN ATAS UNDANG-UNDANG NOMOR 22 TAHUN 2002 TENTANG GRASI"
+              }
+            ]
+          },
+          {
+            "type": "PENJELASAN_UMUM",
+            "id": "",
+            "children": [
+              {
+                "type": "PENJELASAN_UMUM_TITLE",
+                "text": "I. UMUM"
+              },
+              {
+                "type": "PLAINTEXT",
+                "text": "Berdasarkan Undang-Undang Nomor 22 Tahun 2002 tentang Grasi, permohonan grasi yang belum mendapat penyelesaian yang diajukan berdasarkan Undang-Undang Nomor 3 Tahun 1950 tentang Permohonan Grasi diberikan waktu penyelesaian selama 2 (dua) tahun terhitung sejak berlakunya Undang-Undang Nomor 22 Tahun 2002 tentang Grasi. Namun, tenggang waktu 2 (dua) tahun tersebut ternyata tidak cukup untuk menyelesaikan semua permohonan grasi tersebut, sehingga penyelesaian grasi tersebut setelah tanggal 22 Oktober 2004 tidak mempunyai landasan hukum."
+              },
+              {
+                "type": "PLAINTEXT",
+                "text": "Untuk menghindari adanya kekosongan hukum bagi penyelesaian pemberian Grasi yang diajukan berdasarkan Undang-Undang Nomor 3 Tahun 1950, batas waktu sebagaimana dimaksud dalam Pasal 15 Undang-Undang Nomor 22 Tahun 2002 tentang Grasi perlu diperpanjang sampai dengan tanggal 22 Oktober 2012."
+              },
+              {
+                "type": "PLAINTEXT",
+                "text": "Undang-Undang Nomor 22 Tahun 2002 tentang Grasi tidak memberikan batasan waktu pengajuan permohonan grasi bagi terpidana mati, sehingga dalam pelaksanaannya menyebabkan eksekusi atau pelaksanaan pidana mati menjadi tertunda sampai dengan waktu yang tidak terbatas. Demi kepastian hukum, perlu diatur mengenai batasan waktu pengajuan permohonan grasi bagi terpidana mati."
+              },
+              {
+                "type": "PLAINTEXT",
+                "text": "Dalam memberikan keputusan atas suatu permohonan grasi, Presiden perlu mempertimbangkan secara arif dan bijaksana hal-hal yang terkait dengan tindak pidana yang telah dilakukan oleh terpidana, khususnya terhadap tindak pidana yang dilakukan secara berulang-ulang (residif), tindak pidana kesusilaan, dan tindak pidana yang dilakukan secara sadis dan berencana."
+              },
+              {
+                "type": "PLAINTEXT",
+                "text": "Berdasarkan pertimbangan tersebut, perlu dilakukan perubahan atas Undang-Undang Nomor 22 Tahun 2002 tentang Grasi."
+              }
+            ]
+          },
+          {
+            "type": "PENJELASAN_PASAL_DEMI_PASAL",
+            "id": "",
+            "children": [
+              {
+                "type": "PENJELASAN_PASAL_DEMI_PASAL_TITLE",
+                "text": "II. PASAL DEMI PASAL"
+              },
+              {
+                "type": "PENJELASAN_PASAL",
+                "id": "",
+                "children": [
+                  {
+                    "type": "PASAL_NUMBER",
+                    "text": "Pasal I"
+                  },
+                  {
+                    "type": "LIST",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "PENJELASAN_LIST_ITEM",
+                        "id": "",
+                        "children": [
+                          {
+                            "type": "PENJELASAN_ANGKA",
+                            "text": "Angka 1"
+                          },
+                          {
+                            "type": "PENJELASAN_PERUBAHAN_SECTION",
+                            "id": "",
+                            "children": [
+                              {
+                                "type": "PENJELASAN_PERUBAHAN_PASAL",
+                                "id": "",
+                                "children": [
+                                  {
+                                    "type": "PASAL_NUMBER",
+                                    "text": "Pasal 2"
+                                  },
+                                  {
+                                    "type": "LIST",
+                                    "id": "",
+                                    "children": [
+                                      {
+                                        "type": "PENJELASAN_LIST_ITEM",
+                                        "id": "",
+                                        "children": [
+                                          {
+                                            "type": "PENJELASAN_AYAT",
+                                            "text": "Ayat (1)"
+                                          },
+                                          {
+                                            "type": "PLAINTEXT",
+                                            "text": "Kata \u201cdapat\u201d dalam ketentuan ini dimaksudkan untuk memberikan kebebasan kepada terpidana untuk menggunakan atau tidak menggunakan hak untuk mengajukan permohonan grasi sesuai dengan Undang-Undang ini."
+                                          },
+                                          {
+                                            "type": "PLAINTEXT",
+                                            "text": "Yang dimaksud dengan \u201cputusan pengadilan yang telah memperoleh kekuatan hukum tetap\u201d adalah:"
+                                          },
+                                          {
+                                            "type": "LIST",
+                                            "id": "",
+                                            "children": [
+                                              {
+                                                "type": "LIST_ITEM",
+                                                "id": "",
+                                                "children": [
+                                                  {
+                                                    "type": "NUMBER_WITH_DOT",
+                                                    "text": "1."
+                                                  },
+                                                  {
+                                                    "type": "PLAINTEXT",
+                                                    "text": "putusan pengadilan tingkat pertama yang tidak diajukan banding atau kasasi dalam waktu yang ditentukan oleh Undang-Undang tentang Hukum Acara Pidana;"
+                                                  }
+                                                ]
+                                              },
+                                              {
+                                                "type": "LIST_ITEM",
+                                                "id": "",
+                                                "children": [
+                                                  {
+                                                    "type": "NUMBER_WITH_DOT",
+                                                    "text": "2."
+                                                  },
+                                                  {
+                                                    "type": "PLAINTEXT",
+                                                    "text": "putusan pengadilan tingkat banding yang tidak diajukan kasasi dalam waktu yang ditentukan oleh Undang-Undang tentang Hukum Acara Pidana; atau"
+                                                  }
+                                                ]
+                                              },
+                                              {
+                                                "type": "LIST_ITEM",
+                                                "id": "",
+                                                "children": [
+                                                  {
+                                                    "type": "NUMBER_WITH_DOT",
+                                                    "text": "3."
+                                                  },
+                                                  {
+                                                    "type": "PLAINTEXT",
+                                                    "text": "putusan kasasi."
+                                                  }
+                                                ]
+                                              }
+                                            ]
+                                          },
+                                          {
+                                            "type": "PLAINTEXT",
+                                            "text": "Yang dimaksud dengan \u201dpengadilan\u201d adalah pengadilan di lingkungan peradilan umum atau pengadilan di lingkungan peradilan militer yang memutus perkara pidana."
+                                          }
+                                        ]
+                                      },
+                                      {
+                                        "type": "PENJELASAN_LIST_ITEM",
+                                        "id": "",
+                                        "children": [
+                                          {
+                                            "type": "PENJELASAN_AYAT",
+                                            "text": "Ayat (2)"
+                                          },
+                                          {
+                                            "type": "PLAINTEXT",
+                                            "text": "Cukup jelas."
+                                          }
+                                        ]
+                                      },
+                                      {
+                                        "type": "PENJELASAN_LIST_ITEM",
+                                        "id": "",
+                                        "children": [
+                                          {
+                                            "type": "PENJELASAN_AYAT",
+                                            "text": "Ayat (3)"
+                                          },
+                                          {
+                                            "type": "PLAINTEXT",
+                                            "text": "Ketentuan ini dimaksudkan untuk memberikan kepastian hukum dalam pelaksanaan pengajuan permohonan grasi dan menghindari pengaturan diskriminatif."
+                                          }
+                                        ]
+                                      }
+                                    ]
+                                  }
+                                ]
+                              }
+                            ]
+                          }
+                        ]
+                      },
+                      {
+                        "type": "PENJELASAN_LIST_ITEM",
+                        "id": "",
+                        "children": [
+                          {
+                            "type": "PENJELASAN_ANGKA",
+                            "text": "Angka 2"
+                          },
+                          {
+                            "type": "PENJELASAN_PERUBAHAN_SECTION",
+                            "id": "",
+                            "children": [
+                              {
+                                "type": "PENJELASAN_PERUBAHAN_PASAL",
+                                "id": "",
+                                "children": [
+                                  {
+                                    "type": "PASAL_NUMBER",
+                                    "text": "Pasal 6A"
+                                  },
+                                  {
+                                    "type": "PLAINTEXT",
+                                    "text": "Cukup jelas."
+                                  }
+                                ]
+                              }
+                            ]
+                          }
+                        ]
+                      },
+                      {
+                        "type": "PENJELASAN_LIST_ITEM",
+                        "id": "",
+                        "children": [
+                          {
+                            "type": "PENJELASAN_ANGKA",
+                            "text": "Angka 3"
+                          },
+                          {
+                            "type": "PENJELASAN_PERUBAHAN_SECTION",
+                            "id": "",
+                            "children": [
+                              {
+                                "type": "PENJELASAN_PERUBAHAN_PASAL",
+                                "id": "",
+                                "children": [
+                                  {
+                                    "type": "PASAL_NUMBER",
+                                    "text": "Pasal 7"
+                                  },
+                                  {
+                                    "type": "PLAINTEXT",
+                                    "text": "Cukup jelas."
+                                  }
+                                ]
+                              }
+                            ]
+                          }
+                        ]
+                      },
+                      {
+                        "type": "PENJELASAN_LIST_ITEM",
+                        "id": "",
+                        "children": [
+                          {
+                            "type": "PENJELASAN_ANGKA",
+                            "text": "Angka 4"
+                          },
+                          {
+                            "type": "PENJELASAN_PERUBAHAN_SECTION",
+                            "id": "",
+                            "children": [
+                              {
+                                "type": "PENJELASAN_PERUBAHAN_PASAL",
+                                "id": "",
+                                "children": [
+                                  {
+                                    "type": "PASAL_NUMBER",
+                                    "text": "Pasal 10"
+                                  },
+                                  {
+                                    "type": "PLAINTEXT",
+                                    "text": "Cukup jelas."
+                                  }
+                                ]
+                              }
+                            ]
+                          }
+                        ]
+                      },
+                      {
+                        "type": "PENJELASAN_LIST_ITEM",
+                        "id": "",
+                        "children": [
+                          {
+                            "type": "PENJELASAN_ANGKA",
+                            "text": "Angka 5"
+                          },
+                          {
+                            "type": "PENJELASAN_PERUBAHAN_SECTION",
+                            "id": "",
+                            "children": [
+                              {
+                                "type": "PENJELASAN_PERUBAHAN_PASAL",
+                                "id": "",
+                                "children": [
+                                  {
+                                    "type": "PASAL_NUMBER",
+                                    "text": "Pasal 15A"
+                                  },
+                                  {
+                                    "type": "LIST",
+                                    "id": "",
+                                    "children": [
+                                      {
+                                        "type": "PENJELASAN_LIST_ITEM",
+                                        "id": "",
+                                        "children": [
+                                          {
+                                            "type": "PENJELASAN_AYAT",
+                                            "text": "Ayat (1)"
+                                          },
+                                          {
+                                            "type": "PLAINTEXT",
+                                            "text": "Perpanjangan waktu 10 (sepuluh) tahun terhitung sejak tanggal 22 Oktober 2002 sampai dengan tanggal 22 Oktober 2012 dimaksudkan untuk memberikan landasan hukum bagi penyelesaian permohonan Grasi yang diajukan berdasarkan Undang-Undang Nomor 3 Tahun 1950 tentang Permohonan Grasi dan telah diproses berdasarkan Undang-Undang Nomor 22 Tahun 2002, namun belum selesai."
+                                          }
+                                        ]
+                                      },
+                                      {
+                                        "type": "PENJELASAN_LIST_ITEM",
+                                        "id": "",
+                                        "children": [
+                                          {
+                                            "type": "PENJELASAN_AYAT",
+                                            "text": "Ayat (2)"
+                                          },
+                                          {
+                                            "type": "PLAINTEXT",
+                                            "text": "Cukup jelas."
+                                          }
+                                        ]
+                                      }
+                                    ]
+                                  }
+                                ]
+                              }
+                            ]
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "PENJELASAN_PASAL",
+                "id": "",
+                "children": [
+                  {
+                    "type": "PASAL_NUMBER",
+                    "text": "Pasal II"
+                  },
+                  {
+                    "type": "PLAINTEXT",
+                    "text": "Cukup jelas."
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}
