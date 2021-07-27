@@ -1,0 +1,382 @@
+{
+  "metadata": {
+    "lembaranNegaraNumber": 142,
+    "lembaranNegaraYear": 2009,
+    "tambahanLembaranNumber": 5061,
+    "number": 34,
+    "topic": "Penetapan Peraturan Pemerintah Pengganti Undang-undang Nomor 2 Tahun 2009 Tentang Perubahan Atas Undang-undang Nomor 13 Tahun 2008 Tentang Penyelenggaraan Ibadah Haji Menjadi Undang-undang",
+    "year": 2009
+  },
+  "content": {
+    "type": "UNDANG_UNDANG",
+    "id": "",
+    "children": [
+      {
+        "type": "OPENING",
+        "id": "",
+        "children": [
+          {
+            "type": "UU_TITLE",
+            "id": "",
+            "children": [
+              {
+                "type": "PLAINTEXT",
+                "text": "UNDANG-UNDANG REPUBLIK INDONESIA"
+              },
+              {
+                "type": "UU_TITLE_YEAR_AND_NUMBER",
+                "text": "NOMOR 34 TAHUN 2009"
+              },
+              {
+                "type": "PLAINTEXT",
+                "text": "TENTANG"
+              },
+              {
+                "type": "UU_TITLE_TOPIC",
+                "text": "PENETAPAN PERATURAN PEMERINTAH PENGGANTI UNDANG-UNDANG NOMOR 2 TAHUN 2009 TENTANG PERUBAHAN ATAS UNDANG-UNDANG NOMOR 13 TAHUN 2008 TENTANG PENYELENGGARAAN IBADAH HAJI MENJADI UNDANG-UNDANG"
+              }
+            ]
+          },
+          {
+            "type": "PREFACE",
+            "id": "",
+            "children": [
+              {
+                "type": "PLAINTEXT",
+                "text": "DENGAN RAHMAT TUHAN YANG MAHA ESA"
+              },
+              {
+                "type": "PLAINTEXT",
+                "text": "PRESIDEN REPUBLIK INDONESIA,"
+              }
+            ]
+          },
+          {
+            "type": "CONSIDERATIONS",
+            "id": "",
+            "children": [
+              {
+                "type": "PLAINTEXT",
+                "text": "Menimbang:"
+              },
+              {
+                "type": "LIST",
+                "id": "",
+                "children": [
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "LETTER_WITH_DOT",
+                        "text": "a."
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "bahwa dengan adanya kewajiban bagi setiap jemaah haji Indonesia untuk menggunakan paspor biasa mulai tahun 1430 Hijriyah, diperlukan upaya untuk menjamin agar penyelenggaraan ibadah haji dapat dilaksanakan;"
+                      }
+                    ]
+                  },
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "LETTER_WITH_DOT",
+                        "text": "b."
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "bahwa dalam rangka menjamin terlaksananya penyelenggaraan ibadah haji perlu melakukan perubahan ketentuan mengenai paspor haji bagi jemaah haji sebagaimana diatur dalam Undang-Undang Nomor 13 Tahun 2008 tentang Penyelenggaraan Ibadah Haji;"
+                      }
+                    ]
+                  },
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "LETTER_WITH_DOT",
+                        "text": "c."
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "bahwa berdasarkan pertimbangan sebagaimana dimaksud dalam huruf a dan huruf b, perlu menetapkan Peraturan Pemerintah Pengganti Undang-Undang Nomor 2 Tahun 2009 tentang Perubahan Atas Undang Undang Nomor 13 Tahun 2008 tentang Penyelenggaraan Ibadah Haji menjadi Undang- Undang."
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "PRINCIPLES",
+            "id": "",
+            "children": [
+              {
+                "type": "PLAINTEXT",
+                "text": "Mengingat:"
+              },
+              {
+                "type": "LIST",
+                "id": "",
+                "children": [
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "NUMBER_WITH_DOT",
+                        "text": "1."
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "Pasal 5 ayat (1), Pasal 20 ayat (1), Pasal 22 ayat (1) dan ayat (2) Undang-Undang Dasar Negara Republik Indonesia Tahun 1945;"
+                      }
+                    ]
+                  },
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "NUMBER_WITH_DOT",
+                        "text": "2."
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "Undang-Undang Nomor 9 Tahun 1992 tentang Keimigrasian (Lembaran Negara Republik Indonesia Tahun 1992 Nomor 33, Tambahan Lembaran Negara Republik Indonesia Nomor 3474);"
+                      }
+                    ]
+                  },
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "NUMBER_WITH_DOT",
+                        "text": "3."
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "Undang-Undang Nomor 13 Tahun 2008 tentang Penyelenggaraan Ibadah Haji (Lembaran Negara Republik Indonesia Tahun 2008 Nomor 60, Tambahan Lembaran Negara Republik Indonesia Nomor 4845)."
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "AGREEMENT",
+            "id": "",
+            "children": [
+              {
+                "type": "PLAINTEXT",
+                "text": "Dengan Persetujuan Bersama"
+              },
+              {
+                "type": "PLAINTEXT",
+                "text": "DEWAN PERWAKILAN RAKYAT REPUBLIK INDONESIA"
+              },
+              {
+                "type": "PLAINTEXT",
+                "text": "dan"
+              },
+              {
+                "type": "PLAINTEXT",
+                "text": "PRESIDEN REPUBLIK INDONESIA"
+              },
+              {
+                "type": "PLAINTEXT",
+                "text": "MEMUTUSKAN:"
+              },
+              {
+                "type": "PLAINTEXT",
+                "text": "Menetapkan:"
+              },
+              {
+                "type": "PLAINTEXT",
+                "text": "UNDANG-UNDANG TENTANG PENETAPAN PERATURAN PEMERINTAH PENGGANTI UNDANG-UNDANG NOMOR 2 TAHUN 2009 TENTANG PERUBAHAN ATAS UNDANG-UNDANG NOMOR 13 TAHUN 2008 TENTANG PENYELENGGARAAN IBADAH HAJI MENJADI UNDANG-UNDANG."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "PASAL",
+        "id": "pasal-1",
+        "children": [
+          {
+            "type": "PASAL_NUMBER",
+            "text": "Pasal 1"
+          },
+          {
+            "type": "PLAINTEXT",
+            "text": "Peraturan Pemerintah Pengganti Undang-Undang Nomor 2 Tahun 2009 tentang Perubahan atas Undang Undang Nomor 13 Tahun 2008 tentang Penyelenggaraan Ibadah Haji (Lembaran Negara Republik Indonesia Tahun 2009 Nomor 110, Tambahan Lembaran Negara Republik Indonesia Nomor 5036) ditetapkan menjadi Undang-Undang, dan melampirkannya sebagai bagian yang tidak terpisahkan dari Undang-Undang ini."
+          }
+        ]
+      },
+      {
+        "type": "PASAL",
+        "id": "pasal-2",
+        "children": [
+          {
+            "type": "PASAL_NUMBER",
+            "text": "Pasal 2"
+          },
+          {
+            "type": "PLAINTEXT",
+            "text": "Undang-Undang ini mulai berlaku pada tanggal diundangkan."
+          },
+          {
+            "type": "PLAINTEXT",
+            "text": "Agar setiap orang mengetahuinya, memerintahkan pengundangan Undang-Undang ini dengan penempatannya dalam Lembaran Negara Republik Indonesia."
+          }
+        ]
+      },
+      {
+        "type": "CLOSING",
+        "id": "",
+        "children": [
+          {
+            "type": "PLAINTEXT",
+            "text": "Disahkan Di Jakarta,"
+          },
+          {
+            "type": "PLAINTEXT",
+            "text": "Pada Tanggal 9 Oktober 2009"
+          },
+          {
+            "type": "PLAINTEXT",
+            "text": "PRESIDEN REPUBLIK INDONESIA,"
+          },
+          {
+            "type": "PLAINTEXT",
+            "text": "Ttd."
+          },
+          {
+            "type": "PLAINTEXT",
+            "text": "DR. H. SUSILO BAMBANG YUDHOYONO"
+          },
+          {
+            "type": "PLAINTEXT",
+            "text": "Diundangkan Di Jakarta,"
+          },
+          {
+            "type": "PLAINTEXT",
+            "text": "Pada Tanggal 9 Oktober 2009"
+          },
+          {
+            "type": "PLAINTEXT",
+            "text": "MENTERI HUKUM DAN HAK ASASI MANUSIA REPUBLIK INDONESIA,"
+          },
+          {
+            "type": "PLAINTEXT",
+            "text": "Ttd."
+          },
+          {
+            "type": "PLAINTEXT",
+            "text": "ANDI MATTALATTA"
+          },
+          {
+            "type": "LEMBARAN_NUMBER",
+            "text": "LEMBARAN NEGARA REPUBLIK INDONESIA TAHUN 2009 NOMOR 142"
+          }
+        ]
+      },
+      {
+        "type": "PENJELASAN",
+        "id": "penjelasan",
+        "children": [
+          {
+            "type": "PENJELASAN_TITLE",
+            "id": "",
+            "children": [
+              {
+                "type": "PLAINTEXT",
+                "text": "PENJELASAN"
+              },
+              {
+                "type": "PLAINTEXT",
+                "text": "UNDANG-UNDANG REPUBLIK INDONESIA"
+              },
+              {
+                "type": "UU_TITLE_YEAR_AND_NUMBER",
+                "text": "NOMOR 34 TAHUN 2009"
+              },
+              {
+                "type": "PLAINTEXT",
+                "text": "TENTANG"
+              },
+              {
+                "type": "UU_TITLE_TOPIC",
+                "text": "PENETAPAN PERATURAN PEMERINTAH PENGGANTI UNDANG-UNDANG NOMOR 2 TAHUN 2009 TENTANG PERUBAHAN ATAS UNDANG-UNDANG NOMOR 13 TAHUN 2008 TENTANG PENYELENGGARAAN IBADAH HAJI MENJADI UNDANG-UNDANG"
+              }
+            ]
+          },
+          {
+            "type": "PENJELASAN_UMUM",
+            "id": "",
+            "children": [
+              {
+                "type": "PENJELASAN_UMUM_TITLE",
+                "text": "I. UMUM"
+              },
+              {
+                "type": "PLAINTEXT",
+                "text": "Dalam rangka mengatasi terjadinya hal ikhwal kegentingan yang memaksa, dengan adanya kebijakan Pemerintah Arab Saudi yang menetapkan bahwa mulai tahun 1430 Hijriyah jemaah haji dari seluruh negara yang akan menunaikan ibadah haji harus menggunakan paspor biasa (ordinary passport) yang berlaku secara internasional, tidak terkecuali jemaah haji Indonesia yang selama ini menggunakan paspor haji, juga harus mengikuti kebijakan dimaksud, maka Pemerintah melakukan perubahan terhadap ketentuan mengenai penggunaan paspor haji bagi jemaah haji sebagaimana diatur dalam Undang Undang Nomor 13 Tahun 2008 tentang Penyelenggaraan Ibadah Haji."
+              },
+              {
+                "type": "PLAINTEXT",
+                "text": "Agar jemaah haji Indonesia tetap dapat melaksanakan ibadah haji, dan terdapat kepastian hukum dalam Penyelenggaraan Ibadah Haji, khususnya terkait dengan penggunaan paspor biasa (ordinary passport), serta berdasarkan Pasal 22 ayat (1) Undang-Undang Dasar Negara Republik Indonesia Tahun 1945, Presiden telah menetapkan Peraturan Pemerintah Pengganti Undang-Undang Nomor 2 Tahun 2009 tentang Perubahan Atas Undang-Undang Nomor 13 Tahun 2008 tentang Penyelenggaraan Ibadah Haji."
+              },
+              {
+                "type": "PLAINTEXT",
+                "text": "Untuk menjamin agar Penyelenggaraan Ibadah Haji tetap dapat dilaksanakan dan mengingat ketentuan Pasal 22 ayat (2) Undang-Undang Dasar Negara Republik Indonesia Tahun 1945 bahwa Peraturan Pemerintah Pengganti Undang-Undang harus mendapat persetujuan Dewan Perwakilan Rakyat, maka Peraturan Pemerintah Pengganti Undang-Undang Nomor 2 Tahun 2009 tentang Perubahan Atas Undang Undang Nomor 13 Tahun 2008 tentang Penyelenggaraan Ibadah Haji, perlu ditetapkan menjadi Undang Undang."
+              }
+            ]
+          },
+          {
+            "type": "PENJELASAN_PASAL_DEMI_PASAL",
+            "id": "",
+            "children": [
+              {
+                "type": "PENJELASAN_PASAL_DEMI_PASAL_TITLE",
+                "text": "II. PASAL DEMI PASAL"
+              },
+              {
+                "type": "PENJELASAN_PASAL",
+                "id": "",
+                "children": [
+                  {
+                    "type": "PASAL_NUMBER",
+                    "text": "Pasal 1"
+                  },
+                  {
+                    "type": "PLAINTEXT",
+                    "text": "Cukup jelas."
+                  }
+                ]
+              },
+              {
+                "type": "PENJELASAN_PASAL",
+                "id": "",
+                "children": [
+                  {
+                    "type": "PASAL_NUMBER",
+                    "text": "Pasal 2"
+                  },
+                  {
+                    "type": "PLAINTEXT",
+                    "text": "Cukup jelas."
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}
