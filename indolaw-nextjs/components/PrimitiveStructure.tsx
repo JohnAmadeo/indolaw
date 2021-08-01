@@ -56,7 +56,7 @@ function sanitizeKetentuanUmum(text: string): string | Array<JSX.Element> {
               contentKey: word,
               xPosition: e.currentTarget.offsetLeft,
               yPosition:
-                e.currentTarget.offsetTop + e.currentTarget.offsetHeight,
+                e.currentTarget.offsetTop + e.currentTarget.offsetHeight + 8,
             });
           }}
           onPointerLeave={() => {
@@ -65,12 +65,12 @@ function sanitizeKetentuanUmum(text: string): string | Array<JSX.Element> {
         >
           <style jsx>{`
             .link {
-              color: ${colorScheme.linkText};
-              border-bottom: 1px dashed;
+              border-bottom: 1px dashed ${colorScheme.clickable};
             }
 
             .link:hover {
-              border-bottom: 0px;
+              background: ${colorScheme.clickableBackground};
+              cursor: pointer;
             }
           `}</style>
           {word}
