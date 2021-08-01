@@ -1,16 +1,12 @@
 import { LawData } from "utils/grammar";
-import { useMediaQuery } from "react-responsive";
 import Head from "next/head";
+import { isMobile } from 'react-device-detect';
 
 import DesktopLawPage from "./DesktopLawPage";
 import MobileLawPage from "./MobileLawPage";
 
 // TODO(johnamadeo): Fix "Warning: Each child in a list should have a unique "key" prop." problem
 export default function LawPage(props: { law: LawData }): JSX.Element {
-  const border = "2px solid red";
-  const navWidth = "400px";
-
-  const isMobile = useMediaQuery({ query: "(max-width: 768px)" });
   const { law } = props;
 
   return (
