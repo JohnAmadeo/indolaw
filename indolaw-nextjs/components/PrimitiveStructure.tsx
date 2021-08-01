@@ -27,7 +27,6 @@ export default function PrimitiveStructure(props: {
           line-height: 1.5;
         }
       `}</style>
-        {/* <p>{text}</p> */}
         <p>{type === Structure.PLAINTEXT ? sanitizeKetentuanUmum(text, setTooltipData) : text}</p>
       </div>
       <Tooltip tooltipData={tooltipData} />

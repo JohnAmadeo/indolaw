@@ -20,7 +20,7 @@ export const emptyTooltipData: TooltipData = {
 export default function Tooltip(props: {
   tooltipData: TooltipData
 }): JSX.Element {
-  const { /*metadata*/ tooltipData } = props;
+  const { tooltipData } = props;
   const { colorScheme } = useAppContext();
   const { metadata } = useContext(LawContext);
 
