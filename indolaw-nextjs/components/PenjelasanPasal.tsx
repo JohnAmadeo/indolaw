@@ -68,7 +68,7 @@ export default function PenjelasanPasal(props: {
         }
 
         .content {
-          margin: 20px 20px 0 20px;
+          margin: 20px;
           padding: 4px 20px;
           background-color: ${isHoverOnCopyButton ? colorScheme.clickableBackground : 'none'};
           border-radius: 8px;
