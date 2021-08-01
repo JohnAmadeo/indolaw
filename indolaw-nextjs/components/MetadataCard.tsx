@@ -28,7 +28,7 @@ export default function MetadataCard(props: {
 
         li {
           margin: 16px 0;
-          line-height: 1.6;
+          line-height: 1.5;
           list-style-type: ${list.length > 1 ? 'decimal' : 'disc'};
           padding-left: 16px;
         }
