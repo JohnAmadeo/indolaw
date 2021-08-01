@@ -16,6 +16,7 @@ export default function PenjelasanPasal(props: {
   const { structure, numOfHeadingLines, collapseOnDefault } = props;
   // content is visible on default if it's not collapsible, otherwise, collapse content on first view
   const [isContentVisible, setIsContentVisible] = useState(!collapseOnDefault);
+  const [isHoverOnCopyButton, setIsHoverOnCopyButton] = useState(false);
   const { colorScheme } = useAppContext();
   const isMobile = useMediaQuery({ query: "(max-width: 768px)" });
 
@@ -38,6 +39,8 @@ export default function PenjelasanPasal(props: {
         });
         await clipboard.write([item]);
       }}
+      onMouseEnter={() => setIsHoverOnCopyButton(true)}
+      onMouseLeave={() => setIsHoverOnCopyButton(false)}
     />
   );
 
@@ -47,7 +50,7 @@ export default function PenjelasanPasal(props: {
         .group {
           margin: 20px auto;
           background-color: ${colorScheme.subcontent.background};
-          padding: 10px 20px;
+          padding: 10px 0;
           border-radius: 7.5px;
         }
 
@@ -65,7 +68,10 @@ export default function PenjelasanPasal(props: {
         }
 
         .content {
-          margin-top: 20px;
+          margin: 20px 20px 0 20px;
+          padding: 4px 20px;
+          background-color: ${isHoverOnCopyButton ? colorScheme.clickableBackground : 'none'};
+          border-radius: 8px;
         }
 
         .heading-container {
