@@ -1,20 +1,36 @@
 import { Metadata } from "../utils/grammar";
 import { fonts } from "../utils/theme";
 import _ from "lodash";
-import { useAppContext } from "../utils/context-provider";
-import { emptyTooltip } from "../utils/tooltip";
+import { LawContext, useAppContext } from "../utils/context-provider";
+import { useContext } from "react";
+import Divider from "./Divider";
 
-export default function Tooltip(props: { metadata: Metadata }): JSX.Element {
-  const { metadata } = props;
-  const { colorScheme, tooltipData } = useAppContext();
+export interface TooltipData {
+  contentKey: string;
+  xPosition: number;
+  yPosition: number;
+}
 
-  if (tooltipData === emptyTooltip) {
+export const emptyTooltipData: TooltipData = {
+  contentKey: '',
+  xPosition: 0,
+  yPosition: 0,
+};
+
+export default function Tooltip(props: {
+  tooltipData: TooltipData
+}): JSX.Element {
+  const { /*metadata*/ tooltipData } = props;
+  const { colorScheme } = useAppContext();
+  const { metadata } = useContext(LawContext);
+
+  if (tooltipData === emptyTooltipData || metadata == null) {
     return <></>;
   }
 
   const xPosition: number = tooltipData.xPosition;
   const yPosition: number = tooltipData.yPosition;
-  const title = tooltipData.contentKey.split(" ").map(_.capitalize).join(" ");
+  const title = tooltipData.contentKey.split(" ").join(" ");
   const definition = _.capitalize(
     metadata.ketentuan_umum[tooltipData.contentKey.toUpperCase()]
   );
@@ -26,23 +42,28 @@ export default function Tooltip(props: { metadata: Metadata }): JSX.Element {
           position: absolute;
           top: ${yPosition + "px"};
           left: ${xPosition + "px"};
+          line-height: 1.5;
           height: auto;
           width: auto;
           max-width: 35vw;
-          padding: 10px;
-          background-color: ${colorScheme.tray.background};
+          padding: 20px;
+          background-color: ${colorScheme.subcontent.background};
           border-radius: 8px;
-          border: 0;
-          color: ${colorScheme.tray.text};
-          font-family: ${fonts.sans};
-          font-size: 14px;
+          border: 1px solid ${colorScheme.clickable};
+          color: ${colorScheme.text};
+          font-family: ${fonts.serif};
+          font-size: 18px;
           z-index: 100;
+        }
+
+        .definition {
+          color: ${colorScheme.text};
         }
       }`}</style>
       <div>
-        <p style={{ fontSize: "18px", fontFamily: fonts.serif }}>{title}</p>
-        <hr></hr>
-        <p>{definition}</p>
+        <p><i>{title}</i></p>
+        <Divider />
+        <p className="definition">{definition}</p>
       </div>
     </>
   );

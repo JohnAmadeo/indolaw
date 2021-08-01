@@ -1,8 +1,8 @@
-import { CSSProperties } from "react";
+import { CSSProperties, useState } from "react";
 import { Primitive, Structure } from "utils/grammar";
-import Link from "next/link";
 import { useAppContext } from "utils/context-provider";
-import { emptyTooltip } from "../utils/tooltip";
+import { emptyTooltipData, TooltipData } from "./Tooltip";
+import Tooltip from "./Tooltip";
 
 export default function PrimitiveStructure(props: {
   structure: Primitive;
@@ -13,9 +13,12 @@ export default function PrimitiveStructure(props: {
     customStyle,
   } = props;
 
+  const [tooltipData, setTooltipData] = useState(emptyTooltipData);
+
   return (
-    <div style={{ ...customStyle }}>
-      <style jsx>{`
+    <>
+      <div style={{ ...customStyle }}>
+        <style jsx>{`
         div {
           margin: 4px 0 16px 0;
         }
@@ -24,13 +27,18 @@ export default function PrimitiveStructure(props: {
           line-height: 1.5;
         }
       `}</style>
-      {/* <p>{text}</p> */}
-      <p>{type === Structure.PLAINTEXT ? sanitizeKetentuanUmum(text) : text}</p>
-    </div>
+        {/* <p>{text}</p> */}
+        <p>{type === Structure.PLAINTEXT ? sanitizeKetentuanUmum(text, setTooltipData) : text}</p>
+      </div>
+      <Tooltip tooltipData={tooltipData} />
+    </>
   );
 }
 
-function sanitizeKetentuanUmum(text: string): string | Array<JSX.Element> {
+function sanitizeKetentuanUmum(
+  text: string,
+  setTooltipData: (data: TooltipData) => void,
+): string | Array<JSX.Element> {
   // Sanitize law from ketentuan umum identifier
 
   const regex = /(\${[^}]*})/;
@@ -40,7 +48,7 @@ function sanitizeKetentuanUmum(text: string): string | Array<JSX.Element> {
     return text;
   }
 
-  const { colorScheme, setTooltip } = useAppContext();
+  const { colorScheme } = useAppContext();
 
   let linkedSpans = [];
   for (let i = 0; i < spans.length; i++) {
@@ -52,7 +60,7 @@ function sanitizeKetentuanUmum(text: string): string | Array<JSX.Element> {
           key={i}
           className="link"
           onPointerOver={(e) => {
-            setTooltip({
+            setTooltipData({
               contentKey: word,
               xPosition: e.currentTarget.offsetLeft,
               yPosition:
@@ -60,7 +68,7 @@ function sanitizeKetentuanUmum(text: string): string | Array<JSX.Element> {
             });
           }}
           onPointerLeave={() => {
-            setTooltip(emptyTooltip);
+            setTooltipData(emptyTooltipData);
           }}
         >
           <style jsx>{`
