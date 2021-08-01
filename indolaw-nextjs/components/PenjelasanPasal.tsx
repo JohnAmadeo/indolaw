@@ -51,7 +51,8 @@ export default function PenjelasanPasal(props: {
           margin: 20px auto;
           background-color: ${colorScheme.subcontent.background};
           padding: 10px 0;
-          border-radius: 7.5px;
+          border-radius: 8px;
+          border: 1px solid ${colorScheme.clickable};
         }
 
         .title:hover {
@@ -82,6 +83,7 @@ export default function PenjelasanPasal(props: {
         .material-icons.style {
           vertical-align: bottom;
           padding-top: 2px;
+          color: ${colorScheme.clickable};
         }
       `}</style>
       <div className="group">

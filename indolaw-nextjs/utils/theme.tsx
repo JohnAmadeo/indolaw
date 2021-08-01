@@ -13,7 +13,7 @@ export const colors = {
   clickableBackground: 'rgb(167, 149, 101, 0.1)',
   linkText: "#373d3f",
   subcontent: {
-    background: "#d3d3d3"
+    background: "#eaeaea"
   },
   tray: {
     button: "#1b1c1d",
