@@ -9,6 +9,7 @@ import PenjelasanListItem from "components/PenjelasanListItem";
 import PenjelasanPasal from "../components/PenjelasanPasal";
 import Pasal from "components/Pasal";
 import UUTitle from "components/UUTitle";
+import PenjelasanPasalDemiPasal from 'components/PenjelasanPasalDemiPasal';
 
 export enum Structure {
   UNDANG_UNDANG = "UNDANG_UNDANG",
@@ -245,22 +246,7 @@ export function renderStructure(
     case Structure.PENJELASAN_PERUBAHAN_SECTION:
       return renderChildren(structure as Complex, key);
     case Structure.PENJELASAN_PASAL_DEMI_PASAL:
-      // TODO(@johnamadeo): Add proper border color
-      return (
-        <>
-          <style jsx>{`
-            div {
-              margin: 48px;
-              padding: 40px;
-              border: 5px solid black;
-            }
-          `}</style>
-          <div>
-            Untuk kemudahan pemakaian HukumJelas, penjelasan masing-masing pasal
-            telah dipindahkan ke bawah pasal terkait
-          </div>
-        </>
-      );
+      return <PenjelasanPasalDemiPasal />
     case Structure.LIST_ITEM:
     case Structure.UNORDERED_LIST_ITEM:
       return <ListItem key={key} structure={structure as Complex} />;
