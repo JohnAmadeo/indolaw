@@ -30,55 +30,6 @@ export default function PrimitiveStructure(props: {
   );
 }
 
-function maybeLinkToOtherLaws(text: string): string | Array<JSX.Element> {
-  // Limit links only to other Undang Undang (for now)
-  // Using '\s+' to check for whitespace instead of ' ' is done because of our parser
-  // can't catch double whitespace errors. In the long term we would want to ensure
-  // the parser works really well so the UI doesn't need to have logic for quirks like this
-  const regex = /(Undang-Undang\s+Nomor\s+[0-9]+\s+Tahun\s+[0-9]+)/;
-  const spans = text.split(regex);
-
-  if (spans.length === 1) {
-    return text;
-  }
-
-  const { colorScheme } = useAppContext();
-
-  let linkedSpans = [];
-  for (let i = 0; i < spans.length; i++) {
-    const isLinkable = spans[i].match(regex) != null;
-    if (isLinkable) {
-      linkedSpans.push(
-        <span className="link">
-          <style jsx>{`
-            .link {
-              color: ${colorScheme.linkText};
-            }
-
-            .link:hover {
-              text-decoration: underline;
-            }
-          `}</style>
-          <a
-            key={i}
-            target="_blank"
-            rel="noopener noreferrer"
-            href={
-              "https://search.hukumonline.com/search/all/?q=undang+undang+13+2003&language=%5B%22id%22%5D"
-            }
-          >
-            {spans[i]}
-          </a>
-        </span>
-      );
-    } else {
-      linkedSpans.push(<span key={i}>{spans[i]}</span>);
-    }
-  }
-
-  return linkedSpans;
-}
-
 function sanitizeKetentuanUmum(text: string): string | Array<JSX.Element> {
   // Sanitize law from ketentuan umum identifier
 
