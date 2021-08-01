@@ -117,14 +117,10 @@ export default function Tray(props: {
         }
 
         .tray-icon {
-          color: ${colorScheme.tray.text};
+          color: ${colorScheme.clickable};
           margin-left: auto;
           cursor: pointer;
           display: flex;
-        }
-
-        .tray-icon:hover {
-          color: ${colorScheme.tray.textSecondary}
         }
 
         .material-icons.style {
