@@ -23,6 +23,10 @@ export default function PengujianUndangUndangMetadataCard(props: {
         .none {
           margin: 16px;
         }
+
+        .name {
+          margin-bottom: 4px;
+        }
       `}</style>
       <MetadataCard
         title={'Uji Materi Mahkamah Konstitusi'}
@@ -30,7 +34,7 @@ export default function PengujianUndangUndangMetadataCard(props: {
           <ul>
             {puu.map(e => (
               <li>
-                <p>
+                <p className="name">
                   <StyledLink text={e.id} link={e.link} />
                 </p>
                 <p><span>{e.context}</span></p>

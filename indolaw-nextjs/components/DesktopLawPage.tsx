@@ -40,7 +40,7 @@ export default function DesktopLawPage(props: {
         }
 
         .cards {
-          width: 1024px;
+          width: 768px;
           margin: 24px auto;
         }
 

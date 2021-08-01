@@ -4,6 +4,7 @@ import StatusMetadataCard from "./StatusMetadataCard";
 import PengujianUndangUndangMetadataCard from "./PengujianUndangUndangMetadataCard";
 import { fonts } from "utils/theme";
 import { useAppContext } from "utils/context-provider";
+import Divider from "./Divider";
 
 export default function MetadataCardsSection(props: {
   metadata: Metadata;
@@ -18,7 +19,6 @@ export default function MetadataCardsSection(props: {
     <div>
       <style jsx>{`
         .name-and-year {
-          padding: 0 80px;
           margin: 12px 0 0 0;
           font-family: ${fonts.serif};
           font-size: 48px;
@@ -26,11 +26,10 @@ export default function MetadataCardsSection(props: {
         }
 
         .topic {
-          padding: 0 80px;
           margin: 0 0 12px 0;
           font-family: ${fonts.serif};
           font-size: ${topicText.length > 60 ? '26px' : '48px'};
-          color: ${colorScheme.text};
+          color: ${colorScheme.clickableText};
         }
 
         .card {
@@ -48,6 +47,7 @@ export default function MetadataCardsSection(props: {
       <div className="card">
         <PengujianUndangUndangMetadataCard metadata={metadata} />
       </div>
+      <Divider />
     </div>
   );
 }
