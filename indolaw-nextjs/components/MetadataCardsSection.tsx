@@ -29,7 +29,7 @@ export default function MetadataCardsSection(props: {
           margin: 0 0 12px 0;
           font-family: ${fonts.serif};
           font-size: ${topicText.length > 60 ? '26px' : '48px'};
-          color: ${colorScheme.clickableText};
+          color: ${colorScheme.clickable};
         }
 
         .card {

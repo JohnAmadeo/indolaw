@@ -62,7 +62,7 @@ export default function Pasal(props: {
       <style jsx>{`
         .container {
           margin: ${isPerubahanStructure ? "0" : "48px"} 0 0 0;
-          background-color: ${isHoverOnCopyButton ? colorScheme.clickableTextBackground : 'none'};
+          background-color: ${isHoverOnCopyButton ? colorScheme.clickableBackground : 'none'};
           border-radius: 8px;
           padding: 4px 24px;
         }

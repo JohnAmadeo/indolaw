@@ -10,12 +10,12 @@ export default function StyledLink(props: {
     <>
       <style jsx >{`
         a:hover {
-          background: ${colorScheme.clickableTextBackground};
+          background: ${colorScheme.clickableBackground};
         }
 
         a {
-          color: ${colorScheme.clickableText};
-          border-bottom: 1px solid ${colorScheme.clickableText};
+          color: ${colorScheme.clickable};
+          border-bottom: 1px solid ${colorScheme.clickable};
         }
       `}</style>
       <b><a href={props.link} target="_blank">{props.text}</a></b>

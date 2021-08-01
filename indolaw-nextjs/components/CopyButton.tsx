@@ -25,7 +25,7 @@ export default function CopyButton(props: {
       .material-icons.style {
         vertical-align: bottom;
         font-size: 18px;
-        color: ${colorScheme.clickableText};
+        color: ${colorScheme.clickable};
       }
     }`}</style>
       <div

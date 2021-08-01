@@ -9,8 +9,8 @@ export const colors = {
   backgroundSecondary: '#f5f5f5',
   text: "#372b25",
   textHover: '#8b8b8b',
-  clickableText: '#a79565',
-  clickableTextBackground: 'rgb(167, 149, 101, 0.1)',
+  clickable: '#a79565',
+  clickableBackground: 'rgb(167, 149, 101, 0.1)',
   linkText: "#373d3f",
   subcontent: {
     background: "#d3d3d3"
@@ -28,8 +28,8 @@ export const darkColors = {
   backgroundSecondary: '#242424',
   text: "#ffffff",
   textHover: "#afafaf",
-  clickableText: '#a79565',
-  clickableTextBackground: 'rgb(167, 149, 101, 0.1)',
+  clickable: '#a79565',
+  clickableBackground: 'rgb(167, 149, 101, 0.1)',
   linkText: "#1ecbe1",
   subcontent: {
     background: "#373d3f"
@@ -47,8 +47,8 @@ export const noColors = {
   backgroundSecondary: '',
   text: '',
   textHover: '',
-  clickableText: '',
-  clickableTextBackground: '',
+  clickable: '',
+  clickableBackground: '',
   linkText: '',
   subcontent: {
     background: "",
@@ -73,8 +73,8 @@ export interface ColorScheme {
   backgroundSecondary: string,
   text: string,
   textHover: string,
-  clickableText: string,
-  clickableTextBackground: string,
+  clickable: string,
+  clickableBackground: string,
   linkText: string,
   subcontent: {
     background: string,
