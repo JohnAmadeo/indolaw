@@ -18,7 +18,7 @@ export default function StyledLink(props: {
           border-bottom: 1px solid ${colorScheme.clickable};
         }
       `}</style>
-      <b><a href={props.link} target="_blank">{props.text}</a></b>
+      <a href={props.link} target="_blank">{props.text}</a>
     </>
   );
 }
