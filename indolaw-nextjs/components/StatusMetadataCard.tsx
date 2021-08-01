@@ -1,6 +1,7 @@
 import { Metadata } from "utils/grammar";
 import { useAppContext } from "../utils/context-provider";
 import MetadataCard from "./MetadataCard";
+import StyledLink from "./StyledLink";
 
 export default function StatusMetadataCard(props: {
   metadata: Metadata;
@@ -9,15 +10,9 @@ export default function StatusMetadataCard(props: {
   const capitalizeFirstLetter = (str: string) => str[0].toUpperCase() + str.slice(1);
   const headings = Object.keys(status);
 
-  const { colorScheme } = useAppContext();
-
   return (
     <>
       <style jsx >{`
-        a:hover {
-          color: ${colorScheme.textHover};
-        }
-
         li {
           margin: 8px 0;
         }
@@ -36,7 +31,7 @@ export default function StatusMetadataCard(props: {
                 <ul>
                   {status[heading].map(e => (
                     <li>
-                      <a href={e.link} target="_blank">{e.law}</a>
+                      <StyledLink text={e.law} link={e.link} />
                     </li>
                   ))}
                 </ul>

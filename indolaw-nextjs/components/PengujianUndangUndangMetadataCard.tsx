@@ -1,6 +1,7 @@
 import { useAppContext } from "utils/context-provider";
 import { Metadata } from "utils/grammar";
 import MetadataCard from "./MetadataCard";
+import StyledLink from "./StyledLink";
 
 export default function PengujianUndangUndangMetadataCard(props: {
   metadata: Metadata;
@@ -11,10 +12,6 @@ export default function PengujianUndangUndangMetadataCard(props: {
   return (
     <>
       <style jsx >{`
-        a:hover {
-          color: ${colorScheme.textHover};
-        }
-
         li {
           margin: 8px 0;
         }
@@ -34,9 +31,7 @@ export default function PengujianUndangUndangMetadataCard(props: {
             {puu.map(e => (
               <li>
                 <p>
-                  <a href={e.link} target="_blank">
-                    {e.id}
-                  </a>
+                  <StyledLink text={e.id} link={e.link} />
                 </p>
                 <p><span>{e.context}</span></p>
               </li>
