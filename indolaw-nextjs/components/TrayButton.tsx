@@ -27,10 +27,10 @@ export default function TrayButton(props: {
         cursor: pointer;
         height: 36px;
         padding: 4px 20px;
-        background-color: ${colorScheme.tray.button};
+        background-color: ${colorScheme.tray.background};
         border-radius: 8px;
-        border: 0;
-        color: ${colorScheme.tray.buttonText};
+        border: 1px solid ${colorScheme.clickable};
+        color: ${colorScheme.clickable};
         font-family: ${fonts.sans};
         font-size: 14px;
       }
@@ -40,7 +40,7 @@ export default function TrayButton(props: {
       }
 
       button:hover {
-        background-color: ${colorScheme.tray.buttonHover};
+        background-color: ${colorScheme.clickableBackground};
       }
 
       .material-icons.style {
