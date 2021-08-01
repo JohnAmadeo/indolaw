@@ -4,6 +4,7 @@ import { useState } from "react";
 import { useAppContext } from "../utils/context-provider";
 import Tray from "./Tray";
 import MetadataCardsSection from "./MetadataCardsSection";
+import { fonts } from "utils/theme";
 
 // TODO(johnamadeo): Fix "Warning: Each child in a list should have a unique "key" prop." problem
 export default function DesktopLawPage(props: {
@@ -11,6 +12,7 @@ export default function DesktopLawPage(props: {
 }): JSX.Element {
   const [isTrayExpanded, setIsTrayExpanded] = useState(true);
   const { colorScheme } = useAppContext();
+  const { year, number, topic } = props.law.metadata;
 
   const expandedTrayWidth = 320;
   // Ideally we'd want to set the width of the minimized tray to just 'inherit' so that it'll be as
@@ -19,6 +21,10 @@ export default function DesktopLawPage(props: {
   const minimizedTrayWidth = 44;
   const trayWidth = isTrayExpanded ? expandedTrayWidth : minimizedTrayWidth;
   const mainBodyWidth = 816;
+
+  const nameAndYear = `UU No. ${number} Tahun ${year}`;
+  const topicText = `Tentang ${topic}`;
+
 
   return (
     <div className="container">
@@ -33,6 +39,20 @@ export default function DesktopLawPage(props: {
           max-width: calc(100% - ${trayWidth}px);
           transition: max-width ease 0.2s;
           background-color: ${colorScheme.background};
+        }
+
+        .name-and-year {
+          margin: 12px 0 0 0;
+          font-family: ${fonts.serif};
+          font-size: 48px;
+          color: ${colorScheme.text};
+        }
+        
+        .topic {
+          margin: 0 0 24px 0;
+          font-family: ${fonts.serif};
+          font-size: ${topicText.length > 60 ? '26px' : '48px'};
+          color: ${colorScheme.text};
         }
 
         .law {
@@ -67,6 +87,8 @@ export default function DesktopLawPage(props: {
 
       <div className="law-container">
         <div className="cards">
+          <h1 className="name-and-year">{nameAndYear}</h1>
+          <h1 className="topic">{topicText}</h1>
           <MetadataCardsSection metadata={props.law.metadata} />
         </div>
         <div className="law">

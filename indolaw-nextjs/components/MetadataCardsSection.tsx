@@ -1,53 +1,68 @@
 import { Metadata } from "utils/grammar";
-import ThemeMetadataCard from "./ThemeMetadataCard";
-import StatusMetadataCard from "./StatusMetadataCard";
-import PengujianUndangUndangMetadataCard from "./PengujianUndangUndangMetadataCard";
-import { fonts } from "utils/theme";
-import { useAppContext } from "utils/context-provider";
-import Divider from "./Divider";
+import { useAppContext } from "../utils/context-provider";
+import MetadataCard from "./MetadataCard";
+import StyledLink from "./StyledLink";
 
 export default function MetadataCardsSection(props: {
-  metadata: Metadata;
+  metadata: Metadata,
 }): JSX.Element {
-  const { metadata } = props;
-  const { year, number, topic } = metadata;
+  const { status, puu, theme } = props.metadata;
   const { colorScheme } = useAppContext();
 
-  const nameAndYear = `UU No. ${number} Tahun ${year}`;
-  const topicText = `Tentang ${topic}`;
+  const capitalizeFirstLetter = (str: string) => str[0].toUpperCase() + str.slice(1);
+  const headings = Object.keys(status);
+
   return (
-    <div>
-      <style jsx>{`
-        .name-and-year {
-          margin: 12px 0 0 0;
-          font-family: ${fonts.serif};
-          font-size: 48px;
-          color: ${colorScheme.text};
+    <div className="container">
+      <style jsx >{`
+        .container {
+          border: 1px solid ${colorScheme.clickable};
+          padding: 36px;
+          border-radius: 8px;
         }
 
-        .topic {
-          margin: 0 0 12px 0;
-          font-family: ${fonts.serif};
-          font-size: ${topicText.length > 60 ? '26px' : '48px'};
-          color: ${colorScheme.text};
+        li {
+          margin: 8px 0;
         }
 
-        .card {
-          margin: 24px 0;
+        .none {
+          margin: 16px;
+        }
+
+        span {
+          color: ${colorScheme.textHover};
         }
       `}</style>
-      <h1 className="name-and-year">{nameAndYear}</h1>
-      <h1 className="topic">{topicText}</h1>
-      <div className="card">
-        <ThemeMetadataCard metadata={metadata} />
-      </div>
-      <div className="card">
-        <StatusMetadataCard metadata={metadata} />
-      </div>
-      <div className="card">
-        <PengujianUndangUndangMetadataCard metadata={metadata} />
-      </div>
-      <Divider />
+      {headings.map(heading => (
+        <MetadataCard
+          title={capitalizeFirstLetter(heading)}
+          list={status[heading].map(e => <StyledLink text={e.law} link={e.link} />)}
+          isLast={false}
+        />
+      ))}
+      {puu.length > 0 && (
+        <MetadataCard
+          title={'Uji Materi Mahkamah Konstitusi'}
+          list={puu.map(e => (
+            <>
+              <p className="name">
+                <StyledLink text={e.id} link={e.link} />
+              </p>
+              <p><span>{e.context}</span></p>
+            </>
+          ))}
+          isLast={false}
+        />
+      )}
+      {theme.length > 0 && (
+        <MetadataCard
+          title={'Tema'}
+          list={theme.map(e => (
+            <StyledLink text={e.theme} link={e.link} />
+          ))}
+          isLast
+        />
+      )}
     </div>
   );
 }

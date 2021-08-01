@@ -1,13 +1,15 @@
 import { useAppContext } from "../utils/context-provider";
 import { fonts } from "utils/theme";
+import { Metadata } from "utils/grammar";
+import Divider from "./Divider";
+import StyledLink from "./StyledLink";
 
-export default function MetadataCard(
-  props: {
-    title: string,
-    body: JSX.Element,
-  }
-): JSX.Element {
-  const { title, body } = props;
+export default function MetadataCard(props: {
+  title: string,
+  list: Array<JSX.Element>,
+  isLast: boolean,
+}): JSX.Element {
+  const { title, list, isLast } = props;
   const { colorScheme } = useAppContext();
 
   return (
@@ -15,26 +17,33 @@ export default function MetadataCard(
       <style jsx>{`
         .container {
           font-family: ${fonts.serif};
-        }
-
-        .title {
-          background-color: ${colorScheme.subcontent.background};
-          color: ${colorScheme.text};
-          padding: 16px;
-          border-radius: 8px 8px 0 0;
-          font-weight: 700;
           font-size: 18px;
+          color: ${colorScheme.text};
+          padding: 4px 0;
         }
 
-        .body {
-          border: 1px solid ${colorScheme.subcontent.background};
-          color: ${colorScheme.text};
-          padding: 12px 16px 12px 0;
-          border-radius: 0 0 8px 8px;
+        .section {
+          padding: 8px 0;
+        }
+
+        li {
+          margin: 16px 0;
+          line-height: 1.6;
+          list-style-type: ${list.length > 1 ? 'decimal' : 'disc'};
+          padding-left: 16px;
         }
       `}</style>
-      <div className="title">{title}</div>
-      <div className="body">{body}</div>
+      <div className="section">
+        <div><b>{title}</b></div>
+        <div>
+          <ul>
+            {list.map(listItem => (
+              <li>{listItem}</li>
+            ))}
+          </ul>
+        </div>
+      </div>
+      {!isLast && <Divider />}
     </div>
   );
 }
