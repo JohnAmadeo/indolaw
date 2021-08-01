@@ -1,7 +1,7 @@
 import { useState, useEffect } from "react";
 import { LawData } from "utils/grammar";
 import { colors } from "utils/theme";
-import TableOfContentsGroup from "components/TableOfContentsGroup";
+import TableOfContentsGroupList from "components/TableOfContentsGroupList";
 import { useAppContext } from "utils/context-provider";
 import Citation from "./Citation";
 import Status from "./Status";
@@ -46,16 +46,7 @@ export default function Tray(props: {
   const renderTab = (tab: Tabs): JSX.Element => {
     switch (tab) {
       case Tabs.TABLE_OF_CONTENTS:
-        return <>{
-          law.content.children.map((child, idx) => (
-            <TableOfContentsGroup
-              key={idx}
-              structure={child}
-              depth={0}
-              isMobile={false}
-            />
-          ))}
-        </>;
+        return <TableOfContentsGroupList structures={law.content.children} />;
       case Tabs.METADATA:
         return (
           <>

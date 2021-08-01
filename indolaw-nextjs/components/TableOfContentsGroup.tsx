@@ -2,17 +2,22 @@ import { useState } from "react";
 import { Structure, Complex, Primitive } from "utils/grammar";
 import { colors, fonts } from "utils/theme";
 import { NextRouter, useRouter } from "next/router";
+import { useAppContext } from "../utils/context-provider";
+import TableOfContentsGroupList from "./TableOfContentsGroupList";
 
 export default function TableOfContentsGroup(props: {
-  structure: Complex | Primitive;
-  depth: number;
-  isMobile: boolean;
-  onSelectLink?: () => void;
+  structure: Complex | Primitive,
+  depth: number,
+  isMobile: boolean,
+  shouldShowExpanderWidth: boolean,
+  onSelectLink?: () => void,
 }): JSX.Element {
-  const { structure, depth, isMobile, onSelectLink } = props;
+  const { structure, depth, isMobile, onSelectLink, shouldShowExpanderWidth } = props;
   const [isChildrenVisible, setIsChildrenVisible] = useState(false);
+  const [isHoverOnHeading, setIsHoverOnHeading] = useState(false);
   const router = useRouter();
   const currentRoute = getRoute(router);
+  const { colorScheme } = useAppContext();
 
   const children = getChildren(structure, depth + 1, isMobile, onSelectLink);
   const hasChildren = children !== null;
@@ -34,25 +39,23 @@ export default function TableOfContentsGroup(props: {
     groupPaddingVert: px((1 / 4) * base),
   };
 
-  const onSelectGroup = () => {
+  const onSelectHeading = () => {
     if (!isMobile) {
-      return;
-    }
-
-    if (isLink(structure) && !hasChildren) {
-      if (onSelectLink) {
-        onSelectLink();
+      if (isLink(structure)) {
+        router.push(`${currentRoute}#${structure.id}`);
       }
-      router.push(`${currentRoute}#${structure.id}`);
     } else {
-      setIsChildrenVisible(!isChildrenVisible);
+      if (isLink(structure) && !hasChildren) {
+        if (onSelectLink) {
+          onSelectLink();
+        }
+        router.push(`${currentRoute}#${structure.id}`);
+      } else {
+        setIsChildrenVisible(!isChildrenVisible);
+      }
     }
   };
-  const onSelectTitle = () => {
-    if (!isMobile && isLink(structure)) {
-      router.push(`${currentRoute}#${structure.id}`);
-    }
-  };
+
   const onSelectExpander = () => {
     if (!isMobile) {
       setIsChildrenVisible(!isChildrenVisible);
@@ -60,35 +63,44 @@ export default function TableOfContentsGroup(props: {
   };
 
   return (
-    <div>
+    <div className="container">
       <style jsx>{`
-        .group {
-          display: grid;
-          grid-template-columns: ${style.iconSize} 1fr;
-          color: ${colors.tray.text};
-          font-family: ${fonts.sans};
-          padding: ${style.groupPaddingVert} 0;
-          cursor: ${isMobile ? "pointer" : "auto"};
+        .container {
+          display: flexbox;
+          margin: 2px 16px 2px 0;
+          width: 100%;
         }
 
-        .group div {
-          // border: 1px solid blue;
+        .expander {
+          padding: 22px 0 0 0;
+          width: 18px;
+        }
+
+        .heading-container {
+          flex-grow: 1;
+          width: 100%;
+        }
+
+        .heading {
+          color: ${isHoverOnHeading ? colorScheme.clickable : colors.tray.text};
+          font-family: ${fonts.sans};
+          padding: ${style.groupPaddingVert} 8px;
+          cursor: ${isMobile ? "pointer" : "auto"};
+          border-radius: 8px;
+          cursor: ${isMobile || isLink(structure) ? "pointer" : "auto"};
+        }
+
+        .heading:hover {
+          background: ${colorScheme.clickableBackground};
         }
 
         .number {
           font-size: ${style.numberSize};
-          color: ${colors.tray.textSecondary};
+          color: ${colorScheme.tray.textSecondary};
         }
 
         .title {
           font-size: ${style.titleSize};
-          cursor: ${isMobile || isLink(structure) ? "pointer" : "auto"};
-        }
-
-        .title:hover {
-          color: ${!isMobile && isLink(structure)
-          ? colors.tray.textSecondary
-          : colors.tray.text};
         }
 
         .material-icons.style {
@@ -97,30 +109,37 @@ export default function TableOfContentsGroup(props: {
           margin-top: ${style.iconMarginTop};
           cursor: pointer;
           vertical-align: bottom;
-          // border: 1px solid red;
+          color: ${colorScheme.clickable};
         }
 
         .children {
-          margin-left: ${style.iconSize};
+          margin-left: 8px;
         }
       `}</style>
-      <div className="group" onClick={onSelectGroup}>
-        <div></div>
-        <div className="number">{number}</div>
-        <div onClick={onSelectExpander}>
+      {shouldShowExpanderWidth && (
+        <div className="expander" onClick={onSelectExpander}>
           {hasChildren && (
             <i className="material-icons style">
               {isChildrenVisible ? "expand_less" : "expand_more"}
             </i>
           )}
         </div>
-        <div className="title" onClick={onSelectTitle}>
-          {title}
-        </div>
-      </div>
-      {hasChildren && isChildrenVisible && (
-        <div className="children">{children}</div>
       )}
+      <div className="heading-container">
+        <div className="heading"
+          onClick={onSelectHeading}
+          onMouseEnter={() => setIsHoverOnHeading(true)}
+          onMouseLeave={() => setIsHoverOnHeading(false)}
+        >
+          <div className="number">{number}</div>
+          <div className="title">
+            {title}
+          </div>
+        </div>
+        {hasChildren && isChildrenVisible && (
+          <div className="children">{children}</div>
+        )}
+      </div>
     </div>
   );
 }
@@ -135,19 +154,7 @@ function getChildren(
     case Structure.BAB:
     case Structure.BAGIAN:
     case Structure.PARAGRAF:
-      return (
-        <>
-          {(structure as Complex).children.slice(2).map((child, idx) => (
-            <TableOfContentsGroup
-              key={idx}
-              structure={child}
-              depth={depth + 1}
-              isMobile={isMobile}
-              onSelectLink={onSelectLink}
-            />
-          ))}
-        </>
-      );
+      return <TableOfContentsGroupList structures={(structure as Complex).children.slice(2)} />;
     default:
       return null;
   }
