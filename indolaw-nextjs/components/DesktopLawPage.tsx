@@ -39,8 +39,18 @@ export default function DesktopLawPage(props: {
           width: 768px;
         }
 
+        .cards {
+          width: 1024px;
+          margin: 24px auto;
+        }
+
         @media screen and (max-width: 1224px) {
           .law {
+            width: auto;
+            padding: 0 24px;
+          }
+
+          .cards {
             width: auto;
             padding: 0 24px;
           }
@@ -55,7 +65,9 @@ export default function DesktopLawPage(props: {
       />
 
       <div className="law-container">
-        <MetadataCardsSection metadata={props.law.metadata} />
+        <div className="cards">
+          <MetadataCardsSection metadata={props.law.metadata} />
+        </div>
         <div className="law">
           <Law law={props.law.content} metadata={props.law.metadata} colorScheme={colorScheme} />
         </div>

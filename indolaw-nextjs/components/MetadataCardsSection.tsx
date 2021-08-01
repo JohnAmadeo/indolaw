@@ -34,7 +34,7 @@ export default function MetadataCardsSection(props: {
         }
 
         .card {
-          margin: 24px 80px;
+          margin: 24px 0;
         }
       `}</style>
       <h1 className="name-and-year">{nameAndYear}</h1>
