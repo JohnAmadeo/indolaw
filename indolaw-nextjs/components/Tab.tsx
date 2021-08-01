@@ -7,7 +7,7 @@ export default function Tab(props: {
   text: string
 }): JSX.Element {
   const { isActive, onClick, text } = props;
-  const { invertedColorScheme: { tray } } = useAppContext();
+  const { colorScheme } = useAppContext();
 
   // TODO(johnamadeo)
   // Setting outline CSS property to none is bad for accessibility; figure out something else
@@ -16,13 +16,13 @@ export default function Tab(props: {
       <style jsx>{`
         .pill {
           cursor: pointer;
-          color: ${isActive ? tray.text : tray.textSecondary};
+          color: ${isActive ? colorScheme.tray.text : colorScheme.tray.textSecondary};
           font-family: ${fonts.sans};
           font-size: 14px;
         }
 
         .pill:hover {
-          color: ${isActive ? tray.textSecondary : tray.text};
+          color: ${isActive ? colorScheme.tray.text : colorScheme.clickable};
         }
 
         .pill:focus {
