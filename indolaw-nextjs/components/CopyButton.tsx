@@ -25,11 +25,7 @@ export default function CopyButton(props: {
       .material-icons.style {
         vertical-align: bottom;
         font-size: 18px;
-        color: ${colorScheme.text};
-      }
-
-      .material-icons.style:hover {
-        color: ${colorScheme.textHover};
+        color: ${colorScheme.clickableText};
       }
     }`}</style>
       <div

@@ -18,6 +18,7 @@ export default function DesktopLawPage(props: {
   // 'inherit' due to a CSS transition limitation. See https://css-tricks.com/using-css-transitions-auto-dimensions/
   const minimizedTrayWidth = 44;
   const trayWidth = isTrayExpanded ? expandedTrayWidth : minimizedTrayWidth;
+  const mainBodyWidth = 816;
 
   return (
     <div className="container">
@@ -36,11 +37,11 @@ export default function DesktopLawPage(props: {
 
         .law {
           margin: 24px auto 0 auto;
-          width: 768px;
+          width: ${mainBodyWidth}px;
         }
 
         .cards {
-          width: 768px;
+          width: ${mainBodyWidth}px;
           margin: 24px auto;
         }
 

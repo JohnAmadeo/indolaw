@@ -43,7 +43,7 @@ export default function UUTitle(props: {
           margin: 12px 0;
           padding: 12px 0;
           box-sizing: border-box;
-          background-color: ${isHoverOnCopyButton ? colorScheme.backgroundSecondary : 'none'};
+          background-color: ${isHoverOnCopyButton ? colorScheme.clickableTextBackground : 'none'};
           border-radius: 8px;
         }
 

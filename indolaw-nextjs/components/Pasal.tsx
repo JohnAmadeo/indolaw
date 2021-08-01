@@ -1,4 +1,4 @@
-import { CSSProperties, useContext } from "react";
+import { CSSProperties, useContext, useState } from "react";
 import { Complex, Primitive, renderStructure } from "utils/grammar";
 import PrimitiveStructure from "./PrimitiveStructure";
 import { renderPenjelasan } from "utils/grammar";
@@ -8,6 +8,7 @@ import * as clipboard from "clipboard-polyfill";
 import CopyButton from "./CopyButton";
 import { renderCopyHtml } from "utils/copypaste";
 import { LawContext, getPenjelasanMapKey } from "utils/context-provider";
+import { useAppContext } from "utils/context-provider";
 
 export default function Pasal(props: {
   structure: Complex,
@@ -16,6 +17,8 @@ export default function Pasal(props: {
   const { structure, numOfHeadingLines } = props;
   const isMobile = useMediaQuery({ query: "(max-width: 768px)" });
   const { penjelasanMap } = useContext(LawContext);
+  const [isHoverOnCopyButton, setIsHoverOnCopyButton] = useState(false);
+  const { colorScheme } = useAppContext();
 
   const headingStyle: CSSProperties = {
     marginLeft: "0px",
@@ -39,6 +42,8 @@ export default function Pasal(props: {
         });
         await clipboard.write([item]);
       }}
+      onMouseEnter={() => setIsHoverOnCopyButton(true)}
+      onMouseLeave={() => setIsHoverOnCopyButton(false)}
     />
   );
 
@@ -53,15 +58,21 @@ export default function Pasal(props: {
   const penjelasanPasal = penjelasanMap[key];
 
   return (
-    <>
+    <div className="container">
       <style jsx>{`
         .container {
           margin: ${isPerubahanStructure ? "0" : "48px"} 0 0 0;
+          background-color: ${isHoverOnCopyButton ? colorScheme.clickableTextBackground : 'none'};
+          border-radius: 8px;
+          padding: 4px 24px;
+        }
+
+        .pasal-number {
           display: flex;
           justify-content: center;
         }
       `}</style>
-      <div className="container" id={structure.id}>
+      <div className="pasal-number" id={structure.id}>
         <PrimitiveStructure
           structure={pasalNumber}
           customStyle={headingStyle}
@@ -78,6 +89,6 @@ export default function Pasal(props: {
           undefined,
           collapsePenjelasanOnDefault
         )}
-    </>
+    </div>
   );
 }
