@@ -1,0 +1,410 @@
+{
+  "metadata": {
+    "lembaranNegaraNumber": 7,
+    "lembaranNegaraYear": 2009,
+    "tambahanLembaranNumber": 4962,
+    "number": 6,
+    "topic": "Penetapan Peraturan Pemerintah Pengganti Undang-undang Nomor 2 Tahun 2008 Tentang Perubahan Kedua Atas Undang-undang Nomor 23 Tahun 1999 Tentang Bank Indonesia Menjadi Undang-undang",
+    "year": 2009
+  },
+  "content": {
+    "type": "UNDANG_UNDANG",
+    "id": "",
+    "children": [
+      {
+        "type": "OPENING",
+        "id": "",
+        "children": [
+          {
+            "type": "UU_TITLE",
+            "id": "",
+            "children": [
+              {
+                "type": "PLAINTEXT",
+                "text": "UNDANG-UNDANG REPUBLIK INDONESIA"
+              },
+              {
+                "type": "UU_TITLE_YEAR_AND_NUMBER",
+                "text": "NOMOR 6 TAHUN 2009"
+              },
+              {
+                "type": "PLAINTEXT",
+                "text": "TENTANG"
+              },
+              {
+                "type": "UU_TITLE_TOPIC",
+                "text": "PENETAPAN PERATURAN PEMERINTAH PENGGANTI UNDANG-UNDANG NOMOR 2 TAHUN 2008 TENTANG PERUBAHAN KEDUA ATAS UNDANG-UNDANG NOMOR 23 TAHUN 1999 TENTANG BANK INDONESIA MENJADI UNDANG-UNDANG"
+              }
+            ]
+          },
+          {
+            "type": "PREFACE",
+            "id": "",
+            "children": [
+              {
+                "type": "PLAINTEXT",
+                "text": "DENGAN RAHMAT TUHAN YANG MAHA ESA"
+              },
+              {
+                "type": "PLAINTEXT",
+                "text": "PRESIDEN REPUBLIK INDONESIA,"
+              }
+            ]
+          },
+          {
+            "type": "CONSIDERATIONS",
+            "id": "",
+            "children": [
+              {
+                "type": "PLAINTEXT",
+                "text": "Menimbang:"
+              },
+              {
+                "type": "LIST",
+                "id": "",
+                "children": [
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "LETTER_WITH_DOT",
+                        "text": "a."
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "bahwa sehubungan dengan telah terjadi krisis ekonomi secara global yang mempengaruhi stabilitas sistem keuangan termasuk perbankan, diperlukan upaya untuk menjaga kepercayaan masyarakat terhadap perbankan sehingga tidak menyebabkan kesulitan pendanaan jangka pendek bagi Bank karena ketidaksesuaian antara arus dana masuk yang lebih kecil dibandingkan dengan arus dana ke luar;"
+                      }
+                    ]
+                  },
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "LETTER_WITH_DOT",
+                        "text": "b."
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "bahwa berdasarkan ketentuan Undang-Undang Nomor 23 Tahun 1999 tentang Bank Indonesia sebagaimana telah diubah dengan Undang-Undang Nomor 3 Tahun 2004, Bank Indonesia dapat memberikan kredit atau pembiayaan berdasarkan prinsip syariah kepada Bank untuk mengatasi kesulitan pendanaan jangka pendek Bank;"
+                      }
+                    ]
+                  },
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "LETTER_WITH_DOT",
+                        "text": "c."
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "bahwa pengaturan mengenai kriteria agunan yang dijaminkan oleh Bank untuk memperoleh kredit atau pembiayaan berdasarkan prinsip syariah dari Bank Indonesia tidak sejalan dengan kondisi ekonomi saat ini, sehingga Presiden telah menetapkan Peraturan Pemerintah Pengganti Undang-Undang Nomor 2 Tahun 2008 tentang Perubahan Kedua Atas Undang-Undang Nomor 23 Tahun 1999 tentang Bank Indonesia;"
+                      }
+                    ]
+                  },
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "LETTER_WITH_DOT",
+                        "text": "d."
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "bahwa perubahan terhadap ketentuan yang mengatur mengenai kredit atau pembiayaan berdasarkan prinsip syariah dari Bank Indonesia kepada Bank untuk mengatasi kesulitan pendanaan jangka pendek bagi Bank dengan menetapkan Peraturan Pemerintah Pengganti Undang-Undang Nomor 2 Tahun 2008 tentang Perubahan Kedua Atas Undang-Undang Nomor 23 Tahun 1999 tentang Bank Indonesia, merupakan langkah tepat untuk menjaga kepercayaan masyarakat terhadap perbankan;"
+                      }
+                    ]
+                  },
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "LETTER_WITH_DOT",
+                        "text": "e."
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "bahwa berdasarkan pertimbangan sebagaimana dimaksud dalam huruf a, huruf b, huruf c, dan huruf d, perlu menetapkan Peraturan Pemerintah Pengganti Undang-Undang Nomor 2 Tahun 2008 tentang Perubahan Kedua Atas Undang-Undang Nomor 23 Tahun 1999 tentang Bank Indonesia menjadi Undang Undang."
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "PRINCIPLES",
+            "id": "",
+            "children": [
+              {
+                "type": "PLAINTEXT",
+                "text": "Mengingat:"
+              },
+              {
+                "type": "LIST",
+                "id": "",
+                "children": [
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "NUMBER_WITH_DOT",
+                        "text": "1."
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "Pasal 5 ayat (1), Pasal 20 ayat (1), dan Pasal 22 ayat (1) dan ayat (2) Undang-Undang Dasar Negara Republik Indonesia Tahun 1945;"
+                      }
+                    ]
+                  },
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "NUMBER_WITH_DOT",
+                        "text": "2."
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "Undang-Undang Nomor 7 Tahun 1992 tentang Perbankan (Lembaran Negara Republik Indonesia Tahun 1992 Nomor 31, Tambahan Lembaran Negara Republik Indonesia Nomor 3472) sebagaimana telah diubah dengan Undang-Undang Nomor 10 Tahun 1998 tentang Perubahan Atas Undang-Undang Nomor 7 Tahun 1992 tentang Perbankan (Lembaran Negara Republik Indonesia Tahun 1998 Nomor 182, Tambahan Lembaran Negara Republik Indonesia Nomor 3790);"
+                      }
+                    ]
+                  },
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "NUMBER_WITH_DOT",
+                        "text": "3."
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "Undang-Undang Nomor 23 Tahun 1999 tentang Bank Indonesia (Lembaran Negara Republik Indonesia Tahun 1999 Nomor 66, Tambahan Lembaran Negara Republik Indonesia Nomor 3843) sebagaimana telah diubah dengan Undang-Undang Nomor 3 Tahun 2004 tentang Perubahan Atas Undang-Undang Republik Indonesia Nomor 23 Tahun 1999 tentang Bank Indonesia (Lembaran Negara Republik Indonesia Tahun 2004 Nomor 7, Tambahan Lembaran Negara Republik Indonesia Nomor 4357)."
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "AGREEMENT",
+            "id": "",
+            "children": [
+              {
+                "type": "PLAINTEXT",
+                "text": "Dengan Persetujuan Bersama:"
+              },
+              {
+                "type": "PLAINTEXT",
+                "text": "DEWAN PERWAKILAN RAKYAT REPUBLIK INDONESIA"
+              },
+              {
+                "type": "PLAINTEXT",
+                "text": "dan"
+              },
+              {
+                "type": "PLAINTEXT",
+                "text": "PRESIDEN REPUBLIK INDONESIA"
+              },
+              {
+                "type": "PLAINTEXT",
+                "text": "MEMUTUSKAN:"
+              },
+              {
+                "type": "PLAINTEXT",
+                "text": "Menetapkan:"
+              },
+              {
+                "type": "PLAINTEXT",
+                "text": "UNDANG-UNDANG TENTANG PENETAPAN PERATURAN PEMERINTAH PENGGANTI UNDANG-UNDANG NOMOR 2 TAHUN 2008 TENTANG PERUBAHAN KEDUA ATAS UNDANG-UNDANG NOMOR 23 TAHUN 1999 TENTANG BANK INDONESIA MENJADI UNDANG-UNDANG"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "PASAL",
+        "id": "pasal-1",
+        "children": [
+          {
+            "type": "PASAL_NUMBER",
+            "text": "Pasal 1"
+          },
+          {
+            "type": "PLAINTEXT",
+            "text": "Peraturan Pemerintah Pengganti Undang-Undang Nomor 2 Tahun 2008 tentang Perubahan Kedua Atas Undang-Undang Nomor 23 Tahun 1999 tentang Bank Indonesia (Lembaran Negara Republik Indonesia Tahun 2008 Nomor 142, Tambahan Lembaran Negara Republik Indonesia Nomor 4901) ditetapkan menjadi Undang Undang dan melampirkannya sebagai bagian yang tidak terpisahkan dari Undang-Undang ini."
+          }
+        ]
+      },
+      {
+        "type": "PASAL",
+        "id": "pasal-2",
+        "children": [
+          {
+            "type": "PASAL_NUMBER",
+            "text": "Pasal 2"
+          },
+          {
+            "type": "PLAINTEXT",
+            "text": "Undang-Undang ini mulai berlaku pada tanggal diundangkan."
+          },
+          {
+            "type": "PLAINTEXT",
+            "text": "Agar setiap orang mengetahuinya memerintahkan pengundangan Undang-Undang ini dengan penempatannya dalam Lembaran Negara Republik Indonesia."
+          }
+        ]
+      },
+      {
+        "type": "CLOSING",
+        "id": "",
+        "children": [
+          {
+            "type": "PLAINTEXT",
+            "text": "Disahkan Di Jakarta,"
+          },
+          {
+            "type": "PLAINTEXT",
+            "text": "Pada Tanggal 13 Januari 2009"
+          },
+          {
+            "type": "PLAINTEXT",
+            "text": "PRESIDEN REPUBLIK INDONESIA,"
+          },
+          {
+            "type": "PLAINTEXT",
+            "text": "Ttd."
+          },
+          {
+            "type": "PLAINTEXT",
+            "text": "DR. H. SUSILO BAMBANG YUDHOYONO"
+          },
+          {
+            "type": "PLAINTEXT",
+            "text": "Diundangkan Di Jakarta,"
+          },
+          {
+            "type": "PLAINTEXT",
+            "text": "Pada Tanggal 13 Januari 2009"
+          },
+          {
+            "type": "PLAINTEXT",
+            "text": "MENTERI HUKUM DAN HAK ASASI MANUSIA REPUBLIK INDONESIA, Ttd."
+          },
+          {
+            "type": "PLAINTEXT",
+            "text": "ANDI MATTALATTA"
+          },
+          {
+            "type": "LEMBARAN_NUMBER",
+            "text": "LEMBARAN NEGARA REPUBLIK INDONESIA TAHUN 2009 NOMOR 7"
+          }
+        ]
+      },
+      {
+        "type": "PENJELASAN",
+        "id": "penjelasan",
+        "children": [
+          {
+            "type": "PENJELASAN_TITLE",
+            "id": "",
+            "children": [
+              {
+                "type": "PLAINTEXT",
+                "text": "PENJELASAN"
+              },
+              {
+                "type": "PLAINTEXT",
+                "text": "UNDANG-UNDANG REPUBLIK INDONESIA"
+              },
+              {
+                "type": "UU_TITLE_YEAR_AND_NUMBER",
+                "text": "NOMOR 6 TAHUN 2009"
+              },
+              {
+                "type": "PLAINTEXT",
+                "text": "TENTANG"
+              },
+              {
+                "type": "UU_TITLE_TOPIC",
+                "text": "PENETAPAN PERATURAN PEMERINTAH PENGGANTI UNDANG-UNDANG NOMOR 2 TAHUN 2008 TENTANG PERUBAHAN KEDUA ATAS UNDANG-UNDANG NOMOR 23 TAHUN 1999 TENTANG BANK INDONESIA MENJADI UNDANG-UNDANG"
+              }
+            ]
+          },
+          {
+            "type": "PENJELASAN_UMUM",
+            "id": "",
+            "children": [
+              {
+                "type": "PENJELASAN_UMUM_TITLE",
+                "text": "I. UMUM"
+              },
+              {
+                "type": "PLAINTEXT",
+                "text": "Dampak krisis keuangan global saat ini berimbas pada berbagai negara termasuk Indonesia, karena sistem keuangan global saling interdependensi. Menyikapi krisis keuangan global tersebut pemerintah Indonesia sudah, tengah, dan akan terus melakukan berbagai langkah antisipatif dan mengambil langkah langkah responsif dalam membendung dampak krisis keuangan global sehingga stabilitas sistem keuangan nasional tetap terpelihara."
+              },
+              {
+                "type": "PLAINTEXT",
+                "text": "Selama ini pelaksanaan fungsi sebagai the Lender of the Last Resort (LoLR) dilakukan oleh Bank Indonesia melalui pemberian fasilitas kredit kepada Bank yang mengalami kesulitan pendanaan jangka pendek dan dijamin dengan agunan yang berkualitas tinggi dan mudah dicairkan, namun pengaturan mengenai kriteria agunan tersebut tidak sejalan dengan kondisi ekonomi saat ini."
+              },
+              {
+                "type": "PLAINTEXT",
+                "text": "Salah satu upaya untuk menjaga kepercayaan masyarakat terhadap perbankan agar tidak menyebabkan kesulitan pendanaan jangka pendek bagi Bank karena ketidaksesuaian antara arus dana masuk yang lebih kecil dibandingkan dengan arus dana ke luar adalah dengan merubah kriteria agunan yang dijaminkan oleh Bank untuk memperoleh kredit atau pembiayaan berdasarkan prinsip syariah dari Bank Indonesia. Pemerintah menilai kebutuhan perubahan kriteria tersebut merupakan keadaan kegentingan yang memaksa sehingga Presiden telah menetapkan Peraturan Pemerintah Pengganti Undang-Undang Nomor 2 Tahun 2008 tentang Perubahan Kedua Atas Undang-Undang Nomor 23 Tahun 1999 tentang Bank Indonesia."
+              },
+              {
+                "type": "PLAINTEXT",
+                "text": "Penetapan Peraturan Pemerintah Pengganti Undang-Undang Nomor 2 Tahun 2008 tentang Perubahan Kedua Atas Undang-Undang Nomor 23 Tahun 1999 tentang Bank Indonesia oleh Presiden berdasarkan Pasal 22 ayat (1) Undang-Undang Dasar Negara Republik Indonesia Tahun 1945 untuk memenuhi kebutuhan yang sangat mendesak dan hal ihwal kegentingan yang memaksa merupakan langkah tepat untuk menjaga kepercayaan masyarakat terhadap perbankan dalam menghadapi ancaman krisis keuangan global, sehingga Peraturan Pemerintah Pengganti Undang-Undang Nomor 2 Tahun 2008 tentang Perubahan Kedua Atas Undang-Undang Nomor 23 Tahun 1999 tentang Bank Indonesia perlu mendapat persetujuan Dewan Perwakilan Rakyat untuk ditetapkan menjadi Undang-Undang sesuai dengan Pasal 22 ayat (2) Undang-Undang Dasar Negara Republik Indonesia Tahun 1945."
+              }
+            ]
+          },
+          {
+            "type": "PENJELASAN_PASAL_DEMI_PASAL",
+            "id": "",
+            "children": [
+              {
+                "type": "PENJELASAN_PASAL_DEMI_PASAL_TITLE",
+                "text": "II. PASAL DEMI PASAL"
+              },
+              {
+                "type": "PENJELASAN_PASAL",
+                "id": "",
+                "children": [
+                  {
+                    "type": "PASAL_NUMBER",
+                    "text": "Pasal 1"
+                  },
+                  {
+                    "type": "PLAINTEXT",
+                    "text": "Cukup Jelas"
+                  }
+                ]
+              },
+              {
+                "type": "PENJELASAN_PASAL",
+                "id": "",
+                "children": [
+                  {
+                    "type": "PASAL_NUMBER",
+                    "text": "Pasal 2"
+                  },
+                  {
+                    "type": "PLAINTEXT",
+                    "text": "Cukup Jelas"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}
