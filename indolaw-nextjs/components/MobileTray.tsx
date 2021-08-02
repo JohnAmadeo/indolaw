@@ -18,6 +18,7 @@ export default function MobileTray(props: { law: LawData }): JSX.Element {
       onSelectLink={() => {
         setIsExpanded(false);
       }}
+      shouldShowExpanderWidth={true}
     />
   ));
 
