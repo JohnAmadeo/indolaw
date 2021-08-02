@@ -10,7 +10,9 @@
   "dependencies": {
     "@types/react-responsive": "^8.0.2",
     "clipboard-polyfill": "^3.0.3",
+    "fuse.js": "^6.4.6",
     "gray-matter": "^4.0.2",
+    "lodash": "^4.17.21",
     "next": "10.0.1",
     "react": "17.0.1",
     "react-dom": "17.0.1",
