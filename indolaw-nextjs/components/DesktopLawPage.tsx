@@ -1,10 +1,17 @@
-import { LawData } from "utils/grammar";
+import { Complex, LawData, NodeMap, Primitive, Structure } from "utils/grammar";
 import Law from "components/Law";
-import { useState } from "react";
-import { useAppContext } from "../utils/context-provider";
+import { MutableRefObject, useRef, useState } from "react";
+import { useAppContext, VisibilityContext } from "../utils/context-provider";
 import Tray from "./Tray";
 import MetadataCardsSection from "./MetadataCardsSection";
 import { fonts } from "utils/theme";
+
+type VisibilityMap = {
+  [id: string]: {
+    element: HTMLElement | null,
+    isVisible: boolean,
+  }
+};
 
 // TODO(johnamadeo): Fix "Warning: Each child in a list should have a unique "key" prop." problem
 export default function DesktopLawPage(props: {
@@ -25,6 +32,38 @@ export default function DesktopLawPage(props: {
   const nameAndYear = `UU No. ${number} Tahun ${year}`;
   const topicText = `Tentang ${topic}`;
 
+  const visibilityRef = useRef(extractPasalMap(props.law.content));
+  const lawContainerRef: MutableRefObject<HTMLDivElement | null> = useRef(null);
+
+  const getTopmostVisibleElement = () => {
+    let topY = Infinity;
+    let topElement: HTMLElement | null = null;
+    for (let pasal of Object.values(visibilityRef.current)) {
+      if (!pasal.isVisible) {
+        continue;
+      }
+
+      const y = pasal.element?.getBoundingClientRect().y;
+      if (y != null && y < topY && y > -10) {
+        topY = y;
+        topElement = pasal.element;
+      }
+    }
+
+    return topElement;
+  };
+
+  const maybeScrollToElement = (element: HTMLElement | null) => {
+    const isVariableWidth =
+      lawContainerRef.current != null &&
+      lawContainerRef.current.clientWidth < mainBodyWidth;
+
+    if (isVariableWidth) {
+      setTimeout(() => {
+        element?.scrollIntoView();
+      }, 200);
+    }
+  };
 
   return (
     <div className="container">
@@ -77,24 +116,77 @@ export default function DesktopLawPage(props: {
           }
         }
       `}</style>
-      <Tray
-        law={props.law}
-        isExpanded={isTrayExpanded}
-        onExpand={() => setIsTrayExpanded(true)}
-        onMinimize={() => setIsTrayExpanded(false)}
-        width={trayWidth}
-      />
+      <VisibilityContext.Provider
+        value={{
+          setElement: (id: string, element: HTMLElement) => {
+            if (id in visibilityRef.current) {
+              visibilityRef.current[id] = {
+                element,
+                isVisible: visibilityRef.current[id].isVisible,
+              }
+            }
+          },
+          setIsVisible: (id: string, isVisible: boolean) => {
+            if (id in visibilityRef.current) {
+              visibilityRef.current[id] = {
+                element: visibilityRef.current[id].element,
+                isVisible,
+              }
+            }
+          },
+        }}
+      >
+        <Tray
+          law={props.law}
+          isExpanded={isTrayExpanded}
+          onExpand={() => {
+            const topElement = getTopmostVisibleElement();
+            setIsTrayExpanded(true);
+            maybeScrollToElement(topElement);
+          }}
+          onMinimize={() => {
+            const topElement = getTopmostVisibleElement();
+            setIsTrayExpanded(false);
+            maybeScrollToElement(topElement);
+          }}
+          width={trayWidth}
+        />
 
-      <div className="law-container">
-        <div className="cards">
-          <h1 className="name-and-year">{nameAndYear}</h1>
-          <h1 className="topic">{topicText}</h1>
-          <MetadataCardsSection metadata={props.law.metadata} />
+        <div className="law-container">
+          <div className="cards">
+            <h1 className="name-and-year">{nameAndYear}</h1>
+            <h1 className="topic">{topicText}</h1>
+            <MetadataCardsSection metadata={props.law.metadata} />
+          </div>
+          <div className="law" ref={lawContainerRef}>
+            <Law law={props.law.content} metadata={props.law.metadata} colorScheme={colorScheme} />
+          </div>
         </div>
-        <div className="law">
-          <Law law={props.law.content} metadata={props.law.metadata} colorScheme={colorScheme} />
-        </div>
-      </div>
+      </VisibilityContext.Provider>
     </div>
   );
+}
+
+function extractPasalMap(law: Complex): VisibilityMap {
+  const pasalMap: VisibilityMap = {};
+
+  const traverse = (structure: Complex | Primitive) => {
+    if ("children" in structure && structure.children !== undefined) {
+      structure = structure as Complex;
+
+      if (structure.type === Structure.PASAL) {
+        pasalMap[structure.id] = {
+          isVisible: false,
+          element: null,
+        };
+      } else {
+        for (let child of structure.children) {
+          traverse(child);
+        }
+      }
+    }
+  }
+
+  traverse(law);
+  return pasalMap;
 }

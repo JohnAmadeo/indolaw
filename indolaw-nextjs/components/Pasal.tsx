@@ -1,4 +1,4 @@
-import { CSSProperties, useContext, useState } from "react";
+import { CSSProperties, MutableRefObject, useContext, useEffect, useRef, useState } from "react";
 import { Complex, Primitive, renderStructure } from "utils/grammar";
 import PrimitiveStructure from "./PrimitiveStructure";
 import { renderPenjelasan } from "utils/grammar";
@@ -7,7 +7,7 @@ import { useMediaQuery } from "react-responsive";
 import * as clipboard from "clipboard-polyfill";
 import CopyButton from "./CopyButton";
 import { renderCopyHtml } from "utils/copypaste";
-import { LawContext, getPenjelasanMapKey } from "utils/context-provider";
+import { LawContext, getPenjelasanMapKey, VisibilityContext } from "utils/context-provider";
 import { useAppContext } from "utils/context-provider";
 
 export default function Pasal(props: {
@@ -19,6 +19,36 @@ export default function Pasal(props: {
   const { penjelasanMap } = useContext(LawContext);
   const [isHoverOnCopyButton, setIsHoverOnCopyButton] = useState(false);
   const { colorScheme } = useAppContext();
+  const pasalRef: MutableRefObject<HTMLDivElement | null> = useRef(null);
+
+  const { setElement, setIsVisible } = useContext(VisibilityContext);
+
+  useEffect(() => {
+    const observer = new IntersectionObserver(
+      (entries, _) => {
+        if (entries.length !== 1) {
+          return;
+        }
+
+        if (setIsVisible != null) {
+          setIsVisible(structure.id, entries[0].isIntersecting);
+        }
+      },
+      {
+        threshold: 0.25,
+      }
+    )
+
+    if (pasalRef.current != null && setElement != null) {
+      observer.observe(pasalRef.current);
+      setElement(structure.id, pasalRef.current);
+    }
+
+    return () => {
+      observer.disconnect();
+    }
+  }, [pasalRef, setElement, setIsVisible]);
+
 
   const headingStyle: CSSProperties = {
     marginLeft: "0px",
@@ -58,7 +88,7 @@ export default function Pasal(props: {
   const penjelasanPasal = penjelasanMap[key];
 
   return (
-    <div className="container">
+    <div className="container" ref={pasalRef} id={structure.id}>
       <style jsx>{`
         .container {
           margin: ${isPerubahanStructure ? "0" : "48px"} 0 0 0;
@@ -72,7 +102,7 @@ export default function Pasal(props: {
           justify-content: center;
         }
       `}</style>
-      <div className="pasal-number" id={structure.id}>
+      <div className="pasal-number">
         <PrimitiveStructure
           structure={pasalNumber}
           customStyle={headingStyle}

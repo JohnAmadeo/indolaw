@@ -27,6 +27,13 @@ export const LawContext: Context<LawContextType> = createContext({
   penjelasanMap: {},
 });
 
+export type VisibilityContextType = {
+  setElement?: (id: string, element: HTMLElement) => void,
+  setIsVisible?: (id: string, isVisible: boolean) => void,
+};
+
+export const VisibilityContext: Context<VisibilityContextType> = createContext({});
+
 export function getPenjelasanMapKey(
   structure: Structure,
   heading: string,
