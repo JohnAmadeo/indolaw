@@ -79,7 +79,7 @@ const renderCopyListHtml = (listStructure: Complex): JSX.Element => {
         </ul>
       );
     default:
-      console.log(listStructure.children[0]);
+      // console.log(listStructure.children[0]);
       throw Error('');
   }
 };

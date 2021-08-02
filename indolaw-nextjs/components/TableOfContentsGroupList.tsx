@@ -17,7 +17,6 @@ export default function TableOfContentsGroupList(props: {
     Structure.PARAGRAF,
   ]);
   const hasChildren = structures.some(child => structuresWithChildren.has(child.type));
-  console.log(hasChildren);
 
   return (
     <div>
