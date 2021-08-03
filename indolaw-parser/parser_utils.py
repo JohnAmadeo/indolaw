@@ -46,7 +46,7 @@ from parser_is_start_of_x import (
     is_start_of_structure,
     is_start_of_unordered_list_index_str,
 )
-from parser_ui import print_dashed_line, print_line, print_section_header, print_yes_no
+from parser_ui import print_dashed_line, print_line, print_section_header, print_yes_no_undo
 
 
 class CleaningStageOrder(IntEnum):
@@ -274,7 +274,7 @@ def is_next_list_index_number(list_index_a: str, list_index_b: str) -> bool:
         print(list_index_b)
         print_line()
         print('Are they consecutive list indexes?')
-        print_yes_no()
+        print_yes_no_undo()
         user_input = input()
 
         # user_input = 'y'
@@ -555,7 +555,7 @@ def clean_law(law: List[str]) -> List[str]:
             print("Proceed to parsing?")
             print("(y) to proceed to parsing.")
             print("(n) to undo to specific cleaning stages.")
-            print_yes_no()
+            print_yes_no_undo()
 
             finish_parsing = ''
 
@@ -618,7 +618,7 @@ def insert_perubahan_section_open_quotes(law: List[str]) -> List[str]:
 
             pyperclip.copy(line)
             print('Add open quote in front of line?')
-            print_yes_no()
+            print_yes_no_undo()
             user_input = input()
 
             if user_input == 'y':
@@ -688,7 +688,7 @@ def insert_perubahan_section_close_quotes(law: List[str]) -> List[str]:
             user_input_int = int(user_input)
             if user_input_int < open_quote_index or user_input_int >= next_open_quote_index:
                 print('This input may be out of bounds. Do you want to proceed?')
-                print_yes_no()
+                print_yes_no_undo()
                 user_input = input()
                 if user_input == 'y':
                     pass
@@ -738,7 +738,7 @@ def insert_penjelasan_perubahan_section_open_quotes(law: List[str]) -> List[str]
 
             pyperclip.copy(line)
             print('Add open quote in front of line?')
-            print_yes_no()
+            print_yes_no_undo()
             user_input = input()
 
             if user_input == 'y':
@@ -805,7 +805,7 @@ def insert_penjelasan_perubahan_section_close_quotes(law: List[str]) -> List[str
             close_quote_index = int(user_input)
             if close_quote_index < open_quote_index or close_quote_index >= next_open_quote_index:
                 print('This input may be out of bounds. Do you want to proceed?')
-                print_yes_no()
+                print_yes_no_undo()
                 user_input = input()
                 if user_input == 'y':
                     pass
@@ -822,7 +822,7 @@ def insert_perubahan_quotes(law: List[str]) -> List[str]:
     print_section_header('INSERT PERUBAHAN SECTION QUOTES...')
 
     print('Is this UU an UU Perubahan?')
-    print_yes_no()
+    print_yes_no_undo()
     user_input = input()
     if user_input == 'n':
         return law
@@ -847,11 +847,20 @@ def clean_squashed_page_numbers(law: List[str]) -> List[str]:
     print_section_header('CLEANING SQUASHED PAGE NUMBER...')
 
     new_law = []
-    for idx, line in enumerate(law):
+    
+    idx = 0
+    last_idx = len(law)
+    last_input_idx = 0
+
+    while idx < last_idx:
+        line = law[idx]
+
+    #for idx, line in enumerate(law):
         result = re.split(PAGE_NUMBER_REGEX, line)
         if len(result) == 1:
             new_law.append(line)
         elif len(result) > 1:
+            
             print_line()
             print(f'{idx} / {len(law)}')
             print(line)
@@ -859,7 +868,7 @@ def clean_squashed_page_numbers(law: List[str]) -> List[str]:
 
             pyperclip.copy(line)
             print('Does this line have a page number squashed onto the end?')
-            print_yes_no()
+            print_yes_no_undo()
             user_input = input()
 
             # user_input = 'y'
@@ -867,9 +876,19 @@ def clean_squashed_page_numbers(law: List[str]) -> List[str]:
                 new_law.append(''.join(result[:-2]))
             elif user_input == 'n':
                 new_law.append(line)
+            elif user_input == 'z':
+                for delete_idx in range(idx - 1, last_input_idx - 1, -1):
+                    new_law.pop(delete_idx)
+                idx = last_input_idx
+                continue
             else:
                 raise Exception(f'Input "{user_input}" is invalid')
 
+            last_input_idx = idx
+        
+        idx += 1
+    #delete later
+    save_law_to_file(new_law, 'test_with_z.txt')
     return new_law
 
 
@@ -926,7 +945,7 @@ def clean_split_plaintext(law: List[str]) -> List[str]:
 
             pyperclip.copy(law[i])
             print("Combine lines into one?")
-            print_yes_no()
+            print_yes_no_undo()
             user_input = input()
 
             if user_input.lower() == 'y':
@@ -1072,7 +1091,7 @@ def get_squashed_list_item(line: str, approx_len: int, approx_index: int):
 
     pyperclip.copy(line[start_of_squashed_list_item_idx:])
     print('Split line?')
-    print_yes_no()
+    print_yes_no_undo()
     user_input = input()
 
     # user_input = 'y'
@@ -1161,7 +1180,7 @@ def get_squashed_heading(line: str, approx_len: int, approx_index: int):
 
     pyperclip.copy(line[start_of_squashed_heading_idx:])
     print('Split line?')
-    print_yes_no()
+    print_yes_no_undo()
     user_input = input()
 
     # user_input = 'n'
