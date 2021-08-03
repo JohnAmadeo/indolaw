@@ -1,0 +1,1812 @@
+{
+  "metadata": {
+    "lembaranNegaraNumber": 178,
+    "lembaranNegaraYear": 1999,
+    "tambahanLembaranNumber": 3899,
+    "number": 50,
+    "topic": "Pembentukan Kabupaten Boalemo",
+    "year": 1999
+  },
+  "content": {
+    "type": "UNDANG_UNDANG",
+    "id": "",
+    "children": [
+      {
+        "type": "OPENING",
+        "id": "",
+        "children": [
+          {
+            "type": "UU_TITLE",
+            "id": "",
+            "children": [
+              {
+                "type": "PLAINTEXT",
+                "text": "UNDANG-UNDANG REPUBLIK INDONESIA"
+              },
+              {
+                "type": "UU_TITLE_YEAR_AND_NUMBER",
+                "text": "NOMOR 50 TAHUN 1999"
+              },
+              {
+                "type": "PLAINTEXT",
+                "text": "TENTANG"
+              },
+              {
+                "type": "UU_TITLE_TOPIC",
+                "text": "PEMBENTUKAN KABUPATEN BOALEMO"
+              }
+            ]
+          },
+          {
+            "type": "PREFACE",
+            "id": "",
+            "children": [
+              {
+                "type": "PLAINTEXT",
+                "text": "DENGAN RAHMAT TUHAN YANG MAHA ESA"
+              },
+              {
+                "type": "PLAINTEXT",
+                "text": "PRESIDEN REPUBLIK INDONESIA,"
+              }
+            ]
+          },
+          {
+            "type": "CONSIDERATIONS",
+            "id": "",
+            "children": [
+              {
+                "type": "PLAINTEXT",
+                "text": "Menimbang:"
+              },
+              {
+                "type": "LIST",
+                "id": "",
+                "children": [
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "LETTER_WITH_DOT",
+                        "text": "a."
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "bahwa berhubung dengan perkembangan dan kemajuan Propinsi Sulawesi Utara pada umumnya dan Kabupaten Gorontalo pada khususnya dan adanya aspirasi yang berkembang pada masyarakat, dipandang perlu meningkatkan penyelenggaraan pemerintahan, pelaksanaan pembangunan, dan pembinaan kemasyarakatan guna menjamin perkembangan dan kemajuan dimaksud pada masa mendatang;"
+                      }
+                    ]
+                  },
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "LETTER_WITH_DOT",
+                        "text": "b."
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "bahwa sehubungan dengan hal tersebut di atas dan memperhatikan perkembangan jumlah penduduk, luas wilayah, potensi ekonomi, sosial budaya, sosial politik dan meningkatnya beban tugas dan volume kerja di bidang pemerintahan, pembangunan dan kemasyarakatan di Kabupaten Gorontalo dipandang perlu membentuk Kabupaten Boalemo sebagai pemekaran dari Kabupaten Gorontalo;"
+                      }
+                    ]
+                  },
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "LETTER_WITH_DOT",
+                        "text": "c."
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "bahwa pembentukan Kabupaten Boalemo akan dapat mendorong peningkatan pelayanan di bidang pemerintahan, pembangunan dan kemasyarakatan, serta memberikan kemampuan dalam memanfaatkan potensi Daerah untuk menyelenggarakan Otonomi Daerah;"
+                      }
+                    ]
+                  },
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "LETTER_WITH_DOT",
+                        "text": "d."
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "bahwa sesuai dengan butir a, b, dan c serta berdasarkan ketentuan Undang-undang Nomor 22 Tahun 1999 tentang Pemerintahan Daerah, pembentukan Kabupaten Boalemo harus ditetapkan dengan Undang-undang."
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "PRINCIPLES",
+            "id": "",
+            "children": [
+              {
+                "type": "PLAINTEXT",
+                "text": "Mengingat:"
+              },
+              {
+                "type": "LIST",
+                "id": "",
+                "children": [
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "NUMBER_WITH_DOT",
+                        "text": "1."
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "Pasal 5 ayat (1), Pasal 18 dan Pasal 20 ayat (1) Undang-undang Dasar 1945;"
+                      }
+                    ]
+                  },
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "NUMBER_WITH_DOT",
+                        "text": "2."
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "Undang-undang Nomor 22 Tahun 1999 tentang Pemerintahan Daerah (Lembaran Negara Republik Indonesia Tahun 1999 Nomor 60, Tambahan Lembaran Negara Nomor 3839);"
+                      }
+                    ]
+                  },
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "NUMBER_WITH_DOT",
+                        "text": "3."
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "Undang-undang Darurat Nomor 29 Tahun 1959 tentang Pembentukan Daerah-daerah Tingkat II di Sulawesi (Lembaran Negara Republik Indonesia Tahun 1959 Nomor 74, Tambahan Lembaran Negara Nomor 1822);"
+                      }
+                    ]
+                  },
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "NUMBER_WITH_DOT",
+                        "text": "4."
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "Undang-undang Nomor 13 Tahun 1964 tentang Penetapan Peraturan Pemerintah Pengganti Undang-undang Nomor 2 Tahun 1964 tentang Pembentukan Daerah Tingkat I Sulawesi Tengah dan Daerah Tingkat I Sulawesi Tenggara dengan mengubah Undang-undang Nomor 47 PRP Tahun 1960 tentang Pembentukan Daerah Tingkat I Sulawesi Utara-Tengah dan Daerah Tingkat I Sulawesi Selatan-Tenggara (Lembaran Negara Tahun 1964 nomor 7) menjadi Undang-undang (Lembaran Negara Republik Indonesia Tahun 1964 Nomor 94, Tambahan Lembaran Negara Nomor 2687);"
+                      }
+                    ]
+                  },
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "NUMBER_WITH_DOT",
+                        "text": "5."
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "Undang-undang Nomor 4 Tahun 1999 tentang Susunan dan Kedudukan Majelis Permusyawaratan Rakyat, Dewan Perwakilan Rakyat dan Dewan Perwakilan Rakyat Daerah (Lembaran Negara Republik Indonesia Tahun 1999 Nomor 24, Tambahan Lembaran Negara Nomor 3811);"
+                      }
+                    ]
+                  },
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "NUMBER_WITH_DOT",
+                        "text": "6."
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "Undang-undang Nomor 25 Tahun 1999 tentang Perimbangan Keuangan Antara Pemerintah Pusat dan Daerah (Lembaran Negara Republik Indonesia Tahun 1999 Nomor 72, Tambahan Lembaran Negara Nomor 3848)."
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "AGREEMENT",
+            "id": "",
+            "children": [
+              {
+                "type": "PLAINTEXT",
+                "text": "Dengan persetujuan"
+              },
+              {
+                "type": "PLAINTEXT",
+                "text": "DEWAN PERWAKILAN RAKYAT REPUBLIK INDONESIA"
+              },
+              {
+                "type": "PLAINTEXT",
+                "text": "MEMUTUSKAN:"
+              },
+              {
+                "type": "PLAINTEXT",
+                "text": "Menetapkan:"
+              },
+              {
+                "type": "PLAINTEXT",
+                "text": "UNDANG-UNDANG TENTANG PENETAPAN KABUPATEN BOALEMO"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "BAB",
+        "id": "bab-1",
+        "children": [
+          {
+            "type": "BAB_NUMBER",
+            "text": "BAB I"
+          },
+          {
+            "type": "BAB_TITLE",
+            "text": "KETENTUAN UMUM"
+          },
+          {
+            "type": "PASAL",
+            "id": "pasal-1",
+            "children": [
+              {
+                "type": "PASAL_NUMBER",
+                "text": "Pasal 1"
+              },
+              {
+                "type": "PLAINTEXT",
+                "text": "Dalam Undang-undang ini yang dimaksud dengan:"
+              },
+              {
+                "type": "LIST",
+                "id": "",
+                "children": [
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "LETTER_WITH_DOT",
+                        "text": "a."
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "Daerah adalah daerah otonom sebagaimana dimaksud dalam Pasal 1 huruf i Undang undang Nomor 2 Tahun 1999 tentang Pemerintahan Daerah;"
+                      }
+                    ]
+                  },
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "LETTER_WITH_DOT",
+                        "text": "b."
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "Kabupaten Gorontalo adalah daerah otonom sebagaimana dimaksud dalam Undang-undang Nomor 29 Tahun 1959 tentang Pembentukan Daerah-daerah Tingkat II di Sulawesi;"
+                      }
+                    ]
+                  },
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "LETTER_WITH_DOT",
+                        "text": "c."
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "Propinsi Sulawesi Utara adalah daerah otonom sebagaimana dimaksud dalam Undang undang Nomor 13 Tahun 1964 tentang Penetapan Peraturan Pemerintah Nomor 2 Tahun 1964 tentang Pembentukan Daerah Tingkat I Sulawesi Tengah dan Tenggara dengan Mengubah Undang-undang Nomor 47 Prp Tahun 1960 tentang Pembentukan Daerah Tingkat I Sulawesi Utara-Tengah dan Daerah Tingkat I Sulawesi Selatan-Tenggara (Lembaran Negara Tahun 1964 Nomor 7) menjadi undang-undang."
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "BAB",
+        "id": "bab-2",
+        "children": [
+          {
+            "type": "BAB_NUMBER",
+            "text": "BAB II"
+          },
+          {
+            "type": "BAB_TITLE",
+            "text": "PEMBENTUKAN, BATAS WILAYAH DAN IBU KOTA"
+          },
+          {
+            "type": "PASAL",
+            "id": "pasal-2",
+            "children": [
+              {
+                "type": "PASAL_NUMBER",
+                "text": "Pasal 2"
+              },
+              {
+                "type": "PLAINTEXT",
+                "text": "Dengan Undang-undang ini dibentuk Kabupaten Boalemo dalam wilayah Propinsi Sulawesi Utara."
+              }
+            ]
+          },
+          {
+            "type": "PASAL",
+            "id": "pasal-3",
+            "children": [
+              {
+                "type": "PASAL_NUMBER",
+                "text": "Pasal 3"
+              },
+              {
+                "type": "PLAINTEXT",
+                "text": "Kabupaten Boalemo berasal dari sebagian wilayah Kabupaten Gorontalo yang terdiri atas wilayah:"
+              },
+              {
+                "type": "LIST",
+                "id": "",
+                "children": [
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "LETTER_WITH_DOT",
+                        "text": "a."
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "Kecamatan Paguyaman;"
+                      }
+                    ]
+                  },
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "LETTER_WITH_DOT",
+                        "text": "b."
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "Kecamatan Tilamuta;"
+                      }
+                    ]
+                  },
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "LETTER_WITH_DOT",
+                        "text": "c."
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "Kecamatan Paguat;"
+                      }
+                    ]
+                  },
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "LETTER_WITH_DOT",
+                        "text": "d."
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "Kecamatan Marisa; dan"
+                      }
+                    ]
+                  },
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "LETTER_WITH_DOT",
+                        "text": "e."
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "Kecamatan Popayato."
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "PASAL",
+            "id": "pasal-4",
+            "children": [
+              {
+                "type": "PASAL_NUMBER",
+                "text": "Pasal 4"
+              },
+              {
+                "type": "PLAINTEXT",
+                "text": "Dengan dibentuknya Kabupaten Boalemo, sebagaimana dimaksud dalam Pasal 2, wilayah Kabupaten Gorontalo dikurangi dengan wilayah Kabupaten Boalemo, sebagaimana dimaksud dalam Pasal 3."
+              }
+            ]
+          },
+          {
+            "type": "PASAL",
+            "id": "pasal-5",
+            "children": [
+              {
+                "type": "PASAL_NUMBER",
+                "text": "Pasal 5"
+              },
+              {
+                "type": "LIST",
+                "id": "",
+                "children": [
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "NUMBER_WITH_BRACKETS",
+                        "text": "(1)"
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "Kabupaten Boalemo mempunyai batas wilayah:"
+                      },
+                      {
+                        "type": "LIST",
+                        "id": "",
+                        "children": [
+                          {
+                            "type": "LIST_ITEM",
+                            "id": "",
+                            "children": [
+                              {
+                                "type": "LETTER_WITH_DOT",
+                                "text": "a."
+                              },
+                              {
+                                "type": "PLAINTEXT",
+                                "text": "sebelah utara dengan kecamatan Samalantan, Kabupaten Gorontalo, dan Propinsi Sulawesi Tengah;"
+                              }
+                            ]
+                          },
+                          {
+                            "type": "LIST_ITEM",
+                            "id": "",
+                            "children": [
+                              {
+                                "type": "LETTER_WITH_DOT",
+                                "text": "b."
+                              },
+                              {
+                                "type": "PLAINTEXT",
+                                "text": "sebelah timur dengan kecamatan Boliyohuto, Kabupaten Gorontalo;"
+                              }
+                            ]
+                          },
+                          {
+                            "type": "LIST_ITEM",
+                            "id": "",
+                            "children": [
+                              {
+                                "type": "LETTER_WITH_DOT",
+                                "text": "c."
+                              },
+                              {
+                                "type": "PLAINTEXT",
+                                "text": "sebelah selatan dengan teluk tomini; dan"
+                              }
+                            ]
+                          },
+                          {
+                            "type": "LIST_ITEM",
+                            "id": "",
+                            "children": [
+                              {
+                                "type": "LETTER_WITH_DOT",
+                                "text": "d."
+                              },
+                              {
+                                "type": "PLAINTEXT",
+                                "text": "sebelah Barat dengan Propinsi Sulawesi Tengah."
+                              }
+                            ]
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "NUMBER_WITH_BRACKETS",
+                        "text": "(2)"
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "Batas wilayah sebagaimana dimaksud pada ayat (1) dituangkan dalam peta yang merupakan bagian yang tidak terpisahkan dari Undang-undang ini."
+                      }
+                    ]
+                  },
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "NUMBER_WITH_BRACKETS",
+                        "text": "(3)"
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "Penentuan batas wilayah Kabupaten Boalemo secara pasti di lapangan, sebagaimana dimaksud pada ayat (1), ditetapkan oleh Menteri Dalam Negeri."
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "PASAL",
+            "id": "pasal-6",
+            "children": [
+              {
+                "type": "PASAL_NUMBER",
+                "text": "Pasal 6"
+              },
+              {
+                "type": "LIST",
+                "id": "",
+                "children": [
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "NUMBER_WITH_BRACKETS",
+                        "text": "(1)"
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "Dengan dibentuknya Kabupaten Boalemo, sebagaimana dimaksud dalam Pasal 2, dan mempunyai wilayah, sebagaimana dimaksud dalam Pasal 3, Pemerintah Kabupaten Boalemo wajib menetapkan tata ruang wilayah Kabupaten Boalemo, sesuai dengan peraturan perundang-undangan."
+                      }
+                    ]
+                  },
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "NUMBER_WITH_BRACKETS",
+                        "text": "(2)"
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "Penetapan tata ruang wilayah Kabupaten Boalemo, sebagaimana dimaksud pada ayat (1), dilakukan secara terpadu dan tidak terpisahkan dari tata ruang wilayah Nasional, Propinsi, Kabupaten/Kota."
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "PASAL",
+            "id": "pasal-7",
+            "children": [
+              {
+                "type": "PASAL_NUMBER",
+                "text": "Pasal 7"
+              },
+              {
+                "type": "PLAINTEXT",
+                "text": "Ibukota Kabupaten Boalemo berkedudukan di Tilamuta."
+              }
+            ]
+          },
+          {
+            "type": "PASAL",
+            "id": "pasal-8",
+            "children": [
+              {
+                "type": "PASAL_NUMBER",
+                "text": "Pasal 8"
+              },
+              {
+                "type": "PLAINTEXT",
+                "text": "Selambat-lambatnya dalam jangka waktu lima tahun terhitung sejak diresmikan Kabupaten Boalemo, kedudukan ibukota dipindahkan ke Marisa."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "BAB",
+        "id": "bab-3",
+        "children": [
+          {
+            "type": "BAB_NUMBER",
+            "text": "BAB III"
+          },
+          {
+            "type": "BAB_TITLE",
+            "text": "KEWENANGAN DAERAH"
+          },
+          {
+            "type": "PASAL",
+            "id": "pasal-9",
+            "children": [
+              {
+                "type": "PASAL_NUMBER",
+                "text": "Pasal 9"
+              },
+              {
+                "type": "LIST",
+                "id": "",
+                "children": [
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "NUMBER_WITH_BRACKETS",
+                        "text": "(1)"
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "Dengan terbentuknya Kabupaten Boalemo, kewenangan daerah sebagai daerah otonom mencakup seluruh kewenangan bidang pemerintahan, termasuk kewenangan wajib, kecuali bidang politik luar negeri, pertahanan keamanan, peradilan, moneter dan fiskal, agama, serta kewenangan bidang lain, sesuai dengan peraturan perundang-undangan."
+                      }
+                    ]
+                  },
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "NUMBER_WITH_BRACKETS",
+                        "text": "(2)"
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "Kewenangan wajib, sebagaimana dimaksud pada ayat (1), terdiri atas pekerjaan umum, kesehatan, pendidikan dan kebudayaan, pertanian dan perhubungan, industri dan perdagangan, penanaman modal, lingkungan hidup, pertanahan, koperasi dan tenaga kerja."
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "BAB",
+        "id": "bab-4",
+        "children": [
+          {
+            "type": "BAB_NUMBER",
+            "text": "BAB IV"
+          },
+          {
+            "type": "BAB_TITLE",
+            "text": "PEMERINTAHAN DAERAH"
+          },
+          {
+            "type": "PASAL",
+            "id": "pasal-10",
+            "children": [
+              {
+                "type": "PASAL_NUMBER",
+                "text": "Pasal 10"
+              },
+              {
+                "type": "PLAINTEXT",
+                "text": "Dengan terbentuknya Kabupaten Boalemo, dibentuk Dewan Perwakilan Rakyat Daerah Kabupaten Boalemo, sesuai dengan peraturan perundang-undangan."
+              }
+            ]
+          },
+          {
+            "type": "PASAL",
+            "id": "pasal-11",
+            "children": [
+              {
+                "type": "PASAL_NUMBER",
+                "text": "Pasal 11"
+              },
+              {
+                "type": "PLAINTEXT",
+                "text": "Untuk memimpin jalannya pemerintahan di Kabupaten Boalemo, dipilih dan disahkan seorang Bupati dan Wakil Bupati sesuai dengan peraturan perundang-undangan."
+              }
+            ]
+          },
+          {
+            "type": "PASAL",
+            "id": "pasal-12",
+            "children": [
+              {
+                "type": "PASAL_NUMBER",
+                "text": "Pasal 12"
+              },
+              {
+                "type": "PLAINTEXT",
+                "text": "Untuk kelengkapan perangkat pemerintahan, di Kabupaten Boalemo, dibentuk Sekretariat Dewan Perwakilan Rakyat Daerah Kabupaten, Sekretariat Kabupaten, dinas-dinas Kabupaten, dan lembaga teknis Kabupaten, sesuai dengan peraturan perundang-undangan."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "BAB",
+        "id": "bab-5",
+        "children": [
+          {
+            "type": "BAB_NUMBER",
+            "text": "BAB V"
+          },
+          {
+            "type": "BAB_TITLE",
+            "text": "KETENTUAN PERALIHAN"
+          },
+          {
+            "type": "PASAL",
+            "id": "pasal-13",
+            "children": [
+              {
+                "type": "PASAL_NUMBER",
+                "text": "Pasal 13"
+              },
+              {
+                "type": "LIST",
+                "id": "",
+                "children": [
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "NUMBER_WITH_BRACKETS",
+                        "text": "(1)"
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "Dengan terbentuknya Kabupaten Boalemo, pengisian keanggotaan Dewan Perwakilan Rakyat Daerah Kabupaten Boalemo diselenggarakan melalui pemilihan umum lokal selambat-lambatnya satu tahun sejak peresmiannya, sesuai dengan peraturan perundang undangan."
+                      }
+                    ]
+                  },
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "NUMBER_WITH_BRACKETS",
+                        "text": "(2)"
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "Anggota Dewan Perwakilan Rakyat Daerah Boalemo terdiri atas:"
+                      },
+                      {
+                        "type": "LIST",
+                        "id": "",
+                        "children": [
+                          {
+                            "type": "LIST_ITEM",
+                            "id": "",
+                            "children": [
+                              {
+                                "type": "LETTER_WITH_DOT",
+                                "text": "a."
+                              },
+                              {
+                                "type": "PLAINTEXT",
+                                "text": "anggota Dewan Perwakilan Rakyat Daerah yang ditetapkan dari partai politik peserta pemilihan umum lokal yang dilaksanakan di Kabupaten Boalemo; dan"
+                              }
+                            ]
+                          },
+                          {
+                            "type": "LIST_ITEM",
+                            "id": "",
+                            "children": [
+                              {
+                                "type": "LETTER_WITH_DOT",
+                                "text": "b."
+                              },
+                              {
+                                "type": "PLAINTEXT",
+                                "text": "anggota ABRI yang diangkat."
+                              }
+                            ]
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "NUMBER_WITH_BRACKETS",
+                        "text": "(3)"
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "Jumlah dan tata cara pengisian keanggotaan Dewan Perwakilan Rakyat Daerah Kabupaten Boalemo,"
+                      }
+                    ]
+                  },
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "NUMBER_WITH_BRACKETS",
+                        "text": "(4)"
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "sebagaimana dimaksud pada ayat (2), ditetapkan sesuai dengan peraturan perundang undangan."
+                      }
+                    ]
+                  },
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "NUMBER_WITH_BRACKETS",
+                        "text": "(5)"
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "Dengan terbentuknya Kabupaten Boalemo jumlah anggota Dewan Perwakilan Rakyat Daerah Kabupaten Gorontalo setelah dikurangi dengan jumlah penduduk Kabupaten Boalemo."
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "PASAL",
+            "id": "pasal-14",
+            "children": [
+              {
+                "type": "PASAL_NUMBER",
+                "text": "Pasal 14"
+              },
+              {
+                "type": "PLAINTEXT",
+                "text": "Pada saat terbentuknya Kabupaten Boalemo, Pejabat Bupati Boalemo untuk pertama kali diangkat oleh Menteri Dalam Negeri atas nama Presiden berdasarkan usul Gubernur Sulawesi Utara."
+              }
+            ]
+          },
+          {
+            "type": "PASAL",
+            "id": "pasal-15",
+            "children": [
+              {
+                "type": "PASAL_NUMBER",
+                "text": "Pasal 15"
+              },
+              {
+                "type": "LIST",
+                "id": "",
+                "children": [
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "NUMBER_WITH_BRACKETS",
+                        "text": "(1)"
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "Untuk kelancaran penyelenggaraan pemerintahan di Kabupaten Boalemo, Gubernur Propinsi Sulawesi Utara dan Bupati Gorontalo, sesuai dengan wewenang dan tugasnya masing-masing, menginventarisasi dan mengatur penyerahan kepada Pemerintah Kabupaten Boalemo sesuai dengan peraturan perundang-undangan:"
+                      },
+                      {
+                        "type": "LIST",
+                        "id": "",
+                        "children": [
+                          {
+                            "type": "LIST_ITEM",
+                            "id": "",
+                            "children": [
+                              {
+                                "type": "LETTER_WITH_DOT",
+                                "text": "a."
+                              },
+                              {
+                                "type": "PLAINTEXT",
+                                "text": "pegawai yang karena jabatannya diperlukan oleh Pemerintah Kabupaten Boalemo;"
+                              }
+                            ]
+                          },
+                          {
+                            "type": "LIST_ITEM",
+                            "id": "",
+                            "children": [
+                              {
+                                "type": "LETTER_WITH_DOT",
+                                "text": "b."
+                              },
+                              {
+                                "type": "PLAINTEXT",
+                                "text": "tanah, bangunan, barang bergerak, dan barang tidak bergerak yang dimiliki, dikuasai atau dimanfaatkan oleh Pemerintah Propinsi Sulawesi Utara dan Pemerintah Kabupaten Gorontalo yang berada dalam Kabupaten Boalemo;"
+                              }
+                            ]
+                          },
+                          {
+                            "type": "LIST_ITEM",
+                            "id": "",
+                            "children": [
+                              {
+                                "type": "LETTER_WITH_DOT",
+                                "text": "c."
+                              },
+                              {
+                                "type": "PLAINTEXT",
+                                "text": "Badan Usaha Milik Daerah Propinsi Sulawesi Utara dan Kabupaten Gorontalo yang kedudukan dan sifatnya diperlukan serta kegiatannya berada di Kabupaten Boalemo;"
+                              }
+                            ]
+                          },
+                          {
+                            "type": "LIST_ITEM",
+                            "id": "",
+                            "children": [
+                              {
+                                "type": "LETTER_WITH_DOT",
+                                "text": "d."
+                              },
+                              {
+                                "type": "PLAINTEXT",
+                                "text": "utang piutang pemerintah Kabupaten Gorontalo yang kegunaannya untuk Kabupaten Boalemo; dan"
+                              }
+                            ]
+                          },
+                          {
+                            "type": "LIST_ITEM",
+                            "id": "",
+                            "children": [
+                              {
+                                "type": "LETTER_WITH_DOT",
+                                "text": "e."
+                              },
+                              {
+                                "type": "PLAINTEXT",
+                                "text": "perlengkapan kantor, arsip, dokumen dan perpustakaan yang karena sifatnya diperlukan oleh Kabupaten Boalemo."
+                              }
+                            ]
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "NUMBER_WITH_BRACKETS",
+                        "text": "(2)"
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "Pelaksanaan penyerahan sebagaimana dimaksud pada ayat (1) selambat-lambatnya harus diselesaikan dalam waktu satu tahun, terhitung sejak diresmikannya Kabupaten Boalemo."
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "PASAL",
+            "id": "pasal-16",
+            "children": [
+              {
+                "type": "PASAL_NUMBER",
+                "text": "Pasal 16"
+              },
+              {
+                "type": "LIST",
+                "id": "",
+                "children": [
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "NUMBER_WITH_BRACKETS",
+                        "text": "(1)"
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "Pembiayaan yang diperlukan akibat pembentukan Kabupaten Boalemo, sebagaimana yang dimaksud dalam Pasal 2, dibebankan pada Anggaran Pendapatan dan Belanja Daerah Kabupaten Boalemo."
+                      }
+                    ]
+                  },
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "NUMBER_WITH_BRACKETS",
+                        "text": "(2)"
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "Untuk kelancaran penyelenggaraan pemerintahan dan pembangunan, terhitung sejak diresmikannya pembentukan Kabupaten Boalemo, segala pembiayaan yang diperlukan pada tahun pertama sebelum dapat disusun Anggaran Pendapatan dan Belanja Daerah yang bersangkutan dibebankan pada Anggaran Pendapatan dan Belanja Daerah Kabupaten Gorontalo, berdasarkan perimbangan hasil pendapatan yang diperoleh dari Kabupaten Boalemo."
+                      }
+                    ]
+                  },
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "NUMBER_WITH_BRACKETS",
+                        "text": "(3)"
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "Pemerintah Propinsi Sulawesi Utara wajib membantu pembiayaan sebagaimana dimaksud pada ayat (1) melalui Anggaran Pendapatan dan Belanja Daerah Propinsi Sulawesi Utara selama tiga tahun berturut-turut, terhitung sejak tanggal peresmiannya."
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "PASAL",
+            "id": "pasal-17",
+            "children": [
+              {
+                "type": "PASAL_NUMBER",
+                "text": "Pasal 17"
+              },
+              {
+                "type": "PLAINTEXT",
+                "text": "Semua peraturan perundang-undangan yang saat ini berlaku bagi Kabupaten Boalemo sebelum diubah, diganti atau dicabut berdasarkan Undang-undang ini."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "BAB",
+        "id": "bab-6",
+        "children": [
+          {
+            "type": "BAB_NUMBER",
+            "text": "BAB VI"
+          },
+          {
+            "type": "BAB_TITLE",
+            "text": "KETENTUAN PENUTUP"
+          },
+          {
+            "type": "PASAL",
+            "id": "pasal-18",
+            "children": [
+              {
+                "type": "PASAL_NUMBER",
+                "text": "Pasal 18"
+              },
+              {
+                "type": "PLAINTEXT",
+                "text": "Pada saat berlakunya Undang-undang ini, semua peraturan perundang-undangan yang tidak sesuai dengan Undang-undang ini dinyatakan tidak berlaku."
+              }
+            ]
+          },
+          {
+            "type": "PASAL",
+            "id": "pasal-19",
+            "children": [
+              {
+                "type": "PASAL_NUMBER",
+                "text": "Pasal 19"
+              },
+              {
+                "type": "PLAINTEXT",
+                "text": "Ketentuan lebih lanjut yang diperlukan sebagai pelaksanaan Undang-undang ini lebih lanjut diatur sesuai dengan peraturan perundang-undangan."
+              }
+            ]
+          },
+          {
+            "type": "PASAL",
+            "id": "pasal-20",
+            "children": [
+              {
+                "type": "PASAL_NUMBER",
+                "text": "Pasal 20"
+              },
+              {
+                "type": "PLAINTEXT",
+                "text": "Undang-undang ini mulai berlaku pada tanggal diundangkan."
+              },
+              {
+                "type": "PLAINTEXT",
+                "text": "Agar setiap orang mengetahuinya, memerintahkan pengundangan Undang-undang ini dengan penempatannya dalam Lembaran Negara Republik Indonesia."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "CLOSING",
+        "id": "",
+        "children": [
+          {
+            "type": "PLAINTEXT",
+            "text": "Disahkan Di Jakarta,"
+          },
+          {
+            "type": "PLAINTEXT",
+            "text": "Pada Tanggal 4 Oktober 1999"
+          },
+          {
+            "type": "PLAINTEXT",
+            "text": "PRESIDEN REPUBLIK INDONESIA,"
+          },
+          {
+            "type": "PLAINTEXT",
+            "text": "Ttd."
+          },
+          {
+            "type": "PLAINTEXT",
+            "text": "BACHARUDDIN JUSUF HABIBIE"
+          },
+          {
+            "type": "PLAINTEXT",
+            "text": "Diundangkan Di Jakarta,"
+          },
+          {
+            "type": "PLAINTEXT",
+            "text": "Pada Tanggal 4 Oktober 1999"
+          },
+          {
+            "type": "PLAINTEXT",
+            "text": "MENTERI NEGARA/SEKRETARIS NEGARA REPUBLIK INDONESIA,"
+          },
+          {
+            "type": "PLAINTEXT",
+            "text": "Ttd."
+          },
+          {
+            "type": "PLAINTEXT",
+            "text": "MULADI"
+          },
+          {
+            "type": "LEMBARAN_NUMBER",
+            "text": "LEMBARAN NEGARA REPUBLIK INDONESIA TAHUN 1999 NOMOR 178"
+          }
+        ]
+      },
+      {
+        "type": "PENJELASAN",
+        "id": "penjelasan",
+        "children": [
+          {
+            "type": "PENJELASAN_TITLE",
+            "id": "",
+            "children": [
+              {
+                "type": "PLAINTEXT",
+                "text": "PENJELASAN"
+              },
+              {
+                "type": "PLAINTEXT",
+                "text": "UNDANG-UNDANG REPUBLIK INDONESIA"
+              },
+              {
+                "type": "UU_TITLE_YEAR_AND_NUMBER",
+                "text": "NOMOR 50 TAHUN 1999"
+              },
+              {
+                "type": "PLAINTEXT",
+                "text": "TENTANG"
+              },
+              {
+                "type": "UU_TITLE_TOPIC",
+                "text": "PEMBENTUKAN KABUPATEN BOALEMO"
+              }
+            ]
+          },
+          {
+            "type": "PENJELASAN_UMUM",
+            "id": "",
+            "children": [
+              {
+                "type": "PENJELASAN_UMUM_TITLE",
+                "text": "UMUM"
+              },
+              {
+                "type": "PLAINTEXT",
+                "text": "Propinsi Sulawesi Utara pada umumnya dan Kabupaten Gorontalo pada khususnya, meskipun telah menunjukkan kemajuan dalam penyelenggaraan pemerintahan, pelaksanaan pembangunan dan pembinaan kemasyarakatan, dalam perkembangannya perlu ditingkatkan sesuai dengan potensi daerah, luas wilayah sesuai dengan kebutuhan pada masa mendatang. Propinsi Sulawesi Utara mempunyai luas wilayah 39.573,49 km2 dengan sarana serta prasarana komunikasi dan transportasi yang relatif masih terbatas, khususnya di wilayah Kabupaten Gorontalo bagian barat. Kabupaten Gorontalo mempunyai luas wilayah 12.150,65 km2 dalam rangka membantu tugas penyelenggaraan pemerintahan, pelaksanaan pembangunan dan pembinaan kemasyarakatan, di bagian barat dibentuk wilayah kerja Pembantu Bupati Gorontalo Wilayah IV yang berkedudukan di Paguat yang meliputi lima kecamatan, yaitu kecamatan Paguyaman, Tilamuta, Paguat, Marisa dan Popayato dengan luas wilayah 6.606,89 km2. Secara geografis wilayah kerja pembantu bupati tersebut mempunyai kedudukan yang strategis jika ditinjau dari segi ekonomi, politik, sosial, budaya dan pertahanan keamanan. Perkembangan wilayah kerja Pembantu Bupati Gorontalo Wilayah IV telah menunjukkan kemajuan dalam penyelenggaraan pemerintahan, pelaksanaan pembangunan dan pembinaan kemasyarakatan, serta kemampuan untuk mengembangkan potensi wilayah yang ada, antara lain di bidang perkebunan, pertanian tanaman pangan, perikanan, peternakan, pertambangan dan pariwisata."
+              },
+              {
+                "type": "PLAINTEXT",
+                "text": "Perkembangan Wilayah Kerja Pembantu Bupati Gorontalo Wilayah IV diikuti pula dengan peningkatan jumlah penduduk. Pada tahun 1992 penduduk wilayah kerja Pembantu Bupati tersebut berjumlah 218.832 jiwa, sedangkan pada tahun 1998 meningkat menjadi 222.559 jiwa dengan laju pertumbuhan penduduk 1,70 %per tahun. Hal ini mengakibatkan bertambahnya beban tugas dan volume kerja dalam rangka penyelenggaraan pendidikan, pelaksanaan pembangunan dan pembinaan kemasyarakatan di wilayah kerja Pembantu Bupati tersebut. Berdasarkan hal-hal tersebut di atas serta memperhatikan aspirasi masyarakat yang mulai berkembang sejak tahun 1985 dan selanjutnya secara formal yang dituangkan dalam keputusan Dewan Perwakilan Rakyat Daerah Kabupaten Gorontalo tanggal 20 Januari 1994, Nomor 01 Tahun 1994 tentang pernyataan sikap Dewan Perwakilan Rakyat Daerah Kabupaten Gorontalo Mendukung Usul Pembentukan Wilayah Eks Kawedanaan Boalemo menjadi Daerah Tingkat II, dan keputusan Dewan Perwakilan Rakyat Daerah Propinsi Sulawesi Utara Nomor 16 Tahun 1999, tanggal 16 Juli 1999 tentang Persetujuan Pimpinan DPRD Propinsi Sulawesi Utara terhadap pembentukan Kabupaten Boalemo, untuk lebih meningkatkan daya guna dan hasil guna penyelenggaraan pemerintahan, pelaksanaan pembangunan, dan pembinaan kemasyarakatan serta untuk lebih meningkatkan peran aktif masyarakat, maka dipandang perlu ditata wilayah Kabupaten Gorontalo menjadi dua Daerah Otonom, yaitu dengan membentuk Kabupaten Boalemo sebagai pemekaran Kabupaten Gorontalo yang wilayahnya sama dengan wilayah kerja Pembantu Bupati Gorontalo Wilayah IV yang berkedudukan di Paguat."
+              },
+              {
+                "type": "PLAINTEXT",
+                "text": "Dengan terbentuknya Kabupaten Boalemo wilayah Kabupaten Gorontalo berkurang seluas wilayah Kabupaten Boalemo dan wilayah kerja pembantu bupati Gorontalo wilayah IV yang berkedudukan di Paguat dihapus. Penghapusan wilayah kerja pembantu bupati dimaksud ditetapkan dengan Keputusan Menteri Dalam Negeri."
+              }
+            ]
+          },
+          {
+            "type": "PENJELASAN_PASAL_DEMI_PASAL",
+            "id": "",
+            "children": [
+              {
+                "type": "PENJELASAN_PASAL_DEMI_PASAL_TITLE",
+                "text": "PASAL DEMI PASAL"
+              },
+              {
+                "type": "PENJELASAN_PASAL",
+                "id": "",
+                "children": [
+                  {
+                    "type": "PASAL_NUMBER",
+                    "text": "Pasal 1"
+                  },
+                  {
+                    "type": "PLAINTEXT",
+                    "text": "Cukup Jelas"
+                  }
+                ]
+              },
+              {
+                "type": "PENJELASAN_PASAL",
+                "id": "",
+                "children": [
+                  {
+                    "type": "PASAL_NUMBER",
+                    "text": "Pasal 2"
+                  },
+                  {
+                    "type": "PLAINTEXT",
+                    "text": "Wilayah Kabupaten Boalemo adalah wilayah yang sebelum dibentuk Kabupaten Boalemo merupakan wilayah kerja pembantu bupati Gorontalo wilayah IV yang berkedudukan di Paguat dibentuk berdasarkan Keputusan Menteri Dalam Negeri Nomor 132 Tahun 1978."
+                  }
+                ]
+              },
+              {
+                "type": "PENJELASAN_PASAL",
+                "id": "",
+                "children": [
+                  {
+                    "type": "PASAL_NUMBER",
+                    "text": "Pasal 3"
+                  },
+                  {
+                    "type": "PLAINTEXT",
+                    "text": "Cukup Jelas"
+                  }
+                ]
+              },
+              {
+                "type": "PENJELASAN_PASAL",
+                "id": "",
+                "children": [
+                  {
+                    "type": "PASAL_NUMBER",
+                    "text": "Pasal 4"
+                  },
+                  {
+                    "type": "PLAINTEXT",
+                    "text": "Cukup Jelas"
+                  }
+                ]
+              },
+              {
+                "type": "PENJELASAN_PASAL",
+                "id": "",
+                "children": [
+                  {
+                    "type": "PASAL_NUMBER",
+                    "text": "Pasal 5"
+                  },
+                  {
+                    "type": "LIST",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "PENJELASAN_LIST_ITEM",
+                        "id": "",
+                        "children": [
+                          {
+                            "type": "PENJELASAN_AYAT",
+                            "text": "Ayat (1)"
+                          },
+                          {
+                            "type": "PLAINTEXT",
+                            "text": "Cukup Jelas"
+                          }
+                        ]
+                      },
+                      {
+                        "type": "PENJELASAN_LIST_ITEM",
+                        "id": "",
+                        "children": [
+                          {
+                            "type": "PENJELASAN_AYAT",
+                            "text": "Ayat (2)"
+                          },
+                          {
+                            "type": "PLAINTEXT",
+                            "text": "Peta sebagaimana dimaksud pada ayat ini adalah peta wilayah Kabupaten Boalemo dalam bentuk lampiran Undang-undang ini."
+                          }
+                        ]
+                      },
+                      {
+                        "type": "PENJELASAN_LIST_ITEM",
+                        "id": "",
+                        "children": [
+                          {
+                            "type": "PENJELASAN_AYAT",
+                            "text": "Ayat (3)"
+                          },
+                          {
+                            "type": "PLAINTEXT",
+                            "text": "Penetapan batas wilayah secara pasti antara Kabupaten Boalemo dan Kabupaten Gorontalo ditetapkan oleh Menteri Dalam Negeri setelah mempertimbangkan usul Gubernur Sulawesi Utara yang didasarkan atas hasil penelitian, pengukuran dan pematokan di lapangan."
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "PENJELASAN_PASAL",
+                "id": "",
+                "children": [
+                  {
+                    "type": "PASAL_NUMBER",
+                    "text": "Pasal 6"
+                  },
+                  {
+                    "type": "LIST",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "PENJELASAN_LIST_ITEM",
+                        "id": "",
+                        "children": [
+                          {
+                            "type": "PENJELASAN_AYAT",
+                            "text": "Ayat (1)"
+                          },
+                          {
+                            "type": "PLAINTEXT",
+                            "text": "Cukup Jelas"
+                          }
+                        ]
+                      },
+                      {
+                        "type": "PENJELASAN_LIST_ITEM",
+                        "id": "",
+                        "children": [
+                          {
+                            "type": "PENJELASAN_AYAT",
+                            "text": "Ayat (2)"
+                          },
+                          {
+                            "type": "PLAINTEXT",
+                            "text": "Dalam rangka pengembangan Kabupaten Boalemo sesuai dengan potensi daerah, guna perencanaan dan pelaksanaan penyelenggaraan pemerintahan serta pembangunan pada masa mendatang pada khususnya, dan untuk pengembangan sarana serta prasarana pemerintahan dan pembangunan, diperlukan adanya kesatuan perencanaan pembangunan. Untuk itu tata ruang wilayah Kabupaten Boalemo harus benar-benar serasi dan terpadu penyusunannya dalam satu kesatuan sistem rencana tata ruang wilayah nasional, propinsi dan Kabupaten/kota."
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "PENJELASAN_PASAL",
+                "id": "",
+                "children": [
+                  {
+                    "type": "PASAL_NUMBER",
+                    "text": "Pasal 7"
+                  },
+                  {
+                    "type": "PLAINTEXT",
+                    "text": "Yang dimaksud dengan Tilamuta sebagai ibukota Kabupaten Boalemo adalah sebagian wilayah yang ada di kecamatan Tilamuta."
+                  }
+                ]
+              },
+              {
+                "type": "PENJELASAN_PASAL",
+                "id": "",
+                "children": [
+                  {
+                    "type": "PASAL_NUMBER",
+                    "text": "Pasal 8"
+                  },
+                  {
+                    "type": "PLAINTEXT",
+                    "text": "Cukup Jelas"
+                  }
+                ]
+              },
+              {
+                "type": "PENJELASAN_PASAL",
+                "id": "",
+                "children": [
+                  {
+                    "type": "PASAL_NUMBER",
+                    "text": "Pasal 9"
+                  },
+                  {
+                    "type": "PLAINTEXT",
+                    "text": "Cukup Jelas"
+                  }
+                ]
+              },
+              {
+                "type": "PENJELASAN_PASAL",
+                "id": "",
+                "children": [
+                  {
+                    "type": "PASAL_NUMBER",
+                    "text": "Pasal 10"
+                  },
+                  {
+                    "type": "PLAINTEXT",
+                    "text": "Cukup Jelas"
+                  }
+                ]
+              },
+              {
+                "type": "PENJELASAN_PASAL",
+                "id": "",
+                "children": [
+                  {
+                    "type": "PASAL_NUMBER",
+                    "text": "Pasal 11"
+                  },
+                  {
+                    "type": "PLAINTEXT",
+                    "text": "Cukup Jelas"
+                  }
+                ]
+              },
+              {
+                "type": "PENJELASAN_PASAL",
+                "id": "",
+                "children": [
+                  {
+                    "type": "PASAL_NUMBER",
+                    "text": "Pasal 12"
+                  },
+                  {
+                    "type": "PLAINTEXT",
+                    "text": "Pembentukan dinas-dinas Kabupaten dan lembaga teknis Kabupaten harus disesuaikan dengan kebutuhan dan kemampuan Kabupaten."
+                  }
+                ]
+              },
+              {
+                "type": "PENJELASAN_PASAL",
+                "id": "",
+                "children": [
+                  {
+                    "type": "PASAL_NUMBER",
+                    "text": "Pasal 13"
+                  },
+                  {
+                    "type": "LIST",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "PENJELASAN_LIST_ITEM",
+                        "id": "",
+                        "children": [
+                          {
+                            "type": "PENJELASAN_AYAT",
+                            "text": "Ayat (1)"
+                          },
+                          {
+                            "type": "PLAINTEXT",
+                            "text": "Cukup Jelas"
+                          }
+                        ]
+                      },
+                      {
+                        "type": "PENJELASAN_LIST_ITEM",
+                        "id": "",
+                        "children": [
+                          {
+                            "type": "PENJELASAN_AYAT",
+                            "text": "Ayat (2)"
+                          },
+                          {
+                            "type": "LIST",
+                            "id": "",
+                            "children": [
+                              {
+                                "type": "PENJELASAN_LIST_ITEM",
+                                "id": "",
+                                "children": [
+                                  {
+                                    "type": "PENJELASAN_HURUF",
+                                    "text": "Huruf a"
+                                  },
+                                  {
+                                    "type": "PLAINTEXT",
+                                    "text": "Yang dimaksud dengan partai politik pemilihan umum lokal adalah partai politik peserta pemilihan umum tahun 1999."
+                                  }
+                                ]
+                              },
+                              {
+                                "type": "PENJELASAN_LIST_ITEM",
+                                "id": "",
+                                "children": [
+                                  {
+                                    "type": "PENJELASAN_HURUF",
+                                    "text": "Huruf b"
+                                  },
+                                  {
+                                    "type": "PLAINTEXT",
+                                    "text": "Yang dimaksud dengan anggota ABRI adalah Tentara Nasional Indonesia dan Kepolisian Negara Republik Indonesia."
+                                  }
+                                ]
+                              }
+                            ]
+                          }
+                        ]
+                      },
+                      {
+                        "type": "PENJELASAN_LIST_ITEM",
+                        "id": "",
+                        "children": [
+                          {
+                            "type": "PENJELASAN_AYAT",
+                            "text": "Ayat (3)"
+                          },
+                          {
+                            "type": "PLAINTEXT",
+                            "text": "Cukup Jelas"
+                          }
+                        ]
+                      },
+                      {
+                        "type": "PENJELASAN_LIST_ITEM",
+                        "id": "",
+                        "children": [
+                          {
+                            "type": "PENJELASAN_AYAT",
+                            "text": "Ayat (4)"
+                          },
+                          {
+                            "type": "PLAINTEXT",
+                            "text": "Cukup Jelas"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "PENJELASAN_PASAL",
+                "id": "",
+                "children": [
+                  {
+                    "type": "PASAL_NUMBER",
+                    "text": "Pasal 14"
+                  },
+                  {
+                    "type": "PLAINTEXT",
+                    "text": "Pejabat bupati Boalemo melaksanakan tugas sampai dengan disahkannya bupati Boalemo hasil pemilihan Dewan Perwakilan Rakyat Daerah Kabupaten Boalemo."
+                  }
+                ]
+              },
+              {
+                "type": "PENJELASAN_PASAL",
+                "id": "",
+                "children": [
+                  {
+                    "type": "PASAL_NUMBER",
+                    "text": "Pasal 15"
+                  },
+                  {
+                    "type": "LIST",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "PENJELASAN_LIST_ITEM",
+                        "id": "",
+                        "children": [
+                          {
+                            "type": "PENJELASAN_AYAT",
+                            "text": "Ayat (1)"
+                          },
+                          {
+                            "type": "PLAINTEXT",
+                            "text": "Dengan terbentuknya Kabupaten Boalemo serta untuk mencapai daya guna serta hasil guna dalam penyelenggaraan pemerintahan, pelaksanaan pembangunan dan pembinaan kemasyarakatan, digunakan pegawai, tanah, gedung perkantoran beserta perlengkapannya dan fasilitas pelayanan umum yang telah ada selama ini dan telah dipakai dalam pelaksanaan tugas pembantu bupati Gorontalo wilayah IV di Paguat."
+                          },
+                          {
+                            "type": "PLAINTEXT",
+                            "text": "Dalam rangka tertib administrasi, diperlukan tindakan hukum berupa penyerahan dari pemerintah Propinsi Sulawesi Utara dan Pemerintah Kabupaten Gorontalo kepada pemerintah Kabupaten Boalemo."
+                          },
+                          {
+                            "type": "PLAINTEXT",
+                            "text": "Demikian halnya Badan Usaha Milik Daerah Propinsi Sulawesi Utara dan Kabupaten Gorontalo yang kedudukan dan kegiatannya berada di Kabupaten Boalemo untuk mencapai daya guna dan hasil guna dalam penyelenggaraannya diserahkan oleh pemerintah propinsi Sulawesi Utara dan pemerintah Kabupaten Gorontalo sesuai dengan wewenang dan lingkup tugasnya masing-masing kepada pemerintah Kabupaten Boalemo."
+                          },
+                          {
+                            "type": "PLAINTEXT",
+                            "text": "Begitu juga utang piutang yang kegunaannya untuk Kabupaten Boalemo diserahkan pula kepada pemerintah Kabupaten Boalemo. Berkenaan dengan pengaturan penyerahan tersebut, dibuatkan daftar inventaris."
+                          }
+                        ]
+                      },
+                      {
+                        "type": "PENJELASAN_LIST_ITEM",
+                        "id": "",
+                        "children": [
+                          {
+                            "type": "PENJELASAN_AYAT",
+                            "text": "Ayat (2)"
+                          },
+                          {
+                            "type": "PLAINTEXT",
+                            "text": "Yang dimaksud dengan sejak diresmikannya Kabupaten Boalemo adalah terhitung sejak dilantiknya pejabat bupati Boalemo. Pelantikan pejabat bupati Boalemo didahului dengan peresmian pembentukan Kabupaten Boalemo oleh menteri dalam negeri atas nama presiden. Setelah satu tahun peresmian Kabupaten Boalemo, gubernur Sulawesi Utara wajib melaporkan pelaksanaan penyerahan sebagaimana dimaksud pada ayat ini kepada menteri dalam negeri untuk bahan pengambilan kebijakan lebih lanjut."
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "PENJELASAN_PASAL",
+                "id": "",
+                "children": [
+                  {
+                    "type": "PASAL_NUMBER",
+                    "text": "Pasal 16"
+                  },
+                  {
+                    "type": "LIST",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "PENJELASAN_LIST_ITEM",
+                        "id": "",
+                        "children": [
+                          {
+                            "type": "PENJELASAN_AYAT",
+                            "text": "Ayat (1)"
+                          },
+                          {
+                            "type": "PLAINTEXT",
+                            "text": "Yang dimaksud dengan pembiayaan adalah biaya untuk pembangunan gedung perkantoran, rumah dinas, perlengkapan kantor, sarana mebel, sarana mobilitas serta biaya operasional bagi kelancaran penyelenggaraan pemerintahan, pelaksanaan pembangunan dan pembinaan kemasyarakatan."
+                          }
+                        ]
+                      },
+                      {
+                        "type": "PENJELASAN_LIST_ITEM",
+                        "id": "",
+                        "children": [
+                          {
+                            "type": "PENJELASAN_AYAT",
+                            "text": "Ayat (2)"
+                          },
+                          {
+                            "type": "PLAINTEXT",
+                            "text": "Cukup Jelas"
+                          }
+                        ]
+                      },
+                      {
+                        "type": "PENJELASAN_LIST_ITEM",
+                        "id": "",
+                        "children": [
+                          {
+                            "type": "PENJELASAN_AYAT",
+                            "text": "Ayat (3)"
+                          },
+                          {
+                            "type": "PLAINTEXT",
+                            "text": "Cukup Jelas"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "PENJELASAN_PASAL",
+                "id": "",
+                "children": [
+                  {
+                    "type": "PASAL_NUMBER",
+                    "text": "Pasal 17"
+                  },
+                  {
+                    "type": "PLAINTEXT",
+                    "text": "Cukup Jelas"
+                  }
+                ]
+              },
+              {
+                "type": "PENJELASAN_PASAL",
+                "id": "",
+                "children": [
+                  {
+                    "type": "PASAL_NUMBER",
+                    "text": "Pasal 18"
+                  },
+                  {
+                    "type": "PLAINTEXT",
+                    "text": "Cukup Jelas"
+                  }
+                ]
+              },
+              {
+                "type": "PENJELASAN_PASAL",
+                "id": "",
+                "children": [
+                  {
+                    "type": "PASAL_NUMBER",
+                    "text": "Pasal 19"
+                  },
+                  {
+                    "type": "PLAINTEXT",
+                    "text": "Cukup Jelas"
+                  }
+                ]
+              },
+              {
+                "type": "PENJELASAN_PASAL",
+                "id": "",
+                "children": [
+                  {
+                    "type": "PASAL_NUMBER",
+                    "text": "Pasal 20"
+                  },
+                  {
+                    "type": "PLAINTEXT",
+                    "text": "Cukup Jelas"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}
