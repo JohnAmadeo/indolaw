@@ -607,7 +607,6 @@ def insert_perubahan_section_open_quotes(law: List[str]) -> List[str]:
 
     # add open quote char in body
     while i < last_i:
-    #for i, line in enumerate(new_law):
         if is_start_of_penjelasan(new_law, i):
             break
 
@@ -629,21 +628,19 @@ def insert_perubahan_section_open_quotes(law: List[str]) -> List[str]:
 
             if user_input == 'y':
                 new_law[i] = OPEN_QUOTE_CHAR + line
-                i_input.append({'i': i, 'input': 'y'})
-            elif user_input == 'n':
-                i_input.append({'i': i, 'input': 'n'})
-            elif user_input == 'z':
+            elif user_input == 'u':
                 if len(i_input) == 0:
                     print_max_undo()
+                #deletes the OPEN_QUOTE_CHAR if the user input in the index is 'y'
                 elif i_input[-1]['input'] == 'y':
-                    #deletes the OPEN_QUOTE_CHAR if the user input in the index is 'y'
                     new_law[i_input[-1]['i']] = new_law[i_input[-1]['i']][1:]
                     i = i_input[-1]['i']
                     i_input.pop()
                 continue
-            else:
+            elif user_input != 'n':
                 raise Exception(f'Invalid input {user_input}')
 
+            i_input.append({'i': i, 'input': user_input})
         i += 1
 
     return new_law
@@ -709,6 +706,7 @@ def insert_perubahan_section_close_quotes(law: List[str]) -> List[str]:
         elif user_input == 'u':
             if len(i_input) == 0:
                 print_max_undo()
+            #Deletes the CLOSE_QUOTE_CHAR in previous input index's line
             else:
                 new_law[i_input[-1]] = new_law[i_input[-1]][:-1]
                 i = i_input[-1]
@@ -757,6 +755,8 @@ def insert_penjelasan_perubahan_section_open_quotes(law: List[str]) -> List[str]
     in_penjelasan_pasal_demi_pasal = False
 
     i = 0
+    #i_input contains dicts of index of line where input is needed
+    #and its associated input
     i_input = []
     last_i = len(new_law)
 
@@ -789,16 +789,16 @@ def insert_penjelasan_perubahan_section_open_quotes(law: List[str]) -> List[str]
             elif user_input == 'u':
                 if len(i_input) == 0:
                     print_max_undo()
-                else:
-                    new_law[i_input[-1]] = new_law[i_input[-1]][1:]
-                    i = i_input[-1]
+                #deletes the OPEN_QUOTE_CHAR if the user input in the index is 'y'
+                elif i_input[-1]['input'] == 'y':
+                    new_law[i_input[-1]['i']] = new_law[i_input[-1]['i']][1:]
+                    i = i_input[-1]['i']
                     i_input.pop()
                 continue
             elif user_input != 'n':
                 raise Exception(f'Invalid input {user_input}')
 
-            i_input.append(i)
-
+            i_input.append({'i': i, 'input': user_input})
         i += 1
 
     return new_law
@@ -863,7 +863,7 @@ def insert_penjelasan_perubahan_section_close_quotes(law: List[str]) -> List[str
             if len(i_input) == 0:
                 print_max_undo()
             else:
-                #deleting the CLOSE_QUOTE_CHAR in the last input index
+                #Deletes the CLOSE_QUOTE_CHAR in the last input index
                 new_law[i_input[-1]] = new_law[i_input[-1]][:-1]
                 i = i_input[-1]
                 i_input.pop()
