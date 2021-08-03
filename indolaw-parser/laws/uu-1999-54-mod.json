@@ -1,0 +1,2774 @@
+{
+  "metadata": {
+    "lembaranNegaraNumber": 182,
+    "lembaranNegaraYear": 1999,
+    "tambahanLembaranNumber": 3903,
+    "number": 54,
+    "topic": "Pembentukan Kabupaten Sarolangun, Kabupaten Tebo, Kabupaten Muaro Jambi Dan Kabupaten Tanjung Jabung Timur",
+    "year": 1999
+  },
+  "content": {
+    "type": "UNDANG_UNDANG",
+    "id": "",
+    "children": [
+      {
+        "type": "OPENING",
+        "id": "",
+        "children": [
+          {
+            "type": "UU_TITLE",
+            "id": "",
+            "children": [
+              {
+                "type": "PLAINTEXT",
+                "text": "UNDANG-UNDANG REPUBLIK INDONESIA"
+              },
+              {
+                "type": "UU_TITLE_YEAR_AND_NUMBER",
+                "text": "NOMOR 54 TAHUN 1999"
+              },
+              {
+                "type": "PLAINTEXT",
+                "text": "TENTANG"
+              },
+              {
+                "type": "UU_TITLE_TOPIC",
+                "text": "PEMBENTUKAN KABUPATEN SAROLANGUN, KABUPATEN TEBO, KABUPATEN MUARO JAMBI, DAN KABUPATEN TANJUNG JABUNG TIMUR"
+              }
+            ]
+          },
+          {
+            "type": "PREFACE",
+            "id": "",
+            "children": [
+              {
+                "type": "PLAINTEXT",
+                "text": "DENGAN RAHMAT TUHAN YANG MAHA ESA"
+              },
+              {
+                "type": "PLAINTEXT",
+                "text": "PRESIDEN REPUBLIK INDONESIA,"
+              }
+            ]
+          },
+          {
+            "type": "CONSIDERATIONS",
+            "id": "",
+            "children": [
+              {
+                "type": "PLAINTEXT",
+                "text": "Menimbang:"
+              },
+              {
+                "type": "LIST",
+                "id": "",
+                "children": [
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "LETTER_WITH_DOT",
+                        "text": "a."
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "bahwa berhubung dengan perkembangan dan kemajuan Propinsi Jambi pada umumnya serta Kabupaten Sarolangun Bangko, Kabupaten Bungo Tebo, Kabupaten Batang Hari, dan Kabupaten Tanjung Jabung pada khususnya, dan adanya aspirasi yang berkembang dalam masyarakat, dipandang perlu meningkatkan penyelenggaraan pemerintahan, pelaksanaan pembangunan, dan pembinaan kemasyarakatan guna menjamin perkembangan dan kemajuan dimaksud pada masa mendatang;"
+                      }
+                    ]
+                  },
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "LETTER_WITH_DOT",
+                        "text": "b."
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "bahwa sehubungan dengan hal tersebut di atas dan memperhatikan perkembangan jumlah penduduk, luas wilayah, potensi ekonomi, sosial budaya, sosial politik, dan meningkatnya beban tugas serta volume kerja di bidang penyelenggaraan pemerintahan, pembangunan, dan kemasyarakatan di Kabupaten Sarolangun Bangko, Kabupaten Bungo Tebo, Kabupaten Batang Hari, dan Kabupaten Tanjung Jabung, dipandang perlu membentuk Kabupaten Sarolangun sebagai pemekaran dari Kabupaten Sarolangun Bangko, Kabupaten Tebo sebagai pemekaran dari Kabupaten Bungo Tebo, Kabupaten Muaro Jambi sebagai pemekaran dari Kabupaten Batang Hari dan Kabupaten Tanjung Jabung Timur sebagai pemekaran dari Kabupaten Tanjung Jabung;"
+                      }
+                    ]
+                  },
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "LETTER_WITH_DOT",
+                        "text": "c."
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "bahwa pembentukan Kabupaten Sarolangun, Kabupaten Tebo, Kabupaten Muaro Jambi dan Kabupaten Tanjung Jabung Timur akan dapat mendorong peningkatan pelayanan di bidang pemerintahan, pembangunan, dan kemasyarakatan, serta memberikan kemampuan dalam pemanfaatan potensi Daerah untuk menyelenggarakan Otonomi Daerah;"
+                      }
+                    ]
+                  },
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "LETTER_WITH_DOT",
+                        "text": "d."
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "bahwa sesuai dengan butir a, b, dan c serta berdasarkan Undang-undang Nomor 22 Tahun 1999 tentang Pemerintahan Daerah, pembentukan Kabupaten Sarolangun, Kabupaten Tebo, Kabupaten Muaro Jambi, dan Kabupaten Tanjung Jabung Timur harus ditetapkan dengan undang-undang."
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "PRINCIPLES",
+            "id": "",
+            "children": [
+              {
+                "type": "PLAINTEXT",
+                "text": "Mengingat:"
+              },
+              {
+                "type": "LIST",
+                "id": "",
+                "children": [
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "NUMBER_WITH_DOT",
+                        "text": "1."
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "Pasal 5 ayat (1), Pasal 18, dan Pasal 20 ayat (1) Undang-Undang Dasar 1945;"
+                      }
+                    ]
+                  },
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "NUMBER_WITH_DOT",
+                        "text": "2."
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "Undang-undang Nomor 22 Tahun 1999 tentang Pemerintahan Daerah (Lembaran Negara Tahun Republik Indonesia 1999 Nomor 60, Tambahan Lembaran Negara Nomor 3839);"
+                      }
+                    ]
+                  },
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "NUMBER_WITH_DOT",
+                        "text": "3."
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "Undang-undang Nomor 12 Tahun 1956 tentang Pembentukan Daerah Otonom Kabupaten di Propinsi Sumatera Tengah (Lembaran Negara Republik Indonesia Tahun 1956 Nomor 25);"
+                      }
+                    ]
+                  },
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "NUMBER_WITH_DOT",
+                        "text": "4."
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "Undang-undang Nomor 61 Tahun 1958 tentang Penetapan Undang-Undang Darurat Nomor 19 Tahun 1957 tentang Pembentukan Daerah Tingkat I Sumatera Barat, Jambi dan Riau (Lembaran Negara Republik Indonesia Tahun 1957 Nomor 75) sebagai Undang-undang (Lembaran Negara Republik Indonesia Tahun 1958 Nomor 112, Tambahan Lembaran Negara Nomor 1646);"
+                      }
+                    ]
+                  },
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "NUMBER_WITH_DOT",
+                        "text": "5."
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "Undang-undang Nomor 7 Tahun 1965 tentang Pembentukan Daerah Tingkat II Sarolangun Bangko dan Daerah Tingkat II Tanjung Jabung dengan mengubah Undang-Undang Nomor 12 Tahun 1956 tentang Pembentukan Daerah Otonom Kabupaten di Propinsi Sumatra Tengah (Lembaran Negara Republik Indonesia Tahun 1965 Nomor 50, Tambahan Lembaran Negara Nomor 2755);"
+                      }
+                    ]
+                  },
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "NUMBER_WITH_DOT",
+                        "text": "6."
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "Undang-undang Nomor 4 Tahun 1999 tentang Susunan dan Kedudukan Majelis Permusyawaratan Rakyat, Dewan Perwakilan Rakyat, dan Dewan Perwakilan Rakyat Daerah (Lembaran Negara Republik Indonesia Tahun 1999 Nomor 24, Tambahan Lembaran Negara Nomor 3811);"
+                      }
+                    ]
+                  },
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "NUMBER_WITH_DOT",
+                        "text": "7."
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "Undang-undang Nomor 25 Tahun 1999 tentang Perimbangan Keuangan antara Pemerintah Pusat dan Daerah (Lembaran Negara Republik Indonesia Tahun 1999 Nomor 72, Tambahan Lembaran Negara Nomor 3848)."
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "AGREEMENT",
+            "id": "",
+            "children": [
+              {
+                "type": "PLAINTEXT",
+                "text": "Dengan persetujuan"
+              },
+              {
+                "type": "PLAINTEXT",
+                "text": "DEWAN PERWAKILAN RAKYAT REPUBLIK INDONESIA"
+              },
+              {
+                "type": "PLAINTEXT",
+                "text": "MEMUTUSKAN:"
+              },
+              {
+                "type": "PLAINTEXT",
+                "text": "Menetapkan:"
+              },
+              {
+                "type": "PLAINTEXT",
+                "text": "UNDANG-UNDANG TENTANG PEMBENTUKAN KABUPATEN SAROLANGUN, KABUPATEN TEBO, KABUPATEN MUARO JAMBI, DAN KABUPATEN TANJUNG JABUNG TIMUR"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "BAB",
+        "id": "bab-1",
+        "children": [
+          {
+            "type": "BAB_NUMBER",
+            "text": "BAB I"
+          },
+          {
+            "type": "BAB_TITLE",
+            "text": "KETENTUAN UMUM"
+          },
+          {
+            "type": "PASAL",
+            "id": "pasal-1",
+            "children": [
+              {
+                "type": "PASAL_NUMBER",
+                "text": "Pasal 1"
+              },
+              {
+                "type": "PLAINTEXT",
+                "text": "Dalam Undang-undang ini yang dimaksud dengan:"
+              },
+              {
+                "type": "LIST",
+                "id": "",
+                "children": [
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "LETTER_WITH_DOT",
+                        "text": "a."
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "Daerah adalah Daerah Otonom sebagaimana dimaksud dalam Pasal 1 huruf i Undang undang Nomor 22 Tahun 1999 tentang Pemerintahan Daerah;"
+                      }
+                    ]
+                  },
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "LETTER_WITH_DOT",
+                        "text": "b."
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "Kabupaten Batang Hari adalah Daerah Otonom sebagaimana dimaksud dalam Undang undang Nomor 12 Tahun 1956 tentang Pembentukan Daerah Otonom di Kabupaten Propinsi Sumatera Tengah;"
+                      }
+                    ]
+                  },
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "LETTER_WITH_DOT",
+                        "text": "c."
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "Kabupaten Sarolangun Bangko, Kabupaten Bungo Tebo, Kabupaten Batang Hari dan Kabupaten Tanjung Jabung adalah Daerah Otonom sebagaimana di maksud dalam Undang-undang Darurat Nomor 7 Tahun 1965 tentang Pembentukan Daerah-daerah Tingkat II Sarolangan Bangko dan Daerah Tingkat II Tanjung Jabung dengan mengubah Undang-undang Nomor 12 Tahun 1956 tentang Pembentukan Daerah Otonom Kabupaten di Propinsi Sumatera Tengah;"
+                      }
+                    ]
+                  },
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "LETTER_WITH_DOT",
+                        "text": "d."
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "Propinsi Jambi adalah Daerah Otonom sebagaimana dimaksud dalam Undang-undang Nomor 61 Tahun 1958 tentang Penetapan Undang-undang Darurat Nomor 19 Tahun 1957 tentang Pembentukan Daerah-daerah Swatantra Tingkat I Sumatera Barat, Jambi dan Riau (Lembaran Negara Republik Indonesia Tahun 1957 Nomor 75) sebagai undang-undang."
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "BAB",
+        "id": "bab-2",
+        "children": [
+          {
+            "type": "BAB_NUMBER",
+            "text": "BAB II"
+          },
+          {
+            "type": "BAB_TITLE",
+            "text": "PEMBENTUKAN, BATAS WILAYAH, DAN IBUKOTA"
+          },
+          {
+            "type": "PASAL",
+            "id": "pasal-2",
+            "children": [
+              {
+                "type": "PASAL_NUMBER",
+                "text": "Pasal 2"
+              },
+              {
+                "type": "PLAINTEXT",
+                "text": "Dengan Undang-undang ini dibentuk Kabupaten Sarolangun, Kabupaten Tebo, Kabupaten Muaro Jambi, dan Kabupaten Tanjung Jabung Timur dalam wilayah Propinsi Jambi."
+              }
+            ]
+          },
+          {
+            "type": "PASAL",
+            "id": "pasal-3",
+            "children": [
+              {
+                "type": "PASAL_NUMBER",
+                "text": "Pasal 3"
+              },
+              {
+                "type": "PLAINTEXT",
+                "text": "Kabupaten Sarolangun berasal dari sebagian wilayah Kabupaten Sarolangun Bangko yang terdiri atas wilayah:"
+              },
+              {
+                "type": "LIST",
+                "id": "",
+                "children": [
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "LETTER_WITH_DOT",
+                        "text": "a."
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "Kecamatan Sarolangun;"
+                      }
+                    ]
+                  },
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "LETTER_WITH_DOT",
+                        "text": "b."
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "Kecamatan Pelawan Singkut;"
+                      }
+                    ]
+                  },
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "LETTER_WITH_DOT",
+                        "text": "c."
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "Kecamatan Limun;"
+                      }
+                    ]
+                  },
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "LETTER_WITH_DOT",
+                        "text": "d."
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "Kecamatan Batang Asai;"
+                      }
+                    ]
+                  },
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "LETTER_WITH_DOT",
+                        "text": "e."
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "Kecamatan Pauh; dan"
+                      }
+                    ]
+                  },
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "LETTER_WITH_DOT",
+                        "text": "f."
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "Kecamatan Mandiangin."
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "PASAL",
+            "id": "pasal-4",
+            "children": [
+              {
+                "type": "PASAL_NUMBER",
+                "text": "Pasal 4"
+              },
+              {
+                "type": "PLAINTEXT",
+                "text": "Kabupaten Tebo berasal dari sebagian wilayah Kabupaten Bungo Tebo yang terdiri atas wilayah:"
+              },
+              {
+                "type": "LIST",
+                "id": "",
+                "children": [
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "LETTER_WITH_DOT",
+                        "text": "a."
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "Kecamatan Tebo Ilir;"
+                      }
+                    ]
+                  },
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "LETTER_WITH_DOT",
+                        "text": "b."
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "Kecamatan Tebo Tengah;"
+                      }
+                    ]
+                  },
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "LETTER_WITH_DOT",
+                        "text": "c."
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "Kecamatan Tebo Ulu; dan"
+                      }
+                    ]
+                  },
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "LETTER_WITH_DOT",
+                        "text": "d."
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "Kecamatan Rimbo Bujang."
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "PASAL",
+            "id": "pasal-5",
+            "children": [
+              {
+                "type": "PASAL_NUMBER",
+                "text": "Pasal 5"
+              },
+              {
+                "type": "PLAINTEXT",
+                "text": "Kabupaten Muaro Jambi berasal dari sebagian Kabupaten Batang Hari yang terdiri atas wilayah:"
+              },
+              {
+                "type": "LIST",
+                "id": "",
+                "children": [
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "LETTER_WITH_DOT",
+                        "text": "a."
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "Kecamatan Jambi Luar Kota;"
+                      }
+                    ]
+                  },
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "LETTER_WITH_DOT",
+                        "text": "b."
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "Kecamatan Sakernan;"
+                      }
+                    ]
+                  },
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "LETTER_WITH_DOT",
+                        "text": "c."
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "Kecamatan Kumpeh Ulu;"
+                      }
+                    ]
+                  },
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "LETTER_WITH_DOT",
+                        "text": "d."
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "Kecamatan Maro Sebo;"
+                      }
+                    ]
+                  },
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "LETTER_WITH_DOT",
+                        "text": "e."
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "Kecamatan Kumpeh; dan"
+                      }
+                    ]
+                  },
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "LETTER_WITH_DOT",
+                        "text": "f."
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "Kecamatan Mestong."
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "PASAL",
+            "id": "pasal-6",
+            "children": [
+              {
+                "type": "PASAL_NUMBER",
+                "text": "Pasal 6"
+              },
+              {
+                "type": "PLAINTEXT",
+                "text": "Kabupaten Tanjung Jabung Timur berasal dari sebagian wilayah Kabupaten Tanjung Jabung yang terdiri atas wilayah:"
+              },
+              {
+                "type": "LIST",
+                "id": "",
+                "children": [
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "LETTER_WITH_DOT",
+                        "text": "a."
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "Kecamatan Muaro Sabak;"
+                      }
+                    ]
+                  },
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "LETTER_WITH_DOT",
+                        "text": "b."
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "Kecamatan Dendang;"
+                      }
+                    ]
+                  },
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "LETTER_WITH_DOT",
+                        "text": "c."
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "Kecamatan Mendahara;"
+                      }
+                    ]
+                  },
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "LETTER_WITH_DOT",
+                        "text": "d."
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "Kecamatan Rantau Rasau;"
+                      }
+                    ]
+                  },
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "LETTER_WITH_DOT",
+                        "text": "e."
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "Kecamatan Nipah Panjang; dan"
+                      }
+                    ]
+                  },
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "LETTER_WITH_DOT",
+                        "text": "f."
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "Kecamatan Sadu."
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "PASAL",
+            "id": "pasal-7",
+            "children": [
+              {
+                "type": "PASAL_NUMBER",
+                "text": "Pasal 7"
+              },
+              {
+                "type": "LIST",
+                "id": "",
+                "children": [
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "NUMBER_WITH_BRACKETS",
+                        "text": "(1)"
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "Dengan dibentuknya Kabupaten Sarolangun, sebagaimana dimaksud dalam Pasal 2, wilayah Kabupaten Sarolangun Bangko dikurangi dengan wilayah Kabupaten Sarolangun, sebagaimana dimaksud dalam Pasal 3."
+                      }
+                    ]
+                  },
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "NUMBER_WITH_BRACKETS",
+                        "text": "(2)"
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "Dengan dibentuknya Kabupaten Tebo, sebagaimana dimaksud dalam Pasal 2, wilayah Kabupaten Bungo Tebo dikurangi dengan wilayah Kabupaten Tebo, sebagaimana dimaksud dalam Pasal 4."
+                      }
+                    ]
+                  },
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "NUMBER_WITH_BRACKETS",
+                        "text": "(3)"
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "Dengan dibentuknya Kabupaten Muaro Jambi, sebagaimana dimaksud dalam Pasal 2, wilayah Kabupaten Batang Hari dikurangi dengan wilayah Kabupaten Muaro Jambi, sebagaimana dimaksud dalam Pasal 5."
+                      }
+                    ]
+                  },
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "NUMBER_WITH_BRACKETS",
+                        "text": "(4)"
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "Dengan dibentuknya Kabupaten Tanjung Jabung Timur, sebagaimana dimaksud dalam Pasal 2, wilayah Kabupaten Tanjung Jabung dikurangi dengan wilayah Kabupaten Tanjung Jabung Timur, sebagaimana dimaksud dalam Pasal 6."
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "PASAL",
+            "id": "pasal-8",
+            "children": [
+              {
+                "type": "PASAL_NUMBER",
+                "text": "Pasal 8"
+              },
+              {
+                "type": "LIST",
+                "id": "",
+                "children": [
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "NUMBER_WITH_BRACKETS",
+                        "text": "(1)"
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "Dengan dibentuknya Kabupaten Sarolangun, Kabupaten Sarolangun Bangko diubah namanya menjadi Kabupaten Merangin."
+                      }
+                    ]
+                  },
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "NUMBER_WITH_BRACKETS",
+                        "text": "(2)"
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "Dengan dibentuknya Kabupaten Tebo, Kabupaten Bungo Tebo diubah namanya menjadi Kabupaten Bungo."
+                      }
+                    ]
+                  },
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "NUMBER_WITH_BRACKETS",
+                        "text": "(3)"
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "Dengan dibentuknya Kabupaten Tanjung Jabung Timur, Kabupaten Tanjung Jabung diubah namanya menjadi Kabupaten Tanjung Jabung Barat."
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "PASAL",
+            "id": "pasal-9",
+            "children": [
+              {
+                "type": "PASAL_NUMBER",
+                "text": "Pasal 9"
+              },
+              {
+                "type": "LIST",
+                "id": "",
+                "children": [
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "NUMBER_WITH_BRACKETS",
+                        "text": "(1)"
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "Kabupaten Sarolangun mempunyai batas wilayah:"
+                      },
+                      {
+                        "type": "LIST",
+                        "id": "",
+                        "children": [
+                          {
+                            "type": "LIST_ITEM",
+                            "id": "",
+                            "children": [
+                              {
+                                "type": "LETTER_WITH_DOT",
+                                "text": "a."
+                              },
+                              {
+                                "type": "PLAINTEXT",
+                                "text": "sebelah utara dengan Kecamatan Marosebo Ulu dan Kecamatan Batin XXIV, Kabupaten Batang Hari;"
+                              }
+                            ]
+                          },
+                          {
+                            "type": "LIST_ITEM",
+                            "id": "",
+                            "children": [
+                              {
+                                "type": "LETTER_WITH_DOT",
+                                "text": "b."
+                              },
+                              {
+                                "type": "PLAINTEXT",
+                                "text": "sebelah timur dengan Kecamatan Muara Bulian, Kabupaten Batang Hari;"
+                              }
+                            ]
+                          },
+                          {
+                            "type": "LIST_ITEM",
+                            "id": "",
+                            "children": [
+                              {
+                                "type": "LETTER_WITH_DOT",
+                                "text": "c."
+                              },
+                              {
+                                "type": "PLAINTEXT",
+                                "text": "sebelah selatan dengan Propinsi Sumatera Selatan; dan"
+                              }
+                            ]
+                          },
+                          {
+                            "type": "LIST_ITEM",
+                            "id": "",
+                            "children": [
+                              {
+                                "type": "LETTER_WITH_DOT",
+                                "text": "d."
+                              },
+                              {
+                                "type": "PLAINTEXT",
+                                "text": "sebelah barat dengan Kecamatan Jangkat, Kecamatan Muarosiau, Kecamatan Pamenang, dan Kecamatan Tabir, Kabupaten Merangin."
+                              }
+                            ]
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "NUMBER_WITH_BRACKETS",
+                        "text": "(2)"
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "Kabupaten Tebo mempunyai batas wilayah:"
+                      },
+                      {
+                        "type": "LIST",
+                        "id": "",
+                        "children": [
+                          {
+                            "type": "LIST_ITEM",
+                            "id": "",
+                            "children": [
+                              {
+                                "type": "LETTER_WITH_DOT",
+                                "text": "a."
+                              },
+                              {
+                                "type": "PLAINTEXT",
+                                "text": "sebelah utara dengan Propinsi Riau;"
+                              }
+                            ]
+                          },
+                          {
+                            "type": "LIST_ITEM",
+                            "id": "",
+                            "children": [
+                              {
+                                "type": "LETTER_WITH_DOT",
+                                "text": "b."
+                              },
+                              {
+                                "type": "PLAINTEXT",
+                                "text": "sebelah timur dengan Kecamatan Tungkal Ulu, Kabupaten Tanjung Jabung Barat dan Kecamatan Mersam, Kabupaten Batang Hari;"
+                              }
+                            ]
+                          },
+                          {
+                            "type": "LIST_ITEM",
+                            "id": "",
+                            "children": [
+                              {
+                                "type": "LETTER_WITH_DOT",
+                                "text": "c."
+                              },
+                              {
+                                "type": "PLAINTEXT",
+                                "text": "sebelah selatan dengan Kecamatan Tabir Kabupaten Merangin dan Kecamatan Mersam, Kabupaten Batang Hari; dan"
+                              }
+                            ]
+                          },
+                          {
+                            "type": "LIST_ITEM",
+                            "id": "",
+                            "children": [
+                              {
+                                "type": "LETTER_WITH_DOT",
+                                "text": "d."
+                              },
+                              {
+                                "type": "PLAINTEXT",
+                                "text": "sebelah barat dengan Kecamatan Pelepat, Kecamatan Jujuhan, Kecamatan Tanah Sepenggal, Kecamatan Muaro Bungo, Kabupaten Bungo."
+                              }
+                            ]
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "NUMBER_WITH_BRACKETS",
+                        "text": "(3)"
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "Kabupaten Muaro Jambi mempunyai batas wilayah:"
+                      },
+                      {
+                        "type": "LIST",
+                        "id": "",
+                        "children": [
+                          {
+                            "type": "LIST_ITEM",
+                            "id": "",
+                            "children": [
+                              {
+                                "type": "LETTER_WITH_DOT",
+                                "text": "a."
+                              },
+                              {
+                                "type": "PLAINTEXT",
+                                "text": "sebelah utara dengan Kecamatan Mendahara dan Kecamatan Dendang, Kabupaten Tanjung Jabung Timur;"
+                              }
+                            ]
+                          },
+                          {
+                            "type": "LIST_ITEM",
+                            "id": "",
+                            "children": [
+                              {
+                                "type": "LETTER_WITH_DOT",
+                                "text": "b."
+                              },
+                              {
+                                "type": "PLAINTEXT",
+                                "text": "sebelah timur dengan Kecamatan Rantau Rasau dan Kecamatan Sadu, Kabupaten Tanjung Jabung Timur;"
+                              }
+                            ]
+                          },
+                          {
+                            "type": "LIST_ITEM",
+                            "id": "",
+                            "children": [
+                              {
+                                "type": "LETTER_WITH_DOT",
+                                "text": "c."
+                              },
+                              {
+                                "type": "PLAINTEXT",
+                                "text": "sebelah selatan dengan Propinsi Sumatera Selatan; dan"
+                              }
+                            ]
+                          },
+                          {
+                            "type": "LIST_ITEM",
+                            "id": "",
+                            "children": [
+                              {
+                                "type": "LETTER_WITH_DOT",
+                                "text": "d."
+                              },
+                              {
+                                "type": "PLAINTEXT",
+                                "text": "sebelah barat dengan Kecamatan Muara Bulian dan Kecamatan Pemayung, Kabupaten Batang Hari, Kecamatan Merlung dan Kecamatan Betara, Kabupaten Tanjung Jabung Barat."
+                              }
+                            ]
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "NUMBER_WITH_BRACKETS",
+                        "text": "(4)"
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "Kabupaten Tanjung Jabung Timur mempunyai batas wilayah:"
+                      },
+                      {
+                        "type": "LIST",
+                        "id": "",
+                        "children": [
+                          {
+                            "type": "LIST_ITEM",
+                            "id": "",
+                            "children": [
+                              {
+                                "type": "LETTER_WITH_DOT",
+                                "text": "a."
+                              },
+                              {
+                                "type": "PLAINTEXT",
+                                "text": "sebelah utara dengan Laut Cina Selatan;"
+                              }
+                            ]
+                          },
+                          {
+                            "type": "LIST_ITEM",
+                            "id": "",
+                            "children": [
+                              {
+                                "type": "LETTER_WITH_DOT",
+                                "text": "b."
+                              },
+                              {
+                                "type": "PLAINTEXT",
+                                "text": "sebelah timur dengan Laut Cina Selatan;"
+                              }
+                            ]
+                          },
+                          {
+                            "type": "LIST_ITEM",
+                            "id": "",
+                            "children": [
+                              {
+                                "type": "LETTER_WITH_DOT",
+                                "text": "c."
+                              },
+                              {
+                                "type": "PLAINTEXT",
+                                "text": "sebelah selatan dengan Kecamatan Kumpeh, Kecamatan Maro Sebo Kabupaten Muaro Jambi dan Propinsi Sumatera Selatan; dan"
+                              }
+                            ]
+                          },
+                          {
+                            "type": "LIST_ITEM",
+                            "id": "",
+                            "children": [
+                              {
+                                "type": "LETTER_WITH_DOT",
+                                "text": "d."
+                              },
+                              {
+                                "type": "PLAINTEXT",
+                                "text": "sebelah barat dengan Kecamatan Betara Kabupaten Tanjung Jabung Barat, dan Kecamatan Sakernan, Kabupaten Muaro Jambi."
+                              }
+                            ]
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "NUMBER_WITH_BRACKETS",
+                        "text": "(5)"
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "Batas wilayah sebagaimana dimaksud pada ayat (1), ayat (2), ayat (3), dan ayat (4) dituangkan dalam peta yang merupakan bagian tidak terpisahkan dari Undang-undang ini."
+                      }
+                    ]
+                  },
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "NUMBER_WITH_BRACKETS",
+                        "text": "(6)"
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "Penentuan batas wilayah Kabupaten Sarolangun, Kabupaten Tebo, Kabupaten Muaro Jambi, dan Kabupaten Tanjung Jabung Timur, secara pasti di lapangan sebagaimana dimaksud pada ayat (1), ayat (2), ayat (3), dan ayat (4), ditetapkan oleh Menteri Dalam Negeri."
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "PASAL",
+            "id": "pasal-10",
+            "children": [
+              {
+                "type": "PASAL_NUMBER",
+                "text": "Pasal 10"
+              },
+              {
+                "type": "LIST",
+                "id": "",
+                "children": [
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "NUMBER_WITH_BRACKETS",
+                        "text": "(1)"
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "Dengan dibentuknya Kabupaten Sarolangun, Kabupaten Tebo, Kabupaten Muaro Jambi dan Kabupaten Tanjung Jabung Timur, sebagaimana dimaksud dalam Pasal 2, dan mempunyai wilayah sebagaimana dimaksud dalam Pasal 3, Pasal 4, Pasal 5, dan Pasal 6, Pemerintah Kabupaten Sarolangun, Pemerintah Kabupaten Tebo, Pemerintah Kabupaten Muaro Jambi, dan Pemerintah Kabupaten Tanjung Jabung Timur, wajib menetapkan Tata Ruang Wilayah Kabupaten Sarolangun, Kabupaten Tebo, Kabupaten Muaro Jambi, dan Kabupaten Tanjung Jabung Timur, sesuai dengan peraturan perundang-undangan."
+                      }
+                    ]
+                  },
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "NUMBER_WITH_BRACKETS",
+                        "text": "(2)"
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "Penetapan Tata Ruang Wilayah Kabupaten Sarolangun, Kabupaten Tebo, Kabupaten Muaro Jambi, dan Kabupaten Tanjung Jabung Timur, sebagaimana dimaksud pada ayat (1) dilakukan secara terpadu dan tidak terpisahkan dari Tata Ruang Wilayah Nasional, Propinsi, dan Kabupaten/Kota."
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "PASAL",
+            "id": "pasal-11",
+            "children": [
+              {
+                "type": "PASAL_NUMBER",
+                "text": "Pasal 11"
+              },
+              {
+                "type": "LIST",
+                "id": "",
+                "children": [
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "NUMBER_WITH_BRACKETS",
+                        "text": "(1)"
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "Ibukota Kabupaten Sarolangun berkedudukan di Sarolangun."
+                      }
+                    ]
+                  },
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "NUMBER_WITH_BRACKETS",
+                        "text": "(2)"
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "Ibukota Kabupaten Tebo berkedudukan di Muaro Tebo."
+                      }
+                    ]
+                  },
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "NUMBER_WITH_BRACKETS",
+                        "text": "(3)"
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "Ibukota Kabupaten Muaro Jambi berkedudukan di Sengeti."
+                      }
+                    ]
+                  },
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "NUMBER_WITH_BRACKETS",
+                        "text": "(4)"
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "Ibukota Kabupaten Tanjung Jabung Timur berkedudukan di Muaro Sabak."
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "BAB",
+        "id": "bab-3",
+        "children": [
+          {
+            "type": "BAB_NUMBER",
+            "text": "BAB III"
+          },
+          {
+            "type": "BAB_TITLE",
+            "text": "KEWENANGAN DAERAH"
+          },
+          {
+            "type": "PASAL",
+            "id": "pasal-12",
+            "children": [
+              {
+                "type": "PASAL_NUMBER",
+                "text": "Pasal 12"
+              },
+              {
+                "type": "LIST",
+                "id": "",
+                "children": [
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "NUMBER_WITH_BRACKETS",
+                        "text": "(1)"
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "Dengan terbentuknya Kabupaten Sarolangun, Kabupaten Tebo, Kabupaten Muaro Jambi, dan Kabupaten Tanjung Jabung Timur, kewenangan Daerah sebagai Daerah Otonom mencakup seluruh kewenangan bidang pemerintahan, termasuk kewenangan wajib, kecuali bidang politik luar negeri, pertahanan keamanan, peradilan, moneter dan fiskal, agama, serta kewenangan bidang lain, sesuai dengan peraturan perundang-undangan."
+                      }
+                    ]
+                  },
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "NUMBER_WITH_BRACKETS",
+                        "text": "(2)"
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "Kewenangan wajib, sebagaimana dimaksud pada ayat (1), terdiri atas pekerjaan umum, kesehatan, pendidikan dan kebudayaan, pertanian, perhubungan, industri dan perdagangan, penanaman modal, lingkungan hidup, pertanahan, koperasi, dan tenaga kerja."
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "BAB",
+        "id": "bab-4",
+        "children": [
+          {
+            "type": "BAB_NUMBER",
+            "text": "BAB IV"
+          },
+          {
+            "type": "BAB_TITLE",
+            "text": "PEMERINTAHAN DAERAH"
+          },
+          {
+            "type": "PASAL",
+            "id": "pasal-13",
+            "children": [
+              {
+                "type": "PASAL_NUMBER",
+                "text": "Pasal 13"
+              },
+              {
+                "type": "PLAINTEXT",
+                "text": "Dengan terbentuknya Kabupaten Sarolangun, Kabupaten Tebo, Kabupaten Muaro Jambi, dan Kabupaten Tanjung Jabung Timur, dibentuk Dewan Perwakilan Rakyat Daerah di Kabupaten masing-masing, sesuai dengan peraturan perundang-undangan."
+              }
+            ]
+          },
+          {
+            "type": "PASAL",
+            "id": "pasal-14",
+            "children": [
+              {
+                "type": "PASAL_NUMBER",
+                "text": "Pasal 14"
+              },
+              {
+                "type": "PLAINTEXT",
+                "text": "Untuk memimpin jalannya Pemerintahan di Kabupaten Sarolangun, Kabupaten Tebo, Kabupaten Muaro Jambi, dan Kabupaten Tanjung Jabung Timur, dipilih dan disahkan seorang Bupati dan Wakil Bupati di Kabupaten masing-masing, sesuai dengan peraturan perundang-undangan."
+              }
+            ]
+          },
+          {
+            "type": "PASAL",
+            "id": "pasal-15",
+            "children": [
+              {
+                "type": "PASAL_NUMBER",
+                "text": "Pasal 15"
+              },
+              {
+                "type": "PLAINTEXT",
+                "text": "Untuk kelengkapan perangkat Pemerintahan, di Kabupaten Sarolangun, Kabupaten Tebo, Kabupaten Muaro Jambi, dan Kabupaten Tanjung Jabung Timur, masing-masing dibentuk Sekretariat Dewan Perwakilan Rakyat Daerah Kabupaten, Sekretariat Kabupaten, dinas-dinas Kabupaten, dan lembaga teknis Kabupaten, sesuai dengan peraturan perundang-undangan."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "BAB",
+        "id": "bab-5",
+        "children": [
+          {
+            "type": "BAB_NUMBER",
+            "text": "BAB V"
+          },
+          {
+            "type": "BAB_TITLE",
+            "text": "KETENTUAN PERALIHAN"
+          },
+          {
+            "type": "PASAL",
+            "id": "pasal-16",
+            "children": [
+              {
+                "type": "PASAL_NUMBER",
+                "text": "Pasal 16"
+              },
+              {
+                "type": "LIST",
+                "id": "",
+                "children": [
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "NUMBER_WITH_BRACKETS",
+                        "text": "(1)"
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "Dengan terbentuknya Kabupaten Sarolangun, Kabupaten Tebo, Kabupaten Muaro Jambi, dan Kabupaten Tanjung Jabung Timur, pengisian keanggotaan Dewan Perwakilan Rakyat Daerah Kabupaten Sarolangun, Dewan Perwakilan Rakyat Daerah Kabupaten Tebo, Dewan Perwakilan Rakyat Daerah Kabupaten Muaro Jambi, dan Dewan Perwakilan Rakyat Daerah Kabupaten Tanjung Jabung Timur diselenggarakan melalui pemilihan umum lokal selambat lambatnya satu tahun sejak peresmiannya, sesuai dengan peraturan perundang-undangan."
+                      }
+                    ]
+                  },
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "NUMBER_WITH_BRACKETS",
+                        "text": "(2)"
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "Anggota Dewan Perwakilan Rakyat Daerah Kabupaten Sarolangun, Dewan Perwakilan Rakyat Daerah Kabupaten Tebo, Dewan Perwakilan Rakyat Daerah Kabupaten Muaro Jambi, dan Dewan Perwakilan Rakyat Daerah Kabupaten Tanjung Jabung Timur terdiri atas:"
+                      },
+                      {
+                        "type": "LIST",
+                        "id": "",
+                        "children": [
+                          {
+                            "type": "LIST_ITEM",
+                            "id": "",
+                            "children": [
+                              {
+                                "type": "LETTER_WITH_DOT",
+                                "text": "a."
+                              },
+                              {
+                                "type": "PLAINTEXT",
+                                "text": "anggota Dewan Perwakilan Rakyat Daerah yang ditetapkan dari partai politik peserta pemilihan umum lokal yang dilaksanakan di Kabupaten masing-masing; dan"
+                              }
+                            ]
+                          },
+                          {
+                            "type": "LIST_ITEM",
+                            "id": "",
+                            "children": [
+                              {
+                                "type": "LETTER_WITH_DOT",
+                                "text": "b."
+                              },
+                              {
+                                "type": "PLAINTEXT",
+                                "text": "anggota ABRI yang diangkat."
+                              }
+                            ]
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "NUMBER_WITH_BRACKETS",
+                        "text": "(3)"
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "Jumlah dan tata cara pengisian keanggotaan Dewan Perwakilan Rakyat Daerah Kabupaten Sarolangun, Dewan Perwakilan Rakyat Daerah Kabupaten Tebo, Dewan Perwakilan Rakyat Daerah Kabupaten Muaro Jambi, dan Dewan Perwakilan Rakyat Daerah Kabupaten Tanjung Jabung Timur, sebagaimana dimaksud pada ayat (2) ditetapkan sesuai dengan peraturan perundang-undangan."
+                      }
+                    ]
+                  },
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "NUMBER_WITH_BRACKETS",
+                        "text": "(4)"
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "Dengan terbentuknya Kabupaten Sarolangun, jumlah anggota Dewan Perwakilan Rakyat Daerah Kabupaten Merangin disesuaikan dengan jumlah penduduk Kabupaten Merangin setelah dikurangi dengan jumlah penduduk Kabupaten Sarolangun."
+                      }
+                    ]
+                  },
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "NUMBER_WITH_BRACKETS",
+                        "text": "(5)"
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "Dengan terbentuknya Kabupaten Tebo, jumlah anggota Dewan Perwakilan Rakyat Daerah Kabupaten Bungo disesuaikan dengan jumlah penduduk Kabupaten Bungo setelah dikurangi dengan jumlah penduduk Kabupaten Tebo."
+                      }
+                    ]
+                  },
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "NUMBER_WITH_BRACKETS",
+                        "text": "(6)"
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "Dengan terbentuknya Kabupaten Muaro Jambi, jumlah anggota Dewan Perwakilan Rakyat Daerah Kabupaten Batang Hari disesuaikan dengan jumlah penduduk Kabupaten Batang Hari setelah dikurangi dengan jumlah penduduk Kabupaten Muaro Jambi."
+                      }
+                    ]
+                  },
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "NUMBER_WITH_BRACKETS",
+                        "text": "(7)"
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "Dengan terbentuknya Kabupaten Tanjung Jabung Timur, jumlah anggota Dewan Perwakilan Rakyat Daerah Kabupaten Tanjung Jabung Barat disesuaikan dengan jumlah penduduk Kabupaten Tanjung Jabung Barat setelah dikurangi dengan jumlah penduduk Kabupaten Tanjung Jabung Timur."
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "PASAL",
+            "id": "pasal-17",
+            "children": [
+              {
+                "type": "PASAL_NUMBER",
+                "text": "Pasal 17"
+              },
+              {
+                "type": "PLAINTEXT",
+                "text": "Pada saat terbentuknya Kabupaten Sarolangun, Kabupaten Tebo, Kabupaten Muaro Jambi, Kabupaten Tanjung Jabung Timur, Penjabat Bupati Sarolangun, Penjabat Bupati Tebo, Penjabat Bupati Muaro Jambi, dan Penjabat Bupati Tanjung Jabung Timur, untuk pertama kali diangkat oleh Menteri Dalam Negeri atas nama Presiden berdasarkan usul Gubernur Jambi."
+              }
+            ]
+          },
+          {
+            "type": "PASAL",
+            "id": "pasal-18",
+            "children": [
+              {
+                "type": "PASAL_NUMBER",
+                "text": "Pasal 18"
+              },
+              {
+                "type": "LIST",
+                "id": "",
+                "children": [
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "NUMBER_WITH_BRACKETS",
+                        "text": "(1)"
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "Untuk kelancaran penyelenggaraan pemerintahan di Kabupaten Sarolangun, Kabupaten Tebo, Kabupaten Muaro Jambi, dan Kabupaten Tanjung Jabung Timur, maka Gubernur Jambi, Bupati Merangin, Bupati Bungo, Bupati Batang Hari dan Bupati Tanjung Jabung Barat sesuai dengan wewenang dan tugasnya masing-masing menginventarisasi dan mengatur penyerahan kepada Pemerintah Kabupaten Sarolangun, Kabupaten Tebo, Kabupaten Muaro Jambi, dan Kabupaten Tanjung Jabung Timur sesuai dengan ketentuan peraturan perundang-undangan:"
+                      },
+                      {
+                        "type": "LIST",
+                        "id": "",
+                        "children": [
+                          {
+                            "type": "LIST_ITEM",
+                            "id": "",
+                            "children": [
+                              {
+                                "type": "LETTER_WITH_DOT",
+                                "text": "a."
+                              },
+                              {
+                                "type": "PLAINTEXT",
+                                "text": "pegawai yang karena jabatannya diperlukan oleh Pemerintah Kabupaten Sarolangun, Kabupaten Tebo, Kabupaten Muaro Jambi, dan Kabupaten Tanjung Jabung Timur;"
+                              }
+                            ]
+                          },
+                          {
+                            "type": "LIST_ITEM",
+                            "id": "",
+                            "children": [
+                              {
+                                "type": "LETTER_WITH_DOT",
+                                "text": "b."
+                              },
+                              {
+                                "type": "PLAINTEXT",
+                                "text": "tanah, bangunan, barang bergerak, dan barang tidak bergerak yang dimiliki, dikuasai, atau dimanfaatkan oleh Pemerintah Propinsi Jambi, Kabupaten Merangin, Kabupaten Bungo, Kabupaten Batang Hari, dan Kabupaten Tanjung Jabung Barat yang berada dalam Kabupaten Sarolangun, Kabupaten Tebo, Kabupaten Muaro Jambi, dan Kabupaten Tanjung Jabung Timur;"
+                              }
+                            ]
+                          },
+                          {
+                            "type": "LIST_ITEM",
+                            "id": "",
+                            "children": [
+                              {
+                                "type": "LETTER_WITH_DOT",
+                                "text": "c."
+                              },
+                              {
+                                "type": "PLAINTEXT",
+                                "text": "Badan Usaha Milik Daerah Propinsi Jambi, Kabupaten Merangin, Kabupaten Bungo, Kabupaten Batang Hari, dan Kabupaten Tanjung Jabung Barat yang kedudukan dan sifatnya diperlukan serta kegiatannya berada di Kabupaten Sarolangun, Kabupaten Tebo, Kabupaten Muaro Jambi, dan Kabupaten Tanjung Jabung Timur;"
+                              }
+                            ]
+                          },
+                          {
+                            "type": "LIST_ITEM",
+                            "id": "",
+                            "children": [
+                              {
+                                "type": "LETTER_WITH_DOT",
+                                "text": "d."
+                              },
+                              {
+                                "type": "PLAINTEXT",
+                                "text": "utang piutang Kabupaten Merangin yang kegunaannya untuk Kabupaten Sarolangun, utang piutang Pemerintah Kabupaten Bungo yang kegunaannya untuk Kabupaten Tebo, utang piutang Kabupaten Batang Hari yang kegunaannya untuk Kabupaten Muaro Jambi, dan utang piutang Kabupaten Tanjung Jabung Barat, yang kegunaannya untuk Kabupaten Tanjung Jabung Timur; dan"
+                              }
+                            ]
+                          },
+                          {
+                            "type": "LIST_ITEM",
+                            "id": "",
+                            "children": [
+                              {
+                                "type": "LETTER_WITH_DOT",
+                                "text": "e."
+                              },
+                              {
+                                "type": "PLAINTEXT",
+                                "text": "perlengkapan kantor, arsip, dokumen, dan perpustakaan yang karena sifatnya diperlukan oleh Kabupaten Sarolangun, Kabupaten Tebo, Kabupaten Muaro Jambi, dan Kabupaten Tanjung Jabung Timur."
+                              }
+                            ]
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "NUMBER_WITH_BRACKETS",
+                        "text": "(2)"
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "Pelaksanaan penyerahan sebagaimana dimaksud pada ayat (1) selambat-lambatnya harus diselesaikan dalam waktu satu tahun terhitung sejak tanggal diresmikannya Kabupaten Sarolangun, Kabupaten Tebo, Kabupaten Muaro Jambi, dan Kabupaten Tanjung Jabung Timur."
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "PASAL",
+            "id": "pasal-19",
+            "children": [
+              {
+                "type": "PASAL_NUMBER",
+                "text": "Pasal 19"
+              },
+              {
+                "type": "LIST",
+                "id": "",
+                "children": [
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "NUMBER_WITH_BRACKETS",
+                        "text": "(1)"
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "Pembiayaan yang diperlukan akibat pembentukan Kabupaten Sarolangun, Kabupaten Tebo, Kabupaten Muaro Jambi, dan Kabupaten Tanjung Jabung Timur, sebagaimana dimaksud dalam Pasal 2, masing-masing dibebankan pada Anggaran Pendapatan dan Belanja Daerah Kabupaten Sarolangun, Kabupaten Tebo, Kabupaten Muaro Jambi dan Kabupaten Tanjung Jabung Timur."
+                      }
+                    ]
+                  },
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "NUMBER_WITH_BRACKETS",
+                        "text": "(2)"
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "Untuk kelancaran penyelenggaraan pemerintahan dan pembangunan, terhitung sejak diresmikannya pembentukan Kabupaten Sarolangun, Kabupaten Tebo, Kabupaten Muaro Jambi, dan Kabupaten Tanjung Jabung Timur, segala pembiayaan yang diperlukan pada tahun pertama sebelum dapat disusun Anggaran Pendapatan dan Belanja Daerah yang bersangkutan masing-masing dibebankan pada Anggaran Pendapatan dan Belanja Daerah Kabupaten Merangin, Kabupaten Bungo, Kabupaten Batang Hari, dan Kabupaten Tanjung Jabung Barat berdasarkan perimbangan hasil pendapatan yang diperoleh dari masing masing Kabupaten Sarolangun, Kabupaten Tebo, Kabupaten Muaro Jambi, dan Kabupaten Tanjung Jabung Timur."
+                      }
+                    ]
+                  },
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "NUMBER_WITH_BRACKETS",
+                        "text": "(3)"
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "Pemerintah Propinsi Jambi wajib membantu pembiayaan sebagaimana dimaksud pada ayat (1) melalui Anggaran Pendapatan dan Belanja Daerah Propinsi Jambi selama tiga tahun berturut-turut, terhitung sejak peresmiannya."
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "PASAL",
+            "id": "pasal-20",
+            "children": [
+              {
+                "type": "PASAL_NUMBER",
+                "text": "Pasal 20"
+              },
+              {
+                "type": "PLAINTEXT",
+                "text": "Pembiayaan akibat perubahan nama Kabupaten Sarolangun Bangko, Kabupaten Bungo Tebo, dan Kabupaten Tanjung Jabung sebagaimana dimaksud dalam Pasal 8 dibebankan pada masing masing Anggaran Pendapatan dan Belanja Daerah Kabupaten Merangin, Kabupaten Bungo, dan Kabupaten Tanjung Jabung Barat."
+              }
+            ]
+          },
+          {
+            "type": "PASAL",
+            "id": "pasal-21",
+            "children": [
+              {
+                "type": "PASAL_NUMBER",
+                "text": "Pasal 21"
+              },
+              {
+                "type": "LIST",
+                "id": "",
+                "children": [
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "NUMBER_WITH_BRACKETS",
+                        "text": "(1)"
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "Semua peraturan perundang-undangan yang saat ini berlaku bagi Kabupaten Merangin tetap berlaku bagi Kabupaten Sarolangun sebelum diubah, diganti, atau dicabut berdasarkan Undang-undang ini."
+                      }
+                    ]
+                  },
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "NUMBER_WITH_BRACKETS",
+                        "text": "(2)"
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "Semua peraturan perundang-undangan yang saat ini berlaku bagi Kabupaten Bungo tetap berlaku bagi Kabupaten Tebo sebelum diubah, diganti, atau dicabut berdasarkan Undang undang ini."
+                      }
+                    ]
+                  },
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "NUMBER_WITH_BRACKETS",
+                        "text": "(3)"
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "Semua peraturan perundang-undangan yang saat ini berlaku bagi Kabupaten Batang Hari tetap berlaku bagi Kabupaten Muaro Jambi sebelum diubah, diganti, atau dicabut berdasarkan Undang-undang ini."
+                      }
+                    ]
+                  },
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "NUMBER_WITH_BRACKETS",
+                        "text": "(4)"
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "Semua peraturan perundang-undangan yang berlaku bagi Kabupaten Tanjung Jabung Barat tetap berlaku bagi Kabupaten Tanjung Jabung Timur, sebelum diubah, diganti, atau dicabut berdasarkan Undang-undang ini."
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "BAB",
+        "id": "bab-6",
+        "children": [
+          {
+            "type": "BAB_NUMBER",
+            "text": "BAB VI"
+          },
+          {
+            "type": "BAB_TITLE",
+            "text": "KETENTUAN PENUTUP"
+          },
+          {
+            "type": "PASAL",
+            "id": "pasal-22",
+            "children": [
+              {
+                "type": "PASAL_NUMBER",
+                "text": "Pasal 22"
+              },
+              {
+                "type": "PLAINTEXT",
+                "text": "Pada saat berlakunya Undang-undang ini, semua peraturan perundang-undangan yang tidak sesuai dengan Undang-undang ini dinyatakan tidak berlaku."
+              }
+            ]
+          },
+          {
+            "type": "PASAL",
+            "id": "pasal-23",
+            "children": [
+              {
+                "type": "PASAL_NUMBER",
+                "text": "Pasal 23"
+              },
+              {
+                "type": "PLAINTEXT",
+                "text": "Ketentuan lebih lanjut yang diperlukan sebagai pelaksanaan Undang-undang ini diatur sesuai dengan peraturan perundang-undangan."
+              }
+            ]
+          },
+          {
+            "type": "PASAL",
+            "id": "pasal-24",
+            "children": [
+              {
+                "type": "PASAL_NUMBER",
+                "text": "Pasal 24"
+              },
+              {
+                "type": "PLAINTEXT",
+                "text": "Undang-undang ini mulai berlaku pada tanggal diundangkan."
+              },
+              {
+                "type": "PLAINTEXT",
+                "text": "Agar setiap orang mengetahuinya, memerintahkan pengundangan Undang-undang ini dengan penempatannya dalam Lembaran Negara Republik Indonesia."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "CLOSING",
+        "id": "",
+        "children": [
+          {
+            "type": "PLAINTEXT",
+            "text": "Disahkan Di Jakarta,"
+          },
+          {
+            "type": "PLAINTEXT",
+            "text": "Pada Tanggal 4 Oktober 1999"
+          },
+          {
+            "type": "PLAINTEXT",
+            "text": "PRESIDEN REPUBLIK INDONESIA,"
+          },
+          {
+            "type": "PLAINTEXT",
+            "text": "Ttd"
+          },
+          {
+            "type": "PLAINTEXT",
+            "text": "BACHARUDDIN JUSUF HABIBIE"
+          },
+          {
+            "type": "PLAINTEXT",
+            "text": "Diundangkan Di Jakarta,"
+          },
+          {
+            "type": "PLAINTEXT",
+            "text": "Pada Tanggal 4 Oktober 1999"
+          },
+          {
+            "type": "PLAINTEXT",
+            "text": "MENTERI NEGARA/SEKRETARIS NEGARA REPUBLIK INDONESIA,"
+          },
+          {
+            "type": "PLAINTEXT",
+            "text": "Ttd"
+          },
+          {
+            "type": "PLAINTEXT",
+            "text": "MULADI"
+          },
+          {
+            "type": "LEMBARAN_NUMBER",
+            "text": "LEMBARAN NEGARA REPUBLIK INDONESIA TAHUN 1999 NOMOR 182"
+          }
+        ]
+      },
+      {
+        "type": "PENJELASAN",
+        "id": "penjelasan",
+        "children": [
+          {
+            "type": "PENJELASAN_TITLE",
+            "id": "",
+            "children": [
+              {
+                "type": "PLAINTEXT",
+                "text": "PENJELASAN"
+              },
+              {
+                "type": "PLAINTEXT",
+                "text": "UNDANG-UNDANG REPUBLIK INDONESIA"
+              },
+              {
+                "type": "UU_TITLE_YEAR_AND_NUMBER",
+                "text": "NOMOR 54 TAHUN 1999"
+              },
+              {
+                "type": "PLAINTEXT",
+                "text": "TENTANG"
+              },
+              {
+                "type": "UU_TITLE_TOPIC",
+                "text": "PEMBENTUKAN KABUPATEN SAROLANGUN, KABUPATEN TEBO, KABUPATEN MUARO JAMBI DAN KABUPATEN TANJUNG JABUNG TIMUR"
+              }
+            ]
+          },
+          {
+            "type": "PENJELASAN_UMUM",
+            "id": "",
+            "children": [
+              {
+                "type": "PENJELASAN_UMUM_TITLE",
+                "text": "I. UMUM"
+              },
+              {
+                "type": "PLAINTEXT",
+                "text": "Propinsi Jambi pada umumnya serta Kabupaten Sarolangun Bangko, Kabupaten Bungo Tebo, Kabupaten Batang Hari, dan Kabupaten Tanjung Jabung pada khususnya, meskipun telah menunjukkan kemajuan dalam penyelenggaraan pemerintahan, pelaksanaan pembangunan, dan pembinaan kemasyarakatan, dalam perkembangannya perlu ditingkatkan sesuai dengan potensi Daerah, luas wilayah, dan kebutuhan pada masa mendatang. Propinsi Jambi mempunyai luas wilayah 53.435,72 km persegi dengan sarana dan prasarana komunikasi serta transportasi yang relatif masih terbatas, khususnya di wilayah Kabupaten Sarolangun Bangko bagian timur, Kabupaten Bungo Tebo bagian timur, Kabupaten Batang Hari bagian timur, dan Kabupaten Tanjung Jabung bagian timur. Kabupaten Sarolangun Bangko sebelum dimekarkan mempunyai luas wilayah 13.863 km persegi. Dalam rangka membantu tugas penyelenggaraan pemerintahan, pelaksanaan pembangunan, dan pembinaan kemasyarakatan di bagian timur dibentuk wilayah kerja Pembantu Bupati Sarolangun Bangko Wilayah Timur yang meliputi enam kecamatan, yaitu Kecamatan Sarolangun, Kecamatan Pelawan Singkat, Kecamatan Limun, Kecamatan Batang Asai, Kecamatan Pauh dan Kecamatan Mandiangin dengan luas wilayah keseluruhan 6.184 km persegi. Kabupaten Bungo Tebo mempunyai luas wilayah 11.120 km persegi. Dalam rangka membantu tugas penyelenggaraan pemerintahan, pelaksanaan pembangunan, dan pembinaan kemasyarakatan di bagian timur, dibentuk wilayah kerja Pembantu Bupati Bungo Tebo Wilayah Timur yang meliputi empat kecamatan, yaitu Kecamatan Tebo Ilir, Kecamatan Tebo Tengah, Kecamatan Tebo Ulu, dan Kecamatan Rimbo Bujang dengan luas wilayah 6.461 km persegi. Kabupaten Batang Hari mempunyai luas wilayah 11.130 km persegi. Dalam rangka membantu tugas penyelenggaraan pemerintahan, pelaksanaan pembangunan, dan pembinaan kemasyarakatan di bagian timur, dibentuk wilayah kerja pembantu Bupati Batang Hari Wilayah Timur yang meliputi enam kecamatan, yaitu Kecamatan Jambi Luar Kota, Kecamatan Sakernan, Kecamatan Kumpeh Ulu, Kecamatan Maro Sebo, Kecamatan Kumpeh, Kecamatan Mestong dengan luas wilayah keseluruhan 5.326 km persegi. Kabupaten Tanjung Jabung mempunyai luas wilayah 10.094,85 km persegi. Tugas penyelenggaraan pemerintahan, pelaksanaan pembangunan, dan pembinaan kemasyarakatan di Kabupaten Tanjung Jabung bagian timur dilakukan oleh enam kecamatan, yaitu Kecamatan Muaro Sabak, Kecamatan Dendang, Kecamatan Mendahara, Kecamatan Rantau Rasau, Kecamatan Nipah Panjang, dan Kecamatan Sadu dengan luas wilayah keseluruhan 5.445 km persegi."
+              },
+              {
+                "type": "PLAINTEXT",
+                "text": "Wilayah kerja Pembantu Bupati Sarolangun Bangko Wilayah Timur, wilayah kerja Pembantu Bupati Bungo Tebo Wilayah Timur, wilayah kerja Pembantu Bupati Batang Hari Wilayah Timur dan wilayah Kabupaten Tanjung Jabung bagian timur telah menunjukkan perkembangan dan kemajuan yang cukup pesat dalam penyelenggaraan pemerintahan, pelaksanaan pembangunan, dan pembinaan kemasyarakatan sehingga perlu penyesuaian struktur pemerintahannya. Secara geografis wilayah kerja Pembantu Bupati Sarolangun Bangko Wilayah Timur, wilayah kerja Pembantu Bupati Bungo Tebo Wilayah Timur, wilayah kerja Pembantu Bupati Batang Hari Wilayah Timur, wilayah Kabupaten Tanjung Jabung bagian timur mempunyai kedudukan yang strategis jika ditinjau dari segi politis, ekonomi, sosial, budaya, dan pertahanan keamanan."
+              },
+              {
+                "type": "PLAINTEXT",
+                "text": "Perkembangan wilayah kerja Pembantu Bupati Sarolangun Bangko Wilayah Timur, wilayah kerja Pembantu Bupati Bungo Tebo Wilayah Timur, wilayah Kerja Pembantu Bupati Batang Hari Wilayah Timur, dan wilayah Kabupaten Tanjung Jabung bagian timur diikuti pula dengan peningkatan jumlah penduduk. Pada Tahun 1996 penduduk wilayah kerja Pembantu Bupati Sarolangun Bangko Wilayah Timur berjumlah 164.936 jiwa, sedangkan pada Tahun 1997 meningkat menjadi 165.643 jiwa dengan laju pertumbuhan penduduk rata-rata 0,42 % per tahun. Pada Tahun 1996 penduduk wilayah kerja Pembantu Bupati Bungo Tebo Wilayah Timur berjumlah 221.449 jiwa, sedangkan pada awal tahun 1999 meningkat menjadi 224.944 jiwa dengan laju pertumbuhan rata-rata 1,58 % per tahun. Wilayah kerja Pembantu Bupati Batang Hari Wilayah Timur tahun 1996 jumlah penduduk 229.599 jiwa, sedangkan pada tahun 1997 meningkat menjadi 231.599 jiwa dengan laju pertumbuhan rata-rata 0,85% per tahun. Pada Tahun 1996 penduduk Wilayah Kabupaten Tanjung Jabung bagian timur berjumlah 207.137 jiwa, sedangkan pada tahun 1997 meningkat menjadi 209.731 jiwa dengan laju pertumbuhan 1,25 % per tahun."
+              },
+              {
+                "type": "PLAINTEXT",
+                "text": "Pertambahan jumlah penduduk tersebut telah mengakibatkan semakin bertambahnya beban tugas dan volume kerja dalam rangka penyelenggaraan pemerintahan, pelaksanaan pembangunan, dan pembinaan kemasyarakatan di wilayah kerja Pembantu Bupati Sarolangun Bangko Wilayah Timur, wilayah kerja Pembantu Bupati Bungo Tebo Wilayah Timur, wilayah kerja Pembantu Bupati Batang Hari Wilayah Timur dan Wilayah Kabupaten Tanjung Jabung bagian timur. Berdasarkan hal-hal tersebut di atas dan memperhatikan aspirasi yang berkembang dalam masyarakat sejak tahun 1989 dan selanjutnya secara formal dituangkan dalam Keputusan Dewan Perwakilan Rakyat Daerah Tingkat II Sarolangun Bangko tanggal 19 Mei 1999 No. 07 Tahun 1999 tentang Persetujuan Rencana Pemekaran Wilayah Kabupaten Daerah Tingkat II Sarolangun Bangko. Keputusan Dewan Perwakilan Rakyat Daerah Kabupaten Daerah Tingkat II Bungo Tebo tanggal 21 Mei 1999 Nomor 05 Tahun 1999 tentang Persetujuan Rencana Pemekaran Wilayah Daerah Tingkat II Bungo Tebo. Keputusan Dewan Perwakilan Rakyat Daerah Kabupaten Daerah Tingkat II Batang Hari tanggal 20 Mei 1999 No.01 Tahun 1999 tentang Persetujuan Rencana Pemekaran Wilayah Daerah Tingkat II Batang Hari. Keputusan Dewan Perwakilan Rakyat Daerah Kabupaten Daerah Tingkat II Tanjung Jabung tanggal 17 Mei 1999 No. 01 Tahun 1999 tentang Persetujuan Atas Pemekaran Kabupaten Daerah Tingkat II Tanjung Jabung. Untuk lebih meningkatkan peran aktif masyarakat, dipandang perlu membentuk Kabupaten Sarolangun sebagai pemekaran Kabupaten Sarolangun Bangko, membentuk Kabupaten Tebo sebagai pemekaran Kabupaten Bungo Tebo, membentuk Kabupaten Muaro Jambi sebagai pemekaran Kabupaten Batang Hari, dan membentuk Kabupaten Tanjung Jabung Timur sebagai Pemekaran Kabupaten Tanjung Jabung. Dengan terbentuknya Kabupaten Sarolangun sebagai pemekaran Kabupaten Sarolangun Bangko, Kabupaten Sarolangun Bangko diubah namanya menjadi Kabupaten Merangin. Wilayah Kabupaten Merangin tersebut berkurang seluas Kabupaten Sarolangun. Begitu juga dengan terbentuknya Kabupaten Tebo sebagai pemekaran Kabupaten Bungo Tebo, Kabupaten Bungo Tebo diubah namanya menjadi Kabupaten Tebo. Wilayah Kabupaten Tebo tersebut berkurang seluas Kabupaten Bungo. Dengan terbentuknya Kabupaten Muaro Jambi wilayah Kabupaten Batang Hari berkurang seluas wilayah Kabupaten Muaro Jambi. Dengan terbentuknya Kabupaten Tanjung Jabung Timur sebagai pemekaran Kabupaten Tanjung Jabung, Kabupaten Tanjung Jabung diubah namanya menjadi Kabupaten Tanjung Jabung Barat. Wilayah Kabupaten Tanjung Jabung Barat berkurang seluas Kabupaten Tanjung Jabung Timur. Selanjutnya, dengan terbentuknya Kabupaten Sarolangun, Kabupaten Tebo, Kabupaten Muaro Jambi, dan Kabupaten Tanjung Jabung Timur, maka wilayah kerja Pembantu Bupati Sarolangun Bangko Wilayah Timur, wilayah Pembantu Bupati Bungo Tebo Wilayah Timur, wilayah Pembantu Bupati Batang Hari Wilayah Timur dihapus. Penghapusan ketiga wilayah Pembantu Bupati dimaksud ditetapkan dengan Keputusan Menteri Dalam Negeri."
+              }
+            ]
+          },
+          {
+            "type": "PENJELASAN_PASAL_DEMI_PASAL",
+            "id": "",
+            "children": [
+              {
+                "type": "PENJELASAN_PASAL_DEMI_PASAL_TITLE",
+                "text": "II. PASAL DEMI PASAL"
+              },
+              {
+                "type": "PENJELASAN_PASAL",
+                "id": "",
+                "children": [
+                  {
+                    "type": "PASAL_NUMBER",
+                    "text": "Pasal 1"
+                  },
+                  {
+                    "type": "PLAINTEXT",
+                    "text": "Cukup jelas"
+                  }
+                ]
+              },
+              {
+                "type": "PENJELASAN_PASAL",
+                "id": "",
+                "children": [
+                  {
+                    "type": "PASAL_NUMBER",
+                    "text": "Pasal 2"
+                  },
+                  {
+                    "type": "PLAINTEXT",
+                    "text": "Wilayah Kabupaten Sarolangun adalah wilayah yang sebelum dibentuk Kabupaten Sarolangun merupakan wilayah kerja Pembantu Bupati Sarolangun Bangko Wilayah Timur. Wilayah Kabupaten Tebo adalah wilayah yang sebelum dibentuk Kabupaten Tebo merupakan wilayah kerja Pembantu Bupati Bungo Tebo Wilayah Timur. Wilayah Kabupaten Muaro Jambi adalah wilayah yang sebelum dibentuk Kabupaten Muaro Jambi merupakan wilayah kerja Pembantu Bupati Batang Hari Wilayah Timur. Wilayah Kabupaten Tanjung Jabung Timur berasal dari sebagian wilayah Kabupaten Tanjung Jabung yang terdiri dari Kecamatan Muaro Sabak, Kecamatan Dendang, Kecamatan Mendahara, Kecamatan Rantau Rasau, Kecamatan Nipah Panjang dan Kecamatan Sadu."
+                  }
+                ]
+              },
+              {
+                "type": "PENJELASAN_PASAL",
+                "id": "",
+                "children": [
+                  {
+                    "type": "PASAL_NUMBER",
+                    "text": "Pasal 3"
+                  },
+                  {
+                    "type": "PLAINTEXT",
+                    "text": "Cukup jelas"
+                  }
+                ]
+              },
+              {
+                "type": "PENJELASAN_PASAL",
+                "id": "",
+                "children": [
+                  {
+                    "type": "PASAL_NUMBER",
+                    "text": "Pasal 4"
+                  },
+                  {
+                    "type": "PLAINTEXT",
+                    "text": "Cukup jelas"
+                  }
+                ]
+              },
+              {
+                "type": "PENJELASAN_PASAL",
+                "id": "",
+                "children": [
+                  {
+                    "type": "PASAL_NUMBER",
+                    "text": "Pasal 5"
+                  },
+                  {
+                    "type": "PLAINTEXT",
+                    "text": "Cukup jelas"
+                  }
+                ]
+              },
+              {
+                "type": "PENJELASAN_PASAL",
+                "id": "",
+                "children": [
+                  {
+                    "type": "PASAL_NUMBER",
+                    "text": "Pasal 6"
+                  },
+                  {
+                    "type": "PLAINTEXT",
+                    "text": "Cukup Jelas"
+                  }
+                ]
+              },
+              {
+                "type": "PENJELASAN_PASAL",
+                "id": "",
+                "children": [
+                  {
+                    "type": "PASAL_NUMBER",
+                    "text": "Pasal 7"
+                  },
+                  {
+                    "type": "PLAINTEXT",
+                    "text": "Cukup jelas"
+                  }
+                ]
+              },
+              {
+                "type": "PENJELASAN_PASAL",
+                "id": "",
+                "children": [
+                  {
+                    "type": "PASAL_NUMBER",
+                    "text": "Pasal 8"
+                  },
+                  {
+                    "type": "PLAINTEXT",
+                    "text": "Cukup jelas"
+                  }
+                ]
+              },
+              {
+                "type": "PENJELASAN_PASAL",
+                "id": "",
+                "children": [
+                  {
+                    "type": "PASAL_NUMBER",
+                    "text": "Pasal 9"
+                  },
+                  {
+                    "type": "LIST",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "PENJELASAN_LIST_ITEM",
+                        "id": "",
+                        "children": [
+                          {
+                            "type": "PENJELASAN_AYAT",
+                            "text": "Ayat (1)"
+                          },
+                          {
+                            "type": "PLAINTEXT",
+                            "text": "Cukup jelas"
+                          }
+                        ]
+                      },
+                      {
+                        "type": "PENJELASAN_LIST_ITEM",
+                        "id": "",
+                        "children": [
+                          {
+                            "type": "PENJELASAN_AYAT",
+                            "text": "Ayat (2)"
+                          },
+                          {
+                            "type": "PLAINTEXT",
+                            "text": "Cukup jelas"
+                          }
+                        ]
+                      },
+                      {
+                        "type": "PENJELASAN_LIST_ITEM",
+                        "id": "",
+                        "children": [
+                          {
+                            "type": "PENJELASAN_AYAT",
+                            "text": "Ayat (3)"
+                          },
+                          {
+                            "type": "PLAINTEXT",
+                            "text": "Cukup jelas"
+                          }
+                        ]
+                      },
+                      {
+                        "type": "PENJELASAN_LIST_ITEM",
+                        "id": "",
+                        "children": [
+                          {
+                            "type": "PENJELASAN_AYAT",
+                            "text": "Ayat (4)"
+                          },
+                          {
+                            "type": "PLAINTEXT",
+                            "text": "Cukup Jelas"
+                          }
+                        ]
+                      },
+                      {
+                        "type": "PENJELASAN_LIST_ITEM",
+                        "id": "",
+                        "children": [
+                          {
+                            "type": "PENJELASAN_AYAT",
+                            "text": "Ayat (5)"
+                          },
+                          {
+                            "type": "PLAINTEXT",
+                            "text": "Peta sebagaimana dimaksud pada ayat ini adalah peta wilayah Kabupaten Sarolangun, Kabupaten Tebo, Kabupaten Muaro Jambi, dan Kabupaten Tanjung Jabung Timur dalam bentuk lampiran Undang-undang ini."
+                          }
+                        ]
+                      },
+                      {
+                        "type": "PENJELASAN_LIST_ITEM",
+                        "id": "",
+                        "children": [
+                          {
+                            "type": "PENJELASAN_AYAT",
+                            "text": "Ayat (6)"
+                          },
+                          {
+                            "type": "PLAINTEXT",
+                            "text": "Penetapan batas wilayah secara pasti antara Kabupaten Sarolangun dengan wilayah Kabupaten Merangin, Kabupaten Tebo dengan Kabupaten Bungo, Kabupaten Muaro Jambi dengan Kabupaten Batang Hari, dan Kabupaten Tanjung Jabung Timur dengan Kabupaten Tanjung Jabung Barat ditetapkan oleh Menteri Dalam Negeri setelah mempertimbangkan usul Gubernur Jambi yang didasarkan atas hasil penelitian, pengukuran, dan pematokan di lapangan."
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "PENJELASAN_PASAL",
+                "id": "",
+                "children": [
+                  {
+                    "type": "PASAL_NUMBER",
+                    "text": "Pasal 10"
+                  },
+                  {
+                    "type": "LIST",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "PENJELASAN_LIST_ITEM",
+                        "id": "",
+                        "children": [
+                          {
+                            "type": "PENJELASAN_AYAT",
+                            "text": "Ayat (1)"
+                          },
+                          {
+                            "type": "PLAINTEXT",
+                            "text": "Cukup jelas"
+                          }
+                        ]
+                      },
+                      {
+                        "type": "PENJELASAN_LIST_ITEM",
+                        "id": "",
+                        "children": [
+                          {
+                            "type": "PENJELASAN_AYAT",
+                            "text": "Ayat (2)"
+                          },
+                          {
+                            "type": "PLAINTEXT",
+                            "text": "Dalam rangka pengembangan Kabupaten Sarolangun, Kabupaten Tebo, Kabupaten Muaro Jambi dan Kabupaten Tanjung Jabung Timur sesuai dengan potensi Daerah, dan guna perencanaan, penyelenggaraan pemerintahan, dan pelaksanaan pembangunan pada masa masa mendatang, khususnya untuk pengembangan sarana serta prasarana pemerintah dan pembangunan, diperlukan adanya kesatuan perencanaan pembangunan. Untuk itu, Tata Ruang Wilayah Kabupaten Sarolangun, Kabupaten Tebo, Kabupaten Muaro Jambi, dan Kabupaten Tajung Jabung Timur harus benar-benar serasi dan terpadu penyusunannya dalam satu kesatuan sistem rencana Tata Ruang Wilayah Nasional, Propinsi, dan Kabupaten/Kota."
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "PENJELASAN_PASAL",
+                "id": "",
+                "children": [
+                  {
+                    "type": "PASAL_NUMBER",
+                    "text": "Pasal 11"
+                  },
+                  {
+                    "type": "LIST",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "PENJELASAN_LIST_ITEM",
+                        "id": "",
+                        "children": [
+                          {
+                            "type": "PENJELASAN_AYAT",
+                            "text": "Ayat (1)"
+                          },
+                          {
+                            "type": "PLAINTEXT",
+                            "text": "Yang dimaksud dengan Sarolangun sebagai ibukota Kabupaten Sarolangun adalah sebagian wilayah yang berada di Kecamatan Sarolangun."
+                          }
+                        ]
+                      },
+                      {
+                        "type": "PENJELASAN_LIST_ITEM",
+                        "id": "",
+                        "children": [
+                          {
+                            "type": "PENJELASAN_AYAT",
+                            "text": "Ayat (2)"
+                          },
+                          {
+                            "type": "PLAINTEXT",
+                            "text": "Yang dimaksud dengan Muaro Tebo sebagai ibukota Kabupaten Tebo adalah sebagian wilayah yang berada di Kecamatan Tebo Tengah."
+                          }
+                        ]
+                      },
+                      {
+                        "type": "PENJELASAN_LIST_ITEM",
+                        "id": "",
+                        "children": [
+                          {
+                            "type": "PENJELASAN_AYAT",
+                            "text": "Ayat (3)"
+                          },
+                          {
+                            "type": "PLAINTEXT",
+                            "text": "Yang dimaksud dengan Sengeti sebagai ibukota Kabupaten Muaro Jambi adalah sebagian wilayah yang berada di Kecamatan Sakernan."
+                          }
+                        ]
+                      },
+                      {
+                        "type": "PENJELASAN_LIST_ITEM",
+                        "id": "",
+                        "children": [
+                          {
+                            "type": "PENJELASAN_AYAT",
+                            "text": "Ayat (4)"
+                          },
+                          {
+                            "type": "PLAINTEXT",
+                            "text": "Yang dimaksud dengan Muaro Sabak sebagai ibukota Kabupaten Tanjung Jabung Timur adalah sebagian wilayah yang berada di Kecamatan Muaro Sabak."
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "PENJELASAN_PASAL",
+                "id": "",
+                "children": [
+                  {
+                    "type": "PASAL_NUMBER",
+                    "text": "Pasal 12"
+                  },
+                  {
+                    "type": "PLAINTEXT",
+                    "text": "Cukup jelas"
+                  }
+                ]
+              },
+              {
+                "type": "PENJELASAN_PASAL",
+                "id": "",
+                "children": [
+                  {
+                    "type": "PASAL_NUMBER",
+                    "text": "Pasal 13"
+                  },
+                  {
+                    "type": "PLAINTEXT",
+                    "text": "Cukup jelas"
+                  }
+                ]
+              },
+              {
+                "type": "PENJELASAN_PASAL",
+                "id": "",
+                "children": [
+                  {
+                    "type": "PASAL_NUMBER",
+                    "text": "Pasal 14"
+                  },
+                  {
+                    "type": "PLAINTEXT",
+                    "text": "Cukup jelas"
+                  }
+                ]
+              },
+              {
+                "type": "PENJELASAN_PASAL",
+                "id": "",
+                "children": [
+                  {
+                    "type": "PASAL_NUMBER",
+                    "text": "Pasal 15"
+                  },
+                  {
+                    "type": "PLAINTEXT",
+                    "text": "Pembentukan dinas-dinas Kabupaten dan lembaga teknis Kabupaten harus disesuaikan dengan kebutuhan dan kemampuan Kabupaten."
+                  }
+                ]
+              },
+              {
+                "type": "PENJELASAN_PASAL",
+                "id": "",
+                "children": [
+                  {
+                    "type": "PASAL_NUMBER",
+                    "text": "Pasal 16"
+                  },
+                  {
+                    "type": "LIST",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "PENJELASAN_LIST_ITEM",
+                        "id": "",
+                        "children": [
+                          {
+                            "type": "PENJELASAN_AYAT",
+                            "text": "Ayat (1)"
+                          },
+                          {
+                            "type": "PLAINTEXT",
+                            "text": "Cukup jelas"
+                          }
+                        ]
+                      },
+                      {
+                        "type": "PENJELASAN_LIST_ITEM",
+                        "id": "",
+                        "children": [
+                          {
+                            "type": "PENJELASAN_AYAT",
+                            "text": "Ayat (2)"
+                          },
+                          {
+                            "type": "LIST",
+                            "id": "",
+                            "children": [
+                              {
+                                "type": "PENJELASAN_LIST_ITEM",
+                                "id": "",
+                                "children": [
+                                  {
+                                    "type": "PENJELASAN_HURUF",
+                                    "text": "Huruf a"
+                                  },
+                                  {
+                                    "type": "PLAINTEXT",
+                                    "text": "Yang dimaksud dengan partai politik peserta pemilihan umum lokal adalah partai politik peserta pemilihan umum tahun 1999."
+                                  }
+                                ]
+                              },
+                              {
+                                "type": "PENJELASAN_LIST_ITEM",
+                                "id": "",
+                                "children": [
+                                  {
+                                    "type": "PENJELASAN_HURUF",
+                                    "text": "Huruf b"
+                                  },
+                                  {
+                                    "type": "PLAINTEXT",
+                                    "text": "Yang dimaksud dengan anggota ABRI adalah Tentara Nasional Indonesia dan Kepolisian Negara Republik Indonesia."
+                                  }
+                                ]
+                              }
+                            ]
+                          }
+                        ]
+                      },
+                      {
+                        "type": "PENJELASAN_LIST_ITEM",
+                        "id": "",
+                        "children": [
+                          {
+                            "type": "PENJELASAN_AYAT",
+                            "text": "Ayat (3)"
+                          },
+                          {
+                            "type": "PLAINTEXT",
+                            "text": "Cukup jelas"
+                          }
+                        ]
+                      },
+                      {
+                        "type": "PENJELASAN_LIST_ITEM",
+                        "id": "",
+                        "children": [
+                          {
+                            "type": "PENJELASAN_AYAT",
+                            "text": "Ayat (4)"
+                          },
+                          {
+                            "type": "PLAINTEXT",
+                            "text": "Cukup jelas"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "PENJELASAN_PASAL",
+                "id": "",
+                "children": [
+                  {
+                    "type": "PASAL_NUMBER",
+                    "text": "Pasal 17"
+                  },
+                  {
+                    "type": "PLAINTEXT",
+                    "text": "Penjabat Bupati Sarolangun, Penjabat Bupati Tebo, Penjabat Bupati Muaro Jambi, dan Penjabat Bupati Tanjung Jabung Timur melaksanakan tugas sampai dengan disahkannya Bupati Sarolangun, Bupati Tebo, Bupati Muaro Jambi, dan Bupati Tanjung Jabung Timur hasil pemilihan Dewan Perwakilan Rakyat Daerah Kabupaten masing-masing."
+                  }
+                ]
+              },
+              {
+                "type": "PENJELASAN_PASAL",
+                "id": "",
+                "children": [
+                  {
+                    "type": "PASAL_NUMBER",
+                    "text": "Pasal 18"
+                  },
+                  {
+                    "type": "LIST",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "PENJELASAN_LIST_ITEM",
+                        "id": "",
+                        "children": [
+                          {
+                            "type": "PENJELASAN_AYAT",
+                            "text": "Ayat (1)"
+                          },
+                          {
+                            "type": "PLAINTEXT",
+                            "text": "Dengan terbentuknya Kabupaten Sarolangun, Kabupaten Tebo, Kabupaten Muaro Jambi, dan Kabupaten Tanjung Jabung Timur untuk mencapai daya guna dan hasil guna dalam penyelenggaraan pemerintahan, pelaksanaan pembangunan, dan pembinaan kemasyarakatan digunakan pegawai, tanah, gedung perkantoran beserta perlengkapannya, dan fasilitas pelayanan umum yang telah ada selama ini dan telah dipakai dalam tugas oleh Pembantu Bupati Sarolangun Bangko Wilayah Timur, Pembantu Bupati Bungo Tebo Wilayah Timur, dan wilayah pembantu Bupati Batang Hari Wilayah Timur serta wilayah Kecamatan Muaro Sabak, Kecamatan Dendang, Kecamatan Mendahara, Kecamatan Rantau Rasau, Kecamatan Nipah Panjang, dan Kecamatan Sadu. Dalam rangka tertib administrasi diperlukan tindakan hukum berupa penyerahan dari Pemerintah Propinsi Jambi dan Pemerintah Kabupaten Merangin kepada Pemerintah Kabupaten Sarolangun, Pemerintah Propinsi Jambi dan Pemerintah Kabupaten Bungo kepada Pemerintah Kabupaten Tebo, Pemerintah Propinsi Jambi dan Pemerintah Kabupaten Batang Hari kepada Pemerintah Kabupaten Muaro Jambi, serta Pemerintah Propinsi Jambi dan Pemerintah Kabupaten Tanjung Jabung Barat kepada Pemerintah Kabupaten Tanjung Jabung Timur. Demikian halnya dengan Badan Usaha Milik Daerah Propinsi Jambi dan Kabupaten Merangin yang kedudukan dan kegiatannya berada di Kabupaten Sarolangun, Badan Usaha Milik Daerah Propinsi Jambi dan Kabupaten Bungo yang kedudukan dalam kegiatannya berada di Kabupaten Tebo dan Badan Usaha Milik Daerah Propinsi Jambi dan Kabupaten Batang Hari yang kedudukan dan kegiatannya berada di Kabupaten Muaro Jambi, Badan Usaha Milik Daerah Propinsi Jambi dan Kabupaten Tanjung Jabung Barat yang kedudukan dan kegiatannya berada di Kabupaten Tanjung Jabung Timur untuk mencapai daya guna dan hasil guna dalam penyelenggaraannya, jika dianggap perlu, diserahkan oleh Pemerintah Propinsi Jambi, Pemerintah Kabupaten Merangin kepada Pemerintah Kabupaten Sarolangun, Pemerintah Propinsi Jambi dan Pemerintah Kabupaten Bungo kepada Pemerintah Kabupaten Tebo, Pemerintah Propinsi Jambi dan Pemerintah Kabupaten Batang Hari kepada Pemerintah Kabupaten Muaro Jambi, serta Pemerintah Propinsi Jambi dan Pemerintah Kabupaten Tanjung Jabung Barat kepada Pemerintah Kabupaten Tanjung Jabung Timur. Begitu juga mengenai utang piutang yang kegunaannya untuk wilayah Kabupaten Sarolangun diserahkan kepada Pemerintah Kabupaten Sarolangun dan utang piutang yang kegunaannya untuk wilayah Kabupaten Tebo, Kabupaten Muaro Jambi, dan Kabupaten Tanjung Jabung Timur diserahkan pula masing masing kepada Pemerintah Kabupaten Sarolangun, Pemerintah Kabupaten Tebo, Kabupaten Muaro Jambi, dan Kabupaten Tanjung Jabung Timur. Berkenaan dengan pengaturan penyerahan tersebut, dibuatkan daftar inventaris."
+                          }
+                        ]
+                      },
+                      {
+                        "type": "PENJELASAN_LIST_ITEM",
+                        "id": "",
+                        "children": [
+                          {
+                            "type": "PENJELASAN_AYAT",
+                            "text": "Ayat (2)"
+                          },
+                          {
+                            "type": "PLAINTEXT",
+                            "text": "Yang dimaksud sejak diresmikan Kabupaten Sarolangun, Kabupaten Tebo, Kabupaten Muaro Jambi, dan Kabupaten Tanjung Jabung Timur adalah terhitung sejak dilantiknya Penjabat Bupati Sarolangun, Penjabat Bupati Tebo, Penjabat Bupati Muaro Jambi, dan Penjabat Bupati Tanjung Jabung Timur. Pelantikan Penjabat Bupati Sarolangun, Penjabat Bupati Tebo, Penjabat Bupati Muaro Jambi, dan Penjabat Bupati Tanjung Jabung Timur didahului peresmian pembentukan Kabupaten Sarolangun, Kabupaten Tebo, Kabupaten Muaro Jambi, dan Kabupaten Tanjung Jabung Timur oleh Menteri Dalam Negeri atas nama Presiden. Setelah satu tahun peresmian Kabupaten Sarolangun, Kabupaten Tebo, Kabupaten Muaro Jambi, dan Kabupaten Tanjung Jabung Timur, Gubernur Jambi wajib melaporkan pelaksanaan sebagaimana dimaksud pada ayat ini kepada Menteri Dalam Negeri untuk bahan pengambilan kebijaksanaan lebih lanjut."
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "PENJELASAN_PASAL",
+                "id": "",
+                "children": [
+                  {
+                    "type": "PASAL_NUMBER",
+                    "text": "Pasal 19"
+                  },
+                  {
+                    "type": "LIST",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "PENJELASAN_LIST_ITEM",
+                        "id": "",
+                        "children": [
+                          {
+                            "type": "PENJELASAN_AYAT",
+                            "text": "Ayat (1)"
+                          },
+                          {
+                            "type": "PLAINTEXT",
+                            "text": "Yang dimaksud dengan pembiayaan adalah biaya untuk pembangunan gedung perkantoran, rumah dinas, perlengkapan kantor, sarana mebel, dan sarana mobilitas, serta untuk biaya operasional bagi kelancaran penyelenggaraan pemerintahan dan pembangunan, serta pembinaan kemasyarakatan."
+                          }
+                        ]
+                      },
+                      {
+                        "type": "PENJELASAN_LIST_ITEM",
+                        "id": "",
+                        "children": [
+                          {
+                            "type": "PENJELASAN_AYAT",
+                            "text": "Ayat (2)"
+                          },
+                          {
+                            "type": "PLAINTEXT",
+                            "text": "Cukup Jelas"
+                          }
+                        ]
+                      },
+                      {
+                        "type": "PENJELASAN_LIST_ITEM",
+                        "id": "",
+                        "children": [
+                          {
+                            "type": "PENJELASAN_AYAT",
+                            "text": "Ayat (3)"
+                          },
+                          {
+                            "type": "PLAINTEXT",
+                            "text": "Cukup jelas"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "PENJELASAN_PASAL",
+                "id": "",
+                "children": [
+                  {
+                    "type": "PASAL_NUMBER",
+                    "text": "Pasal 20"
+                  },
+                  {
+                    "type": "PLAINTEXT",
+                    "text": "Cukup jelas"
+                  }
+                ]
+              },
+              {
+                "type": "PENJELASAN_PASAL",
+                "id": "",
+                "children": [
+                  {
+                    "type": "PASAL_NUMBER",
+                    "text": "Pasal 21"
+                  },
+                  {
+                    "type": "PLAINTEXT",
+                    "text": "Cukup jelas"
+                  }
+                ]
+              },
+              {
+                "type": "PENJELASAN_PASAL",
+                "id": "",
+                "children": [
+                  {
+                    "type": "PASAL_NUMBER",
+                    "text": "Pasal 22"
+                  },
+                  {
+                    "type": "PLAINTEXT",
+                    "text": "Cukup jelas"
+                  }
+                ]
+              },
+              {
+                "type": "PENJELASAN_PASAL",
+                "id": "",
+                "children": [
+                  {
+                    "type": "PASAL_NUMBER",
+                    "text": "Pasal 23"
+                  },
+                  {
+                    "type": "PLAINTEXT",
+                    "text": "Cukup jelas"
+                  }
+                ]
+              },
+              {
+                "type": "PENJELASAN_PASAL",
+                "id": "",
+                "children": [
+                  {
+                    "type": "PASAL_NUMBER",
+                    "text": "Pasal 24"
+                  },
+                  {
+                    "type": "PLAINTEXT",
+                    "text": "Cukup jelas"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

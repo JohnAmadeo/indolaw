@@ -1,0 +1,3390 @@
+{
+  "metadata": {
+    "lembaranNegaraNumber": 184,
+    "lembaranNegaraYear": 1999,
+    "tambahanLembaranNumber": 3905,
+    "number": 56,
+    "topic": "Rakyat Terlatih",
+    "year": 1999
+  },
+  "content": {
+    "type": "UNDANG_UNDANG",
+    "id": "",
+    "children": [
+      {
+        "type": "OPENING",
+        "id": "",
+        "children": [
+          {
+            "type": "UU_TITLE",
+            "id": "",
+            "children": [
+              {
+                "type": "PLAINTEXT",
+                "text": "UNDANG-UNDANG REPUBLIK INDONESIA"
+              },
+              {
+                "type": "UU_TITLE_YEAR_AND_NUMBER",
+                "text": "NOMOR 56 TAHUN 1999"
+              },
+              {
+                "type": "PLAINTEXT",
+                "text": "TENTANG"
+              },
+              {
+                "type": "UU_TITLE_TOPIC",
+                "text": "RAKYAT TERLATIH"
+              }
+            ]
+          },
+          {
+            "type": "PREFACE",
+            "id": "",
+            "children": [
+              {
+                "type": "PLAINTEXT",
+                "text": "DENGAN RAHMAT TUHAN YANG MAHA ESA"
+              },
+              {
+                "type": "PLAINTEXT",
+                "text": "PRESIDEN REPUBLIK INDONESIA,"
+              }
+            ]
+          },
+          {
+            "type": "CONSIDERATIONS",
+            "id": "",
+            "children": [
+              {
+                "type": "PLAINTEXT",
+                "text": "Menimbang:"
+              },
+              {
+                "type": "LIST",
+                "id": "",
+                "children": [
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "LETTER_WITH_DOT",
+                        "text": "a."
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "bahwa dalam rangka pertahanan keamanan negara untuk menjamin kelangsungan hidup bangsa dan negara kesatuan Republik Indonesia yang berdasarkan Pancasila dan Undang Undang Dasar 1945, setiap warga negara berhak dan wajib ikut serta dalam usaha pembelaan negara;"
+                      }
+                    ]
+                  },
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "LETTER_WITH_DOT",
+                        "text": "b."
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "bahwa salah satu wujud keikutsertaan warga negara Republik Indonesia dalam usaha pembelaan negara dilaksanakan melalui keanggotaan Rakyat Terlatih;"
+                      }
+                    ]
+                  },
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "LETTER_WITH_DOT",
+                        "text": "c."
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "bahwa sesuai dengan Pasal 20 Undang-undang Nomor 20 Tahun 1982 tentang Ketentuan ketentuan Pokok Pertahanan Keamanan Negara Republik Indonesia sebagaimana telah diubah dengan Undang-undang Nomor 1 Tahun 1988 tentang Perubahan atas Undang undang Nomor 20 Tahun 1982 tentang Ketentuan-ketentuan Pokok Pertahanan Keamanan Negara Republik Indonesia, ketentuan tentang Rakyat Terlatih diatur dengan Undang undang;"
+                      }
+                    ]
+                  },
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "LETTER_WITH_DOT",
+                        "text": "d."
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "bahwa berdasarkan pertimbangan sebagaimana dimaksud dalam huruf a, b, dan c, perlu dibentuk Undang-undang tentang Rakyat Terlatih."
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "PRINCIPLES",
+            "id": "",
+            "children": [
+              {
+                "type": "PLAINTEXT",
+                "text": "Mengingat:"
+              },
+              {
+                "type": "LIST",
+                "id": "",
+                "children": [
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "NUMBER_WITH_DOT",
+                        "text": "1."
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "Pasal 5 ayat (1), Pasal 20 ayat (1), dan Pasal 30 Undang-Undang Dasar 1945;"
+                      }
+                    ]
+                  },
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "NUMBER_WITH_DOT",
+                        "text": "2."
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "Undang-undang Nomor 20 Tahun 1982 tentang Ketentuan-ketentuan Pokok Pertahanan Keamanan Negara Republik Indonesia (Lembaran Negara Republik Indonesia Tahun 1982 Nomor 51, Tambahan Lembaran Negara Nomor 3234), sebagaimana telah diubah dengan Undang-undang Nomor 1 Tahun 1988 tentang Perubahan atas Undang-undang Nomor 20 Tahun 1982 tentang Ketentuan-ketentuan Pokok Pertahanan Keamanan Negara Republik Indonesia (Lembaran Negara Republik Indonesia Tahun 1988 Nomor 3, Tambahan Lembaran Negara Nomor 3368)."
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "AGREEMENT",
+            "id": "",
+            "children": [
+              {
+                "type": "PLAINTEXT",
+                "text": "Dengan persetujuan"
+              },
+              {
+                "type": "PLAINTEXT",
+                "text": "DEWAN PERWAKILAN RAKYAT REPUBLIK INDONESIA"
+              },
+              {
+                "type": "PLAINTEXT",
+                "text": "MEMUTUSKAN:"
+              },
+              {
+                "type": "PLAINTEXT",
+                "text": "Menetapkan:"
+              },
+              {
+                "type": "PLAINTEXT",
+                "text": "UNDANG-UNDANG TENTANG RAKYAT TERLATIH"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "BAB",
+        "id": "bab-1",
+        "children": [
+          {
+            "type": "BAB_NUMBER",
+            "text": "BAB I"
+          },
+          {
+            "type": "BAB_TITLE",
+            "text": "KETENTUAN UMUM"
+          },
+          {
+            "type": "PASAL",
+            "id": "pasal-1",
+            "children": [
+              {
+                "type": "PASAL_NUMBER",
+                "text": "Pasal 1"
+              },
+              {
+                "type": "PLAINTEXT",
+                "text": "Dalam Undang-undang ini yang dimaksud dengan:"
+              },
+              {
+                "type": "LIST",
+                "id": "",
+                "children": [
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "NUMBER_WITH_DOT",
+                        "text": "1."
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "Rakyat Terlatih adalah komponen dasar kekuatan pertahanan keamanan negara yang mampu melaksanakan fungsi ketertiban umum, perlindungan rakyat, keamanan rakyat, dan perlawanan rakyat dalam rangka penyelenggaraan pertahanan keamanan negara."
+                      }
+                    ]
+                  },
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "NUMBER_WITH_DOT",
+                        "text": "2."
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "Bela negara adalah sikap dan perilaku warga negara yang dijiwai oleh kecintaannya kepada negara kesatuan Republik Indonesia yang berdasarkan Pancasila dan Undang-Undang Dasar 1945 dalam menjamin kelangsungan hidup bangsa dan negara."
+                      }
+                    ]
+                  },
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "NUMBER_WITH_DOT",
+                        "text": "3."
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "Wajib Prabakti adalah kewajiban warga negara Republik Indonesia untuk mengikuti pendidikan dan pelatihan dalam rangka mewujudkan Rakyat Terlatih."
+                      }
+                    ]
+                  },
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "NUMBER_WITH_DOT",
+                        "text": "4."
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "Wajib Bakti adalah pelaksanaan kewajiban pengabdian anggota Rakyat Terlatih dalam susunan kesatuan Rakyat Terlatih setelah menyelesaikan Wajib Prabakti."
+                      }
+                    ]
+                  },
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "NUMBER_WITH_DOT",
+                        "text": "5."
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "Korporasi adalah kumpulan orang dan/atau kekayaan yang terorganisasi, baik merupakan badan hukum maupun bukan badan hukum."
+                      }
+                    ]
+                  },
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "NUMBER_WITH_DOT",
+                        "text": "6."
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "Warga negara adalah warga negara Republik Indonesia."
+                      }
+                    ]
+                  },
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "NUMBER_WITH_DOT",
+                        "text": "7."
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "Penyelenggara adalah Menteri, Komisi Pengerahan, pelaksana pendidikan dan pelatihan, dan pejabat lainnya yang bertugas dan bertanggung jawab dalam pelaksanaan Wajib Prabakti dan Wajib Bakti."
+                      }
+                    ]
+                  },
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "NUMBER_WITH_DOT",
+                        "text": "8."
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "Menteri adalah Menteri yang bertanggung jawab di bidang pertahanan keamanan negara."
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "PASAL",
+            "id": "pasal-2",
+            "children": [
+              {
+                "type": "PASAL_NUMBER",
+                "text": "Pasal 2"
+              },
+              {
+                "type": "PLAINTEXT",
+                "text": "Rakyat Terlatih dibentuk dengan tujuan untuk meningkatkan daya dan kekuatan tangkal bangsa dan negara, membantu Tentara Nasional Indonesia dan Kepolisian Negara Republik Indonesia, menjaga persatuan dan kesatuan bangsa, dan menjamin keamanan dan ketertiban masyarakat dalam rangka pertahanan keamanan negara."
+              }
+            ]
+          },
+          {
+            "type": "PASAL",
+            "id": "pasal-3",
+            "children": [
+              {
+                "type": "PASAL_NUMBER",
+                "text": "Pasal 3"
+              },
+              {
+                "type": "PLAINTEXT",
+                "text": "Rakyat Terlatih merupakan salah satu wadah dan bentuk keikutsertaan warga negara sebagai perwujudan hak dan kewajiban dalam usaha pembelaan negara yang menunjukkan sifat kesemestaan dan keserbagunaan dalam penyelenggaraan pertahanan keamanan negara."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "BAB",
+        "id": "bab-2",
+        "children": [
+          {
+            "type": "BAB_NUMBER",
+            "text": "BAB II"
+          },
+          {
+            "type": "BAB_TITLE",
+            "text": "PEMBENTUKAN DAN PEMBINAAN"
+          },
+          {
+            "type": "PASAL",
+            "id": "pasal-4",
+            "children": [
+              {
+                "type": "PASAL_NUMBER",
+                "text": "Pasal 4"
+              },
+              {
+                "type": "LIST",
+                "id": "",
+                "children": [
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "NUMBER_WITH_BRACKETS",
+                        "text": "(1)"
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "Presiden menetapkan kebijakan umum pembentukan dan pembinaan Rakyat Terlatih setelah berkonsultasi dengan Dewan Perwakilan Rakyat."
+                      }
+                    ]
+                  },
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "NUMBER_WITH_BRACKETS",
+                        "text": "(2)"
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "Penetapan kebijakan umum sebagaimana dimaksud dalam ayat (1) diatur dengan Peraturan Pemerintah."
+                      }
+                    ]
+                  },
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "NUMBER_WITH_BRACKETS",
+                        "text": "(3)"
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "Pelaksanaan kebijakan sebagaimana dimaksud dalam ayat (1) dan ayat (2) dilakukan oleh Menteri."
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "PASAL",
+            "id": "pasal-5",
+            "children": [
+              {
+                "type": "PASAL_NUMBER",
+                "text": "Pasal 5"
+              },
+              {
+                "type": "LIST",
+                "id": "",
+                "children": [
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "NUMBER_WITH_BRACKETS",
+                        "text": "(1)"
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "Pembentukan anggota Rakyat Terlatih dilaksanakan melalui Wajib Prabakti bagi warga negara yang memenuhi persyaratan."
+                      }
+                    ]
+                  },
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "NUMBER_WITH_BRACKETS",
+                        "text": "(2)"
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "Untuk menjadi anggota Rakyat Terlatih, sekurang-kurangnya harus memenuhi persyaratan sebagai berikut:"
+                      },
+                      {
+                        "type": "LIST",
+                        "id": "",
+                        "children": [
+                          {
+                            "type": "LIST_ITEM",
+                            "id": "",
+                            "children": [
+                              {
+                                "type": "LETTER_WITH_DOT",
+                                "text": "a."
+                              },
+                              {
+                                "type": "PLAINTEXT",
+                                "text": "warga negara;"
+                              }
+                            ]
+                          },
+                          {
+                            "type": "LIST_ITEM",
+                            "id": "",
+                            "children": [
+                              {
+                                "type": "LETTER_WITH_DOT",
+                                "text": "b."
+                              },
+                              {
+                                "type": "PLAINTEXT",
+                                "text": "bertaqwa kepada Tuhan Yang Maha Esa;"
+                              }
+                            ]
+                          },
+                          {
+                            "type": "LIST_ITEM",
+                            "id": "",
+                            "children": [
+                              {
+                                "type": "LETTER_WITH_DOT",
+                                "text": "c."
+                              },
+                              {
+                                "type": "PLAINTEXT",
+                                "text": "setia kepada Pancasila dan Undang-Undang Dasar 1945;"
+                              }
+                            ]
+                          },
+                          {
+                            "type": "LIST_ITEM",
+                            "id": "",
+                            "children": [
+                              {
+                                "type": "LETTER_WITH_DOT",
+                                "text": "d."
+                              },
+                              {
+                                "type": "PLAINTEXT",
+                                "text": "berumur 18 (delapan belas) tahun sampai dengan 45 (empat puluh lima) tahun;"
+                              }
+                            ]
+                          },
+                          {
+                            "type": "LIST_ITEM",
+                            "id": "",
+                            "children": [
+                              {
+                                "type": "LETTER_WITH_DOT",
+                                "text": "e."
+                              },
+                              {
+                                "type": "PLAINTEXT",
+                                "text": "berkelakuan baik;"
+                              }
+                            ]
+                          },
+                          {
+                            "type": "LIST_ITEM",
+                            "id": "",
+                            "children": [
+                              {
+                                "type": "LETTER_WITH_DOT",
+                                "text": "f."
+                              },
+                              {
+                                "type": "PLAINTEXT",
+                                "text": "sehat jasmani dan rohani; dan"
+                              }
+                            ]
+                          },
+                          {
+                            "type": "LIST_ITEM",
+                            "id": "",
+                            "children": [
+                              {
+                                "type": "LETTER_WITH_DOT",
+                                "text": "g."
+                              },
+                              {
+                                "type": "PLAINTEXT",
+                                "text": "tidak dalam keadaan kehilangan haknya untuk ikut serta dalam usaha pembelaan negara."
+                              }
+                            ]
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "NUMBER_WITH_BRACKETS",
+                        "text": "(3)"
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "Ketentuan lebih lanjut mengenai persyaratan sebagaimana dimaksud dalam ayat (2) diatur dengan Keputusan Menteri."
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "PASAL",
+            "id": "pasal-6",
+            "children": [
+              {
+                "type": "PASAL_NUMBER",
+                "text": "Pasal 6"
+              },
+              {
+                "type": "LIST",
+                "id": "",
+                "children": [
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "NUMBER_WITH_BRACKETS",
+                        "text": "(1)"
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "Dalam rangka pembentukan anggota Rakyat Terlatih sebagaimana dimaksud dalam Pasal 5 dilaksanakan pendataan terhadap warga negara."
+                      }
+                    ]
+                  },
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "NUMBER_WITH_BRACKETS",
+                        "text": "(2)"
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "Dalam melaksanakan pendataan sebagaimana dimaksud dalam ayat (1) Menteri berkoordinasi dengan pimpinan departemen dan/atau pimpinan lembaga pemerintah non departemen terkait."
+                      }
+                    ]
+                  },
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "NUMBER_WITH_BRACKETS",
+                        "text": "(3)"
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "Ketentuan lebih lanjut mengenai pendataan sebagaimana dimaksud dalam ayat (1) diatur dengan Keputusan Menteri."
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "PASAL",
+            "id": "pasal-7",
+            "children": [
+              {
+                "type": "PASAL_NUMBER",
+                "text": "Pasal 7"
+              },
+              {
+                "type": "LIST",
+                "id": "",
+                "children": [
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "NUMBER_WITH_BRACKETS",
+                        "text": "(1)"
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "Warga negara yang memenuhi persyaratan sebagaimana dimaksud dalam Pasal 5 dapat dipanggil secara bergilir untuk melaksanakan Wajib Prabakti."
+                      }
+                    ]
+                  },
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "NUMBER_WITH_BRACKETS",
+                        "text": "(2)"
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "Warga negara yang dipanggil sebagaimana dimaksud dalam ayat (1) wajib memenuhi panggilan tersebut."
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "PASAL",
+            "id": "pasal-8",
+            "children": [
+              {
+                "type": "PASAL_NUMBER",
+                "text": "Pasal 8"
+              },
+              {
+                "type": "PLAINTEXT",
+                "text": "Pelaksanaan Wajib Prabakti dapat ditangguhkan bagi warga negara yang:"
+              },
+              {
+                "type": "LIST",
+                "id": "",
+                "children": [
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "LETTER_WITH_DOT",
+                        "text": "a."
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "sedang menjalani penahanan;"
+                      }
+                    ]
+                  },
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "LETTER_WITH_DOT",
+                        "text": "b."
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "sedang menjalani pidana penjara atau kurungan;"
+                      }
+                    ]
+                  },
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "LETTER_WITH_DOT",
+                        "text": "c."
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "kesehatannya tidak mengizinkan;"
+                      }
+                    ]
+                  },
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "LETTER_WITH_DOT",
+                        "text": "d."
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "keberadaannya diperlukan masyarakat;"
+                      }
+                    ]
+                  },
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "LETTER_WITH_DOT",
+                        "text": "e."
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "sedang menjalani tahap ujian akhir atau tugas akhir pendidikan yang tidak dapat ditinggalkan;"
+                      }
+                    ]
+                  },
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "LETTER_WITH_DOT",
+                        "text": "f."
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "sedang menunaikan ibadah haji; atau"
+                      }
+                    ]
+                  },
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "LETTER_WITH_DOT",
+                        "text": "g."
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "sedang melaksanakan tugas penting yang tidak dapat digantikan oleh orang lain."
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "PASAL",
+            "id": "pasal-9",
+            "children": [
+              {
+                "type": "PASAL_NUMBER",
+                "text": "Pasal 9"
+              },
+              {
+                "type": "LIST",
+                "id": "",
+                "children": [
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "NUMBER_WITH_BRACKETS",
+                        "text": "(1)"
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "Untuk melaksanakan pemanggilan sebagaimana dimaksud dalam Pasal 7, dibentuk Komisi Pengerahan calon peserta Wajib Prabakti."
+                      }
+                    ]
+                  },
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "NUMBER_WITH_BRACKETS",
+                        "text": "(2)"
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "Keanggotaan Komisi sebagaimana dimaksud dalam ayat (1) terdiri atas unsur Tentara Nasional Indonesia Angkatan Darat, Tentara Nasional Indonesia Angkatan Laut, Tentara Nasional Indonesia Angkatan Udara, dan Kepolisian Negara Republik Indonesia, serta unsur instansi atau lembaga terkait."
+                      }
+                    ]
+                  },
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "NUMBER_WITH_BRACKETS",
+                        "text": "(3)"
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "Ketentuan lebih lanjut mengenai susunan, tugas, dan wewenang Komisi sebagaimana dimaksud dalam ayat (1) diatur dengan Peraturan Pemerintah."
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "PASAL",
+            "id": "pasal-10",
+            "children": [
+              {
+                "type": "PASAL_NUMBER",
+                "text": "Pasal 10"
+              },
+              {
+                "type": "LIST",
+                "id": "",
+                "children": [
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "NUMBER_WITH_BRACKETS",
+                        "text": "(1)"
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "Wajib Prabakti dilaksanakan melalui pendidikan dan pelatihan."
+                      }
+                    ]
+                  },
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "NUMBER_WITH_BRACKETS",
+                        "text": "(2)"
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "Pendidikan dan pelatihan sebagaimana dimaksud dalam ayat (1) bertujuan untuk membentuk anggota Rakyat Terlatih yang mampu melaksanakan fungsi ketertiban umum, perlindungan rakyat, keamanan rakyat, dan perlawanan rakyat."
+                      }
+                    ]
+                  },
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "NUMBER_WITH_BRACKETS",
+                        "text": "(3)"
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "Ketentuan lebih lanjut mengenai pelaksanaan pendidikan dan pelatihan sebagaimana dimaksud dalam ayat (1) diatur dengan Keputusan Menteri."
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "PASAL",
+            "id": "pasal-11",
+            "children": [
+              {
+                "type": "PASAL_NUMBER",
+                "text": "Pasal 11"
+              },
+              {
+                "type": "LIST",
+                "id": "",
+                "children": [
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "NUMBER_WITH_BRACKETS",
+                        "text": "(1)"
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "Peserta Wajib Prabakti yang dinyatakan lulus dilantik menjadi anggota Rakyat Terlatih oleh Menteri atau Pejabat lain yang ditunjuk."
+                      }
+                    ]
+                  },
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "NUMBER_WITH_BRACKETS",
+                        "text": "(2)"
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "Peserta yang dilantik sebagaimana dimaksud dalam ayat (1) wajib mengucapkan Sumpah atau Janji Anggota Rakyat Terlatih menurut agamanya masing-masing."
+                      }
+                    ]
+                  },
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "NUMBER_WITH_BRACKETS",
+                        "text": "(3)"
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "Sumpah atau Janji Anggota Rakyat Terlatih sebagaimana dimaksud dalam ayat (2) berbunyi sebagai berikut: Demi Allah/Tuhan saya bersumpah/berjanji: bahwa saya akan setia kepada Negara Kesatuan Republik Indonesia yang berdasarkan Pancasila dan Undang-Undang Dasar 1945; bahwa saya akan siap sedia membela dan mempertahankan tanah air, bangsa, dan negara; bahwa saya akan mengutamakan kepentingan negara daripada kepentingan pribadi atau golongan; bahwa saya akan memegang teguh disiplin, patuh dan taat kepada hukum yang berlaku; bahwa saya akan memegang rahasia negara sekeras-kerasnya."
+                      }
+                    ]
+                  },
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "NUMBER_WITH_BRACKETS",
+                        "text": "(4)"
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "Ketentuan lebih lanjut mengenai tata cara pelantikan dan pelaksanaan Sumpah atau Janji Anggota Rakyat Terlatih sebagaimana dimaksud dalam ayat (1) dan ayat (2) diatur dengan Keputusan Menteri."
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "PASAL",
+            "id": "pasal-12",
+            "children": [
+              {
+                "type": "PASAL_NUMBER",
+                "text": "Pasal 12"
+              },
+              {
+                "type": "LIST",
+                "id": "",
+                "children": [
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "NUMBER_WITH_BRACKETS",
+                        "text": "(1)"
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "Anggota Rakyat Terlatih disusun dalam kesatuan Rakyat Terlatih dan dibina di lingkungan permukiman, pendidikan, dan pekerjaan."
+                      }
+                    ]
+                  },
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "NUMBER_WITH_BRACKETS",
+                        "text": "(2)"
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "Penyusunan dan pembinaan kesatuan Rakyat Terlatih sebagaimana dimaksud dalam ayat (1) disesuaikan dengan fungsi ketertiban umum, perlindungan rakyat, keamanan rakyat, dan perlawanan rakyat."
+                      }
+                    ]
+                  },
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "NUMBER_WITH_BRACKETS",
+                        "text": "(3)"
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "Ketentuan lebih lanjut mengenai penyusunan dan pembinaan kesatuan Rakyat Terlatih sebagaimana dimaksud dalam ayat (2) diatur dengan Keputusan Menteri."
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "BAB",
+        "id": "bab-3",
+        "children": [
+          {
+            "type": "BAB_NUMBER",
+            "text": "BAB III"
+          },
+          {
+            "type": "BAB_TITLE",
+            "text": "PENUGASAN"
+          },
+          {
+            "type": "PASAL",
+            "id": "pasal-13",
+            "children": [
+              {
+                "type": "PASAL_NUMBER",
+                "text": "Pasal 13"
+              },
+              {
+                "type": "PLAINTEXT",
+                "text": "Penugasan Rakyat Terlatih dalam rangka Wajib Bakti merupakan wewenang Presiden yang dalam pelaksanaannya dapat didelegasikan kepada Menteri."
+              }
+            ]
+          },
+          {
+            "type": "PASAL",
+            "id": "pasal-14",
+            "children": [
+              {
+                "type": "PASAL_NUMBER",
+                "text": "Pasal 14"
+              },
+              {
+                "type": "PLAINTEXT",
+                "text": "Penugasan Rakyat Terlatih yang mengemban fungsi ketertiban umum dan perlindungan rakyat dilaksanakan berdasarkan usul tertulis dari Menteri Dalam Negeri."
+              }
+            ]
+          },
+          {
+            "type": "PASAL",
+            "id": "pasal-15",
+            "children": [
+              {
+                "type": "PASAL_NUMBER",
+                "text": "Pasal 15"
+              },
+              {
+                "type": "PLAINTEXT",
+                "text": "Penugasan Rakyat Terlatih yang mengemban fungsi keamanan rakyat dilaksanakan berdasarkan usul tertulis dari Kepala Kepolisian Republik Indonesia."
+              }
+            ]
+          },
+          {
+            "type": "PASAL",
+            "id": "pasal-16",
+            "children": [
+              {
+                "type": "PASAL_NUMBER",
+                "text": "Pasal 16"
+              },
+              {
+                "type": "PLAINTEXT",
+                "text": "Penugasan Rakyat Terlatih yang mengemban fungsi perlawanan rakyat dilaksanakan berdasarkan usul tertulis dari Panglima Tentara Nasional Indonesia."
+              }
+            ]
+          },
+          {
+            "type": "PASAL",
+            "id": "pasal-17",
+            "children": [
+              {
+                "type": "PASAL_NUMBER",
+                "text": "Pasal 17"
+              },
+              {
+                "type": "PLAINTEXT",
+                "text": "Ketentuan lebih lanjut mengenai persyaratan dan tata cara pengajuan usul sebagaimana dimaksud dalam Pasal 14, Pasal 15, dan Pasal 16 diatur dengan Peraturan Pemerintah."
+              }
+            ]
+          },
+          {
+            "type": "PASAL",
+            "id": "pasal-18",
+            "children": [
+              {
+                "type": "PASAL_NUMBER",
+                "text": "Pasal 18"
+              },
+              {
+                "type": "LIST",
+                "id": "",
+                "children": [
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "NUMBER_WITH_BRACKETS",
+                        "text": "(1)"
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "Penugasan Rakyat Terlatih dilaksanakan melalui pemanggilan anggota Rakyat Terlatih."
+                      }
+                    ]
+                  },
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "NUMBER_WITH_BRACKETS",
+                        "text": "(2)"
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "Anggota Rakyat Terlatih wajib memenuhi panggilan sebagaimana dimaksud dalam ayat (1)."
+                      }
+                    ]
+                  },
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "NUMBER_WITH_BRACKETS",
+                        "text": "(3)"
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "Pelaksanaan pemanggilan dan pengeluaran perintah untuk Wajib Bakti dilakukan oleh Menteri atau pejabat lain yang ditunjuk."
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "PASAL",
+            "id": "pasal-19",
+            "children": [
+              {
+                "type": "PASAL_NUMBER",
+                "text": "Pasal 19"
+              },
+              {
+                "type": "LIST",
+                "id": "",
+                "children": [
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "NUMBER_WITH_BRACKETS",
+                        "text": "(1)"
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "Penugasan Rakyat Terlatih yang merupakan pelaksanaan Wajib Bakti sebagaimana dimaksud dalam Pasal 14, Pasal 15, dan Pasal 16 dilakukan secara terus-menerus dalam waktu yang sesuai dengan kebutuhan, paling lama 1 (satu) tahun."
+                      }
+                    ]
+                  },
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "NUMBER_WITH_BRACKETS",
+                        "text": "(2)"
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "Dalam hal anggota Rakyat Terlatih yang terikat pekerjaan di instansi atau lembaga atau sedang mengikuti pendidikan, pelaksanaan Wajib Bakti sebagaimana dimaksud dalam ayat (1) dilakukan secara terus-menerus dalam waktu yang sesuai dengan kebutuhan, paling lama 6 (enam) bulan."
+                      }
+                    ]
+                  },
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "NUMBER_WITH_BRACKETS",
+                        "text": "(3)"
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "Pelaksanaan Wajib Bakti sebagaimana dimaksud dalam ayat (1) secara sukarela dapat diperpanjang dalam waktu paling lama 1 (satu) tahun."
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "PASAL",
+            "id": "pasal-20",
+            "children": [
+              {
+                "type": "PASAL_NUMBER",
+                "text": "Pasal 20"
+              },
+              {
+                "type": "PLAINTEXT",
+                "text": "Penugasan kesatuan Rakyat Terlatih bersifat kewilayahan, kecuali ditentukan lain sesuai dengan ketentuan peraturan perundang-undangan yang berlaku."
+              }
+            ]
+          },
+          {
+            "type": "PASAL",
+            "id": "pasal-21",
+            "children": [
+              {
+                "type": "PASAL_NUMBER",
+                "text": "Pasal 21"
+              },
+              {
+                "type": "PLAINTEXT",
+                "text": "Penugasan kesatuan Rakyat Terlatih dalam keadaan bahaya dilaksanakan sesuai dengan ketentuan peraturan perundang-undangan yang berlaku."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "BAB",
+        "id": "bab-4",
+        "children": [
+          {
+            "type": "BAB_NUMBER",
+            "text": "BAB IV"
+          },
+          {
+            "type": "BAB_TITLE",
+            "text": "HAK DAN KEWAJIBAN"
+          },
+          {
+            "type": "PASAL",
+            "id": "pasal-22",
+            "children": [
+              {
+                "type": "PASAL_NUMBER",
+                "text": "Pasal 22"
+              },
+              {
+                "type": "LIST",
+                "id": "",
+                "children": [
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "NUMBER_WITH_BRACKETS",
+                        "text": "(1)"
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "Peserta Wajib Prabakti atau anggota Rakyat Terlatih yang melaksanakan Wajib Bakti berhak untuk tidak diputuskan hubungan kerjanya dengan instansi atau lembaga tempat yang bersangkutan bertugas atau bekerja."
+                      }
+                    ]
+                  },
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "NUMBER_WITH_BRACKETS",
+                        "text": "(2)"
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "Dalam hal yang melaksanakan Wajib Prabakti atau Wajib Bakti adalah peserta didik, yang bersangkutan berhak untuk tetap dapat melanjutkan pendidikannya."
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "PASAL",
+            "id": "pasal-23",
+            "children": [
+              {
+                "type": "PASAL_NUMBER",
+                "text": "Pasal 23"
+              },
+              {
+                "type": "PLAINTEXT",
+                "text": "Peserta Wajib Prabakti atau anggota Rakyat Terlatih yang melaksanakan Wajib Bakti masing masing berhak mendapatkan rawatan Wajib Prabakti atau rawatan Wajib Bakti."
+              }
+            ]
+          },
+          {
+            "type": "PASAL",
+            "id": "pasal-24",
+            "children": [
+              {
+                "type": "PASAL_NUMBER",
+                "text": "Pasal 24"
+              },
+              {
+                "type": "LIST",
+                "id": "",
+                "children": [
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "NUMBER_WITH_BRACKETS",
+                        "text": "(1)"
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "Anggota Rakyat Terlatih yang berjasa dalam melaksanakan tugas dan/atau kewajibannya dapat diberi tanda penghargaan."
+                      }
+                    ]
+                  },
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "NUMBER_WITH_BRACKETS",
+                        "text": "(2)"
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "Anggota Rakyat Terlatih yang berjasa melampaui panggilan tugas dianugerahi tanda kehormatan selain diberi tanda penghargaan."
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "PASAL",
+            "id": "pasal-25",
+            "children": [
+              {
+                "type": "PASAL_NUMBER",
+                "text": "Pasal 25"
+              },
+              {
+                "type": "PLAINTEXT",
+                "text": "Peserta Wajib Prabakti dan anggota Rakyat Terlatih yang melaksanakan Wajib Bakti yang gugur, tewas, meninggal dunia, hilang, cacat berat, atau cacat sedang, dianugerahi tanda kehormatan atau diberi tanda penghargaan atau jaminan sosial."
+              }
+            ]
+          },
+          {
+            "type": "PASAL",
+            "id": "pasal-26",
+            "children": [
+              {
+                "type": "PASAL_NUMBER",
+                "text": "Pasal 26"
+              },
+              {
+                "type": "PLAINTEXT",
+                "text": "Ketentuan mengenai pelaksanaan Pasal 23, Pasal 24, dan Pasal 25 diatur dengan Peraturan Pemerintah."
+              }
+            ]
+          },
+          {
+            "type": "PASAL",
+            "id": "pasal-27",
+            "children": [
+              {
+                "type": "PASAL_NUMBER",
+                "text": "Pasal 27"
+              },
+              {
+                "type": "LIST",
+                "id": "",
+                "children": [
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "NUMBER_WITH_BRACKETS",
+                        "text": "(1)"
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "Anggota Rakyat Terlatih yang memenuhi persyaratan dapat diterima atau dikerahkan menjadi prajurit Tentara Nasional Indonesia Angkatan Darat, Tentara Nasional Indonesia Angkatan Laut, Tentara Nasional Indonesia Angkatan Udara, atau anggota Kepolisian Negara Republik Indonesia."
+                      }
+                    ]
+                  },
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "NUMBER_WITH_BRACKETS",
+                        "text": "(2)"
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "Anggota Rakyat Terlatih yang memenuhi persyaratan dapat diterima di bidang pekerjaan lainnya."
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "PASAL",
+            "id": "pasal-28",
+            "children": [
+              {
+                "type": "PASAL_NUMBER",
+                "text": "Pasal 28"
+              },
+              {
+                "type": "PLAINTEXT",
+                "text": "Anggota Rakyat Terlatih yang gugur atau tewas dalam melaksanakan Wajib Bakti berhak dimakamkan dengan upacara militer."
+              }
+            ]
+          },
+          {
+            "type": "PASAL",
+            "id": "pasal-29",
+            "children": [
+              {
+                "type": "PASAL_NUMBER",
+                "text": "Pasal 29"
+              },
+              {
+                "type": "PLAINTEXT",
+                "text": "Setiap anggota Rakyat Terlatih yang mengalami perubahan data pribadi wajib melaporkan perubahan tersebut kepada pimpinan kesatuan Rakyat Terlatih yang bersangkutan."
+              }
+            ]
+          },
+          {
+            "type": "PASAL",
+            "id": "pasal-30",
+            "children": [
+              {
+                "type": "PASAL_NUMBER",
+                "text": "Pasal 30"
+              },
+              {
+                "type": "PLAINTEXT",
+                "text": "Anggota Rakyat Terlatih yang sedang melaksanakan tugas perlawanan rakyat selama Wajib Bakti tunduk pada hukum militer."
+              }
+            ]
+          },
+          {
+            "type": "PASAL",
+            "id": "pasal-31",
+            "children": [
+              {
+                "type": "PASAL_NUMBER",
+                "text": "Pasal 31"
+              },
+              {
+                "type": "PLAINTEXT",
+                "text": "Pimpinan instansi, pimpinan lembaga, atau pimpinan lembaga pendidikan wajib memberi kesempatan kepada pegawai, pekerja, atau peserta didik untuk mengikuti Wajib Prabakti atau Wajib Bakti dan wajib memberikan hak-haknya."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "BAB",
+        "id": "bab-5",
+        "children": [
+          {
+            "type": "BAB_NUMBER",
+            "text": "BAB V"
+          },
+          {
+            "type": "BAB_TITLE",
+            "text": "KETENTUAN PIDANA"
+          },
+          {
+            "type": "PASAL",
+            "id": "pasal-32",
+            "children": [
+              {
+                "type": "PASAL_NUMBER",
+                "text": "Pasal 32"
+              },
+              {
+                "type": "LIST",
+                "id": "",
+                "children": [
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "NUMBER_WITH_BRACKETS",
+                        "text": "(1)"
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "Dipidana dengan pidana penjara paling lama 6 (enam) bulan:"
+                      },
+                      {
+                        "type": "LIST",
+                        "id": "",
+                        "children": [
+                          {
+                            "type": "LIST_ITEM",
+                            "id": "",
+                            "children": [
+                              {
+                                "type": "LETTER_WITH_DOT",
+                                "text": "a."
+                              },
+                              {
+                                "type": "PLAINTEXT",
+                                "text": "setiap orang tanpa alasan yang sah dengan sengaja dan melawan hukum tidak memenuhi panggilan Wajib Prabakti; atau"
+                              }
+                            ]
+                          },
+                          {
+                            "type": "LIST_ITEM",
+                            "id": "",
+                            "children": [
+                              {
+                                "type": "LETTER_WITH_DOT",
+                                "text": "b."
+                              },
+                              {
+                                "type": "PLAINTEXT",
+                                "text": "setiap orang yang dengan sengaja dan melawan hukum membuat atau menyuruh membuat dirinya atau orang lain tidak cakap untuk menjalani Wajib Prabakti."
+                              }
+                            ]
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "NUMBER_WITH_BRACKETS",
+                        "text": "(2)"
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "Apabila perbuatan sebagaimana dimaksud dalam ayat (1) dilakukan terhadap pelaksanaan Wajib Bakti, dipidana dengan pidana penjara paling lama 9 (sembilan) bulan."
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "PASAL",
+            "id": "pasal-33",
+            "children": [
+              {
+                "type": "PASAL_NUMBER",
+                "text": "Pasal 33"
+              },
+              {
+                "type": "LIST",
+                "id": "",
+                "children": [
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "NUMBER_WITH_BRACKETS",
+                        "text": "(1)"
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "Dipidana dengan pidana penjara paling lama 9 (sembilan) bulan:"
+                      },
+                      {
+                        "type": "LIST",
+                        "id": "",
+                        "children": [
+                          {
+                            "type": "LIST_ITEM",
+                            "id": "",
+                            "children": [
+                              {
+                                "type": "LETTER_WITH_DOT",
+                                "text": "a."
+                              },
+                              {
+                                "type": "PLAINTEXT",
+                                "text": "setiap orang yang dengan sengaja dan melawan hukum melakukan tipu muslihat atau rangkaian kebohongan yang menyebabkan dirinya atau orang lain ditangguhkan atau tidak memenuhi syarat untuk melaksanakan Wajib Prabakti; atau"
+                              }
+                            ]
+                          },
+                          {
+                            "type": "LIST_ITEM",
+                            "id": "",
+                            "children": [
+                              {
+                                "type": "LETTER_WITH_DOT",
+                                "text": "b."
+                              },
+                              {
+                                "type": "PLAINTEXT",
+                                "text": "setiap orang yang dengan suatu pemberian atau janji, menyalahgunakan kekuasaan atau pengaruh, menggunakan kekerasan atau ancaman kekerasan, tipu muslihat atau rangkaian kebohongan, pemberian kesempatan, atau daya upaya atau keterangan, sengaja menggerakkan orang lain untuk tidak melaksanakan Wajib Prabakti."
+                              }
+                            ]
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "NUMBER_WITH_BRACKETS",
+                        "text": "(2)"
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "Apabila perbuatan sebagaimana dimaksud dalam ayat (1) dilakukan terhadap pelaksanaan Wajib Bakti, dipidana dengan pidana penjara paling lama 1 (satu) tahun."
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "PASAL",
+            "id": "pasal-34",
+            "children": [
+              {
+                "type": "PASAL_NUMBER",
+                "text": "Pasal 34"
+              },
+              {
+                "type": "PLAINTEXT",
+                "text": "Anggota Rakyat Terlatih yang melaksanakan Wajib Bakti dalam fungsi ketertiban umum, perlindungan rakyat, atau keamanan rakyat yang dengan sengaja dan melawan hukum meninggalkan tugasnya tanpa alasan yang sah sekurang-kurangnya selama 15 (lima belas) hari, dipidana dengan pidana penjara paling lama 9 (sembilan) bulan."
+              }
+            ]
+          },
+          {
+            "type": "PASAL",
+            "id": "pasal-35",
+            "children": [
+              {
+                "type": "PASAL_NUMBER",
+                "text": "Pasal 35"
+              },
+              {
+                "type": "PLAINTEXT",
+                "text": "Pimpinan instansi, pimpinan lembaga, atau pimpinan lembaga pendidikan, yang melanggar ketentuan sebagaimana dimaksud dalam Pasal 31, dipidana dengan pidana penjara paling lama 1 (satu) tahun."
+              }
+            ]
+          },
+          {
+            "type": "PASAL",
+            "id": "pasal-36",
+            "children": [
+              {
+                "type": "PASAL_NUMBER",
+                "text": "Pasal 36"
+              },
+              {
+                "type": "PLAINTEXT",
+                "text": "Penyelenggara yang dengan sengaja dan melawan hukum atau karena kelalaiannya tidak melaksanakan atau membiarkan tidak terlaksananya Wajib Prabakti atau Wajib Bakti ataupun penyelenggaraannya menyimpang dari ketentuan peraturan perundang-undangan yang berlaku dipidana dengan pidana penjara paling lama 2 (dua) tahun."
+              }
+            ]
+          },
+          {
+            "type": "PASAL",
+            "id": "pasal-37",
+            "children": [
+              {
+                "type": "PASAL_NUMBER",
+                "text": "Pasal 37"
+              },
+              {
+                "type": "PLAINTEXT",
+                "text": "Anggota Rakyat Terlatih yang dengan sengaja dan melawan hukum atau karena kelalaiannya tidak melaksanakan ketentuan sebagaimana dimaksud dalam Pasal 29 dipidana dengan pidana penjara paling lama 6 (enam) bulan."
+              }
+            ]
+          },
+          {
+            "type": "PASAL",
+            "id": "pasal-38",
+            "children": [
+              {
+                "type": "PASAL_NUMBER",
+                "text": "Pasal 38"
+              },
+              {
+                "type": "PLAINTEXT",
+                "text": "Setiap orang yang tanpa alasan yang sah memutuskan hubungan kerja atau mengakibatkan berhentinya pendidikan bagi yang melaksanakan Wajib Prabakti atau Wajib Bakti dipidana dengan pidana penjara paling lama 2 (dua) tahun."
+              }
+            ]
+          },
+          {
+            "type": "PASAL",
+            "id": "pasal-39",
+            "children": [
+              {
+                "type": "PASAL_NUMBER",
+                "text": "Pasal 39"
+              },
+              {
+                "type": "PLAINTEXT",
+                "text": "Pejabat yang menyalahgunakan wewenang yang diberikan kepadanya untuk melaksanakan Undang-undang ini dipidana dengan pidana penjara paling lama 5 (lima) tahun."
+              }
+            ]
+          },
+          {
+            "type": "PASAL",
+            "id": "pasal-40",
+            "children": [
+              {
+                "type": "PASAL_NUMBER",
+                "text": "Pasal 40"
+              },
+              {
+                "type": "PLAINTEXT",
+                "text": "Apabila negara dalam keadaan bahaya, setiap orang yang melanggar ketentuan sebagaimana dimaksud dalam Pasal 32, Pasal 33, Pasal 34, Pasal 35, Pasal 36, Pasal 37, Pasal 38, atau Pasal 39, pidananya ditambah 1/3 (satu pertiga)."
+              }
+            ]
+          },
+          {
+            "type": "PASAL",
+            "id": "pasal-41",
+            "children": [
+              {
+                "type": "PASAL_NUMBER",
+                "text": "Pasal 41"
+              },
+              {
+                "type": "PLAINTEXT",
+                "text": "Apabila perbuatan yang diancam dengan pidana penjara berdasarkan Undang-undang ini dilakukan oleh korporasi, tuntutan dan penjatuhan pidana penjara hanya dikenakan terhadap pengurusnya."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "BAB",
+        "id": "bab-6",
+        "children": [
+          {
+            "type": "BAB_NUMBER",
+            "text": "BAB VI"
+          },
+          {
+            "type": "BAB_TITLE",
+            "text": "PEMBIAYAAN"
+          },
+          {
+            "type": "PASAL",
+            "id": "pasal-42",
+            "children": [
+              {
+                "type": "PASAL_NUMBER",
+                "text": "Pasal 42"
+              },
+              {
+                "type": "PLAINTEXT",
+                "text": "Pembiayaan penyelenggaraan Wajib Prabakti dan Wajib Bakti dibebankan pada Anggaran Pendapatan dan Belanja Negara."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "BAB",
+        "id": "bab-7",
+        "children": [
+          {
+            "type": "BAB_NUMBER",
+            "text": "BAB VII"
+          },
+          {
+            "type": "BAB_TITLE",
+            "text": "KETENTUAN PERALIHAN"
+          },
+          {
+            "type": "PASAL",
+            "id": "pasal-43",
+            "children": [
+              {
+                "type": "PASAL_NUMBER",
+                "text": "Pasal 43"
+              },
+              {
+                "type": "PLAINTEXT",
+                "text": "Pada saat Undang-undang ini mulai berlaku:"
+              },
+              {
+                "type": "LIST",
+                "id": "",
+                "children": [
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "LETTER_WITH_DOT",
+                        "text": "a."
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "semua ketentuan peraturan perundang-undangan mengenai atau yang berkaitan dengan organisasi yang sudah ada dan sejenis dengan Rakyat Terlatih, dinyatakan tetap berlaku sepanjang tidak bertentangan dengan Undang-undang ini;"
+                      }
+                    ]
+                  },
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "LETTER_WITH_DOT",
+                        "text": "b."
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "anggota organisasi yang sudah ada dan sejenis dengan Rakyat Terlatih yang sudah mengikuti pendidikan dan pelatihan yang sederajat dengan Wajib Prabakti dinyatakan menjadi anggota Rakyat Terlatih."
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "BAB",
+        "id": "bab-8",
+        "children": [
+          {
+            "type": "BAB_NUMBER",
+            "text": "BAB VIII"
+          },
+          {
+            "type": "BAB_TITLE",
+            "text": "KETENTUAN PENUTUP"
+          },
+          {
+            "type": "PASAL",
+            "id": "pasal-44",
+            "children": [
+              {
+                "type": "PASAL_NUMBER",
+                "text": "Pasal 44"
+              },
+              {
+                "type": "PLAINTEXT",
+                "text": "Undang-undang ini mulai berlaku pada tanggal diundangkan."
+              },
+              {
+                "type": "PLAINTEXT",
+                "text": "Agar setiap orang mengetahuinya, memerintahkan pengundangan Undang-undang ini dengan penempatannya dalam Lembaran Negara Republik Indonesia."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "CLOSING",
+        "id": "",
+        "children": [
+          {
+            "type": "PLAINTEXT",
+            "text": "Disahkan Di Jakarta,"
+          },
+          {
+            "type": "PLAINTEXT",
+            "text": "Pada Tanggal 4 Oktober 1999"
+          },
+          {
+            "type": "PLAINTEXT",
+            "text": "PRESIDEN REPUBLIK INDONESIA,"
+          },
+          {
+            "type": "PLAINTEXT",
+            "text": "Ttd."
+          },
+          {
+            "type": "PLAINTEXT",
+            "text": "BACHARUDDIN JUSUF HABIBIE"
+          },
+          {
+            "type": "PLAINTEXT",
+            "text": "Diundangkan Di Jakarta,"
+          },
+          {
+            "type": "PLAINTEXT",
+            "text": "Pada Tanggal 4 Oktober 1999"
+          },
+          {
+            "type": "PLAINTEXT",
+            "text": "MENTERI NEGARA/SEKRETARIS NEGARA REPUBLIK INDONESIA,"
+          },
+          {
+            "type": "PLAINTEXT",
+            "text": "Ttd."
+          },
+          {
+            "type": "PLAINTEXT",
+            "text": "MULADI"
+          },
+          {
+            "type": "LEMBARAN_NUMBER",
+            "text": "LEMBARAN NEGARA REPUBLIK INDONESIA TAHUN 1999 NOMOR 184"
+          }
+        ]
+      },
+      {
+        "type": "PENJELASAN",
+        "id": "penjelasan",
+        "children": [
+          {
+            "type": "PENJELASAN_TITLE",
+            "id": "",
+            "children": [
+              {
+                "type": "PLAINTEXT",
+                "text": "PENJELASAN"
+              },
+              {
+                "type": "PLAINTEXT",
+                "text": "UNDANG-UNDANG REPUBLIK INDONESIA"
+              },
+              {
+                "type": "UU_TITLE_YEAR_AND_NUMBER",
+                "text": "NOMOR 56 TAHUN 1999"
+              },
+              {
+                "type": "PLAINTEXT",
+                "text": "TENTANG"
+              },
+              {
+                "type": "UU_TITLE_TOPIC",
+                "text": "RAKYAT TERLATIH"
+              }
+            ]
+          },
+          {
+            "type": "PENJELASAN_UMUM",
+            "id": "",
+            "children": [
+              {
+                "type": "PENJELASAN_UMUM_TITLE",
+                "text": "I. UMUM"
+              },
+              {
+                "type": "PLAINTEXT",
+                "text": "Sejarah bangsa Indonesia dalam perjuangan merebut, membela, dan mempertahankan kemerdekaan yang diproklamasikan tanggal 17 Agustus 1945 membuktikan bahwa bangsa Indonesia senantiasa mendasarkan diri pada semangat perjuangan seluruh rakyat yang didorong oleh perasaan senasib dan sepenanggungan serta sikap rela berkorban untuk negara dan bangsa. Hal tersebut menunjukkan bahwa peranan rakyat dalam menyelenggarakan pertahanan keamanan negara merupakan faktor yang sangat menentukan sebagaimana dimaksud dalam Undang-Undang Dasar 1945."
+              },
+              {
+                "type": "PLAINTEXT",
+                "text": "Peranan rakyat tersebut ditegaskan dalam Pasal 30 Undang-Undang Dasar 1945 bahwa tiap-tiap warga negara berhak dan wajib ikut serta dalam usaha pembelaan negara. Sebagai jabaran Pasal 30 Undang-Undang Dasar 1945, hak dan kewajiban warga negara di dalam usaha pembelaan negara telah dituangkan dalam Undang-undang Nomor 20 Tahun 1982 tentang Ketentuan-ketentuan Pokok Pertahanan Keamanan Negara Republik Indonesia sebagaimana telah diubah dengan Undang-undang Nomor 1 Tahun 1988 tentang Perubahan atas Undang-undang Nomor 20 Tahun 1982 tentang Ketentuan-ketentuan Pokok Pertahanan Keamanan Negara Republik Indonesia."
+              },
+              {
+                "type": "PLAINTEXT",
+                "text": "Dalam Undang-undang Nomor 20 Tahun 1982 dinyatakan bahwa pertahanan keamanan negara diselenggarakan dengan sistem pertahanan keamanan rakyat semesta, dengan mendayagunakan segenap komponen kekuatan pertahanan keamanan yang terdiri atas Rakyat Terlatih sebagai komponen dasar, Tentara Nasional Indonesia beserta cadangannya dan Kepolisian Negara Republik Indonesia sebagai komponen utama, Perlindungan Masyarakat sebagai komponen khusus, serta sumber daya alam, sumber daya buatan, dan prasarana nasional sebagai komponen pendukung. Rakyat Terlatih sebagai komponen dasar kekuatan pertahanan keamanan negara dibangun, dipelihara, dan dikembangkan untuk meningkatkan daya dan kekuatan tangkal bangsa dan negara, serta membantu Tentara Nasional Indonesia dan Kepolisian Negara Republik Indonesia. Ketentuan tentang Rakyat Terlatih tersebut, sesuai dengan Pasal 20 ayat (5) Undang-undang Nomor 20 Tahun 1982 diatur lebih lanjut dengan Undang-undang."
+              },
+              {
+                "type": "PLAINTEXT",
+                "text": "Pembentukan dan pembinaan Rakyat Terlatih melibatkan dan mengerahkan rakyat banyak, oleh sebab itu sebelum menetapkan kebijakan umum, Presiden harus berkonsultasi dengan Dewan Perwakilan Rakyat. Kebijakan umum tersebut dituangkan dalam Peraturan Pemerintah, yang dalam pelaksanaannya dilakukan oleh Menteri."
+              },
+              {
+                "type": "PLAINTEXT",
+                "text": "Pelaksanaan pembentukan dan pembinaan Rakyat Terlatih diawali dengan kegiatan pendataan warga negara, yang dalam pelaksanaannya dilakukan oleh Menteri setelah berkoordinasi dengan pimpinan departemen dan/atau pimpinan lembaga pemerintahan non departemen terkait. Terhadap warga negara yang sudah di data, dilakukan kegiatan pengerahan yang meliputi kegiatan pemilahan, pemanggilan, dan penyaringan oleh suatu komisi."
+              },
+              {
+                "type": "PLAINTEXT",
+                "text": "Keikutsertaan warga negara dalam usaha pembelaan negara sebagai anggota Rakyat Terlatih dilaksanakan melalui Wajib Prabakti, yaitu pendidikan dan pelatihan secara bergilir guna memberikan pengetahuan dan keterampilan dasar bela negara, agar yang bersangkutan mampu melaksanakan fungsinya. Warga negara yang telah selesai melaksanakan Wajib Prabakti dilantik, wajib mengucapkan sumpah/janji, dan disusun dalam kesatuan Rakyat Terlatih di lingkungan permukiman, pendidikan, dan pekerjaan. Wewenang penugasan Rakyat Terlatih berada pada Presiden yang dalam pelaksanaannya dapat didelegasikan kepada Menteri. Penugasan Rakyat Terlatih dilaksanakan melalui Wajib Bakti dan penugasannya didasarkan atas usul yang diajukan oleh Menteri Dalam Negeri, Kepala Kepolisian Republik Indonesia, dan Panglima Tentara Nasional Indonesia sesuai dengan kebutuhan. Untuk memudahkan dalam pelaksanaan penugasannya di daerah, pengajuan tersebut dapat didelegasikan kepada pejabat lain yang ditunjuk. Dalam Undang-undang ini selain diatur kewajiban anggota Rakyat Terlatih juga diatur hak haknya berupa rawatan Wajib Prabakti dan rawatan Wajib Bakti, penganugerahan tanda kehormatan, dan pemberian penghargaan. Hal ini dimaksudkan sebagai upaya memelihara kesejahteraan dan penghargaan negara atas pengabdiannya."
+              },
+              {
+                "type": "PLAINTEXT",
+                "text": "Dalam pemanggilan warga negara untuk melaksanakan Wajib Prabakti dan pemanggilan anggota Rakyat Terlatih untuk melaksanakan Wajib Bakti, tetap dipertimbangkan prinsip prinsip yang menjunjung tinggi penghormatan, penghargaan, dan penegakan hak asasi manusia sebagaimana diamanatkan oleh Ketetapan Majelis Permusyawaratan Rakyat Nomor: XVII/MPR/1998 tentang Hak Asasi Manusia."
+              },
+              {
+                "type": "PLAINTEXT",
+                "text": "Untuk menjamin terlaksananya usaha pembelaan negara melalui Rakyat Terlatih, dalam Undang-undang ini diatur pula ketentuan pidana. Pelaksanaan Undang-undang tentang Rakyat Terlatih ini senantiasa memperhatikan dan mengaitkannya dengan perundang undangan lainnya, antara lain, Undang-undang Prajurit ABRI, Undang-undang Mobilisasi dan Demobilisasi, Undang-undang Kepolisian, Undang-undang Pemerintahan Daerah, Undang-undang Kepegawaian, dan Undang-undang Penanggulangan Keadaan Bahaya."
+              }
+            ]
+          },
+          {
+            "type": "PENJELASAN_PASAL_DEMI_PASAL",
+            "id": "",
+            "children": [
+              {
+                "type": "PENJELASAN_PASAL_DEMI_PASAL_TITLE",
+                "text": "II. PASAL DEMI PASAL"
+              },
+              {
+                "type": "PENJELASAN_PASAL",
+                "id": "",
+                "children": [
+                  {
+                    "type": "PASAL_NUMBER",
+                    "text": "Pasal 1"
+                  },
+                  {
+                    "type": "PLAINTEXT",
+                    "text": "Cukup jelas"
+                  }
+                ]
+              },
+              {
+                "type": "PENJELASAN_PASAL",
+                "id": "",
+                "children": [
+                  {
+                    "type": "PASAL_NUMBER",
+                    "text": "Pasal 2"
+                  },
+                  {
+                    "type": "PLAINTEXT",
+                    "text": "Yang dimaksud dengan \"membantu\" adalah mendukung Tentara Nasional Indonesia dan Kepolisian Negara Republik Indonesia termasuk melipatgandakan kekuatan Tentara Nasional Indonesia dalam rangka mobilisasi."
+                  }
+                ]
+              },
+              {
+                "type": "PENJELASAN_PASAL",
+                "id": "",
+                "children": [
+                  {
+                    "type": "PASAL_NUMBER",
+                    "text": "Pasal 3"
+                  },
+                  {
+                    "type": "PLAINTEXT",
+                    "text": "Yang dimaksud dengan \"keserbagunaan\" adalah pendayagunaan Rakyat Terlatih yang dapat dilaksanakan dalam bidang kesejahteraan dan keamanan dengan menerapkan fungsi-fungsinya, baik dalam keadaan biasa maupun dalam keadaan bahaya."
+                  }
+                ]
+              },
+              {
+                "type": "PENJELASAN_PASAL",
+                "id": "",
+                "children": [
+                  {
+                    "type": "PASAL_NUMBER",
+                    "text": "Pasal 4"
+                  },
+                  {
+                    "type": "LIST",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "PENJELASAN_LIST_ITEM",
+                        "id": "",
+                        "children": [
+                          {
+                            "type": "PENJELASAN_AYAT",
+                            "text": "Ayat (1)"
+                          },
+                          {
+                            "type": "PLAINTEXT",
+                            "text": "Yang dimaksud dengan \"kebijakan umum pembentukan dan pembinaan Rakyat Terlatih\", antara lain, adalah penentuan tingkat kekuatan, administrasi, keuangan, tugas dan wewenang Komisi Pengerahan, tentang Wajib Prabakti, tentang tata cara penugasan Rakyat Terlatih, tentang hak dan kewajiban anggota Rakyat Terlatih, tentang pemberian tanda penghargaan, penganugerahan tanda kehormatan, dan jaminan sosial."
+                          }
+                        ]
+                      },
+                      {
+                        "type": "PENJELASAN_LIST_ITEM",
+                        "id": "",
+                        "children": [
+                          {
+                            "type": "PENJELASAN_AYAT",
+                            "text": "Ayat (2)"
+                          },
+                          {
+                            "type": "PLAINTEXT",
+                            "text": "Cukup jelas"
+                          }
+                        ]
+                      },
+                      {
+                        "type": "PENJELASAN_LIST_ITEM",
+                        "id": "",
+                        "children": [
+                          {
+                            "type": "PENJELASAN_AYAT",
+                            "text": "Ayat (3)"
+                          },
+                          {
+                            "type": "PLAINTEXT",
+                            "text": "Cukup jelas"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "PENJELASAN_PASAL",
+                "id": "",
+                "children": [
+                  {
+                    "type": "PASAL_NUMBER",
+                    "text": "Pasal 5"
+                  },
+                  {
+                    "type": "LIST",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "PENJELASAN_LIST_ITEM",
+                        "id": "",
+                        "children": [
+                          {
+                            "type": "PENJELASAN_AYAT",
+                            "text": "Ayat (1)"
+                          },
+                          {
+                            "type": "PLAINTEXT",
+                            "text": "Cukup jelas"
+                          }
+                        ]
+                      },
+                      {
+                        "type": "PENJELASAN_LIST_ITEM",
+                        "id": "",
+                        "children": [
+                          {
+                            "type": "PENJELASAN_AYAT",
+                            "text": "Ayat (2)"
+                          },
+                          {
+                            "type": "LIST",
+                            "id": "",
+                            "children": [
+                              {
+                                "type": "PENJELASAN_LIST_ITEM",
+                                "id": "",
+                                "children": [
+                                  {
+                                    "type": "PENJELASAN_HURUF",
+                                    "text": "Huruf a"
+                                  },
+                                  {
+                                    "type": "PLAINTEXT",
+                                    "text": "Cukup jelas"
+                                  }
+                                ]
+                              },
+                              {
+                                "type": "PENJELASAN_LIST_ITEM",
+                                "id": "",
+                                "children": [
+                                  {
+                                    "type": "PENJELASAN_HURUF",
+                                    "text": "Huruf b"
+                                  },
+                                  {
+                                    "type": "PLAINTEXT",
+                                    "text": "Cukup jelas"
+                                  }
+                                ]
+                              },
+                              {
+                                "type": "PENJELASAN_LIST_ITEM",
+                                "id": "",
+                                "children": [
+                                  {
+                                    "type": "PENJELASAN_HURUF",
+                                    "text": "Huruf c"
+                                  },
+                                  {
+                                    "type": "PLAINTEXT",
+                                    "text": "Cukup jelas"
+                                  }
+                                ]
+                              },
+                              {
+                                "type": "PENJELASAN_LIST_ITEM",
+                                "id": "",
+                                "children": [
+                                  {
+                                    "type": "PENJELASAN_HURUF",
+                                    "text": "Huruf d"
+                                  },
+                                  {
+                                    "type": "PLAINTEXT",
+                                    "text": "Batas umur 18 (delapan belas) tahun sampai dengan 45 (empat puluh lima) tahun seseorang pada umumnya berada pada tingkat kemampuan jasmani dan rohani yang dapat dimanfaatkan dengan sebaik-baiknya untuk menjalani Wajib Prabakti."
+                                  }
+                                ]
+                              },
+                              {
+                                "type": "PENJELASAN_LIST_ITEM",
+                                "id": "",
+                                "children": [
+                                  {
+                                    "type": "PENJELASAN_HURUF",
+                                    "text": "Huruf e"
+                                  },
+                                  {
+                                    "type": "PLAINTEXT",
+                                    "text": "Cukup jelas"
+                                  }
+                                ]
+                              },
+                              {
+                                "type": "PENJELASAN_LIST_ITEM",
+                                "id": "",
+                                "children": [
+                                  {
+                                    "type": "PENJELASAN_HURUF",
+                                    "text": "Huruf f"
+                                  },
+                                  {
+                                    "type": "PLAINTEXT",
+                                    "text": "Cukup jelas"
+                                  }
+                                ]
+                              },
+                              {
+                                "type": "PENJELASAN_LIST_ITEM",
+                                "id": "",
+                                "children": [
+                                  {
+                                    "type": "PENJELASAN_HURUF",
+                                    "text": "Huruf g"
+                                  },
+                                  {
+                                    "type": "PLAINTEXT",
+                                    "text": "Cukup jelas"
+                                  }
+                                ]
+                              }
+                            ]
+                          }
+                        ]
+                      },
+                      {
+                        "type": "PENJELASAN_LIST_ITEM",
+                        "id": "",
+                        "children": [
+                          {
+                            "type": "PENJELASAN_AYAT",
+                            "text": "Ayat (3)"
+                          },
+                          {
+                            "type": "PLAINTEXT",
+                            "text": "Yang dimaksud dengan \"ketentuan lebih lanjut tentang persyaratan yang diatur dengan Keputusan Menteri\", antara lain, adalah tinggi badan, berat badan, dan pendidikan."
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "PENJELASAN_PASAL",
+                "id": "",
+                "children": [
+                  {
+                    "type": "PASAL_NUMBER",
+                    "text": "Pasal 6"
+                  },
+                  {
+                    "type": "LIST",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "PENJELASAN_LIST_ITEM",
+                        "id": "",
+                        "children": [
+                          {
+                            "type": "PENJELASAN_AYAT",
+                            "text": "Ayat (1)"
+                          },
+                          {
+                            "type": "PLAINTEXT",
+                            "text": "Yang dimaksud dengan \"pendataan\" adalah kegiatan pendaftaran atau pencatatan data perseorangan warga negara dalam rangka pengerahan warga negara untuk menjadi anggota Rakyat Terlatih."
+                          }
+                        ]
+                      },
+                      {
+                        "type": "PENJELASAN_LIST_ITEM",
+                        "id": "",
+                        "children": [
+                          {
+                            "type": "PENJELASAN_AYAT",
+                            "text": "Ayat (2)"
+                          },
+                          {
+                            "type": "PLAINTEXT",
+                            "text": "Cukup jelas"
+                          }
+                        ]
+                      },
+                      {
+                        "type": "PENJELASAN_LIST_ITEM",
+                        "id": "",
+                        "children": [
+                          {
+                            "type": "PENJELASAN_AYAT",
+                            "text": "Ayat (3)"
+                          },
+                          {
+                            "type": "PLAINTEXT",
+                            "text": "Cukup jelas"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "PENJELASAN_PASAL",
+                "id": "",
+                "children": [
+                  {
+                    "type": "PASAL_NUMBER",
+                    "text": "Pasal 7"
+                  },
+                  {
+                    "type": "PLAINTEXT",
+                    "text": "Cukup jelas"
+                  }
+                ]
+              },
+              {
+                "type": "PENJELASAN_PASAL",
+                "id": "",
+                "children": [
+                  {
+                    "type": "PASAL_NUMBER",
+                    "text": "Pasal 8"
+                  },
+                  {
+                    "type": "LIST",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "PENJELASAN_LIST_ITEM",
+                        "id": "",
+                        "children": [
+                          {
+                            "type": "PENJELASAN_HURUF",
+                            "text": "Huruf a"
+                          },
+                          {
+                            "type": "PLAINTEXT",
+                            "text": "Cukup jelas"
+                          }
+                        ]
+                      },
+                      {
+                        "type": "PENJELASAN_LIST_ITEM",
+                        "id": "",
+                        "children": [
+                          {
+                            "type": "PENJELASAN_HURUF",
+                            "text": "Huruf b"
+                          },
+                          {
+                            "type": "PLAINTEXT",
+                            "text": "Cukup jelas"
+                          }
+                        ]
+                      },
+                      {
+                        "type": "PENJELASAN_LIST_ITEM",
+                        "id": "",
+                        "children": [
+                          {
+                            "type": "PENJELASAN_HURUF",
+                            "text": "Huruf c"
+                          },
+                          {
+                            "type": "PLAINTEXT",
+                            "text": "Cukup jelas"
+                          }
+                        ]
+                      },
+                      {
+                        "type": "PENJELASAN_LIST_ITEM",
+                        "id": "",
+                        "children": [
+                          {
+                            "type": "PENJELASAN_HURUF",
+                            "text": "Huruf d"
+                          },
+                          {
+                            "type": "PLAINTEXT",
+                            "text": "Yang dimaksud dengan \"keberadaannya diperlukan masyarakat\" apabila yang bersangkutan dikenakan Wajib Prabakti akan menimbulkan kesulitan bagi orang banyak atau masyarakat luas, misalnya guru atau dokter yang bertugas di daerah terpencil."
+                          }
+                        ]
+                      },
+                      {
+                        "type": "PENJELASAN_LIST_ITEM",
+                        "id": "",
+                        "children": [
+                          {
+                            "type": "PENJELASAN_HURUF",
+                            "text": "Huruf e"
+                          },
+                          {
+                            "type": "PLAINTEXT",
+                            "text": "Yang dimaksud dengan \"tugas akhir pendidikan\", antara lain, adalah praktek kerja, kuliah kerja nyata, atau penulisan skripsi."
+                          }
+                        ]
+                      },
+                      {
+                        "type": "PENJELASAN_LIST_ITEM",
+                        "id": "",
+                        "children": [
+                          {
+                            "type": "PENJELASAN_HURUF",
+                            "text": "Huruf f"
+                          },
+                          {
+                            "type": "PLAINTEXT",
+                            "text": "Cukup jelas"
+                          }
+                        ]
+                      },
+                      {
+                        "type": "PENJELASAN_LIST_ITEM",
+                        "id": "",
+                        "children": [
+                          {
+                            "type": "PENJELASAN_HURUF",
+                            "text": "Huruf g"
+                          },
+                          {
+                            "type": "PLAINTEXT",
+                            "text": "Yang dimaksud dengan \"tugas penting\" adalah tugas atau jabatan yang sangat vital atau tugas yang memerlukan keahlian khusus yang ditetapkan dengan Keputusan Menteri atas usul tertulis dari pimpinan instansi atau lembaga yang bersangkutan."
+                          },
+                          {
+                            "type": "PLAINTEXT",
+                            "text": "Yang dimaksud dengan \"tugas dan jabatan vital\", misalnya, tugas atau jabatan diplomat. Yang dimaksud dengan \"keahlian khusus\", misalnya, ahli nuklir, ahli kimia, ahli biologi, atau keahlian lainnya."
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "PENJELASAN_PASAL",
+                "id": "",
+                "children": [
+                  {
+                    "type": "PASAL_NUMBER",
+                    "text": "Pasal 9"
+                  },
+                  {
+                    "type": "PLAINTEXT",
+                    "text": "Cukup jelas"
+                  }
+                ]
+              },
+              {
+                "type": "PENJELASAN_PASAL",
+                "id": "",
+                "children": [
+                  {
+                    "type": "PASAL_NUMBER",
+                    "text": "Pasal 10"
+                  },
+                  {
+                    "type": "LIST",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "PENJELASAN_LIST_ITEM",
+                        "id": "",
+                        "children": [
+                          {
+                            "type": "PENJELASAN_AYAT",
+                            "text": "Ayat (1)"
+                          },
+                          {
+                            "type": "PLAINTEXT",
+                            "text": "Cukup jelas"
+                          }
+                        ]
+                      },
+                      {
+                        "type": "PENJELASAN_LIST_ITEM",
+                        "id": "",
+                        "children": [
+                          {
+                            "type": "PENJELASAN_AYAT",
+                            "text": "Ayat (2)"
+                          },
+                          {
+                            "type": "PLAINTEXT",
+                            "text": "Yang dimaksud dengan \"fungsi ketertiban umum\" adalah fungsi Rakyat Terlatih guna memelihara ketertiban masyarakat, kelancaran roda pemerintahan dan segenap perangkatnya, serta kelancaran kegiatan masyarakat untuk memenuhi kebutuhan hidup. Yang dimaksud dengan \"fungsi perlindungan rakyat\" adalah fungsi Rakyat Terlatih guna menanggulangi gangguan ketertiban hukum maupun gangguan ketenteraman masyarakat. Yang dimaksud dengan \"fungsi keamanan rakyat\" adalah fungsi Rakyat Terlatih guna menanggulangi dan/atau meniadakan gangguan keamanan masyarakat yang dapat mengakibatkan terganggunya stabilitas keamanan. Yang dimaksud dengan \"fungsi perlawanan rakyat\" adalah fungsi Rakyat Terlatih guna menghadapi atau menanggulangi dan menghancurkan musuh yang hendak menduduki atau menguasai wilayah atau sebagian wilayah negara Republik Indonesia."
+                          }
+                        ]
+                      },
+                      {
+                        "type": "PENJELASAN_LIST_ITEM",
+                        "id": "",
+                        "children": [
+                          {
+                            "type": "PENJELASAN_AYAT",
+                            "text": "Ayat (3)"
+                          },
+                          {
+                            "type": "PLAINTEXT",
+                            "text": "Cukup jelas"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "PENJELASAN_PASAL",
+                "id": "",
+                "children": [
+                  {
+                    "type": "PASAL_NUMBER",
+                    "text": "Pasal 11"
+                  },
+                  {
+                    "type": "LIST",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "PENJELASAN_LIST_ITEM",
+                        "id": "",
+                        "children": [
+                          {
+                            "type": "PENJELASAN_AYAT",
+                            "text": "Ayat (1)"
+                          },
+                          {
+                            "type": "PLAINTEXT",
+                            "text": "Peserta Wajib Prabakti yang dinyatakan tidak lulus dapat diikutsertakan kembali dalam kesempatan berikutnya."
+                          }
+                        ]
+                      },
+                      {
+                        "type": "PENJELASAN_LIST_ITEM",
+                        "id": "",
+                        "children": [
+                          {
+                            "type": "PENJELASAN_AYAT",
+                            "text": "Ayat (2)"
+                          },
+                          {
+                            "type": "PLAINTEXT",
+                            "text": "Cukup jelas"
+                          }
+                        ]
+                      },
+                      {
+                        "type": "PENJELASAN_LIST_ITEM",
+                        "id": "",
+                        "children": [
+                          {
+                            "type": "PENJELASAN_AYAT",
+                            "text": "Ayat (3)"
+                          },
+                          {
+                            "type": "PLAINTEXT",
+                            "text": "Cukup jelas"
+                          }
+                        ]
+                      },
+                      {
+                        "type": "PENJELASAN_LIST_ITEM",
+                        "id": "",
+                        "children": [
+                          {
+                            "type": "PENJELASAN_AYAT",
+                            "text": "Ayat (4)"
+                          },
+                          {
+                            "type": "PLAINTEXT",
+                            "text": "Cukup jelas"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "PENJELASAN_PASAL",
+                "id": "",
+                "children": [
+                  {
+                    "type": "PASAL_NUMBER",
+                    "text": "Pasal 12"
+                  },
+                  {
+                    "type": "LIST",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "PENJELASAN_LIST_ITEM",
+                        "id": "",
+                        "children": [
+                          {
+                            "type": "PENJELASAN_AYAT",
+                            "text": "Ayat (1)"
+                          },
+                          {
+                            "type": "PLAINTEXT",
+                            "text": "Yang dimaksud dengan \"lingkungan permukiman\" adalah lingkungan seseorang warga negara bertempat tinggal dan menyelenggarakan kehidupannya. Yang dimaksud dengan \"lingkungan pendidikan\" adalah lingkungan seseorang warga negara bersekolah atau menuntut ilmu atau yang kehidupannya berhubungan erat dengan tempat pendidikan atau pendidikannya. Yang dimaksud dengan \"lingkungan pekerjaan\" adalah lingkungan seseorang warga negara bekerja mencari nafkah yang berhubungan erat dengan tempat bekerja atau pekerjaannya. Anggota Rakyat Terlatih masuk dalam kesatuan Rakyat Terlatih hanya di salah satu lingkungan tersebut di atas."
+                          }
+                        ]
+                      },
+                      {
+                        "type": "PENJELASAN_LIST_ITEM",
+                        "id": "",
+                        "children": [
+                          {
+                            "type": "PENJELASAN_AYAT",
+                            "text": "Ayat (2)"
+                          },
+                          {
+                            "type": "PLAINTEXT",
+                            "text": "Yang dimaksud dengan \"penyusunan kesatuan Rakyat Terlatih\" adalah pengelompokan anggota Rakyat Terlatih berdasarkan penugasan sesuai dengan fungsi masing-masing. Yang dimaksud dengan \"pembinaan kesatuan Rakyat Terlatih\" meliputi pembinaan kekuatan dan pembinaan kemampuan agar kekuatan yang telah dibentuk siap digunakan untuk menanggulangi setiap ancaman yang mungkin timbul. Pembinaan kemampuan selama penugasan anggota Rakyat Terlatih dilaksanakan oleh pimpinan instansi pengguna."
+                          }
+                        ]
+                      },
+                      {
+                        "type": "PENJELASAN_LIST_ITEM",
+                        "id": "",
+                        "children": [
+                          {
+                            "type": "PENJELASAN_AYAT",
+                            "text": "Ayat (3)"
+                          },
+                          {
+                            "type": "PLAINTEXT",
+                            "text": "Cukup jelas"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "PENJELASAN_PASAL",
+                "id": "",
+                "children": [
+                  {
+                    "type": "PASAL_NUMBER",
+                    "text": "Pasal 13"
+                  },
+                  {
+                    "type": "PLAINTEXT",
+                    "text": "Cukup jelas"
+                  }
+                ]
+              },
+              {
+                "type": "PENJELASAN_PASAL",
+                "id": "",
+                "children": [
+                  {
+                    "type": "PASAL_NUMBER",
+                    "text": "Pasal 14"
+                  },
+                  {
+                    "type": "PLAINTEXT",
+                    "text": "Usul penugasan Rakyat Terlatih oleh Menteri Dalam Negeri dimaksudkan untuk membantu Pemerintah Daerah dalam melaksanakan fungsi ketertiban umum dan perlindungan rakyat."
+                  }
+                ]
+              },
+              {
+                "type": "PENJELASAN_PASAL",
+                "id": "",
+                "children": [
+                  {
+                    "type": "PASAL_NUMBER",
+                    "text": "Pasal 15"
+                  },
+                  {
+                    "type": "PLAINTEXT",
+                    "text": "Usul penugasan Rakyat Terlatih oleh Kepala Kepolisian Republik Indonesia dimaksudkan untuk membantu Kepolisian Negara Republik Indonesia dalam melaksanakan fungsi keamanan rakyat."
+                  }
+                ]
+              },
+              {
+                "type": "PENJELASAN_PASAL",
+                "id": "",
+                "children": [
+                  {
+                    "type": "PASAL_NUMBER",
+                    "text": "Pasal 16"
+                  },
+                  {
+                    "type": "PLAINTEXT",
+                    "text": "Usul penugasan Rakyat Terlatih oleh Panglima Tentara Nasional Indonesia dimaksudkan untuk membantu Tentara Nasional Indonesia dalam melaksanakan fungsi perlawanan rakyat."
+                  }
+                ]
+              },
+              {
+                "type": "PENJELASAN_PASAL",
+                "id": "",
+                "children": [
+                  {
+                    "type": "PASAL_NUMBER",
+                    "text": "Pasal 17"
+                  },
+                  {
+                    "type": "PLAINTEXT",
+                    "text": "Cukup jelas"
+                  }
+                ]
+              },
+              {
+                "type": "PENJELASAN_PASAL",
+                "id": "",
+                "children": [
+                  {
+                    "type": "PASAL_NUMBER",
+                    "text": "Pasal 18"
+                  },
+                  {
+                    "type": "LIST",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "PENJELASAN_LIST_ITEM",
+                        "id": "",
+                        "children": [
+                          {
+                            "type": "PENJELASAN_AYAT",
+                            "text": "Ayat (1)"
+                          },
+                          {
+                            "type": "PLAINTEXT",
+                            "text": "Cukup jelas"
+                          }
+                        ]
+                      },
+                      {
+                        "type": "PENJELASAN_LIST_ITEM",
+                        "id": "",
+                        "children": [
+                          {
+                            "type": "PENJELASAN_AYAT",
+                            "text": "Ayat (2)"
+                          },
+                          {
+                            "type": "PLAINTEXT",
+                            "text": "Cukup jelas"
+                          }
+                        ]
+                      },
+                      {
+                        "type": "PENJELASAN_LIST_ITEM",
+                        "id": "",
+                        "children": [
+                          {
+                            "type": "PENJELASAN_AYAT",
+                            "text": "Ayat (3)"
+                          },
+                          {
+                            "type": "PLAINTEXT",
+                            "text": "Yang dimaksud dengan \"pejabat lain yang ditunjuk\", antara lain, Sekretaris Jenderal Departemen Pertahanan Keamanan, Direktur Jenderal Personel, Tenaga Manusia dan Veteran, atau pejabat di daerah yang bertanggung jawab di bidang pertahanan keamanan."
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "PENJELASAN_PASAL",
+                "id": "",
+                "children": [
+                  {
+                    "type": "PASAL_NUMBER",
+                    "text": "Pasal 19"
+                  },
+                  {
+                    "type": "LIST",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "PENJELASAN_LIST_ITEM",
+                        "id": "",
+                        "children": [
+                          {
+                            "type": "PENJELASAN_AYAT",
+                            "text": "Ayat (1)"
+                          },
+                          {
+                            "type": "PLAINTEXT",
+                            "text": "Cukup jelas"
+                          }
+                        ]
+                      },
+                      {
+                        "type": "PENJELASAN_LIST_ITEM",
+                        "id": "",
+                        "children": [
+                          {
+                            "type": "PENJELASAN_AYAT",
+                            "text": "Ayat (2)"
+                          },
+                          {
+                            "type": "PLAINTEXT",
+                            "text": "Yang dimaksud dengan \"instansi\" adalah badan atau lembaga pemerintah/negara termasuk juga badan usaha milik negara. Yang dimaksud dengan \"lembaga\" adalah badan swasta yang berbadan hukum dan yang tidak berbadan hukum."
+                          }
+                        ]
+                      },
+                      {
+                        "type": "PENJELASAN_LIST_ITEM",
+                        "id": "",
+                        "children": [
+                          {
+                            "type": "PENJELASAN_AYAT",
+                            "text": "Ayat (3)"
+                          },
+                          {
+                            "type": "PLAINTEXT",
+                            "text": "Cukup jelas"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "PENJELASAN_PASAL",
+                "id": "",
+                "children": [
+                  {
+                    "type": "PASAL_NUMBER",
+                    "text": "Pasal 20"
+                  },
+                  {
+                    "type": "PLAINTEXT",
+                    "text": "Yang dimaksud dengan \"bersifat kewilayahan\" adalah tempat penugasan Rakyat Terlatih yang dibatasi dalam wilayah kabupaten atau kotamadya yang menjadi tempat kedudukan kesatuan Rakyat Terlatih yang bersangkutan. Yang dimaksud dengan \"peraturan perundang-undangan yang berlaku\", misalnya, Undang-undang Nomor 27 Tahun 1997 tentang Mobilisasi dan Demobilisasi."
+                  }
+                ]
+              },
+              {
+                "type": "PENJELASAN_PASAL",
+                "id": "",
+                "children": [
+                  {
+                    "type": "PASAL_NUMBER",
+                    "text": "Pasal 21"
+                  },
+                  {
+                    "type": "PLAINTEXT",
+                    "text": "Yang dimaksud dengan \"keadaan bahaya\" adalah suatu keadaan terganggunya keamanan atau ketertiban umum oleh adanya kerusuhan yang disertai dengan kekerasan, pemberontakan bersenjata atau keinginan memisahkan diri dari wilayah negara dengan kekerasan, yang tidak dapat diatasi oleh aparatur negara secara biasa, atau adanya ancaman perang dari atau terjadi perang dengan negara asing."
+                  }
+                ]
+              },
+              {
+                "type": "PENJELASAN_PASAL",
+                "id": "",
+                "children": [
+                  {
+                    "type": "PASAL_NUMBER",
+                    "text": "Pasal 22"
+                  },
+                  {
+                    "type": "LIST",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "PENJELASAN_LIST_ITEM",
+                        "id": "",
+                        "children": [
+                          {
+                            "type": "PENJELASAN_AYAT",
+                            "text": "Ayat (1)"
+                          },
+                          {
+                            "type": "PLAINTEXT",
+                            "text": "Yang dimaksud dengan \"berhak untuk tidak diputuskan hubungan kerjanya\" adalah bahwa pegawai atau pekerja yang melaksanakan Wajib Prabakti atau Wajib Bakti tetap berstatus sebagai pegawai atau pekerja dan dapat melanjutkan tugas atau pekerjaannya."
+                          }
+                        ]
+                      },
+                      {
+                        "type": "PENJELASAN_LIST_ITEM",
+                        "id": "",
+                        "children": [
+                          {
+                            "type": "PENJELASAN_AYAT",
+                            "text": "Ayat (2)"
+                          },
+                          {
+                            "type": "PLAINTEXT",
+                            "text": "Cukup jelas"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "PENJELASAN_PASAL",
+                "id": "",
+                "children": [
+                  {
+                    "type": "PASAL_NUMBER",
+                    "text": "Pasal 23"
+                  },
+                  {
+                    "type": "PLAINTEXT",
+                    "text": "Cukup jelas"
+                  }
+                ]
+              },
+              {
+                "type": "PENJELASAN_PASAL",
+                "id": "",
+                "children": [
+                  {
+                    "type": "PASAL_NUMBER",
+                    "text": "Pasal 24"
+                  },
+                  {
+                    "type": "LIST",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "PENJELASAN_LIST_ITEM",
+                        "id": "",
+                        "children": [
+                          {
+                            "type": "PENJELASAN_AYAT",
+                            "text": "Ayat (1)"
+                          },
+                          {
+                            "type": "PLAINTEXT",
+                            "text": "Yang dimaksud dengan \"berjasa\" adalah perbuatan yang menunjukkan prestasi sangat baik dalam melaksanakan tugas dan berguna bagi kepentingan masyarakat, bangsa, dan negara."
+                          }
+                        ]
+                      },
+                      {
+                        "type": "PENJELASAN_LIST_ITEM",
+                        "id": "",
+                        "children": [
+                          {
+                            "type": "PENJELASAN_AYAT",
+                            "text": "Ayat (2)"
+                          },
+                          {
+                            "type": "PLAINTEXT",
+                            "text": "Yang dimaksud dengan \"berjasa melampaui panggilan tugas\" adalah berjasa di dalam melaksanakan tugas dengan keberanian luar biasa dan berhasil, dengan rela mengambil risiko yang tinggi terhadap keselamatan jiwanya, walaupun apabila tindakan itu tidak dilakukan, yang bersangkutan tidak dipersalahkan."
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "PENJELASAN_PASAL",
+                "id": "",
+                "children": [
+                  {
+                    "type": "PASAL_NUMBER",
+                    "text": "Pasal 25"
+                  },
+                  {
+                    "type": "PLAINTEXT",
+                    "text": "Yang dimaksud dengan: - \"gugur\" adalah hilangnya nyawa seseorang dalam pertempuran sebagai akibat langsung tindakan lawan; - \"tewas\" adalah hilangnya nyawa seseorang dalam melaksanakan Wajib Bakti berdasarkan perintah dinas, bukan akibat tindakan lawan; - \"meninggal dunia\" adalah hilangnya nyawa seseorang yang tidak termasuk gugur dan tewas; - \"hilang\" adalah ketidakpastian keberadaan seseorang dalam waktu 1 (satu) tahun sejak yang bersangkutan dinyatakan tidak kembali ke kesatuannya setelah melaksanakan Wajib Prabakti atau Wajib Bakti; - \"cacat berat\" adalah cacat jasmani dan/atau rohani yang mengakibatkan yang bersangkutan sama sekali tidak mampu untuk melakukan pekerjaan atau kegiatan apa pun sehingga menjadi beban orang lain; - \"cacat sedang\" adalah cacat jasmani dan/atau rohani yang mengakibatkan penyandang cacat tidak mampu lagi menjalani Wajib Prabakti atau Wajib Bakti, namun masih dapat bekerja di lingkungan pekerjaan lain."
+                  }
+                ]
+              },
+              {
+                "type": "PENJELASAN_PASAL",
+                "id": "",
+                "children": [
+                  {
+                    "type": "PASAL_NUMBER",
+                    "text": "Pasal 26"
+                  },
+                  {
+                    "type": "PLAINTEXT",
+                    "text": "Cukup jelas"
+                  }
+                ]
+              },
+              {
+                "type": "PENJELASAN_PASAL",
+                "id": "",
+                "children": [
+                  {
+                    "type": "PASAL_NUMBER",
+                    "text": "Pasal 27"
+                  },
+                  {
+                    "type": "LIST",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "PENJELASAN_LIST_ITEM",
+                        "id": "",
+                        "children": [
+                          {
+                            "type": "PENJELASAN_AYAT",
+                            "text": "Ayat (1)"
+                          },
+                          {
+                            "type": "PLAINTEXT",
+                            "text": "Istilah \"diterima\" digunakan untuk penerimaan prajurit Tentara Nasional Indonesia dan anggota Kepolisian Negara Republik Indonesia secara sukarela, sedangkan istilah \"dikerahkan\" digunakan untuk penerimaan prajurit Tentara Nasional Indonesia secara wajib."
+                          }
+                        ]
+                      },
+                      {
+                        "type": "PENJELASAN_LIST_ITEM",
+                        "id": "",
+                        "children": [
+                          {
+                            "type": "PENJELASAN_AYAT",
+                            "text": "Ayat (2)"
+                          },
+                          {
+                            "type": "PLAINTEXT",
+                            "text": "Yang dimaksud dengan \"persyaratan\" adalah persyaratan sebagaimana dimaksud dalam Undang-undang Prajurit ABRI, Undang-undang Kepegawaian, dan peraturan perundang undangan lainnya yang terkait."
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "PENJELASAN_PASAL",
+                "id": "",
+                "children": [
+                  {
+                    "type": "PASAL_NUMBER",
+                    "text": "Pasal 28"
+                  },
+                  {
+                    "type": "PLAINTEXT",
+                    "text": "Cukup jelas"
+                  }
+                ]
+              },
+              {
+                "type": "PENJELASAN_PASAL",
+                "id": "",
+                "children": [
+                  {
+                    "type": "PASAL_NUMBER",
+                    "text": "Pasal 29"
+                  },
+                  {
+                    "type": "PLAINTEXT",
+                    "text": "Yang dimaksud dengan \"perubahan data pribadi\", antara lain, pindah alamat, pekerjaan, dan pendidikan."
+                  }
+                ]
+              },
+              {
+                "type": "PENJELASAN_PASAL",
+                "id": "",
+                "children": [
+                  {
+                    "type": "PASAL_NUMBER",
+                    "text": "Pasal 30"
+                  },
+                  {
+                    "type": "PLAINTEXT",
+                    "text": "Cukup jelas"
+                  }
+                ]
+              },
+              {
+                "type": "PENJELASAN_PASAL",
+                "id": "",
+                "children": [
+                  {
+                    "type": "PASAL_NUMBER",
+                    "text": "Pasal 31"
+                  },
+                  {
+                    "type": "PLAINTEXT",
+                    "text": "Cukup jelas"
+                  }
+                ]
+              },
+              {
+                "type": "PENJELASAN_PASAL",
+                "id": "",
+                "children": [
+                  {
+                    "type": "PASAL_NUMBER",
+                    "text": "Pasal 32"
+                  },
+                  {
+                    "type": "PLAINTEXT",
+                    "text": "Cukup jelas"
+                  }
+                ]
+              },
+              {
+                "type": "PENJELASAN_PASAL",
+                "id": "",
+                "children": [
+                  {
+                    "type": "PASAL_NUMBER",
+                    "text": "Pasal 33"
+                  },
+                  {
+                    "type": "PLAINTEXT",
+                    "text": "Cukup jelas"
+                  }
+                ]
+              },
+              {
+                "type": "PENJELASAN_PASAL",
+                "id": "",
+                "children": [
+                  {
+                    "type": "PASAL_NUMBER",
+                    "text": "Pasal 34"
+                  },
+                  {
+                    "type": "PLAINTEXT",
+                    "text": "Cukup jelas"
+                  }
+                ]
+              },
+              {
+                "type": "PENJELASAN_PASAL",
+                "id": "",
+                "children": [
+                  {
+                    "type": "PASAL_NUMBER",
+                    "text": "Pasal 35"
+                  },
+                  {
+                    "type": "PLAINTEXT",
+                    "text": "Cukup jelas"
+                  }
+                ]
+              },
+              {
+                "type": "PENJELASAN_PASAL",
+                "id": "",
+                "children": [
+                  {
+                    "type": "PASAL_NUMBER",
+                    "text": "Pasal 36"
+                  },
+                  {
+                    "type": "PLAINTEXT",
+                    "text": "Cukup jelas"
+                  }
+                ]
+              },
+              {
+                "type": "PENJELASAN_PASAL",
+                "id": "",
+                "children": [
+                  {
+                    "type": "PASAL_NUMBER",
+                    "text": "Pasal 37"
+                  },
+                  {
+                    "type": "PLAINTEXT",
+                    "text": "Cukup jelas"
+                  }
+                ]
+              },
+              {
+                "type": "PENJELASAN_PASAL",
+                "id": "",
+                "children": [
+                  {
+                    "type": "PASAL_NUMBER",
+                    "text": "Pasal 38"
+                  },
+                  {
+                    "type": "PLAINTEXT",
+                    "text": "Cukup jelas"
+                  }
+                ]
+              },
+              {
+                "type": "PENJELASAN_PASAL",
+                "id": "",
+                "children": [
+                  {
+                    "type": "PASAL_NUMBER",
+                    "text": "Pasal 39"
+                  },
+                  {
+                    "type": "PLAINTEXT",
+                    "text": "Cukup jelas"
+                  }
+                ]
+              },
+              {
+                "type": "PENJELASAN_PASAL",
+                "id": "",
+                "children": [
+                  {
+                    "type": "PASAL_NUMBER",
+                    "text": "Pasal 40"
+                  },
+                  {
+                    "type": "PLAINTEXT",
+                    "text": "Cukup jelas"
+                  }
+                ]
+              },
+              {
+                "type": "PENJELASAN_PASAL",
+                "id": "",
+                "children": [
+                  {
+                    "type": "PASAL_NUMBER",
+                    "text": "Pasal 41"
+                  },
+                  {
+                    "type": "PLAINTEXT",
+                    "text": "Cukup jelas"
+                  }
+                ]
+              },
+              {
+                "type": "PENJELASAN_PASAL",
+                "id": "",
+                "children": [
+                  {
+                    "type": "PASAL_NUMBER",
+                    "text": "Pasal 42"
+                  },
+                  {
+                    "type": "PLAINTEXT",
+                    "text": "Cukup jelas"
+                  }
+                ]
+              },
+              {
+                "type": "PENJELASAN_PASAL",
+                "id": "",
+                "children": [
+                  {
+                    "type": "PASAL_NUMBER",
+                    "text": "Pasal 43"
+                  },
+                  {
+                    "type": "LIST",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "PENJELASAN_LIST_ITEM",
+                        "id": "",
+                        "children": [
+                          {
+                            "type": "PENJELASAN_HURUF",
+                            "text": "Huruf a"
+                          },
+                          {
+                            "type": "PLAINTEXT",
+                            "text": "Cukup jelas"
+                          }
+                        ]
+                      },
+                      {
+                        "type": "PENJELASAN_LIST_ITEM",
+                        "id": "",
+                        "children": [
+                          {
+                            "type": "PENJELASAN_HURUF",
+                            "text": "Huruf b"
+                          },
+                          {
+                            "type": "PLAINTEXT",
+                            "text": "Yang dimaksud dengan \"organisasi yang sudah ada dan sejenis dengan Rakyat Terlatih\" adalah organisasi Perlawanan Rakyat, Keamanan Rakyat, Resimen Mahasiswa, dan organisasi Pertahanan Sipil yang bukan pelaksana fungsi perlindungan masyarakat."
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "PENJELASAN_PASAL",
+                "id": "",
+                "children": [
+                  {
+                    "type": "PASAL_NUMBER",
+                    "text": "Pasal 44"
+                  },
+                  {
+                    "type": "PLAINTEXT",
+                    "text": "Cukup jelas"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

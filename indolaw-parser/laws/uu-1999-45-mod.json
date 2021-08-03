@@ -1,0 +1,3468 @@
+{
+  "metadata": {
+    "lembaranNegaraNumber": 173,
+    "lembaranNegaraYear": 1999,
+    "tambahanLembaranNumber": 3894,
+    "number": 45,
+    "topic": "Pembentukan Propinsi Irian Jaya Tengah, Propinsi Irian Jaya Barat, Kabupaten Paniai, Kabupaten Mimika, Kabupaten Puncak Jaya, Dan Kota Sorong",
+    "year": 1999
+  },
+  "content": {
+    "type": "UNDANG_UNDANG",
+    "id": "",
+    "children": [
+      {
+        "type": "OPENING",
+        "id": "",
+        "children": [
+          {
+            "type": "UU_TITLE",
+            "id": "",
+            "children": [
+              {
+                "type": "PLAINTEXT",
+                "text": "UNDANG-UNDANG REPUBLIK INDONESIA"
+              },
+              {
+                "type": "UU_TITLE_YEAR_AND_NUMBER",
+                "text": "NOMOR 45 TAHUN 1999"
+              },
+              {
+                "type": "PLAINTEXT",
+                "text": "TENTANG"
+              },
+              {
+                "type": "UU_TITLE_TOPIC",
+                "text": "PEMBENTUKAN PROPINSI IRIAN JAYA TENGAH, PROPINSI IRIAN JAYA BARAT, KABUPATEN PANIAI, KABUPATEN MIMIKA, KABUPATEN PUNCAK JAYA, DAN KOTA SORONG"
+              }
+            ]
+          },
+          {
+            "type": "PREFACE",
+            "id": "",
+            "children": [
+              {
+                "type": "PLAINTEXT",
+                "text": "DENGAN RAHMAT TUHAN YANG MAHA ESA"
+              },
+              {
+                "type": "PLAINTEXT",
+                "text": "PRESIDEN REPUBLIK INDONESIA,"
+              }
+            ]
+          },
+          {
+            "type": "CONSIDERATIONS",
+            "id": "",
+            "children": [
+              {
+                "type": "PLAINTEXT",
+                "text": "Menimbang:"
+              },
+              {
+                "type": "LIST",
+                "id": "",
+                "children": [
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "LETTER_WITH_DOT",
+                        "text": "a."
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "bahwa berhubung dengan perkembangan dan kemajuan Propinsi Irian Jaya, Kabupaten Administratif Paniai, Kabupaten Administratif Mimika, Kabupaten Administratif Puncak Jaya, dan Kota Administratif Sorong serta adanya aspirasi yang berkembang dalam masyarakat, dipandang perlu meningkatkan penyelenggaraan pemerintahan, pelaksanaan pembangunan, dan pembinaan kemasyarakatan guna menjamin perkembangan dan kemajuan dimaksud pada masa mendatang;"
+                      }
+                    ]
+                  },
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "LETTER_WITH_DOT",
+                        "text": "b."
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "bahwa sehubungan dengan hal tersebut di atas dan memperhatikan perkembangan jumlah penduduk, luas wilayah, potensi ekonomi, sosial budaya, sosial politik, dan meningkatnya beban tugas serta volume kerja di bidang pemerintahan, pembangunan, dan kemasyarakatan di Propinsi Irian Jaya, Kabupaten Paniai, Kabupaten Mimika, Kabupaten Puncak Jaya, dan Kota Administratif Sorong, dipandang perlu membentuk Propinsi Irian Jaya Tengah dan Propinsi Irian Jaya Barat sebagai pemekaran dari Propinsi Irian Jaya, Kabupaten Administratif Paniai, Kabupaten Administratif Mimika, Kabupaten Administratif Puncak Jaya masing-masing dibentuk menjadi Kabupaten Paniai, Kabupaten Mimika, dan Kabupaten Puncak Jaya, serta Kota Administratif Sorong dibentuk menjadi Kota Sorong;"
+                      }
+                    ]
+                  },
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "LETTER_WITH_DOT",
+                        "text": "c."
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "bahwa pembentukan Propinsi Irian Jaya Tengah, Propinsi Irian Jaya Barat, Kabupaten Paniai, Kabupaten Mimika, Kabupaten Puncak Jaya, dan Kota Sorong akan dapat mendorong peningkatan pelayanan di bidang pemerintahan, pembangunan, dan kemasyarakatan, serta memberikan kemampuan dalam pemanfaatan potensi Daerah untuk menyelenggarakan Otonomi Daerah;"
+                      }
+                    ]
+                  },
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "LETTER_WITH_DOT",
+                        "text": "d."
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "bahwa sesuai dengan butir a, b, dan c serta berdasarkan Undang-undang Nomor 22 Tahun 1999 tentang Pemerintahan Daerah, pembentukan Propinsi Irian Jaya Tengah, Propinsi Irian Jaya Barat, Kabupaten Paniai, Kabupaten Mimika, Kabupaten Puncak Jaya, dan Kota Sorong harus ditetapkan dengan undang-undang."
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "PRINCIPLES",
+            "id": "",
+            "children": [
+              {
+                "type": "PLAINTEXT",
+                "text": "Mengingat:"
+              },
+              {
+                "type": "LIST",
+                "id": "",
+                "children": [
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "NUMBER_WITH_DOT",
+                        "text": "1."
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "Pasal 5 ayat (1), Pasal 18, dan Pasal 20 ayat (1) Undang-Undang Dasar 1945;"
+                      }
+                    ]
+                  },
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "NUMBER_WITH_DOT",
+                        "text": "2."
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "Undang-undang Nomor 22 Tahun 1999 tentang Pemerintahan Daerah (Lembaran Negara Republik Indonesia Tahun 1999 Nomor 60, Tambahan Lembaran Negara Nomor 3839);"
+                      }
+                    ]
+                  },
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "NUMBER_WITH_DOT",
+                        "text": "3."
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "Undang-undang Nomor 12 Tahun 1969 tentang Pembentukan Propinsi Otonom Irian Barat dan Kabupaten-Kabupaten Otonom di Propinsi Irian Barat (Lembaran Negara Republik Indonesia Tahun 1969 Nomor 47, Tambahan Lembaran Negara Nomor 2907);"
+                      }
+                    ]
+                  },
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "NUMBER_WITH_DOT",
+                        "text": "4."
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "Undang-undang Nomor 4 Tahun 1999 tentang Susunan dan Kedudukan Majelis Permusyawaratan Rakyat, Dewan Perwakilan Rakyat, dan Dewan Perwakilan Rakyat Daerah (Lembaran Negara Republik Indonesia Tahun 1999 Nomor 24, Tambahan Lembaran Negara Nomor 3811);"
+                      }
+                    ]
+                  },
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "NUMBER_WITH_DOT",
+                        "text": "5."
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "Undang-undang Nomor 25 Tahun 1999 tentang Perimbangan Keuangan antara Pemerintah Pusat dan Daerah (Lembaran Negara Republik Indonesia Tahun 1999 Nomor 72, Tambahan Lembaran Negara Nomor 3848)."
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "AGREEMENT",
+            "id": "",
+            "children": [
+              {
+                "type": "PLAINTEXT",
+                "text": "Dengan Persetujuan:"
+              },
+              {
+                "type": "PLAINTEXT",
+                "text": "DEWAN PERWAKILAN RAKYAT REPUBLIK INDONESIA"
+              },
+              {
+                "type": "PLAINTEXT",
+                "text": "MEMUTUSKAN:"
+              },
+              {
+                "type": "PLAINTEXT",
+                "text": "Menetapkan:"
+              },
+              {
+                "type": "PLAINTEXT",
+                "text": "UNDANG-UNDANG TENTANG PEMBENTUKAN PROPINSI IRIAN JAYA TENGAH, PROPINSI IRIAN JAYA BARAT, KABUPATEN PANIAI, KABUPATEN MIMIKA, KABUPATEN PUNCAK JAYA, DAN KOTA SORONG"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "BAB",
+        "id": "bab-1",
+        "children": [
+          {
+            "type": "BAB_NUMBER",
+            "text": "BAB I"
+          },
+          {
+            "type": "BAB_TITLE",
+            "text": "KETENTUAN UMUM"
+          },
+          {
+            "type": "PASAL",
+            "id": "pasal-1",
+            "children": [
+              {
+                "type": "PASAL_NUMBER",
+                "text": "Pasal 1"
+              },
+              {
+                "type": "PLAINTEXT",
+                "text": "Dalam Undang-undang ini yang dimaksud dengan:"
+              },
+              {
+                "type": "LIST",
+                "id": "",
+                "children": [
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "LETTER_WITH_DOT",
+                        "text": "a."
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "Daerah adalah Daerah Otonom sebagaimana dimaksud dalam Pasal 1 huruf i Undang undang Nomor 22 Tahun 1999 tentang Pemerintahan Daerah;"
+                      }
+                    ]
+                  },
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "LETTER_WITH_DOT",
+                        "text": "b."
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "Wilayah Administrasi adalah wilayah kerja Gubernur sebagaimana dimaksud dalam Pasal 1 huruf j Undang-undang Nomor 22 Tahun 1999 tentang Pemerintahan Daerah;"
+                      }
+                    ]
+                  },
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "LETTER_WITH_DOT",
+                        "text": "c."
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "Propinsi Irian Jaya adalah Daerah Otonom sebagaimana dimaksud dalam Undang-undang Nomor 12 Tahun 1969 tentang Pembentukan Propinsi Otonom Irian Barat dan Kabupaten kabupaten Otonom Propinsi Irian Barat;"
+                      }
+                    ]
+                  },
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "LETTER_WITH_DOT",
+                        "text": "d."
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "Kabupaten Sorong adalah Daerah Otonom sebagaimana dimaksud dalam Undang-undang Nomor 12 Tahun 1969 tentang Pembentukan Propinsi Otonom Irian Barat dan Kabupaten kabupaten Otonom Propinsi Irian Barat."
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "BAB",
+        "id": "bab-2",
+        "children": [
+          {
+            "type": "BAB_NUMBER",
+            "text": "BAB II"
+          },
+          {
+            "type": "BAB_TITLE",
+            "text": "PEMBENTUKAN, BATAS WILAYAH, DAN IBUKOTA"
+          },
+          {
+            "type": "PASAL",
+            "id": "pasal-2",
+            "children": [
+              {
+                "type": "PASAL_NUMBER",
+                "text": "Pasal 2"
+              },
+              {
+                "type": "PLAINTEXT",
+                "text": "Dengan Undang-undang ini dibentuk Propinsi Irian Jaya Barat dan Propinsi Irian Jaya Tengah dalam wilayah Negara Kesatuan Republik Indonesia serta dibentuk Kabupaten Paniai, Kabupaten Mimika, Kabupaten Puncak Jaya, dan Kota Sorong."
+              }
+            ]
+          },
+          {
+            "type": "PASAL",
+            "id": "pasal-3",
+            "children": [
+              {
+                "type": "PASAL_NUMBER",
+                "text": "Pasal 3"
+              },
+              {
+                "type": "PLAINTEXT",
+                "text": "Propinsi Irian Jaya Tengah berasal dari sebagian wilayah Propinsi Irian Jaya yang terdiri atas wilayah:"
+              },
+              {
+                "type": "LIST",
+                "id": "",
+                "children": [
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "LETTER_WITH_DOT",
+                        "text": "a."
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "Kabupaten Biak Numfor;"
+                      }
+                    ]
+                  },
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "LETTER_WITH_DOT",
+                        "text": "b."
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "Kabupaten Yapen Waropen;"
+                      }
+                    ]
+                  },
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "LETTER_WITH_DOT",
+                        "text": "c."
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "Kabupaten Nabire;"
+                      }
+                    ]
+                  },
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "LETTER_WITH_DOT",
+                        "text": "d."
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "Kabupaten Paniai; dan"
+                      }
+                    ]
+                  },
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "LETTER_WITH_DOT",
+                        "text": "e."
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "Kabupaten Mimika."
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "PASAL",
+            "id": "pasal-4",
+            "children": [
+              {
+                "type": "PASAL_NUMBER",
+                "text": "Pasal 4"
+              },
+              {
+                "type": "PLAINTEXT",
+                "text": "Propinsi Irian Jaya Barat berasal dari sebagian wilayah Propinsi Irian Jaya yang terdiri atas wilayah:"
+              },
+              {
+                "type": "LIST",
+                "id": "",
+                "children": [
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "LETTER_WITH_DOT",
+                        "text": "a."
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "Kabupaten Sorong;"
+                      }
+                    ]
+                  },
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "LETTER_WITH_DOT",
+                        "text": "b."
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "Kabupaten Manokwari;"
+                      }
+                    ]
+                  },
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "LETTER_WITH_DOT",
+                        "text": "c."
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "Kabupaten Fak-Fak; dan"
+                      }
+                    ]
+                  },
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "LETTER_WITH_DOT",
+                        "text": "d."
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "Kota Sorong."
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "PASAL",
+            "id": "pasal-5",
+            "children": [
+              {
+                "type": "PASAL_NUMBER",
+                "text": "Pasal 5"
+              },
+              {
+                "type": "PLAINTEXT",
+                "text": "Kabupaten Paniai terdiri atas wilayah:"
+              },
+              {
+                "type": "LIST",
+                "id": "",
+                "children": [
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "LETTER_WITH_DOT",
+                        "text": "a."
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "Kecamatan Paniai Timur;"
+                      }
+                    ]
+                  },
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "LETTER_WITH_DOT",
+                        "text": "b."
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "Kecamatan Paniai Barat;"
+                      }
+                    ]
+                  },
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "LETTER_WITH_DOT",
+                        "text": "c."
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "Kecamatan Aradide;"
+                      }
+                    ]
+                  },
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "LETTER_WITH_DOT",
+                        "text": "d."
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "Kecamatan Tigi;"
+                      }
+                    ]
+                  },
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "LETTER_WITH_DOT",
+                        "text": "e."
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "Kecamatan Homeyo;"
+                      }
+                    ]
+                  },
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "LETTER_WITH_DOT",
+                        "text": "f."
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "Kecamatan Sugapa;"
+                      }
+                    ]
+                  },
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "LETTER_WITH_DOT",
+                        "text": "g."
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "Kecamatan Agisiga;"
+                      }
+                    ]
+                  },
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "LETTER_WITH_DOT",
+                        "text": "h."
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "Kecamatan Bibida;"
+                      }
+                    ]
+                  },
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "LETTER_WITH_DOT",
+                        "text": "i."
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "Kecamatan Tigi Timur;"
+                      }
+                    ]
+                  },
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "LETTER_WITH_DOT",
+                        "text": "j."
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "Kecamatan Bogobaida; dan"
+                      }
+                    ]
+                  },
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "LETTER_WITH_DOT",
+                        "text": "k."
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "Kecamatan Biandoga."
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "PASAL",
+            "id": "pasal-6",
+            "children": [
+              {
+                "type": "PASAL_NUMBER",
+                "text": "Pasal 6"
+              },
+              {
+                "type": "PLAINTEXT",
+                "text": "Kabupaten Mimika terdiri atas wilayah:"
+              },
+              {
+                "type": "LIST",
+                "id": "",
+                "children": [
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "LETTER_WITH_DOT",
+                        "text": "a."
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "Kecamatan Mimika Barat;"
+                      }
+                    ]
+                  },
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "LETTER_WITH_DOT",
+                        "text": "b."
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "Kecamatan Mimika Timur;"
+                      }
+                    ]
+                  },
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "LETTER_WITH_DOT",
+                        "text": "c."
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "Kecamatan Mimika Baru; dan"
+                      }
+                    ]
+                  },
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "LETTER_WITH_DOT",
+                        "text": "d."
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "Kecamatan Agimuga."
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "PASAL",
+            "id": "pasal-7",
+            "children": [
+              {
+                "type": "PASAL_NUMBER",
+                "text": "Pasal 7"
+              },
+              {
+                "type": "PLAINTEXT",
+                "text": "Kabupaten Puncak Jaya terdiri atas wilayah:"
+              },
+              {
+                "type": "LIST",
+                "id": "",
+                "children": [
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "LETTER_WITH_DOT",
+                        "text": "a."
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "Kecamatan Mulia;"
+                      }
+                    ]
+                  },
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "LETTER_WITH_DOT",
+                        "text": "b."
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "Kecamatan Ilaga;"
+                      }
+                    ]
+                  },
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "LETTER_WITH_DOT",
+                        "text": "c."
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "Kecamatan Ilu;"
+                      }
+                    ]
+                  },
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "LETTER_WITH_DOT",
+                        "text": "d."
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "Kecamatan Sinak;"
+                      }
+                    ]
+                  },
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "LETTER_WITH_DOT",
+                        "text": "e."
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "Kecamatan Beoga; dan"
+                      }
+                    ]
+                  },
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "LETTER_WITH_DOT",
+                        "text": "f."
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "Kecamatan Fawi."
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "PASAL",
+            "id": "pasal-8",
+            "children": [
+              {
+                "type": "PASAL_NUMBER",
+                "text": "Pasal 8"
+              },
+              {
+                "type": "PLAINTEXT",
+                "text": "Kota Sorong terdiri atas wilayah:"
+              },
+              {
+                "type": "LIST",
+                "id": "",
+                "children": [
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "LETTER_WITH_DOT",
+                        "text": "a."
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "Kecamatan Sorong Barat; dan"
+                      }
+                    ]
+                  },
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "LETTER_WITH_DOT",
+                        "text": "b."
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "Kecamatan Sorong Timur."
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "PASAL",
+            "id": "pasal-9",
+            "children": [
+              {
+                "type": "PASAL_NUMBER",
+                "text": "Pasal 9"
+              },
+              {
+                "type": "LIST",
+                "id": "",
+                "children": [
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "NUMBER_WITH_BRACKETS",
+                        "text": "(1)"
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "Dengan dibentuknya Propinsi Irian Jaya Tengah dan Propinsi Irian Jaya Barat, sebagaimana dimaksud dalam Pasal 2, wilayah Propinsi Irian Jaya dikurangi dengan wilayah Propinsi Irian Jaya Tengah dan wilayah Propinsi Irian Jaya Barat, sebagaimana dimaksud dalam Pasal 3 dan Pasal 4."
+                      }
+                    ]
+                  },
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "NUMBER_WITH_BRACKETS",
+                        "text": "(2)"
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "Dengan dibentuknya Kabupaten Paniai, Kabupaten Mimika, dan Kabupaten Puncak Jaya, sebagaimana dimaksud dalam Pasal 2, Kabupaten Administratif Paniai dan Kabupaten Administratif Mimika dalam wilayah Propinsi Irian Jaya Tengah serta Kabupaten Administratif Puncak Jaya dalam wilayah Propinsi Irian Jaya dihapus."
+                      }
+                    ]
+                  },
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "NUMBER_WITH_BRACKETS",
+                        "text": "(3)"
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "Dengan dibentuknya Kota Sorong, sebagaimana dimaksud dalam Pasal 2, Kabupaten Sorong dikurangi dengan Kota Sorong sebagaimana dimaksud dalam Pasal 8."
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "PASAL",
+            "id": "pasal-10",
+            "children": [
+              {
+                "type": "PASAL_NUMBER",
+                "text": "Pasal 10"
+              },
+              {
+                "type": "PLAINTEXT",
+                "text": "Dengan dibentuknya Kota Sorong, Kota Administratif Sorong dalam Kabupaten Sorong dihapus."
+              }
+            ]
+          },
+          {
+            "type": "PASAL",
+            "id": "pasal-11",
+            "children": [
+              {
+                "type": "PASAL_NUMBER",
+                "text": "Pasal 11"
+              },
+              {
+                "type": "PLAINTEXT",
+                "text": "Dengan dibentuknya Propinsi Irian Jaya Tengah dan Propinsi Irian Jaya Barat, Propinsi Irian Jaya diubah namanya menjadi Propinsi Irian Jaya Timur."
+              }
+            ]
+          },
+          {
+            "type": "PASAL",
+            "id": "pasal-12",
+            "children": [
+              {
+                "type": "PASAL_NUMBER",
+                "text": "Pasal 12"
+              },
+              {
+                "type": "LIST",
+                "id": "",
+                "children": [
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "NUMBER_WITH_BRACKETS",
+                        "text": "(1)"
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "Propinsi Irian Jaya Tengah mempunyai batas wilayah:"
+                      },
+                      {
+                        "type": "LIST",
+                        "id": "",
+                        "children": [
+                          {
+                            "type": "LIST_ITEM",
+                            "id": "",
+                            "children": [
+                              {
+                                "type": "LETTER_WITH_DOT",
+                                "text": "a."
+                              },
+                              {
+                                "type": "PLAINTEXT",
+                                "text": "sebelah utara dengan Samudra Pasifik;"
+                              }
+                            ]
+                          },
+                          {
+                            "type": "LIST_ITEM",
+                            "id": "",
+                            "children": [
+                              {
+                                "type": "LETTER_WITH_DOT",
+                                "text": "b."
+                              },
+                              {
+                                "type": "PLAINTEXT",
+                                "text": "sebelah timur dengan Kabupaten Puncak Jaya, Kabupaten Jayapura, dan Kabupaten Merauke, Propinsi Irian Jaya Timur;"
+                              }
+                            ]
+                          },
+                          {
+                            "type": "LIST_ITEM",
+                            "id": "",
+                            "children": [
+                              {
+                                "type": "LETTER_WITH_DOT",
+                                "text": "c."
+                              },
+                              {
+                                "type": "PLAINTEXT",
+                                "text": "sebelah selatan dengan Laut Arafuru; dan"
+                              }
+                            ]
+                          },
+                          {
+                            "type": "LIST_ITEM",
+                            "id": "",
+                            "children": [
+                              {
+                                "type": "LETTER_WITH_DOT",
+                                "text": "d."
+                              },
+                              {
+                                "type": "PLAINTEXT",
+                                "text": "sebelah barat dengan Kabupaten Fak-Fak dan Kabupaten Manokwari, Propinsi Irian Jaya Barat."
+                              }
+                            ]
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "NUMBER_WITH_BRACKETS",
+                        "text": "(2)"
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "Propinsi Irian Jaya Barat mempunyai batas wilayah:"
+                      },
+                      {
+                        "type": "LIST",
+                        "id": "",
+                        "children": [
+                          {
+                            "type": "LIST_ITEM",
+                            "id": "",
+                            "children": [
+                              {
+                                "type": "LETTER_WITH_DOT",
+                                "text": "a."
+                              },
+                              {
+                                "type": "PLAINTEXT",
+                                "text": "sebelah utara dengan Samudra Pasifik;"
+                              }
+                            ]
+                          },
+                          {
+                            "type": "LIST_ITEM",
+                            "id": "",
+                            "children": [
+                              {
+                                "type": "LETTER_WITH_DOT",
+                                "text": "b."
+                              },
+                              {
+                                "type": "PLAINTEXT",
+                                "text": "sebelah timur dengan Kabupaten Nabire dan Kabupaten Mimika, Propinsi Irian Jaya Tengah dan Teluk Cendrawasih;"
+                              }
+                            ]
+                          },
+                          {
+                            "type": "LIST_ITEM",
+                            "id": "",
+                            "children": [
+                              {
+                                "type": "LETTER_WITH_DOT",
+                                "text": "c."
+                              },
+                              {
+                                "type": "PLAINTEXT",
+                                "text": "sebelah selatan dengan Laut Arafuru; dan"
+                              }
+                            ]
+                          },
+                          {
+                            "type": "LIST_ITEM",
+                            "id": "",
+                            "children": [
+                              {
+                                "type": "LETTER_WITH_DOT",
+                                "text": "d."
+                              },
+                              {
+                                "type": "PLAINTEXT",
+                                "text": "sebelah barat dengan Laut Seram dan Laut Halmahera."
+                              }
+                            ]
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "NUMBER_WITH_BRACKETS",
+                        "text": "(3)"
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "Kota Sorong mempunyai batas wilayah:"
+                      },
+                      {
+                        "type": "LIST",
+                        "id": "",
+                        "children": [
+                          {
+                            "type": "LIST_ITEM",
+                            "id": "",
+                            "children": [
+                              {
+                                "type": "LETTER_WITH_DOT",
+                                "text": "a."
+                              },
+                              {
+                                "type": "PLAINTEXT",
+                                "text": "sebelah utara dengan Kecamatan Makbon dan Selat Dampir;"
+                              }
+                            ]
+                          },
+                          {
+                            "type": "LIST_ITEM",
+                            "id": "",
+                            "children": [
+                              {
+                                "type": "LETTER_WITH_DOT",
+                                "text": "b."
+                              },
+                              {
+                                "type": "PLAINTEXT",
+                                "text": "sebelah timur dengan Kecamatan Makbon, Kabupaten Sorong;"
+                              }
+                            ]
+                          },
+                          {
+                            "type": "LIST_ITEM",
+                            "id": "",
+                            "children": [
+                              {
+                                "type": "LETTER_WITH_DOT",
+                                "text": "c."
+                              },
+                              {
+                                "type": "PLAINTEXT",
+                                "text": "sebelah selatan dengan Kecamatan Aimas dan Kecamatan Salawati, Kabupaten Sorong; dan"
+                              }
+                            ]
+                          },
+                          {
+                            "type": "LIST_ITEM",
+                            "id": "",
+                            "children": [
+                              {
+                                "type": "LETTER_WITH_DOT",
+                                "text": "d."
+                              },
+                              {
+                                "type": "PLAINTEXT",
+                                "text": "sebelah barat dengan Selat Dampir."
+                              }
+                            ]
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "NUMBER_WITH_BRACKETS",
+                        "text": "(4)"
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "Kabupaten Paniai mempunyai batas wilayah:"
+                      },
+                      {
+                        "type": "LIST",
+                        "id": "",
+                        "children": [
+                          {
+                            "type": "LIST_ITEM",
+                            "id": "",
+                            "children": [
+                              {
+                                "type": "LETTER_WITH_DOT",
+                                "text": "a."
+                              },
+                              {
+                                "type": "PLAINTEXT",
+                                "text": "sebelah utara dengan Kecamatan Waropen Bawah, Kabupaten Yapen Waropen;"
+                              }
+                            ]
+                          },
+                          {
+                            "type": "LIST_ITEM",
+                            "id": "",
+                            "children": [
+                              {
+                                "type": "LETTER_WITH_DOT",
+                                "text": "b."
+                              },
+                              {
+                                "type": "PLAINTEXT",
+                                "text": "sebelah timur dengan Propinsi Irian Jaya Timur;"
+                              }
+                            ]
+                          },
+                          {
+                            "type": "LIST_ITEM",
+                            "id": "",
+                            "children": [
+                              {
+                                "type": "LETTER_WITH_DOT",
+                                "text": "c."
+                              },
+                              {
+                                "type": "PLAINTEXT",
+                                "text": "sebelah selatan dengan Kecamatan Mimika Timur dan Kecamatan Mimika Baru, Kabupaten Mimika; dan"
+                              }
+                            ]
+                          },
+                          {
+                            "type": "LIST_ITEM",
+                            "id": "",
+                            "children": [
+                              {
+                                "type": "LETTER_WITH_DOT",
+                                "text": "d."
+                              },
+                              {
+                                "type": "PLAINTEXT",
+                                "text": "sebelah barat dengan Kecamatan Napan, Kecamatan Mapia, dan Kecamatan Kamu, Kabupaten Nabire."
+                              }
+                            ]
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "NUMBER_WITH_BRACKETS",
+                        "text": "(5)"
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "Kabupaten Mimika mempunyai batas wilayah:"
+                      },
+                      {
+                        "type": "LIST",
+                        "id": "",
+                        "children": [
+                          {
+                            "type": "LIST_ITEM",
+                            "id": "",
+                            "children": [
+                              {
+                                "type": "LETTER_WITH_DOT",
+                                "text": "a."
+                              },
+                              {
+                                "type": "PLAINTEXT",
+                                "text": "sebelah utara dengan Kecamatan Uwapa, Kecamatan Mapia, dan Kecamatan Kamu, Kabupaten Nabire, Kecamatan Tigi, Kecamatan Tigi Timur dan Kecamatan Paniai Timur, Kabupaten Paniai serta Kecamatan Ilaga dan Kecamatan Beoga, Kabupaten Puncak Jaya, Propinsi Irian Jaya Timur;"
+                              }
+                            ]
+                          },
+                          {
+                            "type": "LIST_ITEM",
+                            "id": "",
+                            "children": [
+                              {
+                                "type": "LETTER_WITH_DOT",
+                                "text": "b."
+                              },
+                              {
+                                "type": "PLAINTEXT",
+                                "text": "sebelah timur dengan Kabupaten Merauke, Propinsi Irian Jaya Timur;"
+                              }
+                            ]
+                          },
+                          {
+                            "type": "LIST_ITEM",
+                            "id": "",
+                            "children": [
+                              {
+                                "type": "LETTER_WITH_DOT",
+                                "text": "c."
+                              },
+                              {
+                                "type": "PLAINTEXT",
+                                "text": "sebelah selatan dengan Laut Arafuru; dan"
+                              }
+                            ]
+                          },
+                          {
+                            "type": "LIST_ITEM",
+                            "id": "",
+                            "children": [
+                              {
+                                "type": "LETTER_WITH_DOT",
+                                "text": "d."
+                              },
+                              {
+                                "type": "PLAINTEXT",
+                                "text": "sebelah barat dengan Kabupaten Fak-Fak, Propinsi Irian Jaya Barat."
+                              }
+                            ]
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "NUMBER_WITH_BRACKETS",
+                        "text": "(6)"
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "Kabupaten Puncak Jaya mempunyai batas wilayah:"
+                      },
+                      {
+                        "type": "LIST",
+                        "id": "",
+                        "children": [
+                          {
+                            "type": "LIST_ITEM",
+                            "id": "",
+                            "children": [
+                              {
+                                "type": "LETTER_WITH_DOT",
+                                "text": "a."
+                              },
+                              {
+                                "type": "PLAINTEXT",
+                                "text": "sebelah utara dengan Kecamatan Memberamo Tengah dan Kecamatan Memberamo Hulu, Kabupaten Jayapura, Propinsi Irian Jaya Timur serta Kabupaten Yapen Waropen, Propinsi Irian Jaya Tengah;"
+                              }
+                            ]
+                          },
+                          {
+                            "type": "LIST_ITEM",
+                            "id": "",
+                            "children": [
+                              {
+                                "type": "LETTER_WITH_DOT",
+                                "text": "b."
+                              },
+                              {
+                                "type": "PLAINTEXT",
+                                "text": "sebelah timur dengan Kecamatan Karubaga dan Kecamatan Tiom, Kabupaten Jayawijaya, Propinsi Irian Jaya Timur;"
+                              }
+                            ]
+                          },
+                          {
+                            "type": "LIST_ITEM",
+                            "id": "",
+                            "children": [
+                              {
+                                "type": "LETTER_WITH_DOT",
+                                "text": "c."
+                              },
+                              {
+                                "type": "PLAINTEXT",
+                                "text": "sebelah selatan dengan Kecamatan Mimika Baru dan Kecamatan Agimuga, Kabupaten Mimika, Propinsi Irian Jaya Tengah; dan"
+                              }
+                            ]
+                          },
+                          {
+                            "type": "LIST_ITEM",
+                            "id": "",
+                            "children": [
+                              {
+                                "type": "LETTER_WITH_DOT",
+                                "text": "d."
+                              },
+                              {
+                                "type": "PLAINTEXT",
+                                "text": "sebelah barat dengan Kecamatan Sugapa dan Kecamatan Paniai Timur, Kabupaten Paniai, Propinsi Irian Jaya Tengah."
+                              }
+                            ]
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "NUMBER_WITH_BRACKETS",
+                        "text": "(7)"
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "Batas wilayah sebagaimana dimaksud pada ayat (1), ayat (2), ayat (3), ayat (4), ayat (5), dan ayat (6) dituangkan dalam peta yang merupakan bagian tidak terpisahkan dari Undang undang ini."
+                      }
+                    ]
+                  },
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "NUMBER_WITH_BRACKETS",
+                        "text": "(8)"
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "Penentuan batas wilayah Propinsi Irian Jaya Tengah, Propinsi Irian Jaya Barat, Kabupaten Paniai, Kabupaten Mimika, Kabupaten Puncak Jaya, dan Kota Sorong secara pasti di lapangan, sebagaimana dimaksud pada ayat (1), ayat (2), ayat (3), ayat (4), ayat (5), dan ayat (6), ditetapkan oleh Menteri Dalam Negeri."
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "PASAL",
+            "id": "pasal-13",
+            "children": [
+              {
+                "type": "PASAL_NUMBER",
+                "text": "Pasal 13"
+              },
+              {
+                "type": "LIST",
+                "id": "",
+                "children": [
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "NUMBER_WITH_BRACKETS",
+                        "text": "(1)"
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "Dengan dibentuknya Propinsi Irian Jaya Tengah, Propinsi Irian Jaya Barat, Kabupaten Paniai, Kabupaten Mimika, Kabupaten Puncak Jaya, dan Kota Sorong, sebagaimana dimaksud dalam Pasal 2, dan mempunyai wilayah sebagaimana dimaksud dalam Pasal 3, Pasal 4, Pasal 5, Pasal 6, Pasal 7, dan Pasal 8, Pemerintah Propinsi Irian Jaya Tengah, Pemerintah Propinsi Irian Jaya Barat, Pemerintah Kabupaten Paniai, Pemerintah Kabupaten Mimika, Pemerintah Kabupaten Puncak Jaya, dan Pemerintah Kota Sorong wajib menetapkan Tata Ruang Wilayah Propinsi Irian Jaya Tengah, Propinsi Irian Jaya Barat, Kabupaten Paniai, Kabupaten Mimika, dan Kabupaten Puncak Jaya, dan Kota Sorong, sesuai dengan peraturan perundang-undangan."
+                      }
+                    ]
+                  },
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "NUMBER_WITH_BRACKETS",
+                        "text": "(2)"
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "Penetapan Tata Ruang Wilayah Propinsi Irian Jaya Tengah, Propinsi Irian Jaya Barat, Kabupaten Paniai, Kabupaten Mimika, Kabupaten Puncak Jaya, dan Kota Sorong, sebagaimana dimaksud pada ayat (1), dilakukan secara terpadu dan tidak terpisahkan dari Tata Ruang Wilayah Nasional, Propinsi, dan Kabupaten/Kota."
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "PASAL",
+            "id": "pasal-14",
+            "children": [
+              {
+                "type": "PASAL_NUMBER",
+                "text": "Pasal 14"
+              },
+              {
+                "type": "LIST",
+                "id": "",
+                "children": [
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "NUMBER_WITH_BRACKETS",
+                        "text": "(1)"
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "Ibukota Propinsi Irian Jaya Tengah berkedudukan di Timika."
+                      }
+                    ]
+                  },
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "NUMBER_WITH_BRACKETS",
+                        "text": "(2)"
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "Ibukota Propinsi Irian Jaya Barat berkedudukan di Manokwari."
+                      }
+                    ]
+                  },
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "NUMBER_WITH_BRACKETS",
+                        "text": "(3)"
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "Ibukota Kabupaten Paniai berkedudukan di Enarotali."
+                      }
+                    ]
+                  },
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "NUMBER_WITH_BRACKETS",
+                        "text": "(4)"
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "Ibukota Kabupaten Mimika berkedudukan di Timika."
+                      }
+                    ]
+                  },
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "NUMBER_WITH_BRACKETS",
+                        "text": "(5)"
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "Ibukota Kabupaten Puncak Jaya berkedudukan di Mulia."
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "BAB",
+        "id": "bab-3",
+        "children": [
+          {
+            "type": "BAB_NUMBER",
+            "text": "BAB III"
+          },
+          {
+            "type": "BAB_TITLE",
+            "text": "KEWENANGAN DAERAH"
+          },
+          {
+            "type": "PASAL",
+            "id": "pasal-15",
+            "children": [
+              {
+                "type": "PASAL_NUMBER",
+                "text": "Pasal 15"
+              },
+              {
+                "type": "LIST",
+                "id": "",
+                "children": [
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "NUMBER_WITH_BRACKETS",
+                        "text": "(1)"
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "Dengan terbentuknya Propinsi Irian Jaya Tengah dan Propinsi Irian Jaya Barat, kewenangan Daerah sebagai Daerah Otonom meliputi bidang pemerintahan yang bersifat lintas Kabupaten dan Kota serta kewenangan dalam bidang pemerintahan tertentu lainnya, sesuai dengan peraturan perundang-undangan."
+                      }
+                    ]
+                  },
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "NUMBER_WITH_BRACKETS",
+                        "text": "(2)"
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "Di samping kewenangan sebagaimana dimaksud pada ayat (1), Propinsi Irian Jaya Tengah dan Propinsi Irian Jaya Barat juga mempunyai kewenangan pemerintahan yang tidak atau belum dapat dilaksanakan oleh Kabupaten dan Kota."
+                      }
+                    ]
+                  },
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "NUMBER_WITH_BRACKETS",
+                        "text": "(3)"
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "Kewenangan Propinsi Irian Jaya Tengah dan Propinsi Irian Jaya Barat sebagai wilayah administrasi mencakup kewenangan pemerintahan yang dilimpahkan kepada Gubernur Irian Jaya Barat dan Gubernur Irian Jaya Tengah selaku wakil Pemerintah."
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "PASAL",
+            "id": "pasal-16",
+            "children": [
+              {
+                "type": "PASAL_NUMBER",
+                "text": "Pasal 16"
+              },
+              {
+                "type": "LIST",
+                "id": "",
+                "children": [
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "NUMBER_WITH_BRACKETS",
+                        "text": "(1)"
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "Pada saat terbentuknya Kabupaten Paniai, Kabupaten Mimika, Kabupaten Puncak Jaya, dan Kota Sorong kewenangan Daerah sebagai Daerah Otonom mencakup seluruh kewenangan bidang pemerintahan, termasuk kewenangan wajib, kecuali bidang politik luar negeri, pertahanan keamanan, peradilan, moneter dan fiskal, agama, serta kewenangan bidang lain, sesuai dengan peraturan perundang-undangan."
+                      }
+                    ]
+                  },
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "NUMBER_WITH_BRACKETS",
+                        "text": "(2)"
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "Kewenangan wajib, sebagaimana dimaksud pada ayat (1), terdiri atas pekerjaan umum, kesehatan, pendidikan dan kebudayaan, pertanian, perhubungan, industri dan perdagangan, penanaman modal, lingkungan hidup, pertanahan, koperasi, dan tenaga kerja."
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "BAB",
+        "id": "bab-4",
+        "children": [
+          {
+            "type": "BAB_NUMBER",
+            "text": "BAB IV"
+          },
+          {
+            "type": "BAB_TITLE",
+            "text": "PEMERINTAHAN DAERAH"
+          },
+          {
+            "type": "PASAL",
+            "id": "pasal-17",
+            "children": [
+              {
+                "type": "PASAL_NUMBER",
+                "text": "Pasal 17"
+              },
+              {
+                "type": "LIST",
+                "id": "",
+                "children": [
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "NUMBER_WITH_BRACKETS",
+                        "text": "(1)"
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "Dengan terbentuknya Propinsi Irian Jaya Tengah dan Propinsi Irian Jaya Barat, dibentuk Dewan Perwakilan Rakyat Daerah di Propinsi masing-masing, sesuai dengan peraturan perundang-undangan."
+                      }
+                    ]
+                  },
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "NUMBER_WITH_BRACKETS",
+                        "text": "(2)"
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "Dengan terbentuknya Kabupaten Paniai, Kabupaten Mimika, Kabupaten Puncak Jaya, dan Kota Sorong dibentuk Dewan Perwakilan Rakyat Daerah di Kabupaten/Kota masing-masing, sesuai dengan peraturan perundang-undangan."
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "PASAL",
+            "id": "pasal-18",
+            "children": [
+              {
+                "type": "PASAL_NUMBER",
+                "text": "Pasal 18"
+              },
+              {
+                "type": "LIST",
+                "id": "",
+                "children": [
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "NUMBER_WITH_BRACKETS",
+                        "text": "(1)"
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "Untuk memimpin jalannya pemerintahan di Propinsi Irian Jaya Tengah dan Propinsi Irian Jaya Barat, dipilih dan disahkan seorang Gubernur dan Wakil Gubernur di Propinsi masing masing, sesuai dengan peraturan perundang-undangan."
+                      }
+                    ]
+                  },
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "NUMBER_WITH_BRACKETS",
+                        "text": "(2)"
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "Untuk memimpin jalannya pemerintahan di Kabupaten Paniai, Kabupaten Mimika, Kabupaten Puncak Jaya, dan Kota Sorong, dipilih dan disahkan seorang Bupati/Walikota dan seorang Wakil Bupati/Walikota di Kabupaten/Kota masing-masing, sesuai dengan peraturan perundang-undangan."
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "PASAL",
+            "id": "pasal-19",
+            "children": [
+              {
+                "type": "PASAL_NUMBER",
+                "text": "Pasal 19"
+              },
+              {
+                "type": "LIST",
+                "id": "",
+                "children": [
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "NUMBER_WITH_BRACKETS",
+                        "text": "(1)"
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "Untuk kelengkapan perangkat pemerintahan, di Propinsi Irian Jaya Tengah dan Propinsi Irian Jaya Barat, masing-masing dibentuk Sekretariat Dewan Perwakilan Rakyat Daerah Propinsi, Sekretariat Propinsi, dinas-dinas Propinsi, dan lembaga teknis Propinsi, sesuai dengan peraturan perundang-undangan."
+                      }
+                    ]
+                  },
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "NUMBER_WITH_BRACKETS",
+                        "text": "(2)"
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "Untuk kelengkapan perangkat pemerintahan, di Kabupaten Paniai, Kabupaten Mimika, Kabupaten Puncak Jaya, dan Kota Sorong, masing-masing dibentuk Sekretariat Dewan Perwakilan Rakyat Daerah Kabupaten/Kota, Sekretariat Kabupaten/Kota, dinas-dinas Kabupaten/Kota, dan lembaga teknis Kabupaten/Kota, sesuai dengan peraturan perundang undangan."
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "BAB",
+        "id": "bab-5",
+        "children": [
+          {
+            "type": "BAB_NUMBER",
+            "text": "BAB V"
+          },
+          {
+            "type": "BAB_TITLE",
+            "text": "KETENTUAN PERALIHAN"
+          },
+          {
+            "type": "PASAL",
+            "id": "pasal-20",
+            "children": [
+              {
+                "type": "PASAL_NUMBER",
+                "text": "Pasal 20"
+              },
+              {
+                "type": "LIST",
+                "id": "",
+                "children": [
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "NUMBER_WITH_BRACKETS",
+                        "text": "(1)"
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "Dengan terbentuknya Propinsi Irian Jaya Tengah, Propinsi Irian Jaya Barat, Kabupaten Paniai, Kabupaten Mimika, Kabupaten Puncak Jaya, dan Kota Sorong, pengisian keanggotaan Dewan Perwakilan Rakyat Daerah Propinsi Irian Jaya Tengah, Dewan Perwakilan Rakyat Daerah Propinsi Irian Jaya Barat, Dewan Perwakilan Rakyat Daerah Kabupaten Paniai, Dewan Perwakilan Rakyat Daerah Kabupaten Mimika, Dewan Perwakilan Rakyat Daerah Kabupaten Puncak Jaya, dan Dewan Perwakilan Rakyat Daerah Kota Sorong, diselenggarakan melalui pemilihan umum lokal selambat-lambatnya satu tahun sejak peresmiannya, sesuai dengan peraturan perundang-undangan."
+                      }
+                    ]
+                  },
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "NUMBER_WITH_BRACKETS",
+                        "text": "(2)"
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "Anggota Dewan Perwakilan Rakyat Daerah Propinsi Irian Jaya Tengah, Dewan Perwakilan Rakyat Daerah Propinsi Irian Jaya Barat, Dewan Perwakilan Rakyat Daerah Kabupaten Paniai, Dewan Perwakilan Rakyat Daerah Kabupaten Mimika, Dewan Perwakilan Rakyat Daerah Kabupaten Puncak Jaya, dan Dewan Perwakilan Rakyat Daerah Kota Sorong terdiri atas:"
+                      },
+                      {
+                        "type": "LIST",
+                        "id": "",
+                        "children": [
+                          {
+                            "type": "LIST_ITEM",
+                            "id": "",
+                            "children": [
+                              {
+                                "type": "LETTER_WITH_DOT",
+                                "text": "a."
+                              },
+                              {
+                                "type": "PLAINTEXT",
+                                "text": "anggota Dewan Perwakilan Rakyat Daerah yang ditetapkan dari partai politik peserta pemilihan umum lokal yang dilaksanakan di Daerah masing-masing; dan"
+                              }
+                            ]
+                          },
+                          {
+                            "type": "LIST_ITEM",
+                            "id": "",
+                            "children": [
+                              {
+                                "type": "LETTER_WITH_DOT",
+                                "text": "b."
+                              },
+                              {
+                                "type": "PLAINTEXT",
+                                "text": "anggota ABRI yang diangkat."
+                              }
+                            ]
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "NUMBER_WITH_BRACKETS",
+                        "text": "(3)"
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "Jumlah dan tata cara pengisian anggota Dewan Perwakilan Rakyat Daerah Propinsi Irian Jaya Tengah, Dewan Perwakilan Rakyat Daerah Propinsi Irian Jaya Barat, Dewan Perwakilan Rakyat Daerah Kabupaten Paniai, Dewan Perwakilan Rakyat Daerah Kabupaten Mimika, Dewan Perwakilan Rakyat Daerah Kabupaten Puncak Jaya, dan Dewan Perwakilan Rakyat Daerah Kota Sorong, sebagaimana dimaksud pada ayat (2), ditetapkan sesuai dengan peraturan perundang-undangan."
+                      }
+                    ]
+                  },
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "NUMBER_WITH_BRACKETS",
+                        "text": "(4)"
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "Dengan terbentuknya Propinsi Irian Jaya Tengah dan Propinsi Irian Jaya Barat, jumlah anggota Dewan Perwakilan Rakyat Daerah Propinsi Irian Jaya Timur disesuaikan dengan jumlah penduduk Propinsi Irian Jaya Timur setelah dikurangi dengan jumlah penduduk Propinsi Irian Jaya Tengah dan Propinsi Irian Jaya Barat."
+                      }
+                    ]
+                  },
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "NUMBER_WITH_BRACKETS",
+                        "text": "(5)"
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "Dengan terbentuknya Kota Sorong jumlah anggota Dewan Perwakilan Rakyat Daerah Kabupaten Sorong disesuaikan dengan jumlah penduduk Kabupaten Sorong setelah dikurangi dengan jumlah penduduk Kota Sorong."
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "PASAL",
+            "id": "pasal-21",
+            "children": [
+              {
+                "type": "PASAL_NUMBER",
+                "text": "Pasal 21"
+              },
+              {
+                "type": "LIST",
+                "id": "",
+                "children": [
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "NUMBER_WITH_BRACKETS",
+                        "text": "(1)"
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "Pada saat terbentuknya Propinsi Irian Jaya Tengah dan Propinsi Irian Jaya Barat, Penjabat Gubernur Irian Jaya Tengah dan Penjabat Gubernur Irian Jaya Barat, untuk pertama kali diangkat oleh Presiden atas usul Menteri Dalam Negeri."
+                      }
+                    ]
+                  },
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "NUMBER_WITH_BRACKETS",
+                        "text": "(2)"
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "Pada saat terbentuknya Kabupaten Paniai, Kabupaten Mimika, Kabupaten Puncak Jaya, dan Kota Sorong, Penjabat Bupati Kabupaten Paniai, Penjabat Bupati Kabupaten Mimika, Penjabat Bupati Kabupaten Puncak Jaya, dan Penjabat Walikota Sorong untuk pertama kali diangkat oleh Menteri Dalam Negeri atas nama Presiden berdasarkan usul Gubernur Irian Jaya Timur."
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "PASAL",
+            "id": "pasal-22",
+            "children": [
+              {
+                "type": "PASAL_NUMBER",
+                "text": "Pasal 22"
+              },
+              {
+                "type": "LIST",
+                "id": "",
+                "children": [
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "NUMBER_WITH_BRACKETS",
+                        "text": "(1)"
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "Untuk kelancaran penyelenggaraan pemerintahan di Propinsi Irian Jaya Tengah, Propinsi Irian Jaya Barat, Kabupaten Paniai, Kabupaten Mimika, Kabupaten Puncak Jaya, dan Kota Sorong, maka Gubernur Irian Jaya Timur dan Bupati Sorong sesuai dengan wewenang dan tugasnya masing-masing menginventarisasi dan mengatur penyerahan kepada Pemerintah Propinsi Irian Jaya Tengah, Propinsi Irian Jaya Barat, Kabupaten Paniai, Kabupaten Mimika, Kabupaten Puncak Jaya, dan Kota Sorong sesuai dengan peraturan perundang-undangan:"
+                      },
+                      {
+                        "type": "LIST",
+                        "id": "",
+                        "children": [
+                          {
+                            "type": "LIST_ITEM",
+                            "id": "",
+                            "children": [
+                              {
+                                "type": "LETTER_WITH_DOT",
+                                "text": "a."
+                              },
+                              {
+                                "type": "PLAINTEXT",
+                                "text": "pegawai yang karena jabatannya diperlukan oleh Pemerintah Propinsi Irian Jaya Tengah, Propinsi Irian Jaya Barat, Kabupaten Paniai, Kabupaten Mimika, Kabupaten Puncak Jaya, dan Kota Sorong;"
+                              }
+                            ]
+                          },
+                          {
+                            "type": "LIST_ITEM",
+                            "id": "",
+                            "children": [
+                              {
+                                "type": "LETTER_WITH_DOT",
+                                "text": "b."
+                              },
+                              {
+                                "type": "PLAINTEXT",
+                                "text": "tanah, bangunan, barang bergerak, dan barang tidak bergerak yang dimiliki, dikuasai, atau dimanfaatkan oleh Pemerintah Propinsi Irian Jaya Timur dan Pemerintah Kabupaten Sorong, yang berada dalam Propinsi Irian Jaya Tengah, Propinsi Irian Jaya Barat, Kabupaten Paniai, Kabupaten Mimika, Kabupaten Puncak Jaya, dan Kota Sorong;"
+                              }
+                            ]
+                          },
+                          {
+                            "type": "LIST_ITEM",
+                            "id": "",
+                            "children": [
+                              {
+                                "type": "LETTER_WITH_DOT",
+                                "text": "c."
+                              },
+                              {
+                                "type": "PLAINTEXT",
+                                "text": "Badan Usaha Milik Daerah Propinsi Irian Jaya Timur dan Kabupaten Sorong yang kedudukan dan sifatnya diperlukan serta kegiatannya berada di Propinsi Irian Jaya Tengah, Propinsi Irian Jaya Barat, Kabupaten Paniai, Kabupaten Mimika, Kabupaten Puncak Jaya, dan Kota Sorong;"
+                              }
+                            ]
+                          },
+                          {
+                            "type": "LIST_ITEM",
+                            "id": "",
+                            "children": [
+                              {
+                                "type": "LETTER_WITH_DOT",
+                                "text": "d."
+                              },
+                              {
+                                "type": "PLAINTEXT",
+                                "text": "utang piutang Propinsi Irian Jaya Timur yang kegunaannya untuk Propinsi Irian Jaya Tengah, Propinsi Irian Jaya Barat, Kabupaten Paniai, Kabupaten Mimika, dan Kabupaten Puncak Jaya serta utang piutang Kabupaten Sorong yang kegunaannya untuk Kota Sorong; dan"
+                              }
+                            ]
+                          },
+                          {
+                            "type": "LIST_ITEM",
+                            "id": "",
+                            "children": [
+                              {
+                                "type": "LETTER_WITH_DOT",
+                                "text": "e."
+                              },
+                              {
+                                "type": "PLAINTEXT",
+                                "text": "perlengkapan kantor, arsip, dokumen, dan perpustakaan yang karena sifatnya diperlukan oleh Propinsi Irian Jaya Tengah, Propinsi Irian Jaya Barat, Kabupaten Paniai, Kabupaten Mimika, Kabupaten Puncak Jaya, dan Kota Sorong."
+                              }
+                            ]
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "NUMBER_WITH_BRACKETS",
+                        "text": "(2)"
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "Pelaksanaan penyerahan sebagaimana dimaksud pada ayat (1) selambat-lambatnya harus diselesaikan dalam waktu satu tahun, terhitung sejak diresmikannya Propinsi Irian Jaya Tengah, Propinsi Irian Jaya Barat, Kabupaten Paniai, Kabupaten Mimika, Kabupaten Puncak Jaya, dan Kota Sorong."
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "PASAL",
+            "id": "pasal-23",
+            "children": [
+              {
+                "type": "PASAL_NUMBER",
+                "text": "Pasal 23"
+              },
+              {
+                "type": "LIST",
+                "id": "",
+                "children": [
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "NUMBER_WITH_BRACKETS",
+                        "text": "(1)"
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "Pembiayaan yang diperlukan akibat pembentukan Propinsi Irian Jaya Tengah, Propinsi Irian Jaya Barat, Kabupaten Paniai, Kabupaten Mimika, Kabupaten Puncak Jaya, dan Kota Sorong, sebagaimana dimaksud dalam Pasal 2, masing-masing dibebankan pada Anggaran Pendapatan dan Belanja Daerah Propinsi Irian Jaya Tengah, Propinsi Irian Jaya Barat, Kabupaten Paniai, Kabupaten Mimika, Kabupaten Puncak Jaya, dan Kota Sorong."
+                      }
+                    ]
+                  },
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "NUMBER_WITH_BRACKETS",
+                        "text": "(2)"
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "Untuk kelancaran penyelenggaraan pemerintahan dan pembangunan, terhitung sejak diresmikannya pembentukan Propinsi Irian Jaya Tengah dan Propinsi Irian Jaya Barat, segala pembiayaan yang diperlukan pada tahun pertama sebelum dapat disusun Anggaran Pendapatan dan Belanja Daerah yang bersangkutan dibebankan pada Anggaran Pendapatan dan Belanja Daerah Propinsi Irian Jaya Timur, berdasarkan pembagian hasil pendapatan yang diperoleh dari Propinsi Irian Jaya Tengah dan Propinsi Irian Jaya Barat."
+                      }
+                    ]
+                  },
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "NUMBER_WITH_BRACKETS",
+                        "text": "(3)"
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "Untuk kelancaran penyelenggaraan pemerintahan dan pembangunan, terhitung sejak diresmikannya pembentukan Kabupaten Paniai, Kabupaten Mimika, Kabupaten Puncak Jaya, dan Kota Sorong, segala pembiayaan yang diperlukan pada tahun pertama sebelum dapat disusun Anggaran Pendapatan dan Belanja Daerah yang bersangkutan masing masing dibebankan pada Anggaran Pendapatan dan Belanja Daerah Propinsi Irian Jaya Timur dan Anggaran Pendapatan dan Belanja Daerah Kabupaten Sorong, berdasarkan perimbangan hasil pendapatan yang diperoleh dari Kabupaten Paniai, Kabupaten Mimika, Kabupaten Puncak Jaya, dan Kota Sorong."
+                      }
+                    ]
+                  },
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "NUMBER_WITH_BRACKETS",
+                        "text": "(4)"
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "Pemerintah Propinsi Irian Jaya Timur wajib membantu pembiayaan sebagaimana dimaksud pada ayat (1) melalui Anggaran Pendapatan dan Belanja Daerah Propinsi Irian Jaya Timur selama tiga tahun berturut-turut, terhitung sejak peresmiannya."
+                      }
+                    ]
+                  },
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "NUMBER_WITH_BRACKETS",
+                        "text": "(5)"
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "Untuk kelancaran penyelenggaraan tugas pemerintahan, pembangunan, dan pembinaan kemasyarakatan, Pemerintah memberikan bantuan pembiayaan sebagai akibat pembentukan Propinsi Irian Jaya Tengah dan Propinsi Irian Jaya Barat selama tiga tahun berturut-turut, terhitung sejak peresmiannya."
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "PASAL",
+            "id": "pasal-24",
+            "children": [
+              {
+                "type": "PASAL_NUMBER",
+                "text": "Pasal 24"
+              },
+              {
+                "type": "PLAINTEXT",
+                "text": "Pembiayaan akibat perubahan nama Propinsi Irian Jaya sebagaimana dimaksud dalam Pasal 11, dibebankan pada Anggaran Pendapatan dan Belanja Daerah Propinsi Irian Jaya Timur."
+              }
+            ]
+          },
+          {
+            "type": "PASAL",
+            "id": "pasal-25",
+            "children": [
+              {
+                "type": "PASAL_NUMBER",
+                "text": "Pasal 25"
+              },
+              {
+                "type": "LIST",
+                "id": "",
+                "children": [
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "NUMBER_WITH_BRACKETS",
+                        "text": "(1)"
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "Semua peraturan perundang-undangan yang saat ini berlaku bagi Propinsi Irian Jaya Timur tetap berlaku bagi Propinsi Irian Jaya Tengah, Propinsi Irian Jaya Barat, Kabupaten Paniai, Kabupaten Mimika, dan Kabupaten Puncak Jaya sebelum diubah, diganti, atau dicabut berdasarkan Undang-undang ini."
+                      }
+                    ]
+                  },
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "NUMBER_WITH_BRACKETS",
+                        "text": "(2)"
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "Semua peraturan perundang-undangan yang saat ini berlaku bagi Kabupaten Sorong tetap berlaku bagi Kota Sorong sebelum diubah, diganti, atau dicabut berdasarkan Undang undang ini."
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "PASAL",
+            "id": "pasal-26",
+            "children": [
+              {
+                "type": "PASAL_NUMBER",
+                "text": "Pasal 26"
+              },
+              {
+                "type": "LIST",
+                "id": "",
+                "children": [
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "NUMBER_WITH_BRACKETS",
+                        "text": "(1)"
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "Sementara menunggu kesiapan prasarana dan sarana yang memadai bagi ibukota Propinsi Irian Jaya Barat, sebagaimana dimaksud dalam Pasal 14 ayat (2), ibukota sementara ditetapkan di Sorong."
+                      }
+                    ]
+                  },
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "NUMBER_WITH_BRACKETS",
+                        "text": "(2)"
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "Selambat-lambatnya dalam jangka waktu lima tahun, Ibukota Propinsi Irian Jaya Barat yang definitif telah difungsikan."
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "BAB",
+        "id": "bab-6",
+        "children": [
+          {
+            "type": "BAB_NUMBER",
+            "text": "BAB VI"
+          },
+          {
+            "type": "BAB_TITLE",
+            "text": "KETENTUAN PENUTUP"
+          },
+          {
+            "type": "PASAL",
+            "id": "pasal-27",
+            "children": [
+              {
+                "type": "PASAL_NUMBER",
+                "text": "Pasal 27"
+              },
+              {
+                "type": "PLAINTEXT",
+                "text": "Pada saat berlakunya Undang-undang ini, semua peraturan perundang-undangan yang tidak sesuai dengan Undang-undang ini dinyatakan tidak berlaku."
+              }
+            ]
+          },
+          {
+            "type": "PASAL",
+            "id": "pasal-28",
+            "children": [
+              {
+                "type": "PASAL_NUMBER",
+                "text": "Pasal 28"
+              },
+              {
+                "type": "PLAINTEXT",
+                "text": "Ketentuan lebih lanjut yang diperlukan sebagai pelaksanaan Undang-undang ini diatur sesuai dengan peraturan perundang-undangan."
+              }
+            ]
+          },
+          {
+            "type": "PASAL",
+            "id": "pasal-29",
+            "children": [
+              {
+                "type": "PASAL_NUMBER",
+                "text": "Pasal 29"
+              },
+              {
+                "type": "PLAINTEXT",
+                "text": "Undang-undang ini mulai berlaku pada tanggal diundangkan."
+              },
+              {
+                "type": "PLAINTEXT",
+                "text": "Agar setiap orang mengetahuinya, memerintahkan pengundangan Undang-undang ini dengan penempatannya dalam Lembaran Negara Republik Indonesia."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "CLOSING",
+        "id": "",
+        "children": [
+          {
+            "type": "PLAINTEXT",
+            "text": "Disahkan Di Jakarta,"
+          },
+          {
+            "type": "PLAINTEXT",
+            "text": "Pada Tanggal 4 Oktober 1999"
+          },
+          {
+            "type": "PLAINTEXT",
+            "text": "PRESIDEN REPUBLIK INDONESIA,"
+          },
+          {
+            "type": "PLAINTEXT",
+            "text": "Ttd."
+          },
+          {
+            "type": "PLAINTEXT",
+            "text": "BACHARUDDIN JUSUF HABIBIE"
+          },
+          {
+            "type": "PLAINTEXT",
+            "text": "Diundangkan Di Jakarta,"
+          },
+          {
+            "type": "PLAINTEXT",
+            "text": "Pada Tanggal 4 Oktober 1999"
+          },
+          {
+            "type": "PLAINTEXT",
+            "text": "MENTERI NEGARA SEKRETARIS NEGARA REPUBLIK INDONESIA,"
+          },
+          {
+            "type": "PLAINTEXT",
+            "text": "Ttd."
+          },
+          {
+            "type": "PLAINTEXT",
+            "text": "MULADI"
+          },
+          {
+            "type": "LEMBARAN_NUMBER",
+            "text": "LEMBARAN NEGARA REPUBLIK INDONESIA TAHUN 1999 NOMOR 173"
+          }
+        ]
+      },
+      {
+        "type": "PENJELASAN",
+        "id": "penjelasan",
+        "children": [
+          {
+            "type": "PENJELASAN_TITLE",
+            "id": "",
+            "children": [
+              {
+                "type": "PLAINTEXT",
+                "text": "PENJELASAN"
+              },
+              {
+                "type": "PLAINTEXT",
+                "text": "UNDANG-UNDANG REPUBLIK INDONESIA"
+              },
+              {
+                "type": "UU_TITLE_YEAR_AND_NUMBER",
+                "text": "NOMOR 45 TAHUN 1999"
+              },
+              {
+                "type": "PLAINTEXT",
+                "text": "TANGGAL 4 OKTOBER 1999"
+              },
+              {
+                "type": "PLAINTEXT",
+                "text": "TENTANG"
+              },
+              {
+                "type": "UU_TITLE_TOPIC",
+                "text": "PEMBENTUKAN PROPINSI IRIAN JAYA TENGAH, PROPINSI IRIAN JAYA BARAT, KABUPATEN PANIAI, KABUPATEN MIMIKA, KABUPATEN PUNCAK JAYA, DAN KOTA SORONG"
+              }
+            ]
+          },
+          {
+            "type": "PENJELASAN_UMUM",
+            "id": "",
+            "children": [
+              {
+                "type": "PENJELASAN_UMUM_TITLE",
+                "text": "UMUM"
+              },
+              {
+                "type": "PLAINTEXT",
+                "text": "Propinsi Irian Jaya mempunyai wilayah seluas, yaitu 404.669 km persegi dengan geografis yang bergunung-gunung dan berbukit-bukit dalam perkembangannya walaupun telah menunjukkan kemajuan dalam penyelenggaraan tugas pemerintahan, pelaksanaan pembangunan, dan pembinaan kemasyarakatan masih diperlukan peningkatan. Propinsi Irian Jaya juga memiliki makna yang khas dalam sejarah perjuangan bangsa Indonesia dalam kehidupan berbangsa dan bernegara. Makna khas tersebut juga terdapat di dalam aspek dinamika budaya, struktur pranata adat istiadat, potensi wilayah, dan struktur sosial kemasyarakatan, serta tantangan dan kendala yang dihadapi beserta lingkungan strategis yang mempengaruhinya. Perkembangan Propinsi Irian Jaya tersebut di atas diikuti pula dengan peningkatan jumlah penduduk yang sangat pesat dengan laju pertumbuhan rata-rata 2,41 % pertahun. Pada tahun 1990 jumlah penduduk Propinsi Irian Jaya berjumlah 1.436.439 jiwa dan pada 1998 meningkat menjadi 2.225.102 jiwa. Hal ini mengakibatkan bertambahnya beban tugas dan volume kerja dalam penyelenggaraan pemerintahan, pembangunan dan pembinaan kemasyarakatan di Propinsi Irian Jaya. Propinsi Irian Jaya memiliki sumber daya pertanian tanaman pangan, perkebunan, kehutanan, pertambangan, dan pariwisata yang cukup potensial untuk dikembangkan, serta memiliki prospek yang cukup baik bagi pemenuhan kebutuhan pasar baik dalam negeri maupun luar negeri, karena memiliki letak yang sangat strategis yaitu merupakan pintu gerbang kearah lingkar Pasifik. Kabupaten Administratif Paniai, Kabupaten Administratif Mimika, Kabupaten Administratif Puncak Jaya dan Kota Administratif Sorong dalam perkembangannya juga telah menunjukkan kemajuan kemajuan dalam penyelenggaraan pemerintahan dan pembangunan, sehingga diperlukan penyesuaian struktur pemerintahan agar dapat mengimbangi beban tugas dan volume kegiatan yang terus meningkat. Berdasarkan hal-hal tersebut di atas dan memperhatikan aspirasi yang berkembang dalam masyarakat sejak tahun 1982, yang selanjutnya dituangkan secara formal dalam Keputusan Dewan Perwakilan Rakyat Daerah Propinsi Irian Jaya tanggal 10 Juli 1999, Nomor 10/DPRD/1999 tentang Persetujuan Dewan Perwakilan Rakyat Daerah Propinsi Daerah Tingkat I Irian Jaya Terhadap Pemekaran Wilayah Propinsi Daerah Tingkat I Irian Jaya dan untuk lebih meningkatkan daya guna dan hasil guna penyelenggaraan pemerintahan, pelaksanaan pembangunan, dan pelayanan kepada masyarakat serta untuk lebih meningkatkan peran aktif masyarakat, dan sesuai aspirasi masyarakat, sejalan dengan kebutuhan pembangunan dan pemerintahan di Propinsi Irian Jaya, maka Propinsi Irian Jaya perlu dimekarkan menjadi tiga Propinsi, yaitu dengan membentuk Propinsi Irian Jaya Tengah dan Propinsi Irian Jaya Barat. Sedangkan Kabupaten Administratif Paniai, Kabupaten Administratif Mimika, dan Kabupaten Administrasi Puncak Jaya perlu dibentuk menjadi Kabupaten Paniai, Kabupaten Mimika, dan Kabupaten Puncak Jaya, serta Kota Administratif Sorong dibentuk menjadi Kota Sorong. Propinsi Irian Jaya Tengah sebelumnya merupakan bagian dari wilayah Propinsi Irian Jaya yang wilayahnya terdiri dari Kabupaten Biak Numfor, Kabupaten Yapen Waropen, Kabupaten Nabire, Kabupaten Paniai, dan Kabupaten Mimika, sedangkan Propinsi Irian Jaya Barat juga merupakan wilayah Propinsi Irian Jaya yang terdiri dari Kabupaten Sorong, Kabupaten Manokwari, dan Kabupaten Fak-Fak. Untuk meningkatkan dan memperkuat peranan putra daerah asli Irian Jaya dalam formasi kepegawaian dan jabatan negeri, diberikan prioritas kepada putra daerah tersebut sedemikian rupa dalam mendapatkan pendidikan dan pelatihan. Hal ini bukan berarti bahwa putra daerah Irian Jaya lainnya yang telah memiliki ikatan sejarah perjuangan dan pengabdian dalam membangun Irian Jaya khususnya dan putra Indonesia pada umumnya diabaikan. Di samping itu, hak adat dalam komunitas budaya suku-suku asli Irian Jaya, termasuk hak atas tanah ulayat, dilindungi dan dijamin pengembangan serta pemberdayaannya secara dinamis dan selaras dengan perkembangan zaman. Dalam rangka pengembangan wilayah dan melihat potensinya dan guna memenuhi kebutuhan pada masa-masa mendatang terutama untuk sarana dan prasarana, serta untuk kesatuan perencanaan, dan pembinaan wilayah, maka Tata Ruang Wilayah Propinsi Irian Jaya Tengah dan wilayah Propinsi Irian Barat, Kabupaten Paniai, Kabupaten Mimika, Kabupaten Puncak Jaya dan Kota Sorong harus benar-benar dioptimalkan dan ditata serta dikonsolidasikan mengenai jaringan sarana dan prasarana dalam satu sistim kesatuan pengembangan yang terpadu dengan Propinsi Irian Jaya Timur dan Kabupaten serta Kota yang ada di Propinsi Irian Jaya Timur, Propinsi Irian Jaya Tengah, dan Propinsi Irian Jaya Barat. Propinsi Irian Jaya yang dibentuk berdasarkan Undang-undang Nomor 12 Tahun 1969 tentang Pembentukan Propinsi Otonom."
+              },
+              {
+                "type": "PLAINTEXT",
+                "text": "Irian Barat dan Kabupaten-kabupaten Otonom di Propinsi Irian Barat setelah dibentuk Propinsi Irian Jaya Tengah dan Propinsi Irian Jaya Barat dirubah namanya menjadi Propinsi Irian Jaya Timur yang wilayahnya meliputi Kabupaten Jayapura, Kota Jayapura, Kabupaten Jayawijaya, Kabupaten Puncak Jaya, dan Kabupaten Merauke. Selanjutnya dengan dibentuknya Kabupaten Paniai, Kabupaten Mimika, Kabupaten Puncak Jaya, dan Kota Sorong, maka Kabupaten Paniai dan Kabupaten Puncak Jaya yang dibentuk dengan Peraturan Pemerintah Nomor 52 Tahun 1996 dan Kabupaten Mimika yang dibentuk dengan Peraturan Pemerintah Nomor 54 Tahun 1996, serta Kota Administratif Sorong yang dibentuk dengan Peraturan Pemerintah Nomor 31 Tahun 1996 dihapus."
+              }
+            ]
+          },
+          {
+            "type": "PENJELASAN_PASAL_DEMI_PASAL",
+            "id": "",
+            "children": [
+              {
+                "type": "PENJELASAN_PASAL_DEMI_PASAL_TITLE",
+                "text": "PASAL DEMI PASAL"
+              },
+              {
+                "type": "PENJELASAN_PASAL",
+                "id": "",
+                "children": [
+                  {
+                    "type": "PASAL_NUMBER",
+                    "text": "Pasal 1"
+                  },
+                  {
+                    "type": "PLAINTEXT",
+                    "text": "Cukup jelas"
+                  }
+                ]
+              },
+              {
+                "type": "PENJELASAN_PASAL",
+                "id": "",
+                "children": [
+                  {
+                    "type": "PASAL_NUMBER",
+                    "text": "Pasal 2"
+                  },
+                  {
+                    "type": "PLAINTEXT",
+                    "text": "Wilayah Propinsi Irian Jaya Tengah dan Propinsi Irian Jaya Barat berasal dari sebagian wilayah Propinsi Irian Jaya. Kabupaten Paniai dan Kabupaten Puncak Jaya berasal dari Kabupaten Administratif Paniai dan Kabupaten Administratif Puncak Jaya yang dibentuk dengan Peraturan Pemerintah Nomor 52 Tahun 1996, Kabupaten Mimika berasal dari Kabupaten Administratif Mimika yang dibentuk dengan Peraturan Pemerintah Nomor 54 Tahun 1996, dan Kota Sorong berasal dari wilayah Kota Administratif Sorong yang dibentuk dengan Peraturan Pemerintah Nomor 31 Tahun 1996."
+                  }
+                ]
+              },
+              {
+                "type": "PENJELASAN_PASAL",
+                "id": "",
+                "children": [
+                  {
+                    "type": "PASAL_NUMBER",
+                    "text": "Pasal 3"
+                  },
+                  {
+                    "type": "PLAINTEXT",
+                    "text": "Cukup jelas"
+                  }
+                ]
+              },
+              {
+                "type": "PENJELASAN_PASAL",
+                "id": "",
+                "children": [
+                  {
+                    "type": "PASAL_NUMBER",
+                    "text": "Pasal 4"
+                  },
+                  {
+                    "type": "PLAINTEXT",
+                    "text": "Cukup jelas"
+                  }
+                ]
+              },
+              {
+                "type": "PENJELASAN_PASAL",
+                "id": "",
+                "children": [
+                  {
+                    "type": "PASAL_NUMBER",
+                    "text": "Pasal 5"
+                  },
+                  {
+                    "type": "PLAINTEXT",
+                    "text": "Cukup jelas"
+                  }
+                ]
+              },
+              {
+                "type": "PENJELASAN_PASAL",
+                "id": "",
+                "children": [
+                  {
+                    "type": "PASAL_NUMBER",
+                    "text": "Pasal 6"
+                  },
+                  {
+                    "type": "PLAINTEXT",
+                    "text": "Cukup jelas"
+                  }
+                ]
+              },
+              {
+                "type": "PENJELASAN_PASAL",
+                "id": "",
+                "children": [
+                  {
+                    "type": "PASAL_NUMBER",
+                    "text": "Pasal 7"
+                  },
+                  {
+                    "type": "PLAINTEXT",
+                    "text": "Cukup jelas"
+                  }
+                ]
+              },
+              {
+                "type": "PENJELASAN_PASAL",
+                "id": "",
+                "children": [
+                  {
+                    "type": "PASAL_NUMBER",
+                    "text": "Pasal 8"
+                  },
+                  {
+                    "type": "PLAINTEXT",
+                    "text": "Cukup jelas"
+                  }
+                ]
+              },
+              {
+                "type": "PENJELASAN_PASAL",
+                "id": "",
+                "children": [
+                  {
+                    "type": "PASAL_NUMBER",
+                    "text": "Pasal 9"
+                  },
+                  {
+                    "type": "PLAINTEXT",
+                    "text": "Cukup jelas"
+                  }
+                ]
+              },
+              {
+                "type": "PENJELASAN_PASAL",
+                "id": "",
+                "children": [
+                  {
+                    "type": "PASAL_NUMBER",
+                    "text": "Pasal 10"
+                  },
+                  {
+                    "type": "PLAINTEXT",
+                    "text": "Cukup jelas"
+                  }
+                ]
+              },
+              {
+                "type": "PENJELASAN_PASAL",
+                "id": "",
+                "children": [
+                  {
+                    "type": "PASAL_NUMBER",
+                    "text": "Pasal 11"
+                  },
+                  {
+                    "type": "PLAINTEXT",
+                    "text": "Cukup jelas"
+                  }
+                ]
+              },
+              {
+                "type": "PENJELASAN_PASAL",
+                "id": "",
+                "children": [
+                  {
+                    "type": "PASAL_NUMBER",
+                    "text": "Pasal 12"
+                  },
+                  {
+                    "type": "LIST",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "PENJELASAN_LIST_ITEM",
+                        "id": "",
+                        "children": [
+                          {
+                            "type": "PENJELASAN_AYAT",
+                            "text": "Ayat (1)"
+                          },
+                          {
+                            "type": "PLAINTEXT",
+                            "text": "Cukup jelas"
+                          }
+                        ]
+                      },
+                      {
+                        "type": "PENJELASAN_LIST_ITEM",
+                        "id": "",
+                        "children": [
+                          {
+                            "type": "PENJELASAN_AYAT",
+                            "text": "Ayat (2)"
+                          },
+                          {
+                            "type": "PLAINTEXT",
+                            "text": "Cukup jelas"
+                          }
+                        ]
+                      },
+                      {
+                        "type": "PENJELASAN_LIST_ITEM",
+                        "id": "",
+                        "children": [
+                          {
+                            "type": "PENJELASAN_AYAT",
+                            "text": "Ayat (3)"
+                          },
+                          {
+                            "type": "PLAINTEXT",
+                            "text": "Cukup jelas"
+                          }
+                        ]
+                      },
+                      {
+                        "type": "PENJELASAN_LIST_ITEM",
+                        "id": "",
+                        "children": [
+                          {
+                            "type": "PENJELASAN_AYAT",
+                            "text": "Ayat (4)"
+                          },
+                          {
+                            "type": "PLAINTEXT",
+                            "text": "Cukup jelas"
+                          }
+                        ]
+                      },
+                      {
+                        "type": "PENJELASAN_LIST_ITEM",
+                        "id": "",
+                        "children": [
+                          {
+                            "type": "PENJELASAN_AYAT",
+                            "text": "Ayat (5)"
+                          },
+                          {
+                            "type": "PLAINTEXT",
+                            "text": "Cukup jelas"
+                          }
+                        ]
+                      },
+                      {
+                        "type": "PENJELASAN_LIST_ITEM",
+                        "id": "",
+                        "children": [
+                          {
+                            "type": "PENJELASAN_AYAT",
+                            "text": "Ayat (6)"
+                          },
+                          {
+                            "type": "PLAINTEXT",
+                            "text": "Cukup jelas"
+                          }
+                        ]
+                      },
+                      {
+                        "type": "PENJELASAN_LIST_ITEM",
+                        "id": "",
+                        "children": [
+                          {
+                            "type": "PENJELASAN_AYAT",
+                            "text": "Ayat (7)"
+                          },
+                          {
+                            "type": "PLAINTEXT",
+                            "text": "Peta sebagaimana dimaksud pada ayat ini adalah peta wilayah Propinsi Irian Jaya Tengah, Propinsi Irian Jaya Barat, Kabupaten Paniai, Kabupaten Mimika, Kabupaten Puncak Jaya, dan Kota Sorong dalam bentuk lampiran Undang-undang ini."
+                          }
+                        ]
+                      },
+                      {
+                        "type": "PENJELASAN_LIST_ITEM",
+                        "id": "",
+                        "children": [
+                          {
+                            "type": "PENJELASAN_AYAT",
+                            "text": "Ayat (8)"
+                          },
+                          {
+                            "type": "PLAINTEXT",
+                            "text": "Penentuan batas wilayah secara pasti antara Propinsi Irian Jaya Tengah dan Propinsi Irian Jaya Timur, Propinsi Irian Jaya Tengah dan Propinsi Irian Jaya Barat, Kabupaten Paniai dan Kabupaten Yapen Waropen, Kabupaten Puncak Jaya, Kabupaten Mimika, serta Kabupaten Nabire, Kabupaten Puncak Jaya dan Kabupaten Yapen Waropen, Kabupaten Jayapura, Kabupaten Jayawijaya, Kabupaten Puncak Jaya dan Kabupaten Paniai, Kabupaten Mimika dan Kabupaten Paniai, Kabupaten Puncak Jaya, Kabupaten Fak-Fak dan Kabupaten Nabire, serta Kota Sorong dan Kabupaten Sorong ditetapkan oleh Menteri Dalam Negeri setelah mempertimbangkan usul Gubernur Irian Jaya Tengah, Gubernur Irian Jaya Barat, dan Gubernur Irian Jaya Timur yang didasarkan atas hasil penelitian, pengukuran, dan pematokan di lapangan."
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "PENJELASAN_PASAL",
+                "id": "",
+                "children": [
+                  {
+                    "type": "PASAL_NUMBER",
+                    "text": "Pasal 13"
+                  },
+                  {
+                    "type": "LIST",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "PENJELASAN_LIST_ITEM",
+                        "id": "",
+                        "children": [
+                          {
+                            "type": "PENJELASAN_AYAT",
+                            "text": "Ayat (1)"
+                          },
+                          {
+                            "type": "PLAINTEXT",
+                            "text": "Cukup jelas"
+                          }
+                        ]
+                      },
+                      {
+                        "type": "PENJELASAN_LIST_ITEM",
+                        "id": "",
+                        "children": [
+                          {
+                            "type": "PENJELASAN_AYAT",
+                            "text": "Ayat (2)"
+                          },
+                          {
+                            "type": "PLAINTEXT",
+                            "text": "Dalam rangka pengembangan Propinsi Irian Jaya Tengah, Propinsi Irian Jaya Barat, Kabupaten Paniai, Kabupaten Mimika, Kabupaten Puncak Jaya, Kota Sorong sesuai dengan potensi Daerah, guna perencanaan dan pelaksanaan penyelenggaraan pemerintahan serta pembangunan pada masa mendatang khususnya, dan untuk pengembangan sarana serta prasarana pemerintahan dan pembangunan, perlu adanya kesatuan perencanaan pembangunan. Untuk itu, Tata Ruang Wilayah Propinsi Irian Jaya Tengah dan Propinsi Irian Jaya Barat, Kabupaten Paniai, Kabupaten Mimika, Kabupaten Puncak Jaya, dan Kota Sorong harus benar-benar serasi dan terpadu penyusunannya dalam satu kesatuan sistem Rencana Tata Ruang Wilayah yang terpadu dengan Tata Ruang wilayah Nasional, Propinsi, dan Kabupaten/Kota."
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "PENJELASAN_PASAL",
+                "id": "",
+                "children": [
+                  {
+                    "type": "PASAL_NUMBER",
+                    "text": "Pasal 14"
+                  },
+                  {
+                    "type": "LIST",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "PENJELASAN_LIST_ITEM",
+                        "id": "",
+                        "children": [
+                          {
+                            "type": "PENJELASAN_AYAT",
+                            "text": "Ayat (1)"
+                          },
+                          {
+                            "type": "PLAINTEXT",
+                            "text": "Yang dimaksud dengan Timika sebagai ibukota Propinsi Irian Jaya Tengah adalah sebagian wilayah yang berada di Kabupaten Mimika."
+                          }
+                        ]
+                      },
+                      {
+                        "type": "PENJELASAN_LIST_ITEM",
+                        "id": "",
+                        "children": [
+                          {
+                            "type": "PENJELASAN_AYAT",
+                            "text": "Ayat (2)"
+                          },
+                          {
+                            "type": "PLAINTEXT",
+                            "text": "Yang dimaksud dengan Manokwari sebagai ibukota Propinsi Irian Jaya Barat adalah sebagian wilayah yang berada di Kabupaten Manokwari."
+                          }
+                        ]
+                      },
+                      {
+                        "type": "PENJELASAN_LIST_ITEM",
+                        "id": "",
+                        "children": [
+                          {
+                            "type": "PENJELASAN_AYAT",
+                            "text": "Ayat (3)"
+                          },
+                          {
+                            "type": "PLAINTEXT",
+                            "text": "Yang dimaksud dengan Enarotali sebagai ibukota Kabupaten Paniai adalah sebagian wilayah yang berada di Kecamatan Paniai Timur."
+                          }
+                        ]
+                      },
+                      {
+                        "type": "PENJELASAN_LIST_ITEM",
+                        "id": "",
+                        "children": [
+                          {
+                            "type": "PENJELASAN_AYAT",
+                            "text": "Ayat (4)"
+                          },
+                          {
+                            "type": "PLAINTEXT",
+                            "text": "Yang dimaksud dengan Timika sebagai ibukota Kabupaten Mimika adalah sebagian wilayah yang berada di Kecamatan Mimika Baru."
+                          }
+                        ]
+                      },
+                      {
+                        "type": "PENJELASAN_LIST_ITEM",
+                        "id": "",
+                        "children": [
+                          {
+                            "type": "PENJELASAN_AYAT",
+                            "text": "Ayat (5)"
+                          },
+                          {
+                            "type": "PLAINTEXT",
+                            "text": "Yang dimaksud dengan Mulia sebagai ibukota Kabupaten Puncak Jaya adalah sebagian wilayah yang berada di Kecamatan Mulia."
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "PENJELASAN_PASAL",
+                "id": "",
+                "children": [
+                  {
+                    "type": "PASAL_NUMBER",
+                    "text": "Pasal 15"
+                  },
+                  {
+                    "type": "PLAINTEXT",
+                    "text": "Cukup jelas"
+                  }
+                ]
+              },
+              {
+                "type": "PENJELASAN_PASAL",
+                "id": "",
+                "children": [
+                  {
+                    "type": "PASAL_NUMBER",
+                    "text": "Pasal 16"
+                  },
+                  {
+                    "type": "PLAINTEXT",
+                    "text": "Cukup jelas"
+                  }
+                ]
+              },
+              {
+                "type": "PENJELASAN_PASAL",
+                "id": "",
+                "children": [
+                  {
+                    "type": "PASAL_NUMBER",
+                    "text": "Pasal 17"
+                  },
+                  {
+                    "type": "PLAINTEXT",
+                    "text": "Cukup jelas"
+                  }
+                ]
+              },
+              {
+                "type": "PENJELASAN_PASAL",
+                "id": "",
+                "children": [
+                  {
+                    "type": "PASAL_NUMBER",
+                    "text": "Pasal 18"
+                  },
+                  {
+                    "type": "PLAINTEXT",
+                    "text": "Cukup jelas"
+                  }
+                ]
+              },
+              {
+                "type": "PENJELASAN_PASAL",
+                "id": "",
+                "children": [
+                  {
+                    "type": "PASAL_NUMBER",
+                    "text": "Pasal 19"
+                  },
+                  {
+                    "type": "LIST",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "PENJELASAN_LIST_ITEM",
+                        "id": "",
+                        "children": [
+                          {
+                            "type": "PENJELASAN_AYAT",
+                            "text": "Ayat (1)"
+                          },
+                          {
+                            "type": "PLAINTEXT",
+                            "text": "Pembentukan dinas-dinas Propinsi dan lembaga teknis Propinsi harus disesuaikan dengan kebutuhan dan kemampuan Propinsi."
+                          }
+                        ]
+                      },
+                      {
+                        "type": "PENJELASAN_LIST_ITEM",
+                        "id": "",
+                        "children": [
+                          {
+                            "type": "PENJELASAN_AYAT",
+                            "text": "Ayat (2)"
+                          },
+                          {
+                            "type": "PLAINTEXT",
+                            "text": "Pembentukan dinas-dinas Kabupaten/Kota dan lembaga teknis Kabupaten/Kota harus disesuaikan dengan kebutuhan dan kemampuan Kabupaten/ Kota."
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "PENJELASAN_PASAL",
+                "id": "",
+                "children": [
+                  {
+                    "type": "PASAL_NUMBER",
+                    "text": "Pasal 20"
+                  },
+                  {
+                    "type": "LIST",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "PENJELASAN_LIST_ITEM",
+                        "id": "",
+                        "children": [
+                          {
+                            "type": "PENJELASAN_AYAT",
+                            "text": "Ayat (1)"
+                          },
+                          {
+                            "type": "PLAINTEXT",
+                            "text": "Cukup jelas"
+                          }
+                        ]
+                      },
+                      {
+                        "type": "PENJELASAN_LIST_ITEM",
+                        "id": "",
+                        "children": [
+                          {
+                            "type": "PENJELASAN_AYAT",
+                            "text": "Ayat (2)"
+                          },
+                          {
+                            "type": "LIST",
+                            "id": "",
+                            "children": [
+                              {
+                                "type": "PENJELASAN_LIST_ITEM",
+                                "id": "",
+                                "children": [
+                                  {
+                                    "type": "PENJELASAN_HURUF",
+                                    "text": "Huruf a"
+                                  },
+                                  {
+                                    "type": "PLAINTEXT",
+                                    "text": "Yang dimaksud dengan partai politik peserta pemilihan umum lokal adalah partai politik peserta pemilihan umum tahun 1999."
+                                  }
+                                ]
+                              },
+                              {
+                                "type": "PENJELASAN_LIST_ITEM",
+                                "id": "",
+                                "children": [
+                                  {
+                                    "type": "PENJELASAN_HURUF",
+                                    "text": "Huruf b"
+                                  },
+                                  {
+                                    "type": "PLAINTEXT",
+                                    "text": "Yang dimaksud dengan anggota ABRI adalah Tentara Nasional Indonesia dan Kepolisian Negara Republik Indonesia."
+                                  }
+                                ]
+                              }
+                            ]
+                          }
+                        ]
+                      },
+                      {
+                        "type": "PENJELASAN_LIST_ITEM",
+                        "id": "",
+                        "children": [
+                          {
+                            "type": "PENJELASAN_AYAT",
+                            "text": "Ayat (3)"
+                          },
+                          {
+                            "type": "PLAINTEXT",
+                            "text": "Cukup jelas"
+                          }
+                        ]
+                      },
+                      {
+                        "type": "PENJELASAN_LIST_ITEM",
+                        "id": "",
+                        "children": [
+                          {
+                            "type": "PENJELASAN_AYAT",
+                            "text": "Ayat (4)"
+                          },
+                          {
+                            "type": "PLAINTEXT",
+                            "text": "Cukup jelas"
+                          }
+                        ]
+                      },
+                      {
+                        "type": "PENJELASAN_LIST_ITEM",
+                        "id": "",
+                        "children": [
+                          {
+                            "type": "PENJELASAN_AYAT",
+                            "text": "Ayat (5)"
+                          },
+                          {
+                            "type": "PLAINTEXT",
+                            "text": "Cukup jelas"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "PENJELASAN_PASAL",
+                "id": "",
+                "children": [
+                  {
+                    "type": "PASAL_NUMBER",
+                    "text": "Pasal 21"
+                  },
+                  {
+                    "type": "LIST",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "PENJELASAN_LIST_ITEM",
+                        "id": "",
+                        "children": [
+                          {
+                            "type": "PENJELASAN_AYAT",
+                            "text": "Ayat (1)"
+                          },
+                          {
+                            "type": "PLAINTEXT",
+                            "text": "Penjabat Gubernur Irian Jaya Tengah dan Penjabat Gubernur Irian Jaya Barat melaksanakan tugas sampai dengan disahkan Gubernur Irian Jaya Tengah dan Gubernur Irian Jaya Barat hasil pemilihan Dewan Perwakilan Rakyat Daerah Propinsi Irian Jaya Tengah dan Gubernur Irian Jaya Barat hasil pemilihan Dewan Perwakilan Rakyat Daerah Propinsi Irian Jaya Barat."
+                          }
+                        ]
+                      },
+                      {
+                        "type": "PENJELASAN_LIST_ITEM",
+                        "id": "",
+                        "children": [
+                          {
+                            "type": "PENJELASAN_AYAT",
+                            "text": "Ayat (2)"
+                          },
+                          {
+                            "type": "PLAINTEXT",
+                            "text": "Penjabat Bupati Paniai, Penjabat Bupati Mimika, Penjabat Bupati Puncak Jaya, dan Penjabat Walikota Sorong melaksanakan tugas sampai dengan disahkannya Bupati/Walikota masing-masing yang merupakan hasil pemilihan Dewan Perwakilan Rakyat Daerah Kabupaten Paniai, Dewan Perwakilan Rakyat Daerah Kabupaten Mimika, Dewan Perwakilan Rakyat Daerah Kabupaten Puncak Jaya, dan Dewan Perwakilan Rakyat Daerah Kota Sorong."
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "PENJELASAN_PASAL",
+                "id": "",
+                "children": [
+                  {
+                    "type": "PASAL_NUMBER",
+                    "text": "Pasal 22"
+                  },
+                  {
+                    "type": "LIST",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "PENJELASAN_LIST_ITEM",
+                        "id": "",
+                        "children": [
+                          {
+                            "type": "PENJELASAN_AYAT",
+                            "text": "Ayat (1)"
+                          },
+                          {
+                            "type": "PLAINTEXT",
+                            "text": "Dengan terbentuknya Propinsi Irian Jaya Tengah dan Propinsi Irian Jaya Barat, Kabupaten Paniai, Kabupaten Mimika, Kabupaten Puncak Jaya, dan Kota Sorong untuk mencapai daya guna dan hasil guna dalam penyelenggaraan pemerintahan, pelaksanaan pembangunan, dan pembinaan kemasyarakatan, digunakan pegawai, tanah, gedung perkantoran beserta perlengkapannya, serta fasilitas pelayanan umum yang telah ada selama ini dan telah dipakai dalam pelaksanaan tugas Pembantu Gubernur Irian Jaya Wilayah II dan III, Kabupaten Administratif Paniai, Kabupaten Administratif Puncak Jaya, Kabupaten Administratif Mimika, dan Kota Administratif Sorong."
+                          },
+                          {
+                            "type": "PLAINTEXT",
+                            "text": "Dalam rangka tertib administrasi, diperlukan tindakan hukum berupa penyerahan dari Pemerintah Propinsi Irian Jaya Timur kepada Propinsi Irian Jaya Tengah, Propinsi Irian Jaya Barat, Kabupaten Paniai, Kabupaten Mimika, Kabupaten Puncak Jaya, serta Kabupaten Sorong kepada Kota Sorong."
+                          },
+                          {
+                            "type": "PLAINTEXT",
+                            "text": "Demikian pula halnya Badan Usaha Milik Daerah Pemerintah Propinsi Irian Jaya Timur yang kedudukan dan kegiatannya berada di wilayah Propinsi Irian Jaya Tengah, wilayah Propinsi Irian Jaya Barat, Kabupaten Paniai, Kabupaten Mimika, Kabupaten Puncak Jaya, dan Kota Sorong untuk mencapai daya guna dan hasil guna dalam penyelenggaraannya, diserahkan oleh Pemerintah Propinsi Irian Jaya Timur masing-masing kepada Pemerintah Propinsi Irian Jaya Tengah dan Propinsi Irian Jaya Barat, Kabupaten Paniai, Kabupaten Mimika, Kabupaten Puncak Jaya, dan Kota Sorong."
+                          },
+                          {
+                            "type": "PLAINTEXT",
+                            "text": "Begitu juga utang piutang yang kegunaannya untuk wilayah Propinsi Irian Jaya Tengah, wilayah Propinsi Irian Jaya Barat, Kabupaten Paniai, Kabupaten Mimika, Kabupaten Puncak Jaya, dan Kota Sorong diserahkan pula masing-masing kepada Pemerintah Propinsi Irian Jaya Tengah, Pemerintah Propinsi Irian Jaya Barat, Pemerintah Kabupaten Paniai, Pemerintah Kabupaten Mimika, dan Pemerintah Kabupaten Puncak Jaya serta utang piutang Kabupaten Sorong yang kegunaannya untuk Kota Sorong diserahkan kepada Pemerintah Kota Sorong. Berkenaan dengan pengaturan penyerahan tersebut, dibuatkan daftar inventaris."
+                          }
+                        ]
+                      },
+                      {
+                        "type": "PENJELASAN_LIST_ITEM",
+                        "id": "",
+                        "children": [
+                          {
+                            "type": "PENJELASAN_AYAT",
+                            "text": "Ayat (2)"
+                          },
+                          {
+                            "type": "PLAINTEXT",
+                            "text": "Yang dimaksud dengan sejak diresmikannya Propinsi Irian Jaya Tengah, Propinsi Irian Jaya Barat, Kabupaten Paniai, Kabupaten Mimika, Kabupaten Puncak Jaya, dan Kota Sorong adalah terhitung sejak dilantiknya Penjabat Gubernur Irian Jaya Tengah, Penjabat Gubernur Irian Jaya Barat, Penjabat Bupati Paniai, Penjabat Bupati Mimika, Penjabat Bupati Puncak Jaya, dan Penjabat Walikota Sorong."
+                          },
+                          {
+                            "type": "PLAINTEXT",
+                            "text": "Pelantikan Penjabat Gubernur Irian Jaya Tengah, Penjabat Gubernur Irian Jaya Barat, Penjabat Bupati Paniai, Penjabat Bupati Mimika, Penjabat Bupati Puncak Jaya, dan Penjabat Walikota Sorong didahului dengan peresmian pembentukan Propinsi Irian Jaya Tengah, Propinsi Irian Jaya Barat, Kabupaten Paniai, Kabupaten Mimika, Kabupaten Puncak Jaya, dan Kota Sorong oleh Menteri Dalam Negeri atas nama Presiden Republik Indonesia. Setelah satu tahun peresmian Propinsi Irian Jaya Tengah, Propinsi Irian Jaya Barat, Kabupaten Mimika, Kabupaten Puncak Jaya, dan Kota Sorong, masing-masing Gubernur yang bersangkutan wajib melaporkan pelaksanaan penyerahan sebagaimana dimaksud pada ayat ini kepada Menteri Dalam Negeri untuk bahan pengambilan kebijakan lebih lanjut."
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "PENJELASAN_PASAL",
+                "id": "",
+                "children": [
+                  {
+                    "type": "PASAL_NUMBER",
+                    "text": "Pasal 23"
+                  },
+                  {
+                    "type": "LIST",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "PENJELASAN_LIST_ITEM",
+                        "id": "",
+                        "children": [
+                          {
+                            "type": "PENJELASAN_AYAT",
+                            "text": "Ayat (1)"
+                          },
+                          {
+                            "type": "PLAINTEXT",
+                            "text": "Yang dimaksud dengan pembiayaan adalah biaya untuk pembangunan gedung perkantoran, rumah dinas, perlengkapan kantor, sarana mebel, dan sarana mobilitas serta biaya operasional bagi kelancaran penyelenggaraan pemerintahan, pelaksanaan pembangunan, dan pembinaan kemasyarakatan."
+                          }
+                        ]
+                      },
+                      {
+                        "type": "PENJELASAN_LIST_ITEM",
+                        "id": "",
+                        "children": [
+                          {
+                            "type": "PENJELASAN_AYAT",
+                            "text": "Ayat (2)"
+                          },
+                          {
+                            "type": "PLAINTEXT",
+                            "text": "Cukup jelas"
+                          }
+                        ]
+                      },
+                      {
+                        "type": "PENJELASAN_LIST_ITEM",
+                        "id": "",
+                        "children": [
+                          {
+                            "type": "PENJELASAN_AYAT",
+                            "text": "Ayat (3)"
+                          },
+                          {
+                            "type": "PLAINTEXT",
+                            "text": "Cukup jelas"
+                          }
+                        ]
+                      },
+                      {
+                        "type": "PENJELASAN_LIST_ITEM",
+                        "id": "",
+                        "children": [
+                          {
+                            "type": "PENJELASAN_AYAT",
+                            "text": "Ayat (4)"
+                          },
+                          {
+                            "type": "PLAINTEXT",
+                            "text": "Cukup jelas"
+                          }
+                        ]
+                      },
+                      {
+                        "type": "PENJELASAN_LIST_ITEM",
+                        "id": "",
+                        "children": [
+                          {
+                            "type": "PENJELASAN_AYAT",
+                            "text": "Ayat (5)"
+                          },
+                          {
+                            "type": "PLAINTEXT",
+                            "text": "Cukup jelas"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "PENJELASAN_PASAL",
+                "id": "",
+                "children": [
+                  {
+                    "type": "PASAL_NUMBER",
+                    "text": "Pasal 24"
+                  },
+                  {
+                    "type": "PLAINTEXT",
+                    "text": "Cukup jelas"
+                  }
+                ]
+              },
+              {
+                "type": "PENJELASAN_PASAL",
+                "id": "",
+                "children": [
+                  {
+                    "type": "PASAL_NUMBER",
+                    "text": "Pasal 25"
+                  },
+                  {
+                    "type": "PLAINTEXT",
+                    "text": "Cukup jelas"
+                  }
+                ]
+              },
+              {
+                "type": "PENJELASAN_PASAL",
+                "id": "",
+                "children": [
+                  {
+                    "type": "PASAL_NUMBER",
+                    "text": "Pasal 26"
+                  },
+                  {
+                    "type": "PLAINTEXT",
+                    "text": "Cukup jelas"
+                  }
+                ]
+              },
+              {
+                "type": "PENJELASAN_PASAL",
+                "id": "",
+                "children": [
+                  {
+                    "type": "PASAL_NUMBER",
+                    "text": "Pasal 27"
+                  },
+                  {
+                    "type": "PLAINTEXT",
+                    "text": "Cukup jelas"
+                  }
+                ]
+              },
+              {
+                "type": "PENJELASAN_PASAL",
+                "id": "",
+                "children": [
+                  {
+                    "type": "PASAL_NUMBER",
+                    "text": "Pasal 28"
+                  },
+                  {
+                    "type": "PLAINTEXT",
+                    "text": "Cukup jelas"
+                  }
+                ]
+              },
+              {
+                "type": "PENJELASAN_PASAL",
+                "id": "",
+                "children": [
+                  {
+                    "type": "PASAL_NUMBER",
+                    "text": "Pasal 29"
+                  },
+                  {
+                    "type": "PLAINTEXT",
+                    "text": "Cukup jelas"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

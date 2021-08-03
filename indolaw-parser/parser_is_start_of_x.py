@@ -39,6 +39,7 @@ LINE_ENDING_REGEXES = [
     r'(; dan)',
     r'(; atau)',
     r'(,)',
+    r'(, dan)',
     r'(' + CLOSE_QUOTE_CHAR + r')'
 ]
 
