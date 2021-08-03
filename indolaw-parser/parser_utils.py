@@ -1,7 +1,7 @@
-from typing import Any, Dict, List, Optional, Set, Union, Callable
+from typing import Any, Dict, List, Optional, Set, Union
 from itertools import filterfalse
 import re
-from os import system, name, path
+from os import close, system, name, path
 from colorama import init
 from termcolor import colored
 import pyperclip
@@ -46,7 +46,7 @@ from parser_is_start_of_x import (
     is_start_of_structure,
     is_start_of_unordered_list_index_str,
 )
-from parser_ui import print_dashed_line, print_line, print_section_header, print_yes_no_undo
+from parser_ui import print_dashed_line, print_line, print_section_header, print_yes_no, print_yes_no_undo, print_max_undo
 
 
 class CleaningStageOrder(IntEnum):
@@ -274,7 +274,7 @@ def is_next_list_index_number(list_index_a: str, list_index_b: str) -> bool:
         print(list_index_b)
         print_line()
         print('Are they consecutive list indexes?')
-        print_yes_no_undo()
+        print_yes_no()
         user_input = input()
 
         # user_input = 'y'
@@ -538,7 +538,7 @@ def clean_law(law: List[str]) -> List[str]:
 
                 next_cleaning_stage = int_pick_stage + 1
             except:
-                raise Exception(f'No logic for handling {current_stage}')
+                raise Exception(f'No logic for handling stage')
 
         else:
             raise ValueError("Invalid input.")
@@ -555,7 +555,7 @@ def clean_law(law: List[str]) -> List[str]:
             print("Proceed to parsing?")
             print("(y) to proceed to parsing.")
             print("(n) to undo to specific cleaning stages.")
-            print_yes_no_undo()
+            print_yes_no()
 
             finish_parsing = ''
 
@@ -600,8 +600,14 @@ def insert_perubahan_section_open_quotes(law: List[str]) -> List[str]:
     for line in law:
         new_law.append(line)
 
+    i = 0
+    last_i = len(law)
+    # i_input contains a dicts of input index and the associated input
+    i_input = []
+
     # add open quote char in body
-    for i, line in enumerate(new_law):
+    while i < last_i:
+    #for i, line in enumerate(new_law):
         if is_start_of_penjelasan(new_law, i):
             break
 
@@ -623,8 +629,22 @@ def insert_perubahan_section_open_quotes(law: List[str]) -> List[str]:
 
             if user_input == 'y':
                 new_law[i] = OPEN_QUOTE_CHAR + line
-            elif user_input != 'n':
+                i_input.append({'i': i, 'input': 'y'})
+            elif user_input == 'n':
+                i_input.append({'i': i, 'input': 'n'})
+            elif user_input == 'z':
+                if len(i_input) == 0:
+                    print_max_undo()
+                elif i_input[-1]['input'] == 'y':
+                    #deletes the OPEN_QUOTE_CHAR if the user input in the index is 'y'
+                    new_law[i_input[-1]['i']] = new_law[i_input[-1]['i']][1:]
+                    i = i_input[-1]['i']
+                    i_input.pop()
+                continue
+            else:
                 raise Exception(f'Invalid input {user_input}')
+
+        i += 1
 
     return new_law
 
@@ -644,7 +664,13 @@ def insert_perubahan_section_close_quotes(law: List[str]) -> List[str]:
             open_quote_indexes.append(i)
 
     best_guess_index = -1
-    for i, _ in enumerate(open_quote_indexes):
+
+    i = 0
+    last_i = len(open_quote_indexes)
+    # i_input contains the index where CLOSE_QUOTE_CHAR is added
+    i_input = []
+
+    while i < last_i:
         open_quote_index = open_quote_indexes[i]
         if i == len(open_quote_indexes) - 1:
             next_open_quote_index = len(new_law)
@@ -680,6 +706,14 @@ def insert_perubahan_section_close_quotes(law: List[str]) -> List[str]:
         user_input_int = -1
         if user_input == 'y':
             user_input_int = best_guess_index
+        elif user_input == 'u':
+            if len(i_input) == 0:
+                print_max_undo()
+            else:
+                new_law[i_input[-1]] = new_law[i_input[-1]][:-1]
+                i = i_input[-1]
+                i_input.pop()
+            continue
         else:
             if not user_input.isnumeric():
                 raise Exception(
@@ -688,7 +722,7 @@ def insert_perubahan_section_close_quotes(law: List[str]) -> List[str]:
             user_input_int = int(user_input)
             if user_input_int < open_quote_index or user_input_int >= next_open_quote_index:
                 print('This input may be out of bounds. Do you want to proceed?')
-                print_yes_no_undo()
+                print_yes_no()
                 user_input = input()
                 if user_input == 'y':
                     pass
@@ -697,6 +731,8 @@ def insert_perubahan_section_close_quotes(law: List[str]) -> List[str]:
                         f"Invalid input {user_input} - out of bounds")
 
         new_law[user_input_int] = new_law[user_input_int] + CLOSE_QUOTE_CHAR
+        i_input.append(user_input_int)
+        i += 1
 
     return new_law
 
@@ -719,7 +755,14 @@ def insert_penjelasan_perubahan_section_open_quotes(law: List[str]) -> List[str]
             open_quote_headings.add(line[1:])
 
     in_penjelasan_pasal_demi_pasal = False
-    for i, line in enumerate(new_law):
+
+    i = 0
+    i_input = []
+    last_i = len(new_law)
+
+    while i < last_i:
+        line = new_law[i]
+
         if is_start_of_penjelasan_pasal_demi_pasal(new_law, i):
             in_penjelasan_pasal_demi_pasal = True
 
@@ -743,8 +786,20 @@ def insert_penjelasan_perubahan_section_open_quotes(law: List[str]) -> List[str]
 
             if user_input == 'y':
                 new_law[i] = OPEN_QUOTE_CHAR + line
+            elif user_input == 'u':
+                if len(i_input) == 0:
+                    print_max_undo()
+                else:
+                    new_law[i_input[-1]] = new_law[i_input[-1]][1:]
+                    i = i_input[-1]
+                    i_input.pop()
+                continue
             elif user_input != 'n':
                 raise Exception(f'Invalid input {user_input}')
+
+            i_input.append(i)
+
+        i += 1
 
     return new_law
 
@@ -767,7 +822,12 @@ def insert_penjelasan_perubahan_section_close_quotes(law: List[str]) -> List[str
         if any([is_heading(regex, line) for regex in START_OF_PERUBAHAN_SECTION_REGEXES]):
             open_quote_indexes.append(i)
 
-    for i, _ in enumerate(open_quote_indexes):
+    i = 0
+    # i_input contains a list of index where close quotes is added
+    i_input = []
+    last_i = len(new_law)
+
+    while i < last_i:
         open_quote_index = open_quote_indexes[i]
         if i == len(open_quote_indexes) - 1:
             next_open_quote_index = len(new_law)
@@ -797,15 +857,24 @@ def insert_penjelasan_perubahan_section_close_quotes(law: List[str]) -> List[str
         if user_input == 'y':
             if best_guess_index == -1:
                 raise Exception(
-                    'Invalid input - not best guess available to use')
+                    'Invalid input - no best guess available to use')
             close_quote_index = best_guess_index
+        elif user_input == 'u':
+            if len(i_input) == 0:
+                print_max_undo()
+            else:
+                #deleting the CLOSE_QUOTE_CHAR in the last input index
+                new_law[i_input[-1]] = new_law[i_input[-1]][:-1]
+                i = i_input[-1]
+                i_input.pop()
+                continue
         elif not user_input.isnumeric():
             raise Exception(f"Invalid input {user_input} - expected a number")
         else:
             close_quote_index = int(user_input)
             if close_quote_index < open_quote_index or close_quote_index >= next_open_quote_index:
                 print('This input may be out of bounds. Do you want to proceed?')
-                print_yes_no_undo()
+                print_yes_no()
                 user_input = input()
                 if user_input == 'y':
                     pass
@@ -813,7 +882,10 @@ def insert_penjelasan_perubahan_section_close_quotes(law: List[str]) -> List[str
                     raise Exception(
                         f"Invalid input {user_input} - out of bounds")
 
+        i_input.append(close_quote_index)
         new_law[close_quote_index] += CLOSE_QUOTE_CHAR
+
+        i += 1
 
     return new_law
 
@@ -822,7 +894,7 @@ def insert_perubahan_quotes(law: List[str]) -> List[str]:
     print_section_header('INSERT PERUBAHAN SECTION QUOTES...')
 
     print('Is this UU an UU Perubahan?')
-    print_yes_no_undo()
+    print_yes_no()
     user_input = input()
     if user_input == 'n':
         return law
@@ -850,12 +922,11 @@ def clean_squashed_page_numbers(law: List[str]) -> List[str]:
     
     idx = 0
     last_idx = len(law)
-    last_input_idx = 0
+    idx_input = []
 
     while idx < last_idx:
         line = law[idx]
 
-    #for idx, line in enumerate(law):
         result = re.split(PAGE_NUMBER_REGEX, line)
         if len(result) == 1:
             new_law.append(line)
@@ -871,24 +942,26 @@ def clean_squashed_page_numbers(law: List[str]) -> List[str]:
             print_yes_no_undo()
             user_input = input()
 
-            # user_input = 'y'
             if user_input == 'y':
                 new_law.append(''.join(result[:-2]))
             elif user_input == 'n':
                 new_law.append(line)
-            elif user_input == 'z':
-                for delete_idx in range(idx - 1, last_input_idx - 1, -1):
-                    new_law.pop(delete_idx)
-                idx = last_input_idx
+            elif user_input == 'u':
+                if len(idx_input) == 0:
+                    print_max_undo()
+                else:
+                    for _ in range(idx - 1, idx_input[-1] - 1, -1):
+                        new_law.pop()
+                    print(f"{idx_input}")
+                    idx = idx_input[-1]
+                    idx_input.pop()
                 continue
             else:
                 raise Exception(f'Input "{user_input}" is invalid')
 
-            last_input_idx = idx
+            idx_input.append(idx)
         
         idx += 1
-    #delete later
-    save_law_to_file(new_law, 'test_with_z.txt')
     return new_law
 
 
@@ -899,7 +972,13 @@ def clean_split_plaintext(law: List[str]) -> List[str]:
     print_section_header('CLEANING SPLIT PLAINTEXT...')
 
     new_law: List[str] = []
-    for i, line in enumerate(law):
+
+    idx = 0
+    last_idx = len(law)
+    # idx_input contains dicts of input index and the associated input
+    idx_input = []
+    
+    while idx < last_idx:
         '''
         the line length check is a heuristic to filter out false positives from the
         lowercase check due to list indexes e.g 'e.'
@@ -907,13 +986,15 @@ def clean_split_plaintext(law: List[str]) -> List[str]:
         The logic below is imprecise; it's just all heuristics & hands off to the user
         to make a decision
         '''
-        really_long = len(law[i]) > 75
-        long_enough = len(law[i]) > 5
-        starts_with_lowercase = law[i][0].islower()
-        starts_with_number = law[i][0].isnumeric()
-        previous_line_long = i > 0 and len(law[i-1]) > 20
-        previous_line_not_all_caps = i > 0 and not law[i-1].isupper()
-        not_all_caps = not law[i].isupper()
+        line = law[idx]
+
+        really_long = len(law[idx]) > 75
+        long_enough = len(law[idx]) > 5
+        starts_with_lowercase = law[idx][0].islower()
+        starts_with_number = law[idx][0].isnumeric()
+        previous_line_long = idx > 0 and len(law[idx-1]) > 20
+        previous_line_not_all_caps = idx > 0 and not law[idx-1].isupper()
+        not_all_caps = not law[idx].isupper()
 
         is_curr_line_maybe_split_plaintext = really_long or \
             (
@@ -924,36 +1005,58 @@ def clean_split_plaintext(law: List[str]) -> List[str]:
                         previous_line_long and
                         previous_line_not_all_caps and
                         not_all_caps and
-                        not is_start_of_pasal(law, i) and
-                        not is_start_of_perubahan_pasal(law, i) and
-                        not is_start_of_penjelasan_list_index_str(law[i]) and
-                        not is_start_of_bagian(law, i) and
-                        not is_start_of_paragraf(law, i)
+                        not is_start_of_pasal(law, idx) and
+                        not is_start_of_perubahan_pasal(law, idx) and
+                        not is_start_of_penjelasan_list_index_str(law[idx]) and
+                        not is_start_of_bagian(law, idx) and
+                        not is_start_of_paragraf(law, idx)
                     )
                 )
             )
 
-        is_prev_line_maybe_split_plaintext = i > 0 and len(law[i-1]) > 10
+        is_prev_line_maybe_split_plaintext = idx > 0 and len(law[idx-1]) > 10
 
         if is_curr_line_maybe_split_plaintext and is_prev_line_maybe_split_plaintext:
             print('---------------------------------')
-            print(f'{i} / {len(law)}')
-            print(f'{law[i-1]}')
+            print(f'{idx} / {len(law)}')
+            print(f'{law[idx-1]}')
             print('- - - - - - - - - - - - - - - - -')
-            print(f'{law[i]}')
+            print(f'{law[idx]}')
             print('---------------------------------')
 
-            pyperclip.copy(law[i])
+            pyperclip.copy(law[idx])
             print("Combine lines into one?")
             print_yes_no_undo()
             user_input = input()
 
             if user_input.lower() == 'y':
                 new_law[-1] += (' '+line)
-            else:
+                idx_input.append({'idx' :idx, 'input':'y'})
+            elif user_input.lower() == 'u':
+                if len(idx_input) == 0:
+                    print_max_undo()
+                else:
+                    print(f"{colored('Undoing', 'blue')}")
+                    for idx_del in range(idx - 1, idx_input[-1]['idx'] - 1, -1):
+                        if idx_del == idx_input[-1]['idx'] and idx_input[-1]['input'] == 'y':
+                            continue
+                        print(f"deleting line on idx {idx_del}")
+                        new_law.pop()
+                    
+                    idx = idx_input[-1]['idx']
+                    idx_input.pop()
+                continue
+            elif user_input == 'n':
                 new_law.append(line)
+                idx_input.append({'idx':idx, 'input':'n'})
+                print(idx_input)
+            else:
+                raise Exception(f'Input "{user_input}" is invalid')
+
         else:
             new_law.append(line)
+        
+        idx += 1
 
     return new_law
 
@@ -1091,7 +1194,7 @@ def get_squashed_list_item(line: str, approx_len: int, approx_index: int):
 
     pyperclip.copy(line[start_of_squashed_list_item_idx:])
     print('Split line?')
-    print_yes_no_undo()
+    print_yes_no()
     user_input = input()
 
     # user_input = 'y'
@@ -1180,7 +1283,7 @@ def get_squashed_heading(line: str, approx_len: int, approx_index: int):
 
     pyperclip.copy(line[start_of_squashed_heading_idx:])
     print('Split line?')
-    print_yes_no_undo()
+    print_yes_no()
     user_input = input()
 
     # user_input = 'n'

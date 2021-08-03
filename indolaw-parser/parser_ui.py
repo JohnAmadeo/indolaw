@@ -24,9 +24,15 @@ def print_dashed_line():
     print('- - - - - - - -')
 
 
+def print_yes_no():
+    print(f"{colored('y', 'green')} / {colored('n', 'red')}")
+
+
 def print_yes_no_undo():
-    print(f"Press {colored('z', 'blue')} to undo")
-    print(f"{colored('y', 'green')} / {colored('n', 'red')} /// {colored('z', 'blue')}")
+    print(f"{colored('y', 'green')} / {colored('n', 'red')} /// {colored('u', 'blue')}")
+
+def print_max_undo():
+    print(f"{colored('Nothing left to undo', 'red')}")
 
 
 def print_section_header(line):
