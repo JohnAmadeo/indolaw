@@ -2402,10 +2402,12 @@ if __name__ == "__main__":
         exit()
 
     filename = sys.argv[1]
+    if filename.endswith('.txt'):
+        filename = filename.strip('.txt')
 
     law = load_clean_law(filename)
 
-    if len(sys.argv) >= 3 and sys.argv[2] == '--clean':
+    if len(sys.argv) >= 3 and sys.argv[2] in ['-c', '--clean']:
         exit()
 
     ROOT = ComplexNode(type=Structure.UNDANG_UNDANG)
@@ -2418,7 +2420,8 @@ if __name__ == "__main__":
     ketentuan_umum_list = []
 
     if 'ketentuan_umum' in metadata:
-        ketentuan_umum_list = sorted(metadata['ketentuan_umum'].keys(), key=lambda x: len(x), reverse=True)
+        ketentuan_umum_list = sorted(
+            metadata['ketentuan_umum'].keys(), key=lambda x: len(x), reverse=True)
 
     content = convert_tree_to_json(ROOT, ketentuan_umum_list)
 
