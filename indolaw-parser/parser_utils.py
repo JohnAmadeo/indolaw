@@ -1059,7 +1059,19 @@ def get_squashed_list_item(line: str, approx_len: int, approx_index: int):
         return None
 
     if 'full' not in earliest_match.groupdict():
-        raise Exception(f'Cannot find start of list index in string "{line}"')
+        print_line()
+        print(f'Cannot find start of list index in string "{line}"')
+        print_line()
+        print('Treat this as a single line?')
+        print()
+        print_yes_no()
+        user_input = input()
+
+        if user_input == 'y':
+            return None
+        else:
+            raise Exception(
+                f'Cannot find start of list index in string "{line}"')
 
     start_of_squashed_list_item_idx = earliest_match.start('full')
 
