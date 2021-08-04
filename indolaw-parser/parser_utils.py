@@ -406,10 +406,6 @@ def clean_law(law: List[str]) -> List[str]:
             'Informasi adalah keterangan',
         ]
     """
-    # TODO(johnamadeo): Make logic below a real stage?
-    def clean_whitespace(l):
-        return ' '.join(l.split())
-
     law = [line.strip() for line in law]
     law = [clean_whitespace(line) for line in law]
 
@@ -1648,3 +1644,7 @@ def save_law_to_file(law: List[str], filename: str):
             else:
                 txt_law.append(f'{line}')
         outfile.writelines(txt_law)
+
+
+def clean_whitespace(l):
+    return ' '.join(l.split())

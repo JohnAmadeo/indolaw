@@ -2,6 +2,7 @@ from parser_types import Structure, ComplexNode, PrimitiveNode
 from parser_utils import (
     clean_maybe_squashed_heading,
     clean_split_pasal_number,
+    clean_whitespace,
     get_id,
     get_squashed_list_item,
     ignore_line,
@@ -1021,3 +1022,7 @@ def test_is_word_part_of_text():
     assert is_word_part_of_text("kami harus melaksanakan", "anak", 17) == False
 
 
+
+
+def test_clean_whitespace():
+    assert clean_whitespace(' The  quick brown ') == 'The quick brown'
