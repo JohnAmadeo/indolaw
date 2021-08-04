@@ -876,6 +876,23 @@ def clean_split_plaintext(law: List[str]) -> List[str]:
     '''
     print_section_header('CLEANING SPLIT PLAINTEXT...')
 
+    skip_heuristics = [
+        lambda _, curr: curr in ['Mengingat:', 'Mengingat :'],
+
+        lambda _, curr: curr.lower() in [
+            'dengan persetujuan:', 'dengan persetujuan'],
+
+        lambda prev, curr: prev == 'Undang-undang ini mulai berlaku pada tanggal diundangkan.' and curr == 'Agar setiap orang mengetahuinya, memerintahkan pengundangan Undang-undang ini dengan penempatannya dalam Lembaran Negara Republik Indonesia.',
+
+        lambda prev, curr: prev == 'Agar setiap orang mengetahuinya, memerintahkan pengundangan Undang-undang ini dengan penempatannya dalam Lembaran Negara Republik Indonesia.' and curr.lower() == 'disahkan di jakarta,',
+
+        lambda prev, curr: prev.lower() == 'diundangkan di jakarta,' and
+        re.match(
+            r'^pada tanggal [0-9]+ (januari|februari|maret|april|mei|juni|juli|agustus|september|oktober|november|december) [0-9]{4}$',
+            curr.lower()
+        )
+    ]
+
     new_law: List[str] = []
     for i, line in enumerate(law):
         '''
@@ -889,6 +906,7 @@ def clean_split_plaintext(law: List[str]) -> List[str]:
         long_enough = len(law[i]) > 5
         starts_with_lowercase = law[i][0].islower()
         starts_with_number = law[i][0].isnumeric()
+
         previous_line_long = i > 0 and len(law[i-1]) > 20
         previous_line_not_all_caps = i > 0 and not law[i-1].isupper()
         not_all_caps = not law[i].isupper()
@@ -913,7 +931,16 @@ def clean_split_plaintext(law: List[str]) -> List[str]:
 
         is_prev_line_maybe_split_plaintext = i > 0 and len(law[i-1]) > 10
 
-        if is_curr_line_maybe_split_plaintext and is_prev_line_maybe_split_plaintext:
+        does_not_match_heuristics = True
+        if i > 0:
+            does_not_match_heuristics = not any(
+                [h(law[i-1], line) for h in skip_heuristics]
+            )
+
+        if is_curr_line_maybe_split_plaintext and \
+                is_prev_line_maybe_split_plaintext and \
+                does_not_match_heuristics:
+
             print('---------------------------------')
             print(f'{i} / {len(law)}')
             print(f'{law[i-1]}')
