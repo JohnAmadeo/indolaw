@@ -992,6 +992,7 @@ def test_insert_penjelasan_perubahan_section_close_quotes(monkeypatch):
     monkeypatch.setattr('builtins.input', lambda: "y")
     assert insert_penjelasan_perubahan_section_close_quotes(law) == new_law
 
+
 def test_clean_split_pasal_number():
     law = [
         'Pasal 39 B',
@@ -1008,7 +1009,8 @@ def test_clean_split_pasal_number():
         'Pasal 54',
     ]
     assert clean_split_pasal_number(law) == clean_law
-    
+
+
 def test_is_word_part_of_text():
     assert is_word_part_of_text("anak anak", "anak", 0) == True
     assert is_word_part_of_text("anak anak", "anak", 5) == True
