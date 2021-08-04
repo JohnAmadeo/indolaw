@@ -31,6 +31,7 @@ from parser_is_start_of_x import (
     PENJELASAN_LIST_INDEX_REGEXES,
     PENJELASAN_PASAL_DEMI_PASAL_REGEX,
     START_OF_PERUBAHAN_SECTION_REGEXES,
+    group,
     is_heading,
     is_start_of_bagian,
     is_start_of_first_list_index,
@@ -1026,14 +1027,17 @@ def get_squashed_list_item(line: str, approx_len: int, approx_index: int):
         >>> get_squashed_list_item('nasi goreng; 3. bakmie ayam;')
         13
     '''
-    list_index_regexes = [r'(\u2212 )', r'(- )']
+    list_index_regexes = [
+        group(r'\u2212 ', 'full'),
+        group(r'- ', 'full'),
+    ]
     for definition in LIST_INDEX_DEFINITIONS.values():
         regex = definition['regex']
         assert isinstance(regex, str)
 
         list_index_regexes.append(regex)
 
-    regexes = []
+    regexes: List[str] = []
     for i in LINE_ENDING_REGEXES:
         for j in list_index_regexes:
             regexes.append(i + r'\s+' + j)
