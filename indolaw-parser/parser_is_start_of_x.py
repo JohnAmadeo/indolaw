@@ -560,8 +560,13 @@ def is_start_of_agreement(law: List[str], start_index: int) -> bool:
         >>> is_start_of_agreement(law, 0)
         True
     """
-    return 'Dengan Persetujuan' in law[start_index] or \
-        'Dengan persetujuan' == law[start_index]
+    line = law[start_index].lower()
+    return line in [
+        'dengan persetujuan',
+        'dengan persetujuan:',
+        'dengan persetujuan bersama',
+        'dengan persetujuan bersama:'
+    ]
 
 
 def is_start_of_pasal(law: List[str], start_index: int, ) -> bool:
