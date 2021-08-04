@@ -846,7 +846,12 @@ def clean_squashed_page_numbers(law: List[str]) -> List[str]:
     new_law = []
     for idx, line in enumerate(law):
         result = re.split(PAGE_NUMBER_REGEX, line)
-        if len(result) == 1:
+
+        no_page_numbers = len(result) == 1 or \
+            (len(result) > 1 and result[-1] !=
+             '')  # page number not at end of line
+
+        if no_page_numbers:
             new_law.append(line)
         elif len(result) > 1:
             print_line()
@@ -866,6 +871,8 @@ def clean_squashed_page_numbers(law: List[str]) -> List[str]:
                 new_law.append(line)
             else:
                 raise Exception(f'Input "{user_input}" is invalid')
+
+    new_law = [clean_whitespace(line) for line in new_law]
 
     return new_law
 

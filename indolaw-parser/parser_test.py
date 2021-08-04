@@ -16,7 +16,8 @@ from parser_utils import (
     is_next_list_index_number,
     roman_to_int,
     clean_maybe_list_item,
-    is_word_part_of_text
+    is_word_part_of_text,
+    clean_squashed_page_numbers
 )
 from parser_is_start_of_x import (
     is_heading,
@@ -1022,6 +1023,25 @@ def test_is_word_part_of_text():
     assert is_word_part_of_text("kami harus melaksanakan", "anak", 17) == False
 
 
+def test_clean_squashed_page_numbers(monkeypatch):
+    monkeypatch.setattr('builtins.input', lambda: "y")
+    law = [
+        'The quick brown fox',
+        'The quick (1/2) brown fox',
+        'The quick 1/2 brown fox',
+        'The quick 1 / 23 brown fox',
+        'The quick brown fox 1 / 23',
+        'The quick brown fox 5/23',
+    ]
+    clean_law = [
+        'The quick brown fox',
+        'The quick (1/2) brown fox',
+        'The quick 1/2 brown fox',
+        'The quick 1 / 23 brown fox',
+        'The quick brown fox',
+        'The quick brown fox',
+    ]
+    assert clean_squashed_page_numbers(law) == clean_law
 
 
 def test_clean_whitespace():
