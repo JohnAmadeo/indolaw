@@ -921,7 +921,7 @@ def test_insert_perubahan_section_close_quotes(monkeypatch):
     assert insert_perubahan_section_close_quotes(law) == new_law
 
 
-def test_insert_penjelasan_perubahan_section_open_quotes():
+def test_insert_penjelasan_perubahan_section_open_quotes(monkeypatch):
     law = [
         '“Pasal 5',
         'Hari rabu dinyatakan hari libur”',
@@ -948,6 +948,7 @@ def test_insert_penjelasan_perubahan_section_open_quotes():
         '“Pasal 6',
         'Cukup jelas.'
     ]
+    monkeypatch.setattr('builtins.input', lambda: "y")
     assert insert_penjelasan_perubahan_section_open_quotes(law) == new_law
 
 
