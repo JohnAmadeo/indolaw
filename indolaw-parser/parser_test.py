@@ -1010,7 +1010,11 @@ def test_clean_split_pasal_number():
     assert clean_split_pasal_number(law) == clean_law
     
 def test_is_word_part_of_text():
-    assert is_word_part_of_text("anak anak", "anak") == True
-    assert is_word_part_of_text("melaksanakan", "anak") == False
-    assert is_word_part_of_text("kami harus melaksanakan", "anak") == False
-    assert is_word_part_of_text("anak-anak", "anak") == False
+    assert is_word_part_of_text("anak anak", "anak", 0) == True
+    assert is_word_part_of_text("anak anak", "anak", 5) == True
+    assert is_word_part_of_text("anak-anak", "anak", 5) == True
+
+    assert is_word_part_of_text("melaksanakan", "anak", 6) == False
+    assert is_word_part_of_text("kami harus melaksanakan", "anak", 17) == False
+
+
