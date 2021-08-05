@@ -28,6 +28,7 @@ export default function DesktopLawPage(props: {
   const minimizedTrayWidth = 44;
   const trayWidth = isTrayExpanded ? expandedTrayWidth : minimizedTrayWidth;
   const mainBodyWidth = 816;
+  const variableWidthThreshold = 1224;
 
   const nameAndYear = `UU No. ${number} Tahun ${year}`;
   const topicText = `Tentang ${topic}`;
@@ -56,7 +57,9 @@ export default function DesktopLawPage(props: {
   const maybeScrollToElement = (element: HTMLElement | null) => {
     const isVariableWidth =
       lawContainerRef.current != null &&
-      lawContainerRef.current.clientWidth < mainBodyWidth;
+      lawContainerRef.current.clientWidth < variableWidthThreshold;
+
+    console.log(lawContainerRef.current?.clientWidth);
 
     if (isVariableWidth) {
       setTimeout(() => {
@@ -104,7 +107,7 @@ export default function DesktopLawPage(props: {
           margin: 24px auto;
         }
 
-        @media screen and (max-width: 1224px) {
+        @media screen and (max-width: ${variableWidthThreshold}px) {
           .law {
             width: auto;
             padding: 0 24px;
