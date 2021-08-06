@@ -6,7 +6,7 @@ import { useAppContext } from "utils/context-provider";
 import Citation from "./Citation";
 import Status from "./Status";
 import Divider from "./Divider";
-import MetadataSection from "./MetadataSection";
+import SettingsSection from "./SettingsSection";
 import Tab from "./Tab";
 import TrayButton from "./TrayButton";
 
@@ -50,7 +50,7 @@ export default function Tray(props: {
       case Tabs.METADATA:
         return (
           <>
-            <MetadataSection
+            <SettingsSection
               title={'Citation'}
               content={(
                 <Citation
@@ -59,7 +59,7 @@ export default function Tray(props: {
                 />
               )}
             />
-            <MetadataSection
+            <SettingsSection
               title={'Theme'}
               content={
                 <TrayButton
