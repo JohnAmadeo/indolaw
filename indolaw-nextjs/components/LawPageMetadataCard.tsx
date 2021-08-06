@@ -1,11 +1,10 @@
 import { Metadata } from "utils/grammar";
-import { useAppContext } from "../utils/context-provider";
-import MetadataSection from "./MetadataSection";
+import LawPageMetadataSection from "./LawPageMetadataSection";
 import StyledLink from "./StyledLink";
 import _ from "lodash";
 import LawPageCard from "./LawPageCard";
 
-export default function MetadataCardsSection(props: {
+export default function LawPageMetadataCard(props: {
   metadata: Metadata,
 }): JSX.Element {
   const { status, puu, theme } = props.metadata;
@@ -15,14 +14,14 @@ export default function MetadataCardsSection(props: {
     <LawPageCard>
       <>
         {headings.map(heading => (
-          <MetadataSection
+          <LawPageMetadataSection
             title={_.capitalize(heading)}
             list={status[heading].map(e => <StyledLink text={e.law} link={e.link} />)}
             isLast={false}
           />
         ))}
         {puu.length > 0 && (
-          <MetadataSection
+          <LawPageMetadataSection
             title={'Uji Materi Mahkamah Konstitusi'}
             list={puu.map(e => (
               <>
@@ -36,7 +35,7 @@ export default function MetadataCardsSection(props: {
           />
         )}
         {theme.length > 0 && (
-          <MetadataSection
+          <LawPageMetadataSection
             title={'Tema'}
             list={theme.map(e => (
               <StyledLink text={e.theme} link={e.link} />

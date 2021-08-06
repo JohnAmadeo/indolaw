@@ -1,10 +1,8 @@
 import { useAppContext } from "../utils/context-provider";
 import { fonts } from "utils/theme";
-import { Metadata } from "utils/grammar";
 import Divider from "./Divider";
-import StyledLink from "./StyledLink";
 
-export default function MetadataSection(props: {
+export default function LawPageMetadataSection(props: {
   title: string,
   list: Array<JSX.Element>,
   isLast: boolean,
