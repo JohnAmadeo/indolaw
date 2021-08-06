@@ -22,10 +22,6 @@ export default function LawPageCard(props: {
         .none {
           margin: 16px;
         }
-
-        span {
-          color: ${colorScheme.textHover};
-        }
       `}</style>
       {props.children}
     </div>
