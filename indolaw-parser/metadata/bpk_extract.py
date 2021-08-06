@@ -31,7 +31,7 @@ def scrape_all_law_details_page():
     directory = open_json('directory.json')
 
     for year in directory:
-        # if int(year) >= 2014:
+        # if int(year) != 2014:
         #     continue
 
         save_and_version_directory(directory)
@@ -39,7 +39,7 @@ def scrape_all_law_details_page():
             # if entry['number'] != 6:
             #     continue
 
-            if all(k in entry for k in ['puu', 'status', 'theme']):
+            if all(k in entry for k in ['puu', 'status', 'theme', 'bpkPdfLink']):
                 yellow(
                     f"Already scraped BPK law details page of UU {year} No. {entry['number']}")
                 continue
@@ -52,6 +52,7 @@ def scrape_all_law_details_page():
                 soup = get_html_soup(entry['bpkLink'])
                 data = scrape_law_details_page(soup)
 
+                entry['bpkPdfLink'] = data['bpkPdfLink']
                 entry['status'] = data['status']
                 entry['theme'] = data['theme']
                 entry['puu'] = data['puu']
@@ -62,7 +63,7 @@ def scrape_all_law_details_page():
                 print(e)
                 red(
                     f"Failed to scrape BPK law details page of UU {year} No. {entry['number']}")
-                # webbrowser.open(entry['bpkLink'])
+                webbrowser.open(entry['bpkLink'])
 
         save_json('directory.json', directory)
 
@@ -93,6 +94,10 @@ def scrape_law_details_page(soup: BeautifulSoup):
         elif section_title == 'Uji Materi Mahkamah Konstitusi':
             puu_data = scrape_law_details_page_puu(section)
             data['puu'] = puu_data
+
+        elif section_title == 'Unduh Berkas':
+            a = section.find('a', class_='download-file')
+            data['bpkPdfLink'] = f"{BPK_BASE_URL}{a['href']}"
 
     return data
 
