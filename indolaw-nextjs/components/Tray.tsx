@@ -4,7 +4,6 @@ import { colors } from "utils/theme";
 import TableOfContentsGroupList from "components/TableOfContentsGroupList";
 import { useAppContext } from "utils/context-provider";
 import Citation from "./Citation";
-import Status from "./Status";
 import Divider from "./Divider";
 import SettingsSection from "./SettingsSection";
 import Tab from "./Tab";
@@ -22,9 +21,9 @@ export default function Tray(props: {
   onMinimize: () => void,
   width: number,
 }): JSX.Element {
-  const { law, isExpanded, onExpand, onMinimize, width } = props;
+  const { law: { content, metadata }, isExpanded, onExpand, onMinimize, width } = props;
   const { colorScheme, toggleDarkMode } = useAppContext();
-  const [activeTab, setActiveTab] = useState(Tabs.TABLE_OF_CONTENTS);
+  const [activeTab, setActiveTab] = useState(content != null ? Tabs.TABLE_OF_CONTENTS : Tabs.METADATA);
 
   useEffect(() => {
     const listener = function (event: KeyboardEvent) {
@@ -46,19 +45,24 @@ export default function Tray(props: {
   const renderTab = (tab: Tabs): JSX.Element => {
     switch (tab) {
       case Tabs.TABLE_OF_CONTENTS:
-        return <TableOfContentsGroupList structures={law.content.children} />;
+        if (content == null) {
+          return <></>;
+        }
+        return <TableOfContentsGroupList structures={content.children} />;
       case Tabs.METADATA:
         return (
           <>
-            <SettingsSection
-              title={'Citation'}
-              content={(
-                <Citation
-                  metadata={law.metadata}
-                  textColor={colorScheme.tray.textSecondary}
-                />
-              )}
-            />
+            {content != null && (
+              <SettingsSection
+                title={'Citation'}
+                content={(
+                  <Citation
+                    metadata={metadata}
+                    textColor={colorScheme.tray.textSecondary}
+                  />
+                )}
+              />)
+            }
             <SettingsSection
               title={'Theme'}
               content={
@@ -104,13 +108,15 @@ export default function Tray(props: {
         <>
           <div>
             <div className="tabs">
-              <div className="pill-container">
-                <Tab
-                  isActive={activeTab === Tabs.TABLE_OF_CONTENTS}
-                  onClick={() => setActiveTab(Tabs.TABLE_OF_CONTENTS)}
-                  text={'Daftar Isi'}
-                />
-              </div>
+              {content != null && (
+                <div className="pill-container">
+                  <Tab
+                    isActive={activeTab === Tabs.TABLE_OF_CONTENTS}
+                    onClick={() => setActiveTab(Tabs.TABLE_OF_CONTENTS)}
+                    text={'Daftar Isi'}
+                  />
+                </div>
+              )}
               <div className="pill-container">
                 <Tab
                   isActive={activeTab === Tabs.METADATA}

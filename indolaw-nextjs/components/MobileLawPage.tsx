@@ -16,6 +16,11 @@ export default function MobileLawPage(props: {
 
   const { colorScheme } = useAppContext();
 
+  // TODO: Add the PDF links
+  if (props.law.content == null) {
+    return <></>;
+  }
+
   const tray = (
     <div className="table-of-contents-container">
       <style jsx>{`
@@ -57,7 +62,7 @@ export default function MobileLawPage(props: {
           }
         `}</style>
         <div className="law">
-          <Law law={props.law.content} metadata= {props.law.metadata} colorScheme={colorScheme} />
+          <Law law={props.law.content} metadata={props.law.metadata} colorScheme={colorScheme} />
         </div>
       </div>
     </div>

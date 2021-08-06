@@ -81,7 +81,7 @@ export const penjelasanStructureMap: Record<string, Structure> = {
 }
 
 export interface LawData {
-  content: Complex;
+  content: Complex | null | undefined;
   metadata: Metadata;
 }
 
@@ -95,6 +95,7 @@ export interface Metadata {
   status: { [key: string]: Array<LawStatus> };
   theme: Array<LawTheme>;
   puu: Array<PengujianUndangUndang>;
+  bpkPdfLink: string;
   ketentuan_umum: Record<string, string>;
 }
 

@@ -1,10 +1,11 @@
-import { Complex, LawData, NodeMap, Primitive, Structure } from "utils/grammar";
+import { Complex, LawData, Primitive, Structure } from "utils/grammar";
 import Law from "components/Law";
 import { MutableRefObject, useRef, useState } from "react";
 import { useAppContext, VisibilityContext } from "../utils/context-provider";
 import Tray from "./Tray";
-import MetadataCardsSection from "./MetadataCardsSection";
+import LawPageMetadataCard from "./LawPageMetadataCard";
 import { fonts } from "utils/theme";
+import LawPagePdfDownloadCard from "./LawPagePdfDownloadCard";
 
 type VisibilityMap = {
   [id: string]: {
@@ -19,7 +20,8 @@ export default function DesktopLawPage(props: {
 }): JSX.Element {
   const [isTrayExpanded, setIsTrayExpanded] = useState(true);
   const { colorScheme } = useAppContext();
-  const { year, number, topic } = props.law.metadata;
+  const { year, number, topic, bpkPdfLink, bpkLink } = props.law.metadata;
+  const { content } = props.law;
 
   const expandedTrayWidth = 320;
   // Ideally we'd want to set the width of the minimized tray to just 'inherit' so that it'll be as
@@ -73,14 +75,15 @@ export default function DesktopLawPage(props: {
       <style jsx>{`
         .container {
           display: flex;
-          height: 100%;
+          height: 100vh;
+          background-color: ${colorScheme.background};
+
         }
 
         .law-container {
           flex-grow: 1;
           max-width: calc(100% - ${trayWidth}px);
           transition: max-width ease 0.2s;
-          background-color: ${colorScheme.background};
         }
 
         .name-and-year {
@@ -159,22 +162,35 @@ export default function DesktopLawPage(props: {
           <div className="cards">
             <h1 className="name-and-year">{nameAndYear}</h1>
             <h1 className="topic">{topicText}</h1>
-            <MetadataCardsSection metadata={props.law.metadata} />
+            <LawPageMetadataCard metadata={props.law.metadata} />
           </div>
-          <div className="law" ref={lawContainerRef}>
-            <Law law={props.law.content} metadata={props.law.metadata} colorScheme={colorScheme} />
-          </div>
+          {content == null ? (
+            <div className="cards">
+              <LawPagePdfDownloadCard
+                lawNameAndYear={nameAndYear}
+                pdfLink={bpkPdfLink}
+                webpageLink={bpkLink}
+              />
+            </div>
+          ) : (
+            <div className="law" ref={lawContainerRef}>
+              <Law law={content} metadata={props.law.metadata} colorScheme={colorScheme} />
+            </div>
+          )}
         </div>
       </VisibilityContext.Provider>
     </div>
   );
 }
 
-function extractPasalMap(law: Complex): VisibilityMap {
+function extractPasalMap(law: Complex | null | undefined): VisibilityMap {
   const pasalMap: VisibilityMap = {};
+  if (law == null) {
+    return pasalMap;
+  }
 
   const traverse = (structure: Complex | Primitive) => {
-    if ("children" in structure && structure.children !== undefined) {
+    if (structure != null && "children" in structure && structure.children !== undefined) {
       structure = structure as Complex;
 
       if (structure.type === Structure.PASAL) {

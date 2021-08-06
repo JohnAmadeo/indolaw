@@ -1,8 +1,8 @@
 import fs from "fs";
-import { GetStaticProps } from "next";
+import { GetStaticPaths, GetStaticProps } from "next";
 import { LawData } from "utils/grammar";
 import LawPage from "components/LawPage";
-import { getDirectoryMetadata } from "utils/route-utils";
+import { getDirectoryMetadata, getLawPaths } from "utils/route-utils";
 
 export default function Number(props: {
   data: {
@@ -17,17 +17,10 @@ export default function Number(props: {
 }
 
 export async function getStaticPaths() {
+  const p = getLawPaths();
+  console.log(p);
   return {
-    paths: fs.readdirSync('./laws')
-      .map(filename => {
-        const parts = filename.replace(/\.json$/, '').split('-');
-        return {
-          params: {
-            yearOrNickname: parts[1], // year
-            number: parts[2],
-          },
-        };
-      }),
+    paths: p,
     fallback: false,
   }
 }
@@ -40,7 +33,12 @@ export const getStaticProps: GetStaticProps = async ({ params }) => {
   const year = params.yearOrNickname as string;
   const number = params.number as string;
 
-  const law = JSON.parse(fs.readFileSync(`./laws/uu-${year}-${number}.json`, 'utf8'));
+  const uuFilePath = `./laws/uu-${year}-${number}.json`;
+
+  const law = fs.existsSync(uuFilePath)
+    ? JSON.parse(fs.readFileSync(uuFilePath, 'utf8'))
+    : {};
+
   const metadata = getDirectoryMetadata(year, number);
 
   law['metadata'] = {
