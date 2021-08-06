@@ -2,6 +2,7 @@ import { Metadata } from "utils/grammar";
 import { useAppContext } from "../utils/context-provider";
 import MetadataCard from "./MetadataCard";
 import StyledLink from "./StyledLink";
+import _ from "lodash";
 
 export default function MetadataCardsSection(props: {
   metadata: Metadata,
@@ -9,7 +10,6 @@ export default function MetadataCardsSection(props: {
   const { status, puu, theme } = props.metadata;
   const { colorScheme } = useAppContext();
 
-  const capitalizeFirstLetter = (str: string) => str[0].toUpperCase() + str.slice(1);
   const headings = Object.keys(status);
 
   return (
@@ -35,7 +35,7 @@ export default function MetadataCardsSection(props: {
       `}</style>
       {headings.map(heading => (
         <MetadataCard
-          title={capitalizeFirstLetter(heading)}
+          title={_.capitalize(heading)}
           list={status[heading].map(e => <StyledLink text={e.law} link={e.link} />)}
           isLast={false}
         />
