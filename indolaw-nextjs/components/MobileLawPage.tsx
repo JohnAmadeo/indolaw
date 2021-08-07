@@ -2,18 +2,12 @@ import { LawData } from "utils/grammar";
 import Law from "components/Law";
 import React from "react";
 import MobileTray from "components/MobileTray";
-import Head from "next/head";
 import { useAppContext } from "../utils/context-provider";
-import { useMediaQuery } from "react-responsive";
-import Tray from "./Tray";
 
 // TODO(johnamadeo): Fix "Warning: Each child in a list should have a unique "key" prop." problem
 export default function MobileLawPage(props: {
   law: LawData;
 }): JSX.Element {
-  const border = "2px solid red";
-  const navWidth = "400px";
-
   const { colorScheme } = useAppContext();
 
   // TODO: Add the PDF links

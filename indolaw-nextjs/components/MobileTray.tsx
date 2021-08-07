@@ -7,9 +7,14 @@ import TrayButton from "./TrayButton";
 
 export default function MobileTray(props: { law: LawData }): JSX.Element {
   const [isExpanded, setIsExpanded] = useState(false);
-  const { colorScheme, invertedColorScheme, toggleDarkMode } = useAppContext();
+  const { colorScheme, toggleDarkMode } = useAppContext();
+  const { law: { content } } = props;
 
-  const tableOfContents = props.law.content.children.map((child, idx) => (
+  if (content == null) {
+    return <></>;
+  }
+
+  const tableOfContents = content.children.map((child, idx) => (
     <TableOfContentsGroup
       key={idx}
       structure={child}
