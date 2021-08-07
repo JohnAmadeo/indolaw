@@ -61,8 +61,6 @@ export default function DesktopLawPage(props: {
       lawContainerRef.current != null &&
       lawContainerRef.current.clientWidth < variableWidthThreshold;
 
-    console.log(lawContainerRef.current?.clientWidth);
-
     if (isVariableWidth) {
       setTimeout(() => {
         element?.scrollIntoView();

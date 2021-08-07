@@ -18,7 +18,6 @@ export default function Number(props: {
 
 export async function getStaticPaths() {
   const p = getLawPaths();
-  console.log(p);
   return {
     paths: p,
     fallback: false,
