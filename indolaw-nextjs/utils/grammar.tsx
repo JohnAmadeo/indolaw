@@ -96,6 +96,7 @@ export interface Metadata {
   theme: Array<LawTheme>;
   puu: Array<PengujianUndangUndang>;
   bpkPdfLink: string;
+  bpkLink: string;
   ketentuan_umum: Record<string, string>;
 }
 
