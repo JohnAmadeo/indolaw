@@ -1,0 +1,468 @@
+{
+  "metadata": {
+    "lembaranNegaraNumber": 53,
+    "lembaranNegaraYear": 2009,
+    "tambahanLembaranNumber": 4990,
+    "number": 14,
+    "topic": "Pengesahan Protocol To Prevent, Suppress And Punish Trafficking In Persons, Especially Women And Children, Supplementing The United Nations Convention Against Transnational Organized Crime (protokol Untuk Mencegah, Menindak, Dan Menghukum Perdagangan Orang, Terutama Perempuan Dan Anak-anak, Melengkapi Konvensi Perserikatan Bangsa-bangsa Menentang Tindak Pidana Transnasional Yang Terorganisasi)",
+    "year": 2009
+  },
+  "content": {
+    "type": "UNDANG_UNDANG",
+    "id": "",
+    "children": [
+      {
+        "type": "OPENING",
+        "id": "",
+        "children": [
+          {
+            "type": "UU_TITLE",
+            "id": "",
+            "children": [
+              {
+                "type": "PLAINTEXT",
+                "text": "UNDANG-UNDANG REPUBLIK INDONESIA"
+              },
+              {
+                "type": "UU_TITLE_YEAR_AND_NUMBER",
+                "text": "NOMOR 14 TAHUN 2009"
+              },
+              {
+                "type": "PLAINTEXT",
+                "text": "TENTANG"
+              },
+              {
+                "type": "UU_TITLE_TOPIC",
+                "text": "PENGESAHAN PROTOCOL TO PREVENT, SUPPRESS AND PUNISH TRAFFICKING IN PERSONS, ESPECIALLY WOMEN AND CHILDREN, SUPPLEMENTING THE UNITED NATIONS CONVENTION AGAINST TRANSNATIONAL ORGANIZED CRIME (PROTOKOL UNTUK MENCEGAH, MENINDAK, DAN MENGHUKUM PERDAGANGAN ORANG, TERUTAMA PEREMPUAN DAN ANAK-ANAK, MELENGKAPI KONVENSI PERSERIKATAN BANGSA-BANGSA MENENTANG TINDAK PIDANA TRANSNASIONAL YANG TERORGANISASI)"
+              }
+            ]
+          },
+          {
+            "type": "PREFACE",
+            "id": "",
+            "children": [
+              {
+                "type": "PLAINTEXT",
+                "text": "DENGAN RAHMAT TUHAN YANG MAHA ESA"
+              },
+              {
+                "type": "PLAINTEXT",
+                "text": "PRESIDEN REPUBLIK INDONESIA,"
+              }
+            ]
+          },
+          {
+            "type": "CONSIDERATIONS",
+            "id": "",
+            "children": [
+              {
+                "type": "PLAINTEXT",
+                "text": "Menimbang:"
+              },
+              {
+                "type": "LIST",
+                "id": "",
+                "children": [
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "LETTER_WITH_DOT",
+                        "text": "a."
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "bahwa setiap orang sebagai makhluk Tuhan Yang Maha Esa memiliki hak-hak asasi sesuai dengan kemuliaan harkat dan martabatnya yang dilindungi oleh undang-undang berdasarkan Pancasila dan Undang-Undang Dasar Negara Republik Indonesia Tahun 1945;"
+                      }
+                    ]
+                  },
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "LETTER_WITH_DOT",
+                        "text": "b."
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "bahwa Protokol untuk Mencegah, Menindak, dan Menghukum Perdagangan Orang, Terutama Perempuan dan Anak-Anak merupakan salah satu bagian yang tidak terpisahkan dari Konvensi Perserikatan Bangsa Bangsa Menentang Tindak Pidana Transnasional yang Terorganisasi, sehingga pencegahan dan pemberantasan tindak pidana perdagangan orang serta perlindungan dan rehabilitasi korban perlu dilakukan baik pada tingkat nasional, regional maupun internasional;"
+                      }
+                    ]
+                  },
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "LETTER_WITH_DOT",
+                        "text": "c."
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "bahwa penandatanganan Protokol untuk Mencegah, Menindak, dan Menghukum Perdagangan Orang, Terutama Perempuan dan Anak-Anak oleh Pemerintah Republik Indonesia merupakan pencerminan keikutsertaan bangsa Indonesia dalam melaksanakan ketertiban dunia;"
+                      }
+                    ]
+                  },
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "LETTER_WITH_DOT",
+                        "text": "d."
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "bahwa berdasarkan pertimbangan sebagaimana dimaksud dalam huruf a, huruf b, dan huruf c, perlu membentuk Undang-Undang tentang Pengesahan Protocol to Prevent, Suppress and Punish Trafficking in Persons, Especially Women and Children, Supplementing the United Nations Convention against Transnational Organized Crime (Protokol untuk Mencegah, Menindak, dan Menghukum Perdagangan Orang, Terutama Perempuan dan Anak-Anak, Melengkapi Konvensi Perserikatan Bangsa-Bangsa Menentang Tindak Pidana Transnasional yang Terorganisasi)."
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "PRINCIPLES",
+            "id": "",
+            "children": [
+              {
+                "type": "PLAINTEXT",
+                "text": "Mengingat:"
+              },
+              {
+                "type": "LIST",
+                "id": "",
+                "children": [
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "NUMBER_WITH_DOT",
+                        "text": "1."
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "Pasal 5 ayat (1), Pasal 11, Pasal 20, dan Pasal 28B ayat (2) Undang-Undang Dasar Negara Republik Indonesia Tahun 1945;"
+                      }
+                    ]
+                  },
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "NUMBER_WITH_DOT",
+                        "text": "2."
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "Undang-Undang Nomor 37 Tahun 1999 tentang Hubungan Luar Negeri (Lembaran Negara Republik Indonesia Tahun 1999 Nomor 156, Tambahan Lembaran Negara Republik Indonesia Nomor 3882);"
+                      }
+                    ]
+                  },
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "NUMBER_WITH_DOT",
+                        "text": "3."
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "Undang-Undang Nomor 24 Tahun 2000 tentang Perjanjian Internasional (Lembaran Negara Republik Indonesia Tahun 2000 Nomor 185, Tambahan Lembaran Negara Republik Indonesia Nomor 4012);"
+                      }
+                    ]
+                  },
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "NUMBER_WITH_DOT",
+                        "text": "4."
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "Undang-Undang Nomor 23 Tahun 2002 tentang Perlindungan Anak (Lembaran Negara Republik Indonesia Tahun 2002 Nomor 109, Tambahan Lembaran Negara Republik Indonesia Nomor 4235);"
+                      }
+                    ]
+                  },
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "NUMBER_WITH_DOT",
+                        "text": "5."
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "Undang-Undang Nomor 21 Tahun 2007 tentang Pemberantasan Tindak Pidana Perdagangan Orang (Lembaran Negara Republik Indonesia Tahun 2007 Nomor 58, Tambahan Lembaran Negara Republik Indonesia Nomor 4720);"
+                      }
+                    ]
+                  },
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "NUMBER_WITH_DOT",
+                        "text": "6."
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "Undang-Undang Nomor 5 Tahun 2009 tentang Pengesahan United Nations Convention Against Transnational Organized Crime (Konvensi Perserikatan Bangsa-Bangsa Menentang Tindak Pidana Transnasional yang Terorganisasi) (Lembaran Negara Republik Indonesia Tahun 2009 Nomor 5, Tambahan Lembaran Negara Republik Indonesia Nomor 4960)."
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "AGREEMENT",
+            "id": "",
+            "children": [
+              {
+                "type": "PLAINTEXT",
+                "text": "Dengan Persetujuan Bersama"
+              },
+              {
+                "type": "PLAINTEXT",
+                "text": "DEWAN PERWAKILAN RAKYAT REPUBLIK INDONESIA"
+              },
+              {
+                "type": "PLAINTEXT",
+                "text": "dan"
+              },
+              {
+                "type": "PLAINTEXT",
+                "text": "PRESIDEN REPUBLIK INDONESIA"
+              },
+              {
+                "type": "PLAINTEXT",
+                "text": "MEMUTUSKAN:"
+              },
+              {
+                "type": "PLAINTEXT",
+                "text": "Menetapkan:"
+              },
+              {
+                "type": "PLAINTEXT",
+                "text": "UNDANG-UNDANG TENTANG PENGESAHAN PROTOCOL TO PREVENT, SUPPRESS AND PUNISH TRAFFICKING IN PERSONS, ESPECIALLY WOMEN AND CHILDREN, SUPPLEMENTING THE UNITED NATIONS CONVENTION AGAINST TRANSNATIONAL ORGANIZED CRIME (PROTOKOL UNTUK MENCEGAH, MENINDAK, DAN MENGHUKUM PERDAGANGAN ORANG, TERUTAMA PEREMPUAN DAN ANAK-ANAK, MELENGKAPI KONVENSI PERSERIKATAN BANGSA-BANGSA MENENTANG TINDAK PIDANA TRANSNASIONAL YANG TERORGANISASI)"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "PASAL",
+        "id": "pasal-1",
+        "children": [
+          {
+            "type": "PASAL_NUMBER",
+            "text": "Pasal 1"
+          },
+          {
+            "type": "LIST",
+            "id": "",
+            "children": [
+              {
+                "type": "LIST_ITEM",
+                "id": "",
+                "children": [
+                  {
+                    "type": "NUMBER_WITH_BRACKETS",
+                    "text": "(1)"
+                  },
+                  {
+                    "type": "PLAINTEXT",
+                    "text": "Mengesahkan Protocol to Prevent, Suppress and Punish Trafficking in Persons, Especially Women and Children, Supplementing the United Nations Convention against Transnational Organized Crime (Protokol untuk Mencegah, Menindak, dan Menghukum Perdagangan Orang, Terutama Perempuan dan Anak Anak, Melengkapi Konvensi Perserikatan Bangsa-Bangsa Menentang Tindak Pidana Transnasional yang Terorganisasi) dengan Declaration (Pernyataan) terhadap Pasal 5 ayat (2) huruf c dan Reservation (Pensyaratan) terhadap Pasal 15 ayat (2)."
+                  }
+                ]
+              },
+              {
+                "type": "LIST_ITEM",
+                "id": "",
+                "children": [
+                  {
+                    "type": "NUMBER_WITH_BRACKETS",
+                    "text": "(2)"
+                  },
+                  {
+                    "type": "PLAINTEXT",
+                    "text": "Salinan naskah asli Protocol to Prevent, Suppress and Punish Trafficking in Persons, Especially Women and Children, Supplementing the United Nations Convention against Transnational Organized Crime (Protokol untuk Mencegah, Menindak, dan Menghukum Perdagangan Orang, Terutama Perempuan dan Anak-Anak, Melengkapi Konvensi Perserikatan Bangsa-Bangsa Menentang Tindak Pidana Transnasional yang Terorganisasi) dengan Declaration (Pernyataan) dan Reservation (Pensyaratan) sebagaimana dimaksud pada ayat (1) dalam bahasa Inggris dan terjemahannya dalam bahasa Indonesia sebagaimana terlampir merupakan bagian yang tidak terpisahkan dari Undang-Undang ini."
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "PASAL",
+        "id": "pasal-2",
+        "children": [
+          {
+            "type": "PASAL_NUMBER",
+            "text": "Pasal 2"
+          },
+          {
+            "type": "PLAINTEXT",
+            "text": "Undang-Undang ini mulai berlaku pada tanggal diundangkan."
+          },
+          {
+            "type": "PLAINTEXT",
+            "text": "Agar setiap orang mengetahuinya, memerintahkan pengundangan Undang-Undang ini dengan penempatannya dalam Lembaran Negara Republik Indonesia."
+          }
+        ]
+      },
+      {
+        "type": "CLOSING",
+        "id": "",
+        "children": [
+          {
+            "type": "PLAINTEXT",
+            "text": "Disahkan Di Jakarta,"
+          },
+          {
+            "type": "PLAINTEXT",
+            "text": "Pada Tanggal 5 Maret 2009"
+          },
+          {
+            "type": "PLAINTEXT",
+            "text": "PRESIDEN REPUBLIK INDONESIA,"
+          },
+          {
+            "type": "PLAINTEXT",
+            "text": "Ttd."
+          },
+          {
+            "type": "PLAINTEXT",
+            "text": "DR. H. SUSILO BAMBANG YUDHOYONO"
+          },
+          {
+            "type": "PLAINTEXT",
+            "text": "Diundangkan Di Jakarta,"
+          },
+          {
+            "type": "PLAINTEXT",
+            "text": "Pada Tanggal 5 Maret 2009"
+          },
+          {
+            "type": "PLAINTEXT",
+            "text": "MENTERI HUKUM DAN HAK ASASI MANUSIA REPUBLIK INDONESIA, Ttd."
+          },
+          {
+            "type": "PLAINTEXT",
+            "text": "ANDI MATTALATTA"
+          },
+          {
+            "type": "LEMBARAN_NUMBER",
+            "text": "LEMBARAN NEGARA REPUBLIK INDONESIA TAHUN 2009 NOMOR 53"
+          }
+        ]
+      },
+      {
+        "type": "PENJELASAN",
+        "id": "penjelasan",
+        "children": [
+          {
+            "type": "PENJELASAN_TITLE",
+            "id": "",
+            "children": [
+              {
+                "type": "PLAINTEXT",
+                "text": "PENJELASAN"
+              },
+              {
+                "type": "PLAINTEXT",
+                "text": "UNDANG-UNDANG REPUBLIK INDONESIA"
+              },
+              {
+                "type": "UU_TITLE_YEAR_AND_NUMBER",
+                "text": "NOMOR 14 TAHUN 2009"
+              },
+              {
+                "type": "PLAINTEXT",
+                "text": "TENTANG"
+              },
+              {
+                "type": "UU_TITLE_TOPIC",
+                "text": "PENGESAHAN PROTOCOL TO PREVENT, SUPPRESS AND PUNISH TRAFFICKING IN PERSONS, ESPECIALLY WOMEN AND CHILDREN, SUPPLEMENTING THE UNITED NATIONS CONVENTION AGAINST TRANSNATIONAL ORGANIZED CRIME (PROTOKOL UNTUK MENCEGAH, MENINDAK, DAN MENGHUKUM PERDAGANGAN ORANG, TERUTAMA PEREMPUAN DAN ANAK-ANAK, MELENGKAPI KONVENSI PERSERIKATAN BANGSA-BANGSA MENENTANG TINDAK PIDANA TRANSNASIONAL YANG TERORGANISASI)"
+              }
+            ]
+          },
+          {
+            "type": "PENJELASAN_UMUM",
+            "id": "",
+            "children": [
+              {
+                "type": "PENJELASAN_UMUM_TITLE",
+                "text": "I. UMUM"
+              },
+              {
+                "type": "PLAINTEXT",
+                "text": "Indonesia, sebagai negara kepulauan terbesar di dunia, dan salah satu negara dengan jumlah penduduk terbanyak di dunia, sangat rentan terhadap berbagai bentuk perdagangan orang. Perdagangan orang adalah bentuk modern dari perbudakan manusia dan merupakan salah satu bentuk perlakuan terburuk dari pelanggaran harkat dan martabat manusia. Berdasarkan bukti empiris, perempuan dan anak-anak adalah kelompok yang paling banyak menjadi korban tindak pidana perdagangan orang."
+              },
+              {
+                "type": "PLAINTEXT",
+                "text": "Indonesia, sebagai negara anggota Perserikatan Bangsa-Bangsa, turut menandatangani instrumen hukum internasional yang secara khusus mengatur upaya pencegahan dan pemberantasan tindak pidana transnasional, yakni United Nations Convention Against Transnational Organized Crime (Konvensi Perserikatan Bangsa-Bangsa Menentang Tindak Pidana Transnasional yang Terorganisasi) pada tanggal 15 Desember 2000 di Palermo, Italia beserta dua protokolnya, Protocol to Prevent, Suppress and Punish Trafficking in Persons, Especially Women and Children (Protokol untuk Mencegah, Menindak, dan Menghukum Perdagangan Orang, Terutama Perempuan dan Anak-Anak) dan Protocol against the Smuggling of Migrants by Land, Sea and Air, Supplementing the United Nations Convention against Transnational Organized Crime (Protokol Menentang Penyelundupan Migran melalui Darat, Laut, dan Udara, Melengkapi Konvensi Perserikatan Bangsa-Bangsa Menentang Tindak Pidana Transnasional yang Terorganisasi) sebagai perwujudan komitmen Indonesia dalam mencegah dan memberantas tindak pidana transnasional yang terorganisasi, termasuk tindak pidana penyelundupan migran."
+              },
+              {
+                "type": "PLAINTEXT",
+                "text": "Namun demikian, walaupun Indonesia telah menandatangani Protokol untuk Mencegah Perdagangan Orang tersebut, Indonesia membuat suatu Declaration (Pernyataan) terhadap ketentuan Pasal 5 ayat (2) huruf c dan Reservation (Pensyaratan) terhadap ketentuan Pasal 15 ayat (2) Protokol. Declaration (Pernyataan) terhadap ketentuan Pasal 5 ayat (2) huruf c yang dilakukan Indonesia terkait dengan penggunaan kata \u201dorganizing\u201d dengan pertimbangan bahwa pelaksanaan ketentuan tersebut akan disesuaikan dengan ketentuan hukum pidana nasional dengan memperhatikan prinsip-prinsip kedaulatan dan keutuhan wilayah suatu negara."
+              },
+              {
+                "type": "PLAINTEXT",
+                "text": "Penyusunan Undang-Undang ini juga merupakan perwujudan komitmen Indonesia untuk melaksanakan Protokol untuk Mencegah, Menindak, dan Menghukum Perdagangan Orang, Terutama Perempuan dan Anak-Anak, Melengkapi Konvensi Perserikatan Bangsa-Bangsa Menentang Tindak Pidana Transnasional yang Terorganisasi yang telah ditandatangani oleh Pemerintah Indonesia."
+              }
+            ]
+          },
+          {
+            "type": "PENJELASAN_PASAL_DEMI_PASAL",
+            "id": "",
+            "children": [
+              {
+                "type": "PENJELASAN_PASAL_DEMI_PASAL_TITLE",
+                "text": "II. PASAL DEMI PASAL"
+              },
+              {
+                "type": "PENJELASAN_PASAL",
+                "id": "",
+                "children": [
+                  {
+                    "type": "PASAL_NUMBER",
+                    "text": "Pasal 1"
+                  },
+                  {
+                    "type": "PLAINTEXT",
+                    "text": "Apabila terjadi perbedaan tafsiran terhadap terjemahannya dalam bahasa Indonesia, yang berlaku adalah naskah asli Protokol dalam bahasa Inggris."
+                  }
+                ]
+              },
+              {
+                "type": "PENJELASAN_PASAL",
+                "id": "",
+                "children": [
+                  {
+                    "type": "PASAL_NUMBER",
+                    "text": "Pasal 2"
+                  },
+                  {
+                    "type": "PLAINTEXT",
+                    "text": "Cukup jelas."
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}
