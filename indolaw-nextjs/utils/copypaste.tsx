@@ -12,7 +12,7 @@ export const renderCopyHtml = (structure: Complex | Primitive): JSX.Element => {
 
     case Structure.PASAL_NUMBER:
     case Structure.PLAINTEXT:
-      return <p>{(structure as Primitive).text}</p>;
+      return <p>{sanitizeText((structure as Primitive).text)}</p>;
 
     case Structure.LIST:
       return renderCopyListHtml(structure as Complex);
@@ -98,7 +98,7 @@ const renderCopyUnorderedListHtml = (
       {structure.children.map(listItem => {
         const plaintext = ((listItem as Complex).children[1] as Primitive);
         return (
-          <li> {plaintext.text}</li>
+          <li> {sanitizeText(plaintext.text)}</li>
         );
       })}
     </ul>
@@ -125,14 +125,14 @@ const renderCopyListItemHtml = (structure: Complex): JSX.Element => {
     }
     else if (thirdChild.type === Structure.PLAINTEXT) {
       restOfList = structure.children.slice(2).map(child => (
-        <p>{(child as Primitive).text}</p>
+        <p>{sanitizeText((child as Primitive).text)}</p>
       ));
     }
   }
 
   return (
     <li>
-      <p>{plaintext.text}</p>
+      <p>{sanitizeText(plaintext.text)}</p>
       {restOfList}
     </li>
   );
@@ -169,7 +169,7 @@ const renderCopyPenjelasanListItemHtml = (structure: Complex): JSX.Element => {
 
   return (
     <>
-      <li>{listIndex.text}</li>
+      <li>{sanitizeText(listIndex.text)}</li>
       {restOfList}
     </>
   );
@@ -177,4 +177,8 @@ const renderCopyPenjelasanListItemHtml = (structure: Complex): JSX.Element => {
 
 const getListIndexType = (listStructure: Complex): Structure => {
   return (listStructure.children[0] as Complex).children[0].type;
+}
+
+const sanitizeText = (text: string): string => {
+  return text.replace(/\${([^}]*)}/g, '$1');
 }
