@@ -180,5 +180,5 @@ const getListIndexType = (listStructure: Complex): Structure => {
 }
 
 const sanitizeText = (text: string): string => {
-  return text.replace(/\${([^}]*)}/g, '$1');
+  return text ? text.replace(/\${([^}]*)}/g, '$1') : text;
 }
