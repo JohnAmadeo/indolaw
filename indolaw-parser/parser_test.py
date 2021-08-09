@@ -14,6 +14,7 @@ from parser_utils import (
     insert_perubahan_section_open_quotes,
     is_alphanumeric_list_index,
     is_next_list_index_number,
+    is_page_number,
     roman_to_int,
     clean_maybe_list_item,
     is_word_part_of_text,
@@ -1046,3 +1047,8 @@ def test_clean_squashed_page_numbers(monkeypatch):
 
 def test_clean_whitespace():
     assert clean_whitespace(' The  quick brown ') == 'The quick brown'
+
+
+def test_is_page_number():
+    assert is_page_number('2 / 34')
+    assert is_page_number('2/34')

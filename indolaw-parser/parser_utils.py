@@ -113,7 +113,7 @@ def ignore_line(line: str) -> bool:
         return True
     elif "www.hukumonline.com" in line:
         return True
-    elif re.match(PAGE_NUMBER_REGEX, line.rstrip()) != None:
+    elif is_page_number(line):
         return True
     # page number
     elif re.match(r'- [0-9]+ -', line.rstrip()) != None:
@@ -1686,3 +1686,7 @@ def save_law_to_file(law: List[str], filename: str):
 
 def clean_whitespace(l):
     return ' '.join(l.split())
+
+
+def is_page_number(line):
+    return re.match(PAGE_NUMBER_REGEX, line.rstrip()) != None
