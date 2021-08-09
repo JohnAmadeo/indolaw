@@ -24,7 +24,10 @@ export async function getStaticPaths() {
   }
 }
 
-export const getStaticProps: GetStaticProps = async ({ params }) => {
+export const getStaticProps: GetStaticProps = async (context) => {
+  const { params } = context;
+  console.log(context);
+
   if (params == null) {
     return { notFound: true };
   }
