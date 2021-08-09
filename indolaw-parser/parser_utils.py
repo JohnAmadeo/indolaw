@@ -445,7 +445,7 @@ def clean_law(law: List[str]) -> List[str]:
 
     '''
     Saving mechanism is created to allow users to redo their inputs in
-    specific stages in case there are wrong inputs without needing to redo 
+    specific stages in case there are wrong inputs without needing to redo
     the entire cleaning stage from scratch.
 
     It works by giving an order to each cleaning stages (CleaningStageOrder)
@@ -454,7 +454,7 @@ def clean_law(law: List[str]) -> List[str]:
     to say 'n' which would automatically choose the next stage, or to choose a number
     (int_pick_stage) based on stages that have passed.
 
-    When a user goes back to a certain stage by choosing a number (x), all 
+    When a user goes back to a certain stage by choosing a number (x), all
     resulting laws from x + 1 onwards are deleted to ensure order and consistency
     in results.
 
@@ -1012,7 +1012,7 @@ def clean_maybe_list_item(line: str, approx_len: int, approx_index: int) -> List
         may contain a list item
 
         approx_len: approximate no. of lines in law; used only for UI display to the user
-        to show how far from the end of the law they are; the length is approximate 
+        to show how far from the end of the law they are; the length is approximate
         because this function itself will change the no. of lines in the law
 
         approx_idx: approximate line # currently being worked on; see approx_len
@@ -1251,10 +1251,10 @@ def convert_tree_to_json(node: Union[ComplexNode, PrimitiveNode], ketentuan_umum
                 if is_word_part_of_text(node.text, title, index) and not is_definition:
                     text = node.text[index:index+len(title)]
                     '''
-                    Determine if the word is actually a part of a bigger definition, 
+                    Determine if the word is actually a part of a bigger definition,
                         and if such case happens, opt for the longer word
 
-                    Ex: 
+                    Ex:
                     assume "Lorem ipsum" and "ipsum" exist in the dictionary
 
                     "Lorem ipsum dolor sit amet" -> "${Lorem ipsum} dolor sit amet"
