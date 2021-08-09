@@ -15,29 +15,8 @@ export default function MobileLawPage(props: {
     return <></>;
   }
 
-  const tray = (
-    <div className="table-of-contents-container">
-      <style jsx>{`
-        .table-of-contents-container {
-          height: 100%;
-          position: fixed;
-          padding: 20px;
-          background-color: ${colorScheme.tray.background};
-          top: 0;
-          height: 60px;
-          overflow: hidden;
-          width: 100vw;
-          z-index: 1;
-        }
-      `}</style>
-      <MobileTray law={props.law} />
-    </div>
-  );
-
   return (
     <div>
-      {tray}
-
       <div className="law-container">
         <style jsx>{`
           .law {
@@ -48,10 +27,9 @@ export default function MobileLawPage(props: {
           .law-container {
             background-color: ${colorScheme.background};
             position: absolute;
-            top: 60px;
             left: 0;
             overflow: scroll;
-            height: calc(100% - 80px);
+            height: 100%;
             font-size: 14px;
           }
         `}</style>
