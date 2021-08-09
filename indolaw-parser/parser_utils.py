@@ -887,17 +887,32 @@ def clean_split_plaintext(law: List[str]) -> List[str]:
         lambda _, curr: curr in ['Mengingat:', 'Mengingat :'],
 
         lambda _, curr: curr.lower() in [
-            'dengan persetujuan:', 'dengan persetujuan'],
+            'dengan persetujuan:',
+            'dengan persetujuan',
+            'dengan persetujuan bersama',
+            'dengan persetujuan bersama:',
+        ],
 
-        lambda prev, curr: prev == 'Undang-undang ini mulai berlaku pada tanggal diundangkan.' and curr == 'Agar setiap orang mengetahuinya, memerintahkan pengundangan Undang-undang ini dengan penempatannya dalam Lembaran Negara Republik Indonesia.',
+        lambda prev, curr:
+            prev.lower() == 'undang-undang ini mulai berlaku pada tanggal diundangkan.' and
+            curr.lower() == 'agar setiap orang mengetahuinya, memerintahkan pengundangan undang-undang ini dengan penempatannya dalam lembaran negara republik indonesia.',
 
-        lambda prev, curr: prev == 'Agar setiap orang mengetahuinya, memerintahkan pengundangan Undang-undang ini dengan penempatannya dalam Lembaran Negara Republik Indonesia.' and curr.lower() == 'disahkan di jakarta,',
+        lambda prev, curr:
+            prev.lower() == 'agar setiap orang mengetahuinya, memerintahkan pengundangan undang-undang ini dengan penempatannya dalam lembaran negara republik indonesia.' and
+            curr.lower() == 'disahkan di jakarta,',
 
-        lambda prev, curr: prev.lower() == 'diundangkan di jakarta,' and
-        re.match(
-            r'^pada tanggal [0-9]+ (januari|februari|maret|april|mei|juni|juli|agustus|september|oktober|november|december) [0-9]{4}$',
-            curr.lower()
-        )
+        lambda prev, curr:
+            prev.lower() == 'diundangkan di jakarta,' and
+            re.match(
+                r'^pada tanggal [0-9]+ (januari|februari|maret|april|mei|juni|juli|agustus|september|oktober|november|december) [0-9]{4}$',
+                curr.lower()
+        ) != None,
+
+        lambda prev, curr:
+            prev.startswith('Yang dimaksud dengan') and
+            prev.endswith('.') and
+            curr.startswith('Yang dimaksud dengan') and
+            curr.endswith('.')
     ]
 
     new_law: List[str] = []
@@ -941,7 +956,7 @@ def clean_split_plaintext(law: List[str]) -> List[str]:
         does_not_match_heuristics = True
         if i > 0:
             does_not_match_heuristics = not any(
-                [h(law[i-1], line) for h in skip_heuristics]
+                [is_match(law[i-1], line) for is_match in skip_heuristics]
             )
 
         if is_curr_line_maybe_split_plaintext and \
