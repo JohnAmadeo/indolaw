@@ -424,20 +424,7 @@ def clean_law(law: List[str]) -> List[str]:
             new_law.append(line)
     law = new_law
 
-    '''
-    Preps for cleaning stages saving mechanism
-    TODO(Mel):  Extend saving mechanism to catch and save during a crash
-    '''
-    print_section_header("STARTING CLEANING")
-    '''
-    Remove semantically meaningless text e.g '. . .' or '1 / 23'
-    This part only removes meaningless text that are not squashed
-    onto the end of real lines.
-
-    This is seperated from cleaning stages at it doesn't require user input.
-
-    This work is continued on CleaningStageOrder.CLEAN_SQUASHED_PAGE_NUMBER
-    '''
+    law = clean_split_lines_between_pages(law)
     law = list(filterfalse(ignore_line, law))
 
     next_cleaning_stage = 1
@@ -1724,6 +1711,57 @@ def save_law_to_file(law: List[str], filename: str):
 
 def clean_whitespace(l):
     return ' '.join(l.split())
+
+
+def clean_split_lines_between_pages(law: List[str]) -> List[str]:
+    new_law: List[str] = []
+    i = 0
+
+    while i < len(law):
+        if i >= len(law)-3:
+            new_law.append(law[i])
+            i += 1
+        else:
+            '''
+            Currently, the heuristic chosen is fairly conservative (i.e there are known
+            false negatives) since it needs to be 100% reliable to be automated
+            '''
+            before_break_words = law[i].split()
+            after_break_words = law[i+3].split()
+
+            if (
+                is_page_number(law[i+1]) and
+                law[i+2] == "www.hukumonline.com" and
+                len(before_break_words) >= 5 and
+                (
+                    before_break_words[0].istitle() or
+                    is_start_of_list_index_str(before_break_words[0])
+                ) and
+                before_break_words[-1].islower() and
+                before_break_words[-1].isalpha() and
+                len(after_break_words) >= 2 and
+                not(is_start_of_list_index_str(after_break_words[0])) and
+                after_break_words[0].islower() and
+                after_break_words[-1].islower() and
+                after_break_words[-1][-1] in ['.', ':', ';']
+            ):
+                new_law.append(clean_whitespace(f"{law[i]} {law[i+3]}"))
+
+                # print_line()
+                # print(law[i])
+                # print_dashed_line()
+                # print(law[i+3])
+                # print_line()
+                # print()
+                # pyperclip.copy(law[i])
+
+                i += 4
+
+            else:
+                new_law.append(law[i])
+                i += 1
+
+    return new_law
 
 
 def is_page_number(line):

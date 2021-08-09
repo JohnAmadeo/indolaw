@@ -1,6 +1,7 @@
 from parser_types import Structure, ComplexNode, PrimitiveNode
 from parser_utils import (
     clean_maybe_squashed_heading,
+    clean_split_lines_between_pages,
     clean_split_pasal_number,
     clean_whitespace,
     get_id,
@@ -1047,6 +1048,26 @@ def test_clean_squashed_page_numbers(monkeypatch):
 
 def test_clean_whitespace():
     assert clean_whitespace(' The  quick brown ') == 'The quick brown'
+
+
+def test_clean_split_lines_between_pages():
+    # From UU 2008 40
+    law = [
+        'Dalam rangka pengamalan Pancasila dan pelaksanaan Undang-Undang Dasar Negara Republik Indonesia Tahun 1945, Indonesia pada dasarnya telah menetapkan peraturan perundang-undangan yang',
+        '12 / 38',
+        'www.hukumonline.com',
+        'mengandung ketentuan tentang penghapusan segala bentuk diskriminasi ras dan etnis, tetapi masih belum memadai untuk mencegah, mengatasi, dan menghilangkan praktik diskriminasi ras dan etnis dalam suatu undang-undang.'
+    ]
+    assert clean_split_lines_between_pages(law) == [f'{law[0]} {law[-1]}']
+
+    # From UU 2008 20
+    law = [
+        '(1) Pelaksanaan kemitraan dengan pola perdagangan umum sebagaimana dimaksud dalam Pasal 26 huruf d, dapat dilakukan dalam bentuk kerjasama pemasaran, penyediaan lokasi usaha, atau penerimaan pasokan',
+        '12 / 38',
+        'www.hukumonline.com',
+        'dari Usaha Mikro, Kecil, dan Menengah oleh Usaha Besar yang dilakukan secara terbuka.'
+    ]
+    assert clean_split_lines_between_pages(law) == [f'{law[0]} {law[-1]}']
 
 
 def test_is_page_number():
