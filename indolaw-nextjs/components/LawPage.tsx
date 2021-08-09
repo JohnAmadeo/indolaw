@@ -15,8 +15,8 @@ export default function LawPage(props: { law: LawData }): JSX.Element {
         <title>UU No. {law.metadata.number} Tahun {law.metadata.year}</title>
         <meta name="viewport" content="initial-scale=1.0, width=device-width" />
       </Head>
-      {isMobile ? 'mobile' : 'not mobile'}
-      {isMobile ? <MobileLawPage law={law} /> : <DesktopLawPage law={law} />}
+      {/* {isMobile ? <MobileLawPage law={law} /> : <DesktopLawPage law={law} />} */}
+      {<MobileLawPage law={law} />}
     </div>
   );
 }
