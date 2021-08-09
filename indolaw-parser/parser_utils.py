@@ -1124,11 +1124,26 @@ def get_squashed_list_item(line: str, approx_len: int, approx_index: int):
 
     start_of_squashed_list_item_idx = earliest_match.start('full')
 
+    previous_line = line[:start_of_squashed_list_item_idx-1].strip()
+    current_line = line[start_of_squashed_list_item_idx:]
+
+    skip_heuristics: List[Callable[[str, str], bool]] = [
+        lambda prev, curr:
+            re.match(
+                CURRENCY_REGEX,
+                # e.g 'Rp.' + ' ' + '100.000'
+                f'{prev.split()[-1]} {curr.split()[0]}'
+            ) != None
+    ]
+
+    if any([is_match(previous_line, current_line) for is_match in skip_heuristics]):
+        return None
+
     print_line()
     print(f'{approx_index} / {approx_len}')
-    print(f'{line[:start_of_squashed_list_item_idx-1].strip()}')
+    print(f'{previous_line}')
     print_dashed_line()
-    print(f'{line[start_of_squashed_list_item_idx:]}')
+    print(f'{current_line}')
     print_line()
 
     pyperclip.copy(line[start_of_squashed_list_item_idx:])
