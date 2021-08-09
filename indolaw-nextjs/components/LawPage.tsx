@@ -1,13 +1,14 @@
 import { LawData } from "utils/grammar";
 import Head from "next/head";
-import { isMobile } from 'react-device-detect';
 
 import DesktopLawPage from "./DesktopLawPage";
 import MobileLawPage from "./MobileLawPage";
+import { useIsMobile } from "utils/hooks";
 
 // TODO(johnamadeo): Fix "Warning: Each child in a list should have a unique "key" prop." problem
 export default function LawPage(props: { law: LawData }): JSX.Element {
   const { law } = props;
+  const isMobile = useIsMobile();
 
   return (
     <div>
@@ -19,3 +20,4 @@ export default function LawPage(props: { law: LawData }): JSX.Element {
     </div>
   );
 }
+
