@@ -883,7 +883,7 @@ def clean_split_plaintext(law: List[str]) -> List[str]:
     '''
     print_section_header('CLEANING SPLIT PLAINTEXT...')
 
-    skip_heuristics = [
+    skip_heuristics: List[Callable[[str, str], bool]] = [
         lambda _, curr: curr in ['Mengingat:', 'Mengingat :'],
 
         lambda _, curr: curr.lower() in [
