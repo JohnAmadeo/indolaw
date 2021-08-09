@@ -2,12 +2,14 @@ import { useMemo } from "react";
 import { Complex, Primitive, renderChildren, Structure, NodeMap, Metadata, penjelasanStructureMap } from "utils/grammar";
 import { fonts } from "utils/theme";
 import { LawContext, getPenjelasanMapKey } from "utils/context-provider";
+import { useIsMobile } from "utils/hooks";
 
 // TODO(johnamadeo): Fix "Warning: Each child in a list should have a unique "key" prop." problem
 export default function Law(props: { law: Complex, metadata: Metadata, colorScheme: any }): JSX.Element {
   // This method requires a brute force traversal of PENJELASAN_PASAL_DEMI_PASAL
   // so we want to run it once & memoize
   const penjelasanMap = useMemo(() => extractPenjelasanMap(props.law), [props.law]);
+  const isMobile = useIsMobile();
   const { metadata } = props;
 
   return (
@@ -16,11 +18,11 @@ export default function Law(props: { law: Complex, metadata: Metadata, colorSche
         <style jsx>{`
         div {
           font-family: ${fonts.serif};
-          font-size: 18px;
+          font-size: ${isMobile ? '16px' : '18px'};
           color: ${props.colorScheme.text};
         }
       `}</style>
-        {renderChildren(props.law)}
+        {renderChildren(props.law, null, isMobile)}
       </div>
     </LawContext.Provider>
   );

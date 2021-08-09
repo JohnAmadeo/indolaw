@@ -7,12 +7,15 @@ import {
   Structure,
   NodeMap,
 } from "utils/grammar";
+import { useIsMobile } from "utils/hooks";
 import PrimitiveStructure from "./PrimitiveStructure";
 
 export default function StructureWithHeading(props: {
   structure: Complex;
   numOfHeadingLines: number;
 }): JSX.Element {
+  const isMobile = useIsMobile();
+
   const { structure, numOfHeadingLines } = props;
   const headingStyle: CSSProperties = {
     marginLeft: "0px",
@@ -40,7 +43,7 @@ export default function StructureWithHeading(props: {
         ))}
       </div>
       {structure.children.slice(numOfHeadingLines).map((child, idx) =>
-        renderStructure(child, idx))}
+        renderStructure(child, idx, isMobile))}
     </>
   );
 }

@@ -155,7 +155,7 @@ export function renderStructure(
             }
           `}</style>
           <div id={(structure as Complex).id}>
-            {renderChildren(structure as Complex)}
+            {renderChildren(structure as Complex, null, isMobile)}
           </div>
         </>
       );
@@ -246,7 +246,7 @@ export function renderStructure(
     case Structure.UNORDERED_LIST:
     case Structure.PERUBAHAN_SECTION:
     case Structure.PENJELASAN_PERUBAHAN_SECTION:
-      return renderChildren(structure as Complex, key);
+      return renderChildren(structure as Complex, key, isMobile);
     case Structure.PENJELASAN_PASAL_DEMI_PASAL:
       return <PenjelasanPasalDemiPasal />
     case Structure.LIST_ITEM:
@@ -284,12 +284,13 @@ export function renderPenjelasan(
 
 export function renderChildren(
   structure: Complex,
-  key?: string | number
+  key?: string | number | null,
+  isMobile?: boolean
 ): JSX.Element {
   return (
     <div key={key}>
       {structure.children.map((childStructure, idx) =>
-        renderStructure(childStructure, idx)
+        renderStructure(childStructure, idx, isMobile)
       )}
     </div>
   );

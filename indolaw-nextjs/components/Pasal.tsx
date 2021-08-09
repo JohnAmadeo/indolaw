@@ -3,19 +3,19 @@ import { Complex, Primitive, renderStructure } from "utils/grammar";
 import PrimitiveStructure from "./PrimitiveStructure";
 import { renderPenjelasan } from "utils/grammar";
 import ReactDOMServer from "react-dom/server";
-import { useMediaQuery } from "react-responsive";
 import * as clipboard from "clipboard-polyfill";
 import CopyButton from "./CopyButton";
 import { renderCopyHtml } from "utils/copypaste";
 import { LawContext, getPenjelasanMapKey, VisibilityContext } from "utils/context-provider";
 import { useAppContext } from "utils/context-provider";
+import { useIsMobile } from "utils/hooks";
 
 export default function Pasal(props: {
   structure: Complex,
   numOfHeadingLines: number,
 }): JSX.Element {
   const { structure, numOfHeadingLines } = props;
-  const isMobile = useMediaQuery({ query: "(max-width: 768px)" });
+  const isMobile = useIsMobile();
   const { penjelasanMap } = useContext(LawContext);
   const [isHoverOnCopyButton, setIsHoverOnCopyButton] = useState(false);
   const { colorScheme } = useAppContext();
@@ -111,7 +111,7 @@ export default function Pasal(props: {
       </div>
       {structure.children
         .slice(numOfHeadingLines)
-        .map((child, idx) => renderStructure(child, idx))}
+        .map((child, idx) => renderStructure(child, idx, isMobile))}
       {!isPenjelasanStructure &&
         penjelasanPasal != null &&
         renderPenjelasan(

@@ -6,7 +6,7 @@ import ReactDOMServer from "react-dom/server";
 import * as clipboard from "clipboard-polyfill";
 import CopyButton from "./CopyButton";
 import { renderCopyHtml } from "utils/copypaste";
-import { useMediaQuery } from "react-responsive";
+import { useIsMobile } from "utils/hooks";
 
 export default function PenjelasanPasal(props: {
   structure: Complex;
@@ -18,7 +18,7 @@ export default function PenjelasanPasal(props: {
   const [isContentVisible, setIsContentVisible] = useState(!collapseOnDefault);
   const [isHoverOnCopyButton, setIsHoverOnCopyButton] = useState(false);
   const { colorScheme } = useAppContext();
-  const isMobile = useMediaQuery({ query: "(max-width: 768px)" });
+  const isMobile = useIsMobile();
 
   const headingStyle: CSSProperties = {
     marginLeft: "0px",
@@ -122,7 +122,7 @@ export default function PenjelasanPasal(props: {
                 return <></>;
               }
 
-              return renderStructure(child, idx);
+              return renderStructure(child, idx, isMobile);
             })}
           </div>
         )}

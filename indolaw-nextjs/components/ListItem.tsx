@@ -1,10 +1,11 @@
 import { Structure, Complex, Primitive, renderStructure } from "utils/grammar";
 import PrimitiveStructure from "components/PrimitiveStructure";
 import { useMediaQuery } from "react-responsive";
+import { useIsMobile } from "utils/hooks";
 
 export default function ListItem(props: { structure: Complex }): JSX.Element {
   const { structure } = props;
-  const isMobile = useMediaQuery({ maxWidth: 768 });
+  const isMobile = useIsMobile();
 
   return (
     <div className="list-item">
