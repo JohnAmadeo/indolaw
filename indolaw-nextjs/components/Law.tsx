@@ -2,6 +2,7 @@ import { useMemo } from "react";
 import { Complex, Primitive, renderChildren, Structure, NodeMap, Metadata, penjelasanStructureMap } from "utils/grammar";
 import { fonts } from "utils/theme";
 import { LawContext, getPenjelasanMapKey } from "utils/context-provider";
+import { isMobile } from 'react-device-detect';
 
 // TODO(johnamadeo): Fix "Warning: Each child in a list should have a unique "key" prop." problem
 export default function Law(props: { law: Complex, metadata: Metadata, colorScheme: any }): JSX.Element {
@@ -16,7 +17,7 @@ export default function Law(props: { law: Complex, metadata: Metadata, colorSche
         <style jsx>{`
         div {
           font-family: ${fonts.serif};
-          font-size: 18px;
+          font-size: ${isMobile ? '16px' : '18px'};
           color: ${props.colorScheme.text};
         }
       `}</style>
