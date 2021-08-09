@@ -548,20 +548,20 @@ def clean_law(law: List[str]) -> List[str]:
             If user permission is not given, user is given a chance to
             redo any cleaning stage.
             '''
-            print_section_header("Last cleaning stage finished")
-            print("Proceed to parsing?")
-            print("(y) to proceed to parsing.")
+            print_section_header(
+                "Last cleaning stage reached - finish cleaning?")
+            print("(y) to finish.")
             print("(n) to undo to specific cleaning stages.")
             print_yes_no()
 
-            finish_parsing = ''
+            finish_cleaning = ''
 
-            while finish_parsing not in ('y', 'n'):
-                finish_parsing = input()
-                if finish_parsing == 'y':
-                    print(colored('Proceeding to parsing...', 'blue'))
+            while finish_cleaning not in ('y', 'n'):
+                finish_cleaning = input()
+                if finish_cleaning == 'y':
+                    print(colored('Finished.', 'blue'))
                     next_cleaning_stage += 1
-                elif finish_parsing == 'n':
+                elif finish_cleaning == 'n':
                     print(colored('Going back to cleaning stages...', 'blue'))
                     next_cleaning_stage = len_cleaning_stage_order
                 else:
