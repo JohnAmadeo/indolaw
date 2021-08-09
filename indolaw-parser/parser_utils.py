@@ -1161,11 +1161,18 @@ def get_squashed_list_item(line: str, approx_len: int, approx_index: int):
 def clean_maybe_squashed_headings(law: List[str]) -> List[str]:
     print_section_header('CLEANING MAYBE SQUASHED HEADINGS...')
 
+    skip_heuristics = [
+        'II. PASAL DEMI PASAL'
+    ]
+
     approx_len = len(law)
     new_law = []
     for index, line in enumerate(law):
-        list_item = clean_maybe_squashed_heading(line, approx_len, index)
-        new_law.extend(list_item)
+        if line in skip_heuristics:
+            new_law.append(line)
+        else:
+            list_item = clean_maybe_squashed_heading(line, approx_len, index)
+            new_law.extend(list_item)
 
     return new_law
 
