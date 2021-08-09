@@ -1,0 +1,4022 @@
+{
+  "metadata": {
+    "lembaranNegaraNumber": 70,
+    "lembaranNegaraYear": 2008,
+    "tambahanLembaranNumber": 4852,
+    "number": 19,
+    "topic": "Surat Berharga Syariah Negara",
+    "year": 2008
+  },
+  "content": {
+    "type": "UNDANG_UNDANG",
+    "id": "",
+    "children": [
+      {
+        "type": "OPENING",
+        "id": "",
+        "children": [
+          {
+            "type": "UU_TITLE",
+            "id": "",
+            "children": [
+              {
+                "type": "PLAINTEXT",
+                "text": "UNDANG-UNDANG REPUBLIK INDONESIA"
+              },
+              {
+                "type": "UU_TITLE_YEAR_AND_NUMBER",
+                "text": "NOMOR 19 TAHUN 2008"
+              },
+              {
+                "type": "PLAINTEXT",
+                "text": "TENTANG"
+              },
+              {
+                "type": "UU_TITLE_TOPIC",
+                "text": "SURAT BERHARGA SYARIAH NEGARA"
+              }
+            ]
+          },
+          {
+            "type": "PREFACE",
+            "id": "",
+            "children": [
+              {
+                "type": "PLAINTEXT",
+                "text": "DENGAN RAHMAT TUHAN YANG MAHA ESA"
+              },
+              {
+                "type": "PLAINTEXT",
+                "text": "PRESIDEN REPUBLIK INDONESIA,"
+              }
+            ]
+          },
+          {
+            "type": "CONSIDERATIONS",
+            "id": "",
+            "children": [
+              {
+                "type": "PLAINTEXT",
+                "text": "Menimbang:"
+              },
+              {
+                "type": "LIST",
+                "id": "",
+                "children": [
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "LETTER_WITH_DOT",
+                        "text": "a."
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "bahwa strategi dan kebijakan pembangunan nasional untuk mewujudkan masyarakat adil, makmur, dan sejahtera serta untuk memulihkan sektor ekonomi, perlu disertai dengan upaya pengelolaan keuangan negara secara optimal melalui peningkatan efisiensi dalam pengelolaan barang milik negara dan sumber pembiayaan anggaran negara;"
+                      }
+                    ]
+                  },
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "LETTER_WITH_DOT",
+                        "text": "b."
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "bahwa dalam rangka pengelolaan keuangan negara untuk meningkatkan daya dukung Anggaran Pendapatan dan Belanja Negara dalam menggerakkan perekonomian nasional secara berkesinambungan, diperlukan pengembangan berbagai instrumen keuangan yang mampu memobilisasi dana publik secara luas dengan memperhatikan nilai-nilai ekonomi, sosial dan budaya yang berkembang dalam masyarakat;"
+                      }
+                    ]
+                  },
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "LETTER_WITH_DOT",
+                        "text": "c."
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "bahwa potensi sumber pembiayaan pembangunan nasional yang menggunakan instrumen keuangan berbasis syariah yang memiliki peluang besar belum dimanfaatkan secara optimal;"
+                      }
+                    ]
+                  },
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "LETTER_WITH_DOT",
+                        "text": "d."
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "bahwa sektor ekonomi dan keuangan syariah perlu ditumbuhkembangkan melalui pengembangan instrumen keuangan syariah sebagai bagian dari sistem perekonomian nasional dalam rangka peningkatan kesejahteraan sosial bagi seluruh rakyat Indonesia;"
+                      }
+                    ]
+                  },
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "LETTER_WITH_DOT",
+                        "text": "e."
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "bahwa instrumen keuangan berdasarkan prinsip syariah mempunyai karakteristik yang berbeda dengan instrumen keuangan konvensional, sehingga perlu pengelolaan dan pengaturan secara khusus, baik yang menyangkut instrumen maupun perangkat hukum yang diperlukan;"
+                      }
+                    ]
+                  },
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "LETTER_WITH_DOT",
+                        "text": "f."
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "bahwa berdasarkan pertimbangan sebagaimana dimaksud dalam huruf a, huruf b, huruf c, huruf d, dan huruf e, perlu membentuk Undang-Undang tentang Surat Berharga Syariah Negara."
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "PRINCIPLES",
+            "id": "",
+            "children": [
+              {
+                "type": "PLAINTEXT",
+                "text": "Mengingat:"
+              },
+              {
+                "type": "PLAINTEXT",
+                "text": "Pasal 5 ayat (1), Pasal 20 ayat (1) dan ayat (2), Pasal 20A ayat (1), Pasal 23, dan Pasal 23C Undang-Undang Dasar Negara Republik Indonesia Tahun 1945."
+              }
+            ]
+          },
+          {
+            "type": "AGREEMENT",
+            "id": "",
+            "children": [
+              {
+                "type": "PLAINTEXT",
+                "text": "Dengan Persetujuan Bersama:"
+              },
+              {
+                "type": "PLAINTEXT",
+                "text": "DEWAN PERWAKILAN RAKYAT REPUBLIK INDONESIA"
+              },
+              {
+                "type": "PLAINTEXT",
+                "text": "dan"
+              },
+              {
+                "type": "PLAINTEXT",
+                "text": "PRESIDEN REPUBLIK INDONESIA"
+              },
+              {
+                "type": "PLAINTEXT",
+                "text": "MEMUTUSKAN:"
+              },
+              {
+                "type": "PLAINTEXT",
+                "text": "Menetapkan:"
+              },
+              {
+                "type": "PLAINTEXT",
+                "text": "UNDANG-UNDANG TENTANG SURAT BERHARGA SYARIAH NEGARA"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "BAB",
+        "id": "bab-1",
+        "children": [
+          {
+            "type": "BAB_NUMBER",
+            "text": "BAB I"
+          },
+          {
+            "type": "BAB_TITLE",
+            "text": "KETENTUAN UMUM"
+          },
+          {
+            "type": "PASAL",
+            "id": "pasal-1",
+            "children": [
+              {
+                "type": "PASAL_NUMBER",
+                "text": "Pasal 1"
+              },
+              {
+                "type": "PLAINTEXT",
+                "text": "Dalam Undang-Undang ini yang dimaksud dengan:"
+              },
+              {
+                "type": "LIST",
+                "id": "",
+                "children": [
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "NUMBER_WITH_DOT",
+                        "text": "1."
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "Surat Berharga Syariah Negara selanjutnya disingkat SBSN, atau dapat disebut Sukuk Negara, adalah surat berharga negara yang diterbitkan berdasarkan prinsip syariah, sebagai bukti atas bagian penyertaan terhadap Aset SBSN, baik dalam mata uang rupiah maupun valuta asing."
+                      }
+                    ]
+                  },
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "NUMBER_WITH_DOT",
+                        "text": "2."
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "Perusahaan Penerbit SBSN adalah badan hukum yang didirikan berdasarkan ketentuan Undang-Undang ini untuk melaksanakan kegiatan penerbitan SBSN."
+                      }
+                    ]
+                  },
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "NUMBER_WITH_DOT",
+                        "text": "3."
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "Aset SBSN adalah objek pembiayaan SBSN dan/ atau Barang Milik Negara yang memiliki nilai ekonomis, berupa tanah dan/atau bangunan maupun selain tanah dan/atau bangunan, yang dalam rangka penerbitan SBSN dijadikan sebagai dasar penerbitan SBSN,"
+                      }
+                    ]
+                  },
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "NUMBER_WITH_DOT",
+                        "text": "4."
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "Barang Milik Negara adalah semua barang yang dibeli atau diperoleh atas beban Anggaran Pendapatan dan Belanja Negara atau berasal dari perolehan lainnya yang sah."
+                      }
+                    ]
+                  },
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "NUMBER_WITH_DOT",
+                        "text": "5."
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "Akad adalah perjanjian tertulis yang tidak bertentangan dengan prinsip syariah dan sesuai dengan peraturan perundang-undangan."
+                      }
+                    ]
+                  },
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "NUMBER_WITH_DOT",
+                        "text": "6."
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "Ijarah adalah Akad yang satu pihak bertindak sendiri atau melalui wakilnya menyewakan hak atas suatu aset kepada pihak lain berdasarkan harga sewa dan periode sewa yang disepakati."
+                      }
+                    ]
+                  },
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "NUMBER_WITH_DOT",
+                        "text": "7."
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "Mudarabah adalah Akad kerja sama antara dua pihak atau lebih, yaitu satu pihak sebagai penyedia modal dan pihak lain sebagai penyedia tenaga dan keahlian, keuntungan dari kerjasama tersebut akan dibagi berdasarkan nisbah yang telah disetujui sebelumnya, sedangkan kerugian yang terjadi akan ditanggung sepenuhnya oleh pihak penyedia modal, kecuali kerugian disebabkan oleh kelalaian penyedia tenaga dan keahlian."
+                      }
+                    ]
+                  },
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "NUMBER_WITH_DOT",
+                        "text": "8."
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "Musyarakah adalah Akad kerja sama antara dua pihak atau lebih untuk menggabungkan modal, baik dalam bentuk uang maupun bentuk lainnya, dengan tujuan memperoleh keuntungan, yang akan dibagikan sesuai dengan nisbah yang telah disepakati sebelumnya, sedangkan kerugian yang timbul akan ditanggung bersama sesuai dengan jumlah partisipasi modal masing-masing pihak."
+                      }
+                    ]
+                  },
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "NUMBER_WITH_DOT",
+                        "text": "9."
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "Istishna' adalah Akad jual beli aset berupa obyek pembiayaan antara para pihak dimana spesifikasi, cara dan jangka waktu penyerahan, serta harga aset tersebut ditentukan berdasarkan kesepakatan para pihak."
+                      }
+                    ]
+                  },
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "NUMBER_WITH_DOT",
+                        "text": "10."
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "Imbalan adalah pembayaran yang dapat berupa sewa, bagi hasil atau margin, atau bentuk pembayaran lainnya sesuai dengan Akad penerbitan SBSN, yang diberikan kepada pemegang SBSN sampai dengan berakhirnya periode SBSN."
+                      }
+                    ]
+                  },
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "NUMBER_WITH_DOT",
+                        "text": "11."
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "Pemerintah adalah Pemerintah Pusat Republik Indonesia."
+                      }
+                    ]
+                  },
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "NUMBER_WITH_DOT",
+                        "text": "12."
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "Menteri adalah Menteri Keuangan Republik Indonesia."
+                      }
+                    ]
+                  },
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "NUMBER_WITH_DOT",
+                        "text": "13."
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "Pasar Perdana adalah kegiatan penawaran dan penjualan SBSN baik di dalam maupun di luar negeri untuk pertama kalinya."
+                      }
+                    ]
+                  },
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "NUMBER_WITH_DOT",
+                        "text": "14."
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "Pasar Sekunder adalah kegiatan perdagangan SBSN yang telah dijual di Pasar Perdana baik di dalam maupun di luar negeri."
+                      }
+                    ]
+                  },
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "NUMBER_WITH_DOT",
+                        "text": "15."
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "Nilai Nominal adalah nilai SBSN yang tercantum dalam sertifikat SBSN,"
+                      }
+                    ]
+                  },
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "NUMBER_WITH_DOT",
+                        "text": "16."
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "Hak Manfaat adalah hak untuk memiliki dan mendapatkan hak penuh atas pemanfaatan suatu aset tanpa perlu dilakukan pendaftaran atas kepemilikan dan hak tersebut."
+                      }
+                    ]
+                  },
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "NUMBER_WITH_DOT",
+                        "text": "17."
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "Wali Amanat adalah pihak yang mewakili kepentingan pemegang SBSN sesuai dengan yang diperjanjikan."
+                      }
+                    ]
+                  },
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "NUMBER_WITH_DOT",
+                        "text": "18."
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "Nilai Bersih Maksimal Surat Berharga Negara adalah tambahan atas jumlah Surat Berharga Negara yang telah beredar dalam satu tahun anggaran, yang merupakan selisih antara jumlah Surat Berharga Negara yang akan diterbitkan dengan jumlah Surat Berharga Negara yang jatuh tempo dan/atau yang dibeli kembali oleh Pemerintah."
+                      }
+                    ]
+                  },
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "NUMBER_WITH_DOT",
+                        "text": "19."
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "Surat Utang Negara adalah surat berharga yang berupa surat pengakuan utang dalam mata uang rupiah maupun valuta asing yang dijamin pembayaran bunga dan pokoknya oleh Negara Republik Indonesia sesuai dengan masa berlakunya."
+                      }
+                    ]
+                  },
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "NUMBER_WITH_DOT",
+                        "text": "20."
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "Surat Berharga Negara adalah Surat Utang Negara dan SBSN."
+                      }
+                    ]
+                  },
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "NUMBER_WITH_DOT",
+                        "text": "21."
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "Setiap Orang adalah orang perseorangan atau Korporasi."
+                      }
+                    ]
+                  },
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "NUMBER_WITH_DOT",
+                        "text": "22."
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "Korporasi adalah kumpulan orang dan/atau kekayaan yang terorganisasi baik merupakan badan hukum maupun bukan badan hukum."
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "BAB",
+        "id": "bab-2",
+        "children": [
+          {
+            "type": "BAB_NUMBER",
+            "text": "BAB II"
+          },
+          {
+            "type": "BAB_TITLE",
+            "text": "BENTUK DAN JENIS SURAT BERHARGA SYARIAH NEGARA"
+          },
+          {
+            "type": "PASAL",
+            "id": "pasal-2",
+            "children": [
+              {
+                "type": "PASAL_NUMBER",
+                "text": "Pasal 2"
+              },
+              {
+                "type": "LIST",
+                "id": "",
+                "children": [
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "NUMBER_WITH_BRACKETS",
+                        "text": "(1)"
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "SBSN diterbitkan dalam bentuk warkat atau tanpa warkat."
+                      }
+                    ]
+                  },
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "NUMBER_WITH_BRACKETS",
+                        "text": "(2)"
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "SBSN sebagaimana dimaksud pada ayat (1) dapat diperdagangkan atau tidak diperdagangkan di Pasar Sekunder."
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "PASAL",
+            "id": "pasal-3",
+            "children": [
+              {
+                "type": "PASAL_NUMBER",
+                "text": "Pasal 3"
+              },
+              {
+                "type": "PLAINTEXT",
+                "text": "SBSN dapat berupa:"
+              },
+              {
+                "type": "LIST",
+                "id": "",
+                "children": [
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "LETTER_WITH_DOT",
+                        "text": "a."
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "SBSN Ijarah, yang diterbitkan berdasarkan Akad Ijarah;"
+                      }
+                    ]
+                  },
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "LETTER_WITH_DOT",
+                        "text": "b."
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "SBSN Mudarabah, yang diterbitkan berdasarkan Akad Mudarabah;"
+                      }
+                    ]
+                  },
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "LETTER_WITH_DOT",
+                        "text": "c."
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "SBSN Musyarakah, yang diterbitkan berdasarkan Akad Musyarakah;"
+                      }
+                    ]
+                  },
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "LETTER_WITH_DOT",
+                        "text": "d."
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "SBSN Istishna', yang diterbitkan berdasarkan Akad Istishna;"
+                      }
+                    ]
+                  },
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "LETTER_WITH_DOT",
+                        "text": "e."
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "SBSN yang diterbitkan berdasarkan Akad lainnya sepanjang tidak bertentangan dengan prinsip syariah; dan"
+                      }
+                    ]
+                  },
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "LETTER_WITH_DOT",
+                        "text": "f."
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "SBSN yang diterbitkan berdasarkan kombinasi dari dua atau lebih dari Akad sebagaimana dimaksud pada huruf a sampai dengan huruf e."
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "BAB",
+        "id": "bab-3",
+        "children": [
+          {
+            "type": "BAB_NUMBER",
+            "text": "BAB III"
+          },
+          {
+            "type": "BAB_TITLE",
+            "text": "TUJUAN PENERBITAN SURAT BERHARGA SYARIAH NEGARA"
+          },
+          {
+            "type": "PASAL",
+            "id": "pasal-4",
+            "children": [
+              {
+                "type": "PASAL_NUMBER",
+                "text": "Pasal 4"
+              },
+              {
+                "type": "PLAINTEXT",
+                "text": "SBSN diterbitkan dengan tujuan untuk membiayai Anggaran Pendapatan dan Belanja Negara termasuk membiayai pembangunan proyek."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "BAB",
+        "id": "bab-4",
+        "children": [
+          {
+            "type": "BAB_NUMBER",
+            "text": "BAB IV"
+          },
+          {
+            "type": "BAB_TITLE",
+            "text": "KEWENANGAN DAN PELAKSANAAN PENERBITAN SURAT BERHARGA SYARIAH NEGARA"
+          },
+          {
+            "type": "PASAL",
+            "id": "pasal-5",
+            "children": [
+              {
+                "type": "PASAL_NUMBER",
+                "text": "Pasal 5"
+              },
+              {
+                "type": "LIST",
+                "id": "",
+                "children": [
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "NUMBER_WITH_BRACKETS",
+                        "text": "(1)"
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "Kewenangan menerbitkan SBSN untuk tujuan sebagaimana dimaksud dalam Pasal 4 berada pada Pemerintah."
+                      }
+                    ]
+                  },
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "NUMBER_WITH_BRACKETS",
+                        "text": "(2)"
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "Kewenangan sebagaimana dimaksud pada ayat (1) dilaksanakan oleh Menteri."
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "PASAL",
+            "id": "pasal-6",
+            "children": [
+              {
+                "type": "PASAL_NUMBER",
+                "text": "Pasal 6"
+              },
+              {
+                "type": "LIST",
+                "id": "",
+                "children": [
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "NUMBER_WITH_BRACKETS",
+                        "text": "(1)"
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "Penerbitan SBSN dapat dilaksanakan secara langsung oleh Pemerintah atau melalui Perusahaan Penerbit SBSN."
+                      }
+                    ]
+                  },
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "NUMBER_WITH_BRACKETS",
+                        "text": "(2)"
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "SBSN yang dapat diterbitkan baik oleh Pemerintah maupun Perusahaan Penerbit SBSN sebagaimana dimaksud pada ayat (1) adalah semua jenis SBSN sebagaimana dimaksud dalam Pasal 3."
+                      }
+                    ]
+                  },
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "NUMBER_WITH_BRACKETS",
+                        "text": "(3)"
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "Penerbitan SBSN yang dilakukan melalui Perusahaan Penerbit SBSN ditetapkan oleh Menteri."
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "PASAL",
+            "id": "pasal-7",
+            "children": [
+              {
+                "type": "PASAL_NUMBER",
+                "text": "Pasal 7"
+              },
+              {
+                "type": "LIST",
+                "id": "",
+                "children": [
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "NUMBER_WITH_BRACKETS",
+                        "text": "(1)"
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "Dalam hal akan dilakukan penerbitan SBSN untuk tujuan sebagaimana dimaksud dalam Pasal 4, Menteri terlebih dahulu berkoordinasi dengan Bank Indonesia."
+                      }
+                    ]
+                  },
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "NUMBER_WITH_BRACKETS",
+                        "text": "(2)"
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "Khusus untuk penerbitan SBSN dalam rangka pembiayaan proyek, Menteri berkoordinasi dengan menteri yang bertanggung jawab di bidang perencanaan pembangunan nasional."
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "PASAL",
+            "id": "pasal-8",
+            "children": [
+              {
+                "type": "PASAL_NUMBER",
+                "text": "Pasal 8"
+              },
+              {
+                "type": "LIST",
+                "id": "",
+                "children": [
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "NUMBER_WITH_BRACKETS",
+                        "text": "(1)"
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "Penerbitan SBSN harus terlebih dahulu mendapat persetujuan Dewan Perwakilan Rakyat pada saat pengesahan Anggaran Pendapatan dan Belanja Negara yang diperhitungkan sebagai bagian dari Nilai Bersih Maksimal Surat Berharga Negara yang akan diterbitkan oleh Pemerintah dalam satu tahun anggaran."
+                      }
+                    ]
+                  },
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "NUMBER_WITH_BRACKETS",
+                        "text": "(2)"
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "Menteri berwenang menetapkan komposisi Surat Berharga Negara dalam rupiah maupun valuta asing, serta menetapkan komposisi Surat Berharga Negara dalam bentuk Surat Utang Negara maupun SBSN dan hal-hal lain yang diperlukan untuk menjamin penerbitan Surat Berharga Negara secara hati-hati."
+                      }
+                    ]
+                  },
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "NUMBER_WITH_BRACKETS",
+                        "text": "(3)"
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "Dalam hal-hal tertentu, SBSN dapat diterbitkan melebihi Nilai Bersih Maksimal yang telah disetujui Dewan Perwakilan Rakyat sebagaimana dimaksud pada ayat (1), yang selanjutnya dilaporkan sebagai Perubahan Anggaran Pendapatan dan Belanja Negara dan/atau disampaikan dalam Laporan Realisasi Anggaran tahun yang bersangkutan."
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "PASAL",
+            "id": "pasal-9",
+            "children": [
+              {
+                "type": "PASAL_NUMBER",
+                "text": "Pasal 9"
+              },
+              {
+                "type": "LIST",
+                "id": "",
+                "children": [
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "NUMBER_WITH_BRACKETS",
+                        "text": "(1)"
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "Persetujuan Dewan Perwakilan Rakyat sebagaimana dimaksud dalam Pasal 8 ayat (1) termasuk pembayaran semua kewajiban Imbalan dan Nilai Nominal yang timbul sebagai akibat penerbitan SBSN dimaksud serta Barang Milik Negara yang akan dijadikan sebagai Aset SBSN."
+                      }
+                    ]
+                  },
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "NUMBER_WITH_BRACKETS",
+                        "text": "(2)"
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "Pemerintah wajib membayar Imbalan dan Nilai Nominal setiap SBSN, baik yang diterbitkan secara langsung oleh Pemerintah maupun Perusahaan Penerbit SBSN, sesuai dengan ketentuan dalam Akad penerbitan SBSN."
+                      }
+                    ]
+                  },
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "NUMBER_WITH_BRACKETS",
+                        "text": "(3)"
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "Dana untuk membayar Imbalan dan Nilai Nominal sebagaimana dimaksud pada ayat (2) disediakan dalam Anggaran Pendapatan dan Belanja Negara setiap tahun sampai dengan berakhirnya kewajiban tersebut."
+                      }
+                    ]
+                  },
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "NUMBER_WITH_BRACKETS",
+                        "text": "(4)"
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "Dalam hal pembayaran kewajiban Imbalan dan Nilai Nominal dimaksud melebihi perkiraan dana sebagaimana dimaksud pada ayat (3), Pemerintah melakukan pembayaran dan menyampaikan realisasi pembayaran tersebut kepada Dewan Perwakilan Rakyat dalam pembahasan Perubahan Anggaran Pendapatan dan Belanja Negara."
+                      }
+                    ]
+                  },
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "NUMBER_WITH_BRACKETS",
+                        "text": "(5)"
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "Semua kewajiban sebagaimana dimaksud pada ayat (2), ayat (3), dan ayat (4) dilakukan secara transparan dan dapat dipertanggungjawabkan."
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "BAB",
+        "id": "bab-5",
+        "children": [
+          {
+            "type": "BAB_NUMBER",
+            "text": "BAB V"
+          },
+          {
+            "type": "BAB_TITLE",
+            "text": "PENGGUNAAN BARANG MILIK NEGARA DALAM RANGKA PENERBITAN SURAT BERHARGA SYARIAH NEGARA"
+          },
+          {
+            "type": "PASAL",
+            "id": "pasal-10",
+            "children": [
+              {
+                "type": "PASAL_NUMBER",
+                "text": "Pasal 10"
+              },
+              {
+                "type": "LIST",
+                "id": "",
+                "children": [
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "NUMBER_WITH_BRACKETS",
+                        "text": "(1)"
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "Barang Milik Negara dapat digunakan sebagai dasar penerbitan SBSN, yang untuk selanjutnya Barang Milik Negara dimaksud disebut sebagai Aset SBSN."
+                      }
+                    ]
+                  },
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "NUMBER_WITH_BRACKETS",
+                        "text": "(2)"
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "Aset SBSN sebagaimana dimaksud pada ayat (1) dapat berupa:"
+                      },
+                      {
+                        "type": "LIST",
+                        "id": "",
+                        "children": [
+                          {
+                            "type": "LIST_ITEM",
+                            "id": "",
+                            "children": [
+                              {
+                                "type": "LETTER_WITH_DOT",
+                                "text": "a."
+                              },
+                              {
+                                "type": "PLAINTEXT",
+                                "text": "tanah dan/atau bangunan; dan"
+                              }
+                            ]
+                          },
+                          {
+                            "type": "LIST_ITEM",
+                            "id": "",
+                            "children": [
+                              {
+                                "type": "LETTER_WITH_DOT",
+                                "text": "b."
+                              },
+                              {
+                                "type": "PLAINTEXT",
+                                "text": "selain tanah dan/atau bangunan."
+                              }
+                            ]
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "NUMBER_WITH_BRACKETS",
+                        "text": "(3)"
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "Jenis, nilai, dan spesifikasi Barang Milik Negara yang akan digunakan sebagai Aset SBSN sebagaimana dimaksud pada ayat (2) ditetapkan oleh Menteri."
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "PASAL",
+            "id": "pasal-11",
+            "children": [
+              {
+                "type": "PASAL_NUMBER",
+                "text": "Pasal 11"
+              },
+              {
+                "type": "LIST",
+                "id": "",
+                "children": [
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "NUMBER_WITH_BRACKETS",
+                        "text": "(1)"
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "Penggunaan Barang Milik Negara sebagai Aset SBSN sebagaimana dimaksud dalam Pasal 10 ayat (2) dilakukan Menteri dengan cara menjual atau menyewakan Hak Manfaat atas Barang Milik Negara atau cara lain yang sesuai dengan Akad yang digunakan dalam rangka penerbitan SBSN."
+                      }
+                    ]
+                  },
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "NUMBER_WITH_BRACKETS",
+                        "text": "(2)"
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "Aset SBSN sebagaimana dimaksud pada ayat (1) dapat disewa kembali oleh Menteri berdasarkan suatu Akad."
+                      }
+                    ]
+                  },
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "NUMBER_WITH_BRACKETS",
+                        "text": "(3)"
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "Dalam hal Barang Milik Negara sebagaimana dimaksud dalam Pasal 10 ayat (1) sedang digunakan oleh instansi Pemerintah dan akan digunakan sebagai Aset SBSN, Menteri terlebih dahulu memberitahukan kepada instansi Pemerintah pengguna Barang Milik Negara."
+                      }
+                    ]
+                  },
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "NUMBER_WITH_BRACKETS",
+                        "text": "(4)"
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "Jangka waktu penyewaan Aset SBSN oleh Pemerintah kepada Perusahaan Penerbit SBSN sebagaimana dimaksud pada ayat (1) ditetapkan paling lama 60 (enam puluh) tahun."
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "PASAL",
+            "id": "pasal-12",
+            "children": [
+              {
+                "type": "PASAL_NUMBER",
+                "text": "Pasal 12"
+              },
+              {
+                "type": "LIST",
+                "id": "",
+                "children": [
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "NUMBER_WITH_BRACKETS",
+                        "text": "(1)"
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "Menteri wajib membeli kembali Aset SBSN, membatalkan Akad sewa, dan mengakhiri Akad penerbitan SBSN lainnya pada saat SBSN jatuh tempo."
+                      }
+                    ]
+                  },
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "NUMBER_WITH_BRACKETS",
+                        "text": "(2)"
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "Dalam rangka pembelian kembali Aset SBSN, pembatalan Akad sewa dan pengakhiran Akad penerbitan SBSN lainnya sebagaimana dimaksud pada ayat (1), Menteri membayar nilai nominal SBSN atau kewajiban pembayaran lain sesuai Akad penerbitan SBSN kepada pemegang SBSN."
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "BAB",
+        "id": "bab-6",
+        "children": [
+          {
+            "type": "BAB_NUMBER",
+            "text": "BAB VI"
+          },
+          {
+            "type": "BAB_TITLE",
+            "text": "PERUSAHAAN PENERBIT SURAT BERHARGA SYARIAH NEGARA DAN WALI AMANAT"
+          },
+          {
+            "type": "PASAL",
+            "id": "pasal-13",
+            "children": [
+              {
+                "type": "PASAL_NUMBER",
+                "text": "Pasal 13"
+              },
+              {
+                "type": "LIST",
+                "id": "",
+                "children": [
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "NUMBER_WITH_BRACKETS",
+                        "text": "(1)"
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "Dalam rangka penerbitan SBSN, Pemerintah dapat mendirikan Perusahaan Penerbit SBSN sebagaimana dimaksud dalam Pasal 6 ayat (1)."
+                      }
+                    ]
+                  },
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "NUMBER_WITH_BRACKETS",
+                        "text": "(2)"
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "Perusahaan Penerbit SBSN sebagaimana dimaksud pada ayat (1) merupakan badan hukum yang dibentuk berdasarkan Undang-Undang ini."
+                      }
+                    ]
+                  },
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "NUMBER_WITH_BRACKETS",
+                        "text": "(3)"
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "Perusahaan Penerbit SBSN sebagaimana dimaksud pada ayat (1) adalah badan hukum yang berkedudukan di dalam wilayah hukum Negara Republik Indonesia."
+                      }
+                    ]
+                  },
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "NUMBER_WITH_BRACKETS",
+                        "text": "(4)"
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "Perusahaan Penerbit SBSN bertanggung jawab kepada Menteri."
+                      }
+                    ]
+                  },
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "NUMBER_WITH_BRACKETS",
+                        "text": "(5)"
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "Ketentuan lebih lanjut mengenai pendirian, organ, permodalan, fungsi, dan pertanggungjawaban Perusahaan Penerbit SBSN diatur dengan Peraturan Pemerintah."
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "PASAL",
+            "id": "pasal-14",
+            "children": [
+              {
+                "type": "PASAL_NUMBER",
+                "text": "Pasal 14"
+              },
+              {
+                "type": "LIST",
+                "id": "",
+                "children": [
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "NUMBER_WITH_BRACKETS",
+                        "text": "(1)"
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "Menteri menunjuk langsung pihak lain sebagai Wali Amanat, dalam hal SBSN diterbitkan secara langsung oleh Pemerintah."
+                      }
+                    ]
+                  },
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "NUMBER_WITH_BRACKETS",
+                        "text": "(2)"
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "Perusahaan Penerbit SBSN bertindak sebagai Wali Amanat bagi pemegang SBSN, dalam hal SBSN diterbitkan oleh Perusahaan Penerbit SBSN."
+                      }
+                    ]
+                  },
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "NUMBER_WITH_BRACKETS",
+                        "text": "(3)"
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "Perusahaan Penerbit SBSN dapat menunjuk pihak lain dengan persetujuan Menteri untuk membantu melaksanakan fungsi Wali Amanat sebagaimana dimaksud pada ayat (2)."
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "PASAL",
+            "id": "pasal-15",
+            "children": [
+              {
+                "type": "PASAL_NUMBER",
+                "text": "Pasal 15"
+              },
+              {
+                "type": "PLAINTEXT",
+                "text": "Wali Amanat sebagaimana dimaksud dalam Pasal 14 memiliki tugas, antara lain:"
+              },
+              {
+                "type": "LIST",
+                "id": "",
+                "children": [
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "LETTER_WITH_DOT",
+                        "text": "a."
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "melakukan perikatan dengan pihak lain untuk kepentingan pemegang SBSN;"
+                      }
+                    ]
+                  },
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "LETTER_WITH_DOT",
+                        "text": "b."
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "mengawasi aset SBSN untuk kepentingan pemegang SBSN; dan"
+                      }
+                    ]
+                  },
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "LETTER_WITH_DOT",
+                        "text": "c."
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "mewakili kepentingan lain pemegang SBSN, terkait dengan perikatan dalam rangka penerbitan SBSN."
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "PASAL",
+            "id": "pasal-16",
+            "children": [
+              {
+                "type": "PASAL_NUMBER",
+                "text": "Pasal 16"
+              },
+              {
+                "type": "PLAINTEXT",
+                "text": "Perusahaan Penerbit SBSN dan pihak lain yang ditunjuk sebagai Wali Amanat wajib memisahkan Aset SBSN dari kekayaan perusahaan untuk kepentingan pemegang SBSN."
+              }
+            ]
+          },
+          {
+            "type": "PASAL",
+            "id": "pasal-17",
+            "children": [
+              {
+                "type": "PASAL_NUMBER",
+                "text": "Pasal 17"
+              },
+              {
+                "type": "PLAINTEXT",
+                "text": "Dalam melaksanakan fungsi sebagai Wali Amanat, Perusahaan Penerbit SBSN harus menjaga kepentingan pemegang SBSN."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "BAB",
+        "id": "bab-7",
+        "children": [
+          {
+            "type": "BAB_NUMBER",
+            "text": "BAB VII"
+          },
+          {
+            "type": "BAB_TITLE",
+            "text": "PENGELOLAAN SURAT BERHARGA SYARIAH NEGARA"
+          },
+          {
+            "type": "PASAL",
+            "id": "pasal-18",
+            "children": [
+              {
+                "type": "PASAL_NUMBER",
+                "text": "Pasal 18"
+              },
+              {
+                "type": "LIST",
+                "id": "",
+                "children": [
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "NUMBER_WITH_BRACKETS",
+                        "text": "(1)"
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "Pengelolaan SBSN baik yang diterbitkan secara langsung oleh Pemerintah maupun melalui Perusahaan Penerbit SBSN diselenggarakan oleh Menteri."
+                      }
+                    ]
+                  },
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "NUMBER_WITH_BRACKETS",
+                        "text": "(2)"
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "Pengelolaan SBSN sebagaimana dimaksud pada ayat (1), antara lain, meliputi:"
+                      },
+                      {
+                        "type": "LIST",
+                        "id": "",
+                        "children": [
+                          {
+                            "type": "LIST_ITEM",
+                            "id": "",
+                            "children": [
+                              {
+                                "type": "LETTER_WITH_DOT",
+                                "text": "a."
+                              },
+                              {
+                                "type": "PLAINTEXT",
+                                "text": "penetapan strategi dan kebijakan pengelolaan SBSN termasuk kebijakan pengendalian risiko;"
+                              }
+                            ]
+                          },
+                          {
+                            "type": "LIST_ITEM",
+                            "id": "",
+                            "children": [
+                              {
+                                "type": "LETTER_WITH_DOT",
+                                "text": "b."
+                              },
+                              {
+                                "type": "PLAINTEXT",
+                                "text": "perencanaan dan penetapan struktur portofolio SBSN;"
+                              }
+                            ]
+                          },
+                          {
+                            "type": "LIST_ITEM",
+                            "id": "",
+                            "children": [
+                              {
+                                "type": "LETTER_WITH_DOT",
+                                "text": "c."
+                              },
+                              {
+                                "type": "PLAINTEXT",
+                                "text": "penerbitan SBSN;"
+                              }
+                            ]
+                          },
+                          {
+                            "type": "LIST_ITEM",
+                            "id": "",
+                            "children": [
+                              {
+                                "type": "LETTER_WITH_DOT",
+                                "text": "d."
+                              },
+                              {
+                                "type": "PLAINTEXT",
+                                "text": "penjualan SBSN melalui lelang dan/atau tanpa lelang;"
+                              }
+                            ]
+                          },
+                          {
+                            "type": "LIST_ITEM",
+                            "id": "",
+                            "children": [
+                              {
+                                "type": "LETTER_WITH_DOT",
+                                "text": "e."
+                              },
+                              {
+                                "type": "PLAINTEXT",
+                                "text": "pembelian kembali SBSN sebelum jatuh tempo;"
+                              }
+                            ]
+                          },
+                          {
+                            "type": "LIST_ITEM",
+                            "id": "",
+                            "children": [
+                              {
+                                "type": "LETTER_WITH_DOT",
+                                "text": "f."
+                              },
+                              {
+                                "type": "PLAINTEXT",
+                                "text": "pelunasan SBSN; dan"
+                              }
+                            ]
+                          },
+                          {
+                            "type": "LIST_ITEM",
+                            "id": "",
+                            "children": [
+                              {
+                                "type": "LETTER_WITH_DOT",
+                                "text": "g."
+                              },
+                              {
+                                "type": "PLAINTEXT",
+                                "text": "aktivitas lain dalam rangka pengembangan Pasar Perdana dan Pasar Sekunder SBSN."
+                              }
+                            ]
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "NUMBER_WITH_BRACKETS",
+                        "text": "(3)"
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "Pengelolaan sebagaimana dimaksud pada ayat (2) merupakan bagian dari pengelolaan Surat Berharga Negara secara keseluruhan."
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "PASAL",
+            "id": "pasal-19",
+            "children": [
+              {
+                "type": "PASAL_NUMBER",
+                "text": "Pasal 19"
+              },
+              {
+                "type": "LIST",
+                "id": "",
+                "children": [
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "NUMBER_WITH_BRACKETS",
+                        "text": "(1)"
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "Dalam rangka mendukung penyelenggaraan pengelolaan SBSN sebagaimana dimaksud dalam Pasal 18, Menteri membuka rekening yang merupakan bagian dari Rekening Kas Umum Negara."
+                      }
+                    ]
+                  },
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "NUMBER_WITH_BRACKETS",
+                        "text": "(2)"
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "Tata cara pembukaan dan pengelolaan rekening sebagaimana dimaksud pada ayat (1) ditetapkan oleh Menteri."
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "PASAL",
+            "id": "pasal-20",
+            "children": [
+              {
+                "type": "PASAL_NUMBER",
+                "text": "Pasal 20"
+              },
+              {
+                "type": "PLAINTEXT",
+                "text": "SBSN wajib mencantumkan ketentuan dan syarat yang mengatur, antara lain, mengenai:"
+              },
+              {
+                "type": "LIST",
+                "id": "",
+                "children": [
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "LETTER_WITH_DOT",
+                        "text": "a."
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "penerbit;"
+                      }
+                    ]
+                  },
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "LETTER_WITH_DOT",
+                        "text": "b."
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "Nilai Nominal;"
+                      }
+                    ]
+                  },
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "LETTER_WITH_DOT",
+                        "text": "c."
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "tanggal penerbitan;"
+                      }
+                    ]
+                  },
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "LETTER_WITH_DOT",
+                        "text": "d."
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "tanggal jatuh tempo;"
+                      }
+                    ]
+                  },
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "LETTER_WITH_DOT",
+                        "text": "e."
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "tanggal pembayaran Imbalan;"
+                      }
+                    ]
+                  },
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "LETTER_WITH_DOT",
+                        "text": "f."
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "besaran atau nisbah Imbalan;"
+                      }
+                    ]
+                  },
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "LETTER_WITH_DOT",
+                        "text": "g."
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "frekuensi pembayaran Imbalan;"
+                      }
+                    ]
+                  },
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "LETTER_WITH_DOT",
+                        "text": "h."
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "cara perhitungan pembayaran Imbalan;"
+                      }
+                    ]
+                  },
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "LETTER_WITH_DOT",
+                        "text": "i."
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "jenis mata uang atau denominasi;"
+                      }
+                    ]
+                  },
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "LETTER_WITH_DOT",
+                        "text": "j."
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "jenis Barang Milik Negara yang dijadikan Aset SBSN;"
+                      }
+                    ]
+                  },
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "LETTER_WITH_DOT",
+                        "text": "k."
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "penggunaan ketentuan hukum yang berlaku;"
+                      }
+                    ]
+                  },
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "LETTER_WITH_DOT",
+                        "text": "l."
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "ketentuan tentang hak untuk membeli kembali SBSN sebelum jatuh tempo; dan"
+                      }
+                    ]
+                  },
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "LETTER_WITH_DOT",
+                        "text": "m."
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "ketentuan tentang pengalihan kepemilikan."
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "PASAL",
+            "id": "pasal-21",
+            "children": [
+              {
+                "type": "PASAL_NUMBER",
+                "text": "Pasal 21"
+              },
+              {
+                "type": "LIST",
+                "id": "",
+                "children": [
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "NUMBER_WITH_BRACKETS",
+                        "text": "(1)"
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "Dalam hal SBSN diterbitkan di dalam negeri, Menteri menunjuk Bank Indonesia sebagai agen penata usaha untuk melaksanakan kegiatan penatausahaan yang mencakup antara lain kegiatan pencatatan kepemilikan, kliring, dan setelmen SBSN, baik dalam hal SBSN diterbitkan secara langsung oleh Pemerintah maupun yang diterbitkan melalui Perusahaan Penerbit SBSN."
+                      }
+                    ]
+                  },
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "NUMBER_WITH_BRACKETS",
+                        "text": "(2)"
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "Menteri dapat meminta Bank Indonesia untuk menunjuk pihak lain sebagai agen penata usaha untuk melaksanakan kegiatan penatausahaan sebagaimana dimaksud pada ayat (1)."
+                      }
+                    ]
+                  },
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "NUMBER_WITH_BRACKETS",
+                        "text": "(3)"
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "Dalam hal SBSN diterbitkan di luar negeri, Menteri menunjuk Bank Indonesia atau pihak lain sebagai agen penata usaha untuk melaksanakan kegiatan penatausahaan sebagaimana dimaksud pada ayat (1)."
+                      }
+                    ]
+                  },
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "NUMBER_WITH_BRACKETS",
+                        "text": "(4)"
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "Dalam menyelenggarakan kegiatan penatausahaan sebagaimana dimaksud pada ayat (1), Bank Indonesia atau pihak lain yang ditunjuk wajib membuat laporan pertanggungjawaban kepada Pemerintah."
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "PASAL",
+            "id": "pasal-22",
+            "children": [
+              {
+                "type": "PASAL_NUMBER",
+                "text": "Pasal 22"
+              },
+              {
+                "type": "LIST",
+                "id": "",
+                "children": [
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "NUMBER_WITH_BRACKETS",
+                        "text": "(1)"
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "Menteri menunjuk Bank Indonesia atau pihak lain sebagai agen pembayar, baik dalam hal SBSN diterbitkan secara langsung oleh Pemerintah maupun yang diterbitkan melalui Perusahaan Penerbit SBSN."
+                      }
+                    ]
+                  },
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "NUMBER_WITH_BRACKETS",
+                        "text": "(2)"
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "Menteri dapat menunjuk pihak lain sebagai agen pembayar sebagaimana dimaksud pada ayat (1) dengan terlebih dahulu berkoordinasi dengan Bank Indonesia,"
+                      }
+                    ]
+                  },
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "NUMBER_WITH_BRACKETS",
+                        "text": "(3)"
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "Kegiatan agen pembayar sebagaimana dimaksud pada ayat (1) dan ayat (2), antara lain, meliputi:"
+                      },
+                      {
+                        "type": "LIST",
+                        "id": "",
+                        "children": [
+                          {
+                            "type": "LIST_ITEM",
+                            "id": "",
+                            "children": [
+                              {
+                                "type": "LETTER_WITH_DOT",
+                                "text": "a."
+                              },
+                              {
+                                "type": "PLAINTEXT",
+                                "text": "menerima Imbalan dan/atau Nilai Nominal SBSN dari pemerintah; dan"
+                              }
+                            ]
+                          },
+                          {
+                            "type": "LIST_ITEM",
+                            "id": "",
+                            "children": [
+                              {
+                                "type": "LETTER_WITH_DOT",
+                                "text": "b."
+                              },
+                              {
+                                "type": "PLAINTEXT",
+                                "text": "membayarkan Imbalan dan/atau Nilai Nominal SBSN sebagaimana dimaksud pada huruf a kepada pemegang SBSN."
+                              }
+                            ]
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "PASAL",
+            "id": "pasal-23",
+            "children": [
+              {
+                "type": "PASAL_NUMBER",
+                "text": "Pasal 23"
+              },
+              {
+                "type": "PLAINTEXT",
+                "text": "Menteri dapat menunjuk Bank Indonesia sebagai agen lelang SBSN, baik yang diterbitkan secara langsung oleh Pemerintah maupun melalui Perusahaan Penerbit SBSN."
+              }
+            ]
+          },
+          {
+            "type": "PASAL",
+            "id": "pasal-24",
+            "children": [
+              {
+                "type": "PASAL_NUMBER",
+                "text": "Pasal 24"
+              },
+              {
+                "type": "PLAINTEXT",
+                "text": "Menteri menetapkan ketentuan mengenai penerbitan dan penjualan SBSN dengan Peraturan Menteri."
+              }
+            ]
+          },
+          {
+            "type": "PASAL",
+            "id": "pasal-25",
+            "children": [
+              {
+                "type": "PASAL_NUMBER",
+                "text": "Pasal 25"
+              },
+              {
+                "type": "PLAINTEXT",
+                "text": "Dalam rangka penerbitan SBSN, Menteri meminta fatwa atau pernyataan kesesuaian SBSN terhadap prinsip prinsip syariah dari lembaga yang memiliki kewenangan dalam penetapan fatwa di bidang syariah."
+              }
+            ]
+          },
+          {
+            "type": "PASAL",
+            "id": "pasal-26",
+            "children": [
+              {
+                "type": "PASAL_NUMBER",
+                "text": "Pasal 26"
+              },
+              {
+                "type": "PLAINTEXT",
+                "text": "Pengaturan dan pengawasan terhadap kegiatan perdagangan SBSN dilakukan oleh otoritas yang melakukan pengaturan dan pengawasan di bidang pasar modal."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "BAB",
+        "id": "bab-8",
+        "children": [
+          {
+            "type": "BAB_NUMBER",
+            "text": "BAB VIII"
+          },
+          {
+            "type": "BAB_TITLE",
+            "text": "AKUNTABILITAS DAN TRANSPARANSI"
+          },
+          {
+            "type": "PASAL",
+            "id": "pasal-27",
+            "children": [
+              {
+                "type": "PASAL_NUMBER",
+                "text": "Pasal 27"
+              },
+              {
+                "type": "LIST",
+                "id": "",
+                "children": [
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "NUMBER_WITH_BRACKETS",
+                        "text": "(1)"
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "Menteri wajib menyelenggarakan penatausahaan dan membuat pertanggungjawaban atas pengelolaan SBSN."
+                      }
+                    ]
+                  },
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "NUMBER_WITH_BRACKETS",
+                        "text": "(2)"
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "Pertanggungjawaban sebagaimana dimaksud pada ayat (1) disampaikan sebagai bagian dari pertanggungjawaban pelaksanaan Anggaran Pendapatan dan Belanja Negara tahun yang bersangkutan."
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "PASAL",
+            "id": "pasal-28",
+            "children": [
+              {
+                "type": "PASAL_NUMBER",
+                "text": "Pasal 28"
+              },
+              {
+                "type": "PLAINTEXT",
+                "text": "Menteri wajib secara berkala memublikasikan informasi tentang:"
+              },
+              {
+                "type": "LIST",
+                "id": "",
+                "children": [
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "LETTER_WITH_DOT",
+                        "text": "a."
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "kebijakan pengelolaan SBSN dan rencana penerbitan SBSN yang meliputi perkiraan jumlah dan jadwal waktu penerbitan; dan"
+                      }
+                    ]
+                  },
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "LETTER_WITH_DOT",
+                        "text": "b."
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "jumlah SBSN yang beredar beserta komposisinya, termasuk jenis valuta, struktur jatuh tempo, dan besaran imbalan."
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "PASAL",
+            "id": "pasal-29",
+            "children": [
+              {
+                "type": "PASAL_NUMBER",
+                "text": "Pasal 29"
+              },
+              {
+                "type": "PLAINTEXT",
+                "text": "Dalam rangka pelaksanaan tugas dan fungsinya, otoritas yang melakukan pengaturan dan pengawasan di bidang pasar modal sebagaimana dimaksud dalam Pasal 26 berwenang memperoleh data dan informasi mengenai SBSN secara langsung dari Bank Indonesia atau pihak lain yang ditunjuk sebagai agen penata usaha SBSN."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "BAB",
+        "id": "bab-9",
+        "children": [
+          {
+            "type": "BAB_NUMBER",
+            "text": "BAB IX"
+          },
+          {
+            "type": "BAB_TITLE",
+            "text": "KETENTUAN PIDANA"
+          },
+          {
+            "type": "PASAL",
+            "id": "pasal-30",
+            "children": [
+              {
+                "type": "PASAL_NUMBER",
+                "text": "Pasal 30"
+              },
+              {
+                "type": "LIST",
+                "id": "",
+                "children": [
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "NUMBER_WITH_BRACKETS",
+                        "text": "(1)"
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "Setiap Orang yang meniru, membuat palsu, atau memalsukan SBSN dengan maksud memperdagangkan SBSN tiruan, palsu, atau dipalsukan dipidana dengan pidana penjara paling singkat 5 (lima) tahun dan paling lama 10 (sepuluh) tahun dan denda paling sedikit Rp10.000.000.000,00 (sepuluh miliar rupiah) dan paling banyak Rp20.000.000.000,00 (dua puluh miliar rupiah)."
+                      }
+                    ]
+                  },
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "NUMBER_WITH_BRACKETS",
+                        "text": "(2)"
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "Setiap Orang dengan sengaja tanpa wewenang menerbitkan SBSN berdasarkan Undang-Undang ini, dipidana dengan pidana penjara paling singkat 10 (sepuluh) tahun dan paling lama 20 (dua puluh) tahun dan denda paling sedikit Rp20.000.000.000,00 (dua puluh miliar rupiah) dan paling banyak Rp40.000.000.000,00 (empat puluh miliar rupiah)."
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "PASAL",
+            "id": "pasal-31",
+            "children": [
+              {
+                "type": "PASAL_NUMBER",
+                "text": "Pasal 31"
+              },
+              {
+                "type": "LIST",
+                "id": "",
+                "children": [
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "NUMBER_WITH_BRACKETS",
+                        "text": "(1)"
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "Dalam hal tindak pidana sebagaimana dimaksud dalam Pasal 30 dilakukan oleh Korporasi maka tuntutan pidana ditujukan kepada:"
+                      },
+                      {
+                        "type": "LIST",
+                        "id": "",
+                        "children": [
+                          {
+                            "type": "LIST_ITEM",
+                            "id": "",
+                            "children": [
+                              {
+                                "type": "LETTER_WITH_DOT",
+                                "text": "a."
+                              },
+                              {
+                                "type": "PLAINTEXT",
+                                "text": "Korporasi; dan/atau"
+                              }
+                            ]
+                          },
+                          {
+                            "type": "LIST_ITEM",
+                            "id": "",
+                            "children": [
+                              {
+                                "type": "LETTER_WITH_DOT",
+                                "text": "b."
+                              },
+                              {
+                                "type": "PLAINTEXT",
+                                "text": "orang yang melakukan atau memberikan perintah baik sendiri atau bersama-sama untuk melakukan tindak pidana tersebut atau yang bertindak sebagai pimpinan atau melalaikan pencegahannya."
+                              }
+                            ]
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "NUMBER_WITH_BRACKETS",
+                        "text": "(2)"
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "Dalam hal tuntutan pidana dilakukan terhadap Korporasi, pidana pokok yang dijatuhkan hanya berupa pidana denda yang besarnya sebagaimana dimaksud dalam Pasal 30 ayat (1) atau ayat (2) ditambah 1/3 (satu pertiga) dari pidana denda dimaksud."
+                      }
+                    ]
+                  },
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "NUMBER_WITH_BRACKETS",
+                        "text": "(3)"
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "Selain pidana sebagaimana dimaksud pada ayat (2) Korporasi dapat dijatuhi pidana tambahan berupa pencabutan izin usahanya."
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "BAB",
+        "id": "bab-10",
+        "children": [
+          {
+            "type": "BAB_NUMBER",
+            "text": "BAB X"
+          },
+          {
+            "type": "BAB_TITLE",
+            "text": "KETENTUAN PENUTUP"
+          },
+          {
+            "type": "PASAL",
+            "id": "pasal-32",
+            "children": [
+              {
+                "type": "PASAL_NUMBER",
+                "text": "Pasal 32"
+              },
+              {
+                "type": "PLAINTEXT",
+                "text": "Undang-Undang ini mulai berlaku pada tanggal diundangkan."
+              },
+              {
+                "type": "PLAINTEXT",
+                "text": "Agar setiap orang mengetahuinya, memerintahkan pengundangan Undang-Undang ini dengan penempatannya dalam Lembaran Negara Republik Indonesia."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "CLOSING",
+        "id": "",
+        "children": [
+          {
+            "type": "PLAINTEXT",
+            "text": "Disahkan Di Jakarta,"
+          },
+          {
+            "type": "PLAINTEXT",
+            "text": "Pada Tanggal 7 Mei 2008"
+          },
+          {
+            "type": "PLAINTEXT",
+            "text": "PRESIDEN REPUBLIK INDONESIA,"
+          },
+          {
+            "type": "PLAINTEXT",
+            "text": "Ttd."
+          },
+          {
+            "type": "PLAINTEXT",
+            "text": "DR. H. SUSILO BAMBANG YUDHOYONO"
+          },
+          {
+            "type": "PLAINTEXT",
+            "text": "Diundangkan Di Jakarta,"
+          },
+          {
+            "type": "PLAINTEXT",
+            "text": "Pada Tanggal 7 Mei 2008"
+          },
+          {
+            "type": "PLAINTEXT",
+            "text": "MENTERI HUKUM DAN HAK ASASI MANUSIA REPUBLIK INDONESIA,"
+          },
+          {
+            "type": "PLAINTEXT",
+            "text": "Ttd."
+          },
+          {
+            "type": "PLAINTEXT",
+            "text": "ANDI MATTALATTA"
+          },
+          {
+            "type": "LEMBARAN_NUMBER",
+            "text": "LEMBARAN NEGARA REPUBLIK INDONESIA TAHUN 2008 NOMOR 70"
+          }
+        ]
+      },
+      {
+        "type": "PENJELASAN",
+        "id": "penjelasan",
+        "children": [
+          {
+            "type": "PENJELASAN_TITLE",
+            "id": "",
+            "children": [
+              {
+                "type": "PLAINTEXT",
+                "text": "PENJELASAN"
+              },
+              {
+                "type": "PLAINTEXT",
+                "text": "UNDANG-UNDANG REPUBLIK INDONESIA"
+              },
+              {
+                "type": "UU_TITLE_YEAR_AND_NUMBER",
+                "text": "NOMOR 19 TAHUN 2008"
+              },
+              {
+                "type": "PLAINTEXT",
+                "text": "TENTANG"
+              },
+              {
+                "type": "UU_TITLE_TOPIC",
+                "text": "SURAT BERHARGA SYARIAH NEGARA"
+              }
+            ]
+          },
+          {
+            "type": "PENJELASAN_UMUM",
+            "id": "",
+            "children": [
+              {
+                "type": "PENJELASAN_UMUM_TITLE",
+                "text": "I. UMUM"
+              },
+              {
+                "type": "PLAINTEXT",
+                "text": "Keberhasilan pelaksanaan program pembangunan nasional dalam mewujudkan masyarakat yang adil, makmur, dan sejahtera berdasarkan Pancasila dan Undang-Undang Dasar Negara Republik Indonesia Tahun 1945 perlu disertai dengan, antara lain, upaya pengelolaan keuangan negara secara optimal. Hal tersebut dapat dicapai melalui peningkatan efisiensi dalam pengelolaan aset negara dan pengembangan sumber pembiayaan anggaran negara, guna meningkatkan daya dukung Anggaran Pendapatan dan Belanja Negara dalam menggerakkan pembangunan sektor ekonomi secara berkesinambungan."
+              },
+              {
+                "type": "PLAINTEXT",
+                "text": "Pengembangan berbagai alternatif instrumen pembiayaan anggaran negara, khususnya instrumen pembiayaan yang berdasarkan prinsip syariah guna memobilisasi dana publik secara luas perlu segera dilaksanakan. Instrumen keuangan yang akan diterbitkan harus sesuai dengan prinsip-prinsip syariah, memberikan kepastian hukum, transparan, dan akuntabel. Upaya pengembangan instrumen pembiayaan berdasarkan prinsip syariah tersebut, antara lain, bertujuan untuk: (1) memperkuat dan meningkatkan peran sistem keuangan berbasis syariah di dalam negeri; (2) memperluas basis pembiayaan anggaran negara; (3) menciptakan benchmark instrumen keuangan syariah baik di pasar keuangan syariah domestik maupun internasional; (4) memperluas dan mendiversifikasi basis investor; (5) mengembangkan alternatif instrumen investasi baik bagi investor dalam negeri maupun luar negeri yang mencari instrumen keuangan berbasis syariah; dan (6) mendorong pertumbuhan pasar keuangan syariah di Indonesia."
+              },
+              {
+                "type": "PLAINTEXT",
+                "text": "Konsep keuangan Islam didasarkan pada prinsip moralitas dan keadilan. Oleh karena itu, sesuai dengan dasar operasionalnya yakni syariah Islam yang bersumber dari Al Qur'an dan Hadist serta Ijma instrumen pembiayaan syariah harus selaras dan memenuhi prinsip syariah, yaitu antara lain transaksi yang dilakukan oleh para pihak harus bersifat adil, halal, thayyib, dan maslahat. Selain itu, transaksi dalam, keuangan Islam sesuai dengan syariah harus terbebas dari unsur larangan berikut: (1) Riba, yaitu unsur bunga atau return yang diperoleh dari penggunaan uang untuk mendapatkan uang (money for money); (2) Maysir, yaitu unsur spekulasi, judi, dan sikap untung-untungan; dan (3) Gharar, yaitu unsur ketidakpastian yang antara lain terkait dengan penyerahan kualitas, kuantitas, dan sebagainya. Karakteristik lain dari penerbitan instrumen keuangan syariah yaitu memerlukan adanya transaksi pendukung (underlying transaction), yang tata cara dan mekanismenya bersifat khusus dan berbeda dengan transaksi keuangan pada umumnya. Oleh karena itu, mengingat instrumen keuangan berdasarkan prinsip syariah sangat berbeda dengan instrumen keuangan konvensional, untuk keperluan penerbitan instrumen pembiayaan syariah tersebut perlu adanya pengaturan secara khusus, baik yang menyangkut instrumen maupun perangkat yang diperlukan."
+              },
+              {
+                "type": "PLAINTEXT",
+                "text": "Salah satu bentuk instrumen keuangan syariah yang telah banyak diterbitkan baik oleh Korporasi maupun negara adalah surat berharga berdasarkan prinsip syariah, atau secara internasional dikenal dengan istilah Sukuk. Instrumen keuangan syariah ini berbeda dengan surat berharga konvensional. Perbedaan yang prinsip antara lain surat berharga berdasarkan prinsip syariah menggunakan konsep Imbalan bukan bunga sebagaimana dikenal dalam instrumen keuangan konvensional dan diperlukannya sejumlah tertentu aset yang digunakan sebagai dasar untuk melakukan transaksi dengan menggunakan Akad berdasarkan prinsip syariah."
+              },
+              {
+                "type": "PLAINTEXT",
+                "text": "Metode atau struktur pembiayaan berdasarkan prinsip syariah pada dasarnya mengikuti Akad yang digunakan dalam melakukan transaksi. Beberapa jenis Akad yang dapat digunakan dalam penerbitan surat berharga syariah, antara lain, meliputi Ijarah, Mudarabah, Musyarakah, Istishna', dan Akad lain yang tidak bertentangan dengan prinsip syariah, serta kombinasi dari dua atau lebih dari Akad tersebut."
+              },
+              {
+                "type": "PLAINTEXT",
+                "text": "Sejalan dengan semakin meluasnya penggunaan prinsip syariah di pasar keuangan dalam dan luar negeri, yang ditandai dengan semakin banyaknya negara yang menerbitkan instrumen pembiayaan berbasis syariah dan semakin meningkatnya jumlah investor dalam instrumen keuangan syariah, Indonesia perlu memanfaatkan momentum melalui penerbitan SBSN baik di pasar domestik maupun di pasar internasional sebagai alternatif sumber pembiayaan. Hal tersebut sejalan dengan semakin terbatasnya daya dukung Anggaran Pendapatan dan Belanja Negara untuk menggerakkan pembangunan sektor ekonomi secara berkesinambungan dan belum optimalnya pemanfaatan instrumen pembiayaan lainnya. Dengan bertambahnya instrumen Surat. Berharga Negara yang terdiri dari Surat Utang Negara dan SBSN, diharapkan kemampuan Pemerintah dalam pengelolaan anggaran negara terutama dari sisi pembiayaan akan semakin meningkat. Selain itu, adanya SBSN akan dapat memenuhi kebutuhan portofolio investasi lembaga keuangan syariah antara lain perbankan syariah, reksadana syariah, dan asuransi syariah. Dengan bertambahnya jumlah instrumen keuangan berdasarkan prinsip syariah, diharapkan akan mendorong pertumbuhan lembaga keuangan syariah di dalam negeri. Sejalan dengan itu, dalam rangka memberikan dasar hukum penerbitan instrumen keuangan berdasarkan prinsip syariah dan untuk mendukung perkembangan pasar keuangan syariah khususnya di dalam negeri, perlu dilakukan penyusunan Undang-Undang tentang Surat Berharga Syariah Negara, yang mengatur secara khusus mengenai penerbitan dan pengelolaan SBSN."
+              },
+              {
+                "type": "PLAINTEXT",
+                "text": "SBSN ini merupakan surat berharga dalam mata uang rupiah maupun valuta asing berdasarkan prinsip syariah yang diterbitkan oleh Negara Republik Indonesia, baik dilaksanakan secara langsung oleh Pemerintah atau melalui Perusahaan Penerbit SBSN, sebagai bukti atas bagian penyertaan terhadap Aset SBSN, serta wajib dibayar atau dijamin pembayaran Imbalan dan Nilai Nominalnya oleh Negara Republik Indonesia, sesuai dengan ketentuan perjanjian yang mengatur penerbitan SBSN tersebut."
+              },
+              {
+                "type": "PLAINTEXT",
+                "text": "Undang-Undang tentang Surat Berharga Syariah Negara ini secara garis besar mengatur hal-hal sebagai berikut:"
+              },
+              {
+                "type": "LIST",
+                "id": "",
+                "children": [
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "LETTER_WITH_DOT",
+                        "text": "a."
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "transparansi pengelolaan SBSN dalam kerangka kebijakan fiskal dan kebijakan pengembangan pasar SBSN dengan mengatur lebih lanjut tujuan penerbitannya dan jenis Akad yang digunakan;"
+                      }
+                    ]
+                  },
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "LETTER_WITH_DOT",
+                        "text": "b."
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "kewenangan Pemerintah untuk menerbitkan SBSN, baik dilakukan secara langsung oleh Pemerintah yang didelegasikan kepada Menteri, ataupun dilaksanakan melalui Perusahaan Penerbit SBSN;"
+                      }
+                    ]
+                  },
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "LETTER_WITH_DOT",
+                        "text": "c."
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "kewenangan Pemerintah untuk menggunakan Barang Milik Negara sebagai dasar penerbitan SBSN (underlying asset);"
+                      }
+                    ]
+                  },
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "LETTER_WITH_DOT",
+                        "text": "d."
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "kewenangan Pemerintah untuk mendirikan dan menetapkan tugas badan hukum yang akan melaksanakan fungsi sebagai Perusahaan Penerbit SBSN;"
+                      }
+                    ]
+                  },
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "LETTER_WITH_DOT",
+                        "text": "e."
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "kewenangan Wali Amanat untuk bertindak mewakili kepentingan Pemegang SBSN;"
+                      }
+                    ]
+                  },
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "LETTER_WITH_DOT",
+                        "text": "f."
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "kewenangan Pemerintah untuk membayar semua kewajiban yang timbul dari penerbitan SBSN, baik yang diterbitkan secara langsung oleh Pemerintah maupun melalui Perusahaan Penerbit SBSN, secara penuh dan tepat waktu sampai berakhirnya kewajiban tersebut; dan"
+                      }
+                    ]
+                  },
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "LETTER_WITH_DOT",
+                        "text": "g."
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "landasan hukum bagi pengaturan lebih lanjut atas tata cara dan mekanisme penerbitan SBSN di Pasar Perdana maupun perdagangan SBSN di Pasar Sekunder agar pemodal memperoleh kepastian untuk memiliki dan memperdagangkan SBSN secara mudah dan aman."
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "PENJELASAN_PASAL_DEMI_PASAL",
+            "id": "",
+            "children": [
+              {
+                "type": "PENJELASAN_PASAL_DEMI_PASAL_TITLE",
+                "text": "II. PASAL DEMI PASAL"
+              },
+              {
+                "type": "PENJELASAN_PASAL",
+                "id": "",
+                "children": [
+                  {
+                    "type": "PASAL_NUMBER",
+                    "text": "Pasal 1"
+                  },
+                  {
+                    "type": "PLAINTEXT",
+                    "text": "Cukup jelas."
+                  }
+                ]
+              },
+              {
+                "type": "PENJELASAN_PASAL",
+                "id": "",
+                "children": [
+                  {
+                    "type": "PASAL_NUMBER",
+                    "text": "Pasal 2"
+                  },
+                  {
+                    "type": "LIST",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "PENJELASAN_LIST_ITEM",
+                        "id": "",
+                        "children": [
+                          {
+                            "type": "PENJELASAN_AYAT",
+                            "text": "Ayat (1)"
+                          },
+                          {
+                            "type": "PLAINTEXT",
+                            "text": "SBSN dengan warkat adalah surat berharga berdasarkan prinsip syariah yang kepemilikannya berupa sertifikat baik atas nama maupun atas unjuk. Sertifikat atas nama adalah sertifikat yang nama pemiliknya tercantum, sedangkan sertifikat atas unjuk adalah sertifikat yang tidak mencantumkan nama pemilik sehingga Setiap Orang yang menguasainya adalah pemilik yang sah. SBSN tanpa warkat atau scripless adalah surat berharga berdasarkan prinsip syariah yang kepemilikannya dicatat secara elektronik (book entry system). Dalam hal SBSN tanpa warkat, bukti kepemilikan yang otentik dan sah adalah pencatatan kepemilikan secara elektronis. Cara pencatatan secara elektronis dimaksudkan agar pengadministrasian data kepemilikan (registry) dan penyelesaian transaksi perdagangan SBSN di Pasar Sekunder dapat diselenggarakan secara efisien, cepat, aman, transparan, dan dapat dipertanggungjawabkan."
+                          }
+                        ]
+                      },
+                      {
+                        "type": "PENJELASAN_LIST_ITEM",
+                        "id": "",
+                        "children": [
+                          {
+                            "type": "PENJELASAN_AYAT",
+                            "text": "Ayat (2)"
+                          },
+                          {
+                            "type": "PLAINTEXT",
+                            "text": "SBSN yang diperdagangkan adalah SBSN yang diperjualbelikan di Pasar Sekunder baik di dalam maupun di luar negeri. Perdagangan dapat dilakukan melalui bursa dan/atau di luar bursa yang biasa disebut over the counter (OTC). SBSN yang tidak diperdagangkan adalah (1) SBSN yang tidak dapat diperjualbelikan di Pasar Sekunder dan biasanya diterbitkan secara khusus untuk pemodal institusi tertentu, baik domestik maupun asing, yang berminat untuk memiliki SBSN sesuai dengan kebutuhan spesifik dari portofolio investasinya dan (2) SBSN yang karena sifat Akad penerbitannya tidak dapat diperdagangkan."
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "PENJELASAN_PASAL",
+                "id": "",
+                "children": [
+                  {
+                    "type": "PASAL_NUMBER",
+                    "text": "Pasal 3"
+                  },
+                  {
+                    "type": "LIST",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "PENJELASAN_LIST_ITEM",
+                        "id": "",
+                        "children": [
+                          {
+                            "type": "PENJELASAN_HURUF",
+                            "text": "Huruf a"
+                          },
+                          {
+                            "type": "PLAINTEXT",
+                            "text": "Cukup jelas."
+                          }
+                        ]
+                      },
+                      {
+                        "type": "PENJELASAN_LIST_ITEM",
+                        "id": "",
+                        "children": [
+                          {
+                            "type": "PENJELASAN_HURUF",
+                            "text": "Huruf b"
+                          },
+                          {
+                            "type": "PLAINTEXT",
+                            "text": "Cukup jelas."
+                          }
+                        ]
+                      },
+                      {
+                        "type": "PENJELASAN_LIST_ITEM",
+                        "id": "",
+                        "children": [
+                          {
+                            "type": "PENJELASAN_HURUF",
+                            "text": "Huruf c"
+                          },
+                          {
+                            "type": "PLAINTEXT",
+                            "text": "Cukup jelas."
+                          }
+                        ]
+                      },
+                      {
+                        "type": "PENJELASAN_LIST_ITEM",
+                        "id": "",
+                        "children": [
+                          {
+                            "type": "PENJELASAN_HURUF",
+                            "text": "Huruf d"
+                          },
+                          {
+                            "type": "PLAINTEXT",
+                            "text": "Cukup jelas."
+                          }
+                        ]
+                      },
+                      {
+                        "type": "PENJELASAN_LIST_ITEM",
+                        "id": "",
+                        "children": [
+                          {
+                            "type": "PENJELASAN_HURUF",
+                            "text": "Huruf e"
+                          },
+                          {
+                            "type": "PLAINTEXT",
+                            "text": "Cukup jelas."
+                          }
+                        ]
+                      },
+                      {
+                        "type": "PENJELASAN_LIST_ITEM",
+                        "id": "",
+                        "children": [
+                          {
+                            "type": "PENJELASAN_HURUF",
+                            "text": "Huruf f"
+                          },
+                          {
+                            "type": "PLAINTEXT",
+                            "text": "Kombinasi Akad SBSN antara lain dapat dilakukan antara Mudarabah dengan Ijarah, Musyarakah dengan Ijarah, dan Istishna' dengan Ijarah."
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "PENJELASAN_PASAL",
+                "id": "",
+                "children": [
+                  {
+                    "type": "PASAL_NUMBER",
+                    "text": "Pasal 4"
+                  },
+                  {
+                    "type": "PLAINTEXT",
+                    "text": "Yang dimaksud dengan \"membiayai pembangunan proyek\" adalah membiayai pembangunan proyek-proyek yang telah mendapatkan alokasi dalam Anggaran Pendapatan dan Belanja Negara, termasuk proyek infrastruktur dalam sektor energi, telekomunikasi, perhubungan, pertanian, industri manufaktur, dan perumahan rakyat."
+                  }
+                ]
+              },
+              {
+                "type": "PENJELASAN_PASAL",
+                "id": "",
+                "children": [
+                  {
+                    "type": "PASAL_NUMBER",
+                    "text": "Pasal 5"
+                  },
+                  {
+                    "type": "PLAINTEXT",
+                    "text": "Cukup jelas."
+                  }
+                ]
+              },
+              {
+                "type": "PENJELASAN_PASAL",
+                "id": "",
+                "children": [
+                  {
+                    "type": "PASAL_NUMBER",
+                    "text": "Pasal 6"
+                  },
+                  {
+                    "type": "LIST",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "PENJELASAN_LIST_ITEM",
+                        "id": "",
+                        "children": [
+                          {
+                            "type": "PENJELASAN_AYAT",
+                            "text": "Ayat (1)"
+                          },
+                          {
+                            "type": "PLAINTEXT",
+                            "text": "Penerbitan SBSN baik secara langsung oleh Pemerintah maupun melalui Perusahaan Penerbit SBSN dimaksud dilakukan untuk kepentingan Negara Republik Indonesia. Dalam pelaksanaannya, penerbitan SBSN tersebut dapat dilakukan di dalam negeri maupun luar negeri. Penerbitan SBSN oleh Perusahaan Penerbit SBSN dilakukan hanya dalam hal struktur SBSN memerlukan adanya Special Purpose Vehicle (SPV)."
+                          }
+                        ]
+                      },
+                      {
+                        "type": "PENJELASAN_LIST_ITEM",
+                        "id": "",
+                        "children": [
+                          {
+                            "type": "PENJELASAN_AYAT",
+                            "text": "Ayat (2)"
+                          },
+                          {
+                            "type": "PLAINTEXT",
+                            "text": "Cukup jelas."
+                          }
+                        ]
+                      },
+                      {
+                        "type": "PENJELASAN_LIST_ITEM",
+                        "id": "",
+                        "children": [
+                          {
+                            "type": "PENJELASAN_AYAT",
+                            "text": "Ayat (3)"
+                          },
+                          {
+                            "type": "PLAINTEXT",
+                            "text": "Menteri menetapkan segala hal yang berkaitan dengan kebijakan penerbitan SBSN, antara lain jumlah target indikatif penerbitan, tanggal penerbitan, metode penerbitan, denominasi, struktur Akad, pricing, dan hal-hal lain yang termuat dalam ketentuan dan syarat (terms and conditions) SBSN. Dengan demikian, kewenangan Perusahaan Penerbit SBSN hanya terbatas untuk menerbitkan SBSN."
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "PENJELASAN_PASAL",
+                "id": "",
+                "children": [
+                  {
+                    "type": "PASAL_NUMBER",
+                    "text": "Pasal 7"
+                  },
+                  {
+                    "type": "LIST",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "PENJELASAN_LIST_ITEM",
+                        "id": "",
+                        "children": [
+                          {
+                            "type": "PENJELASAN_AYAT",
+                            "text": "Ayat (1)"
+                          },
+                          {
+                            "type": "PLAINTEXT",
+                            "text": "Pemerintah mengadakan koordinasi dengan Bank Indonesia pada awal tahun saat merencanakan penerbitan SBSN, sebagai bagian yang tidak terpisahkan dari rencana penerbitan Surat Berharga Negara untuk satu tahun anggaran. Koordinasi ini dimaksudkan untuk mengevaluasi implikasi moneter dari penerbitan Surat Berharga Negara, agar keselarasan antara kebijakan fiskal, termasuk manajemen utang, dan kebijakan moneter dapat tercapai. Pendapat Bank Indonesia tersebut menjadi masukan di dalam pengambilan keputusan oleh Pemerintah agar penerbitan Surat Berharga Negara dimaksud dapat dilakukan tepat waktu dan dilakukan dengan persyaratan yang dapat diterima pasar serta memberikan manfaat bagi Pemerintah dan masyarakat."
+                          }
+                        ]
+                      },
+                      {
+                        "type": "PENJELASAN_LIST_ITEM",
+                        "id": "",
+                        "children": [
+                          {
+                            "type": "PENJELASAN_AYAT",
+                            "text": "Ayat (2)"
+                          },
+                          {
+                            "type": "PLAINTEXT",
+                            "text": "Koordinasi dengan menteri yang bertanggung jawab di bidang perencanaan pembangunan nasional antara lain meliputi jenis, nilai, dan waktu pelaksanaan proyek. Proyek yang akan dibiayai merupakan bagian yang tidak terpisahkan dari program Anggaran Pendapatan dan Belanja Negara."
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "PENJELASAN_PASAL",
+                "id": "",
+                "children": [
+                  {
+                    "type": "PASAL_NUMBER",
+                    "text": "Pasal 8"
+                  },
+                  {
+                    "type": "LIST",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "PENJELASAN_LIST_ITEM",
+                        "id": "",
+                        "children": [
+                          {
+                            "type": "PENJELASAN_AYAT",
+                            "text": "Ayat (1)"
+                          },
+                          {
+                            "type": "PLAINTEXT",
+                            "text": "Persetujuan tersebut didahului dengan mengajukan rencana penerbitan dan pelunasan dan/atau pembelian kembali yang disampaikan bersamaan dengan penyampaian Nota Keuangan dan Rancangan Anggaran Pendapatan dan Belanja Negara, kepada Dewan Perwakilan Rakyat yang dalam hal ini adalah alat kelengkapan Dewan Perwakilan Rakyat yang membidangi keuangan, untuk mendapatkan persetujuan."
+                          }
+                        ]
+                      },
+                      {
+                        "type": "PENJELASAN_LIST_ITEM",
+                        "id": "",
+                        "children": [
+                          {
+                            "type": "PENJELASAN_AYAT",
+                            "text": "Ayat (2)"
+                          },
+                          {
+                            "type": "PLAINTEXT",
+                            "text": "Cukup jelas."
+                          }
+                        ]
+                      },
+                      {
+                        "type": "PENJELASAN_LIST_ITEM",
+                        "id": "",
+                        "children": [
+                          {
+                            "type": "PENJELASAN_AYAT",
+                            "text": "Ayat (3)"
+                          },
+                          {
+                            "type": "PLAINTEXT",
+                            "text": "Yang dimaksud dengan \"hal-hal tertentu\", antara lain, adalah penerbitan SBSN dalam rangka menutup kekurangan pembiayaan anggaran, pembangunan proyek, dan/atau pengelolaan portofolio Surat Berharga Negara menjelang akhir tahun anggaran karena pertimbangan kondisi dan perkembangan pasar keuangan yang tidak dapat diantisipasi sebelumnya sehingga jumlah Nilai Bersih Maksimal Surat Berharga Negara yang telah disetujui terlampaui."
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "PENJELASAN_PASAL",
+                "id": "",
+                "children": [
+                  {
+                    "type": "PASAL_NUMBER",
+                    "text": "Pasal 9"
+                  },
+                  {
+                    "type": "LIST",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "PENJELASAN_LIST_ITEM",
+                        "id": "",
+                        "children": [
+                          {
+                            "type": "PENJELASAN_AYAT",
+                            "text": "Ayat (1)"
+                          },
+                          {
+                            "type": "PLAINTEXT",
+                            "text": "Cukup jelas."
+                          }
+                        ]
+                      },
+                      {
+                        "type": "PENJELASAN_LIST_ITEM",
+                        "id": "",
+                        "children": [
+                          {
+                            "type": "PENJELASAN_AYAT",
+                            "text": "Ayat (2)"
+                          },
+                          {
+                            "type": "PLAINTEXT",
+                            "text": "Cukup jelas."
+                          }
+                        ]
+                      },
+                      {
+                        "type": "PENJELASAN_LIST_ITEM",
+                        "id": "",
+                        "children": [
+                          {
+                            "type": "PENJELASAN_AYAT",
+                            "text": "Ayat (3)"
+                          },
+                          {
+                            "type": "PLAINTEXT",
+                            "text": "Semua kewajiban Imbalan dan Nilai Nominal yang timbul akibat penerbitan SBSN dialokasikan dalam Anggaran Pendapatan dan Belanja Negara setiap tahun sampai dengan berakhirnya kewajiban tersebut, Perkiraan dana yang perlu dialokasikan untuk pembayaran kewajiban untuk satu tahun anggaran disampaikan kepada Dewan Perwakilan Rakyat untuk diperhitungkan dalam Anggaran Pendapatan dan Belanja Negara tahun yang bersangkutan."
+                          }
+                        ]
+                      },
+                      {
+                        "type": "PENJELASAN_LIST_ITEM",
+                        "id": "",
+                        "children": [
+                          {
+                            "type": "PENJELASAN_AYAT",
+                            "text": "Ayat (4)"
+                          },
+                          {
+                            "type": "PLAINTEXT",
+                            "text": "Pada saat jatuh tempo, pembayaran kewajiban Imbalan dan Nilai Nominal dapat melebihi perkiraan anggaran disebabkan oleh, antara lain, perbedaan perkiraan kurs, dan/atau tingkat Imbalan."
+                          }
+                        ]
+                      },
+                      {
+                        "type": "PENJELASAN_LIST_ITEM",
+                        "id": "",
+                        "children": [
+                          {
+                            "type": "PENJELASAN_AYAT",
+                            "text": "Ayat (5)"
+                          },
+                          {
+                            "type": "PLAINTEXT",
+                            "text": "Cukup jelas."
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "PENJELASAN_PASAL",
+                "id": "",
+                "children": [
+                  {
+                    "type": "PASAL_NUMBER",
+                    "text": "Pasal 10"
+                  },
+                  {
+                    "type": "LIST",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "PENJELASAN_LIST_ITEM",
+                        "id": "",
+                        "children": [
+                          {
+                            "type": "PENJELASAN_AYAT",
+                            "text": "Ayat (1)"
+                          },
+                          {
+                            "type": "PLAINTEXT",
+                            "text": "Cukup jelas."
+                          }
+                        ]
+                      },
+                      {
+                        "type": "PENJELASAN_LIST_ITEM",
+                        "id": "",
+                        "children": [
+                          {
+                            "type": "PENJELASAN_AYAT",
+                            "text": "Ayat (2)"
+                          },
+                          {
+                            "type": "LIST",
+                            "id": "",
+                            "children": [
+                              {
+                                "type": "PENJELASAN_LIST_ITEM",
+                                "id": "",
+                                "children": [
+                                  {
+                                    "type": "PENJELASAN_HURUF",
+                                    "text": "Huruf a"
+                                  },
+                                  {
+                                    "type": "PLAINTEXT",
+                                    "text": "Yang dimaksud dengan \"tanah dan/atau bangunan\" termasuk proyek yang akan atau sedang dibangun."
+                                  }
+                                ]
+                              },
+                              {
+                                "type": "PENJELASAN_LIST_ITEM",
+                                "id": "",
+                                "children": [
+                                  {
+                                    "type": "PENJELASAN_HURUF",
+                                    "text": "Huruf b"
+                                  },
+                                  {
+                                    "type": "PLAINTEXT",
+                                    "text": "Yang dimaksud dengan \"selain tanah dan/atau bangunan\" dapat berupa barang berwujud maupun barang tidak berwujud yang memiliki nilai ekonomis dan/atau memiliki aliran penerimaan kas."
+                                  }
+                                ]
+                              }
+                            ]
+                          }
+                        ]
+                      },
+                      {
+                        "type": "PENJELASAN_LIST_ITEM",
+                        "id": "",
+                        "children": [
+                          {
+                            "type": "PENJELASAN_AYAT",
+                            "text": "Ayat (3)"
+                          },
+                          {
+                            "type": "PLAINTEXT",
+                            "text": "Menteri selaku Pengelola Barang Milik Negara menetapkan secara rinci jenis, nilai, dan spesifikasi Barang Milik Negara yang akan dijadikan sebagai Aset SBSN. Menteri dapat menerbitkan pernyataan mengenai status kepemilikan, penggunaan, dan penguasaan Barang Milik Negara yang telah tercantum dalam Daftar Barang Milik Negara, dalam hal belum tersedia Sertifikat Hak Pakai atau bukti kepemilikan lain atas Barang Milik Negara yang akan dijadikan sebagai Aset SBSN."
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "PENJELASAN_PASAL",
+                "id": "",
+                "children": [
+                  {
+                    "type": "PASAL_NUMBER",
+                    "text": "Pasal 11"
+                  },
+                  {
+                    "type": "LIST",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "PENJELASAN_LIST_ITEM",
+                        "id": "",
+                        "children": [
+                          {
+                            "type": "PENJELASAN_AYAT",
+                            "text": "Ayat (1)"
+                          },
+                          {
+                            "type": "PLAINTEXT",
+                            "text": "Pemindahtanganan Barang Milik Negara bersifat khusus dan berbeda dengan pemindahtanganan Barang Milik Negara sebagaimana diatur dalam Undang-Undang Nomor 1 Tahun 2004 tentang Perbendaharaan Negara. Sifat pemindahtanganan dimaksud, antara lain: (i) penjualan dan/atau penyewaan dilakukan hanya atas Hak Manfaat Barang Milik Negara; (ii) tidak terjadi pemindahan hak kepemilikan (legal title) Barang Milik Negara; dan (iii) tidak dilakukan pengalihan fisik Barang Milik Negara sehingga tidak mengganggu penyelenggaraan tugas Pemerintahan."
+                          },
+                          {
+                            "type": "PLAINTEXT",
+                            "text": "Penjualan dan penyewaan Hak Manfaat Barang Milik Negara dilakukan dalam struktur SBSN Ijarah. Cara lain yang sesuai dengan Akad yang digunakan dalam rangka penerbitan SBSN antara lain, penggunaan Barang Milik Negara sebagai bagian penyertaan dalam rangka kerja sama usaha dalam struktur SBSN Musyarakah (partnership)."
+                          }
+                        ]
+                      },
+                      {
+                        "type": "PENJELASAN_LIST_ITEM",
+                        "id": "",
+                        "children": [
+                          {
+                            "type": "PENJELASAN_AYAT",
+                            "text": "Ayat (2)"
+                          },
+                          {
+                            "type": "PLAINTEXT",
+                            "text": "Cukup jelas."
+                          }
+                        ]
+                      },
+                      {
+                        "type": "PENJELASAN_LIST_ITEM",
+                        "id": "",
+                        "children": [
+                          {
+                            "type": "PENJELASAN_AYAT",
+                            "text": "Ayat (3)"
+                          },
+                          {
+                            "type": "PLAINTEXT",
+                            "text": "Penggunaan Barang Milik Negara sebagai Aset SBSN tidak mengurangi kewenangan instansi pengguna Barang Milik Negara untuk tetap menggunakan Barang Milik Negara dimaksud sesuai dengan penggunaan awalnya, sehingga tanggung jawab untuk pengelolaan Barang Milik Negara ini tetap melekat pada instansi pengguna Barang Milik Negara sesuai ketentuan peraturan perundang-undangan. Pemberitahuan tersebut bukan merupakan permintaan persetujuan atau pertimbangan."
+                          }
+                        ]
+                      },
+                      {
+                        "type": "PENJELASAN_LIST_ITEM",
+                        "id": "",
+                        "children": [
+                          {
+                            "type": "PENJELASAN_AYAT",
+                            "text": "Ayat (4)"
+                          },
+                          {
+                            "type": "PLAINTEXT",
+                            "text": "Berdasarkan struktur SBSN Akad Ijarah-Head Lease and Sub Lease, jangka waktu penyewaan Aset SBSN dari Pemerintah kepada Perusahaan Penerbit SBSN lebih panjang dari jangka waktu penyewaan Aset SBSN dari Perusahaan Penerbit SBSN kepada Pemerintah."
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "PENJELASAN_PASAL",
+                "id": "",
+                "children": [
+                  {
+                    "type": "PASAL_NUMBER",
+                    "text": "Pasal 12"
+                  },
+                  {
+                    "type": "LIST",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "PENJELASAN_LIST_ITEM",
+                        "id": "",
+                        "children": [
+                          {
+                            "type": "PENJELASAN_AYAT",
+                            "text": "Ayat (1)"
+                          },
+                          {
+                            "type": "PLAINTEXT",
+                            "text": "Akad penerbitan SBSN lainnya adalah Akad selain SBSN yang menggunakan Akad Ijarah antara lain SBSN yang menggunakan Akad Musyarakah, Mudarabah, dan Istishna'."
+                          }
+                        ]
+                      },
+                      {
+                        "type": "PENJELASAN_LIST_ITEM",
+                        "id": "",
+                        "children": [
+                          {
+                            "type": "PENJELASAN_AYAT",
+                            "text": "Ayat (2)"
+                          },
+                          {
+                            "type": "PLAINTEXT",
+                            "text": "Kewajiban pembayaran lain sesuai Akad penerbitan SBSN antara lain berupa sisa Nilai Nominal SBSN yang pelunasannya dilakukan dengan cara amortisasi dan Imbalan yang belum dibayarkan."
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "PENJELASAN_PASAL",
+                "id": "",
+                "children": [
+                  {
+                    "type": "PASAL_NUMBER",
+                    "text": "Pasal 13"
+                  },
+                  {
+                    "type": "LIST",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "PENJELASAN_LIST_ITEM",
+                        "id": "",
+                        "children": [
+                          {
+                            "type": "PENJELASAN_AYAT",
+                            "text": "Ayat (1)"
+                          },
+                          {
+                            "type": "PLAINTEXT",
+                            "text": "Pemerintah dapat mendirikan lebih dari 1 (satu) Perusahaan Penerbit SBSN sesuai dengan kebutuhan."
+                          }
+                        ]
+                      },
+                      {
+                        "type": "PENJELASAN_LIST_ITEM",
+                        "id": "",
+                        "children": [
+                          {
+                            "type": "PENJELASAN_AYAT",
+                            "text": "Ayat (2)"
+                          },
+                          {
+                            "type": "PLAINTEXT",
+                            "text": "Mengingat Perusahaan Penerbit SBSN memiliki karakteristik khusus yang berbeda dengan badan hukum Perseroan Terbatas, Yayasan ataupun bentuk badan hukum lain yang dikenal di Indonesia selama ini, maka perlu dibentuk badan hukum khusus sesuai Undang-Undang ini untuk dapat mengakomodasi karakteristik dan tujuan pembentukan Perusahaan Penerbit SBSN dimaksud."
+                          }
+                        ]
+                      },
+                      {
+                        "type": "PENJELASAN_LIST_ITEM",
+                        "id": "",
+                        "children": [
+                          {
+                            "type": "PENJELASAN_AYAT",
+                            "text": "Ayat (3)"
+                          },
+                          {
+                            "type": "PLAINTEXT",
+                            "text": "Cukup jelas."
+                          }
+                        ]
+                      },
+                      {
+                        "type": "PENJELASAN_LIST_ITEM",
+                        "id": "",
+                        "children": [
+                          {
+                            "type": "PENJELASAN_AYAT",
+                            "text": "Ayat (4)"
+                          },
+                          {
+                            "type": "PLAINTEXT",
+                            "text": "Pertanggungjawaban dimaksud hanya terkait dengan operasional Perusahaan Penerbit SBSN dan pelaksanaan penerbitan SBSN."
+                          }
+                        ]
+                      },
+                      {
+                        "type": "PENJELASAN_LIST_ITEM",
+                        "id": "",
+                        "children": [
+                          {
+                            "type": "PENJELASAN_AYAT",
+                            "text": "Ayat (5)"
+                          },
+                          {
+                            "type": "PLAINTEXT",
+                            "text": "Cukup jelas."
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "PENJELASAN_PASAL",
+                "id": "",
+                "children": [
+                  {
+                    "type": "PASAL_NUMBER",
+                    "text": "Pasal 14"
+                  },
+                  {
+                    "type": "LIST",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "PENJELASAN_LIST_ITEM",
+                        "id": "",
+                        "children": [
+                          {
+                            "type": "PENJELASAN_AYAT",
+                            "text": "Ayat (1)"
+                          },
+                          {
+                            "type": "PLAINTEXT",
+                            "text": "Pihak lain yang dapat ditunjuk sebagai Wali Amanat, antara lain, adalah lembaga keuangan yang telah mendapat izin dari otoritas yang berwenang dan lembaga lain yang dapat melakukan fungsi sebagai Wali Amanat."
+                          }
+                        ]
+                      },
+                      {
+                        "type": "PENJELASAN_LIST_ITEM",
+                        "id": "",
+                        "children": [
+                          {
+                            "type": "PENJELASAN_AYAT",
+                            "text": "Ayat (2)"
+                          },
+                          {
+                            "type": "PLAINTEXT",
+                            "text": "Perusahaan Penerbit SBSN sebagai Wali Amanat pada dasarnya melaksanakan suatu kewajiban hukum yang timbul akibat adanya pengalihan kepemilikan Hak Manfaat atas suatu aset dari Pemerintah kepada pihak lain yang bertindak sebagai Wali Amanat untuk kepentingan pemegang SBSN selaku penerima manfaat."
+                          }
+                        ]
+                      },
+                      {
+                        "type": "PENJELASAN_LIST_ITEM",
+                        "id": "",
+                        "children": [
+                          {
+                            "type": "PENJELASAN_AYAT",
+                            "text": "Ayat (3)"
+                          },
+                          {
+                            "type": "PLAINTEXT",
+                            "text": "Pihak lain yang dapat ditunjuk untuk membantu pelaksanaan fungsi sebagai Wali Amanat, antara lain, adalah lembaga keuangan yang telah mendapat izin dari otoritas yang berwenang dan lembaga lain yang dapat melakukan fungsi sebagai Wali Amanat."
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "PENJELASAN_PASAL",
+                "id": "",
+                "children": [
+                  {
+                    "type": "PASAL_NUMBER",
+                    "text": "Pasal 15"
+                  },
+                  {
+                    "type": "PLAINTEXT",
+                    "text": "Cukup jelas."
+                  }
+                ]
+              },
+              {
+                "type": "PENJELASAN_PASAL",
+                "id": "",
+                "children": [
+                  {
+                    "type": "PASAL_NUMBER",
+                    "text": "Pasal 16"
+                  },
+                  {
+                    "type": "PLAINTEXT",
+                    "text": "Cukup jelas."
+                  }
+                ]
+              },
+              {
+                "type": "PENJELASAN_PASAL",
+                "id": "",
+                "children": [
+                  {
+                    "type": "PASAL_NUMBER",
+                    "text": "Pasal 17"
+                  },
+                  {
+                    "type": "PLAINTEXT",
+                    "text": "Cukup jelas."
+                  }
+                ]
+              },
+              {
+                "type": "PENJELASAN_PASAL",
+                "id": "",
+                "children": [
+                  {
+                    "type": "PASAL_NUMBER",
+                    "text": "Pasal 18"
+                  },
+                  {
+                    "type": "LIST",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "PENJELASAN_LIST_ITEM",
+                        "id": "",
+                        "children": [
+                          {
+                            "type": "PENJELASAN_AYAT",
+                            "text": "Ayat (1)"
+                          },
+                          {
+                            "type": "PLAINTEXT",
+                            "text": "Cukup jelas."
+                          }
+                        ]
+                      },
+                      {
+                        "type": "PENJELASAN_LIST_ITEM",
+                        "id": "",
+                        "children": [
+                          {
+                            "type": "PENJELASAN_AYAT",
+                            "text": "Ayat (2)"
+                          },
+                          {
+                            "type": "LIST",
+                            "id": "",
+                            "children": [
+                              {
+                                "type": "PENJELASAN_LIST_ITEM",
+                                "id": "",
+                                "children": [
+                                  {
+                                    "type": "PENJELASAN_HURUF",
+                                    "text": "Huruf a"
+                                  },
+                                  {
+                                    "type": "PLAINTEXT",
+                                    "text": "Cukup jelas."
+                                  }
+                                ]
+                              },
+                              {
+                                "type": "PENJELASAN_LIST_ITEM",
+                                "id": "",
+                                "children": [
+                                  {
+                                    "type": "PENJELASAN_HURUF",
+                                    "text": "Huruf b"
+                                  },
+                                  {
+                                    "type": "PLAINTEXT",
+                                    "text": "Cukup jelas."
+                                  }
+                                ]
+                              },
+                              {
+                                "type": "PENJELASAN_LIST_ITEM",
+                                "id": "",
+                                "children": [
+                                  {
+                                    "type": "PENJELASAN_HURUF",
+                                    "text": "Huruf c"
+                                  },
+                                  {
+                                    "type": "PLAINTEXT",
+                                    "text": "Cukup jelas."
+                                  }
+                                ]
+                              },
+                              {
+                                "type": "PENJELASAN_LIST_ITEM",
+                                "id": "",
+                                "children": [
+                                  {
+                                    "type": "PENJELASAN_HURUF",
+                                    "text": "Huruf d"
+                                  },
+                                  {
+                                    "type": "PLAINTEXT",
+                                    "text": "Cukup jelas."
+                                  }
+                                ]
+                              },
+                              {
+                                "type": "PENJELASAN_LIST_ITEM",
+                                "id": "",
+                                "children": [
+                                  {
+                                    "type": "PENJELASAN_HURUF",
+                                    "text": "Huruf e"
+                                  },
+                                  {
+                                    "type": "PLAINTEXT",
+                                    "text": "Apabila diatur di dalam Akad, Menteri dapat melakukan pembelian kembali SBSN, baik yang diterbitkan secara langsung oleh Pemerintah maupun melalui Perusahaan Penerbit SBSN, sebelum jatuh tempo. Pembelian kembali atas sebagian dari Nilai Nominal SBSN tidak disertai dengan pembatalan Akad penerbitan SBSN."
+                                  }
+                                ]
+                              },
+                              {
+                                "type": "PENJELASAN_LIST_ITEM",
+                                "id": "",
+                                "children": [
+                                  {
+                                    "type": "PENJELASAN_HURUF",
+                                    "text": "Huruf f"
+                                  },
+                                  {
+                                    "type": "PLAINTEXT",
+                                    "text": "Pelunasan sebagian atau seluruh Nilai Nominal SBSN, baik yang diterbitkan secara langsung oleh Pemerintah maupun melalui Perusahaan Penerbit SBSN sebelum jatuh tempo, hanya dapat dilakukan apabila diatur di dalam Akad."
+                                  }
+                                ]
+                              },
+                              {
+                                "type": "PENJELASAN_LIST_ITEM",
+                                "id": "",
+                                "children": [
+                                  {
+                                    "type": "PENJELASAN_HURUF",
+                                    "text": "Huruf g"
+                                  },
+                                  {
+                                    "type": "PLAINTEXT",
+                                    "text": "Cukup jelas."
+                                  }
+                                ]
+                              }
+                            ]
+                          }
+                        ]
+                      },
+                      {
+                        "type": "PENJELASAN_LIST_ITEM",
+                        "id": "",
+                        "children": [
+                          {
+                            "type": "PENJELASAN_AYAT",
+                            "text": "Ayat (3)"
+                          },
+                          {
+                            "type": "PLAINTEXT",
+                            "text": "Cukup jelas."
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "PENJELASAN_PASAL",
+                "id": "",
+                "children": [
+                  {
+                    "type": "PASAL_NUMBER",
+                    "text": "Pasal 19"
+                  },
+                  {
+                    "type": "LIST",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "PENJELASAN_LIST_ITEM",
+                        "id": "",
+                        "children": [
+                          {
+                            "type": "PENJELASAN_AYAT",
+                            "text": "Ayat (1)"
+                          },
+                          {
+                            "type": "PLAINTEXT",
+                            "text": "Menteri membuka rekening yang diperlukan baik untuk menampung hasil penjualan SBSN maupun untuk menyediakan dana bagi pembayaran Imbalan dan Nilai Nominal SBSN."
+                          }
+                        ]
+                      },
+                      {
+                        "type": "PENJELASAN_LIST_ITEM",
+                        "id": "",
+                        "children": [
+                          {
+                            "type": "PENJELASAN_AYAT",
+                            "text": "Ayat (2)"
+                          },
+                          {
+                            "type": "PLAINTEXT",
+                            "text": "Tata cara pembukaan dan pengelolaan rekening yang dimaksud dalam ayat ini mengikuti ketentuan perundang-undangan di bidang perbendaharaan negara, sedangkan tata cara pembukaan rekening di Bank Indonesia mengikuti ketentuan Bank Indonesia."
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "PENJELASAN_PASAL",
+                "id": "",
+                "children": [
+                  {
+                    "type": "PASAL_NUMBER",
+                    "text": "Pasal 20"
+                  },
+                  {
+                    "type": "PLAINTEXT",
+                    "text": "Cukup jelas."
+                  }
+                ]
+              },
+              {
+                "type": "PENJELASAN_PASAL",
+                "id": "",
+                "children": [
+                  {
+                    "type": "PASAL_NUMBER",
+                    "text": "Pasal 21"
+                  },
+                  {
+                    "type": "LIST",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "PENJELASAN_LIST_ITEM",
+                        "id": "",
+                        "children": [
+                          {
+                            "type": "PENJELASAN_AYAT",
+                            "text": "Ayat (1)"
+                          },
+                          {
+                            "type": "PLAINTEXT",
+                            "text": "Cukup jelas."
+                          }
+                        ]
+                      },
+                      {
+                        "type": "PENJELASAN_LIST_ITEM",
+                        "id": "",
+                        "children": [
+                          {
+                            "type": "PENJELASAN_AYAT",
+                            "text": "Ayat (2)"
+                          },
+                          {
+                            "type": "PLAINTEXT",
+                            "text": "Penunjukan pihak lain oleh Bank Indonesia sebagai agen penata usaha untuk melaksanakan kegiatan penatausahaan, harus terlebih dahulu berkoordinasi dengan Menteri dengan memperhatikan ketentuan perundang-undangan di bidang pasar modal."
+                          }
+                        ]
+                      },
+                      {
+                        "type": "PENJELASAN_LIST_ITEM",
+                        "id": "",
+                        "children": [
+                          {
+                            "type": "PENJELASAN_AYAT",
+                            "text": "Ayat (3)"
+                          },
+                          {
+                            "type": "PLAINTEXT",
+                            "text": "Cukup jelas."
+                          }
+                        ]
+                      },
+                      {
+                        "type": "PENJELASAN_LIST_ITEM",
+                        "id": "",
+                        "children": [
+                          {
+                            "type": "PENJELASAN_AYAT",
+                            "text": "Ayat (4)"
+                          },
+                          {
+                            "type": "PLAINTEXT",
+                            "text": "Laporan pertanggungjawaban kepada Pemerintah sebagaimana dimaksud pada ayat ini disampaikan kepada Menteri."
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "PENJELASAN_PASAL",
+                "id": "",
+                "children": [
+                  {
+                    "type": "PASAL_NUMBER",
+                    "text": "Pasal 22"
+                  },
+                  {
+                    "type": "PLAINTEXT",
+                    "text": "Cukup jelas."
+                  }
+                ]
+              },
+              {
+                "type": "PENJELASAN_PASAL",
+                "id": "",
+                "children": [
+                  {
+                    "type": "PASAL_NUMBER",
+                    "text": "Pasal 23"
+                  },
+                  {
+                    "type": "PLAINTEXT",
+                    "text": "Lelang SBSN dilaksanakan oleh Bank Indonesia sampai pada saat Pemerintah dinilai telah siap serta mampu secara teknis untuk melaksanakan lelang secara sendiri atau bersama Bank Indonesia."
+                  }
+                ]
+              },
+              {
+                "type": "PENJELASAN_PASAL",
+                "id": "",
+                "children": [
+                  {
+                    "type": "PASAL_NUMBER",
+                    "text": "Pasal 24"
+                  },
+                  {
+                    "type": "PLAINTEXT",
+                    "text": "Dalam ketentuan penerbitan dan penjualan SBSN, antara lain, diatur ketentuan mengenai tata cara pelaksanaan penerbitan dan penjualan, termasuk kriteria peserta lelang SBSN baik yang diterbitkan secara langsung oleh Pemerintah maupun melalui Perusahaan Penerbit SBSN."
+                  }
+                ]
+              },
+              {
+                "type": "PENJELASAN_PASAL",
+                "id": "",
+                "children": [
+                  {
+                    "type": "PASAL_NUMBER",
+                    "text": "Pasal 25"
+                  },
+                  {
+                    "type": "PLAINTEXT",
+                    "text": "Yang dimaksud dengan \"lembaga yang memiliki kewenangan dalam menetapkan fatwa di bidang syariah\" adalah Majelis Ulama Indonesia atau lembaga lain yang ditunjuk Pemerintah."
+                  }
+                ]
+              },
+              {
+                "type": "PENJELASAN_PASAL",
+                "id": "",
+                "children": [
+                  {
+                    "type": "PASAL_NUMBER",
+                    "text": "Pasal 26"
+                  },
+                  {
+                    "type": "PLAINTEXT",
+                    "text": "Pengaturan dan pengawasan terhadap kegiatan perdagangan SBSN dimaksudkan untuk memberikan perlindungan terhadap kepentingan pemodal dan para pelaku pasar. Kedua hal tersebut diperlukan agar kegiatan perdagangan SBSN dapat dilaksanakan secara efisien dan sehat. Pengaturan dilaksanakan melalui penerbitan berbagai ketentuan, antara lain, mengenai transparansi data dan informasi penerbitan serta mengenai tata cara perdagangan SBSN. Pengaturan dan pengawasan merupakan upaya untuk memperoleh keyakinan akan ketaatan para pelaku pasar terhadap ketentuan yang berlaku."
+                  }
+                ]
+              },
+              {
+                "type": "PENJELASAN_PASAL",
+                "id": "",
+                "children": [
+                  {
+                    "type": "PASAL_NUMBER",
+                    "text": "Pasal 27"
+                  },
+                  {
+                    "type": "LIST",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "PENJELASAN_LIST_ITEM",
+                        "id": "",
+                        "children": [
+                          {
+                            "type": "PENJELASAN_AYAT",
+                            "text": "Ayat (1)"
+                          },
+                          {
+                            "type": "PLAINTEXT",
+                            "text": "Penatausahaan mencakup kegiatan administrasi dan akuntansi semua transaksi yang berkaitan dengan pengelolaan SBSN."
+                          }
+                        ]
+                      },
+                      {
+                        "type": "PENJELASAN_LIST_ITEM",
+                        "id": "",
+                        "children": [
+                          {
+                            "type": "PENJELASAN_AYAT",
+                            "text": "Ayat (2)"
+                          },
+                          {
+                            "type": "PLAINTEXT",
+                            "text": "Cukup jelas."
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "PENJELASAN_PASAL",
+                "id": "",
+                "children": [
+                  {
+                    "type": "PASAL_NUMBER",
+                    "text": "Pasal 28"
+                  },
+                  {
+                    "type": "PLAINTEXT",
+                    "text": "Cukup jelas."
+                  }
+                ]
+              },
+              {
+                "type": "PENJELASAN_PASAL",
+                "id": "",
+                "children": [
+                  {
+                    "type": "PASAL_NUMBER",
+                    "text": "Pasal 29"
+                  },
+                  {
+                    "type": "PLAINTEXT",
+                    "text": "Permintaan data dan informasi mengenai SBSN kepada Bank Indonesia atau pihak lain yang ditunjuk sebagai agen penata usaha SBSN dilakukan secara tertulis."
+                  }
+                ]
+              },
+              {
+                "type": "PENJELASAN_PASAL",
+                "id": "",
+                "children": [
+                  {
+                    "type": "PASAL_NUMBER",
+                    "text": "Pasal 30"
+                  },
+                  {
+                    "type": "LIST",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "PENJELASAN_LIST_ITEM",
+                        "id": "",
+                        "children": [
+                          {
+                            "type": "PENJELASAN_AYAT",
+                            "text": "Ayat (1)"
+                          },
+                          {
+                            "type": "PLAINTEXT",
+                            "text": "Yang dimaksud dengan \"SBSN tiruan atau SBSN palsu\u201d adalah surat berharga yang sengaja diterbitkan dengan bentuk yang mirip atau sama dengan SBSN yang sah, dengan tujuan untuk mendapatkan keuntungan baik bagi diri sendiri maupun orang lain. Pemalsuan data dalam perdagangan SBSN tanpa warkat, termasuk tindakan pemalsuan sebagaimana dimaksud dalam pasal ini."
+                          }
+                        ]
+                      },
+                      {
+                        "type": "PENJELASAN_LIST_ITEM",
+                        "id": "",
+                        "children": [
+                          {
+                            "type": "PENJELASAN_AYAT",
+                            "text": "Ayat (2)"
+                          },
+                          {
+                            "type": "PLAINTEXT",
+                            "text": "Cukup jelas."
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "PENJELASAN_PASAL",
+                "id": "",
+                "children": [
+                  {
+                    "type": "PASAL_NUMBER",
+                    "text": "Pasal 31"
+                  },
+                  {
+                    "type": "PLAINTEXT",
+                    "text": "Cukup jelas."
+                  }
+                ]
+              },
+              {
+                "type": "PENJELASAN_PASAL",
+                "id": "",
+                "children": [
+                  {
+                    "type": "PASAL_NUMBER",
+                    "text": "Pasal 32"
+                  },
+                  {
+                    "type": "PLAINTEXT",
+                    "text": "Cukup jelas."
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

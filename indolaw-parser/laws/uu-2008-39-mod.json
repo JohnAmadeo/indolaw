@@ -1,0 +1,3042 @@
+{
+  "metadata": {
+    "lembaranNegaraNumber": 166,
+    "lembaranNegaraYear": 2008,
+    "tambahanLembaranNumber": 4916,
+    "number": 39,
+    "topic": "Kementerian Negara",
+    "year": 2008
+  },
+  "content": {
+    "type": "UNDANG_UNDANG",
+    "id": "",
+    "children": [
+      {
+        "type": "OPENING",
+        "id": "",
+        "children": [
+          {
+            "type": "UU_TITLE",
+            "id": "",
+            "children": [
+              {
+                "type": "PLAINTEXT",
+                "text": "UNDANG-UNDANG REPUBLIK INDONESIA"
+              },
+              {
+                "type": "UU_TITLE_YEAR_AND_NUMBER",
+                "text": "NOMOR 39 TAHUN 2008"
+              },
+              {
+                "type": "PLAINTEXT",
+                "text": "TENTANG"
+              },
+              {
+                "type": "UU_TITLE_TOPIC",
+                "text": "KEMENTERIAN NEGARA"
+              }
+            ]
+          },
+          {
+            "type": "PREFACE",
+            "id": "",
+            "children": [
+              {
+                "type": "PLAINTEXT",
+                "text": "DENGAN RAHMAT TUHAN YANG MAHA ESA"
+              },
+              {
+                "type": "PLAINTEXT",
+                "text": "PRESIDEN REPUBLIK INDONESIA,"
+              }
+            ]
+          },
+          {
+            "type": "CONSIDERATIONS",
+            "id": "",
+            "children": [
+              {
+                "type": "PLAINTEXT",
+                "text": "Menimbang:"
+              },
+              {
+                "type": "LIST",
+                "id": "",
+                "children": [
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "LETTER_WITH_DOT",
+                        "text": "a."
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "bahwa Presiden sebagai pemegang kekuasaan pemerintahan menurut Undang-Undang Dasar Negara Republik Indonesia Tahun 1945 dalam menjalankan tugasnya dibantu oleh menteri-menteri negara yang membidangi urusan tertentu di bidang pemerintahan;"
+                      }
+                    ]
+                  },
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "LETTER_WITH_DOT",
+                        "text": "b."
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "bahwa setiap menteri memimpin kementerian negara untuk menyelenggarakan urusan tertentu dalam pemerintahan guna mencapai tujuan negara sebagaimana diamanatkan dalam Pembukaan Undang Undang Dasar Negara Republik Indonesia Tahun 1945;"
+                      }
+                    ]
+                  },
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "LETTER_WITH_DOT",
+                        "text": "c."
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "bahwa sesuai ketentuan Pasal 17 ayat (4) Undang-Undang Dasar Negara Republik Indonesia Tahun 1945, pembentukan, pengubahan, dan pembubaran kementerian negara diatur dalam undang-undang;"
+                      }
+                    ]
+                  },
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "LETTER_WITH_DOT",
+                        "text": "d."
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "bahwa berdasarkan pertimbangan sebagaimana dimaksud dalam huruf a, huruf b, dan huruf c perlu membentuk Undang-Undang tentang Kementerian Negara."
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "PRINCIPLES",
+            "id": "",
+            "children": [
+              {
+                "type": "PLAINTEXT",
+                "text": "Mengingat:"
+              },
+              {
+                "type": "PLAINTEXT",
+                "text": "Pasal 4, Pasal 17, Pasal 20, dan Pasal 21 Undang- Undang Dasar Negara Republik Indonesia Tahun 1945."
+              }
+            ]
+          },
+          {
+            "type": "AGREEMENT",
+            "id": "",
+            "children": [
+              {
+                "type": "PLAINTEXT",
+                "text": "Dengan Persetujuan Bersama:"
+              },
+              {
+                "type": "PLAINTEXT",
+                "text": "DEWAN PERWAKILAN RAKYAT REPUBLIK INDONESIA"
+              },
+              {
+                "type": "PLAINTEXT",
+                "text": "dan"
+              },
+              {
+                "type": "PLAINTEXT",
+                "text": "PRESIDEN REPUBLIK INDONESIA"
+              },
+              {
+                "type": "PLAINTEXT",
+                "text": "MEMUTUSKAN:"
+              },
+              {
+                "type": "PLAINTEXT",
+                "text": "Menetapkan:"
+              },
+              {
+                "type": "PLAINTEXT",
+                "text": "UNDANG-UNDANG TENTANG KEMENTERIAN NEGARA"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "BAB",
+        "id": "bab-1",
+        "children": [
+          {
+            "type": "BAB_NUMBER",
+            "text": "BAB I"
+          },
+          {
+            "type": "BAB_TITLE",
+            "text": "KETENTUAN UMUM"
+          },
+          {
+            "type": "PASAL",
+            "id": "pasal-1",
+            "children": [
+              {
+                "type": "PASAL_NUMBER",
+                "text": "Pasal 1"
+              },
+              {
+                "type": "PLAINTEXT",
+                "text": "Dalam Undang-Undang ini yang dimaksud dengan:"
+              },
+              {
+                "type": "LIST",
+                "id": "",
+                "children": [
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "NUMBER_WITH_DOT",
+                        "text": "1."
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "Kementerian Negara yang selanjutnya disebut Kementerian adalah perangkat pemerintah yang membidangi urusan tertentu dalam pemerintahan."
+                      }
+                    ]
+                  },
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "NUMBER_WITH_DOT",
+                        "text": "2."
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "Menteri Negara yang selanjutnya disebut Menteri adalah pembantu Presiden yang memimpin Kementerian."
+                      }
+                    ]
+                  },
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "NUMBER_WITH_DOT",
+                        "text": "3."
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "Urusan Pemerintahan adalah setiap urusan sebagaimana dimaksud dalam ketentuan Undang- Undang Dasar Negara Republik Indonesia Tahun 1945."
+                      }
+                    ]
+                  },
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "NUMBER_WITH_DOT",
+                        "text": "4."
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "Pembentukan Kementerian adalah pembentukan Kementerian dengan nomenklatur tertentu setelah Presiden mengucapkan sumpah/janji."
+                      }
+                    ]
+                  },
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "NUMBER_WITH_DOT",
+                        "text": "5."
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "Pengubahan Kementerian adalah pengubahan nomenklatur Kementerian dengan cara menggabungkan, memisahkan, dan/atau mengganti nomenklatur Kementerian yang sudah terbentuk."
+                      }
+                    ]
+                  },
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "NUMBER_WITH_DOT",
+                        "text": "6."
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "Pembubaran Kementerian adalah menghapus Kementerian yang sudah terbentuk."
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "BAB",
+        "id": "bab-2",
+        "children": [
+          {
+            "type": "BAB_NUMBER",
+            "text": "BAB II"
+          },
+          {
+            "type": "BAB_TITLE",
+            "text": "KEDUDUKAN DAN URUSAN PEMERINTAHAN"
+          },
+          {
+            "type": "BAGIAN",
+            "id": "bab-2-bagian-1",
+            "children": [
+              {
+                "type": "BAGIAN_NUMBER",
+                "text": "Bagian Kesatu"
+              },
+              {
+                "type": "BAGIAN_TITLE",
+                "text": "Kedudukan"
+              },
+              {
+                "type": "PASAL",
+                "id": "pasal-2",
+                "children": [
+                  {
+                    "type": "PASAL_NUMBER",
+                    "text": "Pasal 2"
+                  },
+                  {
+                    "type": "PLAINTEXT",
+                    "text": "Kementerian berkedudukan di Ibu Kota Negara Republik Indonesia."
+                  }
+                ]
+              },
+              {
+                "type": "PASAL",
+                "id": "pasal-3",
+                "children": [
+                  {
+                    "type": "PASAL_NUMBER",
+                    "text": "Pasal 3"
+                  },
+                  {
+                    "type": "PLAINTEXT",
+                    "text": "Kementerian berada di bawah dan bertanggung jawab kepada Presiden."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "BAGIAN",
+            "id": "bab-2-bagian-2",
+            "children": [
+              {
+                "type": "BAGIAN_NUMBER",
+                "text": "Bagian Kedua"
+              },
+              {
+                "type": "BAGIAN_TITLE",
+                "text": "Urusan Pemerintahan"
+              },
+              {
+                "type": "PASAL",
+                "id": "pasal-4",
+                "children": [
+                  {
+                    "type": "PASAL_NUMBER",
+                    "text": "Pasal 4"
+                  },
+                  {
+                    "type": "LIST",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "LIST_ITEM",
+                        "id": "",
+                        "children": [
+                          {
+                            "type": "NUMBER_WITH_BRACKETS",
+                            "text": "(1)"
+                          },
+                          {
+                            "type": "PLAINTEXT",
+                            "text": "Setiap Menteri membidangi urusan tertentu dalam pemerintahan."
+                          }
+                        ]
+                      },
+                      {
+                        "type": "LIST_ITEM",
+                        "id": "",
+                        "children": [
+                          {
+                            "type": "NUMBER_WITH_BRACKETS",
+                            "text": "(2)"
+                          },
+                          {
+                            "type": "PLAINTEXT",
+                            "text": "Urusan tertentu dalam pemerintahan sebagaimana dimaksud pada ayat (1) terdiri atas:"
+                          },
+                          {
+                            "type": "LIST",
+                            "id": "",
+                            "children": [
+                              {
+                                "type": "LIST_ITEM",
+                                "id": "",
+                                "children": [
+                                  {
+                                    "type": "LETTER_WITH_DOT",
+                                    "text": "a."
+                                  },
+                                  {
+                                    "type": "PLAINTEXT",
+                                    "text": "urusan pemerintahan yang nomenklatur Kementeriannya secara tegas disebutkan dalam Undang Undang Dasar Negara Republik Indonesia Tahun 1945;"
+                                  }
+                                ]
+                              },
+                              {
+                                "type": "LIST_ITEM",
+                                "id": "",
+                                "children": [
+                                  {
+                                    "type": "LETTER_WITH_DOT",
+                                    "text": "b."
+                                  },
+                                  {
+                                    "type": "PLAINTEXT",
+                                    "text": "urusan pemerintahan yang ruang lingkupnya disebutkan dalam Undang-Undang Dasar Negara Republik Indonesia Tahun 1945; dan"
+                                  }
+                                ]
+                              },
+                              {
+                                "type": "LIST_ITEM",
+                                "id": "",
+                                "children": [
+                                  {
+                                    "type": "LETTER_WITH_DOT",
+                                    "text": "c."
+                                  },
+                                  {
+                                    "type": "PLAINTEXT",
+                                    "text": "urusan pemerintahan dalam rangka penajaman, koordinasi, dan sinkronisasi program pemerintah."
+                                  }
+                                ]
+                              }
+                            ]
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "PASAL",
+                "id": "pasal-5",
+                "children": [
+                  {
+                    "type": "PASAL_NUMBER",
+                    "text": "Pasal 5"
+                  },
+                  {
+                    "type": "LIST",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "LIST_ITEM",
+                        "id": "",
+                        "children": [
+                          {
+                            "type": "NUMBER_WITH_BRACKETS",
+                            "text": "(1)"
+                          },
+                          {
+                            "type": "PLAINTEXT",
+                            "text": "Urusan pemerintahan sebagaimana dimaksud dalam Pasal 4 ayat (2) huruf a meliputi urusan luar negeri, dalam negeri, dan pertahanan."
+                          }
+                        ]
+                      },
+                      {
+                        "type": "LIST_ITEM",
+                        "id": "",
+                        "children": [
+                          {
+                            "type": "NUMBER_WITH_BRACKETS",
+                            "text": "(2)"
+                          },
+                          {
+                            "type": "PLAINTEXT",
+                            "text": "Urusan pemerintahan sebagaimana dimaksud dalam Pasal 4 ayat (2) huruf b meliputi urusan agama, hukum, keuangan, keamanan, hak asasi manusia, pendidikan, kebudayaan, kesehatan, sosial, ketenagakerjaan, industri, perdagangan, pertambangan, energi, pekerjaan umum, transmigrasi, transportasi, informasi, komunikasi, pertanian, perkebunan, kehutanan, peternakan, kelautan, dan perikanan."
+                          }
+                        ]
+                      },
+                      {
+                        "type": "LIST_ITEM",
+                        "id": "",
+                        "children": [
+                          {
+                            "type": "NUMBER_WITH_BRACKETS",
+                            "text": "(3)"
+                          },
+                          {
+                            "type": "PLAINTEXT",
+                            "text": "Urusan pemerintahan sebagaimana dimaksud dalam Pasal 4 ayat (2) huruf c meliputi urusan perencanaan pembangunan nasional, aparatur negara, kesekretariatan negara, badan usaha milik negara, pertanahan, kependudukan, lingkungan hidup, ilmu pengetahuan, teknologi, investasi, koperasi, usaha kecil dan menengah, pariwisata, pemberdayaan perempuan, pemuda, olahraga, perumahan, dan pembangunan kawasan atau daerah tertinggal."
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "PASAL",
+                "id": "pasal-6",
+                "children": [
+                  {
+                    "type": "PASAL_NUMBER",
+                    "text": "Pasal 6"
+                  },
+                  {
+                    "type": "PLAINTEXT",
+                    "text": "Setiap urusan pemerintahan sebagaimana dimaksud dalam Pasal 5 ayat (2) dan ayat (3) tidak harus dibentuk dalam satu Kementerian tersendiri."
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "BAB",
+        "id": "bab-3",
+        "children": [
+          {
+            "type": "BAB_NUMBER",
+            "text": "BAB III"
+          },
+          {
+            "type": "BAB_TITLE",
+            "text": "TUGAS, FUNGSI, DAN SUSUNAN ORGANISASI"
+          },
+          {
+            "type": "BAGIAN",
+            "id": "bab-3-bagian-1",
+            "children": [
+              {
+                "type": "BAGIAN_NUMBER",
+                "text": "Bagian Kesatu"
+              },
+              {
+                "type": "BAGIAN_TITLE",
+                "text": "Tugas"
+              },
+              {
+                "type": "PASAL",
+                "id": "pasal-7",
+                "children": [
+                  {
+                    "type": "PASAL_NUMBER",
+                    "text": "Pasal 7"
+                  },
+                  {
+                    "type": "PLAINTEXT",
+                    "text": "Kementerian mempunyai tugas menyelenggarakan urusan tertentu dalam pemerintahan untuk membantu Presiden dalam menyelenggarakan pemerintahan negara."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "BAGIAN",
+            "id": "bab-3-bagian-2",
+            "children": [
+              {
+                "type": "BAGIAN_NUMBER",
+                "text": "Bagian Kedua"
+              },
+              {
+                "type": "BAGIAN_TITLE",
+                "text": "Fungsi"
+              },
+              {
+                "type": "PASAL",
+                "id": "pasal-8",
+                "children": [
+                  {
+                    "type": "PASAL_NUMBER",
+                    "text": "Pasal 8"
+                  },
+                  {
+                    "type": "LIST",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "LIST_ITEM",
+                        "id": "",
+                        "children": [
+                          {
+                            "type": "NUMBER_WITH_BRACKETS",
+                            "text": "(1)"
+                          },
+                          {
+                            "type": "PLAINTEXT",
+                            "text": "Dalam melaksanakan tugasnya, Kementerian yang melaksanakan urusan sebagaimana dimaksud dalam Pasal 5 ayat (1) menyelenggarakan fungsi:"
+                          },
+                          {
+                            "type": "LIST",
+                            "id": "",
+                            "children": [
+                              {
+                                "type": "LIST_ITEM",
+                                "id": "",
+                                "children": [
+                                  {
+                                    "type": "LETTER_WITH_DOT",
+                                    "text": "a."
+                                  },
+                                  {
+                                    "type": "PLAINTEXT",
+                                    "text": "perumusan, penetapan, dan pelaksanaan kebijakan di bidangnya;"
+                                  }
+                                ]
+                              },
+                              {
+                                "type": "LIST_ITEM",
+                                "id": "",
+                                "children": [
+                                  {
+                                    "type": "LETTER_WITH_DOT",
+                                    "text": "b."
+                                  },
+                                  {
+                                    "type": "PLAINTEXT",
+                                    "text": "pengelolaan barang milik/kekayaan negara yang menjadi tanggung jawabnya;"
+                                  }
+                                ]
+                              },
+                              {
+                                "type": "LIST_ITEM",
+                                "id": "",
+                                "children": [
+                                  {
+                                    "type": "LETTER_WITH_DOT",
+                                    "text": "c."
+                                  },
+                                  {
+                                    "type": "PLAINTEXT",
+                                    "text": "pengawasan atas pelaksanaan tugas di bidangnya; dan"
+                                  }
+                                ]
+                              },
+                              {
+                                "type": "LIST_ITEM",
+                                "id": "",
+                                "children": [
+                                  {
+                                    "type": "LETTER_WITH_DOT",
+                                    "text": "d."
+                                  },
+                                  {
+                                    "type": "PLAINTEXT",
+                                    "text": "pelaksanaan kegiatan teknis dari pusat sampai ke daerah."
+                                  }
+                                ]
+                              }
+                            ]
+                          }
+                        ]
+                      },
+                      {
+                        "type": "LIST_ITEM",
+                        "id": "",
+                        "children": [
+                          {
+                            "type": "NUMBER_WITH_BRACKETS",
+                            "text": "(2)"
+                          },
+                          {
+                            "type": "PLAINTEXT",
+                            "text": "Dalam melaksanakan tugasnya, Kementerian yang melaksanakan urusan sebagaimana dimaksud dalam Pasal 5 ayat (2) menyelenggarakan fungsi:"
+                          },
+                          {
+                            "type": "LIST",
+                            "id": "",
+                            "children": [
+                              {
+                                "type": "LIST_ITEM",
+                                "id": "",
+                                "children": [
+                                  {
+                                    "type": "LETTER_WITH_DOT",
+                                    "text": "a."
+                                  },
+                                  {
+                                    "type": "PLAINTEXT",
+                                    "text": "perumusan, penetapan, dan pelaksanaan kebijakan di bidangnya;"
+                                  }
+                                ]
+                              },
+                              {
+                                "type": "LIST_ITEM",
+                                "id": "",
+                                "children": [
+                                  {
+                                    "type": "LETTER_WITH_DOT",
+                                    "text": "b."
+                                  },
+                                  {
+                                    "type": "PLAINTEXT",
+                                    "text": "pengelolaan barang milik/kekayaan negara yang menjadi tanggung jawabnya;"
+                                  }
+                                ]
+                              },
+                              {
+                                "type": "LIST_ITEM",
+                                "id": "",
+                                "children": [
+                                  {
+                                    "type": "LETTER_WITH_DOT",
+                                    "text": "c."
+                                  },
+                                  {
+                                    "type": "PLAINTEXT",
+                                    "text": "pengawasan atas pelaksanaan tugas di bidangnya;"
+                                  }
+                                ]
+                              },
+                              {
+                                "type": "LIST_ITEM",
+                                "id": "",
+                                "children": [
+                                  {
+                                    "type": "LETTER_WITH_DOT",
+                                    "text": "d."
+                                  },
+                                  {
+                                    "type": "PLAINTEXT",
+                                    "text": "pelaksanaan bimbingan teknis dan supervisi atas pelaksanaan urusan Kementerian di daerah; dan"
+                                  }
+                                ]
+                              },
+                              {
+                                "type": "LIST_ITEM",
+                                "id": "",
+                                "children": [
+                                  {
+                                    "type": "LETTER_WITH_DOT",
+                                    "text": "e."
+                                  },
+                                  {
+                                    "type": "PLAINTEXT",
+                                    "text": "pelaksanaan kegiatan teknis yang berskala nasional."
+                                  }
+                                ]
+                              }
+                            ]
+                          }
+                        ]
+                      },
+                      {
+                        "type": "LIST_ITEM",
+                        "id": "",
+                        "children": [
+                          {
+                            "type": "NUMBER_WITH_BRACKETS",
+                            "text": "(3)"
+                          },
+                          {
+                            "type": "PLAINTEXT",
+                            "text": "Dalam melaksanakan tugasnya, Kementerian yang melaksanakan urusan sebagaimana dimaksud dalam Pasal 5 ayat (3) menyelenggarakan fungsi:"
+                          },
+                          {
+                            "type": "LIST",
+                            "id": "",
+                            "children": [
+                              {
+                                "type": "LIST_ITEM",
+                                "id": "",
+                                "children": [
+                                  {
+                                    "type": "LETTER_WITH_DOT",
+                                    "text": "a."
+                                  },
+                                  {
+                                    "type": "PLAINTEXT",
+                                    "text": "perumusan dan penetapan kebijakan di bidangnya;"
+                                  }
+                                ]
+                              },
+                              {
+                                "type": "LIST_ITEM",
+                                "id": "",
+                                "children": [
+                                  {
+                                    "type": "LETTER_WITH_DOT",
+                                    "text": "b."
+                                  },
+                                  {
+                                    "type": "PLAINTEXT",
+                                    "text": "koordinasi dan sinkronisasi pelaksanaan kebijakan di bidangnya;"
+                                  }
+                                ]
+                              },
+                              {
+                                "type": "LIST_ITEM",
+                                "id": "",
+                                "children": [
+                                  {
+                                    "type": "LETTER_WITH_DOT",
+                                    "text": "c."
+                                  },
+                                  {
+                                    "type": "PLAINTEXT",
+                                    "text": "pengelolaan barang milik/kekayaan negara yang menjadi tanggung jawabnya; dan"
+                                  }
+                                ]
+                              },
+                              {
+                                "type": "LIST_ITEM",
+                                "id": "",
+                                "children": [
+                                  {
+                                    "type": "LETTER_WITH_DOT",
+                                    "text": "d."
+                                  },
+                                  {
+                                    "type": "PLAINTEXT",
+                                    "text": "pengawasan atas pelaksanaan tugas di bidangnya."
+                                  }
+                                ]
+                              }
+                            ]
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "BAGIAN",
+            "id": "bab-3-bagian-3",
+            "children": [
+              {
+                "type": "BAGIAN_NUMBER",
+                "text": "Bagian Ketiga"
+              },
+              {
+                "type": "BAGIAN_TITLE",
+                "text": "Susunan Organisasi"
+              },
+              {
+                "type": "PASAL",
+                "id": "pasal-9",
+                "children": [
+                  {
+                    "type": "PASAL_NUMBER",
+                    "text": "Pasal 9"
+                  },
+                  {
+                    "type": "LIST",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "LIST_ITEM",
+                        "id": "",
+                        "children": [
+                          {
+                            "type": "NUMBER_WITH_BRACKETS",
+                            "text": "(1)"
+                          },
+                          {
+                            "type": "PLAINTEXT",
+                            "text": "Susunan organisasi Kementerian yang menangani urusan sebagaimana dimaksud dalam Pasal 5 ayat (1) terdiri atas unsur:"
+                          },
+                          {
+                            "type": "LIST",
+                            "id": "",
+                            "children": [
+                              {
+                                "type": "LIST_ITEM",
+                                "id": "",
+                                "children": [
+                                  {
+                                    "type": "LETTER_WITH_DOT",
+                                    "text": "a."
+                                  },
+                                  {
+                                    "type": "PLAINTEXT",
+                                    "text": "pemimpin, yaitu Menteri;"
+                                  }
+                                ]
+                              },
+                              {
+                                "type": "LIST_ITEM",
+                                "id": "",
+                                "children": [
+                                  {
+                                    "type": "LETTER_WITH_DOT",
+                                    "text": "b."
+                                  },
+                                  {
+                                    "type": "PLAINTEXT",
+                                    "text": "pembantu pemimpin, yaitu sekretariat jenderal;"
+                                  }
+                                ]
+                              },
+                              {
+                                "type": "LIST_ITEM",
+                                "id": "",
+                                "children": [
+                                  {
+                                    "type": "LETTER_WITH_DOT",
+                                    "text": "c."
+                                  },
+                                  {
+                                    "type": "PLAINTEXT",
+                                    "text": "pelaksana tugas pokok, yaitu direktorat jenderal;"
+                                  }
+                                ]
+                              },
+                              {
+                                "type": "LIST_ITEM",
+                                "id": "",
+                                "children": [
+                                  {
+                                    "type": "LETTER_WITH_DOT",
+                                    "text": "d."
+                                  },
+                                  {
+                                    "type": "PLAINTEXT",
+                                    "text": "pengawas, yaitu inspektorat jenderal;"
+                                  }
+                                ]
+                              },
+                              {
+                                "type": "LIST_ITEM",
+                                "id": "",
+                                "children": [
+                                  {
+                                    "type": "LETTER_WITH_DOT",
+                                    "text": "e."
+                                  },
+                                  {
+                                    "type": "PLAINTEXT",
+                                    "text": "pendukung, yaitu badan dan/atau pusat; dan"
+                                  }
+                                ]
+                              },
+                              {
+                                "type": "LIST_ITEM",
+                                "id": "",
+                                "children": [
+                                  {
+                                    "type": "LETTER_WITH_DOT",
+                                    "text": "f."
+                                  },
+                                  {
+                                    "type": "PLAINTEXT",
+                                    "text": "pelaksana tugas pokok di daerah dan/atau perwakilan luar negeri sesuai dengan peraturan perundang-undangan."
+                                  }
+                                ]
+                              }
+                            ]
+                          }
+                        ]
+                      },
+                      {
+                        "type": "LIST_ITEM",
+                        "id": "",
+                        "children": [
+                          {
+                            "type": "NUMBER_WITH_BRACKETS",
+                            "text": "(2)"
+                          },
+                          {
+                            "type": "PLAINTEXT",
+                            "text": "Susunan organisasi Kementerian yang melaksanakan urusan sebagaimana dimaksud dalam Pasal 5 ayat (2) terdiri atas unsur:"
+                          },
+                          {
+                            "type": "LIST",
+                            "id": "",
+                            "children": [
+                              {
+                                "type": "LIST_ITEM",
+                                "id": "",
+                                "children": [
+                                  {
+                                    "type": "LETTER_WITH_DOT",
+                                    "text": "a."
+                                  },
+                                  {
+                                    "type": "PLAINTEXT",
+                                    "text": "pemimpin, yaitu Menteri;"
+                                  }
+                                ]
+                              },
+                              {
+                                "type": "LIST_ITEM",
+                                "id": "",
+                                "children": [
+                                  {
+                                    "type": "LETTER_WITH_DOT",
+                                    "text": "b."
+                                  },
+                                  {
+                                    "type": "PLAINTEXT",
+                                    "text": "pembantu pemimpin, yaitu sekretariat jenderal;"
+                                  }
+                                ]
+                              },
+                              {
+                                "type": "LIST_ITEM",
+                                "id": "",
+                                "children": [
+                                  {
+                                    "type": "LETTER_WITH_DOT",
+                                    "text": "c."
+                                  },
+                                  {
+                                    "type": "PLAINTEXT",
+                                    "text": "pelaksana, yaitu direktorat jenderal;"
+                                  }
+                                ]
+                              },
+                              {
+                                "type": "LIST_ITEM",
+                                "id": "",
+                                "children": [
+                                  {
+                                    "type": "LETTER_WITH_DOT",
+                                    "text": "d."
+                                  },
+                                  {
+                                    "type": "PLAINTEXT",
+                                    "text": "pengawas, yaitu inspektorat jenderal; dan"
+                                  }
+                                ]
+                              },
+                              {
+                                "type": "LIST_ITEM",
+                                "id": "",
+                                "children": [
+                                  {
+                                    "type": "LETTER_WITH_DOT",
+                                    "text": "e."
+                                  },
+                                  {
+                                    "type": "PLAINTEXT",
+                                    "text": "pendukung, yaitu badan dan/atau pusat."
+                                  }
+                                ]
+                              }
+                            ]
+                          }
+                        ]
+                      },
+                      {
+                        "type": "LIST_ITEM",
+                        "id": "",
+                        "children": [
+                          {
+                            "type": "NUMBER_WITH_BRACKETS",
+                            "text": "(3)"
+                          },
+                          {
+                            "type": "PLAINTEXT",
+                            "text": "Kementerian yang menangani urusan agama, hukum, keuangan, dan keamanan sebagaimana dimaksud dalam Pasal 5 ayat (2) juga memiliki unsur pelaksana tugas pokok di daerah."
+                          }
+                        ]
+                      },
+                      {
+                        "type": "LIST_ITEM",
+                        "id": "",
+                        "children": [
+                          {
+                            "type": "NUMBER_WITH_BRACKETS",
+                            "text": "(4)"
+                          },
+                          {
+                            "type": "PLAINTEXT",
+                            "text": "Susunan organisasi Kementerian yang melaksanakan urusan sebagaimana dimaksud dalam Pasal 5 ayat (3) terdiri atas unsur:"
+                          },
+                          {
+                            "type": "LIST",
+                            "id": "",
+                            "children": [
+                              {
+                                "type": "LIST_ITEM",
+                                "id": "",
+                                "children": [
+                                  {
+                                    "type": "LETTER_WITH_DOT",
+                                    "text": "a."
+                                  },
+                                  {
+                                    "type": "PLAINTEXT",
+                                    "text": "pemimpin, yaitu Menteri;"
+                                  }
+                                ]
+                              },
+                              {
+                                "type": "LIST_ITEM",
+                                "id": "",
+                                "children": [
+                                  {
+                                    "type": "LETTER_WITH_DOT",
+                                    "text": "b."
+                                  },
+                                  {
+                                    "type": "PLAINTEXT",
+                                    "text": "pembantu pemimpin, yaitu sekretariat Kementerian;"
+                                  }
+                                ]
+                              },
+                              {
+                                "type": "LIST_ITEM",
+                                "id": "",
+                                "children": [
+                                  {
+                                    "type": "LETTER_WITH_DOT",
+                                    "text": "c."
+                                  },
+                                  {
+                                    "type": "PLAINTEXT",
+                                    "text": "pelaksana, yaitu deputi; dan"
+                                  }
+                                ]
+                              },
+                              {
+                                "type": "LIST_ITEM",
+                                "id": "",
+                                "children": [
+                                  {
+                                    "type": "LETTER_WITH_DOT",
+                                    "text": "d."
+                                  },
+                                  {
+                                    "type": "PLAINTEXT",
+                                    "text": "pengawas, yaitu inspektorat."
+                                  }
+                                ]
+                              }
+                            ]
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "PASAL",
+                "id": "pasal-10",
+                "children": [
+                  {
+                    "type": "PASAL_NUMBER",
+                    "text": "Pasal 10"
+                  },
+                  {
+                    "type": "PLAINTEXT",
+                    "text": "Dalam hal terdapat beban kerja yang membutuhkan penanganan secara khusus, Presiden dapat mengangkat wakil Menteri pada Kementerian tertentu."
+                  }
+                ]
+              },
+              {
+                "type": "PASAL",
+                "id": "pasal-11",
+                "children": [
+                  {
+                    "type": "PASAL_NUMBER",
+                    "text": "Pasal 11"
+                  },
+                  {
+                    "type": "PLAINTEXT",
+                    "text": "Ketentuan lebih lanjut mengenai tugas, fungsi, dan susunan organisasi Kementerian diatur dengan Peraturan Presiden."
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "BAB",
+        "id": "bab-4",
+        "children": [
+          {
+            "type": "BAB_NUMBER",
+            "text": "BAB IV"
+          },
+          {
+            "type": "BAB_TITLE",
+            "text": "PEMBENTUKAN, PENGUBAHAN, DAN PEMBUBARAN KEMENTERIAN"
+          },
+          {
+            "type": "BAGIAN",
+            "id": "bab-4-bagian-1",
+            "children": [
+              {
+                "type": "BAGIAN_NUMBER",
+                "text": "Bagian Kesatu"
+              },
+              {
+                "type": "BAGIAN_TITLE",
+                "text": "Pembentukan Kementerian"
+              },
+              {
+                "type": "PASAL",
+                "id": "pasal-12",
+                "children": [
+                  {
+                    "type": "PASAL_NUMBER",
+                    "text": "Pasal 12"
+                  },
+                  {
+                    "type": "PLAINTEXT",
+                    "text": "Presiden membentuk Kementerian luar negeri, dalam negeri, dan pertahanan, sebagaimana dimaksud dalam Undang-Undang Dasar Negara Republik Indonesia Tahun 1945."
+                  }
+                ]
+              },
+              {
+                "type": "PASAL",
+                "id": "pasal-13",
+                "children": [
+                  {
+                    "type": "PASAL_NUMBER",
+                    "text": "Pasal 13"
+                  },
+                  {
+                    "type": "LIST",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "LIST_ITEM",
+                        "id": "",
+                        "children": [
+                          {
+                            "type": "NUMBER_WITH_BRACKETS",
+                            "text": "(1)"
+                          },
+                          {
+                            "type": "PLAINTEXT",
+                            "text": "Presiden membentuk Kementerian sebagaimana dimaksud dalam Pasal 5 ayat (2) dan ayat (3)."
+                          }
+                        ]
+                      },
+                      {
+                        "type": "LIST_ITEM",
+                        "id": "",
+                        "children": [
+                          {
+                            "type": "NUMBER_WITH_BRACKETS",
+                            "text": "(2)"
+                          },
+                          {
+                            "type": "PLAINTEXT",
+                            "text": "Pembentukan Kementerian sebagaimana dimaksud pada ayat (1) dengan mempertimbangkan:"
+                          },
+                          {
+                            "type": "LIST",
+                            "id": "",
+                            "children": [
+                              {
+                                "type": "LIST_ITEM",
+                                "id": "",
+                                "children": [
+                                  {
+                                    "type": "LETTER_WITH_DOT",
+                                    "text": "a."
+                                  },
+                                  {
+                                    "type": "PLAINTEXT",
+                                    "text": "efisiensi dan efektivitas;"
+                                  }
+                                ]
+                              },
+                              {
+                                "type": "LIST_ITEM",
+                                "id": "",
+                                "children": [
+                                  {
+                                    "type": "LETTER_WITH_DOT",
+                                    "text": "b."
+                                  },
+                                  {
+                                    "type": "PLAINTEXT",
+                                    "text": "cakupan tugas dan proporsionalitas beban tugas;"
+                                  }
+                                ]
+                              },
+                              {
+                                "type": "LIST_ITEM",
+                                "id": "",
+                                "children": [
+                                  {
+                                    "type": "LETTER_WITH_DOT",
+                                    "text": "c."
+                                  },
+                                  {
+                                    "type": "PLAINTEXT",
+                                    "text": "kesinambungan, keserasian, dan keterpaduan pelaksanaan tugas; dan/atau"
+                                  }
+                                ]
+                              },
+                              {
+                                "type": "LIST_ITEM",
+                                "id": "",
+                                "children": [
+                                  {
+                                    "type": "LETTER_WITH_DOT",
+                                    "text": "d."
+                                  },
+                                  {
+                                    "type": "PLAINTEXT",
+                                    "text": "perkembangan lingkungan global."
+                                  }
+                                ]
+                              }
+                            ]
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "PASAL",
+                "id": "pasal-14",
+                "children": [
+                  {
+                    "type": "PASAL_NUMBER",
+                    "text": "Pasal 14"
+                  },
+                  {
+                    "type": "PLAINTEXT",
+                    "text": "Untuk kepentingan sinkronisasi dan koordinasi urusan Kementerian, Presiden dapat membentuk Kementerian koordinasi."
+                  }
+                ]
+              },
+              {
+                "type": "PASAL",
+                "id": "pasal-15",
+                "children": [
+                  {
+                    "type": "PASAL_NUMBER",
+                    "text": "Pasal 15"
+                  },
+                  {
+                    "type": "PLAINTEXT",
+                    "text": "Jumlah keseluruhan Kementerian sebagaimana dimaksud dalam Pasal 12, Pasal 13, dan Pasal 14 paling banyak 34 (tiga puluh empat)."
+                  }
+                ]
+              },
+              {
+                "type": "PASAL",
+                "id": "pasal-16",
+                "children": [
+                  {
+                    "type": "PASAL_NUMBER",
+                    "text": "Pasal 16"
+                  },
+                  {
+                    "type": "PLAINTEXT",
+                    "text": "Pembentukan Kementerian sebagaimana dimaksud dalam Pasal 12, Pasal 13, dan Pasal 14 paling lama 14 (empat belas) hari kerja sejak Presiden mengucapkan sumpah/janji."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "BAGIAN",
+            "id": "bab-4-bagian-2",
+            "children": [
+              {
+                "type": "BAGIAN_NUMBER",
+                "text": "Bagian Kedua"
+              },
+              {
+                "type": "BAGIAN_TITLE",
+                "text": "Pengubahan Kementerian"
+              },
+              {
+                "type": "PASAL",
+                "id": "pasal-17",
+                "children": [
+                  {
+                    "type": "PASAL_NUMBER",
+                    "text": "Pasal 17"
+                  },
+                  {
+                    "type": "PLAINTEXT",
+                    "text": "Kementerian sebagaimana dimaksud dalam Pasal 12 tidak dapat diubah oleh Presiden."
+                  }
+                ]
+              },
+              {
+                "type": "PASAL",
+                "id": "pasal-18",
+                "children": [
+                  {
+                    "type": "PASAL_NUMBER",
+                    "text": "Pasal 18"
+                  },
+                  {
+                    "type": "LIST",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "LIST_ITEM",
+                        "id": "",
+                        "children": [
+                          {
+                            "type": "NUMBER_WITH_BRACKETS",
+                            "text": "(1)"
+                          },
+                          {
+                            "type": "PLAINTEXT",
+                            "text": "Kementerian sebagaimana dimaksud dalam Pasal 13 dapat diubah oleh Presiden."
+                          }
+                        ]
+                      },
+                      {
+                        "type": "LIST_ITEM",
+                        "id": "",
+                        "children": [
+                          {
+                            "type": "NUMBER_WITH_BRACKETS",
+                            "text": "(2)"
+                          },
+                          {
+                            "type": "PLAINTEXT",
+                            "text": "Pengubahan sebagaimana dimaksud pada ayat (1) dilakukan dengan mempertimbangkan:"
+                          },
+                          {
+                            "type": "LIST",
+                            "id": "",
+                            "children": [
+                              {
+                                "type": "LIST_ITEM",
+                                "id": "",
+                                "children": [
+                                  {
+                                    "type": "LETTER_WITH_DOT",
+                                    "text": "a."
+                                  },
+                                  {
+                                    "type": "PLAINTEXT",
+                                    "text": "efisiensi dan efektivitas;"
+                                  }
+                                ]
+                              },
+                              {
+                                "type": "LIST_ITEM",
+                                "id": "",
+                                "children": [
+                                  {
+                                    "type": "LETTER_WITH_DOT",
+                                    "text": "b."
+                                  },
+                                  {
+                                    "type": "PLAINTEXT",
+                                    "text": "perubahan dan/atau perkembangan tugas dan fungsi;"
+                                  }
+                                ]
+                              },
+                              {
+                                "type": "LIST_ITEM",
+                                "id": "",
+                                "children": [
+                                  {
+                                    "type": "LETTER_WITH_DOT",
+                                    "text": "c."
+                                  },
+                                  {
+                                    "type": "PLAINTEXT",
+                                    "text": "cakupan tugas dan proporsionalitas beban tugas;"
+                                  }
+                                ]
+                              },
+                              {
+                                "type": "LIST_ITEM",
+                                "id": "",
+                                "children": [
+                                  {
+                                    "type": "LETTER_WITH_DOT",
+                                    "text": "d."
+                                  },
+                                  {
+                                    "type": "PLAINTEXT",
+                                    "text": "kesinambungan, keserasian, dan keterpaduan pelaksanaan tugas;"
+                                  }
+                                ]
+                              },
+                              {
+                                "type": "LIST_ITEM",
+                                "id": "",
+                                "children": [
+                                  {
+                                    "type": "LETTER_WITH_DOT",
+                                    "text": "e."
+                                  },
+                                  {
+                                    "type": "PLAINTEXT",
+                                    "text": "peningkatan kinerja dan beban kerja pemerintah;"
+                                  }
+                                ]
+                              },
+                              {
+                                "type": "LIST_ITEM",
+                                "id": "",
+                                "children": [
+                                  {
+                                    "type": "LETTER_WITH_DOT",
+                                    "text": "f."
+                                  },
+                                  {
+                                    "type": "PLAINTEXT",
+                                    "text": "kebutuhan penanganan urusan tertentu dalam pemerintahan secara mandiri; dan/atau"
+                                  }
+                                ]
+                              },
+                              {
+                                "type": "LIST_ITEM",
+                                "id": "",
+                                "children": [
+                                  {
+                                    "type": "LETTER_WITH_DOT",
+                                    "text": "g."
+                                  },
+                                  {
+                                    "type": "PLAINTEXT",
+                                    "text": "kebutuhan penyesuaian peristilahan yang berkembang."
+                                  }
+                                ]
+                              }
+                            ]
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "PASAL",
+                "id": "pasal-19",
+                "children": [
+                  {
+                    "type": "PASAL_NUMBER",
+                    "text": "Pasal 19"
+                  },
+                  {
+                    "type": "LIST",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "LIST_ITEM",
+                        "id": "",
+                        "children": [
+                          {
+                            "type": "NUMBER_WITH_BRACKETS",
+                            "text": "(1)"
+                          },
+                          {
+                            "type": "PLAINTEXT",
+                            "text": "Pengubahan sebagai akibat pemisahan atau penggabungan Kementerian dilakukan dengan pertimbangan Dewan Perwakilan Rakyat."
+                          }
+                        ]
+                      },
+                      {
+                        "type": "LIST_ITEM",
+                        "id": "",
+                        "children": [
+                          {
+                            "type": "NUMBER_WITH_BRACKETS",
+                            "text": "(2)"
+                          },
+                          {
+                            "type": "PLAINTEXT",
+                            "text": "Pertimbangan sebagaimana dimaksud pada ayat (1) diberikan Dewan Perwakilan Rakyat paling lama 7 (tujuh) hari kerja sejak surat Presiden diterima."
+                          }
+                        ]
+                      },
+                      {
+                        "type": "LIST_ITEM",
+                        "id": "",
+                        "children": [
+                          {
+                            "type": "NUMBER_WITH_BRACKETS",
+                            "text": "(3)"
+                          },
+                          {
+                            "type": "PLAINTEXT",
+                            "text": "Apabila dalam waktu 7 (tujuh) hari kerja sebagaimana dimaksud pada ayat (2) Dewan Perwakilan Rakyat belum menyampaikan pertimbangannya, Dewan Perwakilan Rakyat dianggap sudah memberikan pertimbangan."
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "BAGIAN",
+            "id": "bab-4-bagian-3",
+            "children": [
+              {
+                "type": "BAGIAN_NUMBER",
+                "text": "Bagian Ketiga"
+              },
+              {
+                "type": "BAGIAN_TITLE",
+                "text": "Pembubaran Kementerian"
+              },
+              {
+                "type": "PASAL",
+                "id": "pasal-20",
+                "children": [
+                  {
+                    "type": "PASAL_NUMBER",
+                    "text": "Pasal 20"
+                  },
+                  {
+                    "type": "PLAINTEXT",
+                    "text": "Kementerian sebagaimana dimaksud dalam Pasal 12 tidak dapat dibubarkan oleh Presiden."
+                  }
+                ]
+              },
+              {
+                "type": "PASAL",
+                "id": "pasal-21",
+                "children": [
+                  {
+                    "type": "PASAL_NUMBER",
+                    "text": "Pasal 21"
+                  },
+                  {
+                    "type": "PLAINTEXT",
+                    "text": "Kementerian sebagaimana dimaksud dalam Pasal 13 dapat dibubarkan oleh Presiden dengan meminta pertimbangan Dewan Perwakilan Rakyat, kecuali Kementerian yang menangani urusan agama, hukum, keuangan, dan keamanan harus dengan persetujuan Dewan Perwakilan Rakyat."
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "BAB",
+        "id": "bab-5",
+        "children": [
+          {
+            "type": "BAB_NUMBER",
+            "text": "BAB V"
+          },
+          {
+            "type": "BAB_TITLE",
+            "text": "PENGANGKATAN DAN PEMBERHENTIAN"
+          },
+          {
+            "type": "BAGIAN",
+            "id": "bab-5-bagian-1",
+            "children": [
+              {
+                "type": "BAGIAN_NUMBER",
+                "text": "Bagian Kesatu"
+              },
+              {
+                "type": "BAGIAN_TITLE",
+                "text": "Pengangkatan"
+              },
+              {
+                "type": "PASAL",
+                "id": "pasal-22",
+                "children": [
+                  {
+                    "type": "PASAL_NUMBER",
+                    "text": "Pasal 22"
+                  },
+                  {
+                    "type": "LIST",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "LIST_ITEM",
+                        "id": "",
+                        "children": [
+                          {
+                            "type": "NUMBER_WITH_BRACKETS",
+                            "text": "(1)"
+                          },
+                          {
+                            "type": "PLAINTEXT",
+                            "text": "Menteri diangkat oleh Presiden."
+                          }
+                        ]
+                      },
+                      {
+                        "type": "LIST_ITEM",
+                        "id": "",
+                        "children": [
+                          {
+                            "type": "NUMBER_WITH_BRACKETS",
+                            "text": "(2)"
+                          },
+                          {
+                            "type": "PLAINTEXT",
+                            "text": "Untuk dapat diangkat menjadi Menteri, seseorang harus memenuhi persyaratan:"
+                          },
+                          {
+                            "type": "LIST",
+                            "id": "",
+                            "children": [
+                              {
+                                "type": "LIST_ITEM",
+                                "id": "",
+                                "children": [
+                                  {
+                                    "type": "LETTER_WITH_DOT",
+                                    "text": "a."
+                                  },
+                                  {
+                                    "type": "PLAINTEXT",
+                                    "text": "warga negara Indonesia;"
+                                  }
+                                ]
+                              },
+                              {
+                                "type": "LIST_ITEM",
+                                "id": "",
+                                "children": [
+                                  {
+                                    "type": "LETTER_WITH_DOT",
+                                    "text": "b."
+                                  },
+                                  {
+                                    "type": "PLAINTEXT",
+                                    "text": "bertakwa kepada Tuhan Yang Maha Esa;"
+                                  }
+                                ]
+                              },
+                              {
+                                "type": "LIST_ITEM",
+                                "id": "",
+                                "children": [
+                                  {
+                                    "type": "LETTER_WITH_DOT",
+                                    "text": "c."
+                                  },
+                                  {
+                                    "type": "PLAINTEXT",
+                                    "text": "setia kepada Pancasila sebagai dasar negara,Undang-Undang Dasar Negara Republik Indonesia Tahun 1945, dan cita-cita proklamasi kemerdekaan;"
+                                  }
+                                ]
+                              },
+                              {
+                                "type": "LIST_ITEM",
+                                "id": "",
+                                "children": [
+                                  {
+                                    "type": "LETTER_WITH_DOT",
+                                    "text": "d."
+                                  },
+                                  {
+                                    "type": "PLAINTEXT",
+                                    "text": "sehat jasmani dan rohani;"
+                                  }
+                                ]
+                              },
+                              {
+                                "type": "LIST_ITEM",
+                                "id": "",
+                                "children": [
+                                  {
+                                    "type": "LETTER_WITH_DOT",
+                                    "text": "e."
+                                  },
+                                  {
+                                    "type": "PLAINTEXT",
+                                    "text": "memiliki integritas dan kepribadian yang baik; dan"
+                                  }
+                                ]
+                              },
+                              {
+                                "type": "LIST_ITEM",
+                                "id": "",
+                                "children": [
+                                  {
+                                    "type": "LETTER_WITH_DOT",
+                                    "text": "f."
+                                  },
+                                  {
+                                    "type": "PLAINTEXT",
+                                    "text": "tidak pernah dipidana penjara berdasarkan putusan pengadilan yang telah memperoleh kekuatan hukum tetap karena melakukan tindak pidana yang diancam dengan pidana penjara 5 (lima) tahun atau lebih."
+                                  }
+                                ]
+                              }
+                            ]
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "PASAL",
+                "id": "pasal-23",
+                "children": [
+                  {
+                    "type": "PASAL_NUMBER",
+                    "text": "Pasal 23"
+                  },
+                  {
+                    "type": "PLAINTEXT",
+                    "text": "Menteri dilarang merangkap jabatan sebagai:"
+                  },
+                  {
+                    "type": "LIST",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "LIST_ITEM",
+                        "id": "",
+                        "children": [
+                          {
+                            "type": "LETTER_WITH_DOT",
+                            "text": "a."
+                          },
+                          {
+                            "type": "PLAINTEXT",
+                            "text": "pejabat negara lainnya sesuai dengan peraturan perundang-undangan;"
+                          }
+                        ]
+                      },
+                      {
+                        "type": "LIST_ITEM",
+                        "id": "",
+                        "children": [
+                          {
+                            "type": "LETTER_WITH_DOT",
+                            "text": "b."
+                          },
+                          {
+                            "type": "PLAINTEXT",
+                            "text": "komisaris atau direksi pada perusahaan negara atau perusahaan swasta; atau"
+                          }
+                        ]
+                      },
+                      {
+                        "type": "LIST_ITEM",
+                        "id": "",
+                        "children": [
+                          {
+                            "type": "LETTER_WITH_DOT",
+                            "text": "c."
+                          },
+                          {
+                            "type": "PLAINTEXT",
+                            "text": "pimpinan organisasi yang dibiayai dari Anggaran Pendapatan Belanja Negara dan/atau Anggaran Pendapatan Belanja Daerah."
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "BAGIAN",
+            "id": "bab-5-bagian-2",
+            "children": [
+              {
+                "type": "BAGIAN_NUMBER",
+                "text": "Bagian Kedua"
+              },
+              {
+                "type": "BAGIAN_TITLE",
+                "text": "Pemberhentian"
+              },
+              {
+                "type": "PASAL",
+                "id": "pasal-24",
+                "children": [
+                  {
+                    "type": "PASAL_NUMBER",
+                    "text": "Pasal 24"
+                  },
+                  {
+                    "type": "LIST",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "LIST_ITEM",
+                        "id": "",
+                        "children": [
+                          {
+                            "type": "NUMBER_WITH_BRACKETS",
+                            "text": "(1)"
+                          },
+                          {
+                            "type": "PLAINTEXT",
+                            "text": "Menteri berhenti dari jabatannya karena:"
+                          },
+                          {
+                            "type": "LIST",
+                            "id": "",
+                            "children": [
+                              {
+                                "type": "LIST_ITEM",
+                                "id": "",
+                                "children": [
+                                  {
+                                    "type": "LETTER_WITH_DOT",
+                                    "text": "a."
+                                  },
+                                  {
+                                    "type": "PLAINTEXT",
+                                    "text": "meninggal dunia; atau"
+                                  }
+                                ]
+                              },
+                              {
+                                "type": "LIST_ITEM",
+                                "id": "",
+                                "children": [
+                                  {
+                                    "type": "LETTER_WITH_DOT",
+                                    "text": "b."
+                                  },
+                                  {
+                                    "type": "PLAINTEXT",
+                                    "text": "berakhir masa jabatan."
+                                  }
+                                ]
+                              }
+                            ]
+                          }
+                        ]
+                      },
+                      {
+                        "type": "LIST_ITEM",
+                        "id": "",
+                        "children": [
+                          {
+                            "type": "NUMBER_WITH_BRACKETS",
+                            "text": "(2)"
+                          },
+                          {
+                            "type": "PLAINTEXT",
+                            "text": "Menteri diberhentikan dari jabatannya oleh Presiden karena:"
+                          },
+                          {
+                            "type": "LIST",
+                            "id": "",
+                            "children": [
+                              {
+                                "type": "LIST_ITEM",
+                                "id": "",
+                                "children": [
+                                  {
+                                    "type": "LETTER_WITH_DOT",
+                                    "text": "a."
+                                  },
+                                  {
+                                    "type": "PLAINTEXT",
+                                    "text": "mengundurkan diri atas permintaan sendiri secara tertulis;"
+                                  }
+                                ]
+                              },
+                              {
+                                "type": "LIST_ITEM",
+                                "id": "",
+                                "children": [
+                                  {
+                                    "type": "LETTER_WITH_DOT",
+                                    "text": "b."
+                                  },
+                                  {
+                                    "type": "PLAINTEXT",
+                                    "text": "tidak dapat melaksanakan tugas selama 3 (tiga) bulan secara berturut-turut;"
+                                  }
+                                ]
+                              },
+                              {
+                                "type": "LIST_ITEM",
+                                "id": "",
+                                "children": [
+                                  {
+                                    "type": "LETTER_WITH_DOT",
+                                    "text": "c."
+                                  },
+                                  {
+                                    "type": "PLAINTEXT",
+                                    "text": "dinyatakan bersalah berdasarkan putusan pengadilan yang telah memperoleh kekuatan hukum tetap karena melakukan tindak pidana yang diancam dengan pidana penjara 5 (lima) tahun atau lebih;"
+                                  }
+                                ]
+                              },
+                              {
+                                "type": "LIST_ITEM",
+                                "id": "",
+                                "children": [
+                                  {
+                                    "type": "LETTER_WITH_DOT",
+                                    "text": "d."
+                                  },
+                                  {
+                                    "type": "PLAINTEXT",
+                                    "text": "melanggar ketentuan larangan rangkap jabatan sebagaimana dimaksud dalam Pasal 23; atau"
+                                  }
+                                ]
+                              },
+                              {
+                                "type": "LIST_ITEM",
+                                "id": "",
+                                "children": [
+                                  {
+                                    "type": "LETTER_WITH_DOT",
+                                    "text": "e."
+                                  },
+                                  {
+                                    "type": "PLAINTEXT",
+                                    "text": "alasan lain yang ditetapkan oleh Presiden."
+                                  }
+                                ]
+                              }
+                            ]
+                          }
+                        ]
+                      },
+                      {
+                        "type": "LIST_ITEM",
+                        "id": "",
+                        "children": [
+                          {
+                            "type": "NUMBER_WITH_BRACKETS",
+                            "text": "(3)"
+                          },
+                          {
+                            "type": "PLAINTEXT",
+                            "text": "Presiden memberhentikan sementara Menteri yang didakwa melakukan tindak pidana yang diancam dengan pidana penjara 5 (lima) tahun atau lebih."
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "BAB",
+        "id": "bab-6",
+        "children": [
+          {
+            "type": "BAB_NUMBER",
+            "text": "BAB VI"
+          },
+          {
+            "type": "BAB_TITLE",
+            "text": "HUBUNGAN FUNGSIONAL KEMENTERIAN DAN LEMBAGA PEMERINTAH NONKEMENTERIAN"
+          },
+          {
+            "type": "PASAL",
+            "id": "pasal-25",
+            "children": [
+              {
+                "type": "PASAL_NUMBER",
+                "text": "Pasal 25"
+              },
+              {
+                "type": "LIST",
+                "id": "",
+                "children": [
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "NUMBER_WITH_BRACKETS",
+                        "text": "(1)"
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "Hubungan fungsional antara Kementerian dan lembaga pemerintah nonkementerian dilaksanakan secara sinergis sebagai satu sistem pemerintahan dalam Negara Kesatuan Republik Indonesia sesuai dengan peraturan perundang-undangan."
+                      }
+                    ]
+                  },
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "NUMBER_WITH_BRACKETS",
+                        "text": "(2)"
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "Lembaga pemerintah nonkementerian berkedudukan di bawah Presiden dan bertanggung jawab kepada Presiden melalui Menteri yang mengoordinasikan."
+                      }
+                    ]
+                  },
+                  {
+                    "type": "LIST_ITEM",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "NUMBER_WITH_BRACKETS",
+                        "text": "(3)"
+                      },
+                      {
+                        "type": "PLAINTEXT",
+                        "text": "Ketentuan lebih lanjut mengenai hubungan fungsional antara Menteri dan lembaga pemerintah nonkementerian sebagaimana dimaksud pada ayat (1) dan ayat (2) diatur dengan Peraturan Presiden."
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "BAB",
+        "id": "bab-7",
+        "children": [
+          {
+            "type": "BAB_NUMBER",
+            "text": "BAB VII"
+          },
+          {
+            "type": "BAB_TITLE",
+            "text": "HUBUNGAN KEMENTERIAN DENGAN PEMERINTAH DAERAH"
+          },
+          {
+            "type": "PASAL",
+            "id": "pasal-26",
+            "children": [
+              {
+                "type": "PASAL_NUMBER",
+                "text": "Pasal 26"
+              },
+              {
+                "type": "PLAINTEXT",
+                "text": "Hubungan antara Kementerian dan pemerintah daerah dilaksanakan dalam kerangka sistem pemerintahan Negara Kesatuan Republik Indonesia dengan memperhatikan prinsip-prinsip penyelenggaraan otonomi daerah sesuai peraturan perundang-undangan."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "BAB",
+        "id": "bab-8",
+        "children": [
+          {
+            "type": "BAB_NUMBER",
+            "text": "BAB VIII"
+          },
+          {
+            "type": "BAB_TITLE",
+            "text": "KETENTUAN PERALIHAN"
+          },
+          {
+            "type": "PASAL",
+            "id": "pasal-27",
+            "children": [
+              {
+                "type": "PASAL_NUMBER",
+                "text": "Pasal 27"
+              },
+              {
+                "type": "PLAINTEXT",
+                "text": "Kementerian yang sudah ada pada saat berlakunya Undang-Undang ini tetap menjalankan tugasnya sampai dengan terbentuknya Kementerian berdasarkan ketentuan dalam Undang-Undang ini."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "BAB",
+        "id": "bab-9",
+        "children": [
+          {
+            "type": "BAB_NUMBER",
+            "text": "BAB IX"
+          },
+          {
+            "type": "BAB_TITLE",
+            "text": "KETENTUAN PENUTUP"
+          },
+          {
+            "type": "PASAL",
+            "id": "pasal-28",
+            "children": [
+              {
+                "type": "PASAL_NUMBER",
+                "text": "Pasal 28"
+              },
+              {
+                "type": "PLAINTEXT",
+                "text": "Undang-Undang ini mulai berlaku pada tanggal diundangkan."
+              },
+              {
+                "type": "PLAINTEXT",
+                "text": "Agar setiap orang mengetahuinya, memerintahkan pengundangan Undang-Undang ini dengan penempatannya dalam Lembaran Negara Republik Indonesia."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "CLOSING",
+        "id": "",
+        "children": [
+          {
+            "type": "PLAINTEXT",
+            "text": "Disahkan Di Jakarta,"
+          },
+          {
+            "type": "PLAINTEXT",
+            "text": "Pada Tanggal 6 Nopember 2008"
+          },
+          {
+            "type": "PLAINTEXT",
+            "text": "PRESIDEN REPUBLIK INDONESIA,"
+          },
+          {
+            "type": "PLAINTEXT",
+            "text": "Ttd."
+          },
+          {
+            "type": "PLAINTEXT",
+            "text": "DR. H. SUSILO BAMBANG YUDHOYONO"
+          },
+          {
+            "type": "PLAINTEXT",
+            "text": "Diundangkan Di Jakarta,"
+          },
+          {
+            "type": "PLAINTEXT",
+            "text": "Pada Tanggal 6 Nopember 2008"
+          },
+          {
+            "type": "PLAINTEXT",
+            "text": "MENTERI HUKUM DAN HAK ASASI MANUSIA REPUBLIK INDONESIA, Ttd."
+          },
+          {
+            "type": "PLAINTEXT",
+            "text": "ANDI MATTALATTA"
+          },
+          {
+            "type": "LEMBARAN_NUMBER",
+            "text": "LEMBARAN NEGARA REPUBLIK INDONESIA TAHUN 2008 NOMOR 166"
+          }
+        ]
+      },
+      {
+        "type": "PENJELASAN",
+        "id": "penjelasan",
+        "children": [
+          {
+            "type": "PENJELASAN_TITLE",
+            "id": "",
+            "children": [
+              {
+                "type": "PLAINTEXT",
+                "text": "PENJELASAN"
+              },
+              {
+                "type": "PLAINTEXT",
+                "text": "UNDANG-UNDANG REPUBLIK INDONESIA"
+              },
+              {
+                "type": "UU_TITLE_YEAR_AND_NUMBER",
+                "text": "NOMOR 39 TAHUN 2008"
+              },
+              {
+                "type": "PLAINTEXT",
+                "text": "TENTANG"
+              },
+              {
+                "type": "UU_TITLE_TOPIC",
+                "text": "KEMENTERIAN NEGARA"
+              }
+            ]
+          },
+          {
+            "type": "PENJELASAN_UMUM",
+            "id": "",
+            "children": [
+              {
+                "type": "PENJELASAN_UMUM_TITLE",
+                "text": "I. UMUM"
+              },
+              {
+                "type": "PLAINTEXT",
+                "text": "Penyelenggara negara mempunyai peran yang penting dalam mewujudkan tujuan negara sebagaimana diamanatkan dalam Pembukaan Undang-Undang Dasar Negara Republik Indonesia Tahun 1945. Tujuan negara adalah untuk melindungi segenap bangsa Indonesia dan seluruh tumpah darah Indonesia, memajukan kesejahteraan umum, mencerdaskan kehidupan bangsa, dan ikut melaksanakan ketertiban dunia yang berdasarkan kemerdekaan, perdamaian abadi, dan keadilan sosial. Oleh karena itu, sejak proklamasi kemerdekaan pada tanggal 17 Agustus 1945, Pemerintah Negara Republik Indonesia bertekad menjalankan fungsi pemerintahan negara ke arah tujuan yang dicita-citakan."
+              },
+              {
+                "type": "PLAINTEXT",
+                "text": "Pasal 4 Undang-Undang Dasar Negara Republik Indonesia Tahun 1945 menegaskan bahwa Presiden Republik Indonesia memegang kekuasaan pemerintahan menurut Undang-Undang Dasar. Dalam menjalankan kekuasaan pemerintahan, Presiden dibantu oleh menteri-menteri negara yang diangkat dan diberhentikan oleh Presiden."
+              },
+              {
+                "type": "PLAINTEXT",
+                "text": "Menteri-menteri negara tersebut membidangi urusan tertentu dalam pemerintahan yang pembentukan, pengubahan, dan pembubaran kementeriannya diatur dalam undang-undang sebagaimana dimaksud dalam Pasal 17 Undang-Undang Dasar Negara Republik Indonesia Tahun 1945. Pasal 17 ini menegaskan bahwa kekuasaan Presiden tidak tak terbatas karenanya dikehendaki setiap pembentukan, pengubahan, dan pembubaran kementerian negara haruslah berdasarkan undang-undang."
+              },
+              {
+                "type": "PLAINTEXT",
+                "text": "Undang-undang ini sama sekali tidak mengurangi apalagi menghilangkan hak Presiden dalam menyusun kementerian negara yang akan membantunya dalam menyelenggarakan urusan pemerintahan. Sebaliknya, undang-undang ini justru dimaksudkan untuk memudahkan Presiden dalam menyusun kementerian negara karena secara jelas dan tegas mengatur kedudukan, tugas, fungsi, dan susunan organisasi kementerian negara."
+              },
+              {
+                "type": "PLAINTEXT",
+                "text": "Pengaturan mengenai kementerian negara tidak didekati melalui pemberian nama tertentu pada setiap kementerian. Akan tetapi, undang-undang ini melakukan pendekatan melalui urusan-urusan pemerintahan yang harus dijalankan Presiden secara menyeluruh dalam rangka pencapaian tujuan negara. Urusan urusan pemerintahan tersebut adalah urusan pemerintahan yang nomenklatur kementeriannya secara tegas disebutkan dalam Undang-Undang Dasar Negara Republik Indonesia Tahun 1945; urusan pemerintahan yang ruang lingkupnya disebutkan dalam Undang-Undang Dasar Negara Republik Indonesia Tahun 1945; dan urusan pemerintahan dalam rangka penajaman, koordinasi, dan sinkronisasi program pemerintah."
+              },
+              {
+                "type": "PLAINTEXT",
+                "text": "Dalam melaksanakan urusan-urusan tersebut tidak berarti satu urusan dilaksanakan oleh satu kementerian. Akan tetapi satu kementerian bisa melaksanakan lebih dari satu urusan sesuai dengan tugas yang diberikan oleh Presiden."
+              },
+              {
+                "type": "PLAINTEXT",
+                "text": "Undang-undang ini juga mengatur tentang persyaratan pengangkatan dan pemberhentian menteri. Pengaturan persyaratan pengangkatan menteri tidak dimaksudkan untuk membatasi hak Presiden dalam memilih seorang Menteri, sebaliknya menekankan bahwa seorang Menteri yang diangkat memiliki integritas dan kepribadian yang baik."
+              },
+              {
+                "type": "PLAINTEXT",
+                "text": "Namun demikian Presiden diharapkan juga memperhatikan kompetensi dalam bidang tugas kementerian, memiliki pengalaman kepemimpinan, dan sanggup bekerjasama sebagai pembantu Presiden."
+              },
+              {
+                "type": "PLAINTEXT",
+                "text": "Undang-undang ini disusun dalam rangka membangun sistem pemerintahan presidensial yang efektif dan efisien, yang menitikberatkan pada peningkatan pelayanan publik yang prima."
+              },
+              {
+                "type": "PLAINTEXT",
+                "text": "Oleh karena itu, menteri dilarang merangkap jabatan sebagai pejabat negara lainnya, komisaris dan direksi pada perusahaan, dan pimpinan organisasi yang dibiayai dari Anggaran Pendapatan Belanja Negara dan/atau Anggaran Pendapatan Belanja Daerah. Bahkan diharapkan seorang menteri dapat melepaskan tugas dan jabatan-jabatan lainnya termasuk jabatan dalam partai politik. Kesemuanya itu dalam rangka meningkatkan profesionalisme, pelaksanaan urusan kementerian yang lebih fokus kepada tugas pokok dan fungsinya yang lebih bertanggung jawab."
+              },
+              {
+                "type": "PLAINTEXT",
+                "text": "Undang-undang ini juga dimaksudkan untuk melakukan reformasi birokrasi dengan membatasi jumlah kementerian paling banyak 34 (tiga puluh empat). Artinya, jumlah kementerian tidak dimungkinkan melebihi jumlah tersebut dan diharapkan akan terjadi pengurangan."
+              }
+            ]
+          },
+          {
+            "type": "PENJELASAN_PASAL_DEMI_PASAL",
+            "id": "",
+            "children": [
+              {
+                "type": "PENJELASAN_PASAL_DEMI_PASAL_TITLE",
+                "text": "II. PASAL DEMI PASAL"
+              },
+              {
+                "type": "PENJELASAN_PASAL",
+                "id": "",
+                "children": [
+                  {
+                    "type": "PASAL_NUMBER",
+                    "text": "Pasal 1"
+                  },
+                  {
+                    "type": "PLAINTEXT",
+                    "text": "Cukup jelas."
+                  }
+                ]
+              },
+              {
+                "type": "PENJELASAN_PASAL",
+                "id": "",
+                "children": [
+                  {
+                    "type": "PASAL_NUMBER",
+                    "text": "Pasal 2"
+                  },
+                  {
+                    "type": "PLAINTEXT",
+                    "text": "Cukup jelas."
+                  }
+                ]
+              },
+              {
+                "type": "PENJELASAN_PASAL",
+                "id": "",
+                "children": [
+                  {
+                    "type": "PASAL_NUMBER",
+                    "text": "Pasal 3"
+                  },
+                  {
+                    "type": "PLAINTEXT",
+                    "text": "Yang dimaksud dengan \u201dberada di bawah\u201d dalam ketentuan ini adalah kedudukan kementerian dalam struktur pemerintahan."
+                  }
+                ]
+              },
+              {
+                "type": "PENJELASAN_PASAL",
+                "id": "",
+                "children": [
+                  {
+                    "type": "PASAL_NUMBER",
+                    "text": "Pasal 4"
+                  },
+                  {
+                    "type": "PLAINTEXT",
+                    "text": "Cukup jelas."
+                  }
+                ]
+              },
+              {
+                "type": "PENJELASAN_PASAL",
+                "id": "",
+                "children": [
+                  {
+                    "type": "PASAL_NUMBER",
+                    "text": "Pasal 5"
+                  },
+                  {
+                    "type": "PLAINTEXT",
+                    "text": "Cukup jelas."
+                  }
+                ]
+              },
+              {
+                "type": "PENJELASAN_PASAL",
+                "id": "",
+                "children": [
+                  {
+                    "type": "PASAL_NUMBER",
+                    "text": "Pasal 6"
+                  },
+                  {
+                    "type": "PLAINTEXT",
+                    "text": "Cukup jelas."
+                  }
+                ]
+              },
+              {
+                "type": "PENJELASAN_PASAL",
+                "id": "",
+                "children": [
+                  {
+                    "type": "PASAL_NUMBER",
+                    "text": "Pasal 7"
+                  },
+                  {
+                    "type": "PLAINTEXT",
+                    "text": "Cukup jelas."
+                  }
+                ]
+              },
+              {
+                "type": "PENJELASAN_PASAL",
+                "id": "",
+                "children": [
+                  {
+                    "type": "PASAL_NUMBER",
+                    "text": "Pasal 8"
+                  },
+                  {
+                    "type": "LIST",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "PENJELASAN_LIST_ITEM",
+                        "id": "",
+                        "children": [
+                          {
+                            "type": "PENJELASAN_AYAT",
+                            "text": "Ayat (1)"
+                          },
+                          {
+                            "type": "PLAINTEXT",
+                            "text": "Cukup jelas."
+                          }
+                        ]
+                      },
+                      {
+                        "type": "PENJELASAN_LIST_ITEM",
+                        "id": "",
+                        "children": [
+                          {
+                            "type": "PENJELASAN_AYAT",
+                            "text": "Ayat (2)"
+                          },
+                          {
+                            "type": "LIST",
+                            "id": "",
+                            "children": [
+                              {
+                                "type": "PENJELASAN_LIST_ITEM",
+                                "id": "",
+                                "children": [
+                                  {
+                                    "type": "PENJELASAN_HURUF",
+                                    "text": "Huruf a"
+                                  },
+                                  {
+                                    "type": "PLAINTEXT",
+                                    "text": "Cukup jelas."
+                                  }
+                                ]
+                              },
+                              {
+                                "type": "PENJELASAN_LIST_ITEM",
+                                "id": "",
+                                "children": [
+                                  {
+                                    "type": "PENJELASAN_HURUF",
+                                    "text": "Huruf b"
+                                  },
+                                  {
+                                    "type": "PLAINTEXT",
+                                    "text": "Cukup jelas."
+                                  }
+                                ]
+                              },
+                              {
+                                "type": "PENJELASAN_LIST_ITEM",
+                                "id": "",
+                                "children": [
+                                  {
+                                    "type": "PENJELASAN_HURUF",
+                                    "text": "Huruf c"
+                                  },
+                                  {
+                                    "type": "PLAINTEXT",
+                                    "text": "Cukup jelas."
+                                  }
+                                ]
+                              },
+                              {
+                                "type": "PENJELASAN_LIST_ITEM",
+                                "id": "",
+                                "children": [
+                                  {
+                                    "type": "PENJELASAN_HURUF",
+                                    "text": "Huruf d"
+                                  },
+                                  {
+                                    "type": "PLAINTEXT",
+                                    "text": "Pelaksanaan urusan kementerian di daerah yang dimaksud adalah kegiatan teknis yang berskala provinsi/kabupaten/kota yang dilaksanakan oleh dinas provinsi/kabupaten/kota disertai penyerahan keuangannya."
+                                  }
+                                ]
+                              },
+                              {
+                                "type": "PENJELASAN_LIST_ITEM",
+                                "id": "",
+                                "children": [
+                                  {
+                                    "type": "PENJELASAN_HURUF",
+                                    "text": "Huruf e"
+                                  },
+                                  {
+                                    "type": "PLAINTEXT",
+                                    "text": "Cukup jelas."
+                                  }
+                                ]
+                              }
+                            ]
+                          }
+                        ]
+                      },
+                      {
+                        "type": "PENJELASAN_LIST_ITEM",
+                        "id": "",
+                        "children": [
+                          {
+                            "type": "PENJELASAN_AYAT",
+                            "text": "Ayat (3)"
+                          },
+                          {
+                            "type": "PLAINTEXT",
+                            "text": "Cukup jelas."
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "PENJELASAN_PASAL",
+                "id": "",
+                "children": [
+                  {
+                    "type": "PASAL_NUMBER",
+                    "text": "Pasal 9"
+                  },
+                  {
+                    "type": "LIST",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "PENJELASAN_LIST_ITEM",
+                        "id": "",
+                        "children": [
+                          {
+                            "type": "PENJELASAN_AYAT",
+                            "text": "Ayat (1)"
+                          },
+                          {
+                            "type": "PLAINTEXT",
+                            "text": "Cukup jelas."
+                          }
+                        ]
+                      },
+                      {
+                        "type": "PENJELASAN_LIST_ITEM",
+                        "id": "",
+                        "children": [
+                          {
+                            "type": "PENJELASAN_AYAT",
+                            "text": "Ayat (2)"
+                          },
+                          {
+                            "type": "PLAINTEXT",
+                            "text": "Kementerian yang menangani urusan tertentu dapat membentuk perwakilan di luar negeri sesuai dengan peraturan perundang-undangan."
+                          }
+                        ]
+                      },
+                      {
+                        "type": "PENJELASAN_LIST_ITEM",
+                        "id": "",
+                        "children": [
+                          {
+                            "type": "PENJELASAN_AYAT",
+                            "text": "Ayat (3)"
+                          },
+                          {
+                            "type": "PLAINTEXT",
+                            "text": "Cukup jelas."
+                          }
+                        ]
+                      },
+                      {
+                        "type": "PENJELASAN_LIST_ITEM",
+                        "id": "",
+                        "children": [
+                          {
+                            "type": "PENJELASAN_AYAT",
+                            "text": "Ayat (4)"
+                          },
+                          {
+                            "type": "PLAINTEXT",
+                            "text": "Cukup jelas."
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "PENJELASAN_PASAL",
+                "id": "",
+                "children": [
+                  {
+                    "type": "PASAL_NUMBER",
+                    "text": "Pasal 10"
+                  },
+                  {
+                    "type": "PLAINTEXT",
+                    "text": "Yang dimaksud dengan \u201cWakil Menteri\u201d adalah pejabat karir dan bukan merupakan anggota kabinet."
+                  }
+                ]
+              },
+              {
+                "type": "PENJELASAN_PASAL",
+                "id": "",
+                "children": [
+                  {
+                    "type": "PASAL_NUMBER",
+                    "text": "Pasal 11"
+                  },
+                  {
+                    "type": "PLAINTEXT",
+                    "text": "Cukup jelas."
+                  }
+                ]
+              },
+              {
+                "type": "PENJELASAN_PASAL",
+                "id": "",
+                "children": [
+                  {
+                    "type": "PASAL_NUMBER",
+                    "text": "Pasal 12"
+                  },
+                  {
+                    "type": "PLAINTEXT",
+                    "text": "Cukup jelas."
+                  }
+                ]
+              },
+              {
+                "type": "PENJELASAN_PASAL",
+                "id": "",
+                "children": [
+                  {
+                    "type": "PASAL_NUMBER",
+                    "text": "Pasal 13"
+                  },
+                  {
+                    "type": "PLAINTEXT",
+                    "text": "Cukup jelas."
+                  }
+                ]
+              },
+              {
+                "type": "PENJELASAN_PASAL",
+                "id": "",
+                "children": [
+                  {
+                    "type": "PASAL_NUMBER",
+                    "text": "Pasal 14"
+                  },
+                  {
+                    "type": "PLAINTEXT",
+                    "text": "Cukup jelas."
+                  }
+                ]
+              },
+              {
+                "type": "PENJELASAN_PASAL",
+                "id": "",
+                "children": [
+                  {
+                    "type": "PASAL_NUMBER",
+                    "text": "Pasal 15"
+                  },
+                  {
+                    "type": "PLAINTEXT",
+                    "text": "Cukup jelas."
+                  }
+                ]
+              },
+              {
+                "type": "PENJELASAN_PASAL",
+                "id": "",
+                "children": [
+                  {
+                    "type": "PASAL_NUMBER",
+                    "text": "Pasal 16"
+                  },
+                  {
+                    "type": "PLAINTEXT",
+                    "text": "Cukup jelas."
+                  }
+                ]
+              },
+              {
+                "type": "PENJELASAN_PASAL",
+                "id": "",
+                "children": [
+                  {
+                    "type": "PASAL_NUMBER",
+                    "text": "Pasal 17"
+                  },
+                  {
+                    "type": "PLAINTEXT",
+                    "text": "Cukup jelas."
+                  }
+                ]
+              },
+              {
+                "type": "PENJELASAN_PASAL",
+                "id": "",
+                "children": [
+                  {
+                    "type": "PASAL_NUMBER",
+                    "text": "Pasal 18"
+                  },
+                  {
+                    "type": "PLAINTEXT",
+                    "text": "Cukup jelas."
+                  }
+                ]
+              },
+              {
+                "type": "PENJELASAN_PASAL",
+                "id": "",
+                "children": [
+                  {
+                    "type": "PASAL_NUMBER",
+                    "text": "Pasal 19"
+                  },
+                  {
+                    "type": "PLAINTEXT",
+                    "text": "Cukup jelas."
+                  }
+                ]
+              },
+              {
+                "type": "PENJELASAN_PASAL",
+                "id": "",
+                "children": [
+                  {
+                    "type": "PASAL_NUMBER",
+                    "text": "Pasal 20"
+                  },
+                  {
+                    "type": "PLAINTEXT",
+                    "text": "Cukup jelas."
+                  }
+                ]
+              },
+              {
+                "type": "PENJELASAN_PASAL",
+                "id": "",
+                "children": [
+                  {
+                    "type": "PASAL_NUMBER",
+                    "text": "Pasal 21"
+                  },
+                  {
+                    "type": "PLAINTEXT",
+                    "text": "Cukup jelas."
+                  }
+                ]
+              },
+              {
+                "type": "PENJELASAN_PASAL",
+                "id": "",
+                "children": [
+                  {
+                    "type": "PASAL_NUMBER",
+                    "text": "Pasal 22"
+                  },
+                  {
+                    "type": "LIST",
+                    "id": "",
+                    "children": [
+                      {
+                        "type": "PENJELASAN_LIST_ITEM",
+                        "id": "",
+                        "children": [
+                          {
+                            "type": "PENJELASAN_AYAT",
+                            "text": "Ayat (1)"
+                          },
+                          {
+                            "type": "PLAINTEXT",
+                            "text": "Menteri dalam ketentuan ini adalah pejabat negara sesuai dengan ketentuan peraturan perundang undangan."
+                          }
+                        ]
+                      },
+                      {
+                        "type": "PENJELASAN_LIST_ITEM",
+                        "id": "",
+                        "children": [
+                          {
+                            "type": "PENJELASAN_AYAT",
+                            "text": "Ayat (2)"
+                          },
+                          {
+                            "type": "LIST",
+                            "id": "",
+                            "children": [
+                              {
+                                "type": "PENJELASAN_LIST_ITEM",
+                                "id": "",
+                                "children": [
+                                  {
+                                    "type": "PENJELASAN_HURUF",
+                                    "text": "Huruf a"
+                                  },
+                                  {
+                                    "type": "PLAINTEXT",
+                                    "text": "Cukup jelas."
+                                  }
+                                ]
+                              },
+                              {
+                                "type": "PENJELASAN_LIST_ITEM",
+                                "id": "",
+                                "children": [
+                                  {
+                                    "type": "PENJELASAN_HURUF",
+                                    "text": "Huruf b"
+                                  },
+                                  {
+                                    "type": "PLAINTEXT",
+                                    "text": "Cukup jelas."
+                                  }
+                                ]
+                              },
+                              {
+                                "type": "PENJELASAN_LIST_ITEM",
+                                "id": "",
+                                "children": [
+                                  {
+                                    "type": "PENJELASAN_HURUF",
+                                    "text": "Huruf c"
+                                  },
+                                  {
+                                    "type": "PLAINTEXT",
+                                    "text": "Cukup jelas."
+                                  }
+                                ]
+                              },
+                              {
+                                "type": "PENJELASAN_LIST_ITEM",
+                                "id": "",
+                                "children": [
+                                  {
+                                    "type": "PENJELASAN_HURUF",
+                                    "text": "Huruf d"
+                                  },
+                                  {
+                                    "type": "PLAINTEXT",
+                                    "text": "Cukup jelas."
+                                  }
+                                ]
+                              },
+                              {
+                                "type": "PENJELASAN_LIST_ITEM",
+                                "id": "",
+                                "children": [
+                                  {
+                                    "type": "PENJELASAN_HURUF",
+                                    "text": "Huruf e"
+                                  },
+                                  {
+                                    "type": "PLAINTEXT",
+                                    "text": "Cukup jelas."
+                                  }
+                                ]
+                              },
+                              {
+                                "type": "PENJELASAN_LIST_ITEM",
+                                "id": "",
+                                "children": [
+                                  {
+                                    "type": "PENJELASAN_HURUF",
+                                    "text": "Huruf f"
+                                  },
+                                  {
+                                    "type": "PLAINTEXT",
+                                    "text": "Orang yang dipidana penjara karena alasan politik dan telah mendapatkan rehabilitasi dikecualikan dari ketentuan ini."
+                                  }
+                                ]
+                              }
+                            ]
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "PENJELASAN_PASAL",
+                "id": "",
+                "children": [
+                  {
+                    "type": "PASAL_NUMBER",
+                    "text": "Pasal 23"
+                  },
+                  {
+                    "type": "PLAINTEXT",
+                    "text": "Cukup jelas."
+                  }
+                ]
+              },
+              {
+                "type": "PENJELASAN_PASAL",
+                "id": "",
+                "children": [
+                  {
+                    "type": "PASAL_NUMBER",
+                    "text": "Pasal 24"
+                  },
+                  {
+                    "type": "PLAINTEXT",
+                    "text": "Cukup jelas."
+                  }
+                ]
+              },
+              {
+                "type": "PENJELASAN_PASAL",
+                "id": "",
+                "children": [
+                  {
+                    "type": "PASAL_NUMBER",
+                    "text": "Pasal 25"
+                  },
+                  {
+                    "type": "PLAINTEXT",
+                    "text": "Cukup jelas."
+                  }
+                ]
+              },
+              {
+                "type": "PENJELASAN_PASAL",
+                "id": "",
+                "children": [
+                  {
+                    "type": "PASAL_NUMBER",
+                    "text": "Pasal 26"
+                  },
+                  {
+                    "type": "PLAINTEXT",
+                    "text": "Cukup jelas."
+                  }
+                ]
+              },
+              {
+                "type": "PENJELASAN_PASAL",
+                "id": "",
+                "children": [
+                  {
+                    "type": "PASAL_NUMBER",
+                    "text": "Pasal 27"
+                  },
+                  {
+                    "type": "PLAINTEXT",
+                    "text": "Nomenklatur kementerian yang berlaku selama ini, seperti Departemen dan Kementerian Negara, diakui berdasarkan undang-undang ini dan tetap menjalankan tugas dan fungsinya sampai terbentuknya kementerian berdasarkan ketentuan dalam undang-undang ini."
+                  }
+                ]
+              },
+              {
+                "type": "PENJELASAN_PASAL",
+                "id": "",
+                "children": [
+                  {
+                    "type": "PASAL_NUMBER",
+                    "text": "Pasal 28"
+                  },
+                  {
+                    "type": "PLAINTEXT",
+                    "text": "Cukup jelas."
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}
