@@ -53,7 +53,7 @@ function sanitizeKetentuanUmum(
   for (let i = 0; i < spans.length; i++) {
     const isLinkable = spans[i].match(regex) != null;
     if (isLinkable) {
-      const word = spans[i].substring(2, spans[i].length - 1);
+      const word = spans[i].replace(/\${([^}]*)}/, '$1');
       linkedSpans.push(
         <span
           key={i}
