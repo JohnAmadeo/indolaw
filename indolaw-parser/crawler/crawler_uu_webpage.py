@@ -1,14 +1,7 @@
-from http import cookies
 import sys
 import os
 from selenium.webdriver.common.by import By
 import undetected_chromedriver as uc
-from selenium import webdriver
-from selenium.webdriver.common.keys import Keys
-from selenium.webdriver.support.ui import WebDriverWait
-from selenium.webdriver.support import expected_conditions as EC
-import time
-from http.cookies import SimpleCookie
 from bs4 import BeautifulSoup
 
 from drive import DriveUploader
@@ -58,8 +51,7 @@ def crawl_webpage(uu_name: str) -> None:
     target_txt_path = CURR_PATH + '../unparsed-laws/' + uu_name + '.txt';
 
     shutil.move(current_txt_path, target_txt_path)
-    os.remove(current_pdf_path)
-    
+    os.remove(current_pdf_path)   
 
 if __name__ == "__main__":
     if len(sys.argv) <= 1:
@@ -82,3 +74,4 @@ if __name__ == "__main__":
         crawl_webpage(uu_name)
 
     print(iterable)
+    print('Successfully retrieved all UUs above')
