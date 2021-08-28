@@ -20,9 +20,10 @@ def crawl_webpage(uu_name: str) -> None:
     opts.add_argument('--window-size=1920,1080')
     driver = uc.Chrome(options=opts)
 
-    uu_link = uu_name.replace('-', '+')
+    uu_link_components = uu_name.split('-')
+    uu_link = uu_link_components[0] + '+' + uu_link_components[2] + '+' + uu_link_components[1]
 
-    driver.get('https://www.google.com/search?q=hukumonline+' + uu_link)
+    driver.get('https://www.google.com/search?q=hukumonline+' + uu_link + '+site%3Ahukumonline.com')
 
     element = driver.find_element(By.XPATH, search_box_xpath)
     hj_url = element.get_dom_attribute('href')
