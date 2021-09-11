@@ -1,0 +1,1055 @@
+﻿www.hukumonline.com  
+UNDANG-UNDANG REPUBLIK INDONESIA  
+NOMOR 20 TAHUN 2002  
+TENTANG  
+KETENAGALISTRIKAN  
+DENGAN RAHMAT TUHAN YANG MAHA ESA  
+PRESIDEN REPUBLIK INDONESIA,  
+Menimbang:  
+a. bahwa tenaga listrik sangat bermanfaat untuk memajukan kesejahteraan umum, mencerdaskan  kehidupan bangsa, dan meningkatkan perekonomian dalam rangka mewujudkan masyarakat adil dan  makmur yang merata material dan spiritual berdasarkan Pancasila dan Undang-Undang Dasar 1945;  
+b. bahwa penyediaan tenaga listrik perlu diselenggarakan secara efisien melalui kompetisi dan transparansi  dalam iklim usaha yang sehat dengan pengaturan yang memberikan perlakuan yang sama kepada semua  pelaku usaha dan memberikan manfaat yang adil dan merata kepada konsumen;  
+c. bahwa dalam rangka pemenuhan kebutuhan tenaga listrik nasional dan penciptaan persaingan usaha  yang sehat, perlu diberi kesempatan yang sama kepada semua pelaku usaha untuk ikut serta dalam  usaha di bidang ketenagalistrikan;  
+d. bahwa penyediaan tenaga listrik perlu senantiasa memperhatikan kelestarian fungsi lingkungan hidup,  konservasi energi dan diversifikasi energi sebagaimana digariskan dalam kebijakan energi nasional,  keselamatan umum, tata ruang wilayah, dan pemanfaatan sebesar-besarnya barang dan jasa produksi  dalam negeri yang kompetitif dan menghasilkan nilai tambah agar dapat menghasilkan pengembangan  industri ketenagalistrikan nasional;  
+e. bahwa ada wilayah tertentu yang berada pada tahap pembangunan yang berbeda dan bahwa sebagian  anggota masyarakat berada pada tingkat perekonomian yang belum mapan sehingga kepentingan  masyarakat tersebut perlu dilindungi;  
+f. bahwa hak, kewajiban, dan tanggung jawab dalam penyediaan dan pemanfaatan tenaga listrik perlu  dilaksanakan dengan baik;  
+g. bahwa berdasarkan pertimbangan sebagaimana dimaksud dalam huruf a, huruf b, huruf c, huruf d, huruf  e, dan huruf f, Undang-undang Nomor 15 Tahun 1985 tentang Ketenagalistrikan tidak sesuai lagi dengan  perkembangan ketenagalistrikan sehingga perlu membentuk Undang-undang tentang Ketenagalistrikan  yang baru.  
+Mengingat:  
+Pasal 5 ayat (1), Pasal 20 ayat (1), Pasal 27 ayat (2), dan Pasal 33 Undang-Undang Dasar 1945 sebagaimana  telah diubah dengan Perubahan Keempat Undang-Undang Dasar 1945.  
+Dengan Persetujuan:  
+DEWAN PERWAKILAN RAKYAT REPUBLIK INDONESIA, 
+1 / 46  
+www.hukumonline.com  
+MEMUTUSKAN:  
+Menetapkan:  
+UNDANG-UNDANG TENTANG KETENAGALISTRIKAN  
+BAB I  
+KETENTUAN UMUM  
+Pasal 1  
+Dalam Undang-undang ini yang dimaksud dengan:  
+1. Ketenagalistrikan adalah segala sesuatu yang menyangkut penyediaan dan pemanfaatan tenaga listrik  serta usaha penunjang tenaga listrik.  
+2. Tenaga Listrik adalah suatu bentuk energi sekunder yang dibangkitkan, ditransmisikan, dan  didistribusikan untuk segala macam keperluan, tidak termasuk listrik yang dipakai untuk komunikasi,  elektronika, atau isyarat.  
+3. Penyediaan Tenaga Listrik adalah pengadaan tenaga listrik mulai dari titik pembangkitan sampai dengan  titik pemakaian.  
+4. Pemanfaatan Tenaga Listrik adalah penggunaan tenaga listrik mulai dari titik pemakaian.  
+5. Konsumen adalah setiap orang atau badan yang membeli tenaga listrik dari pemegang Izin Usaha  Penyediaan Tenaga Listrik untuk digunakan sebagai pemanfaatan akhir dan tidak untuk diperdagangkan.  
+6. Sistem Tenaga Listrik adalah rangkaian instalasi tenaga listrik dari pembangkitan, transmisi, dan distribusi  yang dioperasikan secara serentak dalam rangka penyediaan tenaga listrik.  
+7. Pembangkitan Tenaga Listrik adalah kegiatan memproduksi tenaga listrik.  
+8. Transmisi Tenaga Listrik adalah penyaluran tenaga listrik dari suatu sumber pembangkitan ke suatu  sistem distribusi atau kepada konsumen, atau penyaluran tenaga listrik antarsistem.  
+9. Distribusi Tenaga Listrik adalah penyaluran tenaga listrik dari sistem transmisi atau dari sistem  pembangkitan kepada konsumen.  
+10. Penjualan Tenaga Listrik adalah suatu kegiatan usaha penjualan tenaga listrik kepada konsumen.  
+11. Usaha Penjualan Tenaga Listrik adalah penyelenggara kegiatan usaha penjualan tenaga listrik kepada  konsumen yang tersambung pada tegangan rendah.  
+12. Agen Penjualan Tenaga Listrik adalah penyelenggara kegiatan usaha penjualan tenaga listrik kepada  konsumen yang tersambung pada tegangan tinggi dan tegangan menengah.  
+13. Pengelola Pasar Tenaga Listrik adalah penyelenggara kegiatan usaha untuk mempertemukan penawaran  dan permintaan tenaga listrik.  
+14. Pengoperasian Sistem Tenaga Listrik adalah suatu kegiatan usaha untuk mengendalikan dan  mengkoordinasikan antarsistem pembangkitan, transmisi, dan distribusi tenaga listrik.  
+15. Pengelola Sistem Tenaga Listrik adalah penyelenggara kegiatan usaha pengoperasian sistem tenaga  listrik yang bertanggung jawab dalam mengendalikan dan mengkoordinasikan antarsistem pembangkitan, 
+2 / 46  
+www.hukumonline.com  
+transmisi, dan distribusi, serta membuat rencana pengembangan sistem tenaga listrik.  
+16. Jaringan Transmisi Nasional adalah jaringan transmisi tegangan tinggi, ekstra tinggi, dan/atau ultra tinggi  untuk menyalurkan tenaga listrik bagi kepentingan umum yang ditetapkan Pemerintah sebagai jaringan  transmisi nasional.  
+17. Rencana Umum Ketenagalistrikan adalah rencana pengembangan sistem penyediaan tenaga listrik yang  meliputi bidang pembangkitan, transmisi, dan distribusi tenaga listrik yang diperlukan untuk memenuhi  kebutuhan tenaga listrik di suatu wilayah, antarwilayah, atau secara nasional.  
+18. Izin Usaha Penyediaan Tenaga Listrik adalah izin untuk melakukan usaha penyediaan tenaga listrik untuk  kepentingan umum.  
+19. Izin Operasi adalah izin untuk mengoperasikan instalasi penyediaan tenaga listrik untuk kepentingan  sendiri.  
+20. Instalasi Tenaga Listrik adalah bangunan sipil, elektromekanik, mesin, peralatan, saluran, dan  perlengkapannya yang digunakan untuk pembangkitan, konversi, transmisi, distribusi, dan pemanfaatan  tenaga listrik.  
+21. Usaha Penunjang Tenaga Listrik adalah usaha yang menunjang penyediaan tenaga listrik.  
+22. Izin Usaha Penunjang Tenaga Listrik adalah izin untuk melaksanakan satu atau lebih kegiatan usaha  penunjang tenaga listrik.  
+23. Menteri adalah Menteri yang bertanggung jawab di bidang ketenagalistrikan.  
+24. Pemerintah adalah Pemerintah Pusat yang terdiri atas Presiden dan para Menteri yang merupakan  perangkat Negara Kesatuan Republik Indonesia.  
+25. Pemerintah Daerah adalah Kepala Daerah beserta perangkat Daerah Otonom yang lain sebagai Badan  Eksekutif Daerah.  
+26. Badan Pengawas Pasar Tenaga Listrik adalah badan Pemerintah yang memiliki kewenangan dan  tanggung jawab dalam pengambilan keputusan yang independen untuk melaksanakan pengaturan dan  pengawasan penyediaan tenaga listrik.  
+27. Badan Usaha adalah setiap badan hukum yang dapat berbentuk Badan Usaha Milik Negara, Badan  Usaha Milik Daerah, koperasi atau swasta, yang didirikan sesuai dengan peraturan perundang-undangan  yang berlaku, menjalankan jenis usaha bersifat tetap dan terus menerus, bekerja dan berkedudukan  dalam wilayah Negara Kesatuan Republik Indonesia.  
+28. Badan Usaha Milik Negara adalah Badan Usaha yang oleh Pemerintah diserahi tugas semata-mata untuk  melaksanakan usaha penyediaan tenaga listrik untuk kepentingan umum.  
+29. Badan Usaha Milik Daerah adalah Badan Usaha yang oleh Pemerintah Daerah diserahi tugas  melaksanakan usaha ketenagalistrikan.  
+30. Koperasi adalah Badan Usaha yang beranggotakan orang seorang atau badan hukum koperasi dengan  melandaskan kegiatannya berdasarkan prinsip koperasi sekaligus sebagai gerakan ekonomi rakyat yang  berdasar atas asas kebersamaan yang lingkup usahanya di bidang ketenagalistrikan.  
+31. Swasta adalah badan hukum yang didirikan dan berdasarkan hukum di Indonesia yang berusaha di  bidang ketenagalistrikan.  
+32. Pemanfaat Tenaga Listrik adalah semua produk atau alat yang dalam pemanfaatannya menggunakan  tenaga listrik untuk berfungsinya produk atau alat tersebut.  
+33. Ganti kerugian hak atas tanah adalah penggantian atas nilai tanah berikut bangunan, tanaman, dan/atau  benda-benda lain yang terkait dengan tanah sebagai akibat pelepasan atau penyerahan hak atas tanah.  
+34. Kompensasi adalah pemberian sejumlah uang kepada pemegang hak atas tanah, bangunan, tanaman 
+3 / 46  
+www.hukumonline.com  
+dan/atau benda lain yang terkait dengan tanah tanpa dilakukan pelepasan atau penyerahan hak atas  tanah, bangunan, tanaman, dan/atau benda-benda lain yang terkait dengan tanah.  
+BAB II  
+ASAS DAN TUJUAN  
+Pasal 2  
+Penyelenggaraan usaha ketenagalistrikan menganut asas manfaat, efisiensi, berkeadilan, kebersamaan,  optimasi ekonomis dalam pemanfaatan sumber daya, berkelanjutan, percaya dan mengandalkan pada  kemampuan sendiri, keamanan dan keselamatan, serta kelestarian fungsi lingkungan hidup.  
+Pasal 3  
+(1) Penyelenggaraan usaha ketenagalistrikan bertujuan untuk menjamin tersedianya tenaga listrik dalam  jumlah cukup, kualitas yang baik, dan harga yang wajar untuk meningkatkan kesejahteraan dan  kemakmuran rakyat secara adil dan merata serta mendorong peningkatan kegiatan ekonomi yang  berkelanjutan.  
+(2) Untuk mencapai tujuan sebagaimana dimaksud dalam ayat (1), usaha ketenagalistrikan mendorong  Badan Usaha di dalam negeri menjadi lebih efisien dan mandiri agar mampu berperan dan bersaing di  dalam dan di luar negeri.  
+BAB III  
+PEMANFAATAN SUMBER ENERGI UNTUK PEMBANGKITAN TENAGA LISTRIK  
+Pasal 4  
+(1) Pembangkitan tenaga listrik memanfaatkan seoptimal mungkin sumber energi primer, baik yang tak  terbarukan maupun yang terbarukan dengan memperhatikan keekonomiannya yang terdapat di wilayah  Negara Kesatuan Republik Indonesia.  
+(2) Kebijakan penyediaan dan pemanfaatan sumber energi untuk pembangkitan tenaga listrik ditetapkan  Pemerintah dengan memperhatikan aspek keamanan, keseimbangan, dan kelestarian fungsi lingkungan  hidup.  
+(3) Guna menjamin ketersediaan energi primer untuk pembangkitan tenaga listrik, diprioritaskan penggunaan  sumber energi setempat dengan kewajiban mengutamakan pemanfaatan sumber energi terbarukan.  
+BAB IV  
+RENCANA UMUM KETENAGALISTRIKAN  
+Pasal 5  
+(1) Pemerintah Daerah menyusun Rencana Umum Ketenagalistrikan Daerah.  
+(2) Pemerintah menetapkan Rencana Umum Ketenagalistrikan Nasional. 
+4 / 46  
+www.hukumonline.com  
+(3) Dalam menyusun Rencana Umum Ketenagalistrikan Nasional sebagaimana dimaksud dalam ayat (2),  Pemerintah wajib mempertimbangkan Rencana Umum Ketenagalistrikan Daerah dan pendapat serta  masukan dari masyarakat.  
+(4) Menteri menetapkan pedoman tentang penyusunan Rencana Umum Ketenagalistrikan sebagaimana  dimaksud dalam ayat (1) dan ayat (2).  
+Pasal 6  
+(1) Pengelola Sistem Tenaga Listrik membuat Rencana Pengembangan Sistem Tenaga Listrik dengan  memperhatikan Rencana Umum Ketenagalistrikan Nasional sebagaimana dimaksud dalam Pasal 5 ayat  (2).  
+(2) Pada wilayah yang tidak atau belum dapat menerapkan kompetisi, Badan Usaha yang memiliki wilayah  usaha wajib membuat Rencana Penyediaan Tenaga Listrik berdasarkan Rencana Umum  Ketenagalistrikan Daerah sebagaimana dimaksud dalam Pasal 5 ayat (1) dan Rencana Umum  Ketenagalistrikan Nasional sebagaimana dimaksud dalam Pasal 5 ayat (2).  
+Pasal 7  
+Pemerintah dan Pemerintah Daerah menyediakan dana pembangunan sarana penyediaan tenaga listrik untuk  membantu kelompok masyarakat tidak mampu, pembangunan sarana penyediaan tenaga listrik di daerah yang  belum berkembang, pembangunan tenaga listrik di daerah terpencil, dan pembangunan listrik perdesaan.  
+BAB V  
+USAHA KETENAGALISTRIKAN  
+Bagian Pertama  
+Jenis Usaha  
+Pasal 8  
+(1) Usaha ketenagalistrikan terdiri dari Usaha Penyediaan Tenaga Listrik dan Usaha Penunjang Tenaga  Listrik.  
+(2) Usaha penyediaan tenaga listrik sebagaimana dimaksud dalam ayat (1) meliputi jenis usaha:  a. Pembangkitan Tenaga Listrik;  
+b. Transmisi Tenaga Listrik;  
+c. Distribusi Tenaga Listrik;  
+d. Penjualan Tenaga Listrik;  
+e. Agen Penjualan Tenaga Listrik;  
+f. Pengelola Pasar Tenaga Listrik; dan  
+g. Pengelola Sistem Tenaga Listrik.  
+(3) Usaha Penunjang Tenaga Listrik sebagaimana dimaksud dalam ayat (1) terdiri atas Usaha Jasa  Penunjang Tenaga Listrik dan Industri Penunjang Tenaga Listrik. 
+5 / 46  
+www.hukumonline.com  
+(4) Usaha Jasa Penunjang Tenaga Listrik sebagaimana dimaksud dalam ayat (3) meliputi jenis usaha:  a. konsultasi dalam bidang tenaga listrik;  
+b. pembangunan dan pemasangan instalasi tenaga listrik;  
+c. pengujian instalasi tenaga listrik;  
+d. pengoperasian instalasi tenaga listrik;  
+e. pemeliharaan instalasi tenaga listrik;  
+f. penelitian dan pengembangan;  
+g. pendidikan dan pelatihan; dan  
+h. usaha jasa lain yang secara langsung berkaitan dengan penyediaan tenaga listrik.  (5) Industri Penunjang Tenaga Listrik sebagaimana dimaksud dalam ayat (3) meliputi jenis usaha:  a. Industri Peralatan Tenaga Listrik; dan  
+b. Industri Pemanfaat Tenaga Listrik.  
+Bagian Kedua  
+Izin Usaha Penyediaan Tenaga Listrik dan Izin Operasi  
+Pasal 9  
+(1) Kegiatan Usaha Penyediaan Tenaga Listrik sebagaimana dimaksud dalam Pasal 8 ayat (2) di wilayah  yang menerapkan kompetisi dapat dilaksanakan oleh Badan Usaha setelah mendapatkan Izin Usaha  Penyediaan Tenaga Listrik sesuai dengan jenis usahanya dari Badan Pengawas Pasar Tenaga Listrik.  
+(2) Izin Usaha Penyediaan Tenaga Listrik sebagaimana dimaksud dalam ayat (1) dibedakan atas:  a. Izin Usaha Pembangkitan Tenaga Listrik;  
+b. Izin Usaha Transmisi Tenaga Listrik;  
+c. Izin Usaha Distribusi Tenaga Listrik;  
+d. Izin Usaha Penjualan Tenaga Listrik;  
+e. Izin Usaha Agen Penjualan Tenaga Listrik;  
+f. Izin Usaha Pengelola Pasar Tenaga Listrik; dan  
+g. Izin Usaha Pengelola Sistem Tenaga Listrik.  
+(3) Izin Usaha Penyediaan Tenaga Listrik sebagaimana dimaksud dalam ayat (2) dapat dikeluarkan setelah  memenuhi persyaratan teknis dan persyaratan administratif serta kelengkapan izin lainnya.  
+(4) Ketentuan mengenai syarat dan tata cara permohonan dan pemberian Izin Usaha Penyediaan Tenaga  Listrik sebagaimana dimaksud dalam ayat (1) diatur dengan Keputusan Ketua Badan Pengawas Pasar  Tenaga Listrik.  
+(5) Untuk Usaha Pembangkitan Tenaga Listrik, sebelum diterbitkan Izin Usaha Penyediaan Tenaga Listrik,  terlebih dahulu dikeluarkan izin prinsip kepada Badan Usaha yang telah memenuhi persyaratan  administratif dan persyaratan teknis.  
+(6) Apabila dalam batas waktu yang ditetapkan, pemegang izin prinsip atau Izin Usaha Penyediaan Tenaga 
+6 / 46  
+www.hukumonline.com  
+Listrik tidak dapat merealisasikan kegiatan usahanya, izin prinsip atau Izin Usaha Penyediaan Tenaga  Listrik dimaksud dinyatakan tidak berlaku lagi.  
+Pasal 10  
+Dalam hal kompetisi tidak atau belum dapat diterapkan, Izin Usaha Penyediaan Tenaga Listrik dikeluarkan  secara transparan dan akuntabel masing-masing oleh:  
+a. Bupati atau Walikota, untuk usaha penyediaan tenaga listrik di dalam daerahnya masing-masing yang  tidak terhubung dengan Jaringan Transmisi Nasional sesuai dengan Rencana Umum Ketenagalistrikan  Daerah;  
+b. Gubernur, untuk usaha penyediaan tenaga listrik lintas kabupaten atau kota, baik sarana maupun energi  listriknya, yang tidak terhubung dengan Jaringan Transmisi Nasional sesuai dengan Rencana Umum  Ketenagalistrikan Daerah;  
+c. Menteri, untuk usaha penyediaan tenaga listrik lintas propinsi, baik sarana maupun energi listriknya, yang  tidak terhubung ke dalam Jaringan Transmisi Nasional atau usaha penyediaan tenaga listrik yang  terhubung dengan Jaringan Transmisi Nasional sesuai dengan Rencana Umum Ketenagalistrikan  Nasional; atau  
+d. Menteri, untuk usaha penyediaan tenaga listrik yang dilakukan oleh Badan Usaha Milik Negara sesuai  dengan Rencana Umum Ketenagalistrikan Nasional.  
+Pasal 11  
+(1) Penyediaan tenaga listrik untuk kepentingan sendiri hanya dapat dilakukan berdasarkan Izin Operasi.  (2) Izin Operasi sebagaimana dimaksud dalam ayat (1) dikeluarkan masing-masing oleh:  a. Bupati/Walikota, apabila fasilitas instalasinya berada di dalam daerah kabupaten/kota;  b. Gubernur, apabila fasilitas instalasinya mencakup lintas kabupaten/kota dalam satu provinsi; atau  c. Menteri, apabila fasilitas instalasinya mencakup lintas provinsi.  
+Pasal 12  
+(1) Pemegang Izin Operasi dalam wilayah yang telah menerapkan kompetisi dapat menjual kelebihan tenaga  listrik untuk kepentingan umum setelah mendapat Izin Usaha Penyediaan Tenaga Listrik dari Badan  Pengawas Pasar Tenaga Listrik.  
+(2) Pemegang Izin Operasi dalam wilayah yang tidak atau belum menerapkan kompetisi dapat menjual  kelebihan tenaga listrik untuk kepentingan umum setelah mendapat persetujuan dari pejabat  sebagaimana dimaksud dalam Pasal 10.  
+Pasal 13  
+(1) Badan Pengawas Pasar Tenaga Listrik, Pemerintah, atau Pemerintah Daerah sesuai dengan  kewenangannya masing-masing dapat menyampaikan teguran tertulis, menangguhkan kegiatan,  membekukan kegiatan, atau mencabut Izin Usaha Penyediaan Tenaga Listrik sebagaimana dimaksud  dalam Pasal 9 dan Pasal 10 atau Izin Operasi sebagaimana dimaksud dalam Pasal 11 berdasarkan:  
+a. pelanggaran terhadap salah satu persyaratan yang tercantum dalam izin;  
+b. pengulangan pelanggaran atas persyaratan izin; dan/atau 
+7 / 46  
+www.hukumonline.com  
+c. tidak memenuhi persyaratan yang ditentukan berdasarkan Undang-undang ini.  
+(2) Sebelum melaksanakan pencabutan Izin Usaha Penyediaan Tenaga Listrik atau Izin Operasi  sebagaimana dimaksud dalam ayat (1), Badan Pengawas Pasar Tenaga Listrik, Pemerintah, atau  Pemerintah Daerah terlebih dahulu memberikan kesempatan selama jangka waktu tertentu kepada Badan  Usaha untuk memenuhi persyaratan yang ditetapkan.  
+Pasal 14  
+Ketentuan lebih lanjut mengenai Izin Usaha Penyediaan Tenaga Listrik sebagaimana dimaksud dalam Pasal 9  dan Pasal 10 serta Izin Operasi sebagaimana dimaksud dalam Pasal 11 diatur dengan Peraturan Pemerintah.  
+Bagian Ketiga  
+Usaha Penyediaan Tenaga Listrik di Wilayah Kompetisi  
+Pasal 15  
+(1) Penetapan wilayah yang menerapkan kompetisi dilakukan secara bertahap dan ditetapkan dengan  Peraturan Pemerintah.  
+(2) Syarat-syarat untuk penetapan wilayah yang menerapkan kompetisi tenaga listrik sebagaimana dimaksud  dalam ayat (1) meliputi:  
+a. tingkat harga jual tenaga listrik telah mencapai keekonomiannya;  
+b. kompetisi pasokan energi primer;  
+c. telah dibentuk Badan Pengawas Pasar Tenaga Listrik;  
+d. kesiapan aturan yang diperlukan dalam penerapan kompetisi;  
+e. kesiapan infrastruktur, perangkat keras dan perangkat lunak sistem tenaga listrik;  f. kondisi sistem yang memungkinkan untuk dilakukannya kompetisi;  
+g. kesetaraan Badan Usaha yang akan berkompetisi; dan  
+h. syarat-syarat lain yang ditetapkan dengan Keputusan Ketua Badan Pengawas Pasar Tenaga  Listrik.  
+Pasal 16  
+Usaha Penyediaan Tenaga Listrik sebagaimana dimaksud dalam Pasal 8 ayat (2) dilakukan secara terpisah  oleh Badan Usaha yang berbeda.  
+Pasal 17  
+(1) Usaha Pembangkitan Tenaga Listrik sebagaimana dimaksud dalam Pasal 8 ayat (2) huruf a dilakukan  berdasarkan kompetisi.  
+(2) Badan Usaha di bidang pembangkitan tenaga listrik di satu wilayah kompetisi dilarang menguasai pasar  berdasarkan Undang-undang ini.  
+(3) Larangan penguasaan pasar sebagaimana dimaksud dalam ayat (2) meliputi segala tindakan yang dapat 
+8 / 46  
+www.hukumonline.com  
+mengakibatkan terjadinya praktek monopoli dan persaingan usaha yang tidak sehat antara lain meliputi:  a. menguasai kepemilikan;  
+b. menguasai sebagian besar kapasitas terpasang pembangkitan tenaga listrik dalam satu wilayah  kompetisi;  
+c. menguasai sebagian besar kapasitas pembangkitan tenaga listrik pada posisi beban puncak;  d. menciptakan hambatan masuk pasar bagi Badan Usaha lainnya;  
+e. membatasi produksi tenaga listrik dalam rangka mempengaruhi pasar;  
+f. melakukan praktek diskriminasi;  
+g. melakukan jual rugi dengan maksud menyingkirkan usaha pesaingnya;  
+h. melakukan kecurangan usaha; dan/atau  
+i. melakukan persekongkolan dengan pihak lain.  
+(4) Ketentuan lebih lanjut mengenai larangan penguasaan pasar sebagaimana dimaksud dalam ayat (3)  diatur dengan Peraturan Pemerintah.  
+Pasal 18  
+(1) Usaha Transmisi Tenaga Listrik sebagaimana dimaksud dalam Pasal 8 ayat (2) huruf b tidak  dikompetisikan.  
+(2) Usaha Transmisi Tenaga Listrik yang tersambung dengan Jaringan Transmisi Nasional bersifat terbuka  dan memberikan perlakuan setara terhadap Usaha Pembangkitan Tenaga Listrik.  
+(3) Usaha Transmisi Tenaga Listrik dilaksanakan dengan memberikan kesempatan pertama kepada Badan  Usaha Milik Negara.  
+(4) Badan Usaha Transmisi Tenaga Listrik wajib memenuhi kebutuhan jaringan baru sesuai dengan rencana  pengembangan sistem tenaga listrik.  
+(5) Badan Pengawas Pasar Tenaga Listrik menetapkan wilayah usaha bagi Badan Usaha Transmisi Tenaga  Listrik.  
+Pasal 19  
+(1) Usaha Distribusi Tenaga Listrik sebagaimana dimaksud dalam Pasal 8 ayat (2) huruf c tidak  dikompetisikan.  
+(2) Usaha Distribusi Tenaga Listrik bersifat terbuka dan memberikan perlakuan setara kepada Usaha  Penjualan Tenaga Listrik dan Agen Penjualan Tenaga Listrik.  
+(3) Usaha Distribusi Tenaga Listrik dilaksanakan dengan memberikan kesempatan pertama kepada Badan  Usaha Milik Negara.  
+(4) Badan Usaha Distribusi Tenaga Listrik wajib memenuhi kebutuhan jaringan baru sesuai dengan rencana  pengembangan sistem tenaga listrik.  
+(5) Badan Pengawas Pasar Tenaga Listrik menetapkan wilayah usaha Badan Usaha Distribusi Tenaga Listrik.  Pasal 20 
+9 / 46  
+www.hukumonline.com  
+(1) Usaha Penjualan Tenaga Listrik sebagaimana dimaksud dalam Pasal 8 ayat (2) huruf d melakukan  penjualan tenaga listrik kepada konsumen yang tersambung pada jaringan tegangan rendah dalam  wilayah usaha tertentu.  
+(2) Wilayah usaha untuk Usaha Penjualan Tenaga Listrik sebagaimana dimaksud dalam ayat (1) ditetapkan  oleh Badan Pengawas Pasar Tenaga Listrik.  
+(3) Usaha Penjualan Tenaga Listrik dapat membeli tenaga listrik dari pasar tenaga listrik dan/atau secara  bilateral dari pembangkit lain.  
+(4) Ketentuan lebih lanjut mengenai pembelian tenaga listrik sebagaimana dimaksud dalam ayat (3) diatur  dengan Keputusan Ketua Badan Pengawas Pasar Tenaga Listrik.  
+Pasal 21  
+(1) Agen Penjualan Tenaga Listrik sebagaimana dimaksud dalam Pasal 8 ayat (2) huruf e melakukan  pelayanan penjualan tenaga listrik kepada konsumen yang tersambung pada tegangan tinggi dan  tegangan menengah.  
+(2) Dengan seizin Badan Pengawas Pasar Tenaga Listrik, Agen Penjualan Tenaga Listrik dapat melakukan  penjualan tenaga listrik kepada konsumen yang tersambung pada tegangan rendah.  
+(3) Penjualan tenaga listrik untuk konsumen oleh Agen Penjualan Tenaga Listrik sebagaimana dimaksud  dalam ayat (1) dan ayat (2) dilakukan berdasarkan kompetisi.  
+(4) Agen Penjualan Tenaga Listrik membeli tenaga listrik dari pasar tenaga listrik dan/atau secara bilateral  dari pembangkit tenaga listrik lain.  
+Pasal 22  
+(1) Pengelola Pasar Tenaga Listrik sebagaimana dimaksud dalam Pasal 8 ayat (2) huruf f dilaksanakan oleh  Badan Usaha yang akuntabel dan tidak berpihak dalam memberikan pelayanan pengelolaan pasar  tenaga listrik kepada Badan Usaha yang melakukan transaksi melalui jaringan transmisi tenaga listrik.  
+(2) Pengelola Pasar Tenaga Listrik dibiayai bersama oleh Badan Usaha yang bertransaksi dalam pasar  tenaga listrik.  
+(3) Ketentuan lebih lanjut mengenai pembiayaan sebagaimana dimaksud dalam ayat (2) diatur dengan  Keputusan Ketua Badan Pengawas Pasar Tenaga Listrik.  
+Pasal 23  
+(1) Pengelola Pasar Tenaga Listrik berfungsi untuk mempertemukan penawaran dan permintaan tenaga listrik  sesuai dengan aturan pasar yang mendorong efisiensi, keekonomian serta iklim kompetisi yang sehat.  
+(2) Ketentuan mengenai aturan pasar sebagaimana dimaksud dalam ayat (1) diatur dengan Keputusan Ketua  Badan Pengawas Pasar Tenaga Listrik dan tidak bertentangan dengan peraturan perundang-undangan  yang berlaku.  
+(3) Pengelola Pasar Tenaga Listrik bertugas:  
+a. melakukan koordinasi dengan Pengelola Sistem Tenaga Listrik dalam penyaluran tenaga listrik;  b. mengesahkan harga pasar tenaga listrik dan besarnya tenaga listrik yang disalurkan;  c. memberikan informasi hasil transaksi kepada semua pelaku transaksi pasar tenaga listrik;  d. menyelesaikan semua transaksi pasar tenaga listrik; 
+10 / 46  
+www.hukumonline.com  
+e. menyelesaikan perselisihan antarpelaku pasar yang timbul dalam proses transaksi tenaga listrik;  
+f. membuat laporan transaksi dari penjual dan pembeli kepada Badan Pengawas Pasar Tenaga  Listrik; dan  
+g. melakukan tugas lain yang berkaitan dengan pengelolaan pasar tenaga listrik yang ditentukan oleh  Badan Pengawas Pasar Tenaga Listrik.  
+Pasal 24  
+(1) Pengelola Sistem Tenaga Listrik sebagaimana dimaksud dalam Pasal 8 ayat (2) huruf g dilaksanakan oleh  Badan Usaha yang akuntabel dan tidak berpihak dalam memberikan pelayanan operasi sistem tenaga  listrik kepada Badan Usaha yang melakukan transaksi melalui jaringan transmisi tenaga listrik.  
+(2) Pengelola Sistem Tenaga Listrik dibiayai bersama oleh Badan Usaha yang bertransaksi dalam pasar  tenaga listrik.  
+(3) Ketentuan lebih lanjut mengenai pembiayaan sebagaimana dimaksud dalam ayat (2) diatur dengan  Keputusan Ketua Badan Pengawas Pasar Tenaga Listrik.  
+Pasal 25  
+(1) Pengelola Sistem Tenaga Listrik berfungsi mengelola operasi sistem tenaga listrik untuk memperoleh  sistem yang andal, aman, dan bermutu sesuai dengan aturan jaringan transmisi tenaga listrik yang  berlaku.  
+(2) Ketentuan mengenai aturan jaringan transmisi tenaga listrik sebagaimana dimaksud dalam ayat (1)  ditetapkan dengan Keputusan Ketua Badan Pengawas Pasar Tenaga Listrik.  
+(3) Pengelola Sistem Tenaga Listrik bertugas:  
+a. membuat rencana pengembangan sistem tenaga listrik;  
+b. menjaga tingkat keamanan, mutu, dan keandalan sistem tenaga listrik sesuai dengan standar yang  berlaku;  
+c. membuat prakiraan beban dan rencana pembebanan pembangkit tenaga listrik berdasarkan  informasi Pengelola Pasar Tenaga Listrik;  
+d. mengkoordinasikan rencana pemeliharaan pembangkit dan jaringan transmisi tenaga listrik;  e. memberikan perintah operasi kepada pembangkit dan transmisi tenaga listrik;  
+f. memberikan informasi kepada Pengelola Pasar Tenaga Listrik untuk penyelesaian transaksi jual  beli tenaga listrik;  
+g. menjamin pasokan tenaga listrik; dan  
+h. melakukan tugas lain yang berkaitan dengan pengelolaan sistem tenaga listrik yang ditetapkan  dengan Keputusan Ketua Badan Pengawas Pasar Tenaga Listrik.  
+Pasal 26  
+Kepemilikan Badan Usaha Pengelola Pasar Tenaga Listrik dan Badan Usaha Pengelola Sistem Tenaga Listrik  sebagaimana dimaksud dalam Pasal 8 ayat (2) diatur dengan Keputusan Ketua Badan Pengawas Pasar Tenaga  Listrik. 
+11 / 46  
+www.hukumonline.com  
+Pasal 27  
+Persyaratan dan tata cara pengadaan dan pengangkatan pegawai Pengelola Pasar Tenaga Listrik dan  Pengelola Sistem Tenaga Listrik ditetapkan dengan Keputusan Ketua Badan Pengawas Pasar Tenaga Listrik.  
+Pasal 28  
+(1) Dalam hal kegiatan Usaha Transmisi Tenaga Listrik sebagaimana dimaksud dalam Pasal 8 ayat (2) huruf  b, Pengelola Pasar Tenaga Listrik sebagaimana dimaksud dalam Pasal 8 ayat (2) huruf f, dan Pengelola  Sistem Tenaga Listrik sebagaimana dimaksud dalam Pasal 8 ayat (2) huruf g belum siap untuk  dipisahkan, ketiga kegiatan usaha tersebut dapat dilakukan secara bersama dalam satu Badan Usaha  dengan fungsi dan peran yang terpisah dan dilaksanakan oleh Badan Usaha Milik Negara.  
+(2) Dalam hal kegiatan Usaha Pengelola Pasar Tenaga Listrik sebagaimana dimaksud dalam Pasal 8 ayat (2)  huruf f dan Pengelola Sistem Tenaga Listrik sebagaimana dimaksud dalam Pasal 8 ayat (2) huruf g belum  siap untuk dipisahkan, kedua kegiatan usaha tersebut dapat dilakukan secara bersama dalam satu Badan  Usaha dengan fungsi dan peran yang terpisah dan dilaksanakan oleh Badan Usaha Milik Negara.  
+(3) Ketentuan mengenai penggabungan dan pemisahan sebagaimana dimaksud dalam ayat (1) dan ayat (2)  diatur dengan Keputusan Ketua Badan Pengawas Pasar Tenaga Listrik.  
+Pasal 29  
+(1) Pemegang Izin Usaha Penyediaan Tenaga Listrik dilarang melakukan penggabungan usaha dalam suatu  jaringan terinterkoneksi pada wilayah yang dikompetisikan yang dapat mengakibatkan terjadinya  penguasaan pasar dan persaingan usaha yang tidak sehat.  
+(2) Penggabungan usaha dalam suatu wilayah yang dikompetisikan yang mendorong efisiensi, tetapi tidak  mengganggu kompetisi, dapat dilakukan dengan persetujuan Badan Pengawas Pasar Tenaga Listrik.  
+Bagian Keempat  
+Usaha Penyediaan Tenaga Listrik di Wilayah yang Tidak atau Belum Menerapkan Kompetisi  
+Pasal 30  
+(1) Di wilayah yang tidak atau belum dapat menerapkan kompetisi karena kondisi tertentu, usaha penyediaan  tenaga listrik sebagaimana dimaksud dalam Pasal 8 ayat (2) dapat dilakukan secara terintegrasi.  
+(2) Kegiatan usaha penyediaan tenaga listrik sebagaimana dimaksud dalam ayat (1) dilakukan oleh Badan  Usaha Milik Negara, Badan Usaha Milik Daerah, koperasi, swasta, atau swadaya masyarakat yang  ditetapkan oleh Pemerintah.  
+(3) Dengan pertimbangan pengembangan sistem ketenagalistrikan yang lebih efisien, kegiatan usaha  penyediaan tenaga listrik sebagaimana dimaksud dalam ayat (1) dilaksanakan dengan memberikan  kesempatan pertama kepada Badan Usaha Milik Negara.  
+(4) Badan Usaha Milik Negara, Badan Usaha Milik Daerah, koperasi, swasta, atau swadaya masyarakat  sebagaimana dimaksud dalam ayat (2) wajib memenuhi kebutuhan tenaga listrik di dalam wilayah  usahanya.  
+(5) Dalam hal Badan Usaha Milik Negara, Badan Usaha Milik Daerah, koperasi, swasta, atau swadaya  masyarakat sebagaimana dimaksud dalam ayat (4) tidak dapat memenuhi kebutuhan tenaga listrik, maka  Pemerintah Daerah atau Pemerintah berkewajiban memenuhinya. 
+12 / 46  
+www.hukumonline.com  
+Bagian Kelima  
+Usaha Penunjang Tenaga Listrik  
+Pasal 31  
+(1) Kegiatan Usaha Penunjang Tenaga Listrik sebagaimana dimaksud dalam Pasal 8 ayat (3) dapat  dilaksanakan oleh Badan Usaha setelah mendapatkan Izin Usaha Penunjang Tenaga Listrik dari  Pemerintah Daerah.  
+(2) Ketentuan mengenai Usaha Penunjang Tenaga Listrik sebagaimana dimaksud dalam Pasal 8 ayat (3) dan  ketentuan mengenai Izin Usaha Penunjang Tenaga Listrik diatur lebih lanjut dengan Peraturan  Pemerintah.  
+(3) Untuk jenis-jenis Usaha Penunjang Tenaga Listrik sebagaimana dimaksud dalam Pasal 8 ayat (3) yang  berkaitan dengan jasa konstruksi diatur tersendiri dalam undang-undang di bidang jasa konstruksi.  
+BAB VI  
+HAK DAN KEWAJIBAN PEMEGANG IZIN USAHA PENYEDIAAN TENAGA LISTRIK DAN KONSUMEN  TENAGA LISTRIK  
+Bagian Pertama  
+Hak dan Kewajiban Pemegang Izin Usaha Penyediaan Tenaga Listrik  
+Pasal 32  
+(1) Untuk kepentingan umum, pemegang Izin Usaha Penyediaan Tenaga Listrik dalam melaksanakan usaha  penyediaan tenaga listrik sebagaimana dimaksud dalam Pasal 8 ayat (2) huruf a, huruf b, dan huruf c  diberi kewenangan untuk:  
+a. melintas sungai atau danau baik di atas maupun di bawah permukaan;  
+b. melintas laut baik di atas maupun di bawah permukaan; dan  
+c. melintas jalan umum dan jalan kereta api.  
+(2) Sepanjang tidak bertentangan dan dengan memperhatikan peraturan perundang-undangan yang berlaku,  untuk kepentingan umum pemegang Izin Usaha Penyediaan Tenaga Listrik juga diberi kewenangan  untuk:  
+a. masuk ke tempat umum atau perorangan dan menggunakannya untuk sementara waktu;  b. menggunakan tanah, melintas di atas atau di bawah tanah;  
+c. melintas di atas atau di bawah bangunan yang dibangun di atas atau di bawah tanah; dan  d. memotong dan/atau menebang tanaman yang menghalanginya.  
+(3) Dalam melaksanakan kegiatan sebagaimana dimaksud dalam ayat (2), pemegang Izin Usaha Penyediaan  Tenaga Listrik harus mendapat persetujuan terlebih dahulu dari pihak yang berhak atas tanah, bangunan,  dan/atau tanaman. 
+13 / 46  
+www.hukumonline.com  
+Pasal 33  
+Pemegang Izin Usaha Penyediaan Tenaga Listrik wajib:  
+a. menyediakan tenaga listrik yang memenuhi standar mutu dan keandalan yang berlaku;  
+b. memberikan pelayanan yang sebaik-baiknya kepada masyarakat dan memperhatikan hak-hak konsumen  sesuai peraturan perundang-undangan yang berlaku di bidang perlindungan konsumen; dan  
+c. memperhatikan keselamatan ketenagalistrikan.  
+Bagian Kedua  
+Hak dan Kewajiban Konsumen Tenaga Listrik  
+Pasal 34  
+(1) Konsumen tenaga listrik mempunyai hak untuk:  
+a. mendapat pelayanan yang baik;  
+b. mendapat tenaga listrik secara terus menerus dengan mutu dan keandalan yang baik;  c. memperoleh tenaga listrik dengan harga yang wajar;  
+d. mendapat pelayanan untuk perbaikan apabila ada gangguan tenaga listrik; dan  
+e. mendapat ganti rugi apabila terjadi pemadaman yang diakibatkan kesalahan dan/atau kelalaian  pengoperasian oleh pemegang Izin Usaha Penyediaan Tenaga Listrik sesuai syarat-syarat yang  diatur dalam perjanjian jual beli tenaga listrik.  
+(2) Konsumen tenaga listrik mempunyai kewajiban:  
+a. melaksanakan pengamanan terhadap bahaya yang mungkin timbul akibat pemanfaatan tenaga  listrik;  
+b. menjaga keamanan instalasi ketenagalistrikan;  
+c. memanfaatkan tenaga listrik sesuai dengan peruntukannya; dan  
+d. membayar uang langganan atau harga tenaga listrik sesuai ketentuan atau perjanjian.  
+(3) Konsumen tenaga listrik bertanggung jawab apabila karena kelalaiannya mengakibatkan kerugian pada  pemegang Izin Usaha Penyediaan Tenaga Listrik.  
+(4) Konsumen tenaga listrik wajib menaati persyaratan teknis di bidang ketenagalistrikan.  
+BAB VII  
+PENGGUNAAN TANAH OLEH PEMEGANG IZIN USAHA PENYEDIAAN TENAGA LISTRIK  
+Pasal 35  
+(1) Untuk kepentingan umum, pihak yang berhak atas tanah, bangunan, dan tanaman mengizinkan  pemegang Izin Usaha Penyediaan Tenaga Listrik melaksanakan kewenangannya sebagaimana dimaksud  dalam Pasal 32 ayat (2), dengan mendapatkan ganti kerugian hak atas tanah atau kompensasi.  
+(2) Ganti kerugian hak atas tanah sebagaimana dimaksud dalam ayat (1) adalah untuk tanah yang 
+14 / 46  
+www.hukumonline.com  
+dipergunakan secara langsung oleh pemegang Izin Usaha Penyediaan Tenaga Listrik, dan untuk  bangunan dan tanaman di atas tanah dimaksud.  
+(3) Kompensasi sebagaimana dimaksud dalam ayat (1) diberikan sebagai akibat dari berkurangnya nilai  ekonomis atas tanah, bangunan dan tanaman yang dilintasi transmisi tenaga listrik.  
+(4) Ketentuan lebih lanjut mengenai perhitungan kompensasi sebagaimana dimaksud dalam ayat (3) diatur  dengan Peraturan Pemerintah.  
+(5) Apabila tanah yang digunakan pemegang Izin Usaha Penyediaan Tenaga Listrik terdapat bagian-bagian  tanah yang dikuasai oleh pemegang hak atas tanah atau pemakai tanah negara, sebelum memulai  kegiatan, pemegang Izin Usaha Penyediaan Tenaga Listrik wajib menyelesaikan masalah tanah tersebut  sesuai peraturan perundang-undangan di bidang pertanahan.  
+(6) Dalam hal tanah yang digunakan pemegang Izin Usaha Penyediaan Tenaga Listrik terdapat tanah ulayat  dan yang serupa dari masyarakat hukum adat sepanjang kenyataannya masih ada, penyelesaiannya  dilakukan oleh pemegang Izin Usaha Penyediaan Tenaga Listrik dengan masyarakat hukum adat yang  bersangkutan sesuai peraturan perundang-undangan di bidang pertanahan dengan memperhatikan  ketentuan hukum adat setempat .  
+Pasal 36  
+Kewajiban untuk memberi ganti kerugian hak atas tanah atau kompensasi sebagaimana dimaksud dalam Pasal  35 ayat (1) tidak berlaku terhadap mereka yang sengaja mendirikan bangunan, menanam tanaman dan lain-lain  di atas tanah yang sudah memiliki izin lokasi untuk usaha penyediaan tenaga listrik dan sudah diberikan ganti  rugi atau kompensasi.  
+Pasal 37  
+(1) Penetapan, tata cara, dan pembayaran ganti kerugian hak atas tanah atau kompensasi sebagaimana  dimaksud dalam Pasal 35 dilakukan sesuai dengan ketentuan peraturan perundang-undangan yang  berlaku.  
+(2) Ganti kerugian hak atas tanah atau kompensasi sebagaimana dimaksud dalam Pasal 35 dibebankan  kepada pemegang Izin Usaha Penyediaan Tenaga Listrik.  
+BAB VIII  
+HARGA JUAL TENAGA LISTRIK  
+Pasal 38  
+(1) Harga Jual Tenaga Listrik di sisi pembangkit tenaga listrik dan harga jual tenaga listrik untuk konsumen  tegangan tinggi dan konsumen tegangan menengah didasarkan pada kompetisi yang wajar dan sehat  serta diawasi oleh Badan Pengawas Pasar Tenaga Listrik.  
+(2) Harga jual tenaga listrik untuk konsumen tegangan rendah diatur oleh Badan Pengawas Pasar Tenaga  Listrik.  
+(3) Dalam hal kompetisi baru diterapkan pada pembangkit, harga jual tenaga listrik untuk konsumen diatur  oleh Badan Pengawas Pasar Tenaga Listrik.  
+Pasal 39 
+15 / 46  
+www.hukumonline.com  
+(1) Penetapan biaya penyediaan fasilitas untuk menjaga mutu dan keandalan tenaga listrik dilakukan Badan  Pengawas Pasar Tenaga Listrik berdasarkan kontrak antara Pengelola Sistem Tenaga Listrik dengan  Badan Usaha Pembangkitan Tenaga Listrik dan Badan Usaha Transmisi Tenaga Listrik.  
+(2) Pengelola Pasar Tenaga Listrik membayar biaya sebagaimana dimaksud dalam ayat (1) kepada Badan  Usaha Pembangkitan Tenaga Listrik dan Badan Usaha Transmisi Tenaga Listrik yang bersangkutan  melalui Pengelola Sistem Tenaga Listrik.  
+(3) Ketentuan lebih lanjut mengenai mekanisme dan besar pembayaran sebagaimana dimaksud dalam ayat  (1) dan ayat (2) diatur dengan Peraturan Pemerintah.  
+Pasal 40  
+Penetapan harga sewa jaringan transmisi dan harga sewa jaringan distribusi tenaga listrik dilakukan oleh Badan  Pengawas Pasar Tenaga Listrik.  
+Pasal 41  
+Dalam hal kompetisi tidak atau belum dapat diterapkan sebagaimana dimaksud dalam Pasal 30 ayat (1), harga  jual tenaga listrik untuk konsumen diatur oleh Pemerintah atau Pemerintah Daerah.  
+Pasal 42  
+Harga Jual Tenaga Listrik sebagaimana dimaksud dalam Pasal 38 dan Pasal 41, biaya penyediaan fasilitas  sebagaimana dimaksud dalam Pasal 39, dan harga sewa jaringan transmisi dan harga sewa jaringan distribusi  tenaga listrik sebagaimana dimaksud dalam Pasal 40 dinyatakan dalam mata uang Rupiah.  
+Pasal 43  
+Dalam mengatur harga jual tenaga listrik sebagaimana dimaksud dalam Pasal 38 ayat (2) dan ayat (3) serta  Pasal 41, Pemerintah, Pemerintah Daerah atau Badan Pengawas Pasar Tenaga Listrik wajib memperhatikan  hal-hal sebagai berikut:  
+a. kepentingan nasional;  
+b. kepentingan konsumen;  
+c. kaidah-kaidah industri dan niaga yang sehat;  
+d. biaya produksi;  
+e. efisiensi pengusahaan;  
+f. kelangkaan dan sifat-sifat khusus sumber energi primer yang digunakan;  
+g. skala pengusahaan dan interkoneksi sistem yang dipakai;  
+h. biaya pelestarian fungsi lingkungan hidup;  
+i. kemampuan masyarakat; dan  
+j. mutu dan keandalan penyediaan tenaga listrik.  
+Pasal 44 
+16 / 46  
+www.hukumonline.com  
+Ketentuan mengenai harga jual tenaga listrik sebagaimana dimaksud dalam Pasal 38 dan Pasal 41 serta harga  sewa sebagaimana dimaksud dalam Pasal 40 diatur lebih lanjut dengan Peraturan Pemerintah.  
+Pasal 45  
+Ketentuan mengenai jual beli tenaga listrik antarnegara diatur lebih lanjut dengan Peraturan Pemerintah.  
+BAB IX  
+PENERIMAAN NEGARA  
+Pasal 46  
+(1) Penerimaan negara di sektor ketenagalistrikan berasal dari penerimaan perpajakan dan Penerimaan  Negara Bukan Pajak.  
+(2) Penerimaan Negara Bukan Pajak sebagaimana dimaksud dalam ayat (1) berupa pungutan sarana  transmisi dan pungutan sarana distribusi tenaga listrik.  
+(3) Pungutan sebagaimana dimaksud dalam ayat (2) digunakan untuk pengembangan jaringan transmisi dan  distribusi tenaga listrik di wilayah yang belum berkembang.  
+(4) Tata cara, penetapan besaran, pengenaan, pemungutan, dan penggunaan Penerimaan Negara Bukan  Pajak sebagaimana dimaksud dalam ayat (2) dan ayat (3) diatur lebih lanjut dengan Peraturan  Pemerintah.  
+BAB X  
+LINGKUNGAN HIDUP DAN KESELAMATAN KETENAGALISTRIKAN  
+Pasal 47  
+Setiap kegiatan usaha ketenagalistrikan wajib memenuhi ketentuan yang disyaratkan dalam peraturan  perundang-undangan di bidang lingkungan hidup.  
+Pasal 48  
+(1) Setiap kegiatan usaha ketenagalistrikan wajib memenuhi ketentuan mengenai keselamatan  ketenagalistrikan.  
+(2) Ketentuan mengenai keselamatan ketenagalistrikan sebagaimana dimaksud dalam ayat (1) meliputi  standardisasi, pengamanan instalasi tenaga listrik dan pengamanan pemanfaat tenaga listrik untuk  mewujudkan kondisi andal dan aman bagi instalasi dan kondisi aman dari bahaya bagi manusia serta  kondisi akrab lingkungan.  
+(3) Setiap instalasi tenaga listrik yang akan beroperasi wajib memiliki sertifikat laik operasi.  (4) Setiap pemanfaat tenaga listrik yang akan diperjualbelikan wajib memiliki tanda keselamatan.  (5) Setiap tenaga teknik dalam usaha ketenagalistrikan wajib memiliki sertifikat kompetensi.  
+(6) Ketentuan mengenai keselamatan ketenagalistrikan, sertifikat laik operasi, tanda keselamatan, dan  sertifikat kompetensi sebagaimana dimaksud dalam ayat (2), ayat (3), ayat (4), dan ayat (5) diatur 
+17 / 46  
+www.hukumonline.com  
+dengan Peraturan Pemerintah.  
+BAB XI  
+PEMANFAATAN JARINGAN TENAGA LISTRIK UNTUK KEPENTINGAN LAIN  
+Pasal 49  
+(1) Jaringan tenaga listrik dapat dimanfaatkan untuk kepentingan di luar penyaluran tenaga listrik.  
+(2) Pemanfaatan jaringan tenaga listrik sebagaimana dimaksud dalam ayat (1) hanya dapat dilakukan  dengan izin pemilik jaringan.  
+(3) Ketentuan mengenai perizinan sebagaimana dimaksud dalam ayat (2) diatur lebih lanjut oleh Menteri.  
+BAB XII  
+PEMBINAAN DAN PENGAWASAN  
+Pasal 50  
+(1) Pemerintah, Pemerintah Daerah dan Badan Pengawas Pasar Tenaga Listrik melakukan pembinaan dan  pengawasan umum terhadap usaha ketenagalistrikan sesuai dengan kewenangannya masing-masing.  
+(2) Pembinaan dan pengawasan umum sebagaimana dimaksud dalam ayat (1) terutama meliputi:  a. keselamatan pada keseluruhan sistem penyediaan tenaga listrik;  
+b. pengembangan usaha;  
+c. optimasi pemanfaatan sumber energi setempat, termasuk pemanfaatan energi terbarukan;  d. aspek lindungan lingkungan;  
+e. pemanfaatan proses teknologi yang bersih, ramah lingkungan dan berefisiensi tinggi pada  pembangkitan tenaga listrik;  
+f. pemanfaatan barang dan jasa dalam negeri, termasuk rekayasa dan kompetensi tenaga teknik;  g. keandalan dan kecukupan penyediaan tenaga listrik; dan  
+h. tercapainya standardisasi dalam bidang ketenagalistrikan.  
+(3) Tata cara pembinaan dan pengawasan umum sebagaimana dimaksud dalam ayat (1) dan ayat (2) diatur  dengan Peraturan Pemerintah.  
+BAB XIII  
+BADAN PENGAWAS PASAR TENAGA LISTRIK  
+Pasal 51  
+(1) Untuk mengatur dan mengawasi terselenggaranya kompetisi penyediaan tenaga listrik, dibentuk satu  badan yang disebut Badan Pengawas Pasar Tenaga Listrik. 
+18 / 46  
+www.hukumonline.com  
+(2) Badan Pengawas Pasar Tenaga Listrik sebagaimana dimaksud dalam ayat (1) berfungsi mengatur dan  mengawasi usaha penyediaan tenaga listrik di wilayah yang telah menerapkan kompetisi.  
+Pasal 52  
+Untuk melaksanakan fungsi sebagaimana dimaksud dalam Pasal 51, Badan Pengawas Pasar Tenaga Listrik  bertugas dan berwenang:  
+a. menjabarkan dan menerapkan kebijakan umum Pemerintah dalam pengaturan usaha penyediaan tenaga  listrik;  
+b. mencegah persaingan usaha tidak sehat;  
+c. mengatur harga jual tenaga listrik pada Usaha Penjualan Tenaga Listrik sebagaimana dimaksud dalam  Pasal 38 ayat (2), biaya penyediaan fasilitas untuk menjaga mutu dan keandalan sistem tenaga listrik  sebagaimana dimaksud dalam Pasal 39, dan harga sewa transmisi dan harga sewa distribusi tenaga  listrik sebagaimana dimaksud dalam Pasal 40;  
+d. memantau dan mengawasi pelaksanaan ketentuan mengenai pungutan sarana transmisi dan pungutan  sarana distribusi tenaga listrik sebagaimana dimaksud dalam Pasal 46 ayat (2) dan ayat (3);  
+e. mengawasi harga jual tenaga listrik pada sisi yang dikompetisikan pada Usaha Pembangkitan dan Agen  Penjualan Tenaga Listrik sebagaimana dimaksud dalam Pasal 38 ayat ( 1);  
+f. mengatur dan mengawasi Usaha Pengelola Pasar Tenaga Listrik dan Usaha Pengelola Sistem Tenaga  Listrik;  
+g. menetapkan wilayah Usaha Distribusi Tenaga Listrik dan Usaha Penjualan Tenaga Listrik;  
+h. menerbitkan Izin Usaha Penyediaan Tenaga Listrik untuk setiap jenis Usaha Penyediaan Tenaga Listrik  sebagaimana dimaksud dalam Pasal 8 ayat (2);  
+i. memastikan bahwa ketentuan peraturan perundang-undangan dan ketentuan izin dipatuhi oleh pemegang  Izin Usaha Penyediaan Tenaga Listrik;  
+j. melakukan dengar pendapat dengan publik dan menetapkan aturan penanganan pengaduan konsumen.  k. memfasilitasi penyelesaian perselisihan yang timbul dalam kompetisi dan pelayanan;  
+l. menerapkan sanksi administratif kepada pemegang Izin Usaha Penyediaan Tenaga Listrik atas  pelanggaran ketentuan peraturan perundang-undangan dan perizinan; dan  
+m. menjamin pasokan tenaga listrik.  
+Pasal 53  
+Untuk wilayah yang tidak atau belum dapat menerapkan kompetisi, fungsi pengaturan sebagaimana dimaksud  dalam Pasal 51 dilaksanakan oleh Pemerintah atau Pemerintah Daerah sesuai kewenangannya.  
+Pasal 54  
+Badan Pengawas Pasar Tenaga Listrik mengambil keputusan secara akuntabel dan tidak memihak serta  menjelaskan secara transparan segala pertimbangan dalam pengambilan keputusannya.  
+Pasal 55 
+19 / 46  
+www.hukumonline.com  
+(1) Badan Pengawas Pasar Tenaga Listrik bertanggung jawab kepada Presiden.  
+(2) Anggota Badan Pengawas Pasar Tenaga Listrik paling sedikit terdiri atas 5 (lima) orang dan paling banyak  terdiri atas 11 (sebelas) orang.  
+(3) Ketua dipilih dari dan oleh anggota Badan Pengawas Pasar Tenaga Listrik, yang merangkap sebagai  anggota.  
+(4) Anggota Badan Pengawas Pasar Tenaga Listrik diangkat oleh Presiden atas persetujuan Dewan  Perwakilan Rakyat Republik Indonesia.  
+(5) Masa jabatan anggota Badan Pengawas Pasar Tenaga Listrik adalah 5 (lima) tahun dan dapat diangkat  kembali maksimal 1 (satu) kali masa jabatan berikutnya.  
+(6) Apabila karena berakhirnya masa jabatan akan terjadi kekosongan dalam keanggotaan Badan Pengawas  Pasar Tenaga Listrik, maka masa jabatan anggota dapat diperpanjang sampai pengangkatan anggota  baru.  
+Pasal 56  
+Ketentuan lebih lanjut mengenai organisasi, tata kerja, uraian tugas, keanggotaan, kode etik, dan sistem  penggajian Badan Pengawas Pasar Tenaga Listrik diatur dengan Peraturan Pemerintah.  
+Pasal 57  
+Anggaran untuk pelaksanaan tugas Badan Pengawas Pasar Tenaga Listrik diperoleh dari:  a. Anggaran Pendapatan dan Belanja Negara; dan  
+b. sumber-sumber lain yang diperbolehkan sesuai peraturan perundang-undangan yang berlaku.  
+BAB XIV  
+PENYIDIKAN  
+Pasal 58  
+(1) Selain Penyidik Pejabat Polisi Negara Republik Indonesia, juga Pejabat Pegawai Negeri Sipil tertentu  yang lingkup tugas dan tanggung jawabnya di bidang ketenagalistrikan, diberi wewenang khusus sebagai  Penyidik sebagaimana dimaksud dalam Undang-undang Hukum Acara Pidana, untuk melakukan  penyidikan tindak pidana di bidang ketenagalistrikan.  
+(2) Penyidik Pegawai Negeri Sipil sebagaimana dimaksud dalam ayat (1) berwenang:  
+a. melakukan pemeriksaan atas kebenaran laporan atau keterangan berkenaan dengan tindak pidana  dalam kegiatan usaha ketenagalistrikan;  
+b. melakukan pemeriksaan terhadap orang atau Badan Usaha yang diduga melakukan tindak pidana  dalam kegiatan usaha ketenagalistrikan;  
+c. memanggil orang untuk didengar dan diperiksa sebagai saksi atau tersangka dalam perkara tindak  pidana dalam kegiatan usaha ketenagalistrikan;  
+d. menggeledah tempat yang diduga digunakan untuk melakukan tindak pidana dalam kegiatan usaha  ketenagalistrikan; 
+20 / 46  
+www.hukumonline.com  
+e. melakukan pemeriksaan sarana dan prasarana kegiatan usaha ketenagalistrikan dan  menghentikan penggunaan peralatan yang diduga digunakan untuk melakukan tindak pidana;  
+f. menyegel dan/atau menyita alat kegiatan usaha ketenagalistrikan yang digunakan untuk melakukan  tindak pidana sebagai alat bukti; dan  
+g. mendatangkan tenaga ahli yang diperlukan dalam hubungannya dengan pemeriksaan perkara  tindak pidana dalam kegiatan usaha ketenagalistrikan.  
+(3) Penyidik Pegawai Negeri Sipil sebagaimana dimaksud dalam ayat (1) memberitahukan dimulainya  penyidikan perkara pidana kepada Pejabat Polisi Negara Republik Indonesia sesuai dengan ketentuan  peraturan perundang-undangan yang berlaku.  
+(4) Pelaksanaan kewenangan sebagaimana dimaksud dalam ayat (2) dilakukan sesuai dengan ketentuan  peraturan perundang-undangan yang berlaku.  
+BAB XV  
+KETENTUAN PIDANA  
+Pasal 59  
+(1) Setiap orang yang memberikan informasi palsu, kesaksian palsu, atau menahan informasi berkaitan  dengan usaha ketenagalistrikan yang merugikan kepentingan umum dipidana dengan pidana penjara  paling lama 5 (lima) tahun dan denda paling banyak Rp 500.000.000,00 (lima ratus juta rupiah).  
+(2) Setiap orang yang melanggar prinsip kompetisi yang sehat, khususnya dalam melakukan persekongkolan  usaha untuk memperoleh keistimewaan atau menghimpun kekuatan monopoli sebagaimana dimaksud  dalam Pasal 29 dan Pasal 52 huruf b, dipidana dengan pidana penjara paling lama 5 (lima) tahun dan  denda paling banyak Rp1.000.000.000,00 (satu miliar rupiah).  
+Pasal 60  
+(1) Setiap orang yang menggunakan tenaga listrik yang bukan haknya dengan maksud untuk memanfaatkan  secara melawan hukum, dipidana karena melakukan pencurian dengan pidana penjara paling lama 5  (lima) tahun dan denda paling banyak Rp500.000.000,00 (lima ratus juta rupiah).  
+(2) Setiap orang yang karena kelalaiannya mengakibatkan rusaknya instalasi tenaga listrik milik pemegang  Izin Usaha Penyediaan Tenaga Listrik sehingga mempengaruhi kelangsungan penyediaan tenaga listrik  dipidana dengan pidana penjara paling lama 3 (tiga) tahun dan denda paling banyak Rp100.000.000,00  (seratus juta rupiah).  
+(3) Apabila kelalaian sebagaimana dimaksud dalam ayat (2) mengakibatkan terputusnya aliran listrik  sehingga merugikan masyarakat dipidana dengan pidana penjara paling lama 5 (lima) tahun dan denda  paling banyak Rp500.000.000,00 (lima ratus juta rupiah).  
+Pasal 61  
+(1) Setiap orang yang melakukan usaha penyediaan tenaga listrik tanpa Izin Usaha Penyediaan Tenaga  Listrik sebagaimana dimaksud dalam Pasal 9 ayat (1) dan Pasal 10, dipidana dengan pidana penjara  paling lama 6 (enam) tahun dan denda paling banyak Rp500.000.000,00 (lima ratus juta rupiah).  
+(2) Setiap orang yang melakukan usaha penyediaan tenaga listrik tanpa Izin Operasi sebagaimana dimaksud  dalam Pasal 11, dipidana dengan pidana penjara paling lama 5 (lima) tahun dan denda paling banyak 
+21 / 46  
+www.hukumonline.com  
+Rp50.000.000,00 (lima puluh juta rupiah).  
+(3) Setiap orang yang melakukan usaha penyediaan tenaga listrik tidak memenuhi kewajiban terhadap yang  berhak atas tanah, bangunan, dan tanaman sebagaimana dimaksud dalam Pasal 35 dipidana dengan  pidana penjara paling lama 1 (satu) tahun dan denda paling banyak Rp100.000.000,00 (seratus juta  rupiah).  
+(4) Selain pidana sebagaimana dimaksud dalam ayat (3) dapat dikenakan sanksi tambahan berupa  pencabutan Izin Usaha Penyediaan Tenaga Listrik atau Izin Operasi.  
+Pasal 62  
+(1) Setiap orang yang karena kelalaiannya mengakibatkan matinya seseorang karena tenaga listrik, dipidana  dengan pidana penjara paling lama 5 (lima) tahun dan denda paling banyak Rp100.000.000,00 (seratus  juta rupiah).  
+(2) Apabila kelalaian sebagaimana dimaksud dalam ayat (1) dilakukan oleh pemegang Izin Usaha  Penyediaan Tenaga Listrik dan pemegang Izin Operasi, dipidana dengan pidana penjara paling lama 7  (tujuh) tahun dan denda paling banyak Rp500.000.000,00 (lima ratus juta rupiah).  
+(3) Selain pidana sebagaimana dimaksud dalam ayat (2), pemegang Izin Usaha Penyediaan Tenaga Listrik  dan pemegang Izin Operasi juga diwajibkan untuk memberi ganti rugi.  
+(4) Penetapan, tata cara, dan pembayaran ganti rugi sebagaimana dimaksud dalam ayat (3) mengikuti  ketentuan peraturan perundang-undangan yang berlaku.  
+Pasal 63  
+Setiap orang yang melakukan kegiatan usaha penunjang tenaga listrik tanpa izin sebagaimana dimaksud dalam  Pasal 31 ayat (1) diancam dengan pidana kurungan paling lama 6 (enam) bulan dan denda paling banyak  Rp50.000.000,00 (lima puluh juta rupiah).  
+Pasal 64  
+Setiap orang yang memproduksi, mengedarkan, atau memperjualbelikan pemanfaat listrik yang tidak memiliki  tanda keselamatan sebagaimana dimaksud dalam Pasal 48 ayat (4) dipidana dengan pidana kurungan paling  lama 1 (satu) tahun dan denda paling banyak Rp500.000.000,00 (lima ratus juta rupiah).  
+Pasal 65  
+(1) Dalam hal tindak pidana sebagaimana dimaksud dalam Bab ini dilakukan oleh Badan Usaha, pidana  dikenakan terhadap Badan Usaha dan atau pengurusnya.  
+(2) Dalam hal tindak pidana dilakukan oleh Badan Usaha, pidana yang dijatuhkan kepada Badan Usaha  berupa pidana denda, dengan ketentuan paling tinggi pidana denda ditambah sepertiganya.  
+Pasal 66  
+(1) Perbuatan sebagaimana dimaksud dalam Pasal 59, Pasal 60, Pasal 61, dan Pasal 62 adalah kejahatan.  (2) Perbuatan sebagaimana dimaksud dalam Pasal 63 dan Pasal 64 adalah pelanggaran. 
+22 / 46  
+www.hukumonline.com  
+BAB XVI  
+KETENTUAN PERALIHAN  
+Pasal 67  
+Pada saat Undang-undang ini berlaku:  
+a. dalam jangka waktu paling lama 1 (satu) tahun dibentuk Badan Pengawas Pasar Tenaga Listrik; dan  
+b. dalam jangka waktu paling lama 5 (lima) tahun telah ada wilayah yang menerapkan kompetisi terbatas  di sisi pembangkitan.  
+Pasal 68  
+Pada saat Undang-undang ini berlaku, terhadap Pemegang Kuasa Usaha Ketenagalistrikan (PKUK)  sebagaimana dimaksud dalam Undang-undang Nomor 15 Tahun 1985 tentang Ketenagalistrikan dianggap telah  memiliki izin yang terintegrasi secara vertikal yang meliputi pembangkitan, transmisi, distribusi, dan penjualan  tenaga listrik dengan tetap melaksanakan tugas dan kewajiban penyediaan tenaga listrik untuk kepentingan  umum sampai dengan dikeluarkannya Izin Usaha Penyediaan Tenaga Listrik berdasarkan Undang-undang ini.  
+Pasal 69  
+Pada saat Undang-undang ini berlaku:  
+a. peraturan pelaksanaan di bidang ketenagalistrikan yang telah dikeluarkan tetap berlaku, sepanjang tidak  bertentangan dengan Undang-undang ini atau belum diganti atau diubah berdasarkan Undang-undang ini;  
+b. Izin Usaha Ketenagalistrikan untuk Kepentingan Umum yang telah dikeluarkan berdasarkan Undang undang Nomor 15 Tahun 1985 tentang Ketenagalistrikan tetap berlaku sampai habis masa berlakunya  kecuali pada wilayah yang telah ditetapkan sebagai wilayah yang menerapkan kompetisi, Izin Usaha  Ketenagalistrikan untuk Kepentingan Umum diperbaharui menjadi Izin Usaha Penyediaan Tenaga Listrik  sesuai dengan bidang usahanya;  
+c. Izin Usaha Ketenagalistrikan untuk Kepentingan Sendiri yang telah dikeluarkan berdasarkan Undang undang Nomor 15 Tahun 1985 tentang Ketenagalistrikan tetap berlaku sampai habis masa berlakunya;  dan  
+d. Izin Usaha Penunjang Tenaga Listrik yang telah dikeluarkan berdasarkan Undang-undang Nomor 15  Tahun 1985 tentang Ketenagalistrikan tetap berlaku sampai habis masa berlakunya.  
+BAB XVII  
+KETENTUAN PENUTUP  
+Pasal 70  
+Pada saat mulai berlakunya Undang-undang ini, Undang-undang Nomor 15 Tahun 1985 tentang  Ketenagalistrikan (Lembaran Negara Republik Indonesia Tahun 1985 Nomor 74, Tambahan Lembaran Negara  Nomor 3317), dinyatakan tidak berlaku.  
+Pasal 71 
+23 / 46  
+www.hukumonline.com  
+Undang-undang ini mulai berlaku pada tanggal diundangkan.  
+Agar setiap orang mengetahuinya, memerintahkan pengundangan Undang-undang ini dengan penempatannya  dalam Lembaran Negara Republik Indonesia.  
+Disahkan Di Jakarta,  
+Pada Tanggal 23 September 2002  
+PRESIDEN REPUBLIK INDONESIA,  
+Ttd.  
+MEGAWATI SOEKARNOPUTRI  
+Diundangkan Di Jakarta,  
+Pada Tanggal 23 September 2002  
+SEKRETARIS NEGARA REPUBLIK INDONESIA,  
+Ttd.  
+BAMBANG KESOWO  
+LEMBARAN NEGARA REPUBLIK INDONESIA TAHUN 2002 NOMOR 94
+24 / 46  
+www.hukumonline.com  
+PENJELASAN  
+UNDANG-UNDANG REPUBLIK INDONESIA  
+NOMOR 20 TAHUN 2002  
+TENTANG  
+KETENAGALISTRIKAN  
+UMUM  
+Bahwa tujuan Pembangunan Nasional adalah untuk memajukan kesejahteraan umum dan mencerdaskan  kehidupan bangsa, guna mewujudkan suatu masyarakat adil dan makmur yang merata material dan spiritual  berdasarkan Pancasila dan Undang-Undang Dasar 1945.  
+Dalam upaya memajukan kesejahteraan umum dan mencerdaskan kehidupan bangsa, tenaga listrik sebagai  bagian dari cabang produksi yang penting bagi negara sangat menunjang upaya tersebut. Sebagai salah satu  hasil pemanfaatan kekayaan alam yang menguasai hajat hidup orang banyak, tenaga listrik perlu dipergunakan  untuk kesejahteraan dan kemakmuran rakyat.  
+Dalam upaya memenuhi kebutuhan tenaga listrik secara lebih merata, adil, dan untuk lebih meningkatkan  kemampuan negara dalam hal penyediaan tenaga listrik, dapat diberikan kesempatan yang seluas-luasnya  kepada Badan Usaha Milik Negara, Badan Usaha Milik Daerah, Koperasi atau Swasta untuk menyediakan  tenaga listrik berdasarkan Izin Usaha Penyediaan Tenaga Listrik. Untuk penyediaan tenaga listrik skala kecil,  prioritas diberikan kepada Badan Usaha kecil dan menengah.  
+Bahwa dalam rangka meningkatkan pembangunan yang berkelanjutan dan berwawasan lingkungan di sektor  ketenagalistrikan, diperlukan upaya untuk secara optimal dan efisien memanfaatkan sumber energi domestik  serta energi yang bersih dan ramah lingkungan, dan teknologi yang efisien guna menghasilkan nilai tambah  untuk pembangkitan tenaga listrik sehingga menjamin tersedianya tenaga listrik yang diperlukan.  
+Undang-undang ini merupakan landasan dan acuan bagi pelaksanaan restrukturisasi sektor ketenagalistrikan  agar pengelolaan usaha di sektor ini dapat dilaksanakan secara lebih efisien, transparan dan kompetitif.  Kompetisi usaha penyediaan tenaga listrik dalam tahap awal diterapkan pada sisi pembangkitan dan di  kemudian hari sesuai dengan kesiapan perangkat keras dan perangkat lunaknya akan diterapkan di sisi  penjualan. Hal ini dimaksudkan agar konsumen listrik memiliki pilihan dalam menentukan pasokan tenaga  listriknya yang menawarkan harga paling bersaing dengan mutu dan pelayanan lebih baik.  
+Perkembangan penerapan kompetisi di sisi penjualan dimulai pada konsumen besar yang tersambung pada  tegangan tinggi, yang kemudian pada konsumen tegangan menengah. Untuk mengatur dan mengawasi  penyediaan tenaga listrik di daerah yang telah menerapkan kompetisi dibentuk Badan Pengawas Pasar Tenaga  Listrik. Badan ini yang mengeluarkan aturan yang diperlukan dalam menunjang mekanisme pasar meliputi  aturan jaringan (Grid Code), aturan distribusi (Distribution Code), aturan pentarifan (Tariff Code), aturan untuk  lelang pengadaan instalasi/sarana penyediaan tenaga listrik (Procurement and Competitive Tendering Code)  dan lain-lain, termasuk penegakan hukumnya (law enforcement). Dengan adanya Badan Pengawas Pasar  Tenaga Listrik, akan mengurangi peranan Pemerintah dalam penetapan regulasi bisnis ketenagalistrikan, namun  tidak mengurangi kewenangan Pemerintah sebagai pembuat kebijakan.  
+Dalam Undang-undang ini selain diatur hak dan kewajiban pengusaha dan masyarakat yang menggunakan  tenaga listrik, juga diatur sanksi terhadap tindak pidana yang menyangkut ketenagalistrikan mengingat sifat  bahaya dari tenaga listrik dan akibat yang ditimbulkannya. Di samping itu, untuk menjamin keselamatan  manusia di sekitar instalasi, keselamatan pekerja, keamanan instalasi dan kelestarian fungsi lingkungan, usaha  penyediaan tenaga listrik dan pemanfaatan tenaga listrik harus memenuhi ketentuan mengenai keselamatan  ketenagalistrikan. 
+25 / 46  
+www.hukumonline.com  
+PASAL DEMI PASAL  
+Pasal 1  
+Cukup jelas  
+Pasal 2  
+Cukup jelas  
+Pasal 3  
+Cukup jelas  
+Pasal 4  
+Ayat (1)  
+Yang dimaksud sumber energi primer tak terbarukan antara lain meliputi minyak bumi, gas bumi, dan  batubara, sedangkan sumber energi primer terbarukan antara lain meliputi tenaga air, angin, surya, panas  bumi, dan biomassa.  
+Ayat (2)  
+Cukup jelas  
+Ayat (3)  
+Cukup jelas  
+Pasal 5  
+Ayat (1)  
+Mengingat keadaan ketenagalistrikan yang khas di setiap daerah, Pemerintah Daerah dengan melibatkan  pihak-pihak terkait termasuk Dewan Perwakilan Rakyat Daerah dan memperhatikan keadaan sosial  ekonomi daerahnya menyusun Rencana Umum Ketenagalistrikan Daerah masing-masing. Rencana  tersebut mencakup antara lain prakiraan kebutuhan tenaga listrik, potensi sumber energi primer, dan jalur  lintasan transmisi sesuai dengan Rencana Umum Tata Ruang Daerah.  
+Ayat (2)  
+Rencana Umum Ketenagalistrikan Nasional merupakan kebijakan umum di bidang ketenagalistrikan yang  mencakup antara lain, prakiraan kebutuhan dan penyediaan tenaga listrik, penetapan Jaringan Transmisi  Nasional, kebijakan investasi dan pendanaan, kebijakan pemanfaatan sumber energi baru dan  terbarukan.  
+Rencana Umum Ketenagalistrikan Nasional dimutakhirkan setiap tahun untuk menampung  perkembangan yang terjadi.  
+Ayat (3)  
+Cukup jelas  
+Ayat (4) 
+26 / 46  
+www.hukumonline.com  
+Pedoman ini diperlukan sebagai acuan penyusunan Rencana Umum Ketenagalistrikan Daerah agar  dapat diintegrasikan ke dalam Rencana Umum Ketenagalistrikan Nasional.  
+Pasal 6  
+Ayat (1)  
+Rencana Pengembangan Sistem Tenaga Listrik disusun untuk memenuhi kebutuhan tenaga listrik jangka  pendek antara lain dengan menetapkan tingkat keandalan dan pengadaan fasilitas untuk menjaga mutu  dan keandalan.  
+Ayat (2)  
+Rencana Penyediaan Tenaga Listrik dari badan usaha selaku pemegang Izin Usaha Penyediaan Tenaga  Listrik yang memiliki wilayah usaha merupakan kewajiban dalam upaya pemenuhan kebutuhan tenaga  listrik masyarakat dalam wilayah usahanya.  
+Pasal 7  
+Cukup jelas  
+Pasal 8  
+Cukup jelas  
+Pasal 9  
+Ayat (1)  
+Izin Usaha Penyediaan Tenaga Listrik memuat paling sedikit nama dan alamat badan usaha, jenis usaha  yang diberikan, kewajiban dalam penyelenggaraan usaha, syarat-syarat teknis, dan sanksi.  
+Ayat (2)  
+Cukup jelas  
+Ayat (3)  
+Persyaratan administratif meliputi antara lain data perusahaan, kemampuan finansial, dan kepemilikan  perusahaan.  
+Persyaratan teknis meliputi antara lain hasil studi kelayakan yang mencakup spesifikasi teknis yang  berkaitan dengan jenis usaha dan analisis mengenai dampak lingkungan.  
+Izin lainnya adalah izin yang diterbitkan oleh Pemerintah dan/atau Pemerintah Daerah sesuai dengan  kewenangannya.  
+Ayat (4)  
+Syarat Izin Usaha Penyediaan Tenaga Listrik mencakup persyaratan administratif dan persyaratan teknis  sesuai jenis usahanya, serta kelengkapan izin lainnya sesuai dengan peraturan perundang-undangan  yang berlaku.  
+Ayat (5)  
+Izin prinsip dimaksudkan untuk memberikan kepastian usaha dalam pelaksanaan lebih lanjut rencana  kegiatan usaha. 
+27 / 46  
+www.hukumonline.com  
+Ayat (6)  
+Cukup jelas  
+Pasal 10  
+Cukup jelas  
+Pasal 11  
+Ayat (1)  
+Yang dimaksud dengan kepentingan sendiri adalah penyediaan tenaga listrik yang tidak mengandung  transaksi jual beli tenaga listrik.  
+Izin Operasi dalam ketentuan ini hanya untuk jumlah kapasitas tertentu dan dimaksudkan agar instalasi  tenaga listrik memenuhi persyaratan keselamatan ketenagalistrikan, termasuk keamanan instalasi,  keselamatan kerja, keselamatan umum, dan lindungan lingkungan.  
+Izin Operasi adalah izin untuk mengoperasikan instalasi pembangkit tenaga listrik untuk kepentingan  sendiri.  
+Ayat (2)  
+Cukup jelas  
+Pasal 12  
+Ayat (1)  
+Cukup jelas  
+Ayat (2)  
+Pemegang Izin Operasi yang menjual kelebihan listriknya untuk kepentingan umum harus mempunyai Izin  Usaha Penyediaan Tenaga Listrik.  
+Pasal 13  
+Ayat (1)  
+Pemberian sanksi dilaksanakan sesuai dengan jenis dan tingkat pelanggaran yang dilakukan.  Ayat (2)  
+Jangka waktu yang diberikan kepada Badan Usaha disesuaikan dengan jenis dan tingkat kesulitan untuk  memenuhi persyaratan yang ditetapkan.  
+Pasal 14  
+Peraturan Pemerintah memuat substansi pokok antara lain perizinan, persyaratan kelengkapan izin lainnya,  pertimbangan pemakaian sumber energi primer, perihal penjualan tenaga listrik, syarat-syarat teknis, batas  kapasitas minimum pembangkit untuk Izin Operasi dan wajib daftar, persyaratan administratif, pengawasan, dan  penerapan sanksi. 
+28 / 46  
+www.hukumonline.com  
+Pasal 15  
+Ayat (1)  
+Penetapan wilayah yang menerapkan kompetisi tenaga listrik dilakukan secara bertahap berdasarkan  tingkat kesiapan usaha penyediaan tenaga listrik antara lain cadangan daya yang cukup, jaringan  transmisi dan jaringan distribusi yang luas, serta penanganan masalah biaya yang mungkin timbul  sebagai akibat adanya perubahan kebijakan Pemerintah dan tidak menjadi tanggung jawab pelaku usaha  (stranded cost).  
+Penerapan kompetisi dimulai dari wilayah yang sistem tenaga listriknya sudah siap secara teknis.  Penerapan kompetisi tersebut dimulai dari sisi pembangkitan tenaga listrik.  
+Ayat (2)  
+Huruf a  
+Yang dimaksud tingkat harga jual tenaga listrik telah mencapai keekonomiannya adalah harga jual  tenaga listrik yang dapat menutupi biaya produksinya ditambah keuntungan yang wajar. Besarnya  keuntungan yang wajar tersebut ditetapkan oleh Pemerintah.  
+Huruf b  
+Tidak ada lagi energi primer yang mendapatkan subsidi.  
+Huruf c  
+Cukup jelas  
+Huruf d  
+Aturan dalam ketentuan ini antara lain aturan pasar, aturan distribusi, dan aturan penjualan tenaga  listrik.  
+Huruf e  
+Perangkat keras meliputi antara lain sistem komputer dan perlengkapannya, sistem komunikasi  untuk proses transaksi tenaga listrik. Perangkat lunak meliputi antara lain program komputer untuk  pelaksanaan pasar tenaga listrik, program untuk penyelesaian transaksi dan sistem organisasi.  
+Huruf f  
+Tidak ada kendala teknis sistem tenaga listrik yang menyebabkan pasar tidak berfungsi secara  baik.  
+Huruf g  
+Kesetaraan dalam ketentuan ini dimaksudkan agar tidak terjadi pemberian perlakuan istimewa  terhadap Badan Usaha yang berkompetisi.  
+Huruf h  
+Cukup jelas  
+Pasal 16  
+Untuk terselenggaranya kompetisi yang adil dan sehat, usaha penyediaan tenaga listrik perlu dilakukan secara  terpisah oleh badan usaha yang berbeda.  
+Pasal 17 
+29 / 46  
+www.hukumonline.com  
+Ayat (1)  
+Penerapan kompetisi di sisi pembangkitan dimaksudkan agar mendapatkan harga pembangkitan tenaga  listrik yang lebih murah.  
+Ayat (2)  
+Larangan untuk mendominasi pangsa pasar tenaga listrik dimaksudkan agar tercipta kompetisi yang  sehat dan adil.  
+Yang dimaksud dengan satu wilayah kompetisi adalah satu wilayah yang ditetapkan oleh Pemerintah  sebagai wilayah kompetisi. Pertimbangan dalam menetapkan suatu wilayah kompetisi antara lain  mencakup kapasitas pembangkit, tingkat kebutuhan tenaga listrik, kesiapan sistem interkoneksi, dan  aspek sosial ekonomi.  
+Ayat (3)  
+Cukup jelas  
+Ayat (4)  
+Cukup jelas  
+Pasal 18  
+Ayat (1)  
+Usaha Transmisi Tenaga Listrik dalam suatu wilayah usaha tidak dapat dikompetisikan karena bersifat  monopoli alamiah sehingga diatur oleh Badan Pengawas Pasar Tenaga Listrik.  
+Ayat (2)  
+Cukup jelas  
+Ayat (3)  
+Dalam hal Badan Usaha Milik Negara tidak mampu untuk melakukan investasi, Badan Usaha Milik  Negara dalam pengembangan usaha transmisi dapat bekerja sama dengan badan usaha lain dengan  pola kemitraan.  
+Ayat (4)  
+Cukup jelas  
+Ayat (5)  
+Cukup jelas  
+Pasal 19  
+Ayat (1)  
+Usaha distribusi tenaga listrik tidak dapat dilakukan kompetisi karena bersifat monopoli alamiah.  Ayat (2)  
+Yang dimaksud bersifat terbuka adalah penggunaan jaringan distribusi tenaga listrik dapat dilakukan oleh  semua badan usaha.  
+Ayat (3)  
+Dalam hal diperlukan investasi baru, Badan Usaha Milik Negara dapat membiayai sendiri atau bekerja 
+30 / 46  
+www.hukumonline.com  
+sama dengan badan usaha lain dengan pola kemitraan atau dapat dilakukan oleh Badan Usaha Milik  Daerah.  
+Ayat (4)  
+Pemenuhan kebutuhan jaringan baru merupakan kewajiban Badan Usaha Distribusi Tenaga Listrik dalam  memenuhi kebutuhan tenaga listrik di wilayah usahanya sepanjang secara teknis dan ekonomis  memungkinkan.  
+Ayat (5)  
+Cukup jelas  
+Pasal 20  
+Ayat (1)  
+Pada dasarnya usaha penyediaan tenaga listrik untuk konsumen yang tersambung dengan tegangan  rendah tidak dikompetisikan. Pelayanan kepada konsumen tegangan rendah dilakukan oleh Usaha  Penjualan Tenaga Listrik. Apabila Usaha Penjualan Tenaga Listrik belum merupakan usaha yang terpisah  dari Usaha Distribusi, penyelenggaraannya dapat dilakukan dengan pembukuan yang terpisah.  
+Konsumen tegangan rendah dapat mempunyai pilihan dari Agen Penjualan Tenaga Listrik yang sudah  memiliki izin dari Badan Pengawas Pasar Tenaga Listrik untuk memperoleh pasokan tenaga listrik dengan  mutu, harga, dan pelayanan yang lebih baik sesuai dengan kebutuhannya.  
+Usaha penyediaan tenaga listrik untuk kepentingan umum dalam suatu kawasan terbatas pada daerah  yang telah menerapkan kompetisi dapat dilakukan oleh pemilik atau pengelola kawasan yang sekarang  sudah beroperasi. Konsumen pada kawasan terbatas tersebut dapat mempunyai pilihan dari Agen  Penjualan Tenaga Listrik untuk memperoleh pasokan tenaga listrik dengan mutu, harga, dan pelayanan  yang lebih baik sesuai dengan kebutuhannya.  
+Jaringan transmisi dan/atau distribusi dalam kawasan terbatas tersebut bersifat terbuka dan setara yang  pengelolaannya dilakukan oleh Usaha Transmisi Tenaga Listrik dan/atau Usaha Distribusi Tenaga Listrik  yang memiliki wilayah usaha pada daerah tersebut.  
+Ayat (2)  
+Cukup jelas  
+Ayat (3)  
+Yang dimaksud dengan pembangkit lain adalah pembangkit tenaga listrik yang tidak masuk ke pasar, baik  skala besar, menengah maupun kecil.  
+Ayat (4)  
+Ketentuan mengenai pembelian memuat antara lain, kapasitas, jumlah energi listrik, dan waktu  pembelian.  
+Pasal 21  
+Ayat (1)  
+Selain pembelian tenaga listrik dari Agen Penjualan Tenaga Listrik, konsumen tegangan tinggi dan/atau  menengah dapat melakukan pembelian tenaga listrik secara bilateral dari pembangkit tenaga listrik lain  yang tidak masuk ke pasar tenaga listrik.  
+Ayat (2) 
+31 / 46  
+www.hukumonline.com  
+Pertimbangan dalam pemberian izin kepada Agen Penjualan Tenaga Listrik untuk melayani konsumen  tegangan rendah adalah berdasarkan adanya permintaan konsumen tegangan rendah untuk  mendapatkan mutu tenaga listrik yang lebih baik dan pelayanan khusus.  
+Ayat (3)  
+Kompetisi dalam penjualan tenaga listrik dimaksudkan agar ada persaingan mutu, pelayanan, dan harga  tenaga listrik yang ditawarkan sehingga konsumen mempunyai pilihan dalam memperoleh pasokan  tenaga listrik.  
+Ayat (4)  
+Cukup jelas  
+Pasal 22  
+Ayat (1)  
+Pengelola Pasar Tenaga Listrik tidak bersifat mencari keuntungan dan pembiayaannya didasarkan pada  biaya yang dikeluarkan.  
+Ayat (2)  
+Cukup jelas  
+Ayat (3)  
+Cukup jelas  
+Pasal 23  
+Ayat (1)  
+Cukup jelas  
+Ayat (2)  
+Aturan pasar memuat ketentuan antara lain persyaratan peserta pasar, aturan pengukuran, aturan  pengesahan harga pasar, harga maksimum, aturan kontrak bilateral dan pasar kompetisi, aturan tagihan  dan pembayaran, aturan biaya sewa jaringan transmisi tenaga listrik dan fasilitas untuk menjaga mutu dan  keandalan sistem, serta aturan penyelesaian transaksi.  
+Ketentuan peraturan perundang-undangan yang dimaksud antara lain undang-undang yang berkaitan  dengan anti monopoli dan persaingan usaha tidak sehat.  
+Ayat (3)  
+Huruf a  
+Koordinasi dengan Pengelola Sistem Tenaga Listrik dimaksudkan agar transaksi pasar tenaga  listrik dapat direalisasikan penyaluran tenaga listriknya oleh Pengelola Sistem Tenaga Listrik sesuai  dengan kondisi sistem berdasarkan prinsip transparansi, objektivitas, dan independensi.  
+Huruf b  
+Pengelola Pasar Tenaga Listrik mencatat dan mengesahkan harga pasar tenaga listrik dan  besarnya tenaga listrik yang disalurkan serta waktu terjadinya transaksi kepada badan usaha yang  bertransaksi.  
+Huruf c 
+32 / 46  
+www.hukumonline.com  
+Informasi hasil transaksi pasar disampaikan kepada semua pelaku pasar dan masyarakat untuk  menjamin transparansi.  
+Huruf d  
+Pengelola Pasar Tenaga Listrik menyelesaikan semua transaksi pasar tenaga listrik termasuk  proses pembayaran dari Agen Penjualan Tenaga Listrik dan Usaha Penjualan Tenaga Listrik serta  pembayaran kepada Pembangkit, Transmisi, Distribusi, dan Pengelola Sistem Tenaga Listrik.  
+Huruf e  
+Perselisihan yang mungkin terjadi antara lain adanya perbedaan dalam data transaksi penjualan  dan pembelian tenaga listrik.  
+Huruf f  
+Laporan transaksi pasar tenaga listrik yang dilakukan secara berkala diperlukan oleh Badan  Pengawas Pasar Tenaga Listrik untuk pengawasan pelaksanaan kompetisi yang sehat.  
+Huruf g  
+Yang dimaksud dengan tugas lain adalah tugas-tugas di luar yang ditentukan dalam pasal ini yang  sejalan dengan dinamika pasar tenaga listrik.  
+Pasal 24  
+Ayat (1)  
+Pengelola Sistem Tenaga Listrik tidak bersifat mencari keuntungan dan pembiayaannya didasarkan pada  biaya yang dikeluarkan.  
+Ayat (2)  
+Cukup jelas  
+Ayat (3)  
+Cukup jelas  
+Pasal 25  
+Ayat (1)  
+Cukup jelas  
+Ayat (2)  
+Aturan jaringan transmisi tenaga listrik memuat persyaratan antara lain aturan manajemen jaringan,  aturan penyambungan, aturan operasi, aturan perencanaan pembebanan pembangkitan, aturan  pengukuran, dan aturan kebutuhan data.  
+Ayat (3)  
+Huruf a  
+Rencana pengembangan sistem tenaga listrik yang diusulkan oleh Pengelola Sistem Tenaga Listrik  disahkan oleh Badan Pengawas Pasar Tenaga Listrik. Rencana ini merupakan penjabaran dari  Rencana Umum Ketenagalistrikan Nasional untuk menjamin kelangsungan operasi sistem sesuai  dengan perkembangan pertumbuhan beban tenaga listrik.  
+Huruf b 
+33 / 46  
+www.hukumonline.com  
+Tingkat keamanan merupakan kekuatan sistem tenaga listrik untuk menghadapi gangguan; tingkat  keandalan merupakan kemampuan sistem tenaga listrik dalam memasok kebutuhan tenaga listrik;  tingkat mutu merupakan kualitas listrik yang dihasilkan dalam bentuk tegangan dan frekuensi  tenaga listrik.  
+Huruf c  
+Prakiraan beban tenaga listrik merupakan prakiraan kebutuhan sistem tenaga listrik sebagai bahan  untuk perencanaan operasi pembangkit tenaga listrik.  
+Huruf d  
+Rencana pemeliharaan pembangkit dan transmisi tenaga listrik bertujuan agar penyediaan tenaga  listrik sepanjang waktu berada pada tingkat keandalan yang terjamin.  
+Huruf e  
+Perintah operasi berupa pembebanan riil dan pemasukan/pengeluaran pembangkit dan transmisi  tenaga listrik dari sistem tenaga listrik.  
+Huruf f  
+Pengelola Sistem Tenaga Listrik memberikan informasi pembebanan setiap saat dari pembangkit  kepada Pengelola Pasar Tenaga Listrik.  
+Huruf g  
+Dalam jangka pendek, jaminan pasokan tenaga listrik secara operasional merupakan tanggung  jawab Pengelola Sistem Tenaga Listrik.  
+Huruf h  
+Yang dimaksud dengan tugas lain adalah tugas-tugas di luar yang ditentukan dalam pasal ini yang  sejalan dengan dinamika teknologi jaringan tenaga listrik.  
+Pasal 26  
+Dalam ketentuan yang diatur oleh Badan Pengawas Pasar Tenaga Listrik dicantumkan adanya ketentuan  tentang intervensi dari Pemerintah dalam keadaan darurat.  
+Pasal 27  
+Cukup jelas  
+Pasal 28  
+Ayat (1)  
+Pada dasarnya usaha transmisi tenaga listrik, pengelola pasar tenaga listrik, dan pengelola sistem tenaga  listrik dilaksanakan secara terpisah. Apabila secara teknis operasional belum siap dan mengingat  perannya yang sangat vital, kegiatan Usaha Transmisi Tenaga Listrik, Pengelolaan Pasar Tenaga Listrik  dan Pengelolaan Sistem Tenaga Listrik dilakukan secara bersama oleh Badan Usaha Milik Negara.  
+Ayat (2)  
+Apabila secara teknis operasional pengelolaan pasar tenaga listrik dan pengelolaan sistem tenaga listrik  belum dapat dipisahkan mengingat perannya yang sangat vital di dalam penyelenggaraan pasar tenaga  listrik yang sehat, kegiatan pengelolaan pasar dan pengelolaan sistem tenaga listrik dilakukan secara 
+34 / 46  
+www.hukumonline.com  
+bersama oleh Badan Usaha Milik Negara.  
+Ayat (3)  
+Ketentuan ini memuat substansi pokok antara lain kriteria kesiapan, tugas dan fungsi, organisasi, dan  pembiayaan.  
+Pasal 29  
+Cukup jelas  
+Pasal 30  
+Ayat (1)  
+Kondisi tertentu yang dimaksud dalam ayat ini antara lain faktor geografis dan/atau sosial-ekonomi. Yang  dimaksud secara terintegrasi adalah kepemilikan secara vertikal sarana penyediaan tenaga listrik mulai  dari pembangkitan tenaga listrik sampai dengan penjualan tenaga listrik kepada konsumen.  
+Ayat (2)  
+Cukup jelas  
+Ayat (3)  
+Badan Usaha Milik Negara yang dimaksud merupakan Badan Usaha yang ditugasi oleh Pemerintah untuk  melaksanakan penyediaan tenaga listrik di wilayah yang tidak atau belum menerapkan kompetisi.  
+Ayat (4)  
+Cukup jelas  
+Ayat (5)  
+Kewajiban Pemerintah Daerah atau Pemerintah sesuai dengan yurisdiksinya.  
+Pasal 31  
+Ayat (1)  
+Izin Usaha Penunjang Tenaga Listrik memuat paling sedikit nama dan alamat Badan Usaha, jenis usaha  yang diberikan, klasifikasi usaha, kewajiban dalam penyelenggaraan usaha, syarat teknis, dan sanksi.  
+Ayat (2)  
+Peraturan Pemerintah memuat substansi pokok antara lain persyaratan umum, klasifikasi, sertifikasi, dan  pengawasan usaha.  
+Ayat (3)  
+Cukup jelas  
+Pasal 32  
+Ayat (1)  
+Yang dimaksud dengan kepentingan umum adalah segala kegiatan yang dilakukan oleh pemegang Izin  Usaha Penyediaan Tenaga Listrik dalam rangka pelayanan kepada masyarakat. 
+35 / 46  
+www.hukumonline.com  
+Ayat (2)  
+Cukup jelas  
+Ayat (3)  
+Cukup jelas  
+Pasal 33  
+Huruf a  
+Yang dimaksud dengan standar mutu dan keandalan adalah persyaratan teknis antara lain tentang  tegangan, frekuensi, dan kontinuitas.  
+Huruf b  
+Cukup jelas  
+Huruf c  
+Yang dimaksud dengan keselamatan ketenagalistrikan adalah kondisi andal bagi instalasi, kondisi aman  bagi manusia serta kondisi akrab lingkungan.  
+Pasal 34  
+Ayat (1)  
+Huruf a  
+Cukup jelas  
+Huruf b  
+Cukup jelas  
+Huruf c  
+Yang dimaksud dengan harga yang wajar adalah harga pada tingkat keekonomiannya antara lain  dengan mempertimbangkan biaya investasi, biaya operasi dan keuntungan tertentu serta tidak  mengandung unsur eksploitasi dari perusahaan.  
+Huruf d  
+Cukup jelas  
+Huruf e  
+Dalam perjanjian jual beli tenaga listrik, pemegang Izin Usaha Penyediaan Tenaga Listrik yang  menjual tenaga listrik kepada konsumen mencantumkan standar pelayanan, formulasi besarnya  ganti rugi dan cara pembayarannya.  
+Ayat (2)  
+Cukup jelas  
+Ayat (3)  
+Cukup jelas  
+Ayat (4)  
+Yang dimaksud dengan persyaratan teknis antara lain Persyaratan Umum Instalasi Listrik dan standar 
+36 / 46  
+www.hukumonline.com  
+bidang ketenagalistrikan.  
+Pasal 35  
+Ayat (1)  
+Cukup jelas  
+Ayat (2)  
+Tanah yang secara langsung dipergunakan oleh pemegang Izin Usaha Penyediaan Tenaga Listrik antara  lain untuk pembangkitan tenaga listrik, tapak menara transmisi, gardu induk dan gardu distribusi.  
+Ayat (3)  
+Kompensasi hanya diberikan satu kali kepada pemegang hak atas tanah, bangunan dan tanaman  sebelum pembangunan saluran transmisi tenaga listrik yang bersangkutan. Kompensasi ditetapkan  berdasarkan indeks yang mencerminkan berkurangnya nilai ekonomis tanah, bangunan, dan tanaman.  
+Ayat (4)  
+Cukup jelas  
+Ayat (5)  
+Pemegang hak atas tanah adalah orang atau badan hukum yang memiliki hak atas tanah yang sudah  terdaftar atau bersertifikat, atau tanah bekas milik adat yang belum terdaftar atau belum bersertifikat.  
+Pemakai tanah negara adalah orang atau badan hukum yang mendirikan bangunan atau memanfaatkan  tanah tersebut tetapi belum diberikan hak atas tanahnya atau belum bersertifikat.  
+Yang dimaksud dengan menyelesaikan masalah adalah sudah dilaksanakan-nya pembayaran ganti  kerugian hak atas tanah atau kompensasi sesuai dengan peraturan perundang-undangan yang berlaku  dengan mempertimbangkan asas keadilan dan kepastian bagi masyarakat yang menggunakan tanah  negara tersebut.  
+Ayat (6)  
+Tanah ulayat adalah bidang tanah yang di atasnya terdapat hak ulayat dari suatu masyarakat hukum adat  tertentu.  
+Hak ulayat adalah kewenangan yang menurut hukum adat dipunyai oleh masyarakat hukum adat tertentu  atas wilayah tertentu yang merupakan lingkungan hidup para warganya, yang timbul dari hubungan  secara lahiriah dan batiniah turun temurun dan tidak terputus antara masyarakat hukum adat tersebut  dengan wilayah yang bersangkutan.  
+Masyarakat hukum adat adalah sekelompok orang yang terikat oleh tatanan hukum adatnya sebagai  warga bersama persekutuan hukum karena kesamaan tempat tinggal ataupun atas dasar keturunan.  
+Keberadaan tanah ulayat ditentukan berdasarkan peraturan daerah setempat.  
+Pasal 36  
+Izin lokasi bukan bukti pemilikan/penguasaan hak atas tanah. Sepanjang pemegang hak atas tanah belum  mendapatkan ganti kerugian hak atas tanah atau kompensasi sesuai peraturan perundang-undangan yang  berlaku, yang bersangkutan masih dapat mendirikan bangunan atau menanami tanaman di atas tanah yang  terkena izin lokasi tersebut.  
+Sesuai dengan peraturan perundang-undangan yang berlaku, sebelum diterbitkan izin lokasi, pemegang Izin  Usaha Penyediaan Tenaga Listrik memberitahukan secara tertulis kepada masyarakat setempat dan 
+37 / 46  
+www.hukumonline.com  
+mengadakan inventarisasi terhadap status hak atas tanah yang terkena izin lokasi.  
+Bangunan yang baru dibangun dan/atau tanaman yang baru ditanam di atas tanah yang sudah memiliki izin  lokasi dan sudah diberikan ganti kerugian hak atas tanah , maka terhadap bangunan dan/atau tanaman yang  baru tersebut tidak mendapatkan ganti kerugian hak atas tanah.  
+Pasal 37  
+Cukup jelas  
+Pasal 38  
+Ayat (1)  
+Harga jual tenaga listrik untuk konsumen terdiri dari biaya beban (Rp/kVA) dan biaya pemakaian  (Rp/kWh). Khusus untuk konsumen industri dan komersial, selain biaya beban dan biaya pemakaian,  dapat mencakup biaya pemakaian daya reaktif (Rp/kVArh) dan biaya kVA maksimum.  
+Ayat (2)  
+Harga jual tenaga listrik untuk konsumen tegangan rendah terdiri dari biaya beban (Rp/kVA) dan biaya  pemakaian (Rp/kWh), atau dibayar berdasarkan harga langganan (Rp/bulan) sesuai dengan batasan  daya yang dipakai.  
+Ayat (3)  
+Harga jual tenaga listrik untuk konsumen diatur oleh Badan Pengawas Pasar Tenaga Listrik karena pada  tahapan ini kompetisi belum diterapkan di sisi penjualan tenaga listrik, namun baru di sisi pembangkitan.  
+Pasal 39  
+Ayat (1)  
+Fasilitas untuk menjaga mutu dan keandalan tenaga listrik antara lain meliputi sarana pengaturan  tegangan dan frekuensi, sarana penyediaan daya reaktif dan sarana pemulihan operasi sistem setelah  pemadaman.  
+Ayat (2)  
+Cukup jelas  
+Ayat (3)  
+Cukup jelas  
+Pasal 40  
+Pengaturan harga sewa jaringan transmisi dan harga sewa jaringan distribusi dimaksudkan untuk pengembalian  biaya investasi dan biaya operasi yang wajar.  
+Pasal 41  
+Harga jual tenaga listrik diatur masing-masing oleh Pemerintah atau Pemerintah Daerah sesuai kewenangannya  dalam pemberian izin usaha penyediaan tenaga listrik. 
+38 / 46  
+www.hukumonline.com  
+Pasal 42  
+Cukup jelas  
+Pasal 43  
+Cukup jelas  
+Pasal 44  
+Peraturan Pemerintah memuat antara lain ketentuan mengenai komponen harga dan tatacara penetapan harga  jual tenaga listrik.  
+Pasal 45  
+Peraturan Pemerintah memuat antara lain aspek keamanan nasional, aspek teknis keandalan sistem, dan aspek  komersial.  
+Pasal 46  
+Ayat (1)  
+Penerimaan perpajakan dilaksanakan sesuai peraturan perundang-undangan yang berlaku.  Ayat (2)  
+Pungutan ini dikenakan kepada Badan Usaha di wilayah kompetisi dan tidak diperkenankan untuk  dibebankan kepada konsumen tegangan rendah. Pungutan ini adalah di luar sewa jaringan transmisi dan  sewa jaringan distribusi tenaga listrik.  
+Ayat (3)  
+Wilayah yang belum berkembang antara lain wilayah yang belum tersambung dengan Jaringan Transmisi  Nasional, wilayah yang jaringan distribusi tenaga listriknya belum merata, dan daerah terpencil.  
+Ayat (4)  
+Cukup jelas  
+Pasal 47  
+Cukup jelas  
+Pasal 48  
+Ayat(1)  
+Cukup jelas  
+Ayat (2)  
+Di samping untuk keamanan instalasi tenaga listrik, keselamatan ketenaga-listrikan dimaksudkan untuk  memberi perlindungan kepada masyarakat untuk mendapatkan rasa aman, rasa nyaman, dan kesehatan 
+39 / 46  
+www.hukumonline.com  
+serta kelestarian fungsi lingkungan hidup sesuai standar yang berlaku.  
+Ayat (3)  
+Instalasi dimaksud harus didukung oleh peralatan dan lengkapan listrik yang memenuhi standar peralatan  di bidang ketenagalistrikan.  
+Sertifikat laik operasi diterbitkan oleh lembaga sertifikasi yang berwenang, dimaksudkan sebagai sarana  untuk menjamin terpenuhinya ketentuan keselamatan ketenagalistrikan.  
+Ayat (4)  
+Tanda keselamatan dibubuhkan pada pemanfaat listrik yang telah lulus uji keselamatan pada laboratorium  yang berakreditasi.  
+Ayat (5)  
+Tenaga listrik mempunyai potensi bahaya bagi keselamatan manusia sehingga pembangunan dan  pengoperasian instalasi tenaga listrik harus dilakukan oleh tenaga teknik yang memenuhi standar  kompetensi yang dipersyaratkan.  
+Pengertian sertifikat kompetensi adalah tanda bukti pengakuan atas kompetensi dan kemampuan  melaksanakan satu pekerjaan yang mencakup pengetahuan, keterampilan, keahlian, dan sikap kerja  sesuai standar yang ditetapkan.  
+Ayat (6)  
+Peraturan Pemerintah ini memuat substansi pokok mengenai ketentuan antara lain pemanfaatan tenaga  listrik, instalasi tenaga listrik, tenaga teknik, pengujian, inspeksi, sertifikasi, pembinaan dan pengawasan,  serta sanksi terhadap pelanggaran ketentuan keselamatan ketenagalistrikan.  
+Pasal 49  
+Ayat (1)  
+Dengan berkembangnya teknologi, penggunaan jaringan tenaga listrik dapat dimanfaatkan untuk  keperluan lain selain penyaluran tenaga listrik, antara lain untuk mentransmisikan data, internet,  multimedia, dan telekomunikasi.  
+Ayat (2)  
+Cukup jelas  
+Ayat (3)  
+Cukup jelas  
+Pasal 50  
+Ayat (1)  
+Pembinaan dan pengawasan merupakan suatu urutan proses yang tidak dapat dipisah-pisahkan yang  meliputi pengendalian, bimbingan, dan penyuluhan serta pengawasan atas pekerjaan dan pelaksanaan  usaha ketenagalistrikan yang dilakukan secara transparan dan akuntabel, termasuk pengawasan yang  dilakukan oleh inspektur ketenagalistrikan.  
+Ayat (2)  
+Cukup jelas 
+40 / 46  
+www.hukumonline.com  
+Ayat (3)  
+Peraturan Pemerintah ini memuat substansi pokok antara lain organisasi, tugas dan fungsi, dan tatacara  dan syarat-syarat pelaksanaan.  
+Pasal 51  
+Ayat (1)  
+Cukup jelas  
+Ayat (2)  
+Pengaturan dan pengawasan dimaksudkan agar kompetisi terselenggara dengan adil, mendorong  terciptanya penyediaan tenaga listrik yang efisien, mempromosikan investasi baru secara berkelanjutan  dan menetapkan tingkat pengembalian investasi yang wajar bagi pelaku pasar yang monopoli alamiah  serta melindungi kepentingan masyarakat.  
+Pasal 52  
+Huruf a  
+Kebijakan umum sektor ketenagalistrikan, termasuk pengaturan usaha penyediaan tenaga listrik  ditetapkan oleh Pemerintah. Untuk menerapkan kebijakan umum Pemerintah, Badan Pengawas Pasar  Tenaga Listrik merinci kebijakan tersebut untuk operasionalisasinya.  
+Huruf b  
+Tindakan persaingan usaha tidak sehat antara lain upaya pelaku usaha dalam merekayasa kekuatan  monopoli, oligopoli, kartel, dan pemboikotan.  
+Huruf c  
+Penetapan harga pada segmen usaha yang bersifat monopoli alamiah dimaksudkan agar Badan Usaha  tidak dapat sewenang-wenang menetapkan harga.  
+Huruf d  
+Cukup jelas  
+Huruf e  
+Dengan kompetisi, harga jual tenaga listrik terbentuk melalui mekanisme pasar, namun demikian  pengawasan harus dilakukan untuk menjaga persaingan yang sehat.  
+Huruf f  
+Dalam suatu wilayah yang menerapkan kompetisi, hanya ada satu Usaha Pengelola Pasar Tenaga Listrik  dan satu Usaha Pengelola Sistem Tenaga Listrik sehingga unsur biaya yang akan dibebankan ke dalam  harga jual tenaga listrik diatur formulasinya dan diawasi tingkat biayanya.  
+Huruf g  
+Usaha Distribusi Tenaga Listrik dan Usaha Penjualan Tenaga Listrik bersifat monopoli di suatu wilayah  tertentu yang telah menerapkan kompetisi. Oleh karena dalam suatu wilayah kompetisi terdapat beberapa  badan usaha distribusi dan usaha penjualan, maka perlu ditetapkan cakupan wilayah usahanya.  
+Huruf h  
+Cukup jelas 
+41 / 46  
+www.hukumonline.com  
+Huruf i  
+Cukup jelas  
+Huruf j  
+Cukup jelas  
+Huruf k  
+Cukup jelas  
+Huruf l  
+Sanksi administratif antara lain berupa teguran, pembekuan usaha, pencabutan izin usaha dan denda  administratif.  
+Huruf m  
+Badan Pengawas Pasar Tenaga Listrik bertanggung jawab menjamin pasokan agar mekanisme pasar  tenaga listrik berlangsung secara sehat untuk menjaga keseimbangan pasokan dan kebutuhan tenaga  listrik.  
+Pasal 53  
+Mengingat kondisi geografis wilayah Indonesia yang berbentuk kepulauan dan konsentrasi penduduk yang tidak  merata, tidak semua wilayah Indonesia dapat menerapkan kompetisi. Untuk itu, Pemerintah dan Pemerintah  Daerah tetap mempunyai kewenangan dalam pengaturan tenaga listrik di wilayah tersebut sesuai  kewenangannya dalam pemberian Izin Usaha Penyediaan Tenaga Listrik.  
+Pasal 54  
+Badan Pengawas Pasar Tenaga Listrik berperan menjaga keseimbangan antara kepentingan konsumen dan  kepentingan produsen tenaga listrik. Oleh karena itu, Badan Pengawas Pasar Tenaga Listrik dalam pengambilan  keputusannya harus akuntabel dan tidak berpihak.  
+Yang dimaksud proses pengambilan keputusan yang transparan antara lain pengambilan keputusan melalui  dengar pendapat dengan publik dan mengumumkan hasil keputusan beserta alasannya kepada publik secara  berkala.  
+Pasal 55  
+Ayat (1)  
+Cukup jelas  
+Ayat (2)  
+Jumlah keanggotaan harus ganjil agar apabila terjadi pemungutan suara dapat diambil suara terbanyak.  Pada saat pengusulan, calon anggota tidak dapat berasal dari Badan Usaha Tenaga Listrik atau sudah  tidak berafiliasi dengan Badan Usaha Tenaga Listrik.  
+Ayat(3)  
+Cukup jelas  
+Ayat (4) 
+42 / 46  
+www.hukumonline.com  
+Mengingat tugas dan fungsi Badan Pengawas Pasar Tenaga Listrik menyangkut kepentingan masyarakat  luas, sehingga pengangkatan anggotanya perlu mendapat persetujuan Dewan Perwakilan Rakyat  Republik Indonesia.  
+Persetujuan diberikan setelah dilakukan uji kemampuan dan kelayakan terhadap calon anggota Badan  Pengawas Pasar Tenaga Listrik.  
+Ayat (5)  
+Cukup jelas  
+Ayat (6)  
+Cukup jelas  
+Pasal 56  
+Peraturan Pemerintah dimaksud diterbitkan paling lambat 1 (satu) tahun setelah Undang-undang ini  diundangkan.  
+Pasal 57  
+Cukup jelas  
+Pasal 58  
+Ayat (1)  
+Cukup jelas  
+Ayat (2)  
+Huruf a  
+Cukup jelas  
+Huruf b  
+Cukup jelas  
+Huruf c  
+Cukup jelas  
+Huruf d  
+Cukup jelas  
+Huruf e  
+Yang dimaksud menghentikan penggunaan peralatan yang diduga digunakan untuk melakukan  tindak pidana termasuk penghentian aliran listrik.  
+Huruf f  
+Cukup jelas  
+Huruf g  
+Cukup jelas 
+43 / 46  
+www.hukumonline.com  
+Ayat (3)  
+Cukup jelas  
+Ayat (4)  
+Cukup jelas  
+Pasal 59  
+Cukup jelas  
+Pasal 60  
+Ayat (1)  
+Penggunaan atau pemanfaatan jaringan tenaga listrik tanpa hak dikategorikan tindak pidana berdasarkan  ayat ini.  
+Ayat (2)  
+Cukup jelas  
+Ayat (3)  
+Cukup jelas  
+Pasal 61  
+Ayat (1)  
+Cukup jelas  
+Ayat (2)  
+Cukup jelas  
+Ayat (3)  
+Pemegang Izin Usaha Penyediaan Tenaga Listrik dan pemegang Izin Operasi tetap diwajibkan  menyelesaikan ganti kerugian atau kompensasi yang berhubungan dengan tanah, bangunan, dan atau  tanaman.  
+Ayat (4)  
+Cukup jelas  
+Pasal 62  
+Cukup jelas  
+Pasal 63  
+Cukup jelas  
+Pasal 64 
+44 / 46  
+www.hukumonline.com  
+Cukup jelas  
+Pasal 65  
+Cukup jelas  
+Pasal 66  
+Cukup jelas  
+Pasal 67  
+Huruf a  
+Pada saat belum ada wilayah yang menerapkan kompetisi maka Badan Pengawas Pasar Tenaga Listrik  melakukan langkah-langkah persiapan yang diperlukan, termasuk penyiapan peraturan, antara lain,  aturan pasar, aturan jaringan, aturan distribusi, dan aturan pentarifan.  
+Sebelum terbentuknya Badan Pengawas Pasar Tenaga Listrik, fungsi pengaturan dan pengawasan serta  persiapan untuk penerapan kompetisi dilakukan Pemerintah.  
+Huruf b  
+Penetapan wilayah yang menerapkan kompetisi tenaga listrik dilakukan secara bertahap disesuaikan  dengan kesiapan sistem tenaga listrik yang bersangkutan dan syarat-syarat kompetisi lain yang  ditetapkan dalam Peraturan Pemerintah.  
+Pasal 68  
+Tugas dan kewajiban penyediaan tenaga listrik untuk kepentingan umum sebagaimana dimaksud dalam pasal  ini meliputi:  
+1. menyediakan tenaga listrik bagi kepentingan umum dan sekaligus memupuk keuntungan berdasarkan  prinsip pengelolaan perusahaan.  
+2. mengusahakan penyediaan tenaga listrik dalam jumlah dan mutu yang memadai dengan tujuan untuk:  
+a. meningkatkan kesejahteraan dan kemakmuran rakyat secara adil dan merata serta mendorong  peningkatan kegiatan ekonomi;  
+b. mengusahakan keuntungan agar dapat membiayai pengembangan tenaga listrik untuk melayani  kebutuhan masyarakat.  
+3. merintis kegiatan-kegiatan Usaha Penyediaan Tenaga Listrik sebagaimana dimaksud dalam Pasal 7.  
+Pasal 69  
+Cukup jelas  
+Pasal 70  
+Cukup jelas 
+45 / 46  
+www.hukumonline.com  
+Pasal 71  
+Cukup jelas  
+TAMBAHAN LEMBARAN NEGARA REPUBLIK INDONESIA NOMOR 4226 
+46 / 46
