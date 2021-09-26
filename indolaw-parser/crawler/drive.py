@@ -7,12 +7,12 @@ class DriveUploader:
         gauth.LocalWebserverAuth()
         self.drive = GoogleDrive(gauth)
 
-    def drive_upload(self, uu_name: str):
+    def drive_upload(self, uu_name: str, file_name: str):
         file = self.drive.CreateFile({'title': uu_name})
         file.SetContentFile(uu_name + '.pdf')
         file.Upload(param={'convert': True})
 
-        original_file = self.drive.CreateFile({'title': uu_name + '.pdf'})
+        original_file = self.drive.CreateFile({'title': uu_name + ' (' + file_name + ')' + '.pdf'})
         original_file.SetContentFile(uu_name + '.pdf')
         original_file.Upload()
 
