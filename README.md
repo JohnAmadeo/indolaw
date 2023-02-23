@@ -8,20 +8,32 @@ b) A Next.js front-end that renders the JSON representation of a law in HTML
 
 # Evaluation / Features
 
+**NOTE:** The UI is entirely in Indonesian, but for some of the demoes below I have utilized Chrome's Google Translation feature to show the UI in English so more people can follow along.
+
 This approach provides a superior UX to traditional law PDFs for several reasons:
 
-1. Responsive: Rendered as HTML, the law is easier to read across all device sizes, especially mobile, as it is responsive. PDFs are particularly painful to read on mobile.
+1. **Responsive**: Rendered as HTML, the law is easier to read across all device sizes, especially mobile, as it is responsive. PDFs are particularly painful to read on mobile.
 
-2. Table of Contents:
+![](/assets/responsive.gif)
+
+2. **Table of Contents**:
 
 - Rather than having to first skim the whole PDF to get a sense of what will be covered in the law, the JSON representation extracts a table of contents & renders it as a sidebar. This allows users to quickly understand the law's structure.
 - Rather than CTRL+F-ing around in a PDF, users can use the table of contents sidebar to quickly hop between parts of the law
 
-3. URL Linking: Rendered as HTML, a user can link to a specific article (e.g http://hukumjelas.com/uu/1974/1#pasal-10 links to article 10 of Law 1 of 1974), which is not possible in PDF. This could enable better collaboration among lawyers, or allow journalists to highlight specific articles as they cover the legislative process.
+![](/assets/table-of-contents.gif)
 
-4. Copy/Paste: Often, law students or lawyers want to copy text from the PDF into an editor like MS Word, but copy/paste from the PDF into Word often leads to inconsistent formatting. This causes users to waste time cleaning up the formatting in their editor. Rendered as HTML, we ensure copy/paste is done in a format that MS Word and Google Docs understands.
+3. **URL Linking**: Rendered as HTML, a user can link to a specific article (e.g http://hukumjelas.com/uu/1974/1#pasal-10 links to article 10 of Law 1 of 1974), which is not possible in PDF. This could enable better collaboration among lawyers, or allow journalists to highlight specific articles as they cover the legislative process.
 
-5. Side-by-Side Article & Commentary: In Indonesian laws, after all the articles are listed in the main body, there is an addendum with extended commentary/clarifications on the meaning of various articles. In the PDF, a user has to scroll back-and-forth between an article & its commentary. In the JSON representation, we semantically capture the location of an article & its associated commentary, so that in HTML we can show them side-by-side for easier reading.
+![](/assets/url-linking.gif)
+
+4. **Copy/Paste**: Often, law students or lawyers want to copy text from the PDF into an editor like MS Word, but copy/paste from the PDF into Word often leads to inconsistent formatting. This causes users to waste time cleaning up the formatting in their editor. Rendered as HTML, we ensure copy/paste is done in a format that MS Word and Google Docs understands.
+
+![](/assets/copy-paste.gif)
+
+5. **Side-by-Side Article & Commentary**: In Indonesian laws, after all the articles are listed in the main body, there is an addendum with extended commentary/clarifications on the meaning of various articles. In the PDF, a user has to scroll back-and-forth between an article & its commentary. In the JSON representation, we semantically capture the location of an article & its associated commentary, so that in HTML we can show them side-by-side for easier reading.
+
+![](/assets/side-by-side.gif)
 
 # Inspiration
 
