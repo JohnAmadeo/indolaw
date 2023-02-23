@@ -1,5 +1,3 @@
-import { InlineMath, BlockMath } from 'react-katex';
-
 import PrimitiveStructure from "components/PrimitiveStructure";
 import ListItem from "components/ListItem";
 import StructureWithHeading from "components/StructureWithHeading";
@@ -173,7 +171,7 @@ export function renderStructure(
     case Structure.MATH:
       return (
         <div style={{ fontSize: '24px' }}>
-          <InlineMath math={(structure as Primitive).text} />
+          LaTeX support TBD
         </div>
       );
     case Structure.BAB_NUMBER:

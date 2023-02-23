@@ -3,7 +3,7 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "dev": "next dev",
+    "dev": "NODE_OPTIONS=--openssl-legacy-provider next dev",
     "build": "next build",
     "start": "next start"
   },
@@ -17,7 +17,6 @@
     "react": "17.0.1",
     "react-device-detect": "^1.17.0",
     "react-dom": "17.0.1",
-    "react-katex": "^2.0.2",
     "react-responsive": "^8.2.0",
     "remark": "^13.0.0",
     "remark-html": "^13.0.1"
