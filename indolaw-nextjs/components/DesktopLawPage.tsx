@@ -73,9 +73,7 @@ export default function DesktopLawPage(props: {
       <style jsx>{`
         .container {
           display: flex;
-          height: 100vh;
           background-color: ${colorScheme.background};
-
         }
 
         .law-container {
