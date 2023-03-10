@@ -48,7 +48,12 @@ export default function Tray(props: {
         if (content == null) {
           return <></>;
         }
-        return <TableOfContentsGroupList structures={content.children} />;
+        return (
+          <TableOfContentsGroupList
+            structures={content.children}
+            isMobile={false}
+          />
+        );
       case Tabs.METADATA:
         return (
           <>

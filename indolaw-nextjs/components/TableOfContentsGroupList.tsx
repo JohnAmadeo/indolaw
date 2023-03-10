@@ -7,8 +7,10 @@ import TableOfContentsGroup from './TableOfContentsGroup';
 
 export default function TableOfContentsGroupList(props: {
   structures: (Complex | Primitive)[],
+  isMobile: boolean,
+  onSelectLink?: () => void,
 }): JSX.Element {
-  const { structures } = props;
+  const { structures, isMobile, onSelectLink } = props;
   const { colorScheme } = useAppContext();
 
   const structuresWithChildren = new Set([
@@ -31,8 +33,9 @@ export default function TableOfContentsGroupList(props: {
           key={idx}
           structure={child}
           depth={0}
-          isMobile={false}
+          isMobile={isMobile}
           shouldShowExpanderWidth={hasChildren}
+          onSelectLink={onSelectLink}
         />
       ))}
     </div>

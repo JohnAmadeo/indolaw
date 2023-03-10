@@ -45,21 +45,21 @@ export default function TableOfContentsGroup(props: {
         router.push(`${currentRoute}#${structure.id}`);
       }
     } else {
-      if (isLink(structure) && !hasChildren) {
-        if (onSelectLink) {
-          onSelectLink();
+      if (isLink(structure)) {
+        if (structure.type === 'PASAL') {
+          if (onSelectLink) {
+            onSelectLink();
+          }
+          router.push(`${currentRoute}#${structure.id}`);
+        } else {
+          setIsChildrenVisible(!isChildrenVisible);
         }
-        router.push(`${currentRoute}#${structure.id}`);
-      } else {
-        setIsChildrenVisible(!isChildrenVisible);
       }
     }
   };
 
   const onSelectExpander = () => {
-    if (!isMobile) {
-      setIsChildrenVisible(!isChildrenVisible);
-    }
+    setIsChildrenVisible(!isChildrenVisible);
   };
 
   return (
@@ -154,7 +154,13 @@ function getChildren(
     case Structure.BAB:
     case Structure.BAGIAN:
     case Structure.PARAGRAF:
-      return <TableOfContentsGroupList structures={(structure as Complex).children.slice(2)} />;
+      return (
+        <TableOfContentsGroupList
+          structures={(structure as Complex).children.slice(2)}
+          isMobile={isMobile}
+          onSelectLink={onSelectLink}
+        />
+      );
     default:
       return null;
   }
