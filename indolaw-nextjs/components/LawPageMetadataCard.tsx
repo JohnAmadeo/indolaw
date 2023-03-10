@@ -15,6 +15,7 @@ export default function LawPageMetadataCard(props: {
       <>
         {headings.map(heading => (
           <LawPageMetadataSection
+            key={heading}
             title={_.capitalize(heading)}
             list={status[heading].map(e => <StyledLink text={e.law} link={e.link} />)}
             isLast={false}

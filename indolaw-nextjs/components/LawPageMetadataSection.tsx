@@ -35,8 +35,8 @@ export default function LawPageMetadataSection(props: {
         <div><b>{title}</b></div>
         <div>
           <ul>
-            {list.map(listItem => (
-              <li>{listItem}</li>
+            {list.map((listItem, idx) => (
+              <li key={idx}>{listItem}</li>
             ))}
           </ul>
         </div>
