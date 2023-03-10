@@ -10,39 +10,39 @@ class MyDocument extends Document {
     return (
       <Html>
         <Head>
-          <link 
+          <link
             rel="preload"
             href="/fonts/Merriweather/Merriweather-Regular.ttf"
             as="font"
             crossOrigin=""
           ></link>
-          <link 
+          <link
             rel="preload"
             href="/fonts/Merriweather/Merriweather-Italic.ttf"
             as="font"
             crossOrigin=""
           ></link>
-          <link 
+          <link
             rel="preload"
             href="/fonts/Merriweather/Merriweather-BoldItalic.ttf"
             as="font"
             crossOrigin=""
           ></link>
-          <link 
+          <link
             rel="preload"
             href="/fonts/Merriweather/Merriweather-Bold.ttf"
             as="font"
             crossOrigin=""
           ></link>
-          <link 
+          <link
             rel="preload"
-            href="/fonts/Merriweather/MerriweatherSans-Regular.ttf"
+            href="/fonts/MerriweatherSans/MerriweatherSans-Regular.ttf"
             as="font"
             crossOrigin=""
           ></link>
-          <link 
+          <link
             rel="preload"
-            href="/fonts/Merriweather/MerriweatherSans-Italic.ttf"
+            href="/fonts/MerriweatherSans/MerriweatherSans-Italic.ttf"
             as="font"
             crossOrigin=""
           ></link>
@@ -52,8 +52,8 @@ class MyDocument extends Document {
           ></link>
         </Head>
         <body>
-            <Main />
-            <NextScript />
+          <Main />
+          <NextScript />
         </body>
       </Html>
     );
