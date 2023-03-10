@@ -58,9 +58,8 @@ export default function UUTitle(props: {
         {structure.children.map((child, idx) => {
           if (idx === 0) {
             return (
-              <div className="copy-button-and-text-container">
+              <div className="copy-button-and-text-container" key={idx}>
                 <PrimitiveStructure
-                  key={idx}
                   structure={child as Primitive}
                   customStyle={headingStyle}
                 />
