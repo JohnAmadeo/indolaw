@@ -57,16 +57,16 @@ export default function Pasal(props: {
     fontWeight: 700,
   };
 
-  const htmlToCopy = ReactDOMServer.renderToStaticMarkup(
-    renderCopyHtml(structure)
-  );
-
   const copyButton = (
     <CopyButton
       onClick={async () => {
         const item = new clipboard.ClipboardItem({
           "text/html": new Blob(
-            [htmlToCopy],
+            [
+              ReactDOMServer.renderToStaticMarkup(
+                renderCopyHtml(structure)
+              )
+            ],
             { type: "text/html" }
           )
         });

@@ -27,15 +27,18 @@ export default function PenjelasanPasal(props: {
     fontWeight: 700,
   };
 
-  const htmlToCopy = ReactDOMServer.renderToStaticMarkup(
-    renderCopyHtml(structure)
-  );
-
   const copyButton = (
     <CopyButton
       onClick={async () => {
         const item = new clipboard.ClipboardItem({
-          "text/html": new Blob([htmlToCopy], { type: "text/html" }),
+          "text/html": new Blob(
+            [
+              ReactDOMServer.renderToStaticMarkup(
+                renderCopyHtml(structure)
+              )
+            ],
+            { type: "text/html" }
+          ),
         });
         await clipboard.write([item]);
       }}
