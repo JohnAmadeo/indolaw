@@ -2,7 +2,7 @@ import PrimitiveStructure from "components/PrimitiveStructure";
 import ListItem from "components/ListItem";
 import StructureWithHeading from "components/StructureWithHeading";
 import CenteredHeading from "components/CenteredHeading";
-import { CSSProperties } from "react";
+import { CSSProperties, Fragment } from "react";
 import PenjelasanListItem from "components/PenjelasanListItem";
 import PenjelasanPasal from "../components/PenjelasanPasal";
 import Pasal from "components/Pasal";
@@ -246,7 +246,7 @@ export function renderStructure(
     case Structure.PENJELASAN_PERUBAHAN_SECTION:
       return renderChildren(structure as Complex, key, isMobile);
     case Structure.PENJELASAN_PASAL_DEMI_PASAL:
-      return <PenjelasanPasalDemiPasal />
+      return <PenjelasanPasalDemiPasal key={key} />;
     case Structure.LIST_ITEM:
     case Structure.UNORDERED_LIST_ITEM:
       return <ListItem key={key} structure={structure as Complex} />;
@@ -288,7 +288,9 @@ export function renderChildren(
   return (
     <div key={key}>
       {structure.children.map((childStructure, idx) =>
-        renderStructure(childStructure, idx, isMobile)
+        <Fragment key={idx}>
+          {renderStructure(childStructure, idx, isMobile)}
+        </Fragment>
       )}
     </div>
   );
