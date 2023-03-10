@@ -53,7 +53,6 @@ export default function MobileTray(props: { law: LawData }): JSX.Element {
           left: 0;
           width: 100vw;
           height: 100vh;
-          // border: 1px solid red;
           z-index: 1;
           padding: 20px;
           overflow: scroll;
@@ -66,7 +65,7 @@ export default function MobileTray(props: { law: LawData }): JSX.Element {
         }
 
         .table-of-contents {
-          padding: 4px 0px;
+          padding: 4px 0px 200px 0px;
           position: absolute;
           top: 60px;
           height: calc(100% - 60px);
