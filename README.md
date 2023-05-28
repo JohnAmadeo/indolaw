@@ -10,7 +10,7 @@ b) A Next.js front-end that renders the JSON representation of a law in HTML
 
 **NOTE:** The UI is entirely in Indonesian, but for some of the demoes below I have utilized Chrome's Google Translation feature to show the UI in English so more people can follow along.
 
-This approach provides a superior UX to traditional law PDFs for several reasons:
+This approach provides a superior UX to traditional law PDFs for several reasons (**NOTE: GIFs below might take a while to load**):
 
 1. **Responsive**: Rendered as HTML, the law is easier to read across all device sizes, especially mobile, as it is responsive. PDFs are particularly painful to read on mobile.
 
